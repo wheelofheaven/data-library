@@ -152,7 +152,10 @@
       "order": 1,
       "books": [
         "genesis",
-        "exodus"
+        "exodus",
+        "leviticus",
+        "numbers",
+        "deuteronomy"
       ]
     },
     {
@@ -350,15 +353,18 @@
       "collection": "hebrew-bible",
       "order": 2,
       "author": "Traditional (Moses)",
-      "publicationYear": null,
+      "publicationYear": 1901,
       "originalTitle": "שְׁמוֹת (Shemot)",
-      "primaryLang": "he",
+      "translationNote": "American Standard Version (1901), public domain. Fetched from bible-api.com by utilities/ingest_bible_book.py on 2026-04-09.",
+      "primaryLang": "en",
       "availableLangs": [
-        "he"
+        "en"
       ],
-      "completeLangs": [],
+      "completeLangs": [
+        "en"
+      ],
       "chapters": 40,
-      "paragraphs": 0,
+      "paragraphs": 1213,
       "tags": [
         "exodus",
         "moses",
@@ -372,7 +378,115 @@
         "ten-commandments",
         "tabernacle"
       ],
-      "status": "planned",
+      "status": "complete",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "leviticus",
+      "code": "LEV",
+      "tradition": "biblical",
+      "collection": "hebrew-bible",
+      "order": 3,
+      "author": "Traditional (Moses)",
+      "publicationYear": 1901,
+      "originalTitle": "וַיִּקְרָא (Vayikra)",
+      "translationNote": "American Standard Version (1901), public domain. Fetched from bible-api.com by utilities/ingest_bible_book.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 27,
+      "paragraphs": 859,
+      "tags": [
+        "leviticus",
+        "priesthood",
+        "purity",
+        "sacrifice",
+        "holiness"
+      ],
+      "topics": [
+        "priestly-law",
+        "sacrificial-system",
+        "ritual-purity",
+        "holiness-code"
+      ],
+      "status": "complete",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "numbers",
+      "code": "NUM",
+      "tradition": "biblical",
+      "collection": "hebrew-bible",
+      "order": 4,
+      "author": "Traditional (Moses)",
+      "publicationYear": 1901,
+      "originalTitle": "בְּמִדְבַּר (Bemidbar)",
+      "translationNote": "American Standard Version (1901), public domain. Fetched from bible-api.com by utilities/ingest_bible_book.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 36,
+      "paragraphs": 1288,
+      "tags": [
+        "numbers",
+        "wilderness",
+        "moses",
+        "census",
+        "wanderings"
+      ],
+      "topics": [
+        "wilderness-wandering",
+        "tribal-census",
+        "rebellion-narratives",
+        "journey-to-canaan"
+      ],
+      "status": "complete",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "deuteronomy",
+      "code": "DEU",
+      "tradition": "biblical",
+      "collection": "hebrew-bible",
+      "order": 5,
+      "author": "Traditional (Moses)",
+      "publicationYear": 1901,
+      "originalTitle": "דְּבָרִים (Devarim)",
+      "translationNote": "American Standard Version (1901), public domain. Fetched from bible-api.com by utilities/ingest_bible_book.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 34,
+      "paragraphs": 959,
+      "tags": [
+        "deuteronomy",
+        "moses",
+        "covenant",
+        "law",
+        "shema"
+      ],
+      "topics": [
+        "covenant-renewal",
+        "mosaic-law",
+        "shema-israel",
+        "farewell-discourse"
+      ],
+      "status": "complete",
       "hasAudio": false,
       "hasVideo": false
     },
