@@ -133,6 +133,31 @@
       },
       "order": 8,
       "icon": "star"
+    },
+    {
+      "id": "egyptian",
+      "code": "EGY",
+      "name": {
+        "en": "Egyptian Texts"
+      },
+      "description": {
+        "en": "Ancient Egyptian funerary and cosmological texts."
+      },
+      "order": 9,
+      "icon": "sun"
+    },
+    {
+      "id": "vedic",
+      "code": "VED",
+      "name": {
+        "en": "Vedic Texts",
+        "sa": "वैदिक ग्रंथ"
+      },
+      "description": {
+        "en": "Ancient Indian hymns and philosophical texts from the Vedic tradition."
+      },
+      "order": 10,
+      "icon": "flame"
     }
   ],
   "collections": [
@@ -388,6 +413,37 @@
       "order": 1,
       "books": [
         "corpus-hermeticum"
+      ]
+    },
+    {
+      "id": "egyptian-funerary",
+      "tradition": "egyptian",
+      "code": "EFT",
+      "name": {
+        "en": "Egyptian Funerary Texts"
+      },
+      "description": {
+        "en": "Texts for the journey through the afterlife."
+      },
+      "order": 1,
+      "books": [
+        "papyrus-of-ani"
+      ]
+    },
+    {
+      "id": "rigveda",
+      "tradition": "vedic",
+      "code": "RGV",
+      "name": {
+        "en": "Rig Veda",
+        "sa": "ऋग्वेद"
+      },
+      "description": {
+        "en": "The oldest Vedic hymn collection."
+      },
+      "order": 1,
+      "books": [
+        "rig-veda-book-10"
       ]
     }
   ],
@@ -3065,6 +3121,80 @@
         "creation",
         "cosmic-order",
         "spiritual-rebirth"
+      ],
+      "status": "complete",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "papyrus-of-ani",
+      "code": "ANI",
+      "tradition": "egyptian",
+      "collection": "egyptian-funerary",
+      "order": 1,
+      "author": "E.A. Wallis Budge (translator)",
+      "publicationYear": 1913,
+      "originalTitle": "Papyrus of Ani",
+      "translationNote": "E.A. Wallis Budge (1913), public domain. From Wikisource.",
+      "originalLang": "egy",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 22,
+      "paragraphs": 396,
+      "tags": [
+        "book-of-dead",
+        "osiris",
+        "afterlife",
+        "judgment",
+        "funerary"
+      ],
+      "topics": [
+        "afterlife-journey",
+        "weighing-of-heart",
+        "divine-judgment",
+        "cosmic-order"
+      ],
+      "status": "complete",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "rig-veda-book-10",
+      "code": "RV10",
+      "tradition": "vedic",
+      "collection": "rigveda",
+      "order": 10,
+      "author": "Ralph T.H. Griffith (translator)",
+      "publicationYear": 1896,
+      "originalTitle": "ऋग्वेद मण्डल १०",
+      "translationNote": "Ralph T.H. Griffith (1896), public domain. From Wikisource per-hymn pages.",
+      "originalLang": "sa",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 191,
+      "paragraphs": 3690,
+      "tags": [
+        "rigveda",
+        "creation",
+        "hymns",
+        "gods",
+        "cosmic-order"
+      ],
+      "topics": [
+        "creation-hymn",
+        "cosmic-sacrifice",
+        "divine-order",
+        "cyclical-time"
       ],
       "status": "complete",
       "hasAudio": false,
