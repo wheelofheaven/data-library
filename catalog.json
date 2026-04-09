@@ -109,6 +109,30 @@
       },
       "order": 6,
       "icon": "layers"
+    },
+    {
+      "id": "mormon",
+      "code": "MOR",
+      "name": {
+        "en": "Latter-day Saint Texts"
+      },
+      "description": {
+        "en": "Scriptures of the Latter Day Saint movement, including the Book of Mormon."
+      },
+      "order": 7,
+      "icon": "book"
+    },
+    {
+      "id": "western_esoteric",
+      "code": "WES",
+      "name": {
+        "en": "Western Esoteric Texts"
+      },
+      "description": {
+        "en": "The Hermetic corpus and related esoteric philosophical works."
+      },
+      "order": 8,
+      "icon": "star"
     }
   ],
   "collections": [
@@ -320,6 +344,50 @@
       "order": 1,
       "books": [
         "chaldean-account-of-genesis"
+      ]
+    },
+    {
+      "id": "book-of-mormon",
+      "tradition": "mormon",
+      "code": "BOM",
+      "name": {
+        "en": "The Book of Mormon"
+      },
+      "description": {
+        "en": "Sacred text of the Latter Day Saint movement, first published 1830."
+      },
+      "order": 1,
+      "books": [
+        "1-nephi",
+        "2-nephi",
+        "jacob",
+        "enos",
+        "jarom",
+        "omni",
+        "words-of-mormon",
+        "mosiah",
+        "alma",
+        "helaman",
+        "3-nephi",
+        "4-nephi",
+        "mormon-book",
+        "ether",
+        "moroni"
+      ]
+    },
+    {
+      "id": "hermetica",
+      "tradition": "western_esoteric",
+      "code": "HRM",
+      "name": {
+        "en": "Hermetic Corpus"
+      },
+      "description": {
+        "en": "Philosophical and mystical texts attributed to Hermes Trismegistus."
+      },
+      "order": 1,
+      "books": [
+        "corpus-hermeticum"
       ]
     }
   ],
@@ -2465,6 +2533,538 @@
         "flood-narrative",
         "divine-council",
         "genesis-parallels"
+      ],
+      "status": "complete",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "1-nephi",
+      "code": "1NE",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 1,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "1 Nephi",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 7,
+      "paragraphs": 194,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "2-nephi",
+      "code": "2NE",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 2,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "2 Nephi",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 15,
+      "paragraphs": 141,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "jacob",
+      "code": "JAC",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 3,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Jacob",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 5,
+      "paragraphs": 52,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "enos",
+      "code": "ENS",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 4,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Enos",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 1,
+      "paragraphs": 7,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "jarom",
+      "code": "JAR",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 5,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Jarom",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 1,
+      "paragraphs": 6,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "omni",
+      "code": "OMN",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 6,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Omni",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 1,
+      "paragraphs": 15,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "words-of-mormon",
+      "code": "WOM",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 7,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Words Of Mormon",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 1,
+      "paragraphs": 6,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "mosiah",
+      "code": "MOS",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 8,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Mosiah",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 13,
+      "paragraphs": 135,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "alma",
+      "code": "ALM",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 9,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Alma",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 30,
+      "paragraphs": 351,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "helaman",
+      "code": "HEL",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 10,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Helaman",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 5,
+      "paragraphs": 66,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "3-nephi",
+      "code": "3NE",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 11,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "3 Nephi",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 14,
+      "paragraphs": 98,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "4-nephi",
+      "code": "4NE",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 12,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "4 Nephi",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 1,
+      "paragraphs": 11,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "mormon-book",
+      "code": "MRM",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 13,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Mormon Book",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 4,
+      "paragraphs": 17,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "ether",
+      "code": "ETH",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 14,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Ether",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 6,
+      "paragraphs": 35,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "moroni",
+      "code": "MRN",
+      "tradition": "mormon",
+      "collection": "book-of-mormon",
+      "order": 15,
+      "author": "Joseph Smith (translator)",
+      "publicationYear": 1830,
+      "originalTitle": "Moroni",
+      "translationNote": "1830 Palmyra edition, public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 10,
+      "paragraphs": 13,
+      "tags": [
+        "book-of-mormon",
+        "nephite",
+        "lamanite"
+      ],
+      "topics": [
+        "prophetic-succession",
+        "promised-land",
+        "covenant"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "corpus-hermeticum",
+      "code": "CH",
+      "tradition": "western_esoteric",
+      "collection": "hermetica",
+      "order": 1,
+      "author": "Hermes Trismegistus (attributed)",
+      "publicationYear": 1906,
+      "originalTitle": "Ἑρμοῦ τοῦ Τρισμεγίστου",
+      "translationNote": "G.R.S. Mead (1906), public domain. Fetched from gnosis.org on 2026-04-09.",
+      "originalLang": "grc",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 13,
+      "paragraphs": 649,
+      "tags": [
+        "hermetica",
+        "hermes",
+        "thoth",
+        "gnosis",
+        "alchemy"
+      ],
+      "topics": [
+        "divine-knowledge",
+        "creation",
+        "cosmic-order",
+        "spiritual-rebirth"
       ],
       "status": "complete",
       "hasAudio": false,
