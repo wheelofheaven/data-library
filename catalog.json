@@ -97,6 +97,18 @@
       },
       "order": 5,
       "icon": "moon"
+    },
+    {
+      "id": "mesopotamian",
+      "code": "MES",
+      "name": {
+        "en": "Mesopotamian Texts"
+      },
+      "description": {
+        "en": "Ancient Sumerian, Akkadian, and Babylonian texts including creation epics, flood narratives, and kingship records."
+      },
+      "order": 6,
+      "icon": "layers"
     }
   ],
   "collections": [
@@ -293,6 +305,21 @@
       "order": 1,
       "books": [
         "quran"
+      ]
+    },
+    {
+      "id": "mesopotamian-primary",
+      "tradition": "mesopotamian",
+      "code": "MPC",
+      "name": {
+        "en": "Mesopotamian Primary Texts"
+      },
+      "description": {
+        "en": "Foundational texts from ancient Mesopotamia in scholarly translation."
+      },
+      "order": 1,
+      "books": [
+        "chaldean-account-of-genesis"
       ]
     }
   ],
@@ -2402,6 +2429,42 @@
         "prophetic-succession",
         "monotheism",
         "eschatology"
+      ],
+      "status": "complete",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "chaldean-account-of-genesis",
+      "code": "CAG",
+      "tradition": "mesopotamian",
+      "collection": "mesopotamian-primary",
+      "order": 1,
+      "author": "George Smith",
+      "publicationYear": 1876,
+      "originalTitle": "The Chaldean Account of Genesis",
+      "translationNote": "George Smith (1876), public domain. Fetched from Wikisource by utilities/ingest/wikisource_prose.py on 2026-04-09.",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [
+        "en"
+      ],
+      "chapters": 17,
+      "paragraphs": 2796,
+      "tags": [
+        "creation",
+        "flood",
+        "gilgamesh",
+        "babylon",
+        "cuneiform"
+      ],
+      "topics": [
+        "babylonian-creation",
+        "flood-narrative",
+        "divine-council",
+        "genesis-parallels"
       ],
       "status": "complete",
       "hasAudio": false,
