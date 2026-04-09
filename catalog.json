@@ -81,6 +81,22 @@
       },
       "order": 4,
       "icon": "scroll"
+    },
+    {
+      "id": "islamic",
+      "code": "ISL",
+      "name": {
+        "en": "Islamic Texts",
+        "ar": "النصوص الإسلامية",
+        "fr": "Textes islamiques",
+        "de": "Islamische Texte",
+        "es": "Textos islámicos"
+      },
+      "description": {
+        "en": "The Qur'an and related Islamic scriptures, explored in comparative dialogue with the Raëlian canon."
+      },
+      "order": 5,
+      "icon": "moon"
     }
   ],
   "collections": [
@@ -258,6 +274,25 @@
       "order": 1,
       "books": [
         "book-of-enoch"
+      ]
+    },
+    {
+      "id": "quran",
+      "tradition": "islamic",
+      "code": "QUR",
+      "name": {
+        "en": "The Qur'an",
+        "ar": "القرآن الكريم",
+        "fr": "Le Coran",
+        "de": "Der Koran",
+        "es": "El Corán"
+      },
+      "description": {
+        "en": "The central scripture of Islam, believed to be the word of God as revealed to the Prophet Muhammad."
+      },
+      "order": 1,
+      "books": [
+        "quran"
       ]
     }
   ],
@@ -2335,6 +2370,42 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false
+    },
+    {
+      "slug": "quran",
+      "code": "QUR",
+      "tradition": "islamic",
+      "collection": "quran",
+      "order": 1,
+      "author": "Traditional (revelation to Muhammad)",
+      "publicationYear": null,
+      "originalTitle": "القرآن الكريم (Al-Qur'an al-Karim)",
+      "translationNote": "Tanzil verified Arabic text (v1.1, 2021). Unmodified per Tanzil license. Fetched on 2026-04-09.",
+      "originalLang": "ar",
+      "primaryLang": "ar",
+      "availableLangs": [
+        "ar"
+      ],
+      "completeLangs": [
+        "ar"
+      ],
+      "chapters": 114,
+      "paragraphs": 6236,
+      "tags": [
+        "quran",
+        "revelation",
+        "muhammad",
+        "islam"
+      ],
+      "topics": [
+        "divine-revelation",
+        "prophetic-succession",
+        "monotheism",
+        "eschatology"
+      ],
+      "status": "complete",
+      "hasAudio": false,
+      "hasVideo": false
     }
   ],
   "referenceFormats": {
@@ -2355,7 +2426,8 @@
     "ko": "한국어",
     "ru": "Русский",
     "he": "עברית",
-    "gez": "ግዕዝ"
+    "gez": "ግዕዝ",
+    "ar": "العربية"
   },
   "statusCodes": {
     "complete": "Fully digitized and translated",
