@@ -4,7 +4,7 @@ A curated collection of religious, philosophical, and ancient texts exploring hu
 
 ## Overview
 
-This repository contains structured book data for the [Wheel of Heaven](https://www.wheelofheaven.io) library reader. Texts are organized by tradition and include multilingual translations.
+This repository contains structured book data for the [Wheel of Heaven](https://www.wheelofheaven.world) library reader. Texts are organized by tradition and include multilingual translations.
 
 ### Traditions
 
