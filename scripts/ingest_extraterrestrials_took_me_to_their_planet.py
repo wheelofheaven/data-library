@@ -135,6 +135,7 @@ _RAW_SUBSECTION_HINTS = [
     "L'apparition du 31 juillet 1975", 'Le deuxième message', 'Le Bouddhisme',
     'Ni dieu ni âme', 'Le paradis terrestre', "L'autre monde",
     'Présentation aux anciens prophètes', 'Un avant goût de paradis',
+    'Un avant-goût de paradis',
     'Les nouveaux commandements', "Au peuple d'Israël",
     "L'homme", 'La naissance', "L'éducation", "L'éducation sensuelle",
     "L'épanouissement", 'La société', 'La méditation et la prière',
@@ -192,19 +193,72 @@ def slice_french_chapter(blocks: list[str], start_marker: str, end_marker: str) 
     return blocks[start_idx:end_idx]
 
 
+# Inline-footnote tail pattern: PyMuPDF concatenates a paragraph with
+# its footnote when both share a layout block. We strip the trailing
+# `_____...  1. N.D.L.R. ...` from such blocks rather than dropping
+# them, so the body paragraph is preserved.
+FOOTNOTE_TAIL_RE = re.compile(
+    r'\s*_{5,}\s*\d+\.?\s*N\.D\.L\.R\..*$', re.IGNORECASE | re.DOTALL,
+)
+# Standalone footnote artifact (no body, just the divider + note).
+FOOTNOTE_STANDALONE_RE = re.compile(
+    r'^_{5,}\s*\d+\.?\s+', re.IGNORECASE,
+)
+# Image-caption prefix: "L'endroit de la seconde rencontre de Raël le
+# 7 octobre 1975 – Le Roc Plat..." followed by body. The caption is
+# always self-contained and ends with a `.` before the body starts in
+# lowercase (because the body is itself a continuation).
+IMAGE_CAPTION_PREFIXES = (
+    "L’endroit de la seconde rencontre",
+    "L'endroit de la seconde rencontre",
+    'Le volcan du Puy',
+    'Un médaillon',
+)
+
+
+def strip_footnote_tail(text: str) -> str:
+    return FOOTNOTE_TAIL_RE.sub('', text).strip()
+
+
+def strip_image_caption_prefix(text: str) -> str:
+    """Some PyMuPDF blocks merge an image caption with the body
+    paragraph that resumes after the image. Detect known caption
+    prefixes and strip them so the body remains."""
+    for prefix in IMAGE_CAPTION_PREFIXES:
+        if text.startswith(prefix):
+            # Find the end of the caption sentence (first `.` followed
+            # by space + lowercase body).
+            m = re.search(r'(?<=\.)\s+(?=[a-zà-ÿ])', text)
+            if m:
+                return text[m.end():].strip()
+    return text
+
+
 def clean_fr_paragraphs(chapter_blocks: list[str]) -> list[str]:
     """Filter and reconstruct paragraphs from PyMuPDF blocks.
 
     Steps:
-      1) Drop noise blocks (page numbers, running headers, headings,
-         subsection labels, footnotes, image captions).
-      2) Merge mid-page-break splits: when a block starts with a
+      1) Strip inline footnote tails (`__ 1. N.D.L.R. ...`) from blocks
+         that mix body + footnote into one layout block.
+      2) Strip image-caption prefixes that PyMuPDF prepended to
+         continuation body paragraphs.
+      3) Drop noise blocks (page numbers, running headers, headings,
+         subsection labels, standalone footnotes).
+      4) Merge mid-page-break splits: when a block starts with a
          lowercase letter, it is a continuation of the previous body
          paragraph (the page break interrupted it).
     """
     kept: list[str] = []
     for block in chapter_blocks:
         text = re.sub(r'\s+', ' ', block).strip()
+        if not text:
+            continue
+
+        # Strip inline footnote tail (preserve the body portion).
+        text = strip_footnote_tail(text)
+        # Strip leading image caption (preserve body continuation).
+        text = strip_image_caption_prefix(text)
+
         if not text:
             continue
         norm = _norm_apo(text)
@@ -218,17 +272,14 @@ def clean_fr_paragraphs(chapter_blocks: list[str]) -> list[str]:
             continue
         if norm in SUBSECTION_HINTS:
             continue
-        if 'N.D.L.R' in text.upper():
+        if FOOTNOTE_STANDALONE_RE.match(text):
             continue
         if text.startswith('![') or text.startswith('<image'):
             continue
-        # Image-caption style: short block with a date in it ("...Raël le
-        # 7 octobre 1975..."). Skip if it looks like a caption (under
-        # 200 chars and contains "Raël"+year, or specifically the known
-        # caption pattern).
-        if (len(text) < 200 and 'Raël' in text and
-                re.search(r'\b(19|20)\d{2}\b', text) and
-                not text.endswith('.') and not text.endswith('»')):
+        # Standalone image caption (no body merge): same pattern as
+        # IMAGE_CAPTION_PREFIXES but shorter; drop entirely.
+        if (any(text.startswith(p) for p in IMAGE_CAPTION_PREFIXES)
+                and len(text) < 300):
             continue
         if len(text) < 20:
             continue
@@ -305,6 +356,77 @@ def truncate_epub_paragraphs_for_ch3(paragraphs: list[str]) -> list[str]:
 # ---------------------------------------------------------------------------
 # Build JSONs
 
+# Strong 1st-person narration markers — when these appear at the start
+# of a paragraph, we override an ongoing Yahweh attribution and revert
+# to Narrator. Raël as narrator switches from describing the setting
+# back to "I" when he himself takes an action.
+STRONG_NARRATION_MARKERS = (
+    'Je vis', 'Je remis', 'Je sentis', 'Je me ', 'Je restai',
+    'Je rentrai', 'Je me rendis', 'Je décidai',
+    'J’étais ', "J'étais ", 'J’avais ', "J'avais ",
+    'Mon guide', 'Le robot ', 'Le beau jeune',
+    'Voilà, j’ai', "Voilà, j'ai",  # "Voilà, j'ai terminé" — Raël wrap
+    'Le lendemain ',
+)
+
+
+def assign_speaker_ch1(text: str, prev_speaker: str, para_n: int) -> str:
+    """ch1 'Ma vie jusqu'à la première rencontre' is autobiographical —
+    all Narrator."""
+    return 'Narrator'
+
+
+def assign_speaker_ch2(text: str, prev_speaker: str, para_n: int) -> str:
+    """ch2 'La deuxième rencontre' alternates narration with Yahweh's
+    long monologues. Detect transitions on dialogue markers."""
+    t = text.strip()
+    if not t:
+        return 'Narrator'
+    # Dialogue lines starting with em-dash → Yahweh speech.
+    if t.startswith(('-', '—', '–')):
+        return 'Yahweh'
+    # Pure quoted speech: «...» → Yahweh.
+    if t.startswith('«') and t.rstrip('.').endswith('»'):
+        return 'Yahweh'
+    # Quote-start during Yahweh block.
+    if t.startswith('«') and prev_speaker == 'Yahweh':
+        return 'Yahweh'
+    # Sticky: continue Yahweh unless a STRONG narration marker fires.
+    if prev_speaker == 'Yahweh':
+        if any(t.startswith(m) for m in STRONG_NARRATION_MARKERS):
+            return 'Narrator'
+        return 'Yahweh'
+    return 'Narrator'
+
+
+def assign_speaker_ch3(text: str, prev_speaker: str, para_n: int) -> str:
+    """ch3 'Les clés' is Yahweh's teaching, bookended by brief
+    narration. Mirrors TBWTT ch3 (292/303 paragraphs = Yahweh).
+
+    Paragraphs 1-3 frame the chapter ('Ces écrits sont des clés...');
+    paragraph 4 starts Yahweh's teaching with a dash-prefixed list and
+    continues to the end with a few narration interludes for Raël's
+    post-message wrap.
+    """
+    t = text.strip()
+    # Bookending intro paragraphs (1-3): Narrator framing.
+    if para_n <= 3:
+        return 'Narrator'
+    # Final wrap by Raël after the teaching: paragraphs that talk
+    # directly to the reader as Raël (e.g., 'écris-moi:', the address,
+    # 'n'oublie pas les rendez-vous'). Detect by looking for first-
+    # person Raël markers that don't fit Yahweh's voice.
+    RAEL_WRAP_MARKERS = ('Si tu veux m', 'Raël, Religion', "Et n'oublie",
+                         'Et n’oublie', 'Toi qui te sens')
+    if any(t.startswith(m) for m in RAEL_WRAP_MARKERS):
+        return 'Narrator'
+    # Everything else: Yahweh teaching.
+    return 'Yahweh'
+
+
+SPEAKER_FN = {1: assign_speaker_ch1, 2: assign_speaker_ch2, 3: assign_speaker_ch3}
+
+
 def build_chapter(n: int, fr_paras: list[str], fr_title: str,
                   titles: dict[str, str]) -> dict:
     """Build a chapter JSON with French-primary text and empty i18n slots.
@@ -315,14 +437,18 @@ def build_chapter(n: int, fr_paras: list[str], fr_title: str,
     content. The EPUB text is saved separately as a translator
     reference for the Claude+_glossary pass to consult."""
     paragraphs = []
+    prev_speaker = 'Narrator'
+    speaker_fn = SPEAKER_FN[n]
     for i, fr in enumerate(fr_paras, start=1):
+        speaker = speaker_fn(fr, prev_speaker, i)
         paragraphs.append({
             'n': i,
-            'speaker': 'Narrator',
+            'speaker': speaker,
             'text': fr,
             'refId': f'ETTMTTP-{n}:{i}',
             'i18n': {lang: '' for lang in I18N_LANGS},
         })
+        prev_speaker = speaker
     return {
         'n': n,
         'bookSlug': 'extraterrestrials-took-me-to-their-planet',
