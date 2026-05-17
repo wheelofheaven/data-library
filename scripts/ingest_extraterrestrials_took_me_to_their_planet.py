@@ -204,6 +204,24 @@ FOOTNOTE_TAIL_RE = re.compile(
 FOOTNOTE_STANDALONE_RE = re.compile(
     r'^_{5,}\s*\d+\.?\s+', re.IGNORECASE,
 )
+# Editorial / translator's note marker (double-dagger U+2021). The
+# 1998 reissue uses ‡ to flag editorial clarifications inserted after
+# the original 1975 text. These should not appear as body paragraphs.
+EDITORIAL_NOTE_RE = re.compile(r'^\s*[‡†*]\s+(Il importe|N\.D\.L\.R|Note)', re.IGNORECASE)
+# Also match a leading ‡ followed by any text — these are always
+# editorial notes in this corpus.
+EDITORIAL_DAGGER_RE = re.compile(r'^\s*‡\s+')
+# Mid-clause sentence endings: a paragraph that ends with a function
+# word + nothing (no terminal punctuation) is mid-clause and the
+# following block should merge into it regardless of case. These are
+# typically caused by page breaks splitting a sentence across two
+# layout columns.
+MID_CLAUSE_END_RE = re.compile(
+    r'\b(le|la|les|l[’\']|un|une|des|du|de|à|en|et|ou|car|mais|si|'
+    r'ce|cette|ces|son|sa|ses|mon|ma|mes|ton|ta|tes|notre|votre|leur|leurs|'
+    r'qui|que|dont|où|comme|chez|sur|sous|dans|pour|par|sans|avec)\s*$',
+    re.IGNORECASE,
+)
 # Image-caption prefix: "L'endroit de la seconde rencontre de Raël le
 # 7 octobre 1975 – Le Roc Plat..." followed by body. The caption is
 # always self-contained and ends with a `.` before the body starts in
@@ -274,6 +292,9 @@ def clean_fr_paragraphs(chapter_blocks: list[str]) -> list[str]:
             continue
         if FOOTNOTE_STANDALONE_RE.match(text):
             continue
+        # Editorial notes (‡ + body) inserted by the 1998 reissue.
+        if EDITORIAL_DAGGER_RE.match(text):
+            continue
         if text.startswith('![') or text.startswith('<image'):
             continue
         # Standalone image caption (no body merge): same pattern as
@@ -285,20 +306,32 @@ def clean_fr_paragraphs(chapter_blocks: list[str]) -> list[str]:
             continue
         kept.append(text)
 
-    # Merge continuation paragraphs (start with lowercase = mid-sentence
-    # resumption after a page break).
+    # Merge continuation paragraphs. Two cases trigger a merge with
+    # the previous paragraph:
+    #   1) Block starts with a lowercase letter — clear mid-sentence
+    #      continuation after a page break.
+    #   2) Previous block ends with a mid-clause marker (function word
+    #      + no terminal punctuation), so the next block — regardless
+    #      of capitalization — completes the clause. Handles cases
+    #      like "...car les" + "Elohim, nos créateurs..." that span a
+    #      page break.
+    TERMINAL_PUNCT = '.!?»…'
     merged: list[str] = []
     for text in kept:
-        if merged and text[0].islower():
-            # Append to previous, joining with a single space.
-            # If previous ended with a hyphen-broken word, drop the hyphen.
+        if merged:
             prev = merged[-1]
-            if prev.endswith('-') and not prev.endswith(' -'):
-                merged[-1] = prev[:-1] + text
-            else:
-                merged[-1] = prev + ' ' + text
-        else:
-            merged.append(text)
+            prev_ends_terminal = prev.rstrip().endswith(tuple(TERMINAL_PUNCT))
+            mid_clause = (
+                not prev_ends_terminal
+                and MID_CLAUSE_END_RE.search(prev.rstrip(' ,;:'))
+            )
+            if text[0].islower() or mid_clause:
+                if prev.endswith('-') and not prev.endswith(' -'):
+                    merged[-1] = prev[:-1] + text
+                else:
+                    merged[-1] = prev + ' ' + text
+                continue
+        merged.append(text)
     return merged
 
 
