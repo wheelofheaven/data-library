@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Fill ETTMTTP chapter JSONs with English from the IRM 2005 EPUB.
+"""Fill Raël foundational-book chapter JSONs with English from the
+IRM 2005 EPUB. Supports ETTMTTP (default) and LWTE via --book.
 
 The English translator broke many French paragraphs into ~2x as many
 English paragraphs. We can't do per-paragraph 1:1 pairing, so we
@@ -15,8 +16,9 @@ This is a stop-gap so the book can be read locally. The eventual
 Claude+_glossary pass will replace this with paragraph-aligned i18n.
 
 Usage:
-  ./fill_en_from_epub.py             # fill all 3 chapters
-  ./fill_en_from_epub.py --clear     # blank out i18n.en (undo)
+  ./fill_en_from_epub.py                   # fill ETTMTTP (default)
+  ./fill_en_from_epub.py --book lwte       # fill LWTE
+  ./fill_en_from_epub.py --book ettmttp --clear   # blank i18n.en (undo)
 """
 from __future__ import annotations
 
@@ -28,19 +30,26 @@ from pathlib import Path
 
 REPO = Path('/Users/zara/Development/github.com/wheelofheaven')
 EPUB_DIR = Path('/tmp/ettmttp-extract/epub/OPS')
-# Targets: canonical clone first (for commits), site submodule second
-# (so the dev server picks up the change without needing a submodule
-# pointer bump). Both are updated in lockstep.
-LIB_TARGETS = [
-    REPO / 'data-library/extraterrestrials-took-me-to-their-planet',
-    REPO / 'www.wheelofheaven.io/data/library/extraterrestrials-took-me-to-their-planet',
-]
 
-CHAPTERS = [
-    {'n': 1, 'epub_file': 'chapter-11.xhtml'},
-    {'n': 2, 'epub_file': 'chapter-12.xhtml'},
-    {'n': 3, 'epub_file': 'chapter-13.xhtml'},
-]
+BOOKS = {
+    'ettmttp': {
+        'slug': 'extraterrestrials-took-me-to-their-planet',
+        'chapters': [
+            {'n': 1, 'epub_file': 'chapter-11.xhtml'},
+            {'n': 2, 'epub_file': 'chapter-12.xhtml'},
+            {'n': 3, 'epub_file': 'chapter-13.xhtml'},
+        ],
+    },
+    'lwte': {
+        'slug': 'lets-welcome-the-extraterrestrials',
+        'chapters': [
+            {'n': 1, 'epub_file': 'chapter-14.xhtml'},
+            {'n': 2, 'epub_file': 'chapter-15.xhtml'},
+            {'n': 3, 'epub_file': 'chapter-16.xhtml'},
+            {'n': 4, 'epub_file': 'chapter-17.xhtml'},
+        ],
+    },
+}
 
 
 class ParagraphExtractor(HTMLParser):
@@ -77,7 +86,7 @@ def parse_epub_chapter(path: Path) -> list[str]:
     return p.paragraphs
 
 
-def truncate_for_ch3(paragraphs: list[str]) -> list[str]:
+def truncate_ettmttp_ch3(paragraphs: list[str]) -> list[str]:
     out: list[str] = []
     for p in paragraphs:
         if '___' in p or p.strip().upper() == "LET'S WELCOME THE EXTRA-TERRESTRIALS":
@@ -86,16 +95,23 @@ def truncate_for_ch3(paragraphs: list[str]) -> list[str]:
     return out
 
 
-def fill_chapter(n: int, epub_file: str) -> None:
-    # Load English EPUB content once.
+def lib_targets(slug: str) -> list[Path]:
+    return [
+        REPO / f'data-library/{slug}',
+        REPO / f'www.wheelofheaven.io/data/library/{slug}',
+    ]
+
+
+def fill_chapter(book_key: str, n: int, epub_file: str) -> None:
     en_paras = parse_epub_chapter(EPUB_DIR / epub_file)
-    if n == 3:
-        en_paras = truncate_for_ch3(en_paras)
+    if book_key == 'ettmttp' and n == 3:
+        en_paras = truncate_ettmttp_ch3(en_paras)
     if en_paras and en_paras[0].isupper() and len(en_paras[0]) < 80:
         en_paras = en_paras[1:]
     E = len(en_paras)
+    slug = BOOKS[book_key]['slug']
 
-    for lib in LIB_TARGETS:
+    for lib in lib_targets(slug):
         ch_path = lib / f'chapter-{n}.json'
         if not ch_path.exists():
             print(f'  skip (not present): {ch_path.relative_to(REPO)}')
@@ -117,8 +133,9 @@ def fill_chapter(n: int, epub_file: str) -> None:
         print(f'  ch{n}: {F} French → {E} English (ratio {E/F:.2f}x) — {ch_path.relative_to(REPO)}')
 
 
-def clear_chapter(n: int) -> None:
-    for lib in LIB_TARGETS:
+def clear_chapter(book_key: str, n: int) -> None:
+    slug = BOOKS[book_key]['slug']
+    for lib in lib_targets(slug):
         ch_path = lib / f'chapter-{n}.json'
         if not ch_path.exists():
             continue
@@ -133,14 +150,21 @@ def clear_chapter(n: int) -> None:
 
 
 def main() -> None:
+    book_key = 'ettmttp'
+    if '--book' in sys.argv:
+        idx = sys.argv.index('--book')
+        book_key = sys.argv[idx + 1].lower()
+        if book_key not in BOOKS:
+            sys.exit(f"unknown --book {book_key!r}; expected one of {sorted(BOOKS)}")
+    chapters = BOOKS[book_key]['chapters']
     if '--clear' in sys.argv:
-        print('Clearing i18n.en in all targets')
-        for spec in CHAPTERS:
-            clear_chapter(spec['n'])
+        print(f'Clearing i18n.en for {book_key}')
+        for spec in chapters:
+            clear_chapter(book_key, spec['n'])
         return
-    print(f'Filling i18n.en from EPUB for {len(CHAPTERS)} chapters across {len(LIB_TARGETS)} targets')
-    for spec in CHAPTERS:
-        fill_chapter(spec['n'], spec['epub_file'])
+    print(f'Filling i18n.en from EPUB for {book_key} ({len(chapters)} chapters)')
+    for spec in chapters:
+        fill_chapter(book_key, spec['n'], spec['epub_file'])
 
 
 if __name__ == '__main__':
