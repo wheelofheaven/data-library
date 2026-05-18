@@ -372,7 +372,9 @@
       "books": [
         "chaldean-account-of-genesis",
         "enuma-elish",
-        "eridu-genesis"
+        "eridu-genesis",
+        "atrahasis",
+        "epic-of-gilgamesh"
       ]
     },
     {
@@ -449,6 +451,29 @@
       "books": [
         "rig-veda-book-10"
       ]
+    },
+    {
+      "id": "woh-translations",
+      "tradition": "biblical",
+      "code": "WOH",
+      "name": {
+        "en": "Wheel of Heaven Translations",
+        "de": "Wheel-of-Heaven-Übersetzungen",
+        "es": "Traducciones Wheel of Heaven",
+        "fr": "Traductions Wheel of Heaven",
+        "ja": "ホイール・オブ・ヘブン訳",
+        "ko": "휠 오브 헤븐 번역",
+        "ru": "Переводы Wheel of Heaven",
+        "zh": "天轮译本",
+        "zh-Hant": "天輪譯本"
+      },
+      "description": {
+        "en": "Source-language renderings produced by the Wheel of Heaven Translation Program, with documented methodology and per-verse commentary."
+      },
+      "order": 99,
+      "books": [
+        "genesis-woh"
+      ]
     }
   ],
   "books": [
@@ -495,7 +520,8 @@
       "hasAudio": false,
       "hasVideo": false,
       "format": "split",
-      "source_id": "the-book-which-tells-the-truth"
+      "source_id": "the-book-which-tells-the-truth",
+      "wohCurated": true
     },
     {
       "slug": "extraterrestrials-took-me-to-their-planet",
@@ -529,7 +555,8 @@
       "hasAudio": false,
       "hasVideo": false,
       "source_id": "extraterrestrials-took-me-to-their-planet",
-      "format": "split"
+      "format": "split",
+      "wohCurated": true
     },
     {
       "slug": "lets-welcome-the-extraterrestrials",
@@ -564,7 +591,8 @@
       "hasAudio": false,
       "hasVideo": false,
       "source_id": "lets-welcome-the-extraterrestrials",
-      "format": "split"
+      "format": "split",
+      "wohCurated": true
     },
     {
       "slug": "sensual-meditation",
@@ -631,7 +659,10 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "versionTitle": "American Standard Version (1901)",
+      "shortVersionTitle": "ASV, 1901",
+      "priority": 10
     },
     {
       "slug": "exodus",
@@ -3434,6 +3465,126 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false
+    },
+    {
+      "slug": "atrahasis",
+      "code": "ATR",
+      "tradition": "mesopotamian",
+      "collection": "mesopotamian-primary",
+      "order": 4,
+      "author": "TBD (translator)",
+      "publicationYear": null,
+      "originalTitle": "Atra-ḫasīs",
+      "translationNote": "Source pending. There is no pre-1929 standalone PD edition of the Atra-ḫasīs epic in English — the text was only systematically assembled by Lambert & Millard in 1969 (not PD; Archive.org item atrahasisbabylon0000unse is borrow-only). Older fragments are already preserved in *The Chaldean Account of Genesis* (Smith 1876). Heidel 1942 *The Babylonian Genesis* is a candidate pending US copyright-renewal verification.",
+      "originalLang": "akk",
+      "primaryLang": "en",
+      "availableLangs": [],
+      "completeLangs": [],
+      "chapters": 0,
+      "paragraphs": 0,
+      "tags": [
+        "creation",
+        "flood",
+        "atrahasis",
+        "atra-hasis",
+        "enki",
+        "enlil",
+        "babylon"
+      ],
+      "topics": [
+        "creation-of-man",
+        "overpopulation",
+        "flood",
+        "divine-council"
+      ],
+      "status": "planned",
+      "hasAudio": false,
+      "hasVideo": false
+    },
+    {
+      "slug": "epic-of-gilgamesh",
+      "code": "GIL",
+      "tradition": "mesopotamian",
+      "collection": "mesopotamian-primary",
+      "order": 5,
+      "author": "R. Campbell Thompson (translator)",
+      "publicationYear": 1928,
+      "originalTitle": "Epic of Gilgamesh",
+      "translationNote": "R. Campbell Thompson, *The Epic of Gilgamish: A New Translation* (Luzac & Co., London, 1928), public domain. OCR from Archive.org (item: thompson-1928-gilgamesh). Quality partial; Thompson's hexameter line-wraps, footnote markers, and bracketed restorations are preserved as-is and will benefit from later cleanup.",
+      "originalLang": "akk",
+      "primaryLang": "en",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [],
+      "chapters": 12,
+      "paragraphs": 1099,
+      "tags": [
+        "flood",
+        "gilgamesh",
+        "utnapishtim",
+        "enkidu",
+        "uruk",
+        "immortality",
+        "babylon"
+      ],
+      "topics": [
+        "flood",
+        "hero-quest",
+        "immortality",
+        "underworld",
+        "divine-council"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false,
+      "versionTitle": "Thompson Translation (1928)",
+      "shortVersionTitle": "Thompson, 1928",
+      "versionSource": "https://archive.org/details/thompson-1928-gilgamesh",
+      "versionLicense": "Public Domain",
+      "priority": 5
+    },
+    {
+      "slug": "genesis-woh",
+      "code": "GEN-WOH",
+      "tradition": "biblical",
+      "collection": "woh-translations",
+      "order": 1,
+      "author": "Wheel of Heaven Translation Program",
+      "publicationYear": 2026,
+      "originalTitle": "בְּרֵאשִׁית",
+      "translationNote": "Wheel of Heaven Translation, drafted 2026-05-18 by Claude Opus 4.7 against translation-glossary v1.0.0; source text is the Westminster Leningrad Codex (Tanach with Ta'amei Hamikra, Public Domain). Pending human review.",
+      "originalLang": "he",
+      "primaryLang": "he",
+      "availableLangs": [
+        "en"
+      ],
+      "completeLangs": [],
+      "chapters": 1,
+      "paragraphs": 31,
+      "tags": [
+        "creation",
+        "elohim",
+        "genesis",
+        "hebrew-bible",
+        "wheel-of-heaven-translation"
+      ],
+      "topics": [
+        "creation",
+        "elohim-plurality",
+        "image-and-likeness",
+        "divine-council",
+        "primeval-history"
+      ],
+      "status": "partial",
+      "hasAudio": false,
+      "hasVideo": false,
+      "versionTitle": "Wheel of Heaven Translation",
+      "shortVersionTitle": "WoH, 2026",
+      "versionSource": "https://github.com/wheelofheaven/www.wheelofheaven.io/issues/12",
+      "versionLicense": "CC0-1.0",
+      "priority": 5,
+      "wohCurated": true
     }
   ],
   "referenceFormats": {
