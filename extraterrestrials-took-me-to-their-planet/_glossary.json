@@ -1,0 +1,1180 @@
+{
+  "_meta": {
+    "title": "Wheel of Heaven — ETTMTTP cross-language glossary & scripture-handling spec",
+    "purpose": "Authoritative, reviewable record of every recurring loaded term and the scripture-quotation policy. All chapters MUST be built against this. Inherits canonical vocabulary, registers, and scripture-handling policy from TBWTT's glossary; same author, canon, divine-name carve-outs apply. ETTMTTP-specific terms (interstellar travel, guides, planet description) accumulate here during the translation pass.",
+    "book": "Extraterrestrials Took Me to Their Planet (Les Extra-Terrestres m'ont emmené sur leur planète), bookCode ETTMTTP",
+    "i18n_key_order": ["en", "de", "es", "ru", "ja", "ko", "zh", "zh-Hant"],
+    "registers": {
+      "dialogue": "formal/deferential: de=Sie, es=usted, ru=formal вы (lowercase), ja=です・ます, ko=합쇼체, zh=您",
+      "narration": "each language's standard literary plain form",
+      "zh-Hant": "derived from zh by OpenCC OpenCC('s2t'); orthographic only, region-neutral; never hand-edited independently"
+    },
+    "open_inconsistencies_resolved_here": [
+      "ja 'tree of life' appeared in TBWTT ch2 as BOTH いのちの木 and 命の木 — LOCKED to いのちの木 going forward (inherited from TBWTT glossary)."
+    ],
+    "structural_notes": [
+      "ETTMTTP ch2 ends mid-sentence in the 1998 French PDF source: '…Les Elohim commençaient à' (preserved with explicit '…' in chapter-2.json paragraph [116]). The continuation exists in the 2005 IRM English EPUB but is NOT in the French source. Translation should preserve this truncation, NOT back-translate from English.",
+      "ETTMTTP ch3 is largely a Yahweh monologue (most of 263 paragraphs attributed to Yahweh, mirroring TBWTT ch3's teaching cadence). Dialogue register applies throughout."
+    ]
+  },
+  "scripture_policy": {
+    "decision": "Quoted Bible passages use each language's recognized public-domain scripture text and cadence. Vorilhon's commentary is translated normally (faithful to the book).",
+    "base_editions": {
+      "en": "King James Version (1611/1769), public domain",
+      "de": "Lutherbibel 1912, public domain",
+      "es": "Reina-Valera 1909, public domain",
+      "ru": "Russian Synodal (1876), public domain",
+      "zh": "Chinese Union Version (和合本, 1919), public domain",
+      "zh-Hant": "OpenCC s2t of the zh CUV rendering (orthographic only)",
+      "ja": "public-domain literary scriptural register (文語/口語 tradition); NOT a copyrighted modern edition",
+      "ko": "public-domain scriptural register (개역 tradition); NOT a copyrighted modern edition"
+    },
+    "carve_outs": {
+      "rule": "Apply ONLY where the adjacent commentary depends on the wording; elsewhere follow the base edition verbatim.",
+      "elohim": "Where the French verse has 'Elohim', keep 'Elohim' (NOT God/Gott/Dios/Бог/神/하나님). The book's thesis is that 'Elohim' was mistranslated as God.",
+      "divine_name": "Where the French verse uses the name 'Iahvé' (or 'Yahweh'), keep it as the NAME per the divine_name glossary row — NOT 'the LORD / l'Éternel / Господь / 主'. Needed because commentary treats 'Iahvé Elohim' as a visible compound.",
+      "no_book_interpolation": "Do NOT import the book's non-canonical interpolations into the verse body (e.g. Gen III-22 'grâce à la science'); use canonical wording. Preserve an interpolation only if the commentary explicitly quotes it back."
+    },
+    "speaker_tag": "The paragraph field speaker:'Yahweh' is a STRUCTURAL identifier, never translated or altered, distinct from the divine NAME inside verse text.",
+    "citation_form": "Preserve the book's own citation format and parenthetical placement, e.g. «…». (Genèse, I-1) → localized book name + same numerals. Truncated/odd citations in the source (split across paragraphs) are preserved as-is structurally.",
+    "mixed_paragraphs": "When a paragraph is commentary + an embedded quoted span, translate the commentary frame normally and render only the quoted span per the base edition + carve-outs."
+  },
+  "book_names": {
+    "_note": "Use the recognized book name in each language's base edition. zh-Hant = OpenCC s2t of zh.",
+    "Genèse": {
+      "en": "Genesis",
+      "de": "Genesis",
+      "es": "Génesis",
+      "ru": "Бытие",
+      "ja": "創世記",
+      "ko": "창세기",
+      "zh": "创世记",
+      "zh-Hant": "創世記"
+    },
+    "Exode": {
+      "en": "Exodus",
+      "de": "Exodus",
+      "es": "Éxodo",
+      "ru": "Исход",
+      "ja": "出エジプト記",
+      "ko": "출애굽기",
+      "zh": "出埃及记",
+      "zh-Hant": "出埃及記"
+    },
+    "Lévitique": {
+      "en": "Leviticus",
+      "de": "Levitikus",
+      "es": "Levítico",
+      "ru": "Левит",
+      "ja": "レビ記",
+      "ko": "레위기",
+      "zh": "利未记",
+      "zh-Hant": "利未記"
+    },
+    "Nombres": {
+      "en": "Numbers",
+      "de": "Numeri",
+      "es": "Números",
+      "ru": "Числа",
+      "ja": "民数記",
+      "ko": "민수기",
+      "zh": "民数记",
+      "zh-Hant": "民數記"
+    },
+    "Deutéronome": {
+      "en": "Deuteronomy",
+      "de": "Deuteronomium",
+      "es": "Deuteronomio",
+      "ru": "Второзаконие",
+      "ja": "申命記",
+      "ko": "신명기",
+      "zh": "申命记",
+      "zh-Hant": "申命記"
+    },
+    "Josué": {
+      "en": "Joshua",
+      "de": "Josua",
+      "es": "Josué",
+      "ru": "Иисус Навин",
+      "ja": "ヨシュア記",
+      "ko": "여호수아",
+      "zh": "约书亚记",
+      "zh-Hant": "約書亞記"
+    },
+    "Juges": {
+      "en": "Judges",
+      "de": "Richter",
+      "es": "Jueces",
+      "ru": "Книга Судей",
+      "ja": "士師記",
+      "ko": "사사기",
+      "zh": "士师记",
+      "zh-Hant": "士師記"
+    },
+    "I Samuel": {
+      "en": "I Samuel",
+      "de": "1. Samuel",
+      "es": "I Samuel",
+      "ru": "1-я Царств",
+      "ja": "サムエル記上",
+      "ko": "사무엘상",
+      "zh": "撒母耳记上",
+      "zh-Hant": "撒母耳記上"
+    },
+    "II Samuel": {
+      "en": "II Samuel",
+      "de": "2. Samuel",
+      "es": "II Samuel",
+      "ru": "2-я Царств",
+      "ja": "サムエル記下",
+      "ko": "사무엘하",
+      "zh": "撒母耳记下",
+      "zh-Hant": "撒母耳記下"
+    },
+    "I Rois": {
+      "en": "I Kings",
+      "de": "1. Könige",
+      "es": "I Reyes",
+      "ru": "3-я Царств",
+      "ja": "列王記上",
+      "ko": "열왕기상",
+      "zh": "列王纪上",
+      "zh-Hant": "列王紀上"
+    },
+    "II Rois": {
+      "en": "II Kings",
+      "de": "2. Könige",
+      "es": "II Reyes",
+      "ru": "4-я Царств",
+      "ja": "列王記下",
+      "ko": "열왕기하",
+      "zh": "列王纪下",
+      "zh-Hant": "列王紀下"
+    },
+    "Isaïe": {
+      "en": "Isaiah",
+      "de": "Jesaja",
+      "es": "Isaías",
+      "ru": "Исаия",
+      "ja": "イザヤ書",
+      "ko": "이사야",
+      "zh": "以赛亚书",
+      "zh-Hant": "以賽亞書"
+    },
+    "Jérémie": {
+      "en": "Jeremiah",
+      "de": "Jeremia",
+      "es": "Jeremías",
+      "ru": "Иеремия",
+      "ja": "エレミヤ書",
+      "ko": "예레미야",
+      "zh": "耶利米书",
+      "zh-Hant": "耶利米書"
+    },
+    "Ezéchiel": {
+      "en": "Ezekiel",
+      "de": "Hesekiel",
+      "es": "Ezequiel",
+      "ru": "Иезекииль",
+      "ja": "エゼキエル書",
+      "ko": "에스겔",
+      "zh": "以西结书",
+      "zh-Hant": "以西結書"
+    },
+    "Daniel": {
+      "en": "Daniel",
+      "de": "Daniel",
+      "es": "Daniel",
+      "ru": "Даниил",
+      "ja": "ダニエル書",
+      "ko": "다니엘",
+      "zh": "但以理书",
+      "zh-Hant": "但以理書"
+    },
+    "Amos": {
+      "en": "Amos",
+      "de": "Amos",
+      "es": "Amós",
+      "ru": "Амос",
+      "ja": "アモス書",
+      "ko": "아모스",
+      "zh": "阿摩司书",
+      "zh-Hant": "阿摩司書"
+    },
+    "Jonas": {
+      "en": "Jonah",
+      "de": "Jona",
+      "es": "Jonás",
+      "ru": "Иона",
+      "ja": "ヨナ書",
+      "ko": "요나",
+      "zh": "约拿书",
+      "zh-Hant": "約拿書"
+    },
+    "Michée": {
+      "en": "Micah",
+      "de": "Micha",
+      "es": "Miqueas",
+      "ru": "Михей",
+      "ja": "ミカ書",
+      "ko": "미가",
+      "zh": "弥迦书",
+      "zh-Hant": "彌迦書"
+    },
+    "Zacharie": {
+      "en": "Zechariah",
+      "de": "Sacharja",
+      "es": "Zacarías",
+      "ru": "Захария",
+      "ja": "ゼカリヤ書",
+      "ko": "스가랴",
+      "zh": "撒迦利亚书",
+      "zh-Hant": "撒迦利亞書"
+    },
+    "Psaumes": {
+      "en": "Psalms",
+      "de": "Psalmen",
+      "es": "Salmos",
+      "ru": "Псалтирь",
+      "ja": "詩篇",
+      "ko": "시편",
+      "zh": "诗篇",
+      "zh-Hant": "詩篇"
+    },
+    "Proverbes": {
+      "en": "Proverbs",
+      "de": "Sprüche",
+      "es": "Proverbios",
+      "ru": "Притчи",
+      "ja": "箴言",
+      "ko": "잠언",
+      "zh": "箴言",
+      "zh-Hant": "箴言"
+    },
+    "L'Ecclésiaste": {
+      "en": "Ecclesiastes",
+      "de": "Prediger",
+      "es": "Eclesiastés",
+      "ru": "Екклесиаст",
+      "ja": "伝道の書",
+      "ko": "전도서",
+      "zh": "传道书",
+      "zh-Hant": "傳道書"
+    },
+    "Job": {
+      "en": "Job",
+      "de": "Hiob",
+      "es": "Job",
+      "ru": "Иов",
+      "ja": "ヨブ記",
+      "ko": "욥기",
+      "zh": "约伯记",
+      "zh-Hant": "約伯記"
+    },
+    "Tobit": {
+      "en": "Tobit",
+      "de": "Tobit",
+      "es": "Tobías",
+      "ru": "Товит",
+      "ja": "トビト記",
+      "ko": "토빗기",
+      "zh": "多比传",
+      "zh-Hant": "多比傳",
+      "_note": "deuterocanonical; KJV-tradition Apocrypha naming used for en"
+    },
+    "La sagesse de Salomon": {
+      "en": "The Wisdom of Solomon",
+      "de": "Die Weisheit Salomos",
+      "es": "La Sabiduría de Salomón",
+      "ru": "Премудрость Соломона",
+      "ja": "知恵の書",
+      "ko": "지혜서",
+      "zh": "所罗门智训",
+      "zh-Hant": "所羅門智訓",
+      "_note": "deuterocanonical"
+    }
+  },
+  "proper_nouns": {
+    "_note": "Persons/places. Where the verse is scripture, the base-edition spelling governs INSIDE the quote; these forms are for the commentary and must match the base edition to stay coherent.",
+    "Claude Vorilhon": {
+      "en": "Claude Vorilhon",
+      "de": "Claude Vorilhon",
+      "es": "Claude Vorilhon",
+      "ru": "Клод Ворийон",
+      "ja": "クロード・ヴォリロン",
+      "ko": "클로드 보리옹",
+      "zh": "克洛德·沃里隆",
+      "zh-Hant": "克洛德·沃里隆"
+    },
+    "Raël": {
+      "en": "Raël",
+      "de": "Raël",
+      "es": "Raël",
+      "ru": "Раэль",
+      "ja": "ラエル",
+      "ko": "라엘",
+      "zh": "拉埃尔",
+      "zh-Hant": "拉埃爾"
+    },
+    "Elohim": {
+      "en": "Elohim",
+      "de": "Elohim",
+      "es": "Elohim",
+      "ru": "Элохим",
+      "ja": "エロヒム",
+      "ko": "엘로힘",
+      "zh": "埃洛希姆",
+      "zh-Hant": "埃洛希姆"
+    },
+    "divine_name (Iahvé/Yahweh in verse text)": {
+      "en": "Yahweh",
+      "de": "Jahwe",
+      "es": "Yahveh",
+      "ru": "Яхве",
+      "ja": "ヤハウェ",
+      "ko": "야훼",
+      "zh": "耶和华",
+      "zh-Hant": "耶和華"
+    },
+    "Adonaï": {
+      "en": "Adonai",
+      "de": "Adonai",
+      "es": "Adonai",
+      "ru": "Адонай",
+      "ja": "アドナイ",
+      "ko": "아도나이",
+      "zh": "阿多乃",
+      "zh-Hant": "阿多乃"
+    },
+    "Shaddaï": {
+      "en": "Shaddai",
+      "de": "Schaddai",
+      "es": "Sadday",
+      "ru": "Шаддай",
+      "ja": "シャダイ",
+      "ko": "샤다이",
+      "zh": "沙代",
+      "zh-Hant": "沙代"
+    },
+    "le Très-Haut": {
+      "en": "the Most High",
+      "de": "der Höchste",
+      "es": "el Altísimo",
+      "ru": "Всевышний",
+      "ja": "いと高き者",
+      "ko": "지존자",
+      "zh": "至高者",
+      "zh-Hant": "至高者"
+    },
+    "Satan": {
+      "en": "Satan",
+      "de": "Satan",
+      "es": "Satán",
+      "ru": "Сатана",
+      "ja": "サタン",
+      "ko": "사탄",
+      "zh": "撒但",
+      "zh-Hant": "撒但"
+    },
+    "Léviathan": {
+      "en": "Leviathan",
+      "de": "Leviathan",
+      "es": "Leviatán",
+      "ru": "Левиафан",
+      "ja": "レビヤタン",
+      "ko": "리워야단",
+      "zh": "利维坦",
+      "zh-Hant": "利維坦"
+    },
+    "Moïse": {
+      "en": "Moses",
+      "de": "Mose",
+      "es": "Moisés",
+      "ru": "Моисей",
+      "ja": "モーセ",
+      "ko": "모세",
+      "zh": "摩西",
+      "zh-Hant": "摩西"
+    },
+    "Noé": {
+      "en": "Noah",
+      "de": "Noah",
+      "es": "Noé",
+      "ru": "Ной",
+      "ja": "ノア",
+      "ko": "노아",
+      "zh": "挪亚",
+      "zh-Hant": "挪亞"
+    },
+    "Adam": {
+      "en": "Adam",
+      "de": "Adam",
+      "es": "Adán",
+      "ru": "Адам",
+      "ja": "アダム",
+      "ko": "아담",
+      "zh": "亚当",
+      "zh-Hant": "亞當"
+    },
+    "Ève": {
+      "en": "Eve",
+      "de": "Eva",
+      "es": "Eva",
+      "ru": "Ева",
+      "ja": "エバ",
+      "ko": "하와",
+      "zh": "夏娃",
+      "zh-Hant": "夏娃"
+    },
+    "Caïn": {
+      "en": "Cain",
+      "de": "Kain",
+      "es": "Caín",
+      "ru": "Каин",
+      "ja": "カイン",
+      "ko": "가인",
+      "zh": "该隐",
+      "zh-Hant": "該隱"
+    },
+    "Abel": {
+      "en": "Abel",
+      "de": "Abel",
+      "es": "Abel",
+      "ru": "Авель",
+      "ja": "アベル",
+      "ko": "아벨",
+      "zh": "亚伯",
+      "zh-Hant": "亞伯"
+    },
+    "Seth": {
+      "en": "Seth",
+      "de": "Seth",
+      "es": "Set",
+      "ru": "Сиф",
+      "ja": "セツ",
+      "ko": "셋",
+      "zh": "塞特",
+      "zh-Hant": "塞特"
+    },
+    "Énosh": {
+      "en": "Enosh",
+      "de": "Enosch",
+      "es": "Enós",
+      "ru": "Енос",
+      "ja": "エノス",
+      "ko": "에노스",
+      "zh": "以挪士",
+      "zh-Hant": "以挪士"
+    },
+    "Abraham": {
+      "en": "Abraham",
+      "de": "Abraham",
+      "es": "Abraham",
+      "ru": "Авраам",
+      "ja": "アブラハム",
+      "ko": "아브라함",
+      "zh": "亚伯拉罕",
+      "zh-Hant": "亞伯拉罕"
+    },
+    "Loth": {
+      "en": "Lot",
+      "de": "Lot",
+      "es": "Lot",
+      "ru": "Лот",
+      "ja": "ロト",
+      "ko": "롯",
+      "zh": "罗得",
+      "zh-Hant": "羅得"
+    },
+    "Josué": {
+      "en": "Joshua",
+      "de": "Josua",
+      "es": "Josué",
+      "ru": "Иисус Навин",
+      "ja": "ヨシュア",
+      "ko": "여호수아",
+      "zh": "约书亚",
+      "zh-Hant": "約書亞"
+    },
+    "Gédéon": {
+      "en": "Gideon",
+      "de": "Gideon",
+      "es": "Gedeón",
+      "ru": "Гедеон",
+      "ja": "ギデオン",
+      "ko": "기드온",
+      "zh": "基甸",
+      "zh-Hant": "基甸"
+    },
+    "Samson": {
+      "en": "Samson",
+      "de": "Simson",
+      "es": "Sansón",
+      "ru": "Самсон",
+      "ja": "サムソン",
+      "ko": "삼손",
+      "zh": "参孙",
+      "zh-Hant": "參孫"
+    },
+    "Dalila": {
+      "en": "Delilah",
+      "de": "Delila",
+      "es": "Dalila",
+      "ru": "Далида",
+      "ja": "デリラ",
+      "ko": "들릴라",
+      "zh": "大利拉",
+      "zh-Hant": "大利拉"
+    },
+    "Samuel": {
+      "en": "Samuel",
+      "de": "Samuel",
+      "es": "Samuel",
+      "ru": "Самуил",
+      "ja": "サムエル",
+      "ko": "사무엘",
+      "zh": "撒母耳",
+      "zh-Hant": "撒母耳"
+    },
+    "Éli": {
+      "en": "Eli",
+      "de": "Eli",
+      "es": "Elí",
+      "ru": "Илий",
+      "ja": "エリ",
+      "ko": "엘리",
+      "zh": "以利",
+      "zh-Hant": "以利"
+    },
+    "David": {
+      "en": "David",
+      "de": "David",
+      "es": "David",
+      "ru": "Давид",
+      "ja": "ダビデ",
+      "ko": "다윗",
+      "zh": "大卫",
+      "zh-Hant": "大衛"
+    },
+    "Goliath": {
+      "en": "Goliath",
+      "de": "Goliath",
+      "es": "Goliat",
+      "ru": "Голиаф",
+      "ja": "ゴリアテ",
+      "ko": "골리앗",
+      "zh": "歌利亚",
+      "zh-Hant": "歌利亞"
+    },
+    "Salomon": {
+      "en": "Solomon",
+      "de": "Salomo",
+      "es": "Salomón",
+      "ru": "Соломон",
+      "ja": "ソロモン",
+      "ko": "솔로몬",
+      "zh": "所罗门",
+      "zh-Hant": "所羅門"
+    },
+    "Élie": {
+      "en": "Elijah",
+      "de": "Elia",
+      "es": "Elías",
+      "ru": "Илия",
+      "ja": "エリヤ",
+      "ko": "엘리야",
+      "zh": "以利亚",
+      "zh-Hant": "以利亞"
+    },
+    "Élisée": {
+      "en": "Elisha",
+      "de": "Elisa",
+      "es": "Eliseo",
+      "ru": "Елисей",
+      "ja": "エリシャ",
+      "ko": "엘리사",
+      "zh": "以利沙",
+      "zh-Hant": "以利沙"
+    },
+    "Jéroboam": {
+      "en": "Jeroboam",
+      "de": "Jerobeam",
+      "es": "Jeroboam",
+      "ru": "Иеровоам",
+      "ja": "ヤラベアム",
+      "ko": "여로보암",
+      "zh": "耶罗波安",
+      "zh-Hant": "耶羅波安"
+    },
+    "Baal": {
+      "en": "Baal",
+      "de": "Baal",
+      "es": "Baal",
+      "ru": "Ваал",
+      "ja": "バアル",
+      "ko": "바알",
+      "zh": "巴力",
+      "zh-Hant": "巴力"
+    },
+    "Ezéchiel": {
+      "en": "Ezekiel",
+      "de": "Hesekiel",
+      "es": "Ezequiel",
+      "ru": "Иезекииль",
+      "ja": "エゼキエル",
+      "ko": "에스겔",
+      "zh": "以西结",
+      "zh-Hant": "以西結"
+    },
+    "Daniel (person)": {
+      "en": "Daniel",
+      "de": "Daniel",
+      "es": "Daniel",
+      "ru": "Даниил",
+      "ja": "ダニエル",
+      "ko": "다니엘",
+      "zh": "但以理",
+      "zh-Hant": "但以理"
+    },
+    "Nabuchodonosor": {
+      "en": "Nebuchadnezzar",
+      "de": "Nebukadnezar",
+      "es": "Nabucodonosor",
+      "ru": "Навуходоносор",
+      "ja": "ネブカデネザル",
+      "ko": "느부갓네살",
+      "zh": "尼布甲尼撒",
+      "zh-Hant": "尼布甲尼撒"
+    },
+    "Isaïe (person)": {
+      "en": "Isaiah",
+      "de": "Jesaja",
+      "es": "Isaías",
+      "ru": "Исаия",
+      "ja": "イザヤ",
+      "ko": "이사야",
+      "zh": "以赛亚",
+      "zh-Hant": "以賽亞"
+    },
+    "Ozias": {
+      "en": "Uzziah",
+      "de": "Usija",
+      "es": "Uzías",
+      "ru": "Озия",
+      "ja": "ウジヤ",
+      "ko": "웃시야",
+      "zh": "乌西雅",
+      "zh-Hant": "烏西雅"
+    },
+    "Jonas (person)": {
+      "en": "Jonah",
+      "de": "Jona",
+      "es": "Jonás",
+      "ru": "Иона",
+      "ja": "ヨナ",
+      "ko": "요나",
+      "zh": "约拿",
+      "zh-Hant": "約拿"
+    },
+    "Zacharie (person)": {
+      "en": "Zechariah",
+      "de": "Sacharja",
+      "es": "Zacarías",
+      "ru": "Захария",
+      "ja": "ゼカリヤ",
+      "ko": "스가랴",
+      "zh": "撒迦利亚",
+      "zh-Hant": "撒迦利亞"
+    },
+    "Job (person)": {
+      "en": "Job",
+      "de": "Hiob",
+      "es": "Job",
+      "ru": "Иов",
+      "ja": "ヨブ",
+      "ko": "욥",
+      "zh": "约伯",
+      "zh-Hant": "約伯"
+    },
+    "Tobit (person)": {
+      "en": "Tobit",
+      "de": "Tobit",
+      "es": "Tobías",
+      "ru": "Товит",
+      "ja": "トビト",
+      "ko": "토빗",
+      "zh": "多比",
+      "zh-Hant": "多比"
+    },
+    "Raphaël": {
+      "en": "Raphael",
+      "de": "Raphael",
+      "es": "Rafael",
+      "ru": "Рафаил",
+      "ja": "ラファエル",
+      "ko": "라파엘",
+      "zh": "拉斐尔",
+      "zh-Hant": "拉斐爾"
+    },
+    "Michaël (ange)": {
+      "en": "Michael",
+      "de": "Michael",
+      "es": "Miguel",
+      "ru": "Михаил",
+      "ja": "ミカエル",
+      "ko": "미가엘",
+      "zh": "米迦勒",
+      "zh-Hant": "米迦勒"
+    },
+    "Israël": {
+      "en": "Israel",
+      "de": "Israel",
+      "es": "Israel",
+      "ru": "Израиль",
+      "ja": "イスラエル",
+      "ko": "이스라엘",
+      "zh": "以色列",
+      "zh-Hant": "以色列"
+    },
+    "Égypte/Égyptiens": {
+      "en": "Egypt / the Egyptians",
+      "de": "Ägypten / die Ägypter",
+      "es": "Egipto / los egipcios",
+      "ru": "Египет / египтяне",
+      "ja": "エジプト／エジプト人",
+      "ko": "이집트／이집트인",
+      "zh": "埃及／埃及人",
+      "zh-Hant": "埃及／埃及人",
+      "_note": "in scripture quotes use base-edition form (KJV 'Egyptians' etc.)"
+    },
+    "Sinaï": {
+      "en": "Sinai",
+      "de": "Sinai",
+      "es": "Sinaí",
+      "ru": "Синай",
+      "ja": "シナイ",
+      "ko": "시내",
+      "zh": "西奈",
+      "zh-Hant": "西奈",
+      "_note": "Mont Sinaï: KJV 'mount Sinai', Luther 'Berg Sinai', RV 'monte de Sinaí', Synodal 'гора Синай', zh CUV '西乃山' inside quotes"
+    },
+    "Sodome": {
+      "en": "Sodom",
+      "de": "Sodom",
+      "es": "Sodoma",
+      "ru": "Содом",
+      "ja": "ソドム",
+      "ko": "소돔",
+      "zh": "所多玛",
+      "zh-Hant": "所多瑪"
+    },
+    "Gomorrhe": {
+      "en": "Gomorrah",
+      "de": "Gomorra",
+      "es": "Gomorra",
+      "ru": "Гоморра",
+      "ja": "ゴモラ",
+      "ko": "고모라",
+      "zh": "蛾摩拉",
+      "zh-Hant": "蛾摩拉"
+    },
+    "Jéricho": {
+      "en": "Jericho",
+      "de": "Jericho",
+      "es": "Jericó",
+      "ru": "Иерихон",
+      "ja": "エリコ",
+      "ko": "여리고",
+      "zh": "耶利哥",
+      "zh-Hant": "耶利哥"
+    },
+    "Jérusalem": {
+      "en": "Jerusalem",
+      "de": "Jerusalem",
+      "es": "Jerusalén",
+      "ru": "Иерусалим",
+      "ja": "エルサレム",
+      "ko": "예루살렘",
+      "zh": "耶路撒冷",
+      "zh-Hant": "耶路撒冷"
+    },
+    "Béthel": {
+      "en": "Bethel",
+      "de": "Bethel",
+      "es": "Betel",
+      "ru": "Вефиль",
+      "ja": "ベテル",
+      "ko": "벧엘",
+      "zh": "伯特利",
+      "zh-Hant": "伯特利"
+    },
+    "Juda": {
+      "en": "Judah",
+      "de": "Juda",
+      "es": "Judá",
+      "ru": "Иудея",
+      "ja": "ユダ",
+      "ko": "유다",
+      "zh": "犹大",
+      "zh-Hant": "猶大"
+    },
+    "Babel": {
+      "en": "Babel",
+      "de": "Babel",
+      "es": "Babel",
+      "ru": "Вавилон",
+      "ja": "バベル",
+      "ko": "바벨",
+      "zh": "巴别",
+      "zh-Hant": "巴別"
+    },
+    "Chaldée": {
+      "en": "Chaldea",
+      "de": "Chaldäa",
+      "es": "Caldea",
+      "ru": "Халдея",
+      "ja": "カルデア",
+      "ko": "갈대아",
+      "zh": "迦勒底",
+      "zh-Hant": "迦勒底"
+    },
+    "Moab": {
+      "en": "Moab",
+      "de": "Moab",
+      "es": "Moab",
+      "ru": "Моав",
+      "ja": "モアブ",
+      "ko": "모압",
+      "zh": "摩押",
+      "zh-Hant": "摩押"
+    },
+    "Mont Carmel": {
+      "en": "Mount Carmel",
+      "de": "Berg Karmel",
+      "es": "monte Carmelo",
+      "ru": "гора Кармил",
+      "ja": "カルメル山",
+      "ko": "갈멜산",
+      "zh": "迦密山",
+      "zh-Hant": "迦密山"
+    },
+    "Jourdain": {
+      "en": "Jordan",
+      "de": "Jordan",
+      "es": "Jordán",
+      "ru": "Иордан",
+      "ja": "ヨルダン",
+      "ko": "요단",
+      "zh": "约旦",
+      "zh-Hant": "約旦"
+    },
+    "Perses": {
+      "en": "the Persians",
+      "de": "die Perser",
+      "es": "los persas",
+      "ru": "персы",
+      "ja": "ペルシア人",
+      "ko": "페르시아인",
+      "zh": "波斯人",
+      "zh-Hant": "波斯人"
+    },
+    "Grecs": {
+      "en": "the Greeks",
+      "de": "die Griechen",
+      "es": "los griegos",
+      "ru": "греки",
+      "ja": "ギリシア人",
+      "ko": "그리스인",
+      "zh": "希腊人",
+      "zh-Hant": "希臘人"
+    },
+    "Philistins": {
+      "en": "the Philistines",
+      "de": "die Philister",
+      "es": "los filisteos",
+      "ru": "филистимляне",
+      "ja": "ペリシテ人",
+      "ko": "블레셋인",
+      "zh": "非利士人",
+      "zh-Hant": "非利士人"
+    },
+    "Dagon": {
+      "en": "Dagon",
+      "de": "Dagon",
+      "es": "Dagón",
+      "ru": "Дагон",
+      "ja": "ダゴン",
+      "ko": "다곤",
+      "zh": "大衮",
+      "zh-Hant": "大袞"
+    },
+    "Ouzza": {
+      "en": "Uzzah",
+      "de": "Usa",
+      "es": "Uza",
+      "ru": "Оза",
+      "ja": "ウザ",
+      "ko": "웃사",
+      "zh": "乌撒",
+      "zh-Hant": "烏撒"
+    },
+    "Eglaïm": {
+      "en": "Eglaim",
+      "de": "Eglaim",
+      "es": "Eglaim",
+      "ru": "Эглаим",
+      "ja": "エグライム",
+      "ko": "에글라임",
+      "zh": "以基莲",
+      "zh-Hant": "以基蓮"
+    },
+    "Beër Eylim": {
+      "en": "Beer-elim",
+      "de": "Beer-Elim",
+      "es": "Beer-elim",
+      "ru": "Беэр-Элим",
+      "ja": "ベエル・エリム",
+      "ko": "브엘엘림",
+      "zh": "比珥以琳",
+      "zh-Hant": "比珥以琳"
+    },
+    "Dimôn": {
+      "en": "Dimon",
+      "de": "Dimon",
+      "es": "Dimón",
+      "ru": "Димон",
+      "ja": "ディモン",
+      "ko": "디몬",
+      "zh": "底们",
+      "zh-Hant": "底們"
+    },
+    "Bethléem": {
+      "en": "Bethlehem",
+      "de": "Bethlehem",
+      "es": "Belén",
+      "ru": "Вифлеем",
+      "ja": "ベツレヘム",
+      "ko": "베들레헴",
+      "zh": "伯利恒",
+      "zh-Hant": "伯利恆"
+    }
+  },
+  "concepts": {
+    "soucoupe volante / flying saucer": {
+      "en": "flying saucer",
+      "de": "fliegende Untertasse",
+      "es": "platillo volante",
+      "ru": "летающая тарелка",
+      "ja": "空飛ぶ円盤",
+      "ko": "비행접시",
+      "zh": "飞碟",
+      "zh-Hant": "飛碟"
+    },
+    "engin (volant) / craft": {
+      "en": "craft",
+      "de": "Gerät / Fluggerät",
+      "es": "aparato / nave",
+      "ru": "аппарат",
+      "ja": "機体",
+      "ko": "비행체",
+      "zh": "飞行器",
+      "zh-Hant": "飛行器",
+      "_note": "the visitor's vehicle in narration; consistent with ch1/2"
+    },
+    "vaisseau (interplanétaire/spatial)": {
+      "en": "(interplanetary/space) ship",
+      "de": "(interplanetares) Raumschiff",
+      "es": "nave (interplanetaria/espacial)",
+      "ru": "(межпланетный) корабль",
+      "ja": "宇宙船",
+      "ko": "우주선",
+      "zh": "飞船",
+      "zh-Hant": "飛船"
+    },
+    "les créateurs / the creators": {
+      "en": "the creators",
+      "de": "die Schöpfer",
+      "es": "los creadores",
+      "ru": "создатели",
+      "ja": "創造者たち",
+      "ko": "창조자들",
+      "zh": "创造者",
+      "zh-Hant": "創造者"
+    },
+    "tree of life": {
+      "en": "tree of life",
+      "de": "Baum des Lebens",
+      "es": "árbol de la vida",
+      "ru": "дерево жизни",
+      "ja": "いのちの木",
+      "ko": "생명나무",
+      "zh": "生命树",
+      "zh-Hant": "生命樹"
+    },
+    "tree of the knowledge of good and evil": {
+      "en": "tree of the knowledge of good and evil",
+      "de": "Baum der Erkenntnis des Guten und des Bösen",
+      "es": "árbol de la ciencia del bien y del mal",
+      "ru": "дерево познания добра и зла",
+      "ja": "善悪を知る木",
+      "ko": "선악을 알게 하는 나무",
+      "zh": "分别善恶的树",
+      "zh-Hant": "分別善惡的樹"
+    },
+    "Cherubim": {
+      "en": "Cherubim",
+      "de": "Cherubim",
+      "es": "querubines",
+      "ru": "херувимы",
+      "ja": "ケルビム",
+      "ko": "그룹",
+      "zh": "基路伯",
+      "zh-Hant": "基路伯",
+      "_note": "scripture-quote spelling follows base edition (KJV 'Cherubims' in Gen 3:24)"
+    },
+    "Seraphim": {
+      "en": "Seraphim",
+      "de": "Seraphim",
+      "es": "serafines",
+      "ru": "серафимы",
+      "ja": "セラフィム",
+      "ko": "스랍",
+      "zh": "撒拉弗",
+      "zh-Hant": "撒拉弗"
+    },
+    "ange / l'Ange de Iahvé": {
+      "en": "angel / the angel of Yahweh",
+      "de": "Engel / der Engel Jahwes",
+      "es": "ángel / el ángel de Yahveh",
+      "ru": "ангел / ангел Яхве",
+      "ja": "使い／ヤハウェの使い",
+      "ko": "천사／야훼의 천사",
+      "zh": "天使／耶和华的使者",
+      "zh-Hant": "天使／耶和華的使者",
+      "_note": "verse text per base edition; commentary per this row"
+    },
+    "arche de Dieu / ark of God": {
+      "en": "ark of God",
+      "de": "Lade Gottes",
+      "es": "arca de Dios",
+      "ru": "ковчег Божий",
+      "ja": "神の箱",
+      "ko": "하나님의 궤",
+      "zh": "神的约柜",
+      "zh-Hant": "神的約櫃",
+      "_note": "verse-text 'ark' follows base edition; this is the commentary form"
+    },
+    "tente du rendez-vous": {
+      "en": "tent of meeting",
+      "de": "Stiftshütte / Zelt der Begegnung",
+      "es": "tienda del encuentro",
+      "ru": "скиния собрания",
+      "ja": "会見の天幕",
+      "ko": "회막",
+      "zh": "会幕",
+      "zh-Hant": "會幕"
+    },
+    "manne / manna": {
+      "en": "manna",
+      "de": "Manna",
+      "es": "maná",
+      "ru": "манна",
+      "ja": "マナ",
+      "ko": "만나",
+      "zh": "吗哪",
+      "zh-Hant": "嗎哪"
+    },
+    "télépathie": {
+      "en": "telepathy",
+      "de": "Telepathie",
+      "es": "telepatía",
+      "ru": "телепатия",
+      "ja": "テレパシー",
+      "ko": "텔레파시",
+      "zh": "心灵感应",
+      "zh-Hant": "心靈感應"
+    },
+    "ultra-sons": {
+      "en": "ultrasound",
+      "de": "Ultraschall",
+      "es": "ultrasonidos",
+      "ru": "ультразвук",
+      "ja": "超音波",
+      "ko": "초음파",
+      "zh": "超声波",
+      "zh-Hant": "超聲波"
+    },
+    "le peuple élu / chosen people": {
+      "en": "the chosen people",
+      "de": "das auserwählte Volk",
+      "es": "el pueblo elegido",
+      "ru": "избранный народ",
+      "ja": "選ばれた民",
+      "ko": "선택된 민족",
+      "zh": "选民",
+      "zh-Hant": "選民"
+    },
+    "scaphandre": {
+      "en": "diving/space suit (per context)",
+      "de": "Anzug / Skaphander",
+      "es": "escafandra",
+      "ru": "скафандр",
+      "ja": "潜水服／宇宙服（文脈に応じて）",
+      "ko": "잠수복／우주복(문맥에 따라)",
+      "zh": "潜水服／太空服（视语境）",
+      "zh-Hant": "潛水服／太空服（視語境）"
+    },
+    "le jugement dernier": {
+      "en": "the Last Judgment",
+      "de": "das Jüngste Gericht",
+      "es": "el Juicio Final",
+      "ru": "Страшный суд",
+      "ja": "最後の審判",
+      "ko": "최후의 심판",
+      "zh": "最后的审判",
+      "zh-Hant": "最後的審判"
+    },
+    "résurrection": {
+      "en": "resurrection",
+      "de": "Auferstehung",
+      "es": "resurrección",
+      "ru": "воскрешение",
+      "ja": "復活",
+      "ko": "부활",
+      "zh": "复活",
+      "zh-Hant": "復活"
+    },
+    "la gloire de Iahvé/Dieu (= the craft)": {
+      "en": "the glory of Yahweh",
+      "de": "die Herrlichkeit Jahwes",
+      "es": "la gloria de Yahveh",
+      "ru": "слава Яхве",
+      "ja": "ヤハウェの栄光",
+      "ko": "야훼의 영광",
+      "zh": "耶和华的荣耀",
+      "zh-Hant": "耶和華的榮耀",
+      "_note": "verse text per base edition; book treats it as the vehicle"
+    },
+    "svastika": {
+      "en": "swastika",
+      "de": "Swastika",
+      "es": "esvástica",
+      "ru": "свастика",
+      "ja": "スワスティカ",
+      "ko": "스바스티카",
+      "zh": "卐字符",
+      "zh-Hant": "卍字符",
+      "_note": "the ancient cyclic symbol as the book uses it; NOT the Nazi 'Hakenkreuz'. Keep neutral term."
+    },
+    "étoile de David": {
+      "en": "Star of David",
+      "de": "Davidstern",
+      "es": "estrella de David",
+      "ru": "звезда Давида",
+      "ja": "ダビデの星",
+      "ko": "다윗의 별",
+      "zh": "大卫之星",
+      "zh-Hant": "大衛之星"
+    }
+  }
+}
