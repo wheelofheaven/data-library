@@ -256,6 +256,13 @@ We welcome contributions of:
 
 Please ensure texts are either in the public domain or properly licensed for redistribution.
 
+For the full JSON schema reference (per-chapter file structure, paragraph
+refIds like `TBWTT-1:5`, i18n slots, speaker types), see
+[docs.wheelofheaven.world/reference/library-book-format](https://docs.wheelofheaven.world/reference/library-book-format/).
+For the *authoring* workflow — catalog entries, adding a new book to www
+and the API — see
+[Contributing → Library Book](https://docs.wheelofheaven.world/contributing/content/library-book/).
+
 ## License
 
 Content is provided under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/) (Public Domain) where applicable. Individual texts may have their own licensing requirements noted in their metadata.
