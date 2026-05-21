@@ -285,11 +285,11 @@ Where they diverge, the notes name the glossary entry that drove the choice. Cro
 
 **ASV.** And God created the great sea-monsters, and every living creature that moveth, wherewith the waters swarmed, after their kind, and every winged bird after its kind: and God saw that it was good.
 
-**WoH.** And Elohim shaped the great sea-creatures, and every living being that moves, with which the waters swarmed, according to their kinds, and every winged bird according to its kind. And Elohim saw that it was good.
+**WoH.** And Elohim shaped the great dragons, and every living being that moves, with which the waters swarmed, according to their kinds, and every winged bird according to its kind. And Elohim saw that it was good.
 
 **Notes.**
-- The verb here is *bara* (shape), not *asah* (made) — used reflectively for the sea-creatures specifically. Why bara for these? The Hebrew elsewhere uses *tanninim* in mythological contexts (Job 7:12, Isa 27:1 — sea-dragons); the deliberate use of bara here is a demythologizing move (these are made *by* Elohim, not rivals to it). Preserving bara as "shape" lets the reader see the verb pattern.
-- `taninim`: "great sea-creatures". ASV "sea-monsters" is acceptable. KJV "whales" is a domesticating mistranslation; we avoid.
+- The verb here is *bara* (shape), not *asah* (made) — used reflectively for the dragons specifically. Why bara for these? *Tanninim* is the Hebrew Bible's standard word for the serpent-dragon class (Job 7:12; Isa 27:1 paired with Leviathan; Ps 74:13; Ezek 29:3 of Pharaoh); the deliberate use of bara here is a demythologizing move — the same dragon-class beings other ANE traditions deify (Akkadian Tiamat, Ugaritic Lotan, Egyptian Apep) are something Elohim *shaped*, not fought. *Tehom* in v2 is etymologically cognate with Tiamat; the chapter brackets the polemic.
+- `taninim`: **"great dragons"** (revised from "great sea-creatures" in glossary v2.0.0). The Hebrew word contains no aquatic morpheme — the sea-association in this verse is positional, not lexical. KJV renders the same word "dragon(s)" almost everywhere else in the corpus (Deut 32:33, Ps 91:13, Isa 13:22, Jer 9:11, Mal 1:3) and only dodges to "whales" in Gen 1:21. Modern translations soften to "sea-monsters" or "great sea-creatures"; the lexical case for dragon is the same here as in the prophets. "Great dragons" lets the demythologization polemic show in the translation itself.
 
 #### v22
 
