@@ -1,0 +1,771 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "GEN-WOH",
+  "bookSlug": "genesis-woh",
+  "n": 32,
+  "title": "Genesis 32 — The messengers at Machanayim, Ya'aqov's preparation for Esav, and the wrestling at Penuel",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
+    "sourceLicense": "Public Domain",
+    "sourceUrl": "http://www.tanach.us/Tanach.xml",
+    "sourceAccessedVia": "sefaria.org/api/v3/texts/Genesis.32",
+    "glossaryVersion": "2.30.0",
+    "modelDrafts": [
+      "claude-opus-4-7 (translator)",
+      "claude-opus-4-7 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-05-25T20:00:00+00:00",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-4-7 acting as woh-reviewer",
+      "reviewedAt": "2026-05-25T00:00:00Z",
+      "verdicts": [
+        {
+          "refId": "GEN-WOH-32:1",
+          "status": "approve",
+          "citations": [
+            "ASV (Gen 31:55 / MT 32:1)"
+          ],
+          "reasoning": "Lavan's morning-departure narrative-bridge from ch. 31. ASV-baseline rendering of *va-yashkem Lavan ba-boqer va-y'nasheq*; no lens leverage."
+        },
+        {
+          "refId": "GEN-WOH-32:2",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS Genesis p. 224; Westermann Genesis 12-36 p. 506"
+          ],
+          "reasoning": "*va-yifge'u vo mal'akhei Elohim* — *and the messengers of Elohim met him*. Plural-construct *mal'akhei Elohim* matches Gen 28:12 (Bethel ladder), the Bethel-Machanayim inclusio is editorially-mainstream. Glossary ref to `malakh-elohim-messenger` correctly extended to this verse."
+        },
+        {
+          "refId": "GEN-WOH-32:3",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 224; Westermann Genesis 12-36 p. 506; von Rad OTL Genesis p. 315; Hamilton NICOT Genesis 18-50 p. 321; Gen Rabbah 75:9"
+          ],
+          "reasoning": "*Machanayim* as a true dual-form is grammatically defensible; the in-text etymology *machaneh Elohim zeh* supports the divine-messenger-camp + Ya'aqov's-camp reading. Both interpretive positions (Sarna/Westermann/von Rad vs Hamilton/Genesis Rabbah's foreshadowing-of-vv-8-9) are correctly preserved in commentary. Overlay glossary entry `mahanayim-two-camps-divine-encounter` appropriately scoped."
+        },
+        {
+          "refId": "GEN-WOH-32:4",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "*va-yishlach Ya'aqov mal'akhim* — note semantic-flexibility of *mal'akhim* here as human-messengers (contrast v 2's *mal'akhei Elohim*). The rendering as *messengers* is the appropriate ASV-baseline; the lexeme's range is already governed by the central `malakh-elohim-messenger` entry."
+        },
+        {
+          "refId": "GEN-WOH-32:5",
+          "status": "approve",
+          "citations": [
+            "ASV; Sarna JPS p. 224"
+          ],
+          "reasoning": "Ya'aqov's address to Esav as *adoni* and self-designation as *avdekha* — the deferential register sets up v 14's tribute-strategy. ASV-baseline preserved correctly."
+        },
+        {
+          "refId": "GEN-WOH-32:6",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "Inventory disclosure to Esav. ASV-baseline, no lexical disputes."
+        },
+        {
+          "refId": "GEN-WOH-32:7",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "*v-arbah me'ot ish imo* — *and four hundred men with him*. The standard rendering; the *ish* here is unmarked human-male, distinct from v 25's load-bearing anarthrous *ish*."
+        },
+        {
+          "refId": "GEN-WOH-32:8",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "*va-yera Ya'aqov me'od va-yetzer lo* — Ya'aqov's distress and the *shnei machanot* (two camps) self-division. ASV-baseline; the *machanot* lexeme is now correctly glossed in the overlay entry."
+        },
+        {
+          "refId": "GEN-WOH-32:9",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "Continuation of the two-camp strategy; *li-fleitah* = *for escape*. ASV-baseline preserved."
+        },
+        {
+          "refId": "GEN-WOH-32:10",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 225; ASV"
+          ],
+          "reasoning": "*Elohei avi Avraham v-Elohei avi Yitzchaq YHWH* — the ancestral-god invocation correctly governed by the existing `anokhi-elohei-X-avikha-ancestral-god-formula` entry. The appliesTo extension is appropriate."
+        },
+        {
+          "refId": "GEN-WOH-32:11",
+          "status": "approve",
+          "citations": [
+            "Sakenfeld 1978 *The Meaning of Hesed*; Sarna JPS p. 225; central glossary `chesed-v-emet-steadfast-love-and-truth`"
+          ],
+          "reasoning": "*qatonti mi-kol ha-chasadim u-mi-kol ha-emet* — the humility-formula plus the canonical *chesed v-emet* word-pair. The proleptic-echo of Exod 34:6 noted in commentary is mainstream. The chesed-v-emet appliesTo extension is appropriate."
+        },
+        {
+          "refId": "GEN-WOH-32:12",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "*hatzileini na mi-yad achi* — the deliverance-petition with the *em al-banim* idiom (mother with children). ASV-baseline; no lexical disputes."
+        },
+        {
+          "refId": "GEN-WOH-32:13",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS pp. 225-226; central glossary `patriarchal-seed-comparison-triad`"
+          ],
+          "reasoning": "*v-samti et-zar'akha k-chol ha-yam* — the seed-as-sand member of the patriarchal-promise-triad (dust at Gen 13:16; stars at Gen 15:5; sand at Gen 22:17 / 32:13). The narrative-strategy of *citing back* the deity's prior speech-acts is mainstream literary-critical reading."
+        },
+        {
+          "refId": "GEN-WOH-32:14",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 226; Westermann Genesis 12-36 pp. 510-511; HALOT s.v. *minchah*; central glossary `minchah-tribute-gift-of-appeasement`"
+          ],
+          "reasoning": "*minchah l-Esav achiv* — the four-fold deployment opens here. The two-register lexeme (inter-political tribute / cultic grain-offering) is correctly documented. ASV-baseline *present* is defensible against the alternatives (*tribute*, *gift*)."
+        },
+        {
+          "refId": "GEN-WOH-32:15",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "Livestock inventory. ASV-baseline; specific numbers and species correctly rendered."
+        },
+        {
+          "refId": "GEN-WOH-32:16",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "Continuation of inventory; *g'mallim meiniqot* = *milch camels*. ASV-baseline preserved."
+        },
+        {
+          "refId": "GEN-WOH-32:17",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "Distribution-by-droves with spacing. ASV-baseline; the *eder eder l-vado* construction (drove by drove) correctly preserved."
+        },
+        {
+          "refId": "GEN-WOH-32:18",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "The instructions for the encounter. ASV-baseline; the *l-mi atah* (whose are you?) construction correctly rendered."
+        },
+        {
+          "refId": "GEN-WOH-32:19",
+          "status": "approve",
+          "citations": [
+            "central glossary `minchah-tribute-gift-of-appeasement`"
+          ],
+          "reasoning": "Second *minchah* occurrence. ASV-baseline. The glossary entry correctly governs."
+        },
+        {
+          "refId": "GEN-WOH-32:20",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "Extension of instructions to the second, third, and following drove-leaders. ASV-baseline."
+        },
+        {
+          "refId": "GEN-WOH-32:21",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS pp. 225-226; Milgrom *Leviticus 1-16* AB 1991 pp. 1079-1084; overlay `akhapprah-panav-appease-his-face`"
+          ],
+          "reasoning": "*akhapprah panav ba-minchah* — the cultic-vocabulary import on inter-political setting. The four-fold *panim* cluster (panav / l-fanai / panav / panai) is correctly preserved against the ASV's smoothing-tendency. The rendering *I will appease his face* / *see his face* / *accept my face* preserves all four occurrences, anticipating v 31's *Peni'el* climax. The *yissa panai* idiom is correctly identified as the standard *nasa panim* favor-construction (Gen 19:21; Deut 10:17; Mal 1:8)."
+        },
+        {
+          "refId": "GEN-WOH-32:22",
+          "status": "approve",
+          "citations": [
+            "ASV; central glossary `minchah-tribute-gift-of-appeasement`"
+          ],
+          "reasoning": "*va-ta'avor ha-minchah al-panav* — fourth *minchah* occurrence; the gift passes ahead while Ya'aqov remains in camp. ASV-baseline preserved."
+        },
+        {
+          "refId": "GEN-WOH-32:23",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 226; Alter *Five Books of Moses* p. 181; Fokkelman *Narrative Art* 1975 pp. 197-222; BDB s.v. *Yabboq* p. 132; overlay `yabboq-vayeavek-paronomasia`"
+          ],
+          "reasoning": "*va-ya'avor et ma'avar Yabboq* — the night-crossing opens the wrestling-scene. The toponym's derivation from *b-q-q* (pour out) and the trans-Jordanian geography (Nahr ez-Zarqa) correctly documented. The paronomasia entry correctly opens here."
+        },
+        {
+          "refId": "GEN-WOH-32:24",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "*va-ya'avirem et ha-nachal* — the family-and-possessions crossing. ASV-baseline; the verb *avar* (pass over) recurs across the chapter as a structuring-lexeme."
+        },
+        {
+          "refId": "GEN-WOH-32:25",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 226; Westermann Genesis 12-36 pp. 514-520; von Rad OTL Genesis pp. 319-321; Hamilton NICOT pp. 326-336; Speiser AB Genesis pp. 254-258; Alter *Five Books of Moses* pp. 181-183; Fokkelman *Narrative Art* 1975 pp. 197-222; Gunkel *Genesis* 1901 pp. 348-352; Hamori *When Gods Were Men* 2008; Genesis Rabbah 77:3, 78:3; overlay `the-ish-of-penuel-anonymous-wrestler`"
+          ],
+          "reasoning": "**Load-bearing verse — strongest discipline test of the chapter.** The translation preserves *and there wrestled a man with him* (ASV-baseline, anarthrous *ish* preserved). The five mainstream traditions (mal'akh / YHWH-himself-Christophany / Esav's-guardian-angel-Samael / river-numen / Jacob's-internal-other) are documented in parallel in the glossary without project-preemption. The WoH-distinctive sixth reading is explicitly reserved for the wiki. The niphal of *avaq* (HB hapax-pair at vv 25-26) is correctly preserved. The Yabboq/va-ye'avek/Ya'aqov three-fold paronomasia is correctly identified. **Discipline holds in exemplary fashion.**"
+        },
+        {
+          "refId": "GEN-WOH-32:26",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 227; Westermann Genesis 12-36 pp. 517-518; NJPS *struck the socket of his hip*; Genesis Rabbah 77:3; m. Chullin 7 / b. Chullin 91a; overlay `kaf-yerekh-tek'a-wrestling-injury`"
+          ],
+          "reasoning": "*va-yiga b-khaf-yereho va-teqa kaf-yerekh* — the touching of the hip-socket and the niphal *teqa* (dislocated/strained). The ASV-baseline *was strained* is on the gentler end of the lexeme's range; NJPS / NRSV's *was put out of joint* would be slightly stronger but the choice is defensible. The three reading-positions (anatomical-hip / euphemism-for-genitals / sciatic-nerve) are correctly preserved in commentary. No lens leakage."
+        },
+        {
+          "refId": "GEN-WOH-32:27",
+          "status": "approve",
+          "citations": [
+            "Gunkel *Genesis* 1901 pp. 348-352; Frazer *Folklore in the OT* III 1918; Westermann Genesis 12-36 pp. 520-521; Hamori *When Gods Were Men* 2008; Cross *CMHE* 1973 ch. 1-3; central glossary `dawn-constrained-divine-departure`"
+          ],
+          "reasoning": "*shalcheni ki alah ha-shachar* — the dawn-departure request. The ASV-baseline *let me go, for the day breaks* is correct idiomatic English. The `inferred` classification on the glossary entry is correctly applied: the surface-meaning (the *ish* requests release on the ground of dawn) is direct; the comparative-religion / theophany-mediator readings are scholarly inferences. The ANE comparative material (Mesopotamian *Maqlu*-demons, Greek chthonic-figures, Egyptian Amduat, Ugaritic *Shahar* in KTU 1.23) is correctly cited. The lens-distinctive synthesis (*ish* as mission-time-bounded divine-being) correctly reserved for the wiki."
+        },
+        {
+          "refId": "GEN-WOH-32:28",
+          "status": "approve",
+          "citations": [
+            "ASV"
+          ],
+          "reasoning": "*ma-shmekha va-yomer Ya'aqov* — the name-question and the patriarch's self-naming. ASV-baseline; structurally prepares v 29's renaming."
+        },
+        {
+          "refId": "GEN-WOH-32:29",
+          "status": "approve",
+          "citations": [
+            "Cross *CMHE* 1973 pp. 44-45; HALOT s.v. *Yisra'el*; Sarna JPS pp. 228-229; Westermann Genesis 12-36 pp. 521-524; BDB *sarah* p. 975; TDOT VI:397-420; Hosea 12:4-5 (MT 12:5-6); overlay `yisrael-name-aetiology-sarah-im-elohim`"
+          ],
+          "reasoning": "**Mandatory-major verse.** The renaming-formula *ki-sarita im-Elohim v-im-anashim va-tukhal* — *for you have striven with Elohim and with men, and have prevailed*. ASV-baseline preserved with *Elohim* in transliteration per central policy. The grammatical-ambiguity (subject vs. object of striving) is correctly documented: the in-text etymology unambiguously makes Ya'aqov the subject, while the name's *yi-* prefix is more naturally the imperfect-verb-form with El as subject (modern critical default, Cross / HALOT). All five etymological positions (El strives / one-who-strives-with-El / El is upright / El rules / El shines) correctly preserved. The Hos 12:4-5 prophetic-reception correctly identified. The translation surface preserves the in-text etymology while the apparatus documents the modern-critical landscape — exemplary discipline."
+        },
+        {
+          "refId": "GEN-WOH-32:30",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 227; Westermann Genesis 12-36 p. 521; Boling *Judges* AB 1975 pp. 219-222; Judg 13:17-18; central glossary `name-refusal-formula`"
+          ],
+          "reasoning": "*lamah zeh tish'al li-shmi* — the exact verbal parallel with Judg 13:18 (Manoah / Samson-annunciation). The name-refusal idiom as a pattern-marker for divine-figures preserving divine-mystery is mainstream. The closing *va-y'varekh oto sham* (blessed-after-name-refusal) correctly parallels Judg 13:18-20. The asymmetry (the *ish* renames Ya'aqov to Yisra'el while withholding his own name) correctly identified."
+        },
+        {
+          "refId": "GEN-WOH-32:31",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS pp. 228-229; Westermann Genesis 12-36 pp. 519-524; Hamori *When Gods Were Men* 2008; Sommer *The Bodies of God and the World of Ancient Israel* 2009; Cross *CMHE* 1973 ch. 1; Exod 33:11; Exod 33:20; Deut 5:4; Deut 34:10; Judg 6:22; Judg 13:22; central glossary `peniel-panim-el-panim-divine-face-encounter`"
+          ],
+          "reasoning": "**Mandatory-major theophany-verse — patriarchal corpus's most-explicit survived-face-to-face-encounter.** *Peni'el / panim el panim / va-tinatzel nafshi* — three load-bearing elements: the construct-toponym *Face-of-El*, the canonical direct-encounter formula, and the survived-theophany clause. The cross-corpus theophany-cluster (Exod 33:11 — the Mosaic keystone; Deut 34:10 — Mosaic uniqueness; the Exod 33:20 default-fatality tension; Judg 6:22, 13:22; Isa 6:5) is correctly documented. ASV-baseline *my life is preserved* is defensible (NJPS *my life has been preserved* slightly more idiomatic but no substantive difference). The Hamori-Sommer embodied-deity-theophany type correctly invoked. **Lens-discipline exemplary** — no spacecraft-occupant framing, no physical-being insertion."
+        },
+        {
+          "refId": "GEN-WOH-32:32",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 229; Westermann Genesis 12-36 pp. 523-524; Judg 8:8-9, 17; 1 Kgs 12:25; Mic 4:6-7; Zeph 3:19"
+          ],
+          "reasoning": "*va-yizrach lo ha-shemesh ka-asher avar et-Penu'el v-hu tzole'a al-yereho* — the *Penu'el* dialectal-orthographic variant correctly preserved alongside v 31's *Peni'el*. The verb *tzala* (limp; qal active participle) correctly noted as rare in BH. The sunrise-and-limping closure correctly identified as the chapter's bodily-mark of the encounter."
+        },
+        {
+          "refId": "GEN-WOH-32:33",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS pp. 228-229; Westermann Genesis 12-36 pp. 522-524; Hamilton NICOT pp. 335-336; BDB s.v. *nasheh*; HALOT s.v. *nasheh* (hapax-status confirmed in both); m. Chullin 7; b. Chullin 89b-103b; Maimonides Hilkhot Ma'akhalot Asurot 8; Shulchan Arukh Yoreh De'ah 65; overlay `gid-ha-nasheh-sciatic-nerve-dietary-rule`"
+          ],
+          "reasoning": "**Mandatory-major aetiology-verse — the only HB dietary-rule grounded in narrative aetiology rather than divine-command.** The noun *nasheh* is confirmed as a HB hapax (BDB and HALOT both review without resolution of etymology). The translation's *sinew of the thigh-vein* preserves the hapax-uncertainty against over-translation as *sciatic nerve* — the right discipline. The rabbinic identification (m. Chullin 7; b. Chullin 89b-103b; the *nikkur* procedure) correctly identified as a post-biblical halakhic codification. The *ad ha-yom ha-zeh* aetiology-marker correctly identified. The categorical-distinction (only kashrut-rule grounded in narrator's-time aetiology, contrasting with Lev 11 / Deut 14 / Gen 9:4 / Exod 23:19) is documentary and correctly classified as `direct`."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "minchah-tribute-gift-of-appeasement",
+          "status": "approve",
+          "citations": [
+            "HALOT s.v. *minchah*; BDB p. 585; TDOT VIII:407-421; Milgrom *Leviticus 1-16* AB 1991 pp. 195-202; Sarna JPS Genesis pp. 225-226; Westermann Genesis 12-36 pp. 510-511; cross-corpus: Lev 2; Num 28-29; Judg 3:15-18; 2 Sam 8:2-6; 1 Kgs 10:25; 2 Kgs 17:3-4; Hos 10:6; Mal 1:11"
+          ],
+          "reasoning": "Two-register lexeme (inter-political tribute / cultic grain-offering) correctly documented. The cross-corpus distribution across both registers is verifiable by lexical search. The Gen 32 four-fold deployment as inter-political tribute (Esav addressed as *adoni*) is the mainstream reading. Central glossary placement is correct — *minchah* recurs heavily across the HB."
+        },
+        {
+          "glossary_id": "peniel-panim-el-panim-divine-face-encounter",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS pp. 228-229; Westermann Genesis 12-36 pp. 519-524; Hamori *When Gods Were Men* 2008; Sommer *The Bodies of God* 2009; Cross *CMHE* 1973 ch. 1; Childs *Exodus* OTL 1974 pp. 596-597; Propp *Exodus 19-40* AB 2006 pp. 600-606; cross-corpus: Exod 33:11, 33:20; Deut 5:4, 34:10; Judg 6:22, 13:22; Isa 6:5"
+          ],
+          "reasoning": "The toponym + the cross-corpus *panim el panim* formula + the survived-theophany cluster correctly documented. The Exod 33:11 / 33:20 tension is canonical theophany-theology and correctly identified. The cross-corpus reach (Mosaic, Deuteronomic, Judges-prophet) fully justifies central placement. The Hamori-Sommer embodied-deity-theophany monographs are the right modern-critical citations. The Gen-only `appliesTo` (forward-extensible to Exod/Deut/Judg when translated) is the right scope-discipline for now. Exemplary entry."
+        },
+        {
+          "glossary_id": "name-refusal-formula",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 227; Westermann Genesis 12-36 p. 521; Boling *Judges* AB 1975 pp. 219-222; Childs *Exodus* OTL 1974 pp. 71-76, 110-115; Propp *Exodus 1-18* AB 1999 pp. 188-194; cross-corpus: Judg 13:17-18; Exod 3:13-15; Exod 6:3; Judg 6; Josh 5:13-15"
+          ],
+          "reasoning": "The exact verbal parallel with Judg 13:18 is documentary. The pattern (divine-names disclosed only on deity's initiative; withheld in mal'akh-encounters) correctly identified across the HB. The asymmetry (the *ish* renames Ya'aqov while withholding his own name) is editorially load-bearing. The magical-name ANE-comparative background correctly cited. Central placement appropriate — the formula recurs in cross-corpus settings."
+        },
+        {
+          "glossary_id": "dawn-constrained-divine-departure",
+          "status": "approve",
+          "citations": [
+            "Gunkel *Genesis* 1901 pp. 348-352; Frazer *Folklore in the OT* III 1918; Westermann Genesis 12-36 pp. 519-522; Sarna JPS p. 227; Hamori *When Gods Were Men* 2008; Cross *CMHE* 1973 ch. 1-3; Smith *The Ugaritic Baal Cycle* I-II 1994-2009; Day *Yahweh and the Gods and Goddesses of Canaan* 2000; Bottéro *Mesopotamia* 1992 ch. 8; Burkert *Greek Religion* 1985 pp. 199-203; KTU 1.23 (*Birth of the Gracious Gods*); Gen 19:15 cross-ref"
+          ],
+          "reasoning": "The `claim_type: inferred` classification is correctly defended: the surface-meaning (the *ish* requests release on dawn-ground) is direct, but the comparative-religion / theophany-mediator readings are scholarly inferences from cross-cultural and cross-corpus pattern-matching. The Gunkel-Frazer history-of-religions reading, the Westermann mal'akh-pattern reading, and the literary-pacing reading are all correctly preserved as parallel positions. The ANE comparative shelf (Mesopotamian Maqlu-demons, Greek chthonic-figures, Egyptian Amduat, Ugaritic *Shahar* in KTU 1.23) is full and accurate. The lens-distinctive synthesis correctly reserved for the wiki. Central placement is correct given cross-corpus reach (cf. Gen 19:15 Sodom-messengers; Judg 13 Manoah-departure)."
+        },
+        {
+          "glossary_id": "mahanayim-two-camps-divine-encounter",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 224; Westermann Genesis 12-36 p. 506; von Rad OTL p. 315; Hamilton NICOT p. 321; Gen Rabbah 75:9; cross-corpus: Josh 13:26, 30; Josh 21:38; 2 Sam 2:8-12; 2 Sam 17:24-29; 1 Kgs 4:14; Cant 7:1"
+          ],
+          "reasoning": "Dual-form *machanayim* (vs the plural *machanot* in vv 8-9) correctly identified. The two-camps-of-deity-and-traveler reading and the foreshadowing-of-Ya'aqov's-self-division reading are correctly preserved as parallel positions. The trans-Jordan historical-geographic reach is correctly documented. Overlay placement is appropriate — the toponym is largely confined to this chapter's narrative-anchor and its Davidic-historical reception; promoting to central would require Joshua / Samuel translation campaigns to have cross-corpus reach."
+        },
+        {
+          "glossary_id": "akhapprah-panav-appease-his-face",
+          "status": "approve",
+          "citations": [
+            "Milgrom *Leviticus 1-16* AB 1991 pp. 1079-1084; Sarna JPS pp. 225-226; Westermann Genesis 12-36 pp. 510-512; HALOT s.v. *kipper*; cross-corpus: Lev 4-7, 16; Num 8; Prov 16:14"
+          ],
+          "reasoning": "The piel *kipper* in non-cultic appeasement-register (cf. Prov 16:14) correctly identified. The four-fold *panim* cluster (panav/l-fanai/panav/panai) is editorially deliberate and correctly preserved in the translation (against ASV-smoothing which would compress). The cultic-vocabulary-import question (deliberate import vs. pre-cultic semantic preserved in patriarchal stratum) correctly presented as parallel positions (Sarna vs. Milgrom). The structural anticipation of v 31's *Peni'el* climax via the four-*panim*-cluster is mainstream literary-critical observation. Overlay placement is correct — the chapter-specific cluster does not recur elsewhere."
+        },
+        {
+          "glossary_id": "yabboq-vayeavek-paronomasia",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 226; Alter *Five Books of Moses* p. 181; Fokkelman *Narrative Art in Genesis* 1975 pp. 197-222; BDB s.v. *Yabboq* p. 132; HALOT s.v. *avaq*"
+          ],
+          "reasoning": "The three-fold paronomasia (Yabboq y-b-q / va-ye'avek ʾ-b-q / Ya'aqov y-ʿ-q-b) correctly identified as one of the HB's most-deliberate verbal word-plays. The niphal of *avaq* as HB hapax-pair (vv 25-26 only) is documentary (HALOT confirms). Overlay placement is correct — this is the most-singular paronomasia in the chapter and doesn't recur cross-corpus."
+        },
+        {
+          "glossary_id": "the-ish-of-penuel-anonymous-wrestler",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS pp. 226-228; Westermann Genesis 12-36 pp. 514-524; Wenham *WBC Genesis 16-50* 1994 pp. 292-298; Hamilton NICOT pp. 326-336; Speiser AB Genesis pp. 254-258; Alter *Five Books of Moses* pp. 181-183; von Rad OTL pp. 319-322; Brueggemann *Genesis* Interpretation 1982 pp. 268-273; Fokkelman *Narrative Art* 1975 pp. 197-222; Gunkel *Genesis* 1901 pp. 348-352; Frazer *Folklore in OT* III 1918 pp. 410-456; Hamori *When Gods Were Men* 2008; Smith *Early History of God* 2002; Genesis Rabbah 77:3, 78:3; b. Chullin 91a-92a; Targum Pseudo-Jonathan ad loc.; Rashi ad loc.; Zohar I:170a-171a; Justin Martyr *Dial. Trypho* 58, 86, 125-126; Irenaeus *Adv. Haereses* IV.10.1; Tertullian *Adv. Praxean* 16; Augustine *De Trinitate* II.18, *Contra Faustum* 22:84"
+          ],
+          "reasoning": "**Load-bearing entry — the project's most-consequential lens-discipline moment.** The five mainstream interpretive traditions are documented in parallel with full citation: (1) mal'akh — Hos 12:4-5 + Sarna + Hamori; (2) YHWH-himself / Christophany — Westermann + von Rad + patristic shelf; (3) Esav's-guardian-angel / Samael — Gen Rabbah + Rashi + Targum Pseudo-Jonathan + Zohar; (4) river-numen / chthonic-being — Gunkel + Frazer + Westermann partial; (5) Ya'aqov's-internal-other — Fokkelman + Jung + Wink. The narrator's editorial-silence as deliberate literary-strategy (Fokkelman, Alter) correctly identified as the discipline-grounding. The WoH-distinctive sixth reading (the *ish* as physical divine-being in the Raelian ancient-astronaut frame) is explicitly named in the entry but **reserved for the wiki and not preempted in the translation or glossary**. The translation surface (*and there wrestled a man with him*, ASV-baseline) preserves the chapter's silence. This is exemplary lens-discipline — the highest-stakes verse in the chapter, handled with full philological seriousness. Overlay placement is correct — this entry's interpretive crux is unique to this verse."
+        },
+        {
+          "glossary_id": "kaf-yerekh-tek'a-wrestling-injury",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS p. 227; Westermann Genesis 12-36 pp. 517-518; NJPS Genesis 32:25 (MT 32:26); Genesis Rabbah 77:3; m. Chullin 7; b. Chullin 91a; Gen 46:26; Judg 8:30; HALOT s.v. *yarekh*, *kaf*, *teqa*"
+          ],
+          "reasoning": "Hip-socket anatomical reading correctly identified as the mainstream modern-critical position. The rabbinic euphemism-reading (Genesis Rabbah 77:3, drawing on *yarekh* as loins-euphemism at Gen 46:26 and *naga* as sexual-contact at Gen 20:6 / 26:11) correctly preserved as an alternative. The sciatic-nerve identification (m. Chullin / b. Chullin 91a) correctly identified as the rabbinic-halakhic position consistent with v 33's *gid ha-nasheh*. Overlay placement is correct — the construct *kaf ha-yarekh* is chapter-specific."
+        },
+        {
+          "glossary_id": "yisrael-name-aetiology-sarah-im-elohim",
+          "status": "approve",
+          "citations": [
+            "Cross *CMHE* 1973 pp. 44-45, 60-75; HALOT s.v. *Yisra'el*; BDB s.v. *Yisra'el* p. 975 and *sarah* p. 975; TDOT VI:397-420; Sarna JPS pp. 228-229; Westermann Genesis 12-36 pp. 521-524; Albright *From the Stone Age to Christianity* 1957; Speiser AB Genesis pp. 254-255; Friedman *The Bible with Sources Revealed* 2003 (Gen 32 vs Gen 35:10 doublet); Andersen-Freedman *Hosea* AB 1980 pp. 605-622; Macintosh *Hosea* ICC 1997 pp. 481-499"
+          ],
+          "reasoning": "**Mandatory-major entry.** Five etymological positions correctly documented (1: El strives — Cross/HALOT modern critical default; 2: one-who-strives-with-El — in-text etymology; 3: El is upright — Ibn Ezra minority; 4: El rules — Albright variant; 5: El shines — Speiser-rejected Ugaritic-comparative). The grammatical-ambiguity (subject vs object of striving) correctly identified as the etymological-fulcrum. The Hosea 12:4-5 prophetic-reception correctly identified as the earliest HB-internal interpretation. The Gen 35:10 P-source doublet correctly identified. The translation-surface preserves the in-text etymology (reading 2) while apparatus documents the modern-critical default (reading 1) — exemplary handling. Overlay placement is appropriate for now; **likely promotion candidate** when Hos 12, Isa 49, and Exod 4 are translated and the name-etymology pulls cross-corpus reach."
+        },
+        {
+          "glossary_id": "gid-ha-nasheh-sciatic-nerve-dietary-rule",
+          "status": "approve",
+          "citations": [
+            "Sarna JPS pp. 228-229; Westermann Genesis 12-36 pp. 522-524; Hamilton NICOT pp. 335-336; BDB s.v. *nasheh* (hapax status confirmed); HALOT s.v. *nasheh* (hapax status confirmed); m. Chullin 7; b. Chullin 89b-103b; Sifre to Deut 14; Maimonides Hilkhot Ma'akhalot Asurot 8; Shulchan Arukh Yoreh De'ah 65; contrastive cross-corpus: Lev 11; Deut 14; Gen 9:4; Exod 23:19, 34:26; Deut 14:21"
+          ],
+          "reasoning": "**Mandatory-major entry.** The *nasheh* HB hapax status is confirmed (BDB and HALOT both review without resolution of etymology). The categorical-distinction — the only HB dietary-rule grounded in narrative aetiology rather than divine-command — is documentary and correctly classified as `direct`. The post-biblical halakhic-codification (m. Chullin 7 / b. Chullin 89b-103b / Maimonides / Shulchan Arukh) correctly identified as a narrator's-time-and-onward development of the *ad ha-yom ha-zeh* aetiology. The translation's *sinew of the thigh-vein* preserves the hapax-uncertainty against over-translation as *sciatic nerve*. Overlay placement is correct — the lemma is text-singular."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "architecturalReview": {
+        "overlayVsCentralSplit": "approve",
+        "reasoning": "The Editor's overlay-vs-central split is sound and inaugurates a defensible architectural pattern. Central placement for cross-corpus formulae (minchah — 211 HB occurrences; panim-el-panim — 5+ cross-corpus loci; name-refusal — Judg 13:18 exact parallel; dawn-constraint — Gen 19:15 / Judg 13 pattern) correctly reflects the lexemes' broad reach. Overlay placement for chapter-singular material (Machanayim toponym + dual-form; Yabboq/va-ye'avek/Ya'aqov paronomasia binding three roots into one chapter; the-ish-of-Penuel as a chapter-anchored interpretive crux; kaf-yerekh construct chapter-specific; Yisra'el-name-aetiology with grammatical-ambiguity that lives in this verse; gid ha-nasheh as HB hapax with narrator's-time aetiology) correctly reflects each lemma's text-singular reach. The one promotion-candidate flagged by the Editor — yisrael-name-aetiology-sarah-im-elohim — is the right one to flag; when Hos 12, Isa 49, and Exod 4 are translated, that entry will pull cross-corpus reach and warrant promotion. Recommend: codify the overlay-vs-central decision-criteria in the project's contributing docs (overlay = chapter-singular; central = cross-corpus or recurring lemma) before next-chapter translations to establish the architectural pattern.",
+        "promotionCandidates": [
+          {
+            "glossary_id": "yisrael-name-aetiology-sarah-im-elohim",
+            "trigger": "Promotion warranted when Hos 12:4-5, Isa 49 (Servant-songs use of Yisra'el), and Exod 4:22 (Yisra'el-as-firstborn) are translated. The entry's grammatical-ambiguity-treatment and five-position etymology become canonical reference-material for the whole HB once these chapters are added."
+          }
+        ]
+      },
+      "humanSignoffPosture": {
+        "ishLensDiscipline": "The Editor's choice to reserve the WoH-distinctive sixth reading (the *ish* as physical divine-being in the Raelian ancient-astronaut frame) for the wiki rather than as a `claim_type: speculative` glossary entry is the right architectural call. Rationale: (a) the glossary's function is to document lexical-decisions and the mainstream interpretive landscape; the lens-distinctive synthesis is an interpretive-claim about a documented landscape rather than a lexical-decision; (b) the chapter's editorial-silence on the *ish*'s identity is itself the textual datum, and a speculative-claim glossary entry would partly preempt that silence by treating the WoH reading as a sixth position alongside the five mainstream traditions; the wiki is the right venue for that claim because it can present the WoH reading on its own argumentative ground; (c) the five-tradition documentary treatment is more philologically-rigorous than a six-tradition treatment that elevates the WoH synthesis to parity with millennia-attested traditions. **Posture for human ratification:** confirm that this architectural pattern (mainstream-traditions documented in glossary; lens-distinctive-synthesis argued in wiki) becomes the project's default discipline for high-lens-leverage theophany verses.",
+        "overlayArchitecture": "This chapter inaugurates the per-translation overlay file. The architectural decision (central vs overlay) is sound per the criteria above. **Posture for human ratification:** confirm the overlay-vs-central decision-criteria (overlay = chapter-singular; central = cross-corpus or recurring lemma) before next-chapter translations; consider codifying the pattern in `docs.wheelofheaven.world/contributing/content/source-text-translation/`."
+      },
+      "summary": "Genesis 32 — the Penuel wrestling — is one of the highest-lens-leverage chapters in the entire Hebrew Bible. The Editor's pass is exemplary: zero speculative entries, full source-language verification possible, all five mainstream interpretive traditions on the *ish* documented with full citation, the WoH lens-distinctive synthesis explicitly reserved for the wiki. The translation surface reads as a defensible scholarly rendering independent of the WoH project; no lens leakage detected. The new overlay-vs-central architectural pattern is sound and the inaugural placement-decisions are correct. Two posture-ratifications are escalated to human reviewer: (a) the *ish* lens-discipline pattern (mainstream in glossary, lens-synthesis in wiki) as the project's default for high-lens-leverage theophany verses; (b) the overlay-vs-central architectural pattern (chapter-singular vs cross-corpus) as a codifiable decision-criterion."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "GEN-WOH-32:1",
+      "text": "וַיַּשְׁכֵּ֨ם לָבָ֜ן בַּבֹּ֗קֶר וַיְנַשֵּׁ֧ק לְבָנָ֛יו וְלִבְנוֹתָ֖יו וַיְבָ֣רֶךְ אֶתְהֶ֑ם וַיֵּ֛לֶךְ וַיָּ֥שָׁב לָבָ֖ן לִמְקֹמֽוֹ׃",
+      "i18n": {
+        "en": "And early in the morning Lavan rose up, and kissed his sons and his daughters, and blessed them; and Lavan departed, and returned to his place."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 2,
+      "refId": "GEN-WOH-32:2",
+      "text": "וְיַעֲקֹ֖ב הָלַ֣ךְ לְדַרְכּ֑וֹ וַיִּפְגְּעוּ־ב֖וֹ מַלְאֲכֵ֥י אֱלֹהִֽים׃",
+      "i18n": {
+        "en": "And Ya'aqov went on his way, and the messengers of Elohim met him."
+      },
+      "glossaryRefs": [
+        "malakh-elohim-messenger"
+      ],
+      "commentary": "The verse opens the chapter's wider editorial-frame with *va-yifge'u vo mal'akhei Elohim* — *and the messengers of Elohim met him*. The verb *paga* (*meet, encounter, fall upon*) shares its lexeme with Gen 28:11 (Ya'aqov *lighting upon* Beit-El at the outbound flight), and the plural-construct *mal'akhei Elohim* shares its construction with Gen 28:12 (the ladder-stairway vision's *mal'akhei Elohim olim v-yordim bo*). The two verses bracket Ya'aqov's twenty-year exile between two divine-messenger-encounters at the boundaries of the Promised Land. The grammatical-subject is inverted: at Bethel, Ya'aqov stumbles upon the place; here, the messengers actively meet him. The Bethel-Machanayim inclusio is editorially deliberate."
+    },
+    {
+      "n": 3,
+      "refId": "GEN-WOH-32:3",
+      "text": "וַיֹּ֤אמֶר יַעֲקֹב֙ כַּאֲשֶׁ֣ר רָאָ֔ם מַחֲנֵ֥ה אֱלֹהִ֖ים זֶ֑ה וַיִּקְרָ֛א שֵֽׁם־הַמָּק֥וֹם הַה֖וּא מַֽחֲנָֽיִם׃ (פ)",
+      "i18n": {
+        "en": "And Ya'aqov said when he saw them, This is Elohim's camp. And he called the name of that place Machanayim."
+      },
+      "glossaryRefs": [
+        "mahanayim-two-camps-divine-encounter"
+      ],
+      "commentary": "*Machanayim* is the **dual-form** of *machaneh* (camp) — *two camps*, not the plural *machanot* that recurs at vv 8-9 for Ya'aqov's own two-camp strategy. The in-text etymology *machaneh Elohim zeh* (*this is Elohim's camp*) supports the reading that the dual-form refers to the **divine-messenger-camp + Ya'aqov's traveling-camp** at the encounter-site (so Sarna *JPS Genesis* p. 224; Westermann *Genesis 12-36* p. 506; von Rad *OTL* p. 315). An alternative reading (Hamilton *NICOT* p. 321; Genesis Rabbah 75:9) takes the toponym as a foreshadowing of Ya'aqov's later *shnei machanot* (two camps) self-division at vv 8-9. The chapter sustains both readings.\n\nThe historical-Machanayim site recurs widely in the trans-Jordan: Josh 13:26, 30; 21:38 (Levitical city); 2 Sam 2:8-12 (Avner's Sha'ulide capital); 2 Sam 17:24-29 (David's refuge during the Avshalom-rebellion); 1 Kgs 4:14 (Shlomo's administrative-district). The chapter's setting is the eastern-Jordan frontier region, consistent with the cross-corpus geography."
+    },
+    {
+      "n": 4,
+      "refId": "GEN-WOH-32:4",
+      "text": "וַיִּשְׁלַ֨ח יַעֲקֹ֤ב מַלְאָכִים֙ לְפָנָ֔יו אֶל־עֵשָׂ֖ו אָחִ֑יו אַ֥רְצָה שֵׂעִ֖יר שְׂדֵ֥ה אֱדֽוֹם׃",
+      "i18n": {
+        "en": "And Ya'aqov sent messengers before him to Esav his brother, to the land of Seir, the field of Edom."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 5,
+      "refId": "GEN-WOH-32:5",
+      "text": "וַיְצַ֤ו אֹתָם֙ לֵאמֹ֔ר כֹּ֣ה תֹאמְר֔וּן לַֽאדֹנִ֖י לְעֵשָׂ֑ו כֹּ֤ה אָמַר֙ עַבְדְּךָ֣ יַעֲקֹ֔ב עִם־לָבָ֣ן גַּ֔רְתִּי וָאֵחַ֖ר עַד־עָֽתָּה׃",
+      "i18n": {
+        "en": "And he commanded them, saying, Thus shall you say to my lord Esav: Thus says your servant Ya'aqov, I have sojourned with Lavan, and stayed until now;"
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 6,
+      "refId": "GEN-WOH-32:6",
+      "text": "וַֽיְהִי־לִי֙ שׁ֣וֹר וַחֲמ֔וֹר צֹ֖אן וְעֶ֣בֶד וְשִׁפְחָ֑ה וָֽאֶשְׁלְחָה֙ לְהַגִּ֣יד לַֽאדֹנִ֔י לִמְצֹא־חֵ֖ן בְּעֵינֶֽיךָ׃",
+      "i18n": {
+        "en": "and I have oxen, and asses, flocks, and menservants, and maidservants; and I have sent to tell my lord, that I may find favor in your eyes."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 7,
+      "refId": "GEN-WOH-32:7",
+      "text": "וַיָּשֻׁ֙בוּ֙ הַמַּלְאָכִ֔ים אֶֽל־יַעֲקֹ֖ב לֵאמֹ֑ר בָּ֤אנוּ אֶל־אָחִ֙יךָ֙ אֶל־עֵשָׂ֔ו וְגַם֙ הֹלֵ֣ךְ לִקְרָֽאתְךָ֔ וְאַרְבַּע־מֵא֥וֹת אִ֖ישׁ עִמּֽוֹ׃",
+      "i18n": {
+        "en": "And the messengers returned to Ya'aqov, saying, We came to your brother Esav, and moreover he is coming to meet you, and four hundred men with him."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 8,
+      "refId": "GEN-WOH-32:8",
+      "text": "וַיִּירָ֧א יַעֲקֹ֛ב מְאֹ֖ד וַיֵּ֣צֶר ל֑וֹ וַיַּ֜חַץ אֶת־הָעָ֣ם אֲשֶׁר־אִתּ֗וֹ וְאֶת־הַצֹּ֧אן וְאֶת־הַבָּקָ֛ר וְהַגְּמַלִּ֖ים לִשְׁנֵ֥י מַחֲנֽוֹת׃",
+      "i18n": {
+        "en": "Then Ya'aqov was greatly afraid and was distressed; and he divided the people that were with him, and the flocks, and the herds, and the camels, into two camps;"
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 9,
+      "refId": "GEN-WOH-32:9",
+      "text": "וַיֹּ֕אמֶר אִם־יָב֥וֹא עֵשָׂ֛ו אֶל־הַמַּחֲנֶ֥ה הָאַחַ֖ת וְהִכָּ֑הוּ וְהָיָ֛ה הַמַּחֲנֶ֥ה הַנִּשְׁאָ֖ר לִפְלֵיטָֽה׃",
+      "i18n": {
+        "en": "and he said, If Esav comes to the one camp and strikes it, then the camp that is left shall escape."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 10,
+      "refId": "GEN-WOH-32:10",
+      "text": "וַיֹּאמֶר֮ יַעֲקֹב֒ אֱלֹהֵי֙ אָבִ֣י אַבְרָהָ֔ם וֵאלֹהֵ֖י אָבִ֣י יִצְחָ֑ק יְהוָ֞ה הָאֹמֵ֣ר אֵלַ֗י שׁ֧וּב לְאַרְצְךָ֛ וּלְמוֹלַדְתְּךָ֖ וְאֵיטִ֥יבָה עִמָּֽךְ׃",
+      "i18n": {
+        "en": "And Ya'aqov said, O Elohim of my father Avraham, and Elohim of my father Yitzchaq, YHWH, who said to me, Return to your country, and to your kindred, and I will do you good:"
+      },
+      "glossaryRefs": [
+        "anokhi-elohei-X-avikha-ancestral-god-formula"
+      ],
+      "commentary": ""
+    },
+    {
+      "n": 11,
+      "refId": "GEN-WOH-32:11",
+      "text": "קָטֹ֜נְתִּי מִכֹּ֤ל הַחֲסָדִים֙ וּמִכָּל־הָ֣אֱמֶ֔ת אֲשֶׁ֥ר עָשִׂ֖יתָ אֶת־עַבְדֶּ֑ךָ כִּ֣י בְמַקְלִ֗י עָבַ֙רְתִּי֙ אֶת־הַיַּרְדֵּ֣ן הַזֶּ֔ה וְעַתָּ֥ה הָיִ֖יתִי לִשְׁנֵ֥י מַחֲנֽוֹת׃",
+      "i18n": {
+        "en": "I am not worthy of the least of all the lovingkindnesses, and of all the truth, which you have shown to your servant; for with my staff I passed over this Yarden; and now I am become two camps."
+      },
+      "glossaryRefs": [
+        "chesed-v-emet-steadfast-love-and-truth"
+      ],
+      "commentary": "Ya'aqov's prayer activates two cross-corpus formulae. The verb *qatonti* (qal pf 1cs of *qatan*, *to be small / unworthy*) is a fixed HB humility-formula: the petitioner registers his unworthiness before the deity's loyal-action. The pair *ha-chasadim u-mi-kol ha-emet* (*the chasadim and the emet*) is the canonical HB covenantal-loyalty word-pair *chesed v-emet* — first introduced at Gen 24:27 and recurring across the patriarchal-narrative, the canonical YHWH self-revelation at Exod 34:6, the historical books, and the Psalter (Sakenfeld *The Meaning of Hesed* 1978; see the central-glossary entry). The pair forms a hendiadys: *loyal-action that is reliably-extended-over-time*. Ya'aqov's invocation at the Yabboq is editorially-significant — he names the deity in the very terms in which the canonical Exod 34:6 self-revelation will name itself.\n\nThe second half of the verse foregrounds the chapter's *machanot* (camps) theme: *for with my staff I passed over this Yarden; and now I am become two camps* (*shnei machanot*). The reference to *shnei machanot* deliberately echoes v 8's just-completed self-division and prepares the v 13 seed-promise recall."
+    },
+    {
+      "n": 12,
+      "refId": "GEN-WOH-32:12",
+      "text": "הַצִּילֵ֥נִי נָ֛א מִיַּ֥ד אָחִ֖י מִיַּ֣ד עֵשָׂ֑ו כִּֽי־יָרֵ֤א אָנֹכִי֙ אֹת֔וֹ פֶּן־יָב֣וֹא וְהִכַּ֔נִי אֵ֖ם עַל־בָּנִֽים׃",
+      "i18n": {
+        "en": "Deliver me, I pray you, from the hand of my brother, from the hand of Esav; for I fear him, lest he come and strike me, the mother with the children."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 13,
+      "refId": "GEN-WOH-32:13",
+      "text": "וְאַתָּ֣ה אָמַ֔רְתָּ הֵיטֵ֥ב אֵיטִ֖יב עִמָּ֑ךְ וְשַׂמְתִּ֤י אֶֽת־זַרְעֲךָ֙ כְּח֣וֹל הַיָּ֔ם אֲשֶׁ֥ר לֹא־יִסָּפֵ֖ר מֵרֹֽב׃",
+      "i18n": {
+        "en": "And you said, I will surely do you good, and make your seed as the sand of the sea, which cannot be numbered for multitude."
+      },
+      "glossaryRefs": [
+        "patriarchal-seed-comparison-triad"
+      ],
+      "commentary": "The verse is the patriarchal-cycle's only direct quotation of the seed-as-sand promise. The simile *k-chol ha-yam* (*as the sand of the sea*) belongs to the cross-corpus patriarchal seed-comparison-triad alongside *as the dust of the earth* (Gen 13:16, after Lot's separation) and *as the stars of the heavens* (Gen 15:5, the night-vision count-the-stars promise; expanded at Gen 22:17 in the *aqedah* covenant-confirmation, paired there with the sand). Ya'aqov is **citing back** the promises the deity earlier made — at Gen 28:13-15 in the Bethel ladder-vision and at Gen 31:3 prior to the flight from Lavan (*shuv el-eretz avotekha* — *return to the land of your fathers*) — using the deity's own promise-language as the ground of his petition. The narrative-strategy is editorially significant: at the chapter's anxiety-peak, Ya'aqov holds the deity to the deity's own prior speech-acts."
+    },
+    {
+      "n": 14,
+      "refId": "GEN-WOH-32:14",
+      "text": "וַיָּ֥לֶן שָׁ֖ם בַּלַּ֣יְלָה הַה֑וּא וַיִּקַּ֞ח מִן־הַבָּ֧א בְיָד֛וֹ מִנְחָ֖ה לְעֵשָׂ֥ו אָחִֽיו׃",
+      "i18n": {
+        "en": "And he lodged there that night, and took of that which he had with him a present for Esav his brother:"
+      },
+      "glossaryRefs": [
+        "minchah-tribute-gift-of-appeasement"
+      ],
+      "commentary": "The lexeme *minchah* spans a wide HB semantic range — from the inter-political *tribute* to the cultic *grain-offering* (Lev 2; Num 28-29) — with the gift-to-the-more-powerful logic as the shared semantic core. The chapter's four-occurrence deployment (vv 14, 19, 21, 22) foregrounds the **appeasement / inter-political tribute** register: Esav is addressed as *adoni* (my lord, vv 5, 19), and the gift is calibrated to soften the meeting. The cross-corpus inter-political *minchah*-cluster includes Judg 3:15-18 (Ehud to Eglon); 2 Sam 8:2-6 (David's defeated kingdoms); 1 Kgs 10:25 (Shlomo); 2 Kgs 17:3-4 (Hoshea to Shalmaneser); Hos 10:6 (Israel to Assyria). The v 21 *kipper panav b-minchah* construction (see commentary at v 21) imports cultic-vocabulary onto the inter-political setting."
+    },
+    {
+      "n": 15,
+      "refId": "GEN-WOH-32:15",
+      "text": "עִזִּ֣ים מָאתַ֔יִם וּתְיָשִׁ֖ים עֶשְׂרִ֑ים רְחֵלִ֥ים מָאתַ֖יִם וְאֵילִ֥ים עֶשְׂרִֽים׃",
+      "i18n": {
+        "en": "two hundred she-goats and twenty he-goats, two hundred ewes and twenty rams,"
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 16,
+      "refId": "GEN-WOH-32:16",
+      "text": "גְּמַלִּ֧ים מֵינִיק֛וֹת וּבְנֵיהֶ֖ם שְׁלֹשִׁ֑ים פָּר֤וֹת אַרְבָּעִים֙ וּפָרִ֣ים עֲשָׂרָ֔ה אֲתֹנֹ֣ת עֶשְׂרִ֔ים וַעְיָרִ֖ם עֲשָׂרָֽה׃",
+      "i18n": {
+        "en": "thirty milch camels and their colts, forty cows and ten bulls, twenty she-asses and ten foals."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 17,
+      "refId": "GEN-WOH-32:17",
+      "text": "וַיִּתֵּן֙ בְּיַד־עֲבָדָ֔יו עֵ֥דֶר עֵ֖דֶר לְבַדּ֑וֹ וַ֤יֹּאמֶר אֶל־עֲבָדָיו֙ עִבְר֣וּ לְפָנַ֔י וְרֶ֣וַח תָּשִׂ֔ימוּ בֵּ֥ין עֵ֖דֶר וּבֵ֥ין עֵֽדֶר׃",
+      "i18n": {
+        "en": "And he delivered them into the hand of his servants, every drove by itself; and he said to his servants, Pass over before me, and put a space between drove and drove."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 18,
+      "refId": "GEN-WOH-32:18",
+      "text": "וַיְצַ֥ו אֶת־הָרִאשׁ֖וֹן לֵאמֹ֑ר כִּ֣י יִֽפְגָּשְׁךָ֞ עֵשָׂ֣ו אָחִ֗י וִשְׁאֵֽלְךָ֙ לֵאמֹ֔ר לְמִי־אַ֙תָּה֙ וְאָ֣נָה תֵלֵ֔ךְ וּלְמִ֖י אֵ֥לֶּה לְפָנֶֽיךָ׃",
+      "i18n": {
+        "en": "And he commanded the foremost, saying, When Esav my brother meets you, and asks you, saying, Whose are you? and where are you going? and whose are these before you?"
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 19,
+      "refId": "GEN-WOH-32:19",
+      "text": "וְאָֽמַרְתָּ֙ לְעַבְדְּךָ֣ לְיַעֲקֹ֔ב מִנְחָ֥ה הִוא֙ שְׁלוּחָ֔ה לַֽאדֹנִ֖י לְעֵשָׂ֑ו וְהִנֵּ֥ה גַם־ה֖וּא אַחֲרֵֽינוּ׃",
+      "i18n": {
+        "en": "then you shall say, They are your servant Ya'aqov's; it is a present sent to my lord Esav; and behold, he also is behind us."
+      },
+      "glossaryRefs": [
+        "minchah-tribute-gift-of-appeasement"
+      ],
+      "commentary": ""
+    },
+    {
+      "n": 20,
+      "refId": "GEN-WOH-32:20",
+      "text": "וַיְצַ֞ו גַּ֣ם אֶת־הַשֵּׁנִ֗י גַּ֚ם אֶת־הַשְּׁלִישִׁ֔י גַּ֚ם אֶת־כָּל־הַהֹ֣לְכִ֔ים אַחֲרֵ֥י הָעֲדָרִ֖ים לֵאמֹ֑ר כַּדָּבָ֤ר הַזֶּה֙ תְּדַבְּר֣וּן אֶל־עֵשָׂ֔ו בְּמֹצַאֲכֶ֖ם אֹתֽוֹ׃",
+      "i18n": {
+        "en": "And he commanded also the second, and the third, and all that followed the droves, saying, In this manner shall you speak to Esav, when you find him;"
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 21,
+      "refId": "GEN-WOH-32:21",
+      "text": "וַאֲמַרְתֶּ֕ם גַּ֗ם הִנֵּ֛ה עַבְדְּךָ֥ יַעֲקֹ֖ב אַחֲרֵ֑ינוּ כִּֽי־אָמַ֞ר אֲכַפְּרָ֣ה פָנָ֗יו בַּמִּנְחָה֙ הַהֹלֶ֣כֶת לְפָנָ֔י וְאַחֲרֵי־כֵן֙ אֶרְאֶ֣ה פָנָ֔יו אוּלַ֖י יִשָּׂ֥א פָנָֽי׃",
+      "i18n": {
+        "en": "and you shall say, Moreover, behold, your servant Ya'aqov is behind us. For he said, I will appease his face with the present that goes before me, and afterward I will see his face; perhaps he will accept my face."
+      },
+      "glossaryRefs": [
+        "akhapprah-panav-appease-his-face",
+        "minchah-tribute-gift-of-appeasement"
+      ],
+      "commentary": "The verse contains the chapter's deliberate cultic-vocabulary import. The verb *akhapprah* (piel cohortative of *k-p-r*) is the canonical Levitical-atonement verb — used 92 times across the HB in the technical-cultic sense of *make atonement for, cover, expiate* (Lev 16's Yom Kippur ritual; Lev 4-7; Num 8). Its non-cultic deployments are rare; Gen 32:21 is one of the most-cited (alongside Prov 16:14 — *a wise man will appease* the king's anger). Whether this is deliberate cultic-vocabulary-import (Sarna *JPS* p. 225-226: Esav as quasi-divine-addressee) or a witness to a pre-cultic appeasement-semantic preserved in the patriarchal stratum (Milgrom *Leviticus 1-16* pp. 1079-1084), the verb's resonance with the Levitical cult is editorially unmistakable.\n\nThe verse contains **four occurrences of *panim***: *panav* (his face) — *l-fanai* (before my face) — *panav* (his face) — *panai* (my face). The four-fold cluster is editorially deliberate and structurally anticipates the v 31 *Peni'el* / *panim el panim* climax. The translation preserves all four — *I will appease his face with the present that goes before me, and afterward I will see his face; perhaps he will accept my face* — against ASV's smoothing (which preserves only the middle *panim*). The closing *yissa panai* (lift up my face) deploys the cross-corpus *nasa panim* idiom — the standard HB *show favor / accept the person* construction (Gen 19:21; Deut 10:17; Mal 1:8; etc.)."
+    },
+    {
+      "n": 22,
+      "refId": "GEN-WOH-32:22",
+      "text": "וַתַּעֲבֹ֥ר הַמִּנְחָ֖ה עַל־פָּנָ֑יו וְה֛וּא לָ֥ן בַּלַּֽיְלָה־הַה֖וּא בַּֽמַּחֲנֶֽה׃",
+      "i18n": {
+        "en": "So the present passed over before him; and he himself lodged that night in the camp."
+      },
+      "glossaryRefs": [
+        "minchah-tribute-gift-of-appeasement"
+      ],
+      "commentary": ""
+    },
+    {
+      "n": 23,
+      "refId": "GEN-WOH-32:23",
+      "text": "וַיָּ֣קָם ׀ בַּלַּ֣יְלָה ה֗וּא וַיִּקַּ֞ח אֶת־שְׁתֵּ֤י נָשָׁיו֙ וְאֶת־שְׁתֵּ֣י שִׁפְחֹתָ֔יו וְאֶת־אַחַ֥ד עָשָׂ֖ר יְלָדָ֑יו וַֽיַּעֲבֹ֔ר אֵ֖ת מַעֲבַ֥ר יַבֹּֽק׃",
+      "i18n": {
+        "en": "And he rose up that night, and took his two wives, and his two handmaids, and his eleven children, and passed over the ford of the Yabboq."
+      },
+      "glossaryRefs": [
+        "yabboq-vayeavek-paronomasia"
+      ],
+      "commentary": "The verse opens the chapter's central scene. The river-name *Yabboq* (יַבֹּק) is the trans-Jordanian wadi — modern Nahr ez-Zarqa — flowing west into the Jordan c. 35 km north of the Dead Sea, forming the southern boundary of the Gad / Reuben territorial-allocation in the conquest-narratives (Num 21:24; Josh 12:2). The toponym's etymology is conventionally derived from the root *b-q-q* (*pour out, empty*), describing the river's seasonal flood-pattern (BDB s.v. *Yabboq* p. 132)."
+    },
+    {
+      "n": 24,
+      "refId": "GEN-WOH-32:24",
+      "text": "וַיִּקָּחֵ֔ם וַיַּֽעֲבִרֵ֖ם אֶת־הַנָּ֑חַל וַֽיַּעֲבֵ֖ר אֶת־אֲשֶׁר־לוֹ׃",
+      "i18n": {
+        "en": "And he took them, and sent them over the stream, and sent over that which he had."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 25,
+      "refId": "GEN-WOH-32:25",
+      "text": "וַיִּוָּתֵ֥ר יַעֲקֹ֖ב לְבַדּ֑וֹ וַיֵּאָבֵ֥ק אִישׁ֙ עִמּ֔וֹ עַ֖ד עֲל֥וֹת הַשָּֽׁחַר׃",
+      "i18n": {
+        "en": "And Ya'aqov was left alone; and there wrestled a man with him until the breaking of the day."
+      },
+      "glossaryRefs": [
+        "the-ish-of-penuel-anonymous-wrestler",
+        "yabboq-vayeavek-paronomasia"
+      ],
+      "commentary": "The verse is one of the most-discussed in the entire Hebrew Bible. The wrestler is named only as *ish* — *a man*, an unnamed human-form figure — and the narrator never resolves the identity-question. Five major interpretive traditions stand:\n\n**(1) The *ish* as a *mal'akh* / divine messenger.** Supported by Hos 12:4-5 (*va-yasar el-mal'akh va-yukhal* — *he strove with a messenger and prevailed*), the earliest HB-internal reception. Modern critical: Sarna *JPS* p. 226; Hamori *When Gods Were Men* 2008. (2) **The *ish* as YHWH himself or a pre-incarnate Christophany.** Read by the patristic tradition (Justin, Irenaeus, Tertullian, Augustine *De Trinitate* II.18). Modern critical: Westermann *Genesis 12-36* pp. 514-520; von Rad *OTL* pp. 319-321. (3) **The *ish* as Esav's guardian-angel — Samael / Sariel.** Dominant rabbinic-midrashic reading: Genesis Rabbah 77:3, 78:3; Rashi at v 25; Targum Pseudo-Jonathan; the Zohar I:170a-171a. (4) **The *ish* as a river-numen / night-spirit / chthonic-being.** The history-of-religions reading: Gunkel *Genesis* 1901 pp. 348-352; Frazer *Folklore in the Old Testament* III 1918; partial acceptance Westermann. (5) **The *ish* as Ya'aqov's internal-other / psychological projection.** The modern literary-critical and depth-psychological reading: Fokkelman *Narrative Art in Genesis* 1975 pp. 197-222; Jung's analytical-psychology Genesis-readings.\n\nThe chapter's editorial-silence on the identity is itself the interpretive datum (Fokkelman): the narrator deliberately under-determines the wrestler's identity, sustaining all five readings without resolution. The translation preserves *a man* (ASV-baseline) and documents the five mainstream traditions in the glossary; project-specific synthesis is reserved for the wiki.\n\nThe paronomasia *Yabboq* (y-b-q) / *va-ye'avek* (ʾ-b-q in niphal) / *Ya'aqov* (y-ʿ-q-b) binds the toponym, the wrestling-verb, and the patriarch's name into a single sound-cluster — one of the HB's most-deliberate verbal word-plays (Sarna p. 226; Alter *Five Books of Moses* p. 181; Fokkelman pp. 197-222). The niphal of *avaq* (wrestle) appears only at vv 25-26 in the entire HB."
+    },
+    {
+      "n": 26,
+      "refId": "GEN-WOH-32:26",
+      "text": "וַיַּ֗רְא כִּ֣י לֹ֤א יָכֹל֙ ל֔וֹ וַיִּגַּ֖ע בְּכַף־יְרֵכ֑וֹ וַתֵּ֙קַע֙ כַּף־יֶ֣רֶךְ יַעֲקֹ֔ב בְּהֵֽאָבְק֖וֹ עִמּֽוֹ׃",
+      "i18n": {
+        "en": "And when he saw that he prevailed not against him, he touched the hollow of his thigh; and the hollow of Ya'aqov's thigh was strained as he wrestled with him."
+      },
+      "glossaryRefs": [
+        "kaf-yerekh-tek'a-wrestling-injury",
+        "yabboq-vayeavek-paronomasia"
+      ],
+      "commentary": "The wrestling's decisive moment. The construct *kaf ha-yarekh* (the *hollow* / *cup* / *socket* of the thigh — *kaf* + *yarekh*) is most naturally read as the **hip-socket** — the *acetabulum* — with *va-teqa* (niphal of *y-q-ʿ / t-q-ʿ*) registering the dislocation-or-wrenching of the joint (so Sarna *JPS* p. 227; Westermann *Genesis 12-36* pp. 517-518; NJPS *struck the socket of his hip*).\n\nTwo alternative readings stand. A rabbinic-tradition reading at Genesis Rabbah 77:3 takes *kaf-yerekh* as a euphemism for the genital-region (drawing on the *yarekh*-as-loins-euphemism elsewhere — Gen 46:26; Judg 8:30 — and on the *naga*-as-sexual-contact register of Gen 20:6; 26:11; Prov 6:29), making the wound a wounding of male-fertility. Modern critical scholarship generally rejects this in favor of the anatomical reading. A third reading identifies the touched-tissue with the **sciatic nerve**, consistent with the v 33 *gid ha-nasheh* aetiology and with the rabbinic-halakhic identification at m. Chullin 7 / b. Chullin 91a. The limping-aftermath at v 32 confirms a physical-injury; the precise anatomy is debated."
+    },
+    {
+      "n": 27,
+      "refId": "GEN-WOH-32:27",
+      "text": "וַיֹּ֣אמֶר שַׁלְּחֵ֔נִי כִּ֥י עָלָ֖ה הַשָּׁ֑חַר וַיֹּ֙אמֶר֙ לֹ֣א אֲשַֽׁלֵּחֲךָ֔ כִּ֖י אִם־בֵּרַכְתָּֽנִי׃",
+      "i18n": {
+        "en": "And he said, Let me go, for the day breaks. And he said, I will not let you go, unless you bless me."
+      },
+      "glossaryRefs": [
+        "dawn-constrained-divine-departure"
+      ],
+      "commentary": "The *ish*'s urgent dawn-request — *shalcheni ki alah ha-shachar* (*let me go, for the dawn has risen*) — is one of the HB's most-explicit dawn-constraint verses. The motif has substantial ANE comparative-religion background: the classical history-of-religions reading (Gunkel *Genesis* 1901; Frazer *Folklore in the OT* III 1918) reads the dawn-constraint as a vestige of the river-numen / chthonic-being tradition — night-spirits constrained by daylight, a pattern attested across Mesopotamian (the *Maqlu*-and-*Surpu* night-demons; Lamashtu; Lilitu), Greek (the pre-Olympian *nyktis*-tradition; chthonic-figures vanquished by Eos), Egyptian (Ra's night-traversal and dawn-rebirth in the *Amduat* and *Book of Gates*), and Ugaritic (the deified-dawn *Shahar*, KTU 1.23 *Birth of the Gracious Gods*; cognate with the Hebrew *shachar*) traditions.\n\nThe modern-critical default reading (Westermann *Genesis 12-36* pp. 520-521) treats the dawn-constraint as consistent with the *mal'akh*-figure pattern: divine-messengers operate in night-and-dream-encounters and depart at dawn (cf. Gen 19:15 — the Sodom-messengers' dawn-urgency to Lot). On either reading, the dawn-constraint is editorially deliberate."
+    },
+    {
+      "n": 28,
+      "refId": "GEN-WOH-32:28",
+      "text": "וַיֹּ֥אמֶר אֵלָ֖יו מַה־שְּׁמֶ֑ךָ וַיֹּ֖אמֶר יַעֲקֹֽב׃",
+      "i18n": {
+        "en": "And he said to him, What is your name? And he said, Ya'aqov."
+      },
+      "glossaryRefs": [],
+      "commentary": ""
+    },
+    {
+      "n": 29,
+      "refId": "GEN-WOH-32:29",
+      "text": "וַיֹּ֗אמֶר לֹ֤א יַעֲקֹב֙ יֵאָמֵ֥ר עוֹד֙ שִׁמְךָ֔ כִּ֖י אִם־יִשְׂרָאֵ֑ל כִּֽי־שָׂרִ֧יתָ עִם־אֱלֹהִ֛ים וְעִם־אֲנָשִׁ֖ים וַתּוּכָֽל׃",
+      "i18n": {
+        "en": "And he said, Your name shall be called no more Ya'aqov, but Yisra'el; for you have striven with Elohim and with men, and have prevailed."
+      },
+      "glossaryRefs": [
+        "yisrael-name-aetiology-sarah-im-elohim"
+      ],
+      "commentary": "The patriarchal-corpus's second renaming, after Avram → Avraham (paired with Sarai → Sarah) at Gen 17:5, 15. The verse contains (a) the renaming itself; (b) the explicit in-text etymology *ki-sarita im-Elohim v-im-anashim va-tukhal* (*for you have striven with Elohim and with men, and have prevailed*); (c) the foundational construction of one of the HB's most-significant proper-names.\n\nThe etymology is grammatically ambiguous. The verb *sarita* (qal pf 2ms of *s-r-h*, *strive, contend*) unambiguously names **the patriarch** as the subject of the striving in the in-text-etymology. But the grammatical-form of the name *Yisra'el* — with the *yi-* prefix — is more naturally read as the imperfect verbal form with **El as the subject** (*El strives*) — the theophoric-naming pattern that recurs across HB proper-names (cf. Yochanan — *YHWH has been gracious*; Yishma'el — *El will hear*). Modern critical scholarship treats the in-text etymology as a post-facto folk-etymology that does not match the name's grammatical-form: the original meaning was likely *El strives* (Cross *Canaanite Myth and Hebrew Epic* 1973 pp. 44-45; HALOT s.v. *Yisra'el*; Sarna *JPS* p. 229). The chapter's etymology is a literary-theological reworking that reassigns the subject from El to the patriarch.\n\nFive etymological positions are documented in the glossary: (1) *El strives* (theophoric, modern critical default); (2) *one who strives with El* (the in-text etymology); (3) *El is upright* (Ibn Ezra, minority); (4) *El rules* (from *sarar*, Albright); (5) *El shines* (Ugaritic *yšr*, Speiser, rejected).\n\nThe renaming-formula's *im-Elohim v-im-anashim* (*with Elohim and with men*) retrospectively reads the entire Ya'aqov-cycle as a striving-and-prevailing pattern: with Elohim (the chapter's *ish*, prior divine-encounters) and with men (Esav at the birthright and blessing; Lavan throughout the twenty-year service). The Hos 12:4-5 prophetic-reception reads this back into the patriarch's character: *ba-beten aqav et-achiv u-v-ono sarah et-Elohim* — *in the womb he supplanted his brother, and in his strength he strove with Elohim*."
+    },
+    {
+      "n": 30,
+      "refId": "GEN-WOH-32:30",
+      "text": "וַיִּשְׁאַ֣ל יַעֲקֹ֗ב וַיֹּ֙אמֶר֙ הַגִּֽידָה־נָּ֣א שְׁמֶ֔ךָ וַיֹּ֕אמֶר לָ֥מָּה זֶּ֖ה תִּשְׁאַ֣ל לִשְׁמִ֑י וַיְבָ֥רֶךְ אֹת֖וֹ שָֽׁם׃",
+      "i18n": {
+        "en": "And Ya'aqov asked him, and said, Tell me, I pray you, your name. And he said, Why is it that you ask after my name? And he blessed him there."
+      },
+      "glossaryRefs": [
+        "name-refusal-formula"
+      ],
+      "commentary": "The *ish*'s name-refusal — *lamah zeh tish'al li-shmi* (*why is it that you ask after my name?*) — is the HB's canonical name-refusal idiom, paralleled exactly at Judg 13:17-18 (the Manoah / Samson-annunciation episode): *va-yomer Manoach el-mal'akh YHWH mi sh'mekha ki yavo d'varekha v-khibadnukha va-yomer lo mal'akh YHWH lamah zeh tish'al li-shmi v-hu peli* — *and Manoah said to the messenger of YHWH, what is your name, that when your word comes we may honor you? And the messenger of YHWH said to him, why is it that you ask after my name, seeing it is wonderful?*. The exact verbal parallel is editorially significant and is widely treated as a paired pattern (Sarna *JPS* p. 227; Westermann *Genesis 12-36* p. 521; Boling *Judges* AB pp. 219-222).\n\nThe motif's cross-corpus reading: the divine-figure withholds his name to preserve divine-mystery and prevent invocation-of-the-name in the magical-name register. The HB elsewhere preserves a clear pattern: divine-names are **disclosed** only by the deity's own initiative (Exod 3:13-15 — the Mosaic name-revelation as canonical-counterpoint), and **withheld** in the *mal'akh*-encounters (Gen 32:30; Judg 13:18; Judg 6 — Gid'on never asks; Josh 5:13-15 — the *sar tz'va YHWH*). The chapter's name-refusal sits comfortably with the documentary-source reading of the patriarchal Elohim-religion (Exod 6:3: *u-shmi YHWH lo nodati la-hem*).\n\nThe asymmetry is notable: the *ish* has just renamed Ya'aqov to Yisra'el (v 29), demonstrating authority-to-name a human while preserving his own name from disclosure. The closing *va-yvarekh oto sham* (*and he blessed him there*) parallels Judg 13:18-20's blessing-after-name-refusal pattern."
+    },
+    {
+      "n": 31,
+      "refId": "GEN-WOH-32:31",
+      "text": "וַיִּקְרָ֧א יַעֲקֹ֛ב שֵׁ֥ם הַמָּק֖וֹם פְּנִיאֵ֑ל כִּֽי־רָאִ֤יתִי אֱלֹהִים֙ פָּנִ֣ים אֶל־פָּנִ֔ים וַתִּנָּצֵ֖ל נַפְשִֽׁי׃",
+      "i18n": {
+        "en": "And Ya'aqov called the name of the place Peni'el; for, said he, I have seen Elohim face to face, and my life is preserved."
+      },
+      "glossaryRefs": [
+        "peniel-panim-el-panim-divine-face-encounter"
+      ],
+      "commentary": "The chapter's climactic verse and one of the HB's foundational theophany-statements. Three load-bearing elements compress into a single verse:\n\n**(a) The toponym *Peni'el*** is a construct-chain *peni-* (face-of) + *El* (the deity-name) — *Face-of-El*. The in-text etymology — *ki-ra'iti Elohim panim el panim* (*for I have seen Elohim face to face*) — makes the face-of-the-deity meaning explicit. The variant form *Penu'el* appears at v 32 and is the form used across the cross-corpus material (Judg 8:8-9, 17 — Gid'on's destruction; 1 Kgs 12:25 — Yarov'am's royal-fortification). The dialectal-orthographic variation is preserved.\n\n**(b) *Panim el panim*** is the HB's canonical direct-divine-encounter formula. Cross-corpus loci: Exod 33:11 (*v-diber YHWH el-Moshe panim el panim ka-asher y-daber ish el-re'ehu* — the keystone Mosaic-deployment); Deut 5:4 (*panim b-panim* — the Sinai-people-encounter); Deut 34:10 (the formula as the *defining-characteristic of Mosaic uniqueness* — *and there has not arisen a prophet since in Yisra'el like Moshe, whom YHWH knew face to face*); Judg 6:22 (Gid'on); Ezek 20:35. The formula names **the most-direct mode** of divine encounter — the antithesis of Exod 33:20's *lo yir'ani ha-adam va-chai* (*no man shall see me and live*).\n\n**(c) *Va-tinatzel nafshi*** (*and my soul was delivered*) is the survived-theophany clause. The niphal of *natzal* (deliver, snatch from danger) with *nefesh* (life, soul) registers the rescue from a fatal-default-outcome — divine-visibility is fatal in HB theology, and the recorded-survivors (Ya'aqov here; Moshe at Exod 33:11; the Sinai-people at Deut 5:4; Gid'on at Judg 6:22 — *ahah Adonai YHWH ki al-ken ra'iti mal'akh YHWH panim el panim*; Manoah at Judg 13:22 — *mot namut ki Elohim ra'inu*; possibly Isa 6:5 — *oy-li ki nidmeiti*) are exceptional.\n\nThis verse is **the patriarchal-corpus's most-explicit survived-theophany statement** and is foundational for the wider HB theophany-theology (Sarna *JPS* p. 229; Westermann *Genesis 12-36* pp. 519-524; Hamori *When Gods Were Men* 2008; Sommer *The Bodies of God* 2009)."
+    },
+    {
+      "n": 32,
+      "refId": "GEN-WOH-32:32",
+      "text": "וַיִּֽזְרַֽח־ל֣וֹ הַשֶּׁ֔מֶשׁ כַּאֲשֶׁ֥ר עָבַ֖ר אֶת־פְּנוּאֵ֑ל וְה֥וּא צֹלֵ֖עַ עַל־יְרֵכֽוֹ׃",
+      "i18n": {
+        "en": "And the sun rose upon him as he passed over Penu'el, and he limped upon his thigh."
+      },
+      "glossaryRefs": [
+        "peniel-panim-el-panim-divine-face-encounter"
+      ],
+      "commentary": "The toponym appears here as **Penu'el** (פְּנוּאֵל) — the dialectal-orthographic variant of v 31's *Peni'el*. The narrator preserves both forms in adjacent verses without harmonization; the *Penu'el* form is the variant used across the cross-corpus (Judg 8:8-9, 17; 1 Kgs 12:25). The verb *tzala* (limp; here qal active participle *tzole'a*) is rare in BH, recurring only at Mic 4:6-7 and Zeph 3:19 (of *ha-tzole'ah*, the lame ones). The sun-rising (*va-yizrach lo ha-shemesh*) and the limping (*v-hu tzole'a al-yerekho*) together close the wrestling-narrative with the bodily-mark of the encounter: Ya'aqov walks into sunrise bearing the physical-trace of what happened in the dark."
+    },
+    {
+      "n": 33,
+      "refId": "GEN-WOH-32:33",
+      "text": "עַל־כֵּ֡ן לֹֽא־יֹאכְל֨וּ בְנֵֽי־יִשְׂרָאֵ֜ל אֶת־גִּ֣יד הַנָּשֶׁ֗ה אֲשֶׁר֙ עַל־כַּ֣ף הַיָּרֵ֔ךְ עַ֖ד הַיּ֣וֹם הַזֶּ֑ה כִּ֤י נָגַע֙ בְּכַף־יֶ֣רֶךְ יַעֲקֹ֔ב בְּגִ֖יד הַנָּשֶֽׁה׃",
+      "i18n": {
+        "en": "Therefore the children of Yisra'el do not eat the sinew of the thigh-vein which is upon the hollow of the thigh, to this day; because he touched the hollow of Ya'aqov's thigh in the sinew of the thigh-vein."
+      },
+      "glossaryRefs": [
+        "gid-ha-nasheh-sciatic-nerve-dietary-rule"
+      ],
+      "commentary": "The chapter's closing aetiological-clause. The construct *gid ha-nasheh* combines *gid* (sinew, tendon, nerve) with the noun *nasheh* — a **HB hapax legomenon**, occurring nowhere else in the entire Hebrew Bible. The noun's etymology is uncertain (BDB and HALOT both review the lexicographical positions without resolution; possible derivations from a root meaning *forget, displace, wither*). The standard rabbinic-tradition identification is **the sciatic nerve** (*nervus ischiadicus*), developed extensively in m. Chullin 7 and b. Chullin 89b-103b, and operative in current Jewish halakhic-practice (the *nikkur* procedure).\n\nThe *ad ha-yom ha-zeh* clause (*to this day*) is the HB's canonical aetiology-clause-marker (cf. Gen 19:38; 22:14; 26:33; 35:20; 47:26; 50:11; and widely across the Hexateuch). It establishes the verse as a narrator's-time aetiology: the narrator supplies the origin-story for a continuing-Israelite practice.\n\n**The verse's unique status.** The *gid ha-nasheh* prohibition is **the only HB dietary-rule whose origin is a narrative aetiology rather than a divine-command**. Every other kashrut-rule — Lev 11; Deut 14 (the comprehensive kashrut-legislation); Gen 9:4 (the blood-prohibition to Noach); the *lo t'vashel g'di b-chalev imo* prohibition (Exod 23:19; 34:26; Deut 14:21); the swine-prohibition (Lev 11:7; Deut 14:8) — is anchored to a divine-command formula. The *gid ha-nasheh* alone is grounded in a **patriarchal-narrative-precedent** (Ya'aqov's wound), not in a Sinaitic-or-pre-Sinaitic-divine-command. The categorical-distinction is editorially load-bearing (Sarna *JPS* pp. 228-229; Westermann *Genesis 12-36* pp. 522-524; Hamilton *NICOT* pp. 335-336). The verse is the chapter's editorial-closure that links the patriarchal-wound to the continuing-Israelite-practice — a wound-and-prohibition aetiology preserved across millennia of halakhic-development (Sifre to Deut 14; Maimonides Hilkhot Ma'akhalot Asurot 8; Shulchan Arukh Yoreh De'ah 65)."
+    }
+  ],
+  "editorial_questions": []
+}
