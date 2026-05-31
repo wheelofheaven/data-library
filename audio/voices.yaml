@@ -1,0 +1,69 @@
+# ElevenLabs voice mapping per (speaker, language).
+#
+# Fill in voice_id values after picking voices from the ElevenLabs voice library
+# at https://elevenlabs.io/app/voice-library. The voice_id is the UUID you see in
+# the library URL when you click on a voice.
+#
+# Voice settings (stability, similarity_boost) are ElevenLabs sliders:
+#  - stability (0-1): higher = more consistent voice, lower = more expressive
+#  - similarity_boost (0-1): higher = closer to original voice characteristics
+#  - style (0-1, eleven_v3+): emotional range; 0 disables
+# Recommended defaults below by speaker; adjust after MVP listening.
+
+# Default model used for all generations
+model: eleven_multilingual_v2
+
+# Default per-speaker settings (overridable per-language below)
+defaults:
+  Narrator:
+    stability: 0.55           # natural narration cadence; some variation
+    similarity_boost: 0.75
+    style: 0.0
+  Raël:
+    stability: 0.60           # in-scene dialogue; slightly more grounded
+    similarity_boost: 0.75
+    style: 0.0
+  Yahweh:
+    stability: 0.70           # consistent gravitas across long monologues
+    similarity_boost: 0.80
+    style: 0.0
+
+# Per-language voice assignments. The (speaker, lang) tuple → voice_id.
+# Leave voice_id blank until you've picked a voice from the ElevenLabs library.
+voices:
+  en:
+    Narrator:
+      voice_id: ""            # TODO: pick from library
+      # stability, similarity_boost: inherit from defaults; uncomment to override
+    Raël:
+      voice_id: ""            # can share the Narrator voice with different settings
+    Yahweh:
+      voice_id: ""
+
+  fr:
+    Narrator:
+      voice_id: ""
+    Raël:
+      voice_id: ""
+    Yahweh:
+      voice_id: ""
+
+  # Other languages — fill in as the corpus expands beyond TBWTT/ETTMTTP/LWTE.
+  de: {}
+  es: {}
+  ru: {}
+  ja: {}
+  ko: {}
+  zh: {}
+  zh-Hant: {}
+
+# Inter-paragraph pause length in milliseconds. Concatenation inserts a silence
+# clip of this length between paragraphs. Override per-paragraph via the TTS
+# sidecar's `tts_pause_after` field (planned).
+pause_ms_between_paragraphs: 600
+pause_ms_between_speakers: 900    # longer pause when speaker changes
+
+# Whether to use SSML phoneme tags from data-library/lexicon/{lang}.yaml.
+# When true, occurrences of lexicon entries are wrapped with
+# <phoneme alphabet="ipa" ph="…"> for ElevenLabs's IPA support.
+use_ssml_phoneme: true
