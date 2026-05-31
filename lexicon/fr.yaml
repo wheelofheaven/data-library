@@ -1,0 +1,101 @@
+# French pronunciation lexicon.
+# Used when generating French audio. IPA suits ElevenLabs SSML <phoneme> tags;
+# fallback respelling for engines without SSML phoneme support.
+#
+# Only entries that French TTS reliably mispronounces — most names are fine.
+# See _README.md for what's intentionally NOT here.
+
+entries:
+  # === Coined / project-specific ===
+
+  Raël:
+    ipa: "ʁa.ɛl"
+    fallback: "Ra-èl"
+    note: "Two syllables: ra-èl. Not 'rail'. Stress on second syllable."
+
+  MADECH:
+    ipa: "ma.dɛk"
+    fallback: "Madèque"
+    note: "Pronounced as a word, 'ma-dèque' — not spelled out as letters."
+
+  Raëlien:
+    ipa: "ʁa.e.ljɛ̃"
+    fallback: "Ra-é-lien"
+    note: "Three syllables. Variants: Raëlienne (ʁa.e.ljɛn), Raëliens (ʁa.e.ljɛ̃)."
+
+  Raëlienne:
+    ipa: "ʁa.e.ljɛn"
+    fallback: "Ra-é-lienne"
+
+  Raëliens:
+    ipa: "ʁa.e.ljɛ̃"
+    fallback: "Ra-é-liens"
+
+  # === Religious / Hebrew (FR conventional pronunciation) ===
+
+  Elohim:
+    ipa: "e.lɔ.im"
+    fallback: "Élohim"
+    note: "Three syllables: É-lo-him. The 'h' is silent in French."
+
+  Yahvé:
+    ipa: "ja.ve"
+    fallback: "Ya-vé"
+    note: "French rendering of YHWH. Two syllables. The 'h' is silent."
+
+  # Source uses Iahvé in some places — normalize_tts.py converts Iahvé → Yahvé
+  # before lookup. This entry is here as a safety net.
+  Iahvé:
+    alias: Yahvé
+
+  Adonaï:
+    ipa: "a.dɔ.na.i"
+    fallback: "A-do-na-ï"
+    note: "Four syllables. The trailing -aï is a French diphthong pronounced /ai/."
+
+  Ezéchiel:
+    ipa: "e.ze.kjɛl"
+    fallback: "É-zé-kiel"
+    note: "Three syllables in French biblical convention. Not 'eh-zeh-shi-el'."
+
+  Mahomet:
+    ipa: "ma.ɔ.mɛ"
+    fallback: "Ma-o-mè"
+    note: "French rendering of Muhammad. Silent 'h'. Three syllables."
+
+  Bouddha:
+    ipa: "bu.da"
+    fallback: "Bou-da"
+    note: "Two syllables, French pronunciation."
+
+  Nephilim:
+    ipa: "ne.fi.lim"
+    fallback: "Né-fi-lim"
+    note: "Three syllables. Hebrew origin meaning 'the fallen ones'."
+
+  # === French geographic (mostly handled by FR TTS, but listed for completeness) ===
+
+  Périgord:
+    ipa: "pe.ʁi.gɔʁ"
+    fallback: "Pé-ri-gor"
+    note: "Three syllables, silent final 'd'. French region."
+
+  Clermont-Ferrand:
+    ipa: "klɛʁ.mɔ̃.fɛ.ʁɑ̃"
+    fallback: "Clèr-mon-Fé-rran"
+    note: "Compound name, two parts. Both nasal vowels."
+
+  Le Puy-en-Velay:
+    ipa: "lə.pɥi.ɑ̃.və.lɛ"
+    fallback: "Le Pwi-an-Velé"
+    note: "Compound place name. 'Puy' is one syllable, like /pɥi/."
+
+  Mont-Dore:
+    ipa: "mɔ̃.dɔʁ"
+    fallback: "Mon-Dor"
+    note: "Two syllables. Nasal first vowel."
+
+  Ambert:
+    ipa: "ɑ̃.bɛʁ"
+    fallback: "An-bèr"
+    note: "Silent final 't'. Town in Auvergne."

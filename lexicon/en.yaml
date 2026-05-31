@@ -1,0 +1,104 @@
+# English pronunciation lexicon.
+# Used when generating English audio. IPA suits ElevenLabs SSML <phoneme> tags;
+# fallback respelling for engines without SSML phoneme support.
+#
+# Only entries that English TTS reliably mispronounces.
+# See _README.md for what's intentionally NOT here.
+
+entries:
+  # === Coined / project-specific ===
+
+  Raël:
+    ipa: "rɑːˈɛl"
+    fallback: "Rah-EL"
+    note: "Two syllables, stress on second: 'rah-EL'. Not 'rail' or 'royal'."
+
+  MADECH:
+    ipa: "ˈmædɛk"
+    fallback: "MAH-deck"
+    note: "Pronounced as a word, 'MAH-deck' — not spelled out."
+
+  Raëlian:
+    ipa: "rɑːˈɛliən"
+    fallback: "rah-EL-ee-uhn"
+
+  Raëlians:
+    ipa: "rɑːˈɛliənz"
+    fallback: "rah-EL-ee-uhns"
+
+  # === Religious / Hebrew (English conventional pronunciations) ===
+
+  Elohim:
+    ipa: "ˌɛloʊˈhiːm"
+    fallback: "el-oh-HEEM"
+    note: "Three syllables, stress on last. Hebrew origin. Common English-religious pronunciation."
+
+  Yahweh:
+    ipa: "ˈjɑːweɪ"
+    fallback: "YAH-way"
+    note: "Two syllables, stress on first. The H is aspirated, not silent."
+
+  # Source EN translations might still contain French Iahvé/Yahvé — treat as Yahweh.
+  Iahvé:
+    alias: Yahweh
+  Yahvé:
+    alias: Yahweh
+
+  Adonai:
+    ipa: "ˌɑːdoʊˈnaɪ"
+    fallback: "ah-doh-NIGH"
+    note: "Three syllables. Common English-Hebrew pronunciation."
+
+  # FR form Adonaï might appear in EN translations — treat as Adonai
+  Adonaï:
+    alias: Adonai
+
+  Ezekiel:
+    ipa: "ɪˈziːkiəl"
+    fallback: "ih-ZEE-kee-uhl"
+    note: "Three or four syllables. Standard English biblical pronunciation."
+
+  # FR form might appear if translation didn't normalize
+  Ezéchiel:
+    alias: Ezekiel
+
+  Nephilim:
+    ipa: "ˈnɛfɪlɪm"
+    fallback: "NEH-fih-lim"
+    note: "Three syllables. Hebrew origin, 'the fallen ones'."
+
+  # === French geographic that appears in English text ===
+
+  Périgord:
+    ipa: "ˌpɛrɪˈɡɔːr"
+    fallback: "PEH-ree-GOR"
+    note: "Keep approximately French pronunciation. Silent final 'd'."
+
+  Clermont-Ferrand:
+    ipa: "ˌklɛərmɒn fəˈrɒ̃"
+    fallback: "Klair-mon Feh-RON"
+    note: "Two-part French city name. Keep French stress and nasalization."
+
+  Le Puy-en-Velay:
+    ipa: "lə ˈpwiː ɒn vəˈleɪ"
+    fallback: "Luh Pwee on Vuh-LAY"
+    note: "Three-part French place name."
+
+  Mont-Dore:
+    ipa: "mɒ̃ ˈdɔːr"
+    fallback: "Mon DOR"
+
+  Ambert:
+    ipa: "ɒ̃ˈbɛər"
+    fallback: "om-BAIR"
+    note: "Silent final 't'. French town."
+
+  # === Bible-book forms that may show as French in unfixed translations ===
+
+  Genèse:
+    alias: Genesis
+  Apocalypse:
+    # The English word "Apocalypse" exists but in Bible context usually = Revelation
+    # Leaving as-is; "Apocalypse" pronounced in English is fine
+    ipa: "əˈpɒkəlɪps"
+    fallback: "uh-POK-uh-lips"
