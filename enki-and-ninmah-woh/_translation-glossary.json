@@ -1,0 +1,563 @@
+{
+  "$schema": "../_translation-glossary.schema.json",
+  "name": "Enki and Ninmah — per-translation overlay glossary",
+  "version": "1.1.0",
+  "released": "2026-06-01",
+  "description": "Per-translation overlay glossary for Enki and Ninmah (ETCSL 1.1.2). Houses entries that are composition-specific or near-singular within the WoH Mesopotamian corpus (entries with cross-corpus reach across Sumerian/Akkadian/Hebrew should live in the central glossary instead).",
+  "sourceLanguages": [
+    "sux"
+  ],
+  "scopeNote": "v1.1.0 — first Editor pass adds the project's foundational Sumerian conventions (lacuna-bracket convention; DINGIR-prefix prose-drop; sh-digraph anglicization; Sumerian proper-name transliteration policy; manuscript-variant inline-rendering) and the chapter-specific philological cruxes (the line-11 zi/inim breath-vs-complaint reading; the SIG7-EN / SIG7-HI birth-goddess sign-values; the defective-creatures vocabulary; Umul's etymology and identification; Hal-anku; the kiĝ2-sig10 line-23 substitute-vs-evening-meal crux; the eight birth-goddesses' transliterations; the tiru third-gender courtier; the namtar demon-vs-destiny parsing; the la2 line-132 contest-verb; the ushumgal great-one metaphor; the lu2lil fool; the a-za-ad head-or-fontanel body-part; the lu2 til3-la / lu2 ug5-ga neither-living-nor-dead category). All entries here are composition-singular or chapter-localized; cross-corpus Sumerian foundational vocabulary lives in the central glossary at v2.52.0.",
+  "terms": [
+    {
+      "id": "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+      "source": "[…] / [word] / <word> / <<word>> / /word\\",
+      "translit": "ETCSL apparatus-marker conventions",
+      "lemma": "—",
+      "partOfSpeech": "editorial-apparatus convention",
+      "literal": "ETCSL conventional bracket-marks for text-state",
+      "standardEnglish": "ETCSL renders these brackets directly into the English; some scholarly translations (Foster, Jacobsen) drop the brackets and use prose paraphrase",
+      "wohChoice": "WoH retains [word] for restorations supplied from another witness; retains <word> for editorial supply of plausibly-omitted text; retains […] for lacunae; silently collapses /word\\ (damage-but-readable) into ordinary text; <<word>> (scribal-addition-to-be-deleted) is dropped from prose with the deletion noted in commentary only where editorially significant.",
+      "claim_type": "direct",
+      "rationale": "**The ETCSL editorial apparatus uses four distinct bracket-types**, each carrying a different epistemic claim about the manuscript-state of the text: **(i) [word]** = restored from another manuscript witness (the lacuna is genuine in this witness but the reading is preserved elsewhere); **(ii) <word>** = editorial supply (the editor proposes a reading that no witness preserves, on metrical, grammatical, or contextual grounds); **(iii) <<word>>** = scribal addition the editor marks for deletion (one witness has a word that the editor judges to be a copyist's intrusion); **(iv) /word\\** = damaged but readable (the cuneiform sign is partly broken but the reading is secure). The four conventions are documented in **Black, Cunningham, Robson, and Zolyomi**'s ETCSL editorial documentation and in **Jeremy Black** *et al.*'s *The Literature of Ancient Sumer* (Oxford 2004), pp. xli-xliv.\n\n**The four categories carry genuinely different epistemic weight** and a reader's stance on the text-state benefits from seeing the markers preserved. Square brackets [word] tell the reader 'this English word stands where a witness lacuna sits, but other manuscripts have it'; angle brackets <word> tell the reader 'this English word represents a conjectural supply by the editor'; the ellipsis […] tells the reader 'here is text irrecoverably lost'. These distinctions are load-bearing for scholarly use and worth preserving. By contrast, the /word\\ damage-but-readable marker is editorial-apparatus about cuneiform sign-state, not text-state — once the editor has read the damaged sign, the reading is secure and the English reader needs no marker. The <<word>> deletion-marker is similarly editor-apparatus rather than text-state for the prose reader; where the deletion is editorially significant (e.g., a phrase that some manuscripts include and the editor judges intrusive), it can be flagged in commentary.\n\n**Scholarly practice varies.** **Benjamin Foster** in *Before the Muses* (3rd ed. 2005) and **Jacobsen** in *The Harps that Once* (1987) tend to drop brackets in their flowing English prose translations, relying on prefatory notes to flag the manuscript-state convention. **ETCSL**'s English translations preserve square brackets and ellipses but drop the angle brackets and the slash-backslash markers. **Lambert** in *Babylonian Wisdom Literature* (1960) preserves all four. **Black et al.** in *The Literature of Ancient Sumer* (2004) take a middle position closer to Foster's. The WoH convention adopted here (preserve [] and <>; preserve […]; silently collapse /\\; flag <<>> in commentary only) is closer to Black et al. and ETCSL than to Foster or Jacobsen.\n\n**This convention applies to ALL subsequent Sumerian and Akkadian translations in the project.** Future texts in the Mesopotamian arc — Atraḫasīs, Enūma Eliš, Gilgameš, the Sumerian King List, Inana's Descent, Adapa, Enki and Ninhursaĝa, Enki and the World Order — will use the same bracket-conventions in their English prose. The convention is documented here as the **project-wide standard**, anchored at the project's first Sumerian/Mesopotamian composition.",
+      "appliesTo": [
+        "ENM-WOH-1:1",
+        "ENM-WOH-1:2",
+        "ENM-WOH-1:3",
+        "ENM-WOH-1:4",
+        "ENM-WOH-1:7",
+        "ENM-WOH-1:8",
+        "ENM-WOH-1:10",
+        "ENM-WOH-1:16",
+        "ENM-WOH-1:19",
+        "ENM-WOH-1:20",
+        "ENM-WOH-1:22",
+        "ENM-WOH-1:23",
+        "ENM-WOH-1:25",
+        "ENM-WOH-1:26",
+        "ENM-WOH-1:38",
+        "ENM-WOH-1:39",
+        "ENM-WOH-1:40",
+        "ENM-WOH-1:41",
+        "ENM-WOH-1:42",
+        "ENM-WOH-1:43",
+        "ENM-WOH-1:44",
+        "ENM-WOH-1:63",
+        "ENM-WOH-1:65",
+        "ENM-WOH-1:66",
+        "ENM-WOH-1:67",
+        "ENM-WOH-1:68",
+        "ENM-WOH-1:69",
+        "ENM-WOH-1:74",
+        "ENM-WOH-1:79",
+        "ENM-WOH-1:85",
+        "ENM-WOH-1:86",
+        "ENM-WOH-1:87",
+        "ENM-WOH-1:90",
+        "ENM-WOH-1:93",
+        "ENM-WOH-1:94",
+        "ENM-WOH-1:95",
+        "ENM-WOH-1:99",
+        "ENM-WOH-1:100",
+        "ENM-WOH-1:101",
+        "ENM-WOH-1:106",
+        "ENM-WOH-1:107",
+        "ENM-WOH-1:108",
+        "ENM-WOH-1:109",
+        "ENM-WOH-1:110",
+        "ENM-WOH-1:111",
+        "ENM-WOH-1:112",
+        "ENM-WOH-1:113",
+        "ENM-WOH-1:114",
+        "ENM-WOH-1:115",
+        "ENM-WOH-1:116",
+        "ENM-WOH-1:117",
+        "ENM-WOH-1:118",
+        "ENM-WOH-1:119",
+        "ENM-WOH-1:120",
+        "ENM-WOH-1:121",
+        "ENM-WOH-1:122",
+        "ENM-WOH-1:126",
+        "ENM-WOH-1:127",
+        "ENM-WOH-1:131",
+        "ENM-WOH-1:133",
+        "ENM-WOH-1:136",
+        "ENM-WOH-1:137",
+        "ENM-WOH-1:138",
+        "ENM-WOH-1:139"
+      ]
+    },
+    {
+      "id": "dingir-prefix-prose-drop-convention",
+      "source": "^d (DINGIR determinative)",
+      "translit": "DINGIR-determinative prefix",
+      "lemma": "diĝir (determinative)",
+      "partOfSpeech": "Sumerian cuneiform determinative; orthographic-classifier",
+      "literal": "the DINGIR-sign as a small superscript classifier prefixed to divine names",
+      "standardEnglish": "scholarly convention preserves ^d (or superscript d) before divine names in transliteration; ordinary English prose drops the prefix.",
+      "wohChoice": "Drop ^d in the i18n.en prose (Enki, Namma, Ninmah, An, Enlil, Nudimmud, Inana); preserve ^d in the translit field where it appears in the ETCSL composite (^den-ki-ke4, ^dnamma-ke4, ^dnin-maḫ-e). The convention is ratified as project-wide for all Sumerian and Akkadian translations.",
+      "claim_type": "direct",
+      "rationale": "**The DINGIR-determinative is one of the most-canonical cuneiform-classifier conventions.** In cuneiform texts, divine names are preceded by a small wedge representing the sign DIĜIR (the Sumerian word for 'deity' — see central entry `digir-sumerian-divine-lexeme-cross-corpus`). The sign serves as a *determinative*, an unpronounced orthographic-classifier marking what follows as belonging to the divine-class. The convention is rigorously preserved in Assyriological transliteration: `^den-ki` reads aloud simply as 'Enki'; the `^d` is silent. The ETCSL convention is to render the determinative as a superscript `^d` immediately before the name.\n\n**For the WoH English prose translation, the determinative is silent and dropped.** The Translator's draft already drops the prefix in the i18n.en prose ('Enki rose from his bed', not 'the divine-class Enki rose from his bed'); the prefix is retained verbatim in the `translit` field as part of the scholarly transliteration. This matches the practice of every major Anglophone scholarly Sumerian translation (Foster, Jacobsen, Black et al., Kramer, Cooper) and matches the ETCSL English translations themselves.\n\n**The convention is documented here as project-wide.** Subsequent Mesopotamian translations (Akkadian Atraḫasīs uses Akkadian DINGIR-prefixes; Enūma Eliš has them on Marduk, Tiamat, Ea, etc.; Gilgameš has them on Inana/Ištar, Šamaš, etc.) will follow the same convention. Where a divine name's DINGIR-prefix is *editorially significant* (e.g., a borderline case where the determinative tells the reader whether a noun is a deity-name or a common noun — *kur* 'mountain' vs *^dkur* a deity-name; *en* 'lord' vs *^den* a deity-name), the prefix-bearing reading is noted in commentary.\n\n**The Sumerian DINGIR-sign is itself an eight-pointed star** — the cuneiform pictograph of 'star/sky/heaven'. The star-pictograph origin is a foundational comparative-religion observation (the divine-class is named by the heavenly-pictograph) and is documented at the central `digir-sumerian-divine-lexeme-cross-corpus` entry. The WoH translation convention does not surface the pictograph in the English prose; the documentation is reserved for the central glossary entry's rationale.",
+      "appliesTo": [
+        "ENM-WOH-1:4",
+        "ENM-WOH-1:5",
+        "ENM-WOH-1:6",
+        "ENM-WOH-1:7",
+        "ENM-WOH-1:13",
+        "ENM-WOH-1:17",
+        "ENM-WOH-1:18",
+        "ENM-WOH-1:24",
+        "ENM-WOH-1:27",
+        "ENM-WOH-1:28",
+        "ENM-WOH-1:29",
+        "ENM-WOH-1:33",
+        "ENM-WOH-1:34",
+        "ENM-WOH-1:35",
+        "ENM-WOH-1:37",
+        "ENM-WOH-1:45",
+        "ENM-WOH-1:47",
+        "ENM-WOH-1:52",
+        "ENM-WOH-1:53",
+        "ENM-WOH-1:56",
+        "ENM-WOH-1:58",
+        "ENM-WOH-1:60",
+        "ENM-WOH-1:63",
+        "ENM-WOH-1:70",
+        "ENM-WOH-1:73",
+        "ENM-WOH-1:76",
+        "ENM-WOH-1:77",
+        "ENM-WOH-1:80",
+        "ENM-WOH-1:83",
+        "ENM-WOH-1:84",
+        "ENM-WOH-1:86",
+        "ENM-WOH-1:92",
+        "ENM-WOH-1:95",
+        "ENM-WOH-1:100",
+        "ENM-WOH-1:102",
+        "ENM-WOH-1:112",
+        "ENM-WOH-1:129",
+        "ENM-WOH-1:132",
+        "ENM-WOH-1:140",
+        "ENM-WOH-1:141"
+      ]
+    },
+    {
+      "id": "sumerian-proper-name-transliteration-convention",
+      "source": "Sumerian phonemic-graphemic conventions: ĝ / š / ḫ; sh-digraphs; ḫ-or-h",
+      "translit": "Sumerian transliteration conventions",
+      "lemma": "—",
+      "partOfSpeech": "transliteration-convention",
+      "literal": "Sumerian phoneme-to-English-grapheme rendering policy",
+      "standardEnglish": "Strict scholarly practice preserves ĝ (velar nasal /ŋ/), š (postalveolar fricative /ʃ/), and ḫ (voiceless velar/uvular fricative /x/) in transliteration. Anglicized practice substitutes ng or g for ĝ; sh for š; h for ḫ. The ETCSL composite preserves the strict forms (^dnin-maḫ-e, ^den-ki-ke4, šar2-šar2).",
+      "wohChoice": "i18n.en prose uses anglicized digraphs (sh for š; h for ḫ) for reader-friendliness: Enki, Namma, Ninmah, Nibru, Shu-zi-ana, Anuna (not Anunna with š; the ^d^a-nun-na composite uses no š). The ĝ velar-nasal is rendered ng or g per Anglophone convention (the velar-nasal does not appear in the proper-names of this chapter under WoH-anglicized spelling). The translit field preserves the strict scholarly forms exactly as in the ETCSL composite (^dnin-maḫ-e with ḫ; šar2 with š). The dual register lets scholarly readers verify the strict-transliteration against the relaxed prose.",
+      "claim_type": "direct",
+      "rationale": "**Sumerian transliteration has three special characters** that no Anglophone reader can be assumed to know: **(i) ĝ** representing /ŋ/ (the velar nasal, as in English *si**ng***); **(ii) š** representing /ʃ/ (the postalveolar fricative, as in English ***sh**oe*); **(iii) ḫ** representing /x/ or /χ/ (the voiceless velar or uvular fricative, as in German *Ba**ch*** or Scottish *lo**ch***). The three characters are standard in scholarly Sumerian publication and ETCSL preserves them rigorously in its composite transliterations.\n\n**The WoH translation maintains a dual register.** The `translit` field preserves the strict scholarly forms — *^dnin-maḫ-e*, *^den-ki-ke4*, *šar2-šar2*, *ĝeštug2*, *diĝir*. The `i18n.en` prose uses the anglicized digraphs that an ordinary literate-English reader can pronounce on sight — *Ninmah* (not Ninmaḫ), *Enki* (no special characters), *Anuna* (not Anunna), *Shu-zi-ana* (not Šu-zi-ana), *Nibru* (no š/ḫ issues — Nibru is straightforward), *Inana* (no š), *Nudimmud* (no special characters).\n\n**The convention preserves scholarly precision in the apparatus while keeping the prose readable.** A scholar reading the WoH translation can verify the strict transliteration against the ETCSL composite; an ordinary reader is not asked to know Sumerian orthography to read the English. The convention matches the practice of **Jeremy Black et al.** *The Literature of Ancient Sumer* (Oxford 2004), which uses the same dual register — strict in transliterations and footnotes, relaxed in the flowing prose. **Foster** *Before the Muses* takes a similar approach for Akkadian (the same š/ḫ characters apply). **Jacobsen** *The Harps that Once* relaxes more aggressively in prose. **Kramer** *Sumerian Mythology* and *The Sumerians* (1963) often used the relaxed forms throughout.\n\n**On the *Anuna* / *Anunna* / *Anunnaki* question** (see central entry `anuna-collective-of-great-gods-cross-corpus`): ETCSL renders the Sumerian *a-nun-na* without a doubled consonant; the older Anglophone scholarship (Kramer; Falkenstein) often uses *Anunna* with doubled *nn*; the Akkadian form is *Anunnaki* with the *-ki/-ke₄* locative suffix that has been variously analyzed. The WoH translation uses *Anuna* in the i18n.en prose (one *n*, matching ETCSL's *a-nun-na* reading); the central glossary entry documents the cross-corpus form-variation.\n\n**The convention is project-wide for all subsequent Sumerian translations.** When ĝ appears in a divine-name in a later text (e.g., *^dnin-ĝiš-zid-da* — Ningishzida), the WoH-anglicized prose form will use *Ningish-zida* or *Ningishzida* (using *ng* for the velar nasal). The Akkadian translations will use the same š → sh and ḫ → h conventions for their own characters.",
+      "appliesTo": [
+        "ENM-WOH-1:4",
+        "ENM-WOH-1:5",
+        "ENM-WOH-1:13",
+        "ENM-WOH-1:17",
+        "ENM-WOH-1:24",
+        "ENM-WOH-1:33",
+        "ENM-WOH-1:34",
+        "ENM-WOH-1:35",
+        "ENM-WOH-1:47",
+        "ENM-WOH-1:77"
+      ]
+    },
+    {
+      "id": "manuscript-variant-inline-rendering-convention",
+      "source": "{primary-reading} {() variant-reading}",
+      "translit": "ETCSL { } {() } convention",
+      "lemma": "—",
+      "partOfSpeech": "editorial-apparatus convention",
+      "literal": "ETCSL manuscript-variant marker",
+      "standardEnglish": "ETCSL preserves both readings in the composite separated by { } {() }; scholarly translations vary (Foster gives one reading and footnotes; Jacobsen often prose-glosses both)",
+      "wohChoice": "Render both readings in-line in the English, with the variant prefixed by 'alternate manuscript:' in italicized braces. The primary reading reads naturally; the variant is parenthetically available without disrupting the flow.",
+      "claim_type": "direct",
+      "rationale": "**ETCSL preserves manuscript-variant readings in-line** using the convention `{primary-reading} {() variant-reading}`. The notation marks a place where two manuscript-witnesses preserve different readings and the editor declines to choose between them. The convention is used throughout the Enki-and-Ninmah composite at vv 66, 67, 68, 74, 79, 85, 87, 124, 126, 127.\n\n**The WoH convention is to render both readings in the English prose.** The primary reading reads in ordinary text; the variant is supplied parenthetically as `{alternate manuscript: <variant>}`. This preserves the scholarly information without forcing the editor to choose, and lets the reader see the textual situation. The Translator's draft already implements this convention; the Editor ratifies it as project-wide for all subsequent Sumerian and Akkadian texts.\n\n**Scholarly practice varies.** **Foster** in *Before the Muses* typically gives one reading in the prose and footnotes the variants. **Jacobsen** in *The Harps that Once* sometimes prose-glosses both (his Enki-and-Ninmah translation, in *The Harps that Once*, pp. 151-166, renders the v 67 variants inline in a way close to the WoH convention). **Black et al.** *The Literature of Ancient Sumer* preserves variants in footnotes or endnotes. The WoH inline-with-brace-tag convention is closer to Jacobsen's practice than to Foster's footnote-practice; it preserves the variants in the text the reader actually reads.\n\n**Editorial limits.** Where a variant is *substantively narrative-different* (e.g., the v 66 *fool-rather-than-foot-bound-cripple* variant; the v 79 *Ninmah-cast-aside-the-clay* vs *Enki-cast-aside-the-clay* variant), both readings need surfacing in the text. Where a variant is *trivially graphic* (a different sign-form for the same lemma), it can be silently collapsed and noted only in the apparatus. The convention here treats *substantively narrative-different* and *substantively word-different* variants as in-line-renderable.",
+      "appliesTo": [
+        "ENM-WOH-1:66",
+        "ENM-WOH-1:67",
+        "ENM-WOH-1:68",
+        "ENM-WOH-1:74",
+        "ENM-WOH-1:79",
+        "ENM-WOH-1:85",
+        "ENM-WOH-1:87",
+        "ENM-WOH-1:124",
+        "ENM-WOH-1:126",
+        "ENM-WOH-1:127"
+      ]
+    },
+    {
+      "id": "ud-re-a-ta-once-upon-a-time-formula",
+      "source": "ud re-a-ta",
+      "translit": "ud re-a-ta",
+      "lemma": "ud + re + -a + -ta",
+      "partOfSpeech": "temporal-adverbial phrase: noun + demonstrative + nominalizer + ablative",
+      "literal": "from those days",
+      "standardEnglish": "in those days (Black et al., Jacobsen, Kramer, ETCSL); 'once upon a time' (Foster, Bottéro-Kramer, paraphrastic)",
+      "wohChoice": "In those days (preserving the literal sense, the demonstrative *re*, and the doubled-once-thrice opening structure of vv 1-3)",
+      "claim_type": "direct",
+      "rationale": "**The Sumerian stock opener *ud re-a-ta* is the canonical 'once-upon-a-time' formula** for Sumerian mythological narrative. Lit. 'from those days', it sets the narrative in a primordial-past temporal frame. The composition's first three lines deploy a triple-temporal opener: *ud re-a-ta* (v 1) / *ĝi6 re-a-ta* (v 2, 'in those nights') / *mu re-a-ta* (v 3, 'in those years'). The triplet structures the opening as a primordial-time invocation with days, nights, and years all framed under the *re-a-ta* demonstrative.\n\n**Cross-corpus once-upon-a-time openers.** The Sumerian *ud re-a-ta* belongs to a wider ANE class of primordial-time opener formulae: **Akkadian *inūma***, used most famously at the opening of *Enūma Eliš* (Akk. *enūma eliš lā nabû šamāmū* — 'when on high heaven had not been named'); **Hebrew *be-reshit*** at Gen 1:1 (*bereshit bara Elohim* — though the syntax has been variously analyzed); **Hebrew *be-yom asot YHWH Elohim*** at Gen 2:4b (the J-source opener of the second creation account, 'in the day when YHWH Elohim made'); **Hebrew *va-yehi bi-yemei*** as the stock 'and it was in the days of...' opener of narrative books (Esther 1:1; Ruth 1:1; Judges 19:1; etc.); **Ugaritic *ʾiḫd l-ymm***. The Sumerian opener at *ud re-a-ta* is the type's earliest extant Mesopotamian deployment; the type's persistence into the Akkadian *inūma* and the Hebrew *be-reshit* / *be-yom* opener-traditions is one of the corpus's clearest cross-corpus-genre conventions (see **Wilfred Lambert** *Babylonian Creation Myths*, 2013, pp. 27-29; **Westermann** *Genesis 1-11* 1984, pp. 96-100 on cross-corpus *when*-clause openers; **Black et al.** *The Literature of Ancient Sumer*, 2004, pp. xxxv-xxxvi).\n\n**The triple-once opener is editorially deliberate.** The doubling-and-tripling of *ud re-a-ta / ĝi6 re-a-ta / mu re-a-ta* is a structural-rhetorical move characteristic of Sumerian narrative-poetic style (cf. *Inana's Descent* opening; *Enki and the World Order* opening). The repetition establishes the narrative-time as *long ago and far back*, before the events to come.\n\n**The WoH rendering preserves the literal sense.** 'In those days' (ETCSL standard) is preferred over 'once upon a time' (Foster's English-folktale register, which de-Mesopotamianizes the text) and over 'long ago' (Bottéro-Kramer's looser paraphrase). The literal-temporal sense is closer to the Sumerian grammar (ablative *-ta* on the demonstrative *re*).",
+      "appliesTo": [
+        "ENM-WOH-1:1",
+        "ENM-WOH-1:2",
+        "ENM-WOH-1:3"
+      ]
+    },
+    {
+      "id": "an-ki-bi-ta-heaven-and-earth-separation-cosmogony",
+      "source": "an ki-bi-ta ba-an-dim2-ma-ba",
+      "translit": "an ki-bi-ta ba-an-dim2-ma-ba",
+      "lemma": "an + ki + -bi + -ta + dim2",
+      "partOfSpeech": "construct phrase: heaven + earth-its-from + create-passive",
+      "literal": "heaven, from its (= earth's) ground, had been fashioned (and reciprocally)",
+      "standardEnglish": "when heaven had been separated from earth (Black et al., Jacobsen); 'when heaven and earth had been fashioned' (ETCSL — neutral); 'when heaven was separated from earth' (Foster)",
+      "wohChoice": "when heaven and earth had been fashioned each from the other (preserves the *-bi-ta* mutual-separation reading)",
+      "claim_type": "inferred",
+      "rationale": "**The phrase *an ki-bi-ta ba-an-dim2-ma-ba* is the Sumerian heaven-and-earth-separation cosmogonic-formula.** The crux is the suffix *-bi-ta* on *ki* (earth), which is the 3sg-inanimate-possessive *-bi* followed by the ablative *-ta*: 'from its (counterpart)' or 'from each other'. The construction names a creation-by-separation cosmology: heaven and earth begin as one undifferentiated mass and are separated to make the cosmos.\n\n**The reading is the modern scholarly consensus** for Sumerian cosmogony, developed by **Thorkild Jacobsen** *The Treasures of Darkness* (1976, pp. 167-168), **Samuel Noah Kramer** *Sumerian Mythology* (1944, revised 1961), and **Wilfred Lambert** *Babylonian Creation Myths* (2013, ch. 9 on the separation-cosmogony tradition). The separation-cosmogony is widely attested across the Sumerian and Akkadian creation corpus: in *Enūma Eliš* IV.137-140 Marduk splits Tiamat's body to make heaven and earth; in the Sumerian *Gilgameš, Enkidu, and the Netherworld* prologue (lines 8-13), 'after heaven had been separated from earth, after earth had been separated from heaven'; in *KAR* 4 (the Sumerian-Akkadian bilingual creation text), 'when heaven had been separated from earth'. The Enki-and-Ninmah opener belongs to this widely-attested cosmogonic-formula type.\n\n**Cross-corpus to Genesis 1:6-8.** The Hebrew creation account at Gen 1:6-8 deploys a similar separation-cosmogony: the *raqia* (firmament/dome) is set in the midst of the waters to *divide* (יַבְדֵּל *yavdel*) waters from waters; the upper waters and the lower waters are separated. The Genesis-1 separation is *of waters* rather than *of heaven and earth*, but the underlying ANE separation-cosmogony pattern is shared. The cross-corpus link is documented in **Westermann** *Genesis 1-11* 1984 pp. 117-120 and **Kenton Sparks** *Ancient Texts for the Study of the Hebrew Bible* (2005) pp. 305-307. The Hebrew narrative has its own separation-axes (waters above / waters below; light from darkness; land from sea); the Sumerian *an ki-bi-ta* is the heaven-from-earth axis.\n\n**The WoH 'each from the other' rendering** preserves the *-bi-ta* reciprocal-separation reading. ETCSL's neutral 'when heaven and earth had been fashioned' loses the separation-axis; Foster's 'when heaven was separated from earth' is grammatically closer but loses the mutuality. The 'each from the other' reading is supported by **Jacobsen** *The Treasures of Darkness* p. 167 ('heaven and earth, having been separated from each other').\n\n**The claim_type is *inferred*** because while the separation-cosmogony reading is the scholarly consensus, the precise force of the *-bi-ta* suffix admits multiple grammatical analyses; the Sumerianist tradition is unanimous that the reading is separation but the specific 'each from the other' rendering goes slightly beyond the bare *-bi-ta* grammar.",
+      "appliesTo": [
+        "ENM-WOH-1:1",
+        "ENM-WOH-1:2"
+      ]
+    },
+    {
+      "id": "ama-inana-mother-goddesses-class-noun",
+      "source": "^dama-^dinana",
+      "translit": "ama-Inana",
+      "lemma": "ama-inana",
+      "partOfSpeech": "compound noun: mother + Inana (used as class-noun for mother-goddesses)",
+      "literal": "mother-Inana(s) / Inana-mothers",
+      "standardEnglish": "mother-goddesses (Jacobsen); 'the mothers' (Black et al.); 'Ama-Inana' as a proper name (rare, older Anglophone)",
+      "wohChoice": "the mother-goddesses (reading the compound as a class-noun for the mother-goddess-class)",
+      "claim_type": "inferred",
+      "rationale": "**The compound *ama-Inana* in vv 5-7** is a debated Sumerian lexeme. The form combines *ama* ('mother') with *Inana* (the great goddess of love/war/Venus). ETCSL glosses the lemma as 'goddess' (a class-noun). The scholarly readings:\n\n**(i) The class-noun reading.** Most scholars (Jacobsen *The Harps that Once* 1987, pp. 151-152; Kramer-Maier *Myths of Enki* 1989, pp. 32-33; Black et al. *Literature of Ancient Sumer* 2004, p. 215) read *ama-Inana* as a class-noun for *mother-goddesses* — the female deities responsible for birth, mothering, and creative-fertility-functions. The plural-collective use is supported by the verb-agreements in vv 5-7, where the subjects are predicated of being taken in marriage (v 5), distributed across heaven and earth (v 6), and pregnant and giving birth (v 7) — all collective-actions naturally read of a *class* of goddesses rather than a singular *Inana*.\n\n**(ii) The proper-name reading.** Older scholarship occasionally read *ama-Inana* as a proper name 'Ama-Inana' or 'Mother-Inana'. This reading is now mostly abandoned; the collective-action verb-agreements make it grammatically awkward, and Sumerian *Inana* is typically not paired with *ama* in proper-name compounds.\n\n**(iii) The Inana-epithet reading.** A minority view (occasional in older comparative-religion work) reads the compound as an epithet for *Inana herself* in her mother-aspect. This reading is not supported by the modern Sumerianist literature; *Inana* in the Sumerian tradition is famously *not* a mother-goddess (her cult and mythology emphasize her warrior, lover, and astral functions; the mother-goddess role belongs to Ninhursaĝa / Ninmah / Nintud).\n\n**The WoH translation adopts (i) the class-noun reading** per the modern consensus.\n\n**Cross-corpus to the *birth-goddess* class.** The mother-goddess class is named variously across the Sumerian-Akkadian corpus: **Sumerian** *Nintud* ('the lady who gives birth'), *Ninhursaĝa* ('lady of the mountain'), *Ninmah* ('the great lady'), *Mami* (the proto-name); **Akkadian** *Bēlet-ilī* ('lady of the gods'), *Mami*, *Aruru*. The class is iconographically attested across the OB cult-statuary record (the *Mami*-style figurines of the birth-goddess). The class is foundational for the *Atraḫasīs* creation-account (Tablet I, where *Mami / Bēlet-ilī* fashions humans from clay mixed with the slain god's blood) and shows up centrally in Enki-and-Ninmah where *Ninmah* is the chief of the *mother-goddesses* and *SIG7-EN / SIG7-ḪI* are her birth-assistants (see overlay entry `sig7-en-sig7-hi-birth-goddesses-uncertain-vocalization`).",
+      "appliesTo": [
+        "ENM-WOH-1:5",
+        "ENM-WOH-1:6",
+        "ENM-WOH-1:7"
+      ]
+    },
+    {
+      "id": "sig7-en-sig7-hi-birth-goddesses-uncertain-vocalization",
+      "source": "SIG7-EN, SIG7-ḪI",
+      "translit": "SIG7-EN, SIG7-ḪI (uncertain vocalization)",
+      "lemma": "SIG7-EN; SIG7-ḪI",
+      "partOfSpeech": "compound nouns; class-nouns for the birth-goddesses",
+      "literal": "(unknown phonetic reading — sign-values preserved)",
+      "standardEnglish": "ETCSL preserves the sign-values in capitals (SIG7-EN, SIG7-ḪI) with the gloss 'birth goddess?'; Jacobsen renders 'Sigensigdu and Sigenshudu' (older read); Black et al. 'the SIG7-EN and SIG7-ḪI'",
+      "wohChoice": "SIG7-EN, SIG7-ḪI (preserving the sign-values per ETCSL convention; uncertain vocalization flagged in commentary)",
+      "claim_type": "direct",
+      "rationale": "**The Sumerian sign-pairs SIG7-EN and SIG7-ḪI** appear five times in the composition (vv 26, 32, 46) and name the team of birth-assistants who work under Ninmah to fashion humans from clay. The Sumerian-cuneiform sign-readings are *uncertain*: the SIG7-sign has multiple known readings (*sig7* 'yellow / green-pale'; *imma* in some contexts; *šigi*), and the combinations *SIG7-EN* and *SIG7-ḪI* are not securely lexicalized. ETCSL's editorial convention (Black, Cunningham, Robson, Zolyomi) is to preserve the sign-values in capital letters in such cases, glossing them as 'birth goddess?' with the question mark.\n\n**Scholarly reading-history.** **Jacobsen** *The Harps that Once* (1987, pp. 153, 156) renders 'Sigensigdu and Sigenshudu' but flags the vocalization as conjectural. **Kramer-Maier** *Myths of Enki* (1989, p. 33) read 'Imma-en' and 'Imma-hi' under an alternative *imma*-vocalization of the SIG7-sign. **Black et al.** *Literature of Ancient Sumer* (2004, pp. 215-216) preserve the uppercase sign-values 'SIG7-EN and SIG7-ḪI' and decline to vocalize. **Bottéro-Kramer** *Lorsque les dieux faisaient l'homme* (1989, p. 191) translate as 'les Sigensigdu et les Sigenshudu' following Jacobsen.\n\n**The WoH translation follows the ETCSL / Black et al. convention** of preserving the sign-values in capitals. The names recur in formulaic contexts (vv 26, 32, 46) where their identity as a *class* (the birth-helpers) is more important than their precise vocalization. Where the names appear, the commentary flags the uncertainty and the named scholarly reading-camps.\n\n**Identifying the class.** The SIG7-EN and SIG7-ḪI are the *team* of birth-assistants who, together with the eight named mother-goddesses listed in vv 34-35 (Ninimma, Shu-zi-ana, Ninmada, Ninbarag, Ninmug, ShAR.ShAR.GABA, Ninguna), nip off pieces of clay from the abzu-clay so that Ninmah can shape them. The functional role parallels the birth-goddess teams in *Atraḫasīs* I (where the goddess Mami / Bēlet-ilī has helpers in fashioning humanity from clay). See **Anne Kilmer** 'Of Babies, Boats, and Arks' (in *Studies Sjöberg* 1989) on the birth-goddess-team tradition across Sumerian-Akkadian.",
+      "appliesTo": [
+        "ENM-WOH-1:26",
+        "ENM-WOH-1:32",
+        "ENM-WOH-1:46"
+      ]
+    },
+    {
+      "id": "zi-inim-line11-breath-into-clay-vs-complain-about-life-crux",
+      "source": "zi-bi inim am3-ma-ĝar-re-ne",
+      "translit": "zi-bi inim am3-ma-ĝar-re-ne",
+      "lemma": "zi + -bi; inim; ĝar",
+      "partOfSpeech": "construct phrase: life-its + word + place-3pl-imperfective",
+      "literal": "they place its (the clay's) breath/life + word",
+      "standardEnglish": "ETCSL: 'they complained about this life' (reading *zi-bi inim ĝar* as 'put words about their life'); Jacobsen, Lambert, Foster (variable): 'they placed breath/life-word into it' (reading the same string as creation-summary); Black et al. (2004) preserve ETCSL's reading",
+      "wohChoice": "WoH retains the Translator's surface 'kept complaining about this life' (ETCSL reading) and surfaces the breath-into-clay alternate reading in commentary. The line is one of the most-discussed cruxes of the composition.",
+      "claim_type": "inferred",
+      "rationale": "**Line 11 is a famously contested crux of the Enki-and-Ninmah composition.** The Sumerian *diĝir im ar3-ar3-re-ne zi-bi inim am3-ma-ĝar-re-ne* admits two principal readings, with named scholarship divided:\n\n**(i) The complain-about-life reading** (ETCSL English; Black et al. 2004): 'the gods, grinding the clay, were complaining about this life' or 'placed words about their life'. The reading parses *zi-bi inim ĝar* as an idiomatic 'place words about their life' = 'complain about life'. The construction is well-attested in Sumerian literature; *zi* in the construction governs the abstract sense 'life' rather than the physical sense 'breath'; *inim ĝar* + ablative-or-locative governs the sense 'complain about, voice grievance regarding'. The reading fits the narrative-flow of vv 8-15 (the gods toiling, then weeping; the lament that motivates Enki's intervention).\n\n**(ii) The breath-into-clay creation-summary reading** (Jacobsen *The Harps that Once* 1987 p. 153; Lambert *Babylonian Creation Myths* 2013 pp. 330-345; Bottéro-Kramer *Lorsque les dieux faisaient l'homme* 1989 pp. 188-192; partly Foster *Before the Muses* 3rd ed. 2005 p. 156). The reading parses *zi-bi inim ĝar* as 'placed breath / life-word into it' (the clay): the gods, *grinding* the clay, *put breath/life-word into it* — i.e., the line is a proleptic-summary of the creation-of-humans that the rest of the composition will describe in detail. The reading takes *zi* in its physical sense 'breath' (the basic lexical meaning of *zi*; see central entry `zi-sumerian-breath-of-life-cross-corpus`), and reads *inim* in its alternative sense 'word' as nearly-synonymous with the divine speech-act that animates. The reading creates an exact-parallel with Gen 2:7's *va-yipach b-apav nishmat chayyim* ('and he breathed into his nostrils the breath of life') — a parallel made explicit by Lambert and Jacobsen.\n\n**Why the crux matters.** If reading (i) is correct, vv 1-11 are a *toil-and-complaint prologue* and the creation-of-humans begins at v 22 onward. If reading (ii) is correct, vv 1-11 are a *proleptic-summary* of the creation-of-humans, and the rest of the composition is an elaboration of what v 11 already states. The structural implications are large.\n\n**The WoH editorial decision.** Given the genuinely contested status of the line and the equal-weight of the two scholarly camps, the WoH translation **retains the Translator's surface 'kept complaining about this life'** (ETCSL reading) for the i18n.en text and **surfaces the breath-into-clay alternate reading in the per-verse commentary**, with the cross-corpus link to Gen 2:7 / *nishmat chayim*. This preserves the ETCSL surface (which is the scholarly-default for Sumerian translations going through the ETCSL pipeline) while documenting the alternative reading at the apparatus-level. The cross-corpus link to Gen 2:7 is preserved via the central entry `zi-sumerian-breath-of-life-cross-corpus` which has bidirectional sibling-references with the existing Hebrew entry `neshamah-chayim`.\n\n**Lens-discipline disavowal.** **No WoH-distinctive synthesis** is applied here. The reading is a documented Sumerological crux; the WoH translation reflects the documented-scholarly-camps without forcing a lens-driven choice.",
+      "appliesTo": [
+        "ENM-WOH-1:11"
+      ]
+    },
+    {
+      "id": "kig-sig-line23-substitute-vs-evening-meal-crux",
+      "source": "kiĝ2-sig10 dim3-me2-er-e-ne-ke4 u3-mu-[e]-dim2",
+      "translit": "kiĝ2-sig10 dim3-me2-er-e-ne-ke4 u3-mu-[e]-dim2",
+      "lemma": "kiĝ2-sig",
+      "partOfSpeech": "compound noun: work-(time) + late",
+      "literal": "(uncertain — see rationale)",
+      "standardEnglish": "ETCSL: 'work the worker' (paraphrastic); Jacobsen: 'create-work / create-worker for the gods'; Foster: 'fashion the late-afternoon meal of the gods' (literal); Black et al.: 'fashion a substitute (?) for the gods'",
+      "wohChoice": "fashion a substitute for the gods (?) (preserving the substitute-laborer reading per Black et al. and the consensus, with a (?) flag in commentary)",
+      "claim_type": "inferred",
+      "rationale": "**Line 23 is the pivotal command in Namma's appeal to Enki: 'fashion X so that the gods may be released from their toil!'** The crux is the noun-phrase *kiĝ2-sig10 dim3-me2-er-e-ne-ke4*. ETCSL's token-gloss reads *kiĝ2-sig10* as 'late afternoon meal'. The compound parses straightforwardly as *kiĝ2* ('work') + *sig10* ('to place; (when modifying time) late, evening'). But the natural reading 'evening meal of the gods' makes poor narrative-sense: how would fashioning an evening meal release the gods from their toil?\n\n**The four scholarly reading-camps.**\n\n**(i) The substitute-laborer reading** (Black et al. *Literature of Ancient Sumer* 2004, pp. 216-217; ETCSL English following Black et al.). Reads *kiĝ2-sig10* as a metaphorical-extension: a 'substitute' or 'replacement-worker', the *kiĝ2* being the work-itself and *sig10* meaning *place / put-in-place* (i.e., 'one placed in (the position of) work'). On this reading, Namma's command is: 'fashion a substitute (= a replacement-worker — humans) for the gods, so that they may be released from their toil'. This is the modern scholarly consensus reading and supports the composition's overall logic: humans are created to take over divine toil. **(ii) Jacobsen's create-worker reading** (*The Harps that Once* 1987 p. 153): 'create work for the gods' or 'fashion the laborer for the gods' — a similar functional reading. **(iii) The literal evening-meal reading** (Foster *Before the Muses* 3rd ed. 2005 p. 156): retains the literal 'late-afternoon meal of the gods' and reads the verse as an obscure ritual-instruction; Foster flags this reading as opaque. **(iv) The 'menial-work' reading** (Falkenstein and older Anglophone scholarship): paraphrastic 'do the daily-work for the gods'.\n\n**The WoH adopts reading (i)** — 'fashion a substitute for the gods (?)' — following Black et al. and ETCSL, with the (?) flag preserving the philological uncertainty. The reading is consistent with the composition's logic (humans-as-substitutes-for-divine-toil; cross-corpus to *Atraḫasīs* I) and with the parallel-formula at v 30 (*zub-sig3 diĝir-re-e-ne keše2-i3* — 'bind upon it the corvée-basket of the gods'; see central entry `zub-sig-dusu-corvee-basket-cross-corpus`).\n\n**Cross-corpus link.** The 'humans-fashioned-to-relieve-divine-toil' theme is the central narrative-logic of **Atraḫasīs** Tablet I (lines 190-217 — the gods complain of their toil; *Mami / Bēlet-ilī* and *Ea / Enki* deliberate; humans are created from clay-mixed-with-divine-blood to take over the labor). The Enki-and-Ninmah v 23 command is the Sumerian-source analogue. The cross-corpus link is documented at the central entry `du-lum-dullu-divine-toil-relieved-by-humans-cross-corpus`.",
+      "appliesTo": [
+        "ENM-WOH-1:23"
+      ]
+    },
+    {
+      "id": "hal-anku-enki-deliberation-chamber",
+      "source": "ḫal-an-kug",
+      "translit": "Ḫal-anku",
+      "lemma": "ḫal-an-kug",
+      "partOfSpeech": "compound proper-name: temple-or-architectural-name",
+      "literal": "pure division-of-heaven (?)",
+      "standardEnglish": "ETCSL: 'Hal-anku' (preserved as toponym); Jacobsen: 'the pure dividing-place of heaven'; Foster: 'his hallowed chamber'",
+      "wohChoice": "Hal-anku, the chamber of his pondering (preserving the Sumerian toponym; descriptive paraphrase added to explicate the chamber-function)",
+      "claim_type": "inferred",
+      "rationale": "**Hal-anku (ḫal-an-kug) is the name of a specific chamber in Enki's domain** — apparently a place of solitary deliberation. The name combines *ḫal* ('division, share, allotment'), *an* ('heaven'), and *kug* ('pure, holy, shining'). ETCSL marks it as a TN (temple name) and preserves the Sumerian form. The chamber is otherwise rarely attested; the *Enki and Ninmah* occurrence at v 25 is the principal reference. **Jeremy Black** *Reading Sumerian Poetry* (1998) and **Black et al.** *Literature of Ancient Sumer* (2004, p. 215 n. 12) note the toponym and gloss it as Enki's *deliberation-chamber* — a private architectural-space where the wise god deliberates before acting (the v 25-26 narrative-function: Enki withdraws to Hal-anku, slaps his thigh, and brings forth the birth-goddesses from his own *me-dim2* [form/articulation] and *mud* [creative-substance] thoughts).\n\n**The WoH rendering** preserves the Sumerian *Hal-anku* and adds a descriptive paraphrase ('the chamber of his pondering') to make the function readable. This matches the project's general practice for opaque Sumerian toponyms: preserve the name, descriptively-paraphrase the function. The convention parallels the practice for Hebrew toponyms (preserve *Be'er Sheva* alongside 'the well of the seven / oath' descriptive-paraphrase where editorially useful).",
+      "appliesTo": [
+        "ENM-WOH-1:25"
+      ]
+    },
+    {
+      "id": "harali-mythic-toponym-source-of-clay",
+      "source": "ḫa-ra-li",
+      "translit": "Ḫarali",
+      "lemma": "ḫa-ra-li",
+      "partOfSpeech": "geographic-name (mythic)",
+      "literal": "Harali (location uncertain)",
+      "standardEnglish": "ETCSL: 'Harali' (preserved); Jacobsen: 'Harali' (preserved); some older scholarship: 'Aralli' (Akkadian form)",
+      "wohChoice": "Harali (preserved as toponym per ETCSL convention)",
+      "claim_type": "direct",
+      "rationale": "**Harali (ḫa-ra-li) is a toponym of debated identification.** In v 10 of *Enki and Ninmah* the gods 'heap up its earth at Harali' — the place where the silt dredged from the watercourses is piled. The toponym recurs sporadically in Sumerian literature; the **Lugalbanda epic**, the **Sumerian temple hymns**, and a few **Old Babylonian lexical-lists** attest it. Two principal scholarly identifications: **(i) a real geographic location** — possibly in the western or southern periphery of Sumer; some scholars associate Harali with a *gold/silver mining region* (see **William Hallo** in *Festschrift Reiner* 1987 and **Daniel Potts** *Mesopotamian Civilization* 1997 p. 165). The Sumerian lexical lists associate Harali with precious metals. **(ii) a mythic-cosmographic place** — a primordial source-place for clay or for precious materials in the Sumerian cosmological imagination; on this reading, *Harali* names not a real geographic location but a mythic-cosmographic locus, perhaps a primordial mound or mountain at the edge of the world.\n\nThe Akkadian form *Aralli* (sometimes equated with the Akkadian netherworld) is sometimes invoked as a comparandum, but the equation is not secure. Modern Sumerianist literature generally preserves the Sumerian form *Harali* without translating.\n\n**The WoH translation preserves** *Harali* as a toponym, matching the consensus convention.",
+      "appliesTo": [
+        "ENM-WOH-1:10"
+      ]
+    },
+    {
+      "id": "ninmah-ninhursaga-nintud-birth-goddess-epithet-cluster",
+      "source": "^dnin-maḫ / ^dnin-tud / ^dnin-ḫur-saĝ-ĝa2",
+      "translit": "Ninmah / Nintud / Ninhursaĝa",
+      "lemma": "nin-maḫ; nin-tud; nin-ḫur-saĝ",
+      "partOfSpeech": "divine-name + epithet-variants (mother-goddess)",
+      "literal": "great lady / lady-who-gives-birth / lady-of-the-foothills",
+      "standardEnglish": "Sumerologists differ on which epithet is primary; Jacobsen normalizes to 'Nintur' (= Nintud); Black et al. retain whichever epithet the specific text uses; older Anglophone scholarship (Kramer) sometimes uses 'Ninhursag' throughout",
+      "wohChoice": "In this composition: *Ninmah* throughout (the Sumerian-prose form; per the digraph-anglicization convention in `sumerian-proper-name-transliteration-convention`); the epithet-equivalence with *Nintud* and *Ninhursaĝa* documented in commentary on first occurrence (v 33).",
+      "claim_type": "direct",
+      "rationale": "**The Sumerian birth-goddess is named by multiple distinct epithets** across the literature: **Ninmah** (the great lady), **Nintud** (the lady who gives birth), **Ninhursaĝa** (the lady of the foothills, or 'lady of the holy mountain'), and **Mami** (the proto-name, perhaps the most archaic). In some compositions (e.g., *Enki and Ninhursaĝa*), the goddess is consistently named *Ninhursaĝa* throughout; in *Enki and Ninmah*, the consistent name is *Ninmah*; in *Atraḫasīs* (Akkadian), the goddess is *Bēlet-ilī* (lady of the gods) or *Mami*. The epithets are agreed by modern Sumerianist scholarship (Jacobsen, Kramer, Black et al., Wiggermann) to refer to the same divine-class function: the chief mother-goddess and birth-deity.\n\n**Per the WoH transliteration convention** (`sumerian-proper-name-transliteration-convention` in this overlay), the i18n.en prose uses the anglicized form *Ninmah* (with *h* rather than the ḫ digraph); the translit field preserves *Ninmaḫ* with the ḫ. The Akkadian form of the great lady is *Bēlet-ilī*; the Akkadian birth-goddess is *Mami / Aruru*. Cross-corpus translation-conventions are noted in the central glossary entries on the Mesopotamian birth-goddess class (when those texts are translated).\n\n**Modern scholarly literature.** **Frans A. M. Wiggermann** *Mesopotamian Protective Spirits* (1992) and *RlA* (*Reallexikon der Assyriologie*) s.v. *Bēlet-ilī* and *Ninhursaĝa*; **Jacobsen** *The Treasures of Darkness* (1976) ch. 4 on the mother-goddess class; **Kramer** *Sumerian Mythology* (1944/1961) on the various epithets; **Black et al.** *Literature of Ancient Sumer* (2004) pp. 215-216, 222-225; **Anne Kilmer** 'Of Babies, Boats, and Arks' (in *Studies Sjöberg* 1989) on the birth-goddess functional-class.",
+      "appliesTo": [
+        "ENM-WOH-1:33",
+        "ENM-WOH-1:37",
+        "ENM-WOH-1:45",
+        "ENM-WOH-1:52",
+        "ENM-WOH-1:53",
+        "ENM-WOH-1:56",
+        "ENM-WOH-1:58",
+        "ENM-WOH-1:79",
+        "ENM-WOH-1:80",
+        "ENM-WOH-1:84",
+        "ENM-WOH-1:86",
+        "ENM-WOH-1:92",
+        "ENM-WOH-1:95",
+        "ENM-WOH-1:100",
+        "ENM-WOH-1:102",
+        "ENM-WOH-1:112",
+        "ENM-WOH-1:129",
+        "ENM-WOH-1:132",
+        "ENM-WOH-1:140"
+      ]
+    },
+    {
+      "id": "eight-birth-assistant-goddesses-vv34-35",
+      "source": "^dnin-imma3 ^dšu-zi-an-na ^dnin-ma-da ^dnin-barag ^dnin-mug ^dŠAR.ŠAR.GABA ^dnin-gun3-na",
+      "translit": "Ninimma, Shu-zi-ana, Ninmada, Ninbarag, Ninmug, ShAR.ShAR.GABA, Ninguna",
+      "lemma": "nin-imma3; šu-zi-an-na; nin-ma-da; nin-barag; nin-mug; ŠAR.ŠAR.GABA; nin-gun3-na",
+      "partOfSpeech": "divine-name-list (seven mother-goddesses listed as midwives)",
+      "literal": "(individual etymologies)",
+      "standardEnglish": "Various Anglophone forms across the literature (Kramer's vs Jacobsen's vs Black et al.'s); strict Sumerologists use š",
+      "wohChoice": "Anglicized digraph forms per `sumerian-proper-name-transliteration-convention`: Ninimma, Shu-zi-ana, Ninmada, Ninbarag, Ninmug, ShAR.ShAR.GABA (preserved in caps because the reading is uncertain), Ninguna.",
+      "claim_type": "direct",
+      "rationale": "**Vv 34-35 list seven mother-goddesses** who serve as Ninmah's midwives at the birth: **Ninimma** (a scribal/birth deity; consort of Enki in some traditions), **Shu-zi-ana** ('whose hand is faithful to An'; one of Enlil's consorts in some traditions), **Ninmada** ('the lady of the land'), **Ninbarag** ('the lady of the throne-dais'), **Ninmug** ('the lady of the metalworking'; a metalworking-and-birth deity), **ShAR.ShAR.GABA** (sign-values preserved; vocalization uncertain; possibly a birth-goddess name), **Ninguna** ('the lady of the multi-colored / the variegated'). The seven (sometimes counted as eight with the additional repeated ^dnin-barag in the text-witness variants) are documented in **Wiggermann** *RlA* s.v. each name; **Krebernik** in *RlA* on the Sumerian-Akkadian birth-goddess panoply; **Black et al.** *Literature of Ancient Sumer* 2004 pp. 215-216 with extended notes.\n\n**The Anglicized transliterations** follow the WoH convention of substituting *sh* for *š* in the prose: *Shu-zi-ana* (not *Šu-zi-ana*); *ShAR.ShAR.GABA* (preserving the capitalized sign-values; the vocalization is uncertain and the form remains capitalized per the convention for unread sign-values). The strict-scholarly forms with š are preserved in the translit field.\n\n**These goddesses are not individually-recurring foundational vocabulary** for the wider WoH corpus (in the way *diĝir*, *abzu*, *im*, *nam*, *me*, *zi*, *du-lum* are). They occur here as a list; their reappearance in subsequent compositions would warrant individual central-glossary entries on their own, but in the Enki-and-Ninmah context they are collectively documented as the *birth-goddess-team list*.",
+      "appliesTo": [
+        "ENM-WOH-1:34",
+        "ENM-WOH-1:35"
+      ]
+    },
+    {
+      "id": "lu2-gi-sushuru-sasade-nugam-weak-handed-disabled",
+      "source": "lu2 gi šu šu2-šu2 sa2-sa2-de3 nu-gam",
+      "translit": "lu2 gi šu šu2-šu2 sa2-sa2-de3 nu-gam",
+      "lemma": "lu2 + gi + šu + šu2-šu2 + sa2 + nu-gam",
+      "partOfSpeech": "noun-phrase: man + the-first + hand + (verb-doubled) + (verb) + negative-particle + verb",
+      "literal": "the first man, whose hands (verb) and (verb) do not bend",
+      "standardEnglish": "ETCSL: 'a man whose hands were so weak that he could not...'; Jacobsen: 'a man with limp, paralyzed hands'; Black et al.: 'a man whose hands cannot work'",
+      "wohChoice": "a man whose hands were so weak that he could not bend them — a true human, but disabled",
+      "claim_type": "inferred",
+      "rationale": "**The first of Ninmah's six defective creatures in the vv 59-78 contest.** The Sumerian *lu2 gi šu šu2-šu2 sa2-sa2-de3 nu-gam* combines *lu2* ('man'), *gi* ('the first, reed' — here read as ordinal-marker), *šu* ('hand'), *šu2-šu2* (a reduplicated verb of debated meaning — perhaps 'cover, bend back, become weak'), *sa2* (a verb of 'reach, attain'), and *nu-gam* ('cannot bend'). The line is taken in the scholarly consensus as describing a man with a hand-disability — paralyzed or weak hands that cannot grasp or bend.\n\n**The defective creatures of vv 59-78** form a literary catalogue of human disabilities and atypical conditions. The catalogue's pattern is consistent across the six (or seven, with manuscript variants): Ninmah fashions a defective creature; Enki sees the creature; Enki decrees its destiny — assigning it a place in human society. The catalogue's function is *aetiological*: it provides explanations for the social-roles of disabled, atypical, or unusual humans (the king's attendant in v 61, the musician in v 64, the silversmith or court-attendant in v 68, the laundress or weaver in v 74, the tiru / palace-eunuch in v 77).\n\n**The catalogue's social-stance is editorially significant.** The defective creatures are *not* rejected or destroyed — Enki *integrates* them into society by assigning each a *destiny* (nam) and a *bread-ration* (ninda). The pattern reads as a strikingly inclusive view of disability and atypicality, anchoring the social-roles of the disabled in *divine creation* rather than in *exclusion*. See **Niek Veldhuis** 'Religion, Literature, and Scholarship' (in *CANE* IV) and **Anne Kilmer** 'Of Babies, Boats, and Arks' (1989) on the catalogue's aetiological function; **Wilfred Lambert** *Babylonian Wisdom Literature* (1960) on the wider Mesopotamian-disability-and-society tradition; **Walls** *Desire, Discord and Death* (2001) on the Sumerian-Akkadian disability-and-aetiology tradition.\n\n**The 'true human, but disabled' rendering** matches the consensus reading and preserves the catalogue's editorial-stance: each of the defectives is fully human, with disability or atypicality as part of the divine-creation-plan rather than as exclusion.",
+      "appliesTo": [
+        "ENM-WOH-1:59",
+        "ENM-WOH-1:60",
+        "ENM-WOH-1:103"
+      ]
+    },
+    {
+      "id": "gi-nu-gi-blind-man-marvel-of-onlookers",
+      "source": "gi4-bi ĝiš-nu11 gi4-gi4 lu2 u6-e",
+      "translit": "gi4-bi ĝiš-nu11 gi4-gi4 lu2 u6-e",
+      "lemma": "gi4 + ĝiš-nu11 + gi4-gi4 + lu2 + u6",
+      "partOfSpeech": "noun-phrase",
+      "literal": "the second one, who turns back the light, a man of wonder",
+      "standardEnglish": "ETCSL: 'one who turns back the light, a marvel'; Jacobsen: 'a man who returns the light, the marvel-of-eyes'; Black et al.: 'a blind man / a man marvelous-to-look-upon'",
+      "wohChoice": "one who turned back the light — a blind man, the marvel of onlookers",
+      "claim_type": "inferred",
+      "rationale": "**The second of Ninmah's six defective creatures.** The Sumerian *gi4-bi ĝiš-nu11 gi4-gi4 lu2 u6-e* combines *gi4-bi* ('second; turned-back'), *ĝiš-nu11* ('light, lamp, eye-of-the-sun'), *gi4-gi4* ('turns back, returns', the reduplicated form of *gi4*), and *lu2 u6-e* ('a man of wonder/marvel'). The reading is the consensus modern interpretation: a *blind man* — one whose eyes 'turn back the light' rather than receiving it.\n\n**The blind-musician aetiology.** Enki's destiny-decree for this creature (v 64: *nam-bi i-ni-in-tar nam-nar mi-ni-in-ba* — 'he decreed his destiny: he allotted to him the art of music') is the **classical Mesopotamian aetiology of the blind musician**, a profession amply attested in the OB and later cuneiform record (the *nar* — Sumerian for musician; Akkadian *nāru*). Blind singers/musicians are a recurring figure in ANE and Greek literature (Homer's Demodokos in *Odyssey* 8; the blind Greek prophets Teiresias and Phineus; the rabbinic tradition that blind men are gifted in song). See **Anne Kilmer** *RlA* s.v. *Musik* and 'The Cult Song with Music from Ancient Ugarit' (1974); **Jeremy Black** 'The Singer and his Song' (in *Studies Klein* 2005); **Black et al.** *Literature of Ancient Sumer* 2004 p. 218.\n\nThe destiny-decree is editorially significant: blindness is integrated into society through a culturally-valued profession (music), not excluded.",
+      "appliesTo": [
+        "ENM-WOH-1:62",
+        "ENM-WOH-1:63",
+        "ENM-WOH-1:64",
+        "ENM-WOH-1:104"
+      ]
+    },
+    {
+      "id": "lu2lil-fool-court-defective-creature",
+      "source": "^lu2lil",
+      "translit": "lu2lil",
+      "lemma": "lu2lil",
+      "partOfSpeech": "noun (with LU2-determinative; uncertain reading)",
+      "literal": "fool / simpleton / wind-fool (?)",
+      "standardEnglish": "ETCSL: 'fool'; Jacobsen: 'idiot'; Black et al.: 'a fool / a witless one'",
+      "wohChoice": "fool (per ETCSL and Black et al. consensus)",
+      "claim_type": "direct",
+      "rationale": "**The third of Ninmah's defective creatures (in the manuscript-variant reading at v 66).** The Sumerian *lu2lil* has the LU2-determinative (the sign for 'man / person'). The compound combines *lu2* (man) with *lil* (a noun of debated meaning — variously 'wind / air-spirit / nothingness / vacuity'). The standard reading is 'fool, simpleton' — a person whose mental state is, in the metaphorical Sumerian construction, *wind* or *vacuity* (compare the Akkadian *lillu* 'fool', cognate; and see **CAD** L s.v. *lillu*). The cuneiform-determinative LU2- is a class-marker for human-class-nouns.\n\n**Manuscript variants at v 66.** The composition's manuscript witnesses preserve two variants for the third defective creature: **(i)** the main reading (v 66 primary): a *foot-bound* man — one whose feet are broken or shackled; **(ii)** an alternate manuscript reading: a *lu2lil* — a fool, with the further epithet *u3-tud-bi lu2-u3* ('its begetting was [merely] human' — i.e., the fool is begotten of ordinary human-procreation rather than divine-formation). The two readings are not mutually-exclusive (the third defective could be both foot-bound and a fool in different witnesses, or the variant could be substituting one defective for another in different recensions). The WoH translation preserves both inline per `manuscript-variant-inline-rendering-convention`.\n\n**Modern scholarly literature.** **Black et al.** *Literature of Ancient Sumer* 2004 pp. 217-218; **Wiggermann** *RlA* s.v. *Narr* and *lillu*; **Kilmer** 'The Babylonian Theodicy: Notes on Lines 174 and 211' (1969) on the *lillu* lexeme in Akkadian wisdom-literature; **CAD** L pp. 188-190 s.v. *lillu*.",
+      "appliesTo": [
+        "ENM-WOH-1:66",
+        "ENM-WOH-1:67"
+      ]
+    },
+    {
+      "id": "lu2-su-ba-gish-galla-no-genitalia",
+      "source": "lu2 su-ba ĝiš3 nu-ĝar gal4-la nu-ĝar",
+      "translit": "lu2 su-ba ĝiš3 nu-ĝar gal4-la nu-ĝar",
+      "lemma": "lu2 + su + ĝiš3 + nu-ĝar + gal4-la",
+      "partOfSpeech": "noun-phrase: man + body + penis + not-placed + vulva + not-placed",
+      "literal": "a man, in whose body neither penis nor vulva has been placed",
+      "standardEnglish": "ETCSL: 'a being whose body had neither penis nor vulva'; Jacobsen: 'one in whose body no male and no female sex-organ had been placed'; Black et al.: 'a being whose body had been formed with neither penis nor vulva'",
+      "wohChoice": "a being whose body had been formed with neither penis nor vulva",
+      "claim_type": "direct",
+      "rationale": "**The sixth defective creature in the catalogue** is described in explicit anatomical terms as lacking both male and female primary genitalia. The Sumerian *lu2 su-ba ĝiš3 nu-ĝar gal4-la nu-ĝar* uses the explicit lexemes *ĝiš3* (penis) and *gal4-la* (vulva). Both lexemes are securely-attested in the Sumerian medical and literary corpus; see **Marten Stol** *Birth in Babylonia and the Bible* (Cuneiform Monographs 14, 2000) for the anatomical-lexicon documentation; **CAD** s.v. each Akkadian equivalent; **Black-Cunningham-Robson-Zolyomi** *A Concise Dictionary of Akkadian* (5th ed.) where relevant cognates appear.\n\n**Enki's destiny-decree at v 77** assigns this creature the name *tiru* (eunuch / palace-courtier; see overlay entry `tiru-third-gender-courtier-palace-attendant`) and the social-role of *standing before the king*. The aetiology integrates the body-without-binary-genitalia individual into the temple-and-court society as a *tiru of Nibru* — Nippur's palace-attendant. The catalogue's aetiology, here as throughout, is editorial-inclusive: the genitally-atypical individual is given a culturally-recognized role rather than rejected.\n\n**Cross-corpus to comparative-religion third-gender categories.** The Mesopotamian *tiru / kurgarra / assinnu* third-gender religious-roles are well-documented (Inana's cult includes the *kurgarra* and *galaturra* third-gender ritual-performers; see **Joan Westenholz** 'Towards a New Conceptualization of the Female Role in Mesopotamian Society' 1990 *JAOS* 110; **Saana Teppo** 'Sacred Marriage and the Devotees of Ištar' in *Sacred Marriages* 2008). The Sumerian-Akkadian third-gender religious-roles are documented in detail at the overlay entry `tiru-third-gender-courtier-palace-attendant`. The Hebrew parallel-discussion of eunuchs (*saris* — 2 Kgs 9:32, Esth 1:10-15, Isa 56:3-5, Matt 19:12) is separate but comparatively-relevant; the Sumerian-Akkadian *tiru* and the Hebrew *saris* are not philologically cognate.",
+      "appliesTo": [
+        "ENM-WOH-1:75",
+        "ENM-WOH-1:76",
+        "ENM-WOH-1:108"
+      ]
+    },
+    {
+      "id": "tiru-third-gender-courtier-palace-attendant",
+      "source": "tiru(GAL.TE^?)",
+      "translit": "tiru",
+      "lemma": "tiru",
+      "partOfSpeech": "noun: court-attendant / eunuch / third-gender role",
+      "literal": "eunuch / palace-attendant / third-gender courtier",
+      "standardEnglish": "ETCSL: 'eunuch'; Jacobsen: 'eunuch'; Foster (for Akkadian girsequ): 'palace-attendant'; modern critical scholarship (Westenholz, Teppo): 'third-gender courtier'",
+      "wohChoice": "Eunuch (tiru) of Nibru — preserving the Sumerian *tiru* alongside the conventional translation 'eunuch'; the third-gender categorial context surfaced in commentary.",
+      "claim_type": "direct",
+      "rationale": "**Tiru (sometimes read as girseqû in Akkadian comparisons) is a Sumerian-Akkadian third-gender palace-and-temple role.** The role is documented in the Sumerian and Akkadian administrative corpora as a *palace-attendant* whose social-and-ritual function operates at the boundary of standard male and female gender-categories. The Akkadian cognate *girseqû* ('the one of the palace-doorway / inner-court') is a well-attested palace-courtier role.\n\n**Cross-corpus third-gender religious-roles in Mesopotamian cult.** The fuller Mesopotamian third-gender religious-and-cult vocabulary includes **kurgarra** (a male-bodied ritual-performer in Inana's cult, often associated with cross-gender ritual-performance); **assinnu** (a similar male-bodied Inana-cult performer); **galaturra** ('the little kurgarra'); **kalû** (a lament-priest, sometimes considered as belonging to the third-gender class). The Inana cult is the principal Mesopotamian site of organized third-gender religious-and-cult function; see **Joan Westenholz** 'Towards a New Conceptualization of the Female Role in Mesopotamian Society' *JAOS* 110 (1990); **Saana Teppo** 'Sacred Marriages and the Devotees of Ištar' in *Sacred Marriages* (Brill 2008); **Julia Assante** 'Bad Girls and Kinky Boys?' in *Sex and Gender in the Ancient Near East* (XLVIII RAI 2002); **Martti Nissinen** *Homoeroticism in the Biblical World* (1998) ch. 1; **Wiggermann** *Mesopotamian Protective Spirits* (1992) on cult-officiant categories.\n\n**The Enki-and-Ninmah v 77 attestation** is the locus-classicus for the Sumerian *tiru* in a creation-aetiological frame: the genitally-atypical individual is named *tiru of Nibru* (the *tiru* belonging to Nippur, Sumer's cult-center) and assigned the role of standing before the king. The aetiology gives the third-gender palace-and-temple role a *divine origin*: the *tiru* is part of Enki's primordial-creation, not a later social-degradation.\n\n**The WoH rendering** preserves the Sumerian *tiru* in parenthesis alongside the conventional translation 'eunuch'. The 'eunuch' rendering is the consensus modern translation but is acknowledged to be culturally-thin: the modern English *eunuch* carries primarily-physical-castration connotations, whereas the Sumerian *tiru* names a broader palace-and-temple social role that may or may not involve physical castration. The bracketing of *(tiru)* alongside *eunuch* preserves the lexeme for further cross-corpus reference and signals the categorial-thinness of the standard English translation.\n\n**Hebrew comparandum *saris*.** The Hebrew *saris* (סָרִיס; HALOT s.v., BDB pp. 710-711) is a similar palace-attendant-and-eunuch lexeme, attested at 2 Kgs 9:32 (Jezebel's *sarisim*), Esth 1:10 (the king's seven *sarisim* who attend Vashti), Isa 56:3-5 (the Isaianic vision-of-inclusion of the *saris*), and Matt 19:12 (the New Testament's three categories of *eunuchoi*). The Hebrew *saris* is **not philologically cognate** with the Sumerian *tiru* (it is borrowed from Akkadian *ša rēši* — 'the one of the head', the king's *head-attendant*); the conceptual-cognate-relationship is functional rather than philological. The cross-corpus comparison is documented here but is not asserted as a philological link.",
+      "appliesTo": [
+        "ENM-WOH-1:77"
+      ]
+    },
+    {
+      "id": "ushumgal-great-one-throne-dais",
+      "source": "ušumgal",
+      "translit": "ušumgal",
+      "lemma": "ušumgal",
+      "partOfSpeech": "noun: dragon / great-serpent; metaphorical for pre-eminent figure",
+      "literal": "great serpent / dragon / pre-eminent one",
+      "standardEnglish": "ETCSL: '[a great] one of the throne-dais'; Jacobsen: 'a dragon of the throne-dais'; Foster: 'a great one'; Black et al.: 'a princely-dragon-attendant'",
+      "wohChoice": "a great [...] of the throne-dais (preserving the literal-lacuna in v 65)",
+      "claim_type": "direct",
+      "rationale": "**Ushumgal (ušumgal) is a Sumerian-Akkadian lexeme meaning 'great serpent / dragon' in its literal sense and 'pre-eminent one / lord / champion' in its metaphorical-honorific sense.** The lexeme is widely attested across the Sumerian and Akkadian literary corpus; the metaphorical-honorific use is the dominant register in poetic and royal-ideological contexts. *Ušumgal* is applied to **Marduk** in *Enūma Eliš* (the slayer-of-Tiamat is the *ušumgal* of the gods), to **Ningirsu** in the Gudea cylinders, and to various kings and high officials in the royal-inscription corpus.\n\n**Cross-corpus to Hebrew *tannin* / Ugaritic *tnn*.** The Mesopotamian *ušumgal* belongs to the wider ANE dragon-as-honorific tradition. The Hebrew *tannin* (Gen 1:21; Isa 27:1, 51:9; Ps 74:13; etc.) is a related dragon-or-sea-monster lexeme; the Ugaritic *tnn* (KTU 1.3 III 40; 1.83) appears in the Baal-cycle. The Greek *drakon* and the Latin *draco* continue the type into the Mediterranean tradition. The honorific-metaphorical use of dragon-imagery for *pre-eminence* is widely attested.\n\n**At v 65, the WoH translation** preserves the literal-lacuna ('a great [...] of the throne-dais') because the line is partly damaged and the specific descriptor (ušumgal here, but the line has a lacuna nearby that obscures the precise grammatical-function) cannot be securely-reconstructed. The aetiology assigns the third-defective-creature (the foot-bound man or the fool, depending on the manuscript variant) the role of *standing before the king* as 'a great [...] of the throne-dais' — pre-eminent attendant.",
+      "appliesTo": [
+        "ENM-WOH-1:65"
+      ]
+    },
+    {
+      "id": "namtar-disease-demon-vs-destiny-parsing-crux",
+      "source": "nam-tar",
+      "translit": "nam-tar (Namtar)",
+      "lemma": "nam-tar",
+      "partOfSpeech": "compound noun parsable two ways: (i) destiny-cutting (abstract noun: destiny); (ii) Namtar (proper-name: the disease-demon)",
+      "literal": "destiny-cutting / Namtar",
+      "standardEnglish": "ETCSL (v 71): 'Namtar' (the demon); the abstract-destiny sense at other verses (3, 37, 46, 51, 55, 57, 78, 105, 107)",
+      "wohChoice": "Namtar (proper-name demon) at v 71 only; *destiny* (abstract noun) at all other verses. The dual-parsing is contextual.",
+      "claim_type": "direct",
+      "rationale": "**The Sumerian string *nam-tar* admits two parsings**: (i) the abstract noun *destiny* (literally 'cutting-of-destiny', from *nam* 'destiny' + *tar* 'to cut'; see central entries `nam-sumerian-destiny-fate-cross-corpus` and the verbal idiom *nam tar* 'to decree destiny'); (ii) the proper-name *Namtar* — the disease-demon associated with plague and untimely death, attested across Sumerian-Akkadian medical and incantation-corpora. *Namtar* in the proper-name sense is the messenger of the netherworld-goddess Ereškigal in *Inana's Descent* and a leading figure in the *Sumerian Demon-and-Disease* genre.\n\n**In the Enki-and-Ninmah composition** the string *nam-tar* appears multiple times: at vv 3, 37, 46, 51, 55, 57, 78, 105, 107 in the abstract-destiny sense (the verbal idiom *nam tar* — 'decree destiny' — is the composition's core narrative-action: Enki *decrees destinies* for each of Ninmah's defective-creatures); at **v 71** *uniquely* in the proper-name sense, where Enki bathes the *water-dripping man* (the fourth defective-creature, possibly suffering from a urinary or excretory disorder) with incantation-water and *drives the namtar-demon out of his flesh* — a healing-exorcism. The v 71 parsing is required because the verb-construction (*am3-ma-ni-in-zig3* — 'drove out / made rise away') and the locative-on-the-body (*su-bi* — 'from his flesh / body') govern an animate-or-personalized object: the parsing is *demon-driven-out-of-body*, not *destiny-removed-from-flesh*.\n\n**Modern scholarly consensus** on the v 71 parsing: **ETCSL** English translation has 'Namtar'; **Jacobsen** *The Harps that Once* 1987 p. 159 'the Namtar-demon'; **Foster** *Before the Muses* 3rd ed. 2005 p. 158 'the demon Namtar'; **Black et al.** *Literature of Ancient Sumer* 2004 p. 218 'the namtar-disease'. The reading is uncontested.\n\n**Cross-corpus to Mesopotamian disease-demonology.** *Namtar* belongs to the broader Mesopotamian disease-and-death-demon class, alongside *Lamaštu* (the child-snatching demoness), *Pazuzu* (the rival demon used apotropaically against Lamaštu), *Asakku* (a disease-demon vanquished by Ninurta), and the *Sebettu* (the seven evil winds/demons). See **Wiggermann** *Mesopotamian Protective Spirits* (1992); **Markham J. Geller** *Ancient Babylonian Medicine* (2010); **JoAnn Scurlock** *Magico-Medical Means of Treating Ghost-Induced Illnesses in Ancient Mesopotamia* (2006).",
+      "appliesTo": [
+        "ENM-WOH-1:71"
+      ]
+    },
+    {
+      "id": "umul-sickly-creature-name-etymology",
+      "source": "u4-mu-ul",
+      "translit": "Umul",
+      "lemma": "u4-mu-ul",
+      "partOfSpeech": "proper name (also possibly common noun)",
+      "literal": "(disputed etymology): 'my-day-is-distant' / 'sickly-newborn' / 'the-day-far-off'",
+      "standardEnglish": "ETCSL: 'Umul' (preserved as proper name); Jacobsen: 'Umul, my day is far off' (etymological gloss); Foster: 'Umul' (preserved); Black et al.: 'Umul, the sickly creature' (descriptive paraphrase)",
+      "wohChoice": "Umul (preserved as proper name; etymological gloss documented in commentary on first occurrence at v 88)",
+      "claim_type": "inferred",
+      "rationale": "**Umul (u4-mu-ul) is the name of the creature Enki fashions** in his contest-response to Ninmah's six defective creatures. Umul is the *seventh creature* — the response to Ninmah's six — and is depicted (vv 88-91) with a catalogue of disabilities so comprehensive that the figure is virtually a *catalogue-of-everything-wrong*: head sick, eyes sick, neck sick, breath failing, ribs dripping, lungs sick, heart sick, inner body sick, hand limp, cannot lift bread to mouth, back and skull broken, shoulder and feet trembling, cannot walk. The composition's contest-logic is that Enki's creation is *more extreme* than any of Ninmah's — and Ninmah cannot find a social-role for it (vv 95-101: Ninmah questions Umul, brings him bread, but Umul cannot speak, cannot stretch out his hand, cannot lie down, cannot stand). Ninmah concedes the contest (v 101: 'is not a living man, is not a dead man — he cannot sustain himself'; v 132: 'Ninmah could not rival the great lord Enki').\n\n**The name's etymology is debated.** **(i) The 'my day is distant' reading** (Jacobsen *The Harps that Once* 1987 p. 162 n. 17; followed by Bottéro-Kramer 1989). Parses *u4-mu-ul* as *u4* ('day') + *mu* (perhaps the 1sg-possessive or simply nominal-marker) + *ul* ('distant, remote'): 'my day is distant' = 'short-lived' or 'destined to die young'. The etymology fits the catalogue-of-mortal-frailty Umul represents. **(ii) The 'sickly-newborn' reading** (Black et al. *Literature of Ancient Sumer* 2004 p. 220 n. 31). Parses *u4-mu-ul* as a compound naming a *sickly-newborn-class* (a class-noun the composition uses as a proper-name for the seventh creature). **(iii) The opaque-proper-name reading** (ETCSL; Foster). Treats *Umul* as a proper name of obscure etymology; declines to translate.\n\n**The WoH translation** preserves *Umul* as a proper name and documents the etymological camps in commentary. The 'my day is distant' reading is the most-widely-cited and most-narratively-resonant; it is not adopted as a translation-surface (which would force a choice that the scholarship doesn't support) but is documented as the leading interpretive reading.\n\n**Cross-corpus to ANE infant-mortality-and-disability traditions.** The Umul figure has been compared (Lambert 1965 'A New Look at the Babylonian Background of Genesis' *JTS* 16; Kilmer 1989 'Of Babies, Boats, and Arks') to the *misshapen-and-doomed* figures in Mesopotamian birth-omens (the *šumma izbu* series records monstrous-birth omens; many predict catastrophic outcomes). The Umul-catalogue may be a literary-version of the medical-omen *šumma izbu* tradition, dramatizing the consequences of *creation-without-divine-craftsmanship*.",
+      "appliesTo": [
+        "ENM-WOH-1:88",
+        "ENM-WOH-1:95",
+        "ENM-WOH-1:96",
+        "ENM-WOH-1:131",
+        "ENM-WOH-1:139"
+      ]
+    },
+    {
+      "id": "a-za-ad-head-fontanel-body-part",
+      "source": "a-za-ad",
+      "translit": "a-za-ad",
+      "lemma": "a-za-ad",
+      "partOfSpeech": "noun (body-part; uncertain reading)",
+      "literal": "head / fontanel / skull-crown (uncertain)",
+      "standardEnglish": "ETCSL gloss: 'head'; Jacobsen: 'head (or fontanel)'; Black et al.: 'head'",
+      "wohChoice": "head (the catalogue-context establishes the body-part-meaning; the uncertain-specific-reading flagged)",
+      "claim_type": "direct",
+      "rationale": "**The Sumerian *a-za-ad* is a body-part lexeme of uncertain precise reference.** The standard Sumerian for 'head' is *saĝ*; *a-za-ad* appears in defective-body catalogues (here in Umul's vv 88-90) and in birth-omen contexts (the *šumma izbu* series occasionally uses it). The most-common modern reading is 'head' in the general sense, with some scholars (Stol *Birth in Babylonia and the Bible* 2000) suggesting 'fontanel' (the unossified soft-spot on a newborn's skull) as a more-specific reading in birth-and-defect contexts.\n\n**At v 88-90** *a-za-ad* appears twice in immediate-succession in Umul's catalogue of disabilities: 'its head (*a-za-ad*) was sick... its hand hung limp at its head (*a-za-ad*)'. The general body-part-reading 'head' is preserved in the WoH translation; the specific *fontanel* reading is documented in commentary as a scholarly alternative.",
+      "appliesTo": [
+        "ENM-WOH-1:88",
+        "ENM-WOH-1:90"
+      ]
+    },
+    {
+      "id": "lu2-til-la-lu2-ug-ga-neither-living-nor-dead",
+      "source": "lu2 til3-la in-nu lu2 ug5-ga in-nu",
+      "translit": "lu2 til3-la in-nu lu2 ug5-ga in-nu",
+      "lemma": "lu2 + til3 + ug5",
+      "partOfSpeech": "construct phrase: man + living + not-is + man + dead + not-is",
+      "literal": "is-not a living man, is-not a dead man",
+      "standardEnglish": "ETCSL: 'neither living nor dead'; Jacobsen: 'is no living human, is no dead one'; Foster: 'neither a living man nor a dead'",
+      "wohChoice": "is not a living man, is not a [dead] man — he cannot sustain himself",
+      "claim_type": "direct",
+      "rationale": "**Ninmah's verdict on Umul at v 101 is the composition's most-discussed conceptual-category.** The Sumerian *lu2 til3-la in-nu lu2 ug5-ga in-nu* names the *liminal-being* category: a creature that does not belong to the *living* (*til3-la*) class but also does not belong to the *dead* (*ug5-ga*) class. The category is a Sumerian-Akkadian liminal-being conceptual-marker.\n\n**Cross-corpus to Mesopotamian liminal-being traditions.** The wider Mesopotamian conceptual-vocabulary for *liminal beings* includes: (i) the **eṭemmū** (Akkadian) — *ghosts* of the dead who are not properly-buried and persist in the world as troublesome spirits; (ii) the **rabiṣu** — *lurkers / waylayers* of disputed-class; (iii) the **mukīl rēš lemutti** — *bearers of evil*; (iv) various other categories of *demons* (*udug*, *gallû*, *maškim*, etc.) inhabiting boundaries between life and death. The *neither-living-nor-dead* category is a recurring Mesopotamian conceptual-trope; see **JoAnn Scurlock** *Magico-Medical Means of Treating Ghost-Induced Illnesses* (2006) on the *eṭemmū* tradition; **Wiggermann** *Mesopotamian Protective Spirits* (1992) on demon-classes; **Tzvi Abusch** *Mesopotamian Witchcraft* (2002) on the broader demonological taxonomies.\n\n**The Umul-as-liminal-being reading.** Ninmah's verdict is editorially-decisive: Umul cannot be *killed* (the composition does not allow for that; the seventh creature is Enki's creation and must be honored), but Umul also cannot be *integrated into living-society* (the catalogue of disabilities is too comprehensive). The result is the *neither-living-nor-dead* category: Umul exists in a permanent liminal-state, sustained somehow but unable to engage in human-life. Ninmah's concession (v 101) is the composition's structural-resolution: the contest is decided by Enki's having created a being whose category itself is unprecedented.\n\n**The cross-corpus link to Hebrew *raphaim* and other liminal-being traditions** is not asserted as philologically-cognate (the Hebrew *raphaim* is etymologically distinct from the Sumerian-Akkadian liminal-being vocabulary), but the conceptual-cognate-relationship to ANE liminal-being traditions is widely-recognized. See **Brian Schmidt** *Israel's Beneficent Dead* (1994) on the Hebrew *raphaim* / ANE liminal-being comparanda.",
+      "appliesTo": [
+        "ENM-WOH-1:101"
+      ]
+    },
+    {
+      "id": "la2-line132-ninmah-work-counterbalanced-vs-undone",
+      "source": "kiĝ2-ĝa2-zu ḫe2-bi2-la2-la2",
+      "translit": "kiĝ2-ĝa2-zu ḫe2-bi2-la2-la2",
+      "lemma": "kiĝ2 + la2",
+      "partOfSpeech": "construct phrase: work-your + may-it-be-hung/weighed",
+      "literal": "may your work be hung-up / weighed-out / counter-balanced",
+      "standardEnglish": "ETCSL: 'may your work be undone'; Jacobsen: 'may your work be matched / counter-balanced'; Foster: 'may your work hang in the balance'",
+      "wohChoice": "may your work be counter-balanced (preserving the contest-balance reading; the *undone* alternate-reading flagged in commentary)",
+      "claim_type": "inferred",
+      "rationale": "**The verb *la2* at v 132 admits multiple translations**: (i) literal 'to hang, weigh, suspend'; (ii) idiomatic 'to balance / counter-balance / match'; (iii) figurative 'to be done away with / undone'. The verb's primary lexical-sense is *hang, weigh* (a balance-scale image); the idiomatic-extension to *counter-balance / match* is widely-attested; the figurative-extension to *undo / dissolve* is less-common but defensible.\n\n**The reading-camps.** **ETCSL** English reads *may your work be undone* — taking the verb in the figurative-undoing sense. **Jacobsen** *The Harps that Once* 1987 p. 165 reads *may your work be matched / counter-balanced* — taking the verb in the idiomatic-balance sense. **Foster** *Before the Muses* 3rd ed. 2005 p. 162 reads *may your work hang in the balance* — preserving the literal-balance image without forcing either resolution. **Black et al.** *Literature of Ancient Sumer* 2004 p. 220 split the difference: 'may your work be matched (or: undone)'.\n\n**The narrative-context supports the counter-balance reading.** Enki's earlier offer at v 57 was *nam-tar šag4-ge de6-a-zu sag9-ge ḫul ma-al ga-am3-ši-ib2-la2* — 'the destiny that your heart has conceived, whether for good or for ill — I will counter-balance it (*la2*)'. The verb *la2* in v 57 is the same verb as in v 132 and carries the contest-balance sense. The compositional-logic is that Enki *matches* each of Ninmah's defective-creatures with a destiny, and at the end of the contest, having created Umul (which Ninmah cannot match), Enki declares *Ninmah, may your work be counter-balanced* — i.e., may the back-and-forth contest of creation-and-destiny-decree continue to be a balance, not a unilateral defeat. The reading honors the contest-structure of the composition and supports the v 140 final-narrator-statement that *Ninmah could not rival the great lord Enki* (the contest is decided, but Ninmah's work is not *undone* — her six defectives all received Enki's destiny-decrees and integrated social-roles).\n\n**The WoH adopts the counter-balance reading** following Jacobsen and the narrative-context. The ETCSL *undone* alternative is documented in commentary.",
+      "appliesTo": [
+        "ENM-WOH-1:57",
+        "ENM-WOH-1:132"
+      ]
+    },
+    {
+      "id": "title-and-meta-conventions",
+      "source": "Enki and Ninmah — humans crafted from clay; the defective-births contest",
+      "translit": "Enki and Ninmah",
+      "lemma": "—",
+      "partOfSpeech": "title",
+      "literal": "Enki and Ninmah (descriptive subtitle)",
+      "standardEnglish": "ETCSL: 'Enki and Ninmah'; Jacobsen: 'The Creation of Man by the Mother Goddess'; Black et al.: 'Enki and Ninmah'",
+      "wohChoice": "Enki and Ninmah — humans crafted from clay; the defective-births contest (the descriptive subtitle structure follows the WoH chapter-titling convention)",
+      "claim_type": "direct",
+      "rationale": "**Title convention.** The Sumerian composition is conventionally cited by the names of the two principal divine actors (*Enki and Ninmah*) — the ETCSL standard. WoH chapter-titles add a descriptive-subtitle (here: 'humans crafted from clay; the defective-births contest') marking the chapter's two principal narrative-actions: the *human-creation-from-clay* (vv 1-45, the composition's first half) and the *defective-births contest* (vv 46-141, the composition's second half). The subtitle-convention matches WoH practice for Genesis chapters where descriptive subtitles are added (e.g., Genesis-WoH 22 — 'the binding of Yitzchaq', etc.).",
+      "appliesTo": [
+        "ENM-WOH-1:0"
+      ]
+    }
+  ]
+}
