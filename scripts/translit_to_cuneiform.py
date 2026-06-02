@@ -253,11 +253,14 @@ def translate_line(translit: str, readings: dict, sign_names: dict):
     total = {"mapped": 0, "unmapped": 0, "annotated": 0}
     for w in words:
         chunk, stats = translate_word(w, readings, sign_names)
-        if chunk:
-            word_chunks.append(chunk)
+        # Always append, even when chunk is empty, so the cuneiform word
+        # count stays parallel to the transliteration. The interlinear
+        # renderer zips the two arrays by index; an empty cuneiform slot
+        # under a `[…]` or unmapped sign-name reads as a gap-marker.
+        word_chunks.append(chunk)
         for k in total:
             total[k] += stats[k]
-    cun = " ".join(word_chunks)  # NBSP between words so they don't break
+    cun = " ".join(word_chunks)  # plain space — renderer zips word-pairs on split(pat=" ")
     # Confidence scoring.
     morpheme_total = total["mapped"] + total["unmapped"]
     if morpheme_total == 0:
