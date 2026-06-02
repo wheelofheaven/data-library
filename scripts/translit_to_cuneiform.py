@@ -348,7 +348,32 @@ def translate_line(translit: str, readings: dict, sign_names: dict):
     return cun, confidence
 
 
-def process_chapter(chapter_path: Path, readings, sign_names, dry_run=False):
+def _ugaritic_translate_line(translit: str):
+    """Convert a Ugaritic KTU-style transliteration line to alphabetic
+    cuneiform via the mechanical 1:1 mapper. Returns (cun, confidence).
+
+    The Ugaritic mapping is deterministic (no OGSL lookup), so confidence
+    is binary: 'full' when every translit character maps, 'partial' when
+    annotation noise (brackets, hyphens) is present, 'low' when the line
+    is essentially empty.
+    """
+    # Lazy import — only Ugaritic books need this path.
+    from translit_to_ugaritic import translit_to_unicode, WORD_DIVIDER
+    if not translit or not translit.strip():
+        return "", "low"
+    has_annotation = any(c in translit for c in "[](){}<>?")
+    cun = translit_to_unicode(translit)
+    # Replace Ugaritic word-divider with a plain space so the interlinear
+    # renderer's `split(pat=" ")` produces one token per word, parallel
+    # to the transliteration's whitespace-split.
+    cun = cun.replace(WORD_DIVIDER, " ")
+    if not cun.strip():
+        return "", "low"
+    return cun, ("partial" if has_annotation else "full")
+
+
+def process_chapter(chapter_path: Path, readings, sign_names, dry_run=False,
+                    ugaritic=False):
     data = json.loads(chapter_path.read_text(encoding="utf-8"))
     confidence_counts = Counter()
     line_count = 0
@@ -357,7 +382,10 @@ def process_chapter(chapter_path: Path, readings, sign_names, dry_run=False):
         nonlocal line_count
         for line in lines:
             translit = line.get("translit") or line.get("text") or ""
-            cun, conf = translate_line(translit, readings, sign_names)
+            if ugaritic:
+                cun, conf = _ugaritic_translate_line(translit)
+            else:
+                cun, conf = translate_line(translit, readings, sign_names)
             line["cuneiform"] = cun
             line["cuneiform_confidence"] = conf
             confidence_counts[conf] += 1
@@ -424,17 +452,34 @@ def main():
     else:
         parser.error("provide --slug or --all")
 
+    # Cache each book's primaryLang so we can dispatch Ugaritic to the
+    # alphabetic-cuneiform mapper instead of the OGSL syllabic one.
+    book_langs = {}
+    for slug, _ in slugs:
+        meta_path = LIB / slug / "_meta.json"
+        if meta_path.exists():
+            try:
+                meta = json.loads(meta_path.read_text(encoding="utf-8"))
+                book_langs[slug] = (meta.get("originalLang")
+                                    or meta.get("primaryLang") or "")
+            except Exception:
+                book_langs[slug] = ""
+
     grand_total = Counter()
     grand_lines = 0
     for slug, ch in slugs:
-        result, count = process_chapter(ch, readings, sign_names, dry_run=args.dry_run)
+        is_ugaritic = book_langs.get(slug, "") == "uga"
+        result, count = process_chapter(ch, readings, sign_names,
+                                        dry_run=args.dry_run,
+                                        ugaritic=is_ugaritic)
         if result is None:
             print(f"  skip {slug}/{ch.name} (not a lines/segments shape)")
             continue
         grand_total.update(result)
         grand_lines += count
         pct = lambda k: 100.0 * result[k] / count if count else 0
-        print(f"  {slug}/{ch.name}: {count} lines "
+        marker = " [uga]" if is_ugaritic else ""
+        print(f"  {slug}/{ch.name}: {count} lines{marker} "
               f"[full={result['full']} ({pct('full'):.0f}%) "
               f"partial={result['partial']} ({pct('partial'):.0f}%) "
               f"low={result['low']} ({pct('low'):.0f}%)]")
