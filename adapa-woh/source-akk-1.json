@@ -1,0 +1,131 @@
+{
+  "schemaVersion": 2,
+  "bookSlug": "adapa-woh",
+  "composition": 1,
+  "source": {
+    "type": "akkadian-composite-fragmentary",
+    "versionTitle": "Adapa — best-effort reconstruction from named scholarly editions",
+    "verificationStatus": "best-effort reconstruction from named scholarship (Knudtzon 1915 PD for Fragment A; Picchioni 1981; Lambert in studies; Izre'el 2001 LSU 10 the modern critical edition; Foster Before the Muses 3rd ed 2005). Verification pending against the Izre'el 2001 primary critical edition. Transliteration may contain sign-value reconstruction errors at the per-line level; sense-of-line is well-attested across editions and should match downstream English faithfully.",
+    "license": "Transliteration is best-effort reconstruction from cited scholarly editions; all WoH English original to this project.",
+    "fetchedFrom": "scholarly editions (not openly digitized — see verificationStatus)",
+    "fetchedAt": "2026-06-02",
+    "citations": [
+      "Knudtzon, J. A., Die el-Amarna-Tafeln (Leipzig 1907-1915), text 356 (PD; Fragment A primary source).",
+      "Picchioni, S. A., Il poemetto di Adapa (Budapest 1981).",
+      "Izre'el, S., Adapa and the South Wind: Language Has the Power of Life and Death (Mesopotamian Civilizations 10, Winona Lake 2001) — the modern critical edition and standard scholarly reference.",
+      "Foster, B. R., Before the Muses: An Anthology of Akkadian Literature, 3rd ed. (Bethesda 2005), pp. 525-530 — the accessible English translation.",
+      "Lambert, W. G., 'A late Assyrian catalogue of literary and scholarly texts,' in Festschrift Jacobsen (1976) — for Fragment D catchline.",
+      "Heidel, A., The Babylonian Genesis (Chicago 1942), pp. 147-153 — earlier widely-cited English translation (older editions may be partially PD)."
+    ],
+    "fragmentationNote": "Adapa is preserved in 4 fragments from different periods and excavation sites. Fragment A (Old Babylonian / Middle Babylonian, found at Tell el-Amarna as letter EA 356) — ~13 lines, Adapa's creation by Ea. Fragment B (Neo-Assyrian, K.8214+ from Nineveh) — ~75 lines, the main narrative. Fragments C and D (Late Babylonian) — small, ~10-15 lines combined; D preserves the catchline. Total ~100 lines preserved; lacunae between fragments cannot be reliably estimated."
+  },
+  "segments": [
+    {
+      "id": "A",
+      "label": "Fragment A — Amarna EA 356 (Old Babylonian / Middle Babylonian, found at Tell el-Amarna)",
+      "preceding_lacuna": null,
+      "lines": [
+        {"n": 1, "refId": "ADP-WOH-A:1", "translit": "[…] ina [pān(?)] Anu it-bi", "cuneiform": null, "notes": ["Opening: Ea's address. The Akkadian text references Adapa's standing before Anu. Knudtzon 1915 reads ina pān; restored."]},
+        {"n": 2, "refId": "ADP-WOH-A:2", "translit": "[…] gabbi ša šamê pa-li-ḫi i-de", "cuneiform": null, "notes": ["'…the whole of heaven, knowing fear.' Ea presents Adapa as a paradigm of the god-fearing wise human."]},
+        {"n": 3, "refId": "ADP-WOH-A:3", "translit": "ma-ru-uš (d)Ea [pi-i] mar-tu-šu ub-bi-[il]-am-ma", "cuneiform": null, "notes": ["'The son of Ea brought (with him) the speech of his bitterness…' — the obscure description of Adapa's mouth/speech. Multiple readings in scholarship."]},
+        {"n": 4, "refId": "ADP-WOH-A:4", "translit": "ki-i e-ru-na uš-bi-ʾu", "cuneiform": null, "notes": ["Of uncertain meaning; readings vary. Izre'el 2001 and Foster 2005 differ."]},
+        {"n": 5, "refId": "ADP-WOH-A:5", "translit": "iš-ku-un-šu (d)Adapa pa-li-ḫi", "cuneiform": null, "notes": ["'He (= Ea) set Adapa as the god-fearing one.' Adapa appointed as the paradigm-sage."]},
+        {"n": 6, "refId": "ADP-WOH-A:6", "translit": "ana māt ka-li-ši-[na] šu-mi", "cuneiform": null, "notes": ["'To all the lands, his name (renown).' Adapa's name spreads through the lands."]},
+        {"n": 7, "refId": "ADP-WOH-A:7", "translit": "lib-ba ki-li-il-šu ša šamê e-pu-uš", "cuneiform": null, "notes": ["'He (= Ea) made/gave him the heart of the diadem(?) of heaven.' The 'heart of the diadem' or 'crown of heaven' is a metaphor for Ea's gift of wisdom."]},
+        {"n": 8, "refId": "ADP-WOH-A:8", "translit": "ru-ub-bi-iš-šu i[g]-ga-ar-[X] ta-na-am-ma", "cuneiform": null, "notes": ["'He made him great; the (council of) gods praised(?).' Adapa is exalted among the gods."]},
+        {"n": 9, "refId": "ADP-WOH-A:9", "translit": "it-ti DINGIR.MEŠ […]", "cuneiform": null, "notes": ["'With the gods…' (broken). Adapa stands among the gods despite being human."]},
+        {"n": 10, "refId": "ADP-WOH-A:10", "translit": "ne-me-qa id-din-šu napišta dāriti ul id-din-šu", "cuneiform": null, "notes": ["**MANDATORY MAJOR**: 'He gave him wisdom (*nēmequ*) — eternal life (*napištu dārītu*) he did not give him.' THE FOUNDATIONAL CRUX of the Adapa story: Ea grants Adapa wisdom but withholds immortality. The Adapa-as-paradigm-sage but mortal-by-design framework. Cross-corpus the Hebrew Gen 3:22 tree-of-life motif. Verification pending against Izre'el's exact reading."]},
+        {"n": 11, "refId": "ADP-WOH-A:11", "translit": "ina ūmīšu-ma […] mār Ea ūmišammi(?)", "cuneiform": null, "notes": ["'In those days … the son of Ea daily(?)' — narrative-temporal frame for the Eridu service."]},
+        {"n": 12, "refId": "ADP-WOH-A:12", "translit": "ašar (d)Ea ina qereb Eridu(KI) ina ramāni-šu(?) ibšû", "cuneiform": null, "notes": ["'Where Ea dwelt in the midst of Eridu by his own (creative power).' Eridu is Ea's cosmographic seat (cross-corpus the abzu/apsû concept)."]},
+        {"n": 13, "refId": "ADP-WOH-A:13", "translit": "[…] (d)Adapa [šarru(?) ša ṣalmāt qaqqadi]", "cuneiform": null, "notes": ["'… Adapa [king(?) of the black-headed people].' The closing line of Fragment A, broken; Adapa's epithet possibly as ruler/leader of humankind. *ṣalmāt qaqqadi* 'black-headed people' is the Akkadian self-designation for humanity (cross-corpus the Sumerian *saĝ-gig-ga* central entry from the Flood Story; bidirectional cross-corpus sibling-cluster candidate)."]}
+      ]
+    },
+    {
+      "id": "B",
+      "label": "Fragment B — K.8214+ Neo-Assyrian Nineveh (the main narrative)",
+      "preceding_lacuna": {"text": "Lacuna of unknown size between Fragments A and B; Fragment B is a Neo-Assyrian Nineveh tablet preserving the main narrative.", "approx_lines_missing": null, "i18n": {"en": "[Lacuna of unknown size between Fragments A and B. Fragment B preserves the main Neo-Assyrian narrative as recovered from the Kuyunjik library at Nineveh.]"}},
+      "lines": [
+        {"n": 1, "refId": "ADP-WOH-B:1", "translit": "[…] Adapa māru ša Eridu", "cuneiform": null, "notes": ["'…Adapa, son of Eridu.' The fragment opens with Adapa identified as the wise-man of Eridu."]},
+        {"n": 2, "refId": "ADP-WOH-B:2", "translit": "ina qereb Eridu(KI) (d)Ea ina mayyāli-šu i-nu-uš-šu", "cuneiform": null, "notes": ["'In the midst of Eridu, Ea woke him on his bed.' / 'Ea roused him from his couch.' Ea-as-master-of-Adapa relationship."]},
+        {"n": 3, "refId": "ADP-WOH-B:3", "translit": "[ūmišamma] ina Eridu(KI) [išabbiru(?)] mê(A.MEŠ) qadišūti", "cuneiform": null, "notes": ["'Daily(?) in Eridu he [drew(?)] the pure waters.' Adapa's role as Ea's servant — drawing the pure water for the cult."]},
+        {"n": 4, "refId": "ADP-WOH-B:4", "translit": "elē-šu ina elippi-šu i-rak-kab", "cuneiform": null, "notes": ["'He went up; he rode in his boat.' Adapa's daily routine of going out to fish for Ea's temple."]},
+        {"n": 5, "refId": "ADP-WOH-B:5", "translit": "ina ūmi šuāti ana tâmti dalti(?) ša bāb Eridu(KI) išteni", "cuneiform": null, "notes": ["'On that day to the sea-gate of Eridu he set out alone.' The fishing-expedition that triggers the South Wind incident."]},
+        {"n": 6, "refId": "ADP-WOH-B:6", "translit": "[X X] elippa-šu nāru ina(?) mê i-šat-tu", "cuneiform": null, "notes": ["'… his boat the wave / current drove on the waters.' / 'The wave bore his boat upon the waters.' Adapa is on the sea fishing."]},
+        {"n": 7, "refId": "ADP-WOH-B:7", "translit": "ina libbi tâmti ša rapaš-tum (d)Šūtu(IM.U18.LU) ina pâ-ni-šu it-bi", "cuneiform": null, "notes": ["'In the midst of the broad sea, the South Wind (*Šūtu* / *IM.U18.LU*) rose against him.' MANDATORY GLOSSARY CANDIDATE: *Šūtu* (the South Wind) — divinized wind. Cross-corpus the Akkadian wind-vocabulary; cross-corpus Hebrew *ruach* and the four cardinal winds tradition."]},
+        {"n": 8, "refId": "ADP-WOH-B:8", "translit": "elippa-šu uṭebbi-šu Adapa ana bīt nūni iṭṭebi-šu", "cuneiform": null, "notes": ["'(The South Wind) sank his boat; Adapa was thrust into the fish's house (= drowned/submerged).' The capsizing event. *bīt nūni* 'house of the fish' as a poetic for the depths."]},
+        {"n": 9, "refId": "ADP-WOH-B:9", "translit": "Šūtu (d)X X [le-e]q-e (d)Šūta lūmur šēd-ki", "cuneiform": null, "notes": ["'O South Wind, [I will break(?)] — South Wind, I shall see your wing (lit. demon-form)!' Adapa's anger; he speaks against the South Wind."]},
+        {"n": 10, "refId": "ADP-WOH-B:10", "translit": "kappi-ki(?) lu-uš-bi-ir aššum amat pī-šu", "cuneiform": null, "notes": ["**MANDATORY MAJOR**: 'May I break your wing (*kappī-ki*)!' — by the word of his mouth. The famous Adapa-breaks-the-South-Wind's-wing curse. **The wind-breaking by speech-act**: Izre'el 2001's subtitle is *Language Has the Power of Life and Death* — this is the central thesis-line. The speech-act efficacy: Adapa's spoken word breaks an immortal wind's wing. STRONG CENTRAL CANDIDATE on the speech-act-efficacy motif; cross-corpus Hebrew creation-by-speech in Gen 1 (*va-yomer Elohim*); cross-corpus John 1:1 (*ho logos*)."]},
+        {"n": 11, "refId": "ADP-WOH-B:11", "translit": "ki-i ša ina pī-šu iqbû kapp(i) Šūti is-sa-bir", "cuneiform": null, "notes": ["'As he spoke with his mouth, the wing of the South Wind broke (passive).' The speech-act takes effect."]},
+        {"n": 12, "refId": "ADP-WOH-B:12", "translit": "sebet ūmī Šūtu ana māti ul iziq", "cuneiform": null, "notes": ["**MANDATORY**: 'For seven days the South Wind did not blow upon the land.' The cosmic-disturbance from Adapa's curse. Cross-corpus the seven-day flood-storm (Flood Story Segment D), the seven-day mourning (Genesis 50, etc.) — the seven-day cosmic-marker pattern."]},
+        {"n": 13, "refId": "ADP-WOH-B:13", "translit": "(d)Anu ana sukkalli-šu (d)Ilabrat amāta i-tappal", "cuneiform": null, "notes": ["'Anu spoke a word to his vizier Ilabrat.' Anu the sky-god takes notice; Ilabrat (Ninšubur in Sumerian, Ea's-counterpart-as-Anu's-vizier) reports."]},
+        {"n": 14, "refId": "ADP-WOH-B:14", "translit": "mīnâ Šūtu ūmišamma ana māti ul iziq", "cuneiform": null, "notes": ["'Why has the South Wind not blown upon the land for (these) days?'"]},
+        {"n": 15, "refId": "ADP-WOH-B:15", "translit": "(d)Ilabrat sukkallu īpula-šu", "cuneiform": null, "notes": ["'Ilabrat the vizier answered him.'"]},
+        {"n": 16, "refId": "ADP-WOH-B:16", "translit": "bēlī Adapa māru ša Ea kappi Šūti iš-bir", "cuneiform": null, "notes": ["'My lord, Adapa son of Ea has broken the wing of the South Wind.'"]},
+        {"n": 17, "refId": "ADP-WOH-B:17", "translit": "[…] (d)Anu išme-ma uggata-šu ittagiš", "cuneiform": null, "notes": ["'… Anu heard, and his anger arose.' Anu summons Adapa to heaven."]},
+        {"n": 18, "refId": "ADP-WOH-B:18", "translit": "lišēriba-šu lišā ana mahar-ya — qiba ana Adapa", "cuneiform": null, "notes": ["'Let him bring him up, let him come into my presence! Speak to Adapa!' Anu's command for the ascent."]},
+        {"n": 19, "refId": "ADP-WOH-B:19", "translit": "(d)Ea apkal Eridu(KI) idī šipra ša šamê", "cuneiform": null, "notes": ["'Ea, the sage of Eridu, knew the work of heaven.' Ea anticipates the summons; he prepares Adapa."]},
+        {"n": 20, "refId": "ADP-WOH-B:20", "translit": "Adapa qarrāda iddi-šu-ma qarrāda mali kāspa idki-šu", "cuneiform": null, "notes": ["'He set Adapa in dishevelled (mourning) hair; he made him wear mourning-garments.' Ea instructs Adapa to appear as a mourner before Anu's heavenly court."]},
+        {"n": 21, "refId": "ADP-WOH-B:21", "translit": "ana Adapa Ea amāta išakkan", "cuneiform": null, "notes": ["'To Adapa Ea set words (= gave instructions).' The famous Ea-instruction speech follows."]},
+        {"n": 22, "refId": "ADP-WOH-B:22", "translit": "Adapa ana mahar (d)Anu šarri ana šamê tellû", "cuneiform": null, "notes": ["'Adapa, you are about to ascend to heaven, to the presence of Anu the king.'"]},
+        {"n": 23, "refId": "ADP-WOH-B:23", "translit": "ina kâdi ša bāb šamê (d)Dumuzi u (d)Gizzida izzazzū", "cuneiform": null, "notes": ["'At the threshold of heaven's gate Dumuzi and Gizzida stand watch.' MANDATORY GLOSSARY CANDIDATE: Dumuzi and Gizzida as the gate-keeping deities of heaven; cross-corpus the dying-and-rising god motif (Dumuzi = Tammuz, cf. Ezek 8:14)."]},
+        {"n": 24, "refId": "ADP-WOH-B:24", "translit": "kī immarū-ka — ʾalka? ammīni? aššum manni?", "cuneiform": null, "notes": ["'When they see you, they will ask — Where are you (going)? Why? For whose sake?'"]},
+        {"n": 25, "refId": "ADP-WOH-B:25", "translit": "amāta tâbta ina mahri-šunu šuškina", "cuneiform": null, "notes": ["'Place a sweet word before them.' Ea instructs Adapa to win their favor with kind words."]},
+        {"n": 26, "refId": "ADP-WOH-B:26", "translit": "ašalūki — ana ilī šina ša ina mātīni iḫalliqū", "cuneiform": null, "notes": ["'I will go ask — for the two gods who have disappeared from our land.' Adapa is to claim he mourns Dumuzi and Gizzida (the dying-vegetation-deities who have vanished from earth in the dry season). This flatters them: they receive cult-recognition."]},
+        {"n": 27, "refId": "ADP-WOH-B:27", "translit": "kī iqabbi-ka — mannu šunu? Adapa — Dumuzi u Gizzida", "cuneiform": null, "notes": ["'When they ask — who are they? Adapa: Dumuzi and Gizzida (themselves)!' Adapa's flattery confesses that the missing-vegetation-gods he mourns are the very gods now before him."]},
+        {"n": 28, "refId": "ADP-WOH-B:28", "translit": "iḫdū-ma ana mahar Anu damiqta iqabbū-ka", "cuneiform": null, "notes": ["'They will rejoice; and before Anu they will speak good (of you).' The gate-keepers will intercede for Adapa."]},
+        {"n": 29, "refId": "ADP-WOH-B:29", "translit": "Anu pānu-šu damqu lišēbira-ka", "cuneiform": null, "notes": ["'Anu will (then) show you his favorable face.' The audience-pacification trick is set."]},
+        {"n": 30, "refId": "ADP-WOH-B:30", "translit": "ina mahar Anu izziz-ma akala ša mūti ukallū-ka — ul takkala", "cuneiform": null, "notes": ["**MANDATORY MAJOR**: 'When you stand before Anu, they will offer you the bread of death — do not eat (it).' THE FAMOUS EA-DECEPTION (or 'Ea's misadvice' — debated in scholarship): Ea tells Adapa that the food Anu will offer is *akāl mūti* 'food of death'. Whether Ea deceives Adapa or is himself deceived is the central interpretive crux of the entire poem. STRONG CENTRAL CANDIDATE — the crux of the lost-immortality narrative. Cross-corpus Gen 3:22 (the tree-of-life kept from humanity); Gen 2:17 (eat-and-die warning); the Eve-and-fruit forbidden-food motif."]},
+        {"n": 31, "refId": "ADP-WOH-B:31", "translit": "mê mūti ukallū-ka — ul tašatti", "cuneiform": null, "notes": ["'They will offer you the water of death — do not drink (it).' Parallel to v30 — the second forbidden-substance warning."]},
+        {"n": 32, "refId": "ADP-WOH-B:32", "translit": "lubuša ukallū-ka — litbaš", "cuneiform": null, "notes": ["'They will offer you a garment — put it on.' Garment OK (no death-curse on the garment, per Ea's instruction)."]},
+        {"n": 33, "refId": "ADP-WOH-B:33", "translit": "šamna ukallū-ka — pussis", "cuneiform": null, "notes": ["'They will offer you oil — anoint yourself.' Oil OK as well — the contrast with food/water sharpens the suspicion that Ea's warning about food/water is deliberate."]},
+        {"n": 34, "refId": "ADP-WOH-B:34", "translit": "ṭēmu ša aqbâ-kum la teggâ — amāt ša aqbâ-kum ukāl", "cuneiform": null, "notes": ["'The instruction I have given you, do not transgress — the word I have given you, hold (fast).' Ea closes his speech with the binding-of-Adapa to obedience."]},
+        {"n": 35, "refId": "ADP-WOH-B:35", "translit": "tâbi(?) ša Eridu Adapa illika ana šamê i-ti-li", "cuneiform": null, "notes": ["'The good(/wise) one of Eridu, Adapa, went; he ascended to heaven.' Adapa's ascent."]},
+        {"n": 36, "refId": "ADP-WOH-B:36", "translit": "ina kâdi ša bāb Anu Dumuzi u Gizzida i-ta-tu-šú", "cuneiform": null, "notes": ["'At the threshold of Anu's gate, Dumuzi and Gizzida noticed him.' The gate-keepers encounter Adapa as Ea predicted."]},
+        {"n": 37, "refId": "ADP-WOH-B:37", "translit": "Adapa ammīni qarrāda u kāspu tu-na-as-saḫ?", "cuneiform": null, "notes": ["'Adapa, why have you put on dishevelled hair and mourning-garment?'"]},
+        {"n": 38, "refId": "ADP-WOH-B:38", "translit": "ina mātīni ilāni šina iḫliqū-ma ana-ku qarrāda lā nasḫāku", "cuneiform": null, "notes": ["'In our land two gods have disappeared, therefore I am (dressed) in mourning-hair.' (The flattering ambiguity Ea coached: Adapa speaks of Dumuzi and Gizzida who 'disappear' annually from the land — the listeners now revealed as those very gods.)"]},
+        {"n": 39, "refId": "ADP-WOH-B:39", "translit": "mannu šunu ilāni šina? — Dumuzi u Gizzida", "cuneiform": null, "notes": ["'Who are these two gods? — Dumuzi and Gizzida.' The flattery is delivered."]},
+        {"n": 40, "refId": "ADP-WOH-B:40", "translit": "i-na-as-sa-ḫū-ma a-ḫa-iš ut-tab-bi-tu", "cuneiform": null, "notes": ["'They (Dumuzi and Gizzida) looked at one another; they smiled (?).' The gate-keepers are flattered."]},
+        {"n": 41, "refId": "ADP-WOH-B:41", "translit": "ana mahar Anu i-mu-uš-šu-ma damiqta iqabbū", "cuneiform": null, "notes": ["'Before Anu they came forward and spoke a good word (for Adapa).'"]},
+        {"n": 42, "refId": "ADP-WOH-B:42", "translit": "Anu pānu-šu damqu uš-pe-l-am-ma", "cuneiform": null, "notes": ["'Anu turned his favorable face (to Adapa).'"]},
+        {"n": 43, "refId": "ADP-WOH-B:43", "translit": "Adapa ammīni kappi Šūti taš-bir?", "cuneiform": null, "notes": ["'Adapa, why have you broken the wing of the South Wind?'"]},
+        {"n": 44, "refId": "ADP-WOH-B:44", "translit": "bēlī ina libbi tâmti ša rapaš-tum ana bīt bēlī-ya nūni a-ṣa-id", "cuneiform": null, "notes": ["'My lord — in the midst of the broad sea, for my lord's house I was netting fish.'"]},
+        {"n": 45, "refId": "ADP-WOH-B:45", "translit": "tâm-tum ki-i ma-ha-zi-im ta-ba-na-am", "cuneiform": null, "notes": ["'The sea (rose) like a sanctuary-pavilion (a high vault).' Description of the storm."]},
+        {"n": 46, "refId": "ADP-WOH-B:46", "translit": "Šūtu i-ziq-am-ma elippī ú-ṭe-eb-bi", "cuneiform": null, "notes": ["'The South Wind blew and capsized my boat.'"]},
+        {"n": 47, "refId": "ADP-WOH-B:47", "translit": "ana bīt nūni it-ti-bi-(an)-ni — ina libbati-ya Šūta luš-bi-ir", "cuneiform": null, "notes": ["'It thrust me into the fish-house (of the deep). In my anger I (cursed/spoke against) the South Wind so as to break (her wing).'"]},
+        {"n": 48, "refId": "ADP-WOH-B:48", "translit": "Anu ina libbi-šu i-tap-pal", "cuneiform": null, "notes": ["'Anu pondered (this) in his heart.'"]},
+        {"n": 49, "refId": "ADP-WOH-B:49", "translit": "Dumuzi u Gizzida ana Anu i-ma-an-nu-ma", "cuneiform": null, "notes": ["'Dumuzi and Gizzida recounted (his case) to Anu.'"]},
+        {"n": 50, "refId": "ADP-WOH-B:50", "translit": "Anu lib-ba-šu i-pa-šaḫ — ana mīna Ea pālīḫa ana mār ša awīluti tu-lap-pi-it?", "cuneiform": null, "notes": ["**MANDATORY MAJOR**: 'Anu's heart was appeased. (He said:) Why did Ea reveal (the secrets) of heaven and earth to a human being? — and (give) him a strong heart?' The CENTRAL THEODICY-CRUX: Anu observes that Ea has given a HUMAN being divine wisdom, and (in some readings) is dismayed by this divine-secret-leak. Cross-corpus Gen 3:22 'the human has become like one of us, knowing good and evil' — the divine-recognition-of-stolen-divinity moment. STRONG CENTRAL CANDIDATE."]},
+        {"n": 51, "refId": "ADP-WOH-B:51", "translit": "šuāti mīnâ niqâb-šu? — akāl balāṭi liblū-šu — likul", "cuneiform": null, "notes": ["**MANDATORY MAJOR**: 'For him, what shall we (now) decree? — Let them bring him **food of life** (*akāl balāṭi*) — let him eat!' The IRONIC REVERSAL: what Ea called *akāl mūti* 'food of death' is in fact *akāl balāṭi* 'food of LIFE.' Either (a) Ea deceived Adapa to prevent humanity from gaining immortality (the deception-reading); (b) Ea genuinely didn't know (the misadvice-reading); (c) Anu's offer was conditional on Adapa's right-relating to it. The CRUX OF THE ENTIRE POEM. Cross-corpus the Hebrew tree-of-life and the 'will become like the gods' Gen 3:5-6+22 narrative; cross-corpus John 6:48-58 'I am the bread of life' (a Christian-soteriological echo that must be DISAVOWED — not pre-resolve to Christian-typology)."]},
+        {"n": 52, "refId": "ADP-WOH-B:52", "translit": "mê balāṭi liblū-šu — lišti", "cuneiform": null, "notes": ["**MANDATORY MAJOR**: 'Let them bring him **water of life** (*mê balāṭi*) — let him drink!' Parallel to v51 — the divine-immortality water. Cross-corpus John 4:10-14 the living-water Christian-soteriological echo (DISAVOW); cross-corpus Rev 22:1 the river of life from the throne of God; cross-corpus Hebrew Gen 2:10 the four rivers of Eden."]},
+        {"n": 53, "refId": "ADP-WOH-B:53", "translit": "lubuš liblū-šu — litbaš", "cuneiform": null, "notes": ["'Let them bring him garment — let him put (it) on.' (The non-deadly accompaniment.)"]},
+        {"n": 54, "refId": "ADP-WOH-B:54", "translit": "šamna liblū-šu — lipissis", "cuneiform": null, "notes": ["'Let them bring him oil — let him anoint himself.' (The non-deadly accompaniment.)"]},
+        {"n": 55, "refId": "ADP-WOH-B:55", "translit": "akāl balāṭi ana mahri-šu ub-lu-ma — Adapa ul ikkal", "cuneiform": null, "notes": ["**MANDATORY MAJOR**: 'They brought the food of life before him — but Adapa did not eat.' The MOMENT of the lost-immortality. Adapa, obeying Ea's coached warning, refuses what would have given him eternal life. Cross-corpus Gen 3:6 (Eve eats and gains god-knowledge but loses Eden); Gen 3:22 (the tree-of-life kept from humanity by divine action). The INVERSE-PARALLEL: in Adapa, humanity refuses the divine food and loses immortality; in Genesis, humanity eats the divine food and loses immortality. Same cosmic-result via opposite human-action."]},
+        {"n": 56, "refId": "ADP-WOH-B:56", "translit": "mê balāṭi ana mahri-šu ub-lu-ma — ul išatti", "cuneiform": null, "notes": ["'They brought the water of life before him — but he did not drink.' Parallel to v55."]},
+        {"n": 57, "refId": "ADP-WOH-B:57", "translit": "lubuš ub-lu-ma — il-tab-aš — šamna ub-lu-ma — ip-ta-as-sa-as", "cuneiform": null, "notes": ["'They brought the garment — he put it on. They brought the oil — he anointed himself.' Adapa accepts the non-deadly gifts."]},
+        {"n": 58, "refId": "ADP-WOH-B:58", "translit": "Anu īmur-šu-ma — i-ṣi-iḫ", "cuneiform": null, "notes": ["**MANDATORY**: 'Anu looked at him, and laughed (*īṣiḫ*).' Anu's reaction to Adapa's refusal: laughter (in some readings: incredulous; in others: amused at Ea's craftiness). STRONG LITERARY OBSERVATION."]},
+        {"n": 59, "refId": "ADP-WOH-B:59", "translit": "alka — Adapa — ammīni la takkala la tašatti? — la baltāta?", "cuneiform": null, "notes": ["'Come — Adapa — why did you not eat, did you not drink? — Are you not (now to be) alive (= immortal)?' Anu's confrontation: he confirms the food/water was of LIFE."]},
+        {"n": 60, "refId": "ADP-WOH-B:60", "translit": "Ea bēlī aqbâ — la takkala la tašatti", "cuneiform": null, "notes": ["'My lord Ea told me — do not eat, do not drink.' Adapa names Ea as the source of his warning."]},
+        {"n": 61, "refId": "ADP-WOH-B:61", "translit": "leqâ-šu — ana erṣeti-šu utīrā-šu", "cuneiform": null, "notes": ["'Take him — return him to his earth.' Anu sends Adapa back to mortality."]},
+        {"n": 62, "refId": "ADP-WOH-B:62", "translit": "[…] (broken)", "cuneiform": null, "notes": ["Fragmentary."]},
+        {"n": 63, "refId": "ADP-WOH-B:63", "translit": "[…] (broken)", "cuneiform": null, "notes": ["Fragmentary."]},
+        {"n": 64, "refId": "ADP-WOH-B:64", "translit": "[…] (broken — the closing of Fragment B; restoration approximate)", "cuneiform": null, "notes": ["Fragmentary. The closing of B is uncertain; Foster 2005 supplies a brief restoration based on parallel-text logic."]}
+      ]
+    },
+    {
+      "id": "C",
+      "label": "Fragment C — Late Babylonian (small fragment, partial parallel to Fragment B)",
+      "preceding_lacuna": {"text": "Fragment C is small and very fragmentary; only the sense of a few lines can be reconstructed.", "approx_lines_missing": null, "i18n": {"en": "[Fragment C is small and mostly broken. Only partial readings, including a parallel to part of Fragment B's narrative.]"}},
+      "lines": [
+        {"n": 1, "refId": "ADP-WOH-C:1", "translit": "[mostly broken — a few words preserved]", "cuneiform": null, "notes": ["Fragment C lines are too broken for confident reconstruction. Izre'el 2001 gives a tentative reading. WoH conservative: mark as broken pending verification."]}
+      ]
+    },
+    {
+      "id": "D",
+      "label": "Fragment D — Late Babylonian (preserves the catchline)",
+      "preceding_lacuna": {"text": "Fragment D is small; its primary value is the surviving catchline.", "approx_lines_missing": null, "i18n": {"en": "[Fragment D is small but preserves the catchline (the formula identifying the next composition in the series).]"}},
+      "lines": [
+        {"n": 1, "refId": "ADP-WOH-D:1", "translit": "[catchline; specifics unverified pending Izre'el 2001]", "cuneiform": null, "notes": ["Fragment D's catchline value is documented in Lambert 1976 and Izre'el 2001. WoH conservative: mark as pending verification."]}
+      ]
+    }
+  ]
+}

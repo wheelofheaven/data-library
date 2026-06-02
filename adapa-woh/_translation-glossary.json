@@ -1,0 +1,172 @@
+{
+  "$schema": "../_translation-glossary.schema.json",
+  "name": "Adapa — per-translation overlay glossary",
+  "version": "1.1.0",
+  "released": "2026-06-02",
+  "description": "Per-translation overlay glossary for Adapa and the South Wind. The project's first Akkadian-source overlay file. Houses entries that are composition-specific. Cross-corpus Akkadian↔Sumerian↔Hebrew entries (food-of-life, ascent-to-heaven, lost-immortality, speech-act-efficacy, wisdom-but-not-immortality) live in the central glossary alongside the existing Hebrew Genesis-WoH and Sumerian Mesopotamian central entries.",
+  "sourceLanguages": [
+    "akk"
+  ],
+  "scopeNote": "v1.1.0 — Adapa Editor pass. Houses 9 overlay entries: title-and-meta-conventions; verification-pending disclosure; mê qadišūti pure cult-waters; bīt nūni house-of-the-fish kenning; Ilabrat the sukkallu of Anu (Mesopotamian-pipeline-wide; flagged for future central promotion at Inana-Descent); kappi the wing-breaking image; the Ea coaching-speech form (the master-disciple binding-instruction genre); the garment-and-oil non-deadly accompaniments; the Fragment-C-and-D conservative-rendering convention. Cross-corpus Akkadian↔Sumerian↔Hebrew foundational entries (food-of-life, ascent-to-heaven, lost-immortality, speech-act-efficacy, wisdom-but-not-immortality, divine-secret-leak, dumuzi-tammuz-adonis, return-to-the-earth, divine-laughter, shedu-shedim, mourning-garb, apkallu-paradigm-sage, šūtu-cardinal-winds) live in the central glossary alongside the existing Hebrew Genesis-WoH and Sumerian Mesopotamian central entries; bidirectional sibling-cluster wiring documented at the chapter-1-editor-report.md.",
+  "terms": [
+    {
+      "id": "title-and-meta-conventions-adapa",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: chapter-title and meta-conventions for the Adapa overlay",
+      "literal": "(not applicable — meta)",
+      "standardEnglish": "(not applicable — meta)",
+      "wohChoice": "chapter-title 'Adapa and the South Wind — the Akkadian lost-immortality myth: wisdom granted, eternal life withheld; humanity refuses the food of life and is sent back to the earth' — descriptive double-clause title; follows the Flood Story precedent for descriptive long-form chapter titles",
+      "claim_type": "direct",
+      "rationale": "Chapter-title convention for Adapa follows the Flood Story precedent: short canonical-form name + descriptive subtitle that names the central narrative-and-theological pivot. The subtitle 'the Akkadian lost-immortality myth' situates the composition in its lexical-tradition; 'wisdom granted, eternal life withheld; humanity refuses the food of life and is sent back to the earth' compresses the foundational A:10 wisdom-without-immortality announcement and the B:51-61 food-of-life-refusal narrative-resolution. The convention is shared with the Mesopotamian arc; no new project-wide convention introduced.",
+      "appliesTo": [
+        "ADP-WOH-A:0"
+      ]
+    },
+    {
+      "id": "verification-pending-disclosure-adapa-akkadian",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: source-text verification-status disclosure for the Adapa overlay",
+      "literal": "(not applicable — meta)",
+      "standardEnglish": "(not applicable — meta)",
+      "wohChoice": "best-effort reconstruction; verification pending against Izre'el 2001 (MC 10, Winona Lake 2001) the modern critical edition. Transliteration may contain sign-value reconstruction errors at the per-line level; sense-of-line is well-attested across editions (Foster 2005, Heidel 1942, Picchioni 1981, Lambert 1976) and reflects scholarly consensus.",
+      "claim_type": "direct",
+      "rationale": "Adapa is the **project's first Akkadian-source text**. The composite-source character of the text (Fragment A — Amarna EA 356, Old/Middle Babylonian; Fragment B — K.8214+ Neo-Assyrian Nineveh; Fragments C-D — Late Babylonian, partial) requires a composite-reconstruction across multiple periods and excavation-sites. The Translator's source file used best-effort transliteration from Knudtzon 1915 (Fragment A, PD) + Foster 2005 + Picchioni 1981 + Izre'el 2001's published commentary; the per-line transliteration may contain sign-value reconstruction errors. The Editor preserves the source's `verificationStatus` flag in the chapter-1.json `translation.verificationStatus` field and notes specific lines flagged in the Editor report. The Editor's lens-discipline work on glossary entries and commentary is **independent** of the sign-by-sign transliteration verification: the sense-of-line is well-attested across editions; lens-discipline operates on the sense, not on the sign-level reconstruction. A downstream verification-pass against Izre'el 2001's critical edition is requested.",
+      "appliesTo": [
+        "ADP-WOH-A:1",
+        "ADP-WOH-D:1"
+      ]
+    },
+    {
+      "id": "me-qadishuti-pure-cult-waters-akkadian-eridu-temple-service",
+      "source": "mê(A.MEŠ) qadišūti",
+      "translit": "mê qadišūti",
+      "lemma": "mû; qadāšu / qadišu",
+      "partOfSpeech": "Akkadian noun-phrase: pure cult-waters drawn for Ea's temple-service at Eridu",
+      "literal": "the pure waters",
+      "standardEnglish": "the pure waters / the holy waters (Foster 2005; Izre'el 2001 — uniform consensus)",
+      "wohChoice": "the pure waters (preserves the *qadišu* 'pure / consecrated / holy' modifier; the cult-water for Ea's temple-service)",
+      "claim_type": "direct",
+      "rationale": "**Adapa B:3 — *mê qadišūti* 'the pure waters'**. Adapa's daily cult-task at Ea's temple in Eridu is to draw the *mê qadišūti* — the pure/holy waters required for the cult-service. The Akkadian *qadišu* (fem. *qadištu* / *qadišūtu*) — 'pure, holy, consecrated' — is the Akkadian cognate of Hebrew *qadosh* 'holy' (proto-Semitic *√qdš). The *mê qadišūti* are the **temple-cult fresh-waters**, drawn (presumably) from the abzu / Apsû source-zone that Eridu cosmographically anchors.\n\n**Cross-corpus comparanda.** The Hebrew *mayim qedoshim* 'holy waters' at Num 5:17 (the *sotah* / suspected-adulteress ordeal-water; the priest takes *mayim qedoshim* in an earthen vessel) is the closest Hebrew functional-parallel. The wider ANE temple-cult-water vocabulary (Sum. *a kug-ga*; Egyptian temple lustration-waters) shares the *purification-water-for-cult-service* semantic-field. The Adapa B:3 attestation is composition-specific in Akkadian; cross-corpus to the wider ANE cult-water tradition.\n\n**Why overlay not central.** The lexeme *mê qadišūti* is composition-specific in its Adapa attestation; the broader *qadišu* / *qadošu* Semitic-cognate semantic-field is documented in the wiki. No new central entry promoted on a single-attestation basis; the link to the abzu/Apsû cosmographic-domain is handled via the existing central entry `abzu-engur-sumerian-subterranean-deep-cross-corpus`.",
+      "appliesTo": [
+        "ADP-WOH-B:3"
+      ]
+    },
+    {
+      "id": "bit-nuni-house-of-the-fish-belly-of-the-deep-adapa",
+      "source": "bīt nūni",
+      "translit": "bīt nūni",
+      "lemma": "bītu; nūnu",
+      "partOfSpeech": "Akkadian poetic-kenning: the house of the fish — the deep / the drowned-place",
+      "literal": "the house of the fish",
+      "standardEnglish": "the house of the fish (poetic for the deep; Foster 2005; Izre'el 2001 — uniform consensus)",
+      "wohChoice": "the house of the fish (preserves the poetic-kenning; cross-corpus to the Jonah-belly-of-the-fish image)",
+      "claim_type": "direct",
+      "rationale": "**Adapa B:8, B:47 — *bīt nūni* 'the house of the fish'.** The South Wind sinks Adapa's boat and *thrusts him down* into the *bīt nūni* — the **house of the fish**, a poetic-kenning for the depths of the sea. Adapa survives the immersion (the narrative continues with his return to land and the wing-breaking curse) but the immersion is the moment-of-near-death that motivates the curse.\n\n**Lexical analysis.** *bītu* (CAD B 282-296; AHw 132) — 'house, dwelling, temple'; in the construct *bīt-* + genitive it forms locative-kennings (*bīt rimki* 'the bath-house'; *bīt papāḫi* 'the inner-shrine'). *nūnu* (CAD N/2 336-340; AHw 803) — 'fish'. The construct *bīt nūni* 'the house of the fish' is a poetic-kenning for the watery-depths where the fish dwell — i.e., the deep of the sea.\n\n**Cross-corpus — Jonah's belly of the great fish.** The closest Hebrew comparandum is the Jonah 1:17-2:10 narrative: Jonah is cast into the sea, swallowed by *dag gadol* 'a great fish' / *li-mei dagim* 'into the bowels of the fish', spends three days in the fish's belly, prays a Psalm of deliverance, and is vomited out onto dry land. The structural-parallel is clear: a divinely-disturbed human is plunged into the deep / the fish-realm, survives by divine-mercy, and resumes the narrative. The Hebrew narrative deploys explicit-narrative *dag* 'fish' as the swallowing-agent; the Adapa narrative deploys the kenning *bīt nūni* 'the house of the fish' as the destination.\n\n**Cross-corpus — Hebrew *metzulot* / *tehom* the depths.** Jonah 2:3 — *va-tashlikheni mtzulah b-levav yamim* 'you cast me into the deep, in the heart of the seas' — the *metzulah* 'depths' vocabulary. The Hebrew *tehom* 'the watery-deep' (Gen 1:2, 7:11, Ps 42:8) is the wider cosmographic-deep vocabulary; the Akkadian *Apsû* and Sumerian *abzu* are documented at the existing central entry `abzu-engur-sumerian-subterranean-deep-cross-corpus`. The *bīt nūni* kenning is a poetic-narrative-deployment of the *Apsû* / *tehom* cosmographic-depth; the broader cosmographic-link is handled via the central entry.\n\n**Cross-corpus — the ANE poetic-kennings for the deep.** Ugaritic and other Northwest-Semitic literatures deploy various poetic-kennings for the watery-deep (Ug. *mt 'wpr* 'the lord of the watery-realm'; *yam u-nahar* 'sea-and-river' as cosmographic-paired-divinities). The kenning-tradition for the depths is wide; the Adapa *bīt nūni* is the Akkadian deployment.\n\n**Why overlay not central.** The *bīt nūni* kenning is Adapa-specific; the broader cosmographic-depth tradition lives at the central entry on abzu/Apsû/tehom. The Jonah-belly-of-the-fish comparison is wiki-level; the kenning itself is not deployed across the wider Akkadian corpus in a way that warrants a central entry.",
+      "appliesTo": [
+        "ADP-WOH-B:8",
+        "ADP-WOH-B:47"
+      ]
+    },
+    {
+      "id": "ilabrat-sukkallu-anu-vizier-adapa",
+      "source": "(d)Ilabrat sukkalli ša Anu",
+      "translit": "Ilabrat sukkalli ša Anu",
+      "lemma": "Ilabrat; sukkallu",
+      "partOfSpeech": "Akkadian proper-name and office-title: Ilabrat, the vizier of Anu",
+      "literal": "Ilabrat, vizier of Anu",
+      "standardEnglish": "Ilabrat the vizier (Foster 2005; Izre'el 2001 — uniform consensus)",
+      "wohChoice": "Ilabrat the vizier (preserves the divine-bureaucratic office-title; cross-corpus to Sumerian Ninšubur / Inana's vizier)",
+      "claim_type": "direct",
+      "rationale": "**Adapa B:13, B:15 — Ilabrat, the *sukkallu* (vizier) of Anu.** *Ilabrat* (sometimes *Ninshubura* in Sumerian-context; sometimes *Papsukkal*) is the divine-vizier of Anu the sky-god. The vizier's narrative-function is to convey messages between the high-god and the rest of the divine assembly (or to and from humans); at Adapa B:13-16 Anu addresses his vizier Ilabrat asking why the South Wind has not blown, and Ilabrat reports that Adapa has broken its wing.\n\n**The *sukkallu* divine-vizier-office in Mesopotamian narrative.** *sukkallu* (CAD S 354-364; AHw 1055) — 'vizier, minister, messenger'; the office is one of the standard Mesopotamian divine-bureaucratic roles. Each high-god has a *sukkallu*: An / Anu has Ilabrat / Ninshubur / Papsukkal; Enlil has Nuska; Enki / Ea has Isimud / Usmu; Inana has Ninshubur; Marduk has Nabu. The *sukkallu*-figure is the cosmic-messenger and intermediary; the role parallels the human-court vizier-position (the sukkallu was a major office in Old-Babylonian and later state-bureaucracy as well).\n\n**Cross-corpus — Sumerian Ninshubur.** The Sumerian *Ninshubur* (the lady-of-Subir, Inana's vizier; the Akkadian *Ilabrat* is partly her cognate, though the divine-figures are not strictly identical — Ninshubur is feminine in some traditions and masculine in others; Ilabrat is masculine). The Ninshubur-cycle in the Sumerian Inana's Descent composition (ETCSL 1.4.1) is the major Sumerian deployment of the vizier-narrative-role: when Inana is trapped in the netherworld, Ninshubur petitions the high-gods for her release. The Adapa B:13-16 Ilabrat-deployment is structurally-similar (the vizier-as-intermediary-between-Anu-and-the-cosmic-disorder).\n\n**Cross-corpus — Hebrew angelic-intermediary figures.** The Hebrew Bible deploys angelic-intermediaries in some structural-parallel narratives (the *mal'akh YHWH* 'angel/messenger of Yahweh' across Genesis and the prophets; the named-angels Gabriel and Michael in Daniel and the Second-Temple literature; the heavenly-court scenes in 1 Kgs 22:19-22 with the *ruach ha-sheker* lying-spirit as cosmic-intermediary). The cross-corpus comparison is **functional-thematic** (the high-god uses cosmic-intermediaries to convey messages and execute decrees); the Mesopotamian *sukkallu*-office is the most-developed structural-equivalent.\n\n**Why overlay not central.** The *sukkallu* office is Mesopotamian-pipeline-wide and recurs across multiple texts; a central entry on the *sukkallu*-tradition would be appropriate at a future Mesopotamian-text (Inana's Descent for Ninshubur; possibly Enuma Elish for the Nabu-Marduk relationship). For Adapa, the office is composition-specific in its Adapa-text deployment; the cross-corpus link is flagged here for future promotion. The Editor's discipline is to over-resist promotion-to-central on single-text-attestation thresholds.",
+      "appliesTo": [
+        "ADP-WOH-B:13",
+        "ADP-WOH-B:15"
+      ]
+    },
+    {
+      "id": "kappi-wing-of-shutu-the-wing-breaking-image-adapa",
+      "source": "kappi-ki(?) lu-uš-bi-ir; kapp(i) Šūti is-sa-bir",
+      "translit": "kappīki lūšbir; kappī Šūti issabir",
+      "lemma": "kappu; šebēru; Šūtu",
+      "partOfSpeech": "Akkadian noun-and-verbal-action: the wing of the South Wind broken by speech-act",
+      "literal": "may I break your wing! — the wing of the South Wind was broken",
+      "standardEnglish": "Adapa's wing-breaking curse against the South Wind (Foster 2005; Izre'el 2001; Lambert 1976)",
+      "wohChoice": "the wing-breaking image (preserves the metaphor of the South Wind as winged-being; the wing as the operative-organ-of-flight)",
+      "claim_type": "direct",
+      "rationale": "**Adapa B:10-11 — the wing-breaking image.** *kappi-ki lu-uš-bi-ir* 'may I break your wing'; *kapp(i) Šūti is-sa-bir* 'the wing of the South Wind was broken'. The Akkadian *kappu* (CAD K 188-191; AHw 444) — 'wing'; the noun is feminine; *kappī* in B:10 is the 2.f.sg. possessive 'your wing' (the South Wind is feminine in Akkadian gender). The image is that the South Wind, as a winged-divine-being, is rendered flightless by Adapa's curse — its **wing** (the operative-organ-of-flight) is broken; therefore for seven days (B:12) the wind cannot blow.\n\n**Iconographic background.** Mesopotamian iconography depicts winds, demons, and tutelary-spirits as winged-figures; the wind-as-winged-being is iconographically-standard. The Lamashtu-demon, the Pazuzu-demon, the *šēdu* tutelary-spirits — all are commonly depicted with wings. The South Wind as a winged-divine-being is part of this iconographic-and-mythological tradition.\n\n**The image's cosmic-functional logic.** Wings are the operative-organ-of-flight; flight is the operative-action of *blowing* (the wind moves by flight). Adapa's curse targets the operative-organ; breaking the wing renders the wind flightless; flightless wind cannot blow; the seven-day cessation follows. The image is operatively-precise: the targeted-organ produces the targeted-cessation.\n\n**Cross-corpus brief notes.** The Hebrew Bible does not deploy the wind-as-winged-being-with-breakable-wing image directly; the *ruach* is described as instrumental-and-personified but not generally as a winged-being whose wing can be broken. The closer Hebrew comparandum is the *kanaf ruach* 'wing of wind' image in Ps 18:11, 2 Sam 22:11 (Yahweh rides upon the *kanaf ruach* — the wings-of-the-wind) — the wind-has-wings cosmographic-image, though not the same as the wind-itself-as-winged-being. The Hebrew *kanaf* and Akkadian *kappu* are both Semitic wing-nouns but are not direct cognates.\n\n**Why overlay not central.** The wing-breaking image is Adapa-specific; the broader speech-act-efficacy theology (which the wing-breaking enacts) is at the central entry `speech-act-efficacy-language-power-of-life-and-death-cross-corpus`. The kappi-wing image is the Adapa-internal narrative-vehicle; the central theological-payload is the speech-act-efficacy. No central promotion warranted on the wing-image itself.",
+      "appliesTo": [
+        "ADP-WOH-B:10",
+        "ADP-WOH-B:11",
+        "ADP-WOH-B:16",
+        "ADP-WOH-B:43"
+      ]
+    },
+    {
+      "id": "ea-instruction-coaching-speech-form-adapa",
+      "source": "ana Adapa Ea amāta išakkan; ṭēmu ša aqbâ-kum la teggâ — amāt ša aqbâ-kum ukāl",
+      "translit": "ana Adapa Ea amāta išakkan; ṭēmu ša aqbâ-kum la teggâ — amāt ša aqbâ-kum ukāl",
+      "lemma": "amātu; ṭēmu; egû; qabû",
+      "partOfSpeech": "Akkadian formal speech-form: the master-to-disciple coaching-speech genre; the binding-of-the-disciple-to-the-master's-word",
+      "literal": "to Adapa Ea set words; the instruction I gave you, do not transgress — the word I gave you, hold fast",
+      "standardEnglish": "Ea's coaching-speech genre (Foster 2005; Izre'el 2001 ad loc — uniform consensus)",
+      "wohChoice": "the master-to-disciple coaching-speech genre (preserves the *amāta išakkan* 'set down (binding) words' performative; cross-corpus to the ANE wisdom-instruction genre)",
+      "claim_type": "direct",
+      "rationale": "**Adapa B:21-34 — the Ea-coaching-speech genre.** Ea's address to Adapa (B:21 *ana Adapa Ea amāta išakkan* 'to Adapa Ea set down words' opens the speech; B:34 *ṭēmu ša aqbâ-kum la teggâ — amāt ša aqbâ-kum ukāl* 'the instruction I gave you, do not transgress — the word I gave you, hold fast' closes it) is a formal speech-form: the **master-to-disciple coaching-speech** in which the wisdom-master (Ea, the apkallu-deity) instructs the disciple-sage (Adapa, the human-apkallu) in the protocol for the heavenly-court encounter.\n\n**Lexical analysis.** *amāta išakkan* — *amātu* 'word' (acc.) + *šakānu* 'to place, set down' (verb): the construction is the performative *set down (binding) words*, i.e., *deliver an authoritative instruction-speech*. *ṭēmu* (CAD Ṭ 85-93; AHw 1385) — 'instruction, command, plan, mind'; the noun has the wide semantic-range of *mind / intent / authoritative-instruction*. *egû* (CAD E 48-50; AHw 191) — 'to be negligent, transgress'; the prohibition *la teggâ* (vetitive-prohibition 2.m.sg.) is *do not transgress / be negligent of (the instruction)*. *qabû* (CAD Q 22-78; AHw 887) — 'to speak, say, command'. *ukāl* — *kullu* 'to hold (fast), keep, retain' (verb): the precative-imperative *hold fast (to the word)*.\n\n**The ANE wisdom-instruction genre.** The coaching-speech form is widely-attested across the ANE wisdom-instruction genre: the Sumerian *Instructions of Shuruppak* (ETCSL 5.6.1; the antediluvian king's father-to-son wisdom-instruction speech); the Akkadian *Counsels of Wisdom* (Lambert *BWL* 96-107); the Egyptian *Instructions of Ptahhotep* and *Instructions of Amenemope*; the Hebrew Wisdom-literature (Prov 1-9 the father's-coaching-to-the-son speeches; Sir 1-43 Ben Sira's wisdom-instructions). The genre's formal-features include: (i) the master's authoritative-speech-frame; (ii) the second-person-singular addressee (the disciple); (iii) the *do this / do not do that* instructional-format; (iv) the closing *hold fast / do not transgress* binding-of-the-disciple. The Adapa Ea-speech deploys all four features.\n\n**Cross-corpus — Hebrew *shamar* the commandment-keeping vocabulary.** The Hebrew *shamar* 'to keep, observe, guard' is the standard commandment-keeping vocabulary across the Hebrew Bible (Deut 6:17 *shamor tishmerun et mitzvot YHWH Eloheikhem* 'you shall keep, indeed keep, the commandments of Yahweh your God'; many parallel attestations). The Akkadian *kullu / ukāl* 'hold fast' construction at Adapa B:34 (*amāt ša aqbâ-kum ukāl* 'the word I gave you, hold fast') and the Hebrew *shamar* construction are functional-translation-equivalents in their respective wisdom-and-commandment traditions; the underlying conceptual structure is the same — the disciple binds himself by the master's authoritative-word.\n\n**Why overlay not central.** The Ea-speech-form is Adapa-internal; the broader ANE wisdom-instruction genre is wiki-and-comparative-corpus material. No central promotion warranted on a single-composition instance; the central entry on speech-act-efficacy (which the Ea-speech is one variety of) handles the broader theology.",
+      "appliesTo": [
+        "ADP-WOH-B:21",
+        "ADP-WOH-B:22",
+        "ADP-WOH-B:23",
+        "ADP-WOH-B:24",
+        "ADP-WOH-B:25",
+        "ADP-WOH-B:26",
+        "ADP-WOH-B:27",
+        "ADP-WOH-B:28",
+        "ADP-WOH-B:29",
+        "ADP-WOH-B:30",
+        "ADP-WOH-B:31",
+        "ADP-WOH-B:32",
+        "ADP-WOH-B:33",
+        "ADP-WOH-B:34"
+      ]
+    },
+    {
+      "id": "anointing-and-garment-non-deadly-accompaniments-adapa",
+      "source": "lubuša ukallū-ka — litbaš; šamna ukallū-ka — pussis",
+      "translit": "lubuša ukallūka litbaš; šamna ukallūka pussis",
+      "lemma": "lubšu; labāšu; šamnu; pasāsu",
+      "partOfSpeech": "Akkadian narrative-and-cult vocabulary: the garment and oil offered to Adapa at Anu's court — the *non-deadly* accompaniments of the food/water-of-life offering",
+      "literal": "they will offer you a garment — put it on; they will offer you oil — anoint yourself",
+      "standardEnglish": "the garment and oil accompaniments (Foster 2005; Izre'el 2001 — uniform consensus)",
+      "wohChoice": "the garment and oil (preserves the cult-investiture and anointing vocabulary; the contrast with the food/water-of-life is structurally significant — Ea distinguishes the *deadly* from the *non-deadly* offered substances)",
+      "claim_type": "direct",
+      "rationale": "**Adapa B:32-33, B:53-54, B:57 — the garment and oil offered alongside the food and water.** Ea's coaching distinguishes between (a) the food-and-water Anu will offer, which Ea calls *food/water of death* (B:30-31, *akāl/mê mūti*); and (b) the garment and oil Anu will offer, which Ea instructs Adapa to accept (B:32-33). When Anu's actual offer is made (B:51-54: food-of-life, water-of-life, garment, oil), Adapa accepts the garment and oil (B:57 *lubuš ub-lu-ma il-tab-aš, šamna ub-lu-ma ip-ta-as-sa-as*) but refuses the food and water (B:55-56). The narrative-structure puts Adapa in a partially-compliant position: he obeys Ea's coaching exactly, accepting what Ea said to accept and refusing what Ea said to refuse.\n\n**The sharpening-of-suspicion that the garment-and-oil are not-deadly.** The structural significance of Ea's distinction (food/water *deadly*; garment/oil *not-deadly*) is one of the data-points supporting the **deliberate-deception** reading of the Ea-warning crux (see central entry `ea-warning-deception-misadvice-test-crux-cross-corpus`). On the unintentional-misadvice reading, Ea would have warned against all four substances uniformly (if Ea thought the heavenly-court was serving funerary-protocol substances, the garment and oil would also be funerary). The selective-warning suggests Ea *knew* which substances were of-life (food and water) and which were neutral (garment and oil), and warned specifically against the immortality-giving ones. The deception-reading takes this as evidence of Ea's deliberate-mortality-preservation; the misadvice-reading must explain the selectivity (perhaps: Ea genuinely believed the food and water would be the funerary-substances, but knew the garment and oil were standard heavenly-court gifts). The test-reading takes the selectivity as part of the test-design.\n\n**Lexical analysis.** *lubšu* (CAD L 232-237; AHw 561) — 'garment, robe, clothing'. *labāšu* (CAD L 17-30; AHw 522) — 'to put on (a garment), be clothed'; the precative *litbaš* 'let him put on' (Gtn precative 3.m.sg.). *šamnu* (CAD Š/1 321-335; AHw 1158) — 'oil, fat'. *pasāsu* (CAD P 218-220; AHw 838) — 'to anoint, smear with oil'; the precative *pussis* 'let him anoint himself' (D-stem precative).\n\n**Cross-corpus — the anointing-with-oil cult-rite.** The anointing-with-oil cult-rite is widely-attested across the ANE:\n- **Hebrew *mashach* — the anointing-with-oil cult-rite.** Anointing of priests (Ex 28:41, 29:7, Lev 8:12 — Aaron's anointing); kings (1 Sam 16:13 — David's anointing; 1 Kgs 1:39 — Solomon's anointing; the *mashiach* 'anointed-one' title); prophets (1 Kgs 19:16 — Elisha's anointing). The Hebrew *shemen* 'oil' and Akkadian *šamnu* are direct Semitic cognates. The anointing-rite is the standard ANE consecration-and-investiture cult-action.\n- **Sumerian anointing-rites** — the Sumerian *i3-nun* 'butter / oil' and the Mesopotamian temple-cult anointing-vocabulary parallel the Akkadian.\n- **Egyptian anointing-rites** — pharaonic-and-priestly anointing-rituals.\n- **Greek and Roman anointing** — Olympic-victors anointed; baptismal anointing in early Christian practice.\n\n**Why overlay not central.** The garment-and-oil-as-non-deadly-accompaniments is Adapa-internal; the broader anointing-with-oil cross-corpus tradition is wider-corpus and may merit a future central entry on its own (the Hebrew Editor pass on 1 Sam 16:13 or Ex 30:22-33 would be the natural locus). The current Adapa-deployment is composition-specific in its structural-significance (the deliberate-deception-reading evidence-point); no central promotion warranted on this alone.",
+      "appliesTo": [
+        "ADP-WOH-B:32",
+        "ADP-WOH-B:33",
+        "ADP-WOH-B:53",
+        "ADP-WOH-B:54",
+        "ADP-WOH-B:57"
+      ]
+    },
+    {
+      "id": "catchline-and-fragmentary-fragments-cd-disclosure-adapa",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: Fragments C and D conservative rendering convention",
+      "literal": "(not applicable — meta)",
+      "standardEnglish": "(not applicable — meta)",
+      "wohChoice": "Fragments C and D are rendered with single bracketed editorial-note-lines rather than tentative per-line translations; Fragment D's catchline (the formula identifying the next composition in the series, documented in Lambert 1976 and Izre'el 2001) is flagged as pending verification.",
+      "claim_type": "direct",
+      "rationale": "**Conservative convention for the small fragmentary Adapa fragments.** Fragment C (Late Babylonian, small) and Fragment D (Late Babylonian, small but preserving the catchline) are too fragmentary for confident per-line rendering. The Translator's conservative default — a single bracketed editorial-note-line marking each fragment's content-type — is retained by the Editor. A per-line tentative rendering following Izre'el 2001 is deferred to the verification-pass.\n\n**Fragment D catchline note.** Catchlines in Mesopotamian scribal-practice are the closing-formulas that identify the next composition in a series (cf. the Gilgamesh Standard Babylonian catchlines linking the tablets). Fragment D preserves Adapa's catchline; the catchline-text per Lambert 1976 and Izre'el 2001 is the bibliographic-marker for the composition's serialization-context, but the specific catchline-reading is pending verification in this pass.\n\n**Why overlay.** The conservative-default convention for fragmentary materials is composition-specific in its Adapa application; the broader convention (lacuna-bracket-rendering) is at the existing central entry `lacuna-bracket-convention-sumerian-mesopotamian-project-standard`. This overlay entry documents the Adapa-specific Fragment-C and Fragment-D conservative-rendering decision.",
+      "appliesTo": [
+        "ADP-WOH-C:1",
+        "ADP-WOH-D:1"
+      ]
+    }
+  ]
+}
