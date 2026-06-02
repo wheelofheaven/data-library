@@ -1,0 +1,1714 @@
+{
+  "schemaVersion": 2,
+  "bookSlug": "baal-cycle-woh",
+  "composition": 1,
+  "source": {
+    "type": "ugaritic-alphabetic-cuneiform-best-effort-reconstruction",
+    "ktu_ids": [
+      "KTU 1.1",
+      "KTU 1.2"
+    ],
+    "ras_shamra_findspot": "Royal Palace of Ugarit, House of the High Priest (1929-1931 Schaeffer excavations)",
+    "approximate_date": "Late Bronze Age, 14th-13th c. BCE; scribal period of Ilimilku son of ʿAttenu",
+    "versionTitle": "Best-effort reconstruction from named scholarly editions",
+    "license": "Reconstruction; transliteration based on scholarly editions cited as references (Smith 1994, Pardee 2003, KTU³ 2013, Gibson 1978 PD); English content original to this project.",
+    "versionSource": "Smith 1994 + Pardee 2003 + KTU³ 2013 + older PD editions; verification pending against KTU³",
+    "verificationStatus": "best-effort reconstruction; verification pending against KTU³ (Dietrich-Loretz-Sanmartín 2013)",
+    "fetchedFrom": "Multiple scholarly editions (see citation) + Saunders DSOL online corpus (m-saunders.com/ugaritic-inscriptions/) for KTU 1.1 columns ii-v transliteration verification",
+    "fetchedAt": "2026-06-02",
+    "citation": "Smith, M. S., The Ugaritic Baal Cycle, Volume 1: Introduction with Text, Translation and Commentary of KTU 1.1-1.2 (VTSup 55, Leiden 1994); Pardee, D., 'The Baʿlu Myth (1.86)' in W. W. Hallo (ed.), The Context of Scripture, Vol. 1 (Leiden 2003), pp. 241-274; Dietrich, M., Loretz, O., and Sanmartín, J., Die keilalphabetischen Texte aus Ugarit, Ras Ibn Hani und anderen Orten (KTU³ / AOAT 360/1, Münster 2013); Gibson, J. C. L., Canaanite Myths and Legends, 2nd ed. (Edinburgh 1978); Ginsberg, H. L., 'The Ugaritic Texts and the Old Testament,' in J. B. Pritchard (ed.), Ancient Near Eastern Texts (Princeton 1955; orig. monograph 1936); Saunders, M. (ed.), Digital Semitics Online Library (DSOL), Ugaritic Inscriptions section (https://m-saunders.com/ugaritic-inscriptions/, accessed 2026-06-02) — used for verification of KTU 1.1 ii-v transliteration.",
+    "fragmentationNote": "KTU 1.1 is severely fragmentary: columns i, vi destroyed; column ii partially recovered (~25 lines, mostly heavy lacunae); column iii partially recovered (~30 lines, lacunae throughout); column iv preserves ~32 substantive lines (the most-recovered portion of KTU 1.1, including the famous name-giving scene 'šm bny yw'); column v preserves ~28 fragmentary lines. KTU 1.2 column ii is broken away entirely; columns i, iii, iv preserve the main narrative of Yammu's embassy (i, ~46 lines), pre-duel material (iii, ~25 lines), and the duel itself with Baʿlu's victory (iv, ~40 lines). Lacunae marked per project lacuna-bracket convention: [...] = total lacuna; [text] = restored from parallels; <text> = editorial addition; {text} = editorial deletion.",
+    "scriptNote": "Ugaritic alphabetic cuneiform — 30 letters (Northwest-Semitic abjad rendered in cuneiform wedges) + word divider. Unlike Sumero-Akkadian logographic cuneiform, this is a 1:1 transliteration-to-Unicode mapping. Strict KTU transliteration convention: every alef explicitly marked as ʾa/ʾi/ʾu (the three letter forms in the script). Bare vowels in popular vocalized transliterations (e.g. ʾaliyn) represent comparative-Semitics reconstructions and are NOT separately in the script; strict consonantal-skeletal forms used here (ʾalʾiyn for the same word, since the medial /i/ IS an alef-i letter in the script). Word divider 𐎟 (U+1039F) between words in the cuneiform rendering. Cuneiform output in this file was produced mechanically by the project's translit_to_ugaritic.py helper from each line's transliteration — not hand-authored."
+  },
+  "segments": [
+    {
+      "segmentId": "1.1-i",
+      "ktu": "KTU 1.1 col i",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.1 col i: destroyed — no preserved text. The opening of the Cycle is lost; from the surviving narrative arc (Smith 1994 vol 1, pp. 152-156) the lost opening probably set the scene of the divine assembly at the abode of ʾIlu (= El) on Mount Lel and announced Yammu's exaltation as challenger to Baʿlu.]"
+        }
+      },
+      "lines": []
+    },
+    {
+      "segmentId": "1.1-ii",
+      "ktu": "KTU 1.1 col ii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.1 col ii: top of column lost; preserved text begins mid-speech with what appears to be a divine summons-formula (the 'hasten your feet' speed-of-travel formula characteristic of divine messenger-speeches throughout the Cycle).]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.1-ii:1",
+          "translit": "[ḥšk . ʿṣk . ʿbṣk . ʿ]my . pʿnk",
+          "cuneiform": "[𐎈𐎌𐎋𐎟𐎓𐎕𐎋𐎟𐎓𐎁𐎕𐎋𐎟𐎓]𐎎𐎊𐎟𐎔𐎓𐎐𐎋",
+          "notes": "The standard 'hasten' (ḥwš) summons-formula opening: '[Hasten, urge, speed to] me your feet…'"
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.1-ii:2",
+          "translit": "[tlsmn . ʿmy . twt]ḥ . ʾišdk",
+          "cuneiform": "[𐎚𐎍𐎒𐎎𐎐𐎟𐎓𐎎𐎊𐎟𐎚𐎆𐎚]𐎈𐎟𐎛𐎌𐎄𐎋",
+          "notes": "'…[let them race to me, let] your legs [hasten].' Smith 1994 vol 1 reads this as the standard parallelism pʿn // ʾišd 'foot' // 'leg' (lower-leg)."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.1-ii:3",
+          "translit": "[tk . ḫršn . ġ]r . [t]ḥmk . w št",
+          "cuneiform": "[𐎚𐎋𐎟𐎃𐎗𐎌𐎐𐎟𐎙]𐎗𐎟[𐎚]𐎈𐎎𐎋𐎟𐎆𐎟𐎌𐎚",
+          "notes": "'[Into the midst of the mountain G]R(?) [is] your statement, and set…' Reconstructed; the destination-formula varies by addressee (Mount Lel for ʾIlu; Mount Ṣapunu for Baʿlu)."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.1-ii:4",
+          "translit": "[...] l ẓr . rdyk",
+          "cuneiform": "[...]𐎟𐎍𐎟𐎑𐎗𐎟𐎗𐎄𐎊𐎋",
+          "notes": "'…upon your shoulder(?).' rdy 'shoulder/back' — body-part vocabulary; sense uncertain."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.1-ii:5",
+          "translit": "[...] ʾiqnʾim",
+          "cuneiform": "[...]𐎟𐎛𐎖𐎐𐎛𐎎",
+          "notes": "'…lapis-lazuli.' Material reference; possibly part of an instruction-list for cultic preparation."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.1-ii:6",
+          "translit": "[...] yšʾu . b qrb",
+          "cuneiform": "[...]𐎟𐎊𐎌𐎜𐎟𐎁𐎟𐎖𐎗𐎁",
+          "notes": "'…he lifts in the midst (of).' yšʾu = G-yqtl of nšʾ 'to lift, raise (the voice/hand).'"
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.1-ii:7",
+          "translit": "[...] . ʾasr",
+          "cuneiform": "[...]𐎟𐎀𐎒𐎗",
+          "notes": "'…ʾasr.' ʾasr = either G-pf 'I bound' or D-impv 'bind!'; context lost."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.1-ii:8",
+          "translit": "[...] tm . ymtm",
+          "cuneiform": "[...]𐎟𐎚𐎎𐎟𐎊𐎎𐎚𐎎",
+          "notes": "'…(those) days, two days.' Day-doubling-formula characteristic of Ugaritic narrative time-passage (cf. ym . ymm 'day, days'; ṯlṯ ym 'three days')."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.1-ii:9",
+          "translit": "[... np]š[h] . w [ʾi]ṯl",
+          "cuneiform": "[...𐎟𐎐𐎔]𐎌[𐎅]𐎟𐎆𐎟[𐎛]𐎘𐎍",
+          "notes": "'…[his throa]t and [I will] go(?).' npš (throat/breath/self) here likely literal anatomical."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.1-ii:10",
+          "translit": "[... ḥr]šm . ʿdb . l ʾarṣ",
+          "cuneiform": "[...𐎟𐎈𐎗]𐎌𐎎𐎟𐎓𐎄𐎁𐎟𐎍𐎟𐎀𐎗𐎕",
+          "notes": "'…[crafts]men set down to the earth.' ḥršm = 'craftsmen, artisans' (cf. Hebrew ḥārāš); foreshadows the Kothar craftsman-deity material later."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.1-ii:11",
+          "translit": "[...] . špm . ʿdb",
+          "cuneiform": "[...]𐎟𐎌𐎔𐎎𐎟𐎓𐎄𐎁",
+          "notes": "'…lips(?) set down.' špm = 'lips'; reading uncertain."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.1-ii:12",
+          "translit": "[...] . tʿtqn",
+          "cuneiform": "[...]𐎟𐎚𐎓𐎚𐎖𐎐",
+          "notes": "'…they pass by.' tʿtqn = Gt-yqtl 3mp of ʿtq 'to pass on, advance.'"
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.1-ii:13",
+          "translit": "[...] šb . ʾilk",
+          "cuneiform": "[...]𐎟𐎌𐎁𐎟𐎛𐎍𐎋",
+          "notes": "'…return(?), your god.' šb possibly impv of ṯwb 'return'; ʾilk = 'your god(s).'"
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.1-ii:14",
+          "translit": "[...] ʾin . bb . b ʾalp ḥẓr",
+          "cuneiform": "[...]𐎟𐎛𐎐𐎟𐎁𐎁𐎟𐎁𐎟𐎀𐎍𐎔𐎟𐎈𐎑𐎗",
+          "notes": "'…there is no entryway in the thousand-courts(?).' ʾin = negative existential 'there is not'; bb = doorway; ʾalp ḥẓr = 'thousand court(s),' a numerical pair-formula."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.1-ii:15",
+          "translit": "[l p]ʿn . ʿnt",
+          "cuneiform": "[𐎍𐎟𐎔]𐎓𐎐𐎟𐎓𐎐𐎚",
+          "notes": "'[At the f]eet of ʿAnatu.' Introducing the bowing-before-Anat scene. ʿAnatu (ʿnt) is the warrior-consort goddess, sister-and-partner of Baʿlu."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.1-ii:16",
+          "translit": "[yhbr . w yql . yšt]ḥwyn . w y",
+          "cuneiform": "[𐎊𐎅𐎁𐎗𐎟𐎆𐎟𐎊𐎖𐎍𐎟𐎊𐎌𐎚]𐎈𐎆𐎊𐎐𐎟𐎆𐎟𐎊",
+          "notes": "'[He bows and falls down, he] prostrates himself and (gives) hon[or to her]...' The standard prostration-formula throughout the Cycle (hbr-yql-yštḥwy-kbd four-verb sequence)."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.1-ii:17",
+          "translit": "[kbdnh . yšʾu . gh . w y]ṣḥ . tḥm",
+          "cuneiform": "[𐎋𐎁𐎄𐎐𐎅𐎟𐎊𐎌𐎜𐎟𐎂𐎅𐎟𐎆𐎟𐎊]𐎕𐎈𐎟𐎚𐎈𐎎",
+          "notes": "'[Honors her, he raises his voice and] cries — Message of…' The standard message-delivery formula (yšʾu gh wyṣḥ) followed by tḥm 'message of (X) (to Y).'"
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.1-ii:18",
+          "translit": "[ṯr . ʾil . ʾabk . hwt . l]ṭpn . ḥtkk",
+          "cuneiform": "[𐎘𐎗𐎟𐎛𐎍𐎟𐎀𐎁𐎋𐎟𐎅𐎆𐎚𐎟𐎍]𐎉𐎔𐎐𐎟𐎈𐎚𐎋𐎋",
+          "notes": "'[Bull ʾIlu, your father, word of the Be]nevolent-One, your patriarch.' ṯr ʾil 'Bull-El' standard epithet; lṭpn 'Benevolent' standard epithet of ʾIlu; ḥtk 'patriarch, head-of-lineage.'"
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.1-ii:19",
+          "translit": "[qryy . b ʾarṣ . mlḥ]mt . št b ʿp",
+          "cuneiform": "[𐎖𐎗𐎊𐎊𐎟𐎁𐎟𐎀𐎗𐎕𐎟𐎎𐎍𐎈]𐎎𐎚𐎟𐎌𐎚𐎟𐎁𐎟𐎓𐎔",
+          "notes": "'[Place in the earth wa]r, set in the du[st…]'. The famous peace-making oracle (parallel KTU 1.3 III; 1.3 IV; 1.7) — cf. Isa 2:4 'beat swords into plowshares.'"
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.1-ii:20",
+          "translit": "[rm . ddym . sk . šlm] . l kbd . ʾarṣ",
+          "cuneiform": "[𐎗𐎎𐎟𐎄𐎄𐎊𐎎𐎟𐎒𐎋𐎟𐎌𐎍𐎎]𐎟𐎍𐎟𐎋𐎁𐎄𐎟𐎀𐎗𐎕",
+          "notes": "'[…mandrakes(?), pour peace] into the midst of the earth.' The cosmic-pacification oracle. ddym 'love-tokens / mandrakes / mounds'; kbd ʾarṣ 'midst (literally: liver) of the earth.'"
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.1-ii:21",
+          "translit": "[ʾarbdd . l kbd . š]dm . ḥšk",
+          "cuneiform": "[𐎀𐎗𐎁𐎄𐎄𐎟𐎍𐎟𐎋𐎁𐎄𐎟𐎌]𐎄𐎎𐎟𐎈𐎌𐎋",
+          "notes": "'[Drop tranquility into the midst of the field]s. Hasten…' ʾarbdd 'tranquility, calm' (etymology debated); the pacification-formula repeats."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.1-ii:22",
+          "translit": "[ʿṣk . ʿbṣk . ʿmy . pʿ]nk . tlsmn",
+          "cuneiform": "[𐎓𐎕𐎋𐎟𐎓𐎁𐎕𐎋𐎟𐎓𐎎𐎊𐎟𐎔𐎓]𐎐𐎋𐎟𐎚𐎍𐎒𐎎𐎐",
+          "notes": "'[urge, speed to me your fe]et, let them race.' The race-to-me summons resumes."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.1-ii:23",
+          "translit": "[ʿmy . twtḥ . ʾišd]k . tk . ḫršn",
+          "cuneiform": "[𐎓𐎎𐎊𐎟𐎚𐎆𐎚𐎈𐎟𐎛𐎌𐎄]𐎋𐎟𐎚𐎋𐎟𐎃𐎗𐎌𐎐",
+          "notes": "'[Let them hasten to me your leg]s, to the midst of the mountain.'"
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.1-ii:24",
+          "translit": "[...] bdk . spr",
+          "cuneiform": "[...]𐎟𐎁𐎄𐎋𐎟𐎒𐎔𐎗",
+          "notes": "'…in your hand the message-tablet.' bdk = 'in your hand'; spr = 'scribal-document / message-tablet.'"
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.1-ii:25",
+          "translit": "[... y]mnk",
+          "cuneiform": "[...𐎟𐎊]𐎎𐎐𐎋",
+          "notes": "'…[in] your right hand.' ymn = 'right hand'; pair-line with bdk in line 24."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.1-iii",
+      "ktu": "KTU 1.1 col iii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.1 col iii: top of column lost. Preserved text addresses Kothar-wa-Khasis (the divine craftsman), summoning him from his Egyptian/Mediterranean abode at Kaphtor (= Crete) and Memphis. This is the cycle's introduction of the artisan-deity who will later forge Baʿlu's weapons in KTU 1.2 IV.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.1-iii:1",
+          "translit": "[kpt]r . ksʾu . [ṯbth . ḥkpt . ʾarṣ . nḥlth]",
+          "cuneiform": "[𐎋𐎔𐎚]𐎗𐎟𐎋𐎒𐎜𐎟[𐎘𐎁𐎚𐎅𐎟𐎈𐎋𐎔𐎚𐎟𐎀𐎗𐎕𐎟𐎐𐎈𐎍𐎚𐎅]",
+          "notes": "'[Kaphto]r the throne [of his seat, Memphis (Ḥikuptaḫ = Egypt) the land of his inheritance].' Kothar's abode-formula: Kaphtor = Crete; Ḥkpt = Egyptian Ḥwt-kʾ-Ptḥ 'House-of-the-ka-of-Ptaḥ' = Memphis. The double-abode marks Kothar as a Mediterranean-traveler god."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.1-iii:2",
+          "translit": "b ʾalp . šd . r[bt . kmn . l pʿn . kṯr]",
+          "cuneiform": "𐎁𐎟𐎀𐎍𐎔𐎟𐎌𐎄𐎟𐎗[𐎁𐎚𐎟𐎋𐎎𐎐𐎟𐎍𐎟𐎔𐎓𐎐𐎟𐎋𐎘𐎗]",
+          "notes": "'In thousand acres, ten thousand hectares, to the feet of Kothar…' The distance-formula expressing the immensity between divine abodes; pair-formula ʾalp // rbt 'thousand // ten thousand.'"
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.1-iii:3",
+          "translit": "hbr . w ql . t[štḥwy . w kbd . hwt]",
+          "cuneiform": "𐎅𐎁𐎗𐎟𐎆𐎟𐎖𐎍𐎟𐎚[𐎌𐎚𐎈𐎆𐎊𐎟𐎆𐎟𐎋𐎁𐎄𐎟𐎅𐎆𐎚]",
+          "notes": "'Bow and fall, p[rostrate yourselves and honor him].' The four-verb prostration-formula (here addressed to a pair of envoys, hence 2mp imperatives)."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.1-iii:4",
+          "translit": "w . rgm l kṯ[r . w ḫss . ṯny . l hyn]",
+          "cuneiform": "𐎆𐎟𐎗𐎂𐎎𐎟𐎍𐎟𐎋𐎘[𐎗𐎟𐎆𐎟𐎃𐎒𐎒𐎟𐎘𐎐𐎊𐎟𐎍𐎟𐎅𐎊𐎐]",
+          "notes": "'And speak to Koth[ar-wa-Khasis, repeat to Hayin]…' kṯr w ḫss 'Skillful-and-Clever' is the divine craftsman's binomial name; hyn 'Hayin' = the alternate name of Kothar (hyn d ḥrš ydm 'Hayin of the two skilled hands')."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.1-iii:5",
+          "translit": "d ḥrš . y[dm . tḥm . ṯr . ʾil . ʾab]",
+          "cuneiform": "𐎄𐎟𐎈𐎗𐎌𐎟𐎊[𐎄𐎎𐎟𐎚𐎈𐎎𐎟𐎘𐎗𐎟𐎛𐎍𐎟𐎀𐎁]",
+          "notes": "'…of skilled ha[nds — Message of Bull ʾIlu, the father…]'. d ḥrš ydm 'the one of skilled hands' = Kothar's epithet; the message-formula introduces ʾIlu's commission."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.1-iii:6",
+          "translit": "[...] hwt . lṭpn [. ḥtk...]",
+          "cuneiform": "[...]𐎟𐎅𐎆𐎚𐎟𐎍𐎉𐎔𐎐𐎟[.𐎟𐎈𐎚𐎋...]",
+          "notes": "'…word of the Benevolent, [the patriarch…]'. The standard ʾIlu-epithet hwt lṭpn ḥtk 'word of Lṭpn (the Benevolent) the patriarch.'"
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.1-iii:7",
+          "translit": "yh . kṯr . b [...]",
+          "cuneiform": "𐎊𐎅𐎟𐎋𐎘𐎗𐎟𐎁𐎟[...]",
+          "notes": "'O Kothar, in [...]'. yh = vocative particle."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.1-iii:8",
+          "translit": "št . l skt . n [...]",
+          "cuneiform": "𐎌𐎚𐎟𐎍𐎟𐎒𐎋𐎚𐎟𐎐𐎟[...]",
+          "notes": "'…set, for the booth(?)…' skt = 'sukkah / booth / shelter'; cf. Hebrew sukkâ — possibly an instruction to prepare a divine cultic shelter."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.1-iii:9",
+          "translit": "ʿdb . b ġrt . ṯ [...]",
+          "cuneiform": "𐎓𐎄𐎁𐎟𐎁𐎟𐎙𐎗𐎚𐎟𐎘𐎟[...]",
+          "notes": "'…prepare in the mountain(?)…' ġr 'mountain'; ʿdb 'to prepare, arrange.'"
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.1-iii:10",
+          "translit": "ḥšk . ʿṣk . ʿb[ṣk . ʿmy . pʿnk . tlsmn]",
+          "cuneiform": "𐎈𐎌𐎋𐎟𐎓𐎕𐎋𐎟𐎓𐎁[𐎕𐎋𐎟𐎓𐎎𐎊𐎟𐎔𐎓𐎐𐎋𐎟𐎚𐎍𐎒𐎎𐎐]",
+          "notes": "'Hasten, urge, sp[eed to me, let your feet race]…' The 'hasten-to-me' summons-formula recurs (cf. col ii:1, 22)."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.1-iii:11",
+          "translit": "ʿmy twtḥ . ʾiš[dk . tk . ḫršn ...]",
+          "cuneiform": "𐎓𐎎𐎊𐎟𐎚𐎆𐎚𐎈𐎟𐎛𐎌[𐎄𐎋𐎟𐎚𐎋𐎟𐎃𐎗𐎌𐎐𐎟...]",
+          "notes": "'…to me let [your] leg[s] hasten, to the midst of the mountain…' The race-to-me formula in its standard form."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.1-iii:12",
+          "translit": "ġr . ks . dm . rg[m . ʾiṯ . ly . w ʾargmk]",
+          "cuneiform": "𐎙𐎗𐎟𐎋𐎒𐎟𐎄𐎎𐎟𐎗𐎂[𐎎𐎟𐎛𐎘𐎟𐎍𐎊𐎟𐎆𐎟𐎀𐎗𐎂𐎎𐎋]",
+          "notes": "'…mountain of KS (Lel?). For there is a wo[rd that I have, and I will tell you].' rgm ʾiṯ ly w ʾargmk 'there is a word I have and I will tell you' = the standard pre-revelation formula throughout the Cycle (also at KTU 1.3 III 21; etc.)."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.1-iii:13",
+          "translit": "hwt . w ʾaṯnyk [. rgm . ʿṣ . w lḫšt . ʾabn]",
+          "cuneiform": "𐎅𐎆𐎚𐎟𐎆𐎟𐎀𐎘𐎐𐎊𐎋𐎟[.𐎟𐎗𐎂𐎎𐎟𐎓𐎕𐎟𐎆𐎟𐎍𐎃𐎌𐎚𐎟𐎀𐎁𐎐]",
+          "notes": "'…a word, and I will repeat it to you, [a word of tree and a whisper of stone…]'. The famous 'speech of tree and whisper of stone' formula (rgm ʿṣ wlḫšt ʾabn) — the mystery-revelation language, central to the Cycle's poetics; cf. KTU 1.3 III 22-24."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.1-iii:14",
+          "translit": "tʾunt . šmm . ʿm [. ʾarṣ . thmt . ʿmn . kbkbm]",
+          "cuneiform": "𐎚𐎜𐎐𐎚𐎟𐎌𐎎𐎎𐎟𐎓𐎎𐎟[.𐎟𐎀𐎗𐎕𐎟𐎚𐎅𐎎𐎚𐎟𐎓𐎎𐎐𐎟𐎋𐎁𐎋𐎁𐎎]",
+          "notes": "'…the converse of heaven with [earth, of the deeps with the stars]…'. tʾunt 'converse, intercourse, communication'; the celestial-terrestrial-abyssal communication-formula — the cosmic-speech mystery. STRONG PARALLEL with Ps 19:1-4 'heavens declare the glory of God'; the Cycle's central revelation-vocabulary."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.1-iii:15",
+          "translit": "rgm . l tdʿ . nš[m . w l tbn . hmlt . ʾarṣ]",
+          "cuneiform": "𐎗𐎂𐎎𐎟𐎍𐎟𐎚𐎄𐎓𐎟𐎐𐎌[𐎎𐎟𐎆𐎟𐎍𐎟𐎚𐎁𐎐𐎟𐎅𐎎𐎍𐎚𐎟𐎀𐎗𐎕]",
+          "notes": "'…a word that humans do not know, [nor do the multitudes of the earth understand].' rgm l tdʿ nšm = 'the word that human-beings do not know'; the hidden-cosmic-speech motif. nšm = 'humans, mortals' (cf. Hebrew ʾănāšîm); hmlt ʾarṣ = 'multitude(s) of the earth.'"
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.1-iii:16",
+          "translit": "ʾat . w . ʾank . ʾibġ[yh ...]",
+          "cuneiform": "𐎀𐎚𐎟𐎆𐎟𐎀𐎐𐎋𐎟𐎛𐎁𐎙[𐎊𐎅𐎟...]",
+          "notes": "'…You and I will reveal [it]…' ʾibġy = G-yqtl of bġy 'to seek out, reveal'; the divine-revelation pact between ʾIlu and Kothar(?)."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.1-iii:17",
+          "translit": "w yʿn . kṯr . w ḫss . [lk . lk . ʿnn . ʾilm]",
+          "cuneiform": "𐎆𐎟𐎊𐎓𐎐𐎟𐎋𐎘𐎗𐎟𐎆𐎟𐎃𐎒𐎒𐎟[𐎍𐎋𐎟𐎍𐎋𐎟𐎓𐎐𐎐𐎟𐎛𐎍𐎎]",
+          "notes": "'And Kothar-wa-Khasis answered, [Go, go, O servants of the gods!]'. ʿnn ʾilm 'cloud-attendants of the gods' = the divine messengers' class; lk lk doubled imperative 'go!' (cf. Hebrew lēk lĕkâ Gen 12:1)."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.1-iii:18",
+          "translit": "ʾatm . bštm . w ʾan [. šnt . kptr]",
+          "cuneiform": "𐎀𐎚𐎎𐎟𐎁𐎌𐎚𐎎𐎟𐎆𐎟𐎀𐎐𐎟[.𐎟𐎌𐎐𐎚𐎟𐎋𐎔𐎚𐎗]",
+          "notes": "'You two delay, but I [am far from Kaphtor]…' ʾatm 'you two' (2du); bštm 'you two delay' (the divine-time-perspective on messenger-travel)."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.1-iii:19",
+          "translit": "l rḥq . ʾilm . ḥkp[t . l rḥq . ʾilnym]",
+          "cuneiform": "𐎍𐎟𐎗𐎈𐎖𐎟𐎛𐎍𐎎𐎟𐎈𐎋𐎔[𐎚𐎟𐎍𐎟𐎗𐎈𐎖𐎟𐎛𐎍𐎐𐎊𐎎]",
+          "notes": "'Far for the gods (is) Memph[is, far for the divine ones]…'. The distance-of-the-divine-abodes formula; ʾilnym 'divine ones, deities' (poetic plural of ʾil)."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.1-iii:20",
+          "translit": "ṯn . mṯpdm . tḥt . [ʿnt . ʾarṣ . ṯlṯ . mtḥ]",
+          "cuneiform": "𐎘𐎐𐎟𐎎𐎘𐎔𐎄𐎎𐎟𐎚𐎈𐎚𐎟[𐎓𐎐𐎚𐎟𐎀𐎗𐎕𐎟𐎘𐎍𐎘𐎟𐎎𐎚𐎈]",
+          "notes": "'Two MṮPD-units under [the springs of the earth, three lengths of…]'. Cosmic-geography measurement; mṯpd a unit-of-length; ʿnt ʾarṣ 'springs of the earth' (the cosmic underwater)."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.1-iii:21",
+          "translit": "ġyrm . ʾidk . l yt[n . pnm . ʿm . lṭpn]",
+          "cuneiform": "𐎙𐎊𐎗𐎎𐎟𐎛𐎄𐎋𐎟𐎍𐎟𐎊𐎚[𐎐𐎟𐎔𐎐𐎎𐎟𐎓𐎎𐎟𐎍𐎉𐎔𐎐]",
+          "notes": "'…of mountains. Then he indeed [set face toward the Benevolent (= ʾIlu)…]'. ʾidk 'then'; ytn pnm ʿm 'set face toward' = standard travel-formula."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.1-iii:22",
+          "translit": "ʾil d pʾid . tk ḫrš[n . ġr . ks]",
+          "cuneiform": "𐎛𐎍𐎟𐎄𐎟𐎔𐎛𐎄𐎟𐎚𐎋𐎟𐎃𐎗𐎌[𐎐𐎟𐎙𐎗𐎟𐎋𐎒]",
+          "notes": "'…ʾIlu the kind-hearted, to the midst of mountain [(GR) KS (= Lel)]…' d pʾid 'the merciful' (lit. 'of compassion') = standard ʾIlu-epithet; ḫršn ġr ks = 'Mount GR KS' = the abode of ʾIlu (variously Mount Lel)."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.1-iii:23",
+          "translit": "ygly ḏd . ʾi[l . w ybʾu . qrš . mlk]",
+          "cuneiform": "𐎊𐎂𐎍𐎊𐎟𐎏𐎄𐎟𐎛[𐎍𐎟𐎆𐎟𐎊𐎁𐎜𐎟𐎖𐎗𐎌𐎟𐎎𐎍𐎋]",
+          "notes": "'He reaches the abode of ʾI[lu, enters the dwelling-tent of the King]…'. ygly ḏd ʾil w ybʾu qrš mlk ʾab šnm = the standard 'arrives-at-ʾIlu' formula throughout the Cycle. ḏd 'pavilion/abode'; qrš 'tabernacle, tent-shrine'; cf. Hebrew miškān, qereš (the tabernacle planks Exod 26)."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.1-iii:24",
+          "translit": "ʾab . šnm . l [pʿn . ʾil . yhbr . w yql]",
+          "cuneiform": "𐎀𐎁𐎟𐎌𐎐𐎎𐎟𐎍𐎟[𐎔𐎓𐎐𐎟𐎛𐎍𐎟𐎊𐎅𐎁𐎗𐎟𐎆𐎟𐎊𐎖𐎍]",
+          "notes": "'…Father of Years. At [the feet of ʾIlu he bows and falls]…'. ʾab šnm 'Father of Years' = ʾIlu's title — the eternal patriarch (cf. Daniel 7:9 ʿattîq yômîn 'Ancient of Days,' bidirectional comparative-mythology STRONG candidate)."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.1-iii:25",
+          "translit": "yštḥwy [. w ykbdnh ...]",
+          "cuneiform": "𐎊𐎌𐎚𐎈𐎆𐎊𐎟[.𐎟𐎆𐎟𐎊𐎋𐎁𐎄𐎐𐎅𐎟...]",
+          "notes": "'…he prostrates himself [and honors him]…'. The four-verb prostration-formula concludes the audience-introduction."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.1-iii:26",
+          "translit": "ṯr . ʾil . ʾa[bh ...]",
+          "cuneiform": "𐎘𐎗𐎟𐎛𐎍𐎟𐎀[𐎁𐎅𐎟...]",
+          "notes": "'Bull ʾIlu his fa[ther…]'. ṯr ʾil ʾabh 'Bull-El his father' = the El-as-patriarch epithet (cf. KTU 1.4 IV 47; 1.2 III 16; etc.). The bull-symbolism is theriomorphic, NOT the same Mesopotamian bull-of-heaven motif."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.1-iii:27",
+          "translit": "ḥš b[htm . tbnn . ḥš . trmmn . hklm]",
+          "cuneiform": "𐎈𐎌𐎟𐎁[𐎅𐎚𐎎𐎟𐎚𐎁𐎐𐎐𐎟𐎈𐎌𐎟𐎚𐎗𐎎𐎎𐎐𐎟𐎅𐎋𐎍𐎎]",
+          "notes": "'Quick, [palaces will be built; quick, temples will be erected]…'. The famous palace-building-formula (also at KTU 1.4 V; 1.4 VI; etc.). bhtm 'palaces / great-houses'; hklm 'temples / great-halls' (loanword from Akkadian *ekallu*; cf. Hebrew hêkāl)."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.1-iii:28",
+          "translit": "b tk . [...]",
+          "cuneiform": "𐎁𐎟𐎚𐎋𐎟[...]",
+          "notes": "'In the midst of [...]'. Building-location specifier; lost."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.1-iii:29",
+          "translit": "bn . [...]",
+          "cuneiform": "𐎁𐎐𐎟[...]",
+          "notes": "'Among / between [...]'. bn = 'son(s)' or 'between'; lost."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.1-iii:30",
+          "translit": "ʾa [...]",
+          "cuneiform": "𐎀𐎟[...]",
+          "notes": "'A…'. Lost."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.1-iv",
+      "ktu": "KTU 1.1 col iv",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.1 col iv: top of column lost. The preserved text is the most substantive section of KTU 1.1 — the divine banquet at which ʾIlu proclaims Yammu's elevation, gives him the new name 'Yaw' (a striking parallel to Yahweh in the Hebrew Bible — Smith 1994 vol 1, pp. 151-160), and orders Baʿlu's expulsion from kingship. This is the political setup for the duel in KTU 1.2.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.1-iv:1",
+          "translit": "[...] m . ṣ[/]y[/]t[/]p[/]r [...]",
+          "cuneiform": "[...]𐎟𐎎𐎟𐎕[/]𐎊[/]𐎚[/]𐎔[/]𐎗𐎟[...]",
+          "notes": "Severely damaged opening — multiple readings possible per Smith 1994 vol 1; first preserved cluster appears to be a divine-name or epithet."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.1-iv:2",
+          "translit": "gm . ṣḥ . l q[...]",
+          "cuneiform": "𐎂𐎎𐎟𐎕𐎈𐎟𐎍𐎟𐎖[...]",
+          "notes": "'Aloud he cried to Q[...]'. The standard gm ṣḥ 'aloud he called' speech-formula opens a divine command."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.1-iv:3",
+          "translit": "l rḥqm . l p [...]",
+          "cuneiform": "𐎍𐎟𐎗𐎈𐎖𐎎𐎟𐎍𐎟𐎔𐎟[...]",
+          "notes": "'To the distant ones, to P[...]'. l rḥqm 'to the far ones' — addressing distant divine attendants."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.1-iv:4",
+          "translit": "ṣḥ . ʾil . yṯb . b m[rzḥ ...]",
+          "cuneiform": "𐎕𐎈𐎟𐎛𐎍𐎟𐎊𐎘𐎁𐎟𐎁𐎟𐎎[𐎗𐎇𐎈𐎟...]",
+          "notes": "'ʾIlu cried, He sits at the m[arzeaḥ-feast]…'. mrzḥ = the famous mrzeaḥ ritual-banquet (cf. Amos 6:7 marzēaḥ; Jer 16:5 bêt marzēaḥ) — the divine drinking-rite at which ʾIlu presides. STRONG CROSS-CORPUS PARALLEL: marzeaḥ in the Hebrew Bible."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.1-iv:5",
+          "translit": "bṯt . ʿllmn . [...]",
+          "cuneiform": "𐎁𐎘𐎚𐎟𐎓𐎍𐎍𐎎𐎐𐎟[...]",
+          "notes": "'In confusion(?), youths(?)…' bṯt unclear (possibly bṯt 'shame' or btt 'wine-skin' or 'song-line'); ʿllmn 'youths / lads / young attendants.'"
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.1-iv:6",
+          "translit": "ʾilm . bt . bʿlk . [...]",
+          "cuneiform": "𐎛𐎍𐎎𐎟𐎁𐎚𐎟𐎁𐎓𐎍𐎋𐎟[...]",
+          "notes": "'O gods, the house of your lord [...].' bt bʿlk 'the house of your lord' = the divine palace; bʿlk 'your lord' here addresses the assembly (likely Baʿlu's circumstance being arraigned)."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.1-iv:7",
+          "translit": "d l . ylkn . ḥš . b ʾa[rṣ ...]",
+          "cuneiform": "𐎄𐎟𐎍𐎟𐎊𐎍𐎋𐎐𐎟𐎈𐎌𐎟𐎁𐎟𐎀[𐎗𐎕𐎟...]",
+          "notes": "'…who does not walk quickly in the [earth/land]…'. d l ylkn 'who does not go'; ḥš 'quickly, with haste'; b ʾarṣ 'in the land' — a description of a deity who has not yet asserted dominion."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.1-iv:8",
+          "translit": "b ʿpr . ḫbl ṭtm . [...]",
+          "cuneiform": "𐎁𐎟𐎓𐎔𐎗𐎟𐎃𐎁𐎍𐎟𐎉𐎚𐎎𐎟[...]",
+          "notes": "'In the dust (with) the lot(?) of the ṬTM …'. ʿpr 'dust'; ḫbl 'cord / lot / region'; ṭtm uncertain."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.1-iv:9",
+          "translit": "šqy . rṯan . tnmy . ytn [. ks . b yd]",
+          "cuneiform": "𐎌𐎖𐎊𐎟𐎗𐎘a𐎐𐎟𐎚𐎐𐎎𐎊𐎟𐎊𐎚𐎐𐎟[.𐎟𐎋𐎒𐎟𐎁𐎟𐎊𐎄]",
+          "notes": "'Pour for me, RṮN; for me, TNMY pour. [A cup he placed in (his) hand]…'. Drinking-attendants are named (rṯn, tnmy are not divine names but cup-bearer-titles); the cup-handling formula ks b yd 'cup in hand' recurs throughout the Cycle's banquet-scenes."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.1-iv:10",
+          "translit": "krpn . b klʾat yd . [...]",
+          "cuneiform": "𐎋𐎗𐎔𐎐𐎟𐎁𐎟𐎋𐎍𐎀𐎚𐎟𐎊𐎄𐎟[...]",
+          "notes": "'A krpn-vessel in both (literally: two) hands…'. krpn = a large drinking-vessel (cognate to Akkadian karpānu); klʾat yd 'two hands' = the dual-handed cup-holding gesture characteristic of divine drinking-scenes."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.1-iv:11",
+          "translit": "k mll . k ḥṣ . tʾuspn [...]",
+          "cuneiform": "𐎋𐎟𐎎𐎍𐎍𐎟𐎋𐎟𐎈𐎕𐎟𐎚𐎜𐎒𐎔𐎐𐎟[...]",
+          "notes": "'Like words(?), like an arrow(?), they were gathered…' mll possibly 'utterance' or 'pulverization'; ḥṣ 'arrow'; tʾuspn = Gt-pf 3mp of ʾsp 'to gather, harvest.' Sense uncertain; perhaps a metaphor for the speed of the gathering deities."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.1-iv:12",
+          "translit": "tgr . ʾil . bnh . ṯr [...]",
+          "cuneiform": "𐎚𐎂𐎗𐎟𐎛𐎍𐎟𐎁𐎐𐎅𐎟𐎘𐎗𐎟[...]",
+          "notes": "'ʾIlu guards his sons, Bull [...]'. tgr 'guards, protects'; ʾil bnh 'his sons' = the divine assembly as ʾIlu's family. The father-king-of-the-pantheon framing."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.1-iv:13",
+          "translit": "w yʿn . lṭpn . ʾil . d p[ʾid ...]",
+          "cuneiform": "𐎆𐎟𐎊𐎓𐎐𐎟𐎍𐎉𐎔𐎐𐎟𐎛𐎍𐎟𐎄𐎟𐎔[𐎛𐎄𐎟...]",
+          "notes": "'And the Benevolent ʾIlu, the kind-hearted, answered…' lṭpn ʾil d pʾid = the full ʾIlu epithet-formula 'Benevolent ʾIlu the merciful.'"
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.1-iv:14",
+          "translit": "šm . bny . yw . ʾilt [...]",
+          "cuneiform": "𐎌𐎎𐎟𐎁𐎐𐎊𐎟𐎊𐎆𐎟𐎛𐎍𐎚𐎟[...]",
+          "notes": "**THE NAME-GIVING SCENE — MANDATORY MAJOR**: 'The name of my son is YW, O goddess[ʾIlatu / ʾAṯiratu]…'. THIS IS THE FAMOUS YW LINE — ʾIlu names his son with the divine name YW. Smith 1994 vol 1 pp. 151-160 reads this as the etymological core of YHWH; the consonants Y-W are the same as the short Yahwistic theophoric ending (-yw, -yāhû). Bidirectional STRONG CROSS-CORPUS candidate with Yahweh-in-Israelite-religion. Note: YW here is given to YAMMU (the SEA-god), not to Baʿlu — a fact of comparative-religious significance that requires careful framing."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.1-iv:15",
+          "translit": "w pʿr . šm . ym [...]",
+          "cuneiform": "𐎆𐎟𐎔𐎓𐎗𐎟𐎌𐎎𐎟𐎊𐎎𐎟[...]",
+          "notes": "'And he proclaimed the name of Yammu [...]'. pʿr 'to proclaim, declare publicly' (cf. Hebrew pʿr/peh-ʿar 'open mouth wide'); šm ym 'name of Yammu (the Sea)' — the divine-name-proclamation. The previous line names him YW; this line gives him the title YM 'Sea.'"
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.1-iv:16",
+          "translit": "tʿnyn . l zntn . [...]",
+          "cuneiform": "𐎚𐎓𐎐𐎊𐎐𐎟𐎍𐎟𐎇𐎐𐎚𐎐𐎟[...]",
+          "notes": "'They(/she) answered to him: We have not nourished(?)…'. tʿnyn = G-yqtl 3fp (or D-perf) of ʿny 'to answer'; zntn = uncertain (possibly zwn 'to feed/nourish' — denying his entitlement to nurture?)."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.1-iv:17",
+          "translit": "ʾat . ʾadn . tpʿr [...]",
+          "cuneiform": "𐎀𐎚𐎟𐎀𐎄𐎐𐎟𐎚𐎔𐎓𐎗𐎟[...]",
+          "notes": "'You are the lord(?), proclaim…' ʾat 'you' (2ms); ʾadn 'lord' (cf. Hebrew ʾādōn); tpʿr = 'you shall proclaim' (D-yqtl)."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.1-iv:18",
+          "translit": "ʾank . lṭpn . ʾil [. d pʾid ...]",
+          "cuneiform": "𐎀𐎐𐎋𐎟𐎍𐎉𐎔𐎐𐎟𐎛𐎍𐎟[.𐎟𐎄𐎟𐎔𐎛𐎄𐎟...]",
+          "notes": "'I (am) the Benevolent ʾIlu, the kind-hearted…'. ʾIlu's self-identification as the proclaimer."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.1-iv:19",
+          "translit": "ʿl . ydm . pʿrt [...]",
+          "cuneiform": "𐎓𐎍𐎟𐎊𐎄𐎎𐎟𐎔𐎓𐎗𐎚𐎟[...]",
+          "notes": "'Upon (my) hands I have proclaimed…'. ʿl ydm 'upon (the/my) hands' — the lifted-hand proclamation-gesture (cf. the raised-hand-of-divine-decree convention)."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.1-iv:20",
+          "translit": "šmk . mdd . ʾi[l ...]",
+          "cuneiform": "𐎌𐎎𐎋𐎟𐎎𐎄𐎄𐎟𐎛[𐎍𐎟...]",
+          "notes": "'Your name is Beloved of ʾI[lu]…'. mdd ʾil 'Beloved of ʾIlu' = standard epithet of Yammu (cf. KTU 1.3 III 38-39; 1.4 II 34; 1.4 VI 12 — the formula mdd ʾil ym 'Yammu Beloved of ʾIlu')."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.1-iv:21",
+          "translit": "bt . kspy . dt [...]",
+          "cuneiform": "𐎁𐎚𐎟𐎋𐎒𐎔𐎊𐎟𐎄𐎚𐎟[...]",
+          "notes": "'House of my silver, which [...]'. bt kspy 'my silver house' = the silver palace, possibly the gift Yammu is to receive."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.1-iv:22",
+          "translit": "bd . ʾaliyn b[ʿl ...]",
+          "cuneiform": "𐎁𐎄𐎟𐎀𐎍i𐎊𐎐𐎟𐎁[𐎓𐎍𐎟...]",
+          "notes": "'…from the hand of Mighty Baʿ[lu]…'. bd = 'from the hand of' (b + yd); ʾaliyn bʿl = 'Mightiest Baʿlu' (one of his standard epithets)."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.1-iv:23",
+          "translit": "kd . ynʾaṣn [...]",
+          "cuneiform": "𐎋𐎄𐎟𐎊𐎐𐎀𐎕𐎐𐎟[...]",
+          "notes": "'…when he reviles me…' kd 'when, because'; ynʾaṣn = G-yqtl 3ms + 1cs suffix of nʾṣ 'to spurn, treat with contempt.'"
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.1-iv:24",
+          "translit": "gršnn . l k[sʾi . mlkh . l nḫt . l kḥṯ]",
+          "cuneiform": "𐎂𐎗𐎌𐎐𐎐𐎟𐎍𐎟𐎋[𐎒𐎛𐎟𐎎𐎍𐎋𐎅𐎟𐎍𐎟𐎐𐎃𐎚𐎟𐎍𐎟𐎋𐎈𐎘]",
+          "notes": "'Drive him out from [the throne of his kingship, from the dais of] (his rule)…'. gršnn 'drive him out!' (D-impv + 3ms suffix); l ksʾi mlkh 'from the throne of his kingship' = the standard kingship-deposition formula (also at KTU 1.6 V 5-6; cf. Isa 14:13 'I will sit on the mount of assembly')."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.1-iv:25",
+          "translit": "drkth . š [...]",
+          "cuneiform": "𐎄𐎗𐎋𐎚𐎅𐎟𐎌𐎟[...]",
+          "notes": "'…of his dominion…'. drkt 'dominion, sovereignty' (cf. Hebrew derek 'way, dominion'); the kingship-deposition continues."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.1-iv:26",
+          "translit": "w hm . ap . l [...]",
+          "cuneiform": "𐎆𐎟𐎅𐎎𐎟a𐎔𐎟𐎍𐎟[...]",
+          "notes": "'And if also [...]'. w hm 'and if'; ap 'also, even'; l = preposition or negative."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.1-iv:27",
+          "translit": "ymḫṣk . k [...]",
+          "cuneiform": "𐎊𐎎𐎃𐎕𐎋𐎟𐎋𐎟[...]",
+          "notes": "'…he will strike you like [...]'. ymḫṣ = G-yqtl of mḫṣ 'to smite, strike' (cf. Hebrew māḥaṣ 'to crush'). The verb mḫṣ is central to the duel-vocabulary in KTU 1.2 IV."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.1-iv:28",
+          "translit": "ʾil . dbḥ . [...]",
+          "cuneiform": "𐎛𐎍𐎟𐎄𐎁𐎈𐎟[...]",
+          "notes": "'ʾIlu (held) a sacrifice/feast…'. dbḥ 'sacrifice, ritual-feast' (cf. Hebrew zebaḥ); ʾIlu inaugurates the divine banquet."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.1-iv:29",
+          "translit": "pʿr . bt [...]",
+          "cuneiform": "𐎔𐎓𐎗𐎟𐎁𐎚𐎟[...]",
+          "notes": "'He proclaimed in/at the house of [...]'. The proclamation-formula recurs."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.1-iv:30",
+          "translit": "ṭbḫ . ʾalp[m . ʾap . ṣʾin . šql]",
+          "cuneiform": "𐎉𐎁𐎃𐎟𐎀𐎍𐎔[𐎎𐎟𐎀𐎔𐎟𐎕𐎛𐎐𐎟𐎌𐎖𐎍]",
+          "notes": "'He slaughtered o[xen, also sheep he laid low]…'. The standard banquet-preparation formula (ṭbḫ ʾalpm ʾap ṣʾin) characteristic of divine feasts throughout the Cycle (cf. KTU 1.4 VI; 1.114 — Mesopotamian and Greek hecatomb parallels)."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.1-iv:31",
+          "translit": "ṯrm . w [mri . ʾilm . ʿglm . dt . šnt]",
+          "cuneiform": "𐎘𐎗𐎎𐎟𐎆𐎟[𐎎𐎗i𐎟𐎛𐎍𐎎𐎟𐎓𐎂𐎍𐎎𐎟𐎄𐎚𐎟𐎌𐎐𐎚]",
+          "notes": "'…bulls and [fatlings, rams, year-old calves]…'. The standard sacrificial-list-formula: ṯrm 'bulls'; mri 'fattened/choice animals'; ʿglm 'calves'; dt šnt 'of (the) year' (year-old)."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.1-iv:32",
+          "translit": "ʾimr . [qmṣ . llʾim ...]",
+          "cuneiform": "𐎛𐎎𐎗𐎟[𐎖𐎎𐎕𐎟𐎍𐎍𐎛𐎎𐎟...]",
+          "notes": "'…lambs, [an abundance of kids]…'. ʾimr 'lamb' (cf. Hebrew ʾimmar in Ezra 6:9, 17; Aramaic); qmṣ 'amount, handful, abundance'; llʾim 'young rams/kids' (cf. Hebrew lîlîth and related root)."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.1-v",
+      "ktu": "KTU 1.1 col v",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.1 col v: top destroyed. Preserved text contains fragmentary day-counting formulae and references to Mount Ṣapunu (Baʿlu's mountain), suggesting a transitional or travel scene. Smith 1994 vol 1 pp. 169-170 reads this as part of Baʿlu's escape or relocation following ʾIlu's deposition-decree.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.1-v:1",
+          "translit": "[...] b",
+          "cuneiform": "[...]𐎟𐎁",
+          "notes": "Single preserved sign."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.1-v:2",
+          "translit": "[... w ym . ym]m",
+          "cuneiform": "[...𐎟𐎆𐎟𐎊𐎎𐎟𐎊𐎎]𐎎",
+          "notes": "'…[and a day, two day]s…' Standard day-counting-formula ym ymm 'day(s), days.'"
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.1-v:3",
+          "translit": "[yʿtqn . ymġy .] npš",
+          "cuneiform": "[𐎊𐎓𐎚𐎖𐎐𐎟𐎊𐎎𐎙𐎊𐎟.]𐎟𐎐𐎔𐎌",
+          "notes": "'[they pass; (X) arrives at] the throat / appetite…'. yʿtqn 'they pass on'; ymġy 'arrives'; npš here likely 'throat, appetite' (the food-hunger meaning, not the soul-meaning)."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.1-v:4",
+          "translit": "[... h]d . tngṯnh",
+          "cuneiform": "[...𐎟𐎅]𐎄𐎟𐎚𐎐𐎂𐎘𐎐𐎅",
+          "notes": "'…[Had]du(?) she/they meets him…'. Hd = Haddu, the alternate name of Baʿlu (the storm-deity proper; Baʿlu 'Lord' is the cult-title; Hd is the personal name); tngṯnh = G-yqtl 3fs/3mp + 3ms suffix of ngṯ 'to meet, encounter.'"
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.1-v:5",
+          "translit": "[...] . b ṣpn",
+          "cuneiform": "[...]𐎟𐎁𐎟𐎕𐎔𐎐",
+          "notes": "'…in Ṣapunu.' ṣpn = Mount Ṣapunu (modern Jebel al-Aqra in Syria), Baʿlu's holy mountain — the cosmic mountain analogous to Sinai/Zion. STRONG CROSS-CORPUS PARALLEL: cf. Hebrew ṣāpôn 'north' as direction-from-Mount-Ṣapunu; Ps 48:2 yarketê ṣāpôn 'recesses of the north' applied to Mount Zion."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.1-v:6",
+          "translit": "[...] . nšb . bʿn",
+          "cuneiform": "[...]𐎟𐎐𐎌𐎁𐎟𐎁𐎓𐎐",
+          "notes": "'…(he/they) drew(?) BʿN(?)…'. nšb possibly 'to drag, pull'; bʿn uncertain."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.1-v:7",
+          "translit": "[...] bkm yʿn",
+          "cuneiform": "[...]𐎟𐎁𐎋𐎎𐎟𐎊𐎓𐎐",
+          "notes": "'…then he answered…'. bkm = 'then, after this' (compound particle); yʿn = G-yqtl of ʿny 'to answer.'"
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.1-v:8",
+          "translit": "[... ydʿ . l] ydʿt",
+          "cuneiform": "[...𐎟𐎊𐎄𐎓𐎟𐎍]𐎟𐎊𐎄𐎓𐎚",
+          "notes": "'…[I know that I do not] know…' or '[that you have known, I have] not known.' ydʿ // ydʿt parallelism on yd ʿ 'to know.'"
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.1-v:9",
+          "translit": "[... t]ʾasrn",
+          "cuneiform": "[...𐎟𐎚]𐎀𐎒𐎗𐎐",
+          "notes": "'…they bind / you bind…'. ʾsr 'to bind' — possibly the binding-of-Yammu motif or Baʿlu's earlier defeat."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.1-v:10",
+          "translit": "[ṯr ʾil ...] trks",
+          "cuneiform": "[𐎘𐎗𐎟𐎛𐎍𐎟...]𐎟𐎚𐎗𐎋𐎒",
+          "notes": "'[Bull ʾIlu …] he binds…'. ṯr ʾil 'Bull ʾIlu' epithet; rks 'to bind, tie.'"
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.1-v:11",
+          "translit": "[...] ʾabnm . ʾupqt",
+          "cuneiform": "[...]𐎟𐎀𐎁𐎐𐎎𐎟𐎜𐎔𐎖𐎚",
+          "notes": "'…stones, they were polished/embraced(?)…'. ʾabn 'stone'; ʾupqt possibly 'embraces' or 'channels' (passive)."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.1-v:12",
+          "translit": "[...] l w ġr mtny",
+          "cuneiform": "[...]𐎟𐎍𐎟𐎆𐎟𐎙𐎗𐎟𐎎𐎚𐎐𐎊",
+          "notes": "'…with the mountain of my loins / haunches.' ġr 'mountain'; mtnym 'two loins / haunches' (cf. Hebrew motnayim) — body-of-the-cosmos imagery."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.1-v:13",
+          "translit": "[ʾat zd ...] rq . gb",
+          "cuneiform": "[𐎀𐎚𐎟𐎇𐎄𐎟...]𐎟𐎗𐎖𐎟𐎂𐎁",
+          "notes": "'[You(?) zd…] thinness(?) of the back(?).' rq 'thin, lean'; gb 'back, hill.'"
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.1-v:14",
+          "translit": "[...] kl . tġr . mtnh",
+          "cuneiform": "[...]𐎟𐎋𐎍𐎟𐎚𐎙𐎗𐎟𐎎𐎚𐎐𐎅",
+          "notes": "'…all of(?) guards / opens(?) his loin.' tġr 'opens / guards (a gate)'; mtn 'loin.'"
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.1-v:15",
+          "translit": "[...] b . w ym ymm",
+          "cuneiform": "[...]𐎟𐎁𐎟𐎆𐎟𐎊𐎎𐎟𐎊𐎎𐎎",
+          "notes": "'…and a day, two days…' The day-counting-formula recurs."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.1-v:16",
+          "translit": "[yʿtqn ...] ymġy . npš",
+          "cuneiform": "[𐎊𐎓𐎚𐎖𐎐𐎟...]𐎟𐎊𐎎𐎙𐎊𐎟𐎐𐎔𐎌",
+          "notes": "'[they pass …] (X) arrives at the throat.' Parallel to v.3."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.1-v:17",
+          "translit": "[...] t . hd . tngṯnh",
+          "cuneiform": "[...]𐎟𐎚𐎟𐎅𐎄𐎟𐎚𐎐𐎂𐎘𐎐𐎅",
+          "notes": "'…(X) Haddu, she encounters him.' Parallel to v.4."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.1-v:18",
+          "translit": "[...] ḥmk b ṣpn",
+          "cuneiform": "[...]𐎟𐎈𐎎𐎋𐎟𐎁𐎟𐎕𐎔𐎐",
+          "notes": "'…your wrath(?) in Ṣapunu.' ḥm here possibly ḥmt 'wrath' or ḥmm 'heat'; b ṣpn 'in Ṣapunu' (Baʿlu's mountain)."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.1-v:19",
+          "translit": "[...] . ʾišqb . ʾaylt",
+          "cuneiform": "[...]𐎟𐎛𐎌𐎖𐎁𐎟𐎀𐎊𐎍𐎚",
+          "notes": "'…I will make to lie down a hind/doe.' ʾišqb = Š-yqtl 1cs of škb 'to lie down' (causative 'cause to lie down'); ʾaylt 'doe, hind' (cf. Hebrew ʾayyālāh) — cultic/sacrificial imagery."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.1-v:20",
+          "translit": "[...] . mbkm . yʿn",
+          "cuneiform": "[...]𐎟𐎎𐎁𐎋𐎎𐎟𐎊𐎓𐎐",
+          "notes": "'…from the spring(s) he answers.' mbkm 'springs, sources (of the deep)' (cf. Hebrew nibkê 'sources' Job 38:16, the deep-springs of the abyss); yʿn 'he answers.' STRONG CROSS-CORPUS PARALLEL: the deep-springs of cosmic origin."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.1-v:21",
+          "translit": "[...] . ydʿ . l ydʿt",
+          "cuneiform": "[...]𐎟𐎊𐎄𐎓𐎟𐎍𐎟𐎊𐎄𐎓𐎚",
+          "notes": "'…I know, I do not know.' Parallel to v.8."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.1-v:22",
+          "translit": "[...] tʾasrn . ṯr ʾil",
+          "cuneiform": "[...]𐎟𐎚𐎀𐎒𐎗𐎐𐎟𐎘𐎗𐎟𐎛𐎍",
+          "notes": "'…they bind, Bull ʾIlu…'. Parallel to v.9-10."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.1-v:23",
+          "translit": "[...] rks . bn . ʾabnm",
+          "cuneiform": "[...]𐎟𐎗𐎋𐎒𐎟𐎁𐎐𐎟𐎀𐎁𐎐𐎎",
+          "notes": "'…he binds among the stones.' rks 'binds, ties up'; bn ʾabnm 'between the stones' (locative)."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.1-v:24",
+          "translit": "[...] ʾupqt . ʿrb",
+          "cuneiform": "[...]𐎟𐎜𐎔𐎖𐎚𐎟𐎓𐎗𐎁",
+          "notes": "'…they were polished/joined, evening(?).' ʿrb 'evening, sunset' or 'mixing.'"
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.1-v:25",
+          "translit": "[... w] ġr . mtny ʾat zd",
+          "cuneiform": "[...𐎟𐎆]𐎟𐎙𐎗𐎟𐎎𐎚𐎐𐎊𐎟𐎀𐎚𐎟𐎇𐎄",
+          "notes": "'[…and] the mountain of my loins — you(?) ZD(?)…'. Parallel to v.12."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.1-v:26",
+          "translit": "[...] tʿrb . b šʾi",
+          "cuneiform": "[...]𐎟𐎚𐎓𐎗𐎁𐎟𐎁𐎟𐎌𐎛",
+          "notes": "'…(she/they) enters at the lifting(?).' tʿrb = G-yqtl 3fs of ʿrb 'to enter'; b šʾi 'at/by lifting' (the šʾi 'lifting' = sunrise? or 'taking-of-portion' as in a banquet?)."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.1-v:27",
+          "translit": "[...] l tzd . l tptq",
+          "cuneiform": "[...]𐎟𐎍𐎟𐎚𐎇𐎄𐎟𐎍𐎟𐎚𐎔𐎚𐎖",
+          "notes": "'…you shall not act-arrogantly, you shall not …' tzd = G-yqtl 2ms of zwd 'to act presumptuously, contend' (cf. Hebrew zîd, the root of 'arrogance,' Ps 19:14); tptq = uncertain (possibly 'tear apart' or 'release')."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.1-v:28",
+          "translit": "[...] . g[...] l ʾarṣ",
+          "cuneiform": "[...]𐎟𐎂[...]𐎟𐎍𐎟𐎀𐎗𐎕",
+          "notes": "'…(broken) to the earth.' Final partially-preserved line of the column."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.1-vi",
+      "ktu": "KTU 1.1 col vi",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.1 col vi: destroyed — no preserved text. The end of tablet 1.1; transition to KTU 1.2 follows.]"
+        }
+      },
+      "lines": []
+    },
+    {
+      "segmentId": "1.2-i",
+      "ktu": "KTU 1.2 col i",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.2 col i: opening lines fragmentary. The scene that unfolds: Yammu (the Sea-god) dispatches his two messengers (mlʾakm) to the divine assembly (pḫr mʿd) at Mount Lel, demanding the surrender of Baʿlu. ʾIlu and the gods abjectly submit; Baʿlu rages and must be restrained by ʿAnatu and ʿAṯtartu.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.2-i:1",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.2-i:2",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.2-i:3",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.2-i:4",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.2-i:5",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.2-i:6",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.2-i:7",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.2-i:8",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.2-i:9",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.2-i:10",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Opening lines lost."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.2-i:11",
+          "translit": "[...] mlʾak ym [...]",
+          "cuneiform": "[...]𐎟𐎎𐎍𐎀𐎋𐎟𐎊𐎎𐎟[...]",
+          "notes": "'…messenger of Yammu…' mlʾak = 'messenger, envoy' (cf. Hebrew malʾāk, Greek angelos); cognate of biblical 'angel.' Yammu's diplomatic embassy is announced."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.2-i:12",
+          "translit": "[...] tʿdt ṯpṭ nhr [...]",
+          "cuneiform": "[...]𐎟𐎚𐎓𐎄𐎚𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗𐎟[...]",
+          "notes": "'…embassy of Judge River…'. tʿdt 'embassy, delegation' (cf. Hebrew tĕʿūdâ 'testimony'); ṯpṭ nhr 'Judge River' is Yammu's standard binomial title (ym // nhr 'Sea // River' parallelism); ṯpṭ 'judge, ruler' (cf. Hebrew šôpēṭ, šepheṭ). The Yam-Nahar pair-naming is consistent throughout the Cycle."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.2-i:13",
+          "translit": "[hlk . ʾalpm . ḫdd . w rbt . kmyr]",
+          "cuneiform": "[𐎅𐎍𐎋𐎟𐎀𐎍𐎔𐎎𐎟𐎃𐎄𐎄𐎟𐎆𐎟𐎗𐎁𐎚𐎟𐎋𐎎𐎊𐎗]",
+          "notes": "'[They went a thousand-(times), going(?) and ten thousand-(times) like rain(?)]'. The travel-distance formula (ʾalpm // rbt 'thousand // ten thousand' pair)."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.2-i:14",
+          "translit": "[ʾatr . ṯn . ṯn . hlk . ʾatr . ṯlṯ . klhm]",
+          "cuneiform": "[𐎀𐎚𐎗𐎟𐎘𐎐𐎟𐎘𐎐𐎟𐎅𐎍𐎋𐎟𐎀𐎚𐎗𐎟𐎘𐎍𐎘𐎟𐎋𐎍𐎅𐎎]",
+          "notes": "'[After two, two go; after three, all of them]'. The 'after two, after three' staircase-parallelism characteristic of Ugaritic narrative-numerology."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.2-i:15",
+          "translit": "[lʾak . ym . mlʾakm . yʾlʾak ṯpṭ . nhr]",
+          "cuneiform": "[𐎍𐎀𐎋𐎟𐎊𐎎𐎟𐎎𐎍𐎀𐎋𐎎𐎟𐎊ʾ𐎍𐎀𐎋𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗]",
+          "notes": "'[Yammu sent messengers; Judge River dispatched (envoys)]'. The verb lʾak 'to send (a messenger)' is the cognate of Hebrew lʾk (the unattested verbal root behind malʾāk 'messenger')."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.2-i:16",
+          "translit": "[tḥm . ym . bʿlkm . ʾadnkm . ṯpṭ]",
+          "cuneiform": "[𐎚𐎈𐎎𐎟𐎊𐎎𐎟𐎁𐎓𐎍𐎋𐎎𐎟𐎀𐎄𐎐𐎋𐎎𐎟𐎘𐎔𐎉]",
+          "notes": "'[Message of Yammu, your lord; your master, Judge…]'. tḥm 'message of (X)' — the standard message-delivery formula (cf. Adapa B; throughout ANE epistolography)."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.2-i:17",
+          "translit": "[nhr . tn . ʾilm . d tqh . d tqyn . hmlt]",
+          "cuneiform": "[𐎐𐎅𐎗𐎟𐎚𐎐𐎟𐎛𐎍𐎎𐎟𐎄𐎟𐎚𐎖𐎅𐎟𐎄𐎟𐎚𐎖𐎊𐎐𐎟𐎅𐎎𐎍𐎚]",
+          "notes": "'[River — Give up, O gods, the one whom you fear, the one whom multitudes revere]'. tn = 'give!' (impv); ʾilm 'gods' (vocative); d tqh 'whom you fear' (relative + G-yqtl 2mp of yrʾ 'to fear'); hmlt 'multitudes.'"
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.2-i:18",
+          "translit": "[tn . bʿl . w ʿnnh . bn . dgn . ʾarṯm . pḏh]",
+          "cuneiform": "[𐎚𐎐𐎟𐎁𐎓𐎍𐎟𐎆𐎟𐎓𐎐𐎐𐎅𐎟𐎁𐎐𐎟𐎄𐎂𐎐𐎟𐎀𐎗𐎘𐎎𐎟𐎔𐎏𐎅]",
+          "notes": "**MANDATORY**: 'Give up Baʿlu and his attendants, the Son of Dagan, that I may take his gold!'. bn dgn 'Son of Dagan' = Baʿlu's parentage (Dagan/Dagon = the West-Semitic grain-deity; cf. Judges 16; 1 Sam 5). pḏh 'his gold/wealth' (cf. Hebrew pdh 'to redeem' — the redemption-payment metaphor). Yammu demands Baʿlu's submission with confiscation-of-property."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.2-i:19",
+          "translit": "[tbʿ . ġlmm . l yṯb . ʾidk . pnm]",
+          "cuneiform": "[𐎚𐎁𐎓𐎟𐎙𐎍𐎎𐎎𐎟𐎍𐎟𐎊𐎘𐎁𐎟𐎛𐎄𐎋𐎟𐎔𐎐𐎎]",
+          "notes": "'[The lads/youths set out, they did not turn back; then face]…'. ġlm 'young man, attendant'; tbʿ = G-pf 3mp of nbʿ 'to set forth'; ʾidk 'thereupon.'"
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.2-i:20",
+          "translit": "[l ytn . tk . ġr . ll . ʿm . pḫr . mʿd]",
+          "cuneiform": "[𐎍𐎟𐎊𐎚𐎐𐎟𐎚𐎋𐎟𐎙𐎗𐎟𐎍𐎍𐎟𐎓𐎎𐎟𐎔𐎃𐎗𐎟𐎎𐎓𐎄]",
+          "notes": "'[were set toward Mount Lel, toward the assembled assembly]'. ġr ll 'Mount Lel' = ʾIlu's abode; pḫr mʿd 'gathered assembly' — the divine council. STRONG CROSS-CORPUS PARALLEL: the bĕnê hāʾĕlōhîm convening before YHWH (Job 1:6; 2:1; Ps 82:1; 89:6-8); cf. Akkadian *puḫru ša ilāni*."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.2-i:21",
+          "translit": "[ʾap . ʾilm . l lḥm . yṯb . bn . qdš]",
+          "cuneiform": "[𐎀𐎔𐎟𐎛𐎍𐎎𐎟𐎍𐎟𐎍𐎈𐎎𐎟𐎊𐎘𐎁𐎟𐎁𐎐𐎟𐎖𐎄𐎌]",
+          "notes": "'[Indeed the gods were sitting down to eat, the holy sons]…'. lḥm 'to eat / bread'; bn qdš 'sons of the holy one' = the divine council (cf. bĕnê hāqqōdeš)."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.2-i:22",
+          "translit": "[l . trm . bʿl . qm . ʿl . ʾil . hlm . ʾilm]",
+          "cuneiform": "[𐎍𐎟𐎚𐎗𐎎𐎟𐎁𐎓𐎍𐎟𐎖𐎎𐎟𐎓𐎍𐎟𐎛𐎍𐎟𐎅𐎍𐎎𐎟𐎛𐎍𐎎]",
+          "notes": "'[to feast; Baʿlu stood beside ʾIlu. Lo, the gods]…'. trm 'to feast, dine'; qm ʿl 'stood beside / over'; hlm 'lo, behold.'"
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.2-i:23",
+          "translit": "[tphhm . tphn . mlʾak . ym . tʿdt . ṯpṭ]",
+          "cuneiform": "[𐎚𐎔𐎅𐎅𐎎𐎟𐎚𐎔𐎅𐎐𐎟𐎎𐎍𐎀𐎋𐎟𐎊𐎎𐎟𐎚𐎓𐎄𐎚𐎟𐎘𐎔𐎉]",
+          "notes": "'[saw them; they saw the messengers of Yammu, the embassy of Judge…]'. tphhm 'they saw them'; tphn = parallel verb (alternate stem). The arrival-perceived formula."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.2-i:24",
+          "translit": "[nhr . tġly . ʾilm . rʾiš[t]hm . l ẓr . brkthm]",
+          "cuneiform": "[𐎐𐎅𐎗𐎟𐎚𐎙𐎍𐎊𐎟𐎛𐎍𐎎𐎟𐎗𐎛𐎌[𐎚]𐎅𐎎𐎟𐎍𐎟𐎑𐎗𐎟𐎁𐎗𐎋𐎚𐎅𐎎]",
+          "notes": "'[River. The gods lowered their heads to the top of their knees]'. tġly = D-yqtl 3fp of ġly 'to lower'; rʾišthm 'their heads'; ẓr 'top, summit'; brkthm 'their knees.' THE FAMOUS HEADS-TO-KNEES gesture of divine fear — the gods bow in fear before Yammu's envoys. Cross-corpus the Hebrew 'putting head between knees' (1 Kings 18:42 Elijah at Carmel; possibly a posture of supplication/lamentation)."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.2-i:25",
+          "translit": "[w l . kḥṯ . zblhm . bhm . yg]ʿr . bʿl",
+          "cuneiform": "[𐎆𐎟𐎍𐎟𐎋𐎈𐎘𐎟𐎇𐎁𐎍𐎅𐎎𐎟𐎁𐎅𐎎𐎟𐎊𐎂]𐎓𐎗𐎟𐎁𐎓𐎍",
+          "notes": "'[and to the thrones of their princely-seats. Baʿlu re]bukes them.' kḥṯ 'throne, dais' (cf. Hebrew kissēʾ); zblhm 'their princely-rule' (cf. Hebrew zĕbûl 'lofty habitation,' the name Zebulun); ygʿr 'he rebukes' (cf. Hebrew gāʿar — God's rebuke of the sea Ps 18:15, 104:7; Isa 17:13)."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.2-i:26",
+          "translit": "lm . ġltm . ʾilm . rʾištkm",
+          "cuneiform": "𐎍𐎎𐎟𐎙𐎍𐎚𐎎𐎟𐎛𐎍𐎎𐎟𐎗𐎛𐎌𐎚𐎋𐎎",
+          "notes": "'Why have you lowered, O gods, your heads…'. lm 'why?' (cf. Hebrew lāmâ); ġltm = G-pf 2mp of ġly 'to lower'; rʾištkm 'your heads.' Baʿlu shames the assembled gods for their cowardly posture."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.2-i:27",
+          "translit": "l ẓr . brktkm . w l . kḥṯ . zblkm",
+          "cuneiform": "𐎍𐎟𐎑𐎗𐎟𐎁𐎗𐎋𐎚𐎋𐎎𐎟𐎆𐎟𐎍𐎟𐎋𐎈𐎘𐎟𐎇𐎁𐎍𐎋𐎎",
+          "notes": "'…to the top of your knees, and to the thrones of your princely-rule?'. Repetition of v.24 in Baʿlu's reproach."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.2-i:28",
+          "translit": "ʾaḥd . ʾilm . tʿny . lḥt . mlʾak . ym",
+          "cuneiform": "𐎀𐎈𐎄𐎟𐎛𐎍𐎎𐎟𐎚𐎓𐎐𐎊𐎟𐎍𐎈𐎚𐎟𐎎𐎍𐎀𐎋𐎟𐎊𐎎",
+          "notes": "'Let one of the gods answer the tablets of the messengers of Yammu…'. ʾaḥd 'one'; tʿny 'let (him) answer'; lḥt 'tablets, messages' (cf. Hebrew lûaḥ 'tablet')."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.2-i:29",
+          "translit": "tʿdt . ṯpṭ . nhr . tšʾu . ʾilm . rʾišthm",
+          "cuneiform": "𐎚𐎓𐎄𐎚𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗𐎟𐎚𐎌𐎜𐎟𐎛𐎍𐎎𐎟𐎗𐎛𐎌𐎚𐎅𐎎",
+          "notes": "'…the embassy of Judge River. The gods raised their heads…'. tšʾu = G-yqtl 3fp of nšʾ 'to lift, raise.' The gods straighten themselves in response to Baʿlu's reproach."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.2-i:30",
+          "translit": "l ẓr . brkthm . w l . kḥṯ . zblhm",
+          "cuneiform": "𐎍𐎟𐎑𐎗𐎟𐎁𐎗𐎋𐎚𐎅𐎎𐎟𐎆𐎟𐎍𐎟𐎋𐎈𐎘𐎟𐎇𐎁𐎍𐎅𐎎",
+          "notes": "'…from the top of their knees, and from the thrones of their princely-rule.' Posture-reversal."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.2-i:31",
+          "translit": "ʾaḫr . tmġyn . mlʾak . ym . tʿdt . ṯpṭ . nhr",
+          "cuneiform": "𐎀𐎃𐎗𐎟𐎚𐎎𐎙𐎊𐎐𐎟𐎎𐎍𐎀𐎋𐎟𐎊𐎎𐎟𐎚𐎓𐎄𐎚𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗",
+          "notes": "'Afterward, the messengers of Yammu arrive, the embassy of Judge River.'. ʾaḫr 'afterward'; tmġyn = G-yqtl 3mp/dual of mġy 'to arrive.'"
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.2-i:32",
+          "translit": "l pʿn . ʾil . [l] tpl . l tštḥwy . pḫr . mʿd",
+          "cuneiform": "𐎍𐎟𐎔𐎓𐎐𐎟𐎛𐎍𐎟[𐎍]𐎟𐎚𐎔𐎍𐎟𐎍𐎟𐎚𐎌𐎚𐎈𐎆𐎊𐎟𐎔𐎃𐎗𐎟𐎎𐎓𐎄",
+          "notes": "'At the feet of ʾIlu they do [not] fall, they do not bow down (to) the assembled assembly.' THE FAMOUS NON-PROSTRATION: Yammu's envoys refuse the required obeisance, a diplomatic affront. l tpl 'they fall not'; l tštḥwy 'they bow not.'"
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.2-i:33",
+          "translit": "qmm . ʾaṯrm . ʾamr . qmm . ʾamr",
+          "cuneiform": "𐎖𐎎𐎎𐎟𐎀𐎘𐎗𐎎𐎟𐎀𐎎𐎗𐎟𐎖𐎎𐎎𐎟𐎀𐎎𐎗",
+          "notes": "'Standing they spoke their word, standing they spoke (their word).' qmm 'standing' (dual participle); ʾaṯrm uncertain (perhaps 'striding' or 'in position'); ʾamr 'they spoke / their word.' The standing-while-speaking posture compounds the diplomatic insult."
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.2-i:34",
+          "translit": "ʾišt . ʾištm . yʾitmr . ḥrb . lṭšt [b lšnhm]",
+          "cuneiform": "𐎛𐎌𐎚𐎟𐎛𐎌𐎚𐎎𐎟𐎊𐎛𐎚𐎎𐎗𐎟𐎈𐎗𐎁𐎟𐎍𐎉𐎌𐎚𐎟[𐎁𐎟𐎍𐎌𐎐𐎅𐎎]",
+          "notes": "'Fire, two fires they kindle, a sharpened sword [is on their tongues].' ʾišt 'fire'; yʾitmr possibly G-yqtl with metathesis of ʾmr or 'to flame'; ḥrb lṭšt 'a sharpened sword'; b lšnhm 'on their tongues' (cf. Hebrew Ps 57:5 ḥarbôt ulšônām 'their tongues like sharp swords'; Ps 64:4; Prov 12:18; James 3:6). STRONG CROSS-CORPUS PARALLEL: the sword-tongue, hostile-speech-as-weapon trope."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.2-i:35",
+          "translit": "rgm . l ṯr . ʾabh . ʾil . tḥm . ym . bʿlkm",
+          "cuneiform": "𐎗𐎂𐎎𐎟𐎍𐎟𐎘𐎗𐎟𐎀𐎁𐎅𐎟𐎛𐎍𐎟𐎚𐎈𐎎𐎟𐎊𐎎𐎟𐎁𐎓𐎍𐎋𐎎",
+          "notes": "'They spoke to Bull, his father, ʾIlu: Message of Yammu, your lord…'. rgm 'they spoke'; ṯr ʾabh ʾil 'Bull his father ʾIlu' = the standard El-as-father epithet (Smith 1994 vol 1 reads ʾabh as 'his father,' a standard El-paternity formula)."
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.2-i:36",
+          "translit": "ʾadnkm . ṯpṭ . nhr . tn . ʾilm . d tqh",
+          "cuneiform": "𐎀𐎄𐎐𐎋𐎎𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗𐎟𐎚𐎐𐎟𐎛𐎍𐎎𐎟𐎄𐎟𐎚𐎖𐎅",
+          "notes": "'…your master, Judge River. Give up, O gods, the one whom you fear…'. The demand-formula resumes (parallel to v.17)."
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.2-i:37",
+          "translit": "d tqyn . hmlt . tn . bʿl . w ʿnnh",
+          "cuneiform": "𐎄𐎟𐎚𐎖𐎊𐎐𐎟𐎅𐎎𐎍𐎚𐎟𐎚𐎐𐎟𐎁𐎓𐎍𐎟𐎆𐎟𐎓𐎐𐎐𐎅",
+          "notes": "'…whom multitudes revere — Give up Baʿlu and his attendants…'. Parallel to v.18."
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.2-i:38",
+          "translit": "bn . dgn . ʾarṯm . pḏh . w yʿn . ṯr . ʾabh . ʾil",
+          "cuneiform": "𐎁𐎐𐎟𐎄𐎂𐎐𐎟𐎀𐎗𐎘𐎎𐎟𐎔𐎏𐎅𐎟𐎆𐎟𐎊𐎓𐎐𐎟𐎘𐎗𐎟𐎀𐎁𐎅𐎟𐎛𐎍",
+          "notes": "'…the Son of Dagan, that I may take his gold. And Bull, his father, ʾIlu answered…'. The Father-El answers the demand."
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.2-i:39",
+          "translit": "ʿbdk . bʿl . y ymm . ʿbdk . bʿl",
+          "cuneiform": "𐎓𐎁𐎄𐎋𐎟𐎁𐎓𐎍𐎟𐎊𐎟𐎊𐎎𐎎𐎟𐎓𐎁𐎄𐎋𐎟𐎁𐎓𐎍",
+          "notes": "**THE FATEFUL CONCESSION**: 'Your servant is Baʿlu, O Yammu! Your servant is Baʿlu…'. ʿbdk 'your servant' = the formal subjection-formula. ʾIlu submissively hands Baʿlu over to Yammu. This is the central political-crisis of the Cycle."
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.2-i:40",
+          "translit": "[n]hrm . bn . dgn . ʾasrkm . hw . ybl",
+          "cuneiform": "[𐎐]𐎅𐎗𐎎𐎟𐎁𐎐𐎟𐎄𐎂𐎐𐎟𐎀𐎒𐎗𐎋𐎎𐎟𐎅𐎆𐎟𐎊𐎁𐎍",
+          "notes": "'…[Ri]vers; the Son of Dagan — your prisoner he (will be), he will bring (tribute)…'. ʾasrkm 'your prisoner / one bound to you'; ybl 'he will bring / pay tribute' (cf. Hebrew yābal 'to bring as tribute')."
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.2-i:41",
+          "translit": "ʾargmnk . k ʾilm . [yb]l [...]",
+          "cuneiform": "𐎀𐎗𐎂𐎎𐎐𐎋𐎟𐎋𐎟𐎛𐎍𐎎𐎟[𐎊𐎁]𐎍𐎟[...]",
+          "notes": "'…I will give you tribute as the gods [pay]…'. ʾargmnk 'your tribute' (cf. Hebrew ʾargāmān 'purple/tribute' — Persian *arghavān? possibly Akkadian argamannu); the tribute-language is cognate to the purple-dye/tribute Akkadian financial-vocabulary."
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.2-i:42",
+          "translit": "k bn . qdš . tšyk [...]",
+          "cuneiform": "𐎋𐎟𐎁𐎐𐎟𐎖𐎄𐎌𐎟𐎚𐎌𐎊𐎋𐎟[...]",
+          "notes": "'…like sons of the holy one, gifts(?) for you…'. tšy possibly 'gift, tribute' (denominal from a verb meaning 'present, offer')."
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.2-i:43",
+          "translit": "ʾap . ʾanš . zbl . bʿl [...]",
+          "cuneiform": "𐎀𐎔𐎟𐎀𐎐𐎌𐎟𐎇𐎁𐎍𐎟𐎁𐎓𐎍𐎟[...]",
+          "notes": "'…even/also, the Prince Baʿlu was furious…'. ʾanš 'angry, furious'; zbl bʿl 'Prince Baʿlu' (zbl = 'prince, exalted one'). Baʿlu's rage erupts."
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.2-i:44",
+          "translit": "[yʾiḫd . b yd] ʾaṣṭ . b mn . [m]ʿsṣṣt",
+          "cuneiform": "[𐎊𐎛𐎃𐎄𐎟𐎁𐎟𐎊𐎄]𐎟𐎀𐎕𐎉𐎟𐎁𐎟𐎎𐎐𐎟[𐎎]𐎓𐎒𐎕𐎕𐎚",
+          "notes": "'[He took in (his) hand] a striking-(weapon), in (his) right hand a mʿsṣt …'. ʾiḫd 'he took, grasped'; ʾaṣṭ uncertain (possibly a weapon); the line shows Baʿlu reaching for arms — restrained in the next line."
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.2-i:45",
+          "translit": "ymnh . ʿnt . tʾuḫd . ymnh . ʿṯtrt . tʾuḫd [šmʾalh]",
+          "cuneiform": "𐎊𐎎𐎐𐎅𐎟𐎓𐎐𐎚𐎟𐎚𐎜𐎃𐎄𐎟𐎊𐎎𐎐𐎅𐎟𐎓𐎘𐎚𐎗𐎚𐎟𐎚𐎜𐎃𐎄𐎟[𐎌𐎎𐎀𐎍𐎅]",
+          "notes": "**MANDATORY**: 'His right hand ʿAnatu seized; (his) right hand ʿAṯtartu seized [his left hand]'. ʿAnatu and ʿAṯtartu (the two warrior-goddesses, cousins-or-sister-pair) restrain Baʿlu from striking the envoys. NOTE: ʿṯtrt = ʿAṯtartu (the Northwest-Semitic ancestress of Hebrew ʿaštōret, Greek Astarte, Aramaic ʿtrt-Atargatis). The two-goddess restraint scene."
+        },
+        {
+          "n": 46,
+          "refId": "BCY-WOH-1.2-i:46",
+          "translit": "ʾik . mġnt . [mlʾak] ym . tʿdt . ṯpṭ . nhr",
+          "cuneiform": "𐎛𐎋𐎟𐎎𐎙𐎐𐎚𐎟[𐎎𐎍𐎀𐎋]𐎟𐎊𐎎𐎟𐎚𐎓𐎄𐎚𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗",
+          "notes": "'How can you strike the messengers of Yammu, the embassy of Judge River?' ʾik 'how?' (interrogative); mġnt = D-yqtl 2ms of mġn 'to strike, smite'(?) — though some readings parse this as mġnt 'gift, present' (cf. Hebrew māgēn 'shield'). The goddesses restrain Baʿlu by appealing to messenger-immunity."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.2-ii",
+      "ktu": "KTU 1.2 col ii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.2 col ii: broken away entirely. The lost text is reconstructed from context (Smith 1994 vol 1 pp. 290-294): the central scene likely contained (i) Baʿlu's complaint or vow following the messengers' departure; (ii) the conference with Kothar-wa-Khasis (the divine craftsman); (iii) possibly the initial forging-instruction for the magical weapons Yagrush and Ayamur that will appear in column iv.]"
+        }
+      },
+      "lines": []
+    },
+    {
+      "segmentId": "1.2-iii",
+      "ktu": "KTU 1.2 col iii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.2 col iii: top of column lost. Preserved text contains a dialogue scene — possibly Kothar-wa-Khasis blessing Baʿlu's enterprise and predicting the defeat of his enemies; possibly also ʾAṯtart/ʿAnat petitioning ʾIlu on Baʿlu's behalf. Lineation per Smith 1994 vol 1.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.2-iii:1",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Top of column destroyed."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.2-iii:2",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Top of column destroyed."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.2-iii:3",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Top of column destroyed."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.2-iii:4",
+          "translit": "[w yʿn .] kṯr . w ḫss [...]",
+          "cuneiform": "[𐎆𐎟𐎊𐎓𐎐𐎟.]𐎟𐎋𐎘𐎗𐎟𐎆𐎟𐎃𐎒𐎒𐎟[...]",
+          "notes": "'[And] Kothar-wa-Khasis [answered]…'. The divine craftsman opens his speech-act."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.2-iii:5",
+          "translit": "[lrgm] l ʾaliyn . bʿl [...]",
+          "cuneiform": "[𐎍𐎗𐎂𐎎]𐎟𐎍𐎟𐎀𐎍i𐎊𐎐𐎟𐎁𐎓𐎍𐎟[...]",
+          "notes": "'[To declare] to Mighty Baʿlu…'. lrgm = preposition l + infinitive 'to speak'; ʾaliyn bʿl 'Mightiest Baʿlu' epithet."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.2-iii:6",
+          "translit": "ʾiwrkl . ḥwy [...]",
+          "cuneiform": "𐎛𐎆𐎗𐎋𐎍𐎟𐎈𐎆𐎊𐎟[...]",
+          "notes": "'O ʾIwrkl(?), live(?)…'. ʾiwrkl an obscure divine epithet (possibly a hypocoristic name); ḥwy 'live, may you live' (cf. Hebrew ḥāyê)."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.2-iii:7",
+          "translit": "tbʿrn . ḥrn . riš[k ...]",
+          "cuneiform": "𐎚𐎁𐎓𐎗𐎐𐎟𐎈𐎗𐎐𐎟𐎗i𐎌[𐎋𐎟...]",
+          "notes": "'…(may) Ḥarranu burn your he[ad]…'. tbʿrn 'they/she will burn'; ḥrn = either the deity Ḥōrōn (a curse-divinity) or 'noble curse'; rʾiš 'head.' A curse-formula directed at Baʿlu's enemies."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.2-iii:8",
+          "translit": "ʿṯtrt . šm . bʿl . qdqdk [...]",
+          "cuneiform": "𐎓𐎘𐎚𐎗𐎚𐎟𐎌𐎎𐎟𐎁𐎓𐎍𐎟𐎖𐎄𐎖𐎄𐎋𐎟[...]",
+          "notes": "'…ʿAṯtartu, name of Baʿlu, (smash) your crown!…'. qdqd 'crown of the head, scalp' (cf. Hebrew qodqōd). This is the famous Yam-shall-be-smitten-on-the-head curse — anticipating the duel resolution."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.2-iii:9",
+          "translit": "[...] tmḫṣ qdqdk [...]",
+          "cuneiform": "[...]𐎟𐎚𐎎𐎃𐎕𐎟𐎖𐎄𐎖𐎄𐎋𐎟[...]",
+          "notes": "'…(may) she strike your crown…'. tmḫṣ = G-yqtl 3fs of mḫṣ 'to smite'; qdqdk 'your crown.' Anticipating the duel's outcome — the head-smiting motif."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.2-iii:10",
+          "translit": "tʿrk . ʾanyk . [zbl . ym]",
+          "cuneiform": "𐎚𐎓𐎗𐎋𐎟𐎀𐎐𐎊𐎋𐎟[𐎇𐎁𐎍𐎟𐎊𐎎]",
+          "notes": "'…you shall pour out(?) your sigh, [Prince Yammu]…'. tʿrk uncertain; ʾanyk 'your groaning'; zbl ym 'Prince Yammu' (Yammu's standard epithet, paralleling zbl bʿl)."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.2-iii:11",
+          "translit": "tʿrk . ʾan ṯpṭ . [nhr ...]",
+          "cuneiform": "𐎚𐎓𐎗𐎋𐎟𐎀𐎐𐎟𐎘𐎔𐎉𐎟[𐎐𐎅𐎗𐎟...]",
+          "notes": "'…you shall pour out your sigh, Judge [River]…'. Parallel — ṯpṭ nhr 'Judge River' (the binomial)."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.2-iii:12",
+          "translit": "yqḥ . ʾaḫd . [...]",
+          "cuneiform": "𐎊𐎖𐎈𐎟𐎀𐎃𐎄𐎟[...]",
+          "notes": "'…he took one [...]'. yqḥ 'he took' (cf. Hebrew lāqaḥ); ʾaḫd 'one.'"
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.2-iii:13",
+          "translit": "[w yʿn .] lṭpn . ʾil [d pʾid]",
+          "cuneiform": "[𐎆𐎟𐎊𐎓𐎐𐎟.]𐎟𐎍𐎉𐎔𐎐𐎟𐎛𐎍𐎟[𐎄𐎟𐎔𐎛𐎄]",
+          "notes": "'[And] the Benevolent ʾIlu [the kind-hearted answered]…'. The standard ʾIlu-introduction formula."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.2-iii:14",
+          "translit": "[...] ʿbd . ʾan . ʿnn [...]",
+          "cuneiform": "[...]𐎟𐎓𐎁𐎄𐎟𐎀𐎐𐎟𐎓𐎐𐎐𐎟[...]",
+          "notes": "'…servant am I, an attendant…'. ʿbd ʾan 'I am a servant'; ʿnn 'attendant, cloud-rider.' Possibly Baʿlu's complaint about being made Yammu's servant."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.2-iii:15",
+          "translit": "[ʾaṯrt . w bnh] . ʾilt [w ṣbrt . ʾaryh]",
+          "cuneiform": "[𐎀𐎘𐎗𐎚𐎟𐎆𐎟𐎁𐎐𐎅]𐎟𐎛𐎍𐎚𐎟[𐎆𐎟𐎕𐎁𐎗𐎚𐎟𐎀𐎗𐎊𐎅]",
+          "notes": "'[ʾAṯiratu and her sons], ʾIlatu [and the household of her kindred]…'. ʾaṯrt 'ʾAṯiratu' = Asherah; bnh 'her sons' (the bnei ʾilm 'sons of the gods'); ʾilt 'the goddess' (= ʾAṯiratu's title); ṣbrt ʾaryh 'gathering of her kin.' STRONG CROSS-CORPUS: ʾAṯiratu is the Northwest-Semitic ancestress of biblical Asherah."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.2-iii:16",
+          "translit": "[ʾik] tmḫṣ . ʾaliyn . bʿl [...]",
+          "cuneiform": "[𐎛𐎋]𐎟𐎚𐎎𐎃𐎕𐎟𐎀𐎍i𐎊𐎐𐎟𐎁𐎓𐎍𐎟[...]",
+          "notes": "'[How] can you smite Mighty Baʿlu…?'. tmḫṣ 'you smite' (2ms); the head-of-pantheon questioning the proposed deposition."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.2-iii:17",
+          "translit": "[ʾik] tʿn[y . zbl] . bʿl [ʾarṣ]",
+          "cuneiform": "[𐎛𐎋]𐎟𐎚𐎓𐎐[𐎊𐎟𐎇𐎁𐎍]𐎟𐎁𐎓𐎍𐎟[𐎀𐎗𐎕]",
+          "notes": "'[How] can you answer [Prince] Baʿlu [of the earth]?'. zbl bʿl ʾarṣ 'Prince Baʿlu of the Earth' = Baʿlu's third standard epithet (zbl bʿl ʾarṣ; also at KTU 1.5 VI 10; 1.6 III 9, 21; etc.)."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.2-iii:18",
+          "translit": "[...] hlk . bʿl [...]",
+          "cuneiform": "[...]𐎟𐎅𐎍𐎋𐎟𐎁𐎓𐎍𐎟[...]",
+          "notes": "'…the going of Baʿlu…'. hlk 'going, walking, march.'"
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.2-iii:19",
+          "translit": "[...] lk . ym . bʿlk [...]",
+          "cuneiform": "[...]𐎟𐎍𐎋𐎟𐎊𐎎𐎟𐎁𐎓𐎍𐎋𐎟[...]",
+          "notes": "'…go, O Yammu, your lord…'. The hostile-mocking speech direction."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.2-iii:20",
+          "translit": "[ʾanš . zbl] . bʿl [...]",
+          "cuneiform": "[𐎀𐎐𐎌𐎟𐎇𐎁𐎍]𐎟𐎁𐎓𐎍𐎟[...]",
+          "notes": "'[Furious was Prince] Baʿlu…'. ʾanš zbl bʿl = 'the Prince Baʿlu was angry' — the rage-of-Baʿlu refrain."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.2-iii:21",
+          "translit": "[...] [...]",
+          "cuneiform": "[...]𐎟[...]",
+          "notes": "Lost."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.2-iii:22",
+          "translit": "[...] [...]",
+          "cuneiform": "[...]𐎟[...]",
+          "notes": "Lost."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.2-iii:23",
+          "translit": "[...] [...]",
+          "cuneiform": "[...]𐎟[...]",
+          "notes": "Lost."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.2-iii:24",
+          "translit": "[...] kṯr [...]",
+          "cuneiform": "[...]𐎟𐎋𐎘𐎗𐎟[...]",
+          "notes": "'…Kothar…'. kṯr 'Kothar' — the craftsman-deity reappears."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.2-iii:25",
+          "translit": "[...] ʾiqraʾ [...]",
+          "cuneiform": "[...]𐎟𐎛𐎖𐎗aʾ𐎟[...]",
+          "notes": "'…I shall call/proclaim…'. ʾiqraʾ = G-yqtl 1cs of qrʾ 'to call' (cf. Hebrew qārāʾ). Closing line of the preserved column."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.2-iv",
+      "ktu": "KTU 1.2 col iv",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.2 col iv: top fragmentary; lower text is the most famous scene in the entire Cycle — the DUEL OF BAʿLU AND YAMMU. Kothar-wa-Khasis forges two magical mace-weapons named Yagrush (yet to drive') and Ayamur ('Driver'); Baʿlu strikes Yammu twice; Yammu collapses; Baʿlu's kingship is proclaimed by ʿAṯtartu and the gods.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.2-iv:1",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Top of column fragmentary."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.2-iv:2",
+          "translit": "[...]",
+          "cuneiform": "[...]",
+          "notes": "Top of column fragmentary."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.2-iv:3",
+          "translit": "[...] qrn [...]",
+          "cuneiform": "[...]𐎟𐎖𐎗𐎐𐎟[...]",
+          "notes": "'…horn(?)…'. qrn 'horn' — possibly part of an epithet of Yammu-as-horned-bull or a feature of the weapon."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.2-iv:4",
+          "translit": "[w] yʿn . kṯr . w ḫss",
+          "cuneiform": "[𐎆]𐎟𐎊𐎓𐎐𐎟𐎋𐎘𐎗𐎟𐎆𐎟𐎃𐎒𐎒",
+          "notes": "'[And] Kothar-wa-Khasis answered…'. The divine craftsman addresses Baʿlu before the duel."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.2-iv:5",
+          "translit": "l rgmt . lk . l zbl . bʿl",
+          "cuneiform": "𐎍𐎟𐎗𐎂𐎎𐎚𐎟𐎍𐎋𐎟𐎍𐎟𐎇𐎁𐎍𐎟𐎁𐎓𐎍",
+          "notes": "'Did I not declare to you, O Prince Baʿlu…?'. l rgmt 'did I not speak' (interrogative l + perfect); the I-told-you-so rhetorical opening."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.2-iv:6",
+          "translit": "ṯnt . l rkb . ʿrpt",
+          "cuneiform": "𐎘𐎐𐎚𐎟𐎍𐎟𐎗𐎋𐎁𐎟𐎓𐎗𐎔𐎚",
+          "notes": "'…(did I not) repeat to you, O Rider on the Clouds?'. ṯnt 'I repeated'; rkb ʿrpt 'Rider on the Clouds' = THE central epithet of Baʿlu (also KTU 1.2 IV 8, 29; 1.3 II 40; 1.3 IV 4; 1.4 III 11, V 7, etc.). MANDATORY MAJOR CROSS-CORPUS PARALLEL: rōkēb bāʿărābôt 'Rider on the Clouds' (Ps 68:5); the New Testament Christological appropriation (Matt 26:64; Rev 1:7); the Son of Man on clouds (Dan 7:13). Strong central candidate."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.2-iv:7",
+          "translit": "ht . ʾibk . bʿlm . ht . ʾibk . tmḫṣ",
+          "cuneiform": "𐎅𐎚𐎟𐎛𐎁𐎋𐎟𐎁𐎓𐎍𐎎𐎟𐎅𐎚𐎟𐎛𐎁𐎋𐎟𐎚𐎎𐎃𐎕",
+          "notes": "'Now your enemy, O Baʿlu, now your enemy you shall strike…'. ht 'now'; ʾibk 'your enemy' (cf. Hebrew ʾōyēb); the imminent-victory declaration."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.2-iv:8",
+          "translit": "ht . tṣmt . ṣrtk . tqḥ . mlk . ʿlmk",
+          "cuneiform": "𐎅𐎚𐎟𐎚𐎕𐎎𐎚𐎟𐎕𐎗𐎚𐎋𐎟𐎚𐎖𐎈𐎟𐎎𐎍𐎋𐎟𐎓𐎍𐎎𐎋",
+          "notes": "'…now you shall annihilate your foe. You shall take your eternal kingship…'. tṣmt 'you destroy, annihilate'; ṣrt 'foe, oppressor'; mlk ʿlmk 'your eternal kingship' (mlk ʿlm = 'everlasting kingship,' cognate to Hebrew malkût ʿōlām, Ps 145:13)."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.2-iv:9",
+          "translit": "drkt . dt . drdrk",
+          "cuneiform": "𐎄𐎗𐎋𐎚𐎟𐎄𐎚𐎟𐎄𐎗𐎄𐎗𐎋",
+          "notes": "'…your dominion of generation-upon-generation.' drkt 'dominion'; dt drdr 'of generation-upon-generation' (cf. Hebrew dōr wādôr, lədōr wādōr — Ps 89:2 — STRONG PARALLEL)."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.2-iv:10",
+          "translit": "kṯr . ṣmdm . yṣmd",
+          "cuneiform": "𐎋𐎘𐎗𐎟𐎕𐎎𐎄𐎎𐎟𐎊𐎕𐎎𐎄",
+          "notes": "'Kothar fashioned two maces (lit: bindings)…'. ṣmdm 'two maces / clubs / fastenings' (dual); yṣmd = G-yqtl of ṣmd 'to bind, fashion (a mace).' THE FORGING OF THE TWO WEAPONS — the central object of the duel narrative."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.2-iv:11",
+          "translit": "w yp[ʿr . šmthm]",
+          "cuneiform": "𐎆𐎟𐎊𐎔[𐎓𐎗𐎟𐎌𐎎𐎚𐎅𐎎]",
+          "notes": "'…and he pro[claimed their (two) names]…'. ypʿr 'he proclaims, declares with the mouth'; šmthm 'their two names.' The name-giving ritual that activates the weapons."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.2-iv:12",
+          "translit": "šmk . ʾat . ygrš",
+          "cuneiform": "𐎌𐎎𐎋𐎟𐎀𐎚𐎟𐎊𐎂𐎗𐎌",
+          "notes": "**THE FIRST WEAPON'S NAME**: 'Your name, you (= the first mace), is Yagrush!'. ygrš = 'May-he-drive-out' (G-yqtl 3ms of grš 'to drive out, expel'; cf. Hebrew gāraš, the verb of expulsion-from-Eden Gen 3:24). The mace IS its function: a speech-act-activated weapon. STRONG CROSS-CORPUS: cognate to Hebrew gāraš in the Genesis 3:24 expulsion-from-Eden motif."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.2-iv:13",
+          "translit": "ygrš . grš . ym",
+          "cuneiform": "𐎊𐎂𐎗𐎌𐎟𐎂𐎗𐎌𐎟𐎊𐎎",
+          "notes": "**THE PERFORMATIVE NAMING**: 'Yagrush — drive out Yam!'. The pun and command: the name commands its function. grš ym 'drive out Yammu!' (D-impv of grš)."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.2-iv:14",
+          "translit": "grš . ym . l ksʾih",
+          "cuneiform": "𐎂𐎗𐎌𐎟𐎊𐎎𐎟𐎍𐎟𐎋𐎒𐎛𐎅",
+          "notes": "'Drive out Yammu from his throne…'. l ksʾih 'from his throne' — the deposition-from-throne language; STRONG CROSS-CORPUS: cf. Isa 14:13, the deposition-of-Shahar-ben-Helal; Ps 89:5."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.2-iv:15",
+          "translit": "nhr . l kḥṯ . drkth",
+          "cuneiform": "𐎐𐎅𐎗𐎟𐎍𐎟𐎋𐎈𐎘𐎟𐎄𐎗𐎋𐎚𐎅",
+          "notes": "'…Nahar from the throne-dais of his dominion!'. nhr 'River' (Yammu's binomial); kḥṯ drkt 'dais of dominion' = standard kingship-vocabulary; the deposition continues."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.2-iv:16",
+          "translit": "trtqṣ . b yd . bʿl",
+          "cuneiform": "𐎚𐎗𐎚𐎖𐎕𐎟𐎁𐎟𐎊𐎄𐎟𐎁𐎓𐎍",
+          "notes": "'You shall leap from the hand of Baʿlu…'. trtqṣ = Gt-yqtl 2fs of rqṣ 'to dance, leap'; b yd bʿl 'from the hand of Baʿlu.' The mace is commanded to fly from Baʿlu's hand at the target."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.2-iv:17",
+          "translit": "k nšr . b ʾuṣbʿth",
+          "cuneiform": "𐎋𐎟𐎐𐎌𐎗𐎟𐎁𐎟𐎜𐎕𐎁𐎓𐎚𐎅",
+          "notes": "'…like an eagle from his fingers!'. nšr 'eagle, vulture' (cf. Hebrew nešer); ʾuṣbʿt 'fingers' (cf. Hebrew ʾeṣbaʿ). The eagle-flight simile for the weapon's trajectory."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.2-iv:18",
+          "translit": "hlm . ktp . zbl . ym",
+          "cuneiform": "𐎅𐎍𐎎𐎟𐎋𐎚𐎔𐎟𐎇𐎁𐎍𐎟𐎊𐎎",
+          "notes": "'Strike the shoulder of Prince Yammu…'. hlm 'strike!' (G-impv of hlm); ktp 'shoulder' (cf. Hebrew kātēp); zbl ym 'Prince Yammu' (the standard epithet)."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.2-iv:19",
+          "translit": "bn . ydm . ṯpṭ . nhr",
+          "cuneiform": "𐎁𐎐𐎟𐎊𐎄𐎎𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗",
+          "notes": "'…between the hands(?) (= chest/shoulders) of Judge River!'. bn ydm 'between the hands / on the chest'; ṯpṭ nhr 'Judge River' (the binomial completion)."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.2-iv:20",
+          "translit": "yrtqṣ . ṣmd . b yd . bʿl",
+          "cuneiform": "𐎊𐎗𐎚𐎖𐎕𐎟𐎕𐎎𐎄𐎟𐎁𐎟𐎊𐎄𐎟𐎁𐎓𐎍",
+          "notes": "'The mace leapt from the hand of Baʿlu…'. yrtqṣ = Gt-pf 3ms (the mace LEAPS, performing what was commanded); the weapon obeys."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.2-iv:21",
+          "translit": "km nšr . b ʾuṣbʿth",
+          "cuneiform": "𐎋𐎎𐎟𐎐𐎌𐎗𐎟𐎁𐎟𐎜𐎕𐎁𐎓𐎚𐎅",
+          "notes": "'…like an eagle from his fingers.' Repetition of v.17 in the narrative-perfect."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.2-iv:22",
+          "translit": "ylm . ktp . zbl . ym",
+          "cuneiform": "𐎊𐎍𐎎𐎟𐎋𐎚𐎔𐎟𐎇𐎁𐎍𐎟𐎊𐎎",
+          "notes": "'It struck the shoulder of Prince Yammu…'. ylm = Gt-pf 3ms (or G-pres 'it strikes'); the weapon hits its target."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.2-iv:23",
+          "translit": "bn . ydm . ṯpṭ . nhr",
+          "cuneiform": "𐎁𐎐𐎟𐎊𐎄𐎎𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗",
+          "notes": "'…between the hands of Judge River.' The blow lands."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.2-iv:24",
+          "translit": "ʿz . ym . l ymk",
+          "cuneiform": "𐎓𐎇𐎟𐎊𐎎𐎟𐎍𐎟𐎊𐎎𐎋",
+          "notes": "'But Yammu was strong, he did not collapse…'. ʿz 'strong, mighty' (cf. Hebrew ʿōz); l ymk 'he did not sink/fall' (G-yqtl 3ms negative; cf. Hebrew māk 'to be low, sink'). YAMMU DOES NOT FALL TO THE FIRST BLOW — the duel intensifies."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.2-iv:25",
+          "translit": "l tnġṣn . pnth . l ydlp . tmnh",
+          "cuneiform": "𐎍𐎟𐎚𐎐𐎙𐎕𐎐𐎟𐎔𐎐𐎚𐎅𐎟𐎍𐎟𐎊𐎄𐎍𐎔𐎟𐎚𐎎𐎐𐎅",
+          "notes": "'…his joints did not collapse, his frame did not crumble.' tnġṣn 'they shake/break' (G-yqtl 3fp negative); pnth 'his joints' (cf. Hebrew pinnâ 'corner, structural-element'); ydlp 'it drips/crumbles' (cf. Hebrew dālap, leaking-roof); tmn 'frame, build.' Yammu remains standing."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.2-iv:26",
+          "translit": "yṯʿr . kṯr . ṣmdm",
+          "cuneiform": "𐎊𐎘𐎓𐎗𐎟𐎋𐎘𐎗𐎟𐎕𐎎𐎄𐎎",
+          "notes": "'Kothar binds(?) two (more) maces…'. yṯʿr possibly 'arranges, prepares' (D-yqtl); or 'announces (a second naming).' The second weapon enters the scene."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.2-iv:27",
+          "translit": "w ypʿr . šmthm",
+          "cuneiform": "𐎆𐎟𐎊𐎔𐎓𐎗𐎟𐎌𐎎𐎚𐎅𐎎",
+          "notes": "'…and he proclaims their (two) names.' The second naming-ritual."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.2-iv:28",
+          "translit": "šmk . ʾat . ʾaymr",
+          "cuneiform": "𐎌𐎎𐎋𐎟𐎀𐎚𐎟𐎀𐎊𐎎𐎗",
+          "notes": "**THE SECOND WEAPON'S NAME**: 'Your name, you (= the second mace), is Ayamur!'. ʾaymr = 'Driver' (etymology from mwr or ʾamr 'to drive away, expel'). Some readings translate as 'Cast-Out' or 'Expeller.' The second weapon, like the first, IS its function."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.2-iv:29",
+          "translit": "ʾaymr . mr . ym",
+          "cuneiform": "𐎀𐎊𐎎𐎗𐎟𐎎𐎗𐎟𐎊𐎎",
+          "notes": "**THE PERFORMATIVE NAMING (2nd)**: 'Ayamur — drive away Yammu!'. mr 'drive away! / cast out!' (G-impv); the speech-act activates the weapon's function."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.2-iv:30",
+          "translit": "mr . ym . l ksʾih",
+          "cuneiform": "𐎎𐎗𐎟𐎊𐎎𐎟𐎍𐎟𐎋𐎒𐎛𐎅",
+          "notes": "'Drive Yammu from his throne…'. Parallel structure to v.14: the deposition-language is repeated for the second weapon."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.2-iv:31",
+          "translit": "nhr . l kḥṯ . drkth",
+          "cuneiform": "𐎐𐎅𐎗𐎟𐎍𐎟𐎋𐎈𐎘𐎟𐎄𐎗𐎋𐎚𐎅",
+          "notes": "'…Nahar from the throne-dais of his dominion!'. Parallel to v.15."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.2-iv:32",
+          "translit": "trtqṣ . b yd . bʿl",
+          "cuneiform": "𐎚𐎗𐎚𐎖𐎕𐎟𐎁𐎟𐎊𐎄𐎟𐎁𐎓𐎍",
+          "notes": "'You shall leap from the hand of Baʿlu…'. Parallel to v.16."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.2-iv:33",
+          "translit": "k nšr . b ʾuṣbʿth",
+          "cuneiform": "𐎋𐎟𐎐𐎌𐎗𐎟𐎁𐎟𐎜𐎕𐎁𐎓𐎚𐎅",
+          "notes": "'…like an eagle from his fingers!'. Parallel to v.17."
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.2-iv:34",
+          "translit": "hlm . qdqd . zbl . ym",
+          "cuneiform": "𐎅𐎍𐎎𐎟𐎖𐎄𐎖𐎄𐎟𐎇𐎁𐎍𐎟𐎊𐎎",
+          "notes": "**THE SECOND BLOW**: 'Strike the CROWN of Prince Yammu…'. qdqd 'crown of the head, scalp' (the same word foreshadowed in 1.2 III 8-9). MANDATORY CROSS-CORPUS PARALLEL: Hebrew māḥaṣ qodqōd ('smite the head') in Ps 68:22 'God will smite the head (qodqōd) of his enemies'; Hab 3:13; Deut 33:20. The head-smiting motif of cosmic-victory."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.2-iv:35",
+          "translit": "bn . ʿnm . ṯpṭ . nhr",
+          "cuneiform": "𐎁𐎐𐎟𐎓𐎐𐎎𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗",
+          "notes": "'…between the eyes of Judge River!'. bn ʿnm 'between the eyes' (cf. Hebrew bên ʿênayim — the forehead). The target shifts UP from the chest (1st blow) to the head (2nd blow) — escalation."
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.2-iv:36",
+          "translit": "yprsḥ . ym . yql . l ʾarṣ",
+          "cuneiform": "𐎊𐎔𐎗𐎒𐎈𐎟𐎊𐎎𐎟𐎊𐎖𐎍𐎟𐎍𐎟𐎀𐎗𐎕",
+          "notes": "**THE FALL**: 'Yammu collapsed, he fell to the earth…'. yprsḥ 'he collapses, sinks down' (Gt-yqtl 3ms; cf. Hebrew prs 'to spread' — in the metaphorical 'spread-himself-out-in-defeat' sense); yql 'he falls.' Yammu finally falls."
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.2-iv:37",
+          "translit": "tnġṣn . pnth . w ydlp . tmnh",
+          "cuneiform": "𐎚𐎐𐎙𐎕𐎐𐎟𐎔𐎐𐎚𐎅𐎟𐎆𐎟𐎊𐎄𐎍𐎔𐎟𐎚𐎎𐎐𐎅",
+          "notes": "'…his joints shake, his frame crumbles.' Parallel-inversion of v.25: what did NOT happen with the first blow now happens with the second. The vocabulary of structural-defeat."
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.2-iv:38",
+          "translit": "yqṯ . bʿl . w yšt . ym",
+          "cuneiform": "𐎊𐎖𐎘𐎟𐎁𐎓𐎍𐎟𐎆𐎟𐎊𐎌𐎚𐎟𐎊𐎎",
+          "notes": "'Baʿlu drew(?) — and he drank Yam(?) / drained Yammu.' yqṯ uncertain (possibly 'gathers up, draws together' or 'destroys'); yšt = G-yqtl of šty 'to drink' (cf. Hebrew šātâ); the line is the famous crux. Smith 1994 vol 1 reads this as 'Baʿlu drags Yam' (yqṯ as 'draws to himself') — i.e., the dismemberment-victory."
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.2-iv:39",
+          "translit": "ykly . ṯpṭ . nhr",
+          "cuneiform": "𐎊𐎋𐎍𐎊𐎟𐎘𐎔𐎉𐎟𐎐𐎅𐎗",
+          "notes": "'…he finishes off (= annihilates) Judge River.' ykly = D-yqtl of kly 'to bring to an end, annihilate' (cf. Hebrew kālâ, kālāl). The kill-shot."
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.2-iv:40",
+          "translit": "b šm . tgʿrm . ʿṯtrt",
+          "cuneiform": "𐎁𐎟𐎌𐎎𐎟𐎚𐎂𐎓𐎗𐎎𐎟𐎓𐎘𐎚𐎗𐎚",
+          "notes": "**THE PROCLAMATION**: 'By name, ʿAṯtartu (= Astarte) rebukes (him)…'. b šm 'by name'; tgʿrm = D-yqtl 3fs + enclitic m of gʿr 'to rebuke' (cf. the same verb at 1.2 I 25, Baʿlu's rebuke of the gods; cf. Hebrew gāʿar — God's rebuke of the sea, Ps 18:15). ʿAṯtartu's voice closes the duel-scene."
+        }
+      ]
+    }
+  ]
+}
