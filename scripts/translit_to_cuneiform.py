@@ -40,6 +40,29 @@ SUB_TO_ASCII = str.maketrans("₀₁₂₃₄₅₆₇₈₉", "0123456789")
 # transliteration convention. Normalize ETCSL → OGSL form for lookup.
 ETCSL_TO_OGSL = str.maketrans({"ĝ": "ŋ", "Ĝ": "Ŋ"})
 
+# Akkadian transliteration uses long vowels with macron (ā ē ī ū) to mark
+# vowel length. OGSL stores Akkadian readings with the bare vowel and a
+# subscript number for disambiguation (e.g. `bi`, `bi₂`, not `bī`).
+# Strip macrons before lookup.
+LONG_VOWELS_TO_SHORT = str.maketrans({
+    "ā": "a", "ē": "e", "ī": "i", "ū": "u",
+    "Ā": "A", "Ē": "E", "Ī": "I", "Ū": "U",
+})
+
+# Parenthesised determinatives — Akkadian convention. The classic Sumerian
+# `^d` form is for ETCSL; Akkadian editions (Foster, Izre'el, the Adapa
+# corpus) write the divine determinative as `(d)` before the name and
+# postpositive determinatives like `(ki)`, `(meš)`, `(LÚ)` after. The
+# parenthesised content can be lowercase (Akkadian reading) or uppercase
+# (Sumerogram).
+PAREN_PRE_DET_RE = re.compile(r"^\((?P<det>[a-zA-Z]+\d?)\)")
+# Postpositive determinatives + parenthesised Sumerograms — any
+# parenthesised group at the end of a word (or the whole word).
+# Examples: Eridu(KI), tâmti(A.AB.BA), (d)Šūtu(IM.U18.LU).
+PAREN_POST_DET_RE = re.compile(r"\((?P<det>[A-Za-z0-9._]+)\)$")
+# Uncertainty marker `(?)` — strip and mark annotated.
+UNCERTAINTY_RE = re.compile(r"\(\?\)")
+
 # ETCSL-style determinative markers — single letters / short tokens that
 # stand for classifier signs preceding the next morpheme. Detected via the
 # `^` superscript marker (e.g. `^d`, `^lu2`, `^gish`, `^ki` for postfix).
@@ -86,13 +109,19 @@ def parse_osl(path: Path):
                 if len(parts) != 2:
                     continue
                 rest = parts[1].strip()
-                # Skip language-tagged readings (Akkadian etc.) — we render
-                # Sumerian text, so Akkadian readings of the same sign would
-                # produce wrong cuneiform in this context.
-                if rest.startswith("%") and not rest.startswith("%sux"):
+                # Keep Sumerian (%sux) and Akkadian (%akk) readings; both
+                # are needed since the project translates from both source
+                # languages. Skip other language tags (Hittite, Hurrian,
+                # etc.) — they don't apply to the current corpus.
+                if rest.startswith("%") and not (
+                    rest.startswith("%sux") or rest.startswith("%akk")
+                ):
                     continue
-                if rest.startswith("%sux "):
-                    rest = rest[len("%sux "):].strip()
+                if rest.startswith("%sux ") or rest.startswith("%akk "):
+                    space_idx = rest.find(" ")
+                    rest = rest[space_idx + 1:].strip() if space_idx > 0 else ""
+                    if not rest:
+                        continue
                 # Strip uncertainty marker `?` at end.
                 rest = rest.rstrip("?")
                 # Skip placeholder readings (xₓ subscript means unknown index).
@@ -195,49 +224,93 @@ def translate_word(word: str, readings: dict, sign_names: dict):
         stats["annotated"] += 1
         return "", stats
 
-    # If the word is a single ALL-CAPS sign-name (possibly compound with `.`),
-    # try sign_names lookup directly. ETCSL convention for sign-names without
-    # certain readings.
-    if word.isupper() and word.replace(".", "").replace("X", "").isalnum():
-        parts = word.split(".")
-        all_mapped = True
-        sub_out = []
-        for p in parts:
-            char = sign_names.get(p) or sign_names.get(p.upper())
-            if char:
-                sub_out.append(char)
-                stats["mapped"] += 1
-            else:
-                stats["unmapped"] += 1
-                all_mapped = False
-                sub_out.append("")
-        if all_mapped:
-            return "".join(sub_out), stats
-        # Fall through to morpheme handling if mixed.
+    # --- Akkadian preprocessing -----------------------------------------
+    # Strip `(?)` uncertainty markers — record as annotation noise.
+    if UNCERTAINTY_RE.search(word):
+        word = UNCERTAINTY_RE.sub("", word)
+        stats["annotated"] += 1
+    # Pre-positive determinative: `(d)Ea` -> DINGIR sign + lookup of `ea`.
+    pre_det = None
+    m = PAREN_PRE_DET_RE.match(word)
+    if m:
+        pre_det = m.group("det").lower()
+        word = word[m.end():]
+    # Post-positive determinative or trailing parenthesised Sumerogram:
+    # `Eridu(KI)` -> lookup of `eridu` + KI sign. `tâmti(A.AB.BA)` is the
+    # syllabic Akkadian + Sumerogram pair convention; render both layers.
+    post_det = None
+    m = PAREN_POST_DET_RE.search(word)
+    if m:
+        post_det = m.group("det")
+        word = word[:m.start()]
+    # Normalise Akkadian long vowels to short for OGSL lookup.
+    word = word.translate(LONG_VOWELS_TO_SHORT)
 
-    morphemes = split_morphemes(word)
-    for kind, morph in morphemes:
-        clean, annotated = normalize_morpheme(morph)
-        if annotated:
-            stats["annotated"] += 1
-        if not clean:
-            # Pure annotation token (e.g. just brackets) — nothing to render.
-            continue
-        # `X` is the ETCSL marker for "broken sign of unknown reading"
-        if clean == "x" or clean.upper() == "X":
-            stats["unmapped"] += 1
-            continue
-        # Determinative lookup uses the reading just like a normal morpheme.
-        ascii_form = clean.translate(SUB_TO_ASCII).translate(ETCSL_TO_OGSL).lower()
-        char = readings.get(ascii_form)
-        if not char:
-            # Try uppercase as a sign-name fallback.
-            char = sign_names.get(clean.upper())
+    # Emit pre-positive determinative cuneiform first.
+    if pre_det:
+        char = readings.get(pre_det)
         if char:
             out_chars.append(char)
             stats["mapped"] += 1
         else:
             stats["unmapped"] += 1
+    # ---------------------------------------------------------------------
+
+    # If the (post-strip) word is a single ALL-CAPS sign-name (possibly
+    # compound with `.`), try sign_names lookup directly. ETCSL convention
+    # for sign-names without certain readings; also handles Akkadian
+    # Sumerograms like `DINGIR.MEŠ`.
+    if word and word.isupper() and word.replace(".", "").replace("X", "").isalnum():
+        parts = word.split(".")
+        for p in parts:
+            char = sign_names.get(p) or sign_names.get(p.upper())
+            if char:
+                out_chars.append(char)
+                stats["mapped"] += 1
+            else:
+                stats["unmapped"] += 1
+    elif word:
+        morphemes = split_morphemes(word)
+        for kind, morph in morphemes:
+            clean, annotated = normalize_morpheme(morph)
+            if annotated:
+                stats["annotated"] += 1
+            if not clean:
+                # Pure annotation token (e.g. just brackets) — nothing to render.
+                continue
+            # `X` is the ETCSL marker for "broken sign of unknown reading"
+            if clean == "x" or clean.upper() == "X":
+                stats["unmapped"] += 1
+                continue
+            # Determinative lookup uses the reading just like a normal morpheme.
+            ascii_form = (
+                clean.translate(SUB_TO_ASCII)
+                     .translate(ETCSL_TO_OGSL)
+                     .lower()
+            )
+            char = readings.get(ascii_form)
+            if not char:
+                # Try uppercase as a sign-name fallback.
+                char = sign_names.get(clean.upper())
+            if char:
+                out_chars.append(char)
+                stats["mapped"] += 1
+            else:
+                stats["unmapped"] += 1
+
+    # Append post-positive determinative or trailing parenthesised
+    # Sumerogram. Mixed-case content like `IM.U18.LU` is treated as a
+    # dot-separated sequence of sign-names.
+    if post_det:
+        parts = post_det.split(".")
+        for p in parts:
+            char = sign_names.get(p.upper()) or readings.get(p.lower())
+            if char:
+                out_chars.append(char)
+                stats["mapped"] += 1
+            else:
+                stats["unmapped"] += 1
+
     return "".join(out_chars), stats
 
 
