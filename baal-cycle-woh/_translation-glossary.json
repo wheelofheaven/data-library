@@ -1,29 +1,10 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "scope": "baal-cycle-woh",
-  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of the Baal Cycle. Contains composition-specific entries that are not (yet) appropriate for promotion to the central production glossary. Entries here may be promoted to central via the standard overlay→central promotion pattern when they appear in subsequent compositions and acquire cross-corpus reach.",
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of the Baal Cycle. Contains composition-specific entries that are not (yet) appropriate for promotion to the central production glossary. Entries here may be promoted to central via the standard overlay→central promotion pattern when they appear in subsequent compositions and acquire cross-corpus reach. Note: the `word-of-tree-whisper-of-stone-mystery-revelation-formula-baal-cycle` overlay entry was promoted to central at the chapter-2 Editor pass (now lives in central glossary as `word-of-tree-whisper-of-stone-mystery-revelation-formula-cross-corpus-ugaritic-hebrew-bible`); chapter-1.json glossaryRefs have been back-edited to point to the new central ID.",
   "sourceLanguages": ["uga"],
   "entries": [
-    {
-      "id": "word-of-tree-whisper-of-stone-mystery-revelation-formula-baal-cycle",
-      "source": "rgm ʿṣ w lḫšt ʾabn (Ugaritic alphabetic-cuneiform); KTU 1.1-iii:13 and (formulaic) elsewhere in the Cycle",
-      "translit": "rigmu ʿiṣṣi wa laḫšatu ʾabni",
-      "lemma": "rgm 'word'; ʿṣ 'tree'; lḫšt 'whisper, secret communication'; ʾabn 'stone'",
-      "partOfSpeech": "Ugaritic mystery-revelation formula: 'a word of tree, a whisper of stone' — the fixed liturgical-formulaic pair denoting esoteric cosmic communication, deployed by Kothar-wa-Khasis at KTU 1.1-iii:13",
-      "literal": "word of tree and whisper of stone — the formal name for the secret cosmic-communication shared between gods",
-      "standardEnglish": "word of tree, whisper of stone (Smith 1994 vol 1 — preferred as fixed-formula reading; Ginsberg 1955 — message-of-timber-and-stone architectural reading; Pardee 2003)",
-      "wohChoice": "word of tree and whisper of stone (literal; preserves the fixed-formulaic pair register)",
-      "claim_type": "direct",
-      "rationale": "The formula *rgm ʿṣ w lḫšt ʾabn* 'a word of tree, a whisper of stone' is a fixed Ugaritic liturgical-formula denoting esoteric cosmic-communication. The expression appears at KTU 1.1-iii:13 in Kothar-wa-Khasis's exhortation to ʾIlu, and the formula's full structure is reconstructed from parallel attestations elsewhere in the Cycle: *rgm ʾiṯ ly w ʾargmk hwt w ʾaṯnyk rgm ʿṣ w lḫšt ʾabn tʾunt šmm ʿm ʾarṣ thmt ʿmn kbkbm rgm l tdʿ nšm w l tbn hmlt ʾarṣ* 'I have a word, and I will tell it to you; a saying, and I will repeat it to you — a word of tree and a whisper of stone, the converse of heaven with earth, of the deeps with the stars, a word that humans do not know, and that the multitudes of the earth do not understand'. The formula encodes the **esoteric cosmic-communication** shared between the gods and accessible only to the divine; the parallel-pair *tʾunt šmm ʿm ʾarṣ thmt ʿmn kbkbm* 'converse of heaven with earth, of the deeps with the stars' further encodes the cosmic-scope of the secret-knowledge. **Smith 1994 vol 1** reads the formula as a fixed liturgical-formula for esoteric cosmic communication; **Ginsberg 1955** in ANET reads it more concretely as 'message of timber and stone' in an architectural-construction register; **Pardee 2003** is closer to Smith. Cross-corpus parallels include Hab 2:11 *ki even mi-qir tizʿaq v-kafis me-ʿetz yaʿanennah* 'for the stone shall cry out from the wall, and the beam from the timber shall answer it' (the cosmic-objects-as-witnesses motif) and Ps 19:1-4 (the heavens' speech). The formula does not yet appear in any text outside the Baal Cycle in the project's planned corpus; it stays as an overlay entry pending future cross-corpus reach. This entry does NOT support a Sitchin-corpus reading of the formula as an Anunnaki-engineered-communication-protocol; the source-text register is theological-mythological-liturgical, not engineering-protocol.",
-      "appliesTo": [
-        "BCY-WOH-1.1-iii:12",
-        "BCY-WOH-1.1-iii:13",
-        "BCY-WOH-1.1-iii:14",
-        "BCY-WOH-1.1-iii:15",
-        "BCY-WOH-1.1-iii:16"
-      ]
-    },
     {
       "id": "iwrkl-obscure-name-or-epithet-baal-cycle-1-2-iii-6",
       "source": "ʾiwrkl (Ugaritic alphabetic-cuneiform); KTU 1.2-iii:6",
@@ -86,7 +67,7 @@
     },
     {
       "id": "haddu-personal-name-of-the-storm-god-baal-cycle-1-1-v-overlay",
-      "source": "hd (Ugaritic alphabetic-cuneiform); KTU 1.1-v:4, 17",
+      "source": "hd (Ugaritic alphabetic-cuneiform); KTU 1.1-v:4, 17; KTU 1.4-vi:51; KTU 1.4-vii:38",
       "translit": "Haddu",
       "lemma": "hd (Ugaritic; cognate to Akkadian Adad / Iškur, Hebrew Hadad)",
       "partOfSpeech": "Ugaritic divine name: Haddu — the personal name of the storm-deity whose cult-title is Baʿlu ('Lord'); cross-corpus to Hebrew Bible Hadad (1 Kgs 11:14, 19, 21, 23; 2 Sam 8 personal-names) and to Akkadian Adad (the major Mesopotamian storm-god)",
@@ -94,23 +75,25 @@
       "standardEnglish": "Haddu / Hadad (Smith 1994 vol 1; Pardee 2003 — uniform consensus on identity)",
       "wohChoice": "Haddu (Ugaritic vocalization preserved; the Ugaritic-vs-Akkadian-vs-Hebrew distinction is kept where the source-text is Ugaritic)",
       "claim_type": "direct",
-      "rationale": "Ugaritic *hd* (Haddu) is the **personal name** of the storm-deity whose cult-title is **Baʿlu** ('Lord'). At KTU 1.1-v:4, 17 Haddu appears in fragmentary narrative-context (*hd tngṯnh* 'Haddu — she meets him'). The cult-title vs personal-name distinction is well-documented: Baʿlu is the title-of-respect ('Lord'), Haddu is the personal-name. Cross-corpus links: Akkadian *Adad* (also written *Iškur* in Sumerian logogram) is the major Mesopotamian storm-god, attested widely from the Old Babylonian period through the Neo-Assyrian period; the cult-and-figure-type is closely parallel to Ugaritic Haddu (though Mesopotamian Adad never quite has the cult-prominence Baʿlu/Haddu has in the West-Semitic world). Hebrew Bible attestations: *Hadad* as a personal-name for Edomite kings (1 Kgs 11:14, 19, 21, 23) and in 2 Sam 8 patronymics. The Hadad-personal-name in Hebrew preserves the West-Semitic divine name in fossilized form. The Hadad-Adad-Haddu cluster is overlay-grade in the Baal Cycle context (the personal-name Haddu appears only rarely in the Cycle; Baʿlu/cult-title is much more frequent). Future promotion to central is possible if Haddu recurs prominently in subsequent Ugaritic translations or if cross-corpus reach into Hebrew sharpens. Named-scholarship: D. Schwemer, *Die Wettergottgestalten Mesopotamiens und Nordsyriens im Zeitalter der Keilschriftkulturen* (Wiesbaden 2001) — comprehensive Old Babylonian / Late Bronze Age storm-god treatment; Smith 1994 vol 1; Day 2000.",
+      "rationale": "Ugaritic *hd* (Haddu) is the **personal name** of the storm-deity whose cult-title is **Baʿlu** ('Lord'). At KTU 1.1-v:4, 17 Haddu appears in fragmentary narrative-context (*hd tngṯnh* 'Haddu — she meets him'). At KTU 1.4-vi:51 (*yʿdb hd* 'Hadd arranges') and KTU 1.4-vii:38 (*šnʾu hd* 'the haters of Hadd') the personal name surfaces again in the palace-completion and theophany-aftermath scenes. The cult-title vs personal-name distinction is well-documented: Baʿlu is the title-of-respect ('Lord'), Haddu is the personal-name. Cross-corpus links: Akkadian *Adad* (also written *Iškur* in Sumerian logogram) is the major Mesopotamian storm-god, attested widely from the Old Babylonian period through the Neo-Assyrian period; the cult-and-figure-type is closely parallel to Ugaritic Haddu (though Mesopotamian Adad never quite has the cult-prominence Baʿlu/Haddu has in the West-Semitic world). Hebrew Bible attestations: *Hadad* as a personal-name for Edomite kings (1 Kgs 11:14, 19, 21, 23) and in 2 Sam 8 patronymics. The Hadad-personal-name in Hebrew preserves the West-Semitic divine name in fossilized form. The Hadad-Adad-Haddu cluster is overlay-grade in the Baal Cycle context (the personal-name Haddu appears only rarely in the Cycle; Baʿlu/cult-title is much more frequent). Future promotion to central is possible if Haddu recurs prominently in subsequent Ugaritic translations or if cross-corpus reach into Hebrew sharpens. Named-scholarship: D. Schwemer, *Die Wettergottgestalten Mesopotamiens und Nordsyriens im Zeitalter der Keilschriftkulturen* (Wiesbaden 2001) — comprehensive Old Babylonian / Late Bronze Age storm-god treatment; Smith 1994 vol 1; Day 2000.",
       "appliesTo": [
         "BCY-WOH-1.1-v:4",
-        "BCY-WOH-1.1-v:17"
+        "BCY-WOH-1.1-v:17",
+        "BCY-WOH-1.4-vi:51",
+        "BCY-WOH-1.4-vii:38"
       ]
     },
     {
       "id": "triple-named-opening-lacuna-restoration-policy-baal-cycle",
-      "source": "KTU 1.1 col i (entirely destroyed); KTU 1.1 col ii (top of column lost); KTU 1.1 col iii (top of column lost); KTU 1.2 col i (opening lines fragmentary); KTU 1.2 col ii (broken away entirely); KTU 1.2 col iii (top of column lost); KTU 1.2 col iv (top fragmentary)",
+      "source": "KTU 1.1 col i (entirely destroyed); KTU 1.1 col ii (top of column lost); KTU 1.1 col iii (top of column lost); KTU 1.2 col i (opening lines fragmentary); KTU 1.2 col ii (broken away entirely); KTU 1.2 col iii (top of column lost); KTU 1.2 col iv (top fragmentary); KTU 1.3 col i (opening lines fragmentary); KTU 1.3 col ii (preceded by lost section); KTU 1.3 col iii (top of column lost); KTU 1.3 col iv (opening lines fragmentary); KTU 1.3 col v (top of column lost); KTU 1.3 col vi (top of column lost); KTU 1.4 col i (top fragmentary); KTU 1.4 col ii (top fragmentary); KTU 1.4 col iii (top of column lost); KTU 1.4 col iv (top of column lost); KTU 1.4 col v (opening lines fragmentary); KTU 1.4 col vi (opening lines fragmentary); KTU 1.4 col vii (opening lines fragmentary); KTU 1.4 col viii (opening lines fragmentary)",
       "translit": "—",
       "lemma": "—",
-      "partOfSpeech": "Editorial-apparatus convention: the convention for handling the substantial column-opening and column-entire lacunae across KTU 1.1-1.2 in the Baal Cycle translation — pre-pending each preserved-section with a `preceding_lacuna` editorial-note-paragraph that follows the Smith 1994 vol 1 / Pardee 2003 reconstructed-narrative-arc, without restoring lost-text in the surface translation itself",
+      "partOfSpeech": "Editorial-apparatus convention: the convention for handling the substantial column-opening and column-entire lacunae across KTU 1.1-1.4 in the Baal Cycle translation — pre-pending each preserved-section with a `preceding_lacuna` editorial-note-paragraph that follows the Smith 1994 vol 1 / Smith & Pitard 2009 vol 2 / Pardee 2003 reconstructed-narrative-arc, without restoring lost-text in the surface translation itself",
       "literal": "—",
-      "standardEnglish": "Smith 1994 vol 1 supplies extensive narrative-reconstruction prose for the lost sections; Pardee 2003 is more conservative; older editions (Gibson 1978; Ginsberg 1955) vary",
+      "standardEnglish": "Smith 1994 vol 1 and Smith & Pitard 2009 vol 2 supply extensive narrative-reconstruction prose for the lost sections; Pardee 2003 is more conservative; older editions (Gibson 1978; Ginsberg 1955) vary",
       "wohChoice": "the WoH translation preserves a *preceding_lacuna* prose-note for each preserved-section, summarizing the named-scholarship reconstructed narrative-arc; restorations within a preserved line (e.g. [ḥšk ʿṣk ʿbṣk ʿ]my pʿnk) follow the bracket-convention; no surface English is supplied for entire-column lacunae",
       "claim_type": "direct",
-      "rationale": "The Baal Cycle KTU 1.1-1.2 has substantial column-level lacunae: KTU 1.1 col i is entirely destroyed; KTU 1.1 col ii has its top lost; KTU 1.1 col iii has its top lost; KTU 1.2 col i has opening lines fragmentary; KTU 1.2 col ii is broken away entirely; KTU 1.2 col iii has its top lost; KTU 1.2 col iv has its top fragmentary. The Editor's convention for handling these substantial lacunae is to **pre-pend each preserved-section with a `preceding_lacuna` editorial-note-paragraph** that summarizes the named-scholarship reconstructed narrative-arc (Smith 1994 vol 1 is the primary reference, with Pardee 2003 as cross-check) **without restoring lost-text in the surface translation itself**. Restorations within preserved lines (e.g. *[ḥšk ʿṣk ʿbṣk ʿ]my pʿnk* — 'hasten, urge, speed to me, your feet —') follow the standard bracket-convention (central entry `lacuna-bracket-convention-sumerian-mesopotamian-project-standard`, extended at this pass to cover the Ugaritic refIds). The convention preserves the textual-state honestly while giving the reader the named-scholarship narrative-frame to understand the preserved fragments. The convention applies project-wide to all subsequent NW-Semitic translations with substantial column-level lacunae.",
+      "rationale": "The Baal Cycle KTU 1.1-1.4 has substantial column-level lacunae: KTU 1.1 col i is entirely destroyed; KTU 1.1 cols ii-iii have their tops lost; KTU 1.2 col ii is broken away entirely with cols i, iii, iv fragmentary at the top; KTU 1.3 cols i-vi have opening or top sections fragmentary or lost; KTU 1.4 cols i-viii have similar opening-line gaps. The Editor's convention for handling these substantial lacunae is to **pre-pend each preserved-section with a `preceding_lacuna` editorial-note-paragraph** that summarizes the named-scholarship reconstructed narrative-arc (Smith 1994 vol 1 for KTU 1.1-1.2; Smith & Pitard 2009 vol 2 for KTU 1.3-1.4; Pardee 2003 as cross-check) **without restoring lost-text in the surface translation itself**. Restorations within preserved lines (e.g. *[ḥšk ʿṣk ʿbṣk ʿ]my pʿnk* — 'hasten, urge, speed to me, your feet —') follow the standard bracket-convention (central entry `lacuna-bracket-convention-sumerian-mesopotamian-project-standard`, extended at this pass to cover the Ugaritic KTU 1.3-1.4 refIds). The convention preserves the textual-state honestly while giving the reader the named-scholarship narrative-frame to understand the preserved fragments. The convention applies project-wide to all subsequent NW-Semitic translations with substantial column-level lacunae.",
       "appliesTo": [
         "BCY-WOH-1.1-i",
         "BCY-WOH-1.1-ii",
@@ -121,7 +104,21 @@
         "BCY-WOH-1.2-i",
         "BCY-WOH-1.2-ii",
         "BCY-WOH-1.2-iii",
-        "BCY-WOH-1.2-iv"
+        "BCY-WOH-1.2-iv",
+        "BCY-WOH-1.3-i",
+        "BCY-WOH-1.3-ii",
+        "BCY-WOH-1.3-iii",
+        "BCY-WOH-1.3-iv",
+        "BCY-WOH-1.3-v",
+        "BCY-WOH-1.3-vi",
+        "BCY-WOH-1.4-i",
+        "BCY-WOH-1.4-ii",
+        "BCY-WOH-1.4-iii",
+        "BCY-WOH-1.4-iv",
+        "BCY-WOH-1.4-v",
+        "BCY-WOH-1.4-vi",
+        "BCY-WOH-1.4-vii",
+        "BCY-WOH-1.4-viii"
       ]
     },
     {
@@ -132,12 +129,82 @@
       "partOfSpeech": "Editorial-apparatus convention: the verification-pending disclosure convention for the Baal Cycle translation, the project's first Ugaritic-source text — analogous to the same convention established at the Adapa-pass for Akkadian-source",
       "literal": "—",
       "standardEnglish": "—",
-      "wohChoice": "the chapter's `translation.verificationStatus` field carries the value 'best-effort reconstruction; verification pending against KTU³ (Dietrich-Loretz-Sanmartín 2013)'; the field is preserved unchanged at this Editor pass; the lens-discipline and glossary work operate on the sense-of-line (well-attested across editions: Smith 1994 vol 1; Pardee 2003; Gibson 1978; KTU³ 2013), not on sign-level reconstruction; downstream verification-pass against KTU³ is requested",
+      "wohChoice": "the chapter's `translation.verificationStatus` field carries the value 'best-effort reconstruction; verification pending against KTU³ (Dietrich-Loretz-Sanmartín 2013)'; the field is preserved unchanged at this Editor pass; the lens-discipline and glossary work operate on the sense-of-line (well-attested across editions: Smith 1994 vol 1; Smith & Pitard 2009 vol 2; Pardee 2003; Gibson 1978; KTU³ 2013), not on sign-level reconstruction; downstream verification-pass against KTU³ is requested",
       "claim_type": "direct",
-      "rationale": "The Baal Cycle KTU 1.1-1.2 chapter under translation was produced from a best-effort reconstruction of the Ugaritic alphabetic-cuneiform text based on named scholarly editions (Smith 1994 vol 1; Pardee 2003; Gibson 1978 CML²; Ginsberg 1955 ANET; KTU³ 2013). Verification of the sign-by-sign transliteration against the modern critical edition (KTU³ Dietrich-Loretz-Sanmartín 2013) is pending. The Editor preserves the verification-pending status unchanged at this pass; the lens-discipline and glossary work operate on the **sense-of-line** (well-attested across editions for the chapter under translation), not on the sign-level reconstruction. The convention is analogous to the verification-pending disclosure convention established at the Adapa-pass for Akkadian-source. Downstream verification-pass against KTU³ is requested.",
+      "rationale": "The Baal Cycle KTU 1.1-1.4 chapters under translation were produced from a best-effort reconstruction of the Ugaritic alphabetic-cuneiform text based on named scholarly editions (Smith 1994 vol 1 for KTU 1.1-1.2; Smith & Pitard 2009 vol 2 for KTU 1.3-1.4; Pardee 2003; Gibson 1978 CML²; Ginsberg 1955 ANET; KTU³ 2013). Verification of the sign-by-sign transliteration against the modern critical edition (KTU³ Dietrich-Loretz-Sanmartín 2013) is pending. The Editor preserves the verification-pending status unchanged at this pass; the lens-discipline and glossary work operate on the **sense-of-line** (well-attested across editions for the chapter under translation), not on the sign-level reconstruction. The convention is analogous to the verification-pending disclosure convention established at the Adapa-pass for Akkadian-source. Downstream verification-pass against KTU³ is requested.",
       "appliesTo": [
         "BCY-WOH-1.1",
-        "BCY-WOH-1.2"
+        "BCY-WOH-1.2",
+        "BCY-WOH-1.3",
+        "BCY-WOH-1.4"
+      ]
+    },
+    {
+      "id": "pidrayu-tallayu-arsayu-baalu-daughters-dew-rain-earth-baal-cycle",
+      "source": "pdry bt ʾar // ṭly bt rb // ʾarṣy bt yʿbdr (Ugaritic alphabetic-cuneiform); recurring at KTU 1.3-i:22-25; KTU 1.3-iv:14-16, 43-45; KTU 1.4-i:8-10; KTU 1.4-iv:14-16; KTU 1.4-vi:16-17; KTU 1.4-vii:23-24",
+      "translit": "Pidrayu bittu ʾari // Ṭallayu bittu ribbi // ʾArṣayu bittu Yaʿbudaru",
+      "lemma": "pdry 'Pidrayu' (light/mist deity, *√pdr); ṭly 'Ṭallayu' (dew deity, *√ṭll); ʾarṣy 'ʾArṣayu' (earth/underworld deity, *√ʾrṣ)",
+      "partOfSpeech": "Ugaritic divine-name triad: the three daughters of Baʿlu — Pidrayu (Light/Mist), Ṭallayu (Dew/Showers), and ʾArṣayu (Earth) — each with a patronymic-form epithet; the standing triad recurs as a fixed Ugaritic-poetic formula throughout KTU 1.3-1.4; the triad does not survive into Hebrew Bible",
+      "literal": "Pidrayu daughter of light // Ṭallayu daughter of showers // ʾArṣayu daughter of Yaʿbudaru",
+      "standardEnglish": "Pidrayu daughter of light, Ṭallayu daughter of showers, ʾArṣayu daughter of Yaʿbudaru (Smith & Pitard 2009 vol 2; Pardee 2003; Wyatt 2002)",
+      "wohChoice": "preserve Ugaritic vocalizations Pidrayu / Ṭallayu / ʾArṣayu with their standing epithets 'daughter of light / daughter of showers / daughter of Yaʿbudaru' in surface English; the triad is a fixed Ugaritic-poetic-formulaic unit; no Hebrew Bible cognate cluster exists",
+      "claim_type": "direct",
+      "rationale": "The Ugaritic *pdry bt ʾar // ṭly bt rb // ʾarṣy bt yʿbdr* triad is one of the most-recurring fixed formulas in the Baal Cycle. The three goddesses are explicitly identified as **Baʿlu's daughters**; their cosmic-meteorological domains are encoded in their names: *pdry* (*√pdr*) — 'light, mist, brightness'; *ṭly* (*√ṭll*) — 'dew, showers' (cognate to Hebrew *ṭal* 'dew'); *ʾarṣy* (*√ʾrṣ*) — 'earth' (cognate to Hebrew *ʾereṣ* 'earth'). Each carries a fixed patronymic-form epithet: *bt ʾar* 'daughter of light', *bt rb* 'daughter of showers', *bt yʿbdr* 'daughter of Yaʿbudaru' (the third epithet's etymology is obscure; *Yaʿbudaru* may be a proper-name for a male divine figure or a place-name; Smith & Pitard 2009 vol 2 leave the lemma's etymology open). The triad is a **fixed formulaic-unit** of Ugaritic poetic-recurring composition; it appears multiple times across KTU 1.3-1.4 in identical or near-identical form. The triad does not survive into the Hebrew Bible. The overlay-grade entry status reflects the composition-specificity: future Ugaritic translations may extend the triad's appearances, but no cross-corpus reach to other corpora is yet attested. Named scholarship: **M. S. Smith and W. T. Pitard**, *The Ugaritic Baal Cycle, Volume 2* (VTSup 114, Leiden 2009); **D. Pardee**, *Ritual and Cult at Ugarit* (Atlanta 2002); **N. Wyatt**, *Religious Texts from Ugarit* (Sheffield 2002).",
+      "appliesTo": [
+        "BCY-WOH-1.3-i:22",
+        "BCY-WOH-1.3-i:23",
+        "BCY-WOH-1.3-i:24",
+        "BCY-WOH-1.3-iv:14",
+        "BCY-WOH-1.3-iv:15",
+        "BCY-WOH-1.3-iv:16",
+        "BCY-WOH-1.3-iv:43",
+        "BCY-WOH-1.3-iv:44",
+        "BCY-WOH-1.3-iv:45",
+        "BCY-WOH-1.4-i:8",
+        "BCY-WOH-1.4-i:9",
+        "BCY-WOH-1.4-i:10",
+        "BCY-WOH-1.4-iii:33",
+        "BCY-WOH-1.4-iii:34",
+        "BCY-WOH-1.4-iii:35",
+        "BCY-WOH-1.4-vi:16",
+        "BCY-WOH-1.4-vi:17",
+        "BCY-WOH-1.4-vii:23",
+        "BCY-WOH-1.4-vii:24"
+      ]
+    },
+    {
+      "id": "qadesh-amrar-athirat-attendant-overlay-baal-cycle",
+      "source": "qdš ʾaḥd ṯkb (Ugaritic alphabetic-cuneiform); KTU 1.4-iv:7-8",
+      "translit": "Qadeš ʾaḥdu ṯukba // ʾAmrar k-kabkabi lĕ-pāni",
+      "lemma": "qdš 'Qadeš' / ʾamrr 'ʾAmrar' — a binomial-form attendant deity (or two distinct attendants); proto-Semitic *√qdš 'holy', *√ʾmr 'speak'",
+      "partOfSpeech": "Ugaritic minor divinity: Qadeš-wa-ʾAmrar, the binomial-form attendant of ʾAṯirat, who saddles her mount and goes before her like a star; cross-corpus reach minimal (the lemma qdš 'holy' cognate to Hebrew qōdesh / qādôsh is generic; no specific Hebrew Bible attestation of this divine figure)",
+      "literal": "Qadeš takes the saddle; ʾAmrar (goes) like a star before her",
+      "standardEnglish": "Qadeš (-and) ʾAmrar (Smith & Pitard 2009 vol 2; Pardee 2003)",
+      "wohChoice": "preserve Ugaritic vocalizations Qadeš and ʾAmrar in surface English; the binomial-attendant-of-ʾAṯirat structural-role is glossed in commentary where the name first appears",
+      "claim_type": "direct",
+      "rationale": "The Ugaritic *qdš* + *ʾamrr* binomial appears at KTU 1.4-iv:7-8 as the attendant(s) of ʾAṯirat: *qdš ʾaḥd ṯkb // ʾamrr k-kbkb l-pnm* 'Qadeš takes the saddle; ʾAmrar (goes) like a star before her'. Smith & Pitard 2009 vol 2 read *qdš-wa-ʾamrr* as either a single binomial-deity (parallel to the divine-craftsman binomial Kothar-wa-Khasis) or as two distinct attendant-divinities; the textual evidence is mixed. The figure is composition-specific to the Baal Cycle and lacks attested cross-corpus reach (the lemma *qdš* 'holy' is generic NW-Semitic; the specific divine-name binomial of Qadeš-wa-ʾAmrar has no Hebrew Bible attestation). The overlay-grade entry status reflects the composition-specificity. Named scholarship: **M. S. Smith and W. T. Pitard**, *The Ugaritic Baal Cycle, Volume 2* (VTSup 114, Leiden 2009); **D. Pardee**, *'The Baʿlu Myth (1.86)'* in CoS 1 (Leiden 2003), pp. 241-274.",
+      "appliesTo": [
+        "BCY-WOH-1.4-iv:7",
+        "BCY-WOH-1.4-iv:8"
+      ]
+    },
+    {
+      "id": "thousand-acres-ten-thousand-hectares-pilgrimage-formula-baal-cycle-overlay",
+      "source": "b ʾalp šd rbt kmn (Ugaritic alphabetic-cuneiform); recurring at KTU 1.3-iv:5; KTU 1.3-vi:15; KTU 1.4-v:24; KTU 1.4-viii:17-18",
+      "translit": "bi-ʾalpi šaddi rabbati kummāni",
+      "lemma": "ʾalp 'thousand' + šd 'acre/field' // rbt 'myriad/ten-thousand' + kmn 'hectare/cubit-measure'",
+      "partOfSpeech": "Ugaritic formulaic pilgrimage-distance phrase: 'through a thousand acres, ten thousand hectares' — the standing Ugaritic-poetic doubling for cosmic-pilgrimage-distance; deployed when a deity travels across a vast distance to meet another deity or to reach the cosmic-mountain",
+      "literal": "through a thousand acres, ten thousand hectares — the cosmic-distance pilgrimage marker",
+      "standardEnglish": "a thousand acres, ten thousand hectares (Smith & Pitard 2009 vol 2; Pardee 2003)",
+      "wohChoice": "preserve the literal numerical-doubling 'a thousand acres, ten thousand hectares' in surface English; the formula's compositional function (cosmic-distance pilgrimage marker) is glossed in commentary where it first appears",
+      "claim_type": "direct",
+      "rationale": "The Ugaritic formula *b ʾalp šd rbt kmn* 'through a thousand acres, ten thousand hectares' is a standing compositional pilgrimage-distance phrase in the Baal Cycle. It appears at KTU 1.3-iv:5 (ʿAnatu's travel to Baʿlu on Ṣapunu); KTU 1.3-vi:15 (the messengers' travel to Kothar at Memphis-Kaphtor); KTU 1.4-v:24 (ʿAnatu's travel to Baʿlu after ʾIlu's grant); KTU 1.4-viii:17-18 (the messengers' travel to Môtu in the underworld). The formula encodes the **vast cosmic-distance** between the abodes of the deities, marking the pilgrimage-scene as a major cosmographic-narrative transition. The Ugaritic numerical-pair *ʾalp* (1000) + *rbt* (10000) follows the standard Northwest-Semitic poetic-doubling pattern (*šbʿ-šmnh* '7-8'; *ʾalp-rbt* '1000-10000'; cf. Hebrew *ʾelef-rĕvāvāh*). The compositional-feature is composition-specific to the Baal Cycle (and possibly to wider Ugaritic narrative-poetic conventions); cross-corpus reach is minimal. The overlay-grade entry status reflects the composition-specificity. Named scholarship: **M. S. Smith and W. T. Pitard**, *The Ugaritic Baal Cycle, Volume 2* (VTSup 114, Leiden 2009); **D. Pardee**, *'The Baʿlu Myth (1.86)'* in CoS 1 (Leiden 2003).",
+      "appliesTo": [
+        "BCY-WOH-1.3-iv:5",
+        "BCY-WOH-1.3-vi:15",
+        "BCY-WOH-1.4-v:24",
+        "BCY-WOH-1.4-viii:17",
+        "BCY-WOH-1.4-viii:18"
       ]
     }
   ]

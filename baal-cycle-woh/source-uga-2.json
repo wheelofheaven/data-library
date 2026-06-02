@@ -1,0 +1,4617 @@
+{
+  "schemaVersion": 2,
+  "bookSlug": "baal-cycle-woh",
+  "composition": 2,
+  "source": {
+    "type": "ugaritic-alphabetic-cuneiform-best-effort-reconstruction",
+    "ktu_ids": [
+      "KTU 1.3",
+      "KTU 1.4"
+    ],
+    "ras_shamra_findspot": "Royal Palace of Ugarit, House of the High Priest (1929-1931 Schaeffer excavations)",
+    "approximate_date": "Late Bronze Age, 14th-13th c. BCE; scribal period of Ilimilku son of ʿAttenu",
+    "versionTitle": "Best-effort reconstruction from named scholarly editions",
+    "license": "Reconstruction; transliteration based on scholarly editions cited as references (Smith & Pitard 2009 Vol 2, Pardee 2003, KTU³ 2013, Gibson 1978 PD); English content original to this project.",
+    "versionSource": "Smith & Pitard 2009 Vol 2 (the definitive scholarly edition of KTU 1.3-1.4) + Pardee 2003 + KTU³ 2013 + older PD editions; verification pending against KTU³",
+    "verificationStatus": "best-effort reconstruction; verification pending against KTU³ (Dietrich-Loretz-Sanmartín 2013)",
+    "fetchedFrom": "Multiple scholarly editions (see citation)",
+    "fetchedAt": "2026-06-02",
+    "citation": "Smith, M. S., and Pitard, W. T., The Ugaritic Baal Cycle, Volume 2: Introduction with Text, Translation and Commentary of KTU 1.3-1.4 (VTSup 114, Leiden 2009) — THE definitive scholarly edition for KTU 1.3-1.4; Pardee, D., 'The Baʿlu Myth (1.86)' in W. W. Hallo (ed.), The Context of Scripture, Vol. 1 (Leiden 2003), pp. 241-274; Dietrich, M., Loretz, O., and Sanmartín, J., Die keilalphabetischen Texte aus Ugarit, Ras Ibn Hani und anderen Orten (KTU³ / AOAT 360/1, Münster 2013); Gibson, J. C. L., Canaanite Myths and Legends, 2nd ed. (Edinburgh 1978); Ginsberg, H. L., 'Poems about Baal and Anath' in J. B. Pritchard (ed.), Ancient Near Eastern Texts Relating to the Old Testament (Princeton 1955), pp. 129-142; Hurowitz, V., I Have Built You an Exalted House: Temple Building in the Bible in Light of Mesopotamian and Northwest Semitic Writings (JSOTSup 115, Sheffield 1992); Day, J., Yahweh and the Gods and Goddesses of Canaan (JSOTSup 265, Sheffield 2000); Walls, N. H., The Goddess Anat in Ugaritic Myth (SBLDS 135, Atlanta 1992).",
+    "fragmentationNote": "KTU 1.3 + 1.4 are the best-preserved tablets of the Baal Cycle. KTU 1.3: 6 columns, approximately 245 preserved lines with scattered lacunae (heavier damage at col i bottom and col vi). KTU 1.4: 8 columns, approximately 410 preserved lines — the most substantial single tablet of the Cycle and source of the major palace-building, window-debate, and theophany passages. Lacunae marked per project lacuna-bracket convention: [...] = total lacuna; [text] = restored from parallels; <text> = editorial addition; {text} = editorial deletion.",
+    "scriptNote": "Ugaritic alphabetic cuneiform — 30 letters + word divider, 1:1 transliteration-to-Unicode mapping. Strict KTU transliteration: every alef explicitly marked as ʾa/ʾi/ʾu. Cuneiform output in this file was produced mechanically by the project's translit_to_ugaritic.py helper from each line's transliteration — not hand-authored. The ' . ' word-separator in standard KTU transliteration is converted to the Ugaritic word divider 𐎟 (U+1039F) between cuneiform tokens."
+  },
+  "segments": [
+    {
+      "segmentId": "1.3-i",
+      "ktu": "KTU 1.3 col i",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.3 col i opens after the resolution of the Yammu conflict. The column's first lines are damaged; preserved text shows a banquet at Baʿlu's residence with the cup-bearer attending him. The famous 'mighty Baʿlu' banquet-scene introduces the palace-building arc.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.3-i:2",
+          "translit": "[...] mḥmd . ḫrṣ",
+          "cuneiform": "[𐎟]𐎟𐎎𐎈𐎎𐎄𐎟𐎃𐎗𐎕",
+          "notes": "'…the desire of gold(?).' mḥmd 'desire, precious thing' (cf. Hebrew maḥmād Lam 2:4); ḫrṣ 'gold' — banquet luxury-vocabulary."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.3-i:3",
+          "translit": "yšt . [...] yn . ḥsp . b ks",
+          "cuneiform": "𐎊𐎌𐎚𐎟[𐎟]𐎟𐎊𐎐𐎟𐎈𐎒𐎔𐎟𐎁𐎟𐎋𐎒",
+          "notes": "'He set [out] wine drawn-by-hand into the cup.' yšt = G-yqtl of šty 'set / pour'; ḥsp 'drawn off, ladled' (cf. Hebrew ḥāśap); ks 'cup' — the cup-bearer's act."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.3-i:4",
+          "translit": "[...] b krpn . dm . ʿṣm",
+          "cuneiform": "[𐎟]𐎟𐎁𐎟𐎋𐎗𐎔𐎐𐎟𐎄𐎎𐎟𐎓𐎕𐎎",
+          "notes": "'…into the krpn-bowl, blood (= wine) of trees.' krpn = large drinking-vessel; dm ʿṣm 'blood of trees' = wine, the standard kenning (cf. Deut 32:14 dam ʿēnāb 'blood of the grape')."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.3-i:5",
+          "translit": "qm . yṯʿr . w yšlḥmnh",
+          "cuneiform": "𐎖𐎎𐎟𐎊𐎘𐎓𐎗𐎟𐎆𐎟𐎊𐎌𐎍𐎈𐎎𐎐𐎅",
+          "notes": "'He arose, he prepared (table) and served him food.' qm 'arise'; yṯʿr 'he arranges, prepares' (D-yqtl); yšlḥmnh 'he feeds him' (Š-yqtl of lḥm 'to eat'). The cup-bearer's serving sequence."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.3-i:6",
+          "translit": "ybrd . ṯd . l pnwh",
+          "cuneiform": "𐎊𐎁𐎗𐎄𐎟𐎘𐎄𐎟𐎍𐎟𐎔𐎐𐎆𐎅",
+          "notes": "'He cut a (slice of) breast before him.' ybrd 'he carves' (G-yqtl of brd); ṯd 'breast, joint' (cf. Hebrew šād 'breast'); l pnwh 'before him.' Banquet meat-portion."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.3-i:7",
+          "translit": "b ḥrb . mlḥt . qṣ . mrʾi",
+          "cuneiform": "𐎁𐎟𐎈𐎗𐎁𐎟𐎎𐎍𐎈𐎚𐎟𐎖𐎕𐎟𐎎𐎗𐎛",
+          "notes": "'With a knife salted, a portion of fatling.' ḥrb mlḥt 'salted knife' = ritual carving-blade; mrʾi 'fatling, fattened animal' (cf. Hebrew mĕrîʾ; cf. Amos 5:22). The cultic-feast vocabulary."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.3-i:8",
+          "translit": "ndd . yʿšr . w yšqynh",
+          "cuneiform": "𐎐𐎄𐎄𐎟𐎊𐎓𐎌𐎗𐎟𐎆𐎟𐎊𐎌𐎖𐎊𐎐𐎅",
+          "notes": "'He stood, he served (drink) and gave him drink.' ndd 'stood, took post'; yʿšr 'he made (the table) abundant' (D-yqtl of ʿšr); yšqynh 'he gave him to drink' (Š-yqtl of šqy). Cf. Hebrew šāqâ 'give drink' (Gen 24:18)."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.3-i:9",
+          "translit": "ytn . ks . b dh",
+          "cuneiform": "𐎊𐎚𐎐𐎟𐎋𐎒𐎟𐎁𐎟𐎄𐎅",
+          "notes": "'He placed a cup in his hand.' bd-h = 'in his hand' (b + yd + 3ms suffix; with assimilation bd). Standard cup-handling formula."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.3-i:10",
+          "translit": "krpn . b klʾat ydh",
+          "cuneiform": "𐎋𐎗𐎔𐎐𐎟𐎁𐎟𐎋𐎍𐎀𐎚𐎟𐎊𐎄𐎅",
+          "notes": "'A krpn-bowl in both his hands.' klʾat ydh 'his two hands' — dual-handed grasping of a great cup; characteristic of divine drinking scenes."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.3-i:11",
+          "translit": "bk rb . ʿẓm . rʾidn",
+          "cuneiform": "𐎁𐎋𐎟𐎗𐎁𐎟𐎓𐎑𐎎𐎟𐎗𐎛𐎄𐎐",
+          "notes": "'A great vessel mighty, RʾIDN(?).' bk rb 'a great vessel'; ʿẓm 'mighty, massive'; rʾidn uncertain — possibly a vessel-type name."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.3-i:12",
+          "translit": "mt . šmm . ks . qdš",
+          "cuneiform": "𐎎𐎚𐎟𐎌𐎎𐎎𐎟𐎋𐎒𐎟𐎖𐎄𐎌",
+          "notes": "'…a vessel of the heavens, a holy cup.' mt here a measure-vessel; šmm 'heavens'; ks qdš 'holy cup' — the sanctified drinking-vessel."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.3-i:13",
+          "translit": "l tphnh . ʾaṯt",
+          "cuneiform": "𐎍𐎟𐎚𐎔𐎅𐎐𐎅𐎟𐎀𐎘𐎚",
+          "notes": "'…no woman shall behold it.' l tphnh 'she shall not see it' (G-yqtl 3fs negative + 3ms suffix; cf. Hebrew pānâ); ʾaṯt 'woman, wife.' The famous gender-restricted cup-line (Smith & Pitard 2009 Vol 2 pp. 100-104)."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.3-i:14",
+          "translit": "krpn . l tʿn . ʾaṯrt",
+          "cuneiform": "𐎋𐎗𐎔𐎐𐎟𐎍𐎟𐎚𐎓𐎐𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'…the krpn-bowl ʾAṯiratu shall not see.' Even ʾAṯiratu (the mother of the gods) is excluded from beholding the holy cup. Cf. Smith-Pitard 2009 vol 2 on the all-male divine banquet."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.3-i:15",
+          "translit": "ʾalp . kd . yqḥ . b ḫmr",
+          "cuneiform": "𐎀𐎍𐎔𐎟𐎋𐎄𐎟𐎊𐎖𐎈𐎟𐎁𐎟𐎃𐎎𐎗",
+          "notes": "'A thousand jars he takes in (his) mixture.' ʾalp kd 'a thousand jars (of wine)'; ḫmr 'wine, fermented mixture' (cf. Hebrew ḥemer)."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.3-i:16",
+          "translit": "rbt . ymsk . b mskh",
+          "cuneiform": "𐎗𐎁𐎚𐎟𐎊𐎎𐎒𐎋𐎟𐎁𐎟𐎎𐎒𐎋𐎅",
+          "notes": "'Ten thousand he mixes in his mixing.' rbt 'ten thousand'; ymsk = G-yqtl of msk 'to mix' (cf. Hebrew māsak; Isa 19:14). The thousand // ten-thousand pair-formula in banquet context."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.3-i:17",
+          "translit": "qm . ybd . w yšr",
+          "cuneiform": "𐎖𐎎𐎟𐎊𐎁𐎄𐎟𐎆𐎟𐎊𐎌𐎗",
+          "notes": "'He arose, he sang and chanted.' ybd = D-yqtl of bdy 'to sing, intone'; yšr = G-yqtl of šyr (cf. Hebrew šîr 'to sing'). The post-meal song-performance."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.3-i:18",
+          "translit": "mṣltm . b yd . nʿm",
+          "cuneiform": "𐎎𐎕𐎍𐎚𐎎𐎟𐎁𐎟𐎊𐎄𐎟𐎐𐎓𐎎",
+          "notes": "'…cymbals in the hand of the Sweet One.' mṣltm 'cymbals' (cf. Hebrew mĕṣiltayim 1 Chr 13:8 — pair-form 'two cymbals'); nʿm 'pleasant/sweet one' — a divine epithet, possibly of the singer-deity. STRONG CROSS-CORPUS: the cymbal-pair is part of the same musical lexicon as Ps 150."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.3-i:19",
+          "translit": "yšr . ġzr . ṭb . ql",
+          "cuneiform": "𐎊𐎌𐎗𐎟𐎙𐎇𐎗𐎟𐎉𐎁𐎟𐎖𐎍",
+          "notes": "'…the hero, sweet of voice, sang.' ġzr 'hero, warrior'; ṭb ql 'good of voice, sweet-voiced.' The hero-as-singer image."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.3-i:20",
+          "translit": "ʿl . bʿl . b ṣrrt . ṣpn",
+          "cuneiform": "𐎓𐎍𐎟𐎁𐎓𐎍𐎟𐎁𐎟𐎕𐎗𐎗𐎚𐎟𐎕𐎔𐎐",
+          "notes": "'…before Baʿlu on the heights of Ṣapunu.' ʿl bʿl 'before Baʿlu'; ṣrrt ṣpn 'heights / peaks of Ṣapunu' (Baʿlu's mountain-abode, modern Jebel al-Aqraʿ; cf. Ps 48:3 yarkĕtê ṣāpôn 'recesses of the north')."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.3-i:21",
+          "translit": "ytmr . bʿl . bnth",
+          "cuneiform": "𐎊𐎚𐎎𐎗𐎟𐎁𐎓𐎍𐎟𐎁𐎐𐎚𐎅",
+          "notes": "'Baʿlu beheld his daughters.' ytmr 'he sees, beholds' (Gt-yqtl of mr/ʾmr; or a denominative); bnt 'daughters' — Baʿlu's three daughters Pidray, Ṭallay, Arṣay (introduced below)."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.3-i:22",
+          "translit": "yʿn . pdry . bt . ʾar",
+          "cuneiform": "𐎊𐎓𐎐𐎟𐎔𐎄𐎗𐎊𐎟𐎁𐎚𐎟𐎀𐎗",
+          "notes": "'He saw Pidrayu daughter of light.' pdry 'Pidray' (the first daughter); bt ʾar 'daughter of light/luminous-one' = her epithet. Cf. KTU 1.3 III 7."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.3-i:23",
+          "translit": "ʾapn . ṭly . bt . rb",
+          "cuneiform": "𐎀𐎔𐎐𐎟𐎉𐎍𐎊𐎟𐎁𐎚𐎟𐎗𐎁",
+          "notes": "'Then Ṭallayu daughter of showers.' ʾapn 'then, indeed'; ṭly 'Ṭallay' (the second daughter — 'Dewy-One,' from ṭl 'dew'); bt rb 'daughter of the abundant-rain / showers' (cf. Hebrew rĕbîbîm 'showers' Ps 65:11)."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.3-i:24",
+          "translit": "[...] yd . pdr . yd",
+          "cuneiform": "[𐎟]𐎟𐎊𐎄𐎟𐎔𐎄𐎗𐎟𐎊𐎄",
+          "notes": "'…the hand of Pidru, the hand of…' Severely fragmentary; pdr is a related deity-name."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.3-i:25",
+          "translit": "[...] ʿrpt",
+          "cuneiform": "[𐎟]𐎟𐎓𐎗𐎔𐎚",
+          "notes": "'…clouds(?).' ʿrpt 'clouds' (cf. Hebrew ʿărāpel 'thick cloud'); Baʿlu's storm-attribute."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.3-ii",
+      "ktu": "KTU 1.3 col ii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.3 col ii: the column opens with ʿAnatu, the warrior consort-goddess, beginning her cosmic battle. The lines that follow contain the most explicit female-warrior-deity passage in the entire Northwest-Semitic corpus (Smith & Pitard 2009 vol 2 pp. 138-176; Day 2000 pp. 132-150). MAJOR LENS-RISK SITE — the warrior-goddess imagery and the wading-through-blood motif have generated extensive comparative scholarship.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.3-ii:3",
+          "translit": "tġr . ʿnt . pdr [...]",
+          "cuneiform": "𐎚𐎙𐎗𐎟𐎓𐎐𐎚𐎟𐎔𐎄𐎗𐎟[𐎟]",
+          "notes": "'ʿAnatu shuts(?) the gate of P[idr]…' tġr 'she shuts, secures' (G-yqtl 3fs of ġr; cf. Hebrew sāgar). The battle-preparation."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.3-ii:4",
+          "translit": "tmtḫṣ . b ʿmq",
+          "cuneiform": "𐎚𐎎𐎚𐎃𐎕𐎟𐎁𐎟𐎓𐎎𐎖",
+          "notes": "'She does battle in the valley.' tmtḫṣ = Gt-yqtl 3fs of mḫṣ 'to smite' (the same root as Yammu's defeat); b ʿmq 'in the valley' (cf. Hebrew ʿēmeq Josh 7:24). The cosmic-valley as battlefield."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.3-ii:5",
+          "translit": "tḫtṣb . bn . qrytm",
+          "cuneiform": "𐎚𐎃𐎚𐎕𐎁𐎟𐎁𐎐𐎟𐎖𐎗𐎊𐎚𐎎",
+          "notes": "'She contends between two cities.' tḫtṣb = Gt-yqtl 3fs of ḫṣb (cf. Akk. ḫaṣābu; Hebrew ḥṣb 'to hew, contend'); bn qrytm 'between two towns.' Urban-warfare imagery."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.3-ii:6",
+          "translit": "tmḫṣ . lʾim . ḫp ym",
+          "cuneiform": "𐎚𐎎𐎃𐎕𐎟𐎍𐎛𐎎𐎟𐎃𐎔𐎟𐎊𐎎",
+          "notes": "'She smites the people of the seashore.' lʾim 'peoples, multitudes'; ḫp ym 'shore of the sea' (cf. Hebrew ḥôp yām Gen 49:13). The coastal massacre."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.3-ii:7",
+          "translit": "tṣmt . ʾadm . ṣʾat . špš",
+          "cuneiform": "𐎚𐎕𐎎𐎚𐎟𐎀𐎄𐎎𐎟𐎕𐎀𐎚𐎟𐎌𐎔𐎌",
+          "notes": "'She annihilates the humans of the rising of the sun.' tṣmt 'she destroys' (G-yqtl 3fs of ṣmt; cf. Hebrew ṣmt Lev 25:23); ʾadm 'humans, mortals' (cf. Hebrew ʾādām); ṣʾat špš 'going-out / rising of the sun' = east. The east-to-west sweep."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.3-ii:8",
+          "translit": "tḥt . h . k kdrt . ryš",
+          "cuneiform": "𐎚𐎈𐎚𐎟𐎅𐎟𐎋𐎟𐎋𐎄𐎗𐎚𐎟𐎗𐎊𐎌",
+          "notes": "'Beneath her like balls (are) heads.' tḥt h 'beneath her'; kdrt 'balls, spheres' (cf. Akk. kudurru); ryš 'heads' (cf. Hebrew rōʾš). The heads-as-bowling-balls image — a signature ʿAnat-battle motif."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.3-ii:9",
+          "translit": "ʿlh . k ʾirbym . kp",
+          "cuneiform": "𐎓𐎍𐎅𐎟𐎋𐎟𐎛𐎗𐎁𐎊𐎎𐎟𐎋𐎔",
+          "notes": "'Above her like locusts (are) hands.' ʿlh 'above her'; ʾirbym 'locusts' (cf. Hebrew ʾarbeh Joel 1:4); kp 'hands, palms.' Dismembered hands swarming like locusts in flight."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.3-ii:10",
+          "translit": "k qṣm . ġrmn . kp . mhr",
+          "cuneiform": "𐎋𐎟𐎖𐎕𐎎𐎟𐎙𐎗𐎎𐎐𐎟𐎋𐎔𐎟𐎎𐎅𐎗",
+          "notes": "'Like reapers (heaping) sheaves, (are) the hands of soldiers.' qṣm 'reapers' (cf. Hebrew qōṣĕrîm); ġrmn 'heaps of grain, sheaves' (cf. Hebrew gārmâ); mhr 'soldier, warrior.' The harvest-as-battle simile."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.3-ii:11",
+          "translit": "ʿtkt . rʾišt . l bmth",
+          "cuneiform": "𐎓𐎚𐎋𐎚𐎟𐎗𐎛𐎌𐎚𐎟𐎍𐎟𐎁𐎎𐎚𐎅",
+          "notes": "'She ties heads to her back.' ʿtkt 'she binds, ties' (G-pf 3fs of ʿtk); rʾišt 'heads' (pl); bmt 'back, high-place' (cf. Hebrew bāmâ — both 'back' and 'high-place'). ʿAnatu wears severed heads as a trophy-belt."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.3-ii:12",
+          "translit": "šnst . kpt . b ḥbšh",
+          "cuneiform": "𐎌𐎐𐎒𐎚𐎟𐎋𐎔𐎚𐎟𐎁𐎟𐎈𐎁𐎌𐎅",
+          "notes": "'She fastens hands at her belt.' šnst 'she binds tight' (Š-pf 3fs); kpt 'hands' (pl of kp); ḥbš 'belt, girdle' (cf. Hebrew ḥĕbeš)."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.3-ii:13",
+          "translit": "tġll . b dm . ḏmr",
+          "cuneiform": "𐎚𐎙𐎍𐎍𐎟𐎁𐎟𐎄𐎎𐎟𐎏𐎎𐎗",
+          "notes": "**THE FAMOUS LINE — ʿAnat wades**: 'She plunges (knee-deep) into the blood of warriors.' tġll = G-yqtl 3fs of ġll 'to immerse, sink into' (cf. Hebrew gll); dm 'blood'; ḏmr 'warriors, soldiers' (cf. Hebrew zĕmîrôt 'songs' but here zmr = 'guard, warrior,' cf. Exod 15:2 ʿozzî wĕzimrāt yāh). Most explicit female-warrior-deity passage in NWS corpus (Smith-Pitard 2009 vol 2 pp. 161-164). LENS-RISK SITE."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.3-ii:14",
+          "translit": "ḫlqm . b mmʿ . mhrm",
+          "cuneiform": "𐎃𐎍𐎖𐎎𐎟𐎁𐎟𐎎𐎎𐎓𐎟𐎎𐎅𐎗𐎎",
+          "notes": "**THE FAMOUS LINE (continued)**: 'Up to the throat in the gore of soldiers.' ḫlqm 'up to the neck/throat' (cf. Akk. ḫalqu; Hebrew ḥōq 'neck'); mmʿ 'gore, entrails' (cf. Hebrew mēʿîm 'entrails' Gen 25:23). The wading-through-blood image. Cf. Isa 63:1-6 for the closest Hebrew Bible parallel (Yahweh's bloody robes in Edom)."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.3-ii:15",
+          "translit": "ʿd . tšbʿ . tmtḫṣ . b bt",
+          "cuneiform": "𐎓𐎄𐎟𐎚𐎌𐎁𐎓𐎟𐎚𐎎𐎚𐎃𐎕𐎟𐎁𐎟𐎁𐎚",
+          "notes": "'Until she is sated, she does battle in (her) house.' ʿd tšbʿ 'until she is satisfied' (cf. Hebrew śābaʿ 'be sated'); tmtḫṣ 'she battles' (Gt-yqtl 3fs); b bt 'in the house' — the battle moves into ʿAnatu's hall."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.3-ii:16",
+          "translit": "tḫtṣb . bn . ṯlḥnm",
+          "cuneiform": "𐎚𐎃𐎚𐎕𐎁𐎟𐎁𐎐𐎟𐎘𐎍𐎈𐎐𐎎",
+          "notes": "'She contends between two tables.' bn ṯlḥnm 'between two tables' (cf. Hebrew šulḥān). The transition from external battle to the indoor banquet-as-battle."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.3-ii:17",
+          "translit": "ymḫ . l ṯlḥnm . mhr",
+          "cuneiform": "𐎊𐎎𐎃𐎟𐎍𐎟𐎘𐎍𐎈𐎐𐎎𐎟𐎎𐎅𐎗",
+          "notes": "'(The blood of) soldier(s) is wiped from the tables(?).' ymḫ 'is wiped clean' (G-yqtl 3ms passive of mḥy; cf. Hebrew māḥâ 'to wipe out'). Domestic-battle clean-up."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.3-ii:18",
+          "translit": "yhpk . ksʾat . l mhr",
+          "cuneiform": "𐎊𐎅𐎔𐎋𐎟𐎋𐎒𐎀𐎚𐎟𐎍𐎟𐎎𐎅𐎗",
+          "notes": "'The thrones are overturned to (= become) soldiers.' yhpk 'is overturned' (G-yqtl 3ms of hpk; cf. Hebrew hāpak Gen 19:25); ksʾat 'thrones, seats.' The furniture-as-warriors image — the room itself fights."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.3-ii:19",
+          "translit": "ṯpṯ . ksʾi . hdmm . l hkl",
+          "cuneiform": "𐎘𐎔𐎘𐎟𐎋𐎒𐎛𐎟𐎅𐎄𐎎𐎎𐎟𐎍𐎟𐎅𐎋𐎍",
+          "notes": "'Footstools (are turned) to thrones, the throne-rooms to halls(?).' ṯpṯ 'footstool, judgment-seat'; hdm 'footstool' (cf. Hebrew hădōm Ps 110:1); hkl 'temple, palace' (cf. Hebrew hêkāl)."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.3-ii:20",
+          "translit": "mʾid . tmtḫṣn . w tʿn",
+          "cuneiform": "𐎎𐎛𐎄𐎟𐎚𐎎𐎚𐎃𐎕𐎐𐎟𐎆𐎟𐎚𐎓𐎐",
+          "notes": "'Greatly she battles, and she beholds…'. mʾid 'very, greatly' (cf. Hebrew mĕʾōd); tmtḫṣn 'she battles' (Gt-yqtl 3fs with n-ending)."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.3-ii:21",
+          "translit": "tḫtṣb . w tḥdy . ʿnt",
+          "cuneiform": "𐎚𐎃𐎚𐎕𐎁𐎟𐎆𐎟𐎚𐎈𐎄𐎊𐎟𐎓𐎐𐎚",
+          "notes": "'She contends, and ʿAnat exults.' tḥdy 'she rejoices' (G-yqtl 3fs of ḥdy; cf. Hebrew ḥādâ 'to rejoice'). The post-battle exultation."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.3-ii:22",
+          "translit": "tġdd . kbdh . b ṣḥq",
+          "cuneiform": "𐎚𐎙𐎄𐎄𐎟𐎋𐎁𐎄𐎅𐎟𐎁𐎟𐎕𐎈𐎖",
+          "notes": "'Her liver(/heart) swells with laughter.' tġdd 'it swells, expands' (G-yqtl 3fs of gdd; cf. Hebrew gādal); kbdh 'her liver' = her inward seat of emotion (cf. Hebrew kābēd as emotive-organ Prov 7:23); ṣḥq 'laughter' (cf. Hebrew ṣĕḥōq Gen 21:6). The visceral-joy formula."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.3-ii:23",
+          "translit": "ymlʾu . lbh . b šmḫt",
+          "cuneiform": "𐎊𐎎𐎍𐎜𐎟𐎍𐎁𐎅𐎟𐎁𐎟𐎌𐎎𐎃𐎚",
+          "notes": "'Her heart is filled with gladness.' ymlʾu 'it is filled' (G-yqtl 3ms passive of mlʾ); lb 'heart' (cf. Hebrew lēb); šmḫt 'gladness, joy' (cf. Hebrew śimḥâ). The internal-rejoicing formula — the post-battle exuberance."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.3-ii:24",
+          "translit": "kbd . ʿnt . tšyt",
+          "cuneiform": "𐎋𐎁𐎄𐎟𐎓𐎐𐎚𐎟𐎚𐎌𐎊𐎚",
+          "notes": "'The liver of ʿAnatu (is in) triumph.' tšyt 'success, triumph' (cf. Hebrew tûšiyyâ Prov 8:14)."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.3-ii:25",
+          "translit": "tġl . t bdm . ʿpr",
+          "cuneiform": "𐎚𐎙𐎍𐎟𐎚𐎟𐎁𐎄𐎎𐎟𐎓𐎔𐎗",
+          "notes": "'She plunges her hands in dust(?).' tġl  uncertain; bdm 'hands'; ʿpr 'dust' — ritual cleansing/marking-with-dust after the slaughter."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.3-ii:26",
+          "translit": "tšt . šnt . b ʿpr",
+          "cuneiform": "𐎚𐎌𐎚𐎟𐎌𐎐𐎚𐎟𐎁𐎟𐎓𐎔𐎗",
+          "notes": "'She places (her) tooth(?) in the dust.' Cleansing-after-battle imagery; the body returning to a state of peace."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.3-ii:27",
+          "translit": "ʾalp . ḫrṣ . šbʿ . y bn",
+          "cuneiform": "𐎀𐎍𐎔𐎟𐎃𐎗𐎕𐎟𐎌𐎁𐎓𐎟𐎊𐎟𐎁𐎐",
+          "notes": "'A thousand of gold, seven of … sons(?).' Numerical pair, lost context."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.3-ii:28",
+          "translit": "tgly . trḥṣ . y dh",
+          "cuneiform": "𐎚𐎂𐎍𐎊𐎟𐎚𐎗𐎈𐎕𐎟𐎊𐎟𐎄𐎅",
+          "notes": "'She uncovers, she washes her hand.' tgly 'she uncovers, reveals' (G-yqtl 3fs of gly); trḥṣ 'she washes' (G-yqtl 3fs of rḥṣ; cf. Hebrew rāḥaṣ). The ritual-cleansing post-battle."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.3-ii:29",
+          "translit": "btlt . ʿnt . ʾuṣbʿth",
+          "cuneiform": "𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚𐎟𐎜𐎕𐎁𐎓𐎚𐎅",
+          "notes": "'…the Maiden ʿAnatu, her fingers…' btlt ʿnt 'Maiden ʿAnatu' = ʿAnatu's standard epithet (cf. Hebrew bĕtûlâ 'maiden'); ʾuṣbʿt 'fingers' (cf. Hebrew ʾeṣbaʿ)."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.3-ii:30",
+          "translit": "ybmt . lʾimm",
+          "cuneiform": "𐎊𐎁𐎎𐎚𐎟𐎍𐎛𐎎𐎎",
+          "notes": "'…the Sister-in-law of nations.' ybmt lʾimm 'sister-in-law / progenitress of peoples' = ʿAnatu's epithet (cf. Hebrew yĕbāmâ Deut 25:7-10; in Ugaritic context 'kinswoman of the peoples'). Translation contested."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.3-ii:31",
+          "translit": "trḥṣ . ydh . btlt . [ʿnt]",
+          "cuneiform": "𐎚𐎗𐎈𐎕𐎟𐎊𐎄𐎅𐎟𐎁𐎚𐎍𐎚𐎟[𐎓𐎐𐎚]",
+          "notes": "'The Maiden ʿAnatu washes her hand…' Repetition of the washing-formula."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.3-ii:32",
+          "translit": "[ʾuṣbʿt]h . ybmt . lʾimm",
+          "cuneiform": "[𐎜𐎕𐎁𐎓𐎚]𐎅𐎟𐎊𐎁𐎎𐎚𐎟𐎍𐎛𐎎𐎎",
+          "notes": "'…[her finger]s, (she) the Sister-in-law of nations.' Parallelism with line 30."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.3-ii:33",
+          "translit": "[trḥṣ . ydh] b dm . ḏmr",
+          "cuneiform": "[𐎚𐎗𐎈𐎕𐎟𐎊𐎄𐎅]𐎟𐎁𐎟𐎄𐎎𐎟𐎏𐎎𐎗",
+          "notes": "'[She washes her hand] in the blood of warriors.' The blood here is BOTH the substance of her battle AND her washing-water — the paradoxical purification-by-blood (cf. Smith-Pitard 2009 vol 2 pp. 168-170)."
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.3-ii:34",
+          "translit": "[ʾuṣbʿth . b mmʿ] mhrm",
+          "cuneiform": "[𐎜𐎕𐎁𐎓𐎚𐎅𐎟𐎁𐎟𐎎𐎎𐎓]𐎟𐎎𐎅𐎗𐎎",
+          "notes": "'[Her fingers in the gore of] soldiers.' Restored parallel."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.3-ii:35",
+          "translit": "[...] ksʾat . l mhr",
+          "cuneiform": "[𐎟]𐎟𐎋𐎒𐎀𐎚𐎟𐎍𐎟𐎎𐎅𐎗",
+          "notes": "'…thrones to soldiers.' Likely a return-formula or transition."
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.3-ii:36",
+          "translit": "[...] ṯlḥnt . l ṣbʾim",
+          "cuneiform": "[𐎟]𐎟𐎘𐎍𐎈𐎐𐎚𐎟𐎍𐎟𐎕𐎁𐎛𐎎",
+          "notes": "'…tables to armies.' ṯlḥnt 'tables' (pl); ṣbʾim 'armies, hosts' (cf. Hebrew ṣĕbāʾôt 'hosts')."
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.3-ii:37",
+          "translit": "[...] hdmm . l mhrm",
+          "cuneiform": "[𐎟]𐎟𐎅𐎄𐎎𐎎𐎟𐎍𐎟𐎎𐎅𐎗𐎎",
+          "notes": "'…footstools to soldiers.' The furniture-as-army-imagery continues."
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.3-ii:38",
+          "translit": "[t]ḥsp . mh . w trḥṣ",
+          "cuneiform": "[𐎚]𐎈𐎒𐎔𐎟𐎎𐎅𐎟𐎆𐎟𐎚𐎗𐎈𐎕",
+          "notes": "'She draws water and washes.' tḥsp 'she ladles, draws' (G-yqtl 3fs of ḥsp; cf. Hebrew ḥāśap 'lay bare, draw out'); mh 'water' (cf. Hebrew mayim)."
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.3-ii:39",
+          "translit": "ṭl . šmm . šmn . ʾarṣ",
+          "cuneiform": "𐎉𐎍𐎟𐎌𐎎𐎎𐎟𐎌𐎎𐎐𐎟𐎀𐎗𐎕",
+          "notes": "'…dew of heaven, oil of earth.' ṭl 'dew' (cf. Hebrew ṭal Gen 27:28); šmn 'oil, fat' (cf. Hebrew šemen). The cosmic-cleansing formula — heaven's dew and earth's oil as the post-battle ablution. STRONG CROSS-CORPUS: cf. Gen 27:28 ṭal haššāmayim ūmišmannê hāʾāreṣ."
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.3-ii:40",
+          "translit": "rbb . rkb . ʿrpt",
+          "cuneiform": "𐎗𐎁𐎁𐎟𐎗𐎋𐎁𐎟𐎓𐎗𐎔𐎚",
+          "notes": "'…showers of the Cloud-Rider.' rbb 'showers, droplets' (cf. Hebrew rĕbîbîm Ps 65:11); rkb ʿrpt 'Rider of the Clouds' = Baʿlu's signature epithet — STRONG CROSS-CORPUS: cf. Ps 68:5 rōkēb bāʿărābôt 'rider on the clouds' (= Yahweh)."
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.3-ii:41",
+          "translit": "ṭl . šmm . tskh",
+          "cuneiform": "𐎉𐎍𐎟𐎌𐎎𐎎𐎟𐎚𐎒𐎋𐎅",
+          "notes": "'Dew of heaven pours upon her.' tskh 'pours over her' (G-yqtl 3fs of nsk; cf. Hebrew nāsak 'to pour libation')."
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.3-ii:42",
+          "translit": "rbb . nskh . kbkbm",
+          "cuneiform": "𐎗𐎁𐎁𐎟𐎐𐎒𐎋𐎅𐎟𐎋𐎁𐎋𐎁𐎎",
+          "notes": "'…showers pour upon her (from) the stars.' kbkbm 'stars' (cf. Hebrew kôkābîm). The astral-shower formula."
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.3-ii:43",
+          "translit": "[ttp]p . ʾanḫb . ʾalp . šd",
+          "cuneiform": "[𐎚𐎚𐎔]𐎔𐎟𐎀𐎐𐎃𐎁𐎟𐎀𐎍𐎔𐎟𐎌𐎄",
+          "notes": "'[She adorns herself with] purple-dye(?), a thousand acres.' ʾanḫb 'purple-shell-dye, murex-purple' (cf. Akk. anḫabu); šd 'field, acre.' Cosmetic-adornment after battle."
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.3-ii:44",
+          "translit": "[ḫr]ṣ . ʾaḫd[t . k]nrh",
+          "cuneiform": "[𐎃𐎗]𐎕𐎟𐎀𐎃𐎄[𐎚𐎟𐎋]𐎐𐎗𐎅",
+          "notes": "'[Gol]d-(stringed)(?) she took her [l]yre.' kinnārum 'lyre' (cf. Hebrew kinnôr Gen 4:21; the same root). ʿAnatu turns to music after battle — the post-violence cultural-marker."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.3-iii",
+      "ktu": "KTU 1.3 col iii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.3 col iii: top mostly preserved. The post-battle ʿAnat is approached by Baʿlu's two messengers Gpn-wa-Ugar ('Vine-and-Field') with the famous 'word of tree, whisper of stone' revelation-formula. The same overlay-formula recurs from KTU 1.1 iii — the cosmic-speech mystery.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.3-iii:1",
+          "translit": "[...] tsmt . ʿglh",
+          "cuneiform": "[𐎟]𐎟𐎚𐎒𐎎𐎚𐎟𐎓𐎂𐎍𐎅",
+          "notes": "'…she destroyed his calf.' tsmt 'she annihilated' (G-pf 3fs of ṣmt); ʿgl 'calf' (cf. Hebrew ʿēgel Exod 32). Possibly reference to ʿAnatu's prior killing of a divine-calf figure."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.3-iii:2",
+          "translit": "tšt . šnt . šy . [...]",
+          "cuneiform": "𐎚𐎌𐎚𐎟𐎌𐎐𐎚𐎟𐎌𐎊𐎟[𐎟]",
+          "notes": "'She set teeth(?), gift(?)…' Fragmentary; possibly a list of post-battle trophies."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.3-iii:3",
+          "translit": "[...] dmrn",
+          "cuneiform": "[𐎟]𐎟𐎄𐎎𐎗𐎐",
+          "notes": "'…of Dimaron(?).' dmrn possibly a divine name or epithet — sometimes read as a Baʿlu-title."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.3-iii:4",
+          "translit": "yʿn . ʿṯtr . [...]",
+          "cuneiform": "𐎊𐎓𐎐𐎟𐎓𐎘𐎚𐎗𐎟[𐎟]",
+          "notes": "'ʿAṯtaru answered…' ʿṯtr 'ʿAṯtaru' (the morning-star deity); the divine-assembly responding."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.3-iii:5",
+          "translit": "tḥtṣb . qšth . tʾiḫd",
+          "cuneiform": "𐎚𐎈𐎚𐎕𐎁𐎟𐎖𐎌𐎚𐎅𐎟𐎚𐎛𐎃𐎄",
+          "notes": "'She contends, she takes her bow.' qšt 'bow' (cf. Hebrew qešet); tʾiḫd 'she seizes' (G-yqtl 3fs of ʾḫd; cf. Hebrew ʾāḥaz)."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.3-iii:6",
+          "translit": "[...] ʿṣ . qrt",
+          "cuneiform": "[𐎟]𐎟𐎓𐎕𐎟𐎖𐎗𐎚",
+          "notes": "'…tree of the city(?).' ʿṣ 'tree, wood'; qrt 'town' (cf. Hebrew qiryâ). Lost context."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.3-iii:7",
+          "translit": "hlk . ʾaḫth . bʿl . yʿn",
+          "cuneiform": "𐎅𐎍𐎋𐎟𐎀𐎃𐎚𐎅𐎟𐎁𐎓𐎍𐎟𐎊𐎓𐎐",
+          "notes": "'Baʿlu sees the going of his sister.' hlk 'going, walking'; ʾaḫth 'his sister' = ʿAnatu (Baʿlu's sister-consort). Baʿlu observes ʿAnatu's approach from afar."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.3-iii:8",
+          "translit": "tdrq . ybnt . ʾabh",
+          "cuneiform": "𐎚𐎄𐎗𐎖𐎟𐎊𐎁𐎐𐎚𐎟𐎀𐎁𐎅",
+          "notes": "'The progress of his father's daughter (he sees).' tdrq 'her stride, advance' (cf. Hebrew derek); ybnt ʾabh 'the daughter of his father' — a kinship formula naming ʿAnatu as Baʿlu's paternal sister."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.3-iii:9",
+          "translit": "yšlḥ . ʿgnm . tsmt",
+          "cuneiform": "𐎊𐎌𐎍𐎈𐎟𐎓𐎂𐎐𐎎𐎟𐎚𐎒𐎎𐎚",
+          "notes": "'He sends out(?) … she destroys.' Fragmentary; possibly relating to Baʿlu's command-message to ʿAnatu."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.3-iii:10",
+          "translit": "[...] tdd . ksm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎄𐎄𐎟𐎋𐎒𐎎",
+          "notes": "'…she sends(?) cups(?).' ksm 'cups' (pl of ks); a banquet-vocabulary fragment."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.3-iii:11",
+          "translit": "ydy . b ʿṣm . ʿrn",
+          "cuneiform": "𐎊𐎄𐎊𐎟𐎁𐎟𐎓𐎕𐎎𐎟𐎓𐎗𐎐",
+          "notes": "'…he stretches out among the trees, ʿRN(?).' ydy 'he stretches/spreads' (G-yqtl); ʿṣm 'trees.'"
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.3-iii:12",
+          "translit": "[...] tbṣr . yšt . ḥmr . yn",
+          "cuneiform": "[𐎟]𐎟𐎚𐎁𐎕𐎗𐎟𐎊𐎌𐎚𐎟𐎈𐎎𐎗𐎟𐎊𐎐",
+          "notes": "'…she carries(?), he places jar of wine.' ḥmr yn 'wine-jar' (cf. Hebrew ḥōmer + yayin)."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.3-iii:13",
+          "translit": "ʿd tšbʿ . yšt",
+          "cuneiform": "𐎓𐎄𐎟𐎚𐎌𐎁𐎓𐎟𐎊𐎌𐎚",
+          "notes": "'…until she is sated he places.' ʿd tšbʿ 'until she is full' — banquet-completion formula."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.3-iii:14",
+          "translit": "[...] šty . pq . mrġṯm . ṯd",
+          "cuneiform": "[𐎟]𐎟𐎌𐎚𐎊𐎟𐎔𐎖𐎟𐎎𐎗𐎙𐎘𐎎𐎟𐎘𐎄",
+          "notes": "'…drinking, … fatling-pieces, breast(?).' šty 'drinking'; mrġṯ 'choice cut(?)'; ṯd 'breast' — feast-portions."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.3-iii:15",
+          "translit": "[...] b ḫrb . mlḥt . qṣ . mrʾi",
+          "cuneiform": "[𐎟]𐎟𐎁𐎟𐎃𐎗𐎁𐎟𐎎𐎍𐎈𐎚𐎟𐎖𐎕𐎟𐎎𐎗𐎛",
+          "notes": "'…with a salted knife, a portion of fatling.' Recurring feast-formula (cf. 1.3 i 7)."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.3-iii:16",
+          "translit": "[t]štn . yn . b ks . ḫrṣ",
+          "cuneiform": "[𐎚]𐎌𐎚𐎐𐎟𐎊𐎐𐎟𐎁𐎟𐎋𐎒𐎟𐎃𐎗𐎕",
+          "notes": "'…they place wine in a cup of gold.' yn 'wine'; ks ḫrṣ 'cup of gold' — the divine-banquet vessel."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.3-iii:17",
+          "translit": "dm . ʿṣm . b kṣ . hrṣ",
+          "cuneiform": "𐎄𐎎𐎟𐎓𐎕𐎎𐎟𐎁𐎟𐎋𐎕𐎟𐎅𐎗𐎕",
+          "notes": "'…blood of trees (wine) in a cup of gold.' Parallel to line 16. The kenning dm ʿṣm = 'wine.'"
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.3-iii:18",
+          "translit": "[...] m . tḥmt . knp . nšrm",
+          "cuneiform": "[𐎟]𐎟𐎎𐎟𐎚𐎈𐎎𐎚𐎟𐎋𐎐𐎔𐎟𐎐𐎌𐎗𐎎",
+          "notes": "'…the deeps, the wing of eagles.' tḥmt 'deeps' (cf. Hebrew tĕhôm Gen 1:2); knp nšrm 'wing(s) of eagles' (cf. Hebrew kanpê nešer Exod 19:4). The cosmic-flight imagery."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.3-iii:19",
+          "translit": "[...] bʿl . yṯb . k tbt . ġr",
+          "cuneiform": "[𐎟]𐎟𐎁𐎓𐎍𐎟𐎊𐎘𐎁𐎟𐎋𐎟𐎚𐎁𐎚𐎟𐎙𐎗",
+          "notes": "'…Baʿlu sits like the dwelling of the mountain.' k tbt ġr 'like the seat of the mountain'; Baʿlu enthroned on Ṣapunu."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.3-iii:20",
+          "translit": "[...] dgn . k [ʾ]ar[ṣ]",
+          "cuneiform": "[𐎟]𐎟𐎄𐎂𐎐𐎟𐎋𐎟[ʾ]a𐎗[𐎕]",
+          "notes": "'…Dagan(?) like the [ea]rth.' dgn 'Dagan' (a grain-deity; Baʿlu's father in some traditions: bn dgn 'son of Dagan')."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.3-iii:21",
+          "translit": "rgm . l btlt . ʿnt",
+          "cuneiform": "𐎗𐎂𐎎𐎟𐎍𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "**THE WORD-OF-TREE FORMULA OPENING**: 'A word for the Maiden ʿAnatu.' rgm 'word, message'; introduces the revelation-formula. Recurring throughout the Cycle (cf. KTU 1.1 iii 12-15; 1.3 IV 13-16)."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.3-iii:22",
+          "translit": "ṯny . l ybmt . lʾimm",
+          "cuneiform": "𐎘𐎐𐎊𐎟𐎍𐎟𐎊𐎁𐎎𐎚𐎟𐎍𐎛𐎎𐎎",
+          "notes": "'Repeat to the Sister-in-law of nations.' ṯny 'repeat, declare again' (D-impv); the messenger-instruction."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.3-iii:23",
+          "translit": "tḥm . ʾalʾiyn . bʿl",
+          "cuneiform": "𐎚𐎈𐎎𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'Message of Mighty Baʿlu.' tḥm 'message, oracle'; ʾalʾiyn bʿl 'Mightiest Baʿlu' — standard epithet (note the alef-i in ʾalʾiyn)."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.3-iii:24",
+          "translit": "hwt . ʾalʾiy . qrdm",
+          "cuneiform": "𐎅𐎆𐎚𐎟𐎀𐎍𐎛𐎊𐎟𐎖𐎗𐎄𐎎",
+          "notes": "'Word of the Mighty One of warriors.' ʾalʾiy qrdm 'Mighty One of heroes' = Baʿlu's epithet; qrd 'warrior' (cf. Akk. qarrādu)."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.3-iii:25",
+          "translit": "qryy . b ʾarṣ . mlḥmt",
+          "cuneiform": "𐎖𐎗𐎊𐎊𐎟𐎁𐎟𐎀𐎗𐎕𐎟𐎎𐎍𐎈𐎎𐎚",
+          "notes": "**THE PEACE-FORMULA**: 'Place war in the earth!' qryy 'to set, place' (G-impv); b ʾarṣ 'in the earth'; mlḥmt 'war, battle' (cf. Hebrew milḥāmâ). Cf. Isa 2:4. The repeated 'lay-down-war' oracle."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.3-iii:26",
+          "translit": "št . b ʿprm . ddym",
+          "cuneiform": "𐎌𐎚𐎟𐎁𐎟𐎓𐎔𐎗𐎎𐎟𐎄𐎄𐎊𐎎",
+          "notes": "'Set in the dust love-tokens(?).' ddym 'mandrakes, love-tokens, mounds' (cf. Hebrew dûdāʾîm Gen 30:14); the peace-establishment formula. Cf. KTU 1.1 ii 20."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.3-iii:27",
+          "translit": "sk . šlm . l kbd . ʾarṣ",
+          "cuneiform": "𐎒𐎋𐎟𐎌𐎍𐎎𐎟𐎍𐎟𐎋𐎁𐎄𐎟𐎀𐎗𐎕",
+          "notes": "**THE PEACE-FORMULA (continued)**: 'Pour peace into the midst of the earth!' sk 'pour' (G-impv); šlm 'peace, well-being' (cf. Hebrew šālôm); kbd ʾarṣ 'midst of the earth' (literally 'liver,' inward part)."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.3-iii:28",
+          "translit": "ʾarbdd . l kbd . šdm",
+          "cuneiform": "𐎀𐎗𐎁𐎄𐎄𐎟𐎍𐎟𐎋𐎁𐎄𐎟𐎌𐎄𐎎",
+          "notes": "'…(pour) tranquility into the midst of the fields.' ʾarbdd 'tranquility, calm' (etymology debated; possibly cognate to Akk. rbṣ 'to lie down at rest'); šdm 'fields' (pl of šd)."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.3-iii:29",
+          "translit": "ʾiṯ . ly . w ʾargmk",
+          "cuneiform": "𐎛𐎘𐎟𐎍𐎊𐎟𐎆𐎟𐎀𐎗𐎂𐎎𐎋",
+          "notes": "**THE REVELATION-FORMULA OPENING**: 'There is (a thing) for me, and I will tell you.' ʾiṯ 'there is' (existential particle; cf. Hebrew yēš); ʾargmk 'I will declare to you' (D-yqtl + 2ms suffix). The standard pre-revelation formula."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.3-iii:30",
+          "translit": "hwt . w ʾaṯnyk",
+          "cuneiform": "𐎅𐎆𐎚𐎟𐎆𐎟𐎀𐎘𐎐𐎊𐎋",
+          "notes": "'A word, and I will repeat it to you.' ʾaṯnyk 'I will repeat to you' (Dt-yqtl + 2ms suffix of ṯny 'repeat')."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.3-iii:31",
+          "translit": "rgm . ʿṣ . w lḫšt . ʾabn",
+          "cuneiform": "𐎗𐎂𐎎𐎟𐎓𐎕𐎟𐎆𐎟𐎍𐎃𐎌𐎚𐎟𐎀𐎁𐎐",
+          "notes": "**THE FAMOUS WORD-OF-TREE-AND-WHISPER-OF-STONE FORMULA**: 'A word of tree and a whisper of stone.' rgm ʿṣ 'speech of wood/tree'; lḫšt 'whisper, secret-speech' (cf. Hebrew lāḥaš 'to whisper, charm'); ʾabn 'stone' (cf. Hebrew ʾeben). The signature mystery-revelation formula; STRONG cross-corpus reach (cf. Hab 2:11 'the stone will cry out from the wall'). Same formula at KTU 1.1 iii 13."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.3-iii:32",
+          "translit": "tʾant . šmm . ʿm . ʾarṣ",
+          "cuneiform": "𐎚𐎀𐎐𐎚𐎟𐎌𐎎𐎎𐎟𐎓𐎎𐎟𐎀𐎗𐎕",
+          "notes": "'The converse of heaven with earth.' tʾant 'converse, communication' (cf. ʿnh 'to answer'); the celestial-terrestrial dialogue. Cf. KTU 1.1 iii 14."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.3-iii:33",
+          "translit": "thmt . ʿmn . kbkbm",
+          "cuneiform": "𐎚𐎅𐎎𐎚𐎟𐎓𐎎𐎐𐎟𐎋𐎁𐎋𐎁𐎎",
+          "notes": "'…of the deeps with the stars.' thmt 'deeps' (cf. Hebrew tĕhôm); kbkbm 'stars.' The vertical cosmos-speech: heaven–earth–deep–stars all in conversation. Cf. Ps 19:1-4."
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.3-iii:34",
+          "translit": "ʾabn . brq . d l . tdʿ . šmm",
+          "cuneiform": "𐎀𐎁𐎐𐎟𐎁𐎗𐎖𐎟𐎄𐎟𐎍𐎟𐎚𐎄𐎓𐎟𐎌𐎎𐎎",
+          "notes": "**THE LIGHTNING-MYSTERY**: 'A stone of lightning that the heavens do not know.' brq 'lightning' (cf. Hebrew bārāq); d l tdʿ 'that does not know' — the hidden-knowledge formula. Baʿlu's lightning as cosmic-secret."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.3-iii:35",
+          "translit": "rgm . l tdʿ . nšm",
+          "cuneiform": "𐎗𐎂𐎎𐎟𐎍𐎟𐎚𐎄𐎓𐎟𐎐𐎌𐎎",
+          "notes": "'…a word that humans do not know.' nšm 'humans, mortals' (cf. Hebrew ʾănāšîm). Cf. KTU 1.1 iii 15."
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.3-iii:36",
+          "translit": "w l . tbn . hmlt . ʾarṣ",
+          "cuneiform": "𐎆𐎟𐎍𐎟𐎚𐎁𐎐𐎟𐎅𐎎𐎍𐎚𐎟𐎀𐎗𐎕",
+          "notes": "'…and the multitudes of earth do not understand.' tbn = G-yqtl of byn 'to understand' (cf. Hebrew bîn); hmlt ʾarṣ 'multitudes of earth.'"
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.3-iii:37",
+          "translit": "ʾatm . w ʾank . ʾibġyh",
+          "cuneiform": "𐎀𐎚𐎎𐎟𐎆𐎟𐎀𐎐𐎋𐎟𐎛𐎁𐎙𐎊𐎅",
+          "notes": "'(But) you and I — I will reveal it.' ʾatm here possibly enclitic (2sg pronominal); ʾibġy 'I will seek out, reveal' (G-yqtl of bġy). The intimate-revelation pact between Baʿlu and ʿAnatu."
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.3-iii:38",
+          "translit": "b tk . ġry . ʾil ṣpn",
+          "cuneiform": "𐎁𐎟𐎚𐎋𐎟𐎙𐎗𐎊𐎟𐎛𐎍𐎟𐎕𐎔𐎐",
+          "notes": "'In the midst of my mountain, divine Ṣapunu.' ġry 'my mountain'; ʾil ṣpn 'divine Ṣapunu' = Baʿlu's holy peak."
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.3-iii:39",
+          "translit": "b qdš . b ġr . nḥlty",
+          "cuneiform": "𐎁𐎟𐎖𐎄𐎌𐎟𐎁𐎟𐎙𐎗𐎟𐎐𐎈𐎍𐎚𐎊",
+          "notes": "'In the holy place, on the mountain of my inheritance.' qdš 'holiness, sanctuary' (cf. Hebrew qōdeš); nḥlty 'my inheritance' (cf. Hebrew naḥălâ Exod 15:17). The sanctuary-of-inheritance formula. STRONG CROSS-CORPUS: cf. Exod 15:17 'mountain of your inheritance.'"
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.3-iii:40",
+          "translit": "b nʿm . b gbʿ . tlʾiyt",
+          "cuneiform": "𐎁𐎟𐎐𐎓𐎎𐎟𐎁𐎟𐎂𐎁𐎓𐎟𐎚𐎍𐎛𐎊𐎚",
+          "notes": "'In the pleasant (place), on the hill of victory.' nʿm 'pleasant, beautiful'; gbʿ 'hill' (cf. Hebrew gibʿâ); tlʾiyt 'triumph, victory' (cf. lʾy 'to prevail')."
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.3-iii:41",
+          "translit": "ʿnt . w tšʾu . gh",
+          "cuneiform": "𐎓𐎐𐎚𐎟𐎆𐎟𐎚𐎌𐎜𐎟𐎂𐎅",
+          "notes": "'ʿAnatu — and she lifted her voice.' tšʾu 'she raises' (G-yqtl 3fs of nšʾ); g 'voice' (cf. Hebrew gārôn). Standard speech-introduction formula."
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.3-iii:42",
+          "translit": "[w] tṣḥ . ʾan . ʾan . wn ġr",
+          "cuneiform": "[𐎆]𐎟𐎚𐎕𐎈𐎟𐎀𐎐𐎟𐎀𐎐𐎟𐎆𐎐𐎟𐎙𐎗",
+          "notes": "'[And] she cried: I — yes I — and the mountain…' ʾan 'I' (1cs pronoun emphatic). The emphatic self-assertion of the warrior-goddess."
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.3-iii:43",
+          "translit": "ʾan . l ʾaḫd . ʾadn",
+          "cuneiform": "𐎀𐎐𐎟𐎍𐎟𐎀𐎃𐎄𐎟𐎀𐎄𐎐",
+          "notes": "'I will take a lord(?).' ʾan 'I'; ʾaḫd 'I shall seize' (G-yqtl 1cs of ʾḫd); ʾadn 'lord' (cf. Hebrew ʾādōn)."
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.3-iii:44",
+          "translit": "[...] ʿrṣ . tšʾu . gh",
+          "cuneiform": "[𐎟]𐎟𐎓𐎗𐎕𐎟𐎚𐎌𐎜𐎟𐎂𐎅",
+          "notes": "'…earth(?), she lifts her voice.' ʿrṣ uncertain; possibly 'I will be roused.'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.3-iii:45",
+          "translit": "[...] ʾanḫn . ʾan . w tnḫ",
+          "cuneiform": "[𐎟]𐎟𐎀𐎐𐎃𐎐𐎟𐎀𐎐𐎟𐎆𐎟𐎚𐎐𐎃",
+          "notes": "'…I will rest, I will rest in peace.' ʾanḫn 'I will rest, sigh' (G-yqtl 1cs of nḥ; cf. Hebrew nûaḥ); the rest-after-victory formula."
+        },
+        {
+          "n": 46,
+          "refId": "BCY-WOH-1.3-iii:46",
+          "translit": "b ʾirty . npš . b ḥzry",
+          "cuneiform": "𐎁𐎟𐎛𐎗𐎚𐎊𐎟𐎐𐎔𐎌𐎟𐎁𐎟𐎈𐎇𐎗𐎊",
+          "notes": "'In my breast (= chest), the throat in my interior.' ʾirty 'my breast' (cf. Hebrew ḥāzeh); npš 'throat, life-breath' (cf. Hebrew nepeš); ḥzr 'inward part, chamber.'"
+        },
+        {
+          "n": 47,
+          "refId": "BCY-WOH-1.3-iii:47",
+          "translit": "k tmḫṣ . ltn . bṯn . brḥ",
+          "cuneiform": "𐎋𐎟𐎚𐎎𐎃𐎕𐎟𐎍𐎚𐎐𐎟𐎁𐎘𐎐𐎟𐎁𐎗𐎈",
+          "notes": "**THE LEVIATHAN-LINE**: 'For I struck Lōtanu the fleeing serpent.' tmḫṣ 'I struck' (G-pf 1cs of mḫṣ; or G-yqtl 2fs 'you struck' — context determines); ltn 'Lōtanu' = Leviathan (cf. Hebrew liwyātān Isa 27:1; Ps 74:14; Job 41); bṯn brḥ 'fleeing serpent' = the same phrase as Isa 27:1 nāḥāš bāriaḥ. MANDATORY CROSS-CORPUS PARALLEL — the closest Ugaritic-Hebrew Bible verbal match in the entire corpus."
+        },
+        {
+          "n": 48,
+          "refId": "BCY-WOH-1.3-iii:48",
+          "translit": "tkly . bṯn . ʿqltn",
+          "cuneiform": "𐎚𐎋𐎍𐎊𐎟𐎁𐎘𐎐𐎟𐎓𐎖𐎍𐎚𐎐",
+          "notes": "**THE LEVIATHAN-LINE (continued)**: 'I finished off the writhing serpent.' tkly 'I made an end of' (D-pf 1cs of kly); bṯn ʿqltn 'twisting/writhing serpent' = cf. Isa 27:1 nāḥāš ʿăqallātôn. MANDATORY CROSS-CORPUS: the verbal correspondence with Isa 27:1 is exact."
+        },
+        {
+          "n": 49,
+          "refId": "BCY-WOH-1.3-iii:49",
+          "translit": "šlyṭ . d šbʿt . rʾašm",
+          "cuneiform": "𐎌𐎍𐎊𐎉𐎟𐎄𐎟𐎌𐎁𐎓𐎚𐎟𐎗𐎀𐎌𐎎",
+          "notes": "**THE LEVIATHAN-LINE (continued)**: 'The Tyrant with seven heads.' šlyṭ 'tyrant, ruler' (cf. Hebrew šallîṭ Eccl 8:8); d šbʿt rʾašm 'of seven heads' (cf. Ps 74:14 'You crushed the heads of Leviathan' — pl); cf. Rev 13:1 the seven-headed beast. The cosmic chaos-monster."
+        },
+        {
+          "n": 50,
+          "refId": "BCY-WOH-1.3-iii:50",
+          "translit": "[t]mḫṣ . mdd . ʾilm . ʾaršy",
+          "cuneiform": "[𐎚]𐎎𐎃𐎕𐎟𐎎𐎄𐎄𐎟𐎛𐎍𐎎𐎟𐎀𐎗𐎌𐎊",
+          "notes": "'I struck the Beloved-of-ʾIlu, ʾAršayu.' mdd ʾilm 'Beloved of ʾIlu' (= Yammu's epithet, also applied to other chaos-figures); ʾaršy possibly a chaos-deity (= 'Earthly One'?)."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.3-iv",
+      "ktu": "KTU 1.3 col iv",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.3 col iv: ʿAnatu now travels to Baʿlu's abode on Ṣapunu. The dialogue centers on the central grievance: Baʿlu, though victorious over Yammu, still has no palace befitting his royal status. This complaint sets up the entire palace-building arc that unfolds in KTU 1.4.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.3-iv:1",
+          "translit": "[...] tlʾakn . [ġl]mm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎍𐎀𐎋𐎐𐎟[𐎙𐎍]𐎎𐎎",
+          "notes": "'…the (two) lads are sent.' tlʾakn 'they are sent' (Gt-yqtl 3mp of lʾk; cf. Hebrew malʾāk 'messenger'); ġlmm 'lads' (cf. Hebrew ʿalmâ Gen 24:43)."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.3-iv:2",
+          "translit": "[lʾ]akm . ʿd . bnk",
+          "cuneiform": "[𐎍ʾ]a𐎋𐎎𐎟𐎓𐎄𐎟𐎁𐎐𐎋",
+          "notes": "'…(I) have sent to your son.' lʾakm 'I sent' (G-pf 1cs); bnk 'your son.'"
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.3-iv:3",
+          "translit": "[...] ʾatr . bʿl",
+          "cuneiform": "[𐎟]𐎟𐎀𐎚𐎗𐎟𐎁𐎓𐎍",
+          "notes": "'…(she goes) after Baʿlu.' ʾatr 'after, following' (cf. Hebrew ʾaḥar); the pursuit-of-Baʿlu formula."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.3-iv:4",
+          "translit": "tbʾu . ʿm . bʿl . mrym . ṣpn",
+          "cuneiform": "𐎚𐎁𐎜𐎟𐎓𐎎𐎟𐎁𐎓𐎍𐎟𐎎𐎗𐎊𐎎𐎟𐎕𐎔𐎐",
+          "notes": "'She enters to Baʿlu (on) the heights of Ṣapunu.' tbʾu 'she enters' (G-yqtl 3fs of bwʾ); mrym ṣpn 'heights of Ṣapunu.' ʿAnatu reaches Baʿlu's mountain-palace."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.3-iv:5",
+          "translit": "b ʾalp . šd . rbt . kmn",
+          "cuneiform": "𐎁𐎟𐎀𐎍𐎔𐎟𐎌𐎄𐎟𐎗𐎁𐎚𐎟𐎋𐎎𐎐",
+          "notes": "'…through a thousand acres, ten thousand hectares.' The cosmic-distance formula (cf. KTU 1.1 iii 2)."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.3-iv:6",
+          "translit": "hlk . ʾaḫth . yʿn . bʿl",
+          "cuneiform": "𐎅𐎍𐎋𐎟𐎀𐎃𐎚𐎅𐎟𐎊𐎓𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'Baʿlu sees the coming of his sister.' Identical-formula to 1.3 iii 7; the brother-sister recognition-scene."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.3-iv:7",
+          "translit": "tdrq . ybnt . ʾabh",
+          "cuneiform": "𐎚𐎄𐎗𐎖𐎟𐎊𐎁𐎐𐎚𐎟𐎀𐎁𐎅",
+          "notes": "'The progress of his father's daughter.' Parallel to 1.3 iii 8."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.3-iv:8",
+          "translit": "šrḥq . ʾaṯt . l pnh",
+          "cuneiform": "𐎌𐎗𐎈𐎖𐎟𐎀𐎘𐎚𐎟𐎍𐎟𐎔𐎐𐎅",
+          "notes": "'He sends away wives from before him.' šrḥq 'he makes (them) go far' (Š-impv of rḥq); ʾaṯt 'wives, women.' Baʿlu clears his hall for ʿAnatu — a hospitality-etiquette."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.3-iv:9",
+          "translit": "št . ʾalp qdmh",
+          "cuneiform": "𐎌𐎚𐎟𐎀𐎍𐎔𐎟𐎖𐎄𐎎𐎅",
+          "notes": "'He places an ox before her.' ʾalp 'ox' (cf. Hebrew ʾeleph); qdmh 'before her.' The hospitality-feast offered to ʿAnatu."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.3-iv:10",
+          "translit": "mrʾiʾa . b tk pnh",
+          "cuneiform": "𐎎𐎗𐎛𐎀𐎟𐎁𐎟𐎚𐎋𐎟𐎔𐎐𐎅",
+          "notes": "'…a fatling in the midst before her face.' mrʾiʾa 'fatling, choice animal.'"
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.3-iv:11",
+          "translit": "ttb . tʾiḫd . knrh . b ydh",
+          "cuneiform": "𐎚𐎚𐎁𐎟𐎚𐎛𐎃𐎄𐎟𐎋𐎐𐎗𐎅𐎟𐎁𐎟𐎊𐎄𐎅",
+          "notes": "'She returns, she takes her lyre in her hand.' ttb 'she returns' (G-yqtl 3fs of ṯwb); knr 'lyre' (cf. Hebrew kinnôr); the lyre-taking gesture (cf. 1.3 ii 44)."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.3-iv:12",
+          "translit": "[t]št . rʾimt . l ʾirth",
+          "cuneiform": "[𐎚]𐎌𐎚𐎟𐎗𐎛𐎎𐎚𐎟𐎍𐎟𐎛𐎗𐎚𐎅",
+          "notes": "'She sets a wild-bull(?) at her breast.' rʾimt 'wild bull' (cf. Hebrew rĕʾēm Num 23:22) — the bull-on-the-breast image, likely an amulet or pectoral; ʾirt 'breast.'"
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.3-iv:13",
+          "translit": "tšr . dd . ʾalʾiyn . bʿl",
+          "cuneiform": "𐎚𐎌𐎗𐎟𐎄𐎄𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'She sings (of) the love of Mighty Baʿlu.' tšr 'she sings' (G-yqtl 3fs of šyr); dd 'love, loved-one' (cf. Hebrew dôd 'beloved' Song 1:13). The love-song of ʿAnatu for Baʿlu."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.3-iv:14",
+          "translit": "yd . pdry . bt . ʾar",
+          "cuneiform": "𐎊𐎄𐎟𐎔𐎄𐎗𐎊𐎟𐎁𐎚𐎟𐎀𐎗",
+          "notes": "'…the love of Pidray daughter of light.' yd here = 'love' (a homophone of 'hand'; root ydd/wdd 'to love'); cf. 1.3 i 22 for Pidray."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.3-iv:15",
+          "translit": "[ʾa]hbt . ṭly . bt . rb",
+          "cuneiform": "[𐎀]𐎅𐎁𐎚𐎟𐎉𐎍𐎊𐎟𐎁𐎚𐎟𐎗𐎁",
+          "notes": "'…the love of Ṭallay daughter of showers.' ʾahbt 'love' (cf. Hebrew ʾahăbâ 'love'); Baʿlu's three daughters now feature in ʿAnatu's song."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.3-iv:16",
+          "translit": "dd . ʾarṣy . bt . yʿbdr",
+          "cuneiform": "𐎄𐎄𐎟𐎀𐎗𐎕𐎊𐎟𐎁𐎚𐎟𐎊𐎓𐎁𐎄𐎗",
+          "notes": "'…the love of Arṣayu daughter of Yaʿbudaru.' ʾarṣy 'Arṣay' (the third daughter); yʿbdr possibly her parental ascription."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.3-iv:17",
+          "translit": "[k m]ġy . btlt . ʿnt",
+          "cuneiform": "[𐎋𐎟𐎎]𐎙𐎊𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'[When] the Maiden ʿAnatu [arrived]…' mġy 'arrive' (G-pf of mġy; cf. Hebrew māṣâ — wrong root; properly the Aramaic-related root mġy 'reach'). Arrival-formula."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.3-iv:18",
+          "translit": "tmġyn . ybmt . lʾimm",
+          "cuneiform": "𐎚𐎎𐎙𐎊𐎐𐎟𐎊𐎁𐎎𐎚𐎟𐎍𐎛𐎎𐎎",
+          "notes": "'…the Sister-in-law of nations arrived.' Parallel restoration."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.3-iv:19",
+          "translit": "yšʾu . gh . w yṣḥ",
+          "cuneiform": "𐎊𐎌𐎜𐎟𐎂𐎅𐎟𐎆𐎟𐎊𐎕𐎈",
+          "notes": "'He lifts his voice and cries.' The standard speech-introduction formula."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.3-iv:20",
+          "translit": "ʾik . mġyt . btlt . ʿnt",
+          "cuneiform": "𐎛𐎋𐎟𐎎𐎙𐎊𐎚𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'How (it is) that the Maiden ʿAnatu has arrived?' ʾik 'how, why' (interrogative; cf. Hebrew ʾêk). Baʿlu's greeting/question."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.3-iv:21",
+          "translit": "mġyt . ybmt . lʾimm",
+          "cuneiform": "𐎎𐎙𐎊𐎚𐎟𐎊𐎁𐎎𐎚𐎟𐎍𐎛𐎎𐎎",
+          "notes": "'How (is it that) the Sister-in-law of nations has arrived?' Parallelism."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.3-iv:22",
+          "translit": "p . ʾib . yp . l bʿl",
+          "cuneiform": "𐎔𐎟𐎛𐎁𐎟𐎊𐎔𐎟𐎍𐎟𐎁𐎓𐎍",
+          "notes": "'Has any enemy risen against Baʿlu?' p 'whether, perhaps' (interrogative particle); ʾib 'enemy' (cf. Hebrew ʾōyēb); yp 'arises'(?). Baʿlu's anxiety-question."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.3-iv:23",
+          "translit": "ṣrt . l rkb . ʿrpt",
+          "cuneiform": "𐎕𐎗𐎚𐎟𐎍𐎟𐎗𐎋𐎁𐎟𐎓𐎗𐎔𐎚",
+          "notes": "'…(any) adversary to the Cloud-Rider?' ṣrt 'distress, adversary' (cf. Hebrew ṣar 'foe'); rkb ʿrpt 'Cloud-Rider' = Baʿlu's signature epithet."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.3-iv:24",
+          "translit": "l mḫšt . mdd . ʾil ym",
+          "cuneiform": "𐎍𐎟𐎎𐎃𐎌𐎚𐎟𐎎𐎄𐎄𐎟𐎛𐎍𐎟𐎊𐎎",
+          "notes": "'Did I not strike the Beloved of ʾIlu, Yammu?' l mḫšt 'I struck' (negative-affirmative; here the rhetorical 'I-indeed-struck'). The victory-recounting."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.3-iv:25",
+          "translit": "l klt . nhr . ʾil . rbm",
+          "cuneiform": "𐎍𐎟𐎋𐎍𐎚𐎟𐎐𐎅𐎗𐎟𐎛𐎍𐎟𐎗𐎁𐎎",
+          "notes": "'Did I not finish off River, the great god?' klt 'I made-an-end of' (D-pf 1cs of kly); rbm 'great' (cf. Hebrew rab)."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.3-iv:26",
+          "translit": "l ʾištbm . tnn . ʾištmh",
+          "cuneiform": "𐎍𐎟𐎛𐎌𐎚𐎁𐎎𐎟𐎚𐎐𐎐𐎟𐎛𐎌𐎚𐎎𐎅",
+          "notes": "'I muzzled the Tannin, I bound him up.' tnn 'Tannin, sea-monster' (cf. Hebrew tannîn Gen 1:21; Isa 27:1); ʾištbm 'I muzzled / bound about the mouth' (Št-pf 1cs of šbm). Tannin-defeat alongside Yammu — the chaos-defeating-the-monsters tradition."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.3-iv:27",
+          "translit": "mḫšt . bṯn . ʿqltn",
+          "cuneiform": "𐎎𐎃𐎌𐎚𐎟𐎁𐎘𐎐𐎟𐎓𐎖𐎍𐎚𐎐",
+          "notes": "'I struck the writhing serpent.' Parallel to 1.3 iii 48 (and Isa 27:1 ʿăqallātôn)."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.3-iv:28",
+          "translit": "šlyṭ . d šbʿt . rʾašm",
+          "cuneiform": "𐎌𐎍𐎊𐎉𐎟𐎄𐎟𐎌𐎁𐎓𐎚𐎟𐎗𐎀𐎌𐎎",
+          "notes": "'…the Tyrant with seven heads.' Parallel to 1.3 iii 49. The Leviathan-cluster recurs."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.3-iv:29",
+          "translit": "mḫšt . mdd . ʾilm . ʾar[š]",
+          "cuneiform": "𐎎𐎃𐎌𐎚𐎟𐎎𐎄𐎄𐎟𐎛𐎍𐎎𐎟𐎀𐎗[𐎌]",
+          "notes": "'I struck the Beloved of ʾIlu, ʾArš[a].' Possibly the same chaos-figure as 1.3 iii 50."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.3-iv:30",
+          "translit": "ṣmt . ʿgl . ʾil . ʿtk",
+          "cuneiform": "𐎕𐎎𐎚𐎟𐎓𐎂𐎍𐎟𐎛𐎍𐎟𐎓𐎚𐎋",
+          "notes": "'I annihilated the calf of ʾIlu, ʿAtaku.' ʿgl ʾil 'calf of ʾIlu' = a chaos-figure in calf-form; ʿtk possibly 'Old One.'"
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.3-iv:31",
+          "translit": "mḫšt . klbt . ʾilm . ʾišt",
+          "cuneiform": "𐎎𐎃𐎌𐎚𐎟𐎋𐎍𐎁𐎚𐎟𐎛𐎍𐎎𐎟𐎛𐎌𐎚",
+          "notes": "'I struck Klabt, bitch of the gods, fire.' klbt 'bitch'; ʾišt 'fire' (cf. Hebrew ʾēš) — the fire-demon-as-bitch."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.3-iv:32",
+          "translit": "klt . bt . ʾil . ḏbb",
+          "cuneiform": "𐎋𐎍𐎚𐎟𐎁𐎚𐎟𐎛𐎍𐎟𐎏𐎁𐎁",
+          "notes": "'I finished off the daughter of ʾIlu, Ḏubub (the Flame).' ḏbb 'flame, blaze'; this and the previous line form the chaos-monsters-killed list — ʿAnatu's resumé."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.3-iv:33",
+          "translit": "ʾimtḫṣ . ksp . ʾiṯrṯ . ḫrṣ",
+          "cuneiform": "𐎛𐎎𐎚𐎃𐎕𐎟𐎋𐎒𐎔𐎟𐎛𐎘𐎗𐎘𐎟𐎃𐎗𐎕",
+          "notes": "'I fought for silver, I obtained gold.' ʾimtḫṣ 'I fought' (Gt-pf 1cs of mḫṣ); ʾiṯrṯ 'I took possession of' (Gt-pf 1cs of yrṯ; cf. Hebrew yāraš 'inherit'). The post-battle spoil-claim."
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.3-iv:34",
+          "translit": "ṭrd . bʿl . b mrym . ṣpn",
+          "cuneiform": "𐎉𐎗𐎄𐎟𐎁𐎓𐎍𐎟𐎁𐎟𐎎𐎗𐎊𐎎𐎟𐎕𐎔𐎐",
+          "notes": "'Driven out Baʿlu from the heights of Ṣapunu.' ṭrd 'driven out' (G-pass of ṭrd); Baʿlu's exile-from-Ṣapunu — perhaps a hypothetical the warrior-goddess threatens to undo."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.3-iv:35",
+          "translit": "[...] kṣ . ʿṣr . lh . tdy",
+          "cuneiform": "[𐎟]𐎟𐎋𐎕𐎟𐎓𐎕𐎗𐎟𐎍𐎅𐎟𐎚𐎄𐎊",
+          "notes": "'…(like) a fluttering bird he is chased.' kṣ ʿṣr 'like a bird'; tdy 'she chased' (G-yqtl 3fs of ndy 'to scatter')."
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.3-iv:36",
+          "translit": "[...] mrkbt . tšlḥm",
+          "cuneiform": "[𐎟]𐎟𐎎𐎗𐎋𐎁𐎚𐎟𐎚𐎌𐎍𐎈𐎎",
+          "notes": "'…chariots (are) sent forth.' mrkbt 'chariot' (cf. Hebrew merkābâ); tšlḥm 'they are sent' (Gt). Battle-equipment imagery."
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.3-iv:37",
+          "translit": "[...] hr . d . tšbʿ",
+          "cuneiform": "[𐎟]𐎟𐎅𐎗𐎟𐎄𐎟𐎚𐎌𐎁𐎓",
+          "notes": "'…(the) mountain, that she be satisfied.' tšbʿ 'she be sated' (G-yqtl 3fs of śbʿ)."
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.3-iv:38",
+          "translit": "[...] qrth . ḥbš",
+          "cuneiform": "[𐎟]𐎟𐎖𐎗𐎚𐎅𐎟𐎈𐎁𐎌",
+          "notes": "'…his city, the bound one(?).' ḥbš 'bound, confined'; lost context."
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.3-iv:39",
+          "translit": "wn . ʾin . bt . l bʿl . km . ʾilm",
+          "cuneiform": "𐎆𐎐𐎟𐎛𐎐𐎟𐎁𐎚𐎟𐎍𐎟𐎁𐎓𐎍𐎟𐎋𐎎𐎟𐎛𐎍𐎎",
+          "notes": "**THE CENTRAL COMPLAINT — LENS-RISK SITE**: 'And there is no house for Baʿlu like the gods.' wn 'and indeed' (conjunctive); ʾin 'there is not'; bt 'house, dwelling' (cf. Hebrew bayit); km ʾilm 'like the (other) gods.' THIS IS THE CORE GRIEVANCE that drives the entire palace-building arc of KTU 1.3-1.4. Smith & Pitard 2009 vol 2 pp. 296ff treat this as the thematic hinge of the chapter. STRONG CROSS-CORPUS: cf. 2 Sam 7:2 (David: 'I dwell in a house of cedar but the ark dwells in a tent') — the king-without-temple grievance is a structural pattern."
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.3-iv:40",
+          "translit": "w ḥẓr . k bn . ʾaṯrt",
+          "cuneiform": "𐎆𐎟𐎈𐎑𐎗𐎟𐎋𐎟𐎁𐎐𐎟𐎀𐎘𐎗𐎚",
+          "notes": "**THE CENTRAL COMPLAINT (continued)**: 'And no court like the sons of ʾAṯirat.' ḥẓr 'court, dwelling-compound' (cf. Hebrew ḥāṣēr); bn ʾaṯrt 'sons of ʾAṯirat' = the 70 sons of the mother-goddess. STRONG CROSS-CORPUS: bnê ʾēlîm in the Hebrew Bible (e.g. Ps 29:1)."
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.3-iv:41",
+          "translit": "mṯb . ʾil . mẓll . bnh",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎛𐎍𐎟𐎎𐎑𐎍𐎍𐎟𐎁𐎐𐎅",
+          "notes": "'(There is) the dwelling of ʾIlu, the canopy of his sons.' mṯb 'dwelling, seat'; mẓll 'shaded place, canopy' (cf. Hebrew ṣēl 'shadow'); the ʾIlu-establishment formula."
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.3-iv:42",
+          "translit": "mṯb . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'…the dwelling of Lady ʾAṯirat of the Sea.' rbt ʾaṯrt ym 'Lady ʾAṯirat (of the) Sea' = the mother-goddess's full title (cf. KTU 1.4 II 28-29). LENS-RISK SITE for Ch 2: the ʾAṯirat-Asherah cross-corpus material (cf. 1 Kgs 18:19; Hadley 2000)."
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.3-iv:43",
+          "translit": "mṯb . pdry . bt . ʾar",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎔𐎄𐎗𐎊𐎟𐎁𐎚𐎟𐎀𐎗",
+          "notes": "'…the dwelling of Pidray daughter of light.' Baʿlu's daughters listed as already housed in cosmic dwellings (only Baʿlu himself lacks one)."
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.3-iv:44",
+          "translit": "mẓll . ṭly . bt . rb",
+          "cuneiform": "𐎎𐎑𐎍𐎍𐎟𐎉𐎍𐎊𐎟𐎁𐎚𐎟𐎗𐎁",
+          "notes": "'…the canopy of Ṭallay daughter of showers.'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.3-iv:45",
+          "translit": "mṯb . ʾarṣy . bt . yʿbdr",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎀𐎗𐎕𐎊𐎟𐎁𐎚𐎟𐎊𐎓𐎁𐎄𐎗",
+          "notes": "'…the dwelling of Arṣay daughter of Yaʿbudaru.'"
+        },
+        {
+          "n": 46,
+          "refId": "BCY-WOH-1.3-iv:46",
+          "translit": "mṯb . klt . knyt",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎋𐎍𐎚𐎟𐎋𐎐𐎊𐎚",
+          "notes": "'…the dwelling of the bridal-perfected ones(?).' klt knyt 'consummated brides' (cf. Hebrew kallâ 'bride') — Baʿlu's daughters as 'the perfected brides.'"
+        },
+        {
+          "n": 47,
+          "refId": "BCY-WOH-1.3-iv:47",
+          "translit": "[w] ʿnt . tšʾu . gh . w tṣḥ",
+          "cuneiform": "[𐎆]𐎟𐎓𐎐𐎚𐎟𐎚𐎌𐎜𐎟𐎂𐎅𐎟𐎆𐎟𐎚𐎕𐎈",
+          "notes": "'[And] ʿAnatu lifted her voice and cried.' Standard speech-introduction."
+        },
+        {
+          "n": 48,
+          "refId": "BCY-WOH-1.3-iv:48",
+          "translit": "ytʿdd . ʾil . ʾabn . [...]",
+          "cuneiform": "𐎊𐎚𐎓𐎄𐎄𐎟𐎛𐎍𐎟𐎀𐎁𐎐𐎟[𐎟]",
+          "notes": "'(May) ʾIlu the father not be slighted…(?)'. ytʿdd 'he is gathered/strengthened/slighted'; the petitionary mood."
+        },
+        {
+          "n": 49,
+          "refId": "BCY-WOH-1.3-iv:49",
+          "translit": "yʿn . qšth . ʾan [...]",
+          "cuneiform": "𐎊𐎓𐎐𐎟𐎖𐎌𐎚𐎅𐎟𐎀𐎐𐎟[𐎟]",
+          "notes": "'…will heed his bow, I [...].'"
+        },
+        {
+          "n": 50,
+          "refId": "BCY-WOH-1.3-iv:50",
+          "translit": "[...] ʾašhlk . šbt h . [dmm]",
+          "cuneiform": "[𐎟]𐎟𐎀𐎌𐎅𐎍𐎋𐎟𐎌𐎁𐎚𐎟𐎅𐎟[𐎄𐎎𐎎]",
+          "notes": "**THE THREAT-FORMULA (preview)**: 'I will make his gray hairs (run) with [blood].' šbt 'old age, gray hair' (cf. Hebrew śêbâ); dmm 'blood' (pl); ʾašhlk 'I will cause to go/flow' (Š-yqtl 1cs of hlk). The famous threat-formula previewed here (full version in 1.3 v 24-25)."
+        },
+        {
+          "n": 51,
+          "refId": "BCY-WOH-1.3-iv:51",
+          "translit": "šbt . dqnh . mmʿm",
+          "cuneiform": "𐎌𐎁𐎚𐎟𐎄𐎖𐎐𐎅𐎟𐎎𐎎𐎓𐎎",
+          "notes": "**THE THREAT-FORMULA (continued)**: 'His gray-bearded chin with gore.' dqn 'beard, chin' (cf. Hebrew zāqān); mmʿm 'gore' (pl). The shocking-disrespect-to-ʾIlu image."
+        },
+        {
+          "n": 52,
+          "refId": "BCY-WOH-1.3-iv:52",
+          "translit": "k l . ytn . bt . l bʿl . km . ʾilm",
+          "cuneiform": "𐎋𐎟𐎍𐎟𐎊𐎚𐎐𐎟𐎁𐎚𐎟𐎍𐎟𐎁𐎓𐎍𐎟𐎋𐎎𐎟𐎛𐎍𐎎",
+          "notes": "**THE CORE GRIEVANCE RE-STATED**: 'For he has not given a house to Baʿlu like the gods.' k 'for, because'; l ytn 'he has not given.' ʿAnatu protesting on Baʿlu's behalf."
+        },
+        {
+          "n": 53,
+          "refId": "BCY-WOH-1.3-iv:53",
+          "translit": "[w] ḥẓr . k bn . ʾaṯrt",
+          "cuneiform": "[𐎆]𐎟𐎈𐎑𐎗𐎟𐎋𐎟𐎁𐎐𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'[And] no court like the sons of ʾAṯirat.' Parallelism with 1.3 iv 40."
+        },
+        {
+          "n": 54,
+          "refId": "BCY-WOH-1.3-iv:54",
+          "translit": "[...] rgmt . ʿnt . [...]",
+          "cuneiform": "[𐎟]𐎟𐎗𐎂𐎎𐎚𐎟𐎓𐎐𐎚𐎟[𐎟]",
+          "notes": "'…spoke ʿAnatu…'. ʿAnatu's speech-ascription."
+        },
+        {
+          "n": 55,
+          "refId": "BCY-WOH-1.3-iv:55",
+          "translit": "[...] tbʿ . btlt . ʿnt",
+          "cuneiform": "[𐎟]𐎟𐎚𐎁𐎓𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'…the Maiden ʿAnatu departs.' tbʿ 'she departs' (G-yqtl 3fs of pny/byʿ); ʿAnatu now begins her journey to confront ʾIlu — leading directly into col v."
+        }
+      ]
+    },
+    {
+      "segmentId": "1.3-v",
+      "ktu": "KTU 1.3 col v",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.3 col v: ʿAnatu arrives at ʾIlu's distant abode (the source of the two rivers, at the springs of the deeps) and delivers her famous threat — that she will trample the patriarch's hoary head if he does not grant Baʿlu a palace. This is the most audacious passage of the divine-assembly material in the Cycle. MAJOR LENS-RISK SITE: feminist scholarship reads ʿAnatu's threat as the audacity of the warrior-goddess within the patriarchal divine structure (Walls 1992; Day 2000 pp. 132-150).]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.3-v:1",
+          "translit": "ʾidk . l ttn . pnm",
+          "cuneiform": "𐎛𐎄𐎋𐎟𐎍𐎟𐎚𐎚𐎐𐎟𐎔𐎐𐎎",
+          "notes": "'Then indeed she set face…' ʾidk 'then' (cf. Hebrew ʾāz); ytn pnm 'set face toward' — standard travel-formula."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.3-v:2",
+          "translit": "ʿm . ʾil . mbk . nhrm",
+          "cuneiform": "𐎓𐎎𐎟𐎛𐎍𐎟𐎎𐎁𐎋𐎟𐎐𐎅𐎗𐎎",
+          "notes": "**ʾILU'S ABODE-FORMULA**: 'Toward ʾIlu, (at) the source of the two rivers.' mbk 'source, spring' (cf. Akk. bekû); nhrm 'two rivers' (dual). The famous double-river-source — ʾIlu dwells at the cosmic-spring."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.3-v:3",
+          "translit": "qrb . ʾapq . thmtm",
+          "cuneiform": "𐎖𐎗𐎁𐎟𐎀𐎔𐎖𐎟𐎚𐎅𐎎𐎚𐎎",
+          "notes": "**ʾILU'S ABODE-FORMULA (continued)**: 'In the midst of the channels of the two deeps.' qrb 'midst' (cf. Hebrew qereb); ʾapq 'channel, water-course' (cf. Hebrew ʾāpîq); thmtm 'two deeps' (dual of tĕhôm). The cosmic underworld-spring. STRONG CROSS-CORPUS: cf. Gen 2:10 (the river from Eden divided into four heads); the cosmic-spring motif."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.3-v:4",
+          "translit": "tgly . ḏd . ʾil",
+          "cuneiform": "𐎚𐎂𐎍𐎊𐎟𐎏𐎄𐎟𐎛𐎍",
+          "notes": "'She reaches the abode of ʾIlu.' tgly 'she uncovers, reveals (= reaches by passing through)' (G-yqtl 3fs of gly); ḏd 'abode, pavilion.'"
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.3-v:5",
+          "translit": "w tbʾu . qrš . mlk . ʾab . šnm",
+          "cuneiform": "𐎆𐎟𐎚𐎁𐎜𐎟𐎖𐎗𐎌𐎟𐎎𐎍𐎋𐎟𐎀𐎁𐎟𐎌𐎐𐎎",
+          "notes": "'…and enters the dwelling-tent of the King, the Father of Years.' qrš 'tabernacle, tent-shrine' (cf. Hebrew qereš Exod 26:15); mlk 'King'; ʾab šnm 'Father of Years' = ʾIlu's title — STRONG CROSS-CORPUS: cf. Dan 7:9 ʿattîq yômîn 'Ancient of Days.'"
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.3-v:6",
+          "translit": "l pʿn . ʾil . l tpl",
+          "cuneiform": "𐎍𐎟𐎔𐎓𐎐𐎟𐎛𐎍𐎟𐎍𐎟𐎚𐎔𐎍",
+          "notes": "'At the feet of ʾIlu she does not fall.' l tpl 'she does not prostrate' (G-yqtl 3fs negative of npl). **AUDACITY-MARKER**: ʿAnatu refuses the standard prostration-protocol due to a superior deity — extraordinary in the Cycle's poetics. Smith & Pitard 2009 vol 2 pp. 326-330."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.3-v:7",
+          "translit": "l tštḥwy . pḫr . mʿd",
+          "cuneiform": "𐎍𐎟𐎚𐎌𐎚𐎈𐎆𐎊𐎟𐎔𐎃𐎗𐎟𐎎𐎓𐎄",
+          "notes": "'She does not bow down (to) the assembled council.' l tštḥwy 'she does not bow' (Št-yqtl 3fs negative); pḫr mʿd 'congregation of the assembly' (cf. Hebrew sôd, mōʿēd). The refused-prostration to the divine council."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.3-v:8",
+          "translit": "ʾap . ʾanš . zbym . tngṯnh",
+          "cuneiform": "𐎀𐎔𐎟𐎀𐎐𐎌𐎟𐎇𐎁𐎊𐎎𐎟𐎚𐎐𐎂𐎘𐎐𐎅",
+          "notes": "'But the angry princes confront her.' ʾanš 'wrath, anger' (cf. Hebrew ʾānaš); zbym 'princes' (cf. zbl); tngṯnh 'they meet/oppose her' (Gt-yqtl 3mp + 3fs suffix)."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.3-v:9",
+          "translit": "yʿn . ġlmm . yʿnyn",
+          "cuneiform": "𐎊𐎓𐎐𐎟𐎙𐎍𐎎𐎎𐎟𐎊𐎓𐎐𐎊𐎐",
+          "notes": "'The lads answer, they (= the divine attendants) reply.' ġlmm 'the (two) lads' (divine messengers); yʿnyn 'they answer'(D-yqtl 3mp)."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.3-v:10",
+          "translit": "ʾik . mġyt . btlt . ʿnt",
+          "cuneiform": "𐎛𐎋𐎟𐎎𐎙𐎊𐎚𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'How has the Maiden ʿAnatu arrived?' The greeting-question (cf. 1.3 iv 20)."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.3-v:11",
+          "translit": "mġyt . ybmt . lʾimm",
+          "cuneiform": "𐎎𐎙𐎊𐎚𐎟𐎊𐎁𐎎𐎚𐎟𐎍𐎛𐎎𐎎",
+          "notes": "'How has the Sister-in-law of nations arrived?'"
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.3-v:12",
+          "translit": "ʾanškm . tmḫṣ . mhrh . ʾiqnʾi",
+          "cuneiform": "𐎀𐎐𐎌𐎋𐎎𐎟𐎚𐎎𐎃𐎕𐎟𐎎𐎅𐎗𐎅𐎟𐎛𐎖𐎐𐎛",
+          "notes": "'Will you smite your fighters of lapis-lazuli?' tmḫṣ 'you smite' (G-yqtl 2fs); mhrh 'his soldiers'; ʾiqnʾi 'lapis-lazuli'(?). Possibly: a warning that ʿAnatu's wrath could turn against ʾIlu's own retinue."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.3-v:13",
+          "translit": "[...] tṣmt . šbʿt . ġlm h",
+          "cuneiform": "[𐎟]𐎟𐎚𐎕𐎎𐎚𐎟𐎌𐎁𐎓𐎚𐎟𐎙𐎍𐎎𐎟𐎅",
+          "notes": "'…she destroys his seven lads.' tṣmt 'she annihilates' (G-yqtl 3fs of ṣmt); šbʿt 'seven'; ġlm 'lads, attendants.' The threat of slaughtering the divine entourage."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.3-v:14",
+          "translit": "[t]b qnʾi . tbʿ . [b]tlt . ʿnt",
+          "cuneiform": "[𐎚]𐎁𐎟𐎖𐎐𐎛𐎟𐎚𐎁𐎓𐎟[𐎁]𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'…she leaves indignant, the [Mai]den ʿAnatu departs.' qnʾi possibly 'with jealous-zeal' (cf. Hebrew qinʾâ); the leave-taking with stored-up anger."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.3-v:15",
+          "translit": "[t]špl . l pʿn . ʾil",
+          "cuneiform": "[𐎚]𐎌𐎔𐎍𐎟𐎍𐎟𐎔𐎓𐎐𐎟𐎛𐎍",
+          "notes": "'(But) she lowers herself at the feet of ʾIlu.' tšpl 'she lowers herself, makes-low' (G-yqtl 3fs of špl; cf. Hebrew šāpēl). The grudging compliance now — but the threat is coming."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.3-v:16",
+          "translit": "[...] hwt . l b ʾaph",
+          "cuneiform": "[𐎟]𐎟𐎅𐎆𐎚𐎟𐎍𐎟𐎁𐎟𐎀𐎔𐎅",
+          "notes": "'…the word from his nose(?).' Possibly: word of nose-anger (cf. Hebrew ʾap 'nose, anger')."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.3-v:17",
+          "translit": "yqḥ . [bʿ]l . ḥy . [...]",
+          "cuneiform": "𐎊𐎖𐎈𐎟[𐎁𐎓]𐎍𐎟𐎈𐎊𐎟[𐎟]",
+          "notes": "'(That) Baʿlu the Living(?) may take…' bʿl ḥy 'living Baʿlu' — possibly a vocative-praise."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.3-v:18",
+          "translit": "[...] tʾib . ʾank",
+          "cuneiform": "[𐎟]𐎟𐎚𐎛𐎁𐎟𐎀𐎐𐎋",
+          "notes": "'…I will return.' ʾib 'enemy'; ʾank 'I' — the ambiguous threat."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.3-v:19",
+          "translit": "w tʿn . btlt . ʿnt",
+          "cuneiform": "𐎆𐎟𐎚𐎓𐎐𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'And the Maiden ʿAnatu answered.' Standard speech-ascription."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.3-v:20",
+          "translit": "tṯb . [.] ybmt . lʾimm",
+          "cuneiform": "𐎚𐎘𐎁𐎟[𐎟]𐎟𐎊𐎁𐎎𐎚𐎟𐎍𐎛𐎎𐎎",
+          "notes": "'The Sister-in-law of nations replied.' Parallel."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.3-v:21",
+          "translit": "tḥm . k tḥmm . hwt . k hwt . ʾaḫrṣ",
+          "cuneiform": "𐎚𐎈𐎎𐎟𐎋𐎟𐎚𐎈𐎎𐎎𐎟𐎅𐎆𐎚𐎟𐎋𐎟𐎅𐎆𐎚𐎟𐎀𐎃𐎗𐎕",
+          "notes": "'(Hear my) message as messages, my word as the word I will hasten…' tḥm 'message' (cf. KTU 1.3 iii 23); ʾaḫrṣ 'I will hasten' (Š-yqtl 1cs of rṣ; cf. Hebrew rûṣ)."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.3-v:22",
+          "translit": "tbn . l rgmy . ʾil . mlk",
+          "cuneiform": "𐎚𐎁𐎐𐎟𐎍𐎟𐎗𐎂𐎎𐎊𐎟𐎛𐎍𐎟𐎎𐎍𐎋",
+          "notes": "'Listen to my word, ʾIlu the King.' tbn 'listen, understand' (G-yqtl 2ms of byn); the address-to-the-patriarch."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.3-v:23",
+          "translit": "d ynnk . hwt . l . ʾaqlk",
+          "cuneiform": "𐎄𐎟𐎊𐎐𐎐𐎋𐎟𐎅𐎆𐎚𐎟𐎍𐎟𐎀𐎖𐎍𐎋",
+          "notes": "'You who begot me — a word that I will (now) speak.' d ynnk 'you who fathered me' (G-pf 3ms + 1cs suffix of ynn; possibly 'you are my begetter'). ʿAnatu invokes her filial relationship to ʾIlu (she is his daughter) — the audacity is doubled by the kinship-claim."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.3-v:24",
+          "translit": "ʾašhlk . šbt h dmm",
+          "cuneiform": "𐎀𐎌𐎅𐎍𐎋𐎟𐎌𐎁𐎚𐎟𐎅𐎟𐎄𐎎𐎎",
+          "notes": "**THE THREAT — MANDATORY MAJOR**: 'I will make your gray hairs (run) with blood!' ʾašhlk 'I will cause (it) to flow' (Š-yqtl 1cs of hlk); šbt h 'his gray hair / old age' (cf. Hebrew śêbâ); dmm 'with blood.' The audacious threat to the patriarch. Smith & Pitard 2009 vol 2 pp. 332ff. LENS-RISK SITE: ʿAnatu, a female deity, threatens the head of the pantheon."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.3-v:25",
+          "translit": "šbt . dqnk . mmʿm",
+          "cuneiform": "𐎌𐎁𐎚𐎟𐎄𐎖𐎐𐎋𐎟𐎎𐎎𐎓𐎎",
+          "notes": "**THE THREAT (continued) — MANDATORY MAJOR**: 'Your gray-bearded chin with gore!' dqn 'beard, chin' (cf. Hebrew zāqān 'old man, bearded one'); mmʿm 'with gore.' The descent-into-bodily-violation of the highest divine figure. Cf. Walls 1992 *The Goddess Anat in Ugaritic Myth* pp. 173-185."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.3-v:26",
+          "translit": "w yʿn . lṭpn . ʾil . d pʾid",
+          "cuneiform": "𐎆𐎟𐎊𐎓𐎐𐎟𐎍𐎉𐎔𐎐𐎟𐎛𐎍𐎟𐎄𐎟𐎔𐎛𐎄",
+          "notes": "'And the Benevolent ʾIlu the kind-hearted answered.' lṭpn ʾil d pʾid = ʾIlu's full epithet-formula. ʾIlu's reply now."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.3-v:27",
+          "translit": "ydʿtk . k ʾanšt",
+          "cuneiform": "𐎊𐎄𐎓𐎚𐎋𐎟𐎋𐎟𐎀𐎐𐎌𐎚",
+          "notes": "'I know you, that you are stubborn(?).' ydʿtk 'I know you' (G-pf 1cs + 2fs suffix of ydʿ; cf. Hebrew yādaʿ); ʾanšt 'you are wrathful / fierce' (G-pf 2fs of ʾnš). ʾIlu acknowledges ʿAnatu's character without rebuking the threat — the patriarch yields gracefully."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.3-v:28",
+          "translit": "k l . ʾiṯ . b ʾilht . qlṣk",
+          "cuneiform": "𐎋𐎟𐎍𐎟𐎛𐎘𐎟𐎁𐎟𐎛𐎍𐎅𐎚𐎟𐎖𐎍𐎕𐎋",
+          "notes": "'For there is not among the goddesses one (so) bold as you.' qlṣ 'derision, boldness' (cf. Hebrew qālas Ezek 22:5); the recognition-of-uniqueness. ʿAnatu is THE warrior-goddess."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.3-v:29",
+          "translit": "mh . tʾaršn . l btlt . ʿnt",
+          "cuneiform": "𐎎𐎅𐎟𐎚𐎀𐎗𐎌𐎐𐎟𐎍𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'What do you desire, O Maiden ʿAnatu?' tʾaršn 'you desire, request' (G-yqtl 2fs of ʾrš; cf. Hebrew ʾāraš 'to betroth/request'). ʾIlu invites her petition — the threat has worked."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.3-v:30",
+          "translit": "mh . ʾaršt . ybmt . lʾimm",
+          "cuneiform": "𐎎𐎅𐎟𐎀𐎗𐎌𐎚𐎟𐎊𐎁𐎎𐎚𐎟𐎍𐎛𐎎𐎎",
+          "notes": "'What do you request, O Sister-in-law of nations?'"
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.3-v:31",
+          "translit": "w tʿn . btlt . ʿnt",
+          "cuneiform": "𐎆𐎟𐎚𐎓𐎐𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'And the Maiden ʿAnatu answered.'"
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.3-v:32",
+          "translit": "tḥm . k ywd . ʾalʾiyn bʿl",
+          "cuneiform": "𐎚𐎈𐎎𐎟𐎋𐎟𐎊𐎆𐎄𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'(My) request — that Mighty Baʿlu may rejoice(?).' tḥm 'message, request'; ywd possibly 'he may know' or 'he may rejoice.' The petition opens with a wish-formula."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.3-v:33",
+          "translit": "tʿrk . k zbl . bʿl . ʾarṣ",
+          "cuneiform": "𐎚𐎓𐎗𐎋𐎟𐎋𐎟𐎇𐎁𐎍𐎟𐎁𐎓𐎍𐎟𐎀𐎗𐎕",
+          "notes": "'…that you arrange (it for) Prince Baʿlu of the earth.' tʿrk 'you arrange / set in order' (D-yqtl 2ms of ʿrk; cf. Hebrew ʿārak)."
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.3-v:34",
+          "translit": "yšt . pr . b šm . trmm",
+          "cuneiform": "𐎊𐎌𐎚𐎟𐎔𐎗𐎟𐎁𐎟𐎌𐎎𐎟𐎚𐎗𐎎𐎎",
+          "notes": "'…(that he) place (his) bull in (the place of) the heavens (he will) erect.' Building-action-vocabulary."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.3-v:35",
+          "translit": "ʾalʾiyn . bʿl . km . ʾilm",
+          "cuneiform": "𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍𐎟𐎋𐎎𐎟𐎛𐎍𐎎",
+          "notes": "'Mighty Baʿlu like the gods!' = like the other gods who have palaces. The core grievance restated as a wish."
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.3-v:36",
+          "translit": "[w] yʿn . lṭpn . ʾil . d pʾid",
+          "cuneiform": "[𐎆]𐎟𐎊𐎓𐎐𐎟𐎍𐎉𐎔𐎐𐎟𐎛𐎍𐎟𐎄𐎟𐎔𐎛𐎄",
+          "notes": "'[And] the Benevolent ʾIlu the kind-hearted answered.'"
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.3-v:37",
+          "translit": "[...] ʾank . [...] ʿbd . ʾil",
+          "cuneiform": "[𐎟]𐎟𐎀𐎐𐎋𐎟[𐎟]𐎟𐎓𐎁𐎄𐎟𐎛𐎍",
+          "notes": "'…I (am)…servant of ʾIlu(?).' Lost portion; possibly ʾIlu's deflection or partial commitment."
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.3-v:38",
+          "translit": "[...] mlk . ʾil . dgn . [...]",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎋𐎟𐎛𐎍𐎟𐎄𐎂𐎐𐎟[𐎟]",
+          "notes": "'…the king, ʾIlu, Dagan…'. Fragmentary."
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.3-v:39",
+          "translit": "[...] ġr . ksp . [...]",
+          "cuneiform": "[𐎟]𐎟𐎙𐎗𐎟𐎋𐎒𐎔𐎟[𐎟]",
+          "notes": "'…mountain of silver…' Cosmic-construction-vocabulary."
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.3-v:40",
+          "translit": "[...] b ʾaprm",
+          "cuneiform": "[𐎟]𐎟𐎁𐎟𐎀𐎔𐎗𐎎",
+          "notes": "'…in fields(?).'"
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.3-v:41",
+          "translit": "[...] ʾaṯrt",
+          "cuneiform": "[𐎟]𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'…ʾAṯirat…' — the introduction of the next mover. ʿAnatu's confrontation has failed to secure the palace directly from ʾIlu; the petition must now go through ʾAṯirat (mother of the gods)."
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.3-v:42",
+          "translit": "[...] tnb . l ʾank",
+          "cuneiform": "[𐎟]𐎟𐎚𐎐𐎁𐎟𐎍𐎟𐎀𐎐𐎋",
+          "notes": "'…I will speak(?).'"
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.3-v:43",
+          "translit": "[...] tšlḥ . [...]",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎈𐎟[𐎟]",
+          "notes": "'…she sends…'"
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.3-v:44",
+          "translit": "[...] bʿl",
+          "cuneiform": "[𐎟]𐎟𐎁𐎓𐎍",
+          "notes": "'…Baʿlu…'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.3-v:45",
+          "translit": "[...] ṣpn",
+          "cuneiform": "[𐎟]𐎟𐎕𐎔𐎐",
+          "notes": "'…Ṣapunu…'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.3-vi",
+      "ktu": "KTU 1.3 col vi",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.3 col vi: heavily damaged in places; the surviving text shows ʿAnatu reporting back to Baʿlu and the embassy being sent to Kothar-wa-Khasis (the divine craftsman) in his Mediterranean abodes of Kaphtor and Memphis. This closes KTU 1.3 and sets up the construction-arc of KTU 1.4.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.3-vi:1",
+          "translit": "[...] ʾašt . ʾurbt . b bhtm",
+          "cuneiform": "[𐎟]𐎟𐎀𐎌𐎚𐎟𐎜𐎗𐎁𐎚𐎟𐎁𐎟𐎁𐎅𐎚𐎎",
+          "notes": "**THE WINDOW-FORMULA (preview)**: '…I shall set a window in the palace(s).' ʾašt 'I will place' (G-yqtl 1cs of šty); ʾurbt 'window, lattice' (cf. Hebrew ʾărubbâ Gen 7:11 'windows of heaven'); bhtm 'palaces.' The famous window-debate previewed; full development at KTU 1.4 vii 14-30. STRONG CROSS-CORPUS: Gen 7:11 ʾărubbôt haššāmayim 'windows of heaven.'"
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.3-vi:2",
+          "translit": "[ḥlln . b qrb] hklm",
+          "cuneiform": "[𐎈𐎍𐎍𐎐𐎟𐎁𐎟𐎖𐎗𐎁]𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'[A skylight in the midst of] the temple.' ḥlln 'lattice-skylight'; qrb 'midst'; hklm 'temple' (cf. Hebrew hêkāl)."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.3-vi:3",
+          "translit": "[w yʿn ʾalʾiyn bʿl]",
+          "cuneiform": "[𐎆𐎟𐎊𐎓𐎐𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍]",
+          "notes": "'[And Mighty Baʿlu answered].' Restoration of the standard speech-formula."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.3-vi:4",
+          "translit": "[...] ʾaḫd . ʾi[lm . šmm]",
+          "cuneiform": "[𐎟]𐎟𐎀𐎃𐎄𐎟𐎛[𐎍𐎎𐎟𐎌𐎎𐎎]",
+          "notes": "'…[I will] take the gods [of heaven].' ʾaḫd 'I will seize' (G-yqtl 1cs)."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.3-vi:5",
+          "translit": "[...] m . ʿd . ṯlḥnt",
+          "cuneiform": "[𐎟]𐎟𐎎𐎟𐎓𐎄𐎟𐎘𐎍𐎈𐎐𐎚",
+          "notes": "'…until the tables.' Banquet-vocabulary fragment."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.3-vi:6",
+          "translit": "ṯlḥm . tšty . ʾilm",
+          "cuneiform": "𐎘𐎍𐎈𐎎𐎟𐎚𐎌𐎚𐎊𐎟𐎛𐎍𐎎",
+          "notes": "'The gods eat and drink.' ṯlḥm 'eat' (G-impv mp of lḥm); tšty 'drink' (G-yqtl 3fp of šty). The standard divine-banquet-formula."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.3-vi:7",
+          "translit": "[...] tn . llʾim . ʾar",
+          "cuneiform": "[𐎟]𐎟𐎚𐎐𐎟𐎍𐎍𐎛𐎎𐎟𐎀𐎗",
+          "notes": "'…give (food) to the young, light…'. tn 'give' (G-impv); llʾim 'young, kids'; ʾar 'light, milk-young'(?)."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.3-vi:8",
+          "translit": "[w] yʿn . ġlmm . yʿnyn",
+          "cuneiform": "[𐎆]𐎟𐎊𐎓𐎐𐎟𐎙𐎍𐎎𐎎𐎟𐎊𐎓𐎐𐎊𐎐",
+          "notes": "'[And] the lads (= messengers) answer, they reply.' Standard messenger-reply formula."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.3-vi:9",
+          "translit": "lḫt . tḥm . [bʿ]l",
+          "cuneiform": "𐎍𐎃𐎚𐎟𐎚𐎈𐎎𐎟[𐎁𐎓]𐎍",
+          "notes": "'…tablets of the message of [Baʿ]lu.' lḫt 'tablet' (cf. Hebrew lûaḥ); the written-message variant."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.3-vi:10",
+          "translit": "[...] ttbʿn",
+          "cuneiform": "[𐎟]𐎟𐎚𐎚𐎁𐎓𐎐",
+          "notes": "'…they depart.' ttbʿn (Gt-yqtl 3mp of tbʿ/pny)."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.3-vi:11",
+          "translit": "l ttn . pnm . ʿm . kṯr",
+          "cuneiform": "𐎍𐎟𐎚𐎚𐎐𐎟𐎔𐎐𐎎𐎟𐎓𐎎𐎟𐎋𐎘𐎗",
+          "notes": "'They set face toward Kothar.' kṯr 'Kothar (-wa-Khasis)' = the divine craftsman. The Kothar-embassy now."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.3-vi:12",
+          "translit": "ḥkpt . ʾil . klh",
+          "cuneiform": "𐎈𐎋𐎔𐎚𐎟𐎛𐎍𐎟𐎋𐎍𐎅",
+          "notes": "'(To) Memphis, the god of all (it).' ḥkpt 'Memphis' (= Ḥwt-kʾ-Ptḥ 'House-of-the-ka-of-Ptaḥ'); the Egyptian-abode of Kothar."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.3-vi:13",
+          "translit": "kptr . k[sʾi . ṯbth]",
+          "cuneiform": "𐎋𐎔𐎚𐎗𐎟𐎋[𐎒𐎛𐎟𐎘𐎁𐎚𐎅]",
+          "notes": "'Kaphtor (= Crete) the t[hrone of his seat].' Standard Kothar-abode-formula (cf. KTU 1.1 iii 1). Crete + Egypt as the divine craftsman's twin domain."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.3-vi:14",
+          "translit": "[ḥkpt . ʾarṣ . nḥlth]",
+          "cuneiform": "[𐎈𐎋𐎔𐎚𐎟𐎀𐎗𐎕𐎟𐎐𐎈𐎍𐎚𐎅]",
+          "notes": "'[Memphis, the land of his inheritance].' Restored parallel."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.3-vi:15",
+          "translit": "b ʾalp . šd . rbt . kmn",
+          "cuneiform": "𐎁𐎟𐎀𐎍𐎔𐎟𐎌𐎄𐎟𐎗𐎁𐎚𐎟𐎋𐎎𐎐",
+          "notes": "'In a thousand acres, ten thousand hectares.' Cosmic-distance formula."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.3-vi:16",
+          "translit": "l pʿn . kṯr . hbr . w q[l]",
+          "cuneiform": "𐎍𐎟𐎔𐎓𐎐𐎟𐎋𐎘𐎗𐎟𐎅𐎁𐎗𐎟𐎆𐎟𐎖[𐎍]",
+          "notes": "'At the feet of Kothar bow and fa[ll]…'. The standard prostration-formula now addressed to Kothar — the divine craftsman receives respect."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.3-vi:17",
+          "translit": "[t]štḥwy . w kbdh",
+          "cuneiform": "[𐎚]𐎌𐎚𐎈𐎆𐎊𐎟𐎆𐎟𐎋𐎁𐎄𐎅",
+          "notes": "'…prostrate yourselves and honor him.' The four-verb prostration-formula completion."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.3-vi:18",
+          "translit": "rgm . l kṯr . w ḫss",
+          "cuneiform": "𐎗𐎂𐎎𐎟𐎍𐎟𐎋𐎘𐎗𐎟𐎆𐎟𐎃𐎒𐎒",
+          "notes": "'(Now) speak to Kothar-wa-Khasis.' Standard message-delivery-formula."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.3-vi:19",
+          "translit": "ṯny . l hyn . d ḥrš . ydm",
+          "cuneiform": "𐎘𐎐𐎊𐎟𐎍𐎟𐎅𐎊𐎐𐎟𐎄𐎟𐎈𐎗𐎌𐎟𐎊𐎄𐎎",
+          "notes": "'Repeat to Hayin of the (two) skilled hands.' hyn 'Hayin' = Kothar's other name; d ḥrš ydm 'the one of skilled hands' (cf. KTU 1.1 iii 4-5)."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.3-vi:20",
+          "translit": "tḥm . ʾalʾiyn . bʿl",
+          "cuneiform": "𐎚𐎈𐎎𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'Message of Mighty Baʿlu.'"
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.3-vi:21",
+          "translit": "hwt . ʾalʾiy . qrdm",
+          "cuneiform": "𐎅𐎆𐎚𐎟𐎀𐎍𐎛𐎊𐎟𐎖𐎗𐎄𐎎",
+          "notes": "'Word of the Mighty One of warriors.' (cf. KTU 1.3 iii 23-24)."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.3-vi:22",
+          "translit": "[...] hš . bhtm . tbnn",
+          "cuneiform": "[𐎟]𐎟𐎅𐎌𐎟𐎁𐎅𐎚𐎎𐎟𐎚𐎁𐎐𐎐",
+          "notes": "**THE BUILDING-COMMISSION**: '…quickly, palaces will be built.' hš 'quickly, hasten'; bhtm tbnn 'palaces will be built' (G-pass yqtl of bny; cf. Hebrew bānâ). The construction-commission to Kothar."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.3-vi:23",
+          "translit": "[hš . trmmn] . hklm",
+          "cuneiform": "[𐎅𐎌𐎟𐎚𐎗𐎎𐎎𐎐]𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'[Quickly, will-be-erected] temples.' trmmn 'will be erected' (passive); hklm 'temples.' The standard palace-construction-formula (cf. KTU 1.1 iii 27)."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.3-vi:24",
+          "translit": "[...] kbdh . [...]",
+          "cuneiform": "[𐎟]𐎟𐎋𐎁𐎄𐎅𐎟[𐎟]",
+          "notes": "'…honor him…'"
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.3-vi:25",
+          "translit": "[...] kṯr",
+          "cuneiform": "[𐎟]𐎟𐎋𐎘𐎗",
+          "notes": "'…Kothar…'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.4-i",
+      "ktu": "KTU 1.4 col i",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.4 col i: a transition-column. The opening describes the absence of a palace befitting Baʿlu, repeating elements of the earlier complaint. The column then narrates the preparation of gifts (precious metals) for ʾAṯirat, who must intercede with ʾIlu. KTU 1.4 is the longest single tablet of the Cycle (~410 lines across 8 columns).]"
+        }
+      },
+      "lines": [
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.4-i:4",
+          "translit": "k l . ytn . bt . l bʿl . km . ʾilm",
+          "cuneiform": "𐎋𐎟𐎍𐎟𐎊𐎚𐎐𐎟𐎁𐎚𐎟𐎍𐎟𐎁𐎓𐎍𐎟𐎋𐎎𐎟𐎛𐎍𐎎",
+          "notes": "**THE CORE COMPLAINT — RECURRING**: 'For he has not given a house to Baʿlu like the gods.' The hinge-complaint of 1.3 iv 39, 52 now restated. (cf. Smith & Pitard 2009 vol 2 pp. 391-400.)"
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.4-i:5",
+          "translit": "w ḥẓr . k bn . ʾaṯrt",
+          "cuneiform": "𐎆𐎟𐎈𐎑𐎗𐎟𐎋𐎟𐎁𐎐𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'And no court like the sons of ʾAṯirat.'"
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.4-i:6",
+          "translit": "mṯb . ʾil . mẓll . bnh",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎛𐎍𐎟𐎎𐎑𐎍𐎍𐎟𐎁𐎐𐎅",
+          "notes": "'(But) the dwelling of ʾIlu, the canopy of his sons.'"
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.4-i:7",
+          "translit": "mṯb . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'…the dwelling of Lady ʾAṯirat of the Sea.'"
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.4-i:8",
+          "translit": "mṯb . pdry . bt . ʾar",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎔𐎄𐎗𐎊𐎟𐎁𐎚𐎟𐎀𐎗",
+          "notes": "'…the dwelling of Pidray daughter of light.'"
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.4-i:9",
+          "translit": "mẓll . ṭly . bt . rb",
+          "cuneiform": "𐎎𐎑𐎍𐎍𐎟𐎉𐎍𐎊𐎟𐎁𐎚𐎟𐎗𐎁",
+          "notes": "'…the canopy of Ṭallay daughter of showers.'"
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.4-i:10",
+          "translit": "mṯb . ʾarṣy . bt . yʿbdr",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎀𐎗𐎕𐎊𐎟𐎁𐎚𐎟𐎊𐎓𐎁𐎄𐎗",
+          "notes": "'…the dwelling of Arṣay daughter of Yaʿbudaru.'"
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.4-i:11",
+          "translit": "mṯb . klt . knyt",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎋𐎍𐎚𐎟𐎋𐎐𐎊𐎚",
+          "notes": "'…the dwelling of the perfected brides.' (= Baʿlu's three daughters, now properly housed.)"
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.4-i:12",
+          "translit": "yṣq . ksp . yšlḥ . ḫrṣ",
+          "cuneiform": "𐎊𐎕𐎖𐎟𐎋𐎒𐎔𐎟𐎊𐎌𐎍𐎈𐎟𐎃𐎗𐎕",
+          "notes": "**THE METAL-CASTING SCENE**: 'He pours silver, he casts gold.' yṣq 'he pours, smelts' (G-yqtl of yṣq; cf. Hebrew yāṣaq 'to cast metal' Exod 25:12). The preparation of precious metals — the gift-set for ʾAṯirat."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.4-i:13",
+          "translit": "yṣq . ksp . l ʾalpm",
+          "cuneiform": "𐎊𐎕𐎖𐎟𐎋𐎒𐎔𐎟𐎍𐎟𐎀𐎍𐎔𐎎",
+          "notes": "'He pours silver by the thousands.' l ʾalpm 'by thousands' — bulk metallurgy."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.4-i:14",
+          "translit": "ḫrṣ . yṣq m . l rbbt",
+          "cuneiform": "𐎃𐎗𐎕𐎟𐎊𐎕𐎖𐎟𐎎𐎟𐎍𐎟𐎗𐎁𐎁𐎚",
+          "notes": "'(And) gold he pours out by the ten-thousands.' rbbt 'ten-thousands' (= myriads)."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.4-i:15",
+          "translit": "yṣq . ḥym . w tbṯ",
+          "cuneiform": "𐎊𐎕𐎖𐎟𐎈𐎊𐎎𐎟𐎆𐎟𐎚𐎁𐎘",
+          "notes": "'He pours (a) tent / pavilion(?).' ḥym possibly 'pavilion, encampment'; tbṯ uncertain."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.4-i:16",
+          "translit": "[...] km . ksp",
+          "cuneiform": "[𐎟]𐎟𐎋𐎎𐎟𐎋𐎒𐎔",
+          "notes": "'…like silver.'"
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.4-i:17",
+          "translit": "tšt . [...] ġr . ksp",
+          "cuneiform": "𐎚𐎌𐎚𐎟[𐎟]𐎟𐎙𐎗𐎟𐎋𐎒𐎔",
+          "notes": "'She sets…mountain of silver.'"
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.4-i:18",
+          "translit": "[...] ḫrṣ",
+          "cuneiform": "[𐎟]𐎟𐎃𐎗𐎕",
+          "notes": "'…gold.'"
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.4-i:19",
+          "translit": "nʿr . [...] ʾil . ʾaṯrt",
+          "cuneiform": "𐎐𐎓𐎗𐎟[𐎟]𐎟𐎛𐎍𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'A youth…ʾIlu, ʾAṯirat.'"
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.4-i:20",
+          "translit": "[...] dgth . [...]",
+          "cuneiform": "[𐎟]𐎟𐎄𐎂𐎚𐎅𐎟[𐎟]",
+          "notes": "'…her standing-place…'"
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.4-i:21",
+          "translit": "[...] kḫrṣ . bd ḥrš",
+          "cuneiform": "[𐎟]𐎟𐎋𐎃𐎗𐎕𐎟𐎁𐎄𐎟𐎈𐎗𐎌",
+          "notes": "'…like gold in the hand of the craftsman.'"
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.4-i:22",
+          "translit": "[t]bnyt . šlmm",
+          "cuneiform": "[𐎚]𐎁𐎐𐎊𐎚𐎟𐎌𐎍𐎎𐎎",
+          "notes": "'…the structure of peace-offerings.' šlmm 'peace-offerings' (cf. Hebrew šĕlāmîm Lev 7:11)."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.4-i:23",
+          "translit": "[...] mlk . ʾaḫdh",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎋𐎟𐎀𐎃𐎄𐎅",
+          "notes": "'…the king himself.'"
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.4-i:24",
+          "translit": "[...] ṭbḫ . ʾalpm",
+          "cuneiform": "[𐎟]𐎟𐎉𐎁𐎃𐎟𐎀𐎍𐎔𐎎",
+          "notes": "'…he slaughters oxen.' Cf. the standard banquet-formula."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.4-i:25",
+          "translit": "[...] ʾap . ṣʾin",
+          "cuneiform": "[𐎟]𐎟𐎀𐎔𐎟𐎕𐎛𐎐",
+          "notes": "'…also sheep.' Continuing the sacrificial-list."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.4-i:26",
+          "translit": "[ṯrm . w] mrʾi",
+          "cuneiform": "[𐎘𐎗𐎎𐎟𐎆]𐎟𐎎𐎗𐎛",
+          "notes": "'[Bulls and] fatlings.'"
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.4-i:27",
+          "translit": "[ʾilm . ʿglm] . dt . šnt",
+          "cuneiform": "[𐎛𐎍𐎎𐎟𐎓𐎂𐎍𐎎]𐎟𐎄𐎚𐎟𐎌𐎐𐎚",
+          "notes": "'[Rams, calves] of a year.'"
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.4-i:28",
+          "translit": "[ʾimr . qmṣ . ll]ʾim",
+          "cuneiform": "[𐎛𐎎𐎗𐎟𐎖𐎎𐎕𐎟𐎍𐎍]𐎛𐎎",
+          "notes": "'[Lambs, an abundance of] kids.'"
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.4-i:29",
+          "translit": "[...] hbr . w ql",
+          "cuneiform": "[𐎟]𐎟𐎅𐎁𐎗𐎟𐎆𐎟𐎖𐎍",
+          "notes": "'…bow and fall…' The prostration-formula introducing Kothar's audience."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.4-i:30",
+          "translit": "[tšt]ḥwy . w kbd hwt",
+          "cuneiform": "[𐎚𐎌𐎚]𐎈𐎆𐎊𐎟𐎆𐎟𐎋𐎁𐎄𐎟𐎅𐎆𐎚",
+          "notes": "'…[prostr]ate yourselves and honor him.'"
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.4-i:31",
+          "translit": "yṣq . [...] bn ʿrpt",
+          "cuneiform": "𐎊𐎕𐎖𐎟[𐎟]𐎟𐎁𐎐𐎟𐎓𐎗𐎔𐎚",
+          "notes": "'He pours…sons of the clouds.'"
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.4-i:32",
+          "translit": "[...] kṯr",
+          "cuneiform": "[𐎟]𐎟𐎋𐎘𐎗",
+          "notes": "'…Kothar.'"
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.4-i:33",
+          "translit": "ʿl . brktm . pnm . yʿrk",
+          "cuneiform": "𐎓𐎍𐎟𐎁𐎗𐎋𐎚𐎎𐎟𐎔𐎐𐎎𐎟𐎊𐎓𐎗𐎋",
+          "notes": "'Upon the(two) knees he arranges the (his) face.' brktm 'knees' (cf. Hebrew berek)."
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.4-i:34",
+          "translit": "[w yṣq] . krpn . b klʾat . yd",
+          "cuneiform": "[𐎆𐎟𐎊𐎕𐎖]𐎟𐎋𐎗𐎔𐎐𐎟𐎁𐎟𐎋𐎍𐎀𐎚𐎟𐎊𐎄",
+          "notes": "'[And he pours] a krpn-bowl in both hands.' Cup-handling formula."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.4-i:35",
+          "translit": "[...] yšr . ġzr . ṭb ql",
+          "cuneiform": "[𐎟]𐎟𐎊𐎌𐎗𐎟𐎙𐎇𐎗𐎟𐎉𐎁𐎟𐎖𐎍",
+          "notes": "'…the hero of good voice sings.' Cf. 1.3 i 19."
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.4-i:36",
+          "translit": "[...] ʿl . bʿl . b ṣrrt . ṣpn",
+          "cuneiform": "[𐎟]𐎟𐎓𐎍𐎟𐎁𐎓𐎍𐎟𐎁𐎟𐎕𐎗𐎗𐎚𐎟𐎕𐎔𐎐",
+          "notes": "'…(in) the presence of Baʿlu on the heights of Ṣapunu.'"
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.4-i:37",
+          "translit": "[ytm]r . bʿl",
+          "cuneiform": "[𐎊𐎚𐎎]𐎗𐎟𐎁𐎓𐎍",
+          "notes": "'[Baʿlu behol]ds…'"
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.4-i:38",
+          "translit": "[...] yʿn . bʿl",
+          "cuneiform": "[𐎟]𐎟𐎊𐎓𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'…Baʿlu sees.'"
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.4-i:39",
+          "translit": "[...] tn . qšth",
+          "cuneiform": "[𐎟]𐎟𐎚𐎐𐎟𐎖𐎌𐎚𐎅",
+          "notes": "'…he gives his bow.'"
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.4-i:40",
+          "translit": "[...] ʾaṯrt",
+          "cuneiform": "[𐎟]𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'…ʾAṯirat.'"
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.4-i:41",
+          "translit": "[...] bn",
+          "cuneiform": "[𐎟]𐎟𐎁𐎐",
+          "notes": "'…sons.'"
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.4-i:42",
+          "translit": "[...] ksp",
+          "cuneiform": "[𐎟]𐎟𐎋𐎒𐎔",
+          "notes": "'…silver.'"
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.4-i:43",
+          "translit": "[...] yʿn",
+          "cuneiform": "[𐎟]𐎟𐎊𐎓𐎐",
+          "notes": "'…he answers.'"
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.4-i:44",
+          "translit": "[...] ḥrš",
+          "cuneiform": "[𐎟]𐎟𐎈𐎗𐎌",
+          "notes": "'…craftsman.'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.4-i:45",
+          "translit": "[...] kṯr",
+          "cuneiform": "[𐎟]𐎟𐎋𐎘𐎗",
+          "notes": "'…Kothar.'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.4-ii",
+      "ktu": "KTU 1.4 col ii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.4 col ii: the scene shifts to ʾAṯirat, Lady of the Sea (rbt ʾaṯrt ym), at her coastal abode. She is engaged in textile-work (spinning) when she sees Baʿlu and ʿAnatu approaching with gifts. MAJOR LENS-RISK SITE: this is the most extended treatment of ʾAṯirat (the mother-goddess of the Ugaritic pantheon) in any Late-Bronze Northwest-Semitic text. STRONG CROSS-CORPUS for 1 Kgs 18:19 (the prophets of Asherah); the Asherah-polemic in Israelite religion (Day 2000 pp. 42-67; Olyan 1988; Hadley 2000).]"
+        }
+      },
+      "lines": [
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.4-ii:3",
+          "translit": "ʾaḫd . plkh . [bydh]",
+          "cuneiform": "𐎀𐎃𐎄𐎟𐎔𐎍𐎋𐎅𐎟[𐎁𐎊𐎄𐎅]",
+          "notes": "'She takes her spindle [in her hand].' plk 'spindle' (cf. Hebrew pelek 2 Sam 3:29; Prov 31:19). ʾAṯirat at her textile-work — a domestic-divine image."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.4-ii:4",
+          "translit": "plk . t[ʿlt . b]ymnh",
+          "cuneiform": "𐎔𐎍𐎋𐎟𐎚[𐎓𐎍𐎚𐎟𐎁]𐎊𐎎𐎐𐎅",
+          "notes": "'A spindle of l[oad in] her right hand.' tʿlt 'load, weight'; ymn 'right hand.' The textile-imagery continues."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.4-ii:5",
+          "translit": "npynh . mks . bš[rh]",
+          "cuneiform": "𐎐𐎔𐎊𐎐𐎅𐎟𐎎𐎋𐎒𐎟𐎁𐎌[𐎗𐎅]",
+          "notes": "'Her garment, the covering of her fl[esh].' mks 'covering, garment' (cf. Hebrew kĕsût); bšr 'flesh' (cf. Hebrew bāśār)."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.4-ii:6",
+          "translit": "tmt . b ym",
+          "cuneiform": "𐎚𐎎𐎚𐎟𐎁𐎟𐎊𐎎",
+          "notes": "'…she descends(?) into the sea.' tmt possibly 'she casts/descends' — ʾAṯirat's connection to the sea-shore."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.4-ii:7",
+          "translit": "[t]ḫṣp . [...]",
+          "cuneiform": "[𐎚]𐎃𐎕𐎔𐎟[𐎟]",
+          "notes": "'…she scoops up…'"
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.4-ii:8",
+          "translit": "[...] km . ġnʾi . šbʿ",
+          "cuneiform": "[𐎟]𐎟𐎋𐎎𐎟𐎙𐎐𐎛𐎟𐎌𐎁𐎓",
+          "notes": "'…like a vine(?), seven.'"
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.4-ii:9",
+          "translit": "[t]špk . km . šibm",
+          "cuneiform": "[𐎚]𐎌𐎔𐎋𐎟𐎋𐎎𐎟𐎌i𐎁𐎎",
+          "notes": "'…she pours like draw-women(?).' šibm possibly 'cattle-drivers' or 'water-drawers' (cf. šʾb)."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.4-ii:10",
+          "translit": "tʿpp . b yd",
+          "cuneiform": "𐎚𐎓𐎔𐎔𐎟𐎁𐎟𐎊𐎄",
+          "notes": "'She lights/kindles in (her) hand.' tʿpp possibly 'she makes-flutter / kindles' (D-yqtl 3fs)."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.4-ii:11",
+          "translit": "tšu . ʿnh . w tʿn",
+          "cuneiform": "𐎚𐎌u𐎟𐎓𐎐𐎅𐎟𐎆𐎟𐎚𐎓𐎐",
+          "notes": "'She raises her eyes and beholds.' ʿn 'eye' (cf. Hebrew ʿayin). The vision-formula."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.4-ii:12",
+          "translit": "thmt . tšʾu . gh w tṣḥ",
+          "cuneiform": "𐎚𐎅𐎎𐎚𐎟𐎚𐎌𐎜𐎟𐎂𐎅𐎟𐎆𐎟𐎚𐎕𐎈",
+          "notes": "'(From) the deeps she raises her voice and cries.' tšʾu gh 'she lifts her voice' (standard speech-introduction)."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.4-ii:13",
+          "translit": "[ʾi]k . mġy . ʾalʾiyn . bʿl",
+          "cuneiform": "[𐎛]𐎋𐎟𐎎𐎙𐎊𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'Ho[w] (is it that) Mighty Baʿlu has come?' Greeting-question (cf. 1.3 iv 20)."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.4-ii:14",
+          "translit": "[ʾi]k . mġyt . btlt . ʿnt",
+          "cuneiform": "[𐎛]𐎋𐎟𐎎𐎙𐎊𐎚𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'Ho[w] (is it that) the Maiden ʿAnatu has come?'"
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.4-ii:15",
+          "translit": "mḫṣy . hm . mḫṣ . bny",
+          "cuneiform": "𐎎𐎃𐎕𐎊𐎟𐎅𐎎𐎟𐎎𐎃𐎕𐎟𐎁𐎐𐎊",
+          "notes": "'My slayers, or the slayers of my sons?' mḫṣy 'my smiters'; hm 'or'; bny 'my sons' (= the 70 sons of ʾAṯirat). The mother-of-the-gods's first thought is for her children."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.4-ii:16",
+          "translit": "[h]m . mkly . ṣbrt . ʾaryh",
+          "cuneiform": "[𐎅]𐎎𐎟𐎎𐎋𐎍𐎊𐎟𐎕𐎁𐎗𐎚𐎟𐎀𐎗𐎊𐎅",
+          "notes": "'[O]r the destroyers of the kin of (my) clan.' mkly 'destroyers' (Pi-pl); ṣbrt 'group, clan'; ʾary 'kin, kinsman.' The maternal concern for her divine offspring."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.4-ii:17",
+          "translit": "ḫṯʾi . tʿṯr . yʿbd[r]",
+          "cuneiform": "𐎃𐎘𐎛𐎟𐎚𐎓𐎘𐎗𐎟𐎊𐎓𐎁𐎄[𐎗]",
+          "notes": "'A staff/sceptre, she arranges, Yaʿbudar(?).' ḫṯʾi 'staff, club' (cf. Akk. ḫuṭāru)."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.4-ii:18",
+          "translit": "[...] ʾiqnʾim . tšmḫ",
+          "cuneiform": "[𐎟]𐎟𐎛𐎖𐎐𐎛𐎎𐎟𐎚𐎌𐎎𐎃",
+          "notes": "'…lapis-lazuli (gifts), she rejoices.' ʾiqnʾim 'lapis-lazuli pieces'; tšmḫ 'she rejoices' (G-yqtl 3fs of šmḫ; cf. Hebrew śāmaḥ). ʾAṯirat now sees the bridal-gifts."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.4-ii:19",
+          "translit": "[h]t . ḥm . ksp . ʾaṯrt",
+          "cuneiform": "[𐎅]𐎚𐎟𐎈𐎎𐎟𐎋𐎒𐎔𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'…now silver of ʾAṯirat(?).' Wedding-gift inventory."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.4-ii:20",
+          "translit": "[...] ʿbd . ksp . ḥm . ḫrṣ",
+          "cuneiform": "[𐎟]𐎟𐎓𐎁𐎄𐎟𐎋𐎒𐎔𐎟𐎈𐎎𐎟𐎃𐎗𐎕",
+          "notes": "'…workmanship of silver, also gold.'"
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.4-ii:21",
+          "translit": "š[mḫ]t . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎌[𐎎𐎃]𐎚𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'Rejoice[s] the Lady ʾAṯirat of the Sea.' Confirming her positive reception."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.4-ii:22",
+          "translit": "gm . l ġlmh . tṣḥ",
+          "cuneiform": "𐎂𐎎𐎟𐎍𐎟𐎙𐎍𐎎𐎅𐎟𐎚𐎕𐎈",
+          "notes": "'Aloud to her lad she cries.' gm 'aloud'; ġlm 'lad, attendant' — ʾAṯirat addresses her divine attendant. Her primary attendant is Qadeš-wa-ʾAmrar."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.4-ii:23",
+          "translit": "ʿn . mktr . ʾaprm",
+          "cuneiform": "𐎓𐎐𐎟𐎎𐎋𐎚𐎗𐎟𐎀𐎔𐎗𐎎",
+          "notes": "'See the (one of) skilled-handicraft of the fields(?).' Possibly addressed to the lad."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.4-ii:24",
+          "translit": "[...] dġy . rbt",
+          "cuneiform": "[𐎟]𐎟𐎄𐎙𐎊𐎟𐎗𐎁𐎚",
+          "notes": "'…fisherman of the Lady.' dġy 'fisherman' (cf. Hebrew dawwāg) — one of ʾAṯirat's coastal-deity titles is connected with fishing."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.4-ii:25",
+          "translit": "[...] ʾaṯrt . ym",
+          "cuneiform": "[𐎟]𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'…ʾAṯirat of the Sea.'"
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.4-ii:26",
+          "translit": "qḥ . rṯ . b ydk",
+          "cuneiform": "𐎖𐎈𐎟𐎗𐎘𐎟𐎁𐎟𐎊𐎄𐎋",
+          "notes": "'Take a net in your hand.' rṯ 'net' (cf. Hebrew rešet); the fishing-vocabulary."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.4-ii:27",
+          "translit": "[r]bt . ʿl . ydm",
+          "cuneiform": "[𐎗]𐎁𐎚𐎟𐎓𐎍𐎟𐎊𐎄𐎎",
+          "notes": "'…(the) Lady upon the hands.'"
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.4-ii:28",
+          "translit": "b mdd . ʾil . ym",
+          "cuneiform": "𐎁𐎟𐎎𐎄𐎄𐎟𐎛𐎍𐎟𐎊𐎎",
+          "notes": "'…of the Beloved of ʾIlu, Yammu.' The mdd ʾil 'Beloved of ʾIlu' epithet here — Yammu is invoked as ʾAṯirat's sphere of association."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.4-ii:29",
+          "translit": "[b] ym . nhr . ʾil . rbm",
+          "cuneiform": "[𐎁]𐎟𐎊𐎎𐎟𐎐𐎅𐎗𐎟𐎛𐎍𐎟𐎗𐎁𐎎",
+          "notes": "'[In] Yammu, River, the great god.' Identifying Yammu/Nahar — ʾAṯirat's sea-domain."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.4-ii:30",
+          "translit": "[...] yʿbdr",
+          "cuneiform": "[𐎟]𐎟𐎊𐎓𐎁𐎄𐎗",
+          "notes": "'…Yaʿbudar.'"
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.4-ii:31",
+          "translit": "tn . šbʿ . [...]",
+          "cuneiform": "𐎚𐎐𐎟𐎌𐎁𐎓𐎟[𐎟]",
+          "notes": "'Give seven…' šbʿ 'seven'; an offering-count."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.4-ii:32",
+          "translit": "[...] tšlḥm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎈𐎎",
+          "notes": "'…they are sent.'"
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.4-ii:33",
+          "translit": "[...] šmḫt",
+          "cuneiform": "[𐎟]𐎟𐎌𐎎𐎃𐎚",
+          "notes": "'…she rejoiced.'"
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.4-ii:34",
+          "translit": "[...] km . krm",
+          "cuneiform": "[𐎟]𐎟𐎋𐎎𐎟𐎋𐎗𐎎",
+          "notes": "'…like a vineyard.'"
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.4-ii:35",
+          "translit": "[...] ʾipt . tm",
+          "cuneiform": "[𐎟]𐎟𐎛𐎔𐎚𐎟𐎚𐎎",
+          "notes": "'…clarity / there is(?).'"
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.4-ii:36",
+          "translit": "[m]ġyt . [...]",
+          "cuneiform": "[𐎎]𐎙𐎊𐎚𐎟[𐎟]",
+          "notes": "'Comes…' (recipient)."
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.4-ii:37",
+          "translit": "tdrq . [b]ʿl",
+          "cuneiform": "𐎚𐎄𐎗𐎖𐎟[𐎁]𐎓𐎍",
+          "notes": "'The progress of [B]aʿlu.'"
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.4-ii:38",
+          "translit": "[...] yṣb . [...]",
+          "cuneiform": "[𐎟]𐎟𐎊𐎕𐎁𐎟[𐎟]",
+          "notes": "'…(s)he stands.'"
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.4-ii:39",
+          "translit": "[...] rbt",
+          "cuneiform": "[𐎟]𐎟𐎗𐎁𐎚",
+          "notes": "'…Lady.'"
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.4-ii:40",
+          "translit": "[...] šmḫ",
+          "cuneiform": "[𐎟]𐎟𐎌𐎎𐎃",
+          "notes": "'…rejoiced.'"
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.4-ii:41",
+          "translit": "[...] bm . ʿpr",
+          "cuneiform": "[𐎟]𐎟𐎁𐎎𐎟𐎓𐎔𐎗",
+          "notes": "'…in dust.'"
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.4-ii:42",
+          "translit": "[...] tšḥṭ",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎈𐎉",
+          "notes": "'…she slays(?).'"
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.4-ii:43",
+          "translit": "[...] yṣq",
+          "cuneiform": "[𐎟]𐎟𐎊𐎕𐎖",
+          "notes": "'…he pours.'"
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.4-ii:44",
+          "translit": "[...] gln",
+          "cuneiform": "[𐎟]𐎟𐎂𐎍𐎐",
+          "notes": "'…GLN.'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.4-ii:45",
+          "translit": "[...] b ksp",
+          "cuneiform": "[𐎟]𐎟𐎁𐎟𐎋𐎒𐎔",
+          "notes": "'…in silver.'"
+        },
+        {
+          "n": 46,
+          "refId": "BCY-WOH-1.4-ii:46",
+          "translit": "[...] tn . ʾalp",
+          "cuneiform": "[𐎟]𐎟𐎚𐎐𐎟𐎀𐎍𐎔",
+          "notes": "'…give (an) ox.'"
+        },
+        {
+          "n": 47,
+          "refId": "BCY-WOH-1.4-ii:47",
+          "translit": "[...] gpn",
+          "cuneiform": "[𐎟]𐎟𐎂𐎔𐎐",
+          "notes": "'…Gpn (= Vine-deity, Baʿlu's messenger).'"
+        },
+        {
+          "n": 48,
+          "refId": "BCY-WOH-1.4-ii:48",
+          "translit": "[...] kṯr",
+          "cuneiform": "[𐎟]𐎟𐎋𐎘𐎗",
+          "notes": "'…Kothar.'"
+        },
+        {
+          "n": 49,
+          "refId": "BCY-WOH-1.4-ii:49",
+          "translit": "[...] šmḫ",
+          "cuneiform": "[𐎟]𐎟𐎌𐎎𐎃",
+          "notes": "'…rejoice.'"
+        },
+        {
+          "n": 50,
+          "refId": "BCY-WOH-1.4-ii:50",
+          "translit": "[...] ym",
+          "cuneiform": "[𐎟]𐎟𐎊𐎎",
+          "notes": "'…sea.'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.4-iii",
+      "ktu": "KTU 1.4 col iii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.4 col iii: Baʿlu and ʿAnatu present their case to ʾAṯirat, requesting her intercession with ʾIlu. The dialogue between the mother-goddess and the storm-god is one of the more intimate political exchanges of the Cycle.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.4-iii:10",
+          "translit": "ʾap . ʾanš . zbym . tngṯ . [...]",
+          "cuneiform": "𐎀𐎔𐎟𐎀𐎐𐎌𐎟𐎇𐎁𐎊𐎎𐎟𐎚𐎐𐎂𐎘𐎟[𐎟]",
+          "notes": "'But the angry princes (= attendants) confront…' Cf. 1.3 v 8."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.4-iii:11",
+          "translit": "[...] bʿl . šnt . tngṯ",
+          "cuneiform": "[𐎟]𐎟𐎁𐎓𐎍𐎟𐎌𐎐𐎚𐎟𐎚𐎐𐎂𐎘",
+          "notes": "'…Baʿlu, the noble ones confront…'"
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.4-iii:12",
+          "translit": "ṭbn . pšl . tbʿ . tʿln",
+          "cuneiform": "𐎉𐎁𐎐𐎟𐎔𐎌𐎍𐎟𐎚𐎁𐎓𐎟𐎚𐎓𐎍𐎐",
+          "notes": "'They cut … departing, they ascend.' Movement-vocabulary."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.4-iii:13",
+          "translit": "[mġ]y . ʾalʾiyn bʿl",
+          "cuneiform": "[𐎎𐎙]𐎊𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'[Arrives] Mighty Baʿlu.'"
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.4-iii:14",
+          "translit": "[m]ġyt . btlt . ʿnt",
+          "cuneiform": "[𐎎]𐎙𐎊𐎚𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'[Arr]ives the Maiden ʿAnatu.' The dual-arrival to ʾAṯirat's abode."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.4-iii:15",
+          "translit": "tṯpln . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎚𐎘𐎔𐎍𐎐𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'They prostrate themselves (to) the Lady ʾAṯirat of the Sea.' tṯpln 'they prostrate' (Gt-yqtl 3mp of npl 'to fall'). The protocol-prostration to the mother-goddess."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.4-iii:16",
+          "translit": "tkbdn . qnyt . ʾilm",
+          "cuneiform": "𐎚𐎋𐎁𐎄𐎐𐎟𐎖𐎐𐎊𐎚𐎟𐎛𐎍𐎎",
+          "notes": "'They honor the Creatress of the gods.' tkbdn 'they honor' (D-yqtl 3mp + n-ending); qnyt ʾilm 'Creatress (acquirer/owner) of the gods' = ʾAṯirat's standard epithet (cf. Hebrew qōnâ 'create/acquire' Gen 14:19, 22). STRONG CROSS-CORPUS: qōnê šāmayim wāʾāreṣ 'creator of heaven and earth' — ʾAṯirat's creator-title is THE closest Late-Bronze cognate to Genesis."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.4-iii:17",
+          "translit": "ʾap . mṯbnh . ʾiqnʾi[m]",
+          "cuneiform": "𐎀𐎔𐎟𐎎𐎘𐎁𐎐𐎅𐎟𐎛𐎖𐎐𐎛[𐎎]",
+          "notes": "'Indeed, her dwelling is lapis-lazu[li].' ʾiqnʾim 'lapis-lazuli' — the precious-stone-dwelling of ʾAṯirat."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.4-iii:18",
+          "translit": "[w] tʿn . rbt . ʾaṯrt . ym",
+          "cuneiform": "[𐎆]𐎟𐎚𐎓𐎐𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'[And] the Lady ʾAṯirat of the Sea answered.'"
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.4-iii:19",
+          "translit": "ʾik . mġy . ʾalʾiyn bʿl",
+          "cuneiform": "𐎛𐎋𐎟𐎎𐎙𐎊𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'How has Mighty Baʿlu come?'"
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.4-iii:20",
+          "translit": "ʾik . mġyt . btlt . ʿnt",
+          "cuneiform": "𐎛𐎋𐎟𐎎𐎙𐎊𐎚𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'How has the Maiden ʿAnatu come?'"
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.4-iii:21",
+          "translit": "mḫṣ y . hm . mḫṣ . bny",
+          "cuneiform": "𐎎𐎃𐎕𐎟𐎊𐎟𐎅𐎎𐎟𐎎𐎃𐎕𐎟𐎁𐎐𐎊",
+          "notes": "'My slayers, or the slayers of my sons?' (Cf. 1.4 ii 15.)"
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.4-iii:22",
+          "translit": "hm . mkly . ṣbrt . ʾaryh",
+          "cuneiform": "𐎅𐎎𐎟𐎎𐎋𐎍𐎊𐎟𐎕𐎁𐎗𐎚𐎟𐎀𐎗𐎊𐎅",
+          "notes": "'Or the destroyers of the kin of my clan?'"
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.4-iii:23",
+          "translit": "[w] tʿn . btlt . ʿnt",
+          "cuneiform": "[𐎆]𐎟𐎚𐎓𐎐𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'[And] the Maiden ʿAnatu answered.'"
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.4-iii:24",
+          "translit": "rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'O Lady ʾAṯirat of the Sea!' Vocative-address."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.4-iii:25",
+          "translit": "ṯn . rgmm . ʾargm",
+          "cuneiform": "𐎘𐎐𐎟𐎗𐎂𐎎𐎎𐎟𐎀𐎗𐎂𐎎",
+          "notes": "'Two words I shall speak.' ṯn 'two'; rgmm 'words.' The two-fold speech-formula."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.4-iii:26",
+          "translit": "ṯlṯt . ʾaṯnyk",
+          "cuneiform": "𐎘𐎍𐎘𐎚𐎟𐎀𐎘𐎐𐎊𐎋",
+          "notes": "'A third I shall repeat to you.' ṯlṯt 'third'; ʾaṯnyk 'I shall repeat' (Dt-yqtl 1cs + 2fs suffix)."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.4-iii:27",
+          "translit": "ʾap . krty . ʾašṣmt",
+          "cuneiform": "𐎀𐎔𐎟𐎋𐎗𐎚𐎊𐎟𐎀𐎌𐎕𐎎𐎚",
+          "notes": "'For verily I have made-an-end of(?).' krty possibly 'in my hand'; ʾašṣmt = Š-pf 1cs of ṣmt 'destroy.'"
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.4-iii:28",
+          "translit": "[ʾiy] dgn . pid . bʿl",
+          "cuneiform": "[𐎛𐎊]𐎟𐎄𐎂𐎐𐎟𐎔i𐎄𐎟𐎁𐎓𐎍",
+          "notes": "'Where (is) Dagan(?), the gracious-one of Baʿlu?' ʾiy 'where' (cf. Hebrew ʾay); the question-formula. pid 'kindness' (= the same root as d pʾid 'kind-hearted')."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.4-iii:29",
+          "translit": "[k] l ytn bt l bʿl",
+          "cuneiform": "[𐎋]𐎟𐎍𐎟𐎊𐎚𐎐𐎟𐎁𐎚𐎟𐎍𐎟𐎁𐎓𐎍",
+          "notes": "'[For] he has not given a house to Baʿlu.' THE CORE COMPLAINT to ʾAṯirat directly."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.4-iii:30",
+          "translit": "[km . ʾi]lm . ḥẓr . kbn . ʾaṯrt",
+          "cuneiform": "[𐎋𐎎𐎟𐎛]𐎍𐎎𐎟𐎈𐎑𐎗𐎟𐎋𐎁𐎐𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'[Like the g]ods, court like the sons of ʾAṯirat.' Repetition of the central grievance."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.4-iii:31",
+          "translit": "[m]ṯb . ʾil . mẓll . bnh",
+          "cuneiform": "[𐎎]𐎘𐎁𐎟𐎛𐎍𐎟𐎎𐎑𐎍𐎍𐎟𐎁𐎐𐎅",
+          "notes": "'[The] dwelling of ʾIlu, the canopy of his sons.'"
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.4-iii:32",
+          "translit": "[m]ṯb . rbt . ʾaṯrt . ym",
+          "cuneiform": "[𐎎]𐎘𐎁𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'[The] dwelling of Lady ʾAṯirat of the Sea.'"
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.4-iii:33",
+          "translit": "mṯb . pdry . bt . ʾar",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎔𐎄𐎗𐎊𐎟𐎁𐎚𐎟𐎀𐎗",
+          "notes": "'…the dwelling of Pidray daughter of light.'"
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.4-iii:34",
+          "translit": "mẓll . ṭly . bt . rb",
+          "cuneiform": "𐎎𐎑𐎍𐎍𐎟𐎉𐎍𐎊𐎟𐎁𐎚𐎟𐎗𐎁",
+          "notes": "'…the canopy of Ṭallay daughter of showers.'"
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.4-iii:35",
+          "translit": "mṯb . ʾarṣy . bt . yʿbdr",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎀𐎗𐎕𐎊𐎟𐎁𐎚𐎟𐎊𐎓𐎁𐎄𐎗",
+          "notes": "'…the dwelling of Arṣay daughter of Yaʿbudaru.'"
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.4-iii:36",
+          "translit": "mṯb . klt . knyt",
+          "cuneiform": "𐎎𐎘𐎁𐎟𐎋𐎍𐎚𐎟𐎋𐎐𐎊𐎚",
+          "notes": "'…the dwelling of the perfected brides.'"
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.4-iii:37",
+          "translit": "w tʿn . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎆𐎟𐎚𐎓𐎐𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'And the Lady ʾAṯirat of the Sea answered.'"
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.4-iii:38",
+          "translit": "[...] tšmḫ . hm . ʾal",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎎𐎃𐎟𐎅𐎎𐎟𐎀𐎍",
+          "notes": "'…she rejoices(?), if not.'"
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.4-iii:39",
+          "translit": "[...] yqḥ . ʾank",
+          "cuneiform": "[𐎟]𐎟𐎊𐎖𐎈𐎟𐎀𐎐𐎋",
+          "notes": "'…I will take/accept.'"
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.4-iii:40",
+          "translit": "[...] bd . ṯr . ʾab . ʾil",
+          "cuneiform": "[𐎟]𐎟𐎁𐎄𐎟𐎘𐎗𐎟𐎀𐎁𐎟𐎛𐎍",
+          "notes": "'…in the hand of Bull ʾIlu my father.'"
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.4-iii:41",
+          "translit": "[...] tšmḫ",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎎𐎃",
+          "notes": "'…she rejoices.'"
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.4-iii:42",
+          "translit": "[...] šmm . šmnt",
+          "cuneiform": "[𐎟]𐎟𐎌𐎎𐎎𐎟𐎌𐎎𐎐𐎚",
+          "notes": "'…heavens (of) oil.' šmm 'heavens'; šmnt 'fatness, abundance' (cf. Hebrew šemen)."
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.4-iii:43",
+          "translit": "[...] tšlḥm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎈𐎎",
+          "notes": "'…they/she serve(s) food.'"
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.4-iii:44",
+          "translit": "[...] yšty",
+          "cuneiform": "[𐎟]𐎟𐎊𐎌𐎚𐎊",
+          "notes": "'…he drinks.'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.4-iii:45",
+          "translit": "[...] yn",
+          "cuneiform": "[𐎟]𐎟𐎊𐎐",
+          "notes": "'…wine.'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.4-iv",
+      "ktu": "KTU 1.4 col iv",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.4 col iv: ʾAṯirat now sets out, ridden by her loyal attendant Qadeš-wa-ʾAmrar, to the distant abode of ʾIlu at the source of the rivers. This is one of the longest journey-scenes in the Cycle. The protocol of arrival, prostration, and welcome is described in full detail. ʾIlu greets ʾAṯirat with intimate language.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.4-iv:2",
+          "translit": "[...] ʾaṯry . ym",
+          "cuneiform": "[𐎟]𐎟𐎀𐎘𐎗𐎊𐎟𐎊𐎎",
+          "notes": "'…she follows the sea.' ʾaṯry 'her path'(?)."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.4-iv:3",
+          "translit": "tḥdy . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎚𐎈𐎄𐎊𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'The Lady ʾAṯirat of the Sea exults.' tḥdy 'she rejoices' (G-yqtl 3fs of ḥdy)."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.4-iv:4",
+          "translit": "gm . l ġlmh . k tṣḥ",
+          "cuneiform": "𐎂𐎎𐎟𐎍𐎟𐎙𐎍𐎎𐎅𐎟𐎋𐎟𐎚𐎕𐎈",
+          "notes": "'Aloud to her lad she cries.' gm 'aloud'; the call to her attendant."
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.4-iv:5",
+          "translit": "ʿn . mktr . ʾaprm",
+          "cuneiform": "𐎓𐎐𐎟𐎎𐎋𐎚𐎗𐎟𐎀𐎔𐎗𐎎",
+          "notes": "'See the skilled-craftsman of the fields(?).' Possibly addressed to Qadeš-wa-ʾAmrar."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.4-iv:6",
+          "translit": "dġy . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎄𐎙𐎊𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'…fisherman of the Lady ʾAṯirat of the Sea.'"
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.4-iv:7",
+          "translit": "qdš . ʾaḫd ṯkb",
+          "cuneiform": "𐎖𐎄𐎌𐎟𐎀𐎃𐎄𐎟𐎘𐎋𐎁",
+          "notes": "'Qadeš takes the saddle(?).' qdš 'Qadeš' (= ʾAṯirat's primary attendant Qadeš-wa-ʾAmrar 'Holy-and-Mighty').'"
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.4-iv:8",
+          "translit": "ʾamrr . k kbkb . l pnm",
+          "cuneiform": "𐎀𐎎𐎗𐎗𐎟𐎋𐎟𐎋𐎁𐎋𐎁𐎟𐎍𐎟𐎔𐎐𐎎",
+          "notes": "'ʾAmrar like a star before (her).' ʾamrr 'ʾAmrar'; k kbkb 'like a star' — the divine-attendant lighting the way. Cf. the messenger-star imagery; possibly cognate to Hebrew kôkāb."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.4-iv:9",
+          "translit": "ʾatr . btlt . ʿnt",
+          "cuneiform": "𐎀𐎚𐎗𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'After the Maiden ʿAnatu.'"
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.4-iv:10",
+          "translit": "w bʿl . tbʿ . mrym . ṣpn",
+          "cuneiform": "𐎆𐎟𐎁𐎓𐎍𐎟𐎚𐎁𐎓𐎟𐎎𐎗𐎊𐎎𐎟𐎕𐎔𐎐",
+          "notes": "'And Baʿlu departs (to) the heights of Ṣapunu.'"
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.4-iv:11",
+          "translit": "ʾidk . l ttn . pnm",
+          "cuneiform": "𐎛𐎄𐎋𐎟𐎍𐎟𐎚𐎚𐎐𐎟𐎔𐎐𐎎",
+          "notes": "'Then indeed she set face…' Travel-formula opening."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.4-iv:12",
+          "translit": "ʿm . ʾil . mbk . nhrm",
+          "cuneiform": "𐎓𐎎𐎟𐎛𐎍𐎟𐎎𐎁𐎋𐎟𐎐𐎅𐎗𐎎",
+          "notes": "'…toward ʾIlu, (at) the source of the two rivers.'"
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.4-iv:13",
+          "translit": "qrb . ʾapq . thmtm",
+          "cuneiform": "𐎖𐎗𐎁𐎟𐎀𐎔𐎖𐎟𐎚𐎅𐎎𐎚𐎎",
+          "notes": "'…in the midst of the channels of the two deeps.'"
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.4-iv:14",
+          "translit": "tgly . ḏd . ʾil . w tbʾu",
+          "cuneiform": "𐎚𐎂𐎍𐎊𐎟𐎏𐎄𐎟𐎛𐎍𐎟𐎆𐎟𐎚𐎁𐎜",
+          "notes": "'She reaches the abode of ʾIlu, and enters.'"
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.4-iv:15",
+          "translit": "qrš . mlk . ʾab . šnm",
+          "cuneiform": "𐎖𐎗𐎌𐎟𐎎𐎍𐎋𐎟𐎀𐎁𐎟𐎌𐎐𐎎",
+          "notes": "'…the dwelling-tent of the King, the Father of Years.'"
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.4-iv:16",
+          "translit": "l pʿn . ʾil . thbr . w tql",
+          "cuneiform": "𐎍𐎟𐎔𐎓𐎐𐎟𐎛𐎍𐎟𐎚𐎅𐎁𐎗𐎟𐎆𐎟𐎚𐎖𐎍",
+          "notes": "'At the feet of ʾIlu she bows and falls down.' thbr 'she bows' (G-yqtl 3fs of hbr); tql 'she falls' (G-yqtl 3fs of npl). The standard prostration-formula — ʾAṯirat, unlike ʿAnatu, observes protocol."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.4-iv:17",
+          "translit": "tštḥwy . w tkbdh",
+          "cuneiform": "𐎚𐎌𐎚𐎈𐎆𐎊𐎟𐎆𐎟𐎚𐎋𐎁𐎄𐎅",
+          "notes": "'She prostrates herself and honors him.' The four-verb prostration-formula completed."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.4-iv:18",
+          "translit": "hlm . ʾil . k yphnh",
+          "cuneiform": "𐎅𐎍𐎎𐎟𐎛𐎍𐎟𐎋𐎟𐎊𐎔𐎅𐎐𐎅",
+          "notes": "'When ʾIlu beholds her…' hlm 'when' (temporal particle); yphnh 'he sees her' (G-yqtl 3ms + 3fs suffix of phy/pny). Note: phy is the rare 'see' root cognate to Hebrew pānâ (turn face)."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.4-iv:19",
+          "translit": "yprq . lṣb . w yṣḥq",
+          "cuneiform": "𐎊𐎔𐎗𐎖𐎟𐎍𐎕𐎁𐎟𐎆𐎟𐎊𐎕𐎈𐎖",
+          "notes": "'He cracks/opens his jaw and laughs.' yprq 'he splits / opens' (G-yqtl 3ms of prq; cf. Akk. parāqu); lṣb 'jaw, mouth-corner'; yṣḥq 'he laughs' (G-yqtl 3ms of ṣḥq; cf. Hebrew ṣāḥaq Gen 17:17). ʾIlu's delight at ʾAṯirat's arrival — the laugh-of-recognition between divine consorts."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.4-iv:20",
+          "translit": "pʿnh . l hdm . yṯpd",
+          "cuneiform": "𐎔𐎓𐎐𐎅𐎟𐎍𐎟𐎅𐎄𐎎𐎟𐎊𐎘𐎔𐎄",
+          "notes": "'He places his feet on the footstool.' yṯpd 'he sets, plants' (G-yqtl 3ms of ṯpd); hdm 'footstool' (cf. Hebrew hădōm Ps 110:1)."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.4-iv:21",
+          "translit": "w yqrṣ . ʾuṣbʿth",
+          "cuneiform": "𐎆𐎟𐎊𐎖𐎗𐎕𐎟𐎜𐎕𐎁𐎓𐎚𐎅",
+          "notes": "'…and snaps his fingers.' yqrṣ 'he snaps, pinches' (G-yqtl of qrṣ); ʾuṣbʿt 'fingers.' A gesture of pleased attention."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.4-iv:22",
+          "translit": "yšʾu . gh . w yṣḥ",
+          "cuneiform": "𐎊𐎌𐎜𐎟𐎂𐎅𐎟𐎆𐎟𐎊𐎕𐎈",
+          "notes": "'He lifts his voice and cries.'"
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.4-iv:23",
+          "translit": "ʾik . mġyt . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎛𐎋𐎟𐎎𐎙𐎊𐎚𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "**ʾILU'S INTIMATE GREETING**: 'How has the Lady ʾAṯirat of the Sea come?' ʾIlu's standard greeting-question now to his own consort."
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.4-iv:24",
+          "translit": "ʾik . ʾatwt . qnyt . ʾilm",
+          "cuneiform": "𐎛𐎋𐎟𐎀𐎚𐎆𐎚𐎟𐎖𐎐𐎊𐎚𐎟𐎛𐎍𐎎",
+          "notes": "**ʾILU'S INTIMATE GREETING (continued)**: 'How have you come, O Creatress of the gods?' ʾatwt 'you have come' (G-pf 2fs of ʾtw/ʾty; cf. Hebrew ʾātâ); qnyt ʾilm 'Creatress of the gods.' The double-greeting marks the spousal-bond."
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.4-iv:25",
+          "translit": "rġb . rġbt . w tġ[t]",
+          "cuneiform": "𐎗𐎙𐎁𐎟𐎗𐎙𐎁𐎚𐎟𐎆𐎟𐎚𐎙[𐎚]",
+          "notes": "'Are you very hungry, having traveled(?)?' rġb 'be hungry' (G-stative); the welcome-host's hospitality-question."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.4-iv:26",
+          "translit": "hm . ġmʾu . ġm[ʾi]t",
+          "cuneiform": "𐎅𐎎𐎟𐎙𐎎𐎜𐎟𐎙𐎎[𐎛]𐎚",
+          "notes": "'Or very thirsty?' ġmʾi 'be thirsty' (G-stative of ġmʾ; cf. Akk. ṣamû). The hospitality-couplet hunger // thirst."
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.4-iv:27",
+          "translit": "lḥm . hm . štym",
+          "cuneiform": "𐎍𐎈𐎎𐎟𐎅𐎎𐎟𐎌𐎚𐎊𐎎",
+          "notes": "'Eat, or drink!' lḥm 'eat!' (G-impv); štym 'drink!' (G-impv mp/du)."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.4-iv:28",
+          "translit": "lḥm . b ṯlḥnt . lḥm",
+          "cuneiform": "𐎍𐎈𐎎𐎟𐎁𐎟𐎘𐎍𐎈𐎐𐎚𐎟𐎍𐎈𐎎",
+          "notes": "'Eat from the tables, eat!'"
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.4-iv:29",
+          "translit": "šty . b krpnm . yn",
+          "cuneiform": "𐎌𐎚𐎊𐎟𐎁𐎟𐎋𐎗𐎔𐎐𐎎𐎟𐎊𐎐",
+          "notes": "'Drink wine from the krpn-bowls.'"
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.4-iv:30",
+          "translit": "b ks . ḫrṣ . dm . ʿṣm",
+          "cuneiform": "𐎁𐎟𐎋𐎒𐎟𐎃𐎗𐎕𐎟𐎄𐎎𐎟𐎓𐎕𐎎",
+          "notes": "'From the golden cup, the blood of trees.' Cf. 1.3 i 4."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.4-iv:31",
+          "translit": "hm . yd . ʾil . mlk . yḥssk",
+          "cuneiform": "𐎅𐎎𐎟𐎊𐎄𐎟𐎛𐎍𐎟𐎎𐎍𐎋𐎟𐎊𐎈𐎒𐎒𐎋",
+          "notes": "'If perhaps the love of King ʾIlu has stirred you…' yd 'love' (= the same homophone of yad); yḥssk 'stirs you, arouses you' (D-yqtl 3ms + 2fs suffix). The sexual-marital invitation."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.4-iv:32",
+          "translit": "ʾahbt . ṯr . tʿrrk",
+          "cuneiform": "𐎀𐎅𐎁𐎚𐎟𐎘𐎗𐎟𐎚𐎓𐎗𐎗𐎋",
+          "notes": "'…(if) the love of the Bull excites you…' ʾahbt 'love' (cf. Hebrew ʾahăbâ); tʿrrk 'arouses you' (D-yqtl 3fs + 2fs suffix). The mutual-arousal formula."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.4-iv:33",
+          "translit": "w tʿn . rbt . ʾaṯrt . ym",
+          "cuneiform": "𐎆𐎟𐎚𐎓𐎐𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'And the Lady ʾAṯirat of the Sea answered.'"
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.4-iv:34",
+          "translit": "tḥmk . ʾil . ḥkm",
+          "cuneiform": "𐎚𐎈𐎎𐎋𐎟𐎛𐎍𐎟𐎈𐎋𐎎",
+          "notes": "'Your word, ʾIlu, is wise.' ḥkm 'wise' (cf. Hebrew ḥākām). The diplomatic-flattery opening."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.4-iv:35",
+          "translit": "ḥkmk . ʿm . ʿlm",
+          "cuneiform": "𐎈𐎋𐎎𐎋𐎟𐎓𐎎𐎟𐎓𐎍𐎎",
+          "notes": "'Your wisdom is with eternity.' ʿm ʿlm 'with eternity' = perpetually-wise. ḥkm + ʿlm = the wisdom-eternity pair."
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.4-iv:36",
+          "translit": "ḥyt . ḥẓt . tḥmk",
+          "cuneiform": "𐎈𐎊𐎚𐎟𐎈𐎑𐎚𐎟𐎚𐎈𐎎𐎋",
+          "notes": "'…life, good fortune (is) your word.'"
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.4-iv:37",
+          "translit": "tḥmk . ʾil ḥkm",
+          "cuneiform": "𐎚𐎈𐎎𐎋𐎟𐎛𐎍𐎟𐎈𐎋𐎎",
+          "notes": "'Your word, ʾIlu, is wise.'"
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.4-iv:38",
+          "translit": "[...] mlk . ʾalʾiyn . bʿl",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎋𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'…(but) the king(ship) of Mighty Baʿlu (concerns me).'"
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.4-iv:39",
+          "translit": "[...] ṯpṭn . w ʾin . d ʿlnh",
+          "cuneiform": "[𐎟]𐎟𐎘𐎔𐎉𐎐𐎟𐎆𐎟𐎛𐎐𐎟𐎄𐎟𐎓𐎍𐎐𐎅",
+          "notes": "'…(let him be) our judge, and there is none above him.' ṯpṭn 'our judge' (cf. Hebrew šôpēṭēnû). The kingship-acknowledgement."
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.4-iv:40",
+          "translit": "[...] klnyy . qš . [...]",
+          "cuneiform": "[𐎟]𐎟𐎋𐎍𐎐𐎊𐎊𐎟𐎖𐎌𐎟[𐎟]",
+          "notes": "'…all of us(?) (bring) gift…'"
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.4-iv:41",
+          "translit": "[...] klnyy . n[bln]",
+          "cuneiform": "[𐎟]𐎟𐎋𐎍𐎐𐎊𐎊𐎟𐎐[𐎁𐎍𐎐]",
+          "notes": "'…all of us (bring) tribute.' nbl 'tribute, dedication' (cf. Hebrew nēbel)."
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.4-iv:42",
+          "translit": "[...] ks . ḥwt",
+          "cuneiform": "[𐎟]𐎟𐎋𐎒𐎟𐎈𐎆𐎚",
+          "notes": "'…cup of being / sphere(?).'"
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.4-iv:43",
+          "translit": "[w yʿn ʾil] . ḥwt",
+          "cuneiform": "[𐎆𐎟𐎊𐎓𐎐𐎟𐎛𐎍]𐎟𐎈𐎆𐎚",
+          "notes": "'[And ʾIlu answered].'"
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.4-iv:44",
+          "translit": "[...] ʾan . ʿnt",
+          "cuneiform": "[𐎟]𐎟𐎀𐎐𐎟𐎓𐎐𐎚",
+          "notes": "'…I, ʿAnatu(?).'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.4-iv:45",
+          "translit": "[p . ʿbd ʾank . ʿbd] ʾaṯrt",
+          "cuneiform": "[𐎔𐎟𐎓𐎁𐎄𐎟𐎀𐎐𐎋𐎟𐎓𐎁𐎄]𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'[Am I, then, a slave?] A slave of ʾAṯirat?' ʿbd 'slave, servant'; ʾank 'I' — ʾIlu's possible rhetorical question rejecting subservience."
+        },
+        {
+          "n": 46,
+          "refId": "BCY-WOH-1.4-iv:46",
+          "translit": "[...] mḫt",
+          "cuneiform": "[𐎟]𐎟𐎎𐎃𐎚",
+          "notes": "'…of (the) handmaid(?).' Possibly a maidservant-reference."
+        },
+        {
+          "n": 47,
+          "refId": "BCY-WOH-1.4-iv:47",
+          "translit": "[...] tḫrš",
+          "cuneiform": "[𐎟]𐎟𐎚𐎃𐎗𐎌",
+          "notes": "'…you fashion / craft.'"
+        },
+        {
+          "n": 48,
+          "refId": "BCY-WOH-1.4-iv:48",
+          "translit": "[...] lbnt",
+          "cuneiform": "[𐎟]𐎟𐎍𐎁𐎐𐎚",
+          "notes": "'…brick / building-block.' lbnt 'brick' (cf. Hebrew lĕbēnâ Exod 1:14); building-vocabulary previewing the construction-scene."
+        },
+        {
+          "n": 49,
+          "refId": "BCY-WOH-1.4-iv:49",
+          "translit": "[...] mġnnh",
+          "cuneiform": "[𐎟]𐎟𐎎𐎙𐎐𐎐𐎅",
+          "notes": "'…we shall give-gift (to) her.' mġnn 'to placate with gifts' (cf. Hebrew māgēn 'shield')."
+        },
+        {
+          "n": 50,
+          "refId": "BCY-WOH-1.4-iv:50",
+          "translit": "[...] tʿn . btlt . ʿnt",
+          "cuneiform": "[𐎟]𐎟𐎚𐎓𐎐𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'…the Maiden ʿAnatu answers.'"
+        },
+        {
+          "n": 51,
+          "refId": "BCY-WOH-1.4-iv:51",
+          "translit": "[...] tnk",
+          "cuneiform": "[𐎟]𐎟𐎚𐎐𐎋",
+          "notes": "'…the gift of you(?).'"
+        },
+        {
+          "n": 52,
+          "refId": "BCY-WOH-1.4-iv:52",
+          "translit": "[...] mtt . ʾank",
+          "cuneiform": "[𐎟]𐎟𐎎𐎚𐎚𐎟𐎀𐎐𐎋",
+          "notes": "'…the death of me / death I (am)(?).'"
+        },
+        {
+          "n": 53,
+          "refId": "BCY-WOH-1.4-iv:53",
+          "translit": "[...] šnt . ʾank",
+          "cuneiform": "[𐎟]𐎟𐎌𐎐𐎚𐎟𐎀𐎐𐎋",
+          "notes": "'…years I have(?).'"
+        },
+        {
+          "n": 54,
+          "refId": "BCY-WOH-1.4-iv:54",
+          "translit": "[...] kpṯr",
+          "cuneiform": "[𐎟]𐎟𐎋𐎔𐎘𐎗",
+          "notes": "'…Kaphtor.'"
+        },
+        {
+          "n": 55,
+          "refId": "BCY-WOH-1.4-iv:55",
+          "translit": "[...] bt . l bʿl",
+          "cuneiform": "[𐎟]𐎟𐎁𐎚𐎟𐎍𐎟𐎁𐎓𐎍",
+          "notes": "'…(no) house for Baʿlu.' THE CORE GRIEVANCE recurs."
+        },
+        {
+          "n": 56,
+          "refId": "BCY-WOH-1.4-iv:56",
+          "translit": "[...] km . ʾilm",
+          "cuneiform": "[𐎟]𐎟𐎋𐎎𐎟𐎛𐎍𐎎",
+          "notes": "'…like the gods.'"
+        },
+        {
+          "n": 57,
+          "refId": "BCY-WOH-1.4-iv:57",
+          "translit": "[...] mlk . ʾalʾiyn",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎋𐎟𐎀𐎍𐎛𐎊𐎐",
+          "notes": "'…the kingship of the Mighty One.'"
+        },
+        {
+          "n": 58,
+          "refId": "BCY-WOH-1.4-iv:58",
+          "translit": "[...] bʿl . ynt",
+          "cuneiform": "[𐎟]𐎟𐎁𐎓𐎍𐎟𐎊𐎐𐎚",
+          "notes": "'…(of) Baʿlu, dove(?).'"
+        },
+        {
+          "n": 59,
+          "refId": "BCY-WOH-1.4-iv:59",
+          "translit": "[...] yd . ʾil",
+          "cuneiform": "[𐎟]𐎟𐎊𐎄𐎟𐎛𐎍",
+          "notes": "'…the hand of ʾIlu.'"
+        },
+        {
+          "n": 60,
+          "refId": "BCY-WOH-1.4-iv:60",
+          "translit": "[...] tršd",
+          "cuneiform": "[𐎟]𐎟𐎚𐎗𐎌𐎄",
+          "notes": "'…she descends(?).'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.4-v",
+      "ktu": "KTU 1.4 col v",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.4 col v: ʾAṯirat presents the petition formally; ʾIlu grants permission for Baʿlu's palace to be built. This is the most important divine-council decision of the entire Cycle. Kothar-wa-Khasis is summoned, and construction-planning begins. MAJOR LENS-RISK SITE: the divine-council permission-grant pattern (cf. 1 Kgs 22:19-22 the council of heaven; Job 1:6-12; Isa 6).]"
+        }
+      },
+      "lines": [
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.4-v:3",
+          "translit": "[...] rgmm . ʾaqḥnk",
+          "cuneiform": "[𐎟]𐎟𐎗𐎂𐎎𐎎𐎟𐎀𐎖𐎈𐎐𐎋",
+          "notes": "'…words I shall take from you.' ʾaqḥnk 'I shall accept' (G-yqtl 1cs + 2fs/sg suffix of lqḥ)."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.4-v:4",
+          "translit": "[ṯl]ṯt . ʾaṯnyk",
+          "cuneiform": "[𐎘𐎍]𐎘𐎚𐎟𐎀𐎘𐎐𐎊𐎋",
+          "notes": "'A [thi]rd I shall repeat to you.'"
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.4-v:5",
+          "translit": "[w yʿn . lṭpn] . ʾil . d pʾid",
+          "cuneiform": "[𐎆𐎟𐎊𐎓𐎐𐎟𐎍𐎉𐎔𐎐]𐎟𐎛𐎍𐎟𐎄𐎟𐎔𐎛𐎄",
+          "notes": "**ʾILU GRANTS PERMISSION — MANDATORY MAJOR**: '[And] the Benevolent [ʾIlu] the kind-hearted [answered]…'. The pivotal divine-decision-formula. LENS-RISK SITE: the divine-council grant pattern."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.4-v:6",
+          "translit": "[...] hm . šbʿ . šnt . [...]",
+          "cuneiform": "[𐎟]𐎟𐎅𐎎𐎟𐎌𐎁𐎓𐎟𐎌𐎐𐎚𐎟[𐎟]",
+          "notes": "'…if seven years…' šbʿ šnt 'seven years' — possibly the temporal frame of the construction. Cf. 1 Kgs 6:38 (Solomon's temple built in seven years)."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.4-v:7",
+          "translit": "[ṯmn . ḥm]š . šnt",
+          "cuneiform": "[𐎘𐎎𐎐𐎟𐎈𐎎]𐎌𐎟𐎌𐎐𐎚",
+          "notes": "'[Eight, or fi]ve years.' The temporal-pair formula."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.4-v:8",
+          "translit": "[...] tn . bt . l b[ʿl . km . ʾilm]",
+          "cuneiform": "[𐎟]𐎟𐎚𐎐𐎟𐎁𐎚𐎟𐎍𐎟𐎁[𐎓𐎍𐎟𐎋𐎎𐎟𐎛𐎍𐎎]",
+          "notes": "**THE GRANTING-DECREE**: '[Let it be given,] a house to Ba[ʿlu like the gods]!' tn 'give!' (G-impv). THE LONG-AWAITED PERMISSION-GRANT — the core decree."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.4-v:9",
+          "translit": "[w] ḥẓr . k bn . ʾaṯrt",
+          "cuneiform": "[𐎆]𐎟𐎈𐎑𐎗𐎟𐎋𐎟𐎁𐎐𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'[And] court like the sons of ʾAṯirat.'"
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.4-v:10",
+          "translit": "[w] tʿn . rbt . ʾaṯrt . ym",
+          "cuneiform": "[𐎆]𐎟𐎚𐎓𐎐𐎟𐎗𐎁𐎚𐎟𐎀𐎘𐎗𐎚𐎟𐎊𐎎",
+          "notes": "'[And] the Lady ʾAṯirat of the Sea answered.'"
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.4-v:11",
+          "translit": "rbt . ʾilm . l ḥkmt",
+          "cuneiform": "𐎗𐎁𐎚𐎟𐎛𐎍𐎎𐎟𐎍𐎟𐎈𐎋𐎎𐎚",
+          "notes": "'Great are the gods in wisdom.' rbt 'great'; ḥkmt 'wisdom' (cf. Hebrew ḥokmâ). ʾAṯirat's praise."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.4-v:12",
+          "translit": "šbt . dqnk . l tsrk",
+          "cuneiform": "𐎌𐎁𐎚𐎟𐎄𐎖𐎐𐎋𐎟𐎍𐎟𐎚𐎒𐎗𐎋",
+          "notes": "**THE GRAY-BEARD PRAISE**: 'Your gray-beard truly teaches you.' šbt 'gray-hair'; dqn 'beard'; tsrk 'instructs you' (G-yqtl 3fs of ysr; cf. Hebrew yāsar 'to discipline, instruct'). The gray-beard-as-wisdom-marker — inversion of ʿAnat's threat at 1.3 v 24-25 (there the gray hairs were to be bloodied; here they are praised as wise)."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.4-v:13",
+          "translit": "lḫš lšrk . [...]",
+          "cuneiform": "𐎍𐎃𐎌𐎟𐎍𐎌𐎗𐎋𐎟[𐎟]",
+          "notes": "'…the whisper of your tongue…' lḫš 'whisper'; lšn 'tongue' (cf. Hebrew lāšôn)."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.4-v:14",
+          "translit": "k . btn . [...]",
+          "cuneiform": "𐎋𐎟𐎁𐎚𐎐𐎟[𐎟]",
+          "notes": "'…(at) the rising of(?)…'"
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.4-v:15",
+          "translit": "[...] qrṣ . šmm",
+          "cuneiform": "[𐎟]𐎟𐎖𐎗𐎕𐎟𐎌𐎎𐎎",
+          "notes": "'…the heavens are stretched / pinch(?).' qrṣ 'pinch, stretch, fashion' — possibly the cosmic-creation-vocabulary (cf. Hebrew qāraṣ Job 33:6)."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.4-v:16",
+          "translit": "[...] mlk . ʾaḫsnh",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎋𐎟𐎀𐎃𐎒𐎐𐎅",
+          "notes": "'…I shall acquire kingship(?).'"
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.4-v:17",
+          "translit": "[...] bt . l bʿl",
+          "cuneiform": "[𐎟]𐎟𐎁𐎚𐎟𐎍𐎟𐎁𐎓𐎍",
+          "notes": "'…house for Baʿlu.'"
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.4-v:18",
+          "translit": "[k]m . ʾilm . [...]",
+          "cuneiform": "[𐎋]𐎎𐎟𐎛𐎍𐎎𐎟[𐎟]",
+          "notes": "'[Li]ke the gods.'"
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.4-v:19",
+          "translit": "w ḥẓr . k bn . ʾaṯrt",
+          "cuneiform": "𐎆𐎟𐎈𐎑𐎗𐎟𐎋𐎟𐎁𐎐𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'And court like the sons of ʾAṯirat.'"
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.4-v:20",
+          "translit": "[...] tšmḫ . btlt . ʿnt",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎎𐎃𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'…the Maiden ʿAnatu rejoices.' tšmḫ — the moment of victory."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.4-v:21",
+          "translit": "tdʿṣ . pʿnm . w tr . ʾarṣ",
+          "cuneiform": "𐎚𐎄𐎓𐎕𐎟𐎔𐎓𐎐𐎎𐎟𐎆𐎟𐎚𐎗𐎟𐎀𐎗𐎕",
+          "notes": "**ʿANAT'S JOY-DANCE — STRONG IMAGE**: 'She stamps her feet and shakes the earth.' tdʿṣ 'she stamps' (G-yqtl 3fs of dʿṣ — kicking, stamping); pʿnm 'feet'; tr 'shake, set-quivering' (G-yqtl 3fs of twr; cf. Hebrew tērû 'tremble'?). Earth-shaking joy — note the parallel to Baʿlu's voice 'shaking the earth' at 1.4 vii 32, and the wider theophany-vocabulary (Ps 18:8 'the earth quaked')."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.4-v:22",
+          "translit": "ʾidk . l ttn . pnm",
+          "cuneiform": "𐎛𐎄𐎋𐎟𐎍𐎟𐎚𐎚𐎐𐎟𐎔𐎐𐎎",
+          "notes": "'Then indeed she set face…' Travel-formula now for ʿAnatu's race to bring the news to Baʿlu."
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.4-v:23",
+          "translit": "ʿm . bʿl . mrym . ṣpn",
+          "cuneiform": "𐎓𐎎𐎟𐎁𐎓𐎍𐎟𐎎𐎗𐎊𐎎𐎟𐎕𐎔𐎐",
+          "notes": "'…toward Baʿlu (on) the heights of Ṣapunu.'"
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.4-v:24",
+          "translit": "b ʾalp . šd . rbt . kmn",
+          "cuneiform": "𐎁𐎟𐎀𐎍𐎔𐎟𐎌𐎄𐎟𐎗𐎁𐎚𐎟𐎋𐎎𐎐",
+          "notes": "'…through a thousand acres, ten thousand hectares.'"
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.4-v:25",
+          "translit": "ṣḥq . btlt . ʿnt",
+          "cuneiform": "𐎕𐎈𐎖𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'The Maiden ʿAnatu laughs.' ṣḥq 'she laughs' (G-pf 3fs of ṣḥq; cf. Hebrew ṣāḥaq Gen 21:6 Sarah's laugh). The joy of the victorious news-bearer."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.4-v:26",
+          "translit": "tšu . gh . w tṣḥ",
+          "cuneiform": "𐎚𐎌u𐎟𐎂𐎅𐎟𐎆𐎟𐎚𐎕𐎈",
+          "notes": "'She lifts her voice and cries.'"
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.4-v:27",
+          "translit": "tbšrny . bʿl . k l . ttbʿ",
+          "cuneiform": "𐎚𐎁𐎌𐎗𐎐𐎊𐎟𐎁𐎓𐎍𐎟𐎋𐎟𐎍𐎟𐎚𐎚𐎁𐎓",
+          "notes": "**ʿANAT'S NEWS — JUBILANT**: 'Let me give Baʿlu glad-tidings, for never (again) shall (the matter) be raised(?).' tbšrny 'announce-good-news to me / let me announce' (D-yqtl 1cs of bšr; cf. Hebrew biśśar 'to bring good news'); the verb of evangel."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.4-v:28",
+          "translit": "ttn . bht . k l . [...]",
+          "cuneiform": "𐎚𐎚𐎐𐎟𐎁𐎅𐎚𐎟𐎋𐎟𐎍𐎟[𐎟]",
+          "notes": "'(There) shall be given to him a house, for [...]'"
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.4-v:29",
+          "translit": "yšlḥ . ʾaṯrt . [...]",
+          "cuneiform": "𐎊𐎌𐎍𐎈𐎟𐎀𐎘𐎗𐎚𐎟[𐎟]",
+          "notes": "'…ʾAṯirat sends.'"
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.4-v:30",
+          "translit": "bn . dgn . ʾarṭn . dd",
+          "cuneiform": "𐎁𐎐𐎟𐎄𐎂𐎐𐎟𐎀𐎗𐎉𐎐𐎟𐎄𐎄",
+          "notes": "'The son of Dagan (= Baʿlu) — ʾArṭanu of love.' bn dgn 'son of Dagan' = Baʿlu's standard patronymic; dd 'love.'"
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.4-v:31",
+          "translit": "bt . l bʿl . km . ʾilm",
+          "cuneiform": "𐎁𐎚𐎟𐎍𐎟𐎁𐎓𐎍𐎟𐎋𐎎𐎟𐎛𐎍𐎎",
+          "notes": "'A house for Baʿlu like the gods!' The granting-decree restated triumphally."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.4-v:32",
+          "translit": "ḥẓr . k bn . ʾaṯrt",
+          "cuneiform": "𐎈𐎑𐎗𐎟𐎋𐎟𐎁𐎐𐎟𐎀𐎘𐎗𐎚",
+          "notes": "'A court like the sons of ʾAṯirat!'"
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.4-v:33",
+          "translit": "w yšmḫ . ʾalʾiyn . bʿl",
+          "cuneiform": "𐎆𐎟𐎊𐎌𐎎𐎃𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'And Mighty Baʿlu rejoices.'"
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.4-v:34",
+          "translit": "ṣḥ . ḥrn . b bhtk",
+          "cuneiform": "𐎕𐎈𐎟𐎈𐎗𐎐𐎟𐎁𐎟𐎁𐎅𐎚𐎋",
+          "notes": "'Cry out: A craftsman in your palace!' ṣḥ 'cry!' (G-impv); ḥrn 'craftsman, fashioner' — Kothar's role-title."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.4-v:35",
+          "translit": "ʿdbt . b qrb . hklk",
+          "cuneiform": "𐎓𐎄𐎁𐎚𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎋",
+          "notes": "'A handicraft-master in the midst of your temple.' ʿdbt 'arrangement, set-up'; qrb hklk 'midst of your temple.'"
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.4-v:36",
+          "translit": "tblk . ġrm . mʾid . ksp",
+          "cuneiform": "𐎚𐎁𐎍𐎋𐎟𐎙𐎗𐎎𐎟𐎎𐎛𐎄𐎟𐎋𐎒𐎔",
+          "notes": "**THE COSMIC-MATERIAL FORMULA**: 'May the mountains bring you abundance of silver…' tblk 'may they bring to you' (G-yqtl 3mp + 2ms suffix of ybl); ġrm 'mountains'; mʾid 'abundance.'"
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.4-v:37",
+          "translit": "gbʿm . mḥmd . ḫrṣ",
+          "cuneiform": "𐎂𐎁𐎓𐎎𐎟𐎎𐎈𐎎𐎄𐎟𐎃𐎗𐎕",
+          "notes": "'…the hills, the desire of gold.' gbʿm 'hills' (cf. Hebrew gibʿâ); mḥmd 'precious, desire' (cf. Hebrew maḥmād). The cosmic-resource-bringing formula. Cf. Ps 95:4 ('in his hand are the depths of the earth, and the mountain-peaks are his')."
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.4-v:38",
+          "translit": "yblk . ʾudr . ʾilqṣm",
+          "cuneiform": "𐎊𐎁𐎍𐎋𐎟𐎜𐎄𐎗𐎟𐎛𐎍𐎖𐎕𐎎",
+          "notes": "'…may there bring you the choice (of) the deeps(?).' ʾudr 'choice, select'; ʾilqṣm uncertain (possibly 'gold-rivers' or 'extremities')."
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.4-v:39",
+          "translit": "[...] bn . bht . ksp . w ḫrṣ",
+          "cuneiform": "[𐎟]𐎟𐎁𐎐𐎟𐎁𐎅𐎚𐎟𐎋𐎒𐎔𐎟𐎆𐎟𐎃𐎗𐎕",
+          "notes": "**THE PALACE-MATERIALS**: '…build a palace of silver and gold.' bn (= bny) 'build!' (G-impv); bht 'palace.' The silver-and-gold palace specification."
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.4-v:40",
+          "translit": "bht . ṭhrm . ʾiqnʾim",
+          "cuneiform": "𐎁𐎅𐎚𐎟𐎉𐎅𐎗𐎎𐎟𐎛𐎖𐎐𐎛𐎎",
+          "notes": "'A palace of pure lapis-lazuli.' ṭhrm 'pure' (cf. Hebrew ṭāhôr); ʾiqnʾim 'lapis-lazuli.' Three-mineral construction: silver, gold, lapis."
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.4-v:41",
+          "translit": "[ʾi]rḫṣ . šmḫ . btlt . ʿnt",
+          "cuneiform": "[𐎛]𐎗𐎃𐎕𐎟𐎌𐎎𐎃𐎟𐎁𐎚𐎍𐎚𐎟𐎓𐎐𐎚",
+          "notes": "'I will hasten / I rejoice; the Maiden ʿAnatu (rejoices).' Joy-finale."
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.4-v:42",
+          "translit": "[...] qry . šy . tlbš",
+          "cuneiform": "[𐎟]𐎟𐎖𐎗𐎊𐎟𐎌𐎊𐎟𐎚𐎍𐎁𐎌",
+          "notes": "'…(she) sets, gift she dons.' tlbš 'she clothes' (G-yqtl 3fs of lbš; cf. Hebrew lābaš)."
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.4-v:43",
+          "translit": "[...] tdʿṣ . pʿnm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎄𐎓𐎕𐎟𐎔𐎓𐎐𐎎",
+          "notes": "'…she stamps (her) feet.' Joy-dance repeats."
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.4-v:44",
+          "translit": "[...] w tr . ʾarṣ",
+          "cuneiform": "[𐎟]𐎟𐎆𐎟𐎚𐎗𐎟𐎀𐎗𐎕",
+          "notes": "'…and shakes the earth.' Recurring."
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.4-v:45",
+          "translit": "[...] ʿly . pn",
+          "cuneiform": "[𐎟]𐎟𐎓𐎍𐎊𐎟𐎔𐎐",
+          "notes": "'…upon the face of…'"
+        },
+        {
+          "n": 46,
+          "refId": "BCY-WOH-1.4-v:46",
+          "translit": "[...] tšlḥ",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎈",
+          "notes": "'…she sends.'"
+        },
+        {
+          "n": 47,
+          "refId": "BCY-WOH-1.4-v:47",
+          "translit": "[...] mlʾakm",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎀𐎋𐎎",
+          "notes": "'…messengers.' mlʾakm 'messengers' (cf. Hebrew malʾāk; Ugaritic lʾk 'to send')."
+        },
+        {
+          "n": 48,
+          "refId": "BCY-WOH-1.4-v:48",
+          "translit": "[...] ʿd . kṯr . w ḫss",
+          "cuneiform": "[𐎟]𐎟𐎓𐎄𐎟𐎋𐎘𐎗𐎟𐎆𐎟𐎃𐎒𐎒",
+          "notes": "'…unto Kothar-wa-Khasis.' The Kothar-summons."
+        },
+        {
+          "n": 49,
+          "refId": "BCY-WOH-1.4-v:49",
+          "translit": "[...] mlbš",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎁𐎌",
+          "notes": "'…a robe / clothing.'"
+        },
+        {
+          "n": 50,
+          "refId": "BCY-WOH-1.4-v:50",
+          "translit": "[...] tšlḥ",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎈",
+          "notes": "'…she sends.'"
+        },
+        {
+          "n": 51,
+          "refId": "BCY-WOH-1.4-v:51",
+          "translit": "[...] kṯr",
+          "cuneiform": "[𐎟]𐎟𐎋𐎘𐎗",
+          "notes": "'…Kothar.'"
+        },
+        {
+          "n": 52,
+          "refId": "BCY-WOH-1.4-v:52",
+          "translit": "[...] bt . bʿl",
+          "cuneiform": "[𐎟]𐎟𐎁𐎚𐎟𐎁𐎓𐎍",
+          "notes": "'…the house of Baʿlu.'"
+        },
+        {
+          "n": 53,
+          "refId": "BCY-WOH-1.4-v:53",
+          "translit": "[...] tšlmm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎎𐎎",
+          "notes": "'…will be completed.'"
+        },
+        {
+          "n": 54,
+          "refId": "BCY-WOH-1.4-v:54",
+          "translit": "[...] šbʿt . ymm",
+          "cuneiform": "[𐎟]𐎟𐎌𐎁𐎓𐎚𐎟𐎊𐎎𐎎",
+          "notes": "'…seven days.' šbʿt ymm 'seven days' — the construction-period unit (preview to 1.4 vi-vii)."
+        },
+        {
+          "n": 55,
+          "refId": "BCY-WOH-1.4-v:55",
+          "translit": "[...] ʾrz . b lbnn",
+          "cuneiform": "[𐎟]𐎟ʾ𐎗𐎇𐎟𐎁𐎟𐎍𐎁𐎐𐎐",
+          "notes": "**THE CEDARS-OF-LEBANON**: '…cedar in Lebanon.' ʾrz 'cedar' (cf. Hebrew ʾerez); lbnn 'Lebanon.' STRONG CROSS-CORPUS: the cedars-of-Lebanon construction-material (cf. 1 Kgs 5:13ff. Solomon's temple from Lebanon-cedar; Ps 104:16). This is a literal-shared building-material between Late-Bronze Ugarit and Iron-Age Israel."
+        },
+        {
+          "n": 56,
+          "refId": "BCY-WOH-1.4-v:56",
+          "translit": "[...] bnyt . bʿl",
+          "cuneiform": "[𐎟]𐎟𐎁𐎐𐎊𐎚𐎟𐎁𐎓𐎍",
+          "notes": "'…the building of Baʿlu.'"
+        },
+        {
+          "n": 57,
+          "refId": "BCY-WOH-1.4-v:57",
+          "translit": "[...] kṯr",
+          "cuneiform": "[𐎟]𐎟𐎋𐎘𐎗",
+          "notes": "'…Kothar.'"
+        },
+        {
+          "n": 58,
+          "refId": "BCY-WOH-1.4-v:58",
+          "translit": "[...] bt",
+          "cuneiform": "[𐎟]𐎟𐎁𐎚",
+          "notes": "'…house.'"
+        },
+        {
+          "n": 59,
+          "refId": "BCY-WOH-1.4-v:59",
+          "translit": "[...] tšlḥm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎈𐎎",
+          "notes": "'…they are sent / served.'"
+        },
+        {
+          "n": 60,
+          "refId": "BCY-WOH-1.4-v:60",
+          "translit": "[...] mġy . kṯr",
+          "cuneiform": "[𐎟]𐎟𐎎𐎙𐎊𐎟𐎋𐎘𐎗",
+          "notes": "'…Kothar arrives.'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.4-vi",
+      "ktu": "KTU 1.4 col vi",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.4 col vi: Kothar-wa-Khasis arrives at Baʿlu's Ṣapunu and begins the construction of the palace. Baʿlu personally directs the work; cedar, silver, gold and lapis-lazuli are gathered. The fire-firing of the palace (the architectural-firing of mud-brick) takes seven days. MAJOR LENS-RISK SITE: cosmic-temple-building parallels with 1 Kgs 5-8 (Solomon's temple), Ezek 40-48 (the visionary temple), Exod 25-31, 35-40 (the tabernacle). See Hurowitz 1992 'I Have Built You an Exalted House.']"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.4-vi:1",
+          "translit": "kṯr . w ḫss . mġy",
+          "cuneiform": "𐎋𐎘𐎗𐎟𐎆𐎟𐎃𐎒𐎒𐎟𐎎𐎙𐎊",
+          "notes": "'Kothar-wa-Khasis arrived.'"
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.4-vi:2",
+          "translit": "[...] ṣḥq . bʿl . ʿln",
+          "cuneiform": "[𐎟]𐎟𐎕𐎈𐎖𐎟𐎁𐎓𐎍𐎟𐎓𐎍𐎐",
+          "notes": "'…Baʿlu laughs from above(?).'"
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.4-vi:3",
+          "translit": "ʾaḫd . ksp . b ydh",
+          "cuneiform": "𐎀𐎃𐎄𐎟𐎋𐎒𐎔𐎟𐎁𐎟𐎊𐎄𐎅",
+          "notes": "'He takes silver in his hand.' The cup-and-tool gesture of the host."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.4-vi:4",
+          "translit": "ḫrṣ . yṣq . l ʾalpm",
+          "cuneiform": "𐎃𐎗𐎕𐎟𐎊𐎕𐎖𐎟𐎍𐎟𐎀𐎍𐎔𐎎",
+          "notes": "'Gold he pours by the thousands.'"
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.4-vi:5",
+          "translit": "yṣq . ʿpr . km . šmh",
+          "cuneiform": "𐎊𐎕𐎖𐎟𐎓𐎔𐎗𐎟𐎋𐎎𐎟𐎌𐎎𐎅",
+          "notes": "'He pours dust like(?) his name(?).' Possibly: 'he casts a mold (of) earth as is his manner.' ʿpr 'dust, earth' (cf. Hebrew ʿāpār) — the mud-brick foundation."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.4-vi:6",
+          "translit": "ʿdb . k krm . krpn",
+          "cuneiform": "𐎓𐎄𐎁𐎟𐎋𐎟𐎋𐎗𐎎𐎟𐎋𐎗𐎔𐎐",
+          "notes": "'Arranged like a vineyard, krpn-vessels.' Arrangement of the construction-banquet."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.4-vi:7",
+          "translit": "bnyt . hkly",
+          "cuneiform": "𐎁𐎐𐎊𐎚𐎟𐎅𐎋𐎍𐎊",
+          "notes": "'The building of my temple.' bnyt 'construction' (verbal noun of bny); hkly 'my temple' (cf. Hebrew hêkālî)."
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.4-vi:8",
+          "translit": "w yʿn . kṯr . w ḫss",
+          "cuneiform": "𐎆𐎟𐎊𐎓𐎐𐎟𐎋𐎘𐎗𐎟𐎆𐎟𐎃𐎒𐎒",
+          "notes": "'And Kothar-wa-Khasis answered.'"
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.4-vi:9",
+          "translit": "šmʿ . l ʾalʾiyn . bʿl",
+          "cuneiform": "𐎌𐎎𐎓𐎟𐎍𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'Hear, O Mighty Baʿlu!' šmʿ 'hear!' (G-impv; cf. Hebrew šĕmaʿ Deut 6:4)."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.4-vi:10",
+          "translit": "bn . l rkb ʿrpt",
+          "cuneiform": "𐎁𐎐𐎟𐎍𐎟𐎗𐎋𐎁𐎟𐎓𐎗𐎔𐎚",
+          "notes": "'Listen, O Cloud-Rider!' bn 'understand, give-ear' (G-impv of byn)."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.4-vi:11",
+          "translit": "bl . ʾašt . ʾurbt . b bht[m]",
+          "cuneiform": "𐎁𐎍𐎟𐎀𐎌𐎚𐎟𐎜𐎗𐎁𐎚𐎟𐎁𐎟𐎁𐎅𐎚[𐎎]",
+          "notes": "**THE FAMOUS WINDOW DEBATE — MANDATORY MAJOR (Kothar's question)**: 'Shall I not place a window in the palac[e]?' bl 'shall not, surely' (interrogative-affirmative); ʾašt 'I will set' (G-yqtl 1cs of šty); ʾurbt 'window, lattice' (cf. Hebrew ʾărubbâ Gen 7:11, 8:2; Mal 3:10). STRONG CROSS-CORPUS: the ʾărubbâ in Gen 7:11 'windows of heaven' is THE cognate. The window-debate is one of the most discussed scenes in the entire Baal Cycle (Smith & Pitard 2009 vol 2 pp. 605-624)."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.4-vi:12",
+          "translit": "ḥlln . b qrb . hklm",
+          "cuneiform": "𐎈𐎍𐎍𐎐𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "**THE WINDOW DEBATE (continued)**: 'A skylight in the midst of the temple.' ḥlln 'skylight, opening' (cf. Akk. ḫullānu); qrb 'midst.' The 'window in the temple' is COSMIC: through the window the storm-god's voice (rain, thunder) goes forth into the world."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.4-vi:13",
+          "translit": "[w yʿn] ʾalʾiyn bʿl",
+          "cuneiform": "[𐎆𐎟𐎊𐎓𐎐]𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'[And] Mighty Baʿlu [answered].'"
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.4-vi:14",
+          "translit": "ʾal . tšt . ʾurbt . b [bhtm]",
+          "cuneiform": "𐎀𐎍𐎟𐎚𐎌𐎚𐎟𐎜𐎗𐎁𐎚𐎟𐎁𐎟[𐎁𐎅𐎚𐎎]",
+          "notes": "**BAʿLU REFUSES THE WINDOW — MANDATORY MAJOR**: 'Do not place a window in the [palace]!' ʾal 'do not!' (negative imperative; cf. Hebrew ʾal). Baʿlu refuses the window — the reason emerges in the next lines."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.4-vi:15",
+          "translit": "ḥlln . [b qrb . hklm]",
+          "cuneiform": "𐎈𐎍𐎍𐎐𐎟[𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎎]",
+          "notes": "'A skylight [in the midst of the temple].'"
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.4-vi:16",
+          "translit": "[...] yd . p[dry . bt . ʾar]",
+          "cuneiform": "[𐎟]𐎟𐎊𐎄𐎟𐎔[𐎄𐎗𐎊𐎟𐎁𐎚𐎟𐎀𐎗]",
+          "notes": "'…(if) the love of P[idray daughter of light]…'"
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.4-vi:17",
+          "translit": "[...] ṭly . bt . rb",
+          "cuneiform": "[𐎟]𐎟𐎉𐎍𐎊𐎟𐎁𐎚𐎟𐎗𐎁",
+          "notes": "'…(of) Ṭallay daughter of showers.'"
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.4-vi:18",
+          "translit": "[...] mdd . ʾi[l . ym]",
+          "cuneiform": "[𐎟]𐎟𐎎𐎄𐎄𐎟𐎛[𐎍𐎟𐎊𐎎]",
+          "notes": "**BAʿLU'S REASON — LENS-RISK SITE**: '…(lest) the Beloved of ʾI[lu, Yammu]…'. mdd ʾil ym 'Yammu Beloved of ʾIlu' — the reason Baʿlu fears a window: Yammu (the Sea, now defeated but ever-threatening) might steal in through the open window. The cosmic-water-from-above threatening through the window-of-heaven; cf. Gen 7:11 'all the fountains of the great deep burst forth, and the windows of heaven were opened.' MANDATORY CROSS-CORPUS PARALLEL."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.4-vi:19",
+          "translit": "[...] yqlṣn",
+          "cuneiform": "[𐎟]𐎟𐎊𐎖𐎍𐎕𐎐",
+          "notes": "'…they will deride/jeer.' yqlṣn 'they will mock' (G-yqtl + n-ending; cf. Hebrew qālas)."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.4-vi:20",
+          "translit": "yṯpṭ . [...]",
+          "cuneiform": "𐎊𐎘𐎔𐎉𐎟[𐎟]",
+          "notes": "'He will dispute(?).'"
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.4-vi:21",
+          "translit": "ṣḥ . ḥrn . b bhtm",
+          "cuneiform": "𐎕𐎈𐎟𐎈𐎗𐎐𐎟𐎁𐎟𐎁𐎅𐎚𐎎",
+          "notes": "'Cry out: a craftsman in the palace(s)!'"
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.4-vi:22",
+          "translit": "ʿdbt . b qrb . hk[lm]",
+          "cuneiform": "𐎓𐎄𐎁𐎚𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋[𐎍𐎎]",
+          "notes": "'…handicraft in the midst of the te[mple].'"
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.4-vi:23",
+          "translit": "tblk . ġrm . mʾid . ksp",
+          "cuneiform": "𐎚𐎁𐎍𐎋𐎟𐎙𐎗𐎎𐎟𐎎𐎛𐎄𐎟𐎋𐎒𐎔",
+          "notes": "'May the mountains bring you abundance of silver.' (Cf. 1.4 v 36.)"
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.4-vi:24",
+          "translit": "gbʿm . mḥmd . ḫrṣ",
+          "cuneiform": "𐎂𐎁𐎓𐎎𐎟𐎎𐎈𐎎𐎄𐎟𐎃𐎗𐎕",
+          "notes": "'The hills, the desire of gold.'"
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.4-vi:25",
+          "translit": "yblk . ʾudr . ʾilqṣm",
+          "cuneiform": "𐎊𐎁𐎍𐎋𐎟𐎜𐎄𐎗𐎟𐎛𐎍𐎖𐎕𐎎",
+          "notes": "'May they bring you choice (of) (treasures).'"
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.4-vi:26",
+          "translit": "w bn . bht . ksp . w ḫrṣ",
+          "cuneiform": "𐎆𐎟𐎁𐎐𐎟𐎁𐎅𐎚𐎟𐎋𐎒𐎔𐎟𐎆𐎟𐎃𐎗𐎕",
+          "notes": "'And build a palace of silver and gold.'"
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.4-vi:27",
+          "translit": "bht . ṭhrm . ʾiqnʾim",
+          "cuneiform": "𐎁𐎅𐎚𐎟𐎉𐎅𐎗𐎎𐎟𐎛𐎖𐎐𐎛𐎎",
+          "notes": "'A palace of pure lapis-lazuli.'"
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.4-vi:28",
+          "translit": "šmḫ . ʾalʾiyn . bʿl",
+          "cuneiform": "𐎌𐎎𐎃𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'Mighty Baʿlu rejoices.'"
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.4-vi:29",
+          "translit": "šbʿ . ymm . tʿrm . [ʾišt]",
+          "cuneiform": "𐎌𐎁𐎓𐎟𐎊𐎎𐎎𐎟𐎚𐎓𐎗𐎎𐎟[𐎛𐎌𐎚]",
+          "notes": "**THE SEVEN-DAY FIRING — STRONG IMAGE**: 'Seven days the [fire] burns…'. tʿrm 'they kindle' (D-yqtl); ʾišt 'fire' (cf. Hebrew ʾēš). The famous seven-day fire-firing of the palace (= the brick-kiln-firing of the construction). Cf. 1 Kgs 6:38 (Solomon's temple built in seven years); but here it is the firing-period, not the total construction."
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.4-vi:30",
+          "translit": "[ṯmn . ymm . tʿ]rm . ʾišt",
+          "cuneiform": "[𐎘𐎎𐎐𐎟𐎊𐎎𐎎𐎟𐎚𐎓]𐎗𐎎𐎟𐎛𐎌𐎚",
+          "notes": "'[Eight days the fire bur]ns.' The seven-eight pair-formula."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.4-vi:31",
+          "translit": "[t]bʿr . b bhtm . ʾišt",
+          "cuneiform": "[𐎚]𐎁𐎓𐎗𐎟𐎁𐎟𐎁𐎅𐎚𐎎𐎟𐎛𐎌𐎚",
+          "notes": "'A fire burns in the palace(s).' tbʿr 'it burns' (G-yqtl 3fs of bʿr; cf. Hebrew bāʿar 'to burn' Exod 3:2)."
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.4-vi:32",
+          "translit": "nblʾut . b hklm",
+          "cuneiform": "𐎐𐎁𐎍𐎜𐎚𐎟𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'Flames in the temple.' nblʾut 'flame, ember' (cf. Hebrew lab[b]â)."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.4-vi:33",
+          "translit": "ym . ṯn . tʾikl",
+          "cuneiform": "𐎊𐎎𐎟𐎘𐎐𐎟𐎚𐎛𐎋𐎍",
+          "notes": "'A day, a second, devours…' tʾikl 'it eats / consumes' (G-yqtl 3fs of ʾkl). The fire-as-eater."
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.4-vi:34",
+          "translit": "ʾišt . b bhtm",
+          "cuneiform": "𐎛𐎌𐎚𐎟𐎁𐎟𐎁𐎅𐎚𐎎",
+          "notes": "'…the fire in the palace.'"
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.4-vi:35",
+          "translit": "nblʾut . b hklm",
+          "cuneiform": "𐎐𐎁𐎍𐎜𐎚𐎟𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'…flames in the temple.'"
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.4-vi:36",
+          "translit": "ṯlṯ . rbʿ . ym",
+          "cuneiform": "𐎘𐎍𐎘𐎟𐎗𐎁𐎓𐎟𐎊𐎎",
+          "notes": "'A third, a fourth day…'"
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.4-vi:37",
+          "translit": "tʾikl . ʾišt . b bhtm",
+          "cuneiform": "𐎚𐎛𐎋𐎍𐎟𐎛𐎌𐎚𐎟𐎁𐎟𐎁𐎅𐎚𐎎",
+          "notes": "'…the fire devours in the palace.'"
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.4-vi:38",
+          "translit": "nblʾut . b qrb hklm",
+          "cuneiform": "𐎐𐎁𐎍𐎜𐎚𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'…flames in the midst of the temple.'"
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.4-vi:39",
+          "translit": "ḫmš . ṯdṯ . ym",
+          "cuneiform": "𐎃𐎎𐎌𐎟𐎘𐎄𐎘𐎟𐎊𐎎",
+          "notes": "'A fifth, a sixth day…'"
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.4-vi:40",
+          "translit": "tʾikl . ʾišt . b bhtm",
+          "cuneiform": "𐎚𐎛𐎋𐎍𐎟𐎛𐎌𐎚𐎟𐎁𐎟𐎁𐎅𐎚𐎎",
+          "notes": "'…the fire devours in the palace.'"
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.4-vi:41",
+          "translit": "nblʾut . b qrb . hklm",
+          "cuneiform": "𐎐𐎁𐎍𐎜𐎚𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'…flames in the midst of the temple.'"
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.4-vi:42",
+          "translit": "mk . b šbʿ . ymm",
+          "cuneiform": "𐎎𐎋𐎟𐎁𐎟𐎌𐎁𐎓𐎟𐎊𐎎𐎎",
+          "notes": "**THE FIRING CULMINATION**: 'And lo, on the seventh day…' mk 'and lo, behold' (presentative particle); the seven-day completion-formula. STRONG CROSS-CORPUS: cf. Gen 1's seven days; the seven-day liturgical-completion pattern."
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.4-vi:43",
+          "translit": "td . ʾišt . b bhtm",
+          "cuneiform": "𐎚𐎄𐎟𐎛𐎌𐎚𐎟𐎁𐎟𐎁𐎅𐎚𐎎",
+          "notes": "'…the fire goes-out from the palace.' td 'it withdraws / dies down' (G-yqtl 3fs of dwd or ndd)."
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.4-vi:44",
+          "translit": "nblʾu . b qrb . hklm",
+          "cuneiform": "𐎐𐎁𐎍𐎜𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'The flame from the midst of the temple.'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.4-vi:45",
+          "translit": "ṣb . ksp . l lbnt",
+          "cuneiform": "𐎕𐎁𐎟𐎋𐎒𐎔𐎟𐎍𐎟𐎍𐎁𐎐𐎚",
+          "notes": "'Silver was poured-out as bricks.' ṣb possibly 'cast, poured-out' (G-pass); lbnt 'bricks' (cf. Hebrew lĕbēnâ). The metallurgical-architectural completion: silver-bricks (= the precious sheathing of the palace-walls)."
+        },
+        {
+          "n": 46,
+          "refId": "BCY-WOH-1.4-vi:46",
+          "translit": "ḫrṣ . nṣb . l lbnt",
+          "cuneiform": "𐎃𐎗𐎕𐎟𐎐𐎕𐎁𐎟𐎍𐎟𐎍𐎁𐎐𐎚",
+          "notes": "'Gold was molded as bricks.' nṣb 'standing-up, established' (cf. Hebrew niṣṣab). Gold-bricks alongside silver-bricks."
+        },
+        {
+          "n": 47,
+          "refId": "BCY-WOH-1.4-vi:47",
+          "translit": "šmḫ . ʾalʾiyn . bʿl",
+          "cuneiform": "𐎌𐎎𐎃𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'Mighty Baʿlu rejoices.'"
+        },
+        {
+          "n": 48,
+          "refId": "BCY-WOH-1.4-vi:48",
+          "translit": "bht y . bnt . dt . ksp",
+          "cuneiform": "𐎁𐎅𐎚𐎟𐎊𐎟𐎁𐎐𐎚𐎟𐎄𐎚𐎟𐎋𐎒𐎔",
+          "notes": "**BAʿLU'S TRIUMPHANT SHOUT**: 'My palace I have built of silver!' bht y 'my palace'; bnt 'I have built' (G-pf 1cs of bny); dt ksp 'of silver.' The triumph-of-construction."
+        },
+        {
+          "n": 49,
+          "refId": "BCY-WOH-1.4-vi:49",
+          "translit": "hkly . dtm . ḫrṣ",
+          "cuneiform": "𐎅𐎋𐎍𐎊𐎟𐎄𐎚𐎎𐎟𐎃𐎗𐎕",
+          "notes": "'My temple of gold.' dtm 'of, with the' (relative-genitive); ḫrṣ 'gold.' The dual material-boast: silver palace, gold temple."
+        },
+        {
+          "n": 50,
+          "refId": "BCY-WOH-1.4-vi:50",
+          "translit": "ʿdbt . bht h . bʿl",
+          "cuneiform": "𐎓𐎄𐎁𐎚𐎟𐎁𐎅𐎚𐎟𐎅𐎟𐎁𐎓𐎍",
+          "notes": "'Baʿlu prepares the appointments of his palace.' ʿdbt 'preparation, arrangement'; bht h 'his palace.'"
+        },
+        {
+          "n": 51,
+          "refId": "BCY-WOH-1.4-vi:51",
+          "translit": "yʿdb . hd . [ʿdb . ʿdbt]",
+          "cuneiform": "𐎊𐎓𐎄𐎁𐎟𐎅𐎄𐎟[𐎓𐎄𐎁𐎟𐎓𐎄𐎁𐎚]",
+          "notes": "'Hadd arranges [the arrangement of arrangements].' hd 'Hadad' = the Akkadian/Aramaic name of Baʿlu (the same storm-deity). Hadd-Hadad-Baʿlu correspondence; cf. the Aramean storm-god of 2 Sam 8:10 hădōrām."
+        },
+        {
+          "n": 52,
+          "refId": "BCY-WOH-1.4-vi:52",
+          "translit": "[ṭbḫ . ʾalpm . ʾap . ṣʾi]n",
+          "cuneiform": "[𐎉𐎁𐎃𐎟𐎀𐎍𐎔𐎎𐎟𐎀𐎔𐎟𐎕𐎛]𐎐",
+          "notes": "**THE INAUGURATION FEAST**: '[He slaughters oxen, also shee]p.' The standard banquet-formula for the palace-dedication."
+        },
+        {
+          "n": 53,
+          "refId": "BCY-WOH-1.4-vi:53",
+          "translit": "[šql . ṯrm . w] mrʾi",
+          "cuneiform": "[𐎌𐎖𐎍𐎟𐎘𐎗𐎎𐎟𐎆]𐎟𐎎𐎗𐎛",
+          "notes": "'[He fells bulls and] fatlings.'"
+        },
+        {
+          "n": 54,
+          "refId": "BCY-WOH-1.4-vi:54",
+          "translit": "[ʾilm . ʿglm] . dt . šnt",
+          "cuneiform": "[𐎛𐎍𐎎𐎟𐎓𐎂𐎍𐎎]𐎟𐎄𐎚𐎟𐎌𐎐𐎚",
+          "notes": "'[Rams, calves] of a year.'"
+        },
+        {
+          "n": 55,
+          "refId": "BCY-WOH-1.4-vi:55",
+          "translit": "[ʾimr . qmṣ . llʾim]",
+          "cuneiform": "[𐎛𐎎𐎗𐎟𐎖𐎎𐎕𐎟𐎍𐎍𐎛𐎎]",
+          "notes": "'[Lambs, abundance of kids].'"
+        },
+        {
+          "n": 56,
+          "refId": "BCY-WOH-1.4-vi:56",
+          "translit": "[ṣḥ . ʾaḫh . b bhth]",
+          "cuneiform": "[𐎕𐎈𐎟𐎀𐎃𐎅𐎟𐎁𐎟𐎁𐎅𐎚𐎅]",
+          "notes": "'[He cries (= invites) his brothers (= the gods) to his palace].'"
+        },
+        {
+          "n": 57,
+          "refId": "BCY-WOH-1.4-vi:57",
+          "translit": "[ʾaryh . b qrb . hk]lh",
+          "cuneiform": "[𐎀𐎗𐎊𐎅𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋]𐎍𐎅",
+          "notes": "'[His kin in the midst of his temple].'"
+        },
+        {
+          "n": 58,
+          "refId": "BCY-WOH-1.4-vi:58",
+          "translit": "[ṣḥ . šbʿm . bn . ʾaṯ]rt",
+          "cuneiform": "[𐎕𐎈𐎟𐎌𐎁𐎓𐎎𐎟𐎁𐎐𐎟𐎀𐎘]𐎗𐎚",
+          "notes": "**THE SEVENTY SONS — STRONG CROSS-CORPUS**: '[He cries the seventy sons of ʾAṯi]rat.' šbʿm bn ʾaṯrt 'seventy sons of ʾAṯirat' = the divine assembly. MANDATORY CROSS-CORPUS PARALLEL: cf. Deut 32:8 (LXX/4QDeutj 'sons of the gods/Israel') for the 70-nations / 70-sons motif; the divine council of seventy."
+        },
+        {
+          "n": 59,
+          "refId": "BCY-WOH-1.4-vi:59",
+          "translit": "[...] mšrr",
+          "cuneiform": "[𐎟]𐎟𐎎𐎌𐎗𐎗",
+          "notes": "'…flowing-source.'"
+        },
+        {
+          "n": 60,
+          "refId": "BCY-WOH-1.4-vi:60",
+          "translit": "[...] yqr",
+          "cuneiform": "[𐎟]𐎟𐎊𐎖𐎗",
+          "notes": "'…he calls.'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.4-vii",
+      "ktu": "KTU 1.4 col vii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.4 col vii: the climactic column of the entire palace-building cycle. Baʿlu reverses himself on the window question — he now allows the window. With the window open, Baʿlu's voice (= thunder) goes forth from the palace and shakes the earth. This is the central theophany-passage of the Baal Cycle. MAJOR LENS-RISK SITE — the qlh qdš tr ʾarṣ line is THE Ugaritic-Hebrew Bible cognate-line for Psalm 29's qol-YHWH theophany.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.4-vii:1",
+          "translit": "[ṯmnym . šbʿ . pdr]",
+          "cuneiform": "[𐎘𐎎𐎐𐎊𐎎𐎟𐎌𐎁𐎓𐎟𐎔𐎄𐎗]",
+          "notes": "[Eighty, seventy cities/towns…]. pdr 'town' (cf. Hebrew bedēr — different etymology). Lost city-list-formula."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.4-vii:2",
+          "translit": "tšʿt . pdrm . ṯ[mnym]",
+          "cuneiform": "𐎚𐎌𐎓𐎚𐎟𐎔𐎄𐎗𐎎𐎟𐎘[𐎎𐎐𐎊𐎎]",
+          "notes": "'Nine cities, ei[ghty]…'. Numerical-pair city-list (the towns under Baʿlu's dominion)."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.4-vii:3",
+          "translit": "[t]šʿ . qrt",
+          "cuneiform": "[𐎚]𐎌𐎓𐎟𐎖𐎗𐎚",
+          "notes": "'Nine towns(?).' qrt 'town'; the numerical-iterative city-list."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.4-vii:4",
+          "translit": "ʾaḫd . bʿl . [...]",
+          "cuneiform": "𐎀𐎃𐎄𐎟𐎁𐎓𐎍𐎟[𐎟]",
+          "notes": "'Baʿlu seized [...].'"
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.4-vii:5",
+          "translit": "[...] bt h",
+          "cuneiform": "[𐎟]𐎟𐎁𐎚𐎟𐎅",
+          "notes": "'…his house / temple.'"
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.4-vii:6",
+          "translit": "[t]rmm . bʿl . bhth",
+          "cuneiform": "[𐎚]𐎗𐎎𐎎𐎟𐎁𐎓𐎍𐎟𐎁𐎅𐎚𐎅",
+          "notes": "'Baʿlu erects his palace.' trmm 'he erects' (D-yqtl 3ms of rwm; cf. Hebrew rām). The completion."
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.4-vii:7",
+          "translit": "ʿrz . tʾiḫd . ksʾi . mlkh",
+          "cuneiform": "𐎓𐎗𐎇𐎟𐎚𐎛𐎃𐎄𐎟𐎋𐎒𐎛𐎟𐎎𐎍𐎋𐎅",
+          "notes": "'He takes the throne of his kingship by force(?).' ʿrz 'strong, with might'; ksʾi mlkh 'his royal throne.'"
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.4-vii:8",
+          "translit": "nḫt . kḥṯ . drkth",
+          "cuneiform": "𐎐𐎃𐎚𐎟𐎋𐎈𐎘𐎟𐎄𐎗𐎋𐎚𐎅",
+          "notes": "'The dais of his dominion.' kḥṯ drkt 'dais of dominion' = the royal-establishment-formula."
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.4-vii:9",
+          "translit": "[w] yʿn . ʾalʾiyn . bʿl",
+          "cuneiform": "[𐎆]𐎟𐎊𐎓𐎐𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'[And] Mighty Baʿlu answered.'"
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.4-vii:10",
+          "translit": "ʾaqry . w ʾank",
+          "cuneiform": "𐎀𐎖𐎗𐎊𐎟𐎆𐎟𐎀𐎐𐎋",
+          "notes": "'I will offer / set in order (the feast), even I.' ʾaqry 'I will set in order, place' (G-yqtl 1cs of qry; cf. Hebrew qārâ Gen 24:12 'cause to occur')."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.4-vii:11",
+          "translit": "kṯr . [w] ḫss",
+          "cuneiform": "𐎋𐎘𐎗𐎟[𐎆]𐎟𐎃𐎒𐎒",
+          "notes": "'…(to) Kothar [-wa-]Khasis.'"
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.4-vii:12",
+          "translit": "[šmʿ . l] ʾalʾiy . qrdm",
+          "cuneiform": "[𐎌𐎎𐎓𐎟𐎍]𐎟𐎀𐎍𐎛𐎊𐎟𐎖𐎗𐎄𐎎",
+          "notes": "'[Hear, O] Mightiest of warriors!' Vocative."
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.4-vii:13",
+          "translit": "[b]l . ʾašt . ʾurbt . b bht[m]",
+          "cuneiform": "[𐎁]𐎍𐎟𐎀𐎌𐎚𐎟𐎜𐎗𐎁𐎚𐎟𐎁𐎟𐎁𐎅𐎚[𐎎]",
+          "notes": "**THE WINDOW DEBATE RESUMED**: '[Sh]all I not place a window in the palac[e]?' bl 'shall I not?' — Baʿlu now ASKS the question Kothar had asked earlier."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.4-vii:14",
+          "translit": "ḥlln . b qrb . hklm",
+          "cuneiform": "𐎈𐎍𐎍𐎐𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'A skylight in the midst of the temple.'"
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.4-vii:15",
+          "translit": "[w yʿn . kṯr] . w ḫss",
+          "cuneiform": "[𐎆𐎟𐎊𐎓𐎐𐎟𐎋𐎘𐎗]𐎟𐎆𐎟𐎃𐎒𐎒",
+          "notes": "**KOTHAR'S RESPONSE (preview)**: '[And Kothar]-wa-Khasis [answered].'"
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.4-vii:16",
+          "translit": "[...] tṯb . ʾalʾi[y]n . bʿl",
+          "cuneiform": "[𐎟]𐎟𐎚𐎘𐎁𐎟𐎀𐎍𐎛[𐎊]𐎐𐎟𐎁𐎓𐎍",
+          "notes": "'…I shall reply, O Migh[t]y Baʿlu.'"
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.4-vii:17",
+          "translit": "[bn]t . dt . ksp",
+          "cuneiform": "[𐎁𐎐]𐎚𐎟𐎄𐎚𐎟𐎋𐎒𐎔",
+          "notes": "'[I shall buil]d (it) of silver.'"
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.4-vii:18",
+          "translit": "dt . [ḫrṣ . y]bnt . dt . ʾiqnʾim",
+          "cuneiform": "𐎄𐎚𐎟[𐎃𐎗𐎕𐎟𐎊]𐎁𐎐𐎚𐎟𐎄𐎚𐎟𐎛𐎖𐎐𐎛𐎎",
+          "notes": "'…of [gold I shall b]uild, of lapis-lazuli.'"
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.4-vii:19",
+          "translit": "[...] tʾiḫdm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎛𐎃𐎄𐎎",
+          "notes": "'…they take.'"
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.4-vii:20",
+          "translit": "w yʿn . ʾalʾiyn . bʿl",
+          "cuneiform": "𐎆𐎟𐎊𐎓𐎐𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "**BAʿLU CHANGES HIS MIND — MANDATORY MAJOR**: 'And Mighty Baʿlu answered.' The pivot — Baʿlu now accepts the window. Smith & Pitard 2009 vol 2 pp. 612ff: this reversal is the structural climax of the construction-arc."
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.4-vii:21",
+          "translit": "ʾal . tšt . ʾurbt . [b bhtm]",
+          "cuneiform": "𐎀𐎍𐎟𐎚𐎌𐎚𐎟𐎜𐎗𐎁𐎚𐎟[𐎁𐎟𐎁𐎅𐎚𐎎]",
+          "notes": "'(No, no longer) — do not place the window [in the palace]…' Baʿlu's first response — STILL refusing(?). Reading uncertain — some editions take this as Baʿlu still hedging."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.4-vii:22",
+          "translit": "ḥlln . [b qrb] hklm",
+          "cuneiform": "𐎈𐎍𐎍𐎐𐎟[𐎁𐎟𐎖𐎗𐎁]𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'…a skylight [in the midst of] the temple.'"
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.4-vii:23",
+          "translit": "[...] pdry . [bt . ʾar]",
+          "cuneiform": "[𐎟]𐎟𐎔𐎄𐎗𐎊𐎟[𐎁𐎚𐎟𐎀𐎗]",
+          "notes": "'…Pidray [daughter of light].'"
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.4-vii:24",
+          "translit": "[...] ṭly . bt . r[b]",
+          "cuneiform": "[𐎟]𐎟𐎉𐎍𐎊𐎟𐎁𐎚𐎟𐎗[𐎁]",
+          "notes": "'…Ṭallay daughter of show[ers].'"
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.4-vii:25",
+          "translit": "[mdd] . ʾil . ym",
+          "cuneiform": "[𐎎𐎄𐎄]𐎟𐎛𐎍𐎟𐎊𐎎",
+          "notes": "**THE WINDOW-FEAR**: '[the Beloved of] ʾIlu, Yammu.' The reason for refusal: Yammu would come through the open window. Cf. Gen 7:11 (the cosmic-window-flood). STRONG CROSS-CORPUS."
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.4-vii:26",
+          "translit": "[...] yqlṣn",
+          "cuneiform": "[𐎟]𐎟𐎊𐎖𐎍𐎕𐎐",
+          "notes": "'…they will deride.' (The princes mock his fearful refusal.)"
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.4-vii:27",
+          "translit": "[w] yʿn . ʾalʾiyn . bʿl",
+          "cuneiform": "[𐎆]𐎟𐎊𐎓𐎐𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "**BAʿLU FINALLY ACCEPTS THE WINDOW**: '[And] Mighty Baʿlu answered.' Now the change-of-mind."
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.4-vii:28",
+          "translit": "ʾašt . ʾurbt . b bhtm",
+          "cuneiform": "𐎀𐎌𐎚𐎟𐎜𐎗𐎁𐎚𐎟𐎁𐎟𐎁𐎅𐎚𐎎",
+          "notes": "**BAʿLU OPENS THE WINDOW**: 'I shall place the window in the palace!' Baʿlu reverses himself — the window is opened."
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.4-vii:29",
+          "translit": "ḥlln . b qrb . hklm",
+          "cuneiform": "𐎈𐎍𐎍𐎐𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'A skylight in the midst of the temple.'"
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.4-vii:30",
+          "translit": "yptḥ . ḥln . b bhtm",
+          "cuneiform": "𐎊𐎔𐎚𐎈𐎟𐎈𐎍𐎐𐎟𐎁𐎟𐎁𐎅𐎚𐎎",
+          "notes": "**THE WINDOW IS OPENED**: 'He opens a window in the palace.' yptḥ 'he opens' (G-yqtl 3ms of ptḥ; cf. Hebrew pātaḥ); ḥln 'window' (= shorter form of ḥlln). The act of opening — the cosmic-window now allows Baʿlu's voice (thunder) to come forth."
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.4-vii:31",
+          "translit": "ʾurbt . b qrb . hklm",
+          "cuneiform": "𐎜𐎗𐎁𐎚𐎟𐎁𐎟𐎖𐎗𐎁𐎟𐎅𐎋𐎍𐎎",
+          "notes": "'A skylight in the midst of the temple.'"
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.4-vii:32",
+          "translit": "ytn . qlh . b ʿrpt",
+          "cuneiform": "𐎊𐎚𐎐𐎟𐎖𐎍𐎅𐎟𐎁𐎟𐎓𐎗𐎔𐎚",
+          "notes": "**BAʿLU'S VOICE GOES FORTH — MANDATORY MAJOR**: 'He gives forth his voice in the clouds.' ytn 'he gives' (G-yqtl 3ms of ntn); qlh 'his voice'; b ʿrpt 'in the clouds.' STRONG CROSS-CORPUS: cf. Ps 18:14 (=2 Sam 22:14) 'YHWH thundered from heaven, the Most High gave forth his voice'; Ps 29:3 qol-YHWH ʿal-hammāyim 'the voice of YHWH is on the waters'; Job 37:4-5. THE central theophany-line."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.4-vii:33",
+          "translit": "šrh . l ʾarṣ . brqm",
+          "cuneiform": "𐎌𐎗𐎅𐎟𐎍𐎟𐎀𐎗𐎕𐎟𐎁𐎗𐎖𐎎",
+          "notes": "'…his lightning to the earth.' šr possibly 'release, send forth' (cf. Hebrew šārâ); brqm 'lightnings' (pl of brq; cf. Hebrew bĕrāqîm Ps 18:15). The lightning-as-storm-god-weapon. Cf. Ps 18:15 'he shot out his arrows and scattered them; lightnings flashing.'"
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.4-vii:34",
+          "translit": "qdš . tr . ʾarṣ",
+          "cuneiform": "𐎖𐎄𐎌𐎟𐎚𐎗𐎟𐎀𐎗𐎕",
+          "notes": "**THE EARTH-SHAKING VOICE — MANDATORY MAJOR**: '(His) holy (voice) shakes the earth.' qdš 'holy' (cf. Hebrew qōdeš); tr 'shakes, makes-quiver' (G-yqtl 3ms of tww/twr 'to tremble'); ʾarṣ 'earth.' STRONG CROSS-CORPUS PARALLEL: cf. Ps 29:8 qol-YHWH yāḥîl midbār 'the voice of YHWH shakes the wilderness'; Hab 3:6 'he shook the earth'; Ps 68:9 'the earth trembled.' THE Ugaritic-Hebrew Bible theophany-parallel. This is the qlh qdš tr ʾarṣ line — note the reading qlh qdš in some editions reads as one phrase 'his holy voice.' MANDATORY MAJOR for Editor."
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.4-vii:35",
+          "translit": "rṯq . ġrm . ṯ[ḥt]",
+          "cuneiform": "𐎗𐎘𐎖𐎟𐎙𐎗𐎎𐎟𐎘[𐎈𐎚]",
+          "notes": "'(He) shatters the mountains be[neath]…'. rṯq 'shatters, splinters' (cf. Akk. rasāqu); ġrm 'mountains.' STRONG CROSS-CORPUS: cf. Ps 29:5-6 'the voice of YHWH breaks the cedars'; Nah 1:5 'the mountains quake.'"
+        },
+        {
+          "n": 36,
+          "refId": "BCY-WOH-1.4-vii:36",
+          "translit": "tṭṭn . ġr . ʿd[m]",
+          "cuneiform": "𐎚𐎉𐎉𐎐𐎟𐎙𐎗𐎟𐎓𐎄[𐎎]",
+          "notes": "'…the eternal mountains stagger.' tṭṭn 'they shake violently' (Gt-yqtl 3mp of nṭ); ġr ʿdm 'eternal mountains' (cf. Gen 49:26 'eternal hills' harĕrê ʿad). STRONG CROSS-CORPUS PARALLEL: Gen 49:26."
+        },
+        {
+          "n": 37,
+          "refId": "BCY-WOH-1.4-vii:37",
+          "translit": "ʾib . bʿl . tʾiḫd",
+          "cuneiform": "𐎛𐎁𐎟𐎁𐎓𐎍𐎟𐎚𐎛𐎃𐎄",
+          "notes": "'The enemies of Baʿlu seize…'."
+        },
+        {
+          "n": 38,
+          "refId": "BCY-WOH-1.4-vii:38",
+          "translit": "yʿrm . šnʾu . hd",
+          "cuneiform": "𐎊𐎓𐎗𐎎𐎟𐎌𐎐𐎜𐎟𐎅𐎄",
+          "notes": "'…the haters of Hadd flee to the forests.' šnʾu 'haters' (cf. Hebrew śōnĕʾay Ps 18:18); yʿrm 'forests' (cf. Hebrew yaʿar). The theophany scatters the enemies. Cf. Ps 68:2 'as smoke is driven away, so drive them away.'"
+        },
+        {
+          "n": 39,
+          "refId": "BCY-WOH-1.4-vii:39",
+          "translit": "yʿrm . tšu",
+          "cuneiform": "𐎊𐎓𐎗𐎎𐎟𐎚𐎌u",
+          "notes": "'…(his) hatreds(?) raise themselves.'"
+        },
+        {
+          "n": 40,
+          "refId": "BCY-WOH-1.4-vii:40",
+          "translit": "[k]m . ʿbdm . tšlmnn",
+          "cuneiform": "[𐎋]𐎎𐎟𐎓𐎁𐎄𐎎𐎟𐎚𐎌𐎍𐎎𐎐𐎐",
+          "notes": "'…[li]ke slaves they pay tribute.' ʿbdm 'slaves, servants'; tšlmnn 'they make-peace, render-tribute' (D-yqtl 3mp + n-ending of šlm)."
+        },
+        {
+          "n": 41,
+          "refId": "BCY-WOH-1.4-vii:41",
+          "translit": "ʿz . šrk . bʿl",
+          "cuneiform": "𐎓𐎇𐎟𐎌𐎗𐎋𐎟𐎁𐎓𐎍",
+          "notes": "'Strong is your offspring, O Baʿlu.' ʿz 'strong'; šr 'offspring, root' (cf. Hebrew šōreš)."
+        },
+        {
+          "n": 42,
+          "refId": "BCY-WOH-1.4-vii:42",
+          "translit": "[...] mrym . ṣpn",
+          "cuneiform": "[𐎟]𐎟𐎎𐎗𐎊𐎎𐎟𐎕𐎔𐎐",
+          "notes": "'…heights of Ṣapunu.'"
+        },
+        {
+          "n": 43,
+          "refId": "BCY-WOH-1.4-vii:43",
+          "translit": "[...] tḥt . pnh",
+          "cuneiform": "[𐎟]𐎟𐎚𐎈𐎚𐎟𐎔𐎐𐎅",
+          "notes": "'…beneath his face.'"
+        },
+        {
+          "n": 44,
+          "refId": "BCY-WOH-1.4-vii:44",
+          "translit": "tʿrr . ʾiln[ym]",
+          "cuneiform": "𐎚𐎓𐎗𐎗𐎟𐎛𐎍𐎐[𐎊𐎎]",
+          "notes": "'…the divin[e ones] are stirred up.' tʿrr 'they are roused' (Dt-yqtl 3mp); ʾilnym 'divinities.'"
+        },
+        {
+          "n": 45,
+          "refId": "BCY-WOH-1.4-vii:45",
+          "translit": "[...] bʿl",
+          "cuneiform": "[𐎟]𐎟𐎁𐎓𐎍",
+          "notes": "'…Baʿlu.'"
+        },
+        {
+          "n": 46,
+          "refId": "BCY-WOH-1.4-vii:46",
+          "translit": "[t]tn . rʾiš . ḥrṣ",
+          "cuneiform": "[𐎚]𐎚𐎐𐎟𐎗𐎛𐎌𐎟𐎈𐎗𐎕",
+          "notes": "'…(she) gives the head of gold(?).' Possibly the golden-head ornament for the palace."
+        },
+        {
+          "n": 47,
+          "refId": "BCY-WOH-1.4-vii:47",
+          "translit": "[...] tšʾu . gh . w tṣḥ",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎜𐎟𐎂𐎅𐎟𐎆𐎟𐎚𐎕𐎈",
+          "notes": "'…she lifts her voice and cries.'"
+        },
+        {
+          "n": 48,
+          "refId": "BCY-WOH-1.4-vii:48",
+          "translit": "[...] mlʾakm",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎀𐎋𐎎",
+          "notes": "'…messengers.'"
+        },
+        {
+          "n": 49,
+          "refId": "BCY-WOH-1.4-vii:49",
+          "translit": "[...] yblt",
+          "cuneiform": "[𐎟]𐎟𐎊𐎁𐎍𐎚",
+          "notes": "'…I have brought.'"
+        },
+        {
+          "n": 50,
+          "refId": "BCY-WOH-1.4-vii:50",
+          "translit": "[...] mt",
+          "cuneiform": "[𐎟]𐎟𐎎𐎚",
+          "notes": "**MÔT IS MENTIONED**: '…Môt.' mt 'Môt' (= Death personified) — the first mention of Death-as-deity. The transition to col viii's challenge."
+        },
+        {
+          "n": 51,
+          "refId": "BCY-WOH-1.4-vii:51",
+          "translit": "[...] ʿd",
+          "cuneiform": "[𐎟]𐎟𐎓𐎄",
+          "notes": "'…(unto) Môt.'"
+        },
+        {
+          "n": 52,
+          "refId": "BCY-WOH-1.4-vii:52",
+          "translit": "[...] mlk . ʿlmm",
+          "cuneiform": "[𐎟]𐎟𐎎𐎍𐎋𐎟𐎓𐎍𐎎𐎎",
+          "notes": "'…king of eternity.' mlk ʿlmm 'eternal king' — Môt's epithet."
+        },
+        {
+          "n": 53,
+          "refId": "BCY-WOH-1.4-vii:53",
+          "translit": "[...] bn . ʾilm . mt",
+          "cuneiform": "[𐎟]𐎟𐎁𐎐𐎟𐎛𐎍𐎎𐎟𐎎𐎚",
+          "notes": "**MÔT-AS-SON-OF-GODS**: '…(to) Môt the son of the gods.' bn ʾilm mt 'Death the son of the gods' = Môt's full title. Cf. KTU 1.5 i 13."
+        },
+        {
+          "n": 54,
+          "refId": "BCY-WOH-1.4-vii:54",
+          "translit": "[...] bʿl",
+          "cuneiform": "[𐎟]𐎟𐎁𐎓𐎍",
+          "notes": "'…Baʿlu.'"
+        },
+        {
+          "n": 55,
+          "refId": "BCY-WOH-1.4-vii:55",
+          "translit": "[...] tšlḥm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎈𐎎",
+          "notes": "'…they are sent.'"
+        }
+      ]
+    },
+    {
+      "segmentId": "1.4-viii",
+      "ktu": "KTU 1.4 col viii",
+      "preceding_lacuna": {
+        "i18n": {
+          "en": "[KTU 1.4 col viii: with the palace complete, Baʿlu now sends his messengers Gpn-wa-Ugar to Môt (Death personified) in the underworld. This proleptic challenge sets up the conflict that occupies Chapter 3 (KTU 1.5-1.6) of the Translation. The descent-to-the-underworld description is one of the few literary glimpses of Late-Bronze Northwest-Semitic underworld-cosmology.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "BCY-WOH-1.4-viii:1",
+          "translit": "ʾidk . l ttn . pnm",
+          "cuneiform": "𐎛𐎄𐎋𐎟𐎍𐎟𐎚𐎚𐎐𐎟𐎔𐎐𐎎",
+          "notes": "'Then indeed (= now), set face!' The travel-formula opening — addressed to the messengers."
+        },
+        {
+          "n": 2,
+          "refId": "BCY-WOH-1.4-viii:2",
+          "translit": "ʿm . ġr . trġz[z]",
+          "cuneiform": "𐎓𐎎𐎟𐎙𐎗𐎟𐎚𐎗𐎙𐎇[𐎇]",
+          "notes": "**THE COSMIC-MOUNTAIN-OF-THE-DEAD**: 'Toward Mount Trġziz…' trġzz a chthonic-mountain at the entrance to the underworld. Smith & Pitard 2009 vol 2 pp. 711-720."
+        },
+        {
+          "n": 3,
+          "refId": "BCY-WOH-1.4-viii:3",
+          "translit": "ʿm . ġr . ṯrmg",
+          "cuneiform": "𐎓𐎎𐎟𐎙𐎗𐎟𐎘𐎗𐎎𐎂",
+          "notes": "'…toward Mount Ṯrmg.' ṯrmg the second chthonic mountain — the pair of underworld-mountains framing the descent."
+        },
+        {
+          "n": 4,
+          "refId": "BCY-WOH-1.4-viii:4",
+          "translit": "ʿm . tlm . ġṣr . ʾarṣ",
+          "cuneiform": "𐎓𐎎𐎟𐎚𐎍𐎎𐎟𐎙𐎕𐎗𐎟𐎀𐎗𐎕",
+          "notes": "'…toward the (two) hills (at) the throat of the earth.' tlm 'hills' (du); ġṣr 'throat, gorge' (cf. Hebrew ḥōq) — the throat-of-earth as entry-point to the underworld. Cf. Job 38:17 'gates of death'; Ps 9:14 'gates of death.'"
+        },
+        {
+          "n": 5,
+          "refId": "BCY-WOH-1.4-viii:5",
+          "translit": "šʾu . ġr . ʿl . ydm",
+          "cuneiform": "𐎌𐎜𐎟𐎙𐎗𐎟𐎓𐎍𐎟𐎊𐎄𐎎",
+          "notes": "'Lift the mountain upon (your) hands!' šʾu 'lift!' (G-impv); ġr 'mountain.' The mountain-lifting gesture — to enter the underworld one must lift the mountain-gate."
+        },
+        {
+          "n": 6,
+          "refId": "BCY-WOH-1.4-viii:6",
+          "translit": "ḫlb . l ẓr . rḥtm",
+          "cuneiform": "𐎃𐎍𐎁𐎟𐎍𐎟𐎑𐎗𐎟𐎗𐎈𐎚𐎎",
+          "notes": "'(Lift the) Ḫalbu (= hill) upon the heights of the upper-hands.' ḫlb 'Ḫalbu / hill' (cf. Akk. ḫalbu); ẓr 'shoulder, peak'; rḥt 'palm, upper-hand.'"
+        },
+        {
+          "n": 7,
+          "refId": "BCY-WOH-1.4-viii:7",
+          "translit": "w rd . bt ḫp[ṯt]",
+          "cuneiform": "𐎆𐎟𐎗𐎄𐎟𐎁𐎚𐎟𐎃𐎔[𐎘𐎚]",
+          "notes": "**DESCENT TO THE UNDERWORLD**: 'And descend (into) the house of the imprisoned!' rd 'descend!' (G-impv of yrd; cf. Hebrew yārad 'go down'); bt ḫpṯt 'house of the imprisoned-ones / pit-prison' (cf. Akk. ḫupšu). The descent-to-Sheol formula. STRONG CROSS-CORPUS: cf. Isa 14:15 'you shall be brought down to Sheol, to the recesses of the pit.'"
+        },
+        {
+          "n": 8,
+          "refId": "BCY-WOH-1.4-viii:8",
+          "translit": "ʾarṣ . nʿmsk . [...]",
+          "cuneiform": "𐎀𐎗𐎕𐎟𐎐𐎓𐎎𐎒𐎋𐎟[𐎟]",
+          "notes": "'…(into) the earth, you are carried(?)…'"
+        },
+        {
+          "n": 9,
+          "refId": "BCY-WOH-1.4-viii:9",
+          "translit": "ʿm . bn . ʾilm . mt",
+          "cuneiform": "𐎓𐎎𐎟𐎁𐎐𐎟𐎛𐎍𐎎𐎟𐎎𐎚",
+          "notes": "**MÔT THE SON OF THE GODS**: 'Toward Môt the son of the gods.' bn ʾilm mt 'Môt son of the gods' = Death's full title. The destination-deity is named."
+        },
+        {
+          "n": 10,
+          "refId": "BCY-WOH-1.4-viii:10",
+          "translit": "ʿd . mhr . ʾil",
+          "cuneiform": "𐎓𐎄𐎟𐎎𐎅𐎗𐎟𐎛𐎍",
+          "notes": "'…unto the warrior of ʾIlu.' mhr 'warrior'; the underworld-warrior epithet."
+        },
+        {
+          "n": 11,
+          "refId": "BCY-WOH-1.4-viii:11",
+          "translit": "ʾal . tqrb . l bn . ʾilm . mt",
+          "cuneiform": "𐎀𐎍𐎟𐎚𐎖𐎗𐎁𐎟𐎍𐎟𐎁𐎐𐎟𐎛𐎍𐎎𐎟𐎎𐎚",
+          "notes": "'Do not draw near to Môt the son of the gods!' ʾal tqrb 'do not approach!' (G-yqtl-juss of qrb negative); the WARNING to the messengers — Môt is dangerous."
+        },
+        {
+          "n": 12,
+          "refId": "BCY-WOH-1.4-viii:12",
+          "translit": "ʾal . yʿdbkm . k ʾimr . b ph",
+          "cuneiform": "𐎀𐎍𐎟𐎊𐎓𐎄𐎁𐎋𐎎𐎟𐎋𐎟𐎛𐎎𐎗𐎟𐎁𐎟𐎔𐎅",
+          "notes": "**MÔT-AS-DEVOURER — STRONG IMAGE**: 'Lest he set you like a lamb in his mouth!' ʾal yʿdbkm 'lest he put you' (G-yqtl-juss 3ms + 2mp suffix of ʿdb); k ʾimr 'like a lamb' (cf. Hebrew ʾimmar). Môt as the swallower of life — a signature underworld-image. Cf. Isa 5:14 'Sheol has opened wide its mouth.'"
+        },
+        {
+          "n": 13,
+          "refId": "BCY-WOH-1.4-viii:13",
+          "translit": "k llʾi . b tbrn . qnh",
+          "cuneiform": "𐎋𐎟𐎍𐎍𐎛𐎟𐎁𐎟𐎚𐎁𐎗𐎐𐎟𐎖𐎐𐎅",
+          "notes": "'…like a kid in the cleavage of his throat!' llʾi 'kid'; tbrn 'cleavage, breaking-point'; qn 'throat, neck' (cf. Hebrew qāneh). The devouring-image intensifies."
+        },
+        {
+          "n": 14,
+          "refId": "BCY-WOH-1.4-viii:14",
+          "translit": "nrt . ʾilm . špš",
+          "cuneiform": "𐎐𐎗𐎚𐎟𐎛𐎍𐎎𐎟𐎌𐎔𐎌",
+          "notes": "'The luminary of the gods, Šapšu.' nrt ʾilm 'lamp of the gods' = the sun-goddess Šapšu's standard epithet (cf. Hebrew nēr 'lamp' Ps 18:29). The sun-warning."
+        },
+        {
+          "n": 15,
+          "refId": "BCY-WOH-1.4-viii:15",
+          "translit": "ṣḥrr . b lṯʾu . šmm",
+          "cuneiform": "𐎕𐎈𐎗𐎗𐎟𐎁𐎟𐎍𐎘𐎜𐎟𐎌𐎎𐎎",
+          "notes": "'…burns (with) the heat (of) heaven.' ṣḥrr 'glows, burns intensely' (G-yqtl 3fs of ṣḥrr); lṯʾu 'heat, weariness'; šmm 'heavens.' The intense-sun-as-warning-of-Môt's-realm."
+        },
+        {
+          "n": 16,
+          "refId": "BCY-WOH-1.4-viii:16",
+          "translit": "b yd . bn . ʾilm . mt",
+          "cuneiform": "𐎁𐎟𐎊𐎄𐎟𐎁𐎐𐎟𐎛𐎍𐎎𐎟𐎎𐎚",
+          "notes": "'…(she is) in the hand of Môt the son of the gods.' Šapšu (the sun) crosses the underworld each night; she is the messenger BETWEEN realms."
+        },
+        {
+          "n": 17,
+          "refId": "BCY-WOH-1.4-viii:17",
+          "translit": "ʾalp . šd . rḥb . ym",
+          "cuneiform": "𐎀𐎍𐎔𐎟𐎌𐎄𐎟𐎗𐎈𐎁𐎟𐎊𐎎",
+          "notes": "'A thousand acres, broad as the sea.' rḥb 'broad' (cf. Hebrew rāḥāb); the vast-scale cosmic-geography."
+        },
+        {
+          "n": 18,
+          "refId": "BCY-WOH-1.4-viii:18",
+          "translit": "rbt . kmn . [...]",
+          "cuneiform": "𐎗𐎁𐎚𐎟𐎋𐎎𐎐𐎟[𐎟]",
+          "notes": "'Ten thousand hectares…'."
+        },
+        {
+          "n": 19,
+          "refId": "BCY-WOH-1.4-viii:19",
+          "translit": "[...] tḥm . ʾalʾiyn . bʿl",
+          "cuneiform": "[𐎟]𐎟𐎚𐎈𐎎𐎟𐎀𐎍𐎛𐎊𐎐𐎟𐎁𐎓𐎍",
+          "notes": "**BAʿLU'S CHALLENGE TO MÔT — MANDATORY MAJOR**: '…Message of Mighty Baʿlu.' THE proleptic challenge that drives the entire next chapter (KTU 1.5-1.6 = Chapter 3 of the WoH Translation)."
+        },
+        {
+          "n": 20,
+          "refId": "BCY-WOH-1.4-viii:20",
+          "translit": "[hwt . ʾalʾiy] . qrdm",
+          "cuneiform": "[𐎅𐎆𐎚𐎟𐎀𐎍𐎛𐎊]𐎟𐎖𐎗𐎄𐎎",
+          "notes": "'[Word of the Mightiest] of warriors.'"
+        },
+        {
+          "n": 21,
+          "refId": "BCY-WOH-1.4-viii:21",
+          "translit": "[...] bht y . bn[t]",
+          "cuneiform": "[𐎟]𐎟𐎁𐎅𐎚𐎟𐎊𐎟𐎁𐎐[𐎚]",
+          "notes": "'…my palace I have built…'."
+        },
+        {
+          "n": 22,
+          "refId": "BCY-WOH-1.4-viii:22",
+          "translit": "[...] dt . ksp . hkl . [dt . ḫrṣ]",
+          "cuneiform": "[𐎟]𐎟𐎄𐎚𐎟𐎋𐎒𐎔𐎟𐎅𐎋𐎍𐎟[𐎄𐎚𐎟𐎃𐎗𐎕]",
+          "notes": "'…of silver, the temple [of gold].'"
+        },
+        {
+          "n": 23,
+          "refId": "BCY-WOH-1.4-viii:23",
+          "translit": "[...] qrḫ . ʾilm",
+          "cuneiform": "[𐎟]𐎟𐎖𐎗𐎃𐎟𐎛𐎍𐎎",
+          "notes": "'…contemn the gods(?).'"
+        },
+        {
+          "n": 24,
+          "refId": "BCY-WOH-1.4-viii:24",
+          "translit": "[...] ʾaḫh",
+          "cuneiform": "[𐎟]𐎟𐎀𐎃𐎅",
+          "notes": "'…his brothers.'"
+        },
+        {
+          "n": 25,
+          "refId": "BCY-WOH-1.4-viii:25",
+          "translit": "[ṣḥ . šbʿm . bn . ʾaṯrt]",
+          "cuneiform": "[𐎕𐎈𐎟𐎌𐎁𐎓𐎎𐎟𐎁𐎐𐎟𐎀𐎘𐎗𐎚]",
+          "notes": "'[I called the seventy sons of ʾAṯirat].' (Cf. 1.4 vi 58.)"
+        },
+        {
+          "n": 26,
+          "refId": "BCY-WOH-1.4-viii:26",
+          "translit": "[...] mt . ʾaḫd",
+          "cuneiform": "[𐎟]𐎟𐎎𐎚𐎟𐎀𐎃𐎄",
+          "notes": "'…Môt (the) (only/one).'"
+        },
+        {
+          "n": 27,
+          "refId": "BCY-WOH-1.4-viii:27",
+          "translit": "[...] yʿṣrnh",
+          "cuneiform": "[𐎟]𐎟𐎊𐎓𐎕𐎗𐎐𐎅",
+          "notes": "'…confines him(?).'"
+        },
+        {
+          "n": 28,
+          "refId": "BCY-WOH-1.4-viii:28",
+          "translit": "[...] yqrb",
+          "cuneiform": "[𐎟]𐎟𐎊𐎖𐎗𐎁",
+          "notes": "'…draws near.'"
+        },
+        {
+          "n": 29,
+          "refId": "BCY-WOH-1.4-viii:29",
+          "translit": "[...] yʿṣr",
+          "cuneiform": "[𐎟]𐎟𐎊𐎓𐎕𐎗",
+          "notes": "'…confines.'"
+        },
+        {
+          "n": 30,
+          "refId": "BCY-WOH-1.4-viii:30",
+          "translit": "[...] bʿl",
+          "cuneiform": "[𐎟]𐎟𐎁𐎓𐎍",
+          "notes": "'…Baʿlu.'"
+        },
+        {
+          "n": 31,
+          "refId": "BCY-WOH-1.4-viii:31",
+          "translit": "[...] ttbʿn",
+          "cuneiform": "[𐎟]𐎟𐎚𐎚𐎁𐎓𐎐",
+          "notes": "'…they depart.'"
+        },
+        {
+          "n": 32,
+          "refId": "BCY-WOH-1.4-viii:32",
+          "translit": "[...] ʿd . bn . ʾilm . mt",
+          "cuneiform": "[𐎟]𐎟𐎓𐎄𐎟𐎁𐎐𐎟𐎛𐎍𐎎𐎟𐎎𐎚",
+          "notes": "'…unto Môt the son of the gods.' The messengers reach the destination — the cliff-hanger ending of KTU 1.4 / Chapter 2. Chapter 3 picks up with Môt's reply in KTU 1.5 i."
+        },
+        {
+          "n": 33,
+          "refId": "BCY-WOH-1.4-viii:33",
+          "translit": "[...] tšlḥm",
+          "cuneiform": "[𐎟]𐎟𐎚𐎌𐎍𐎈𐎎",
+          "notes": "'…they are sent.'"
+        },
+        {
+          "n": 34,
+          "refId": "BCY-WOH-1.4-viii:34",
+          "translit": "[...] bʿl . mt",
+          "cuneiform": "[𐎟]𐎟𐎁𐎓𐎍𐎟𐎎𐎚",
+          "notes": "'…Baʿlu (and) Môt.'"
+        },
+        {
+          "n": 35,
+          "refId": "BCY-WOH-1.4-viii:35",
+          "translit": "[...] mt . ʿz",
+          "cuneiform": "[𐎟]𐎟𐎎𐎚𐎟𐎓𐎇",
+          "notes": "'…Môt is strong.' Foreshadowing Môt's-victory in KTU 1.5 vi."
+        }
+      ]
+    }
+  ]
+}
