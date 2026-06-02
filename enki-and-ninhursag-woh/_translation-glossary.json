@@ -1,0 +1,312 @@
+{
+  "$schema": "../_translation-glossary.schema.json",
+  "name": "Enki and Ninhursag — per-translation overlay glossary",
+  "version": "1.1.0",
+  "released": "2026-06-02",
+  "description": "Per-translation overlay glossary for Enki and Ninhursag (ETCSL 1.1.1). Houses entries that are composition-specific or near-singular within the WoH Mesopotamian corpus. Cross-corpus entries with Akkadian/Hebrew reach are housed in the central glossary.",
+  "sourceLanguages": [
+    "sux"
+  ],
+  "scopeNote": "v1.1.0 — Editor pass adds 11 composition-specific overlay entries (eight-plants, eight-healing-deities, nine-day-divine-pregnancy, fox-mediator, cucumber-apple-grape seduction-gifts, Damgalnuna-Ninhursag equation, Isimud, Magan, Ningišzida, nam-erim curse-oath, Nazi/Nanše throat-life pun, eye-of-life idiom, garment-seizure detention) and the chapter-title-and-meta conventions. Project-wide Sumerian/Mesopotamian conventions (lacuna-bracket, dingir-prefix-prose-drop, sumerian-proper-name-transliteration, manuscript-variant-inline-rendering) are central since the Flood Story pass and are applied via central, not duplicated here. Cross-corpus comparative-mythology entries with Hebrew reach (Nin-ti / Eve rib-life philological pun; paradise-by-negation; water-from-below-irrigates-paradise; Ninkasi beer-goddess) live in the central glossary.",
+  "terms": [
+    {
+      "id": "title-and-meta-conventions-enki-and-ninhursag",
+      "source": "—",
+      "translit": "—",
+      "lemma": "—",
+      "partOfSpeech": "meta-convention",
+      "literal": "Chapter-title and meta-convention for this composition",
+      "standardEnglish": "Standard practice (Black et al.; Foster; Kramer) titles the composition 'Enki and Ninḫursaĝa' (ETCSL 1.1.1)",
+      "wohChoice": "Title: 'Enki and Ninhursag — Dilmun the pure land, the eight plants, and the eight healing-deities'. The composition title preserves the conventional Black et al. / ETCSL form (Anglicized 'Ninhursag' per the project-wide `sumerian-proper-name-transliteration-convention`); the subtitle highlights the composition's three structural figures.",
+      "claim_type": "direct",
+      "rationale": "**Composition title — naming and subtitle conventions.** ETCSL catalogues the composition as `1.1.1 Enki and Ninḫursaĝa`. The Black-Cunningham-Robson-Zolyomi 2004 edition uses the same; Foster *Before the Muses* and Kramer's various editions render the title in similar form. The WoH project's `sumerian-proper-name-transliteration-convention` (central) anglicizes the strict-transliteration *Ninḫursaĝa* to *Ninhursag* in the i18n.en prose; the strict form is preserved in the translit field.\n\n**The subtitle** highlights the composition's three structural-organizing figures: (i) the Dilmun-paradise frame (lines 1-28 plus the destiny-assignment closure at line 280); (ii) the eight-plants sequence (lines 190-219); (iii) the eight-healing-deities sequence (lines 254-271). Each of the three has its own central or overlay entry; the subtitle marks the composition's diagnostic narrative-structure.\n\n**Convention question Q.30 — the structured `preceding_lacuna.i18n.en` field plus the bracketed inline marker.** The Translator's draft emits both a structured `preceding_lacuna` JSON field with `i18n.en` (e.g. '[3 lines missing.]') AND prepends the same bracketed marker to the line's main `i18n.en` (e.g. '[3 lines missing.] [Utu, standing in heaven] —'). The redundancy is intentional: downstream renderers can selectively use the structured field (for an apparatus / footnote rendering) OR the inline marker (for simple-prose rendering). The Editor ratifies this convention as the project's forward-compatible default.",
+      "appliesTo": [
+        "ENH-WOH-1:40",
+        "ENH-WOH-1:142",
+        "ENH-WOH-1:164",
+        "ENH-WOH-1:190",
+        "ENH-WOH-1:235",
+        "ENH-WOH-1:245"
+      ]
+    },
+    {
+      "id": "eight-plants-enki-eats-forbidden-food-motif",
+      "source": "u2-ĝiš / u2-lal3 / u2-sar-ra / ^u2A.NUMUN2 / ^u2a-tu-tu / ^u2aš-tal2-tal2 / ^u2… / ^u2am-ḫa-ru",
+      "translit": "u-ĝiš / u-lal / u-sar-ra / A.NUMUN / a-tu-tu / aš-tal-tal / … / am-ḫa-ru",
+      "lemma": "u2 (plant) + species-modifier",
+      "partOfSpeech": "Sumerian plant-name cluster: the eight plants Enki eats",
+      "literal": "the tree-plant, the honey-plant, the sar-plant, the esparto-grass, the atutu-plant, the astaltal-plant, the [lost-name]-plant, the amharu-plant",
+      "standardEnglish": "tree-plant, honey-plant, sar-plant, esparto-grass, atutu-plant, astaltal-plant, [lost]-plant, amharu-plant (Black et al.; Kramer; the six unidentified species transliterated unchanged in lexica)",
+      "wohChoice": "Render each plant by its conventional Sumerian transliterated name (or by the lexical-list English gloss where one is available: 'honey-plant' for *u2-lal3*, 'esparto-grass' for *^u2A.NUMUN2*). Six of the eight are unidentified species and are best left transliterated.",
+      "claim_type": "direct",
+      "rationale": "**The eight plants — names and identifications.** The eight plants Enki sees, has Isimud identify, and eats (lines 190-219) are: (1) *u2-ĝiš* 'tree-plant' (literally 'plant-tree'; possibly a woody-stemmed plant); (2) *u2-lal3* 'honey-plant' (the *lal3* element is 'honey, syrup'; possibly a sweet-fruited species or a nectariferous plant); (3) *u2-sar-ra* 'sar-plant' (the *sar* element is 'vegetable, herb'; possibly a generic-leafy-herb); (4) *^u2A.NUMUN2* 'esparto-grass' (the *NUMUN2* element is 'plant-seed' or the Sumerian for esparto / *Lygeum spartum*); (5) *^u2a-tu-tu* 'atutu-plant' (unidentified); (6) *^u2aš-tal2-tal2* 'astaltal-plant' (unidentified); (7) the seventh plant's name is lost in lacuna at line 196; (8) *^u2am-ḫa-ru* 'amharu-plant' (unidentified). Lexical-list comparison fixes the referents of (2) and (4); the rest are species whose modern botanical-identifications are not securely-established.\n\n**The narrative function.** Enki proposes to *decree the destiny* of the plants (line 200, with the standard Sumerian *nam tar* idiom — central entry `nam-sumerian-destiny-fate-cross-corpus`); the proposed-destiny-decree reverses into the **eating-and-falling-ill** narrative. Each plant is named by Isimud, cut/torn from its substrate, and eaten by Enki, which produces the body-part illnesses healed by the eight healing-deities (overlay entry `eight-healing-deities-birth-by-body-part-sequence`).\n\n**Cross-corpus comparative-mythology.** The eight-plants Enki eats structurally parallel **Gen 2:17 and 3:6** *etz ha-da'at tov va-ra* — the forbidden-tree whose fruit Eve and Adam eat — in the **forbidden-or-improper-food-causing-illness-or-transformation** typology. The parallel is structural (eating-the-forbidden-thing produces body-altering consequence); it is NOT etymological-genealogical (the Sumerian plant-names are not cognate to Hebrew *etz / peri* tree-fruit vocabulary; the Hebrew text does not name the species; the medieval Latin tradition's apple-identification is vernacular). In the Sumerian narrative the divine actor (Enki) is the eater; in the Hebrew the human is the eater. In the Sumerian the eaten produces localized-body-illness; in the Hebrew the eaten opens *yedi'ah* 'experiential knowing'. The comparison surfaces a shared ANE narrative-template — **forbidden / improper food causes irreversible body-or-knowledge change** — that recurs across Mesopotamian (Adapa's refusal of the food-of-life), Greek (Persephone's pomegranate seeds), and Hebrew material.\n\n**No Christian fall-of-humanity pre-resolution.** The Pauline / Augustinian 'original sin' interpretive overlay on Gen 3 is outside the scope of this comparative observation. The Mesopotamian-Hebrew comparison is at the structural-mythological-motif level; no theological synthesis is asserted.\n\n**Named scholarship.** Kramer 1944 *BASOR* 96 'Dilmun, the Land of the Living'; Alster 'Enki and Ninhursag' *Acta Sumerologica* 1978; Black-Cunningham-Robson-Zolyomi 2004 *The Literature of Ancient Sumer*; Jacobsen *The Harps that Once* 1987; Hallo *Origins of the Ancient Near Eastern Religious Traditions* 1996; on the lexical-list plant-identifications: M. Civil *MSL* 10 (Lexical Series ḪAR-ra=ḫubullu Tablet XVII) on plant-names; on cross-corpus forbidden-food motifs: Foster *Before the Muses* on Adapa; Westermann *Genesis 1-11* BKAT on Gen 2-3; Wenham *Genesis 1-15* WBC 1987.",
+      "appliesTo": [
+        "ENH-WOH-1:190",
+        "ENH-WOH-1:191",
+        "ENH-WOH-1:192",
+        "ENH-WOH-1:193",
+        "ENH-WOH-1:194",
+        "ENH-WOH-1:195",
+        "ENH-WOH-1:196",
+        "ENH-WOH-1:197",
+        "ENH-WOH-1:200",
+        "ENH-WOH-1:203",
+        "ENH-WOH-1:204",
+        "ENH-WOH-1:205",
+        "ENH-WOH-1:206",
+        "ENH-WOH-1:207",
+        "ENH-WOH-1:208",
+        "ENH-WOH-1:209",
+        "ENH-WOH-1:210",
+        "ENH-WOH-1:211",
+        "ENH-WOH-1:212",
+        "ENH-WOH-1:213",
+        "ENH-WOH-1:214",
+        "ENH-WOH-1:215",
+        "ENH-WOH-1:216",
+        "ENH-WOH-1:217",
+        "ENH-WOH-1:218",
+        "ENH-WOH-1:219"
+      ]
+    },
+    {
+      "id": "eight-healing-deities-birth-by-body-part-sequence",
+      "source": "šeš-ĝu10 a-na-zu a-ra-gig X-ĝu10 ma-gig + Y im-ma-ra-an-tu-ud",
+      "translit": "šeš-ĝu a-na-zu a-ra-gig X-ĝu ma-gig + Y im-ma-ra-an-tu-ud",
+      "lemma": "šeš; gig; tu",
+      "partOfSpeech": "Sumerian narrative-trope formulaic cluster: the eight healing-deity birth-by-body-part sequence",
+      "literal": "'My brother — what part of you hurts you? My X hurts me' + 'she gave birth to Y (out of it)'",
+      "standardEnglish": "'My brother, what hurts you? My X hurts me' + 'she bore Y' (Kramer 1944; Black et al. 2004; Jacobsen 1987)",
+      "wohChoice": "Render each instance of the formula with its constituent body-part name and the corresponding birthed-deity name. Preserve the parallel-construction across the eight instances to make the structural figure visible.",
+      "claim_type": "direct",
+      "rationale": "**The eight healing-deities birth-by-body-part sequence (lines 254-271)** is the chapter's signature structural figure. Ninhursag, having reconciled with Enki and placed him at her vulva (252), repeatedly asks him to name a pained body-part; from each pain she births a healing-deity whose name encodes the body-part.\n\n**The eight pairings.**\n\n| Body-part (Sumerian) | English | Deity | Notes |\n|---|---|---|---|\n| *ugu-dilim2* | top of head | **Ab-u** | line 256; the Lagash agricultural god 'father of the plant' (line 273 destiny: *lugal u2* 'lord of the plant') |\n| *pa siki* | lock of hair | **Ninsikila** | line 259; the Dilmun goddess from the opening of the composition (line 9; line 274 destiny: lord of Magan) |\n| *giri17* | nose | **Ningiriutud** | line 261; line 275 destiny: married to Ninazu |\n| *ka* | mouth | **Ninkasi** | line 263; the beer-goddess (central entry `ninkasi-beer-brewing-goddess-sumerian-cross-corpus`); line 276 destiny: 'that which fills the heart' |\n| *zi* | throat / breath | **Nazi (or Nanše)** | line 265; **PUN — *zi* throat is homophonous with *zi* breath/life**; overlay entry `nazi-nanse-throat-life-sumerian-philological-pun`; line 277 destiny: married to Nindara |\n| *a2* | arm | **Azimua** | line 267; line 278 destiny: married to Ningišzida (overlay entry `ninĝišzida-chthonic-vegetation-deity-sumerian`) |\n| *ti* | rib | **Ninti** | line 269; **PUN — *ti* rib is homophonous with *til3* to live**; central entry `nin-ti-lady-of-rib-lady-of-life-eve-sumerian-philological-pun-cross-corpus`; line 279 destiny: lady of the month |\n| *zag* | side | **Ensag** | line 271; line 280 destiny: lord of Dilmun (closes the composition's Dilmun-paradise frame) |\n\n**The structural figure.** The sequence is built on **eight body-part / deity-name pairings**, of which **two are diagnostic-philological-puns** (Nazi *zi*-throat-life; Ninti *ti*-rib-life) and the other six are name-encoding-without-pun. The two pun-deities are deliberately paired and adjacent in the sequence (positions 5 and 7); the placement is the compositional argument for reading the Sumerian *^dna-zi* as *Nazi* preserving the pun rather than as *Nanše* the later Lagash identification (see overlay entry `nazi-nanse-throat-life-sumerian-philological-pun`).\n\n**The compositional logic.** The eight-pain / eight-healing-deity sequence inverts the eight-plant / eight-illness sequence at lines 190-219: where eight plants caused illness in eight body-parts, eight healing-deities are now born to remedy the illnesses. The numerological-and-structural symmetry is one of the chapter's strongest unifying-structural-figures.\n\n**Named scholarship.** Kramer 1944 *BASOR* 96 'Dilmun, the Land of the Living' (foundational); Kramer 1963 *The Sumerians*; Alster 'Enki and Ninhursag' *Acta Sumerologica* 1978; Jacobsen *The Harps that Once* 1987; Black-Cunningham-Robson-Zolyomi 2004 *The Literature of Ancient Sumer*; on the Mesopotamian body-part-and-healing-deity associations: M. Stol *Birth in Babylonia and the Bible* CM 14, 2000; M. Geller *Ancient Babylonian Medicine* 2010; on the cross-corpus *zi* / *ti* puns and the Eve-parallel: Hallo *Origins* 1996.",
+      "appliesTo": [
+        "ENH-WOH-1:254",
+        "ENH-WOH-1:255",
+        "ENH-WOH-1:256",
+        "ENH-WOH-1:257",
+        "ENH-WOH-1:258",
+        "ENH-WOH-1:259",
+        "ENH-WOH-1:260",
+        "ENH-WOH-1:261",
+        "ENH-WOH-1:262",
+        "ENH-WOH-1:263",
+        "ENH-WOH-1:264",
+        "ENH-WOH-1:265",
+        "ENH-WOH-1:266",
+        "ENH-WOH-1:267",
+        "ENH-WOH-1:268",
+        "ENH-WOH-1:269",
+        "ENH-WOH-1:270",
+        "ENH-WOH-1:271",
+        "ENH-WOH-1:272",
+        "ENH-WOH-1:273",
+        "ENH-WOH-1:274",
+        "ENH-WOH-1:275",
+        "ENH-WOH-1:276",
+        "ENH-WOH-1:277",
+        "ENH-WOH-1:278",
+        "ENH-WOH-1:279",
+        "ENH-WOH-1:280"
+      ]
+    },
+    {
+      "id": "nine-day-divine-pregnancy-formula-sumerian",
+      "source": "ud 1-am3 itid 1-a-ni ... ud 9-am3 itid 9-a-ni itid nam-munus-a-ka",
+      "translit": "ud 1-am itid 1-a-ni ... ud 9-am itid 9-a-ni itid nam-munus-a-ka",
+      "lemma": "ud; itid; nam-munus",
+      "partOfSpeech": "Sumerian narrative-trope formulaic cluster: the day-equals-month divine pregnancy telescoping",
+      "literal": "one day was for her one month ... nine days were for her nine months, the months of womanhood",
+      "standardEnglish": "the day-equals-month accelerated divine pregnancy (Kramer; Black et al.; standard ANE narrative-time-compression formula)",
+      "wohChoice": "Render the formula literally with each day-month equation. The cumulative effect of nine repetitions makes the accelerated-time structure visible; the closing *itid nam-munus-a-ka* 'the months of womanhood' marks the formal completion of the gestation.",
+      "claim_type": "direct",
+      "rationale": "**The nine-day divine pregnancy formula at lines 75-83 (and parallels at 102-104 and 122-123).** The Sumerian poetic device telescopes nine months of human gestation into nine days of divine time: 'one day was for her one month ... two days were for her two months ... [nine] days were for her nine months, the months of womanhood'. The accelerated-pregnancy formula marks the offspring as divine (ordinary humans do not gestate at 30x speed) and the mother as divine (only goddesses experience the telescoping).\n\n**The formula recurs three times in this composition** — once for Ninhursag's pregnancy with Ninnisig (75-83), once for Ninnisig's with Ninkura (102-104), once for Ninkura's with Uttu (122-123). The three generations of pregnancy compress the genealogical-time-line into the composition's narrative-pacing.\n\n**Cross-corpus comparanda.** The Akkadian Atrahasis I.iv preserves a similar but less-formulaic divine-pregnancy compression; the Mesopotamian narrative-tradition generally compresses divine-time relative to human-time (cf. *Inana and Šukaletuda*; *Lugalbanda in the Mountain Cave*). The Hebrew Bible has no exact-parallel formulaic divine-pregnancy-compression; the closest functional-comparandum is the **prophetic-symbolic-time compression** (Dan 9:24-27 — the seventy-weeks; Ezek 4:5-6 — the 390 days = 390 years equation).\n\n**Named scholarship.** Kramer 1944 *BASOR* 96; Alster 'Enki and Ninhursag' *Acta Sumerologica* 1978; Black-Cunningham-Robson-Zolyomi 2004; on Mesopotamian narrative-time-compression generally: T. Jacobsen *Treasures of Darkness* 1976; M. Stol *Birth in Babylonia and the Bible* CM 14, 2000 on the ANE pregnancy-vocabulary.\n\n**Overlay placement.** The formula is composition-specific in its recurrence (three instances in this single text); cross-corpus reach is comparative-thematic rather than philologically-cognate. Future ANE-text Editor passes may promote to central if the formula recurs at multi-text scale.",
+      "appliesTo": [
+        "ENH-WOH-1:75",
+        "ENH-WOH-1:76",
+        "ENH-WOH-1:77",
+        "ENH-WOH-1:78",
+        "ENH-WOH-1:79",
+        "ENH-WOH-1:80",
+        "ENH-WOH-1:81",
+        "ENH-WOH-1:82",
+        "ENH-WOH-1:83",
+        "ENH-WOH-1:102",
+        "ENH-WOH-1:103",
+        "ENH-WOH-1:104",
+        "ENH-WOH-1:122",
+        "ENH-WOH-1:123"
+      ]
+    },
+    {
+      "id": "fox-mediator-sumerian-mythological-figure",
+      "source": "ka5-a",
+      "translit": "ka-a (the fox)",
+      "lemma": "ka5",
+      "partOfSpeech": "Sumerian common-noun used as quasi-divine actor: 'the fox' as mediator-trickster figure",
+      "literal": "the fox",
+      "standardEnglish": "the fox (Black et al. 2004; the fox-mediator function is widely attested across Sumerian narrative-and-fable corpus)",
+      "wohChoice": "Render 'the fox' with definite article. The fox's quasi-divine status (he negotiates directly with Enlil and retrieves Ninhursag from her retreat) is preserved in the narrative role; no need for additional formatting in the prose.",
+      "claim_type": "direct",
+      "rationale": "**The fox-as-mediator at lines 223-230.** The Sumerian *ka5-a* 'fox' appears as a quasi-divine actor who negotiates with Enlil for a reward in exchange for retrieving the absent Ninhursag, then performs ritual self-preparation (anointing the body, combing the hair, applying kohl to the eye) before setting out. The fox's actions are diplomatic-and-ritual rather than animal; he speaks directly with Enlil and bargains for a named reward.\n\n**The fox in Sumerian literature.** The fox is one of the most-frequent animal-actors in the Sumerian narrative-and-fable corpus. The ETCSL animal-fable corpus (5.9.x) preserves the fox in proverbial and fable-narrative contexts; the *Fox and the Lion* fable (5.9.4) and the *Fox-and-Enlil* proverbs (in the OB Sumerian proverb collections) consistently characterize the fox as **trickster, mediator, and clever-self-promoter**. The fox-as-mediator role in *Enki and Ninhursag* fits the wider Sumerian fox-character-template: he negotiates for personal benefit, performs the requested mediation, and (presumably) collects his reward.\n\n**Cross-corpus comparanda.** The trickster-fox figure recurs across many ANE-Mediterranean-East-Asian traditions: Aesopic fox-fables; Reynard the Fox in medieval European tradition; the Japanese *kitsune*; the West-African Anansi (a spider, but functionally the same trickster-role). The Sumerian fox is one of the earliest-attested trickster-fox figures in world-literature. Named scholarship: B. Alster 'The Old Babylonian Literary Catalogue' *Aula Orientalis* 1986; B. Alster *Proverbs of Ancient Sumer* 1997 (2 vols.) on the OB Sumerian fox-proverbs; J. Black 'The Sumerian Catalogue of Foxes' *RA* 1989.\n\n**Overlay placement.** The fox-as-mediator is composition-specific in this text's deployment; the wider Sumerian fox-character-cluster does not (yet) merit a central entry pending the project's translation of the OB Sumerian fox-proverbs and animal-fable corpus.",
+      "appliesTo": [
+        "ENH-WOH-1:223",
+        "ENH-WOH-1:224",
+        "ENH-WOH-1:225",
+        "ENH-WOH-1:228",
+        "ENH-WOH-1:229",
+        "ENH-WOH-1:230"
+      ]
+    },
+    {
+      "id": "cucumber-apple-grape-garden-gift-seduction-sumerian-cross-corpus",
+      "source": "ukuš2 / ^ĝišḫašḫur / ^ĝišĝeštin",
+      "translit": "ukuš / ḫašḫur / ĝeštin",
+      "lemma": "ukuš2; ḫašḫur; ĝeštin",
+      "partOfSpeech": "Sumerian plant-name cluster: the three garden-fruits used in the Enki-Uttu seduction",
+      "literal": "cucumber, apple(-tree fruit), grape (vine-fruit)",
+      "standardEnglish": "cucumbers, apples, grapes (Black et al.; Kramer; the conventional lexical-list referents)",
+      "wohChoice": "Render the three by their conventional English plant-names: cucumber, apple, grape. The composition's garden-produce vocabulary is concrete and the modern referents are securely-identified.",
+      "claim_type": "direct",
+      "rationale": "**The garden-fruit-as-seduction-vehicle motif at lines 147-176.** Enki, impersonating a gardener, brings three plant-gifts to Uttu: *ukuš2* 'cucumber' (the Cucurbitaceae are well-attested in Mesopotamian-Gulf horticulture); *^ĝišḫašḫur* 'apple-tree fruit' (the Sumerian *ḫašḫur* is the apple or apple-like-fruit of the Mesopotamian orchard-tradition; cognate to Akkadian *ḫašḫūru*); *^ĝišĝeštin* 'grape / vine-fruit' (Sumerian *ĝeštin* is the grape and by extension the wine made from it). The gifts are conventional Mesopotamian-orchard products of the third-and-second-millennium archaeological-record.\n\n**The seduction narrative.** Enki's gift-bearing-gardener masquerade is the prelude to the sexual act with Uttu (180-184). The Sumerian motif of **garden-produce-as-seduction-vehicle** recurs in other Enki-and-other-Sumerian compositions (cf. *Inana and Šukaletuda*; the Dumuzi-and-Inana courtship corpus); the **gardener-bearing-fruit** is a recurring romantic-and-erotic narrative-template in Sumerian poetic-tradition.\n\n**Cross-corpus comparative-mythology — Gen 3.** The cucumber / apple / grape garden-gift seduction structurally parallels the **Gen 3 garden-fruit-and-disobedience** narrative: a garden-locus, a fruit-of-a-tree, a transformation-or-disruption following the eating. The comparison is at the level of **shared garden-fruit narrative-template**, not etymological-identification. The Sumerian *ukuš2 / ḫašḫur / ĝeštin* are not cognate to Hebrew *etz / peri / qishshu / tappuach* (cucumber / apple / fruit / tree); the Hebrew Gen 3 text does not name the species of the forbidden-fruit (the medieval Latin *malum / pomum* 'apple' tradition is a vernacular substitution). The Sumerian motif is a **seduction-vehicle**; the Hebrew motif is a **forbidden-knowledge-vehicle**. The parallel is structural / comparative-mythology only; no etymological-cognation or genealogical-descent claim is asserted. **No Christian Eve-typology or 'fall-of-humanity' pre-resolution.**\n\n**Named scholarship.** Alster 'Enki and Ninhursag' *Acta Sumerologica* 1978; Black-Cunningham-Robson-Zolyomi 2004; on the Mesopotamian orchard-vocabulary: M. Powell (ed.) *Labor in the Ancient Near East* AOS 68, 1987 on Mesopotamian agriculture; M. Stol 'The Cattle of the Sun' BSA 8 (1995) and related BSA volumes on Mesopotamian-Gulf agriculture; on the Sumerian seduction-motif: Y. Sefati *Love Songs in Sumerian Literature* 1998; on cross-corpus Gen 3 comparanda: Westermann *Genesis 1-11* BKAT; Wenham *Genesis 1-15* WBC 1987; Sarna *Genesis* JPS 1989.",
+      "appliesTo": [
+        "ENH-WOH-1:147",
+        "ENH-WOH-1:148",
+        "ENH-WOH-1:149",
+        "ENH-WOH-1:164",
+        "ENH-WOH-1:165",
+        "ENH-WOH-1:166",
+        "ENH-WOH-1:171",
+        "ENH-WOH-1:174",
+        "ENH-WOH-1:175",
+        "ENH-WOH-1:176"
+      ]
+    },
+    {
+      "id": "damgalnuna-ninhursag-equation-sumerian",
+      "source": "^ddam-gal-nun-na = ^dnin-ḫur-saĝ-ĝa2 = ^dnin-tur5",
+      "translit": "Damgalnuna = Ninhursag = Nintur",
+      "lemma": "dam-gal-nun-na",
+      "partOfSpeech": "Sumerian divine-name equation: the multi-name identification of Enki's spouse",
+      "literal": "'great-spouse of the princely-one' (= the spouse-of-Enki epithet) = Ninhursag = Nintur",
+      "standardEnglish": "Damgalnuna ('great spouse of the prince [Enki]'), conventionally identified with Ninhursag and Nintur in this composition; in some traditions she is also identified with Akkadian Damkina, Marduk's mother (Wiggermann *RlA* 6.1 81-83)",
+      "wohChoice": "Render 'Damgalnuna' transliterated in the i18n.en prose at line 72 (where the text uses the Damgalnuna epithet); the cross-name equation with Ninhursag and Nintur is documented in the rationale and applied via the central entry `nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus`.",
+      "claim_type": "direct",
+      "rationale": "**The Damgalnuna name at line 72.** *^ddam-gal-nun-na* is the **spouse-of-Enki epithet** under one of her several cult-names. Etymologically the name is *dam-gal-nun* — 'great spouse (of) the princely-one'; the *nun* 'princely-one' is the Sumerian epithet of Enki (whose cult-city Eridu is the *eridu^ki nun-bi* 'Eridu, its princely-one'). The next line (73) names the recipient of the semen as *Ninhursag*; the immediate juxtaposition shows that Damgalnuna and Ninhursag are **the same goddess under different epithets** in this composition's onomastic system.\n\n**The multi-epithet birth-goddess cluster.** The Sumerian birth-goddess function is named under multiple epithets (covered by the central entry `nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus`): Nintur, Nintud, Ninhursag(a), Ninmah, Aruru, Mami / Bēlet-ilī (Akkadian), Damkina (Akkadian). This composition uses **Ninhursag** (the most-frequent; 73, 187, 220, 224, 226, 241, 247, 252), **Nintur** (the birth-aspect; 63, 64, 85, 127), and **Damgalnuna** (the spouse-of-Enki aspect; 72) — three names for the same goddess, each foregrounding a particular cultic-or-functional aspect.\n\n**Cross-corpus Akkadian.** In Akkadian-language tradition, *Damkina* (the cognate-form) becomes the consort of *Ea* (= Sumerian Enki) and the mother of *Marduk*; the Akkadian deployment shifts the cultic-emphasis from birth-goddess (Sumerian Ninhursag) to mother-of-Marduk (Akkadian Damkina). The Damkina cult-name appears in Akkadian-language texts from the Old Babylonian period onwards (Wiggermann *RlA* 6.1 81-83); the cult-name is **directly cognate** to Sumerian *dam-gal-nun* with the *-gal-nun* dropped in the abbreviated Akkadian form.\n\n**Overlay placement.** The Damgalnuna name is composition-specific in this text's deployment (line 72 is the single occurrence in the chapter); the multi-epithet equation with Ninhursag and Nintur is covered by the central entry. This overlay entry documents the per-composition appearance and the Akkadian-Damkina cross-corpus extension.\n\n**Named scholarship.** F. A. M. Wiggermann *RlA* 6.1 81-83 *Damgalnuna / Damkina*; Wiggermann *RlA* 9 222-227 *Nin-ḫursaĝ*; Jacobsen *Treasures of Darkness* 1976; Black-Cunningham-Robson-Zolyomi 2004; on the cross-name divine-epithet-cluster phenomenon: T. Richter *Untersuchungen zu den lokalen Panthea Süd- und Mittelbabyloniens in altbabylonischer Zeit* AOAT 257, 2004; M. Krebernik 'Die Götterlisten aus Fāra' *ZA* 76 (1986) on the early-third-millennium god-lists.",
+      "appliesTo": [
+        "ENH-WOH-1:72"
+      ]
+    },
+    {
+      "id": "isimud-vizier-of-enki-sumerian",
+      "source": "^disimud4-de3",
+      "translit": "Isimud",
+      "lemma": "isimud",
+      "partOfSpeech": "Sumerian divine-name: Enki's two-faced messenger-vizier (sukkal)",
+      "literal": "Isimud (Enki's sukkal-vizier)",
+      "standardEnglish": "Isimud (the conventional anglicized form across Black et al., Kramer, Jacobsen, Foster)",
+      "wohChoice": "Render 'Isimud' transliterated in i18n.en prose; render *sukkal* as 'minister' (Black et al.'s convention; alternatives: 'vizier', 'chamberlain').",
+      "claim_type": "direct",
+      "rationale": "**Isimud and the *sukkal* office.** *^disimud4-de3* is the standard divine-messenger of Enki across the Sumerian Enki-narrative corpus. His Akkadian-cognate name is *Usmu*; both names mean approximately 'the (one with) two faces' — his iconography in third- and second-millennium cylinder-seal art shows him as a figure with two faces (one looking forward, one looking back), reflecting his function as messenger-between-divine-parties.\n\n**The *sukkal* office.** The Sumerian *sukkal* (Akkadian-loanword *sukkallu*) is the technical office of the **chamberlain-vizier** — an intermediary between a high-ranking person (royal or divine) and his interlocutors. In the Mesopotamian divine-court tradition, major gods have specific named *sukkal*s: Isimud for Enki/Ea, Nuska for Enlil, Papsukkal / Ninšubur for Inana, Mušdamma for Enlil's farmer-office, etc. The *sukkal* office is one of the most-developed Mesopotamian institutional-administrative categories with both divine and royal-court deployments.\n\n**Isimud's appearances in this composition.** Isimud appears at lines 90, 93, 110, 113, 199, 202 — three episodes: (i) the Ninnisig kiss-or-not deliberation (90, 93); (ii) the Ninkura kiss-or-not deliberation (110, 113); (iii) the eight-plants identification (199, 202). In each case Isimud serves as Enki's deliberative-interlocutor: Enki proposes an action, Isimud confirms or extends it. The repeated formula structures the Enki-narrative episodes.\n\n**Cross-corpus comparanda.** Isimud / Usmu appears in *Enki and Inana* (the *me*-stealing narrative); *Enki and the World Order*; the *Adapa*-tradition. The *sukkal* office translates into the Hebrew narrative-tradition's *sar* 'chief / officer' positions (Joseph as *sar al-beito* of Pharaoh, Gen 39:4) without preserving the two-faced messenger-iconography. **Named scholarship.** Wiggermann *RlA* 6 422-424 *Usmû / Isimud*; T. Richter *Untersuchungen zu den lokalen Panthea Süd- und Mittelbabyloniens* AOAT 257, 2004; on the *sukkal* institutional category: J. Westenholz 'Inanna and Ishtar in the Babylonian World' in *The Babylonian World* 2007; on Sumerian divine messengers: M. Krebernik *RlA* 9 503-509.",
+      "appliesTo": [
+        "ENH-WOH-1:90",
+        "ENH-WOH-1:93",
+        "ENH-WOH-1:110",
+        "ENH-WOH-1:113",
+        "ENH-WOH-1:199",
+        "ENH-WOH-1:202"
+      ]
+    },
+    {
+      "id": "magan-toponym-ane-trade-geography",
+      "source": "ma2-gan-na",
+      "translit": "Magan",
+      "lemma": "ma2-gan",
+      "partOfSpeech": "Sumerian toponym: Magan, the ANE trade-region",
+      "literal": "Magan (the toponym)",
+      "standardEnglish": "Magan (uniform consensus across Potts, Heimpel, Glassner; archaeologically identified with the Oman peninsula and adjacent eastern-Arabian-coast)",
+      "wohChoice": "Render 'Magan' transliterated in i18n.en prose; preserve the toponym's geographical-and-archaeological identification in commentary.",
+      "claim_type": "direct",
+      "rationale": "**Magan in the ANE trade-network.** *ma2-gan-na* is the standard Sumerian toponym for the **Oman peninsula and adjacent eastern-Arabian-coast** (modern Sultanate of Oman; the late-third-millennium copper-producing region). The toponym is attested in third-millennium administrative-tablet corpus (Ur III) as the source of copper, diorite stone, and finished goods imported through the Gulf-trade-network. The late-third-millennium Magan-trade ran copper from Oman to the Mesopotamian heartland via Dilmun (Bahrain) as an intermediate emporium; the Magan-Dilmun-Mesopotamia trade-triangle is one of the most-developed third-millennium ANE trade-networks.\n\n**The destiny-assignment at line 274.** Ninsikila's assignment as *en ma2-gan-na* 'lord of Magan' situates the closing destiny-assignments in the SE-Mesopotamian Gulf-trade-geography. Paired with Ensag's assignment to Dilmun at line 280, the closing rebalances the Gulf-trade-network: Ninsikila (the original Dilmun-deity invoked at line 9) is reassigned to Magan, while Ensag (the new side-healing-deity) takes lordship of Dilmun.\n\n**Cross-corpus comparanda — Hebrew *Meluhha* / *Cush*.** The Mesopotamian trade-geography distinguished three Gulf-and-Indian-Ocean trade-partners: *Dilmun* (Bahrain), *Magan* (Oman), and *Meluḫḫa* (the Indus Valley, late third millennium; in the second millennium and after, often identified with *Cush* / Nubia / Ethiopia). The Hebrew Bible's *Kush* (Cush, conventionally Nubia) is etymologically distinct from Sumerian *Meluḫḫa* but functionally occupies a similar trade-geography-distant-prosperous-land role.\n\n**Named scholarship.** P. Steinkeller 'The Question of Marḫaši' *ZA* 72 (1982) on Magan-trade; D. T. Potts *The Arabian Gulf in Antiquity* 1990 (2 vols.) on archaeological Magan and the Gulf-trade-network; W. Heimpel 'Das untere Meer' *ZA* 77 (1987) on the Mesopotamian Gulf-cosmography; J.-J. Glassner 'Dilmun, Magan and Meluhha' in J. Reade (ed.) *The Indian Ocean in Antiquity* 1996; on the third-millennium copper-trade: G. F. Bass and J. Casey *A History of Seafaring Based on Underwater Archaeology* 1972; on the wider Gulf-cosmography: H. Crawford *Dilmun and Its Gulf Neighbours* 1998.",
+      "appliesTo": [
+        "ENH-WOH-1:274"
+      ]
+    },
+    {
+      "id": "ninĝišzida-chthonic-vegetation-deity-sumerian",
+      "source": "^dnin-ĝiš-zid-da",
+      "translit": "Ninĝišzida / Ningishzida",
+      "lemma": "nin-ĝiš-zid-da",
+      "partOfSpeech": "Sumerian divine-name: Ningišzida, chthonic-vegetation deity",
+      "literal": "Lord (lit. lady) of the steadfast tree",
+      "standardEnglish": "Ningišzida (Wiggermann *RlA* 9 368-373; Jacobsen *Treasures of Darkness* 1976; widely-attested across Sumerian and Akkadian literary-and-cultic corpus)",
+      "wohChoice": "Render 'Ningišzida' (with anglicized *ng* for *ĝ* per central `sumerian-proper-name-transliteration-convention`).",
+      "claim_type": "direct",
+      "rationale": "**Ningišzida — the chthonic-vegetation deity.** *^dnin-ĝiš-zid-da* — 'Lord of the steadfast tree' — is one of the most-cultically-developed Sumerian chthonic-vegetation deities. His iconography in third- and second-millennium glyptic art shows him as a horned-serpent (the *ušumgal* serpent-form) or as a deity flanked by horned-serpents; his cult-emblem is the **caduceus-like staff** with two serpents entwined around a central rod (the iconographic precursor of the later Greek-and-Roman caduceus).\n\n**Cultic-functional profile.** Ningišzida occupies several functional-and-cultic positions: (i) **chthonic-underworld deity** — gatekeeper of the underworld; (ii) **vegetation-and-growth deity** — patron of the steadfast (= 'always-returning') tree; (iii) **medicine-and-healing deity** — his caduceus-emblem migrates into the Mediterranean medical-iconography; (iv) **gatekeeper of An's heaven** — in *Adapa* he serves as one of the two heaven-gatekeepers (paired with Dumuzi).\n\n**The destiny-assignment at line 278.** Azimua (Enki's arm-healing-deity, born at 267 from *a2* 'arm') is married to Ningišzida in the closing destiny-cycle. The pairing — arm-healing-deity with chthonic-vegetation-deity — is part of the eight-healing-deities marriage-and-office assignments that close the composition.\n\n**Cross-corpus comparanda.** The horned-serpent and caduceus-staff iconography migrates from Mesopotamian Ningišzida into the wider Mediterranean medical-iconography (Greek Asklepios; Hermes's caduceus). The Hebrew Bible has no exact-parallel deity; the closest functional-comparandum is the **Nehushtan** bronze-serpent of Num 21:8-9 (Moses' bronze serpent that heals snakebite) and 2 Kgs 18:4 (Hezekiah destroys the bronze-serpent which had become an idol-of-cult). The Nehushtan-as-Mesopotamian-survival reading is documented in named scholarship: F. M. Cross *Canaanite Myth and Hebrew Epic* 1973; M. S. Smith *The Early History of God* 2nd ed. 2002. **Named scholarship.** F. A. M. Wiggermann *RlA* 9 368-373 *Nin-ĝiš-zida*; Wiggermann *Mesopotamian Protective Spirits* 1992; T. Jacobsen *Treasures of Darkness* 1976; on the cross-corpus serpent-iconography: K. R. Joines *Serpent Symbolism in the Old Testament* 1974.",
+      "appliesTo": [
+        "ENH-WOH-1:278"
+      ]
+    },
+    {
+      "id": "nam-erim-curse-oath-cutting-formula-sumerian",
+      "source": "nam-erim2 kud",
+      "translit": "nam-erim kud",
+      "lemma": "nam-erim2; kud",
+      "partOfSpeech": "Sumerian juridical-and-cultic formula: cutting / decreeing the curse-oath",
+      "literal": "to cut the curse-oath",
+      "standardEnglish": "to swear / cut the binding-curse-oath (CAD M/1 189-195 *māmītu*; Sumerian-Akkadian juridical-cultic technical-vocabulary)",
+      "wohChoice": "Render 'swore an oath' (Black et al. convention) and document the technical *nam-erim2* curse-binding force in commentary.",
+      "claim_type": "direct",
+      "rationale": "**The *nam-erim2 kud* formula at line 220.** Ninhursag's act of *nam-erim2 ... ba-an-kud* 'she cut / decreed the *nam-erim2*-oath' deploys the technical Sumerian juridical-and-cultic vocabulary for the **formal-curse-oath**. The construction has three elements: (i) *nam-erim2* — the noun designating the **binding curse-oath** (the oath whose violation triggers self-curse on the swearer); (ii) the verb *kud* — literally 'to cut' (the canonical Sumerian-Akkadian oath-cutting verb; the same *kud* / *karātu* used in Hebrew *karat berit* 'to cut a covenant'); (iii) the construction *mu ^den-ki* 'in the name of Enki' (the oath's binding-divine-witness).\n\n**The Akkadian cognate.** Sumerian *nam-erim2* is the source of Akkadian *māmītu* — 'binding-curse, sworn-oath, the substance of the oath that holds it in force'. The Akkadian *māmītu* is one of the most-attested Akkadian-language juridical-cultic technical terms (CAD M/1 189-195); it appears across legal-tablet corpora, incantation-texts (the *Maqlû* and *Šurpu* anti-witchcraft incantations both deploy *māmītu* as the oath-curse to be released), and royal-inscription oath-violation passages. The Sumerian-Akkadian cognation is one of the clearest direct-loanword cases.\n\n**Hebrew functional-comparandum.** Hebrew *alah* (curse-oath; cf. *alah* in Gen 24:41, Deut 29:11-20) and the verb *karat alah* 'to cut a curse-oath' are the Hebrew functional-equivalents. Hebrew *karat berit* 'to cut a covenant' (Gen 15:18 and corpus-wide) deploys the same *karat* 'cut' verb-of-oath-establishment. The cross-corpus *cut-the-oath* idiom is one of the most-widely-attested ANE oath-vocabulary patterns. **Named scholarship.** CAD M/1 189-195 *māmītu*; W. Lambert 'Three Unpublished Fragments of the Tukulti-Ninurta Epic' *AfO* 18 (1957-58); R. Yaron *The Laws of Eshnunna* 1969; M. Greenberg 'The Hebrew Oath Particle' *JBL* 76 (1957) 34-39; on the wider ANE oath-vocabulary: M. R. Lehmann 'Biblical Oaths' *ZAW* 81 (1969) 74-92.",
+      "appliesTo": [
+        "ENH-WOH-1:220"
+      ]
+    },
+    {
+      "id": "nazi-nanse-throat-life-sumerian-philological-pun",
+      "source": "^dna-zi",
+      "translit": "Nazi (alternate manuscript / later identification: Nanše)",
+      "lemma": "na-zi; (later identification: nanše)",
+      "partOfSpeech": "Sumerian divine-name with philological-pun crux",
+      "literal": "the (lady) of life-breath (na-zi reading); or Nanše the Lagash city-goddess (later-identification reading)",
+      "standardEnglish": "Nazi (Kramer 1944) / Nanše (ETCSL lemma; Falkenstein; Heimpel)",
+      "wohChoice": "Render 'Nazi' as primary surface, with the variant *Nanše* supplied inline per `manuscript-variant-inline-rendering-convention`. The Kramer 1944 / Jacobsen / Black et al. reading is followed because it preserves the structural-pun parallelism with Nin-ti at line 269.",
+      "claim_type": "inferred",
+      "rationale": "**The crux at line 265.** The Sumerian writing *^dna-zi* admits two scholarly readings.\n\n**Reading A — Nazi.** Sumerian *zi* spans both 'throat / windpipe / neck-anatomy' and 'breath / life / vital-force' (see central entry `zi-sumerian-breath-of-life-cross-corpus`). The deity born from Enki's pained throat-and-breath at line 264 (*zi-ĝu10 ma-gig* 'my throat / breath hurts me') is *Nazi*, 'the (lady) of life-breath'. The reading is structurally-parallel to the **Nin-ti** reading at line 269 (where *ti* 'rib' is homophonous with *til3* 'to live'): the composition pairs two **body-part / life-vocabulary pun** birth-deities. The two pun-deities are placed adjacent in the eight-deity sequence (positions 5 and 7); the structural-parallel argues for the pun-preserving Nazi reading. **Named scholarship.** Kramer 1944 *BASOR* 96 'Dilmun, the Land of the Living'; followed by Jacobsen *The Harps that Once* 1987; Black-Cunningham-Robson-Zolyomi 2004 (cautious acceptance).\n\n**Reading B — Nanše.** The ETCSL lemma assigns *^dna-zi* the dictionary-entry *nanše*, identifying the deity with the **Lagash city-goddess Nanše** (whose patronage of justice, water-divination, and birds is documented in the Nanše-hymn ETCSL 4.14.1 and elsewhere). The Lagash-Nanše identification is supported by the destiny-assignment at line 277 ('let Nanše marry Nindara'), since Nindara is the conventional Lagash-pantheon consort of Nanše. **Named scholarship.** Falkenstein 1966 *Die Inschriften Gudeas von Lagaš* on the Lagash-Nanše cult; W. Heimpel 'The Nanshe Hymn' *JCS* 33 (1981) 65-139; on the *^dna-zi* = Nanše identification: Selz *Untersuchungen zur Götterwelt des altsumerischen Stadtstaates von Lagaš* 1995.\n\n**The Editor's surface choice.** This translation renders **Nazi** as the surface-form per the structural-pun argument (Kramer; Jacobsen) and supplies *Nanše* as the alternate-manuscript variant inline per the project's `manuscript-variant-inline-rendering-convention`. Both readings are defensible; the structural-parallel with Nin-ti is the weightiest single argument for the Nazi reading. The line-277 Nindara-marriage destiny is the weightiest single argument for the Nanše reading. The dual-rendering preserves both for the reader.\n\n**No cross-corpus identity claim.** The Nazi reading does not assert Hebrew or other-language cognation; the Sumerian *zi* throat/life lexeme is not philologically-cognate to Hebrew *nefesh* or *neshamah*. The cross-corpus comparative-mythology link to Hebrew Eve (via the Nin-ti rib/life pun) is documented at central entry `nin-ti-lady-of-rib-lady-of-life-eve-sumerian-philological-pun-cross-corpus`; the Nazi reading reinforces the **internal-Sumerian** structural argument that the composition deliberately pairs body-part/life puns, without itself adding a Hebrew-side parallel.",
+      "appliesTo": [
+        "ENH-WOH-1:265",
+        "ENH-WOH-1:277"
+      ]
+    },
+    {
+      "id": "eye-of-life-sumerian-paradisal-gaze-idiom",
+      "source": "i-bi2 na-aĝ2-til3-la",
+      "translit": "i-bi nam-til-la (eye of life)",
+      "lemma": "i-bi2; nam-til3",
+      "partOfSpeech": "Sumerian idiomatic noun-phrase: the life-giving gaze",
+      "literal": "the eye of the life-state (literally 'eye of nam-til3 = the abstract-state of being-alive')",
+      "standardEnglish": "the eye of life (Black et al.; Kramer; the conventional idiomatic-rendering)",
+      "wohChoice": "Render 'the eye of life' literally. The Sumerian *nam-til3* abstract-substantive of *til3* 'to live' is preserved; the idiom's force depends on the contrast with the implicit *withering gaze* (the lethal-divinity-look).",
+      "claim_type": "direct",
+      "rationale": "**The idiom at line 221.** Ninhursag's oath *i-bi2 na-aĝ2-til3-la en-na ba-ug5-ge-a i-bi2 ba-ra-an-bar-re-en* literally reads: 'with the *i-bi2 nam-til3-la* — until he is dead — I will not look (i.e. apply the eye)'. The phrase is built from *i-bi2* 'eye / face / glance' + *nam-til3-la* 'state-of-being-alive' (the abstract-substantive of *til3* 'to live'); together they name the **life-giving gaze** — the divine-look that grants or sustains vital-force.\n\n**Parallel — the withering gaze.** The Sumerian-Akkadian literary tradition deploys a complementary trope: the **lethal-divinity-look** that withers, kills, or causes illness. The two looks — life-giving and withering — are paired conceptual-opposites in the divine-gaze-vocabulary. Mesopotamian incantation and ritual texts (the *Maqlû* and *Šurpu* corpora) deploy the lethal-look as the source of various afflictions; the *Šamaš*-prayers deploy the life-giving-look as the divine-justice-and-favor sign.\n\n**Cross-corpus Hebrew comparanda.** Hebrew Bible's complementary tropes: (i) **the lifted-face / lifted-eye of YHWH** — Num 6:24-26 *yisa YHWH panav eilekha* 'YHWH lift his face upon you' (the priestly benediction's life-and-favor formula); Ps 4:7 *nesa aleinu or panekha YHWH* 'lift upon us the light of your face, YHWH'. The Hebrew priestly-benediction's *face-lifting* parallels the Sumerian *eye-of-life*. (ii) **the hidden face / averted eye of YHWH** — Deut 31:17-18 *hester panim* 'hiding-of-face' (the curse-and-judgment formula); Isa 8:17, 54:8. The Hebrew *hester panim* parallels the Sumerian *withholding the eye-of-life*.\n\n**Named scholarship.** S. Balentine *The Hidden God* OBS 1983 (on Hebrew *hester panim*); P. Miller *They Cried to the Lord: The Form and Theology of Biblical Prayer* 1994; on the Mesopotamian divine-gaze vocabulary: T. Abusch 'The Demonic Image of the Witch in Standard Babylonian Literature' in *Mesopotamian Witchcraft* 2002; on the *Maqlû* corpus and the lethal-look: T. Abusch *Babylonian Witchcraft Literature* 1987.",
+      "appliesTo": [
+        "ENH-WOH-1:221"
+      ]
+    },
+    {
+      "id": "garment-seizure-formal-detention-ane",
+      "source": "tug2-ga-ni ba-an-dab5-be2-eš (here at line 248)",
+      "translit": "tug-ga-ni ba-an-dab-be-eš",
+      "lemma": "tug2; dab5",
+      "partOfSpeech": "Sumerian narrative-and-juridical idiomatic action: hem-or-garment-seizure as formal detention or supplication",
+      "literal": "they seized her garment",
+      "standardEnglish": "they seized / grasped her garment (Black et al.; conventional in Mesopotamian narrative and juridical idiom)",
+      "wohChoice": "Render 'seized her garment' literally. The legal-formal-act force is preserved in commentary; the surface reads as ordinary narrative action.",
+      "claim_type": "direct",
+      "rationale": "**The garment-seizure gesture at line 248.** The Anuna's act of *tug2-ga-ni dab5* 'seizing her garment' is the standard ANE formal-detention / supplication-act: grasping the hem or fringe of a garment constitutes a juridical-or-ritual act of detention, supplication, or claim-establishment. The gesture is widely-attested across the ANE legal-and-narrative corpora.\n\n**Akkadian parallels.** Akkadian *qarābu sissikta* 'to seize the hem (in supplication)' and *ṣabātu sissikta* 'to grasp the hem' appear in numerous OB and SB legal-and-literary texts (CAD Ṣ 162-163; CAD S/2 322-325). The Mari-letter corpus preserves several hem-seizure-as-supplication scenes. The Atrahasis tradition includes hem-seizure-of-the-deity passages.\n\n**Hebrew parallels.** (i) **1 Sam 15:27** — *va-yikhrach (sic; read va-yiḥzaq) bi-knaph m'ilo va-yikkara'* — Samuel grasps the hem of Saul's robe; the robe tears. The narrative establishes the formal-juridical force of the act: the torn-hem prefigures the tearing-away of Saul's kingship. (ii) **Hag 2:12-13** — the hem-of-garment carrying holiness through contact. (iii) **Ruth 3:9** — *u-farasta khnafekha al amat'kha* 'spread your skirt over your handmaid' — Ruth's request to Boaz is a hem-spreading marriage-claim. (iv) **Num 15:38-41** — the *tzitzit* fringe-of-the-garment commandment, where the garment-fringe carries cultic-symbolic force.\n\n**Named scholarship.** M. Malul *Studies in Mesopotamian Legal Symbolism* AOAT 221, 1988 (the foundational study of hem-grasping as legal-act); M. Greenberg *Ezekiel 1-20* AB 1983 on the Hebrew hem-grasping parallels; D. Daube *Studies in Biblical Law* 1947; J. Tigay *Deuteronomy* JPS 1996 on the *tzitzit* fringe-tradition; G. von Rad *Genesis* OTL 1972 on the hem-spreading marriage-claim.\n\n**Overlay placement.** The garment-seizure idiom is widely-attested in Mesopotamian and Hebrew corpora; the central glossary may eventually house an entry. For now, the per-composition occurrence is documented here in overlay; future Editor passes on other ANE texts deploying the same idiom may promote.",
+      "appliesTo": [
+        "ENH-WOH-1:248"
+      ]
+    }
+  ]
+}
