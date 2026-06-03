@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.0",
+  "scope": "shiur-qomah-woh",
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of the Shi'ur Qomah. Contains composition-specific entries (Hekhalot/Merkavah lexicon, recension-variant readings, specific magical-name attestations) that are not (yet) appropriate for promotion to the central production glossary. Entries here may be promoted to central via the standard overlay→central promotion pattern when they appear in subsequent compositions (e.g. Sefer Yetzirah, Bahir, Hekhalot Rabbati) and acquire cross-corpus reach.\n\nv1.1.0 (chapter-1 Editor pass, 2026-06-03): adds 6 overlay entries for Shi'ur Qomah Ch 1 — the magical-name all-caps rendering convention; the Siddur-Rabbah-distinctive ḥăṣī kinnūy 'half-byname' technical term; the 64-faced ḥayyot Cohen-1985-distinctive amplification of Ezekiel; the angelic-prince-per-limb structural feature (Raḥaviel et al.); the ʿEhyeh-ʾašer-ʾEhyeh signet-formula at §57; the Aramaic-Hebrew intra-textual code-switching marker convention.",
+  "sourceLanguages": ["he"],
+  "entries": [
+    {
+      "id": "shiur-qomah-magical-name-rendering-convention-all-caps",
+      "source": "(meta-translation convention)",
+      "translit": "(meta-translation convention)",
+      "lemma": "the project-wide rendering convention for transliterated magical-name strings in Shi'ur Qomah: ALL-CAPS for unvocalized consonant-cluster magical-names (the dominant Hekhalot scribal-tradition register); the standard scholarly transliteration register for the divine epithets and the canonical theophoric-name elements",
+      "partOfSpeech": "meta-translation convention: how transliterated Hekhalot magical-names are rendered in the English surface text",
+      "literal": "ALL-CAPS magical-name rendering convention",
+      "standardEnglish": "varies by scholar — Cohen 1985 uses italics; Scholem 1965 uses small-caps; Halperin 1988 uses italics; Schäfer 1981 *Synopse* uses normal-case with the manuscript-letter-skeletons preserved as in the witnesses",
+      "wohChoice": "ALL-CAPS for magical-names; standard scholarly transliteration for divine epithets",
+      "claim_type": "direct",
+      "rationale": "**The project finalises ALL-CAPS as the rendering convention for transliterated magical-name strings throughout Shi'ur Qomah Ch 1.** The choice is motivated by: (a) the names are sound-incantations, not words-with-meanings — they are not 'translated' into English equivalents but transliterated as theurgical-recitation content; (b) the manuscript-witness tradition (Cohen 1985 collation; Schäfer 1981 *Synopse*) transmits them uniformly as unvocalized consonant-skeletons because the scribal tradition does not know how to vocalize them — the consonantal skeleton is what is preserved; (c) ALL-CAPS marks them visually-immediately as the theurgical-magical register, distinct from the surface-narrative Hebrew; (d) the convention is consistent with Scholem 1960/1965's small-caps usage and the broader scholarly convention of marking magical-names typographically.\n\n**The convention applies to**: per-limb magical-names (§§5, 11-18, 20-29, 33, 37-38, 42-49, 53, 56), the divine-epithet magical-name clusters (§§5, 16, 22, 36, 53, 61-62), the Metatron-name lists (§§8, 52, 56), the angelic-prince-per-limb names (§23 Raḥaviel etc., §48 the four princes of the ḥayyot faces, §49 the prince of the cherub face), and the magical-name strings on the heart (§16) and forehead (§22).\n\n**The convention does NOT apply to**: canonical divine epithets when they appear in their standard liturgical-Hebrew form (Ṣĕḇāʾôt, Šadday, ʾĔlōhîm, YHWH, ʾEhyeh-ʾašer-ʾEhyeh — these are rendered in standard scholarly transliteration with macrons/diacritics); the standard scholarly transliteration of the surface-narrative Hebrew; the Aramaic-marker bracketed-flags.\n\nNamed scholarship for the convention: **M. S. Cohen**, *The Shi'ur Qomah: Texts and Recensions* (TSAJ 9, 1985); **G. Scholem**, *Jewish Gnosticism* (1960/1965); **P. Schäfer**, *Synopse zur Hekhalot-Literatur* (TSAJ 2, 1981); **D. J. Halperin**, *The Faces of the Chariot* (TSAJ 16, 1988).",
+      "appliesTo": [
+        "SHQM-WOH-1:5",
+        "SHQM-WOH-1:8",
+        "SHQM-WOH-1:11",
+        "SHQM-WOH-1:12",
+        "SHQM-WOH-1:13",
+        "SHQM-WOH-1:14",
+        "SHQM-WOH-1:15",
+        "SHQM-WOH-1:16",
+        "SHQM-WOH-1:17",
+        "SHQM-WOH-1:18",
+        "SHQM-WOH-1:20",
+        "SHQM-WOH-1:21",
+        "SHQM-WOH-1:22",
+        "SHQM-WOH-1:23",
+        "SHQM-WOH-1:24",
+        "SHQM-WOH-1:25",
+        "SHQM-WOH-1:26",
+        "SHQM-WOH-1:27",
+        "SHQM-WOH-1:28",
+        "SHQM-WOH-1:29",
+        "SHQM-WOH-1:33",
+        "SHQM-WOH-1:36",
+        "SHQM-WOH-1:37",
+        "SHQM-WOH-1:38",
+        "SHQM-WOH-1:42",
+        "SHQM-WOH-1:43",
+        "SHQM-WOH-1:44",
+        "SHQM-WOH-1:45",
+        "SHQM-WOH-1:48",
+        "SHQM-WOH-1:49",
+        "SHQM-WOH-1:53",
+        "SHQM-WOH-1:56",
+        "SHQM-WOH-1:61",
+        "SHQM-WOH-1:62"
+      ]
+    },
+    {
+      "id": "chasi-kinnuy-half-byname-siddur-rabbah-distinctive-technical-term",
+      "source": "חֲצִי כִּנּוּי",
+      "translit": "ḥăṣî kinnûy",
+      "lemma": "ḥăṣî 'half' (Hebrew); kinnûy 'byname, appellative, epithet' (Hebrew; from k-n-h 'to call by a name, to nickname'); the compound *ḥăṣî kinnûy* 'half-byname' as the Siddur-Rabbah-distinctive technical term for a magical-name reduction in which only part of the name is communicated",
+      "partOfSpeech": "Siddur-Rabbah-distinctive Hekhalot technical term: 'half-byname' — the magical-name reduction at SHQM-WOH-1:42 (and reprised at §44 and §57's '*kinnûyô* its byname') in which only part of the full magical-name is communicated to the tradent, preserving the remainder as concealed-theurgical-content",
+      "literal": "half-byname",
+      "standardEnglish": "half-byname (Cohen 1985); half-epithet (variant); half-appellative (most technical)",
+      "wohChoice": "half-byname (preserved as the neutral English; alternative 'half-epithet' acknowledged in commentary)",
+      "claim_type": "direct",
+      "rationale": "**The *ḥăṣî kinnûy* 'half-byname' is a Siddur-Rabbah-distinctive technical term** for a magical-name reduction in which only part of the full magical-name is communicated to the tradent. At SHQM-WOH-1:42 the text explicitly distinguishes: 'his locks of hair are of his stature; their name is DBR-BRD DWBG; and they have a half-byname: its name is GLSHRB.' The structure is: a full magical-name (DBR-BRD DWBG) plus a half-byname (GLSHRB) — the half-byname is a shorter reduction, sufficient for some theurgical purposes but not for others. Cohen 1985 *The Shi'ur Qomah: Texts and Recensions* (TSAJ 9) reads the convention as evidence of the Siddur Rabbah recension's distinctive theurgical-pedagogical organisation: the full magical-name is reserved for the highest-level mystic, the half-byname is the entry-level reduction.\n\n**The related convention at §57** uses *kinnûyô* 'its byname' for the second-tier magical-name attached to Metatron's enthroned-cosmic-letter. The convention may also overlap with the 'second name for it' (*šēm ʾaḥēr lô*) pattern at §25 — another Siddur-Rabbah-distinctive convention for the multiple-name-attachment-per-limb pattern.\n\nNamed scholarship: **M. S. Cohen**, *The Shi'ur Qomah: Texts and Recensions* (TSAJ 9, 1985), the Siddur Rabbah apparatus; **P. Schäfer**, *Synopse zur Hekhalot-Literatur* (TSAJ 2, 1981) — the manuscript-witness collation of the Siddur Rabbah half-byname/second-name conventions; **D. J. Halperin**, *The Faces of the Chariot* (TSAJ 16, 1988).\n\n**Promotion candidate.** This entry is in the overlay because the convention is Siddur-Rabbah-recension-specific; if the convention also occurs in Maʿaseh Merkavah, Hekhalot Rabbati, or 3 Enoch in a future-corpus translation, the entry should be promoted to central.",
+      "appliesTo": [
+        "SHQM-WOH-1:25",
+        "SHQM-WOH-1:42",
+        "SHQM-WOH-1:44",
+        "SHQM-WOH-1:57"
+      ]
+    },
+    {
+      "id": "shiur-qomah-64-faces-64-wings-chayyot-amplification-siddur-rabbah-distinctive",
+      "source": "שִׁשִּׁים וְאַרְבַּע פָּנִים לְכָל חַיָּה וְחַיָּה",
+      "translit": "šiššîm wĕ-ʾarbaʿ pānîm lĕ-ḵol ḥayyâ wĕ-ḥayyâ",
+      "lemma": "the Siddur-Rabbah-distinctive amplification of the Ezekielian four-faces-and-four-wings of the ḥayyôt (Ezek 1:6) into 64 faces and 64 wings per ḥayyâ; the structural amplification 4 (faces per chayyah, Ezek) × 4 (faces per corner, Hekhalot) × 4 (corners, structural) = 64",
+      "partOfSpeech": "Siddur-Rabbah-distinctive Hekhalot mystical-amplification of Ezek 1: the four-faces-and-four-wings of the Ezekielian ḥayyôt are amplified to 64 faces and 64 wings per creature, structured as 4×4×4 (per Cohen 1985 reading); the amplification distinguishes the Siddur Rabbah from other Shi'ur Qomah recensions and from the broader Hekhalot corpus",
+      "literal": "sixty-four faces to each and every living creature",
+      "standardEnglish": "the 64-faced/64-winged ḥayyot amplification (Cohen 1985)",
+      "wohChoice": "sixty-four faces to each and every living creature (literal); the Siddur-Rabbah-distinctive 4×4×4 structural amplification flagged in commentary",
+      "claim_type": "direct",
+      "rationale": "**The 64-faces and 64-wings amplification at SHQM-WOH-1:46-47 is a Siddur-Rabbah-distinctive Hekhalot mystical-amplification** of the Ezekielian four-faces-and-four-wings of the ḥayyôt (Ezek 1:6 *ʾarbāʿâ p̄ānîm lĕ-ʾaḥaṯ ū-ʾarbaʿ kĕnāp̄ayim lĕ-ʾaḥaṯ lāhem* 'four faces to each one and four wings to each one of them'). The Shi'ur Qomah §§46-47 amplifies: *ʾarbaʿ pānîm lĕ-ʾaḥaṯ wĕ-ʾarbaʿ pānîm lĕ-p̄înâ wĕ-ʾarbaʿ pānîm lĕ-ḵol pînâ ū-p̄înâ. Šiššîm wĕ-ʾarbaʿ pānîm lĕ-ḵol ḥayyâ wĕ-ḥayyâ* 'four faces to each one, four faces to a corner, four faces to each and every corner. Sixty-four faces to each and every living creature.' The same amplification applies to the wings.\n\n**Cohen 1985 reads the 4×4×4 = 64 structure** as a Siddur-Rabbah-distinctive mystical-amplification: the four cardinal-direction faces of Ezekiel × the four faces per corner of the Hekhalot amplification × the four corners of the cosmic-structural framework. The amplification is distinctively-Siddur-Rabbah; it does not appear in the same form in the Sefer Hekhalot, Sefer Razim, Merkavah Rabbah, or Maʿaseh Merkavah recensions Cohen 1985 collates. Rev 4:7-8 has only one face-type per creature (the four ḥayyot of Rev 4 each have a single face — lion, ox, human, eagle); the Hekhalot 64-face amplification is therefore Jewish-mystical-original to the Siddur Rabbah recension.\n\n**The 'human face concealed' (ʾāḏām sātûm) at §46** is the anti-anthropomorphic flag embedded in the amplification: even at 64 faces per creature, the human face is concealed — the iconographic-anti-anthropomorphic kernel of the Shi'ur Qomah project is preserved in the heart of the maximal amplification.\n\nNamed scholarship: **M. S. Cohen**, *The Shi'ur Qomah: Texts and Recensions* (TSAJ 9, 1985), the Siddur Rabbah apparatus; **P. Schäfer**, *Synopse zur Hekhalot-Literatur* (TSAJ 2, 1981); **D. J. Halperin**, *The Faces of the Chariot* (TSAJ 16, 1988) on the iconographic register; **D. I. Block**, *The Book of Ezekiel, Chapters 1-24* (NICOT, 1997) on Ezek 1:6 as the source-text.",
+      "appliesTo": [
+        "SHQM-WOH-1:46",
+        "SHQM-WOH-1:47"
+      ]
+    },
+    {
+      "id": "shiur-qomah-angelic-prince-per-limb-pattern-siddur-rabbah-distinctive",
+      "source": "וְהַשַּׂר שֶׁלּוֹ רַחֲבִיאֵל שְׁמוֹ",
+      "translit": "wĕ-haś-śar šellô Raḥăḇîʾēl šĕmô",
+      "lemma": "the Siddur-Rabbah-distinctive Hekhalot mystical-iconographic pattern of attaching an angelic prince (śar) to specific limbs alongside the magical-name; the principal-attestation is Raḥaviel at SHQM-WOH-1:23 attached to the right pupil; the four princes of the ḥayyot faces at §48; the prince of the cherub face at §49",
+      "partOfSpeech": "Siddur-Rabbah-distinctive Hekhalot mystical-iconographic pattern: the angelic-prince-per-limb attachment, in which specific body-parts of the divine measured-stature are protected/governed by named angelic princes",
+      "literal": "and its prince — Raḥaviel is its name",
+      "standardEnglish": "the angelic-prince-per-limb pattern (Cohen 1985)",
+      "wohChoice": "its prince is named X (literal); the Siddur-Rabbah-distinctive structural feature flagged in commentary",
+      "claim_type": "direct",
+      "rationale": "**The angelic-prince-per-limb pattern at SHQM-WOH-1:23 is a Siddur-Rabbah-distinctive Hekhalot mystical-iconographic structural feature**, in which named angelic princes (*śārîm*) are attached to specific limbs alongside the magical-name. The principal-attestation: 'the right [pupil] is named AZDAHIYAH and AṬṬISUS, and its prince is named RAḤAVIEL.' Cohen 1985 reads the pattern as evidence that the Siddur Rabbah recension engages the Hekhalot prince-hierarchy in deeper integration than mere measurement-list — the angelic princes function as the theurgical-protective intermediaries for specific divine-body-region magical-names.\n\n**Additional attestations.** §48 supplies the four princes of the ḥayyot faces (ELIYAH AMAṢBAMAṢ for the human face; HAZDUDIYA HA-YEDUʿA EL ODIYA HOD HAWAH TAFGAMAṢ for the lion face; ELIYAH ṢAMMAṢMAṢBAMAṢ MASBEYA for the ox face; ʿIFFEFI ELIYAH MAMṢIEL HUDIDIEL for the eagle face). §49 supplies the prince of the cherub face (ʿAMṬAMNI ELIYAH KERUVIYA KERUVIYA PASFASYAH PAṢFAṢYAH ḤANAQNAQYAH) after the Hekhalot ox-cherub substitution etiology. The pattern is reinforced by the broader Hekhalot literature's principalities-and-powers angelological structure (Sefer ha-Razim's seven heavens each with their angelic prince; 3 Enoch's elaborate angelological hierarchy).\n\nNamed scholarship: **M. S. Cohen**, *The Shi'ur Qomah: Texts and Recensions* (TSAJ 9, 1985); *The Shi'ur Qomah: Liturgy and Theurgy* (1983); **P. Schäfer**, *The Hidden and Manifest God* (1992); *Synopse zur Hekhalot-Literatur* (TSAJ 2, 1981); **G. Scholem**, *Jewish Gnosticism* (1965); **M. D. Swartz**, *Scholastic Magic: Ritual and Revelation in Early Jewish Mysticism* (Princeton 1996).",
+      "appliesTo": [
+        "SHQM-WOH-1:23",
+        "SHQM-WOH-1:48",
+        "SHQM-WOH-1:49"
+      ]
+    },
+    {
+      "id": "ehyeh-asher-ehyeh-signet-formula-shiur-qomah-cross-corpus-exodus-3-14",
+      "source": "אֶהְיֶה־אֲשֶׁר־אֶהְיֶה",
+      "translit": "ʾehyeh-ʾăšer-ʾehyeh",
+      "lemma": "ʾehyeh 'I will be / I am' (Hebrew imperfect 1cs of h-y-h 'to be'); ʾăšer 'who, which, that' (relative particle); the formula ʾehyeh ʾăšer ʾehyeh 'I will be what I will be / I am what I am / I am that I am' from Exod 3:14 (the burning-bush theophany) deployed in Shi'ur Qomah §57 as the signet-formula sealing Metatron's cosmic-letter inscription",
+      "partOfSpeech": "Hebrew Bible / Hekhalot theurgical signet-formula: the Exod 3:14 burning-bush divine self-naming, deployed in Shi'ur Qomah §57 as the signet (*ṭabbaʿaṯ*) sealing the cosmic-letter by which Metatron is named and the skies-and-the-land were shaped",
+      "literal": "I will be what I will be / I am that I am",
+      "standardEnglish": "I AM that I AM (KJV); I am who I am (NRSV); I will be what I will be (Sarna 1991 JPS; Childs 1974 OTL); Ehyeh asher Ehyeh (preserved untranslated in scholarly literature)",
+      "wohChoice": "Ehyeh asher Ehyeh (preserved untranslated; the technical-divine-name register preserved)",
+      "claim_type": "direct",
+      "rationale": "**The Exod 3:14 ʾEhyeh ʾăšer ʾEhyeh formula appears at Shi'ur Qomah §57** as the signet-formula (*ṭabbaʿaṯ*) sealing the cosmic-letter by which Metatron is named: 'This is Metatron, Prince of the Presence, who is inscribed in one letter by which the skies and the land were shaped and which was sealed with the signet \"Ehyeh asher Ehyeh.\"' The signet-formula is the convergence of three traditions: (a) the Exod 3:14 burning-bush self-naming (the divine self-identifying as 'I-will-be-what-I-will-be'); (b) the Hekhalot cosmic-letter cosmogony (the cosmos shaped by a single inscribed divine letter — anticipating Sefer Yetzirah's letter-cosmogony); (c) the magical-name theurgical convention of sealing a magical-name with a signet to render it efficacious.\n\n**The Exod 3:14 formula has its own translation-tradition.** The Hebrew *ʾehyeh* is the qal imperfect 1cs of *h-y-h* 'to be', which can be translated as present ('I am') or future ('I will be'); the relative *ʾăšer* can be 'who/which/that'; the construction can read as either an identity-statement ('I am the one who I am') or a future-becoming-statement ('I will be what I will be'). The Sarna 1991 JPS Torah Commentary and the Childs 1974 OTL Exodus commentary both favour the future-becoming reading. The LXX-Vulgate-KJV tradition favours the identity-statement reading ('I AM that I AM' / *ego eimi ho ōn* / *ego sum qui sum*). The Shi'ur Qomah §57 context preserves both: the formula functions as both an identity-signet (sealing Metatron's name to the divine) and a generative-cosmogonic device (by which the skies and land were shaped).\n\nNamed scholarship: **N. Sarna**, *Exodus* (JPS Torah Commentary, Philadelphia: JPS 1991); **B. S. Childs**, *The Book of Exodus* (OTL, Philadelphia: Westminster 1974); **W. H. Propp**, *Exodus 1-18* (Anchor Bible 2, Garden City: Doubleday 1999); **C. Houtman**, *Exodus, Vol. 1* (HCOT, Kampen: Kok 1993); **M. S. Cohen**, *The Shi'ur Qomah: Texts and Recensions* (TSAJ 9, 1985) on §57; **G. Scholem**, *Jewish Gnosticism* (1965).\n\n**Promotion candidate.** This entry is in the overlay because the specific Hekhalot signet-formula deployment is Shi'ur Qomah-specific; the Exod 3:14 reference is Hebrew Bible. If future-corpus translations (Sefer Yetzirah, the Bahir, the Hekhalot Rabbati) deploy the same signet-formula convention, the entry should be promoted to central.\n\n**Lens-discipline operational disavowals.** (i) **No engineered-self-naming pre-resolution.** The ʾEhyeh ʾăšer ʾEhyeh is a Hebrew Bible / Hekhalot divine self-naming in the theological-religious register; it is NOT a programmatic statement of an engineered intelligence's self-identification protocol. (ii) **No Christian-Trinitarian pre-resolution.** The Christian patristic tradition's reading of Exod 3:14 as a Trinitarian-self-disclosure is a downstream development, not the Hebrew Bible / Hekhalot baseline.",
+      "appliesTo": [
+        "SHQM-WOH-1:57",
+        "SHQM-WOH-1:61"
+      ]
+    },
+    {
+      "id": "aramaic-hebrew-code-switching-marker-convention-shiur-qomah",
+      "source": "(meta-translation convention)",
+      "translit": "(meta-translation convention)",
+      "lemma": "the project-wide convention for flagging intra-textual Aramaic / Hebrew code-switching in Shi'ur Qomah's surface translation: inline bracketed flag '[Aramaic: ...]' for Aramaic insertions within Hebrew passages, with the specific Aramaic-marker conventions (determinate-state -ā suffix, the dĕ- relative particle, Aramaic-specific verbal forms) preserved in the translit but folded into idiomatic English in the i18n.en",
+      "partOfSpeech": "meta-translation convention: how the intra-textual Aramaic / Hebrew code-switching in Shi'ur Qomah is flagged in the surface translation",
+      "literal": "Aramaic-marker bracketed-flag convention",
+      "standardEnglish": "various — Cohen 1985 uses italics for Aramaic; Schäfer 1981 marks Aramaic in the manuscript-witness apparatus; some translations smooth all to English without flagging",
+      "wohChoice": "inline bracketed flag '[Aramaic: ...]' for Aramaic insertions within Hebrew passages; the translit preserves the Aramaic-specific morphological markers; the i18n.en presents the surface meaning with the Aramaic-flag preserved",
+      "claim_type": "direct",
+      "rationale": "**Shi'ur Qomah Siddur Rabbah recension contains Aramaic insertions throughout** the otherwise-Hebrew base-text: the Metatron-title שָׂרָא רַבָּא דְּשַׁהֲדוּתָא 'great prince of testimony' (§2) is Aramaic; the entire opening Metatron-speech in §2 ('living and enduring, exalted and great, lofty and uplifted, who rescues us and redeems us') is in Aramaic-mystic-prayer register; the בֵּית מוֹתַב יְקָרֵיהּ 'seat of his glory' and רוּמֵיהּ 'his height' formulae at §3 are Aramaic determinate; the גֻּלְגֻּלְתָּא 'skull' at §4 is Aramaic determinate; the כֻּרְסְיֵהּ 'his throne' at §42 is Aramaic determinate; the ʿîrîn wĕ-qaddîšîn 'watchers and holy ones' at §60 is Aramaic (Dan 4:14). The intra-textual code-switching is a feature of the Hekhalot literary register — the Aramaic-marker register signals the theurgical-magical-liturgical level of the discourse.\n\n**The convention finalised**: the surface i18n.en text flags each Aramaic insertion with an inline bracketed marker '[Aramaic: ...]'; the translit preserves the Aramaic-specific morphological markers (the determinate-state -ā suffix, the dĕ- relative particle, the Aramaic-specific verbal forms like מְשֵׁזִיב 'rescuing' from š-w-z-b). The convention is justified by: (a) the source-text's own intra-textual code-switching signals a literary-functional distinction that the translation should preserve; (b) the Aramaic-marker register has theurgical-mystical-functional implications (it marks the language of divine-and-angelic-speech, distinct from the Hebrew language of the human tradent); (c) inline bracketed flags are more accessible to the reader than footnotes for a translation-pipeline document; (d) the convention is consistent with the broader WoH-translation register that flags intra-source code-switching (cf. the Akkadian-Sumerian Old Babylonian recension code-switching conventions in *Enki and Ninmah*).\n\nNamed scholarship for the convention: **M. S. Cohen**, *The Shi'ur Qomah: Texts and Recensions* (TSAJ 9, 1985), Aramaic apparatus; **P. Schäfer**, *Synopse zur Hekhalot-Literatur* (TSAJ 2, 1981); **G. Scholem**, *Jewish Gnosticism* (1965); **C. Rabin**, 'The Historical Background of Qumran Hebrew', *ScrHier* 4 (1958); **K. Beyer**, *Die aramäischen Texte vom Toten Meer* (Göttingen 1984).",
+      "appliesTo": [
+        "SHQM-WOH-1:2",
+        "SHQM-WOH-1:3",
+        "SHQM-WOH-1:4",
+        "SHQM-WOH-1:42",
+        "SHQM-WOH-1:60"
+      ]
+    }
+  ]
+}

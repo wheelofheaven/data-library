@@ -170,6 +170,19 @@
       },
       "order": 11,
       "icon": "waves"
+    },
+    {
+      "id": "kabbalah",
+      "code": "KAB",
+      "name": {
+        "en": "Kabbalah & Jewish Mysticism",
+        "he": "קַבָּלָה"
+      },
+      "description": {
+        "en": "Jewish esoteric and mystical literature, encompassing the Hekhalot/Merkavah throne-and-chariot mysticism of late antiquity (Shi'ur Qomah, Hekhalot Rabbati, Hekhalot Zutarti, Ma'aseh Merkavah, 3 Enoch / Sefer Hekhalot — the proto-Kabbalistic precursor stream, 3rd–9th c. CE), the early medieval primers (Sefer Yetzirah, Sefer Bahir, 12th c.), classical theosophical Kabbalah (Zohar, 13th c.), and the Lurianic system (16th c. Safed). Includes the magical-name traditions, divine-body anthropomorphism, sefirot cosmology, and the cosmic-restoration (tikkun olam) framework."
+      },
+      "order": 12,
+      "icon": "hexagram"
     }
   ],
   "collections": [
@@ -4106,16 +4119,16 @@
     {
       "slug": "shiur-qomah-woh",
       "code": "SHQM-WOH",
-      "tradition": "western_esoteric",
+      "tradition": "kabbalah",
       "collection": "woh-translations",
-      "order": 11,
+      "order": 1,
       "author": "Wheel of Heaven Translation Program",
       "publicationYear": 2026,
-      "availableLangs": [],
-      "completeLangs": [],
-      "chapters": 0,
-      "paragraphs": 0,
-      "status": "planned",
+      "availableLangs": ["en"],
+      "completeLangs": ["en"],
+      "chapters": 1,
+      "paragraphs": 67,
+      "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
       "versionTitle": "Wheel of Heaven Translation",
@@ -4123,24 +4136,32 @@
       "versionLicense": "CC0-1.0",
       "priority": 5,
       "wohCurated": true,
+      "verificationStatus": "best-effort-reconstruction-pending-verification",
       "originalTitle": "שִׁעוּר קוֹמָה (Shi'ur Qomah)",
       "originalLang": "he",
       "primaryLang": "he",
-      "translationNote": "Planned Wheel of Heaven Translation. Curated selection from the Shi'ur Qomah / Hekhalot literature — the Hebrew esoteric corpus the Raëlian canon implicitly engages when it cites 'the Kabbalah' for the *parasangs*-measurement and 'height of the creator' passages (*The End of the World*, *At the Root of All Religions*). Phase 5 priority. Closing one of the genuine source-tensions named in the *Reference corpus of the Raëlian canon* wiki entry. Source text and scope to be determined at translation start; not a complete book translation.",
+      "translationNote": "Wheel of Heaven Translation of the Shi'ur Qomah — the Hekhalot/Merkavah mystical text describing the cosmic dimensions of the divine body, organized as a head-to-foot enumeration of named limbs with their measurements in *parasangs* (cosmic units) and the magical names of each limb. THE PROJECT'S FIRST KABBALAH-TRADITION TEXT. Chapter 1 covers the Siddur Rabbah recension (the most-cited standard recension; Cohen 1985 distinguishes five recensions in his critical edition). The text is one of the oldest pieces of Jewish mystical literature (3rd–6th c. CE, with traditions reaching earlier), explicitly cited by the Raëlian canon (*The End of the World*, *At the Root of All Religions*) for its *parasangs* measurements and 'height of the creator' passages — making this translation a project priority for closing one of the genuine source-tensions named in the *Reference corpus of the Raëlian canon* wiki entry. Maimonides (Iggeret Teiman; Mishneh Torah, Yesodei ha-Torah 1:8-12) condemned the text as un-Jewish and disputed its canonical status — the orthodox Jewish reception is genuinely contested. Best-effort reconstruction from Jellinek 1853 *Bet ha-Midrasch* (PD), Cohen 1985 *The Shi'ur Qomah: Texts and Recensions* (TSAJ 9), and Schäfer 1981 *Synopse zur Hekhalot-Literatur* — verification pending against Cohen 1985.",
       "tags": [
         "shiur-qomah",
         "hekhalot",
+        "merkavah",
         "kabbalah",
         "jewish-mysticism",
+        "divine-body",
+        "raelian-canon-kabbalah-reference",
         "wheel-of-heaven-translation"
       ],
       "topics": [
-        "height-of-the-creator",
-        "parasangs-measurement",
+        "cosmic-body-of-the-divine",
+        "parasangs-cosmic-measurement",
+        "magical-names-per-limb",
+        "throne-vision-merkavah",
         "esoteric-cosmology",
-        "raelian-canon-kabbalah-reference"
+        "height-of-the-creator",
+        "raelian-canon-kabbalah-reference",
+        "maimonidean-condemnation"
       ],
-      "versionSource": "https://docs.wheelofheaven.world/contributing/content/source-text-translation/roadmap/",
+      "versionSource": "Best-effort reconstruction from Jellinek 1853 Bet ha-Midrasch (PD) + Cohen 1985 TSAJ 9 + Schäfer 1981 Synopse zur Hekhalot-Literatur — verification pending against Cohen 1985",
       "translationProgram": true
     },
     {
