@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.0",
+  "scope": "matthew-woh",
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of Matthew (canon-cited chapters: 1, 5, 6, 7, 13, 17, 25, 28). Contains composition-specific entries (early-manuscript paleography conventions, NA28/SBLGNT critical-text decisions where Vaticanus and Sinaiticus diverge, sura-specific lexical items, the Raëlian-canon-citation acknowledgment-without-endorsement framework for Mt 13 + Mt 17 + Mt 28, the Christian-supersessionist disavowal apparatus at Mt 5:17 + Mt 28:19-20) that are not (yet) appropriate for promotion to the central production glossary. Entries here may be promoted to central via the standard overlay→central promotion pattern when they appear in subsequent compositions (Mark 16; Luke 21; Acts 2/12/15/17; Revelation 1/4/6+) and acquire cross-corpus reach.",
+  "sourceLanguages": ["grc"],
+  "entries": [
+    {
+      "id": "sbl-polytonic-greek-transliteration-convention",
+      "source": "(project-standard convention; not a source-text-specific lemma)",
+      "translit": "(see below)",
+      "strongs": null,
+      "partOfSpeech": "translation-convention",
+      "literal": "(N/A — convention entry)",
+      "standardEnglish": "(N/A — convention entry)",
+      "wohChoice": "The WoH-Translation of Matthew uses SBLGNT polytonic Greek (with breathings, accents, and iota subscripts preserved) for the source-language *text* and a project-standard scholarly transliteration for the *translit* field. The transliteration convention: (i) η → ē; ω → ō; macrons mark long-vowels; (ii) breathings: rough breathing → 'h' prefix (e.g., ὁ → ho); smooth breathing → no marking; (iii) ει → ei, ου → ou, αι → ai (diphthongs preserved); (iv) iota subscript → 'subscript-i' not rendered in transliteration; (v) accents NOT marked in transliteration; (vi) capital theta → th; chi → ch; phi → ph; psi → ps; (vii) names preserve standard English forms (Iēsous → Jesus on the surface; Iēsous in translit field); (viii) Hebrew/Aramaic loans (e.g., Emmanouēl) preserve the Greek form in the translit field.",
+      "claim_type": "direct",
+      "rationale": "**Project-standard scholarly transliteration convention for Koine Greek source-language texts.** This convention is the project's first systematic Koine Greek transliteration-policy, established with the Matthew translation. The convention follows the SBL Handbook of Style (2nd ed., 2014) for polytonic Greek source-text presentation and adopts a scholarly-transliteration convention close to the SBL academic-transliteration standard (with macron-marked long-vowels for η and ω). The convention is documented here so it can be promoted to the central glossary when Mark / Luke / Acts / Revelation translations are added and the convention acquires cross-corpus reach. **Distinct from Hebrew Bible / Akkadian / Sumerian / Ugaritic / Arabic transliteration conventions** (each of which has its own project-standard convention in the central glossary; the Greek convention is project-distinct).\n\n**Named scholarship.** SBL Press, *The SBL Handbook of Style*, 2nd ed. (SBL 2014), §5.1 on Greek transliteration; *NA28* and *UBS5* polytonic Greek conventions; D. F. Watson, 'Greek Grammar and Style', in *A Handbook to the Greek New Testament* (Eerdmans 1989).",
+      "appliesTo": ["MAT-WOH (all paragraphs; convention)"]
+    },
+    {
+      "id": "lords-prayer-doxology-textual-variant-convention",
+      "source": "ὅτι σοῦ ἐστιν ἡ βασιλεία καὶ ἡ δύναμις καὶ ἡ δόξα εἰς τοὺς αἰῶνας, ἀμήν (Byzantine doxology at Mt 6:13b — absent in Vaticanus + Sinaiticus + critical text)",
+      "translit": "hoti sou estin hē basileia kai hē dynamis kai hē doxa eis tous aiōnas, amēn",
+      "strongs": null,
+      "partOfSpeech": "textual-variant convention",
+      "literal": "for yours is the kingdom and the power and the glory forever, amen",
+      "standardEnglish": "For thine is the kingdom, and the power, and the glory, for ever. Amen. (KJV — with the doxology); [absent] (RSV/NRSV/NIV — without the doxology, following the critical text); NRSV footnote: 'Other ancient authorities add, in some form, For the kingdom and the power and the glory are yours forever. Amen.'",
+      "wohChoice": "The WoH-Translation of Matthew follows the critical-text consensus (NA28/UBS5/SBLGNT) and OMITS the Byzantine doxology at Mt 6:13b. The doxology is documented here as a textual-variant; the Didache 8:2 (c. 100 CE) attests a shorter doxology-form (*hoti sou estin hē dynamis kai hē doxa eis tous aiōnas, amēn* — without 'kingdom') indicating that liturgical-closure-doxologies were in use in 2nd-c. Christian prayer, but the doxology is ABSENT in Vaticanus (B/03) + Sinaiticus (א/01) + the earliest substantial witnesses to Matthew. The doxology is treated as a liturgical-addition not part of the original Matthean text.",
+      "claim_type": "direct",
+      "rationale": "**Critical-text convention.** B. M. Metzger, *A Textual Commentary on the Greek New Testament*, 2nd ed. (UBS/DBS 1994) ad loc., treats the doxology as a liturgical-addition: 'the doxology, found in the great majority of the later Greek manuscripts, has been added to make the prayer suitable for liturgical use. The earliest and best witnesses [Vaticanus, Sinaiticus, Bezae, the Latin Vulgate, etc.] do not contain it.' The Didache 8:2 doxology is in shorter-form (without 'kingdom'), suggesting that the developed Byzantine-form is a later liturgical-expansion. The NA28/UBS5/SBLGNT critical text omits the doxology.\n\n**Cross-references to central entries.** See `lords-prayer-mt-6-9-13-pater-hēmōn-byzantine-doxology-textual-variant-cross-corpus` for the full philological treatment.\n\n**Named scholarship.** B. M. Metzger, *A Textual Commentary on the Greek New Testament*, 2nd ed. (UBS/DBS 1994) ad loc.; W. D. Davies and D. C. Allison, *A Critical and Exegetical Commentary*, vol. 1 (ICC, T&T Clark 1988) 615-616 on Mt 6:13b; U. Luz, *Matthew 1-7* (Hermeneia, Fortress 2007) 329-330; R. T. France, *The Gospel of Matthew* (NICNT, Eerdmans 2007) 252-253.",
+      "appliesTo": ["MAT-WOH-6:13"]
+    },
+    {
+      "id": "epiousios-hapax-translation-convention",
+      "source": "τὸν ἄρτον ἡμῶν τὸν ἐπιούσιον δὸς ἡμῖν σήμερον (Mt 6:11)",
+      "translit": "ton arton hēmōn ton epiousion dos hēmin sēmeron",
+      "strongs": "G1967",
+      "partOfSpeech": "hapax-rendering convention",
+      "literal": "give us today our epiousios bread",
+      "standardEnglish": "Give us this day our daily bread (KJV/RSV/NRSV/NIV uniform — the dominant 'daily' rendering); Give us today our supersubstantial bread (Jerome's Vulgate at Mt 6:11 'panem nostrum supersubstantialem da nobis hodie'; the Catholic-traditional Eucharistic-reading); Give us today our bread for tomorrow (Jerome's Vulgate at Lk 11:3 'panem nostrum cotidianum da nobis hodie' — the for-tomorrow reading per the Aramaic background)",
+      "wohChoice": "The WoH-Translation renders *epiousios* as 'daily' per the dominant English-tradition convention (RSV/NRSV-baseline). The hapax-character of the word is documented in this glossary apparatus; the three competing renderings ('daily' / 'for-tomorrow' / 'supersubstantial') are preserved; the translation does NOT pre-resolve the philological dispute.",
+      "claim_type": "direct",
+      "rationale": "**Hapax-rendering convention.** *epiousios* is a hapax legomenon in NT Greek (only at Mt 6:11 + Lk 11:3, both in the Lord's Prayer). The word is essentially unattested in pre-NT Greek; a single 4th/5th-c. CE papyrus attestation (P.Yadin 11) where it appears to mean 'daily' is disputed. Three competing etymologies: (i) *epi + ousia* 'for-existence / substantial' → 'supersubstantial' (Jerome's Mt 6:11 rendering); (ii) *epi + ienai/iousēs hēmeras* 'coming-upon / for-tomorrow' → Jerome's Lk 11:3 'crastinum'; the Aramaic *yoma de-yatya* 'day-which-is-coming' (Jeremias 1971); (iii) *epi + ousios* 'for-today / daily' → the dominant English-tradition rendering 'daily bread'.\n\n**Cross-references to central entries.** See `lords-prayer-mt-6-9-13-pater-hēmōn-byzantine-doxology-textual-variant-cross-corpus` for the full philological treatment.\n\n**Named scholarship.** W. D. Davies and D. C. Allison, *A Critical and Exegetical Commentary*, vol. 1 (ICC, T&T Clark 1988) 607-610; U. Luz, *Matthew 1-7* (Hermeneia, Fortress 2007) 319-322; R. T. France, *The Gospel of Matthew* (NICNT, Eerdmans 2007) 244-246; J. Jeremias, *The Prayers of Jesus* (SCM 1967); BDAG 376-377 s.v. ἐπιούσιος.",
+      "appliesTo": ["MAT-WOH-6:11"]
+    },
+    {
+      "id": "aionios-eternal-vs-age-pertaining-translation-convention",
+      "source": "αἰώνιος (Mt 25:41, 46 et passim)",
+      "translit": "aiōnios",
+      "strongs": "G166",
+      "partOfSpeech": "translation-convention",
+      "literal": "age-pertaining / of-the-age / eternal (philological breadth)",
+      "standardEnglish": "everlasting / eternal (KJV/RSV/NRSV/NIV uniform — the dominant 'eternal' rendering); of-the-age / age-pertaining (D. B. Hart 2017 et al. — the philologically-conservative rendering)",
+      "wohChoice": "The WoH-Translation renders *aiōnios* as 'eternal' per the dominant English-tradition convention. The philological breadth of *aiōnios* (covering 'endless-eternal' / 'age-pertaining' / 'of-the-age-to-come' / 'indefinite-long-duration') is documented in this glossary apparatus and in the central entry `aiōnios-mt-25-41-46-eternal-vs-age-pertaining-cross-corpus`. The translation does NOT pre-resolve the eternalist-vs-conditionalist-vs-universalist hell-doctrine debate.",
+      "claim_type": "direct",
+      "rationale": "**Translation-convention for a philologically-disputed term.** *aiōnios* is the adjectival form of *aiōn* 'age, era, eon'; the LXX standardly renders Hebrew *ʿôlām* 'long-duration / antiquity / age / eternity' with *aiōn / aiōnios*. The Hebrew *ʿôlām* covers a spectrum from 'long-duration / antiquity' to 'age-to-come / eternity', and the LXX-Greek *aiōnios* inherits this semantic-breadth. Modern philological consensus is that *aiōnios* admits both 'endless-eternal' and 'age-pertaining' senses; the surface English-translation 'eternal' over-specifies in favor of the eternalist reading. The WoH-Translation preserves 'eternal' per the dominant English-tradition convention (avoiding surface-textual editorialization) and documents the philological breadth in the apparatus.\n\n**Cross-references to central entries.** See `aiōnios-mt-25-41-46-eternal-vs-age-pertaining-cross-corpus` for the full philological treatment.\n\n**Named scholarship.** H. Sasse, 'aiōn, aiōnios', in *TDNT* 1 (Eerdmans 1964) 197-209; D. B. Hart, *The New Testament: A Translation* (Yale 2017); D. B. Hart, *That All Shall Be Saved* (Yale 2019); E. W. Fudge, *The Fire That Consumes*, 3rd ed. (Cascade 2011).",
+      "appliesTo": ["MAT-WOH-25:41", "MAT-WOH-25:46"]
+    },
+    {
+      "id": "raca-aramaic-insult-untranslated-mt-5-22",
+      "source": "ῥακά (Mt 5:22) — Greek transliteration of Aramaic רֵיקָא reqaʾ 'empty-headed one, fool'",
+      "translit": "rhaka (Greek transliteration) ← reqaʾ (Aramaic)",
+      "strongs": "G4469",
+      "partOfSpeech": "Aramaic-loan untranslated-insult convention",
+      "literal": "empty-one / empty-headed / fool / worthless one (literal Aramaic sense)",
+      "standardEnglish": "Raca (KJV — preserves untranslated); fool / empty-head / blockhead (some modern translations rendering); 'whoever says ... 'You fool!' (NIV); 'whoever insults a brother or sister' (NRSV — paraphrasing)",
+      "wohChoice": "'Raca' — preserved untranslated per the Greek-text convention (Matthew himself preserves the Aramaic loan-word as *rhaka* rather than translating to Greek). The surface English-translation retains the untranslated Aramaic-insult to preserve the Matthean philological-strategy of preserving the Jesus-tradition Aramaic-source-language. The semantic content ('empty-headed / fool / worthless') is documented in this glossary apparatus.",
+      "claim_type": "direct",
+      "rationale": "**Untranslated-Aramaic-loan convention.** Matthew at 5:22 preserves the Aramaic insult *rhaka* (← *reqaʾ* 'empty-headed one') rather than translating to Greek (e.g., *kenos* 'empty' or *mōros* 'fool', the latter being deployed in the next clause). The philological-significance: the Matthean preservation of the Aramaic loan-word evidences (a) the Aramaic-substratum of the Jesus-tradition; (b) the Matthean editorial-strategy of preserving Aramaic-loan-words at key-saying-points (other Matthean Aramaic-loans: *amēn* 'truly', *mamōnas* 'mammon' at 6:24, *raqa*, *kephas* in Pauline tradition). The translation-convention preserves the Aramaic-loan untranslated, mirroring the Matthean source-presentation.\n\n**The Mt 5:22 escalation.** Mt 5:22 has a three-fold escalation of judgment: (i) being angry (*orgizomenos*) → liable to judgment (*tē krisei*); (ii) saying 'Raca' (*rhaka*) → liable to the council (*tō synedriō*); (iii) saying 'You fool' (*mōre*) → liable to the gehenna-of-fire (*tēn geennan tou pyros*). The three-fold escalation is widely-treated as a Matthean rhetorical-intensification of the Sixth Commandment (the antithesis-structure of Mt 5:21-26).\n\n**Named scholarship.** W. D. Davies and D. C. Allison, *A Critical and Exegetical Commentary*, vol. 1 (ICC, T&T Clark 1988) 511-515; U. Luz, *Matthew 1-7* (Hermeneia, Fortress 2007) 285-289; R. T. France, *The Gospel of Matthew* (NICNT, Eerdmans 2007) 200-201; D. A. Hagner, *Matthew 1-13* (WBC 33A, Word 1993) 117-118; J. Nolland, *The Gospel of Matthew* (NIGTC, Eerdmans 2005) 232-234; BDAG 902 s.v. ῥακά.",
+      "appliesTo": ["MAT-WOH-5:22"]
+    },
+    {
+      "id": "adelphōn-mou-presence-absence-asymmetry-mt-25-40-vs-25-45-gray",
+      "source": "Mt 25:40 ἀδελφῶν μου τῶν ἐλαχίστων ↔ Mt 25:45 ἑνὶ τούτων τῶν ἐλαχίστων (absence of ἀδελφῶν)",
+      "translit": "Mt 25:40 adelphōn mou tōn elachistōn ↔ Mt 25:45 heni toutōn tōn elachistōn",
+      "strongs": "G80; G1646",
+      "partOfSpeech": "translation-convention for textual-asymmetry",
+      "literal": "Mt 25:40 'the least of my brothers' (with adelphōn mou) ↔ Mt 25:45 'the least of these' (without adelphōn)",
+      "standardEnglish": "Inasmuch as you have done it unto one of the least of these my brethren (Mt 25:40 KJV); Inasmuch as ye did it not to one of the least of these (Mt 25:45 KJV — without 'my brethren')",
+      "wohChoice": "Preserve the textual-asymmetry between Mt 25:40 (which has *adelphōn mou tōn elachistōn* 'the least of these my brothers') and Mt 25:45 (which has *heni toutōn tōn elachistōn* 'one of these the least' — WITHOUT *adelphōn mou*). The asymmetry is preserved in the surface English-translation per Gray 1989. The asymmetry is philologically-significant: at v.40 (positive-judgment) the addressed-group is 'my brothers'; at v.45 (negative-judgment) the addressed-group is simply 'these least' without the brother-qualifier. The asymmetry may indicate that the criterion is differently-described for the positive vs negative cases, with implications for the universalist-vs-restricted reading-debate.",
+      "claim_type": "direct",
+      "rationale": "**Gray 1989 specifically notes the textual-asymmetry.** S. W. Gray, *The Least of My Brothers: Matthew 25:31-46. A History of Interpretation* (SBLDS 114, Scholars Press 1989), treats the v.40/v.45 asymmetry systematically. The asymmetry has implications: (i) the *adelphōn mou* at v.40 is a key argument for the restricted-Christian-missionary reading (the 'brothers' = disciples); (ii) the absence of *adelphōn mou* at v.45 may indicate a broader-criterion for the negative-judgment (or may simply be Matthean variatio with no semantic-significance); (iii) the modern critical-translation tradition standardly preserves the asymmetry (KJV/RSV/NRSV/NIV all reproduce the asymmetry literally). The translation-convention preserves the asymmetry as documented in the source-text.\n\n**Cross-references to central entries.** See `sheep-and-goats-mt-25-31-46-adelphōn-mou-tōn-elachistōn-three-readings-gray-cross-corpus` for the full philological treatment.\n\n**Named scholarship.** S. W. Gray, *The Least of My Brothers: Matthew 25:31-46. A History of Interpretation* (SBLDS 114, Scholars Press 1989), the comprehensive monograph; J. R. Donahue, 'The 'Parable' of the Sheep and the Goats: A Challenge to Christian Ethics', *TS* 47 (1986) 3-31; W. D. Davies and D. C. Allison, *A Critical and Exegetical Commentary*, vol. 3 (ICC, T&T Clark 1997) on Mt 25:40 + 25:45.",
+      "appliesTo": ["MAT-WOH-25:40", "MAT-WOH-25:45"]
+    }
+  ]
+}
