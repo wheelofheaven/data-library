@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.0",
+  "scope": "revelation-woh",
+  "description": "Per-translation glossary overlay for the WoH Translation of Revelation (canon-cited chapters 1, 4, 6). Greek source convention + Apocalypse-specific lexicon overlay.",
+  "sourceLanguages": [
+    "grc"
+  ],
+  "entries": [
+    {
+      "id": "apo-ho-on-rev-1-4-solecism-preservation-convention",
+      "source": "ἀπὸ ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος (Rev 1:4)",
+      "translit": "apo ho ōn kai ho ēn kai ho erchomenos (Rev 1:4)",
+      "strongs": "G575 (apo); G3588 (ho); G1510 (eimi); G2064 (erchomai)",
+      "partOfSpeech": "Overlay convention for Rev 1:4 Greek-grammatical-solecism surface-English smoothing",
+      "literal": "from the One-who-is and the One-who-was and the One-who-is-to-come (preserving the Ex 3:14 LXX ho ōn as a fixed indeclinable divine-name)",
+      "standardEnglish": "from him who is and who was and who is to come (KJV/ASV/RSV/NRSV/NIV uniform — smoothing the Greek solecism into a relative-clause-with-pronoun construction)",
+      "wohChoice": "ASV/RSV-baseline 'from him who is and who was and who is to come' surface rendering preserved; the Greek-grammatical-solecism (apo + nominative ho ōn rather than expected apo + genitive tou ontos) is preserved as a deliberate divine-name-preservation in the original Greek; the surface-English convention smooths the solecism into a relative-clause; the philological-fact is documented in this overlay and in the central entry `apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus`.",
+      "claim_type": "direct",
+      "rationale": "**Rev 1:4 contains the most-discussed Greek-grammatical solecism in the Apocalypse**: the preposition *apo* 'from' normally governs the genitive case, but Rev deploys it with the nominative *ho ōn* (rather than expected genitive *tou ontos*). The solecism is widely interpreted as deliberate (Aune WBC 30-32; Beale NIGTC 187-189; Koester AB 222-224; Bauckham 1993 *Climax of Prophecy* 26-31) — preserving the LXX Ex 3:14 *ho ōn* as a fixed-formula indeclinable divine-name. The English-translation convention is to smooth the solecism with a relative-clause-and-pronoun construction ('from him who is'). The WoH-Translation preserves the surface-English-smoothing convention while documenting the philological-fact in this overlay and in the central entry. Same convention applied at Rev 1:8 and Rev 4:8 where the formula appears without the *apo* preposition.",
+      "appliesTo": [
+        "REV-WOH-1:4",
+        "REV-WOH-1:8",
+        "REV-WOH-4:8"
+      ]
+    },
+    {
+      "id": "chloros-rev-6-8-pale-green-horse-rendering-convention",
+      "source": "ἵππος χλωρός (Rev 6:8)",
+      "translit": "hippos chlōros (Rev 6:8)",
+      "strongs": "G5515 (chlōros)",
+      "partOfSpeech": "Overlay convention for Rev 6:8 *chlōros* horse-color rendering",
+      "literal": "a pale-green horse / a sickly-green horse (the literal-philological rendering of chlōros); a pale horse (the conventional English-translation-tradition rendering)",
+      "standardEnglish": "a pale horse (KJV/ASV/RSV/NIV); a pale green horse (NRSV/CEB/NJB); a yellowish horse (some specialty translations)",
+      "wohChoice": "'a pale horse' (ASV/KJV-baseline) preserved as the surface English-translation per the dominant English-tradition convention; the philological literal 'pale-green' / 'sickly-green' / 'green' rendering is documented in this overlay and in the central entry `four-horsemen-rev-6-1-8-zechariah-1-6-cross-corpus`. The death-association context (the fourth-horseman is named Thanatos / Death followed by Hades) supports the 'sickly-green corpse-color' philological reading; the conventional surface 'pale' rendering captures the death-association without over-specifying.",
+      "claim_type": "direct",
+      "rationale": "**Greek *chlōros* fundamentally means 'green'** — the color of growing-vegetation in Greek classical usage (cf. Mk 6:39 *epi tō chlōrō chortō* 'on the green grass'). In Hellenistic-Greek usage, *chlōros* extends to 'pale' / 'sallow' / 'sickly-green' especially in the context of human-complexion (Thucydides 2.49 deploys *chlōros* for the plague-victim-complexion). The dominant English-translation tradition (KJV 'pale', RSV 'pale', NIV 'pale') renders 'pale' on the surface, recognizing the death-association context. NRSV breaks with this convention and renders 'pale green', restoring the literal-philological color. The WoH-Translation preserves 'pale' on the surface per the conventional convention but documents the literal 'pale-green' / 'sickly-green' / 'green' rendering in this overlay. Aune WBC 400; Beale NIGTC 382; Koester AB 397 all document the philological range.",
+      "appliesTo": [
+        "REV-WOH-6:8"
+      ]
+    }
+  ]
+}

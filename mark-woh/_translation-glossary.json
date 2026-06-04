@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.0",
+  "scope": "mark-woh",
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of The Gospel According to Mark (canon-cited chapters). Greek source convention overlay; may be promoted to central when subsequent NT compositions arrive and acquire cross-corpus reach.",
+  "sourceLanguages": [
+    "grc"
+  ],
+  "entries": [
+    {
+      "id": "mark-16-9-20-longer-ending-rendering-convention",
+      "source": "Mk 16:9-20 textual-block",
+      "translit": "Mk 16:9-20",
+      "strongs": "n/a (text-block convention)",
+      "partOfSpeech": "Overlay rendering convention for Mark 16:9-20",
+      "literal": "the canonical longer-ending pericope, text-critically secondary per Vaticanus / Sinaiticus / Bobiensis / Sinaitic Syriac",
+      "standardEnglish": "Bracketed [[ ]] in NA28/UBS5/SBLGNT; relegated to appendix in some modern translations (NRSV/NIV with footnote)",
+      "wohChoice": "Canonical longer-ending text preserved on surface per WoH-Translation textual-critical convention; the dispute documented in the per-verse commentary at MRK-WOH-16:9, MRK-WOH-16:18, MRK-WOH-16:19 (the major canon-citation sites) and in the central-glossary entry `mark-16-9-20-longer-ending-textual-critical-site` (v2.64.0).",
+      "claim_type": "direct",
+      "rationale": "**Overlay rendering convention for the most-famous disputed-text-block in the NT canon.** Codex Vaticanus + Sinaiticus + Bobiensis + Sinaitic Syriac all end Mark at 16:8; the longer ending vv.9-20 is present in Codex Alexandrinus + Bezae + the Byzantine majority text. Consensus modern critical view (Metzger UBS Textual Commentary 1994 102-106; Marcus AB 2009; Collins Hermeneia 2007) treats vv.9-20 as a 2nd-c. scribal addition. This overlay entry documents the WoH-Translation surface-rendering convention: the canonical longer-ending text is preserved on surface for reader-continuity, with the textual-critical dispute documented through the glossary + per-verse commentary apparatus rather than through bracket-disruption or omission. The same convention is applied at Matthew 28:19 for the Conybeare hypothesis (see central entry `great-commission-mt-28-19-20-trinitarian-baptismal-formula-conybeare-hypothesis-cross-corpus-with-disavowals`).",
+      "appliesTo": [
+        "MRK-WOH-16:9",
+        "MRK-WOH-16:10",
+        "MRK-WOH-16:11",
+        "MRK-WOH-16:12",
+        "MRK-WOH-16:13",
+        "MRK-WOH-16:14",
+        "MRK-WOH-16:15",
+        "MRK-WOH-16:16",
+        "MRK-WOH-16:17",
+        "MRK-WOH-16:18",
+        "MRK-WOH-16:19",
+        "MRK-WOH-16:20"
+      ]
+    },
+    {
+      "id": "mark-16-18-snake-handling-reception-history-convention",
+      "source": "ἐν ταῖς χερσὶν ὄφεις ἀροῦσιν, κἂν θανάσιμόν τι πίωσιν οὐ μὴ αὐτοὺς βλάψῃ (Mk 16:18)",
+      "translit": "en tais chersin opheis arousin, kan thanasimon ti piōsin ou mē autous blapsē",
+      "strongs": "G3789 (ophis); G2348 (thanasimon)",
+      "partOfSpeech": "Overlay rendering convention for Mk 16:18 snake-handling and poison-immunity verse",
+      "literal": "in their hands they will pick up serpents, and if they drink anything deadly it shall not harm them",
+      "standardEnglish": "they shall take up serpents; and if they drink any deadly thing, it shall not hurt them (KJV/ASV); they will pick up snakes with their hands; and when they drink deadly poison, it will not hurt them at all (NIV)",
+      "wohChoice": "ASV/RSV-baseline surface rendering preserved; the verse is part of the textual-critically-secondary longer-ending block (see `mark-16-9-20-longer-ending-rendering-convention`); the small Appalachian serpent-handling reception-tradition (Burton 1993 *Serpent-Handling Believers*; Kelhoffer 2000 on the patristic reception) is documented in per-verse commentary at MRK-WOH-16:18. The Raëlian canon engagement (Raël 1975 *Extraterrestrials Took Me To Their Planet*) is acknowledged-without-endorsement at the per-verse commentary site.",
+      "claim_type": "direct",
+      "rationale": "**Mk 16:18 is a textually-secondary verse (part of the longer-ending block ABSENT in Vaticanus/Sinaiticus/Bobiensis/Sinaitic Syriac) with substantial reception-history.** The verse is the textual basis for the small Appalachian serpent-handling tradition documented by Burton 1993; Kelhoffer 2000 surveys the patristic reception of the signs-catalogue. Cross-reference to Acts 28:3-6 (Paul on Malta surviving the viper-bite) preserves the broader NT poison-immunity / serpent-handling tradition. The Raëlian canon engagement is documented under the acknowledgment-without-endorsement framework.",
+      "appliesTo": [
+        "MRK-WOH-16:17",
+        "MRK-WOH-16:18"
+      ]
+    }
+  ]
+}

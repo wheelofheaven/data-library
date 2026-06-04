@@ -1,0 +1,557 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "REV-WOH",
+  "bookSlug": "revelation-woh",
+  "n": 1,
+  "title": "Revelation 1 — The throne-vision opening: John on Patmos + the one like a son of man",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Koine Greek New Testament — Codex Sinaiticus (א/01, 4th c. CE ~330-360) as primary uncial witness; NB Codex Vaticanus (B/03) is INCOMPLETE for Revelation, breaking off at Hebrews 9:14. Cross-collation against Codex Alexandrinus (A/02, 5th c. CE — often the SUPERIOR Revelation witness on internal grounds), Codex Ephraemi Rescriptus (C/04, 5th c. palimpsest), P98 (2nd c. CE, preserves Rev 1:13-2:1 fragmentarily — the earliest Revelation witness), and P47 (Chester Beatty III, ~250 CE; preserves Rev 9:10-17:2, does NOT preserve Rev 1). SBLGNT base text.",
+    "sourceLicense": "Best-effort reconstruction; SBLGNT base is open-source (SBL/Lexham 2010); critical-text references cited; English original to this project",
+    "sourceUrl": "(see source-grc-1.json citations)",
+    "sourceAccessedVia": "Best-effort reconstruction via SBLGNT + NA28/UBS5/THGNT critical apparatus + Hoskier 1929 Concerning the Text of the Apocalypse + Aune WBC 1997-1998 + Beale NIGTC 1999 + Charles ICC 1920 + Koester AB 2014 + Mounce NICNT 1997 rev. + Bauckham 1993 Climax of Prophecy + Halperin 1988 Faces of the Chariot + Rowland 1982 Open Heaven + Levine-Brettler JANT 2017",
+    "verificationStatus": "best-effort reconstruction; verification pending against Sinaiticus + Alexandrinus + Ephraemi + P98 (vv.13-20) original codicology + the NA28/UBS5/SBLGNT critical apparatus + Hoskier 1929",
+    "glossaryVersion": "2.64.0",
+    "overlayGlossaryVersion": "1.1.0",
+    "modelDrafts": [
+      "claude-opus-4-7 (translator)",
+      "claude-opus-4-7 (editor)",
+      "claude-opus-4-7 (reviewer)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-06-04T00:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-4-7 acting as woh-reviewer",
+      "reviewedAt": "2026-06-04T18:30:00Z",
+      "verdicts": [
+        {
+          "refId": "REV-WOH-1:1",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997 ad loc.",
+            "Beale NIGTC Revelation 1999 ad loc.",
+            "Koester AB Revelation 2014 ad loc."
+          ],
+          "reasoning": "Apokalypsis genre-framing correctly identified; conventional ASV/RSV-baseline rendering."
+        },
+        {
+          "refId": "REV-WOH-1:2",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Surface English at ASV/RSV-baseline; no lens leakage; cross-corpus links and commentary (where present) follow established scholarly philological reading."
+        },
+        {
+          "refId": "REV-WOH-1:3",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Surface English at ASV/RSV-baseline; no lens leakage; cross-corpus links and commentary (where present) follow established scholarly philological reading."
+        },
+        {
+          "refId": "REV-WOH-1:4",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997:30-32",
+            "Beale NIGTC Revelation 1999:187-189",
+            "Koester AB Revelation 2014:222-224",
+            "Bauckham Climax of Prophecy 1993:26-31",
+            "Mussies Morphology of Koine Greek 1971"
+          ],
+          "reasoning": "Apo ho ōn solecism preserved per overlay convention ('the one who is and who was and who is to come' — smoothed surface English). Greek-grammatical fact and Ex 3:14 LXX divine-name preservation thesis correctly documented in apparatus. Bidirectional with existing Exodus ehyeh-asher-ehyeh entry confirmed."
+        },
+        {
+          "refId": "REV-WOH-1:5",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997 ad loc.",
+            "Metzger UBS Textual Commentary 1994 ad loc."
+          ],
+          "reasoning": "Washing-vs-loosing textual variant (lousanti / lysanti) correctly noted; conventional ASV/RSV-baseline preserved."
+        },
+        {
+          "refId": "REV-WOH-1:6",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Surface English at ASV/RSV-baseline; no lens leakage; cross-corpus links and commentary (where present) follow established scholarly philological reading."
+        },
+        {
+          "refId": "REV-WOH-1:7",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 52A.50-54",
+            "Beale NIGTC 196-199",
+            "Koester AB Revelation 235-237",
+            "Bauckham Climax of Prophecy 1993:318-322"
+          ],
+          "reasoning": "Idou erchetai meta ton nephelon rendered conventionally 'behold, he is coming with the clouds'. Dan 7:13 + Zech 12:10 dual cross-corpus combination correctly documented; no Raëlian-canon Elohim-craft-arrival pre-resolution in English surface."
+        },
+        {
+          "refId": "REV-WOH-1:8",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Surface English at ASV/RSV-baseline; no lens leakage; cross-corpus links and commentary (where present) follow established scholarly philological reading."
+        },
+        {
+          "refId": "REV-WOH-1:9",
+          "status": "approve",
+          "citations": [
+            "Koester AB Revelation 2014 ad loc.",
+            "Aune WBC Revelation 1-5 1997 ad loc."
+          ],
+          "reasoning": "Patmos-date question (Domitianic c. 95 CE vs Neronian c. 65 CE) correctly preserved without adjudication."
+        },
+        {
+          "refId": "REV-WOH-1:10",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Surface English at ASV/RSV-baseline; no lens leakage; cross-corpus links and commentary (where present) follow established scholarly philological reading."
+        },
+        {
+          "refId": "REV-WOH-1:11",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Surface English at ASV/RSV-baseline; no lens leakage; cross-corpus links and commentary (where present) follow established scholarly philological reading."
+        },
+        {
+          "refId": "REV-WOH-1:12",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997:90-118",
+            "Beale NIGTC 206-225",
+            "Koester AB Revelation 244-262",
+            "Bauckham Climax of Prophecy 1993:188-208"
+          ],
+          "reasoning": "One-like-a-son-of-man vision opening preserved conventionally; Dan 7 + Dan 10 + Ezek 1 + Zech 4 integration documented. No Hekhalot-magical or Sitchin-merkavah-as-spaceship pre-resolution."
+        },
+        {
+          "refId": "REV-WOH-1:13",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997 ad loc.",
+            "Beale NIGTC 1999 ad loc.",
+            "Cohen Shi'ur Qomah 1985",
+            "Halperin Faces of the Chariot 1988",
+            "Schäfer Hidden and Manifest God 1992"
+          ],
+          "reasoning": "Homoion huion anthropou rendered 'one like a son of man' — conventional. Triple-bidirectional throne-vision wire (Ezek-1 + Shi'ur-Qomah + Dan-7) properly established in apparatus. Christological-figure description preserved in source-text vocabulary; no Trinitarian-incarnational pre-resolution onto Dan 7 source."
+        },
+        {
+          "refId": "REV-WOH-1:14",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997 ad loc.",
+            "Beale NIGTC 1999 ad loc.",
+            "J.J. Collins Hermeneia Daniel 1993:304-310"
+          ],
+          "reasoning": "White-wool/snow hair + flame-of-fire eyes preserved verbatim per LXX-style Dan 7:9 + Dan 10:6 echoes. ASV/RSV-baseline. No lens leakage."
+        },
+        {
+          "refId": "REV-WOH-1:15",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997 ad loc.",
+            "Mussies Morphology of Koine Greek 1971"
+          ],
+          "reasoning": "Chalkolibano NT hapax correctly flagged in commentary as debated philological crux ('bronze-alloy' / 'bronze-frankincense' / 'transliterated Aramaic'); surface 'burnished bronze' preserved per ASV/RSV tradition."
+        },
+        {
+          "refId": "REV-WOH-1:16",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997 ad loc.",
+            "Beale NIGTC 1999 ad loc."
+          ],
+          "reasoning": "Seven-stars + two-edged sword + sun-shining face preserved conventionally; rich Hellenistic-Jewish + apocalyptic imagery without lens-pre-resolution."
+        },
+        {
+          "refId": "REV-WOH-1:17",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997 ad loc.",
+            "Koester AB Revelation 2014 ad loc."
+          ],
+          "reasoning": "Egō eimi ho prōtos kai ho eschatos 'I am the first and the last' cross-corpus Isa 44:6 + Isa 48:12 correctly documented; conventional rendering."
+        },
+        {
+          "refId": "REV-WOH-1:18",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Surface English at ASV/RSV-baseline; no lens leakage; cross-corpus links and commentary (where present) follow established scholarly philological reading."
+        },
+        {
+          "refId": "REV-WOH-1:19",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Surface English at ASV/RSV-baseline; no lens leakage; cross-corpus links and commentary (where present) follow established scholarly philological reading."
+        },
+        {
+          "refId": "REV-WOH-1:20",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997 ad loc.",
+            "Beale NIGTC 1999 ad loc."
+          ],
+          "reasoning": "Mystērion interpretation-formula correctly identified as apocalyptic-genre signal; conventional rendering."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997:30-32",
+            "Beale NIGTC 187-189",
+            "Koester AB Revelation 222-224",
+            "Bauckham Climax of Prophecy 1993:26-31",
+            "Mussies Morphology of Koine Greek 1971",
+            "A.T. Robertson Grammar 1934",
+            "Porter NTS 35 (1989):582-603",
+            "Ebner Filologia Neotestamentaria 17 (1996)"
+          ],
+          "reasoning": "claim_type=direct correctly assigned: Greek-grammatical fact (apo + nominative is anomalous) is unambiguous; Ex 3:14 LXX ho ōn divine-name-preservation hypothesis is the dominant scholarly interpretation (Aune, Beale, Koester, Bauckham). Bidirectional with existing Exodus ehyeh-asher-ehyeh entry confirmed (REV-WOH-1:4, 1:8, 4:8 refIds added). 5-occurrence Apocalypse inventory accurate."
+        },
+        {
+          "glossary_id": "son-of-man-coming-in-cloud-dan-7-13-synoptic-revelation-1-7-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Davies-Allison ICC 3.358-360 on Mt 24:30",
+            "Luz Hermeneia 3.198-206",
+            "France NIGTC Mark 533-540",
+            "Marcus AB Mark 905-911",
+            "Collins Hermeneia Mark 614-616",
+            "Nolland WBC Luke 1004-1007",
+            "Fitzmyer AB Luke 1349-1351",
+            "Aune WBC Revelation 52A.50-54",
+            "Beale NIGTC 196-199",
+            "Koester AB Revelation 235-237",
+            "Bauckham Climax of Prophecy 1993:318-322",
+            "J.J. Collins Hermeneia Daniel 1993:304-310"
+          ],
+          "reasoning": "claim_type=direct correctly assigned: Dan 7:13 → Synoptic Olivet → Rev 1:7 chain is universally documented in scholarship. Lukan singular nephele vs Markan/Matthean plural variation correctly preserved. Bidirectional wire to existing Mt son-of-man-bar-enash entry confirmed (extended with MRK-WOH-16:19, LUK-WOH-21:27, REV-WOH-1:7 refIds)."
+        },
+        {
+          "glossary_id": "throne-vision-rev-1-4-ezek-1-dan-7-shiur-qomah-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997:90-118,277-322",
+            "Beale NIGTC 206-225,311-339",
+            "Koester AB Revelation 244-262,360-378",
+            "Bauckham Climax of Prophecy 1993:188-208,322-337",
+            "Greenberg AB Ezekiel 1-20 1983",
+            "Block NICOT Ezekiel 1-24 1997",
+            "J.J. Collins Hermeneia Daniel 1993:274-323",
+            "Cohen Shi'ur Qomah 1985",
+            "Halperin Faces of the Chariot 1988",
+            "Schäfer Hidden and Manifest God 1992",
+            "Boustan TSAJ 112 (2005)",
+            "Davila Descenders to the Chariot 2001"
+          ],
+          "reasoning": "claim_type=direct correctly assigned: documents the most-systematic NT throne-vision and integrates Dan 7 + Dan 10 + Ezek 1 + Zech 4 + Shi'ur Qomah strands per Bauckham's exhaustive treatment. Triple bidirectional extension of Ezekiel-1 + Shi'ur-Qomah + new Dan-7 documentation establishes the first NT × HB × Hekhalot three-way throne-vision wire — a structurally significant cross-corpus development."
+        },
+        {
+          "glossary_id": "ezekiel-1-throne-vision-merkavah-tradition-cross-corpus-hebrew-bible-hekhalot-revelation-4",
+          "status": "approve",
+          "citations": [
+            "Greenberg AB Ezekiel 1-20 1983",
+            "Block NICOT Ezekiel 1-24 1997",
+            "Aune WBC Revelation 1-5 1997",
+            "Bauckham Climax of Prophecy 1993",
+            "Halperin Faces of the Chariot 1988"
+          ],
+          "reasoning": "Extension to add Rev 1:12-16, Rev 4:2-6 refIds completes the documented-but-previously-unwired Rev cross-corpus. The existing entry already mentioned Rev 4 in rationale; this extension wires the refIds."
+        },
+        {
+          "glossary_id": "shiur-qomah-cosmic-body-of-divine-hekhalot-throne-vision-tradition",
+          "status": "approve",
+          "citations": [
+            "Cohen Shi'ur Qomah 1985",
+            "Halperin Faces of the Chariot 1988",
+            "Schäfer Hidden and Manifest God 1992",
+            "Aune WBC Revelation 1-5 1997"
+          ],
+          "reasoning": "Extension to add Rev 1:13-16, Rev 4:2-3 refIds correctly identifies the Shi'ur Qomah cosmic-body tradition as a source-strand for the Rev 1 one-like-a-son-of-man Christological-figure (white-hair, flame-eyes, bronze-feet, many-waters-voice, sun-face)."
+        },
+        {
+          "glossary_id": "ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997:30-32",
+            "Bauckham Climax of Prophecy 1993:26-31",
+            "LXX Ex 3:14"
+          ],
+          "reasoning": "Extension to add Rev 1:4, 1:8, 4:8 refIds completes the documented-but-previously-unwired NT-echo. Ex 3:14 LXX ho ōn → Rev divine-name-preservation chain is standard scholarship."
+        },
+        {
+          "glossary_id": "son-of-man-bar-enash-dan-7-13-mt-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Davies-Allison ICC",
+            "Luz Hermeneia",
+            "Bauckham Climax of Prophecy 1993",
+            "J.J. Collins Hermeneia Daniel 1993"
+          ],
+          "reasoning": "Extension to add MRK-WOH-16:19, LUK-WOH-21:27, REV-WOH-1:7, REV-WOH-1:13 refIds correctly extends the Matthean Son-of-Man tradition entry across the broader NT Son-of-Man corpus. Bidirectional with new son-of-man-coming-in-cloud entry confirmed."
+        },
+        {
+          "glossary_id": "apo-ho-on-rev-1-4-solecism-preservation-convention",
+          "status": "approve",
+          "citations": [
+            "Aune WBC Revelation 1-5 1997:30-32",
+            "Beale NIGTC 187-189",
+            "Bauckham Climax of Prophecy 1993:26-31"
+          ],
+          "reasoning": "Surface-English-smoothing convention correctly documented (paired with the central-entry Greek-grammatical-fact documentation)."
+        }
+      ],
+      "lens-leakage-flags": []
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "REV-WOH-1:1",
+      "text": "Ἀποκάλυψις Ἰησοῦ Χριστοῦ, ἣν ἔδωκεν αὐτῷ ὁ θεός, δεῖξαι τοῖς δούλοις αὐτοῦ ἃ δεῖ γενέσθαι ἐν τάχει, καὶ ἐσήμανεν ἀποστείλας διὰ τοῦ ἀγγέλου αὐτοῦ τῷ δούλῳ αὐτοῦ Ἰωάννῃ,",
+      "translit": "Apokalypsis Iēsou Christou, hēn edōken autō ho theos, deixai tois doulois autou ha dei genesthai en tachei, kai esēmanen aposteilas dia tou angelou autou tō doulō autou Iōannē,",
+      "i18n": {
+        "en": "The revelation of Jesus Christ, which God gave to him to show to his servants the things that must soon take place; and he made it known by sending his angel to his servant John,"
+      },
+      "commentary": "The Rev 1:1-3 opening: *Apokalypsis Iēsou Christou* 'the revelation of Jesus Christ' establishes the genre-identification of the book as an apocalypse — the Jewish-Christian apocalyptic-literary-genre with characteristic features (revelation-disclosure via angelic-mediation; visionary-form; eschatological-content). The opening invokes the standard apocalyptic-chain: God → Jesus → angel → John → the churches.",
+      "glossaryRefs": []
+    },
+    {
+      "n": 2,
+      "refId": "REV-WOH-1:2",
+      "text": "ὃς ἐμαρτύρησεν τὸν λόγον τοῦ θεοῦ καὶ τὴν μαρτυρίαν Ἰησοῦ Χριστοῦ, ὅσα εἶδεν.",
+      "translit": "hos emartyrēsen ton logon tou theou kai tēn martyrian Iēsou Christou, hosa eiden.",
+      "i18n": {
+        "en": "who bore witness to the word of God and to the testimony of Jesus Christ, to all that he saw."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 3,
+      "refId": "REV-WOH-1:3",
+      "text": "μακάριος ὁ ἀναγινώσκων καὶ οἱ ἀκούοντες τοὺς λόγους τῆς προφητείας καὶ τηροῦντες τὰ ἐν αὐτῇ γεγραμμένα, ὁ γὰρ καιρὸς ἐγγύς.",
+      "translit": "makarios ho anaginōskōn kai hoi akountes tous logous tēs prophēteias kai tērountes ta en autē gegrammena, ho gar kairos engys.",
+      "i18n": {
+        "en": "Blessed is the one who reads aloud, and those who hear the words of the prophecy and keep what is written in it, for the time is near."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 4,
+      "refId": "REV-WOH-1:4",
+      "text": "Ἰωάννης ταῖς ἑπτὰ ἐκκλησίαις ταῖς ἐν τῇ Ἀσίᾳ· χάρις ὑμῖν καὶ εἰρήνη ἀπὸ ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος, καὶ ἀπὸ τῶν ἑπτὰ πνευμάτων ἃ ἐνώπιον τοῦ θρόνου αὐτοῦ,",
+      "translit": "Iōannēs tais hepta ekklēsiais tais en tē Asia· charis hymin kai eirēnē apo ho ōn kai ho ēn kai ho erchomenos, kai apo tōn hepta pneumatōn ha enōpion tou thronou autou,",
+      "i18n": {
+        "en": "John to the seven churches that are in Asia: Grace to you and peace from the one who is and who was and who is to come, and from the seven spirits who are before his throne,"
+      },
+      "commentary": "**MAJOR GREEK-GRAMMATICAL SOLECISM SITE.** *apo ho ōn kai ho ēn kai ho erchomenos* 'from the One who is and who was and who is to come'. The preposition *apo* normally takes the genitive case, but Rev deploys it with the nominative *ho ōn* — a deliberate-divine-name-preservation, treating the Ex 3:14 LXX *ho ōn* as a fixed indeclinable formula. The English-translation tradition smooths the solecism into a relative-clause-with-pronoun construction. The triadic *ho ōn / ho ēn / ho erchomenos* divine-name expansion has parallels in Targum Pseudo-Jonathan Deut 32:39 + the rabbinic Yotzer-blessing + Greek-philosophical-being constructions (Plato Timaeus 37e-38a). Documented at central-glossary entry `apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus` and overlay-glossary entry `apo-ho-on-rev-1-4-solecism-preservation-convention`. Bidirectional cross-corpus with Exodus central entry `ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus`.",
+      "glossaryRefs": [
+        "apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus",
+        "apo-ho-on-rev-1-4-solecism-preservation-convention",
+        "ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "REV-WOH-1:5",
+      "text": "καὶ ἀπὸ Ἰησοῦ Χριστοῦ, ὁ μάρτυς ὁ πιστός, ὁ πρωτότοκος τῶν νεκρῶν καὶ ὁ ἄρχων τῶν βασιλέων τῆς γῆς. Τῷ ἀγαπῶντι ἡμᾶς καὶ λύσαντι ἡμᾶς ἐκ τῶν ἁμαρτιῶν ἡμῶν ἐν τῷ αἵματι αὐτοῦ,",
+      "translit": "kai apo Iēsou Christou, ho martys ho pistos, ho prōtotokos tōn nekrōn kai ho archōn tōn basileōn tēs gēs. Tō agapōnti hēmas kai lysanti hēmas ek tōn hamartiōn hēmōn en tō aimati autou,",
+      "i18n": {
+        "en": "and from Jesus Christ, the faithful witness, the firstborn of the dead and the ruler of the kings of the earth. To him who loves us and loosed us from our sins by his blood,"
+      },
+      "commentary": "Textual variant: NA28/SBLGNT (Sinaiticus + Alexandrinus + critical text) read *lousanti hēmas* 'who washes us' from sins; Byzantine majority + TR + KJV read *lousanti hēmas ... en tō haimati autou* 'who washes us ... in his blood' (the difference is *lousanti* 'washes' vs *lysanti* 'frees / looses'). The variant is a single-letter difference (ου vs υ). Critical text preference is *lysanti* 'frees / looses' as the more-difficult-reading; KJV-tradition preserves *lousanti* 'washes'. The WoH-Translation preserves the critical-text reading 'frees us from our sins by his blood'.",
+      "glossaryRefs": []
+    },
+    {
+      "n": 6,
+      "refId": "REV-WOH-1:6",
+      "text": "καὶ ἐποίησεν ἡμᾶς βασιλείαν, ἱερεῖς τῷ θεῷ καὶ πατρὶ αὐτοῦ — αὐτῷ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων· ἀμήν.",
+      "translit": "kai epoiēsen hēmas basileian, hiereis tō theō kai patri autou — autō hē doxa kai to kratos eis tous aiōnas tōn aiōnōn· amēn.",
+      "i18n": {
+        "en": "and made us a kingdom, priests to his God and Father — to him be the glory and the dominion forever and ever. Amen."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 7,
+      "refId": "REV-WOH-1:7",
+      "text": "Ἰδοὺ ἔρχεται μετὰ τῶν νεφελῶν, καὶ ὄψεται αὐτὸν πᾶς ὀφθαλμὸς καὶ οἵτινες αὐτὸν ἐξεκέντησαν, καὶ κόψονται ἐπ’ αὐτὸν πᾶσαι αἱ φυλαὶ τῆς γῆς. ναί, ἀμήν.",
+      "translit": "Idou erchetai meta tōn nephelōn, kai opsetai auton pas ophthalmos kai hoitines auton exekentēsan, kai kopsontai ep’ auton pasai hai phylai tēs gēs. nai, amēn.",
+      "i18n": {
+        "en": "Behold, he is coming with the clouds, and every eye will see him, even those who pierced him, and all the tribes of the earth will mourn over him. Yes, amen."
+      },
+      "commentary": "**MAJOR SON-OF-MAN-COMING SITE.** *Idou erchetai meta tōn nephelōn* 'behold, he is coming with the clouds'. The most-systematic NT cross-corpus combination: Dan 7:13 (coming-with-clouds) + Zech 12:10 (looking-on-the-pierced-one + mourning-of-the-tribes) integrated into a single Christological identification-statement. Bauckham 1993 *Climax of Prophecy* 318-322 documents the Dan 7 + Zech 12 combination as one of the most-distinctive structural features of the Apocalypse opening. Cross-corpus chain: Dan 7:13 → Mk 13:26 → Mt 24:30 → Lk 21:27 → Rev 1:7. Documented at central-glossary entries `son-of-man-coming-in-cloud-dan-7-13-synoptic-revelation-1-7-cross-corpus` and `son-of-man-bar-enash-dan-7-13-mt-cross-corpus`.",
+      "glossaryRefs": [
+        "son-of-man-coming-in-cloud-dan-7-13-synoptic-revelation-1-7-cross-corpus",
+        "son-of-man-bar-enash-dan-7-13-mt-cross-corpus"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "REV-WOH-1:8",
+      "text": "Ἐγώ εἰμι τὸ Ἄλφα καὶ τὸ Ὦ, λέγει κύριος ὁ θεός, ὁ ὢν καὶ ὁ ἦν καὶ ὁ ἐρχόμενος, ὁ παντοκράτωρ.",
+      "translit": "Egō eimi to Alpha kai to Ō, legei kyrios ho theos, ho ōn kai ho ēn kai ho erchomenos, ho pantokratōr.",
+      "i18n": {
+        "en": "\"I am the Alpha and the Omega,\" says the Lord God, \"the one who is and who was and who is to come, the Almighty.\""
+      },
+      "commentary": "*egō eimi to alpha kai to ō, legei kyrios ho theos, ho ōn kai ho ēn kai ho erchomenos, ho pantokratōr* 'I am the alpha and the omega, says the Lord God, who is and who was and who is to come, the Almighty'. The triadic divine-name formula in the divine-speech register, integrating the Rev 1:4 *ho ōn / ho ēn / ho erchomenos* triadic divine-name with the alpha-omega first-and-last designation. See central-glossary entry `apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus`.",
+      "glossaryRefs": [
+        "apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus",
+        "ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "REV-WOH-1:9",
+      "text": "Ἐγὼ Ἰωάννης, ὁ ἀδελφὸς ὑμῶν καὶ συγκοινωνὸς ἐν τῇ θλίψει καὶ βασιλείᾳ καὶ ὑπομονῇ ἐν Ἰησοῦ, ἐγενόμην ἐν τῇ νήσῳ τῇ καλουμένῃ Πάτμῳ διὰ τὸν λόγον τοῦ θεοῦ καὶ τὴν μαρτυρίαν Ἰησοῦ.",
+      "translit": "Egō Iōannēs, ho adelphos hymōn kai synkoinōnos en tē thlipsei kai basileia kai hypomonē en Iēsou, egenomēn en tē nēsō tē kaloumenē Patmō dia ton logon tou theou kai tēn martyrian Iēsou.",
+      "i18n": {
+        "en": "I, John, your brother and partner in the tribulation and kingdom and patient endurance in Jesus, was on the island called Patmos because of the word of God and the testimony of Jesus."
+      },
+      "commentary": "John on Patmos. The Patmos exile is variously dated to Nero (mid-60s CE) or to Domitian (mid-90s CE) per Irenaeus *Against Heresies* 5.30.3. The dominant modern scholarship favors the Domitianic-date (Aune WBC, Beale NIGTC, Koester AB) but the Nero-date has been defended (especially by preterist-reading commentators). The dating affects the historical-political-context reading of the Apocalypse — Domitianic imperial-cult pressure vs Neronic persecution.",
+      "glossaryRefs": []
+    },
+    {
+      "n": 10,
+      "refId": "REV-WOH-1:10",
+      "text": "ἐγενόμην ἐν πνεύματι ἐν τῇ κυριακῇ ἡμέρᾳ, καὶ ἤκουσα ὀπίσω μου φωνὴν μεγάλην ὡς σάλπιγγος",
+      "translit": "egenomēn en pneumati en tē kyriakē hēmera, kai ēkousa opisō mou phōnēn megalēn hōs salpingos",
+      "i18n": {
+        "en": "I came to be in the Spirit on the Lord's day, and I heard behind me a loud voice like a trumpet,"
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 11,
+      "refId": "REV-WOH-1:11",
+      "text": "λεγούσης· Ὃ βλέπεις γράψον εἰς βιβλίον καὶ πέμψον ταῖς ἑπτὰ ἐκκλησίαις, εἰς Ἔφεσον καὶ εἰς Σμύρναν καὶ εἰς Πέργαμον καὶ εἰς Θυάτειρα καὶ εἰς Σάρδεις καὶ εἰς Φιλαδέλφειαν καὶ εἰς Λαοδίκειαν.",
+      "translit": "legousēs· Ho blepeis grapson eis biblion kai pempson tais hepta ekklēsiais, eis Epheson kai eis Smyrnan kai eis Pergamon kai eis Thyateira kai eis Sardeis kai eis Philadelpheian kai eis Laodikeian.",
+      "i18n": {
+        "en": "saying: \"What you see, write in a book and send to the seven churches: to Ephesus and to Smyrna and to Pergamum and to Thyatira and to Sardis and to Philadelphia and to Laodicea.\""
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 12,
+      "refId": "REV-WOH-1:12",
+      "text": "καὶ ἐπέστρεψα βλέπειν τὴν φωνὴν ἥτις ἐλάλει μετ’ ἐμοῦ· καὶ ἐπιστρέψας εἶδον ἑπτὰ λυχνίας χρυσᾶς,",
+      "translit": "kai epestrepsa blepein tēn phōnēn hētis elalei met’ emou· kai epistrepsas eidon hepta lychnias chrysas,",
+      "i18n": {
+        "en": "Then I turned to see the voice that was speaking with me, and on turning I saw seven golden lampstands,"
+      },
+      "commentary": "**MAJOR THRONE-VISION SITE — Rev 1:12-16 ONE-LIKE-A-SON-OF-MAN.** The vision integrates: (i) Dan 7:13 (one like a son of man); (ii) Dan 7:9 (the Ancient of Days' white hair: *hē kephalē autou kai hai triches leukai hōs erion leukon hōs chiōn* 'his head and hair were white like white wool, like snow'); (iii) Dan 10:5-6 (the man-clothed-in-linen with bronze-like body + flame-eyes + voice-like-many-waters); (iv) Ezek 1 (the figure on the throne); (v) Zech 4 (the seven golden lampstands). Bauckham 1993 *Climax of Prophecy* 188-208 documents the systematic Dan 7 + Dan 10 + Ezek 1 integration. The Christological-figure carries marks of both the Ancient of Days (white hair) and the son-of-man-like-figure (human-form) simultaneously. Documented at central-glossary entry `throne-vision-rev-1-4-ezek-1-dan-7-shiur-qomah-cross-corpus`.",
+      "glossaryRefs": [
+        "throne-vision-rev-1-4-ezek-1-dan-7-shiur-qomah-cross-corpus"
+      ]
+    },
+    {
+      "n": 13,
+      "refId": "REV-WOH-1:13",
+      "text": "καὶ ἐν μέσῳ τῶν λυχνιῶν ὅμοιον υἱὸν ἀνθρώπου, ἐνδεδυμένον ποδήρη καὶ περιεζωσμένον πρὸς τοῖς μαστοῖς ζώνην χρυσᾶν·",
+      "translit": "kai en mesō tōn lychniōn homoion huion anthrōpou, endedymenon podērē kai periezōsmenon pros tois mastois zōnēn chrysan·",
+      "i18n": {
+        "en": "and in the midst of the lampstands one like a son of man, clothed with a long robe reaching to his feet and girded across his chest with a golden sash;"
+      },
+      "commentary": "The one-like-a-son-of-man (*homoion huion anthrōpou*) among the seven lampstands. Christological-figure description integrates the Shi'ur Qomah cosmic-body-of-divine tradition in compressed form: the head (white-haired), eyes (flame of fire), feet (bronze-burnished), voice (many waters), face (sun-shining). Bidirectional cross-corpus extension of the existing v2.59.0 central entry `shiur-qomah-cosmic-body-of-divine-hekhalot-throne-vision-tradition` to include Rev 1 refIds.",
+      "glossaryRefs": [
+        "throne-vision-rev-1-4-ezek-1-dan-7-shiur-qomah-cross-corpus",
+        "shiur-qomah-cosmic-body-of-divine-hekhalot-throne-vision-tradition",
+        "ezekiel-1-throne-vision-merkavah-tradition-cross-corpus-hebrew-bible-hekhalot-revelation-4",
+        "son-of-man-bar-enash-dan-7-13-mt-cross-corpus"
+      ]
+    },
+    {
+      "n": 14,
+      "refId": "REV-WOH-1:14",
+      "text": "ἡ δὲ κεφαλὴ αὐτοῦ καὶ αἱ τρίχες λευκαὶ ὡς ἔριον λευκόν, ὡς χιών, καὶ οἱ ὀφθαλμοὶ αὐτοῦ ὡς φλὸξ πυρός,",
+      "translit": "hē de kephalē autou kai hai triches leukai hōs erion leukon, hōs chiōn, kai hoi ophthalmoi autou hōs phlox pyros,",
+      "i18n": {
+        "en": "and his head and his hair were white as white wool, as snow, and his eyes were like a flame of fire,"
+      },
+      "commentary": "",
+      "glossaryRefs": [
+        "throne-vision-rev-1-4-ezek-1-dan-7-shiur-qomah-cross-corpus",
+        "shiur-qomah-cosmic-body-of-divine-hekhalot-throne-vision-tradition"
+      ]
+    },
+    {
+      "n": 15,
+      "refId": "REV-WOH-1:15",
+      "text": "καὶ οἱ πόδες αὐτοῦ ὅμοιοι χαλκολιβάνῳ ὡς ἐν καμίνῳ πεπυρωμένης, καὶ ἡ φωνὴ αὐτοῦ ὡς φωνὴ ὑδάτων πολλῶν,",
+      "translit": "kai hoi podes autou homoioi chalkolibanō hōs en kaminō pepyrōmenēs, kai hē phōnē autou hōs phōnē hydatōn pollōn,",
+      "i18n": {
+        "en": "and his feet were like burnished bronze, as refined in a furnace, and his voice was like the sound of many waters,"
+      },
+      "commentary": "*chalkolibanō* (chalcolibanus / bronze-frankincense) — NT hapax (only Rev 1:15 + 2:18). The precise referent is debated: a bronze-alloy of unknown composition; a bronze-frankincense compound; or a transliteration-of-a-Semitic-original. Aune WBC 95-97 surveys the options. The 'feet like burnished bronze' image draws on Dan 10:6 *ta skelē hōsei eidos chalkou stilbontos*.",
+      "glossaryRefs": [
+        "throne-vision-rev-1-4-ezek-1-dan-7-shiur-qomah-cross-corpus"
+      ]
+    },
+    {
+      "n": 16,
+      "refId": "REV-WOH-1:16",
+      "text": "καὶ ἔχων ἐν τῇ δεξιᾷ χειρὶ αὐτοῦ ἀστέρας ἑπτά, καὶ ἐκ τοῦ στόματος αὐτοῦ ῥομφαία δίστομος ὀξεῖα ἐκπορευομένη, καὶ ἡ ὄψις αὐτοῦ ὡς ὁ ἥλιος φαίνει ἐν τῇ δυνάμει αὐτοῦ.",
+      "translit": "kai echōn en tē dexia cheiri autou asteras hepta, kai ek tou stomatos autou rhomphaia distomos oxeia ekporeuomenē, kai hē opsis autou hōs ho hēlios phainei en tē dynamei autou.",
+      "i18n": {
+        "en": "and he had in his right hand seven stars, and from his mouth a sharp two-edged sword was proceeding, and his face was like the sun shining in its full strength."
+      },
+      "commentary": "",
+      "glossaryRefs": [
+        "throne-vision-rev-1-4-ezek-1-dan-7-shiur-qomah-cross-corpus"
+      ]
+    },
+    {
+      "n": 17,
+      "refId": "REV-WOH-1:17",
+      "text": "Καὶ ὅτε εἶδον αὐτόν, ἔπεσα πρὸς τοὺς πόδας αὐτοῦ ὡς νεκρός· καὶ ἔθηκεν τὴν δεξιὰν αὐτοῦ ἐπ’ ἐμὲ λέγων· Μὴ φοβοῦ· ἐγώ εἰμι ὁ πρῶτος καὶ ὁ ἔσχατος,",
+      "translit": "Kai hote eidon auton, epesa pros tous podas autou hōs nekros· kai ethēken tēn dexian autou ep’ eme legōn· Mē phobou· egō eimi ho prōtos kai ho eschatos,",
+      "i18n": {
+        "en": "When I saw him, I fell at his feet as though dead. And he laid his right hand on me, saying: \"Do not fear; I am the first and the last,"
+      },
+      "commentary": "*egō eimi ho prōtos kai ho eschatos* 'I am the first and the last'. The Christological-self-designation echoes Isa 41:4; 44:6; 48:12 (YHWH's self-designation as 'first and last'). The Apocalypse's Christology systematically applies HB YHWH-designations to the exalted Christ — one of the most-distinctive Christological-features of the book (Bauckham 1993 *Theology of the Book of Revelation*).",
+      "glossaryRefs": []
+    },
+    {
+      "n": 18,
+      "refId": "REV-WOH-1:18",
+      "text": "καὶ ὁ ζῶν, καὶ ἐγενόμην νεκρὸς καὶ ἰδοὺ ζῶν εἰμι εἰς τοὺς αἰῶνας τῶν αἰώνων, καὶ ἔχω τὰς κλεῖς τοῦ θανάτου καὶ τοῦ ᾅδου.",
+      "translit": "kai ho zōn, kai egenomēn nekros kai idou zōn eimi eis tous aiōnas tōn aiōnōn, kai echō tas kleis tou thanatou kai tou hadou.",
+      "i18n": {
+        "en": "and the living one. I died, and behold, I am alive forever and ever, and I have the keys of Death and of Hades."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 19,
+      "refId": "REV-WOH-1:19",
+      "text": "γράψον οὖν ἃ εἶδες καὶ ἃ εἰσὶν καὶ ἃ μέλλει γενέσθαι μετὰ ταῦτα.",
+      "translit": "grapson oun ha eides kai ha eisin kai ha mellei genesthai meta tauta.",
+      "i18n": {
+        "en": "Write therefore the things that you have seen, and the things that are, and the things that are to take place after these."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 20,
+      "refId": "REV-WOH-1:20",
+      "text": "τὸ μυστήριον τῶν ἑπτὰ ἀστέρων οὓς εἶδες ἐπὶ τῆς δεξιᾶς μου, καὶ τὰς ἑπτὰ λυχνίας τὰς χρυσᾶς· οἱ ἑπτὰ ἀστέρες ἄγγελοι τῶν ἑπτὰ ἐκκλησιῶν εἰσιν, καὶ αἱ λυχνίαι αἱ ἑπτὰ ἑπτὰ ἐκκλησίαι εἰσίν.",
+      "translit": "to mystērion tōn hepta asterōn hous eides epi tēs dexias mou, kai tas hepta lychnias tas chrysas· hoi hepta asteres angeloi tōn hepta ekklēsiōn eisin, kai hai lychniai hai hepta hepta ekklēsiai eisin.",
+      "i18n": {
+        "en": "As for the mystery of the seven stars that you saw in my right hand, and the seven golden lampstands: the seven stars are the angels of the seven churches, and the seven lampstands are the seven churches."
+      },
+      "commentary": "*to mystērion* (the mystery) + interpretation-formula: stars = *angeloi* (angels / messengers) of the seven churches; lampstands = the seven churches themselves. The 'angels of the churches' has multiple interpretive options: heavenly-angelic-guardians of each church; human-leaders / bishops of each church (the *episkopos* identification); literary-personifications of the church-communities. The dominant modern interpretation is the angelic-guardians reading (Aune WBC, Beale NIGTC, Koester AB).",
+      "glossaryRefs": []
+    }
+  ],
+  "editorial_questions": []
+}

@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.0",
+  "scope": "acts-woh",
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of The Acts of the Apostles (canon-cited chapters). Greek source convention overlay; may be promoted to central when subsequent NT compositions arrive and acquire cross-corpus reach.",
+  "sourceLanguages": [
+    "grc"
+  ],
+  "entries": [
+    {
+      "id": "acts-15-34-empty-verse-hole-western-interpolation-convention",
+      "source": "[Acts 15:34 absent in Vaticanus + Sinaiticus + Alexandrinus + P74; preserved in Western/Byzantine witnesses as 'ἔδοξεν δὲ τῷ Σιλᾷ ἐπιμεῖναι αὐτοῦ']",
+      "translit": "edoxe de tō Sila epimeinai autou (Western/Byzantine variant text)",
+      "strongs": "n/a (textual-critical convention)",
+      "partOfSpeech": "Overlay convention for the Acts 15:34 textual hole",
+      "literal": "v.34 is not present in the modern critical text; the verse-number is preserved as a 'hole' (modern critical editions print v.33 followed by v.35)",
+      "standardEnglish": "verse-number 34 omitted (RSV/NRSV/NIV modern critical editions); 'Notwithstanding it pleased Silas to abide there still' (KJV from the Textus Receptus Western/Byzantine variant)",
+      "wohChoice": "Acts 15:34 verse-hole preserved on surface per the modern critical convention (the WoH-Translation prints v.33 followed by v.35 with v.34 absent); the Western-interpolation variant text (preserved in Bezae / Western witnesses / Byzantine majority) is documented in this overlay glossary entry but NOT printed on the surface; reader sees the modern critical text continuity per NA28/UBS5/SBLGNT.",
+      "claim_type": "direct",
+      "rationale": "**Acts 15:34 is one of several NT verse-holes** where the modern critical text omits a verse that is present in the Textus Receptus and the KJV-tradition. The Western interpolation *edoxe de tō Sila epimeinai autou* 'but it seemed good to Silas to remain there' is preserved in Bezae (D) and some Byzantine witnesses; it is widely interpreted as a scribal smoothing of the narrative-continuity problem at Acts 15:33-35 (v.33 says Judas and Silas were sent back to Antioch; v.40 has Paul taking Silas with him; the interpolation smooths the apparent inconsistency by having Silas remain). The verse is ABSENT in Vaticanus + Sinaiticus + Alexandrinus + P74 + the major modern critical editions (NA28/UBS5/SBLGNT/THGNT). The WoH-Translation preserves the modern critical convention: v.33 followed by v.35 with v.34 absent. Same convention is applied at other major NT textual holes: Mt 17:21; Mt 18:11; Mt 23:14; Mk 7:16; Mk 9:44, 46; Mk 11:26; Mk 15:28; Lk 17:36; Lk 23:17; Jn 5:4; Acts 8:37; Acts 24:7; Acts 28:29; Rom 16:24.",
+      "appliesTo": [
+        "ACT-WOH-15:34"
+      ]
+    },
+    {
+      "id": "acts-17-28-aratus-quote-attribution-convention",
+      "source": "τοῦ γὰρ καὶ γένος ἐσμέν (Acts 17:28b, citing Aratus Phaenomena line 5 verbatim)",
+      "translit": "tou gar kai genos esmen (Acts 17:28b)",
+      "strongs": "G1085 (genos)",
+      "partOfSpeech": "Overlay convention for Acts 17:28 Aratus quote attribution",
+      "literal": "for we are also his offspring (Acts 17:28b, verbatim from Aratus Phaenomena line 5 in the opening hymn to Zeus)",
+      "standardEnglish": "for we are also his offspring (KJV/ASV/RSV/NRSV); 'we are his offspring' (NIV)",
+      "wohChoice": "ASV/RSV-baseline 'for we are also his offspring' surface rendering preserved; the Aratus Phaenomena line 5 verbatim citation (Stoic-astronomical-poem opening hymn to Zeus, 3rd c. BCE; Aratus was Cilician — a compatriot of Paul of Tarsus) is documented in this overlay glossary entry and in the central entry `areopagus-speech-acts-17-22-31-natural-theology-aratus-epimenides-cross-corpus`. The Epimenides citation at v.28a (en autō zōmen kai kinoumetha kai esmen 'in him we live and move and have our being') is from the Cretica of Epimenides (preserved in Syriac quotation in Isho'dad of Merv c. 850 CE) — the same source cited at Titus 1:12 (the Cretans-are-always-liars verse).",
+      "claim_type": "direct",
+      "rationale": "**Acts 17:28 contains two verbatim Greek-philosophical / poetic-tradition citations** integrated into Paul's natural-theology framework: (i) the Epimenidean *en autō gar zōmen kai kinoumetha kai esmen* at v.28a — from a Cretica of Epimenides; (ii) the verbatim Aratus citation at v.28b — *tou gar kai genos esmen* — verbatim from Aratus Phaenomena line 5. The Aratus opening hymn to Zeus reads: *ek Dios archōmestha, ton oudepot' andres eōmen / arrhēton; ... pantē de Dios kechrēmetha pantes. / tou gar kai genos esmen*. Aratus (c. 315-240 BCE) was from Soli in Cilicia — geographically near Tarsus, which may explain Paul's familiarity with this specific text. The Stoic Cleanthes Hymn to Zeus offers a parallel Stoic-framing. The conventional ASV/RSV-baseline surface rendering preserves the citation as integrated into Paul's discourse without typographic-attribution (the modern citation-mark convention would be anachronistic).",
+      "appliesTo": [
+        "ACT-WOH-17:28"
+      ]
+    }
+  ]
+}
