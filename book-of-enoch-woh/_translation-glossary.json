@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.0",
+  "scope": "book-of-enoch-woh",
+  "description": "Per-translation glossary overlay for the WoH Translation of 1 Enoch (Ethiopic Enoch). Contains composition-specific entries: the Aramaic/Greek/Ge'ez per-verse layered-witness convention, the Aramaic-onomastics-preservation convention, the Greek-to-Ge'ez witness-transition convention, the Watchers English-rendering convention, the Aramaic 4 vs Greek 7 archangels textual-variant convention, the 300 vs 3000 cubits giant-height variant convention, and other composition-specific conventions. May be promoted to central via standard overlay→central promotion pattern when entries acquire cross-corpus reach.",
+  "sourceLanguages": [
+    "arc",
+    "grc",
+    "gez"
+  ],
+  "entries": [
+    {
+      "id": "per-verse-layered-witness-aramaic-greek-geez-convention",
+      "source": "Aramaic Dead Sea Scroll fragments (4Q201/4Q202/4Q204/4Q205/4Q206/4Q207); Greek Akhmim Panopolitanus (6th c. CE codex); Ge'ez (Ethiopic) medieval manuscripts",
+      "translit": "(see appliesTo refIds for paragraph-level source-text)",
+      "lemma": "the per-verse layered-witness convention — the WoH translation reconstruction practice across the three principal witnesses",
+      "partOfSpeech": "Translation-program methodological convention: the per-verse layered-witness reconstruction practice that selects, for each verse, the Aramaic Dead Sea Scroll fragment reading where preserved (PRIMARY witness — the OLDEST surviving Enoch material, late 3rd c. BCE through 1st c. BCE); the Greek Akhmim Panopolitanus reading where the Aramaic is not preserved (SECONDARY witness — 6th c. CE codex, chs 1-32 substantially complete); the Ge'ez (Ethiopic) reading where neither Aramaic nor Greek preserves (TERTIARY witness and fallback — the only complete witness to 1 Enoch, but the most-removed-in-time and -language from the original Aramaic composition)",
+      "literal": "primary Aramaic / secondary Greek / tertiary Ge'ez",
+      "standardEnglish": "the standard scholarly text-critical practice (Nickelsburg 2001; Milik 1976; Black 1985; Knibb 1978; Charles 1912 — all preserve the layered-witness framework, though differing in editorial-decisions on individual verses)",
+      "wohChoice": "preserve the layered-witness framework explicitly in the per-verse text_lang field: 'arc' (Aramaic) where the verse is reconstructed from Aramaic DSS fragments; 'grc' (Greek) where reconstructed from the Greek Akhmim; 'gez' (Ge'ez) where reconstructed from the Ethiopic; the per-verse witness-selection follows the chronological-witness-preference framework (Aramaic > Greek > Ge'ez)",
+      "claim_type": "direct",
+      "rationale": "**The per-verse layered-witness convention is the foundational textual-critical methodology of the WoH translation of 1 Enoch.** The convention reflects the manuscript-witness situation:\n\n(i) **The Aramaic Dead Sea Scroll fragments** (4Q201/4Q202/4Q204/4Q205/4Q206/4Q207) preserve significant portions of the Book of the Watchers and other 1 Enoch sections in the original Aramaic composition-language. The fragments date from the late 3rd c. BCE through the 1st c. BCE, making them the OLDEST surviving Enoch material. The Aramaic is therefore the **primary witness** to the original composition where it survives.\n\n(ii) **The Greek Akhmim Panopolitanus codex** (6th c. CE) preserves 1 Enoch 1-32 substantially complete in Greek translation. The Greek translation was made early (probably 1st-2nd c. CE) and is independent of the Ge'ez tradition. Where the Aramaic does not preserve, the Greek is the **secondary witness**.\n\n(iii) **The Ge'ez (Ethiopic) manuscripts** (medieval, primarily 15th-19th c. CE manuscripts) preserve the complete 1 Enoch corpus (the only complete witness). The Ge'ez tradition was translated from Greek (probably in the 4th-6th c. CE during the Ethiopian Christianization). Where neither Aramaic nor Greek preserves, the Ge'ez is the **tertiary witness and fallback**.\n\nThe per-verse layered-witness convention preserves the witness-chain explicitly in the verse-level text_lang field, making the textual-witness layering visible to the reader. The methodology follows the established scholarly practice of Nickelsburg 2001 (Hermeneia commentary), Milik 1976 (foundational Aramaic publication), Black 1985 (Greek edition with commentary), Knibb 1978 (Ethiopic critical edition), and Charles 1912 (the classic Ge'ez critical edition). The convention is distinctive to 1 Enoch because of the three-language layered-witness situation; other Second-Temple-Jewish texts may have similar conventions but with different witness-configurations.",
+      "appliesTo": ["ENO-WOH:all"]
+    },
+    {
+      "id": "aramaic-onomastics-preservation-convention",
+      "source": "Aramaic 4Q201/4Q202/4Q204/4Q206 onomastics — the Watcher-names and archangel-names",
+      "translit": "Šemiḥazah, ʿAśāʾēl, ʿArtaqof, Rāmʾēl, Kōkabʾēl, ʾArmaros, Bărāqʾēl, Anānʾēl, Zaqʾēl, Šamšiʾēl, Sariʾēl, Tūrʾēl, Yomyaʾēl, Sahriʾēl (the Watcher chiefs); Mikhāʾēl, Sariʾēl, Raphāʾēl, Gabriʾēl, ʿŪrʾēl, Raguʾēl, Remʾēl (the archangels)",
+      "lemma": "the Aramaic onomastics preservation convention — the WoH translation practice of preserving the Aramaic vocalization of Watcher-and-archangel names where the Aramaic is the witness",
+      "partOfSpeech": "Translation-program methodological convention: the preservation of Aramaic onomastics for proper-names (Watcher-chiefs, archangels, places) where the Aramaic Dead Sea Scroll fragments are the witness; the practice contrasts with the Charles 1912 + Knibb 1978 practice of using assimilated Hellenistic-or-Ethiopic vocalizations throughout",
+      "literal": "Aramaic vocalization preserved where the Aramaic is the witness",
+      "standardEnglish": "scholarly practice variations: Nickelsburg 2001 + Milik 1976 preserve the Aramaic onomastics; Black 1985 + Knibb 1978 use mixed vocalizations; Charles 1912 uses the Ge'ez-mediated forms",
+      "wohChoice": "preserve the Aramaic vocalization (Šemiḥazah, ʿAśāʾēl, Bărāqʾēl, Kōkabʾēl, etc.) where the Aramaic is the witness for the verse; transition to Greek vocalization (Semyaza, Asael/Azazel) where the Greek Akhmim is the witness; transition to Ge'ez vocalization (Semyaza, Azazel, etc.) where the Ge'ez is the witness; the witness-transition flagged at chapter-and-verse boundaries",
+      "claim_type": "direct",
+      "rationale": "**The Aramaic onomastics preservation convention reflects the layered-witness methodology of the WoH translation.** The convention: where the Aramaic Dead Sea Scroll fragments are the witness for a given verse, the Aramaic vocalization of proper-names is preserved (e.g., ʿAśāʾēl, Šemiḥazah, Bărāqʾēl). Where the Greek Akhmim or Ge'ez is the witness, the corresponding vocalization is used. The convention is distinctive to 1 Enoch because the proper-names of the Watchers and archangels have undergone significant transformation across the witness-chain (Aramaic → Greek → Ge'ez), with the Aramaic vocalization being the closest to the original composition and the most-philologically-meaningful (the theophoric -ʾēl endings, the Aramaic-Semitic morphology). Nickelsburg 2001 and Milik 1976 both follow this convention; Knibb 1978 mixes the conventions; Charles 1912 uses primarily the Ge'ez-mediated forms throughout. The WoH convention follows Nickelsburg-Milik in preserving the Aramaic where it survives.",
+      "appliesTo": ["ENO-WOH-6:7", "ENO-WOH-8:3", "ENO-WOH-9:1", "ENO-WOH-10:1", "ENO-WOH-10:4", "ENO-WOH-10:11", "ENO-WOH-20:1"]
+    },
+    {
+      "id": "greek-to-geez-witness-transition-convention-mid-chapter-32",
+      "source": "Greek Akhmim Panopolitanus codex breaks off mid-chapter 32; chs 33-36 preserved only in Ge'ez (with fragmentary Aramaic supplements)",
+      "translit": "(see appliesTo refIds — affects all of chs 33-36)",
+      "lemma": "the Greek-to-Ge'ez witness-transition convention — the WoH translation practice of marking the mid-ch-32 transition from the substantial Greek-witness to the Ge'ez-only-witness for chs 33-36",
+      "partOfSpeech": "Translation-program methodological convention: the witness-transition convention at the mid-chapter-32 boundary where the Greek Akhmim Panopolitanus codex breaks off, with chs 33-36 preserved only in Ge'ez (with fragmentary Aramaic 4Q205/4Q206/4Q207 supplements where they survive); the convention requires explicit acknowledgment of the witness-transition in the per-translation apparatus",
+      "literal": "mid-ch-32: Greek Akhmim ends; Ge'ez becomes only-witness for chs 33-36",
+      "standardEnglish": "standard textual-critical recognition (Nickelsburg 2001; Black 1985; Milik 1976; Knibb 1978; Charles 1912)",
+      "wohChoice": "preserve the Greek-witness for chs 1-32 (with the Aramaic as primary where preserved); transition to Ge'ez-only-witness for chs 33-36 (with the fragmentary Aramaic supplements where they survive); the witness-transition flagged in chapter-32 and chapter-33 commentaries",
+      "claim_type": "direct",
+      "rationale": "**The Greek-to-Ge'ez witness-transition convention reflects the manuscript-witness situation at the mid-chapter-32 boundary.** The Greek Akhmim Panopolitanus codex (6th c. CE; the principal Greek witness to 1 Enoch 1-32) breaks off mid-chapter 32. Beyond this point, the Ge'ez (Ethiopic) tradition is the **only complete witness** to chs 33-36 (and to the rest of 1 Enoch 36-108). The Aramaic Dead Sea Scrolls preserve some material from chs 33-36 in fragmentary form (4Q205, 4Q206, 4Q207) but not in the substantial-readable form preserved for chs 1-32. The witness-transition has implications for translation-confidence: the chs 33-36 readings depend more heavily on the Ge'ez tradition (which is removed in time, language, and culture from the original Aramaic composition); the Aramaic-to-Greek-to-Ge'ez transmission-chain is shorter for chs 33-36 because the Greek-intermediate is absent. The WoH convention flags this transition explicitly so that the reader is aware of the differential witness-confidence between chs 1-32 and chs 33-36.",
+      "appliesTo": ["ENO-WOH-33:1", "ENO-WOH-33:2", "ENO-WOH-33:3", "ENO-WOH-33:4", "ENO-WOH-34:1", "ENO-WOH-34:2", "ENO-WOH-34:3", "ENO-WOH-35:1", "ENO-WOH-36:1", "ENO-WOH-36:2", "ENO-WOH-36:3"]
+    },
+    {
+      "id": "watchers-english-rendering-convention",
+      "source": "Aramaic ʿīrīn / Greek egrēgoroi / Ge'ez teguh",
+      "translit": "ʿīrīn (Aramaic) / egrēgoroi (Greek) / teguh (Ge'ez)",
+      "lemma": "the Watchers English-rendering convention — the WoH translation practice of consistently rendering the Aramaic ʿīrīn / Greek egrēgoroi / Ge'ez teguh as 'Watchers' rather than as 'Holy Ones' or 'angels'",
+      "partOfSpeech": "Translation-program lexical-rendering convention: the consistent rendering of the angelic-class noun ʿīrīn / egrēgoroi / teguh as 'Watchers' throughout the WoH translation; contrasts with Charles 1912's occasional 'Holy Ones' rendering and with various popular translations' flattening to 'angels'",
+      "literal": "Watchers (English standard)",
+      "standardEnglish": "the Watchers (Nickelsburg 2001; Black 1985; Knibb 1978 — uniform); 'Holy Ones' (Charles 1912 occasional); 'angels' (Ge'ez interpretive-flattening, common in popular renderings)",
+      "wohChoice": "render 'Watchers' consistently for ʿīrīn / egrēgoroi / teguh; preserve the technical class-distinction; this is the standard English scholarly rendering and the WoH adopts it; see central entry `watchers-1-enoch-6-11-bnei-elohim-cross-corpus` for the broader treatment",
+      "claim_type": "direct",
+      "rationale": "**The Watchers English-rendering convention preserves the technical angelic-class distinction.** The Aramaic ʿīrīn / Greek egrēgoroi / Ge'ez teguh all denote the same angelic class — the wakeful/vigilant ones, the angelic-order whose function is unceasing cosmic-vigilance. Charles 1912 occasionally renders 'Holy Ones' (mixing with the parallel-coupling qaddīšīn); various popular renderings flatten to 'angels' (collapsing the class-distinction). The modern scholarly convention is uniform: render 'Watchers' to preserve the class-distinction. The WoH adopts this convention.",
+      "appliesTo": ["ENO-WOH-1:2", "ENO-WOH-1:5", "ENO-WOH-6:2", "ENO-WOH-10:7", "ENO-WOH-10:11", "ENO-WOH-12:2", "ENO-WOH-12:4", "ENO-WOH-13:10", "ENO-WOH-14:1", "ENO-WOH-14:3", "ENO-WOH-15:2", "ENO-WOH-15:9", "ENO-WOH-16:2", "ENO-WOH-19:1"]
+    },
+    {
+      "id": "aramaic-4-vs-greek-7-archangels-textual-variant-convention",
+      "source": "Aramaic 4Q201 / 4Q202 / 4Q204 at 1 En 9:1 (four archangels: Michael, Sariel, Raphael, Gabriel); Greek Akhmim + Ge'ez at 1 En 20:1-8 (seven archangels: Uriel, Raphael, Raguel, Michael, Sariel/Saraqael, Gabriel, Remeiel)",
+      "translit": "(see appliesTo refIds)",
+      "lemma": "the Aramaic 4 vs Greek 7 archangels textual-variant convention — the WoH translation practice of preserving the Aramaic 4-archangel list at 1 En 9:1 and the Greek 7-archangel list at 1 En 20",
+      "partOfSpeech": "Translation-program textual-variant convention: the preservation of both the Aramaic 4-archangel list (Michael, Sariel, Raphael, Gabriel at 1 En 9:1) and the Greek 7-archangel list (Uriel, Raphael, Raguel, Michael, Sariel/Saraqael, Gabriel, Remeiel at 1 En 20:1-8) — preserving the witness-variant rather than harmonizing",
+      "literal": "Aramaic 4 vs Greek 7 — preserve both",
+      "standardEnglish": "scholarly recognition of the variant (Milik 1976; Nickelsburg 2001; Black 1985)",
+      "wohChoice": "preserve the 4-archangel list at 1 En 9:1 (per the Aramaic witness); preserve the 7-archangel list at 1 En 20:1-8 (per the Greek Akhmim witness); the variant is the witness-variant in the layered-witness framework; see central entry `seven-archangels-list-1-enoch-20-tob-12-rev-8-cross-corpus`",
+      "claim_type": "direct",
+      "rationale": "**The Aramaic 4-archangel vs Greek 7-archangel variant is one of the most-discussed textual-variants in the 1 Enoch corpus.** The earlier Aramaic tradition (4Q201/4Q202/4Q204) at 1 En 9:1 names FOUR archangels: Michael, Sariel, Raphael, Gabriel — the four who hear the cries of humanity and bring the matter before the throne. The expanded 7-name list at 1 En 20:1-8 is the later developed form preserved in the Greek Akhmim and Ge'ez. The textual-critical question — whether the four-archangel list is the original tradition with the seven-archangel list a later development, or whether the seven-archangel list is original with chapter 9 preserving only the four most-relevant — is genuinely contested. The WoH convention preserves both the four-archangel list at 1 En 9:1 and the seven-archangel list at 1 En 20:1-8, with the witness-variant preserved rather than harmonized.",
+      "appliesTo": ["ENO-WOH-9:1", "ENO-WOH-20:1", "ENO-WOH-20:2", "ENO-WOH-20:3", "ENO-WOH-20:4", "ENO-WOH-20:5", "ENO-WOH-20:6", "ENO-WOH-20:7", "ENO-WOH-20:8"]
+    },
+    {
+      "id": "300-vs-3000-cubits-giant-height-variant-1-enoch-7-2-witness-variant",
+      "source": "1 Enoch 7:2 — Aramaic 4Q201 fragment (300 cubits) vs Greek Akhmim (3000 cubits) vs Ge'ez (3000 cubits)",
+      "translit": "300 cubits vs 3000 cubits",
+      "lemma": "the 300 vs 3000 cubits giant-height variant at 1 En 7:2 — the WoH translation practice of preserving the witness-variant rather than harmonizing",
+      "partOfSpeech": "Translation-program textual-variant convention: the preservation of the 300-cubits (Aramaic 4Q201 fragment) vs 3000-cubits (Greek Akhmim + Ge'ez) stature-variant at 1 En 7:2; the variant is one of the most-discussed textual-variants in the giant-narrative",
+      "literal": "300 cubits (Aramaic) vs 3000 cubits (Greek + Ge'ez)",
+      "standardEnglish": "scholarly recognition of the variant (Milik 1976; Nickelsburg 2001; Black 1985)",
+      "wohChoice": "preserve the witness-reading: 300 cubits where the Aramaic 4Q201 is reconstructable as the witness; 3000 cubits where the Greek Akhmim or Ge'ez is the witness; the variant flagged in commentary",
+      "claim_type": "direct",
+      "rationale": "**The 300-vs-3000-cubits variant at 1 En 7:2 is one of the most-discussed textual-variants in the Book of the Watchers.** The Aramaic 4Q201 fragment (where reconstructable) appears to read **300 cubits**; the Greek Akhmim Panopolitanus reads **3000 cubits**; the Ge'ez tradition follows the Greek with **3000 cubits**. The 10-fold difference is significant: 300 cubits (~135m at the standard 0.45m cubit) is already cosmically-implausible but within the apocalyptic-narrative register; 3000 cubits (~1.35km) is in the mountain-scale range. Milik 1976 takes the 300-cubits reading as original (with the 3000-cubits reading being a later scribal-amplification, perhaps influenced by the 3000-pace = parasang Persian measurement-tradition); Nickelsburg 2001 documents the dispute. The WoH preserves the witness-variant.",
+      "appliesTo": ["ENO-WOH-7:2"]
+    },
+    {
+      "id": "holy-great-one-great-glory-divine-circumlocution-titles-convention",
+      "source": "Greek 1 En 1:3 ho hagios mou ho megas 'the Holy Great One'; Greek 1 En 14:20 hē megalē doxa 'the Great Glory'",
+      "translit": "ho hagios mou ho megas (1 En 1:3) / hē megalē doxa (1 En 14:20)",
+      "lemma": "the Holy Great One + the Great Glory divine-circumlocution titles convention — the WoH translation practice of preserving the apophatic-circumlocution titles",
+      "partOfSpeech": "Translation-program lexical-rendering convention: the consistent preservation of the divine-circumlocution titles ho hagios mou ho megas 'the Holy Great One' (1 En 1:3) and hē megalē doxa 'the Great Glory' (1 En 14:20) — the two principal apophatic-circumlocution titles of the 1 Enoch corpus, used in preference to direct YHWH / Elohim naming",
+      "literal": "the Holy Great One / the Great Glory",
+      "standardEnglish": "the Holy Great One + the Great Glory (Nickelsburg 2001; Black 1985 — uniform recognition as the apophatic-circumlocution titles)",
+      "wohChoice": "preserve 'the Holy Great One' at 1 En 1:3 (with optional 'my' to reflect the Greek possessive); preserve 'the Great Glory' at 1 En 14:20 (the throne-figure designation); the apophatic-circumlocution practice is characteristic of Second-Temple-period Jewish apocalyptic literature and reflects the developing reluctance to name the divine directly",
+      "claim_type": "direct",
+      "rationale": "**The Holy Great One + Great Glory divine-circumlocution titles are characteristic of 1 Enoch's apocalyptic-narrative register.** The apophatic-circumlocution practice — naming the divine indirectly through paraphrastic titles rather than through the direct YHWH / Elohim / kyrios names — is one of the most-distinctive features of Second-Temple-period Jewish apocalyptic literature. The 1 Enoch corpus deploys multiple such circumlocution titles: 'the Holy Great One' (1 En 1:3), 'the Great Glory' (1 En 14:20), 'the Lord of Spirits' (frequent in the Parables, 1 En 37-71), 'the Eternal King' (1 En 25), 'the Most High' (frequent). The WoH preserves these titles consistently across the translation. See central entry `enoch-as-scribe-mediator-figure-12-jub-4-metatron-cross-corpus` for the broader treatment of 1 Enoch's divine-circumlocution practice.",
+      "appliesTo": ["ENO-WOH-1:3", "ENO-WOH-14:20", "ENO-WOH-25:3", "ENO-WOH-25:5"]
+    }
+  ]
+}

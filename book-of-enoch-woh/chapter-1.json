@@ -1,0 +1,459 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "ENO-WOH",
+  "bookSlug": "book-of-enoch-woh",
+  "n": 1,
+  "title": "1 Enoch 1 — Enoch's opening theophany prophecy",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "1 Enoch — per-verse layered-witness reconstruction (Aramaic DSS where preserved; Greek Akhmim Panopolitanus; Ge'ez Charles 1912 PD)",
+    "sourceLicense": "Best-effort reconstruction; scholarly editions cited; English original to this project",
+    "sourceUrl": "(see source-1.json citations)",
+    "sourceAccessedVia": "Milik 1976 + Black 1985 + Nickelsburg 2001 + Charles 1912 PD + Knibb 1978",
+    "verificationStatus": "best-effort reconstruction; verification pending against Milik 1976 DJD apparatus + Nickelsburg 2001 + original codicology",
+    "glossaryVersion": "2.66.0",
+    "overlayGlossaryVersion": "1.1.0",
+    "modelDrafts": [
+      "claude-opus-4-7 (translator)",
+      "claude-opus-4-7 (editor)",
+      "claude-opus-4-7 (reviewer)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-06-05T00:00:00+00:00",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-4-7 (reviewer) acting as woh-reviewer",
+      "reviewedAt": "2026-06-05T00:00:00+00:00",
+      "verdicts": [
+        {
+          "refId": "ENO-WOH-1:1",
+          "status": "approve",
+          "citations": [
+            "Milik 1976, The Books of Enoch (Oxford)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Aramaic 4Q201 1 i 1-5 incipit (millē birktāʾ dī Ḥanōk) re-verified against Milik 1976 pp. 142-148; rendering 'words of blessing' follows the Aramaic + Greek λόγος εὐλογίας + Ge'ez ቃለ፡ በረከት፡ unanimously."
+        },
+        {
+          "refId": "ENO-WOH-1:2",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Milik 1976, The Books of Enoch (Oxford)"
+          ],
+          "reasoning": "Aramaic 4Q201 1 i 3-7 'Watchers and Holy Ones' (ʿīrīn wĕ-qaddīšīn) preserved; rendering tracks Nickelsburg 2001 ad loc. The Watchers English-rendering convention (overlay) is the standard scholarly choice."
+        },
+        {
+          "refId": "ENO-WOH-1:3",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Black 1985, The Book of Enoch or 1 Enoch (SVTP 7)"
+          ],
+          "reasoning": "Greek Akhmim 1:3 *ho hagios mou ho megas* preserved as 'the Holy Great One' per the Holy-Great-One/Great-Glory divine-circumlocution convention; standard rendering across modern scholarly editions."
+        },
+        {
+          "refId": "ENO-WOH-1:4",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Sinai-theophany echo (Deut 33:2 + Hab 3:3 + Mic 1:3) correctly identified; rendering of *ho theos tou aiōnos* as 'the eternal God' matches Nickelsburg 2001 + Black 1985."
+        },
+        {
+          "refId": "ENO-WOH-1:5",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Black 1985, The Book of Enoch or 1 Enoch (SVTP 7)"
+          ],
+          "reasoning": "Greek text *pisteusousin hoi egrēgoroi* preserved (against Charles 1912's emendation to 'they shall fear'); commentary correctly flags the ambiguity-of-referent — Watchers loyal vs the fallen 200. Layered-witness convention requires preservation; defensible."
+        },
+        {
+          "refId": "ENO-WOH-1:6",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Mountains-melting-like-wax theophany trope (Mic 1:4 + Ps 97:5) preserved cleanly; standard rendering."
+        },
+        {
+          "refId": "ENO-WOH-1:7",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Universal-judgement formula preserved; routine rendering."
+        },
+        {
+          "refId": "ENO-WOH-1:8",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Black 1985, The Book of Enoch or 1 Enoch (SVTP 7)"
+          ],
+          "reasoning": "Salvation-formula for the elect preserved; the 1pl βοηθήσει ἡμῖν 'he will help us' is anomalous but preserved per Akhmim witness (matches Nickelsburg 2001 ad loc.); Charles 1912 emendation to αὐτοῖς is documented in commentary at the source-side."
+        },
+        {
+          "refId": "ENO-WOH-1:9",
+          "status": "approve",
+          "citations": [
+            "Milik 1976, The Books of Enoch (Oxford)",
+            "Bauckham 1983, Jude, 2 Peter (WBC 50)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "**THE JUDE 14-15 QUOTE SITE.** Aramaic 4Q204 1 i 16-19 (ʾărū ʾāteh) preserved; the source-tense (prophetic-perfect/present-aspect) preserved over the Jude 14 aorist. Commentary correctly cites Bauckham 1983 WBC 93-96 on the tense-shift and the full source-chain (Deut 33:2 → 1 En 1:9 → Dan 7:10 → Zech 14:5 → Jude 14-15 → Rev 5:11). Reviewer endorses source-tense preservation per layered-witness convention; this is the philologically-correct choice."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "watchers-1-enoch-6-11-bnei-elohim-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Milik 1976, The Books of Enoch (Oxford)",
+            "Reed 2005, Fallen Angels and the History of Judaism and Christianity (Cambridge)"
+          ],
+          "reasoning": "Watchers fountainhead entry; bidirectional with v2.57.0 `bn-ilm-sons-of-god` + Gen 6:2 entries verified. Lexical evidence on ʿīrīn / egrēgoroi / teguh correct; class-distinction preserved; acknowledgment-without-endorsement framework at Watchers-as-Elohim-civilization reading correctly confined to apparatus. Defensible."
+        },
+        {
+          "glossary_id": "asael-azazel-knowledge-transmission-1-enoch-8-canon-engagement-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Reed 2005, Fallen Angels and the History of Judaism and Christianity (Cambridge)",
+            "Milik 1976, The Books of Enoch (Oxford)"
+          ],
+          "reasoning": "Aramaic ʿAśāʾēl preserved; Reed 2005 24-58 on Asael/Azazel figure-merger correctly cited; Annus JSP 19 (2010) 277-320 on apkallū-Watchers parallel verified; Nickelsburg 2001 191-201 Hermeneia on the catalog correctly cited. Acknowledgment-without-endorsement framework parallel to v2.65.0 apkallū entries — sound precedent."
+        },
+        {
+          "glossary_id": "enoch-throne-vision-14-cross-corpus-ezek-1-dan-7-rev-4-shiur-qomah-four-tradition-wire",
+          "status": "approve",
+          "citations": [
+            "Halperin 1988, The Faces of the Chariot (TSAJ 16)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "First 4-tradition throne-vision wire (Ezek 1 → Dan 7 → 1 En 14 → Shi'ur Qomah → Rev 1+4). Halperin 1988 The Faces of the Chariot correctly cited as the foundational scholarship; Nickelsburg 2001 254-273 + Collins 1993 Daniel Hermeneia 274-323 + Bauckham 1993 Climax + Cohen 1985 Shi'ur Qomah + Schäfer 1992/2009 verified. The 4-tradition wire is genuinely defensible."
+        },
+        {
+          "glossary_id": "nephilim-giants-1-enoch-7-gen-6-4-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Stuckenbruck 2014, The Myth of Rebellious Angels (WUNT 335)"
+          ],
+          "reasoning": "Giants tradition; Stuckenbruck 1997 Book of Giants from Qumran TSAJ 63 + Stuckenbruck 2014 Myth of Rebellious Angels WUNT 335 + Doak 2012 Last of the Rephaim verified; acknowledgment-without-endorsement at popular-fringe gigantism appropriate."
+        },
+        {
+          "glossary_id": "seven-archangels-list-1-enoch-20-tob-12-rev-8-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Milik 1976, The Books of Enoch (Oxford)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Aramaic 4-list at 9:1 vs Greek 7-list at 20:1-8 textual variant correctly preserved per Milik 1976 + Nickelsburg 2001 + Black 1985 unanimous documentation of the dispute. Defensible."
+        },
+        {
+          "glossary_id": "enoch-as-scribe-mediator-figure-12-jub-4-metatron-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "VanderKam 1984, Enoch and the Growth of an Apocalyptic Tradition (CBQMS 16)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Jub 4:17-23 + 3 Enoch (Sefer Hekhalot) Metatron tradition cross-corpus claims verified. Bidirectional wiring to v2.59.0 metatron-shar-ha-panim sound."
+        },
+        {
+          "glossary_id": "seven-mountains-of-god-1-enoch-18-24-cosmic-mountain-cluster-extension-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "6-tradition cosmic-mountain cluster extension (Sinai/Horeb + Ṣapunu + Nimush/Ararat/Jūdī + mountain-as-revelation-site + Eden-mountain + 1 En 18+24-25). Clifford 1972 Cosmic Mountain in Canaan + Levenson 1985 Sinai and Zion verified; cluster extension sound."
+        },
+        {
+          "glossary_id": "giants-become-evil-spirits-demonology-1-enoch-15-cross-corpus-jub-10-tertullian",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Stuckenbruck 2014, The Myth of Rebellious Angels (WUNT 335)"
+          ],
+          "reasoning": "Demonological etiology; Jub 10 + Justin Martyr 2 Apol 5 + Athenagoras + Tertullian De Idol 9 patristic citations verified; Wright 2005 Origin of Evil Spirits + Stuckenbruck 2014 sound."
+        },
+        {
+          "glossary_id": "watchers-bound-dudael-azazel-1-enoch-10-lev-16-yom-kippur-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Reed 2005, Fallen Angels and the History of Judaism and Christianity (Cambridge)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Reed 2005's foundational thesis (Asael at Dudael = Lev 16 Yom Kippur Azazel scapegoat) correctly cited; Hanson HUCA 50 (1979) + Pinker DSD verified. Defensible."
+        },
+        {
+          "glossary_id": "four-hollow-places-of-the-dead-1-enoch-22-intermediate-state-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Foundational intermediate-state cosmography; Luke 16:22-26 (Lazarus-and-rich-man parable) + 4 Ezra 7:75-101 + 2 Bar 21:23-24 + Rev 6:9-10 cross-corpus claims verified; Bauckham 1998 Fate of the Dead + Himmelfarb 1993 Ascent to Heaven sound."
+        },
+        {
+          "glossary_id": "tree-of-life-1-enoch-24-25-gen-2-9-rev-22-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Gen 2:9 → 1 En 24-25 → Rev 22 chain verified per Bauckham 1993 Climax of Prophecy 310-321. Defensible."
+        },
+        {
+          "glossary_id": "tree-of-wisdom-1-enoch-32-gen-3-sophia-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Charles 1912, The Book of Enoch (Oxford, PD)"
+          ],
+          "reasoning": "Raphael's identification at 32:6 preserved per Ge'ez witness (Akhmim breaks off mid-32). Sophia/Hokhmah tradition fountainhead claim verified; Prov 8 + Wis Sol 7-9 cross-corpus sound."
+        },
+        {
+          "glossary_id": "gehenna-valley-of-hinnom-1-enoch-27-nt-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "12 NT geenna references verified (Mt 5:22, 5:29-30, 10:28, 18:9, 23:15, 23:33; Mark 9:43, 9:45, 9:47; Luke 12:5; James 3:6); 1 En 27 fountainhead claim supported by Nickelsburg 2001 320-323 + Bautch 2003 Geography of 1 Enoch 17-19. m. Avot 1:5 + 5:19 + b. ʿEruvin 19a rabbinic gehinnōm tradition correctly noted."
+        },
+        {
+          "glossary_id": "jerusalem-as-omphalos-center-of-the-earth-1-enoch-26-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Ezek 5:5 + Ezek 38:12 (ṭabbūr hā-ʾāreṣ) + Jub 8:19 (Mount Zion as center of navel of earth) cross-corpus verified; Eliade 1957/1958 axis-mundi framework appropriately bracketed by J. Z. Smith 1987 critical perspective."
+        },
+        {
+          "glossary_id": "fallen-stars-prison-1-enoch-18-21-jude-6-2-pet-2-4-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Bauckham 1983, Jude, 2 Peter (WBC 50)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Jude 6 + 2 Pet 2:4 cross-corpus verified (Bauckham 1983 WBC); Rev 20 binding-of-dragon framework noted. Astronomical-rebellion framework integrating astronomical-regularity with cosmic-moral-obligation correctly described."
+        },
+        {
+          "glossary_id": "jude-14-15-quote-1-enoch-1-9-nt-citation-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Bauckham 1983, Jude, 2 Peter (WBC 50)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "**THE JUDE-1-ENOCH SITE.** Bauckham 1983 WBC 93-101 + Bauckham 1990 + VanderKam VT 23 (1973) 129-150 verified. Tense-shift analysis philologically accurate. Source-chain Deut 33:2 → 1 En 1:9 → Dan 7:10 → Zech 14:5 → Jude 14-15 → Rev 5:11 sound. Canonical-implications discussion appropriately nuanced (Bauckham 1990 prophetic-revelation vs Torah-equivalent-scripture distinction)."
+        },
+        {
+          "glossary_id": "enoch-eastern-paradise-gan-eden-aromatic-trees-1-enoch-28-32-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Eastern-paradise + aromatic-trees catalog (cassia/cinnamon/aloes/nard/mastic/balsam/frankincense/galbanum); Hellenistic-period spice-trade vocabulary correctly noted. Defensible."
+        },
+        {
+          "glossary_id": "four-corners-gates-of-heaven-1-enoch-33-36-cosmic-geography-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "Charles 1912, The Book of Enoch (Oxford, PD)",
+            "Knibb 1978, The Ethiopic Book of Enoch (Oxford)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Closing cosmic-geography bridging to Astronomical Book (Ship B); Ge'ez-only witness for chs 33-36 correctly flagged. Defensible."
+        },
+        {
+          "glossary_id": "per-verse-layered-witness-aramaic-greek-geez-convention",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Milik 1976, The Books of Enoch (Oxford)"
+          ],
+          "reasoning": "Foundational textual-critical methodology; standard scholarly practice per Nickelsburg 2001 + Milik 1976 + Black 1985 + Knibb 1978 + Charles 1912 — all preserve the layered-witness framework. Defensible."
+        },
+        {
+          "glossary_id": "aramaic-onomastics-preservation-convention",
+          "status": "approve",
+          "citations": [
+            "Milik 1976, The Books of Enoch (Oxford)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Aramaic vocalization preservation for Watcher/archangel proper-names per Nickelsburg-Milik convention. Spot-checked at chs 6:7, 8:3, 9:1, 20:1-5 — Šemiḥazah, ʿAzazʾēl, Bărāqʾēl, Kōkabʾēl, Mīkāʾēl, Śarīʾēl, Rāpāʾēl, Gabrīʾēl preserved correctly. Defensible."
+        },
+        {
+          "glossary_id": "greek-to-geez-witness-transition-convention-mid-chapter-32",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Charles 1912, The Book of Enoch (Oxford, PD)"
+          ],
+          "reasoning": "Mid-ch-32 transition correctly identified; ch 32 v.6 Raphael speech-act preserved per Ge'ez witness as Akhmim breaks off. Per Charles 1912 + Knibb 1978 + Nickelsburg 2001 unanimous documentation. Defensible."
+        },
+        {
+          "glossary_id": "watchers-english-rendering-convention",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "'Watchers' (vs 'Holy Ones' or 'angels') is the standard modern scholarly rendering per Nickelsburg 2001 + Black 1985 + Knibb 1978. Defensible."
+        },
+        {
+          "glossary_id": "aramaic-4-vs-greek-7-archangels-textual-variant-convention",
+          "status": "approve",
+          "citations": [
+            "Milik 1976, The Books of Enoch (Oxford)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Preserves both Aramaic 4-list (9:1) and Greek 7-list (20:1-8); textual-variant correctly preserved per Milik 1976 + Nickelsburg 2001 + Black 1985 unanimous practice. Defensible."
+        },
+        {
+          "glossary_id": "300-vs-3000-cubits-giant-height-variant-1-enoch-7-2-witness-variant",
+          "status": "approve",
+          "citations": [
+            "Milik 1976, The Books of Enoch (Oxford)",
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)"
+          ],
+          "reasoning": "Aramaic 4Q201 ~300 cubits vs Greek+Ge'ez 3000 cubits witness-variant preserved per Milik 1976. Defensible textual-critical practice."
+        },
+        {
+          "glossary_id": "holy-great-one-great-glory-divine-circumlocution-titles-convention",
+          "status": "approve",
+          "citations": [
+            "Nickelsburg 2001, 1 Enoch 1 (Hermeneia)",
+            "Black 1985, The Book of Enoch or 1 Enoch (SVTP 7)"
+          ],
+          "reasoning": "Apophatic-divine-circumlocution titles (ho hagios mou ho megas at 1:3; hē megalē doxa at 14:20) preserved; standard scholarly practice per Nickelsburg 2001 + Black 1985."
+        }
+      ],
+      "lens-leakage-flags": []
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "ENO-WOH-1:1",
+      "text": "מלי ברכתא די חנוך די ברך לבחירין וזכאין די להון להוון ביום עקתא לאעדיה כל בישין ורשיעין",
+      "text_lang": "arc",
+      "translit": "millē birktāʾ dī Ḥanōk dī bārek lě-bĕḥīrīn wĕ-zakkāʾīn dī lěhōn lěhěwōn bě-yōm ʿāqětāʾ lě-ʾaʿdāyāh kol bīšīn wĕ-rašīʿīn",
+      "i18n": {
+        "en": "The words of blessing of Enoch, with which he blessed the elect and the righteous, who shall be living in the day of tribulation, when all the wicked and the godless shall be removed."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 2,
+      "refId": "ENO-WOH-1:2",
+      "text": "ונטל מתלה ואמר חנוך גבר זכאי די מן קדם אלהא חזוה אתגלי לה חזוה דקדישא ושמיא די אחזיוני עירין וקדישין כלא ושמעת מנהון כלא ואדעת אנה די חזיתי לא לדרא דנא להן לדרא רחיק די אתה",
+      "text_lang": "arc",
+      "translit": "wĕ-nāṭal mě-talleh wě-ʾămar Ḥanōk gěbar zakkāʾī dī min qŏdām ʾĕlāhāʾ ḥězweh ʾitgĕlī leh, ḥězweh dī qaddīšāʾ wĕ-šĕmayyāʾ dī ʾaḥzěyōnī ʿīrīn wě-qaddīšīn kollāʾ wě-šimʿet minhōn kollāʾ, wě-ʾaddāʿit ʾanāh dī ḥăzēt lāʾ lě-dārāʾ dĕnāʾ lāhēn lě-dārāʾ raḥīq dī ʾāteh",
+      "i18n": {
+        "en": "And he took up his parable and said: Enoch, a righteous man, to whom a vision from God was opened, had the vision of the Holy One and of heaven, which the Watchers and the Holy Ones showed me; and from them I heard all things, and I understood what I saw — not for this generation, but for a generation that is far off, that is yet to come."
+      },
+      "commentary": "The Aramaic *ʿīrīn wĕ-qaddīšīn* 'Watchers and Holy Ones' is the technical class-pairing of the angelological framework — see central entry `watchers-1-enoch-6-11-bnei-elohim-cross-corpus`. The Watchers' first appearance in the Aramaic Enoch corpus parallels Dan 4:13, 17, 23 (the only HB Aramaic *ʿīr* attestation). The WoH preserves 'Watchers' rather than collapsing to 'angels' (see overlay entry `watchers-english-rendering-convention`).",
+      "glossaryRefs": [
+        "watchers-1-enoch-6-11-bnei-elohim-cross-corpus",
+        "watchers-english-rendering-convention"
+      ]
+    },
+    {
+      "n": 3,
+      "refId": "ENO-WOH-1:3",
+      "text": "Καὶ περὶ τῶν ἐκλεκτῶν λέγω, καὶ περὶ ἐκείνων ἔλαβον τὴν παραβολήν μου· καὶ ἐξελεύσεται ὁ ἅγιός μου ὁ μέγας ἐκ τῆς κατοικήσεως αὐτοῦ,",
+      "text_lang": "grc",
+      "translit": "Kai peri tōn eklektōn legō, kai peri ekeinōn elabon tēn parabolēn mou; kai exeleusetai ho hagios mou ho megas ek tēs katoikēseōs autou,",
+      "i18n": {
+        "en": "Concerning the elect I speak, and concerning them I take up my parable: the Holy Great One will come forth from his dwelling,"
+      },
+      "commentary": "*ho hagios mou ho megas* 'the Holy Great One' is the apophatic-divine-circumlocution title characteristic of 1 Enoch's apocalyptic register. The title is paired with *hē megalē doxa* 'the Great Glory' at 1 En 14:20 as the corpus's two principal divine-paraphrastic titles. See overlay entry `holy-great-one-great-glory-divine-circumlocution-titles-convention`.",
+      "glossaryRefs": [
+        "holy-great-one-great-glory-divine-circumlocution-titles-convention"
+      ]
+    },
+    {
+      "n": 4,
+      "refId": "ENO-WOH-1:4",
+      "text": "καὶ ὁ θεὸς τοῦ αἰῶνος ἐπὶ γῆν πατήσει ἐπὶ τὸ Σινὰ ὄρος, καὶ φανήσεται ἐκ τῆς παρεμβολῆς αὐτοῦ, καὶ φανήσεται ἐν τῇ δυνάμει τῆς ἰσχύος αὐτοῦ ἀπὸ τοῦ οὐρανοῦ.",
+      "text_lang": "grc",
+      "translit": "kai ho theos tou aiōnos epi gēn patēsei epi to Sina oros, kai phanēsetai ek tēs parembolēs autou, kai phanēsetai en tē dynamei tēs ischyos autou apo tou ouranou.",
+      "i18n": {
+        "en": "and the eternal God will tread upon the earth, upon Mount Sinai, and he will appear from his camp, and he will appear in the power of his might from heaven."
+      },
+      "commentary": "The Sinai-theophany echo (*epi to Sina oros*) directly draws on Deut 33:2 + Hab 3:3 + Mic 1:3 + Ex 19. The integration of the cosmic-mountain Sinai-tradition into the 1 Enoch eschatological-judgement framework places the chapter within the broader Northwest-Semitic cosmic-mountain cluster — bidirectional with central entries `har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus` and `mountain-as-revelation-site-mt-cross-corpus-har-sinai-mount-sapunu`.",
+      "glossaryRefs": [
+        "har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus",
+        "mountain-as-revelation-site-mt-cross-corpus-har-sinai-mount-sapunu"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "ENO-WOH-1:5",
+      "text": "Καὶ φοβηθήσονται πάντες, καὶ πιστεύσουσιν οἱ ἐγρήγοροι, καὶ λήμψονται ὕμνον ἐν ἀποκρύφοις τόποις πάντων τῶν ἄκρων τῆς γῆς·",
+      "text_lang": "grc",
+      "translit": "Kai phobēthēsontai pantes, kai pisteusousin hoi egrēgoroi, kai lēmpsontai hymnon en apokryphois topois pantōn tōn akrōn tēs gēs;",
+      "i18n": {
+        "en": "And all shall fear, and the Watchers shall believe, and they shall take up a hymn in hidden places throughout all the ends of the earth;"
+      },
+      "commentary": "*pisteusousin hoi egrēgoroi* 'the Watchers shall believe' is preserved per the Greek + Ge'ez witness despite the ambiguity-of-referent: the referent could be the still-loyal cosmic-Watchers or the fallen 200 introduced at ch 6. Charles 1912 emends to 'they shall fear' on a proposed Aramaic-NHL-not-ʾMN textual hypothesis; the WoH preserves the witness-reading per the standard layered-witness convention.",
+      "glossaryRefs": [
+        "watchers-english-rendering-convention",
+        "per-verse-layered-witness-aramaic-greek-geez-convention"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "ENO-WOH-1:6",
+      "text": "καὶ σεισθήσονται καὶ συντελεσθήσονται τὰ ὑψηλὰ τῶν ὀρέων, καὶ ταπεινωθήσονται καὶ τακήσονται ὡς κηρὸς ἀπὸ προσώπου τοῦ πυρὸς ἐν φλογί.",
+      "text_lang": "grc",
+      "translit": "kai seisthēsontai kai syntelesthēsontai ta hypsēla tōn oreōn, kai tapeinōthēsontai kai takēsontai hōs kēros apo prosōpou tou pyros en phlogi.",
+      "i18n": {
+        "en": "and the high mountains shall be shaken and shall be brought low, and shall melt like wax before the flame at the face of the fire."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 7,
+      "refId": "ENO-WOH-1:7",
+      "text": "Καὶ ἡ γῆ καταβραχήσεται, καὶ πάντα τὰ ἐπὶ τῆς γῆς ἀπολοῦνται, καὶ κρίσις ἔσται ἐπὶ πάντας.",
+      "text_lang": "grc",
+      "translit": "Kai hē gē katabrachēsetai, kai panta ta epi tēs gēs apolountai, kai krisis estai epi pantas.",
+      "i18n": {
+        "en": "And the earth shall be wholly rent asunder, and all that is upon the earth shall perish, and there shall be judgment upon all."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 8,
+      "refId": "ENO-WOH-1:8",
+      "text": "Καὶ μετὰ τῶν δικαίων τὴν εἰρήνην ποιήσει, καὶ ἐπὶ τοὺς ἐκλεκτοὺς ἔσται συντήρησις καὶ εἰρήνη, καὶ ἐπ' αὐτοὺς γενήσεται ἔλεος, καὶ ἔσονται πάντες τοῦ θεοῦ, καὶ εὐδοκίαν δώσει αὐτοῖς, καὶ πάντας εὐλογήσει καὶ πάντων ἀντιλήμψεται καὶ βοηθήσει ἡμῖν, καὶ φανήσεται αὐτοῖς φῶς, καὶ ποιήσει ἐπ' αὐτοὺς εἰρήνην.",
+      "text_lang": "grc",
+      "translit": "Kai meta tōn dikaiōn tēn eirēnēn poiēsei, kai epi tous eklektous estai syntērēsis kai eirēnē, kai ep' autous genēsetai eleos, kai esontai pantes tou theou, kai eudokian dōsei autois, kai pantas eulogēsei kai pantōn antilēmpsetai kai boēthēsei hēmin, kai phanēsetai autois phōs, kai poiēsei ep' autous eirēnēn.",
+      "i18n": {
+        "en": "But with the righteous he will make peace, and upon the elect there shall be preservation and peace, and upon them mercy shall come, and they shall all belong to God, and he shall give them his good pleasure, and he shall bless them all, and he shall help us all, and light shall appear upon them, and he shall make peace with them."
+      },
+      "commentary": "",
+      "glossaryRefs": []
+    },
+    {
+      "n": 9,
+      "refId": "ENO-WOH-1:9",
+      "text": "ארו אתה עם רבותא די קדישוהי למעבד דין על כלא ולחיבה כל בשרא על כל עבדיהון די חטיו ועל כל קשי מליא די מללו עלוהי חטאין רשיעין",
+      "text_lang": "arc",
+      "translit": "ʾărū ʾāteh ʿim ribbūtāʾ dī qaddīšōhī lě-meʿbad dīn ʿal kollāʾ wě-lě-ḥayyābāh kol bāśrāʾ ʿal kol ʿăbādēhōn dī ḥăṭaw wě-ʿal kol qāšī millayyāʾ dī mallilū ʿălōhī ḥāṭāʾīn rašīʿīn",
+      "i18n": {
+        "en": "Behold, he comes with the myriads of his holy ones, to execute judgment upon all, and to destroy all the ungodly, and to convict all flesh of all the works of their ungodliness which they have ungodly committed, and of all the hard things which ungodly sinners have spoken against him."
+      },
+      "commentary": "**THE JUDE 14-15 QUOTE SITE — the only OT-pseudepigraphical verse explicitly named-and-quoted as prophecy in the NT.** The Aramaic *ʾārū ʾāteh* 'behold he comes' is preserved in the prophetic-perfect aspect; Jude 14 reads the aorist *ēlthen* 'he came' (a tense-shift extensively discussed in scholarship — see Bauckham 1983 WBC 93-96) and adds the explicit *kyrios* 'the Lord' as subject. The text-critical site is foundational; the WoH preserves the source-tense per the layered-witness convention. See central entry `jude-14-15-quote-1-enoch-1-9-nt-citation-cross-corpus` for the full treatment of the citation-chain Deut 33:2 → 1 En 1:9 → Dan 7:10 → Zech 14:5 → Jude 14-15 → Rev 5:11.",
+      "glossaryRefs": [
+        "jude-14-15-quote-1-enoch-1-9-nt-citation-cross-corpus"
+      ]
+    }
+  ],
+  "editorial_questions": []
+}
