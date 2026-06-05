@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "version": "1.1.0",
+  "scope": "gilgamesh-woh",
+  "description": "Per-translation glossary overlay for the WoH Translation of Gilgamesh Tablet XI (the Flood narrative). Contains composition-specific entries (Sin-leqi-unninni recension conventions, Standard Babylonian Akkadian rendering decisions, Tablet XI distinctive lexicon — tebû/eleppu boat-naming, the seven-loaves test convention, the plant-of-rejuvenation, the bird-test triadic pattern). May be promoted to central via the standard overlay→central promotion pattern when entries acquire cross-corpus reach.",
+  "sourceLanguages": ["akk"],
+  "entries": [
+    {
+      "id": "gilgamesh-xi-george-2003-line-numbering-convention",
+      "source": "n/a (editorial convention)",
+      "translit": "n/a",
+      "lemma": "n/a",
+      "partOfSpeech": "editorial line-numbering convention",
+      "literal": "n/a",
+      "standardEnglish": "George 2003 line-numbering (vs. Thompson 1930 / Foster 2005 narrative-section pagination)",
+      "wohChoice": "George 2003 line-numbering preserved (GILG-WOH-11:N refIds correspond to George 2003 SB Tablet XI line N)",
+      "claim_type": "direct",
+      "rationale": "**Line-numbering convention for Tablet XI.** This translation follows A. R. George's 2003 critical edition (*The Babylonian Gilgamesh Epic*, Oxford, 2 vols) for line numbering. The principal alternatives are:\n\n- **Thompson 1930** (*The Epic of Gilgamish*, Oxford; Public Domain) — the older critical edition; line numbers diverge from George primarily at fragmentary passages where George's restorations re-number the surrounding lines.\n- **Foster 2005** (*Before the Muses*, 3rd ed., Bethesda) — translation-only edition; uses narrative-section pagination rather than line-numbering, so its references are not directly mappable to either Thompson or George.\n- **Heidel 1946** (*The Gilgamesh Epic and Old Testament Parallels*, Chicago; PD) — uses Thompson's line-numbering for consistency with the 1930 corpus.\n\n**Editor's note.** The George 2003 numbering is the modern scholarly standard and is the basis for the *appliesTo* refIds in the central glossary (e.g., `seven-day-flood-vs-forty-day-flood-duration-tradition-cross-corpus` cites *Gilgamesh Tablet XI.128* — George's line 128, not Thompson's). Where Thompson's line-number differs, the present translation gives the George number; cross-references to Thompson and Heidel can be reconstructed from the apparatus in George 2003 vol. 1 510-525.",
+      "appliesTo": ["GILG-WOH-11"]
+    },
+    {
+      "id": "mount-nimush-vs-mount-nisir-manuscript-variant-rendering-convention",
+      "source": "KUR Nimuš / KUR Niṣir",
+      "translit": "Mount Nimush / Mount Niṣir",
+      "lemma": "KUR; Nimuš / Niṣir",
+      "partOfSpeech": "proper-noun (theophoric mountain-name); cuneiform-sign reading-crux",
+      "literal": "Mount Nimuš (George 2003) / Mount Niṣir (Thompson 1930, Heidel)",
+      "standardEnglish": "Mount Nimush (modern critical consensus) / Mount Niṣir (older Thompson reading)",
+      "wohChoice": "Mount Nimush (George 2003 critical-edition reading; cross-corpus content in the central entry `mt-nimush-nisir-ararat-judi-flood-mountain-landing-cross-corpus`)",
+      "claim_type": "direct",
+      "rationale": "**The cuneiform-sign reading crux at Tablet XI:138-143.** The mountain-name on which the flood-vessel comes to rest is written with the signs **KUR ni-muš** (Standard Babylonian recension Nineveh manuscripts). The reading-crux:\n\n- **Older reading: *Nisir / Niṣir***. Thompson 1930 read the sign-cluster as *KUR ni-ṣir* — *Mount Niṣir* — and identified it tentatively with the Pir Omar Gudrun range in the modern Iraqi-Kurdistan Zagros foothills. Heidel 1946 follows this. The reading depends on a *ṣ*-valued reading of the second sign.\n- **Modern reading: *Nimush***. George 2003 (vol. 1 516) treats the sign as *muš* (not *ṣir*), giving *KUR Nimuš* — *Mount Nimush*. The reading is now the scholarly consensus; the Pir Omar Gudrun identification is preserved (the mountain has not moved; only its Akkadian name has been corrected).\n\n**This translation's convention.** *Mount Nimush* in the rendered text, with the *Niṣir* reading flagged in this overlay-entry and in the per-verse commentary at GILG-WOH-11:138. The cross-corpus content (Mt Ararat / al-Jūdī) is housed at the central entry `mt-nimush-nisir-ararat-judi-flood-mountain-landing-cross-corpus`.\n\n**Bibliography.** A. R. George *The Babylonian Gilgamesh Epic* 2003 vol. 1 516-519 on the *Nimush* reading; W. G. Lambert 'Nisir Mount, Mount Nimush' *RlA* 9 (1998-2001); R. C. Thompson *The Epic of Gilgamish* 1930 on *Nisir*; A. Heidel *The Gilgamesh Epic and Old Testament Parallels* 1946 on the Pir Omar Gudrun identification.",
+      "appliesTo": [
+        "GILG-WOH-11:138",
+        "GILG-WOH-11:139",
+        "GILG-WOH-11:140",
+        "GILG-WOH-11:141",
+        "GILG-WOH-11:142"
+      ]
+    },
+    {
+      "id": "atra-hasis-alias-preservation-tablet-xi-189",
+      "source": "atra-ḫasīs",
+      "translit": "Atra-ḫasīs",
+      "lemma": "atra; ḫasīs",
+      "partOfSpeech": "Akkadian proper-noun / standing-epithet: 'Surpassingly Wise' (atra 'surpassingly' + ḫasīs 'wise')",
+      "literal": "(the) Surpassingly Wise (One)",
+      "standardEnglish": "Atra-ḫasīs / Atrahasis (Foster 2005, George 2003 — uniform consensus)",
+      "wohChoice": "Atra-ḫasīs (preserves the Akkadian form including the ḫ and the ī length-mark; the anglicized 'Atrahasis' reserved for the title of the Atrahasis Epic as cited in scholarly bibliography)",
+      "claim_type": "direct",
+      "rationale": "**Atra-ḫasīs as Utnapishtim's alias at Tablet XI:189.** Ea's speech in defense of the flood-survivor names him *Atra-ḫasīs* — the same name as the protagonist of the Akkadian *Atrahasis Epic* (Lambert and Millard 1969). This is the **single most explicit cross-reference** in Tablet XI to the Atrahasis-tradition: the Standard Babylonian Gilgamesh tablet is signalling that its flood-survivor is the same character as the Atrahasis flood-survivor, only under his alternative standing-epithet *Utnapishtim* ('I-found-life') vs. his alternative standing-epithet *Atra-ḫasīs* ('Surpassingly-Wise').\n\n**Rendering convention.** This translation preserves the Akkadian form *Atra-ḫasīs* with the hyphen, the ḫ (representing the velar fricative; cf. German *Bach*), and the ī length-mark. The anglicized form *Atrahasis* is reserved for citations of the title *Atrahasis Epic* (Lambert and Millard's 1969 critical edition uses the anglicized form as the title) in scholarly bibliography. The flood-survivor-name-cluster cross-corpus content (Ziusudra / Atra-ḫasīs / Utnapishtim / Noach) lives at the central entry `ziusudra-atrahasis-utnapishtim-noach-flood-survivor-name-cluster-cross-corpus`.\n\n**Bibliography.** W. G. Lambert and A. R. Millard *Atra-ḫasīs: The Babylonian Story of the Flood* 1969; A. R. George *The Babylonian Gilgamesh Epic* 2003 vol. 1 152-155 on the name-cluster; B. Foster *Before the Muses* 3rd ed. 2005 ad loc.",
+      "appliesTo": ["GILG-WOH-11:189"]
+    },
+    {
+      "id": "iku-nindan-mesopotamian-flood-boat-dimension-units-tablet-xi-53-55",
+      "source": "ikû / NINDA",
+      "translit": "ikû (sometimes iku); nindan (NINDA.TA.ÀM)",
+      "lemma": "ikû; nindan",
+      "partOfSpeech": "Akkadian/Sumerian measurement-units: ikû (a field-measure ≈ one hectare in modern terms); nindan (a length-rod ≈ 6 m)",
+      "literal": "ikû = a field-square (approx. 60 × 60 m ≈ 1 hectare); nindan = a rod (approx. 6 m)",
+      "standardEnglish": "preserved untranslated with bracketed gloss '(= field-measure)' / '(= rod)' (George 2003 convention)",
+      "wohChoice": "ikû preserved untranslated with bracketed gloss '(= field-measure)' at GILG-WOH-11:53; nindan preserved untranslated at GILG-WOH-11:54-55 (the *ten nindan each* dimensions); the modern-metric conversion is reserved for commentary",
+      "claim_type": "direct",
+      "rationale": "**The flood-vessel dimension-units at Tablet XI:53-55.** The text gives the boat's dimensions in three Mesopotamian measurement-units:\n\n- **ikû** (Sumerian-loan; written *iku* in modern transliteration) — a *field-measure*, the area of a square approximately 60 × 60 m, ≈ 1 hectare. At line 53: *ikû iku-ša* — *her floor was one ikû* — gives the floor-area of the boat as approximately 1 hectare. This is the cube-form indicator: the *base* of the vessel is the *ikû*, and the height equals the side.\n- **nindan** (written NINDA.TA.ÀM in cuneiform; *nindan* in standard transliteration) — a *length-rod*, approximately 6 m. At lines 54-55: *10 NINDA.TA.ÀM* — *ten nindan each* — gives the height of the walls and the length of the sides as approximately 60 m each. This confirms the cube-form: 60 × 60 × 60 m, ≈ a 200,000 m³ vessel.\n- **šār / 3 ŠÁR** (lines 62-66) — a *big-count* unit (3,600 of something); used here for measures of bitumen and oil.\n\n**Rendering convention.** This translation preserves the Akkadian/Sumerian unit-name untranslated with a bracketed gloss at the first occurrence (*ikû [= field-measure]* at line 53; *nindan* at line 54 without gloss since the unit is named in the following line). The modern-metric conversion (≈ 60 m, ≈ 1 hectare, ≈ 200,000 m³) is reserved for the per-verse commentary at GILG-WOH-11:53.\n\n**Bibliography.** A. R. George *The Babylonian Gilgamesh Epic* 2003 vol. 1 512-518 on the dimension-units and the cube-vs-rectangular hull-form crux; I. Finkel *The Ark Before Noah* 2014 on the Mesopotamian flood-vessel dimensions (with the Atra-Hasis-tablet that specifies a round-coracle hull of one ikû base); M. A. Powell 'Masse und Gewichte' *RlA* 7 (1987-1990) on Mesopotamian metrology.",
+      "appliesTo": [
+        "GILG-WOH-11:53",
+        "GILG-WOH-11:54",
+        "GILG-WOH-11:55"
+      ]
+    },
+    {
+      "id": "tablet-xi-bel-niqe-lord-of-the-sacrifice-rendering-convention",
+      "source": "bēl niqê",
+      "translit": "bēl niqê",
+      "lemma": "bēlu; niqû",
+      "partOfSpeech": "Akkadian construct noun-phrase: lord of the offering / lord of the sacrifice (bēlu 'lord' + niqû 'offering, sacrifice' in genitive)",
+      "literal": "the lord of the offering (= the one performing the offering / the sacrificer)",
+      "standardEnglish": "the sacrificer (Foster 2005); the lord of the offering (George 2003)",
+      "wohChoice": "(lord-of-the-)sacrifice (preserves the construct-form parenthetically; the practical-sense 'sacrificer' surfaces naturally)",
+      "claim_type": "direct",
+      "rationale": "**The *bēl niqê* rendering at Tablet XI:159.** The line *ilānu kīma zumbī eli bēl niqê iptaḫru* — *the gods gathered like flies around the (lord-of-the-)sacrifice* — uses the construct noun-phrase *bēl niqê* 'lord of the offering' to designate Utnapishtim as the one performing the post-flood sacrifice. The phrase is technical Akkadian cult-vocabulary; *bēl* (often abbreviated *bēl-*) is used across the cultic literature to designate the *officiant / functionary / agent* of a given cultic action (*bēl mêri* 'lord of the rite', *bēl asakki* 'lord of the asakku-taboo', etc.).\n\n**Rendering convention.** This translation preserves the construct-form by adding *(lord-of-the-)* parenthetically before *sacrifice*: *the gods gathered like flies around the (lord-of-the-)sacrifice*. This signals to the reader that the Akkadian uses the construct rather than a simple *sacrificer*. Foster 2005's choice of *sacrificer* is good idiomatic English but loses the construct; George 2003's *lord of the offering* preserves the construct but reads stiffly. The parenthetical-construct compromise is the project-convention.",
+      "appliesTo": ["GILG-WOH-11:159"]
+    },
+    {
+      "id": "puzur-amurri-named-boatman-rendering-convention",
+      "source": "Puzur-Amurri",
+      "translit": "Puzur-Amurri",
+      "lemma": "puzur; Amurri",
+      "partOfSpeech": "Akkadian theophoric proper-noun: 'Secret-of-Amurru' (puzur 'secret / hidden thing' + Amurri = the West-Semitic deity Amurru in genitive)",
+      "literal": "Secret-of-Amurru (= Amurru's hidden one / Amurru's confidant)",
+      "standardEnglish": "Puzur-Amurri (Foster 2005, George 2003 — uniform consensus)",
+      "wohChoice": "Puzur-Amurri (preserve as proper-name; the etymology is documented in this overlay-entry and in the per-verse commentary at GILG-WOH-11:92)",
+      "claim_type": "direct",
+      "rationale": "**The named boatman at Tablet XI:92.** Puzur-Amurri — the man to whom Utnapishtim hands over the palace before embarking — is a **named character with a theophoric name**: *puzur* ('secret, hidden thing') + *Amurri* (genitive of *Amurru*, the West-Semitic deity Amurru, the personified-West / patron of the Amorite people). The name means *Secret-of-Amurru / Amurru's hidden one / Amurru's confidant*.\n\n**Comparative-tradition note.** Puzur-Amurri is distinctive to the Standard Babylonian Gilgamesh Tablet XI; the Sumerian Flood Story has Ziusudra board the boat alone with no named-boatman; the Atrahasis Epic has Atrahasis board with family and craftsmen but does not name a boatman; Genesis 6-9 has Noah, his wife, sons, and daughters-in-law board but does not name a boatman. Sin-leqi-unninni's recension introduces the named-boatman as a literary-distinctive of the Standard Babylonian tradition.\n\n**Bibliography.** A. R. George *The Babylonian Gilgamesh Epic* 2003 vol. 1 514 on Puzur-Amurri; B. Foster *Before the Muses* 3rd ed. 2005 ad loc.",
+      "appliesTo": ["GILG-WOH-11:92"]
+    }
+  ]
+}
