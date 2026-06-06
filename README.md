@@ -219,6 +219,14 @@ Reference IDs in data:
 
 ## Validation
 
+Structured version and provenance metadata is documented in
+[`docs/version-provenance.md`](docs/version-provenance.md). Validate migrated
+records with:
+
+```bash
+python3 scripts/validate_version_provenance.py
+```
+
 JSON Schema files are in `/schemas/`:
 - `catalog.schema.json` - Catalog validation
 - `book.schema.json` - Single-file book validation
@@ -237,6 +245,7 @@ npx ajv validate -s schemas/book.schema.json -d data/library/book.json
 |--------|---------|
 | `scripts/add-canonical-refs.py` | Add refId fields to paragraphs |
 | `scripts/split-book-chapters.py` | Split large books into chapters |
+| `scripts/validate_version_provenance.py` | Validate structured version and provenance metadata |
 
 ## Multilingual Support
 
