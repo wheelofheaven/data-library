@@ -1,0 +1,56 @@
+{
+  "$schema": "../book-of-enoch-woh/_translation-glossary.json#",
+  "name": "jubilees-woh-overlay",
+  "version": "1.1.0",
+  "released": "2026-06-06",
+  "description": "Per-translation overlay glossary for the Wheel of Heaven translation of Jubilees. Holds composition-specific lexical decisions that don't warrant central-glossary entries.",
+  "sourceLanguages": [
+    "he",
+    "grc",
+    "gez"
+  ],
+  "terms": [
+    {
+      "id": "jubilees-layered-witness-hebrew-greek-geez-convention",
+      "claim_type": "direct",
+      "lemma": "Jubilees per-verse layered-witness convention",
+      "rationale": "Jubilees Ship A uses a three-layer witness convention: Hebrew (4Q216/4Q218/11Q12 DSS fragments) primary where preserved; Greek (Epiphanius De mensuris et ponderibus + Syncellus + Cedrenus patristic citations) secondary where extant (notably the table-of-nations material in chs 8-9); Ge'ez (VanderKam 1989 + Charles 1902 PD) tertiary and fallback. This parallels the 1 Enoch layered-witness convention but differs in that (a) the original composition language is Hebrew, not Aramaic; (b) Greek survives only in fragmentary patristic citations, not in continuous codex form; (c) Hebrew DSS coverage of Ship A scope is sparse (only chs 1-2, 4-5 have Hebrew witnesses; chs 3, 6-12 are Ge'ez-only)."
+    },
+    {
+      "id": "mastema-proper-noun-preserved-convention",
+      "claim_type": "direct",
+      "lemma": "Mastema rendering convention (preserve as proper noun)",
+      "rationale": "Mastema (Hebrew mastemah 'enmity') is preserved as a proper noun on translation surface; do NOT translate to 'Satan' / 'the Adversary' / 'Beliar' / 'the Devil' on surface. The Jubilees-specific identity is philologically distinct from the developed-Satan-figure of later tradition. Commentary apparatus explains the prince-of-evil-spirits identity and the cross-corpus development. Same precedent as the Watchers-onomastics-preservation convention from 1 Enoch Ship A."
+    },
+    {
+      "id": "heavenly-tablets-luhot-ha-shamayim-convention",
+      "claim_type": "direct",
+      "lemma": "heavenly tablets (luhot ha-shamayim) rendering convention",
+      "rationale": "Render the Jubilees-Enochic technical phrase luhot ha-shamayim consistently as 'heavenly tablets' across all 25+ occurrences in Jubilees. The phrase is a fixed technical-cosmological designation, not a variable construct. Match the convention used in v2.67.0 1 Enoch entry and across modern scholarship (VanderKam 1989, Charles 1902, Kugel 2012)."
+    },
+    {
+      "id": "angel-of-the-presence-malach-ha-panim-convention",
+      "claim_type": "direct",
+      "lemma": "angel of the presence (malak ha-panim) rendering convention",
+      "rationale": "Render the Jubilees-distinctive title malak ha-panim as 'angel of the presence' (or 'angel of the face' per context where the bodily-anthropomorphic register is emphasized). The angel-of-the-presence is the chief celestial mediator + the dictator of Jubilees to Moses, philologically derived from Isa 63:9 + Exod 23:20-23 + Exod 33:14-15. Preserve as a fixed designation; do NOT translate to generic 'angel' or 'spirit'. The Hekhalot Sar ha-Panim cross-corpus tradition is preserved in commentary apparatus."
+    },
+    {
+      "id": "364-day-calendar-polemical-voice-convention",
+      "claim_type": "direct",
+      "lemma": "364-day-calendar polemical-voice preservation convention",
+      "rationale": "Match the 1 Enoch Ship B precedent: preserve the polemical voice of the 364-day-calendar passages (Jub 2:9, 6:17-22, 6:23-31, 6:32-38) on translation surface. Do NOT soften the polemic against the lunar-solar luni-solar tradition; do NOT pre-resolve the calendrical dispute. The Jub 6:36 'they will make the moon disturb the seasons' polemic is preserved as-is."
+    },
+    {
+      "id": "three-holy-mountains-sinai-zion-eden-jubilees-8-19-convention",
+      "claim_type": "direct",
+      "lemma": "three holy mountains (Sinai + Zion + Mt of the East / Eden) preservation convention",
+      "rationale": "The Jub 8:19 three-holy-mountains formula (Mount Zion as navel-of-the-earth + Mount Sinai as center-of-the-desert + Mount of the East / Eden-mountain as center-of-the-world) is preserved as a proper-noun trio on translation surface. Do not collapse the three into a single 'sacred mountain' designation; do not translate the proper names. Commentary apparatus develops the four-holy-places extension at Jub 4:26 (which adds Eden itself to the trio)."
+    },
+    {
+      "id": "epiphanius-greek-witness-convention-jubilees-8-9",
+      "claim_type": "direct",
+      "lemma": "Epiphanius Greek patristic witness handling convention (Jubilees 8-9)",
+      "rationale": "Where Greek (Epiphanius De mensuris et ponderibus 21-24, Dean 1935 ed.) preserves substantial portions of the table-of-nations + sub-allotments material (notably Jub 8:12, 8:22, 8:25, 9:1-12 partials), Greek serves as the secondary witness with Ge'ez as primary fallback. Greek-primary handling at the verses where Epiphanius provides the principal extant witness; Ge'ez-primary elsewhere with Greek-secondary annotation in source files. No retro-Hebraization of the Greek text."
+    }
+  ]
+}
