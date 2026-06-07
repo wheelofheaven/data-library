@@ -443,7 +443,14 @@ def generate_chapter(
 
 
 def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
-    """Update audio/{lang}/{slug}/manifest.json listing available chapters."""
+    """Update audio/{lang}/{slug}/manifest.json listing available chapters.
+
+    Probes for sibling Opus files (`c{N}.opus`) produced by
+    `transcode_audio.py` and emits a `formats[]` array per chapter when
+    Opus is present. Player picks Opus first when supported and falls
+    back to the MP3. `audio_url` always points at the MP3 for legacy
+    players that don't know about `formats[]`.
+    """
     book_dir = ASSETS_AUDIO / lang / slug
     if not book_dir.exists():
         return
@@ -453,12 +460,25 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
         timing = json.loads(timing_path.read_text())
         chap_n = timing['chapter']
         mp3_name = f'c{chap_n}.mp3'
+        opus_name = f'c{chap_n}.opus'
+        opus_path = book_dir / opus_name
+        formats = []
+        if opus_path.exists():
+            formats.append({
+                'type': 'audio/ogg; codecs=opus',
+                'url': f'audio/{lang}/{slug}/{opus_name}',
+            })
+        formats.append({
+            'type': 'audio/mpeg',
+            'url': f'audio/{lang}/{slug}/{mp3_name}',
+        })
         chapters.append({
             'n': chap_n,
             'audio_url': f'audio/{lang}/{slug}/{mp3_name}',
             'timing_url': f'audio/{lang}/{slug}/c{chap_n}.timing.json',
             'duration_seconds': timing['duration_seconds'],
             'paragraph_count': len(timing['paragraphs']),
+            'formats': formats,
         })
     manifest = {
         'book': slug, 'lang': lang,
