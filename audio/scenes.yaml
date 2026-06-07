@@ -1,0 +1,35 @@
+# Scene library (v4)
+#
+# Each scene defines an ambient soundscape — a looping bed plus optional
+# one-shot SFX at the scene's entry. Scenes are applied per-paragraph via
+# the optional `scene` field on paragraph entries in chapter-N.json:
+#
+#     {"n": 12, "speaker": "Yahweh", "scene": "elohim-vessel", ...}
+#
+# Sparse-tagging convention: a paragraph's `scene` value persists until a
+# different `scene` tag appears. To explicitly end a scene, set
+# `scene: null` on the next paragraph. Paragraphs with no scene set (and
+# no preceding scene) play with no ambient bed.
+#
+# Generation: generate_ambient.py walks the timing sidecar + source
+# chapter JSON, builds an ambient track per chapter that's silent outside
+# scene zones and tiled-with-crossfades inside them, and writes
+# c{N}.ambient.opus alongside the voice c{N}.opus.
+
+scenes:
+
+  # Yahweh's setting throughout TBWTT — the Elohim vessel where he
+  # teaches Raël. Low cosmic hum + faint electrical interior; subtle
+  # enough that the voice carries, present enough to mark "we are
+  # elsewhere" sonically.
+  elohim-vessel:
+    description: |
+      The interior of an Elohim vessel. Continuous low hum from
+      life support / propulsion, a faint high electrical whine,
+      no human voices or wind.
+    ambient_prompt: "deep low cosmic hum, gentle electronic spacecraft interior ambience, no voices, no melody, looping seamless ambient texture"
+    ambient_duration_seconds: 30
+    gain_db: -18
+    # No sfx_at_start for this scene — the entry into Yahweh's section
+    # is musically marked by his voice change (Marcel → Jon) which is
+    # itself the scene transition signal.

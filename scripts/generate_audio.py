@@ -595,14 +595,22 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
             'type': 'audio/mpeg',
             'url': f'audio/{lang}/{slug}/{mp3_name}',
         })
-        chapters.append({
+        # v4 — ambient track produced by generate_ambient.py from scenes.yaml
+        # + paragraph scene tags. Sibling file if present; omitted from
+        # manifest otherwise.
+        ambient_name = f'c{chap_n}.ambient.opus'
+        ambient_path = book_dir / ambient_name
+        chap_entry = {
             'n': chap_n,
             'audio_url': f'audio/{lang}/{slug}/{mp3_name}',
             'timing_url': f'audio/{lang}/{slug}/c{chap_n}.timing.json',
             'duration_seconds': timing['duration_seconds'],
             'paragraph_count': len(timing['paragraphs']),
             'formats': formats,
-        })
+        }
+        if ambient_path.exists():
+            chap_entry['ambient_url'] = f'audio/{lang}/{slug}/{ambient_name}'
+        chapters.append(chap_entry)
     manifest = {
         'book': slug, 'lang': lang,
         'model': voices_cfg.get('model'),
