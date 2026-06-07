@@ -867,10 +867,23 @@
       "primaryLang": "en",
       "originalLang": "he",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 40,
       "paragraphs": 1213,
@@ -890,7 +903,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/2_mose/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Exode",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 7: 29/25, 8: 28/32, 21: 37/36, 22: 30/31"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/2/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%87%BA%E5%9F%83%E5%8F%8A%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 38:14-15. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%87%BA%E5%9F%83%E5%8F%8A%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 38:14-15. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "leviticus",
@@ -906,10 +988,23 @@
       "primaryLang": "en",
       "originalLang": "he",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 27,
       "paragraphs": 859,
@@ -929,7 +1024,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/3_mose/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT. Note: Lev 5 (26 verses) and Lev 6 (23 verses) reflect the standard Masoretic split where Heb 5:20-26 corresponds to Eng 6:1-7 (the German Elberfelder keeps the Hebrew chapter division). Combined Lev 5+6 verse count matches ASV."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Lévitique",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 5: 26/19, 6: 22/30, 9: 22/24, 17: 15/16, 22: 32/33"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/3/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%88%A9%E6%9C%AA%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 3:14-15. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%88%A9%E6%9C%AA%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 3:14-15. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "numbers",
@@ -945,10 +1109,22 @@
       "primaryLang": "en",
       "originalLang": "he",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 36,
       "paragraphs": 1288,
@@ -968,7 +1144,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/4_mose/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Nombres",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 16: 35/50, 17: 28/13, 25: 19/18, 29: 39/40, 30: 17/16"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/4/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%B0%91%E6%95%B8%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 1:20-21, 1:22-23, 1:24-25, 1:26-27, 1:28-29, 1:30-31, 1:32-33, 1:34-35, 1:36-37, 1:38-39, 1:40-41, 1:42-43, 1:45-46, 4:39-40, 4:43-44, 4:47-48. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%B0%91%E6%95%B8%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 1:20-21, 1:22-23, 1:24-25, 1:26-27, 1:28-29, 1:30-31, 1:32-33, 1:34-35, 1:36-37, 1:38-39, 1:40-41, 1:42-43, 1:45-46, 4:39-40, 4:43-44, 4:47-48. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "deuteronomy",
@@ -984,10 +1229,24 @@
       "primaryLang": "en",
       "originalLang": "he",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 34,
       "paragraphs": 959,
@@ -1007,7 +1266,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/5_mose/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Deutéronome",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 12: 31/32, 13: 19/18, 22: 29/30, 23: 26/25, 28: 69/68, 29: 28/29"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/5/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%94%B3%E5%91%BD%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 4:32-33, 13:12-13, 13:17-18, 15:4-5, 28:13-14, 28:58-59, 29:10-11, 30:9-10. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%94%B3%E5%91%BD%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 4:32-33, 13:12-13, 13:17-18, 15:4-5, 28:13-14, 28:58-59, 29:10-11, 30:9-10. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "joshua",
@@ -1023,10 +1351,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 24,
       "paragraphs": 658,
@@ -1044,7 +1388,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/josua/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Josué",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/6/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%B4%84%E6%9B%B8%E4%BA%9E%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 3:10-11, 21:9-10. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%B4%84%E6%9B%B8%E4%BA%9E%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 3:10-11, 21:9-10. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "judges",
@@ -1060,10 +1473,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 21,
       "paragraphs": 618,
@@ -1083,7 +1512,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/richter/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Juges",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 5: 32/31"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/7/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%A3%AB%E5%B8%AB%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 20:27-28. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%A3%AB%E5%B8%AB%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 20:27-28. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "ruth",
@@ -1099,10 +1597,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 4,
       "paragraphs": 85,
@@ -1121,7 +1635,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/rut/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Ruth",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/8/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%B7%AF%E5%BE%97%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%B7%AF%E5%BE%97%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "1-samuel",
@@ -1137,10 +1720,22 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 31,
       "paragraphs": 810,
@@ -1160,7 +1755,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/1_samuel/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Dhorme, Les Livres de Samuel (I Samuel)",
+          "year": 1910,
+          "license": "Public Domain",
+          "sourceUrl": "https://archive.org/details/leslivresdesamu00dhor",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Mechanical extraction from the Internet Archive djvu OCR is not viable at canon quality: superscript verse-number markers are largely lost in OCR, and translation prose is interleaved with critical apparatus and commentary on every page. This placeholder reserves the catalog slot. Recommended next step: re-OCR the source PDF with layout-aware OCR (e.g. Google Document AI / Vision with structure), or hand-transcribe from the printed edition. Crampon 1923 may serve as the interim fr fallback for this slug — see project docs at https://docs.wheelofheaven.world/contributing/content/imported-translations/."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/9/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%92%92%E6%AF%8D%E8%80%B3%E8%A8%98%E4%B8%8A",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 25:30-31. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%92%92%E6%AF%8D%E8%80%B3%E8%A8%98%E4%B8%8A",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 25:30-31. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "2-samuel",
@@ -1176,10 +1840,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 24,
       "paragraphs": 695,
@@ -1197,7 +1874,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/2_samuel/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Dhorme, Les Livres de Samuel (II Samuel)",
+          "year": 1910,
+          "license": "Public Domain",
+          "sourceUrl": "https://archive.org/details/leslivresdesamu00dhor",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Mechanical extraction from the Internet Archive djvu OCR is not viable at canon quality: superscript verse-number markers are largely lost in OCR, and translation prose is interleaved with critical apparatus and commentary on every page. This placeholder reserves the catalog slot. Recommended next step: re-OCR the source PDF with layout-aware OCR (e.g. Google Document AI / Vision with structure), or hand-transcribe from the printed edition. Crampon 1923 may serve as the interim fr fallback for this slug — see project docs at https://docs.wheelofheaven.world/contributing/content/imported-translations/."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/10/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%92%92%E6%AF%8D%E8%80%B3%E8%A8%98%E4%B8%8B",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 3:9-10. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%92%92%E6%AF%8D%E8%80%B3%E8%A8%98%E4%B8%8B",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 3:9-10. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "1-kings",
@@ -1213,10 +1959,24 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 22,
       "paragraphs": 816,
@@ -1234,7 +1994,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/1_koenige/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/1_Rois",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 4: 20/34, 5: 32/18, 22: 54/53"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/11/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%88%97%E7%8E%8B%E7%B4%80%E4%B8%8A",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%88%97%E7%8E%8B%E7%B4%80%E4%B8%8A",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "2-kings",
@@ -1250,10 +2079,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 25,
       "paragraphs": 719,
@@ -1271,7 +2113,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/2_koenige/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/2_Rois",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 11: 20/21, 12: 22/21"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/12/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%88%97%E7%8E%8B%E7%B4%80%E4%B8%8B",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%88%97%E7%8E%8B%E7%B4%80%E4%B8%8B",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "isaiah",
@@ -1287,10 +2198,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 66,
       "paragraphs": 1292,
@@ -1309,7 +2233,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/jesaja/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Isaïe",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 8: 23/22, 9: 20/21, 64: 11/12"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/23/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BB%A5%E8%B3%BD%E4%BA%9E%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 4:3-4, 65:6-7. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BB%A5%E8%B3%BD%E4%BA%9E%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 4:3-4, 65:6-7. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "jeremiah",
@@ -1325,10 +2317,24 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 52,
       "paragraphs": 1364,
@@ -1346,7 +2352,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/jeremia/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Jérémie",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 8: 23/22, 9: 25/26"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/24/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%80%B6%E5%88%A9%E7%B1%B3%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 34:8-9, 34:18-19, 43:5-6. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%80%B6%E5%88%A9%E7%B1%B3%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 34:8-9, 34:18-19, 43:5-6. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "ezekiel",
@@ -1362,10 +2436,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 48,
       "paragraphs": 1273,
@@ -1385,7 +2472,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/hesekiel/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT. Note: Ezek 20 (44) and Ezek 21 (37) reflect the standard Masoretic split where Eng 20:45-49 corresponds to Heb 21:1-5. Combined Ezek 20+21 verse count matches ASV."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Ézéchiel",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 20: 44/49, 21: 37/32"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/26/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BB%A5%E8%A5%BF%E7%B5%90%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 16:56-57, 18:10-11, 39:26-27. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BB%A5%E8%A5%BF%E7%B5%90%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 16:56-57, 18:10-11, 39:26-27. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "psalms",
@@ -1401,10 +2556,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "es",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 150,
       "paragraphs": 2461,
@@ -1424,7 +2592,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/psalm/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Psaumes_1; https://fr.wikisource.org/wiki/Bible_Crampon_1923/Psaumes_2; https://fr.wikisource.org/wiki/Bible_Crampon_1923/Psaumes_3; https://fr.wikisource.org/wiki/Bible_Crampon_1923/Psaumes_4; https://fr.wikisource.org/wiki/Bible_Crampon_1923/Psaumes_5",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 3: 9/8, 4: 9/8, 5: 13/12, 6: 11/10, 7: 18/17, 8: 10/9, 9: 21/20, 12: 9/8..."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/19/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%A9%A9%E7%AF%87",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 8:6-8, 49:8-9, 63:5-6, 76:8-9, 92:2-3, 105:5-6, 116:18-19, 135:1-2. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%A9%A9%E7%AF%87",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 8:6-8, 49:8-9, 63:5-6, 76:8-9, 92:2-3, 105:5-6, 116:18-19, 135:1-2. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "proverbs",
@@ -1440,10 +2676,25 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 31,
       "paragraphs": 915,
@@ -1461,7 +2712,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/sprueche/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Proverbes",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/20/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%AE%B4%E8%A8%80",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 23:31-32, 26:18-19. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%AE%B4%E8%A8%80",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 23:31-32, 26:18-19. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "job",
@@ -1477,10 +2796,22 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 42,
       "paragraphs": 1070,
@@ -1498,7 +2829,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/hiob/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT. Note: Job 39 (35), Job 41 (25), and Job 42 (25) reflect the standard Masoretic chapter divisions, which differ from English versifications at the 39/40 and 40/41 boundaries (Heb 39:31-35 = Eng 40:1-5; Heb 40:25-32 = Eng 41:1-8). All verse content is present and intact."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "ch40: ASV has 24, RV1909 has 19 (diff -5)"
+        },
+        "fr": {
+          "name": "Dhorme, Le Livre de Job",
+          "year": 1926,
+          "license": "Public Domain",
+          "sourceUrl": "https://archive.org/details/dhormejob",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Mechanical extraction from the Internet Archive djvu OCR is not viable at canon quality: superscript verse-number markers are largely lost in OCR, and translation prose is interleaved with critical apparatus and commentary on every page. This placeholder reserves the catalog slot. Recommended next step: re-OCR the source PDF with layout-aware OCR (e.g. Google Document AI / Vision with structure), or hand-transcribe from the printed edition. Crampon 1923 may serve as the interim fr fallback for this slug — see project docs at https://docs.wheelofheaven.world/contributing/content/imported-translations/."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/18/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%B4%84%E4%BC%AF%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 10:20-21, 38:37-38, 38:39-40. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%B4%84%E4%BC%AF%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 10:20-21, 38:37-38, 38:39-40. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "song-of-solomon",
@@ -1514,10 +2914,24 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 8,
       "paragraphs": 117,
@@ -1534,7 +2948,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/hohelied/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Cantique",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 6: 12/13, 7: 14/13"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/22/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse-count difference vs ASV in ch6: ko=14, asv=13. KRV splits the content of ASV 6:13 (\"Return, return, O Shulammite... why will ye look upon the Shulammite, as upon the dance of Mahanaim?\") into two verses (KRV 6:13 + 6:14). Chapter 7 onward is aligned (both have ch7=13 verses). No content is missing or extra."
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E9%9B%85%E6%AD%8C",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E9%9B%85%E6%AD%8C",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "ecclesiastes",
@@ -1550,10 +3033,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 12,
       "paragraphs": 222,
@@ -1571,7 +3067,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/prediger/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Ecclésiaste",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 4: 17/16, 5: 19/20"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/21/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%82%B3%E9%81%93%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 7:27-28. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%82%B3%E9%81%93%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 7:27-28. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "lamentations",
@@ -1587,10 +3151,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 5,
       "paragraphs": 154,
@@ -1607,7 +3187,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/klagelieder/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Lamentations",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/25/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%80%B6%E5%88%A9%E7%B1%B3%E5%93%80%E6%AD%8C",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%80%B6%E5%88%A9%E7%B1%B3%E5%93%80%E6%AD%8C",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "esther",
@@ -1623,10 +3271,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 10,
       "paragraphs": 167,
@@ -1644,7 +3308,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/ester/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Esther",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Chapter-count differs from ASV: Crampon=16 vs ASV=10. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 10: 13/3, 11: 12/0, 12: 6/0, 13: 18/0, 14: 19/0, 15: 19/0, 16: 24/0"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/17/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BB%A5%E6%96%AF%E5%B8%96%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 1:13-14, 8:11-12. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BB%A5%E6%96%AF%E5%B8%96%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 1:13-14, 8:11-12. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "daniel",
@@ -1660,10 +3393,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 12,
       "paragraphs": 357,
@@ -1681,7 +3427,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/daniel/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Daniel",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Chapter-count differs from ASV: Crampon=14 vs ASV=12. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 3: 100/30, 4: 34/37, 5: 30/31, 6: 29/28, 13: 65/0, 14: 42/0"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/27/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BD%86%E4%BB%A5%E7%90%86%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BD%86%E4%BB%A5%E7%90%86%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "ezra",
@@ -1697,10 +3511,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 10,
       "paragraphs": 280,
@@ -1718,7 +3548,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/esra/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Esdras",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/15/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BB%A5%E6%96%AF%E6%8B%89%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BB%A5%E6%96%AF%E6%8B%89%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "nehemiah",
@@ -1734,10 +3633,24 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 13,
       "paragraphs": 406,
@@ -1755,7 +3668,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/nehemia/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Néhémie",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 3: 38/32, 4: 17/23, 9: 37/38, 10: 40/39"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/16/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%B0%BC%E5%B8%8C%E7%B1%B3%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 12:28-29. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%B0%BC%E5%B8%8C%E7%B1%B3%E8%A8%98",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 12:28-29. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "1-chronicles",
@@ -1771,10 +3753,21 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ko"
       ],
       "chapters": 29,
       "paragraphs": 942,
@@ -1792,7 +3785,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/1_chronik/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT. KNOWN SOURCE QUIRK: chapters 13, 17, 18, 22, and 28 on bibel-online.net include trailing duplicate content from the preceding chapter, numbered as additional verses past the chapter's true end (e.g. Ch13 has the correct 14 verses of 1 Chr 13 followed by a duplicated copy of 1 Chr 12:15-40 numbered 15-40). Real per-chapter verse content is intact through the canonical end of each chapter; consumers should treat verses past the ASV/MT end-of-chapter as source-side duplicates of the previous chapter."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/1_Chroniques",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 5: 41/26, 6: 66/81, 12: 41/40"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/13/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%AD%B7%E4%BB%A3%E5%BF%97%E4%B8%8A",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 4:17-18, 16:12-13, 16:39-40. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content. Chapter verse-count differences vs English ASV (MT-based): ch 21: ASV 30 vs CUV 31; ch 22: ASV 19 vs CUV 18. These reflect CUV/MT versification differences (e.g., a verse moved across chapter boundary) rather than missing text."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%AD%B7%E4%BB%A3%E5%BF%97%E4%B8%8A",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 4:17-18, 16:12-13, 16:39-40. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content. Chapter verse-count differences vs English ASV (MT-based): ch 21: ASV 30 vs CUV 31; ch 22: ASV 19 vs CUV 18. These reflect CUV/MT versification differences (e.g., a verse moved across chapter boundary) rather than missing text."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "2-chronicles",
@@ -1808,10 +3870,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 36,
       "paragraphs": 822,
@@ -1829,7 +3904,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/2_chronik/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/2_Chroniques",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 1: 18/17, 2: 17/18, 13: 23/22, 14: 14/15"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/14/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%AD%B7%E4%BB%A3%E5%BF%97%E4%B8%8B",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 30:18-19. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E6%AD%B7%E4%BB%A3%E5%BF%97%E4%B8%8B",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 30:18-19. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "hosea",
@@ -1845,10 +3989,22 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 14,
       "paragraphs": 197,
@@ -1865,7 +4021,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/hosea/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Osée",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 1: 9/11, 2: 25/23, 11: 11/12, 12: 15/14, 13: 15/16, 14: 10/9"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/28/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BD%95%E8%A5%BF%E9%98%BF%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 12:4-5. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BD%95%E8%A5%BF%E9%98%BF%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 12:4-5. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "joel",
@@ -1881,10 +4105,24 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 3,
       "paragraphs": 73,
@@ -1901,7 +4139,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/joel/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Joël",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Chapter-count differs from ASV: Crampon=4 vs ASV=3. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 2: 27/32, 3: 5/21, 4: 21/0"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/29/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%B4%84%E7%8F%A5%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%B4%84%E7%8F%A5%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "amos",
@@ -1917,10 +4223,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 9,
       "paragraphs": 146,
@@ -1937,7 +4259,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/amos/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Amos",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/30/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E9%98%BF%E6%91%A9%E5%8F%B8%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E9%98%BF%E6%91%A9%E5%8F%B8%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "obadiah",
@@ -1953,10 +4343,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 1,
       "paragraphs": 1,
@@ -1972,7 +4378,77 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/obadja/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT. Obadiah has 21 verses in this output, matching standard MT/ASV versification."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Abdias",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 1: 21/1"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/31/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Korean Obadiah has the standard 21 verses (MT numbering). ASV chapter-1.json stores Obadiah as a single paragraph rather than per-verse, so the apparent mismatch (ko=21 vs asv=1) is a data-shape difference, not a content discrepancy."
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BF%84%E5%B7%B4%E5%BA%95%E4%BA%9E%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Chapter verse-count differences vs English ASV (MT-based): ch 1: ASV 1 vs CUV 21. These reflect CUV/MT versification differences (e.g., a verse moved across chapter boundary) rather than missing text. Note: the English ASV baseline in data-library/obadiah/ currently contains only 1 verse, so the apparent 1-vs-21 chapter-count mismatch is a baseline gap, not a CUV anomaly. CUV Obadiah has the standard 21 verses."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E4%BF%84%E5%B7%B4%E5%BA%95%E4%BA%9E%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Chapter verse-count differences vs English ASV (MT-based): ch 1: ASV 1 vs CUV 21. These reflect CUV/MT versification differences (e.g., a verse moved across chapter boundary) rather than missing text. Note: the English ASV baseline in data-library/obadiah/ currently contains only 1 verse, so the apparent 1-vs-21 chapter-count mismatch is a baseline gap, not a CUV anomaly. CUV Obadiah has the standard 21 verses."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "jonah",
@@ -1988,10 +4464,22 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 4,
       "paragraphs": 48,
@@ -2009,7 +4497,76 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/jona/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match ASV reference within tolerance (<=3 per chapter)."
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Jonas",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 1: 16/17, 2: 11/10"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/32/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%B4%84%E6%8B%BF%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E7%B4%84%E6%8B%BF%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "micah",
@@ -2025,10 +4582,23 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 7,
       "paragraphs": 105,
@@ -2045,7 +4615,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/micha/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Michée",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 4: 14/13, 5: 14/15"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/33/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%BD%8C%E8%BF%A6%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%BD%8C%E8%BF%A6%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "nahum",
@@ -2061,10 +4699,24 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "ja",
+        "ko",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 3,
       "paragraphs": 47,
@@ -2080,7 +4732,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/nahum/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Nahum",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping. Per-chapter verse-count mismatches vs ASV (chap: Crampon/ASV): 1: 14/15, 2: 14/13"
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/34/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E9%82%A3%E9%B4%BB%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E9%82%A3%E9%B4%BB%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "habakkuk",
@@ -2096,10 +4816,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 3,
       "paragraphs": 56,
@@ -2116,7 +4852,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/habakuk/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Habacuc",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/35/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%93%88%E5%B7%B4%E8%B0%B7%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E5%93%88%E5%B7%B4%E8%B0%B7%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Verse counts match English ASV baseline."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "zephaniah",
@@ -2132,10 +4936,26 @@
       "originalLang": "he",
       "primaryLang": "en",
       "availableLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "completeLangs": [
-        "en"
+        "en",
+        "de",
+        "es",
+        "fr",
+        "ja",
+        "ko",
+        "ru",
+        "zh",
+        "zh-Hant"
       ],
       "chapters": 3,
       "paragraphs": 53,
@@ -2151,7 +4971,75 @@
       "status": "complete",
       "hasAudio": false,
       "hasVideo": false,
-      "source_id": "tanakh"
+      "source_id": "tanakh",
+      "translations": {
+        "en": {
+          "name": "ASV 1901",
+          "year": 1901,
+          "license": "Public Domain"
+        },
+        "de": {
+          "name": "Elberfelder 1905",
+          "year": 1905,
+          "license": "Public Domain",
+          "sourceUrl": "https://www.bibel-online.net/buch/elberfelder_1905/zephanja/",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Fetched per-chapter from bibel-online.net. Cross-reference <sub><a>...</a></sub> blocks inside each verse span were stripped; only verse prose retained. Versification follows MT."
+        },
+        "es": {
+          "name": "Reina-Valera 1909",
+          "year": 1909,
+          "license": "Public Domain",
+          "sourceUrl": "https://ebible.org/spaRV1909/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "fr": {
+          "name": "Crampon 1923",
+          "year": 1923,
+          "license": "Public Domain",
+          "sourceUrl": "https://fr.wikisource.org/wiki/Bible_Crampon_1923/Sophonie",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "Crampon 1923 follows Vulgate (and partly LXX) versification; some verse numbers differ from MT/ASV. The merge step is responsible for remapping."
+        },
+        "ja": {
+          "name": "口語訳 (Kougo-yaku) 1955",
+          "year": 1955,
+          "license": "Public Domain (moral rights apply — text must not be modified)",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/jpn-kougo.osis.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ko": {
+          "name": "개역성경 1938 (Korean Revised Version)",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://bolls.life/get-chapter/KRV/36/",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "ru": {
+          "name": "Synodal 1876",
+          "year": 1876,
+          "license": "Public Domain",
+          "sourceUrl": "https://github.com/seven1m/open-bibles/blob/master/russynod.zefania.xml",
+          "sourceAccessedOn": "2026-06-07"
+        },
+        "zh": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hans/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%A5%BF%E7%95%AA%E9%9B%85%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 2:1-2. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        },
+        "zh-Hant": {
+          "name": "和合本 (Chinese Union Version) 1919",
+          "year": null,
+          "license": "Public Domain",
+          "sourceUrl": "https://zh.wikisource.org/zh-hant/%E8%81%96%E7%B6%93%20%28%E5%92%8C%E5%90%88%E6%9C%AC%29/%E8%A5%BF%E7%95%AA%E9%9B%85%E6%9B%B8",
+          "sourceAccessedOn": "2026-06-07",
+          "notes": "CUV 1919 combined-verse groups (shared text across verse numbers in the Wikisource transcription): 2:1-2. Each verse in such a group is populated with the combined text rather than left empty, so downstream consumers receive complete content."
+        }
+      },
+      "lastUpdated": "2026-06-07"
     },
     {
       "slug": "book-of-enoch",
