@@ -97,6 +97,8 @@ def load_chapter(slug: str, chap: int) -> dict:
 
 # ===== ElevenLabs API =====
 
+import base64
+
 def call_elevenlabs(
     text: str,
     voice_id: str,
@@ -105,13 +107,21 @@ def call_elevenlabs(
     api_key: str,
     timeout: int = 120,
     max_retries: int = 4,
-) -> bytes:
-    """POST text to ElevenLabs, return MP3 bytes. Handles rate-limit retry."""
-    url = f'{ELEVENLABS_API}/text-to-speech/{voice_id}'
+) -> tuple[bytes, dict]:
+    """POST text to ElevenLabs `with-timestamps`, return (mp3_bytes, alignment).
+
+    alignment is {characters: [str], character_start_times_seconds: [float],
+    character_end_times_seconds: [float]} — one entry per output character
+    in the text the model received (so SSML tag characters are present too,
+    we strip those when grouping into words downstream).
+
+    Handles rate-limit retry.
+    """
+    url = f'{ELEVENLABS_API}/text-to-speech/{voice_id}/with-timestamps'
     headers = {
         'xi-api-key': api_key,
         'Content-Type': 'application/json',
-        'Accept': 'audio/mpeg',
+        'Accept': 'application/json',
     }
     body = {
         'text': text,
@@ -122,7 +132,10 @@ def call_elevenlabs(
     for attempt in range(max_retries):
         resp = requests.post(url, headers=headers, json=body, timeout=timeout)
         if resp.status_code == 200:
-            return resp.content
+            payload = resp.json()
+            audio_bytes = base64.b64decode(payload['audio_base64'])
+            alignment = payload.get('alignment') or {}
+            return audio_bytes, alignment
         if resp.status_code == 429:
             # Rate limit — exponential backoff
             wait = backoff * (2 ** attempt)
@@ -152,6 +165,66 @@ def paragraph_audio_path(slug: str, lang: str, chap: int, pn: int) -> Path:
 
 def paragraph_meta_path(slug: str, lang: str, chap: int, pn: int) -> Path:
     return WORK / slug / lang / f'c{chap}' / f'p{pn}.meta.json'
+
+
+def paragraph_alignment_path(slug: str, lang: str, chap: int, pn: int) -> Path:
+    """Raw char-level alignment from ElevenLabs, before word grouping."""
+    return WORK / slug / lang / f'c{chap}' / f'p{pn}.alignment.json'
+
+
+def group_chars_to_words(alignment: dict, offset_seconds: float) -> list[dict]:
+    """Collapse ElevenLabs char-level alignment into word-level timings.
+
+    SSML tag characters (anything between `<` and `>`) are skipped so the
+    word stream maps back to the displayed text. Whitespace characters
+    delimit words; consecutive whitespace collapses. Each emitted word
+    carries start/end times offset by `offset_seconds` so the chapter-
+    level timing is monotonic across the concatenated MP3.
+
+    Returns [{w, start, end}] where times are rounded to 3 decimals.
+    """
+    chars = alignment.get('characters') or []
+    starts = alignment.get('character_start_times_seconds') or []
+    ends = alignment.get('character_end_times_seconds') or []
+    if not chars or len(chars) != len(starts) or len(chars) != len(ends):
+        return []
+
+    words: list[dict] = []
+    cur_chars: list[str] = []
+    cur_start = None
+    cur_end = None
+    in_tag = False
+    for c, s, e in zip(chars, starts, ends):
+        if c == '<':
+            in_tag = True
+            continue
+        if c == '>':
+            in_tag = False
+            continue
+        if in_tag:
+            continue
+        if c.isspace():
+            if cur_chars:
+                words.append({
+                    'w': ''.join(cur_chars),
+                    'start': round(cur_start + offset_seconds, 3),
+                    'end': round(cur_end + offset_seconds, 3),
+                })
+                cur_chars = []
+                cur_start = None
+                cur_end = None
+            continue
+        cur_chars.append(c)
+        if cur_start is None:
+            cur_start = s
+        cur_end = e
+    if cur_chars:
+        words.append({
+            'w': ''.join(cur_chars),
+            'start': round(cur_start + offset_seconds, 3),
+            'end': round(cur_end + offset_seconds, 3),
+        })
+    return words
 
 
 # ===== ffmpeg helpers =====
@@ -267,13 +340,16 @@ def generate_chapter(
 
         para_path = paragraph_audio_path(slug, lang, chap, pn)
         meta_path = paragraph_meta_path(slug, lang, chap, pn)
+        align_path = paragraph_alignment_path(slug, lang, chap, pn)
 
-        # Cache check: if meta exists and key matches and mp3 exists, reuse
+        # Cache check: key match + audio present + alignment present (v2).
+        # Paragraphs cached under v1 (no alignment.json) will re-call the
+        # API to pick up word timings.
         cached = False
-        if meta_path.exists() and para_path.exists():
+        if meta_path.exists() and para_path.exists() and align_path.exists():
             try:
                 old_meta = json.loads(meta_path.read_text())
-                if old_meta.get('key') == key:
+                if old_meta.get('key') == key and old_meta.get('endpoint') == 'with-timestamps':
                     cached = True
             except json.JSONDecodeError:
                 pass
@@ -291,13 +367,16 @@ def generate_chapter(
                 if not api_key:
                     print(f'  ERROR ch{chap} p{pn}: ELEVENLABS_API_KEY not set', file=sys.stderr)
                     return {'chars': chars_total, 'error': 'API key not set'}
-                print(f'  ch{chap} p{pn} [{speaker}] ({len(api_text)} chars) → API …')
-                audio_bytes = call_elevenlabs(api_text, voice_id, settings, model, api_key)
+                print(f'  ch{chap} p{pn} [{speaker}] ({len(api_text)} chars) → API (ts) …')
+                audio_bytes, alignment = call_elevenlabs(api_text, voice_id, settings, model, api_key)
                 para_path.parent.mkdir(parents=True, exist_ok=True)
                 para_path.write_bytes(audio_bytes)
+                align_path.write_text(json.dumps(alignment, ensure_ascii=False))
                 meta_path.write_text(json.dumps({
                     'key': key, 'speaker': speaker, 'voice_id': voice_id,
                     'chars': len(api_text), 'model': model,
+                    'endpoint': 'with-timestamps',
+                    'api_text': api_text,
                 }, indent=2))
 
         # For dry-run, skip duration measurement (no audio file).
@@ -313,11 +392,23 @@ def generate_chapter(
                 pieces.append(silence_path)
                 running_t += silence_duration
             pieces.append(para_path)
-            paragraph_timings.append({
+            # Load alignment (if present) and group into words at the
+            # chapter offset. Silence pauses already advanced running_t.
+            words = []
+            if align_path.exists():
+                try:
+                    alignment = json.loads(align_path.read_text())
+                    words = group_chars_to_words(alignment, running_t)
+                except (json.JSONDecodeError, KeyError):
+                    pass
+            entry = {
                 'n': pn, 'speaker': speaker,
                 'start': round(running_t, 3),
                 'end': round(running_t + duration, 3),
-            })
+            }
+            if words:
+                entry['words'] = words
+            paragraph_timings.append(entry)
             running_t += duration
             prev_speaker = speaker
 
@@ -372,6 +463,7 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
     manifest = {
         'book': slug, 'lang': lang,
         'model': voices_cfg.get('model'),
+        'timing_version': 2,
         'chapters': chapters,
     }
     (book_dir / 'manifest.json').write_text(

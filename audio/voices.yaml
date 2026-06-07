@@ -31,30 +31,53 @@ defaults:
 # Per-language voice assignments. The (speaker, lang) tuple → voice_id.
 # Leave voice_id blank until you've picked a voice from the ElevenLabs library.
 voices:
+  # All languages share the same voices via eleven_multilingual_v2.
+  # Marcel = Narrator + Raël; Jon = Yahweh. Same characters across translations.
+  # Override per language only if a specific voice mispronounces or sounds wrong.
   en:
-    Narrator:
-      voice_id: "I1T6PEfqPxl45yKRN4aS"   # same person as Raël, different prosody via defaults
-    Raël:
-      voice_id: "I1T6PEfqPxl45yKRN4aS"
-    Yahweh:
-      voice_id: "sB7vwSCyX0tQmU24cW2C"   # Jon - Natural Authority
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }   # Marcel
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }   # Marcel (different prosody via defaults)
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }   # Jon - Natural Authority
 
   fr:
-    Narrator:
-      voice_id: ""
-    Raël:
-      voice_id: ""
-    Yahweh:
-      voice_id: ""
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
 
-  # Other languages — fill in as the corpus expands beyond TBWTT/ETTMTTP/LWTE.
-  de: {}
-  es: {}
-  ru: {}
-  ja: {}
-  ko: {}
-  zh: {}
-  zh-Hant: {}
+  de:
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+
+  es:
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+
+  ru:
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+
+  ja:
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+
+  ko:
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+
+  zh:
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+
+  zh-Hant:
+    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
+    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
 
 # Inter-paragraph pause length in milliseconds. Concatenation inserts a silence
 # clip of this length between paragraphs. Override per-paragraph via the TTS
