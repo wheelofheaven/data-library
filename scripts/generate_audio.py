@@ -584,6 +584,7 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
         chap_n = timing['chapter']
         mp3_name = f'c{chap_n}.mp3'
         opus_name = f'c{chap_n}.opus'
+        mp3_path = book_dir / mp3_name
         opus_path = book_dir / opus_name
         formats = []
         if opus_path.exists():
@@ -591,10 +592,17 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
                 'type': 'audio/ogg; codecs=opus',
                 'url': f'audio/{lang}/{slug}/{opus_name}',
             })
-        formats.append({
-            'type': 'audio/mpeg',
-            'url': f'audio/{lang}/{slug}/{mp3_name}',
-        })
+        if mp3_path.exists():
+            formats.append({
+                'type': 'audio/mpeg',
+                'url': f'audio/{lang}/{slug}/{mp3_name}',
+            })
+        # audio_url is the legacy single-URL fallback for players that
+        # don't read formats[]. Prefer MP3 (universal compat) when it
+        # exists; fall back to Opus if it doesn't (e.g. when MP3 was
+        # dropped because it exceeded Cloudflare Pages' 25 MiB per-file
+        # cap — happens on very long chapters at 128k mono).
+        legacy_url = f'audio/{lang}/{slug}/{mp3_name if mp3_path.exists() else opus_name}'
         # v4 — ambient track produced by generate_ambient.py from scenes.yaml
         # + paragraph scene tags. Sibling file if present; omitted from
         # manifest otherwise.
@@ -602,7 +610,7 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
         ambient_path = book_dir / ambient_name
         chap_entry = {
             'n': chap_n,
-            'audio_url': f'audio/{lang}/{slug}/{mp3_name}',
+            'audio_url': legacy_url,
             'timing_url': f'audio/{lang}/{slug}/c{chap_n}.timing.json',
             'duration_seconds': timing['duration_seconds'],
             'paragraph_count': len(timing['paragraphs']),
