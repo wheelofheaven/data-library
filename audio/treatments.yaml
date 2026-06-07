@@ -1,0 +1,46 @@
+# Per-speaker audio treatment (v3)
+#
+# ffmpeg filter chains applied to each paragraph's MP3 between the
+# ElevenLabs API call (cached at _work/{slug}/{lang}/c{N}/p{n}.mp3) and
+# the chapter-level concat. Gives each speaker a distinct sonic identity
+# beyond just the voice ID — Narrator clean, Raël close + warm, Yahweh
+# spacious + weighty.
+#
+# All filters preserve duration to within ~50 ms (well below the
+# perceptual threshold for word-highlight sync), so the existing
+# c{N}.timing.json word arrays stay valid without regeneration.
+#
+# Set `filter: ""` (empty string) to disable treatment for a speaker —
+# useful for A/B tests or for speakers whose voice already sits where
+# you want it.
+#
+# Cache behavior: treated paragraphs land at
+# _work/{slug}/{lang}/c{N}/p{n}.treated.mp3 keyed by the filter string.
+# Changing a filter invalidates only the affected speaker's cache;
+# unchanged speakers keep their cached treated output.
+
+treatments:
+
+  Narrator:
+    # Narrator is the spine of the read — keep it neutral, just trim a
+    # touch of mud at 200 Hz so dialogue speakers (Raël, Yahweh) sit
+    # forward in relative terms. -2 dB at Q=1, bandwidth=1 octave.
+    filter: "equalizer=f=200:t=q:w=1:g=-2"
+
+  Raël:
+    # Raël is the in-scene questioner — close-mic warmth so he feels
+    # like he's in the room. Mild +2 dB low-mid lift at 180 Hz adds
+    # "chest" without muddying the voice. No reverb — close mic stays
+    # dry on purpose.
+    filter: "equalizer=f=180:t=q:w=1.5:g=2"
+
+  Yahweh:
+    # Yahweh is the off-scene authority — instructional monologues
+    # from elsewhere. Light hall reverb (aecho, 60 ms delay, 0.4
+    # decay) adds spatial depth without flooding intelligibility,
+    # plus +3 dB at 120 Hz for low-end weight.
+    #
+    # The aecho's 60ms tail adds a tiny bit of post-roll; we trim
+    # the output back to the original input duration in the
+    # post-process step so word timings stay locked.
+    filter: "aecho=0.8:0.88:60:0.4,equalizer=f=120:t=q:w=1:g=3"

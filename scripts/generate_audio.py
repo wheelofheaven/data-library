@@ -61,6 +61,23 @@ def load_voices_config() -> dict:
     return yaml.safe_load((LIB / 'audio' / 'voices.yaml').read_text())
 
 
+def load_treatments_config() -> dict:
+    """Per-speaker ffmpeg filter chains (v3). Optional file — returns {} if
+    treatments.yaml is missing, which means every paragraph passes through
+    untreated (v1/v2 behavior). Schema: {treatments: {Speaker: {filter: str}}}."""
+    path = LIB / 'audio' / 'treatments.yaml'
+    if not path.exists():
+        return {}
+    data = yaml.safe_load(path.read_text()) or {}
+    return (data.get('treatments') or {})
+
+
+def treatment_filter(treatments_cfg: dict, speaker: str) -> str:
+    """Return the ffmpeg filter chain for a speaker, or '' for no treatment."""
+    spk = treatments_cfg.get(speaker) or {}
+    return spk.get('filter', '') or ''
+
+
 def resolve_voice(cfg: dict, speaker: str, lang: str) -> tuple[str, dict]:
     """Return (voice_id, settings_dict) for a (speaker, lang). Raises if unset."""
     lang_voices = (cfg.get('voices') or {}).get(lang) or {}
@@ -172,6 +189,55 @@ def paragraph_alignment_path(slug: str, lang: str, chap: int, pn: int) -> Path:
     return WORK / slug / lang / f'c{chap}' / f'p{pn}.alignment.json'
 
 
+def paragraph_treated_path(slug: str, lang: str, chap: int, pn: int) -> Path:
+    """v3: per-speaker treatment output (ffmpeg-filtered cache copy)."""
+    return WORK / slug / lang / f'c{chap}' / f'p{pn}.treated.mp3'
+
+
+def treatment_cache_key(filter_str: str) -> str:
+    """Short hash so a filter change invalidates the treated cache."""
+    if not filter_str:
+        return 'raw'
+    return hashlib.sha256(filter_str.encode('utf-8')).hexdigest()[:12]
+
+
+def apply_treatment(raw_path: Path, treated_path: Path, filter_str: str) -> Path:
+    """Run raw_path through `filter_str` and write to treated_path, preserving
+    the original input duration to within ~10 ms (so word timings stay valid).
+
+    The duration preservation uses `apad,atrim` after the user filter chain
+    to handle reverb-style filters that extend the audio with a decay tail
+    — pad to 1.5x the input duration first (covers any echo tail) then trim
+    back to the exact input duration. EQ-only chains see no audible change
+    from the apad/atrim wrap (it's a no-op when there's no tail).
+
+    Returns the path it wrote to. If filter_str is empty, returns raw_path
+    unchanged (no treatment).
+    """
+    if not filter_str:
+        return raw_path
+    raw_duration = ffprobe_duration(raw_path)
+    pad_duration = raw_duration * 1.5
+    # filter chain: user filter → apad (extend with silence beyond any tail)
+    #               → atrim to original duration → asetpts (rebase PTS)
+    full_chain = (
+        f'{filter_str},'
+        f'apad=whole_dur={pad_duration},'
+        f'atrim=0:{raw_duration},'
+        f'asetpts=PTS-STARTPTS'
+    )
+    treated_path.parent.mkdir(parents=True, exist_ok=True)
+    subprocess.run(
+        ['ffmpeg', '-y', '-loglevel', 'error',
+         '-i', str(raw_path),
+         '-af', full_chain,
+         '-acodec', 'libmp3lame', '-b:a', '128k',
+         str(treated_path)],
+        capture_output=True, check=True,
+    )
+    return treated_path
+
+
 def group_chars_to_words(alignment: dict, offset_seconds: float) -> list[dict]:
     """Collapse ElevenLabs char-level alignment into word-level timings.
 
@@ -252,19 +318,36 @@ def ffmpeg_silence(out_path: Path, duration_seconds: float):
     )
 
 
-def ffmpeg_concat(parts: list[Path], out_path: Path):
-    """Concatenate MP3 files into one. Uses concat demuxer (no re-encode)."""
+def ffmpeg_concat(parts: list[Path], out_path: Path, reencode: bool = False):
+    """Concatenate MP3 files into one.
+
+    When `reencode` is False (default), uses concat demuxer with `-c copy`
+    — fast, bit-exact stream copy. Works when all parts share encoder
+    metadata (e.g. v1/v2 pipeline where every paragraph comes straight
+    from ElevenLabs).
+
+    When `reencode` is True (used for v3 treatments), re-encodes through
+    libmp3lame on the way out. Required because mixing libmp3lame-encoded
+    treated paragraphs with raw ElevenLabs MP3s and silence inserts via
+    `-c copy` preserves each file's LAME encoder delay/padding (~100 ms
+    of silence at every boundary), causing the chapter's measured duration
+    to drift several seconds longer than the sum of its pieces — and
+    breaking word-timing sync. Re-encoding the concatenated stream
+    re-stitches frames without honoring the per-file padding.
+    """
     out_path.parent.mkdir(parents=True, exist_ok=True)
     list_file = out_path.with_suffix('.concat.txt')
     list_file.write_text('\n'.join(f"file '{p.resolve()}'" for p in parts) + '\n')
     try:
-        subprocess.run(
-            ['ffmpeg', '-y', '-f', 'concat', '-safe', '0',
-             '-i', str(list_file),
-             '-c', 'copy',
-             str(out_path)],
-            capture_output=True, check=True,
-        )
+        cmd = ['ffmpeg', '-y', '-loglevel', 'error',
+               '-f', 'concat', '-safe', '0',
+               '-i', str(list_file)]
+        if reencode:
+            cmd += ['-c:a', 'libmp3lame', '-b:a', '128k']
+        else:
+            cmd += ['-c', 'copy']
+        cmd += [str(out_path)]
+        subprocess.run(cmd, capture_output=True, check=True)
     finally:
         list_file.unlink(missing_ok=True)
 
@@ -279,8 +362,15 @@ def generate_chapter(
     api_key,
     dry_run=False,
     price_per_1k=0.30,
+    treatments_cfg=None,
 ):
-    """Generate audio for one chapter. Returns stats dict."""
+    """Generate audio for one chapter. Returns stats dict.
+
+    `treatments_cfg` is the per-speaker ffmpeg filter map from
+    treatments.yaml (v3). When provided, each paragraph is post-processed
+    through its speaker's filter chain before chapter concat, with the
+    output cached at p{n}.treated.mp3.
+    """
     sidecar = load_sidecar(slug, chap, lang)
     if not sidecar:
         return {'chars': 0, 'paragraphs': 0, 'skipped_paragraphs': 0,
@@ -290,6 +380,7 @@ def generate_chapter(
     para_speakers = {str(p['n']): p.get('speaker', 'Narrator')
                      for p in ch_source['paragraphs']}
 
+    treatments_cfg = treatments_cfg or {}
     model = voices_cfg.get('model', 'eleven_multilingual_v2')
     pause_default_ms = voices_cfg.get('pause_ms_between_paragraphs', 600)
     pause_speaker_ms = voices_cfg.get('pause_ms_between_speakers', 900)
@@ -382,6 +473,32 @@ def generate_chapter(
         # For dry-run, skip duration measurement (no audio file).
         if not dry_run and para_path.exists():
             duration = ffprobe_duration(para_path)
+            # v3: per-speaker treatment (if treatments.yaml provides one).
+            # Treated file is cached at p{n}.treated.mp3 keyed by the
+            # filter-chain hash, so a treatments.yaml edit invalidates only
+            # the affected speaker's treated cache.
+            filter_str = treatment_filter(treatments_cfg, speaker)
+            treated_path = paragraph_treated_path(slug, lang, chap, pn)
+            treated_meta_path = treated_path.with_suffix('.meta.json')
+            piece_path = para_path  # default: untreated
+            if filter_str:
+                tk = treatment_cache_key(filter_str)
+                treated_cached = False
+                if treated_path.exists() and treated_meta_path.exists():
+                    try:
+                        tmeta = json.loads(treated_meta_path.read_text())
+                        if tmeta.get('treatment_key') == tk:
+                            treated_cached = True
+                    except json.JSONDecodeError:
+                        pass
+                if not treated_cached:
+                    print(f'    treating ch{chap} p{pn} [{speaker}]: {filter_str[:60]}…')
+                    apply_treatment(para_path, treated_path, filter_str)
+                    treated_meta_path.write_text(json.dumps({
+                        'treatment_key': tk, 'speaker': speaker,
+                        'filter': filter_str,
+                    }, indent=2))
+                piece_path = treated_path
             # Insert silence before this paragraph (except first)
             if pieces:
                 pause_ms = pause_speaker_ms if speaker != prev_speaker else pause_default_ms
@@ -391,7 +508,7 @@ def generate_chapter(
                 silence_duration = ffprobe_duration(silence_path)
                 pieces.append(silence_path)
                 running_t += silence_duration
-            pieces.append(para_path)
+            pieces.append(piece_path)
             # Load alignment (if present) and group into words at the
             # chapter offset. Silence pauses already advanced running_t.
             words = []
@@ -422,10 +539,16 @@ def generate_chapter(
             'duration_seconds': running_t, 'estimated_cost': cost,
         }
 
-    # Concatenate per-chapter MP3 + write timing sidecar to assets repo
+    # Concatenate per-chapter MP3 + write timing sidecar to assets repo.
+    # v3: when any speaker has a treatment filter active, re-encode on
+    # concat (see ffmpeg_concat docstring for why `-c copy` loses sync
+    # across libmp3lame-treated MP3s).
     chapter_mp3 = ASSETS_AUDIO / lang / slug / f'c{chap}.mp3'
     chapter_timing = ASSETS_AUDIO / lang / slug / f'c{chap}.timing.json'
-    ffmpeg_concat(pieces, chapter_mp3)
+    any_treatment = any(
+        treatment_filter(treatments_cfg, s) for s in para_speakers.values()
+    )
+    ffmpeg_concat(pieces, chapter_mp3, reencode=any_treatment)
     chapter_timing.parent.mkdir(parents=True, exist_ok=True)
     chapter_timing.write_text(json.dumps({
         'book': slug, 'lang': lang, 'chapter': chap,
@@ -504,6 +627,7 @@ def main():
     args = ap.parse_args()
 
     voices_cfg = load_voices_config()
+    treatments_cfg = load_treatments_config()
     api_key = os.environ.get('ELEVENLABS_API_KEY')
     if not api_key and not args.dry_run:
         print('ELEVENLABS_API_KEY env var not set. Use --dry-run to estimate cost without an API key.',
@@ -515,6 +639,9 @@ def main():
 
     print(f'Book: {args.slug} | Lang: {args.lang} | Chapters: {chapters}')
     print(f'Model: {voices_cfg.get("model")} | Dry-run: {args.dry_run}')
+    if treatments_cfg:
+        treated_speakers = [s for s, cfg in treatments_cfg.items() if (cfg or {}).get('filter')]
+        print(f'Treatments: {", ".join(treated_speakers) or "none"}')
     print()
 
     grand_chars = 0
@@ -526,7 +653,8 @@ def main():
     for chap in chapters:
         print(f'=== Chapter {chap} ===')
         stats = generate_chapter(args.slug, chap, args.lang, voices_cfg, api_key,
-                                 dry_run=args.dry_run, price_per_1k=args.price_per_1k)
+                                 dry_run=args.dry_run, price_per_1k=args.price_per_1k,
+                                 treatments_cfg=treatments_cfg)
         if 'error' in stats:
             print(f'  ABORTED: {stats["error"]}')
             sys.exit(1)
