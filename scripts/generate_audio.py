@@ -577,6 +577,35 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
     book_dir = ASSETS_AUDIO / lang / slug
     if not book_dir.exists():
         return
+    # Load source chapter JSONs once so we can pull `title` for the
+    # manifest's chapter entries — the player uses it for the chapter
+    # jump overlay (v4.3). Tolerate missing files (no title shown).
+    chapter_titles = {}
+    src_root = LIB / slug
+    for src in src_root.glob('chapter-*.json'):
+        try:
+            n = int(src.stem.split('-')[1])
+            data = json.loads(src.read_text())
+            # Prefer the translated title for the requested language; fall
+            # back to the source-language title only if no translation
+            # exists. The chapter JSON shape is:
+            #   {title: <source-lang>, i18n: {en: ..., fr: ...}}
+            i18n_titles = data.get('i18n', {})
+            t = ''
+            if isinstance(i18n_titles, dict):
+                # i18n can be a flat {lang: title} or a nested structure;
+                # take whichever string matches the lang key.
+                cand = i18n_titles.get(lang)
+                if isinstance(cand, str):
+                    t = cand
+            if not t:
+                t = data.get('title', '') or ''
+            t = t.strip()
+            if t:
+                chapter_titles[n] = t
+        except (ValueError, json.JSONDecodeError):
+            continue
+
     chapters = []
     for timing_path in sorted(book_dir.glob('c*.timing.json'),
                               key=lambda p: int(p.stem.split('c')[1].split('.')[0])):
@@ -616,6 +645,8 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
             'paragraph_count': len(timing['paragraphs']),
             'formats': formats,
         }
+        if chap_n in chapter_titles:
+            chap_entry['title'] = chapter_titles[chap_n]
         if ambient_path.exists():
             chap_entry['ambient_url'] = f'audio/{lang}/{slug}/{ambient_name}'
         chapters.append(chap_entry)
