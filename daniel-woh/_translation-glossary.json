@@ -1,0 +1,74 @@
+{
+  "$schema": "../book-of-enoch-woh/_translation-glossary.json#",
+  "name": "daniel-woh-overlay",
+  "version": "1.1.0",
+  "released": "2026-06-07",
+  "description": "Per-translation overlay glossary for the Wheel of Heaven translation of Daniel. Holds composition-specific lexical decisions that don't warrant central-glossary entries.",
+  "sourceLanguages": [
+    "he",
+    "arc",
+    "grc"
+  ],
+  "terms": [
+    {
+      "id": "daniel-hebrew-aramaic-bilingual-witness-convention",
+      "claim_type": "direct",
+      "lemma": "Daniel Hebrew/Aramaic per-verse witness-attribution convention",
+      "rationale": "The Daniel translation tracks the bilingual structure transparently via per-verse text_lang ('he' for Hebrew 1:1-2:4a + 8-12; 'arc' for Aramaic 2:4b-7:28). The transition at 2:4b within a single verse is preserved as a within-verse lang transition (the verse 2:4 in source carries both Hebrew + Aramaic markers per BHS). DSS 4Q112 + 4Q113 confirm the bilingual structure was original."
+    },
+    {
+      "id": "mene-mene-tekel-upharsin-aramaic-transliteration-convention",
+      "claim_type": "direct",
+      "lemma": "MENE MENE TEKEL UPHARSIN preservation convention (transliterated Aramaic on surface)",
+      "rationale": "The four-word Aramaic oracle at Dan 5:25 (mənēʾ mənēʾ təqēl ūp̄arsīn) is preserved verbatim in transliteration on the translation surface — uppercase, four words. Commentary apparatus develops the triple-wordplay (weight-names; verb-readings of count/weigh/divide; PARSIN = both 'divided' AND 'Persians'). Aligns with Rembrandt + Western art-and-literature reception preservation."
+    },
+    {
+      "id": "ancient-of-days-attik-yomin-aramaic-title-preservation-convention",
+      "claim_type": "direct",
+      "lemma": "Ancient of Days (ʿAttiq Yomin) preservation convention",
+      "rationale": "Render the Aramaic Dan 7:9 theophanic title as 'Ancient of Days' on translation surface — the established scholarly + literary convention. Do NOT translate as 'Ancient One' (which loses the days/aeons sense) or 'the Eternal One' (which over-domesticates). Preserve the white-hair + flame-throne + wheels-of-fire iconography. Commentary apparatus develops the Rev 1:14 Christological-transfer reception."
+    },
+    {
+      "id": "son-of-man-bar-enash-lowercase-indefinite-convention",
+      "claim_type": "direct",
+      "lemma": "'one like a son of man' lowercase + indefinite convention at Dan 7:13",
+      "rationale": "Render the Aramaic kə-bar enash at Dan 7:13 as 'one like a son of man' — lowercase, with the kə- 'like a' preserved as indefinite-comparison. Do NOT render as 'one like the Son of Man' (definite article + capitalization), which pre-resolves to NT Christological identification. Commentary apparatus develops the NT reception + the corporate-vs-individual scholarly debate (Collins 1993 corporate-saints reading; Casey 1979 generic-human-being reading; Bauckham 2008 messianic-individual reading)."
+    },
+    {
+      "id": "anointed-one-mashiach-lowercase-non-christological-convention",
+      "claim_type": "direct",
+      "lemma": "'anointed one' (māšîaḥ) lowercase + non-Christological convention at Dan 9:25-26",
+      "rationale": "Render Hebrew māšîaḥ at Dan 9:25-26 as 'anointed one' — lowercase. Do NOT render as 'Messiah' or 'Christ' on translation surface — both would pre-resolve to NT Christological reception. The two distinct anointed-ones (after 7 weeks + after 62 weeks, per MT atnach punctuation) are preserved as distinct figures (Collins 1993 + Hartman-Di Lella 1978 reading: Cyrus or Joshua + Onias III). Commentary apparatus develops Christian-typological + Jewish-Messianic + dispensationalist receptions."
+    },
+    {
+      "id": "abomination-of-desolation-shiqquts-meshomem-preservation-convention",
+      "claim_type": "direct",
+      "lemma": "'abomination of desolation' (shiqquts meshomem) preservation convention",
+      "rationale": "Render the Hebrew shiqquts meshomem at Dan 9:27 + 11:31 + 12:11 as 'abomination of desolation' on translation surface. Do NOT render as 'desolating sacrilege' (NRSV) or 'desecrating sacrilege' (NEB) — both obscure the Mt 24:15 + Mk 13:14 NT-citation chain. The NT inheritance is the central cross-corpus payload of this phrase; preserving the NT quotation-form makes the cross-corpus visible to readers."
+    },
+    {
+      "id": "seventy-weeks-of-years-shavua-rendering-convention",
+      "claim_type": "direct",
+      "lemma": "'seventy weeks' rendering convention (do not expand to 'weeks of years' on surface)",
+      "rationale": "Render Hebrew šābūʿīm šibʿīm at Dan 9:24 as 'seventy weeks' on translation surface — do NOT expand to 'seventy weeks of years' (which pre-resolves the philological question by inserting the interpretive expansion). The metaphorical-weeks-as-years sense (7 weeks = 49 years = 10 jubilees) is preserved in commentary apparatus per the v2.69.0 entry. Preserve the MT atnach punctuation distinguishing the 7-weeks + 62-weeks structure — do NOT collapse into KJV/NIV '7 + 62 = 69' single period."
+    },
+    {
+      "id": "michael-mikhael-preservation-convention",
+      "claim_type": "direct",
+      "lemma": "Michael (Mîkāʾēl) preservation convention",
+      "rationale": "Preserve 'Michael' as a proper noun on translation surface. Preserve 'prince' (Hebrew sar) rather than 'archangel' (Greek archangelos) at the Daniel surface — 'archangel' is a Greek-translation + later NT (Jude 9 + 1 Thess 4:16) designation, not present in the Daniel Hebrew. The plurality-of-chief-princes framework (Dan 10:13 'one of the chief princes' + 10:20 prince of Persia + 10:20 prince of Greece + 10:21 'Michael your prince') is preserved on surface."
+    },
+    {
+      "id": "tekufah-iddanin-aramaic-time-formula-preservation-convention",
+      "claim_type": "direct",
+      "lemma": "Aramaic ʿiddān + plural + half-time formula preservation convention",
+      "rationale": "Preserve the Aramaic Dan 7:25 ʿiddān wə-ʿiddānīn ū-pəlag ʿiddān as 'a time, and times, and half a time' on translation surface (the established English idiom). Preserve the Hebrew parallel at Dan 12:7 lə-môʿēd môʿădîm wā-ḥēṣî identically. Do NOT translate as '3.5 years' (which pre-resolves the calendrical-arithmetic interpretation). Cross-corpus to Rev 11:2-3 + 12:6 + 12:14 + 13:5 NT inheritance preserved in commentary."
+    },
+    {
+      "id": "daniel-12-11-12-calendar-arithmetic-1290-1335-preservation-convention",
+      "claim_type": "direct",
+      "lemma": "Daniel 12:11-12 calendar-arithmetic (1290 + 1335 days) preservation convention",
+      "rationale": "Preserve the literal day-counts (1290 days from the abomination + 1335 days for the blessed one who waits) on translation surface without harmonization. Do NOT round to '3.5 years' or convert to months. The Maccabean-period referent (Antiochene desecration 167 BCE + rededication ca. 164 BCE) is preserved in commentary apparatus per Collins 1993. The Christian-dispensationalist + millennialist receptions are also preserved in apparatus, not resolved on surface."
+    }
+  ]
+}
