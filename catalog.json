@@ -23,24 +23,73 @@
       "icon": "message-circle"
     },
     {
-      "id": "biblical",
-      "code": "BIB",
+      "id": "hebrew-bible",
+      "code": "TANAKH",
       "name": {
-        "en": "Biblical Texts",
-        "fr": "Textes Bibliques",
-        "de": "Biblische Texte",
-        "es": "Textos Bíblicos",
-        "ja": "聖書テキスト",
-        "zh": "圣经文本",
-        "ru": "Библейские тексты",
-        "ko": "성경 본문"
+        "en": "Hebrew Bible",
+        "fr": "Bible hébraïque",
+        "de": "Hebräische Bibel",
+        "es": "Biblia hebrea",
+        "ja": "ヘブライ語聖書",
+        "zh": "希伯来圣经",
+        "zh-Hant": "希伯來聖經",
+        "ru": "Еврейская Библия",
+        "ko": "히브리어 성경",
+        "he": "תַּנַ״ךְ"
       },
       "description": {
-        "en": "Canonical biblical scriptures from Hebrew, Christian, and related traditions, interpreted through the lens of the ancient astronaut hypothesis.",
-        "fr": "Écritures bibliques canoniques des traditions hébraïque, chrétienne et connexes, interprétées à travers le prisme de l'hypothèse des anciens astronautes."
+        "en": "The Tanakh — the Hebrew Bible: Torah, Nevi'im (Prophets), and Ketuvim (Writings). Interpreted through the Wheel of Heaven framework.",
+        "fr": "Le Tanakh — la Bible hébraïque : Torah, Nevi'im (Prophètes) et Ketuvim (Écrits). Interprétée à travers le cadre de Wheel of Heaven.",
+        "de": "Der Tanach — die Hebräische Bibel: Tora, Nevi'im (Propheten) und Ketuvim (Schriften). Im Rahmen von Wheel of Heaven gelesen."
       },
       "order": 2,
       "icon": "book-open"
+    },
+    {
+      "id": "christian",
+      "code": "NT",
+      "name": {
+        "en": "Christian Texts",
+        "fr": "Textes chrétiens",
+        "de": "Christliche Texte",
+        "es": "Textos cristianos",
+        "ja": "キリスト教テキスト",
+        "zh": "基督教文本",
+        "zh-Hant": "基督教文本",
+        "ru": "Христианские тексты",
+        "ko": "기독교 본문",
+        "he": "כתבים נוצריים"
+      },
+      "description": {
+        "en": "The Greek New Testament — Gospels, Acts, Pauline letters, the general epistles, and Revelation. Interpreted through the Wheel of Heaven framework.",
+        "fr": "Le Nouveau Testament grec — Évangiles, Actes, lettres pauliniennes, épîtres générales et Apocalypse. Interprété à travers le cadre de Wheel of Heaven.",
+        "de": "Das griechische Neue Testament — Evangelien, Apostelgeschichte, Paulusbriefe, katholische Briefe und Offenbarung. Im Rahmen von Wheel of Heaven gelesen."
+      },
+      "order": 3,
+      "icon": "circling-fish"
+    },
+    {
+      "id": "judaic",
+      "code": "JEW",
+      "name": {
+        "en": "Judaic Texts",
+        "fr": "Textes judaïques",
+        "de": "Judaische Texte",
+        "es": "Textos judaicos",
+        "ja": "ユダヤ教テキスト",
+        "zh": "犹太教文本",
+        "zh-Hant": "猶太教文本",
+        "ru": "Иудаические тексты",
+        "ko": "유대교 본문",
+        "he": "כתבים יהודיים"
+      },
+      "description": {
+        "en": "Post-biblical Jewish literature — Mishnah, Talmud, midrash, and related rabbinic + medieval Jewish texts. Reserved; no entries yet.",
+        "fr": "Littérature juive post-biblique — Mishna, Talmud, midrash et autres textes rabbiniques et médiévaux juifs. Réservé ; aucune entrée pour le moment.",
+        "de": "Nachbiblische jüdische Literatur — Mischna, Talmud, Midrasch und verwandte rabbinische und mittelalterliche jüdische Texte. Reserviert; noch keine Einträge."
+      },
+      "order": 4,
+      "icon": "scroll-unfurled"
     },
     {
       "id": "ancient-astronaut",
@@ -59,7 +108,7 @@
         "en": "Key texts from researchers and authors who have contributed to the ancient astronaut hypothesis and related fields.",
         "fr": "Textes clés de chercheurs et d'auteurs ayant contribué à l'hypothèse des anciens astronautes et domaines connexes."
       },
-      "order": 3,
+      "order": 5,
       "icon": "rocket"
     },
     {
@@ -79,7 +128,7 @@
         "en": "Non-canonical religious texts that provide additional context and perspectives on ancient narratives.",
         "fr": "Textes religieux non canoniques qui fournissent un contexte et des perspectives supplémentaires sur les récits anciens."
       },
-      "order": 4,
+      "order": 6,
       "icon": "scroll"
     },
     {
@@ -95,7 +144,7 @@
       "description": {
         "en": "The Qur'an and related Islamic scriptures, explored in comparative dialogue with the Raëlian canon."
       },
-      "order": 5,
+      "order": 7,
       "icon": "moon"
     },
     {
@@ -107,7 +156,7 @@
       "description": {
         "en": "Ancient Sumerian, Akkadian, and Babylonian texts including creation epics, flood narratives, and kingship records."
       },
-      "order": 6,
+      "order": 8,
       "icon": "layers"
     },
     {
@@ -119,7 +168,7 @@
       "description": {
         "en": "Scriptures of the Latter Day Saint movement, including the Book of Mormon."
       },
-      "order": 7,
+      "order": 9,
       "icon": "book"
     },
     {
@@ -131,7 +180,7 @@
       "description": {
         "en": "The Hermetic corpus and related esoteric philosophical works."
       },
-      "order": 8,
+      "order": 10,
       "icon": "star"
     },
     {
@@ -143,7 +192,7 @@
       "description": {
         "en": "Ancient Egyptian funerary and cosmological texts."
       },
-      "order": 9,
+      "order": 11,
       "icon": "sun"
     },
     {
@@ -156,7 +205,7 @@
       "description": {
         "en": "Ancient Indian hymns and philosophical texts from the Vedic tradition."
       },
-      "order": 10,
+      "order": 12,
       "icon": "flame"
     },
     {
@@ -168,7 +217,7 @@
       "description": {
         "en": "Late Bronze Age Northwest-Semitic mythological and ritual literature from the eastern Mediterranean littoral, principally the Ugaritic corpus from Ras Shamra (Baal Cycle, Aqhat, Kirta) — the primary comparative-mythology nexus for Hebrew Bible scholarship on the El/Baal/Yamm/Mot pantheon and the Chaoskampf storm-god tradition."
       },
-      "order": 11,
+      "order": 13,
       "icon": "waves"
     },
     {
@@ -181,7 +230,7 @@
       "description": {
         "en": "Jewish esoteric and mystical literature, encompassing the Hekhalot/Merkavah throne-and-chariot mysticism of late antiquity (Shi'ur Qomah, Hekhalot Rabbati, Hekhalot Zutarti, Ma'aseh Merkavah, 3 Enoch / Sefer Hekhalot — the proto-Kabbalistic precursor stream, 3rd–9th c. CE), the early medieval primers (Sefer Yetzirah, Sefer Bahir, 12th c.), classical theosophical Kabbalah (Zohar, 13th c.), and the Lurianic system (16th c. Safed). Includes the magical-name traditions, divine-body anthropomorphism, sefirot cosmology, and the cosmic-restoration (tikkun olam) framework."
       },
-      "order": 12,
+      "order": 14,
       "icon": "hexagram"
     }
   ],
@@ -682,7 +731,7 @@
     {
       "slug": "genesis",
       "code": "GEN",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 1,
       "author": "Traditional (Moses)",
@@ -723,7 +772,7 @@
     {
       "slug": "exodus",
       "code": "EXO",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 2,
       "author": "Traditional (Moses)",
@@ -762,7 +811,7 @@
     {
       "slug": "leviticus",
       "code": "LEV",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 3,
       "author": "Traditional (Moses)",
@@ -801,7 +850,7 @@
     {
       "slug": "numbers",
       "code": "NUM",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 4,
       "author": "Traditional (Moses)",
@@ -840,7 +889,7 @@
     {
       "slug": "deuteronomy",
       "code": "DEU",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 5,
       "author": "Traditional (Moses)",
@@ -879,7 +928,7 @@
     {
       "slug": "joshua",
       "code": "JOS",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 6,
       "author": "Traditional",
@@ -916,7 +965,7 @@
     {
       "slug": "judges",
       "code": "JDG",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 7,
       "author": "Traditional",
@@ -955,7 +1004,7 @@
     {
       "slug": "ruth",
       "code": "RUT",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 8,
       "author": "Traditional",
@@ -993,7 +1042,7 @@
     {
       "slug": "1-samuel",
       "code": "1SA",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 9,
       "author": "Traditional",
@@ -1032,7 +1081,7 @@
     {
       "slug": "2-samuel",
       "code": "2SA",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 10,
       "author": "Traditional",
@@ -1069,7 +1118,7 @@
     {
       "slug": "1-kings",
       "code": "1KI",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 11,
       "author": "Traditional",
@@ -1106,7 +1155,7 @@
     {
       "slug": "2-kings",
       "code": "2KI",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 12,
       "author": "Traditional",
@@ -1143,7 +1192,7 @@
     {
       "slug": "isaiah",
       "code": "ISA",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 13,
       "author": "Traditional",
@@ -1181,7 +1230,7 @@
     {
       "slug": "jeremiah",
       "code": "JER",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 14,
       "author": "Traditional",
@@ -1218,7 +1267,7 @@
     {
       "slug": "ezekiel",
       "code": "EZK",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 15,
       "author": "Traditional",
@@ -1257,7 +1306,7 @@
     {
       "slug": "psalms",
       "code": "PSA",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 16,
       "author": "Traditional",
@@ -1296,7 +1345,7 @@
     {
       "slug": "proverbs",
       "code": "PRO",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 17,
       "author": "Traditional",
@@ -1333,7 +1382,7 @@
     {
       "slug": "job",
       "code": "JOB",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 18,
       "author": "Traditional",
@@ -1370,7 +1419,7 @@
     {
       "slug": "song-of-solomon",
       "code": "SOS",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 19,
       "author": "Traditional",
@@ -1406,7 +1455,7 @@
     {
       "slug": "ecclesiastes",
       "code": "ECC",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 20,
       "author": "Traditional",
@@ -1443,7 +1492,7 @@
     {
       "slug": "lamentations",
       "code": "LAM",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 21,
       "author": "Traditional",
@@ -1479,7 +1528,7 @@
     {
       "slug": "esther",
       "code": "EST",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 22,
       "author": "Traditional",
@@ -1516,7 +1565,7 @@
     {
       "slug": "daniel",
       "code": "DAN",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 23,
       "author": "Traditional",
@@ -1553,7 +1602,7 @@
     {
       "slug": "ezra",
       "code": "EZR",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 24,
       "author": "Traditional",
@@ -1590,7 +1639,7 @@
     {
       "slug": "nehemiah",
       "code": "NEH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 25,
       "author": "Traditional",
@@ -1627,7 +1676,7 @@
     {
       "slug": "1-chronicles",
       "code": "1CH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 26,
       "author": "Traditional",
@@ -1664,7 +1713,7 @@
     {
       "slug": "2-chronicles",
       "code": "2CH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 27,
       "author": "Traditional",
@@ -1701,7 +1750,7 @@
     {
       "slug": "hosea",
       "code": "HOS",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 28,
       "author": "Traditional",
@@ -1737,7 +1786,7 @@
     {
       "slug": "joel",
       "code": "JOL",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 29,
       "author": "Traditional",
@@ -1773,7 +1822,7 @@
     {
       "slug": "amos",
       "code": "AMO",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 30,
       "author": "Traditional",
@@ -1809,7 +1858,7 @@
     {
       "slug": "obadiah",
       "code": "OBA",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 31,
       "author": "Traditional",
@@ -1844,7 +1893,7 @@
     {
       "slug": "jonah",
       "code": "JNA",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 32,
       "author": "Traditional",
@@ -1881,7 +1930,7 @@
     {
       "slug": "micah",
       "code": "MIC",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 33,
       "author": "Traditional",
@@ -1917,7 +1966,7 @@
     {
       "slug": "nahum",
       "code": "NAH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 34,
       "author": "Traditional",
@@ -1952,7 +2001,7 @@
     {
       "slug": "habakkuk",
       "code": "HAB",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 35,
       "author": "Traditional",
@@ -1988,7 +2037,7 @@
     {
       "slug": "zephaniah",
       "code": "ZEP",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "hebrew-bible",
       "order": 36,
       "author": "Traditional",
@@ -2062,7 +2111,7 @@
     {
       "slug": "matthew",
       "code": "MAT",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 1,
       "author": "Traditional",
@@ -2090,7 +2139,7 @@
     {
       "slug": "mark",
       "code": "MRK",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 2,
       "author": "Traditional",
@@ -2118,7 +2167,7 @@
     {
       "slug": "luke",
       "code": "LUK",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 3,
       "author": "Traditional",
@@ -2146,7 +2195,7 @@
     {
       "slug": "john",
       "code": "JHN",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 4,
       "author": "Traditional",
@@ -2174,7 +2223,7 @@
     {
       "slug": "acts",
       "code": "ACT",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 5,
       "author": "Traditional",
@@ -2202,7 +2251,7 @@
     {
       "slug": "romans",
       "code": "ROM",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 6,
       "author": "Traditional",
@@ -2230,7 +2279,7 @@
     {
       "slug": "1-corinthians",
       "code": "1CO",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 7,
       "author": "Traditional",
@@ -2258,7 +2307,7 @@
     {
       "slug": "2-corinthians",
       "code": "2CO",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 8,
       "author": "Traditional",
@@ -2286,7 +2335,7 @@
     {
       "slug": "galatians",
       "code": "GAL",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 9,
       "author": "Traditional",
@@ -2314,7 +2363,7 @@
     {
       "slug": "ephesians",
       "code": "EPH",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 10,
       "author": "Traditional",
@@ -2342,7 +2391,7 @@
     {
       "slug": "philippians",
       "code": "PHP",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 11,
       "author": "Traditional",
@@ -2370,7 +2419,7 @@
     {
       "slug": "colossians",
       "code": "COL",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 12,
       "author": "Traditional",
@@ -2398,7 +2447,7 @@
     {
       "slug": "1-thessalonians",
       "code": "1TH",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 13,
       "author": "Traditional",
@@ -2426,7 +2475,7 @@
     {
       "slug": "2-thessalonians",
       "code": "2TH",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 14,
       "author": "Traditional",
@@ -2454,7 +2503,7 @@
     {
       "slug": "1-timothy",
       "code": "1TI",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 15,
       "author": "Traditional",
@@ -2482,7 +2531,7 @@
     {
       "slug": "2-timothy",
       "code": "2TI",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 16,
       "author": "Traditional",
@@ -2510,7 +2559,7 @@
     {
       "slug": "titus",
       "code": "TIT",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 17,
       "author": "Traditional",
@@ -2538,7 +2587,7 @@
     {
       "slug": "philemon",
       "code": "PHM",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 18,
       "author": "Traditional",
@@ -2566,7 +2615,7 @@
     {
       "slug": "hebrews",
       "code": "HEB",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 19,
       "author": "Traditional",
@@ -2594,7 +2643,7 @@
     {
       "slug": "james",
       "code": "JAS",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 20,
       "author": "Traditional",
@@ -2622,7 +2671,7 @@
     {
       "slug": "1-peter",
       "code": "1PE",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 21,
       "author": "Traditional",
@@ -2650,7 +2699,7 @@
     {
       "slug": "2-peter",
       "code": "2PE",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 22,
       "author": "Traditional",
@@ -2678,7 +2727,7 @@
     {
       "slug": "1-john",
       "code": "1JN",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 23,
       "author": "Traditional",
@@ -2706,7 +2755,7 @@
     {
       "slug": "2-john",
       "code": "2JN",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 24,
       "author": "Traditional",
@@ -2734,7 +2783,7 @@
     {
       "slug": "3-john",
       "code": "3JN",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 25,
       "author": "Traditional",
@@ -2762,7 +2811,7 @@
     {
       "slug": "jude",
       "code": "JUD",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 26,
       "author": "Traditional",
@@ -2790,7 +2839,7 @@
     {
       "slug": "revelation",
       "code": "REV",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "new-testament",
       "order": 27,
       "author": "Traditional",
@@ -3744,7 +3793,7 @@
     {
       "slug": "genesis-woh",
       "code": "GEN-WOH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "woh-translations",
       "order": 1,
       "author": "Wheel of Heaven Translation Program",
@@ -3788,7 +3837,7 @@
     {
       "slug": "daniel-woh",
       "code": "DAN-WOH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "ketuvim",
       "originalTitle": "ספר דניאל (Sefer Daniel)",
       "originalLang": "he",
@@ -3814,7 +3863,7 @@
     {
       "slug": "exodus-woh",
       "code": "EXO-WOH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "woh-translations",
       "order": 2,
       "author": "Wheel of Heaven Translation Program",
@@ -3860,7 +3909,7 @@
     {
       "slug": "ezekiel-woh",
       "code": "EZK-WOH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "woh-translations",
       "order": 3,
       "author": "Wheel of Heaven Translation Program",
@@ -3907,7 +3956,7 @@
     {
       "slug": "isaiah-woh",
       "code": "ISA-WOH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "woh-translations",
       "order": 4,
       "author": "Wheel of Heaven Translation Program",
@@ -3948,7 +3997,7 @@
     {
       "slug": "job-woh",
       "code": "JOB-WOH",
-      "tradition": "biblical",
+      "tradition": "hebrew-bible",
       "collection": "woh-translations",
       "order": 5,
       "author": "Wheel of Heaven Translation Program",
@@ -3990,7 +4039,7 @@
     {
       "slug": "matthew-woh",
       "code": "MAT-WOH",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "woh-translations",
       "order": 1,
       "author": "Wheel of Heaven Translation Program",
@@ -4033,7 +4082,7 @@
     {
       "slug": "revelation-woh",
       "code": "REV-WOH",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "woh-translations",
       "order": 5,
       "author": "Wheel of Heaven Translation Program",
@@ -4082,7 +4131,7 @@
     {
       "slug": "mark-woh",
       "code": "MRK-WOH",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "woh-translations",
       "order": 2,
       "author": "Wheel of Heaven Translation Program",
@@ -4130,7 +4179,7 @@
     {
       "slug": "luke-woh",
       "code": "LUK-WOH",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "woh-translations",
       "order": 3,
       "author": "Wheel of Heaven Translation Program",
@@ -4178,7 +4227,7 @@
     {
       "slug": "acts-woh",
       "code": "ACT-WOH",
-      "tradition": "biblical",
+      "tradition": "christian",
       "collection": "woh-translations",
       "order": 4,
       "author": "Wheel of Heaven Translation Program",
