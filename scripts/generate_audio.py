@@ -379,11 +379,18 @@ def generate_chapter(
     ch_source = load_chapter(slug, chap)
     para_speakers = {str(p['n']): p.get('speaker', 'Narrator')
                      for p in ch_source['paragraphs']}
+    # Per-paragraph `kind` (see docs Audio Play Cue Sheets). Absent = body.
+    # Title  → longer lead-pause; the heading reads as a section break.
+    # Continuation → no inter-paragraph silence; the split quotation flows
+    # as a single utterance.
+    para_kinds = {str(p['n']): p.get('kind', 'body')
+                  for p in ch_source['paragraphs']}
 
     treatments_cfg = treatments_cfg or {}
     model = voices_cfg.get('model', 'eleven_multilingual_v2')
     pause_default_ms = voices_cfg.get('pause_ms_between_paragraphs', 600)
     pause_speaker_ms = voices_cfg.get('pause_ms_between_speakers', 900)
+    pause_title_ms = voices_cfg.get('pause_ms_before_title', 1500)
     use_ssml = voices_cfg.get('use_ssml_phoneme', True)
 
     # Iterate paragraphs in order
@@ -499,9 +506,18 @@ def generate_chapter(
                         'filter': filter_str,
                     }, indent=2))
                 piece_path = treated_path
-            # Insert silence before this paragraph (except first)
-            if pieces:
-                pause_ms = pause_speaker_ms if speaker != prev_speaker else pause_default_ms
+            # Insert silence before this paragraph (except first). Kind
+            # overrides the speaker-aware default:
+            #   - continuation: zero silence (TTS-concat with previous)
+            #   - title:        longer lead-pause (section break)
+            #   - body:         speaker change → pause_speaker_ms,
+            #                   same speaker → pause_default_ms
+            kind = para_kinds.get(pn_str, 'body')
+            if pieces and kind != 'continuation':
+                if kind == 'title':
+                    pause_ms = pause_title_ms
+                else:
+                    pause_ms = pause_speaker_ms if speaker != prev_speaker else pause_default_ms
                 silence_path = WORK / 'silence' / f'{pause_ms}ms.mp3'
                 if not silence_path.exists():
                     ffmpeg_silence(silence_path, pause_ms / 1000.0)
@@ -523,6 +539,8 @@ def generate_chapter(
                 'start': round(running_t, 3),
                 'end': round(running_t + duration, 3),
             }
+            if kind != 'body':
+                entry['kind'] = kind
             if words:
                 entry['words'] = words
             paragraph_timings.append(entry)
