@@ -490,11 +490,16 @@ def generate_chapter(
             piece_path = para_path  # default: untreated
             if filter_str:
                 tk = treatment_cache_key(filter_str)
+                # The treated cache must be keyed on BOTH the filter chain
+                # AND the source audio's cache key. Keying on the filter
+                # alone caused the Phoenix-recast bug: a voice swap
+                # re-rendered the raw p{n}.mp3 but the stale treated file
+                # (old voice) still matched and got concatenated.
                 treated_cached = False
                 if treated_path.exists() and treated_meta_path.exists():
                     try:
                         tmeta = json.loads(treated_meta_path.read_text())
-                        if tmeta.get('treatment_key') == tk:
+                        if tmeta.get('treatment_key') == tk and tmeta.get('source_key') == key:
                             treated_cached = True
                     except json.JSONDecodeError:
                         pass
@@ -502,7 +507,7 @@ def generate_chapter(
                     print(f'    treating ch{chap} p{pn} [{speaker}]: {filter_str[:60]}…')
                     apply_treatment(para_path, treated_path, filter_str)
                     treated_meta_path.write_text(json.dumps({
-                        'treatment_key': tk, 'speaker': speaker,
+                        'treatment_key': tk, 'source_key': key, 'speaker': speaker,
                         'filter': filter_str,
                     }, indent=2))
                 piece_path = treated_path
