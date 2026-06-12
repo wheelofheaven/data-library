@@ -1,0 +1,36 @@
+# Audio-play manifest for The Book Which Tells the Truth (TBWTT).
+# Book-level production config — see docs.wheelofheaven.world
+# Audio Play Cue Sheets for the full schema. Phase 3 scope: intro only.
+
+schema: 1
+book: the-book-which-tells-the-truth
+
+# Audio Play Intro — a scripted opener that runs BEFORE chapter 1's
+# first paragraph. NOT part of the source text. The intro narrator
+# (AudioplayNarrator → Jarnathan) sits outside the audio play's
+# fictional frame: the in-text Narrator IS Raël writing after the
+# fact, while this voice tells the listener what they're about to
+# hear. Text is language-keyed; languages without an entry get no
+# intro (their render simply starts at paragraph 1).
+intro:
+  speaker: AudioplayNarrator
+  pre_pause_ms: 1000
+  post_pause_ms: 2000
+  text:
+    en: |
+      The Book Which Tells the Truth, by Raël. First published in
+      French in 1974. This is a Wheel of Heaven audio play.
+
+      In December 1973, the French journalist and racing driver
+      Claude Vorilhon — Raël — reports a series of encounters with
+      an extraterrestrial being named Yahweh, inside a volcanic
+      crater in central France. Over six mornings, Yahweh reads the
+      Bible with him line by line, and teaches him that life on
+      Earth was created in laboratories by a human civilization
+      from another planet: the Elohim.
+
+      You will hear three voices. Raël as the narrator, writing
+      after the encounters ended, looking back. Raël inside the
+      encounters, asking his questions in real time. And Yahweh,
+      teaching — his voice carries a subtle hall reverb to mark his
+      off-world origin. The book begins now.

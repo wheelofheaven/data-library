@@ -33,3 +33,16 @@ scenes:
     # No sfx_at_start for this scene — the entry into Yahweh's section
     # is musically marked by his voice change (Marcel → Jon) which is
     # itself the scene transition signal.
+
+  # The Elohim home planet's surface — ETTMTP ch2's paradise sequence
+  # (clearings, perfumed vegetation, the eternals' residence). Outdoor
+  # counterpart to elohim-vessel: gentle warm breeze and sparse exotic
+  # birdsong, no machinery. Subtle; the voice always carries.
+  elohim-planet:
+    description: |
+      Outdoors on the Elohim planet: a warm paradise garden.
+      Soft breeze through lush vegetation, occasional distant
+      exotic birdsong, no machinery, no human voices.
+    ambient_prompt: "gentle warm breeze through lush tropical vegetation, sparse distant exotic birdsong, peaceful paradise garden ambience, no voices, no melody, looping seamless ambient texture"
+    ambient_duration_seconds: 30
+    gain_db: -18

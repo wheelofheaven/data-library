@@ -354,6 +354,14 @@ def ffmpeg_concat(parts: list[Path], out_path: Path, reencode: bool = False):
 
 # ===== Main per-chapter generation =====
 
+def load_audioplay_manifest(slug: str) -> dict:
+    """Load {slug}/audioplay/manifest.yaml (Phase 3+). {} if absent."""
+    path = LIB / slug / 'audioplay' / 'manifest.yaml'
+    if not path.exists():
+        return {}
+    return yaml.safe_load(path.read_text()) or {}
+
+
 def generate_chapter(
     slug,
     chap,
@@ -363,6 +371,7 @@ def generate_chapter(
     dry_run=False,
     price_per_1k=0.30,
     treatments_cfg=None,
+    audioplay_cfg=None,
 ):
     """Generate audio for one chapter. Returns stats dict.
 
@@ -370,6 +379,14 @@ def generate_chapter(
     treatments.yaml (v3). When provided, each paragraph is post-processed
     through its speaker's filter chain before chapter concat, with the
     output cached at p{n}.treated.mp3.
+
+    `audioplay_cfg` is {slug}/audioplay/manifest.yaml (Phase 3). When it
+    carries an intro with text for this lang, chapter 1 gets the scripted
+    opener rendered as a "p0" clip before its first paragraph:
+    [pre_pause, intro, post_pause, p1, …]. The intro is voiced by the
+    manifest's speaker (AudioplayNarrator) and is NOT part of the source
+    text — the timing sidecar carries it as n=0 / kind="intro" so players
+    can skip or label it; there is no DOM paragraph to highlight.
     """
     sidecar = load_sidecar(slug, chap, lang)
     if not sidecar:
@@ -402,6 +419,90 @@ def generate_chapter(
     skipped_paragraphs = 0
     prev_speaker = None
     running_t = 0.0
+    suppress_next_auto_pause = False
+
+    # --- Audio Play Intro (Phase 3) — chapter 1 only ---
+    intro_cfg = (audioplay_cfg or {}).get('intro') or {}
+    intro_text = (intro_cfg.get('text') or {}).get(lang, '').strip()
+    if chap == 1 and intro_text:
+        intro_speaker = intro_cfg.get('speaker', 'AudioplayNarrator')
+        intro_pre_ms = intro_cfg.get('pre_pause_ms', 1000)
+        intro_post_ms = intro_cfg.get('post_pause_ms', 2000)
+        try:
+            intro_voice, intro_settings = resolve_voice(voices_cfg, intro_speaker, lang)
+        except ValueError as e:
+            if not dry_run:
+                print(f'  ERROR intro: {e}', file=sys.stderr)
+                return {'chars': 0, 'error': str(e)}
+            intro_voice, intro_settings = '<unset>', {
+                'stability': 0.5, 'similarity_boost': 0.75, 'style': 0.0,
+                'use_speaker_boost': True}
+        intro_api_text = apply_ssml(intro_text, lang) if use_ssml else intro_text
+        intro_key = cache_key(intro_api_text, intro_voice, intro_settings, model)
+        intro_path = paragraph_audio_path(slug, lang, chap, 0)
+        intro_meta_path = paragraph_meta_path(slug, lang, chap, 0)
+        intro_align_path = paragraph_alignment_path(slug, lang, chap, 0)
+        intro_cached = False
+        if intro_meta_path.exists() and intro_path.exists():
+            try:
+                old = json.loads(intro_meta_path.read_text())
+                intro_cached = old.get('key') == intro_key
+            except json.JSONDecodeError:
+                pass
+        chars_total += len(intro_api_text)
+        if intro_cached:
+            cached_paragraphs += 1
+        else:
+            new_paragraphs += 1
+            if not dry_run:
+                if not api_key:
+                    print('  ERROR intro: ELEVENLABS_API_KEY not set', file=sys.stderr)
+                    return {'chars': chars_total, 'error': 'API key not set'}
+                print(f'  ch{chap} p0/intro [{intro_speaker}] ({len(intro_api_text)} chars) → API (ts) …')
+                audio_bytes, alignment = call_elevenlabs(
+                    intro_api_text, intro_voice, intro_settings, model, api_key)
+                intro_path.parent.mkdir(parents=True, exist_ok=True)
+                intro_path.write_bytes(audio_bytes)
+                intro_align_path.write_text(json.dumps(alignment, ensure_ascii=False))
+                intro_meta_path.write_text(json.dumps({
+                    'key': intro_key, 'speaker': intro_speaker,
+                    'voice_id': intro_voice, 'chars': len(intro_api_text),
+                    'model': model, 'endpoint': 'with-timestamps',
+                    'api_text': intro_api_text,
+                }, indent=2))
+        if not dry_run and intro_path.exists():
+            # Pre-pause → intro → post-pause. The first real paragraph
+            # then suppresses its automatic speaker-change pause so the
+            # gap before p1 is exactly post_pause_ms.
+            pre_silence = WORK / 'silence' / f'{intro_pre_ms}ms.mp3'
+            if not pre_silence.exists():
+                ffmpeg_silence(pre_silence, intro_pre_ms / 1000.0)
+            pieces.append(pre_silence)
+            running_t += ffprobe_duration(pre_silence)
+            intro_duration = ffprobe_duration(intro_path)
+            intro_entry = {
+                'n': 0, 'speaker': intro_speaker, 'kind': 'intro',
+                'start': round(running_t, 3),
+                'end': round(running_t + intro_duration, 3),
+            }
+            if intro_align_path.exists():
+                try:
+                    alignment = json.loads(intro_align_path.read_text())
+                    words = group_chars_to_words(alignment, running_t)
+                    if words:
+                        intro_entry['words'] = words
+                except (json.JSONDecodeError, KeyError):
+                    pass
+            pieces.append(intro_path)
+            running_t += intro_duration
+            paragraph_timings.append(intro_entry)
+            post_silence = WORK / 'silence' / f'{intro_post_ms}ms.mp3'
+            if not post_silence.exists():
+                ffmpeg_silence(post_silence, intro_post_ms / 1000.0)
+            pieces.append(post_silence)
+            running_t += ffprobe_duration(post_silence)
+            suppress_next_auto_pause = True
+            prev_speaker = intro_speaker
 
     para_keys = sorted(sidecar.keys(), key=int)
 
@@ -518,7 +619,10 @@ def generate_chapter(
             #   - body:         speaker change → pause_speaker_ms,
             #                   same speaker → pause_default_ms
             kind = para_kinds.get(pn_str, 'body')
-            if pieces and kind != 'continuation':
+            if suppress_next_auto_pause:
+                # The intro's post_pause already provided the gap.
+                suppress_next_auto_pause = False
+            elif pieces and kind != 'continuation':
                 if kind == 'title':
                     pause_ms = pause_title_ms
                 else:
@@ -720,11 +824,17 @@ def main():
     grand_new = 0
     grand_cached = 0
 
+    audioplay_cfg = load_audioplay_manifest(args.slug)
+    if audioplay_cfg.get('intro'):
+        langs_with_intro = sorted((audioplay_cfg['intro'].get('text') or {}).keys())
+        print(f'audioplay manifest: intro present (langs: {", ".join(langs_with_intro)})')
+
     for chap in chapters:
         print(f'=== Chapter {chap} ===')
         stats = generate_chapter(args.slug, chap, args.lang, voices_cfg, api_key,
                                  dry_run=args.dry_run, price_per_1k=args.price_per_1k,
-                                 treatments_cfg=treatments_cfg)
+                                 treatments_cfg=treatments_cfg,
+                                 audioplay_cfg=audioplay_cfg)
         if 'error' in stats:
             print(f'  ABORTED: {stats["error"]}')
             sys.exit(1)
