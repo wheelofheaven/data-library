@@ -49,7 +49,8 @@ def is_title_candidate(p: dict) -> bool:
         return False
     if text[-1] in TERMINAL:
         return False
-    if text.endswith(","):
+    # Trailing colon = speech tag ("My guide then spoke:"), not a heading.
+    if text.endswith((",", ":", ";")):
         return False
     return True
 

@@ -26,7 +26,7 @@ CITATION_WORKS = [
     'Esaïe', 'Isaïe', 'Jérémie', 'Lamentations', 'Ezéchiel', 'Daniel',
     'Osée', 'Joël', 'Amos', 'Abdias', 'Jonas', 'Michée', 'Nahum', 'Habacuc',
     'Sophonie', 'Aggée', 'Zacharie', 'Malachie',
-    'Matthieu', 'Marc', 'Luc', 'Jean', 'Actes', 'Romains', 'Corinthiens',
+    'Matthieu', 'Mathieu', 'Marc', 'Luc', 'Jean', 'Actes', 'Romains', 'Corinthiens',
     'Galates', 'Éphésiens', 'Ephésiens', 'Philippiens', 'Colossiens',
     'Thessaloniciens', 'Thess', 'Timothée', 'Tite', 'Philémon', 'Hébreux',
     'Jacques', 'Pierre', 'Apocalypse',
@@ -38,16 +38,52 @@ CITATION_WORKS = [
     'Matthew', 'Mark', 'Luke', 'John', 'Acts', 'Romans', 'Corinthians',
     'Galatians', 'Ephesians', 'Philippians', 'Colossians', 'Thessalonians',
     'Timothy', 'Titus', 'Philemon', 'Hebrews', 'James', 'Peter', 'Revelation',
+    # Biblical (EN forms) — minor prophets + deuterocanon that the first
+    # pass missed (they leaked "(Zechariah, V-9)" etc. into the audio)
+    'Zechariah', 'Zephaniah', 'Habakkuk', 'Haggai', 'Malachi', 'Obadiah',
+    'Nahum', 'Amos', 'Wisdom', 'Tobit', 'Song',
+    # Deuterocanon / other (FR forms)
+    'Sagesse', 'Tobie',
     # Other
-    'Coran', 'Quran', 'sourate', 'verset', 'versets', 'Sourate',
+    'Coran', 'Quran', 'Koran', 'Corán', 'Коран', 'sourate', 'sura', 'сура',
+    'verset', 'versets', 'Sourate',
     'Bhagavad', 'Veda', 'Vedas', 'Upanishad', 'Talmud', 'Mishnah',
 ]
-# Pattern: opening paren, optional whitespace, one of the work names (case-sensitive),
-# then anything up to closing paren (but only if it looks like a reference: contains digits
-# or Roman numerals or other-work-name).
+# Pattern: opening paren, then optionally a book-number prefix ("I Kings",
+# "II Samuel", "1 Corinthians") and/or an article/qualifier ("The Wisdom of
+# Solomon", "after Matthew", "d'après Luc"), then one of the work names,
+# then anything up to closing paren.
+_CITATION_PREFIX = r"(?:(?:I{1,3}|[123])\s+)?(?:(?:[Tt]he|[Aa]fter|[Ll][ae]|[Ee]l|[Dd]'après|[Ss]elon|[Nn]ach|[Ss]egún)\s+)?"
 CITATION_RE = re.compile(
-    r'\s*\(\s*(?:' + '|'.join(re.escape(w) for w in CITATION_WORKS) + r')\b[^)]*\)',
+    r'\s*\(\s*' + _CITATION_PREFIX +
+    r'(?:' + '|'.join(re.escape(w) for w in CITATION_WORKS) + r')\b[^)]*\)',
 )
+
+# Bare-numeral citation: "(X-13)", "(XIV-25)" — chapter-verse with no work
+# name (the work was named in the running prose just before).
+BARE_NUMERAL_CITATION_RE = re.compile(r'\s*\(\s*[IVXLC]+\s*-\s*\d+[^)]*\)')
+
+# Generic chapter-verse citation, any language/script. The work-name list
+# above only covers FR/EN spellings; translations cite with their own book
+# names ("(Génesis, I-5)", "(Бытие, I-7)", "（創世記 I-7）", "(창세기 I-7)").
+# In this corpus a parenthetical containing a Roman-numeral chapter-verse
+# pair is always a scripture citation, so strip on that signature alone.
+# Handles both ASCII and fullwidth parens.
+GENERIC_CITATION_RE = re.compile(
+    r'\s*[(（][^()（）]*\b[IVXLC]+\s*-\s*\d+[^()（）]*[)）]'
+)
+
+# Truncated citation at paragraph end: OCR lost the chapter-verse tail and
+# the closing paren — "…the first day.» (Genesis," — strip the dangler.
+# (The canonical data has been repaired; this guards future ingests.)
+TRUNCATED_CITATION_RE = re.compile(
+    r'\s*[(（]\s*' + _CITATION_PREFIX +
+    r'(?:' + '|'.join(re.escape(w) for w in CITATION_WORKS) + r')\s*[,、，]?\s*$',
+)
+
+# Orphan citation tail at paragraph start: "XIV-25) This moreover…" — the
+# other half of a truncated citation that drifted into the next paragraph.
+ORPHAN_CITATION_TAIL_RE = re.compile(r'^\s*[IVXLC]+\s*-\s*\d+\s*[)）]\s*')
 
 # Stand-alone bracketed editorial omissions: (...) or (…)
 EDITORIAL_ELLIPSIS_RE = re.compile(r'\(\s*(?:\.\.\.|…)\s*\)')
@@ -92,6 +128,56 @@ MM_DOT_RE = re.compile(r'\bMM\.\s+([A-ZÉÈÊÀÂÎÔÛ])')
 # Currency: "100 000F" → "100 000 francs"
 FRANCS_RE = re.compile(r'(\d)\s*F\b')
 
+# Inline footnote asterisk glued to a word: "Mammon*" → "Mammon"
+INLINE_ASTERISK_RE = re.compile(r'(\w)\*')
+
+# Verse-range abbreviation inside surviving prose parens: "(v. 14 to 29)".
+# The parens themselves are silent in TTS but "v." reads as the letter vee.
+VERSE_ABBREV_RE = re.compile(r'\(\s*v\.\s*(\d+)\s*(to|à|-|–|bis)\s*(\d+)\s*\)')
+_VERSE_WORD = {'en': 'verses', 'fr': 'versets', 'de': 'Verse', 'es': 'versículos'}
+
+# Roman numerals in running prose ("In Genesis, XXVIII, there is…",
+# "chapter XIX of Exodus"). TTS engines spell these out as letters, so
+# convert to Arabic digits. Only multi-char tokens — a lone "I" is the
+# English pronoun, and single-char numerals don't survive citation
+# stripping anyway. Conversion runs AFTER citation strips so "(I Kings,
+# VIII-11)" never reaches it.
+ROMAN_TOKEN_RE = re.compile(r'\b[IVXLC]{2,8}\b')
+_ROMAN_VALUES = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100}
+
+
+def _roman_to_int(tok: str) -> int | None:
+    """Strict Roman parse; None if invalid (e.g. 'VV', 'IL', 'CIVIC' words)."""
+    total, prev = 0, 0
+    for c in reversed(tok):
+        v = _ROMAN_VALUES.get(c)
+        if v is None:
+            return None
+        if v < prev:
+            total -= v
+        else:
+            total += v
+            prev = v
+    # Round-trip check rejects malformed sequences the loose parse accepts
+    if _int_to_roman(total) != tok:
+        return None
+    return total
+
+
+def _int_to_roman(n: int) -> str:
+    out = []
+    for v, sym in ((100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'), (10, 'X'),
+                   (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')):
+        while n >= v:
+            out.append(sym)
+            n -= v
+    return ''.join(out)
+
+
+def _roman_sub(m: re.Match) -> str:
+    val = _roman_to_int(m.group(0))
+    return str(val) if val is not None else m.group(0)
+
 
 def normalize(text: str, lang: str = 'fr') -> str:
     """Apply normalization rules. Returns TTS-ready string."""
@@ -102,10 +188,22 @@ def normalize(text: str, lang: str = 'fr') -> str:
 
     # 1. Strip citations BEFORE stripping other parens
     s = CITATION_RE.sub('', s)
+    s = BARE_NUMERAL_CITATION_RE.sub('', s)
+    s = GENERIC_CITATION_RE.sub('', s)
+    s = TRUNCATED_CITATION_RE.sub('', s)
+    s = ORPHAN_CITATION_TAIL_RE.sub('', s)
+
+    # 1b. Verbalize verse-range abbreviations that survive in prose parens
+    verse_word = _VERSE_WORD.get(lang)
+    if verse_word:
+        s = VERSE_ABBREV_RE.sub(
+            lambda m: f'({verse_word} {m.group(1)} {"à" if lang == "fr" else "to" if lang == "en" else "bis" if lang == "de" else "a"} {m.group(3)})',
+            s)
 
     # 2. Strip editorial brackets
     s = EDITORIAL_ELLIPSIS_RE.sub('', s)
     s = ASTERISK_FOOTNOTE_RE.sub(' ', s)
+    s = INLINE_ASTERISK_RE.sub(r'\1', s)
 
     # 3. Strip leading dialogue dash (per line, in case paragraph is multi-line)
     s = LEADING_DASH_RE.sub('', s)
@@ -132,6 +230,12 @@ def normalize(text: str, lang: str = 'fr') -> str:
     # 9. OCR noise cleanup
     s = DOUBLED_DOT_RE.sub('…', s)
     s = DOUBLED_COMMA_RE.sub(',', s)
+
+    # 9b. Roman numerals in surviving prose → Arabic digits (only for
+    # Latin-script languages; CJK translations use Arabic digits already
+    # except inside citations, which are stripped above).
+    if lang in ('fr', 'en', 'de', 'es'):
+        s = ROMAN_TOKEN_RE.sub(_roman_sub, s)
 
     # 10. Collapse whitespace
     s = MULTI_SPACE_RE.sub(' ', s)
@@ -164,6 +268,10 @@ SKIP_PARAGRAPHS = {
     ('extraterrestrials-took-me-to-their-planet', 3, 265): 'address-line',
     # ETTMTTP ch3 p266 has the "et n'oublie pas" closing that's still readable speech
     # so it stays.
+    # TBWTT ch5 p44: "*Mammon: wealth in Aramaic." — print-edition footnote
+    # that leaked into the text stream. Visible in the reader (historical
+    # text), but not speech.
+    ('the-book-which-tells-the-truth', 5, 44): 'footnote-only',
 }
 
 
