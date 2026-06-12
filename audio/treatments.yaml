@@ -44,3 +44,11 @@ treatments:
     # the output back to the original input duration in the
     # post-process step so word timings stay locked.
     filter: "aecho=0.8:0.88:60:0.4,equalizer=f=120:t=q:w=1:g=3"
+
+  AudioplayNarrator:
+    # The outside-the-fiction neutral voice (Jarnathan) — intros, book
+    # titles, chapter metadata. Deliberately untreated: it should sound
+    # like the "voice of the site", clean and present, clearly distinct
+    # from the in-fiction soundscape (Narrator EQ, Raël warmth, Yahweh
+    # hall). Empty filter = passthrough.
+    filter: ""

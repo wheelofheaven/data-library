@@ -9,6 +9,20 @@
 #  - similarity_boost (0-1): higher = closer to original voice characteristics
 #  - style (0-1, eleven_v3+): emotional range; 0 disables
 # Recommended defaults below by speaker; adjust after MVP listening.
+#
+# Cast (decided 2026-06-12):
+#  - Phoenix  (aaHNjm7ksE1iw31dNOq5) — "Smooth, Charming and Rich".
+#    Narrator + Raël: the in-text Narrator IS Raël as author looking back,
+#    so both roles share the voice; prosody differs via per-speaker defaults.
+#    Replaces Marcel (I1T6PEfqPxl45yKRN4aS), whose French accent tested
+#    poorly with listeners.
+#  - Jon      (sB7vwSCyX0tQmU24cW2C) — "Natural Authority". Yahweh.
+#  - Jarnathan (c6SfcYrb2t09NHXiT80T) — "Confident and Versatile".
+#    AudioplayNarrator: the outside-the-fiction neutral voice that reads
+#    intros, book titles, chapter metadata, and descriptions. This is the
+#    project-wide neutral Wheel of Heaven voice — reuse it for any future
+#    non-book / metadata / announcement audio so the "voice of the site"
+#    stays consistent across projects.
 
 # Default model used for all generations
 model: eleven_multilingual_v2
@@ -27,63 +41,77 @@ defaults:
     stability: 0.70           # consistent gravitas across long monologues
     similarity_boost: 0.80
     style: 0.0
+  AudioplayNarrator:
+    stability: 0.65           # steady, announcer-like; reads metadata/intros
+    similarity_boost: 0.75
+    style: 0.0
 
 # Per-language voice assignments. The (speaker, lang) tuple → voice_id.
-# Leave voice_id blank until you've picked a voice from the ElevenLabs library.
 voices:
   # All languages share the same voices via eleven_multilingual_v2.
-  # Marcel = Narrator + Raël; Jon = Yahweh. Same characters across translations.
+  # Phoenix = Narrator + Raël; Jon = Yahweh; Jarnathan = AudioplayNarrator.
+  # Same characters across translations.
   # Override per language only if a specific voice mispronounces or sounds wrong.
   en:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }   # Marcel
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }   # Marcel (different prosody via defaults)
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }   # Jon - Natural Authority
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }   # Phoenix
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }   # Phoenix (different prosody via defaults)
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }   # Jon - Natural Authority
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }   # Jarnathan
 
   fr:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
 
   de:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
 
   es:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
 
   ru:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
 
   ja:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
 
   ko:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
 
   zh:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
 
   zh-Hant:
-    Narrator: { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Raël:     { voice_id: "I1T6PEfqPxl45yKRN4aS" }
-    Yahweh:   { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
 
 # Inter-paragraph pause length in milliseconds. Concatenation inserts a silence
 # clip of this length between paragraphs. Override per-paragraph via the TTS
 # sidecar's `tts_pause_after` field (planned).
 pause_ms_between_paragraphs: 600
 pause_ms_between_speakers: 900    # longer pause when speaker changes
+pause_ms_before_title: 1500       # section-break pause before kind=title paragraphs
 
 # Whether to use SSML phoneme tags from data-library/lexicon/{lang}.yaml.
 # When true, occurrences of lexicon entries are wrapped with
