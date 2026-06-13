@@ -122,7 +122,48 @@ def ffprobe_duration(path: Path) -> float:
     return float(out.stdout.strip())
 
 
-def scene_spans(chap_source: dict, timing: dict) -> list[dict]:
+def load_cue_sheet(slug: str, chap: int) -> dict:
+    """Load `{slug}/audioplay/cues/c{chap}.yaml` (Phase 1+). {} if absent.
+
+    The cue sheet is the production-side source of truth for scene tags
+    (and, in later phases, SFX + pauses). Inline `scene` fields on
+    paragraphs in `chapter-N.json` are the legacy v4 location; this
+    function returns the cue-sheet contents so callers can prefer them
+    over the inline data.
+    """
+    path = LIB / slug / 'audioplay' / 'cues' / f'c{chap}.yaml'
+    if not path.exists():
+        return {}
+    return yaml.safe_load(path.read_text()) or {}
+
+
+def scene_tags(chap_source: dict, slug: str, chap: int) -> dict:
+    """Return {paragraph_n: scene_str_or_empty} for every paragraph that
+    carries an explicit scene tag.
+
+    Precedence: per-paragraph cue-sheet entries (Phase 1) win over the
+    legacy inline `scene` field on `chapter-N.json` paragraphs (v4). The
+    fallback is per-paragraph, not per-chapter, so a half-migrated
+    chapter is well-defined — but Phase 1's migration moves all tags at
+    once, so in practice a chapter is either entirely cue-driven or
+    entirely legacy.
+
+    The empty string is preserved as the explicit "end the current run"
+    sentinel — callers map it to `None` themselves.
+    """
+    tags: dict[int, str] = {}
+    for p in chap_source['paragraphs']:
+        if 'scene' in p:
+            tags[p['n']] = p['scene']
+    cue_sheet = load_cue_sheet(slug, chap)
+    for cue in cue_sheet.get('cues') or []:
+        if 'scene' in cue:
+            tags[cue['paragraph']] = cue['scene']
+    return tags
+
+
+def scene_spans(chap_source: dict, timing: dict,
+                slug: str = '', chap: int = 0) -> list[dict]:
     """Build a list of {scene, start, end} spans from paragraph scene tags
     and timing.
 
@@ -132,14 +173,17 @@ def scene_spans(chap_source: dict, timing: dict) -> list[dict]:
     inherit the current scene. Paragraphs with `scene: ""` end the
     current run without starting a new one.
     """
+    tags = scene_tags(chap_source, slug, chap) if slug else {
+        p['n']: p['scene'] for p in chap_source['paragraphs'] if 'scene' in p
+    }
     # Walk paragraphs in n-order, building (n → effective_scene) by
     # propagating the most recent explicit tag.
     paras = sorted(chap_source['paragraphs'], key=lambda p: p['n'])
     effective = {}
     current = None
     for p in paras:
-        if 'scene' in p:
-            current = p['scene'] or None  # "" or null → no scene
+        if p['n'] in tags:
+            current = tags[p['n']] or None  # "" or null → no scene
         effective[p['n']] = current
 
     # Walk timing in order; emit a span whenever the effective scene changes.
@@ -301,7 +345,7 @@ def main():
             grand_skipped += 1
             continue
         timing = json.loads(timing_path.read_text())
-        spans = scene_spans(ch_source, timing)
+        spans = scene_spans(ch_source, timing, slug=args.slug, chap=chap)
         if not spans:
             print('  no scene tags in this chapter — no ambient track')
             grand_skipped += 1
