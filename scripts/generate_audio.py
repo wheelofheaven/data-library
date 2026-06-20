@@ -692,6 +692,23 @@ def generate_chapter(
     }
 
 
+def _asset_version(path: Path) -> str:
+    """Short content hash for cache-busting a media URL.
+
+    Media files (mp3/opus/ambient) keep stable filenames but are
+    re-rendered in place. The CDN serves them `immutable` (see
+    assets.wheelofheaven.world/_headers), so a re-render under the same
+    name would otherwise be pinned in browser/edge caches for a year and
+    drift out of sync with the regenerated timing sidecar. Appending
+    `?v=<hash>` to the manifest URL gives each render a distinct cache key
+    while keeping the immutable header (Cloudflare keys its cache on the
+    full URL including query string). Returns '' if the file is missing.
+    """
+    if not path.exists():
+        return ''
+    return hashlib.sha256(path.read_bytes()).hexdigest()[:12]
+
+
 def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
     """Update audio/{lang}/{slug}/manifest.json listing available chapters.
 
@@ -700,8 +717,17 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
     Opus is present. Player picks Opus first when supported and falls
     back to the MP3. `audio_url` always points at the MP3 for legacy
     players that don't know about `formats[]`.
+
+    Media URLs carry a `?v=<content-hash>` cache-buster (see
+    _asset_version); the timing/manifest JSON stay unhashed and revalidate.
     """
     book_dir = ASSETS_AUDIO / lang / slug
+
+    def media_url(name: str) -> str:
+        """Relative media URL with a content-hash cache-buster."""
+        ver = _asset_version(book_dir / name)
+        url = f'audio/{lang}/{slug}/{name}'
+        return f'{url}?v={ver}' if ver else url
     if not book_dir.exists():
         return
     # Load source chapter JSONs once so we can pull `title` for the
@@ -746,19 +772,19 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
         if opus_path.exists():
             formats.append({
                 'type': 'audio/ogg; codecs=opus',
-                'url': f'audio/{lang}/{slug}/{opus_name}',
+                'url': media_url(opus_name),
             })
         if mp3_path.exists():
             formats.append({
                 'type': 'audio/mpeg',
-                'url': f'audio/{lang}/{slug}/{mp3_name}',
+                'url': media_url(mp3_name),
             })
         # audio_url is the legacy single-URL fallback for players that
         # don't read formats[]. Prefer MP3 (universal compat) when it
         # exists; fall back to Opus if it doesn't (e.g. when MP3 was
         # dropped because it exceeded Cloudflare Pages' 25 MiB per-file
         # cap — happens on very long chapters at 128k mono).
-        legacy_url = f'audio/{lang}/{slug}/{mp3_name if mp3_path.exists() else opus_name}'
+        legacy_url = media_url(mp3_name if mp3_path.exists() else opus_name)
         # v4 — ambient track produced by generate_ambient.py from scenes.yaml
         # + paragraph scene tags. Sibling file if present; omitted from
         # manifest otherwise.
@@ -775,7 +801,7 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
         if chap_n in chapter_titles:
             chap_entry['title'] = chapter_titles[chap_n]
         if ambient_path.exists():
-            chap_entry['ambient_url'] = f'audio/{lang}/{slug}/{ambient_name}'
+            chap_entry['ambient_url'] = media_url(ambient_name)
         chapters.append(chap_entry)
     manifest = {
         'book': slug, 'lang': lang,
