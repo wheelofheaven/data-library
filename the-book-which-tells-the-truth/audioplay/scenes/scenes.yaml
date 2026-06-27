@@ -1,0 +1,71 @@
+# Scene image manifest — The Book Which Tells the Truth
+#
+# This is the IMAGE-GENERATION handoff. Each `scenes[]` entry corresponds to a
+# `scene` id used in the cue sheets (audioplay/cues/c*.yaml). The cinematic
+# timeline builder (data-cinematics/audiobook/build_timeline.py) turns those
+# cues into timed scene segments; this file says what each scene LOOKS like.
+#
+# Images are LANGUAGE-NEUTRAL: no baked-in text. One image per scene is reused
+# across all 9 site languages (captions are an overlay). Generate once.
+#
+# Pipeline (handled by Codex + OpenAI image generation):
+#   1. Read `style` (the per-book style bible) + each scene `prompt`.
+#   2. Final prompt = style.prefix + scene.prompt + style.suffix.
+#   3. Generate at `style.gen_size`, write to `<scene id>.jpg` in this dir.
+#   4. Set the scene's `status: generated` and record `seed` for reproducibility.
+#   5. A human reviews; rejected scenes get `status: redo` with prompt tweaks.
+#
+# Output convention (source of truth, synced to CDN like audio):
+#   data-library/<book>/audioplay/scenes/<scene>.jpg
+#   -> assets.wheelofheaven.world/images/cinematic/<book>/<scene>.jpg
+
+book: the-book-which-tells-the-truth
+
+# --- Per-book style bible -----------------------------------------------------
+# The visual identity every scene shares. Keep this tight so the slideshow
+# feels like one film, not a gallery of unrelated stills.
+style:
+  id: tbwtt
+  # Prepended to every scene prompt.
+  prefix: >-
+    Cinematic widescreen still, 1970s grounded science-fiction realism,
+    naturalistic film lighting, 35mm grain, muted earthy palette with a single
+    cool light accent, restrained and reverent mood, no text, no captions,
+    no watermark, no people facing camera unless specified.
+  # Appended to every scene prompt.
+  suffix: >-
+    Painterly-photographic, shallow depth of field, composed for a 16:9 frame
+    with generous negative space in the lower third for subtitle overlay.
+  negative: >-
+    text, lettering, watermark, logo, signature, modern technology, lens flare
+    overload, cartoon, anime, oversaturation, deformed anatomy
+  aspect: "16:9"
+  gen_size: "2560x1440"   # extra res = Ken Burns zoom headroom; output is 1080p
+  model: "gpt-image-1"    # set by the Codex/OpenAI image-gen step
+  seed: null              # pin per scene after first accepted generation
+
+# --- Scenes -------------------------------------------------------------------
+# NOTE: The cue sheets currently use a single placeholder scene id
+# (`elohim-vessel`) as a stand-in. Phase 1a (scene authoring) replaces the
+# cue sheets with a real shot list — distinct named beats per chapter — and
+# this list grows to match. The two entries below are the worked examples that
+# define the format.
+scenes:
+  - id: default
+    title: "Establishing backdrop"
+    # Used wherever no specific scene is cued (the `default` segments in the
+    # timeline). A calm, non-distracting bed the captions sit on.
+    prompt: >-
+      A quiet dormant volcanic landscape at dawn in the Auvergne, soft mist
+      over dark green crater slopes, empty and still, a sense of anticipation.
+    status: generated    # pending | generated | accepted | redo
+    seed: 19731213
+
+  - id: elohim-vessel
+    title: "The Elohim vessel descends"
+    prompt: >-
+      A small silver flying craft, roughly two meters across, descending
+      silently through morning mist toward a volcanic crater clearing, a soft
+      flashing light around its rim, dawn sky behind, viewed from the ground.
+    status: generated
+    seed: 19731214
