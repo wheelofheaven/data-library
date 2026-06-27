@@ -1,0 +1,20 @@
+# Schema 1 — per-chapter cue sheet
+#
+# Sparse: paragraphs not listed inherit the current scene.
+# scene: ""  ends the current run without starting a new one.
+# See docs.wheelofheaven.world Audio Play Cue Sheets.
+#
+# Chapter 1 — "My Life Up To The First Encounter": Raël's biography (¶1-6 default).
+
+chapter: 1
+cues:
+  - paragraph: 7
+    scene: "childhood-ambert"
+  - paragraph: 14
+    scene: "young-speed"
+  - paragraph: 33
+    scene: "street-singer"
+  - paragraph: 51
+    scene: "racing-driver"
+  - paragraph: 65
+    scene: "elohim-vessel"

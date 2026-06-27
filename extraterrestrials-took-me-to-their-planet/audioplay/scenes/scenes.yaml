@@ -1,0 +1,212 @@
+# Scene image manifest — Extraterrestrials Took Me To Their Planet
+#
+# IMAGE-GENERATION handoff. Each entry maps to a `scene` id in
+# audioplay/cues/c*.yaml. Language-neutral (no text), one image per scene,
+# reused across all 9 languages. Output: <id>.jpg here, synced to
+# assets.wheelofheaven.world/images/cinematic/extraterrestrials-took-me-to-their-planet/<id>.jpg
+#
+# SAME visual identity as book 1 (The Book Which Tells the Truth) so the two
+# films feel continuous. `elohim-vessel` may simply be COPIED from book 1.
+
+book: extraterrestrials-took-me-to-their-planet
+
+style:
+  id: tbwtt
+  prefix: >-
+    Cinematic widescreen still, 1970s grounded science-fiction realism,
+    naturalistic film lighting, 35mm grain, muted earthy palette with a single
+    cool light accent, restrained and reverent mood, no text, no captions,
+    no watermark, no people facing camera unless specified.
+  suffix: >-
+    Painterly-photographic, shallow depth of field, composed for a 16:9 frame
+    with generous negative space in the lower third for subtitle overlay.
+  negative: >-
+    text, lettering, watermark, logo, signature, lens flare overload, cartoon,
+    anime, oversaturation, deformed anatomy, explicit nudity
+  aspect: "16:9"
+  gen_size: "2560x1440"
+  model: "gpt-image-1"
+  seed: null
+
+scenes:
+  - id: default
+    title: "Establishing backdrop"
+    prompt: >-
+      A calm night sky over a quiet rural French landscape, soft
+      starlight, an expectant stillness.
+    status: pending
+    seed: null
+
+  - id: elohim-vessel
+    title: "The Elohim craft (reuse book 1)"
+    prompt: >-
+      REUSE the book-1 elohim-vessel.jpg (copy it here). A small silver
+      flying craft descending silently through mist, a soft flashing
+      light around its rim.
+    status: pending
+    seed: null
+
+  - id: childhood-ambert
+    title: "A childhood in Ambert"
+    prompt: >-
+      A small boy in a modest 1950s French country town at golden hour,
+      drawing animals alone, a faint disc of light once glimpsed in the
+      sky above the rooftops, nostalgic and quiet.
+    status: pending
+    seed: null
+
+  - id: young-speed
+    title: "The thrill of speed"
+    prompt: >-
+      A boy and then a young man seized by speed: a downhill bicycle
+      dash and a vintage racing car roaring past a roadside crowd, dust
+      and motion, 1950s-60s France.
+    status: pending
+    seed: null
+
+  - id: street-singer
+    title: "The street singer"
+    prompt: >-
+      A long-haired young street musician with a guitar singing on a
+      Paris sidewalk at dusk in the late 1960s, a small gathered crowd,
+      warm lamplight, bohemian and free.
+    status: pending
+    seed: null
+
+  - id: racing-driver
+    title: "The racing driver"
+    prompt: >-
+      A young racing driver in a vintage open-wheel car on a sunlit
+      circuit, helmet and overalls, motion blur and speed, early 1970s,
+      exhilaration and focus.
+    status: pending
+    seed: null
+
+  - id: night-summons
+    title: "The night summons"
+    prompt: >-
+      A lone man on a dark rural night looking up as the familiar silver
+      craft hovers silently before him with a soft flashing rim light,
+      cold starry sky, awe.
+    status: pending
+    seed: null
+
+  - id: paradise-hall
+    title: "The hall of wonders"
+    prompt: >-
+      A vast wondrous multi-level hall aboard an Elohim base, soft
+      ambient music suggested as gentle light, deep black fur couches,
+      warm otherworldly glow, serene luxury.
+    status: pending
+    seed: null
+
+  - id: elohim-planet
+    title: "The paradise planet"
+    prompt: >-
+      A breathtaking alien paradise: lush impossibly green landscapes,
+      gentle exotic flora, two soft suns, graceful advanced structures
+      among the trees, utopian calm.
+    status: pending
+    seed: null
+
+  - id: eternal-banquet
+    title: "The banquet of the eternals"
+    prompt: >-
+      An open-air banquet in a sunlit clearing on the paradise planet,
+      some forty serene human-like eternals and robed Elohim sharing a
+      feast at a long table, among them calm bearded prophets, fraternal
+      warmth.
+    status: pending
+    seed: null
+
+  - id: robot-creation-machine
+    title: "The biological-creation machine"
+    prompt: >-
+      A great gleaming biological-creation machine in a cavern-
+      laboratory bringing a new being into existence on a softly glowing
+      table, robed observers, an awed sense of flesh forming, cool
+      luminous light.
+    status: pending
+    seed: null
+
+  - id: paradise-residence
+    title: "The private residence"
+    prompt: >-
+      A luxurious private residence on the paradise planet at evening,
+      soft music and graceful dancers, sensual but tasteful warm light,
+      a sense of blissful repose.
+    status: pending
+    seed: null
+
+  - id: mind-machine
+    title: "The mind-awakening machine"
+    prompt: >-
+      A man seated as a smooth shell-helmet envelops his head in a
+      serene chamber, faint streams of light suggesting his mind
+      awakening to its full powers, calm and luminous.
+    status: pending
+    seed: null
+
+  - id: jerusalem-embassy
+    title: "The embassy near Jerusalem"
+    prompt: >-
+      A dignified future embassy-residence prepared near Jerusalem to
+      welcome the Elohim, a reflecting pool and gardens at golden hour,
+      solemn and hopeful.
+    status: pending
+    seed: null
+
+  - id: planet-departure
+    title: "Leaving the paradise planet"
+    prompt: >-
+      A great silver vessel rising from the paradise planet into a star-
+      filled sky, the lush world falling away below, a sense of wonder
+      and farewell.
+    status: pending
+    seed: null
+
+  - id: the-keys
+    title: "The keys to the mind"
+    prompt: >-
+      A symbolic image of a young mind opening to light, a child looking
+      up in wonder as luminous keys of knowledge dissolve old shadows,
+      gentle and hopeful.
+    status: pending
+    seed: null
+
+  - id: sensual-meditation
+    title: "Sensual meditation"
+    prompt: >-
+      A serene figure resting peacefully in a quiet sunlit room open to
+      nature, eyes closed in deep meditation, a soft halo of harmony
+      linking body and cosmos, tasteful and calm.
+    status: pending
+    seed: null
+
+  - id: geniocracy
+    title: "The enlightened society"
+    prompt: >-
+      A symbolic vision of a humane, harmonious future society: bright
+      graceful architecture, people creating art and science together
+      under a clear sky, hopeful and luminous.
+    status: pending
+    seed: null
+
+  - id: meditation-cosmos
+    title: "Feeling the infinite"
+    prompt: >-
+      A person lying on the open ground at night feeling the turning
+      Earth beneath them and the vast cosmos above, a luminous thread
+      linking them to infinity, awe and peace.
+    status: pending
+    seed: null
+
+  - id: spreading-message
+    title: "Spreading the message"
+    prompt: >-
+      A lone figure addressing a gathered crowd at dusk, light radiating
+      outward from the message toward all humanity, a small craft
+      watching from the stars, hopeful and resolute.
+    status: pending
+    seed: null
+
