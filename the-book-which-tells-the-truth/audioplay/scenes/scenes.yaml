@@ -44,6 +44,32 @@ style:
   model: "gpt-image-1"    # set by the Codex/OpenAI image-gen step
   seed: null              # pin per scene after first accepted generation
 
+# --- Character bible ----------------------------------------------------------
+# Where a scene shows Yahweh or Raël, the likeness MUST match the established
+# wiki portraits — feed them to the image model as character references:
+#   Yahweh → assets.wheelofheaven.world/images/wiki/yahweh-eloha
+#   Raël   → assets.wheelofheaven.world/images/wiki/rael-claude-vorilhon
+characters:
+  yahweh:
+    portrait_ref: images/wiki/yahweh-eloha
+    description: >-
+      Match the yahweh-eloha portrait: a serene, benevolent man with long dark
+      centre-parted hair past the shoulders, a neat dark beard and moustache,
+      almond / slightly slanted eyes, fair skin with a faint greenish tinge,
+      about one meter twenty tall. FIRST-ENCOUNTER attire (this book): a fitted
+      GREEN one-piece suit covering the whole body, and around his otherwise
+      bare head a barely-visible translucent shimmering halo — like an invisible
+      diving helmet, a bubble so thin you can hardly see it. (Note: the portrait
+      shows his later white planet attire — keep the FACE, change to the green
+      suit + halo.)
+  rael:
+    portrait_ref: images/wiki/rael-claude-vorilhon
+    description: >-
+      Match the rael-claude-vorilhon portrait: a man in his late twenties, dark
+      wavy medium-length hair, 1970s gold-tinted aviator glasses, clean-shaven.
+      In the December 1973 encounter he wears a winter coat and carries a small
+      notebook.
+
 # --- Scenes -------------------------------------------------------------------
 # NOTE: The cue sheets currently use a single placeholder scene id
 # (`elohim-vessel`) as a stand-in. Phase 1a (scene authoring) replaces the
@@ -71,60 +97,72 @@ scenes:
     seed: 19731214
 
   # --- Chapter 1 shot list (batch 2) -----------------------------------------
-  # Generate in the SAME style as default.jpg + elohim-vessel.jpg above (use
-  # them as visual references): 1970s grounded sci-fi realism, muted earthy
-  # palette, cool light accent, 35mm grain. Language-neutral, no text, calm
-  # lower third for captions. The small being is ~1.2m, greenish-toned skin,
-  # long dark hair, short dark beard — keep it tasteful and at a respectful
-  # distance (no harsh close-up of the face).
+  # Style anchors: default.jpg + elohim-vessel.jpg (1970s grounded sci-fi
+  # realism, muted earthy palette, cool light accent, 35mm grain).
+  # CHARACTER anchors: the yahweh-eloha + rael-claude-vorilhon portraits — see
+  # the `characters:` bible above; Yahweh in this book wears the green suit +
+  # translucent halo. Language-neutral, no text, calm lower third, respectful
+  # middle distance (no harsh face close-ups).
   - id: being-emerges
     title: "The being comes down the steps"
     prompt: >-
-      A small humanoid figure about one meter twenty tall, greenish-toned skin,
-      long dark hair and a short dark beard, descending a small staircase from
-      beneath a hovering silver craft, morning mist and dawn light, seen from a
-      respectful middle distance, a sense of quiet awe.
-    status: generated
-    seed: 19731215
+      Yahweh descending the small staircase from beneath the hovering silver
+      craft into the misty crater at dawn — a small man about one meter twenty
+      tall in a fitted GREEN one-piece suit, long dark hair and a neat dark
+      beard, fair greenish-tinged skin, his bare head ringed by a faint,
+      barely-visible translucent shimmering halo (an almost-invisible
+      bubble-helmet). Match the yahweh-eloha portrait. Respectful middle
+      distance, quiet awe.
+    status: redo
+    seed: null
 
   - id: crater-meeting
     title: "First words across the crater"
     prompt: >-
       Two figures facing each other a few meters apart in a misty volcanic
-      crater clearing at cold grey dawn — a tall man in a winter coat and a
-      much smaller humanoid being — the small silver craft hovering quietly
-      behind them with a soft flashing rim light.
-    status: generated
-    seed: 19731216
+      crater at cold grey dawn — Raël, a late-twenties man in a 1970s winter
+      coat and gold-tinted aviator glasses (match the rael-claude-vorilhon
+      portrait), and the much smaller Yahweh in a fitted green one-piece suit
+      with a faint translucent halo around his bare head (match the
+      yahweh-eloha portrait) — the small silver craft hovering quietly behind
+      with a soft flashing rim light.
+    status: redo
+    seed: null
 
   - id: telepathy-revelation
     title: "Telepathy, the Bible, the mission"
     prompt: >-
-      An intimate, reverent moment in the cold dawn crater: the small humanoid
-      being speaking, a faint luminous sense of mind-to-mind connection in the
-      air, the man listening intently, an old leather-bound book faintly
-      suggested at the edge of frame, shallow depth of field.
-    status: generated
-    seed: 19731217
+      An intimate, reverent moment in the cold dawn crater: Yahweh — small, in
+      a green one-piece suit, a faint translucent halo around his bare head,
+      long dark hair and neat beard (match the yahweh-eloha portrait) —
+      speaking, while Raël (gold-tinted glasses, winter coat, small notebook;
+      match the rael-claude-vorilhon portrait) listens intently; an old
+      leather-bound Bible faintly suggested, shallow depth of field.
+    status: redo
+    seed: null
 
   - id: vessel-interior
     title: "Inside the craft"
     prompt: >-
-      The interior of a small flattened bell-shaped craft: smooth pale curved
-      walls softly and evenly lit, two simple seats, a calm otherworldly cabin
-      with no visible instruments, cool light with a warm undertone, viewed
-      from inside.
-    status: generated
-    seed: 19731218
+      The interior of the small flattened-bell craft: two simple translucent
+      colourless armchairs facing each other, one larger and lower, the other
+      smaller and higher; a sparkling slightly-bluish alloy floor; NO
+      instruments or controls of any kind and no lamp — a soft natural light
+      coming from everywhere; the curved walls faintly transparent, hinting at
+      the misty dawn crater outside. Calm and otherworldly.
+    status: redo
+    seed: null
 
   - id: craft-departs
     title: "The craft rises and departs"
     prompt: >-
       A small silver craft ascending silently into a grey misty dawn sky above
-      a volcanic crater, a soft flashing light around its rim, a lone man in a
-      winter coat watching from below, a feeling of awe and stillness.
-    status: generated
-    seed: 19731219
+      the volcanic crater, a soft flashing light around its rim; Raël — late
+      twenties, dark wavy hair, 1970s gold-tinted aviator glasses, winter coat
+      (match the rael-claude-vorilhon portrait) — watching alone from below, a
+      feeling of awe and stillness.
+    status: redo
+    seed: null
 
   # --- Chapter 2 shot list (batch 3) -----------------------------------------
   # "The Truth": Yahweh decodes Genesis as the Elohim's work. These are
