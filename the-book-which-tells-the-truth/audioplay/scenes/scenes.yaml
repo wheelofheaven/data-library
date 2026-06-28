@@ -69,6 +69,15 @@ characters:
       wavy medium-length hair, 1970s gold-tinted aviator glasses, clean-shaven.
       In the December 1973 encounter he wears a winter coat and carries a small
       notebook.
+  elohim:
+    portrait_ref: images/wiki/elohim-collective
+    description: >-
+      The "creators" who appear throughout the depicted history (Ch.2-7) — an
+      advanced human-like civilization. Echo the elohim-collective portrait:
+      serene people of varied appearance in fitted pale or green one-piece
+      suits, sometimes the green suit + faint translucent halo of the first
+      encounter. Usually shown at a respectful distance, in groups, or as their
+      silver craft — not in facial close-up.
 
 # --- Scenes -------------------------------------------------------------------
 # NOTE: The cue sheets currently use a single placeholder scene id
@@ -164,216 +173,452 @@ scenes:
     status: redo
     seed: null
 
-  # --- Chapter 2 shot list (batch 3) -----------------------------------------
-  # "The Truth": Yahweh decodes Genesis as the Elohim's work. These are
-  # DEPICTED cosmic-history scenes — wider and more epic than Ch.1, but the
-  # SAME visual identity (1970s grounded sci-fi realism, muted earthy palette,
-  # cool light accent, 35mm grain). Language-neutral, no text, calm lower
-  # third. The encounter framing reuses crater-meeting (¶1) and craft-departs
-  # (¶92), so they are not repeated here.
+  # --- Chapters 2-7 shot list (denser, ~2-min beats) -------------------------
+  # Depicted history. Reused framing scenes (crater-meeting, vessel-interior,
+  # craft-departs) are defined in the Ch.1 batch above. Elohim 'creators' →
+  # see the characters: bible (elohim-collective portrait).
+  - id: elohim-homeworld
+    title: "The creators' home world"
+    prompt: >-
+      Long ago on a distant world: an advanced human-like civilization
+      of gleaming, graceful architecture under an alien sky, serene and
+      far beyond Earth's age.
+    status: pending
+    seed: null
+
   - id: primordial-earth-orbit
     title: "Ships study a young Earth"
     prompt: >-
-      An advanced civilization's smooth silver craft and small reconnaissance
-      satellites in orbit around a young, cloud-wrapped primordial Earth, vast
-      featureless oceans below, cold starlit space, a sense of patient
-      scientific observation.
+      Silver craft and small reconnaissance satellites in orbit around a
+      young cloud-wrapped primordial Earth of featureless oceans, cold
+      starlit space, patient observation.
     status: pending
     seed: null
 
   - id: creation-laboratory
     title: "Life made in the great laboratory"
     prompt: >-
-      A vast, light-filled laboratory open to a primordial shoreline, robed
-      scientist-creators cultivating the first plants, fish and creatures in
-      glowing vessels, lush early vegetation beyond, a mood of wonder and
-      careful craft.
+      A vast light-filled laboratory open to a primordial shoreline,
+      robed Elohim scientists culturing the first plants and cells in
+      glowing vessels, wonder and careful craft.
+    status: pending
+    seed: null
+
+  - id: sea-and-sky-life
+    title: "The first fish and birds"
+    prompt: >-
+      A teeming primordial sea at golden hour, the first great fish
+      breaking the surface and flocks of newly-made birds rising into
+      the sky, the creators watching from the shore.
+    status: pending
+    seed: null
+
+  - id: land-animals
+    title: "Beasts upon a lush Earth"
+    prompt: >-
+      Herds of newly-created land animals across a magnificent young
+      Earth of lush vegetation, robed creators observing from a rise, a
+      paradise of first life.
     status: pending
     seed: null
 
   - id: creation-of-man
     title: "Man made in their image"
     prompt: >-
-      In a great garden-laboratory, robed scientist-creators tending the first
-      man and woman, soft natural light, lush primordial vegetation, an
-      atmosphere of careful making and quiet pride, the figures seen at a
-      respectful distance.
+      In a great garden-laboratory, robed scientist-creators tending the
+      first man and woman, soft natural light, lush growth, careful
+      making and quiet pride, seen at a respectful distance.
+    status: pending
+    seed: null
+
+  - id: eden-garden
+    title: "The garden and the naming"
+    prompt: >-
+      Adam and Eve as young people in a lush walled garden-paradise,
+      animals gathered as the man names them, the creators' pale
+      dwelling glowing among the trees at dusk.
     status: pending
     seed: null
 
   - id: eden-expulsion
     title: "Forbidden knowledge and expulsion"
     prompt: >-
-      A lush garden at dusk with a forbidden hall of knowledge glowing in the
-      distance, two small human figures turning away into the wild, guardians
-      with bright energy weapons at the gate, a charged and sorrowful mood.
+      A lush garden at dusk, a forbidden hall of knowledge glowing in
+      the distance, two small human figures turning away into the wild,
+      guardians with bright energy weapons at the gate, sorrowful and
+      charged.
+    status: pending
+    seed: null
+
+  - id: nephilim
+    title: "The sons of Elohim and the giants"
+    prompt: >-
+      Tall radiant beings among early humankind, taking wives among
+      them; their towering hybrid children — the giants of old — against
+      a primeval landscape, awe and unease.
     status: pending
     seed: null
 
   - id: the-flood
     title: "The Flood — strike and ark"
     prompt: >-
-      A three-stage rocket-ark rising above a vast flooded primordial Earth
-      under a storm-lit sky, distant bright detonations on the horizon, dark
-      roiling waters below, an apocalyptic yet awed atmosphere.
+      A three-stage rocket-ark rising above a vast flooded primordial
+      Earth under a storm-lit sky, distant bright detonations on the
+      horizon, dark roiling waters, apocalyptic yet awed.
+    status: pending
+    seed: null
+
+  - id: repopulation
+    title: "After the waters"
+    prompt: >-
+      Animals and people set ashore from the great craft onto a washed,
+      recovering Earth under a clearing sky, the creators overseeing the
+      new beginning, a hopeful calm.
     status: pending
     seed: null
 
   - id: tower-of-babel
     title: "The Tower of Babel"
     prompt: >-
-      An immense unfinished tower and primitive rocket gantry rising from an
-      ancient plain, crowds of small workers below, a silver craft watching
-      from the clouds above, dramatic low sun, a sense of ambition meeting
-      looming intervention.
+      An immense unfinished tower and primitive rocket gantry on an
+      ancient plain, crowds of small workers, a silver craft watching
+      from the clouds, ambition meeting looming intervention.
     status: pending
     seed: null
 
   - id: sodom-gomorrah
     title: "The destruction of Sodom & Gomorrah"
     prompt: >-
-      Two ancient cities on a plain at night obliterated by a blinding atomic
-      detonation, a towering pillar of fire and smoke, two small figures
-      fleeing in the foreground, harsh white light, awe and dread.
+      Two ancient cities on a plain at night obliterated by a blinding
+      atomic detonation, a towering pillar of fire and smoke, two small
+      figures fleeing, harsh white light, awe and dread.
     status: pending
     seed: null
 
   - id: sacrifice-of-abraham
     title: "The test of Abraham"
     prompt: >-
-      An ancient hilltop altar at dawn, a robed elder staying his hand above a
-      child as a shaft of light intervenes from the sky, stark desert
-      landscape, a tense, reverent, merciful moment seen from a distance.
+      An ancient hilltop altar at dawn, a robed elder staying his hand
+      over a child as a shaft of light intervenes from the sky, stark
+      desert, a tense, merciful moment seen from a distance.
     status: pending
     seed: null
 
-  # --- Chapter 3 shot list (batch 4) — OT history decoded as Elohim tech. Epic depicted scenes, same visual identity. 
-  - id: moses-exodus
-    title: "Moses and the Exodus"
+  - id: burning-bush-rocket
+    title: "The burning bush"
     prompt: >-
-      A vast desert at dawn: a great column of cloud and fire guides a
-      long procession of ancient people, a parted sea forming a corridor
-      of dry land between standing walls of water, a silver craft
-      glinting high above, epic and reverent.
+      A small landed craft glowing like fire within a desert thornbush
+      at dawn, a lone shepherd shielding his eyes before it, flame that
+      does not consume, awe.
     status: pending
     seed: null
+
+  - id: pillar-and-sea
+    title: "Pillar of cloud, the parted sea"
+    prompt: >-
+      A vast column of cloud and fire leading a long ancient procession
+      across a desert to a corridor of dry land between standing walls
+      of seawater, a silver craft glinting above, epic.
+    status: pending
+    seed: null
+
+  - id: manna-desert
+    title: "Manna in the wilderness"
+    prompt: >-
+      Dawn over a desert camp of ancient tents, a fine pale dew-fed
+      substance scattered across the ground as people gather it, a faint
+      craft-glow on the horizon, quiet sustenance.
+    status: pending
+    seed: null
+
+  - id: sinai-fire
+    title: "Sinai in smoke and fire"
+    prompt: >-
+      Mount Sinai wreathed in smoke and fire at dusk as a brilliant
+      craft descends to its peak, the awed people kept far below, a
+      robed figure climbing alone, thunderous grandeur.
+    status: pending
+    seed: null
+
+  - id: tabernacle
+    title: "The tabernacle of the creators"
+    prompt: >-
+      An ornate ancient tent-residence in a desert camp, a pillar of
+      cloud settled at its entrance, robed attendants bringing
+      offerings, a sense of a hidden honoured guest.
+    status: pending
+    seed: null
+
+  - id: bronze-serpent
+    title: "The bronze serpent"
+    prompt: >-
+      A bronze serpent raised on a pole in a desert camp at dusk,
+      stricken people looking up toward it and being healed, a subtle
+      suggestion of administered cure, solemn relief.
+    status: pending
+    seed: null
+
+  - id: jordan-crossing
+    title: "Crossing the Jordan"
+    prompt: >-
+      An ancient people crossing a river on dry ground between held-back
+      waters into a green promised land at golden hour, bearers carrying
+      a gleaming ark, momentous.
+    status: pending
+    seed: null
+
   - id: jericho-trumpets
     title: "The walls of Jericho fall"
     prompt: >-
-      The massive stone walls of an ancient walled city crumbling and
-      collapsing in a billowing cloud of dust as an unseen sonic force
-      strikes them, tiny ancient soldiers below, dramatic dusty light.
+      Massive stone city walls crumbling in billowing dust as an unseen
+      sonic force strikes, ancient soldiers with horns below, then
+      bright stones falling from the sky, dramatic.
     status: pending
     seed: null
+
+  - id: gideon-300
+    title: "Gideon and the three hundred"
+    prompt: >-
+      An ancient hilltop at night ringed by three hundred warriors
+      blowing horns and raising torches, an enemy camp in panic in the
+      valley below, a creator's faint presence, tension.
+    status: pending
+    seed: null
+
   - id: samson-telepath
-    title: "Samson the telepath"
+    title: "Samson"
     prompt: >-
       A powerful long-haired ancient strongman straining against the
-      great stone pillars of a temple, a faint sense of unseen guiding
-      force around him, dramatic torchlit interior, awe and tragedy.
+      great pillars of a temple, a faint sense of an unseen guiding
+      signal around his head, torchlit interior, tragedy.
     status: pending
     seed: null
+
+  - id: samuel-telepathy
+    title: "The voice in the night"
+    prompt: >-
+      A boy waking in a dim ancient sanctuary, looking up as a faint
+      voice seems to call from above near a glowing ark, an old priest
+      nearby, hushed wonder of first contact.
+    status: pending
+    seed: null
+
+  - id: solomon-temple
+    title: "Solomon's temple receives the glory"
+    prompt: >-
+      A sumptuous ancient temple at its dedication filled with a
+      luminous cloud descending from above, robed priests falling back
+      in awe, gold and incense, the 'glory' of the creators.
+    status: pending
+    seed: null
+
   - id: elijah-chariot
     title: "Elijah taken up"
     prompt: >-
       An ancient prophet drawn up into a stormy sky by a brilliant fiery
       craft like a chariot of flame, swirling cloud and sparks, a lone
-      witness watching from a barren hillside below.
+      witness on a barren hillside below.
     status: pending
     seed: null
+
   - id: loaves-multiplication
     title: "The multiplication of loaves"
     prompt: >-
-      A hillside crowd of ancient people at dusk being fed from
-      impossibly multiplying baskets of bread, a calm robed figure at
-      the centre, a faint glow of unseen technology, gentle wonder.
+      A hillside crowd of ancient people fed at dusk from impossibly
+      multiplying loaves and small pale provisions, a calm robed figure
+      at the centre, a faint glow of unseen technology, gentle wonder.
     status: pending
     seed: null
-  - id: ezekiel-vision
-    title: "Ezekiel's vision"
+
+  - id: isaiah-nuclear
+    title: "Isaiah's warning"
+    prompt: >-
+      The creators in autonomous suits with breathing apparatus over a
+      desert; further off a distant nuclear blast and a few people
+      sheltering in low concrete blockhouses, a grave prophetic mood.
+    status: pending
+    seed: null
+
+  - id: ezekiel-wheels
+    title: "Ezekiel's wheels"
     prompt: >-
       An ancient prophet kneeling on a riverbank beneath a descending
-      disc-shaped craft of glowing concentric wheels and rims, storm
-      clouds and shafts of light, overwhelming awe.
+      disc-craft of glowing concentric wheels of beryl and rims full of
+      eyes, storm clouds and shafts of light, overwhelming awe.
     status: pending
     seed: null
+
+  - id: valley-of-bones
+    title: "The valley of dry bones"
+    prompt: >-
+      A desolate valley of scattered bones at grey dawn knitting
+      together into living forms, a robed prophet and a faint craft
+      above, eerie resurrection, hushed.
+    status: pending
+    seed: null
+
+  - id: ezekiel-temple
+    title: "The terrestrial base"
+    prompt: >-
+      A precise walled compound on a high place, a great ship hovering
+      over its inner court, a single robed figure passing through a
+      glowing airlock, attendants in linen, ordered and secret.
+    status: pending
+    seed: null
+
+  - id: daniel-furnace
+    title: "The furnace and the lions"
+    prompt: >-
+      A blazing ancient furnace at night with figures unburnt within and
+      a fourth radiant presence among them; in shadow beside it, a man
+      calm among lions, divine protection, dramatic.
+    status: pending
+    seed: null
+
   - id: last-judgment
     title: "The Last Judgment"
     prompt: >-
       A solemn cosmic tribunal: humanity gathered on a vast plain
-      beneath a great hovering craft and a sky split by light, a sense
-      of reckoning and grandeur, muted and severe.
-    status: pending
-    seed: null
-  - id: satan-faction
-    title: "The opposing faction"
-    prompt: >-
-      A tense council of robed advanced beings in a stark futuristic
-      chamber, one faction half in shadow opposing the others, cold blue
-      light, a charged atmosphere of dissent over the fate of a distant
-      blue planet.
+      beneath a great hovering craft and a sky split by light, the
+      worthy raised again, grandeur and reckoning, muted and severe.
     status: pending
     seed: null
 
-  # --- Chapter 4 shot list (batch 5) — the life of Christ as guided mission. 
+  - id: jonah-and-scroll
+    title: "Jonah and the flying scroll"
+    prompt: >-
+      A small submarine craft surfacing to set a man ashore by a stormy
+      coast at dawn; above, a great flying scroll-shaped craft crossing
+      the sky, strange wonders, awe.
+    status: pending
+    seed: null
+
+  - id: satan-council
+    title: "The council and the adversary"
+    prompt: >-
+      A stern council of robed advanced beings in a stark futuristic
+      chamber debating the fate of a distant blue planet, one
+      adversarial figure apart in shadow, cold blue light, charged
+      dissent.
+    status: pending
+    seed: null
+
+  - id: creators-bases
+    title: "Watching from the mountains"
+    prompt: >-
+      A hidden base on a high snow-touched mountain at dusk, a silver
+      craft resting there and a robot-like attendant, the creators
+      quietly watching the lights of humanity far below.
+    status: pending
+    seed: null
+
   - id: christ-conception
     title: "The conception"
     prompt: >-
       A young woman in a humble ancient dwelling bathed in a soft
-      descending shaft of light from a craft above, a luminous, gentle,
-      reverent annunciation, muted earthy palette.
+      descending shaft of light from a craft above; later, distant magi
+      following a single bright star, a luminous reverent annunciation.
     status: pending
     seed: null
+
   - id: christ-initiation
     title: "The initiation"
     prompt: >-
-      A young man being instructed by advanced robed figures aboard a
-      softly lit craft, faint screens of light and knowledge around him,
-      a sense of careful preparation for a mission.
+      A young man at a river as the sky opens and a dove-like light
+      descends upon him; then, faintly, the same man being instructed
+      aboard a softly lit craft, preparation for a mission.
     status: pending
     seed: null
+
+  - id: christ-teaching
+    title: "Teaching the crowds"
+    prompt: >-
+      A robed teacher on a hillside addressing rapt ancient crowds at
+      golden hour, a leper healed at his touch, astonishment rippling
+      through the listeners, warm and momentous.
+    status: pending
+    seed: null
+
   - id: parallel-worlds
     title: "Parallel humanities"
     prompt: >-
-      A sweeping view of several distant inhabited worlds and their
-      advanced civilizations among the stars, varied alien landscapes
-      under different coloured suns, cosmic scale and wonder.
+      A sower's seed drifting among the stars toward three distant
+      inhabited worlds under different coloured suns, some thriving,
+      some barren — life sown across the cosmos, vast wonder.
     status: pending
     seed: null
+
   - id: christ-miracles
     title: "Scientific miracles"
     prompt: >-
-      A robed figure on a calm lake at dawn appearing to walk upon the
-      water, astonished onlookers on the shore, a faint shimmer of
-      unseen technology, a quiet miraculous mood.
+      A robed figure walking upon a calm dark lake at night toward a
+      frightened boat, a faint shimmer of unseen technology beneath his
+      feet, a hushed miraculous mood.
     status: pending
     seed: null
+
   - id: parable-talents
     title: "The parable of the talents"
     prompt: >-
       Three servants before a departing master, each receiving glowing
-      tokens of differing number, an ancient courtyard at golden hour, a
-      parable mood of responsibility and reckoning.
+      tokens of differing number, an ancient courtyard at golden hour,
+      responsibility and reckoning.
     status: pending
     seed: null
 
-  # --- Chapter 5 shot list (batch 6) — the apocalyptic age of revelation. 
+  - id: gethsemane-crucifixion
+    title: "The cross and the empty tomb"
+    prompt: >-
+      A lone cross on a hill at dusk against a heavy sky; then a tomb
+      with its great stone rolled back by a descending radiant figure,
+      sorrow turning to awe, restrained and solemn.
+    status: pending
+    seed: null
+
+  - id: signs-of-the-times
+    title: "The signs of the times"
+    prompt: >-
+      An ancient gate opening of its own accord for a freed prisoner
+      under a guiding light; a budding fig tree and a reborn homeland on
+      the horizon — signs that the times have come, hopeful.
+    status: pending
+    seed: null
+
   - id: atomic-age
     title: "1946, the new era"
     prompt: >-
       A vast atomic mushroom cloud rising at dawn over the curve of the
-      Earth, marking the threshold of a new era, awe and dread, muted
+      Earth, the threshold of a new era, awe and dread, muted
       apocalyptic palette.
     status: pending
     seed: null
+
+  - id: aquarius-age
+    title: "The age of Aquarius"
+    prompt: >-
+      A cosmic dawn as the rising sun crosses from the sign of Pisces
+      into Aquarius, the zodiac wheel faint across a star-strewn sky
+      over the Earth, a turning of ages, contemplative.
+    status: pending
+    seed: null
+
+  - id: the-revelation
+    title: "The light of the message"
+    prompt: >-
+      A single clear light breaking over a grey landscape and a weary
+      people, eyes lifting and opening, hope returning after long
+      darkness, gentle and luminous.
+    status: pending
+    seed: null
+
   - id: end-of-church
     title: "The end of the Church"
     prompt: >-
-      An old grand cathedral at dusk slowly emptying, light shifting
-      from its spires toward a clear open sky, a sense of an age quietly
-      ending.
+      An old grand cathedral at dusk slowly emptying, the light shifting
+      from its spires toward a clear open sky, an age quietly ending.
     status: pending
     seed: null
+
   - id: israel-reborn
     title: "Israel reborn"
     prompt: >-
@@ -382,6 +627,16 @@ scenes:
       hopeful and momentous.
     status: pending
     seed: null
+
+  - id: church-errors
+    title: "The errors of the Church"
+    prompt: >-
+      A richly gilded, gold-heavy sanctuary towering over bowed,
+      burdened common people in shadow, opulence against poverty, a
+      sober critical mood.
+    status: pending
+    seed: null
+
   - id: origin-of-religions
     title: "The origin of all religions"
     prompt: >-
@@ -390,54 +645,130 @@ scenes:
       the sky, a unifying revelation, reverent.
     status: pending
     seed: null
+
   - id: cosmic-infinity
     title: "Infinity within infinity"
     prompt: >-
-      An awe-inspiring nested cosmos, a galaxy that is also an atom,
-      scales within scales of infinity, a deep starfield, contemplative
-      and vast.
+      An awe-inspiring nested cosmos, a galaxy that is also an atom, a
+      tiny Earth and humanity within scales upon scales of infinity, a
+      deep starfield, contemplative and vast.
     status: pending
     seed: null
 
-  # --- Chapter 6 shot list (batch 7) — the new commandments and the mission. 
+  - id: evolution-myth
+    title: "Made, not chanced"
+    prompt: >-
+      A symbolic image of human forms shaped in the creators' laboratory
+      rather than emerging by accident, a faint lineage of improving
+      figures under cool luminous light, thoughtful.
+    status: pending
+    seed: null
+
+  - id: geniocracy
+    title: "The rule of genius"
+    prompt: >-
+      A symbolic vision of a society led by its brightest minds:
+      luminous halls of science and art, gifted people elevated and at
+      work, bright and hopeful, ordered and humane.
+    status: pending
+    seed: null
+
+  - id: humanitarianism
+    title: "A humane economy"
+    prompt: >-
+      A just, balanced society where machines do the labour and people
+      create freely, a fair sunhurried world of shared plenty, warm and
+      optimistic.
+    status: pending
+    seed: null
+
   - id: world-government
     title: "World government"
     prompt: >-
-      A symbolic vision of a unified peaceful humanity: a luminous
-      global assembly and a green thriving Earth seen from above,
-      harmony and intelligence, hopeful muted palette.
+      A unified peaceful humanity: a luminous global assembly and a
+      green thriving Earth seen from above, weapons set aside, harmony
+      and intelligence, hopeful muted palette.
     status: pending
     seed: null
+
   - id: the-mission
     title: "Your mission"
     prompt: >-
       A lone man on a high vantage at dawn looking out over the whole of
       humanity and the road ahead, a silver craft small in the distant
-      sky, a sense of purpose and calling.
+      sky, purpose and calling.
     status: pending
     seed: null
 
-  # --- Chapter 7 shot list (batch 8) — the Elohim, the dangers, the path forward. 
-  - id: overpopulation
-    title: "Overpopulation"
-    prompt: >-
-      A vast crowded modern cityscape stretching to the horizon under a
-      hazy sky, dense humanity, a sober warning mood, muted palette.
-    status: pending
-    seed: null
-  - id: eternity-science
-    title: "The secret of eternity"
-    prompt: >-
-      An advanced serene laboratory of the Elohim where life is renewed,
-      glowing cellular vessels and calm robed scientists, a sense of
-      mastery over life and time, cool luminous light.
-    status: pending
-    seed: null
   - id: the-embassy
     title: "The embassy"
     prompt: >-
-      A dignified modern embassy-residence with a calm reflecting pool,
-      prepared to welcome visitors from the sky, set in a peaceful
-      landscape at golden hour, hopeful and solemn.
+      A dignified modern residence with seven rooms and a calm
+      reflecting pool in a mild, pleasant landscape at golden hour,
+      prepared to welcome visitors from the sky, solemn and hopeful.
     status: pending
     seed: null
+
+  - id: raelian-movement
+    title: "Spreading the message"
+    prompt: >-
+      A lone figure at dusk turning to a gathering crowd, light
+      radiating outward from the message toward all humanity, a small
+      craft watching from the stars, resolute and hopeful.
+    status: pending
+    seed: null
+
+  - id: atomic-bombs
+    title: "The atomic danger"
+    prompt: >-
+      The Earth seen from space shadowed by the threat of nuclear fire,
+      faint ominous flashes across the night side, a grave warning,
+      muted and tense.
+    status: pending
+    seed: null
+
+  - id: overpopulation
+    title: "Overpopulation"
+    prompt: >-
+      A vast crowded modern cityscape stretching to a hazy horizon,
+      dense humanity pressing together, a sober warning mood, muted
+      palette.
+    status: pending
+    seed: null
+
+  - id: intergalactic-base
+    title: "The base among the stars"
+    prompt: >-
+      A great intergalactic vessel hanging in deep space as a base,
+      seven distinct representatives gathered within before a window
+      onto an infinity of inhabited worlds, cool luminous awe.
+    status: pending
+    seed: null
+
+  - id: eternity-science
+    title: "The secret of eternity"
+    prompt: >-
+      A serene advanced laboratory where life is renewed from a single
+      living cell on a softly glowing table, calm robed scientists,
+      mastery over life and time, cool luminous light.
+    status: pending
+    seed: null
+
+  - id: elohim-daily-life
+    title: "The life of the eternals"
+    prompt: >-
+      A utopian Elohim city of modest scale among gardens and swimming
+      pools, people creating, competing and at leisure in harmony, two
+      soft suns, blissful and bright.
+    status: pending
+    seed: null
+
+  - id: chemical-education
+    title: "Knowledge instilled"
+    prompt: >-
+      A person seated as knowledge is instilled in an instant — faint
+      streams of light flowing into the mind in a calm advanced chamber,
+      no books needed, luminous and serene.
+    status: pending
+    seed: null
+
