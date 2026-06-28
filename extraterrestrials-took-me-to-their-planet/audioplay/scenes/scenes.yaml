@@ -2,11 +2,11 @@
 #
 # IMAGE-GENERATION handoff. Each entry maps to a `scene` id in
 # audioplay/cues/c*.yaml. Language-neutral (no text), one image per scene,
-# reused across all 9 languages. Output: <id>.jpg here, synced to
+# reused across all languages. Output: <id>.jpg here, synced to
 # assets.wheelofheaven.world/images/cinematic/extraterrestrials-took-me-to-their-planet/<id>.jpg
 #
-# SAME visual identity as book 1 (The Book Which Tells the Truth) so the two
-# films feel continuous. `elohim-vessel` may simply be COPIED from book 1.
+# SAME visual identity + style anchors as book 1 (default.jpg + elohim-vessel.jpg)
+# so the two films feel continuous. ~2-min beats, mapped to the source.
 
 book: extraterrestrials-took-me-to-their-planet
 
@@ -28,6 +28,34 @@ style:
   model: "gpt-image-1"
   seed: null
 
+# --- Character bible ----------------------------------------------------------
+# Match the established wiki portraits — feed them as character references.
+# NOTE: this is the SECOND encounter / the planet, so Yahweh NO LONGER wears the
+# green suit + halo of book 1 — here it is the white "eternal" attire (exactly
+# the yahweh-eloha portrait).
+characters:
+  yahweh:
+    portrait_ref: images/wiki/yahweh-eloha
+    description: >-
+      Match the yahweh-eloha portrait exactly: serene, long dark centre-parted
+      hair past the shoulders, neat dark beard and moustache, almond eyes, in a
+      fitted WHITE high-collared one-piece suit (his eternal/planet attire — no
+      green suit, no halo here).
+  rael:
+    portrait_ref: images/wiki/rael-claude-vorilhon
+    description: >-
+      Match the rael-claude-vorilhon portrait: late twenties, dark wavy hair,
+      1970s gold-tinted aviator glasses, clean-shaven. On Earth he wears 1970s
+      clothes; aboard the planet he wears a close-fitting white silk garment.
+  elohim:
+    portrait_ref: images/wiki/elohim-collective
+    description: >-
+      The Elohim (the creators / the eternals) — a serene advanced human-like
+      people of varied appearance in fitted white one-piece suits. Among the
+      eternals on the planet are the resurrected prophets (a calm bearded Jesus,
+      Moses, Elijah, Muhammad, Buddha). Shown at a respectful distance, not in
+      facial close-up.
+
 scenes:
   - id: default
     title: "Establishing backdrop"
@@ -40,36 +68,95 @@ scenes:
   - id: elohim-vessel
     title: "The Elohim craft (reuse book 1)"
     prompt: >-
-      REUSE the book-1 elohim-vessel.jpg (copy it here). A small silver
-      flying craft descending silently through mist, a soft flashing
-      light around its rim.
+      REUSE book-1 elohim-vessel.jpg (copy it here). A small silver
+      flying craft descending silently through mist, a soft flashing rim
+      light.
+    status: pending
+    seed: null
+
+  - id: rael-writing
+    title: "Looking back"
+    prompt: >-
+      A late-twenties man with gold-tinted glasses (match the rael
+      portrait) writing at a desk by a window in 1975, a notebook of
+      memories before him, reflective evening light.
     status: pending
     seed: null
 
   - id: childhood-ambert
     title: "A childhood in Ambert"
     prompt: >-
-      A small boy in a modest 1950s French country town at golden hour,
-      drawing animals alone, a faint disc of light once glimpsed in the
-      sky above the rooftops, nostalgic and quiet.
+      A small boy in a modest 1950s French country town, raised by his
+      grandmother and aunt, nostalgic and quiet, golden hour.
+    status: pending
+    seed: null
+
+  - id: grandmother-sighting
+    title: "The 1947 sighting"
+    prompt: >-
+      A woman in 1947 pausing in a country garden at dusk, looking up at
+      a faint silver disc hovering above the rooftops of a small French
+      town, quiet wonder.
+    status: pending
+    seed: null
+
+  - id: childhood-animals
+    title: "The boy who drew animals"
+    prompt: >-
+      A solitary boy absorbed in sketching animals at a kitchen table,
+      drawings scattered around him, tender and imaginative.
     status: pending
     seed: null
 
   - id: young-speed
     title: "The thrill of speed"
     prompt: >-
-      A boy and then a young man seized by speed: a downhill bicycle
-      dash and a vintage racing car roaring past a roadside crowd, dust
-      and motion, 1950s-60s France.
+      A boy on a brakeless bicycle hurtling downhill, and a vintage
+      racing car roaring past a roadside crowd, dust and motion,
+      1950s-60s France.
+    status: pending
+    seed: null
+
+  - id: boarding-school
+    title: "Boarding school"
+    prompt: >-
+      An austere 1950s French boarding school, robed nuns in a stone
+      courtyard, a shy boy and a glimpsed first love, cool muted light.
+    status: pending
+    seed: null
+
+  - id: runaway-guitar
+    title: "Leaving for Paris"
+    prompt: >-
+      A fifteen-year-old with a guitar over his shoulder and a small
+      suitcase, thumbing a ride on an open road toward the city, hopeful
+      and free.
     status: pending
     seed: null
 
   - id: street-singer
     title: "The street singer"
     prompt: >-
-      A long-haired young street musician with a guitar singing on a
-      Paris sidewalk at dusk in the late 1960s, a small gathered crowd,
-      warm lamplight, bohemian and free.
+      A long-haired young man singing with a guitar on a Paris pavement
+      at dusk in the late 1960s, a small gathered crowd, warm lamplight,
+      bohemian.
+    status: pending
+    seed: null
+
+  - id: singer-tours
+    title: "On the road"
+    prompt: >-
+      A modest concert stage and a small touring life, a young singer
+      under simple lights, the bittersweet grind of the trade.
+    status: pending
+    seed: null
+
+  - id: becoming-driver
+    title: "Answering the advertisement"
+    prompt: >-
+      A young man answering a newspaper advertisement and arriving in
+      Dijon as a photographer-reporter, a press camera in hand, the
+      start of a new path.
     status: pending
     seed: null
 
@@ -77,35 +164,89 @@ scenes:
     title: "The racing driver"
     prompt: >-
       A young racing driver in a vintage open-wheel car on a sunlit
-      circuit, helmet and overalls, motion blur and speed, early 1970s,
-      exhilaration and focus.
+      circuit, helmet and overalls, motion blur and speed, early 1970s
+      exhilaration.
+    status: pending
+    seed: null
+
+  - id: crater-recall
+    title: "The encounter, recalled"
+    prompt: >-
+      A brief recollection: the small silver craft in the misty Auvergne
+      crater of December 1973, half-remembered and luminous.
+    status: pending
+    seed: null
+
+  - id: spreading-message
+    title: "Carrying the message"
+    prompt: >-
+      A man addressing a modest lecture audience, then a desk piled with
+      letters, the message beginning to spread, earnest and determined.
     status: pending
     seed: null
 
   - id: night-summons
     title: "The night summons"
     prompt: >-
-      A lone man on a dark rural night looking up as the familiar silver
-      craft hovers silently before him with a soft flashing rim light,
-      cold starry sky, awe.
+      A lone man on a dark rural night in 1975 looking up as the
+      familiar silver craft hovers silently before him, the same
+      benevolent being (white attire, no halo) by its open stair, cold
+      starry sky, joy and awe.
+    status: pending
+    seed: null
+
+  - id: base-dock
+    title: "Inside the base"
+    prompt: >-
+      A circular metallic docking chamber about fifteen metres across
+      with the small craft at rest, smooth seamless walls, a corridor of
+      softly coloured lights beyond, otherworldly and clean.
     status: pending
     seed: null
 
   - id: paradise-hall
     title: "The hall of wonders"
     prompt: >-
-      A vast wondrous multi-level hall aboard an Elohim base, soft
-      ambient music suggested as gentle light, deep black fur couches,
-      warm otherworldly glow, serene luxury.
+      A vast multi-level hall under a near-invisible transparent dome
+      open to a star-filled black sky, floors of deep furs, glowing
+      artworks and giant blue and red plant-forms, lit as if by
+      daylight, breathtaking.
     status: pending
     seed: null
 
-  - id: elohim-planet
-    title: "The paradise planet"
+  - id: second-message
+    title: "The second message"
     prompt: >-
-      A breathtaking alien paradise: lush impossibly green landscapes,
-      gentle exotic flora, two soft suns, graceful advanced structures
-      among the trees, utopian calm.
+      Yahweh (white attire, match the portrait) and Raël settled into
+      deep black-fur couches, speaking quietly in the wondrous hall, an
+      intimate, reverent exchange.
+    status: pending
+    seed: null
+
+  - id: infinity-teaching
+    title: "Infinity within infinity"
+    prompt: >-
+      An awe-inspiring nested cosmos — stars and planets that are the
+      atoms of a giant being, scales within scales of infinity, a deep
+      starfield, contemplative and vast.
+    status: pending
+    seed: null
+
+  - id: paradise-via-tech
+    title: "Earth as paradise"
+    prompt: >-
+      A symbolic vision of Earth transformed into a leisured paradise by
+      technology, machines doing the labour while people create and
+      rest, hopeful and luminous.
+    status: pending
+    seed: null
+
+  - id: the-great-ship
+    title: "The great ship"
+    prompt: >-
+      Crossing an airlock into a hangar holding a far larger craft, a
+      small group of serene Elohim in white waiting among strange trees,
+      anticipation.
     status: pending
     seed: null
 
@@ -113,19 +254,62 @@ scenes:
     title: "The banquet of the eternals"
     prompt: >-
       An open-air banquet in a sunlit clearing on the paradise planet,
-      some forty serene human-like eternals and robed Elohim sharing a
-      feast at a long table, among them calm bearded prophets, fraternal
-      warmth.
+      some forty serene human-like 'eternals' and white-clad Elohim at a
+      long table, fraternal warmth.
+    status: pending
+    seed: null
+
+  - id: biological-robots
+    title: "The biological servants"
+    prompt: >-
+      Graceful, beautiful serving and dancing figures — biological
+      robots — attending the banquet, uncanny perfection, soft warm
+      light.
+    status: pending
+    seed: null
+
+  - id: the-prophets
+    title: "The prophets revealed"
+    prompt: >-
+      At the table, the resurrected prophets among the eternals — a calm
+      bearded Jesus, with Moses, Elijah, Muhammad and Buddha nearby —
+      all serene and fraternal, quietly momentous.
+    status: pending
+    seed: null
+
+  - id: fly-to-grotto
+    title: "Flight to the grotto"
+    prompt: >-
+      Figures flying low with belt-devices across the lush planet,
+      alighting by the entrance of a small cave-laboratory, exhilarating
+      and strange.
     status: pending
     seed: null
 
   - id: robot-creation-machine
-    title: "The biological-creation machine"
+    title: "The creation machine"
     prompt: >-
       A great gleaming biological-creation machine in a cavern-
       laboratory bringing a new being into existence on a softly glowing
-      table, robed observers, an awed sense of flesh forming, cool
-      luminous light.
+      table, an awed sense of flesh forming, cool luminous light.
+    status: pending
+    seed: null
+
+  - id: cloning-self
+    title: "A second self"
+    prompt: >-
+      A man watching, astonished, as an exact living duplicate of
+      himself is formed on the machine's glowing table, identity
+      doubled, quiet unease and wonder.
+    status: pending
+    seed: null
+
+  - id: robot-guide-residence
+    title: "The robot guide"
+    prompt: >-
+      A tall, handsome serene robot guide leading a man through a
+      luxurious private residence on the paradise planet, soft evening
+      light.
     status: pending
     seed: null
 
@@ -134,7 +318,7 @@ scenes:
     prompt: >-
       A luxurious private residence on the paradise planet at evening,
       soft music and graceful dancers, sensual but tasteful warm light,
-      a sense of blissful repose.
+      blissful repose.
     status: pending
     seed: null
 
@@ -147,7 +331,16 @@ scenes:
     status: pending
     seed: null
 
-  - id: jerusalem-embassy
+  - id: guides-congregation
+    title: "The order of guides"
+    prompt: >-
+      A symbolic vision of a future congregation of guides of humanity,
+      serene figures in meditation and teaching, the message carried
+      forward, hopeful.
+    status: pending
+    seed: null
+
+  - id: build-embassy
     title: "The embassy near Jerusalem"
     prompt: >-
       A dignified future embassy-residence prepared near Jerusalem to
@@ -156,57 +349,186 @@ scenes:
     status: pending
     seed: null
 
+  - id: ambassador-appeal
+    title: "The ambassador"
+    prompt: >-
+      A lone man entrusted as ambassador, looking toward an ancient
+      homeland and a watching craft in the sky, gravity and calling.
+    status: pending
+    seed: null
+
   - id: planet-departure
     title: "Leaving the paradise planet"
     prompt: >-
-      A great silver vessel rising from the paradise planet into a star-
-      filled sky, the lush world falling away below, a sense of wonder
-      and farewell.
+      A great silver vessel rising from the lush paradise planet into a
+      star-filled sky, the world falling away below, wonder and
+      farewell.
     status: pending
     seed: null
 
   - id: the-keys
     title: "The keys to the mind"
     prompt: >-
-      A symbolic image of a young mind opening to light, a child looking
-      up in wonder as luminous keys of knowledge dissolve old shadows,
-      gentle and hopeful.
+      A symbolic image of a young mind opening to light, luminous keys
+      dissolving old shadows, gentle and hopeful.
     status: pending
     seed: null
 
-  - id: sensual-meditation
-    title: "Sensual meditation"
+  - id: awaken-the-child
+    title: "Awakening the child"
     prompt: >-
-      A serene figure resting peacefully in a quiet sunlit room open to
-      nature, eyes closed in deep meditation, a soft halo of harmony
-      linking body and cosmos, tasteful and calm.
+      A child looking up in wonder, mind and senses opening, taught to
+      measure all things against the infinite, warm and tender.
+    status: pending
+    seed: null
+
+  - id: sensual-awakening
+    title: "The senses as gifts"
+    prompt: >-
+      A serene figure attuned to the world through every sense in a
+      sunlit room open to nature, harmony of body and mind, tasteful and
+      calm.
+    status: pending
+    seed: null
+
+  - id: free-union
+    title: "Free union"
+    prompt: >-
+      Two figures in tender, unforced closeness in soft warm light, love
+      without contracts or possession, tasteful and gentle.
+    status: pending
+    seed: null
+
+  - id: conscious-parenthood
+    title: "Conscious parenthood"
+    prompt: >-
+      A blossomed couple welcoming a wanted child into a supportive,
+      light-filled community, deliberate and loving.
+    status: pending
+    seed: null
+
+  - id: caring-elders
+    title: "Caring for the elders"
+    prompt: >-
+      An old person cared for with dignity in a warm communal home, the
+      promise of the gardens of the Elohim beyond, compassionate.
     status: pending
     seed: null
 
   - id: geniocracy
-    title: "The enlightened society"
+    title: "The rule of genius"
     prompt: >-
-      A symbolic vision of a humane, harmonious future society: bright
-      graceful architecture, people creating art and science together
-      under a clear sky, hopeful and luminous.
+      A society led by its brightest minds: luminous halls of science
+      and art, gifted people elevated and at work, bright and humane.
     status: pending
     seed: null
 
-  - id: meditation-cosmos
+  - id: beyond-capitalism
+    title: "Beyond money"
+    prompt: >-
+      A symbolic break from money-driven toil: machines doing the
+      labour, people freed to create, a fairer balanced world, hopeful.
+    status: pending
+    seed: null
+
+  - id: biological-robot-future
+    title: "Freed by the robots"
+    prompt: >-
+      Tireless biological robots doing the heavy and tedious work while
+      humans create and rest, a serene automated future.
+    status: pending
+    seed: null
+
+  - id: respect-for-life
+    title: "Harmony with life"
+    prompt: >-
+      A person moving gently among animals and plants in a thriving
+      landscape, reverence for all living things, calm.
+    status: pending
+    seed: null
+
+  - id: meditation-before-meals
+    title: "Meditation before the meal"
+    prompt: >-
+      A person in quiet meditation before a simple meal in a sunlit
+      room, the whole body brought into harmony, serene.
+    status: pending
+    seed: null
+
+  - id: prayer-to-elohim
+    title: "Turning to the creators"
+    prompt: >-
+      Figures at dusk looking up to the stars in serene devotion toward
+      the Elohim, a small craft faint among the constellations,
+      reverent.
+    status: pending
+    seed: null
+
+  - id: art-and-literature
+    title: "Art that opens minds"
+    prompt: >-
+      A luminous space of art, music and books, people moved and
+      awakened by creation, warm and inspiring.
+    status: pending
+    seed: null
+
+  - id: abolish-death-penalty
+    title: "Mercy over vengeance"
+    prompt: >-
+      A symbolic scene of forgiveness and mercy replacing punishment,
+      chains falling away under a soft light, grave and humane.
+    status: pending
+    seed: null
+
+  - id: world-government
+    title: "A united world"
+    prompt: >-
+      A unified peaceful humanity: a luminous global federation and a
+      green thriving Earth seen from above, weapons set aside, hopeful.
+    status: pending
+    seed: null
+
+  - id: age-of-revelation
+    title: "The age of revelation"
+    prompt: >-
+      A symbolic dawn of the apocalypse-as-revelation: an unveiling
+      light over the Earth at the threshold of the new era, awe and
+      hope.
+    status: pending
+    seed: null
+
+  - id: meditation-technique
     title: "Feeling the infinite"
     prompt: >-
-      A person lying on the open ground at night feeling the turning
-      Earth beneath them and the vast cosmos above, a luminous thread
-      linking them to infinity, awe and peace.
+      A person lying on the open ground at night, feeling the turning
+      Earth beneath them and the vast cosmos above, a luminous thread to
+      infinity, awe and peace.
     status: pending
     seed: null
 
-  - id: spreading-message
-    title: "Spreading the message"
+  - id: scientific-reincarnation
+    title: "The reckoning of the eternals"
     prompt: >-
-      A lone figure addressing a gathered crowd at dusk, light radiating
-      outward from the message toward all humanity, a small craft
-      watching from the stars, hopeful and resolute.
+      A solemn vision of the worthy granted new life in the gardens of
+      the eternals while the cruel face their reckoning, grand and
+      severe.
+    status: pending
+    seed: null
+
+  - id: address-to-faiths
+    title: "To all the faiths"
+    prompt: >-
+      Figures from many traditions — Christian, Muslim, Jewish and more
+      — all turning to look up toward the same revelation in the sky, a
+      call to recognition.
+    status: pending
+    seed: null
+
+  - id: the-awakening-call
+    title: "Awaken!"
+    prompt: >-
+      A sleeper rising toward a breaking light, the closing call to
+      humanity to awaken and carry the message, hopeful and resolute.
     status: pending
     seed: null
 
