@@ -114,6 +114,10 @@ pause_ms_between_speakers: 900    # longer pause when speaker changes
 pause_ms_before_title: 1500       # section-break pause before kind=title paragraphs
 
 # Whether to use SSML phoneme tags from data-library/lexicon/{lang}.yaml.
-# When true, occurrences of lexicon entries are wrapped with
-# <phoneme alphabet="ipa" ph="…"> for ElevenLabs's IPA support.
-use_ssml_phoneme: true
+# When true, lexicon entries are wrapped with <phoneme alphabet="ipa" ph="…">.
+# IMPORTANT: ElevenLabs only honors <phoneme> on its ENGLISH-ONLY models
+# (Flash v2 / Turbo v2 / English v1). The multilingual model (model: above)
+# silently DROPS phoneme-tagged words — which is why names like Raël/Yahweh
+# came out unvoiced. Keep this FALSE while on a multilingual model; the
+# lexicon's per-language `fallback` respellings are used instead.
+use_ssml_phoneme: false

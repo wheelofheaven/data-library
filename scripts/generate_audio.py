@@ -46,7 +46,7 @@ except ImportError:
     sys.exit(1)
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lexicon import apply_ssml  # noqa: E402
+from lexicon import apply_ssml, apply_fallback  # noqa: E402
 
 LIB = Path(__file__).resolve().parent.parent  # data-library/
 ASSETS_AUDIO = LIB.parent / 'assets.wheelofheaven.world' / 'audio'
@@ -437,7 +437,7 @@ def generate_chapter(
             intro_voice, intro_settings = '<unset>', {
                 'stability': 0.5, 'similarity_boost': 0.75, 'style': 0.0,
                 'use_speaker_boost': True}
-        intro_api_text = apply_ssml(intro_text, lang) if use_ssml else intro_text
+        intro_api_text = apply_ssml(intro_text, lang) if use_ssml else apply_fallback(intro_text, lang)
         intro_key = cache_key(intro_api_text, intro_voice, intro_settings, model)
         intro_path = paragraph_audio_path(slug, lang, chap, 0)
         intro_meta_path = paragraph_meta_path(slug, lang, chap, 0)
@@ -533,8 +533,12 @@ def generate_chapter(
                         'duration_seconds': 0.0, 'estimated_cost': 0.0,
                         'error': str(e)}
 
-        # Apply lexicon SSML wrapping
-        api_text = apply_ssml(text, lang) if use_ssml else text
+        # Apply lexicon pronunciation. SSML <phoneme> only works on ElevenLabs'
+        # English-only models; the multilingual model silently DROPS phoneme-
+        # tagged words (that's why names like Raël/Yahweh weren't voiced). With
+        # SSML off we substitute the lexicon's fallback respellings, which work
+        # on any model.
+        api_text = apply_ssml(text, lang) if use_ssml else apply_fallback(text, lang)
         key = cache_key(api_text, voice_id, settings, model)
 
         para_path = paragraph_audio_path(slug, lang, chap, pn)
