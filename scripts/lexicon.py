@@ -100,6 +100,62 @@ def apply_fallback(text: str, lang: str) -> str:
     return pat.sub(repl, text)
 
 
+_AFFIX_LEAD = '«»"“”‘’\'(¿¡'
+_AFFIX_TRAIL = '.,;:!?…)»"“”‘’\''
+
+
+def _split_affix(tok: str) -> tuple[str, str, str]:
+    """Split a token into (leading punct, core, trailing punct). Keeps internal
+    hyphens (fallback respellings use them)."""
+    i = 0
+    while i < len(tok) and tok[i] in _AFFIX_LEAD:
+        i += 1
+    j = len(tok)
+    while j > i and tok[j - 1] in _AFFIX_TRAIL:
+        j -= 1
+    return tok[:i], tok[i:j], tok[j:]
+
+
+def relabel_to_display(words: list[dict], lang: str, original_text: str) -> list[dict]:
+    """Inverse of apply_fallback for the timing word-stream.
+
+    The audio is synthesized from fallback respellings (e.g. "YAH-way") so the
+    voice pronounces names correctly, but the caption/timing stream must show
+    the ORIGINAL spelling ("Yahweh"). We walk the lexicon matches in the
+    original text in order and rewrite the matching fallback-token run in the
+    word stream back to the original surface form, preserving timestamps and
+    surrounding punctuation. Order-based matching disambiguates entries that
+    share a fallback (e.g. fr Yahvé/Yahweh → "YAH-way")."""
+    entries = load(lang)
+    if not entries or not words:
+        return words
+    pat = _build_regex(entries)
+    expected = []  # ordered (fallback_tokens, original_surface)
+    for m in pat.finditer(original_text):
+        fb = entries[m.group(1)].get('fallback')
+        if fb:
+            expected.append((tuple(fb.split()), m.group(1)))
+    if not expected:
+        return words
+
+    out, i, e, n = [], 0, 0, len(words)
+    while i < n:
+        if e < len(expected):
+            toks, surface = expected[e]
+            L = len(toks)
+            if i + L <= n and tuple(_split_affix(words[i + k]['w'])[1] for k in range(L)) == toks:
+                lead = _split_affix(words[i]['w'])[0]
+                trail = _split_affix(words[i + L - 1]['w'])[2]
+                out.append({'w': lead + surface + trail,
+                            'start': words[i]['start'], 'end': words[i + L - 1]['end']})
+                i += L
+                e += 1
+                continue
+        out.append(words[i])
+        i += 1
+    return out
+
+
 def coverage_report(lang: str) -> dict:
     """Walk all TTS sidecars and count how often each lexicon entry appears.
     Returns {name: count}. Useful for knowing which lexicon entries are dead weight.

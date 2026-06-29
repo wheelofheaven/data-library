@@ -30,11 +30,11 @@ model: eleven_multilingual_v2
 # Default per-speaker settings (overridable per-language below)
 defaults:
   Narrator:
-    stability: 0.55           # natural narration cadence; some variation
+    stability: 0.75           # raised from 0.55: kill whisper/shout swings
     similarity_boost: 0.75
     style: 0.0
   Raël:
-    stability: 0.60           # in-scene dialogue; slightly more grounded
+    stability: 0.75           # raised from 0.60: consistent in-scene delivery
     similarity_boost: 0.75
     style: 0.0
   Yahweh:

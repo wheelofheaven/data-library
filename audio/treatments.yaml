@@ -19,6 +19,15 @@
 # Changing a filter invalidates only the affected speaker's cache;
 # unchanged speakers keep their cached treated output.
 
+# Global loudness normalization appended to EVERY paragraph (all speakers),
+# after the per-speaker filter above. Each paragraph is generated as a
+# separate TTS call, so their loudness drifts — some come out whispered,
+# some shouted. Normalizing each clip to a fixed integrated loudness makes
+# every paragraph equally audible. loudnorm is duration-preserving (no tail),
+# so c{N}.timing.json word arrays stay valid. Set "" to disable.
+# Changing this invalidates ALL treated caches (re-filter, no API re-spend).
+normalize: "loudnorm=I=-18:TP=-1.5:LRA=11"
+
 treatments:
 
   Narrator:

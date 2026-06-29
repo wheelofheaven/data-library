@@ -46,7 +46,7 @@ except ImportError:
     sys.exit(1)
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from lexicon import apply_ssml, apply_fallback  # noqa: E402
+from lexicon import apply_ssml, apply_fallback, relabel_to_display  # noqa: E402
 
 LIB = Path(__file__).resolve().parent.parent  # data-library/
 ASSETS_AUDIO = LIB.parent / 'assets.wheelofheaven.world' / 'audio'
@@ -76,6 +76,16 @@ def treatment_filter(treatments_cfg: dict, speaker: str) -> str:
     """Return the ffmpeg filter chain for a speaker, or '' for no treatment."""
     spk = treatments_cfg.get(speaker) or {}
     return spk.get('filter', '') or ''
+
+
+def load_normalize_filter() -> str:
+    """Global loudness-normalization filter appended to every paragraph.
+    Read from treatments.yaml `normalize:`; '' if absent (no normalization)."""
+    path = LIB / 'audio' / 'treatments.yaml'
+    if not path.exists():
+        return ''
+    data = yaml.safe_load(path.read_text()) or {}
+    return data.get('normalize', '') or ''
 
 
 def resolve_voice(cfg: dict, speaker: str, lang: str) -> tuple[str, dict]:
@@ -371,6 +381,7 @@ def generate_chapter(
     dry_run=False,
     price_per_1k=0.30,
     treatments_cfg=None,
+    normalize_filter='',
     audioplay_cfg=None,
 ):
     """Generate audio for one chapter. Returns stats dict.
@@ -489,11 +500,39 @@ def generate_chapter(
                 try:
                     alignment = json.loads(intro_align_path.read_text())
                     words = group_chars_to_words(alignment, running_t)
+                    words = relabel_to_display(words, lang, intro_text)
                     if words:
                         intro_entry['words'] = words
                 except (json.JSONDecodeError, KeyError):
                     pass
-            pieces.append(intro_path)
+            # Normalize the intro to the same loudness as the body, else the
+            # 56s "voice of the site" preface sits ~10 dB under the narration
+            # and the jump into chapter 1 is jarring. Duration-preserving.
+            intro_piece = intro_path
+            intro_eff = ','.join(
+                f for f in (treatment_filter(treatments_cfg, intro_speaker), normalize_filter) if f
+            )
+            if intro_eff:
+                intro_treated = intro_path.with_name(intro_path.stem + '.treated.mp3')
+                intro_treated_meta = intro_treated.with_suffix('.meta.json')
+                itk = treatment_cache_key(intro_eff)
+                intro_treated_cached = False
+                if intro_treated.exists() and intro_treated_meta.exists():
+                    try:
+                        im = json.loads(intro_treated_meta.read_text())
+                        intro_treated_cached = (im.get('treatment_key') == itk
+                                                and im.get('source_key') == intro_key)
+                    except json.JSONDecodeError:
+                        pass
+                if not intro_treated_cached:
+                    print(f'    treating intro [{intro_speaker}]: {intro_eff[:60]}…')
+                    apply_treatment(intro_path, intro_treated, intro_eff)
+                    intro_treated_meta.write_text(json.dumps({
+                        'treatment_key': itk, 'source_key': intro_key,
+                        'speaker': intro_speaker, 'filter': intro_eff,
+                    }, indent=2))
+                intro_piece = intro_treated
+            pieces.append(intro_piece)
             running_t += intro_duration
             paragraph_timings.append(intro_entry)
             post_silence = WORK / 'silence' / f'{intro_post_ms}ms.mp3'
@@ -589,12 +628,16 @@ def generate_chapter(
             # Treated file is cached at p{n}.treated.mp3 keyed by the
             # filter-chain hash, so a treatments.yaml edit invalidates only
             # the affected speaker's treated cache.
+            # Per-speaker EQ/reverb, then global loudness normalization so
+            # every paragraph sits at the same perceived level (fixes the
+            # whisper/shout swings from per-call TTS loudness variation).
             filter_str = treatment_filter(treatments_cfg, speaker)
+            eff_filter = ','.join(f for f in (filter_str, normalize_filter) if f)
             treated_path = paragraph_treated_path(slug, lang, chap, pn)
             treated_meta_path = treated_path.with_suffix('.meta.json')
             piece_path = para_path  # default: untreated
-            if filter_str:
-                tk = treatment_cache_key(filter_str)
+            if eff_filter:
+                tk = treatment_cache_key(eff_filter)
                 # The treated cache must be keyed on BOTH the filter chain
                 # AND the source audio's cache key. Keying on the filter
                 # alone caused the Phoenix-recast bug: a voice swap
@@ -609,11 +652,11 @@ def generate_chapter(
                     except json.JSONDecodeError:
                         pass
                 if not treated_cached:
-                    print(f'    treating ch{chap} p{pn} [{speaker}]: {filter_str[:60]}…')
-                    apply_treatment(para_path, treated_path, filter_str)
+                    print(f'    treating ch{chap} p{pn} [{speaker}]: {eff_filter[:60]}…')
+                    apply_treatment(para_path, treated_path, eff_filter)
                     treated_meta_path.write_text(json.dumps({
                         'treatment_key': tk, 'source_key': key, 'speaker': speaker,
-                        'filter': filter_str,
+                        'filter': eff_filter,
                     }, indent=2))
                 piece_path = treated_path
             # Insert silence before this paragraph (except first). Kind
@@ -645,6 +688,7 @@ def generate_chapter(
                 try:
                     alignment = json.loads(align_path.read_text())
                     words = group_chars_to_words(alignment, running_t)
+                    words = relabel_to_display(words, lang, text)
                 except (json.JSONDecodeError, KeyError):
                     pass
             entry = {
@@ -676,7 +720,7 @@ def generate_chapter(
     # across libmp3lame-treated MP3s).
     chapter_mp3 = ASSETS_AUDIO / lang / slug / f'c{chap}.mp3'
     chapter_timing = ASSETS_AUDIO / lang / slug / f'c{chap}.timing.json'
-    any_treatment = any(
+    any_treatment = bool(normalize_filter) or any(
         treatment_filter(treatments_cfg, s) for s in para_speakers.values()
     )
     ffmpeg_concat(pieces, chapter_mp3, reencode=any_treatment)
@@ -832,6 +876,7 @@ def main():
 
     voices_cfg = load_voices_config()
     treatments_cfg = load_treatments_config()
+    normalize_filter = load_normalize_filter()
     api_key = os.environ.get('ELEVENLABS_API_KEY')
     if not api_key and not args.dry_run:
         print('ELEVENLABS_API_KEY env var not set. Use --dry-run to estimate cost without an API key.',
@@ -846,6 +891,7 @@ def main():
     if treatments_cfg:
         treated_speakers = [s for s, cfg in treatments_cfg.items() if (cfg or {}).get('filter')]
         print(f'Treatments: {", ".join(treated_speakers) or "none"}')
+    print(f'Normalize: {normalize_filter or "off"}')
     print()
 
     grand_chars = 0
@@ -864,6 +910,7 @@ def main():
         stats = generate_chapter(args.slug, chap, args.lang, voices_cfg, api_key,
                                  dry_run=args.dry_run, price_per_1k=args.price_per_1k,
                                  treatments_cfg=treatments_cfg,
+                                 normalize_filter=normalize_filter,
                                  audioplay_cfg=audioplay_cfg)
         if 'error' in stats:
             print(f'  ABORTED: {stats["error"]}')
