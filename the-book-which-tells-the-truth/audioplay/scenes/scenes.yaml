@@ -53,15 +53,19 @@ characters:
   yahweh:
     portrait_ref: images/wiki/yahweh-eloha
     description: >-
-      Match the yahweh-eloha portrait: a serene, benevolent man with long dark
-      centre-parted hair past the shoulders, a neat dark beard and moustache,
-      almond / slightly slanted eyes, fair skin with a faint greenish tinge,
-      about one meter twenty tall. FIRST-ENCOUNTER attire (this book): a fitted
-      GREEN one-piece suit covering the whole body, and around his otherwise
-      bare head a barely-visible translucent shimmering halo — like an invisible
-      diving helmet, a bubble so thin you can hardly see it. (Note: the portrait
-      shows his later white planet attire — keep the FACE, change to the green
-      suit + halo.)
+      Match the yahweh-eloha portrait FACE: a serene, benevolent, YOUTHFUL man
+      who looks about twenty-five — a smooth, unlined, youthful face — with long
+      dark centre-parted hair past the shoulders, a neat dark beard and
+      moustache, almond / slightly slanted eyes, fair skin with a faint greenish
+      tinge. He is STRIKINGLY SHORT — only about one meter twenty (1.2 m) tall:
+      standing beside a normal-height adult, the top of his head reaches only to
+      about that adult's chest. Child-sized stature but with fully adult, mature
+      proportions and features — never depict him as an actual child.
+      FIRST-ENCOUNTER attire (this book): a fitted GREEN one-piece suit covering
+      the whole body, and around his otherwise bare head a barely-visible
+      translucent shimmering halo — like an invisible diving helmet, a bubble so
+      thin you can hardly see it. (Note: the portrait shows his later white
+      planet attire — keep the FACE, change to the green suit + halo.)
   rael:
     portrait_ref: images/wiki/rael-claude-vorilhon
     description: >-
@@ -100,9 +104,10 @@ scenes:
     title: "The Elohim vessel descends"
     prompt: >-
       A small silver flying craft, roughly two meters across, descending
-      silently through morning mist toward a volcanic crater clearing, a soft
-      flashing light around its rim, dawn sky behind, viewed from the ground.
-    status: generated
+      silently through cold morning mist toward a volcanic crater clearing, a
+      soft flashing light around its rim, a flat grey overcast winter-morning sky
+      behind (NOT golden, NOT sunset, NOT night), viewed from the ground.
+    status: redo
     seed: 19731214
 
   # --- Chapter 1 shot list (batch 2) -----------------------------------------
@@ -116,38 +121,46 @@ scenes:
     title: "The being comes down the steps"
     prompt: >-
       Yahweh descending the small staircase from beneath the hovering silver
-      craft into the misty crater at dawn — a small man about one meter twenty
-      tall in a fitted GREEN one-piece suit, long dark hair and a neat dark
-      beard, fair greenish-tinged skin, his bare head ringed by a faint,
-      barely-visible translucent shimmering halo (an almost-invisible
-      bubble-helmet). Match the yahweh-eloha portrait. Respectful middle
+      craft into the misty crater on a cold grey overcast winter morning (flat
+      diffuse daylight, low ground mist; NOT golden, NOT sunset, NOT night) — a
+      strikingly small, youthful man only about one meter twenty (1.2 m) tall in
+      a fitted GREEN one-piece suit, long dark hair and a neat dark beard, a
+      smooth youthful face, fair greenish-tinged skin, his bare head ringed by a
+      faint, barely-visible translucent shimmering halo (an almost-invisible
+      bubble-helmet). Match the yahweh-eloha portrait face. Respectful middle
       distance, quiet awe.
-    status: generated
+    status: redo
     seed: 2026062801
 
   - id: crater-meeting
     title: "First words across the crater"
     prompt: >-
       Two figures facing each other a few meters apart in a misty volcanic
-      crater at cold grey dawn — Raël, a late-twenties man in a 1970s winter
-      coat and gold-tinted aviator glasses (match the rael-claude-vorilhon
-      portrait), and the much smaller Yahweh in a fitted green one-piece suit
-      with a faint translucent halo around his bare head (match the
-      yahweh-eloha portrait) — the small silver craft hovering quietly behind
-      with a soft flashing rim light.
-    status: generated
+      crater on a cold grey overcast winter morning (flat diffuse daylight, low
+      mist; NOT golden, NOT sunset, NOT night) — Raël, a normal-height
+      late-twenties man (about 1.8 m) in a 1970s winter coat and gold-tinted
+      aviator glasses (match the rael-claude-vorilhon portrait), and beside him
+      the STRIKINGLY SHORT, youthful Yahweh, only about one meter twenty (1.2 m)
+      tall so the top of his head reaches only to Raël's chest, in a fitted
+      green one-piece suit with a faint translucent halo around his bare head
+      (match the yahweh-eloha portrait face) — the small silver craft hovering
+      quietly behind with a soft flashing rim light. The dramatic height
+      difference between the two should be clearly visible.
+    status: redo
     seed: 2026062802
 
   - id: telepathy-revelation
     title: "Telepathy, the Bible, the mission"
     prompt: >-
-      An intimate, reverent moment in the cold dawn crater: Yahweh — small, in
-      a green one-piece suit, a faint translucent halo around his bare head,
-      long dark hair and neat beard (match the yahweh-eloha portrait) —
-      speaking, while Raël (gold-tinted glasses, winter coat, small notebook;
-      match the rael-claude-vorilhon portrait) listens intently; an old
-      leather-bound Bible faintly suggested, shallow depth of field.
-    status: generated
+      An intimate, reverent moment in the cold grey misty crater on an overcast
+      winter morning (flat diffuse daylight; NOT golden, NOT sunset, NOT night):
+      Yahweh — strikingly short (about 1.2 m), youthful, in a green one-piece
+      suit, a faint translucent halo around his bare head, long dark hair and
+      neat beard (match the yahweh-eloha portrait face) — speaking, while the
+      much taller Raël (gold-tinted glasses, winter coat, small notebook; match
+      the rael-claude-vorilhon portrait) listens intently; an old leather-bound
+      Bible faintly suggested, shallow depth of field.
+    status: redo
     seed: 2026062803
 
   - id: vessel-interior
@@ -158,19 +171,39 @@ scenes:
       smaller and higher; a sparkling slightly-bluish alloy floor; NO
       instruments or controls of any kind and no lamp — a soft natural light
       coming from everywhere; the curved walls faintly transparent, hinting at
-      the misty dawn crater outside. Calm and otherworldly.
-    status: generated
+      the cold grey misty morning crater outside. Calm and otherworldly.
+    status: redo
     seed: 2026062804
+
+  - id: vessel-conversation
+    title: "Seated, face to face"
+    prompt: >-
+      Inside the small flattened-bell craft, the two seated facing each other in
+      quiet conversation. Raël — a normal-height late-twenties man, gold-tinted
+      aviator glasses, coat now open, a small notebook (match the
+      rael-claude-vorilhon portrait) — sits in the LARGER but LOWER translucent
+      colourless armchair. Opposite him the strikingly short, youthful Yahweh
+      (only about 1.2 m tall, fitted green one-piece suit, faint translucent halo
+      around his bare head, long dark hair and neat dark beard; match the
+      yahweh-eloha portrait face) sits in a SMALLER but HIGHER matching armchair,
+      so that despite the great difference in their height their faces are at the
+      SAME level, meeting eye to eye. Sparkling slightly-bluish alloy floor, no
+      instruments or controls, soft natural light from everywhere, the curved
+      walls turned transparent to reveal the cold grey misty morning crater all
+      around. Calm, intimate, reverent, otherworldly.
+    status: pending
+    seed: 2026062850
 
   - id: craft-departs
     title: "The craft rises and departs"
     prompt: >-
-      A small silver craft ascending silently into a grey misty dawn sky above
-      the volcanic crater, a soft flashing light around its rim; Raël — late
-      twenties, dark wavy hair, 1970s gold-tinted aviator glasses, winter coat
-      (match the rael-claude-vorilhon portrait) — watching alone from below, a
-      feeling of awe and stillness.
-    status: generated
+      A small silver craft ascending silently into a flat grey misty overcast
+      winter-morning sky above the volcanic crater (NOT golden, NOT sunset, NOT
+      night), a soft flashing light around its rim; Raël — late twenties, dark
+      wavy hair, 1970s gold-tinted aviator glasses, winter coat (match the
+      rael-claude-vorilhon portrait) — watching alone from below, a feeling of
+      awe and stillness.
+    status: redo
     seed: 2026062805
 
   # --- Chapters 2-7 shot list (denser, ~2-min beats) -------------------------
