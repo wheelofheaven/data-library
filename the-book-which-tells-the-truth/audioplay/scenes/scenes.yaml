@@ -136,6 +136,85 @@ scenes:
     status: generated
     seed: 2026062860
 
+  # --- Per-chapter thumbnail key art -----------------------------------------
+  # One striking hero image per chapter, used as that chapter's YouTube
+  # thumbnail background AND as the "up next" endcard backdrop in the PREVIOUS
+  # chapter's video. Compose RIGHT-WEIGHTED: keep the left third open and a
+  # touch darker so the overlaid title text stays legible. Language-neutral,
+  # no baked text. Same 1970s grounded-sci-fi look as the rest (style.prefix).
+  - id: thumb-c1
+    title: "Thumbnail — Ch.1 The Meeting"
+    prompt: >-
+      Key art for 'The Meeting'. A cold grey misty Auvergne volcanic crater on
+      an overcast winter morning; the small silver disc-craft hovers low at
+      right with a soft cool rim light, and two small figures face each other
+      beneath it — the taller Raël in a 1970s winter coat and the strikingly
+      short green-suited Yahweh. Right-weighted composition, the left third open
+      and darker for a title. Awe, first-contact threshold.
+    status: pending
+    seed: 2026063001
+  - id: thumb-c2
+    title: "Thumbnail — Ch.2 The Truth"
+    prompt: >-
+      Key art for 'The Truth' (Genesis as engineering). Inside a luminous,
+      otherworldly creation laboratory, serene Elohim scientists in pale/green
+      one-piece suits shape the first life — glowing vessels and a faint
+      double-helix of light — gathered at right; a young primordial Earth or
+      green Eden glimpsed beyond. Right-weighted, left side open and darker for a
+      title. Reverent wonder of creation.
+    status: pending
+    seed: 2026063002
+  - id: thumb-c3
+    title: "Thumbnail — Ch.3 The Surveillance of the Chosen"
+    prompt: >-
+      Key art for 'The Surveillance of the Chosen'. Over a dark ancient desert
+      wilderness at night, the silver Elohim craft hovers at right as a towering
+      pillar of fiery cloud and light — watching over tiny human figures and
+      flickering campfires far below. Right-weighted, left sky open and darker
+      for a title. Watchful, awe, hidden guardians of the prophets.
+    status: pending
+    seed: 2026063003
+  - id: thumb-c4
+    title: "Thumbnail — Ch.4 The Usefulness of the Christ"
+    prompt: >-
+      Key art for 'The Usefulness of the Christ'. On a sunlit Galilean hillside,
+      a luminous robed teacher stands at right addressing a small gathered
+      crowd, a faint cool point of light (a distant craft / star) high above
+      him; soft golden-grey light. Reverent, not kitsch. Right-weighted, left
+      open and darker for a title.
+    status: pending
+    seed: 2026063004
+  - id: thumb-c5
+    title: "Thumbnail — Ch.5 The End of the World"
+    prompt: >-
+      Key art for 'The End of the World' (the atomic age and the age of
+      revelation). A dark brooding horizon at right with the distant glow of a
+      mushroom-cloud and a city silhouette, the sky above turning slowly from
+      ominous storm toward a faint cool dawn. Right-weighted, left open and
+      darker for a title. Threshold, dread giving way to hope.
+    status: pending
+    seed: 2026063005
+  - id: thumb-c6
+    title: "Thumbnail — Ch.6 The New Commandments"
+    prompt: >-
+      Key art for 'The New Commandments'. A serene futuristic embassy / temple
+      of welcome at right — calm geometric architecture with reflecting water
+      and a small landing pad under a clear quiet sky, a single cool light
+      accent. Hopeful, humanitarian, a place built to receive the creators.
+      Right-weighted, left open and darker for a title.
+    status: pending
+    seed: 2026063006
+  - id: thumb-c7
+    title: "Thumbnail — Ch.7 The Elohim"
+    prompt: >-
+      Key art for 'The Elohim'. Their distant homeworld — a gleaming advanced
+      civilization of graceful architecture and a great silver mother-ship at
+      right, under a vast alien sky with two faint moons; serene, far beyond
+      Earth's age, a paradise of science. Right-weighted, left sky open and
+      darker for a title. Cosmic, eternal, advanced.
+    status: pending
+    seed: 2026063007
+
   - id: being-emerges
     title: "The being comes down the steps"
     prompt: >-
