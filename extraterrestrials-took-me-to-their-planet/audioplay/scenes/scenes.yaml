@@ -74,6 +74,60 @@ scenes:
     status: pending
     seed: null
 
+  # --- Key art: hero + per-chapter thumbnails --------------------------------
+  # Book-level hero (meta-narration backdrop / title-card / outro / thumbnail
+  # base) + one thumbnail per chapter (YouTube thumbnail AND the "up next"
+  # endcard backdrop in the previous chapter). Compose RIGHT-WEIGHTED with the
+  # left third open and darker for the overlaid title. Language-neutral.
+  - id: intro-hero
+    title: "Key art — taken to their world"
+    prompt: >-
+      Cinematic key-art hero poster for a reverent science-fiction audiobook. On
+      a clear starlit night over a quiet rural French landscape, a lone small
+      figure — Raël in 1970s clothes, seen from behind (match the
+      rael-claude-vorilhon portrait) — stands before a vast silver Elohim
+      mother-ship hovering silently above, its soft cool underglow lighting the
+      field; a sense of being summoned to the stars. Epic scale and cosmic
+      threshold, moody and reverent, muted earthy palette with a single cool
+      accent, 35mm grain. Generous empty sky / negative space for a title, clean
+      lower third. NOT golden, NOT sunset.
+    status: pending
+    seed: null
+
+  - id: thumb-c1
+    title: "Thumbnail — Ch.1 The account"
+    prompt: >-
+      Key art for chapter one (Raël's life and the second calling). A
+      late-twenties man in 1970s clothes and gold-tinted glasses (match the
+      rael-claude-vorilhon portrait) stands at night in a French field at right,
+      looking up as a small silver disc-craft returns with a soft flashing glow
+      — summoned a second time. Right-weighted, the left third open and darker
+      for a title. Quiet awe, destiny.
+    status: pending
+    seed: null
+
+  - id: thumb-c2
+    title: "Thumbnail — Ch.2 The planet of the Elohim"
+    prompt: >-
+      Key art for chapter two. The Elohim's paradise world: at right, the great
+      gleaming silver mother-ship and an elegant white residence set in a lush
+      alien garden of perfumed vegetation under a soft alien sky; serene figures
+      in white in the distance. Right-weighted, the left side open and darker for
+      a title. Wonder, a paradise beyond Earth.
+    status: pending
+    seed: null
+
+  - id: thumb-c3
+    title: "Thumbnail — Ch.3 The keys"
+    prompt: >-
+      Key art for chapter three (the teachings carried home). The dawn of a new
+      age: at right, a serene awakened humanity and a calm, humane future — clean
+      graceful architecture under a hopeful cool dawn, a lone figure looking
+      toward the light. Right-weighted, the left open and darker for a title.
+      Hope, renewal, the message brought back to Earth.
+    status: pending
+    seed: null
+
   - id: rael-writing
     title: "Looking back"
     prompt: >-
