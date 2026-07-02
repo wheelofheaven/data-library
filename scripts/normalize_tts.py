@@ -73,6 +73,17 @@ GENERIC_CITATION_RE = re.compile(
     r'\s*[(（][^()（）]*\b[IVXLC]+\s*-\s*\d+[^()（）]*[)）]'
 )
 
+# Hebrew-script chapter-verse citation: "(תהילים, י״ט-5)", "(איוב, ב׳-6)".
+# The he translation cites chapters with Hebrew-letter numerals, which carry a
+# geresh (׳ U+05F3) or gershayim (״ U+05F4); combined with an Arabic verse digit
+# inside a parenthetical, that signature is always a scripture citation in this
+# corpus (metric glosses like "(9 מטרים)" carry no geresh/gershayim, so they are
+# not stripped). Without this, Hebrew citations both leak into the spoken audio
+# and, when a paragraph is citation-only, produce an empty TTS clip.
+HEBREW_CITATION_RE = re.compile(
+    r'\s*[(（][^()（）]*[׳״][^()（）]*\d[^()（）]*[)）]'
+)
+
 # Truncated citation at paragraph end: OCR lost the chapter-verse tail and
 # the closing paren — "…the first day.» (Genesis," — strip the dangler.
 # (The canonical data has been repaired; this guards future ingests.)
@@ -190,6 +201,7 @@ def normalize(text: str, lang: str = 'fr') -> str:
     s = CITATION_RE.sub('', s)
     s = BARE_NUMERAL_CITATION_RE.sub('', s)
     s = GENERIC_CITATION_RE.sub('', s)
+    s = HEBREW_CITATION_RE.sub('', s)
     s = TRUNCATED_CITATION_RE.sub('', s)
     s = ORPHAN_CITATION_TAIL_RE.sub('', s)
 

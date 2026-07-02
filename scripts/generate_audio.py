@@ -416,6 +416,9 @@ def generate_chapter(
 
     treatments_cfg = treatments_cfg or {}
     model = voices_cfg.get('model', 'eleven_multilingual_v2')
+    # Per-language model override (e.g. Hebrew needs eleven_v3; the default
+    # multilingual_v2 has no Hebrew). Falls back to the global model.
+    model = voices_cfg.get('models', {}).get(lang, model)
     pause_default_ms = voices_cfg.get('pause_ms_between_paragraphs', 600)
     pause_speaker_ms = voices_cfg.get('pause_ms_between_speakers', 900)
     pause_title_ms = voices_cfg.get('pause_ms_before_title', 1500)

@@ -27,6 +27,12 @@
 # Default model used for all generations
 model: eleven_multilingual_v2
 
+# Per-language model overrides. Hebrew is NOT supported by multilingual_v2, so
+# it is generated with eleven_v3 (74 languages incl. Hebrew; confirmed to return
+# word-level timestamps via the with-timestamps endpoint).
+models:
+  he: eleven_v3
+
 # Default per-speaker settings (overridable per-language below)
 defaults:
   Narrator:
@@ -105,6 +111,14 @@ voices:
     Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }
     Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }
     AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }
+
+  # Hebrew — generated with eleven_v3 (see models: above). Same cast; the
+  # Phoenix/Jon/Jarnathan voices are model-agnostic and speak Hebrew under v3.
+  he:
+    Narrator:          { voice_id: "aaHNjm7ksE1iw31dNOq5" }   # Phoenix
+    Raël:              { voice_id: "aaHNjm7ksE1iw31dNOq5" }   # Phoenix
+    Yahweh:            { voice_id: "sB7vwSCyX0tQmU24cW2C" }   # Jon
+    AudioplayNarrator: { voice_id: "c6SfcYrb2t09NHXiT80T" }   # Jarnathan
 
 # Inter-paragraph pause length in milliseconds. Concatenation inserts a silence
 # clip of this length between paragraphs. Override per-paragraph via the TTS
