@@ -4,564 +4,1677 @@
   "bookSlug": "oomoto-shinyu-woh",
   "n": 1,
   "title": "Oomoto Shin'yu — Divine Revelations",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0-rc1",
+    "sourceText": "大本神諭 (Oomoto Shin'yu) — Deguchi Nao's ofudesaki automatic writing, Meiji 25 (1892) oracles (first fude, old-cal. 1st month, and old-cal. 5th month 5th day); reikaimonogatari.net (霊界物語ネット / Onido) e-text, de-furigana'd running text of witnesses os004 and os013.",
+    "sourceLicense": "Public Domain. Deguchi Nao (d. 1918) and Deguchi Onisaburō (d. 1948, editor/compiler of the printed Ōmoto Shin'yu) are both long out of Japanese copyright (life+70 and the pre-2018 life+50 regime). Machine-readable transcription served by reikaimonogatari.net. English translation original to the Wheel of Heaven Translation Program (CC0-1.0).",
+    "sourceUrl": "https://reikaimonogatari.net/index.php?obc=os004 ; https://reikaimonogatari.net/index.php?obc=os013",
+    "sourceAccessedVia": "reikaimonogatari.net (霊界物語ネット / Onido) Ōmoto Shin'yu e-text; see source-ja-1.json collationWitnesses",
+    "verificationStatus": "witness-confirmed-collation-partial-2026-07; first-pass draft. 38/93 verses matched the witness exactly after furigana-stripping; remainder differ by orthographic variants (e.g. 三ぜん/三千, 一同/一度). A single-edition philological pass is recommended before sign-off (see editorial_questions and source collationNotes).",
+    "glossaryVersion": "2.69.0",
+    "overlayGlossaryVersion": "1.0.0",
+    "glossaryNote": "Central production glossary (v2.69.0) is Semitic-only and covers no Japanese lemmata. All Ōmoto-technical lexical decisions are governed by the per-book overlay _translation-glossary.json (v1.0.0, 16 entries: 5 direct convention/collation/theonym + soul/guardian/etc.). glossaryRefs[] now populated from the overlay. One proposed speculative entry — the interpretive identification of Ōmoto's banished-and-returning creator-kami with the Wheel of Heaven Elohim frame — is NOT committed; the surface text keeps 神 neutral ('the kami') and the resonance lives in comparative commentary only, escalated to the human reviewer per chapter-1-editor-report.md. Single-edition philological pass still pending (38/93 witness match).",
+    "modelDrafts": [
+      "claude-opus-4-8 (translator)"
+    ],
+    "reviewer": "approved — all 93 verses defensible; kami/Elohim veto confirmed (neutral, zero leakage); glossary 16/16 (ad3377c3). 1:1 flag-for-human + single-edition pass pending.",
+    "reviewedAt": "2026-07-03",
+    "status": "reviewer-approved",
+    "editor": "claude-opus-4-8[1m] (editor)",
+    "humanRuling": "2026-07-03: standing lens-neutral ruling extended to Oomoto — 神/kami kept NEUTRAL (\"the kami\"), NO Elohim/Raëlian vocabulary in any line or note; kami-Elohim identification escalated as speculative, NOT committed (routed to wiki/article). 1:1 一同 kept per printed witness (\"all together\"), flagged — reviewer notes canonical reading is likely 一度 \"all at once\"; single-edition philological pass pending (38/93 exact match). から=China and 玉芝/Tamashiba noted for specialist confirmation. Not blockers for RC."
+  },
   "paragraphs": [
     {
       "n": 1,
       "refId": "OSHIN-1:1",
-      "text": "三ぜん世界一同に開く梅の花、艮の金神の世に成りたぞよ。",
-      "i18n": {}
+      "ja": "三ぜん世界一同に開く梅の花、艮の金神の世に成りたぞよ。",
+      "translit": "Sanzen sekai ichidō ni hiraku ume no hana, Ushitora no Konjin no yo ni narita zo yo.",
+      "i18n": {
+        "en": "Throughout the three-thousand worlds, all together, the plum blossom opens; the age of Ushitora no Konjin has come to be."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "ushitora-no-konjin-theonym-oomoto-shinyu-woh",
+        "sanzen-sekai-three-thousand-worlds-oomoto-shinyu-woh",
+        "oomoto-shinyu-collation-witnesses-reikaimonogatari-partial-orthographic-variants"
+      ],
+      "notes": {
+        "official": "Three technical terms open the oracle. 艮の金神 *Ushitora no Konjin* — the Konjin (a calendrical, direction-taboo kami traditionally feared) of the *ushitora* quarter, the northeast, the ox-tiger direction (丑寅) — is Ōmoto's central theonym; the WoH translation retains the romanized proper name with a gloss rather than descriptivizing it ('the Golden Deity of the Northeast'), because it names a specific being whom the text goes on to identify with the primordial Kunitokotachi-no-Mikoto (1:52). 三千世界 *sanzen sekai*, 'the three-thousand worlds', is the Buddhist trichiliocosm (Skt. *trisāhasra-mahāsāhasra-lokadhātu*) taken into Ōmoto cosmology for the whole manifest universe; it is rendered literally rather than naturalized to 'the whole universe' so the Buddhist register stays visible. The plum-blossom opening (梅の花 *ume*) is the recurring Ōmoto emblem of the new age, paired with the pine (松 *matsu*) of its governance at 1:2.\n\nThe printed transcription reads 三ぜん…一同 where the reikaimonogatari.net witness reads 三千…一度. 一同 *ichidō* ('all together, all as one') and 一度 *ichido* ('at one stroke, at one time') are a real sense difference; the WoH English follows the printed 一同 ('all together'), with the witness variant recorded. Machine collation matched only 38/93 verses exactly after furigana-stripping, so a single-edition philological pass remains pending (see editor report). The sentence-final ぞよ *zo yo* — the archaic, emphatic-assertive marker of divine first-person speech that ends most verses — is carried by a plain English declarative and preserved only in the transliteration.",
+        "community": []
+      }
     },
     {
       "n": 2,
       "refId": "OSHIN-1:2",
-      "text": "梅で開いて松で治める、神国の世になりたぞよ。",
-      "i18n": {}
+      "ja": "梅で開いて松で治める、神国の世になりたぞよ。",
+      "translit": "Ume de hiraite matsu de osameru, shinkoku no yo ni narita zo yo.",
+      "i18n": {
+        "en": "It opens with the plum and is governed with the pine; the age of the divine land has come to be."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "shinkoku-divine-land-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "神国 *shinkoku* is rendered 'divine land', not the ideologically loaded 'divine nation' of later State-Shintō usage: this 1892 oracle predates the militarist appropriation of the term by a generation, and the sense here is theocratic-restorative (a realm the kami governs) rather than nationalist. The plum-and-pine couplet — opened with the plum, governed with the pine — continues the emblem of 1:1.",
+        "community": []
+      }
     },
     {
       "n": 3,
       "refId": "OSHIN-1:3",
-      "text": "日本は神道、神が構わな行けぬ国であるぞよ。",
-      "i18n": {}
+      "ja": "日本は神道、神が構わな行けぬ国であるぞよ。",
+      "translit": "Nihon wa Shintō, kami ga kamawana ikenu kuni de aru zo yo.",
+      "i18n": {
+        "en": "Japan is (the land of) Shintō, a land that cannot go on unless the kami attend to it."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "神道 *Shintō* ('the way of the kami') is retained as the proper term. 神が構わな行けぬ — 'a land that cannot go on unless the kami attend to it' — turns on 構う *kamau* ('to attend to, involve oneself with'); the line asserts kami-dependence, not merely religious identity.",
+        "community": []
+      }
     },
     {
       "n": 4,
       "refId": "OSHIN-1:4",
-      "text": "外国は獣類の世、強いもの勝ちの、悪魔ばかりの国であるぞよ。",
-      "i18n": {}
+      "ja": "外国は獣類の世、強いもの勝ちの、悪魔ばかりの国であるぞよ。",
+      "translit": "Gaikoku wa jūrui no yo, tsuyoi mono gachi no, akuma bakari no kuni de aru zo yo.",
+      "i18n": {
+        "en": "The foreign countries are a world of beasts, where the strong take all — lands of nothing but devils."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "sensitive-register-accuracy-first-contextualize-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "獣類 *jūrui* ('beasts') and 悪魔 *akuma* ('devils') are rendered literally per the project's accuracy-first policy; the WoH text neither softens nor amplifies the 1892 oracle's xenophobic rhetoric about 外国 *gaikoku* ('the foreign countries'). Two framing facts belong in the apparatus rather than the line: the text is a pre-militarist provincial oracle of 1892, composed before the Sino-Japanese War and decades before this register was absorbed into State-Shintō nationalism; and the 'world of beasts / strong-take-all' language is the oracle's idiom for a moral order it judges predatory, applied at 1:5 to Japan itself ('Japan too has become a world of beasts'). The rhetoric is documented, not endorsed; see editor report.",
+        "community": []
+      }
     },
     {
       "n": 5,
       "refId": "OSHIN-1:5",
-      "text": "日本も獣の世になりて居るぞよ。",
-      "i18n": {}
+      "ja": "日本も獣の世になりて居るぞよ。",
+      "translit": "Nihon mo kemono no yo ni narite oru zo yo.",
+      "i18n": {
+        "en": "Japan too has become a world of beasts."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "sensitive-register-accuracy-first-contextualize-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 6,
       "refId": "OSHIN-1:6",
-      "text": "外国人にばかされて、尻の毛まで抜かれて居りても、未だ眼が覚めん暗がりの世になりて居るぞよ。",
-      "i18n": {}
+      "ja": "外国人にばかされて、尻の毛まで抜かれて居りても、未だ眼が覚めん暗がりの世になりて居るぞよ。",
+      "translit": "Gaikokujin ni bakasarete, shiri no ke made nukarete oritemo, imada me ga samen kuragari no yo ni narite oru zo yo.",
+      "i18n": {
+        "en": "Deceived by foreigners, plucked bare down to the hairs of the backside, and yet still not awake — it has become a world of darkness."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "sensitive-register-accuracy-first-contextualize-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "外国人 *gaikokujin* 'foreigners'; the crude 尻の毛まで抜かれて ('plucked bare down to the hairs of the backside') is the oracle's proverbial idiom for total fleecing. Rendered literally; see the framing note at 1:4.",
+        "community": []
+      }
     },
     {
       "n": 7,
       "refId": "OSHIN-1:7",
-      "text": "是では、国は立ちては行かんから、神が表に現はれて、三千世界の立替へ立直しを致すぞよ。",
-      "i18n": {}
+      "ja": "是では、国は立ちては行かんから、神が表に現はれて、三千世界の立替へ立直しを致すぞよ。",
+      "translit": "Kore de wa, kuni wa tachite wa yukan kara, kami ga omote ni arawarete, sanzen sekai no tatekae-tatenaoshi wo itasu zo yo.",
+      "i18n": {
+        "en": "At this rate the country cannot stand, so the kami will appear openly and carry out the reconstruction and renewal of the three-thousand worlds."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "sanzen-sekai-three-thousand-worlds-oomoto-shinyu-woh",
+        "tatekae-tatenaoshi-reconstruction-renewal-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "立替へ立直し *tatekae-tatenaoshi* is Ōmoto's core eschatological program, literally a carpentry metaphor: 立替へ 'tearing down and rebuilding', 立直し 'setting straight / making right again'. The WoH translation renders it 'reconstruction and renewal' in the running text (over 'demolition and reconstruction' or the romanized compound), with the reduced form 世の立替 'the reconstruction of the world' at 1:14, 1:15, 1:50, 1:51. 神が表に現はれて — 'the kami will appear openly' (表に現はれる, to come out onto the visible surface) — is the recurring formula for the deity stepping from concealment into manifest action (also 1:62, 1:73).",
+        "community": []
+      }
     },
     {
       "n": 8,
       "refId": "OSHIN-1:8",
-      "text": "用意を成されよ。",
-      "i18n": {}
+      "ja": "用意を成されよ。",
+      "translit": "Yōi wo nasare yo.",
+      "i18n": {
+        "en": "Make yourselves ready."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 9,
       "refId": "OSHIN-1:9",
-      "text": "この世は全然、新つの世に替へて了ふぞよ。",
-      "i18n": {}
+      "ja": "この世は全然、新つの世に替へて了ふぞよ。",
+      "translit": "Kono yo wa zenzen, aratsu no yo ni kaete shimau zo yo.",
+      "i18n": {
+        "en": "This world will be changed entirely into a new world."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 10,
       "refId": "OSHIN-1:10",
-      "text": "三千世界の大洗濯、大掃除を致して、天下太平に世を治めて、万古末代続く神国の世に致すぞよ。",
-      "i18n": {}
+      "ja": "三千世界の大洗濯、大掃除を致して、天下太平に世を治めて、万古末代続く神国の世に致すぞよ。",
+      "translit": "Sanzen sekai no ōsentaku, ōsōji wo itashite, tenka taihei ni yo wo osamete, banko matsudai tsuzuku shinkoku no yo ni itasu zo yo.",
+      "i18n": {
+        "en": "Carrying out the great washing and great cleaning of the three-thousand worlds, and governing the world in great peace under heaven, (the kami) will make it an age of the divine land that endures through all ages to the last generation."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "sanzen-sekai-three-thousand-worlds-oomoto-shinyu-woh",
+        "shinkoku-divine-land-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 11,
       "refId": "OSHIN-1:11",
-      "text": "神の申した事は、一分一厘違はんぞよ。",
-      "i18n": {}
+      "ja": "神の申した事は、一分一厘違はんぞよ。",
+      "translit": "Kami no mōshita koto wa, ichibu ichirin tagawan zo yo.",
+      "i18n": {
+        "en": "What the kami has spoken will not err by a single bu or rin (not by the least measure)."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 12,
       "refId": "OSHIN-1:12",
-      "text": "毛筋の横巾ほども間違いは無いぞよ。",
-      "i18n": {}
+      "ja": "毛筋の横巾ほども間違いは無いぞよ。",
+      "translit": "Kesuji no yokohaba hodo mo machigai wa nai zo yo.",
+      "i18n": {
+        "en": "There is not a mistake even the width of a single hair."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 13,
       "refId": "OSHIN-1:13",
-      "text": "これが違ふたら、神は此の世に居らんぞよ。",
-      "i18n": {}
+      "ja": "これが違ふたら、神は此の世に居らんぞよ。",
+      "translit": "Kore ga tagautara, kami wa kono yo ni oran zo yo.",
+      "i18n": {
+        "en": "If this should prove wrong, then the kami is not present in this world."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 14,
       "refId": "OSHIN-1:14",
-      "text": "『東京で仕組を駿河美濃尾張大和玉芝国々に、神の柱を配り岡山』天理、金光、黒住、妙霊、先走り、とどめに艮の金神が現はれて、世の立替を致すぞよ。",
-      "i18n": {}
+      "ja": "『東京で仕組を駿河美濃尾張大和玉芝国々に、神の柱を配り岡山』天理、金光、黒住、妙霊、先走り、とどめに艮の金神が現はれて、世の立替を致すぞよ。",
+      "translit": "\"Tōkyō de shikumi wo Suruga Mino Owari Yamato Tamashiba kuniguni ni, kami no hashira wo kubari Okayama\" Tenri, Konkō, Kurozumi, Myōrei, sakibashiri, todome ni Ushitora no Konjin ga arawarete, yo no tatekae wo itasu zo yo.",
+      "i18n": {
+        "en": "\"In Tōkyō the design; distributing the divine pillars to the many lands — Suruga, Mino, Owari, Yamato, Tamashiba — Okayama\": Tenri, Konkō, Kurozumi, and Myōrei run on ahead as forerunners, and at the last Ushitora no Konjin appears to carry out the world's reconstruction."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "ushitora-no-konjin-theonym-oomoto-shinyu-woh",
+        "tatekae-tatenaoshi-reconstruction-renewal-oomoto-shinyu-woh",
+        "kamibashira-shugojin-shugonin-guardian-hierarchy-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "This is the most cryptic verse in the chapter: a partly quote-bracketed (『…』) passage weaving province and place names (Suruga, Mino, Owari, Yamato, 玉芝 *Tamashiba*, Okayama, Tōkyō) with the names of rival new religions — 天理 Tenri, 金光 Konkō(kyō), 黒住 Kurozumi(kyō), 妙霊 Myōrei — cast as 先走り *sakibashiri*, 'forerunners' who run on ahead before Ushitora no Konjin appears 'at the last' (とどめに). The WoH renders it literally with the names preserved; the internal wordplay (the passage reads as a mnemonic strung on place-names) does not survive translation and is glossed here rather than reconstructed in the line. 玉芝 *Tamashiba* has no secure referent and is flagged for a specialist reading (see editor report). 神の柱 *kami no hashira* here are the human 'divine pillars' (mediums and rival founders) through whom kami work, not physical pillars (see 1:15, 1:51).",
+        "community": []
+      }
     },
     {
       "n": 15,
       "refId": "OSHIN-1:15",
-      "text": "世の立替のあるといふ事は、何の神柱にも判りて居れど、何うしたら立替が出来るといふ事は、判りて居らんぞよ。",
-      "i18n": {}
+      "ja": "世の立替のあるといふ事は、何の神柱にも判りて居れど、何うしたら立替が出来るといふ事は、判りて居らんぞよ。",
+      "translit": "Yo no tatekae no aru to iu koto wa, nan no kamibashira ni mo wakarite oredo, dō shitara tatekae ga dekiru to iu koto wa, wakarite oran zo yo.",
+      "i18n": {
+        "en": "That there is to be a reconstruction of the world, every divine pillar knows; but how the reconstruction is to be accomplished, none of them understands."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "tatekae-tatenaoshi-reconstruction-renewal-oomoto-shinyu-woh",
+        "kamibashira-shugojin-shugonin-guardian-hierarchy-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 16,
       "refId": "OSHIN-1:16",
-      "text": "九分九厘までは知らしてあるが、モウ一厘の肝心の事は、判りて居らんぞよ。",
-      "i18n": {}
+      "ja": "九分九厘までは知らしてあるが、モウ一厘の肝心の事は、判りて居らんぞよ。",
+      "translit": "Kubu kurin made wa shirashite aru ga, mō ichirin no kanjin no koto wa, wakarite oran zo yo.",
+      "i18n": {
+        "en": "Up to nine parts nine rin it has been made known, but the crucial last one rin they do not understand."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "九分九厘 *kubu kurin* ('nine parts nine rin', i.e. 99.9%) against the withheld モウ一厘 *mō ichirin* ('one more rin', the last 0.1%) is Ōmoto's *ichirin* motif: the crucial final increment of the divine plan is deliberately withheld from even the divine pillars. The bu/rin are traditional fractional units (1 rin = 1/1000); rendered by their measures with a gloss rather than converted to percentages (see also 1:11's 一分一厘 and 1:53).",
+        "community": []
+      }
     },
     {
       "n": 17,
       "refId": "OSHIN-1:17",
-      "text": "三千世界の事は、何一とつ判らん事の無い神であるから、淋しく成りたら、綾部の大本へ出て参りて、お話を聞かして頂けば、何も彼も世界一目に見える、神徳を授けるぞよ。",
-      "i18n": {}
+      "ja": "三千世界の事は、何一とつ判らん事の無い神であるから、淋しく成りたら、綾部の大本へ出て参りて、お話を聞かして頂けば、何も彼も世界一目に見える、神徳を授けるぞよ。",
+      "translit": "Sanzen sekai no koto wa, nani hitotsu wakaran koto no nai kami de aru kara, sabishiku naritara, Ayabe no Ōmoto e dete mairite, ohanashi wo kikashite itadakeba, nani mo kamo sekai hitome ni mieru, shintoku wo sazukeru zo yo.",
+      "i18n": {
+        "en": "As for the three-thousand worlds, this is a kami to whom there is not one thing unknown; so when you grow forlorn, come out to the Ōmoto at Ayabe, and if you let (the kami) tell you, everything in the world will be seen at a single glance — (the kami) will bestow divine virtue upon you."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "sanzen-sekai-three-thousand-worlds-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh",
+        "omoto-site-vs-great-origin-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 18,
       "refId": "OSHIN-1:18",
-      "text": "加美となれば、スミズミ上ばかり好くても行けぬ、上下揃はねば世は治まらんぞよ。",
-      "i18n": {}
+      "ja": "加美となれば、スミズミ上ばかり好くても行けぬ、上下揃はねば世は治まらんぞよ。",
+      "translit": "Kami to nareba, sumizumi ue bakari yokutemo ikenu, jōge sorowaneba yo wa osamaran zo yo.",
+      "i18n": {
+        "en": "When it comes to the upper (the kami / the high), it will not do for only the top to prosper in every corner; unless high and low are made equal, the world will not be governed."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "加美 *kami* is an orthographic pun: written 加美 ('adding beauty') but homophonous with 上 *kami* ('the upper, those above') and 神 *kami* ('the deity'). The verse plays on all three — the 'upper' cannot prosper alone; high and low (上下 *jōge*) must be levelled — and the WoH renders the primary 'upper/high' sense with the pun noted here.",
+        "community": []
+      }
     },
     {
       "n": 19,
       "refId": "OSHIN-1:19",
-      "text": "洋服では治まらん、上下揃へて人民を安心させて、末代潰れぬ神国の世に致すぞよ。",
-      "i18n": {}
+      "ja": "洋服では治まらん、上下揃へて人民を安心させて、末代潰れぬ神国の世に致すぞよ。",
+      "translit": "Yōfuku de wa osamaran, jōge soroete jinmin wo anshin sasete, matsudai tsuburenu shinkoku no yo ni itasu zo yo.",
+      "i18n": {
+        "en": "With Western dress (Western ways) it cannot be governed; making high and low equal and setting the people at ease, (the kami) will make an age of the divine land that will not collapse to the last generation."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "shinkoku-divine-land-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 20,
       "refId": "OSHIN-1:20",
-      "text": "用意を為されよ。",
-      "i18n": {}
+      "ja": "用意を為されよ。",
+      "translit": "Yōi wo nasare yo.",
+      "i18n": {
+        "en": "Make yourselves ready."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 21,
       "refId": "OSHIN-1:21",
-      "text": "脚下から鳥がたつぞよ。",
-      "i18n": {}
+      "ja": "脚下から鳥がたつぞよ。",
+      "translit": "Kyakka kara tori ga tatsu zo yo.",
+      "i18n": {
+        "en": "A bird rises up from beneath your very feet."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 22,
       "refId": "OSHIN-1:22",
-      "text": "それが日本をねらふて居る国鳥であるぞよ。",
-      "i18n": {}
+      "ja": "それが日本をねらふて居る国鳥であるぞよ。",
+      "translit": "Sore ga Nihon wo neraute oru kunidori de aru zo yo.",
+      "i18n": {
+        "en": "That is the nation-bird that is eyeing Japan."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 23,
       "refId": "OSHIN-1:23",
-      "text": "○○○［神は残念なぞよ。",
-      "i18n": {}
+      "ja": "○○○［神は残念なぞよ。",
+      "translit": "○○○[ kami wa zannen na zo yo.",
+      "i18n": {
+        "en": "○○○[ — the kami is filled with chagrin."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "lacuna-redaction-marker-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "○○○［ is a lacuna/redaction marker: characters the witness leaves illegible or suppressed in the *fude* (brush) original. The WoH house convention preserves them verbatim (○○○[) in both the Japanese and the English line rather than substituting a bracketed ellipsis, so the redaction is visible and not silently smoothed (also 1:29, 1:39, 1:71).",
+        "community": []
+      }
     },
     {
       "n": 24,
       "refId": "OSHIN-1:24",
-      "text": "日本の人民、盲目聾ばかり、神が見て居れば、井戸の端に、茶碗を置いた如く、危ふて見て居れんぞよ。",
-      "i18n": {}
+      "ja": "日本の人民、盲目聾ばかり、神が見て居れば、井戸の端に、茶碗を置いた如く、危ふて見て居れんぞよ。",
+      "translit": "Nihon no jinmin, mekura tsunbo bakari, kami ga mite oreba, ido no hata ni, chawan wo oita gotoku, ayaute mite oren zo yo.",
+      "i18n": {
+        "en": "The people of Japan are nothing but blind and deaf; when the kami looks on, it is like a teacup set at the lip of a well — so perilous that the kami cannot bear to watch."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh",
+        "sensitive-register-accuracy-first-contextualize-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "盲目聾 (*mekura tsunbo*, 'blind and deaf') uses two words now strongly derogatory in Japanese; the oracle deploys them metaphorically for the spiritually unseeing and unhearing people of Japan. The WoH translation keeps the literal 'blind and deaf' per accuracy-first policy, without softening or amplifying, and contextualizes here: the idiom is figurative within the oracle's register (the teacup-set-at-the-well-mouth image that follows makes the sense 'heedless of imminent peril'), and the vocabulary reflects 1892 usage, not an endorsement. See editor report.",
+        "community": []
+      }
     },
     {
       "n": 25,
       "refId": "OSHIN-1:25",
-      "text": "外国人よ、今に艮の金神が、返報返しを致すぞよ。",
-      "i18n": {}
+      "ja": "外国人よ、今に艮の金神が、返報返しを致すぞよ。",
+      "translit": "Gaikokujin yo, ima ni Ushitora no Konjin ga, henpōgaeshi wo itasu zo yo.",
+      "i18n": {
+        "en": "You foreigners — soon Ushitora no Konjin will requite you in kind."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "ushitora-no-konjin-theonym-oomoto-shinyu-woh",
+        "sensitive-register-accuracy-first-contextualize-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "返報返し *henpōgaeshi*, 'requital in kind'. 外国人 addressed directly; the retributive register is the oracle's, rendered literally (see the framing note at 1:4).",
+        "community": []
+      }
     },
     {
       "n": 26,
       "refId": "OSHIN-1:26",
-      "text": "根に葉の出るは虎耳草、上も下も花咲かねば、此世は治まらぬ。",
-      "i18n": {}
+      "ja": "根に葉の出るは虎耳草、上も下も花咲かねば、此世は治まらぬ。",
+      "translit": "Ne ni ha no deru wa yukinoshita, ue mo shita mo hana sakaneba, kono yo wa osamaranu.",
+      "i18n": {
+        "en": "The one that puts out leaves from its very roots is the saxifrage; unless both high and low bloom, this world will not be governed."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "虎耳草 *yukinoshita* (lit. 'tiger-ear grass', the saxifrage) — a plant that puts out leaves/runners from its roots — figures the high-and-low mutuality the verse states outright; the botanical name (containing 虎 'tiger') faintly echoes the *ushitora* ('ox-tiger') of the theonym. Rendered 'saxifrage' with the image glossed.",
+        "community": []
+      }
     },
     {
       "n": 27,
       "refId": "OSHIN-1:27",
-      "text": "上ばかり好くても行けぬ世。",
-      "i18n": {}
+      "ja": "上ばかり好くても行けぬ世。",
+      "translit": "Ue bakari yokutemo ikenu yo.",
+      "i18n": {
+        "en": "A world where it will not do for only the top to prosper."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 28,
       "refId": "OSHIN-1:28",
-      "text": "下ばかり宜くても此世は治まらぬぞよ。",
-      "i18n": {}
+      "ja": "下ばかり宜くても此世は治まらぬぞよ。",
+      "translit": "Shita bakari yokutemo kono yo wa osamaranu zo yo.",
+      "i18n": {
+        "en": "Even if only the bottom prospers, this world will not be governed."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 29,
       "refId": "OSHIN-1:29",
-      "text": "てん○○［○○○［○○○［元の昔に返すぞよ。",
-      "i18n": {}
+      "ja": "てん○○［○○○［○○○［元の昔に返すぞよ。",
+      "translit": "Ten○○[ ○○○[ ○○○[ moto no mukashi ni kaesu zo yo.",
+      "i18n": {
+        "en": "Ten○○[ ○○○[ ○○○[ — (the kami) will return it to the origin, to the old days of long ago."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "lacuna-redaction-marker-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 30,
       "refId": "OSHIN-1:30",
-      "text": "洋服を着てウロツク様な事では、日本の国は治まらんぞよ。",
-      "i18n": {}
+      "ja": "洋服を着てウロツク様な事では、日本の国は治まらんぞよ。",
+      "translit": "Yōfuku wo kite urotsuku yō na koto de wa, Nihon no kuni wa osamaran zo yo.",
+      "i18n": {
+        "en": "With people wandering about in Western dress, the land of Japan cannot be governed."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "sensitive-register-accuracy-first-contextualize-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 31,
       "refId": "OSHIN-1:31",
-      "text": "国会開きは、人民が何時までかかりても開けんぞよ。",
-      "i18n": {}
+      "ja": "国会開きは、人民が何時までかかりても開けんぞよ。",
+      "translit": "Kokkai-biraki wa, jinmin ga itsu made kakaritemo hirakenu zo yo.",
+      "i18n": {
+        "en": "The opening of the National Assembly — however long the people labor at it, they cannot open it."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 32,
       "refId": "OSHIN-1:32",
-      "text": "神が開かな、ひらけんぞよ。",
-      "i18n": {}
+      "ja": "神が開かな、ひらけんぞよ。",
+      "translit": "Kami ga hirakana, hirakenu zo yo.",
+      "i18n": {
+        "en": "Unless the kami opens it, it will not open."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 33,
       "refId": "OSHIN-1:33",
-      "text": "開いて見せう。",
-      "i18n": {}
+      "ja": "開いて見せう。",
+      "translit": "Hiraite mishō.",
+      "i18n": {
+        "en": "(The kami) will open it and show you."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 34,
       "refId": "OSHIN-1:34",
-      "text": "東京は元の薄野に成るぞよ。",
-      "i18n": {}
+      "ja": "東京は元の薄野に成るぞよ。",
+      "translit": "Tōkyō wa moto no susukino ni naru zo yo.",
+      "i18n": {
+        "en": "Tōkyō will return to its former field of pampas grass."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 35,
       "refId": "OSHIN-1:35",
-      "text": "永久は続かんぞよ。",
-      "i18n": {}
+      "ja": "永久は続かんぞよ。",
+      "translit": "Eikyū wa tsuzukan zo yo.",
+      "i18n": {
+        "en": "It will not last forever."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 36,
       "refId": "OSHIN-1:36",
-      "text": "東の国は一晴れの後は暗がり。",
-      "i18n": {}
+      "ja": "東の国は一晴れの後は暗がり。",
+      "translit": "Higashi no kuni wa hitohare no nochi wa kuragari.",
+      "i18n": {
+        "en": "The eastern land — after one clear spell comes darkness."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 37,
       "refId": "OSHIN-1:37",
-      "text": "これに気の付く人民はないぞよ。",
-      "i18n": {}
+      "ja": "これに気の付く人民はないぞよ。",
+      "translit": "Kore ni ki no tsuku jinmin wa nai zo yo.",
+      "i18n": {
+        "en": "There is not one among the people who notices this."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 38,
       "refId": "OSHIN-1:38",
-      "text": "神は急けるぞよ。",
-      "i18n": {}
+      "ja": "神は急けるぞよ。",
+      "translit": "Kami wa sekeru zo yo.",
+      "i18n": {
+        "en": "The kami is pressing in haste."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 39,
       "refId": "OSHIN-1:39",
-      "text": "此世の鬼を往生さして、地震雷火の雨降らして、○○○［世界は神国にならんから、昔の大本からの神の仕組が、成就致す時節が廻りて来たから、苦労はあれど、バタバタと埒を付けるぞよ。",
-      "i18n": {}
+      "ja": "此世の鬼を往生さして、地震雷火の雨降らして、○○○［世界は神国にならんから、昔の大本からの神の仕組が、成就致す時節が廻りて来たから、苦労はあれど、バタバタと埒を付けるぞよ。",
+      "translit": "Kono yo no oni wo ōjō sashite, jishin kaminari hi no ame furashite, ○○○[ sekai wa shinkoku ni naran kara, mukashi no ōmoto kara no kami no shikumi ga, jōju itasu jisetsu ga mawarite kita kara, kurō wa aredo, batabata to rachi wo tsukeru zo yo.",
+      "i18n": {
+        "en": "Bringing the demons of this world to their end, raining down earthquake, thunder, and fire, ○○○[ because the world will not (otherwise) become the divine land — the time has come round for the kami's design from the great origin of old to be fulfilled, so though there be hardship, (the kami) will settle it all in short order."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh",
+        "shinkoku-divine-land-oomoto-shinyu-woh",
+        "lacuna-redaction-marker-convention-oomoto-shinyu-woh",
+        "omoto-site-vs-great-origin-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "鬼 *oni* ('demons') are brought to their 往生 (Buddhist *ōjō*, 'death/passing') amid earthquake, thunder, and fire. 昔の大本 here is the common noun 'the great origin of old' (the primordial source), distinct from 大本 as the movement/site at Ayabe (1:40) — a live double sense the WoH keeps split (see 1:40). The verse contains a ○○○[ lacuna.",
+        "community": []
+      }
     },
     {
       "n": 40,
       "refId": "OSHIN-1:40",
-      "text": "判りた守護神は、一人なりと早く大本へ出て参りて、神国の御用を致して下されよ。",
-      "i18n": {}
+      "ja": "判りた守護神は、一人なりと早く大本へ出て参りて、神国の御用を致して下されよ。",
+      "translit": "Wakarita shugojin wa, hitori nari to hayaku Ōmoto e dete mairite, shinkoku no goyō wo itashite kudasare yo.",
+      "i18n": {
+        "en": "Let the guardian deities who understand — even but one — come out quickly to the Ōmoto and perform the service of the divine land."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "shinkoku-divine-land-oomoto-shinyu-woh",
+        "kamibashira-shugojin-shugonin-guardian-hierarchy-oomoto-shinyu-woh",
+        "omoto-site-vs-great-origin-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "大本 *Ōmoto* is rendered 'the Ōmoto' where it names the movement/sacred site at Ayabe (also 1:17, 1:53, 1:56) and 'the great origin' where it is the common noun (1:39; and 世の本 *yo no moto* 'origin of the world' at 1:53, 1:59). Note the anachronism: in 1892 the movement was not yet formally named Ōmoto, so the site-sense is proleptic. 守護神 *shugojin* 'guardian deity' is distinguished in the WoH from 神柱 *kamibashira* 'divine pillar' and 守護人 *shugonin* 'guardian' (1:66).",
+        "community": []
+      }
     },
     {
       "n": 41,
       "refId": "OSHIN-1:41",
-      "text": "さる代わりに勤め上りたら、万古末代、名の残る事であるから、神から結構に御礼申すぞよ。",
-      "i18n": {}
+      "ja": "さる代わりに勤め上りたら、万古末代、名の残る事であるから、神から結構に御礼申すぞよ。",
+      "translit": "Saru kawari ni tsutome-agaritara, banko matsudai, na no nokoru koto de aru kara, kami kara kekkō ni orei mōsu zo yo.",
+      "i18n": {
+        "en": "In return, if you serve it through to the end, your name will remain through all ages to the last generation, so the kami will render you splendid thanks."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 42,
       "refId": "OSHIN-1:42",
-      "text": "世界中の事で在るから、何程智恵や学がありても、人民では判らん事であるぞよ。",
-      "i18n": {}
+      "ja": "世界中の事で在るから、何程智恵や学がありても、人民では判らん事であるぞよ。",
+      "translit": "Sekaijū no koto de aru kara, nanihodo chie ya gaku ga aritemo, jinmin de wa wakaran koto de aru zo yo.",
+      "i18n": {
+        "en": "Because it concerns the whole world, however much wit and learning one has, it is a thing the people cannot understand."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 43,
       "refId": "OSHIN-1:43",
-      "text": "此の仕組判りては成らず、判らねば成らず判らぬので、改心が出来ず、世の立替の、末代に一度の仕組であるから、全然学や智恵を捨て了ふて、生れ赤児の心に立返らんと、見当が取れん、六ケ敷仕組であるぞよ。",
-      "i18n": {}
+      "ja": "此の仕組判りては成らず、判らねば成らず判らぬので、改心が出来ず、世の立替の、末代に一度の仕組であるから、全然学や智恵を捨て了ふて、生れ赤児の心に立返らんと、見当が取れん、六ケ敷仕組であるぞよ。",
+      "translit": "Kono shikumi wakarite wa narazu, wakaraneba narazu wakaranu node, kaishin ga dekizu, yo no tatekae no, matsudai ni ichido no shikumi de aru kara, zenzen gaku ya chie wo sutete shimaute, umare-akago no kokoro ni tachikaeranto, kentō ga toren, muzukashii shikumi de aru zo yo.",
+      "i18n": {
+        "en": "This design must not be understood too soon, yet it will not do to leave it un-understood, and because it is not understood, no change of heart can be made. It is the reconstruction of the world, a design that comes but once to the last generation; so unless you cast away all learning and wit entirely and turn back to the heart of a newborn babe, you cannot get your bearings — it is a difficult design."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kaishin-change-of-heart-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "改心 *kaishin*, the inner turning Ōmoto demands of a soul before it can survive the *tatekae*, is rendered 'change of heart' rather than 'repentance': the latter carries the Christian penitential freight the Japanese does not, while 'change of heart' keeps the sense of reorientation (also 1:78, 1:81, 1:86). 生れ赤児の心 'the heart of a newborn babe' names the required condition — casting away 学 *gaku* (learning) and 智恵 *chie* (cleverness).",
+        "community": []
+      }
     },
     {
       "n": 44,
       "refId": "OSHIN-1:44",
-      "text": "今迄の腹の中の、ごもくをさっぱり、投り出して了はんと、今度の実地まことは分りかけが致さん、大望な仕組であるぞよ。",
-      "i18n": {}
+      "ja": "今迄の腹の中の、ごもくをさっぱり、投り出して了はんと、今度の実地まことは分りかけが致さん、大望な仕組であるぞよ。",
+      "translit": "Ima made no hara no naka no, gomoku wo sappari, hōri-dashite shimawan to, kondo no jicchi-makoto wa wakari-kake ga itasan, taimō na shikumi de aru zo yo.",
+      "i18n": {
+        "en": "Unless you fling out entirely the rubbish that has lain in your belly until now, you will not even begin to grasp the true reality of this present time — it is a design of grand ambition."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 45,
       "refId": "OSHIN-1:45",
-      "text": "氏神様の庭の白藤、梅と桜は、出口直の御礼の庭木に、植さしたので在るぞよ。",
-      "i18n": {}
+      "ja": "氏神様の庭の白藤、梅と桜は、出口直の御礼の庭木に、植さしたので在るぞよ。",
+      "translit": "Ujigami-sama no niwa no shiro-fuji, ume to sakura wa, Deguchi Nao no orei no niwaki ni, uesashita no de aru zo yo.",
+      "i18n": {
+        "en": "The white wisteria in the garden of the tutelary kami, and the plum and the cherry, were planted there as Deguchi Nao's garden-trees of thanksgiving."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "deguchi-nao-name-adverb-pun-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "出口直 Deguchi Nao, the prophetess through whom the oracle is written, is named here; the white wisteria, plum, and cherry are her 'garden-trees of thanksgiving'. Her name 直 (Nao) returns as a wordplay at 1:91–92 (see there).",
+        "community": []
+      }
     },
     {
       "n": 46,
       "refId": "OSHIN-1:46",
-      "text": "白藤が栄えば、綾部宜くなりて末で都と致すぞよ。",
-      "i18n": {}
+      "ja": "白藤が栄えば、綾部宜くなりて末で都と致すぞよ。",
+      "translit": "Shiro-fuji ga sakaeba, Ayabe yoku narite sue de miyako to itasu zo yo.",
+      "i18n": {
+        "en": "When the white wisteria flourishes, Ayabe will prosper and in the end be made the capital."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 47,
       "refId": "OSHIN-1:47",
-      "text": "福知山、舞鶴は外囲ひ。",
-      "i18n": {}
+      "ja": "福知山、舞鶴は外囲ひ。",
+      "translit": "Fukuchiyama, Maizuru wa sotogakoi.",
+      "i18n": {
+        "en": "Fukuchiyama and Maizuru are the outer enclosure."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 48,
       "refId": "OSHIN-1:48",
-      "text": "十里四方は宮の内。",
-      "i18n": {}
+      "ja": "十里四方は宮の内。",
+      "translit": "Jūri shihō wa miya no uchi.",
+      "i18n": {
+        "en": "Ten ri in every direction is within the shrine precincts."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 49,
       "refId": "OSHIN-1:49",
-      "text": "綾部はまん中になりて、金輪王で世を治めるぞよ。",
-      "i18n": {}
+      "ja": "綾部はまん中になりて、金輪王で世を治めるぞよ。",
+      "translit": "Ayabe wa mannaka ni narite, konrin'ō de yo wo osameru zo yo.",
+      "i18n": {
+        "en": "Ayabe will become the center, and the world will be governed by the Golden-Wheel King."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "konrinno-mythic-cosmological-toponyms-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "金輪王 *konrin'ō*, the 'Golden-Wheel King', is the highest *cakravartin* (wheel-turning universal monarch) of Buddhist cosmology, here the eschatological world-ruler seated at Ayabe (which 'becomes the center', まん中). The WoH translates the title ('Golden-Wheel King') while retaining the romanized mythic toponyms of the same field with glosses (Takamagahara, Ryūmonkan at 1:53, 1:71).",
+        "community": []
+      }
     },
     {
       "n": 50,
       "refId": "OSHIN-1:50",
-      "text": "綾部は結構な処、昔から神が隠して置いた、世の立替の、真誠の仕組の地場であるぞよ。",
-      "i18n": {}
+      "ja": "綾部は結構な処、昔から神が隠して置いた、世の立替の、真誠の仕組の地場であるぞよ。",
+      "translit": "Ayabe wa kekkō na tokoro, mukashi kara kami ga kakushite oita, yo no tatekae no, shinsei no shikumi no jiba de aru zo yo.",
+      "i18n": {
+        "en": "Ayabe is a splendid place — the sacred ground that the kami has hidden away since of old, the ground of the true design of the world's reconstruction."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "tatekae-tatenaoshi-reconstruction-renewal-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh",
+        "omoto-site-vs-great-origin-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 51,
       "refId": "OSHIN-1:51",
-      "text": "世界国々所々に、世の立替へを知らす神柱は、沢山現はれるぞよ。",
-      "i18n": {}
+      "ja": "世界国々所々に、世の立替へを知らす神柱は、沢山現はれるぞよ。",
+      "translit": "Sekai kuniguni tokorodokoro ni, yo no tatekae wo shirasu kamibashira wa, takusan arawareru zo yo.",
+      "i18n": {
+        "en": "Throughout the lands and places of the world, many divine pillars who make known the world's reconstruction will appear."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "tatekae-tatenaoshi-reconstruction-renewal-oomoto-shinyu-woh",
+        "kamibashira-shugojin-shugonin-guardian-hierarchy-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 52,
       "refId": "OSHIN-1:52",
-      "text": "皆艮金神国常立尊の仕組で、世界へ知らして在るぞよ。",
-      "i18n": {}
+      "ja": "皆艮金神国常立尊の仕組で、世界へ知らして在るぞよ。",
+      "translit": "Mina Ushitora Konjin Kunitokotachi-no-Mikoto no shikumi de, sekai e shirashite aru zo yo.",
+      "i18n": {
+        "en": "All is the design of Ushitora no Konjin, Kunitokotachi-no-Mikoto, and it has been made known to the world."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "ushitora-no-konjin-theonym-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "The verse states Ōmoto's central theological equation outright: 艮金神 = 国常立尊 *Kunitokotachi-no-Mikoto*, the primordial earth-kami of the Kojiki and Nihon Shoki. The WoH apposes the two romanized names without collapsing them, following the source's own apposition (皆艮金神国常立尊の仕組).\n\nŌmoto reads Kunitokotachi as a wronged, banished creator-kami — driven from the center of the world and now returning to rebuild it — which is the natural site of comparative reading against other traditions of a demoted or exiled creator-power. Any identification of this figure with the Wheel of Heaven Elohim frame is an interpretive, speculative move reserved to the apparatus and the wiki; it is deliberately NOT asserted in the translated line, and the proposed speculative glossary entry is escalated to the human reviewer rather than committed (see editor report).",
+        "community": []
+      }
     },
     {
       "n": 53,
       "refId": "OSHIN-1:53",
-      "text": "大方行き渡りた時分に、綾部へ諸国の神、守護神を集めて、それぞれの御用を申付ける、尊い世の根の世の本の、竜門館の高天原であるから、何を致しても綾部の大本の許しの無き事は、九分九厘で転覆るぞよ。",
-      "i18n": {}
+      "ja": "大方行き渡りた時分に、綾部へ諸国の神、守護神を集めて、それぞれの御用を申付ける、尊い世の根の世の本の、竜門館の高天原であるから、何を致しても綾部の大本の許しの無き事は、九分九厘で転覆るぞよ。",
+      "translit": "Ōkata yukiwatarita jibun ni, Ayabe e shokoku no kami, shugojin wo atsumete, sorezore no goyō wo mōshitsukeru, tōtoi yo no ne no yo no moto no, Ryūmonkan no Takamagahara de aru kara, nani wo itashitemo Ayabe no Ōmoto no yurushi no naki koto wa, kubu kurin de kutsugaeru zo yo.",
+      "i18n": {
+        "en": "When it has mostly spread abroad, the kami of every land and the guardian deities will be gathered to Ayabe and each assigned its service; for this is the noble root of the world, the origin of the world, the Takamagahara of the Dragon-Gate Hall — so whatever is undertaken without the sanction of the Ōmoto at Ayabe will, nine parts nine rin, be overturned."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kamibashira-shugojin-shugonin-guardian-hierarchy-oomoto-shinyu-woh",
+        "konrinno-mythic-cosmological-toponyms-oomoto-shinyu-woh",
+        "omoto-site-vs-great-origin-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "高天原 *Takamagahara*, the 'High Plain of Heaven' of Shintō myth, and 竜門館 *Ryūmonkan*, 'Dragon-Gate Hall', are retained as romanized proper terms with glosses; Ayabe is declared the 'root of the world' (世の根) where the kami of every land and the 守護神 *shugojin* are gathered and each assigned its service. 九分九厘 recurs as the near-certainty formula (see 1:16).",
+        "community": []
+      }
     },
     {
       "n": 54,
       "refId": "OSHIN-1:54",
-      "text": "皆神の仕組であるから、我が我がと思ふて致して居るが、皆艮の金神が、化かして使ふて居るのであるぞよ。",
-      "i18n": {}
+      "ja": "皆神の仕組であるから、我が我がと思ふて致して居るが、皆艮の金神が、化かして使ふて居るのであるぞよ。",
+      "translit": "Mina kami no shikumi de aru kara, waga waga to omoute itashite oru ga, mina Ushitora no Konjin ga, bakashite tsukaute oru no de aru zo yo.",
+      "i18n": {
+        "en": "All is the kami's design; though people act thinking 'it is I, it is I,' in every case it is Ushitora no Konjin who is bewitching them and putting them to use."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "ushitora-no-konjin-theonym-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "化かして使ふ *bakashite tsukau* — 'bewitching and putting to use': the oracle claims that human actors who think 'it is I, it is I' (我が我が) are in fact instruments the kami works through unseen. Rendered literally; the 化かす verb (to bewitch/beguile, often of foxes) carries no pejorative force here.",
+        "community": []
+      }
     },
     {
       "n": 55,
       "refId": "OSHIN-1:55",
-      "text": "此の神は独り手柄をして喜ぶやうな神で無いぞよ。",
-      "i18n": {}
+      "ja": "此の神は独り手柄をして喜ぶやうな神で無いぞよ。",
+      "translit": "Kono kami wa hitori tegara wo shite yorokobu yō na kami de nai zo yo.",
+      "i18n": {
+        "en": "This kami is not the sort of kami that delights in taking the credit alone."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 56,
       "refId": "OSHIN-1:56",
-      "text": "大本の仕組の判る守護神でありたら、互に手を曳き合ふて、世の本の立替立直しを致すから、是までの心を入替へて、大本へ来て肝心の事を聞いて、御用を勤めて下されよ。",
-      "i18n": {}
+      "ja": "大本の仕組の判る守護神でありたら、互に手を曳き合ふて、世の本の立替立直しを致すから、是までの心を入替へて、大本へ来て肝心の事を聞いて、御用を勤めて下されよ。",
+      "translit": "Ōmoto no shikumi no wakaru shugojin de aritara, tagai ni te wo hiki-aute, yo no moto no tatekae-tatenaoshi wo itasu kara, kore made no kokoro wo irekaete, Ōmoto e kite kanjin no koto wo kiite, goyō wo tsutomete kudasare yo.",
+      "i18n": {
+        "en": "If you are a guardian deity who understands the Ōmoto's design, then join hands one with another, for (the kami) will carry out the reconstruction and renewal of the world's foundation; so change the heart you have held until now, come to the Ōmoto, hear the crucial matter, and perform the service."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "tatekae-tatenaoshi-reconstruction-renewal-oomoto-shinyu-woh",
+        "kamibashira-shugojin-shugonin-guardian-hierarchy-oomoto-shinyu-woh",
+        "omoto-site-vs-great-origin-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 57,
       "refId": "OSHIN-1:57",
-      "text": "三千世界の神々様、守護神殿に気を付けますぞよ。",
-      "i18n": {}
+      "ja": "三千世界の神々様、守護神殿に気を付けますぞよ。",
+      "translit": "Sanzen sekai no kamigami-sama, shugojin-dono ni ki wo tsukemasu zo yo.",
+      "i18n": {
+        "en": "To the kami of the three-thousand worlds, and to you guardian deities, (the kami) gives warning."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "sanzen-sekai-three-thousand-worlds-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh",
+        "kamibashira-shugojin-shugonin-guardian-hierarchy-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "神々様 *kamigami-sama* is plural ('the many kami'), addressed alongside the 守護神殿 guardian deities; the WoH marks the plural, consistent with the polytheistic register in which the divine speaker is one named kami among many.",
+        "community": []
+      }
     },
     {
       "n": 58,
       "refId": "OSHIN-1:58",
-      "text": "谷々の小川の水も、大河へ末で一とつに為る仕組み。",
-      "i18n": {}
+      "ja": "谷々の小川の水も、大河へ末で一とつに為る仕組み。",
+      "translit": "Tanitani no ogawa no mizu mo, taiga e sue de hitotsu ni naru shikumi.",
+      "i18n": {
+        "en": "The waters of the brooks of every valley too — in the end they become one in the great river: such is the design."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 59,
       "refId": "OSHIN-1:59",
-      "text": "綾部世の本、誠の神の住いどころ。",
-      "i18n": {}
+      "ja": "綾部世の本、誠の神の住いどころ。",
+      "translit": "Ayabe yo no moto, makoto no kami no sumaidokoro.",
+      "i18n": {
+        "en": "Ayabe, the origin of the world, the dwelling place of the true kami."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh",
+        "omoto-site-vs-great-origin-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 60,
       "refId": "OSHIN-1:60",
-      "text": "からと日本の戦いがあるぞよ。",
-      "i18n": {}
+      "ja": "からと日本の戦いがあるぞよ。",
+      "translit": "Kara to Nihon no tatakai ga aru zo yo.",
+      "i18n": {
+        "en": "There will be a war between Kara (China) and Japan."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "から *kara* is orthographically ambiguous — 唐 (Kara, China/Cathay) or 韓 (Kara, Korea). The WoH takes China as an interpretive default: the 1892 dating and the prophetic sequence (this war, then 露国 Russia at 1:63, then a world war) point to the Sino-Japanese conflict of 1894–95. Flagged as a default, not a certainty (see editor report).",
+        "community": []
+      }
     },
     {
       "n": 61,
       "refId": "OSHIN-1:61",
-      "text": "此いくさは勝ち軍、神が蔭から仕組が致してあるぞよ。",
-      "i18n": {}
+      "ja": "此いくさは勝ち軍、神が蔭から仕組が致してあるぞよ。",
+      "translit": "Kono ikusa wa kachi-ikusa, kami ga kage kara shikumi ga itashite aru zo yo.",
+      "i18n": {
+        "en": "This war is a war that will be won; the kami has laid the design from behind the scenes."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 62,
       "refId": "OSHIN-1:62",
-      "text": "神が表に現はれて、日本へ手柄致さすぞよ。",
-      "i18n": {}
+      "ja": "神が表に現はれて、日本へ手柄致さすぞよ。",
+      "translit": "Kami ga omote ni arawarete, Nihon e tegara itasasu zo yo.",
+      "i18n": {
+        "en": "The kami will appear openly and grant Japan the victory."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 63,
       "refId": "OSHIN-1:63",
-      "text": "露国から始まりて、モウ一と戦があるぞよ。",
-      "i18n": {}
+      "ja": "露国から始まりて、モウ一と戦があるぞよ。",
+      "translit": "Rokoku kara hajimarite, mō hito-ikusa ga aru zo yo.",
+      "i18n": {
+        "en": "Beginning with Russia, there will be one more war."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "露国 *Rokoku*, Russia. Read with 1:60 and 1:64, the sequence — China, then Russia, then 'the great war of the world' — is the oracle's war-prophecy; rendered literally without harmonizing to later events.",
+        "community": []
+      }
     },
     {
       "n": 64,
       "refId": "OSHIN-1:64",
-      "text": "あとは世界の大たたかいで、是から段々判りて来るぞよ。",
-      "i18n": {}
+      "ja": "あとは世界の大たたかいで、是から段々判りて来るぞよ。",
+      "translit": "Ato wa sekai no ō-tatakai de, kore kara dandan wakarite kuru zo yo.",
+      "i18n": {
+        "en": "After that comes the great war of the world; from here on it will gradually become clear."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 65,
       "refId": "OSHIN-1:65",
-      "text": "日本は神国、世界を一つに丸めて、一つの王で治めるぞよ。",
-      "i18n": {}
+      "ja": "日本は神国、世界を一つに丸めて、一つの王で治めるぞよ。",
+      "translit": "Nihon wa shinkoku, sekai wo hitotsu ni marumete, hitotsu no ō de osameru zo yo.",
+      "i18n": {
+        "en": "Japan is the divine land; rolling the world into one, it will be governed by a single king."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "shinkoku-divine-land-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "神国 'divine land' (see 1:2); 世界を一つに丸めて…一つの王で治める — the world 'rolled into one' under a single king — restates the universal-monarch theme of the Golden-Wheel King (1:49).",
+        "community": []
+      }
     },
     {
       "n": 66,
       "refId": "OSHIN-1:66",
-      "text": "そこへ成る迄には中々骨が折れるなれど、三千年余りての仕組であるから、日本の上に立ちて居れる守護人に、チット判りかけたら、神が力を付けるから、大丈夫であるぞよ。",
-      "i18n": {}
+      "ja": "そこへ成る迄には中々骨が折れるなれど、三千年余りての仕組であるから、日本の上に立ちて居れる守護人に、チット判りかけたら、神が力を付けるから、大丈夫であるぞよ。",
+      "translit": "Soko e naru made ni wa nakanaka hone ga oreru naredo, sanzen-nen amari te no shikumi de aru kara, Nihon no ue ni tachite oreru shugonin ni, chitto wakari-kaketara, kami ga chikara wo tsukeru kara, daijōbu de aru zo yo.",
+      "i18n": {
+        "en": "Until it comes to that it will take no small effort, but it is a design more than three thousand years in the making; so once the guardians who stand over Japan begin even a little to understand, the kami will lend them strength, and all will be well."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh",
+        "kamibashira-shugojin-shugonin-guardian-hierarchy-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "三千年余り 'more than three thousand years' dates the design; 守護人 *shugonin* 'guardian' is kept distinct in the WoH from 守護神 *shugojin* 'guardian deity' (1:40) — here the human guardians 'who stand over Japan'.",
+        "community": []
+      }
     },
     {
       "n": 67,
       "refId": "OSHIN-1:67",
-      "text": "世界の大峠を越すのは、神の申す様に、素直に致して、何んな苦労も致す人民でないと、世界の物事は成就いたさんぞよ。",
-      "i18n": {}
+      "ja": "世界の大峠を越すのは、神の申す様に、素直に致して、何んな苦労も致す人民でないと、世界の物事は成就いたさんぞよ。",
+      "translit": "Sekai no ō-tōge wo kosu no wa, kami no mōsu yō ni, sunao ni itashite, don'na kurō mo itasu jinmin de nai to, sekai no monogoto wa jōju itasan zo yo.",
+      "i18n": {
+        "en": "As for crossing the great pass of the world, unless the people act obediently as the kami says and endure whatever hardship, the affairs of the world will not be accomplished."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 68,
       "refId": "OSHIN-1:68",
-      "text": "神はくどう気を付けるぞよ。",
-      "i18n": {}
+      "ja": "神はくどう気を付けるぞよ。",
+      "translit": "Kami wa kudō ki wo tsukeru zo yo.",
+      "i18n": {
+        "en": "The kami warns over and over."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 69,
       "refId": "OSHIN-1:69",
-      "text": "此事判ける御魂は、東から出て来るぞよ。",
-      "i18n": {}
+      "ja": "此事判ける御魂は、東から出て来るぞよ。",
+      "translit": "Kono koto wakeru mitama wa, higashi kara dete kuru zo yo.",
+      "i18n": {
+        "en": "The spirit who can discern this matter will come forth from the east."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 70,
       "refId": "OSHIN-1:70",
-      "text": "此御方が御出になりたら、全然日の出の守護と成るから、世界中に神徳が光り輝く神世になるぞよ。",
-      "i18n": {}
+      "ja": "此御方が御出になりたら、全然日の出の守護と成るから、世界中に神徳が光り輝く神世になるぞよ。",
+      "translit": "Kono okata ga oide ni naritara, zenzen hinode no shugo to naru kara, sekaijū ni shintoku ga hikari-kagayaku kamiyo ni naru zo yo.",
+      "i18n": {
+        "en": "When this personage appears, it will become wholly the guardianship of the sunrise, so it will become a divine age in which divine virtue shines and radiates throughout the whole world."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "日の出の守護 'the guardianship of the sunrise' and 神世 *kamiyo* 'divine age' frame the coming of 此御方 'this personage' 東から 'from the east' (see 1:69). 神徳 *shintoku* 'divine virtue/grace' is the radiance said to fill the world; the sunrise imagery plays on Japan as the land of the rising sun.",
+        "community": []
+      }
     },
     {
       "n": 71,
       "refId": "OSHIN-1:71",
-      "text": "大将を綾部の高天原の竜門館に、○○［中々大事業であれども、昔からの生神の仕組であるから、別条は無いぞよ。",
-      "i18n": {}
+      "ja": "大将を綾部の高天原の竜門館に、○○［中々大事業であれども、昔からの生神の仕組であるから、別条は無いぞよ。",
+      "translit": "Taishō wo Ayabe no Takamagahara no Ryūmonkan ni, ○○[ nakanaka daijigyō de aredomo, mukashi kara no ikigami no shikumi de aru kara, betsujō wa nai zo yo.",
+      "i18n": {
+        "en": "The commander, at the Dragon-Gate Hall of the Takamagahara at Ayabe, ○○[ — it is indeed a great undertaking, but because it is the design of the living kami from of old, there is nothing amiss."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "lacuna-redaction-marker-convention-oomoto-shinyu-woh",
+        "konrinno-mythic-cosmological-toponyms-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "生神 *ikigami*, 'living kami' (a human being in whom a kami is present), is retained with a gloss; 竜門館 and 高天原 recur (see 1:53). The verse contains a ○○[ lacuna.",
+        "community": []
+      }
     },
     {
       "n": 72,
       "refId": "OSHIN-1:72",
-      "text": "一旦たたかい治まりても、後の悶着は中々治まらんぞよ。",
-      "i18n": {}
+      "ja": "一旦たたかい治まりても、後の悶着は中々治まらんぞよ。",
+      "translit": "Ittan tatakai osamaritemo, ato no monchaku wa nakanaka osamaran zo yo.",
+      "i18n": {
+        "en": "Even once the fighting has been quelled, the strife that follows will not readily be settled."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 73,
       "refId": "OSHIN-1:73",
-      "text": "神が表に現はれて、神と学との力競べを致すぞよ。",
-      "i18n": {}
+      "ja": "神が表に現はれて、神と学との力競べを致すぞよ。",
+      "translit": "Kami ga omote ni arawarete, kami to gaku to no chikara-kurabe wo itasu zo yo.",
+      "i18n": {
+        "en": "The kami will appear openly and hold a contest of strength between the kami and (worldly) learning."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 74,
       "refId": "OSHIN-1:74",
-      "text": "学の世はモウ済みたぞよ。",
-      "i18n": {}
+      "ja": "学の世はモウ済みたぞよ。",
+      "translit": "Gaku no yo wa mō sumita zo yo.",
+      "i18n": {
+        "en": "The age of learning is already over."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 75,
       "refId": "OSHIN-1:75",
-      "text": "神には勝てんぞよ。",
-      "i18n": {}
+      "ja": "神には勝てんぞよ。",
+      "translit": "Kami ni wa katen zo yo.",
+      "i18n": {
+        "en": "Against the kami none can prevail."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 76,
       "refId": "OSHIN-1:76",
-      "text": "水晶魂を選り抜いて霊魂の改め致すぞよ。",
-      "i18n": {}
+      "ja": "水晶魂を選り抜いて霊魂の改め致すぞよ。",
+      "translit": "Suishō-damashii wo erinuite reikon no aratame itasu zo yo.",
+      "i18n": {
+        "en": "Selecting out the crystal souls, (the kami) will carry out the sifting of souls."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "crystal-soul-soul-purification-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "水晶魂 *suishō-damashii*, the 'crystal soul', is the purified soul selected to survive the *tatekae*; the WoH retains the metaphor. 霊魂の改め *reikon no aratame* is rendered 'the sifting of souls' (改め as examination/winnowing), the soul-purification doctrine of the second *fude* (also 霊魂 1:85, 心魂 *shinkon* 1:86).",
+        "community": []
+      }
     },
     {
       "n": 77,
       "refId": "OSHIN-1:77",
-      "text": "絶対絶命の世に成りたぞよ。",
-      "i18n": {}
+      "ja": "絶対絶命の世に成りたぞよ。",
+      "translit": "Zettai-zetsumei no yo ni narita zo yo.",
+      "i18n": {
+        "en": "It has become a world at its last extremity, with no way out."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 78,
       "refId": "OSHIN-1:78",
-      "text": "世界のものよ改心を致されよ。",
-      "i18n": {}
+      "ja": "世界のものよ改心を致されよ。",
+      "translit": "Sekai no mono yo, kaishin wo itasare yo.",
+      "i18n": {
+        "en": "You people of the world, make a change of heart."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "kaishin-change-of-heart-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 79,
       "refId": "OSHIN-1:79",
-      "text": "世が変るぞよ。",
-      "i18n": {}
+      "ja": "世が変るぞよ。",
+      "translit": "Yo ga kawaru zo yo.",
+      "i18n": {
+        "en": "The world will change."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 80,
       "refId": "OSHIN-1:80",
-      "text": "ビックリ致すことが出来るぞよ。",
-      "i18n": {}
+      "ja": "ビックリ致すことが出来るぞよ。",
+      "translit": "Bikkuri itasu koto ga dekiru zo yo.",
+      "i18n": {
+        "en": "Things will come to pass that will astonish you."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 81,
       "refId": "OSHIN-1:81",
-      "text": "改心次第で助けるぞよ。",
-      "i18n": {}
+      "ja": "改心次第で助けるぞよ。",
+      "translit": "Kaishin shidai de tasukeru zo yo.",
+      "i18n": {
+        "en": "According as you change your heart, (the kami) will save you."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kaishin-change-of-heart-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 82,
       "refId": "OSHIN-1:82",
-      "text": "疑念強きものは厳しき戒めいたすぞよ。",
-      "i18n": {}
+      "ja": "疑念強きものは厳しき戒めいたすぞよ。",
+      "translit": "Ginen tsuyoki mono wa kibishiki imashime itasu zo yo.",
+      "i18n": {
+        "en": "Those strong in doubt (the kami) will chastise severely."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 83,
       "refId": "OSHIN-1:83",
-      "text": "神の言ふこと違はぬぞよ。",
-      "i18n": {}
+      "ja": "神の言ふこと違はぬぞよ。",
+      "translit": "Kami no iu koto tagawanu zo yo.",
+      "i18n": {
+        "en": "What the kami says will not fail."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "kami-neutral-theism-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 84,
       "refId": "OSHIN-1:84",
-      "text": "皮相は今日でも変るぞよ。",
-      "i18n": {}
+      "ja": "皮相は今日でも変るぞよ。",
+      "translit": "Hisō wa kyō demo kawaru zo yo.",
+      "i18n": {
+        "en": "The outward surface can change even today."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 85,
       "refId": "OSHIN-1:85",
-      "text": "霊魂は中々変らぬぞよ。",
-      "i18n": {}
+      "ja": "霊魂は中々変らぬぞよ。",
+      "translit": "Reikon wa nakanaka kawaranu zo yo.",
+      "i18n": {
+        "en": "The soul does not change so readily."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "crystal-soul-soul-purification-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 86,
       "refId": "OSHIN-1:86",
-      "text": "心魂を磨いて改心致されよ。",
-      "i18n": {}
+      "ja": "心魂を磨いて改心致されよ。",
+      "translit": "Shinkon wo migaite kaishin itasare yo.",
+      "i18n": {
+        "en": "Polish your heart and soul and make a change of heart."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "kaishin-change-of-heart-oomoto-shinyu-woh",
+        "crystal-soul-soul-purification-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 87,
       "refId": "OSHIN-1:87",
-      "text": "足元から鳥が立つぞよ。",
-      "i18n": {}
+      "ja": "足元から鳥が立つぞよ。",
+      "translit": "Ashimoto kara tori ga tatsu zo yo.",
+      "i18n": {
+        "en": "A bird rises up from beneath your feet."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 88,
       "refId": "OSHIN-1:88",
-      "text": "本断れて末続くとは思ふなよ。",
-      "i18n": {}
+      "ja": "本断れて末続くとは思ふなよ。",
+      "translit": "Moto kirete sue tsuzuku to wa omou na yo.",
+      "i18n": {
+        "en": "Do not imagine that the tips can go on when the root is cut."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 89,
       "refId": "OSHIN-1:89",
-      "text": "幹ありての枝もあれば末もあるぞよ。",
-      "i18n": {}
+      "ja": "幹ありての枝もあれば末もあるぞよ。",
+      "translit": "Miki arite no eda mo areba sue mo aru zo yo.",
+      "i18n": {
+        "en": "It is only because there is a trunk that there are branches, and tips as well."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 90,
       "refId": "OSHIN-1:90",
-      "text": "本断れては末は枯れるぞよ。",
-      "i18n": {}
+      "ja": "本断れては末は枯れるぞよ。",
+      "translit": "Moto kirete wa sue wa kareru zo yo.",
+      "i18n": {
+        "en": "When the root is cut, the tips wither."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     },
     {
       "n": 91,
       "refId": "OSHIN-1:91",
-      "text": "余り大望な取次さして在るから、誠に直に気の毒であるぞよ。",
-      "i18n": {}
+      "ja": "余り大望な取次さして在るから、誠に直に気の毒であるぞよ。",
+      "translit": "Amari taimō na toritsugi sashite aru kara, makoto ni Nao ni kinodoku de aru zo yo.",
+      "i18n": {
+        "en": "Because so grand and ambitious a mediumship has been laid upon her, it is truly a grievous thing for Nao."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "deguchi-nao-name-adverb-pun-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "直 here is a deliberate double reading: the prophetess's name 直 (Nao, named in full 出口直 at 1:45) and the adverb 直 (*sunao/nao*, 'directly, truly'). The WoH reads it as the name — the kami's lament that 'so grand a mediumship has been laid upon Nao' — following the parallel at 1:92; the adverbial sense ('truly a grievous thing') is carried in the same breath and noted here.",
+        "community": []
+      }
     },
     {
       "n": 92,
       "refId": "OSHIN-1:92",
-      "text": "世界の事であるから、分明が遅きゆへ、直の悔しさ、残念さ胸に焼鉄あたる如く、たれ一人今では解るものも無し、力に成りてやりて呉れるものも無けれども、是でも、世界に仕組が致してあるから、追々解りて来るぞよ。",
-      "i18n": {}
+      "ja": "世界の事であるから、分明が遅きゆへ、直の悔しさ、残念さ胸に焼鉄あたる如く、たれ一人今では解るものも無し、力に成りてやりて呉れるものも無けれども、是でも、世界に仕組が致してあるから、追々解りて来るぞよ。",
+      "translit": "Sekai no koto de aru kara, bunmei ga osoki yue, Nao no kuyashisa, zannen-sa mune ni yakigane ataru gotoku, tare hitori ima de wa wakaru mono mo nashi, chikara ni narite yarite kureru mono mo nakeredomo, kore demo, sekai ni shikumi ga itashite aru kara, oioi wakarite kuru zo yo.",
+      "i18n": {
+        "en": "Because it concerns the whole world, clarity is slow to come, and Nao's mortification and regret are as hot iron pressed to her breast; not one soul understands now, nor is there any to lend her strength and help — yet even so, because the design has been laid over the world, little by little it will come to be understood."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh",
+        "deguchi-nao-name-adverb-pun-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "直 as 'Nao' again (see 1:91): the kami voices Nao's 悔しさ (mortification) and 残念さ (regret), 'hot iron pressed to her breast' (胸に焼鉄), with no one yet to understand or help her. The closing assurance — 追々解りて来る, 'little by little it will come to be understood' — mirrors the oracle's opening claim of the design's certainty.",
+        "community": []
+      }
     },
     {
       "n": 93,
       "refId": "OSHIN-1:93",
-      "text": "間違いは無いぞよ。",
-      "i18n": {}
+      "ja": "間違いは無いぞよ。",
+      "translit": "Machigai wa nai zo yo.",
+      "i18n": {
+        "en": "There is no mistake."
+      },
+      "glossaryRefs": [
+        "hepburn-romanization-convention-oomoto-shinyu-woh",
+        "zoyo-oracular-ender-unmarked-declarative-oomoto-shinyu-woh"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
     }
-  ]
+  ],
+  "editorial_questions": []
 }
