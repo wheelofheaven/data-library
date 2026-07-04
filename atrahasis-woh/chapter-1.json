@@ -1,0 +1,1982 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "ATRA-WOH",
+  "bookSlug": "atrahasis-woh",
+  "n": 1,
+  "title": "Atra-ḫasīs, Tablet I — When the gods, like man: the labor of the Igigi and the creation of humankind from clay and a slain god's flesh",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0-rc1",
+    "status": "reviewer-approved",
+    "sourceText": "Akkadian reconstruction from named scholarly editions (Lambert & Millard 1969, the critical edition; George & Al-Rawi 1996 for the Old Babylonian Sippar witnesses; Foster 2005 Before the Muses 3rd ed.). Line-numbering follows Lambert–Millard 1969.",
+    "sourceLicense": "Best-effort reconstruction; scholarly editions cited as references; English original to this project (CC0-1.0).",
+    "sourceUrl": "(no openly-licensed digital source — see source-akk-1.json citations; eBL L.1.1 consulted as collation aid only, CC BY-NC, not reproduced)",
+    "sourceAccessedVia": "Best-effort reconstruction (Lambert–Millard 1969 + George & Al-Rawi 1996 + Foster 2005; eBL L.1.1 collation aid)",
+    "verificationStatus": "best-effort-reconstruction-pending-verification; sign-by-sign transliteration pending collation against Lambert–Millard 1969 and eBL L.1.1",
+    "glossaryVersion": "2.69.0",
+    "overlayGlossaryVersion": "1.0.0",
+    "modelDrafts": [
+      "claude-opus-4-8"
+    ],
+    "reviewer": "approved — all 111 lines + 10 glossary entries defensible; zero lens-leakage; Assyriologically serious (a69daaa6). Reconstruction sign-collation pending.",
+    "reviewedAt": "2026-07-04",
+    "humanRuling": "2026-07-04: Human-ratified extension of the standing lens-neutral policy. The Elohim/ancient-astronaut anthropogony reading is kept OUT of the translation and glossary (proposed-not-committed speculative entry 'atrahasis-labor-force-anthropogony-elohim-frame'), routed to the Explainer 'made-from-the-ground-to-bear-the-labor'. The I:1 frame-crux ships the Lambert-Millard comparative 'When the gods, like man' (the LESS lens-congenial reading); Foster's identity reading documented-not-adopted. Akkadian remains best-effort — sign-level collation against Lambert-Millard 1969 / eBL L.1.1 pending (reviewer flags I:233 -sha->-shunu, I:191 eli); verificationStatus holds."
+  },
+  "segments": [
+    {
+      "id": "frame",
+      "label": "The frame — the gods bear the labor (Lambert–Millard I:1–6)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 1,
+          "refId": "ATRA-WOH-I:1",
+          "translit": "i-nu-ma i-lu a-wi-lum",
+          "cuneiform": null,
+          "i18n": {
+            "en": "When the gods, like man,"
+          },
+          "notes": {
+            "official": "*inūma ilū awīlum* is the celebrated title-line. *awīlum* is syntactically disputed: Lambert–Millard (1969) and von Soden read it as a comparative — 'When the gods, **like** man, bore the labor' — the gods themselves doing man's work before humankind existed; Foster (2005) renders the identity 'When the gods **were** man.' The translation keeps the Lambert–Millard comparative as the critical-edition baseline. The sense is stable either way: before humans, the gods bore their own toil. The identity reading is the more lens-congenial one; it is documented, not adopted — see the frame-crux glossary entry.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "inuma-ilu-awilum-frame-crux-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 2,
+          "refId": "ATRA-WOH-I:2",
+          "translit": "ub-lu du-ul-la iz-bi-lu šu-up-ši-[k]a",
+          "cuneiform": null,
+          "i18n": {
+            "en": "bore the labor and carried the toil-basket —"
+          },
+          "notes": {
+            "official": "*dullu* 'toil, corvée-labor' and *šupšikku* 'earth-carrying / labor-basket' are the poem's thesis-vocabulary: the whole narrative exists to explain why humankind bears the *dullu* of the gods. *dullu* is governed by the central entry `du-lum-dullu-divine-toil-relieved-by-humans-cross-corpus`; Atra-ḫasīs is the principal Akkadian locus for its Akkadian-side activation (deferred at Adapa, where the keyword did not survive).",
+            "community": []
+          },
+          "glossaryRefs": [
+            "du-lum-dullu-divine-toil-relieved-by-humans-cross-corpus",
+            "zub-sig-dusu-corvee-basket-cross-corpus",
+            "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 3,
+          "refId": "ATRA-WOH-I:3",
+          "translit": "šu-up-ši-ik i-li ra-bi-[m]a",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the labor-basket of the gods was great,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "zub-sig-dusu-corvee-basket-cross-corpus",
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 4,
+          "refId": "ATRA-WOH-I:4",
+          "translit": "du-ul-lu-um ka-bi-it ma-a-ad ša-ap-ša-qum",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the labor was heavy, the distress was much."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "du-lum-dullu-divine-toil-relieved-by-humans-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 5,
+          "refId": "ATRA-WOH-I:5",
+          "translit": "ra-bu-tum (d)a-nun-na-ku si-bi-it-tam",
+          "cuneiform": null,
+          "i18n": {
+            "en": "The great Anunnaku, the Seven,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "anunnaki-igigi-mesopotamian-divine-classes-popular-fringe-acknowledgment-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 6,
+          "refId": "ATRA-WOH-I:6",
+          "translit": "du-ul-lam ú-ša-az-ba-lu (d)i-gi-gi",
+          "cuneiform": null,
+          "i18n": {
+            "en": "were making the Igigi bear the labor."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "du-lum-dullu-divine-toil-relieved-by-humans-cross-corpus",
+            "anunnaki-igigi-mesopotamian-divine-classes-popular-fringe-acknowledgment-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    },
+    {
+      "id": "labor-organization",
+      "label": "The great gods divide the cosmos (Lambert–Millard I:7–16)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 7,
+          "refId": "ATRA-WOH-I:7",
+          "translit": "a-bu-šu-nu (d)a-nu-um šar-ru-um",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Their father Anu was king;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 8,
+          "refId": "ATRA-WOH-I:8",
+          "translit": "ma-li-ik-šu-nu qú-ra-du (d)en-líl",
+          "cuneiform": null,
+          "i18n": {
+            "en": "their counsellor, the warrior Enlil;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 9,
+          "refId": "ATRA-WOH-I:9",
+          "translit": "gu-za-lá-šu-nu (d)nin-urta",
+          "cuneiform": null,
+          "i18n": {
+            "en": "their throne-bearer was Ninurta;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 10,
+          "refId": "ATRA-WOH-I:10",
+          "translit": "ù ra-bi-iṣ-šu-nu (d)en-nu-gi",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and their sheriff was Ennugi."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-I:11",
+          "translit": "iṣ-ṣa-ab-tu-ma is-qá i-du-ú i-lu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "The gods clasped hands and cast the lot,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 12,
+          "refId": "ATRA-WOH-I:12",
+          "translit": "iz-zu-uz-zu i-lu ra-bu-tum",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the great gods made the division:"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 13,
+          "refId": "ATRA-WOH-I:13",
+          "translit": "(d)a-nu-um i-li-ma a-na ša-me-e",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Anu went up to the heavens,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 14,
+          "refId": "ATRA-WOH-I:14",
+          "translit": "[(d)en-líl] er-ṣe-tam a-na um-ma-ni-šu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "[Enlil took] the earth for his people;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention",
+            "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 15,
+          "refId": "ATRA-WOH-I:15",
+          "translit": "ši-ga-ru mi-di-il ta-am-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the bolt, the bar of the sea,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 16,
+          "refId": "ATRA-WOH-I:16",
+          "translit": "a-na (d)en-ki šar-ri id-di-nu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "they gave to Enki the prince."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    },
+    {
+      "id": "digging-rivers-apsu",
+      "label": "The Igigi dig the Tigris, the Euphrates, and the Apsû (Lambert–Millard I:21–33, selective)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "Intervening lines I:17–20 (the descent of Enki to the Apsû, transition to the Igigi's toil) are not reconstructed in this draft.",
+        "i18n": {
+          "en": "[Editorial selection: lines I:17–20 are not reconstructed in this draft, which curates the labor-frame and the creation core.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 22,
+          "refId": "ATRA-WOH-I:22",
+          "translit": "ú-ḫe-ru-ú na-ra-am (i7)idiqlat",
+          "cuneiform": null,
+          "i18n": {
+            "en": "They dug out the Tigris river,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 23,
+          "refId": "ATRA-WOH-I:23",
+          "translit": "na-ra-am (i7)purattam ša-ni-tam",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and the Euphrates thereafter."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 24,
+          "refId": "ATRA-WOH-I:24",
+          "translit": "[i-na] na-aq-bi-im ú-pe-et-tu-ú bu-ú-ri",
+          "cuneiform": null,
+          "i18n": {
+            "en": "In the depths they opened the springs,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 25,
+          "refId": "ATRA-WOH-I:25",
+          "translit": "iš-ku-nu-ma ap-sa-a",
+          "cuneiform": null,
+          "i18n": {
+            "en": "they set in place the Apsû."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    },
+    {
+      "id": "years-and-rebellion",
+      "label": "The years of toil and the night rebellion (Lambert–Millard I:37–71, selective)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "Intervening lines I:26–36 (the counting of the years of toil) are compressed; the draft resumes at the tally of years and the grumbling.",
+        "i18n": {
+          "en": "[Editorial selection: lines I:26–36 are compressed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 37,
+          "refId": "ATRA-WOH-I:37",
+          "translit": "[X ME] ša-na-tim du-ul-la iz-bi-lu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "For [ … ] years they bore the labor;"
+          },
+          "notes": {
+            "official": "The number of years of toil is damaged. It has been read as '40 years' and as '3600 (*šār*) years'; the surviving traces do not settle it (Lambert–Millard 1969). The translation leaves it open ('[ … ] years'). The 3600-reading is the sexagesimal great-cycle (*šār*) and would resonate with the long antediluvian spans of the Sumerian King List; the 40-reading is a conventional round span. A textual, not a lexical, crux.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "du-lum-dullu-divine-toil-relieved-by-humans-cross-corpus",
+            "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 38,
+          "refId": "ATRA-WOH-I:38",
+          "translit": "mu-ša ù ur-ra",
+          "cuneiform": null,
+          "i18n": {
+            "en": "night and day."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 39,
+          "refId": "ATRA-WOH-I:39",
+          "translit": "ú-ta-az-za-mu i-na ka-la-ak-ki",
+          "cuneiform": null,
+          "i18n": {
+            "en": "They were grumbling in the excavation-pit,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 40,
+          "refId": "ATRA-WOH-I:40",
+          "translit": "na-ap-ḫa-ar-šu-nu a-wa-tam iš-ta-nu-ú",
+          "cuneiform": null,
+          "i18n": {
+            "en": "all of them together kept up a complaint."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 60,
+          "refId": "ATRA-WOH-I:60",
+          "translit": "ka-lu-ni-ma i-lu ta-ḫa-za ni-iq-bi",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"Every one of us gods has declared war!\""
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 65,
+          "refId": "ATRA-WOH-I:65",
+          "translit": "iš-ku-nu i-ša-tam a-na ú-na-ti-šu-nu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "They set fire to their tools,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 66,
+          "refId": "ATRA-WOH-I:66",
+          "translit": "al-li-šu-nu i-qú-lu i-na i-ša-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "they burnt their spades in the fire,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 67,
+          "refId": "ATRA-WOH-I:67",
+          "translit": "tu-up-ši-ka-ti-šu-nu i-qú-lu i-na i-ša-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and their labor-baskets they burnt in the fire."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "zub-sig-dusu-corvee-basket-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 68,
+          "refId": "ATRA-WOH-I:68",
+          "translit": "il-li-ku-nim-ma i-na mu-ši-im",
+          "cuneiform": null,
+          "i18n": {
+            "en": "In the night they marched,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 69,
+          "refId": "ATRA-WOH-I:69",
+          "translit": "sa-ah-ru bāb (d)en-líl bi-tam",
+          "cuneiform": null,
+          "i18n": {
+            "en": "they surrounded the gate of Enlil's house."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    },
+    {
+      "id": "council",
+      "label": "The council of Anu, Enlil, and Enki (Lambert–Millard I:72–170, selective)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The council scene (Nusku rousing Enlil, Enlil's fright and tears, the summoning of Anu and Enki, the deadlock over the ringleader) is reconstructed only in outline here; many lines I:72–169 are not reproduced in this draft.",
+        "i18n": {
+          "en": "[Editorial selection: the council dialogue I:72–169 is given only in outline in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 72,
+          "refId": "ATRA-WOH-I:72",
+          "translit": "(d)nu-us-ku (d)en-líl be-el-šu di-ki-i",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Nusku roused Enlil his lord,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 85,
+          "refId": "ATRA-WOH-I:85",
+          "translit": "(d)en-líl i-il-la-ku di-ma-a-šu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Enlil — his tears were flowing."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 95,
+          "refId": "ATRA-WOH-I:95",
+          "translit": "(d)a-nu-um iš-tu ša-me-e ur-da-am-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Anu came down from the heavens,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention",
+            "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 100,
+          "refId": "ATRA-WOH-I:100",
+          "translit": "(d)en-ki ap-sa-am iš-te-en-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and Enki [came up] from the Apsû."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 150,
+          "refId": "ATRA-WOH-I:150",
+          "translit": "man-nu-um-ma ba-nu-ú qá-ab-li",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"Who is the instigator of the battle?\""
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 165,
+          "refId": "ATRA-WOH-I:165",
+          "translit": "gi-mi-ir-šu-nu-ma i-lu ú-ša-az-ba-lu ka-ap-du",
+          "cuneiform": null,
+          "i18n": {
+            "en": "The gods, all of them, had decreed the corvée."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    },
+    {
+      "id": "ea-plan-lullu",
+      "label": "Enki's plan — the creation of the lullû to bear the labor (Lambert–Millard I:189–199)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "Lines I:170–188 (the transition from the deadlock to Enki's address) are not reconstructed in this draft; the creation core resumes at Enki's proposal.",
+        "i18n": {
+          "en": "[Editorial selection: lines I:170–188 are not reconstructed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 189,
+          "refId": "ATRA-WOH-I:189",
+          "translit": "(d)en-ki pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Enki opened his mouth"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 190,
+          "refId": "ATRA-WOH-I:190",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and addressed the great gods:"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 191,
+          "refId": "ATRA-WOH-I:191",
+          "translit": "e-li (d)be-le-et-ì-lí ša-as-su-ru i-ba-aš-ši-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"While Bēlet-ilī, the womb-goddess, is present,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 192,
+          "refId": "ATRA-WOH-I:192",
+          "translit": "be-le-et-ì-lí li-ib-ni-ma lu-ul-la-a",
+          "cuneiform": null,
+          "i18n": {
+            "en": "let the womb-goddess create a lullû,"
+          },
+          "notes": {
+            "official": "*lullû* (retained, glossed 'primeval human') is the anthropogonic keyword: the first human as a fashioned creature. Lambert–Millard render 'man'; CAD L 242 gives 'primitive/savage man'; Foster 'a mortal.' The term is preserved untranslated because none of these is consensus and the reader should see the technical word (cf. Enūma Eliš VI:6 *lullâ lū amēlu*). Cross-corpus to Sumerian *lu2-u18-lu* and thematically to Hebrew *ʾādām*.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "lullu-primeval-human-anthropogonic-keyword-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 193,
+          "refId": "ATRA-WOH-I:193",
+          "translit": "lu-ú wa-bi-il ab-ša-nim šu-ú",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and let him be the bearer of the yoke."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 194,
+          "refId": "ATRA-WOH-I:194",
+          "translit": "ab-ša-nam li-bi-il ši-pí-ir (d)en-líl",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Let him carry the yoke, the task imposed by Enlil,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 195,
+          "refId": "ATRA-WOH-I:195",
+          "translit": "a-wi-lum li-iš-ši du-ul-li i-li",
+          "cuneiform": null,
+          "i18n": {
+            "en": "let man bear the labor of the gods.\""
+          },
+          "notes": {
+            "official": "*awīlum lišši dulli ilī* 'let man bear the toil of the gods' is the thesis-line of Mesopotamian anthropogony (Lambert–Millard 1969; Kilmer 1972): humankind is fashioned expressly to carry the *dullu* the gods no longer wish to bear. This purpose-of-creation stands in pointed contrast to Genesis 1:26–27, where humankind is made in the divine *ṣelem/dĕmût* ('image/likeness') to rule — a 'labor-vs-image' contrast that comparative scholarship (Clifford 1994; Middleton 2005) reads as two divergent valuations of the human. The line is rendered plainly; the reading is in the Akkadian and needs no gloss.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "du-lum-dullu-divine-toil-relieved-by-humans-cross-corpus",
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 196,
+          "refId": "ATRA-WOH-I:196",
+          "translit": "il-su-ú-ma i-la iš-ta-lu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "They summoned and questioned the goddess,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 197,
+          "refId": "ATRA-WOH-I:197",
+          "translit": "ša-as-su-ra be-le-et-ì-lí mu-ud-da-a",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the womb-goddess, wise Bēlet-ilī:"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 198,
+          "refId": "ATRA-WOH-I:198",
+          "translit": "at-ti-i-ma ša-as-su-ru ba-ni-a-at a-wi-lu-ti",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"You are the womb-goddess, creatress of mankind;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 199,
+          "refId": "ATRA-WOH-I:199",
+          "translit": "bi-ni-ma lu-ul-la-a li-bi-il ni-ra",
+          "cuneiform": null,
+          "i18n": {
+            "en": "create the lullû, that he may bear the yoke!\""
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "lullu-primeval-human-anthropogonic-keyword-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    },
+    {
+      "id": "slaughter-of-we-ila",
+      "label": "The slaughter of Wê-ila and the mixing of flesh, blood, and clay (Lambert–Millard I:200–229)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 200,
+          "refId": "ATRA-WOH-I:200",
+          "translit": "(d)nin-tu pi-a-ša i-pu-ša-am-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Nintu opened her mouth"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 201,
+          "refId": "ATRA-WOH-I:201",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and addressed the great gods:"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 202,
+          "refId": "ATRA-WOH-I:202",
+          "translit": "it-ti-ia-ma la na-ṭu a-na e-pe-ši",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"It is not proper for me to make him;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 203,
+          "refId": "ATRA-WOH-I:203",
+          "translit": "it-ti (d)en-ki-ma i-ba-aš-ši ši-ip-rum",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the task belongs to Enki."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 204,
+          "refId": "ATRA-WOH-I:204",
+          "translit": "šu-ú-ma ú-el-la-al ka-la-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "He it is who purifies everything;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 205,
+          "refId": "ATRA-WOH-I:205",
+          "translit": "ṭi-iṭ-ṭa li-id-di-nam-ma a-na-ku lu-pu-uš",
+          "cuneiform": null,
+          "i18n": {
+            "en": "let him give me the clay, and I will do it.\""
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "im-sumerian-clay-of-human-creation-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 206,
+          "refId": "ATRA-WOH-I:206",
+          "translit": "(d)en-ki pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Enki opened his mouth"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 207,
+          "refId": "ATRA-WOH-I:207",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and addressed the great gods:"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 208,
+          "refId": "ATRA-WOH-I:208",
+          "translit": "i-na wa-ar-ḫi-im u4-1-kam u4-7-kam ù u4-15-kam",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"On the first, the seventh, and the fifteenth of the month"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 209,
+          "refId": "ATRA-WOH-I:209",
+          "translit": "te-li-il-tam lu-pu-uš ri-im-ka",
+          "cuneiform": null,
+          "i18n": {
+            "en": "I will make a purification, a cleansing-bath."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 210,
+          "refId": "ATRA-WOH-I:210",
+          "translit": "i-lu iš-te-en li-iṭ-ṭa-bi-iḫ",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Let one god be slaughtered,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 211,
+          "refId": "ATRA-WOH-I:211",
+          "translit": "li-te-el-li-lu i-lu i-na ṭe4-bi-ḫi-šu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "that the gods may be cleansed by his slaughter."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 212,
+          "refId": "ATRA-WOH-I:212",
+          "translit": "i-na ši-ir i-li ù da-mi",
+          "cuneiform": null,
+          "i18n": {
+            "en": "With the flesh of the god and (his) blood"
+          },
+          "notes": {
+            "official": "The creation-substances appear as a triad: *šīru* 'flesh' + *damu* 'blood' of the slain god, kneaded into *ṭiṭṭu* 'clay' (I:212–215, 224–225). The individual glosses are uncontested; the triad as a unit is the defining Mesopotamian anthropogony — clay animated by a god's flesh and blood (Kilmer 1972; Moran 1970; Batto 1992). Comparative note: Genesis 2:7 shares the clay/dust (*ʿāfār*, *ḥōmer*) but has **no** slain deity and **no** blood — the human is dust animated by *nišmat ḥayyîm* 'the breath of life.' The parallel is in the clay and the animation; the divergence is the theomachic blood. Flagged as a central-glossary triad candidate (Akkadian *šīru/damu/ṭiṭṭu* ↔ Hebrew *bāśār/dām/ʿāfār–ḥōmer*).",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "siru-damu-tiddu-anthropogonic-triad-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 213,
+          "refId": "ATRA-WOH-I:213",
+          "translit": "(d)nin-tu li-ba-al-li-il ṭi-iṭ-ṭa",
+          "cuneiform": null,
+          "i18n": {
+            "en": "let Nintu mix the clay,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "im-sumerian-clay-of-human-creation-cross-corpus",
+            "dingir-prefix-prose-drop-convention",
+            "siru-damu-tiddu-anthropogonic-triad-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 214,
+          "refId": "ATRA-WOH-I:214",
+          "translit": "i-lu-um-ma ù a-wi-lum",
+          "cuneiform": null,
+          "i18n": {
+            "en": "so that god and man"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "siru-damu-tiddu-anthropogonic-triad-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 215,
+          "refId": "ATRA-WOH-I:215",
+          "translit": "li-ib-ta-al-li-lu i-na ṭi-iṭ-ṭi",
+          "cuneiform": null,
+          "i18n": {
+            "en": "may be mixed together in the clay."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "im-sumerian-clay-of-human-creation-cross-corpus",
+            "siru-damu-tiddu-anthropogonic-triad-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 216,
+          "refId": "ATRA-WOH-I:216",
+          "translit": "a-na du-úr da-ar up-pa i ni-iš-me",
+          "cuneiform": null,
+          "i18n": {
+            "en": "For all time let us hear the drum(?),"
+          },
+          "notes": {
+            "official": "*uppu* is a classic crux: 'drum' (Lambert–Millard 1969); the heartbeat/pulse; or a token of the ghost's presence. Abusch (1998) ties *uppu* to the *eṭemmu* and the *ittu* 'sign' of the next line — the throb the living 'hear for all time' is the drum-beat of the indwelling ghost. 'Drum(?)' is retained, marked uncertain; not adjudicated.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "uppu-drum-heartbeat-ghost-crux-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 217,
+          "refId": "ATRA-WOH-I:217",
+          "translit": "i-na ši-ir i-li e-ṭe-em-mu li-ib-ši",
+          "cuneiform": null,
+          "i18n": {
+            "en": "from the flesh of the god let there be a spirit (eṭemmu);"
+          },
+          "notes": {
+            "official": "*eṭemmu* (retained, glossed 'spirit'; Lambert–Millard 'ghost') is the enduring divine element left in humankind from the slain god's flesh. In Akkadian belief the *eṭemmu* is specifically the ancestral ghost sustained by *kispu* offerings (CAD E 397), not a generic soul. The human being is thus part-clay, part-divine, and the divine part is the *eṭemmu*.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "etemmu-ghost-spirit-divine-element-in-humankind-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 218,
+          "refId": "ATRA-WOH-I:218",
+          "translit": "ba-al-ṭa it-ta-šu li-še-di-šu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "let it make the living know its sign,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 219,
+          "refId": "ATRA-WOH-I:219",
+          "translit": "aš-šum la mu-uš-ši-i e-ṭe-em-mu li-ib-ši",
+          "cuneiform": null,
+          "i18n": {
+            "en": "so that he not be forgotten, let the spirit remain."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "etemmu-ghost-spirit-divine-element-in-humankind-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 220,
+          "refId": "ATRA-WOH-I:220",
+          "translit": "an-nu i-pu-lu i-na pu-uḫ-ri-šu-nu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"Yes!\" they answered in their assembly,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 221,
+          "refId": "ATRA-WOH-I:221",
+          "translit": "ra-bu-tum (d)a-nun-na mu-ši-mu ši-ma-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the great Anunna who decree the fates."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "anunnaki-igigi-mesopotamian-divine-classes-popular-fringe-acknowledgment-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 222,
+          "refId": "ATRA-WOH-I:222",
+          "translit": "il-qú-ú-ma we-e i-la ša i-šu-ú ṭe4-e-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "They took Wê-ila, who had ṭēmu (intelligence),"
+          },
+          "notes": {
+            "official": "This line carries the double pun that is the etymological heart of the anthropogony (Lambert–Millard 1969; Moran 1970; Abusch 1998). The slaughtered god **Wê-ila** (OB *we-e i-la*; also read Wê-e, Aw-ila, Ilawēla) 'who had **ṭēmu**' (intelligence/reason) yields, by wordplay, both *awīlu* 'man' (**Wê + ila**) and *eṭemmu* 'ghost' (**ṭēmu → eṭemmu**). Humankind's very being and its indwelling spirit are both etymologically derived from the slain god. *ṭēmu* is rendered 'intelligence' plainly; the god's reason passes into humanity — that, and no engineered-cognition reading, is what the text states.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "we-ila-temu-anthropogonic-pun-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 223,
+          "refId": "ATRA-WOH-I:223",
+          "translit": "i-na pu-uḫ-ri-šu-nu iṭ-ṭa-ab-ḫu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and slaughtered him in their assembly."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 224,
+          "refId": "ATRA-WOH-I:224",
+          "translit": "i-na ši-ri-šu ù da-mi-šu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "From his flesh and his blood"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "siru-damu-tiddu-anthropogonic-triad-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 225,
+          "refId": "ATRA-WOH-I:225",
+          "translit": "(d)nin-tu ú-ba-al-li-il ṭi-iṭ-ṭa",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Nintu mixed the clay."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "im-sumerian-clay-of-human-creation-cross-corpus",
+            "dingir-prefix-prose-drop-convention",
+            "siru-damu-tiddu-anthropogonic-triad-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 226,
+          "refId": "ATRA-WOH-I:226",
+          "translit": "[a-na] du-úr da-ar up-pa iš-mu-ú",
+          "cuneiform": null,
+          "i18n": {
+            "en": "For all time they heard the drum(?)."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+            "uppu-drum-heartbeat-ghost-crux-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 227,
+          "refId": "ATRA-WOH-I:227",
+          "translit": "i-na ši-ir i-li e-ṭe-em-mu i-ba-aš-ši",
+          "cuneiform": null,
+          "i18n": {
+            "en": "From the flesh of the god a spirit (eṭemmu) came into being."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "etemmu-ghost-spirit-divine-element-in-humankind-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 228,
+          "refId": "ATRA-WOH-I:228",
+          "translit": "ba-al-ṭa it-ta-šu ú-ad-di-šu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "It made the living know its sign;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 229,
+          "refId": "ATRA-WOH-I:229",
+          "translit": "aš-šum la mu-uš-ši-i e-ṭe-em-mu i-ba-aš-ši",
+          "cuneiform": null,
+          "i18n": {
+            "en": "so that he not be forgotten, the spirit remained."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "etemmu-ghost-spirit-divine-element-in-humankind-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    },
+    {
+      "id": "mixing-and-birth-goddesses",
+      "label": "The Igigi spit on the clay; Mami's speech (Lambert–Millard I:230–248)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 230,
+          "refId": "ATRA-WOH-I:230",
+          "translit": "iš-tu-ma ib-lu-lu ṭi-iṭ-ṭa ša-a-ti",
+          "cuneiform": null,
+          "i18n": {
+            "en": "After she had mixed that clay,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "im-sumerian-clay-of-human-creation-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 231,
+          "refId": "ATRA-WOH-I:231",
+          "translit": "is-si-ma (d)a-nun-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "she summoned the Anunna, the great gods."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "anunnaki-igigi-mesopotamian-divine-classes-popular-fringe-acknowledgment-cross-corpus",
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 232,
+          "refId": "ATRA-WOH-I:232",
+          "translit": "(d)i-gi-gu i-lu ra-bu-tum",
+          "cuneiform": null,
+          "i18n": {
+            "en": "The Igigi, the great gods,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "anunnaki-igigi-mesopotamian-divine-classes-popular-fringe-acknowledgment-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 233,
+          "refId": "ATRA-WOH-I:233",
+          "translit": "ru-ʾu-ti-ša im-ta-al-lu-ú ṭi-iṭ-ṭa",
+          "cuneiform": null,
+          "i18n": {
+            "en": "spat upon the clay."
+          },
+          "notes": {
+            "official": "*ruʾtu* 'spittle': the Igigi 'spat upon the clay.' The rendering is standard and uncontested; the act's function is interpretively open — animation, ritual ratification/assent, or the contribution of a further divine bodily-substance so that ALL the Igigi (not only the one slain god) add themselves to humankind. The plain rendering is kept; the options are noted here, not imported into the text.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "im-sumerian-clay-of-human-creation-cross-corpus",
+            "rutu-spittle-igigi-clay-ratification-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 234,
+          "refId": "ATRA-WOH-I:234",
+          "translit": "(d)ma-mi pi-a-ša i-pu-ša-am-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Mami opened her mouth"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 235,
+          "refId": "ATRA-WOH-I:235",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and addressed the great gods:"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 236,
+          "refId": "ATRA-WOH-I:236",
+          "translit": "ši-ip-ra ta-aq-bi-a-nim-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"The task you commanded me,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 237,
+          "refId": "ATRA-WOH-I:237",
+          "translit": "ú-ša-ak-li-il",
+          "cuneiform": null,
+          "i18n": {
+            "en": "I have completed it."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 238,
+          "refId": "ATRA-WOH-I:238",
+          "translit": "i-la ta-aṭ-bu-ḫa qá-du ṭe4-mi-šu",
+          "cuneiform": null,
+          "i18n": {
+            "en": "You have slaughtered a god together with his ṭēmu (intelligence)."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus",
+            "we-ila-temu-anthropogonic-pun-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 239,
+          "refId": "ATRA-WOH-I:239",
+          "translit": "du-ul-la-ku-nu ka-ab-tam ú-ša-as-si-ik",
+          "cuneiform": null,
+          "i18n": {
+            "en": "I have removed your heavy labor,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "du-lum-dullu-divine-toil-relieved-by-humans-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 240,
+          "refId": "ATRA-WOH-I:240",
+          "translit": "tu-up-ši-ik-ka-ku-nu a-wi-lam e-mi-id",
+          "cuneiform": null,
+          "i18n": {
+            "en": "I have imposed your labor-basket upon man."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "zub-sig-dusu-corvee-basket-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 241,
+          "refId": "ATRA-WOH-I:241",
+          "translit": "ta-ad-di-a ri-ig-ma a-na a-wi-lu-ti",
+          "cuneiform": null,
+          "i18n": {
+            "en": "You have bestowed clamor upon mankind;"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 242,
+          "refId": "ATRA-WOH-I:242",
+          "translit": "ap-ṭú-ur ab-ša-nam aš-ku-un ú-ru-tam",
+          "cuneiform": null,
+          "i18n": {
+            "en": "I have loosed the yoke, I have established freedom(?)."
+          },
+          "notes": {
+            "official": "*urûtam* is disputed: 'freedom/release' (giving the loosed-yoke // established-freedom parallelism, Lambert–Millard 1969) or 'the birth-stool' (the *urû* of childbirth, AHw 1435, fitting the birth-goddess context). 'Freedom(?)' is retained on the parallelism argument, marked uncertain; the birth-stool reading is noted. Verification pending.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "urutam-freedom-birth-stool-crux-atrahasis"
+          ],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    },
+    {
+      "id": "fourteen-pieces",
+      "label": "The fourteen pieces of clay — seven male, seven female (Lambert–Millard I:249–276, selective)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 249,
+          "refId": "ATRA-WOH-I:249",
+          "translit": "iš-mu-ú an-ni-a-am qá-ba-ša",
+          "cuneiform": null,
+          "i18n": {
+            "en": "They heard this speech of hers,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 250,
+          "refId": "ATRA-WOH-I:250",
+          "translit": "i-lu i-na-ši-qú še-pi-ša",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the gods kissed her feet, (saying):"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 251,
+          "refId": "ATRA-WOH-I:251",
+          "translit": "pa-na-nu-um (d)ma-mi ni-iq-bi-ki",
+          "cuneiform": null,
+          "i18n": {
+            "en": "\"Formerly we would call you Mami,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 252,
+          "refId": "ATRA-WOH-I:252",
+          "translit": "i-na-an-na be-le-et ka-la i-li lu šu-um-ki",
+          "cuneiform": null,
+          "i18n": {
+            "en": "now let your name be Mistress-of-all-the-gods.\""
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "digir-sumerian-divine-lexeme-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 253,
+          "refId": "ATRA-WOH-I:253",
+          "translit": "i-ru-bu-ma a-na bi-it ši-im-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "They entered the house of destiny,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 254,
+          "refId": "ATRA-WOH-I:254",
+          "translit": "(d)en-ki-ma ù ša-as-su-ru mu-ud-da-a",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Enki and the wise womb-goddess."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 255,
+          "refId": "ATRA-WOH-I:255",
+          "translit": "ša-as-su-ra-tum pa-aḫ-ra-ma",
+          "cuneiform": null,
+          "i18n": {
+            "en": "The womb-goddesses were assembled,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 256,
+          "refId": "ATRA-WOH-I:256",
+          "translit": "i-na maḫ-ri-ša i-ka-ab-ba-as ṭi-iṭ-ṭa",
+          "cuneiform": null,
+          "i18n": {
+            "en": "and in her presence he trod the clay."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "im-sumerian-clay-of-human-creation-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 257,
+          "refId": "ATRA-WOH-I:257",
+          "translit": "ši-pa-tam iš-ta-na-si",
+          "cuneiform": null,
+          "i18n": {
+            "en": "She kept reciting the incantation,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 258,
+          "refId": "ATRA-WOH-I:258",
+          "translit": "(d)en-ki wa-ši-ib maḫ-ri-ša ú-ša-ad-ba-ab-ši",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Enki, seated before her, prompted her."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 259,
+          "refId": "ATRA-WOH-I:259",
+          "translit": "iš-tu-ma ug-da-am-me-ru ši-pa-as-sà",
+          "cuneiform": null,
+          "i18n": {
+            "en": "When she had finished her incantation,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 260,
+          "refId": "ATRA-WOH-I:260",
+          "translit": "14 ki-iṣ-ri ik-ta-ri-iṣ",
+          "cuneiform": null,
+          "i18n": {
+            "en": "she nipped off fourteen pieces of clay:"
+          },
+          "notes": {
+            "official": "The birth-goddess nips off fourteen pieces of clay — seven set on the right (*imittu*, the male portions), seven on the left (*šumēlu*, the female), a birth-brick (*libittu*) between them (I:261–263) — and the womb-goddesses fashion seven male and seven female: the first human pairs, made to carry the yoke of the gods. The seven-and-seven pattern is the Mesopotamian primal-humanity numeral.",
+            "community": []
+          },
+          "glossaryRefs": [
+            "im-sumerian-clay-of-human-creation-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 261,
+          "refId": "ATRA-WOH-I:261",
+          "translit": "7 ki-iṣ-ri a-na i-mi-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "seven pieces she set on the right,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 262,
+          "refId": "ATRA-WOH-I:262",
+          "translit": "7 ki-iṣ-ri a-na šu-me-lim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "seven pieces on the left."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 263,
+          "refId": "ATRA-WOH-I:263",
+          "translit": "bi-ri-šu-nu iš-ta-ka-an li-bi-it-tam",
+          "cuneiform": null,
+          "i18n": {
+            "en": "Between them she placed a brick."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 265,
+          "refId": "ATRA-WOH-I:265",
+          "translit": "pu-uḫ-ru ša-as-su-ra-tum",
+          "cuneiform": null,
+          "i18n": {
+            "en": "The womb-goddesses were gathered,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 267,
+          "refId": "ATRA-WOH-I:267",
+          "translit": "7 ù 7 ú-ba-an-ni-a: 7 zi-ka-ri",
+          "cuneiform": null,
+          "i18n": {
+            "en": "seven and seven they fashioned: seven male,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 268,
+          "refId": "ATRA-WOH-I:268",
+          "translit": "7 ú-ba-an-ni-a si-in-ni-ša-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "seven female they fashioned."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 269,
+          "refId": "ATRA-WOH-I:269",
+          "translit": "ša-as-su-ru ba-ni-a-at ši-im-tim",
+          "cuneiform": null,
+          "i18n": {
+            "en": "The womb-goddess, creatress of destiny,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus"
+          ],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 270,
+          "refId": "ATRA-WOH-I:270",
+          "translit": "ši-na ši-na ú-ga-am-mi-ir-ši-na-ti",
+          "cuneiform": null,
+          "i18n": {
+            "en": "two by two she completed them,"
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [],
+          "cuneiform_confidence": "pending"
+        },
+        {
+          "n": 271,
+          "refId": "ATRA-WOH-I:271",
+          "translit": "ú-ṣu-ra-at ni-ši (d)ma-mi ú-ṣur",
+          "cuneiform": null,
+          "i18n": {
+            "en": "the forms of the people Mami designed."
+          },
+          "notes": {
+            "official": "",
+            "community": []
+          },
+          "glossaryRefs": [
+            "nintur-nintud-ninhursaga-birth-goddess-epithet-cluster-cross-corpus",
+            "dingir-prefix-prose-drop-convention"
+          ],
+          "cuneiform_confidence": "pending"
+        }
+      ]
+    }
+  ],
+  "editorial_questions": []
+}

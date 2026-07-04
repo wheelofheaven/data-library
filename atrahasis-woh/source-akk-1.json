@@ -1,0 +1,1111 @@
+{
+  "schemaVersion": 2,
+  "bookSlug": "atrahasis-woh",
+  "composition": 1,
+  "source": {
+    "type": "akkadian-composite-reconstruction",
+    "versionTitle": "Atra-ḫasīs, Tablet I — best-effort reconstruction from named scholarly editions",
+    "verificationStatus": "best-effort-reconstruction-pending-verification. Reconstructed from the standard scholarly editions (Lambert & Millard 1969, the critical edition; George & Al-Rawi 1996 for the Old Babylonian Sippar witnesses; Foster 2005 Before the Muses 3rd ed.). Line numbering follows Lambert–Millard 1969. The eBL corpus L.1.1 (ebl.lmu.de/corpus/L/1/1) and SEAL served as a collation aid only (CC BY-NC — not reproduced). The sign-by-sign transliteration is a best-effort reconstruction and is PENDING COLLATION against Lambert–Millard 1969 and eBL L.1.1; per-line sign values may contain reconstruction errors. The sense of each line is well-attested across the cited editions and should match the downstream English faithfully. This draft curates the labor-frame (I:1–71) and the creation core (I:189–276); many intervening lines are not reconstructed here and are marked by editorial-selection gap notes.",
+    "license": "Transliteration is a best-effort reconstruction from the cited scholarly editions (Lambert & Millard 1969; George & Al-Rawi 1996; Foster 2005); not reproduced from any single copyrighted edition. All Wheel of Heaven English rendering is original to this project (CC0-1.0).",
+    "fetchedFrom": "scholarly editions (not openly digitized — see citations); eBL L.1.1 consulted as collation aid only",
+    "fetchedAt": "2026-07-02",
+    "citations": [
+      "Lambert, W. G., & Millard, A. R., Atra-ḫasīs: The Babylonian Story of the Flood (Oxford 1969) — the standard critical edition; line-numbering authority for this text.",
+      "George, A. R., & Al-Rawi, F. N. H., 'Tablets from the Sippar Library VI: Atra-ḫasīs,' Iraq 58 (1996), pp. 147–190 — the Old Babylonian Sippar witnesses.",
+      "Foster, B. R., Before the Muses: An Anthology of Akkadian Literature, 3rd ed. (Bethesda 2005), pp. 227–280 — the accessible English translation ('Atrahasis' / 'When the gods were man').",
+      "electronic Babylonian Library (eBL), corpus L.1.1, ebl.lmu.de/corpus/L/1/1 — consulted as a collation aid only (CC BY-NC; not reproduced).",
+      "Sources of Early Akkadian Literature (SEAL) — consulted as a collation aid only.",
+      "Kilmer, A. D., 'The Mesopotamian Concept of Overpopulation and Its Solution as Reflected in the Mythology,' Orientalia 41 (1972) — for the labor/overpopulation frame.",
+      "Bottéro, J., & Kramer, S. N., Lorsque les dieux faisaient l'homme (Paris 1989), pp. 526–564 — French edition and commentary."
+    ],
+    "fragmentationNote": "Atra-ḫasīs is a three-tablet Old Babylonian epic (c. 1700 BCE), best preserved in the copy of the scribe Ku-Aya / Ipiq-Aya (reign of Ammi-ṣaduqa). Tablet I runs to c. 416 lines in the Lambert–Millard 1969 edition and covers the primeval order of the gods, the corvée-labor of the Igigi, the night rebellion, the divine council, and the creation of humankind from clay mixed with the flesh and blood of a slaughtered god. This source file reconstructs the labor-frame (I:1–71) and the creation core (I:189–276) — the passages most on-thesis for the Wheel of Heaven program (humankind fashioned to bear the *dullu* / labor of the gods). Intervening spans not reconstructed here are flagged with editorial-selection gap notes in each segment. This is a MOAT TEXT: no usable public-domain English translation of Atra-ḫasīs exists, so the Wheel of Heaven program renders its own English from the Akkadian."
+  },
+  "segments": [
+    {
+      "id": "frame",
+      "label": "The frame — the gods bear the labor (Lambert–Millard I:1–6)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 1,
+          "refId": "ATRA-WOH-I:1",
+          "translit": "i-nu-ma i-lu a-wi-lum",
+          "cuneiform": null,
+          "notes": [
+            "The celebrated opening of the poem, from which the standard title *inūma ilū awīlum* is drawn. *awīlum* here is read by Lambert–Millard as a comparative — the gods themselves, before humankind, doing what men would later do. The syntax is disputed (see editorial questions)."
+          ]
+        },
+        {
+          "n": 2,
+          "refId": "ATRA-WOH-I:2",
+          "translit": "ub-lu du-ul-la iz-bi-lu šu-up-ši-[k]a",
+          "cuneiform": null,
+          "notes": [
+            "*dullu* 'labor/toil' (glossary), *šupšikku* 'earth-carrying / labor-basket' (the corvée-basket)."
+          ]
+        },
+        {
+          "n": 3,
+          "refId": "ATRA-WOH-I:3",
+          "translit": "šu-up-ši-ik i-li ra-bi-[m]a",
+          "cuneiform": null,
+          "notes": [
+            "*šupšik ilī* 'the toil-basket of the gods.'"
+          ]
+        },
+        {
+          "n": 4,
+          "refId": "ATRA-WOH-I:4",
+          "translit": "du-ul-lu-um ka-bi-it ma-a-ad ša-ap-ša-qum",
+          "cuneiform": null,
+          "notes": [
+            "*dullu kabit* 'the toil was heavy'; *šapšāqu* 'hardship, distress.'"
+          ]
+        },
+        {
+          "n": 5,
+          "refId": "ATRA-WOH-I:5",
+          "translit": "ra-bu-tum (d)a-nun-na-ku si-bi-it-tam",
+          "cuneiform": null,
+          "notes": [
+            "*sibittam* 'the Seven' — the seven great Anunnaki who assign the labor. *Anunnaku/Anunnaki* per glossary."
+          ]
+        },
+        {
+          "n": 6,
+          "refId": "ATRA-WOH-I:6",
+          "translit": "du-ul-lam ú-ša-az-ba-lu (d)i-gi-gi",
+          "cuneiform": null,
+          "notes": [
+            "The junior Igigi-gods bear the corvée for the senior Anunnaki — the frame that motivates the whole poem."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labor-organization",
+      "label": "The great gods divide the cosmos (Lambert–Millard I:7–16)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 7,
+          "refId": "ATRA-WOH-I:7",
+          "translit": "a-bu-šu-nu (d)a-nu-um šar-ru-um",
+          "cuneiform": null,
+          "notes": [
+            "Anu, sky-god, head of the pantheon."
+          ]
+        },
+        {
+          "n": 8,
+          "refId": "ATRA-WOH-I:8",
+          "translit": "ma-li-ik-šu-nu qú-ra-du (d)en-líl",
+          "cuneiform": null,
+          "notes": [
+            "Enlil, the executive power, lord of the earth."
+          ]
+        },
+        {
+          "n": 9,
+          "refId": "ATRA-WOH-I:9",
+          "translit": "gu-za-lá-šu-nu (d)nin-urta",
+          "cuneiform": null,
+          "notes": [
+            "*guzalû* 'throne-bearer / chamberlain.'"
+          ]
+        },
+        {
+          "n": 10,
+          "refId": "ATRA-WOH-I:10",
+          "translit": "ù ra-bi-iṣ-šu-nu (d)en-nu-gi",
+          "cuneiform": null,
+          "notes": [
+            "*rābiṣu* 'bailiff / sheriff'; Ennugi, canal-inspector of the underworld."
+          ]
+        },
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-I:11",
+          "translit": "iṣ-ṣa-ab-tu-ma is-qá i-du-ú i-lu",
+          "cuneiform": null,
+          "notes": [
+            "*isqu nadû* 'to cast the lot' — the gods divide the cosmos by lot."
+          ]
+        },
+        {
+          "n": 12,
+          "refId": "ATRA-WOH-I:12",
+          "translit": "iz-zu-uz-zu i-lu ra-bu-tum",
+          "cuneiform": null,
+          "notes": [
+            "Division of cosmic spheres among the great gods."
+          ]
+        },
+        {
+          "n": 13,
+          "refId": "ATRA-WOH-I:13",
+          "translit": "(d)a-nu-um i-li-ma a-na ša-me-e",
+          "cuneiform": null,
+          "notes": [
+            "Anu takes the sky."
+          ]
+        },
+        {
+          "n": 14,
+          "refId": "ATRA-WOH-I:14",
+          "translit": "[(d)en-líl] er-ṣe-tam a-na um-ma-ni-šu",
+          "cuneiform": null,
+          "notes": [
+            "Enlil takes the earth; restoration after Lambert–Millard."
+          ]
+        },
+        {
+          "n": 15,
+          "refId": "ATRA-WOH-I:15",
+          "translit": "ši-ga-ru mi-di-il ta-am-tim",
+          "cuneiform": null,
+          "notes": [
+            "The sea-lock is assigned to Enki (Ea)."
+          ]
+        },
+        {
+          "n": 16,
+          "refId": "ATRA-WOH-I:16",
+          "translit": "a-na (d)en-ki šar-ri id-di-nu",
+          "cuneiform": null,
+          "notes": [
+            "Enki (Ea) receives the Apsû, the subterranean fresh water."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digging-rivers-apsu",
+      "label": "The Igigi dig the Tigris, the Euphrates, and the Apsû (Lambert–Millard I:21–33, selective)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "Intervening lines I:17–20 (the descent of Enki to the Apsû, transition to the Igigi's toil) are not reconstructed in this draft.",
+        "i18n": {
+          "en": "[Editorial selection: lines I:17–20 are not reconstructed in this draft, which curates the labor-frame and the creation core.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 22,
+          "refId": "ATRA-WOH-I:22",
+          "translit": "ú-ḫe-ru-ú na-ra-am (i7)idiqlat",
+          "cuneiform": null,
+          "notes": [
+            "*ḫerû* 'to dig'; *nāru* 'river.' The Igigi excavate the great watercourses of Mesopotamia."
+          ]
+        },
+        {
+          "n": 23,
+          "refId": "ATRA-WOH-I:23",
+          "translit": "na-ra-am (i7)purattam ša-ni-tam",
+          "cuneiform": null,
+          "notes": [
+            "The Euphrates dug 'second' (ša-ni-tam)."
+          ]
+        },
+        {
+          "n": 24,
+          "refId": "ATRA-WOH-I:24",
+          "translit": "[i-na] na-aq-bi-im ú-pe-et-tu-ú bu-ú-ri",
+          "cuneiform": null,
+          "notes": [
+            "*naqbu* 'underground water-source, deep'; *būru* 'cistern / spring.'"
+          ]
+        },
+        {
+          "n": 25,
+          "refId": "ATRA-WOH-I:25",
+          "translit": "iš-ku-nu-ma ap-sa-a",
+          "cuneiform": null,
+          "notes": [
+            "*apsû* — the subterranean fresh-water abyss, Enki's domain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "years-and-rebellion",
+      "label": "The years of toil and the night rebellion (Lambert–Millard I:37–71, selective)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "Intervening lines I:26–36 (the counting of the years of toil) are compressed; the draft resumes at the tally of years and the grumbling.",
+        "i18n": {
+          "en": "[Editorial selection: lines I:26–36 are compressed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 37,
+          "refId": "ATRA-WOH-I:37",
+          "translit": "[X ME] ša-na-tim du-ul-la iz-bi-lu",
+          "cuneiform": null,
+          "notes": [
+            "The number of years is damaged and disputed — variously read as forty or 3600 (see editorial questions)."
+          ]
+        },
+        {
+          "n": 38,
+          "refId": "ATRA-WOH-I:38",
+          "translit": "mu-ša ù ur-ra",
+          "cuneiform": null,
+          "notes": [
+            "The toil is unremitting."
+          ]
+        },
+        {
+          "n": 39,
+          "refId": "ATRA-WOH-I:39",
+          "translit": "ú-ta-az-za-mu i-na ka-la-ak-ki",
+          "cuneiform": null,
+          "notes": [
+            "*nazāmu* 'to grumble, complain'; *kalakku* 'excavation, diggings.'"
+          ]
+        },
+        {
+          "n": 40,
+          "refId": "ATRA-WOH-I:40",
+          "translit": "na-ap-ḫa-ar-šu-nu a-wa-tam iš-ta-nu-ú",
+          "cuneiform": null,
+          "notes": [
+            "The Igigi collectively voice their grievance."
+          ]
+        },
+        {
+          "n": 60,
+          "refId": "ATRA-WOH-I:60",
+          "translit": "ka-lu-ni-ma i-lu ta-ḫa-za ni-iq-bi",
+          "cuneiform": null,
+          "notes": [
+            "The rebel resolve; *tāḫāzu* 'battle.' The Igigi determine to confront Enlil."
+          ]
+        },
+        {
+          "n": 65,
+          "refId": "ATRA-WOH-I:65",
+          "translit": "iš-ku-nu i-ša-tam a-na ú-na-ti-šu-nu",
+          "cuneiform": null,
+          "notes": [
+            "*išātu* 'fire'; *unūtu* 'equipment, tools.' The burning of the labor-implements."
+          ]
+        },
+        {
+          "n": 66,
+          "refId": "ATRA-WOH-I:66",
+          "translit": "al-li-šu-nu i-qú-lu i-na i-ša-tim",
+          "cuneiform": null,
+          "notes": [
+            "*allu* 'hoe / spade'; *qâlu* (Š) 'to set alight.'"
+          ]
+        },
+        {
+          "n": 67,
+          "refId": "ATRA-WOH-I:67",
+          "translit": "tu-up-ši-ka-ti-šu-nu i-qú-lu i-na i-ša-tim",
+          "cuneiform": null,
+          "notes": [
+            "The corvée-baskets themselves are burnt — the symbolic renunciation of the labor."
+          ]
+        },
+        {
+          "n": 68,
+          "refId": "ATRA-WOH-I:68",
+          "translit": "il-li-ku-nim-ma i-na mu-ši-im",
+          "cuneiform": null,
+          "notes": [
+            "The night march on Enlil's temple, the Ekur."
+          ]
+        },
+        {
+          "n": 69,
+          "refId": "ATRA-WOH-I:69",
+          "translit": "sa-ah-ru bāb (d)en-líl bi-tam",
+          "cuneiform": null,
+          "notes": [
+            "*saḫāru* 'to surround'; the Ekur, Enlil's temple at Nippur, is besieged."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "council",
+      "label": "The council of Anu, Enlil, and Enki (Lambert–Millard I:72–170, selective)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The council scene (Nusku rousing Enlil, Enlil's fright and tears, the summoning of Anu and Enki, the deadlock over the ringleader) is reconstructed only in outline here; many lines I:72–169 are not reproduced in this draft.",
+        "i18n": {
+          "en": "[Editorial selection: the council dialogue I:72–169 is given only in outline in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 72,
+          "refId": "ATRA-WOH-I:72",
+          "translit": "(d)nu-us-ku (d)en-líl be-el-šu di-ki-i",
+          "cuneiform": null,
+          "notes": [
+            "*Nusku*, Enlil's vizier; *dekû* 'to rouse.'"
+          ]
+        },
+        {
+          "n": 85,
+          "refId": "ATRA-WOH-I:85",
+          "translit": "(d)en-líl i-il-la-ku di-ma-a-šu",
+          "cuneiform": null,
+          "notes": [
+            "Enlil weeps in fright at the surrounded temple; *dimtu* 'tear.'"
+          ]
+        },
+        {
+          "n": 95,
+          "refId": "ATRA-WOH-I:95",
+          "translit": "(d)a-nu-um iš-tu ša-me-e ur-da-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Anu descends to the council; sequence approximate."
+          ]
+        },
+        {
+          "n": 100,
+          "refId": "ATRA-WOH-I:100",
+          "translit": "(d)en-ki ap-sa-am iš-te-en-ma",
+          "cuneiform": null,
+          "notes": [
+            "Enki (Ea) joins the divine assembly."
+          ]
+        },
+        {
+          "n": 150,
+          "refId": "ATRA-WOH-I:150",
+          "translit": "man-nu-um-ma ba-nu-ú qá-ab-li",
+          "cuneiform": null,
+          "notes": [
+            "The council interrogates the cause of the revolt; *bānû qabli* 'maker of the conflict.'"
+          ]
+        },
+        {
+          "n": 165,
+          "refId": "ATRA-WOH-I:165",
+          "translit": "gi-mi-ir-šu-nu-ma i-lu ú-ša-az-ba-lu ka-ap-du",
+          "cuneiform": null,
+          "notes": [
+            "The Igigi answer as one body: the toil itself, not a single ringleader, is intolerable. The deadlock that motivates Ea's proposal."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ea-plan-lullu",
+      "label": "Enki's plan — the creation of the lullû to bear the labor (Lambert–Millard I:189–199)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "Lines I:170–188 (the transition from the deadlock to Enki's address) are not reconstructed in this draft; the creation core resumes at Enki's proposal.",
+        "i18n": {
+          "en": "[Editorial selection: lines I:170–188 are not reconstructed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 189,
+          "refId": "ATRA-WOH-I:189",
+          "translit": "(d)en-ki pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction formula; Enki (Ea) addresses the assembly."
+          ]
+        },
+        {
+          "n": 190,
+          "refId": "ATRA-WOH-I:190",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "*izakkar ana ilī rabûtim* 'he spoke to the great gods.'"
+          ]
+        },
+        {
+          "n": 191,
+          "refId": "ATRA-WOH-I:191",
+          "translit": "e-li (d)be-le-et-ì-lí ša-as-su-ru i-ba-aš-ši-ma",
+          "cuneiform": null,
+          "notes": [
+            "*Bēlet-ilī* 'Mistress-of-the-gods,' the birth-goddess (epithet-cluster per glossary); *šassūru* 'womb, womb-goddess.'"
+          ]
+        },
+        {
+          "n": 192,
+          "refId": "ATRA-WOH-I:192",
+          "translit": "be-le-et-ì-lí li-ib-ni-ma lu-ul-la-a",
+          "cuneiform": null,
+          "notes": [
+            "*lullû* — the newly-fashioned primeval human (see editorial questions); *banû* 'to create, fashion.'"
+          ]
+        },
+        {
+          "n": 193,
+          "refId": "ATRA-WOH-I:193",
+          "translit": "lu-ú wa-bi-il ab-ša-nim šu-ú",
+          "cuneiform": null,
+          "notes": [
+            "*abšānu* 'yoke, harness' — the labor-yoke transferred to humankind."
+          ]
+        },
+        {
+          "n": 194,
+          "refId": "ATRA-WOH-I:194",
+          "translit": "ab-ša-nam li-bi-il ši-pí-ir (d)en-líl",
+          "cuneiform": null,
+          "notes": [
+            "*šipru* 'work, task'; the labor formerly borne by the Igigi."
+          ]
+        },
+        {
+          "n": 195,
+          "refId": "ATRA-WOH-I:195",
+          "translit": "a-wi-lum li-iš-ši du-ul-li i-li",
+          "cuneiform": null,
+          "notes": [
+            "*awīlum lišši dulli ilī* 'let man carry the toil of the gods' — the thesis-line of Mesopotamian anthropogony. *dullu* per glossary; *awīlum* flagged."
+          ]
+        },
+        {
+          "n": 196,
+          "refId": "ATRA-WOH-I:196",
+          "translit": "il-su-ú-ma i-la iš-ta-lu",
+          "cuneiform": null,
+          "notes": [
+            "The assembly calls the birth-goddess."
+          ]
+        },
+        {
+          "n": 197,
+          "refId": "ATRA-WOH-I:197",
+          "translit": "ša-as-su-ra be-le-et-ì-lí mu-ud-da-a",
+          "cuneiform": null,
+          "notes": [
+            "*mūdâ* 'the knowing/wise one.'"
+          ]
+        },
+        {
+          "n": 198,
+          "refId": "ATRA-WOH-I:198",
+          "translit": "at-ti-i-ma ša-as-su-ru ba-ni-a-at a-wi-lu-ti",
+          "cuneiform": null,
+          "notes": [
+            "*bāniat awīlūti* 'she who creates humankind'; *awīlūtu* 'humanity.'"
+          ]
+        },
+        {
+          "n": 199,
+          "refId": "ATRA-WOH-I:199",
+          "translit": "bi-ni-ma lu-ul-la-a li-bi-il ni-ra",
+          "cuneiform": null,
+          "notes": [
+            "*nīru* 'yoke' (synonym of *abšānu*); *lullû* flagged."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slaughter-of-we-ila",
+      "label": "The slaughter of Wê-ila and the mixing of flesh, blood, and clay (Lambert–Millard I:200–229)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 200,
+          "refId": "ATRA-WOH-I:200",
+          "translit": "(d)nin-tu pi-a-ša i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "*Nintu* (= Bēlet-ilī / Mami), the birth-goddess (epithet-cluster per glossary)."
+          ]
+        },
+        {
+          "n": 201,
+          "refId": "ATRA-WOH-I:201",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "n": 202,
+          "refId": "ATRA-WOH-I:202",
+          "translit": "it-ti-ia-ma la na-ṭu a-na e-pe-ši",
+          "cuneiform": null,
+          "notes": [
+            "*lā nāṭu* 'it is not fitting'; Nintu cannot act without Enki's purifying power."
+          ]
+        },
+        {
+          "n": 203,
+          "refId": "ATRA-WOH-I:203",
+          "translit": "it-ti (d)en-ki-ma i-ba-aš-ši ši-ip-rum",
+          "cuneiform": null,
+          "notes": [
+            "*šiprum* 'the work'; the craft is Enki's."
+          ]
+        },
+        {
+          "n": 204,
+          "refId": "ATRA-WOH-I:204",
+          "translit": "šu-ú-ma ú-el-la-al ka-la-ma",
+          "cuneiform": null,
+          "notes": [
+            "*elēlu* (D) 'to purify'; Enki's purification enables the creation."
+          ]
+        },
+        {
+          "n": 205,
+          "refId": "ATRA-WOH-I:205",
+          "translit": "ṭi-iṭ-ṭa li-id-di-nam-ma a-na-ku lu-pu-uš",
+          "cuneiform": null,
+          "notes": [
+            "*ṭiṭṭu* 'clay' (glossary, substance-cognate cluster); the raw material of humankind."
+          ]
+        },
+        {
+          "n": 206,
+          "refId": "ATRA-WOH-I:206",
+          "translit": "(d)en-ki pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "n": 207,
+          "refId": "ATRA-WOH-I:207",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "n": 208,
+          "refId": "ATRA-WOH-I:208",
+          "translit": "i-na wa-ar-ḫi-im u4-1-kam u4-7-kam ù u4-15-kam",
+          "cuneiform": null,
+          "notes": [
+            "The purification-days of the lunar month."
+          ]
+        },
+        {
+          "n": 209,
+          "refId": "ATRA-WOH-I:209",
+          "translit": "te-li-il-tam lu-pu-uš ri-im-ka",
+          "cuneiform": null,
+          "notes": [
+            "*tēliltu* 'purification'; *rimku* 'ablution-bath.'"
+          ]
+        },
+        {
+          "n": 210,
+          "refId": "ATRA-WOH-I:210",
+          "translit": "i-lu iš-te-en li-iṭ-ṭa-bi-iḫ",
+          "cuneiform": null,
+          "notes": [
+            "*ṭabāḫu* 'to slaughter (ritually).' A single god is put to death to supply the divine element in humanity."
+          ]
+        },
+        {
+          "n": 211,
+          "refId": "ATRA-WOH-I:211",
+          "translit": "li-te-el-li-lu i-lu i-na ṭe4-bi-ḫi-šu",
+          "cuneiform": null,
+          "notes": [
+            "*ṭebû/ṭabāḫu* — the gods purified through the slain god's immolation."
+          ]
+        },
+        {
+          "n": 212,
+          "refId": "ATRA-WOH-I:212",
+          "translit": "i-na ši-ir i-li ù da-mi",
+          "cuneiform": null,
+          "notes": [
+            "*šīru* 'flesh' + *damu* 'blood' — the divine substances (see editorial questions on the triad)."
+          ]
+        },
+        {
+          "n": 213,
+          "refId": "ATRA-WOH-I:213",
+          "translit": "(d)nin-tu li-ba-al-li-il ṭi-iṭ-ṭa",
+          "cuneiform": null,
+          "notes": [
+            "*balālu* 'to mix'; flesh and blood kneaded into *ṭiṭṭu* 'clay' (glossary)."
+          ]
+        },
+        {
+          "n": 214,
+          "refId": "ATRA-WOH-I:214",
+          "translit": "i-lu-um-ma ù a-wi-lum",
+          "cuneiform": null,
+          "notes": [
+            "*ilumma u awīlum* 'god and man together' — the compound nature of the human being. *awīlum* flagged."
+          ]
+        },
+        {
+          "n": 215,
+          "refId": "ATRA-WOH-I:215",
+          "translit": "li-ib-ta-al-li-lu i-na ṭi-iṭ-ṭi",
+          "cuneiform": null,
+          "notes": [
+            "The god and the human commingled in the clay-matrix."
+          ]
+        },
+        {
+          "n": 216,
+          "refId": "ATRA-WOH-I:216",
+          "translit": "a-na du-úr da-ar up-pa i ni-iš-me",
+          "cuneiform": null,
+          "notes": [
+            "*uppu* — variously 'drum,' or the heartbeat/pulse, or a token of the ghost's presence (see editorial questions)."
+          ]
+        },
+        {
+          "n": 217,
+          "refId": "ATRA-WOH-I:217",
+          "translit": "i-na ši-ir i-li e-ṭe-em-mu li-ib-ši",
+          "cuneiform": null,
+          "notes": [
+            "*eṭemmu* 'ghost, spirit' — the enduring divine element in the human (see editorial questions)."
+          ]
+        },
+        {
+          "n": 218,
+          "refId": "ATRA-WOH-I:218",
+          "translit": "ba-al-ṭa it-ta-šu li-še-di-šu",
+          "cuneiform": null,
+          "notes": [
+            "*balṭu* 'the living (one)'; *ittu* 'sign, token'; *(w)edû* (Š) 'to make known.'"
+          ]
+        },
+        {
+          "n": 219,
+          "refId": "ATRA-WOH-I:219",
+          "translit": "aš-šum la mu-uš-ši-i e-ṭe-em-mu li-ib-ši",
+          "cuneiform": null,
+          "notes": [
+            "*mušši* 'forgetting'; the *eṭemmu* is the guarantor of remembrance beyond death."
+          ]
+        },
+        {
+          "n": 220,
+          "refId": "ATRA-WOH-I:220",
+          "translit": "an-nu i-pu-lu i-na pu-uḫ-ri-šu-nu",
+          "cuneiform": null,
+          "notes": [
+            "*annu apālu* 'to answer yes, to assent'; *puḫru* 'assembly.'"
+          ]
+        },
+        {
+          "n": 221,
+          "refId": "ATRA-WOH-I:221",
+          "translit": "ra-bu-tum (d)a-nun-na mu-ši-mu ši-ma-tim",
+          "cuneiform": null,
+          "notes": [
+            "*mušīmū šīmātim* 'the fate-decreers' — the great gods; *Anunna(ki)* per glossary."
+          ]
+        },
+        {
+          "n": 222,
+          "refId": "ATRA-WOH-I:222",
+          "translit": "il-qú-ú-ma we-e i-la ša i-šu-ú ṭe4-e-ma",
+          "cuneiform": null,
+          "notes": [
+            "*Wê-ila* — the slaughtered god (reading contested); *ṭēmu* 'reason, intelligence, planning-capacity' (both flagged in editorial questions). The pun *Wê + ila + ṭēmu → awīlu + eṭemmu* is the etymological heart of the passage."
+          ]
+        },
+        {
+          "n": 223,
+          "refId": "ATRA-WOH-I:223",
+          "translit": "i-na pu-uḫ-ri-šu-nu iṭ-ṭa-ab-ḫu",
+          "cuneiform": null,
+          "notes": [
+            "The ritual killing of the god carried out."
+          ]
+        },
+        {
+          "n": 224,
+          "refId": "ATRA-WOH-I:224",
+          "translit": "i-na ši-ri-šu ù da-mi-šu",
+          "cuneiform": null,
+          "notes": [
+            "*šīru* + *damu* again — now the act, not the plan."
+          ]
+        },
+        {
+          "n": 225,
+          "refId": "ATRA-WOH-I:225",
+          "translit": "(d)nin-tu ú-ba-al-li-il ṭi-iṭ-ṭa",
+          "cuneiform": null,
+          "notes": [
+            "The birth-goddess kneads the divine flesh and blood into the clay."
+          ]
+        },
+        {
+          "n": 226,
+          "refId": "ATRA-WOH-I:226",
+          "translit": "[a-na] du-úr da-ar up-pa iš-mu-ú",
+          "cuneiform": null,
+          "notes": [
+            "Fulfilment of the wish at I:216; *uppu* crux (see editorial questions)."
+          ]
+        },
+        {
+          "n": 227,
+          "refId": "ATRA-WOH-I:227",
+          "translit": "i-na ši-ir i-li e-ṭe-em-mu i-ba-aš-ši",
+          "cuneiform": null,
+          "notes": [
+            "The *eṭemmu* now exists — the human being carries the ghost of the slain god."
+          ]
+        },
+        {
+          "n": 228,
+          "refId": "ATRA-WOH-I:228",
+          "translit": "ba-al-ṭa it-ta-šu ú-ad-di-šu",
+          "cuneiform": null,
+          "notes": [
+            "The ghost proclaims itself to the living."
+          ]
+        },
+        {
+          "n": 229,
+          "refId": "ATRA-WOH-I:229",
+          "translit": "aš-šum la mu-uš-ši-i e-ṭe-em-mu i-ba-aš-ši",
+          "cuneiform": null,
+          "notes": [
+            "Closure of the eṭemmu-etiology."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mixing-and-birth-goddesses",
+      "label": "The Igigi spit on the clay; Mami's speech (Lambert–Millard I:230–248)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 230,
+          "refId": "ATRA-WOH-I:230",
+          "translit": "iš-tu-ma ib-lu-lu ṭi-iṭ-ṭa ša-a-ti",
+          "cuneiform": null,
+          "notes": [
+            "*ištu balālu ṭiṭṭa* 'once she had blended the clay.'"
+          ]
+        },
+        {
+          "n": 231,
+          "refId": "ATRA-WOH-I:231",
+          "translit": "is-si-ma (d)a-nun-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "The great gods called to witness."
+          ]
+        },
+        {
+          "n": 232,
+          "refId": "ATRA-WOH-I:232",
+          "translit": "(d)i-gi-gu i-lu ra-bu-tum",
+          "cuneiform": null,
+          "notes": [
+            "The junior gods now participate in the creation."
+          ]
+        },
+        {
+          "n": 233,
+          "refId": "ATRA-WOH-I:233",
+          "translit": "ru-ʾu-ti-ša im-ta-al-lu-ú ṭi-iṭ-ṭa",
+          "cuneiform": null,
+          "notes": [
+            "*ruʾtu* 'spittle'; *malû* 'to fill, cover.' The Igigi's saliva animates or ratifies the clay."
+          ]
+        },
+        {
+          "n": 234,
+          "refId": "ATRA-WOH-I:234",
+          "translit": "(d)ma-mi pi-a-ša i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "*Mami* — another epithet of the birth-goddess (glossary cluster)."
+          ]
+        },
+        {
+          "n": 235,
+          "refId": "ATRA-WOH-I:235",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "n": 236,
+          "refId": "ATRA-WOH-I:236",
+          "translit": "ši-ip-ra ta-aq-bi-a-nim-ma",
+          "cuneiform": null,
+          "notes": [
+            "*šipru* 'work, commission.'"
+          ]
+        },
+        {
+          "n": 237,
+          "refId": "ATRA-WOH-I:237",
+          "translit": "ú-ša-ak-li-il",
+          "cuneiform": null,
+          "notes": [
+            "*šuklulu* 'to bring to completion.'"
+          ]
+        },
+        {
+          "n": 238,
+          "refId": "ATRA-WOH-I:238",
+          "translit": "i-la ta-aṭ-bu-ḫa qá-du ṭe4-mi-šu",
+          "cuneiform": null,
+          "notes": [
+            "*qadu ṭēmišu* 'along with his intelligence' — the divine reason enters humanity; *ṭēmu* flagged."
+          ]
+        },
+        {
+          "n": 239,
+          "refId": "ATRA-WOH-I:239",
+          "translit": "du-ul-la-ku-nu ka-ab-tam ú-ša-as-si-ik",
+          "cuneiform": null,
+          "notes": [
+            "*dullu kabtu* 'the heavy toil'; *nasāku* (Š) 'to take away.' The relief of the gods accomplished."
+          ]
+        },
+        {
+          "n": 240,
+          "refId": "ATRA-WOH-I:240",
+          "translit": "tu-up-ši-ik-ka-ku-nu a-wi-lam e-mi-id",
+          "cuneiform": null,
+          "notes": [
+            "*tupšikku* 'labor-basket'; *emēdu* 'to impose.' The corvée transferred to humankind; *awīlu* flagged."
+          ]
+        },
+        {
+          "n": 241,
+          "refId": "ATRA-WOH-I:241",
+          "translit": "ta-ad-di-a ri-ig-ma a-na a-wi-lu-ti",
+          "cuneiform": null,
+          "notes": [
+            "*rigmu* 'noise, clamor' — the human din that will later provoke the flood; *awīlūtu* 'humankind.'"
+          ]
+        },
+        {
+          "n": 242,
+          "refId": "ATRA-WOH-I:242",
+          "translit": "ap-ṭú-ur ab-ša-nam aš-ku-un ú-ru-tam",
+          "cuneiform": null,
+          "notes": [
+            "*paṭāru* 'to loosen'; *abšānu* 'yoke'; *urûtu* uncertain — 'freedom' or 'the (birthing-)stool' (reading disputed)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fourteen-pieces",
+      "label": "The fourteen pieces of clay — seven male, seven female (Lambert–Millard I:249–276, selective)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 249,
+          "refId": "ATRA-WOH-I:249",
+          "translit": "iš-mu-ú an-ni-a-am qá-ba-ša",
+          "cuneiform": null,
+          "notes": [
+            "The gods respond to Mami's declaration."
+          ]
+        },
+        {
+          "n": 250,
+          "refId": "ATRA-WOH-I:250",
+          "translit": "i-lu i-na-ši-qú še-pi-ša",
+          "cuneiform": null,
+          "notes": [
+            "*našāqu šēpī* 'to kiss the feet' — homage to the birth-goddess."
+          ]
+        },
+        {
+          "n": 251,
+          "refId": "ATRA-WOH-I:251",
+          "translit": "pa-na-nu-um (d)ma-mi ni-iq-bi-ki",
+          "cuneiform": null,
+          "notes": [
+            "The renaming of the goddess in honor of her deed."
+          ]
+        },
+        {
+          "n": 252,
+          "refId": "ATRA-WOH-I:252",
+          "translit": "i-na-an-na be-le-et ka-la i-li lu šu-um-ki",
+          "cuneiform": null,
+          "notes": [
+            "*Bēlet-kala-ilī* 'Mistress-of-all-the-gods' — the new honorific."
+          ]
+        },
+        {
+          "n": 253,
+          "refId": "ATRA-WOH-I:253",
+          "translit": "i-ru-bu-ma a-na bi-it ši-im-tim",
+          "cuneiform": null,
+          "notes": [
+            "*bīt šīmti* 'house of fate' — the birthing chamber where destinies are fixed."
+          ]
+        },
+        {
+          "n": 254,
+          "refId": "ATRA-WOH-I:254",
+          "translit": "(d)en-ki-ma ù ša-as-su-ru mu-ud-da-a",
+          "cuneiform": null,
+          "notes": [
+            "Enki and Nintu together conduct the creation."
+          ]
+        },
+        {
+          "n": 255,
+          "refId": "ATRA-WOH-I:255",
+          "translit": "ša-as-su-ra-tum pa-aḫ-ra-ma",
+          "cuneiform": null,
+          "notes": [
+            "*šassūrātu* — the birth-goddesses in the plural, the assisting midwives."
+          ]
+        },
+        {
+          "n": 256,
+          "refId": "ATRA-WOH-I:256",
+          "translit": "i-na maḫ-ri-ša i-ka-ab-ba-as ṭi-iṭ-ṭa",
+          "cuneiform": null,
+          "notes": [
+            "*kabāsu* 'to tread, knead'; Enki treads the clay before Nintu."
+          ]
+        },
+        {
+          "n": 257,
+          "refId": "ATRA-WOH-I:257",
+          "translit": "ši-pa-tam iš-ta-na-si",
+          "cuneiform": null,
+          "notes": [
+            "*šiptu* 'incantation'; the spell that accompanies the fashioning."
+          ]
+        },
+        {
+          "n": 258,
+          "refId": "ATRA-WOH-I:258",
+          "translit": "(d)en-ki wa-ši-ib maḫ-ri-ša ú-ša-ad-ba-ab-ši",
+          "cuneiform": null,
+          "notes": [
+            "Enki dictates the incantation to Nintu; *šudbubu* 'to cause to recite.'"
+          ]
+        },
+        {
+          "n": 259,
+          "refId": "ATRA-WOH-I:259",
+          "translit": "iš-tu-ma ug-da-am-me-ru ši-pa-as-sà",
+          "cuneiform": null,
+          "notes": [
+            "*gamāru* 'to complete.'"
+          ]
+        },
+        {
+          "n": 260,
+          "refId": "ATRA-WOH-I:260",
+          "translit": "14 ki-iṣ-ri ik-ta-ri-iṣ",
+          "cuneiform": null,
+          "notes": [
+            "*karāṣu* 'to pinch off'; *kiṣru* 'lump, piece.' The fourteen portions of the clay."
+          ]
+        },
+        {
+          "n": 261,
+          "refId": "ATRA-WOH-I:261",
+          "translit": "7 ki-iṣ-ri a-na i-mi-tim",
+          "cuneiform": null,
+          "notes": [
+            "*imittu* 'right side' — the male portions."
+          ]
+        },
+        {
+          "n": 262,
+          "refId": "ATRA-WOH-I:262",
+          "translit": "7 ki-iṣ-ri a-na šu-me-lim",
+          "cuneiform": null,
+          "notes": [
+            "*šumēlu* 'left side' — the female portions."
+          ]
+        },
+        {
+          "n": 263,
+          "refId": "ATRA-WOH-I:263",
+          "translit": "bi-ri-šu-nu iš-ta-ka-an li-bi-it-tam",
+          "cuneiform": null,
+          "notes": [
+            "*libittu* — the birth-brick on which the mother squats; here the divider between male and female lumps."
+          ]
+        },
+        {
+          "n": 265,
+          "refId": "ATRA-WOH-I:265",
+          "translit": "pu-uḫ-ru ša-as-su-ra-tum",
+          "cuneiform": null,
+          "notes": [
+            "The seven-and-seven midwife-goddesses."
+          ]
+        },
+        {
+          "n": 267,
+          "refId": "ATRA-WOH-I:267",
+          "translit": "7 ù 7 ú-ba-an-ni-a: 7 zi-ka-ri",
+          "cuneiform": null,
+          "notes": [
+            "*banû* 'to fashion'; *zikaru* 'male.'"
+          ]
+        },
+        {
+          "n": 268,
+          "refId": "ATRA-WOH-I:268",
+          "translit": "7 ú-ba-an-ni-a si-in-ni-ša-tim",
+          "cuneiform": null,
+          "notes": [
+            "*sinništu* 'female.' The primal seven pairs of humankind."
+          ]
+        },
+        {
+          "n": 269,
+          "refId": "ATRA-WOH-I:269",
+          "translit": "ša-as-su-ru ba-ni-a-at ši-im-tim",
+          "cuneiform": null,
+          "notes": [
+            "*bāniat šīmti* 'she who creates fate.'"
+          ]
+        },
+        {
+          "n": 270,
+          "refId": "ATRA-WOH-I:270",
+          "translit": "ši-na ši-na ú-ga-am-mi-ir-ši-na-ti",
+          "cuneiform": null,
+          "notes": [
+            "The pairs finished off in couples."
+          ]
+        },
+        {
+          "n": 271,
+          "refId": "ATRA-WOH-I:271",
+          "translit": "ú-ṣu-ra-at ni-ši (d)ma-mi ú-ṣur",
+          "cuneiform": null,
+          "notes": [
+            "*uṣurāt nišī* 'the designs/forms of the people'; *eṣēru* 'to draw, design.' Humankind patterned by the birth-goddess."
+          ]
+        }
+      ]
+    }
+  ]
+}

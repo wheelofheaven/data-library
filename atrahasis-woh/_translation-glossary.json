@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 2,
+  "version": "1.0.0",
+  "scope": "atrahasis-woh",
+  "description": "Per-translation overlay glossary for Atra-ḫasīs, Tablet I (the project's second Akkadian-source text, after Adapa). Houses composition-specific anthropogonic vocabulary and philological cruxes: the *lullû* primeval-human keyword; the *inūma ilū awīlum* frame-crux (comparative vs identity, with the lens-discipline non-selection of the identity reading recorded); the *eṭemmu* ghost/spirit divine-element (flagged for future central promotion); the Wê-ila / *ṭēmu* double-pun (the anthropogonic heart); the *šīru/damu/ṭiṭṭu* flesh/blood/clay triad (flagged as a CENTRAL-GLOSSARY candidate, cross-corpus to Hebrew *bāśār/dām/ʿāfār–ḥōmer* → Gen 2:7, deferred to the separate central-glossary Python step); and the four minor cruxes *uppu* (drum/heartbeat/ghost-token), *urûtam* (freedom/birth-stool), and *ruʾtu* (spittle). Cross-corpus foundational vocabulary already carried by central entries (*dullu*, *ṭiṭṭu*/clay, DINGIR-prefix-prose-drop, Anunnaki/Igigi, corvée-basket, birth-goddess cluster, lacuna-bracket) is referenced by id in the chapter glossaryRefs and flagged in the Editor report for Akkadian-side appliesTo activation in the separate central step; NOT touched here.",
+  "sourceLanguages": [
+    "akk"
+  ],
+  "entries": [
+    {
+      "id": "title-and-meta-conventions-atrahasis",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "strongs": null,
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: chapter-title and meta-conventions for the Atra-ḫasīs overlay",
+      "literal": "(not applicable — meta)",
+      "standardEnglish": "(not applicable — meta)",
+      "wohChoice": "chapter-title 'Atra-ḫasīs, Tablet I — When the gods, like man: the labor of the Igigi and the creation of humankind from clay and a slain god's flesh' — short canonical name + descriptive subtitle naming the labor-frame and the creation core; follows the Flood Story / Adapa descriptive long-form title precedent.",
+      "claim_type": "direct",
+      "rationale": "Chapter-title convention for Atra-ḫasīs follows the Mesopotamian-arc precedent (Flood Story, Adapa): the canonical composition-name plus a descriptive subtitle that names the two curated spans — the corvée-labor frame (the Igigi bearing the *dullu* of the senior gods) and the anthropogonic core (humankind fashioned from clay mixed with a slain god's flesh and blood). The subtitle opens with the celebrated title-line *inūma ilū awīlum* to situate the composition in its own incipit-tradition. No new project-wide convention is introduced; the title is descriptive and lens-free — it names what the text narrates, not what the Wheel of Heaven program reads into it.",
+      "appliesTo": [
+        "ATRA-WOH-I:1"
+      ]
+    },
+    {
+      "id": "verification-pending-disclosure-atrahasis-akkadian",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "strongs": null,
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: source-text verification-status disclosure for the Atra-ḫasīs overlay",
+      "literal": "(not applicable — meta)",
+      "standardEnglish": "(not applicable — meta)",
+      "wohChoice": "best-effort reconstruction; sign-by-sign transliteration pending collation against Lambert–Millard 1969 (the critical edition and line-numbering authority) and eBL L.1.1. Per-line sign values may contain reconstruction errors; sense-of-line is well-attested across the cited editions (Lambert–Millard 1969; George & Al-Rawi 1996; Foster 2005) and reflects scholarly consensus.",
+      "claim_type": "direct",
+      "rationale": "Atra-ḫasīs is a MOAT TEXT: no usable public-domain English translation exists, so the Wheel of Heaven program renders its own English from a best-effort Akkadian reconstruction. The source file's `verificationStatus` — *best-effort-reconstruction-pending-verification; sign-by-sign transliteration pending collation against Lambert–Millard 1969 and eBL L.1.1* — is preserved unchanged by the Editor in both the source file and the chapter `translation.verificationStatus` field. The Editor's lens-discipline and glossary work operates on the **sense-of-line** (well-attested across the cited editions), which is independent of the sign-level transliteration verification; the two pipelines converge at the Reviewer pass. This draft curates the labor-frame (I:1–71) and the creation core (I:189–276); intervening spans are flagged with editorial-selection gap notes and are not reconstructed here. A downstream collation-pass against Lambert–Millard 1969 and eBL L.1.1 is requested for sign-level verification.",
+      "appliesTo": [
+        "ATRA-WOH-I:1"
+      ]
+    },
+    {
+      "id": "lullu-primeval-human-anthropogonic-keyword-atrahasis",
+      "source": "lu-ul-la-a (li-ib-ni-ma lu-ul-la-a; bi-ni-ma lu-ul-la-a)",
+      "translit": "lullû / lullâ",
+      "strongs": "CAD L 242–243 s.v. lullû; AHw 561 s.v. lullû ('Urmensch')",
+      "lemma": "lullû",
+      "partOfSpeech": "Akkadian noun — the primeval/first human as a fashioned creature",
+      "literal": "the primeval one / the first(-fashioned) man",
+      "standardEnglish": "man (Lambert–Millard 1969); 'a mortal' / 'human' (Foster 2005); 'primitive / savage man' (CAD L 242)",
+      "wohChoice": "retain *lullû* transliterated, glossed 'primeval human' on first occurrence (I:192)",
+      "claim_type": "direct",
+      "rationale": "CAD L 242 and AHw 561 attest *lullû* as the primeval/first man specifically as a fashioned creature (AHw 'Urmensch'); the term recurs at Enūma Eliš VI:6 (*lullâ lū amēlu* 'let a lullû-man be'), the Babylonian creation-of-man line. Retaining the word untranslated with a neutral gloss avoids over-committing between Lambert–Millard's flat 'man,' CAD's 'primitive/savage man,' and Foster's 'mortal' — none of which is consensus — while preserving the technical anthropogonic keyword for the reader's audit. Cross-corpus to Sumerian *lu2-u18-lu* and thematically to Hebrew *ʾādām*. No lens is carried: 'primeval human' is the neutral philological value the three renderings share, not an engineered-being reading.",
+      "appliesTo": [
+        "ATRA-WOH-I:192",
+        "ATRA-WOH-I:199"
+      ]
+    },
+    {
+      "id": "inuma-ilu-awilum-frame-crux-atrahasis",
+      "source": "i-nu-ma i-lu a-wi-lum",
+      "translit": "inūma ilū awīlum",
+      "strongs": "CAD A/2 48–57 s.v. awīlu; Lambert–Millard 1969, 42–43, 146–150; Foster 2005, 227",
+      "lemma": "awīlu (with inūma, ilu)",
+      "partOfSpeech": "Akkadian nominal clause — the title-line of the poem",
+      "literal": "When the gods (were / like) man",
+      "standardEnglish": "When the gods like man (Lambert–Millard 1969, comparative); 'When the gods were man' (Foster 2005, identity title-rendering)",
+      "wohChoice": "'When the gods, like man,' — the Lambert–Millard comparative reading retained as the critical-edition baseline; the identity reading documented, not adopted",
+      "claim_type": "direct",
+      "rationale": "The syntax of *awīlum* in the incipit is genuinely disputed: (a) comparative/predicative '(as/like) man' (Lambert–Millard 1969; von Soden) — the gods themselves did man's-work before humankind existed; (b) identity 'the gods were man,' i.e. the gods were then the labor-force (Foster's title-rendering 'When the gods were man'); (c) *awīlum* as the start of the labor-clause. The Editor retains (a), the critical-edition baseline, as the most cautious reading and the one matching the line-numbering authority. **Explicit lens-discipline record:** reading (b) is the more Wheel-of-Heaven-congenial rendering (the gods as a mundane, physically-laboring population), but the accuracy-above-lens rule forbids selecting a reading because it flatters the lens; both are defensible and the sense is close either way (the gods bore the labor before humans). The identity reading is documented in commentary, not imported into the text.",
+      "appliesTo": [
+        "ATRA-WOH-I:1"
+      ]
+    },
+    {
+      "id": "etemmu-ghost-spirit-divine-element-in-humankind-atrahasis",
+      "source": "e-ṭe-em-mu (i-na ši-ir i-li e-ṭe-em-mu li-ib-ši)",
+      "translit": "eṭemmu",
+      "strongs": "CAD E 397–401 s.v. eṭemmu; AHw 263 s.v. eṭemmu ('Totengeist')",
+      "lemma": "eṭemmu",
+      "partOfSpeech": "Akkadian noun — the ghost/spirit of the dead; here the divine element persisting in humankind",
+      "literal": "ghost, spirit of the dead",
+      "standardEnglish": "ghost (Lambert–Millard 1969); spirit / ghost (Foster 2005)",
+      "wohChoice": "'a spirit (eṭemmu)' — retain the technical term with the gloss 'spirit'; 'ghost' noted as the Lambert–Millard baseline",
+      "claim_type": "direct",
+      "rationale": "CAD E 397 and AHw 263 define *eṭemmu* as the ghost/spirit of a dead person — specifically the ancestral ghost sustained by *kispu* funerary offerings, not a generic 'soul.' In Atra-ḫasīs the *eṭemmu* is the enduring DIVINE element left in humankind from the slain god's flesh (I:217, 227): the human being is part-clay, part-divine, and the divine part is precisely the *eṭemmu*. The rendering also anchors the etymological pun *ṭēmu → eṭemmu* (I:222), whereby the slain god's 'intelligence' (*ṭēmu*) becomes the human 'ghost' (*eṭemmu*) — see `we-ila-temu-anthropogonic-pun-atrahasis`. Retaining the transliterated term with the neutral gloss 'spirit' preserves the pun and the technical sense; 'ghost' is the critical-edition baseline. **Flagged as a future central-promotion candidate:** the *eṭemmu* recurs across the Akkadian corpus (Gilgamesh XII, the *kispu* texts, the Descent of Ištar) and is cross-corpus to Hebrew *ruaḥ* / *nefeš* and Eccl 12:7 ('the spirit returns to God who gave it'); promotion is deferred to a future Editor pass, not committed here.",
+      "appliesTo": [
+        "ATRA-WOH-I:217",
+        "ATRA-WOH-I:219",
+        "ATRA-WOH-I:227",
+        "ATRA-WOH-I:229"
+      ]
+    },
+    {
+      "id": "we-ila-temu-anthropogonic-pun-atrahasis",
+      "source": "we-e i-la ša i-šu-ú ṭe4-e-ma",
+      "translit": "Wê-ila ša īšû ṭēma",
+      "strongs": "CAD Ṭ 85–98 s.v. ṭēmu; Lambert–Millard 1969, 56–59, 153; Moran 1970; Abusch 1998",
+      "lemma": "Wê-ila (PN); ṭēmu",
+      "partOfSpeech": "Akkadian proper name + noun — the slaughtered god and his 'intelligence'",
+      "literal": "Wê-ila, who had intelligence / reason",
+      "standardEnglish": "Wê-ila who had intelligence (Lambert–Millard 1969); the god who had sense / rationality (Foster 2005)",
+      "wohChoice": "'Wê-ila, who had ṭēmu (intelligence)' — retain the name and retain *ṭēmu* with gloss; the double pun surfaced in commentary",
+      "claim_type": "direct",
+      "rationale": "This is the etymological heart of Mesopotamian anthropogony. (1) The slain god's NAME: OB *we-e i-la* is read variously Wê-ila / Wê-e / Aw-ila / Ilawēla / (later Geštu-e); the Editor follows Lambert–Millard's Wê-ila, the reading that carries the double pun. (2) *ṭēmu* (CAD Ṭ 85) — 'intelligence, reason, planning-capacity, mind' — is the divine faculty the slaughtered god contributes to humankind (explicit again at I:238, *qadu ṭēmišu* 'together with his ṭēmu'). The passage turns on TWO puns, standard since Lambert–Millard and analysed by Moran (1970) and Abusch (1998): *Wê + ila → awīlu* 'man,' and *ṭēmu → eṭemmu* 'ghost.' Thus the human (*awīlu*) is named from the god (Wê-ila) and the human ghost (*eṭemmu*) from the god's intelligence (*ṭēmu*) — the being and the spirit of humankind both etymologically derived from the slain god. **Explicit lens-discipline note:** *ṭēmu* is rendered 'intelligence/reason' plainly; the lens-temptation to read it as an engineered or downloaded cognitive faculty is declined — the text says the god's reason enters humanity, and the rendering says exactly that, no more.",
+      "appliesTo": [
+        "ATRA-WOH-I:222",
+        "ATRA-WOH-I:238"
+      ]
+    },
+    {
+      "id": "siru-damu-tiddu-anthropogonic-triad-atrahasis",
+      "source": "i-na ši-ir i-li ù da-mi … (d)nin-tu li-ba-al-li-il ṭi-iṭ-ṭa",
+      "translit": "šīr ili u dami; ṭiṭṭa liballil",
+      "strongs": "CAD Š/3 113–121 s.v. šīru; CAD D 75–80 s.v. damu; CAD Ṭ 106–110 s.v. ṭīṭu; AHw 1248 / 158 / 1393",
+      "lemma": "šīru; damu; ṭiṭṭu (ṭīdu)",
+      "partOfSpeech": "Akkadian noun-triad — the substances of human creation (flesh, blood, clay)",
+      "literal": "the flesh (šīru) and blood (damu) of the god, mixed into the clay (ṭiṭṭu)",
+      "standardEnglish": "flesh, blood, and clay — uniform across editions (Lambert–Millard 1969; Foster 2005; Bottéro–Kramer 1989)",
+      "wohChoice": "render flesh / blood / clay plainly; read the three as a unified anthropogonic creation-vocabulary triad, cross-corpus to Hebrew *bāśār* / *dām* / *ʿāfār*–*ḥōmer*",
+      "claim_type": "inferred",
+      "rationale": "The individual glosses are uncontested and *ṭiṭṭu* 'clay' already has central coverage (`im-sumerian-clay-of-human-creation-cross-corpus`); what THIS entry asserts is the TRIAD as a single anthropogonic creation-vocabulary cluster. *šīru* 'flesh' (CAD Š/3 113) + *damu* 'blood' (CAD D 75) are the two DIVINE substances kneaded into the clay (I:212–215, 224–225): humankind is clay animated by a god's flesh and blood. Comparative scholarship (Kilmer 1972; Moran 1970; Batto 1992; Clifford 1994) treats the 'blood of a slain god' anthropogony as the defining Mesopotamian creation-motif, set against the Genesis 2:7 pattern where the human is *ʿāfār min hā-ʾădāmâ* 'dust from the ground' animated by *nišmat ḥayyîm* 'the breath of life' — clay/dust shared, but Genesis has NO slain deity and NO blood (a contrast, not an identity). The labor-purpose here also stands against Genesis 1:26–27, where humankind is made in the divine *ṣelem/dĕmût* to rule, not to serve — the 'labor-vs-image' contrast (Middleton 2005; Clifford 1994). **CENTRAL-GLOSSARY CANDIDATE:** this triad should be promoted to a dedicated central entry wiring Akkadian *šīru/damu/ṭiṭṭu* ↔ Hebrew *bāśār/dām/ʿāfār–ḥōmer* → Genesis 2:7, to be handled in the separate central-glossary (Python) step — deliberately NOT committed to the ~4 MB central file in this pass. claim_type `inferred` because the entry's distinctive claim is the cross-corpus cluster-identification (a named-scholarship comparative reading), not the plain glosses (which are direct facts).",
+      "appliesTo": [
+        "ATRA-WOH-I:212",
+        "ATRA-WOH-I:213",
+        "ATRA-WOH-I:214",
+        "ATRA-WOH-I:215",
+        "ATRA-WOH-I:224",
+        "ATRA-WOH-I:225"
+      ]
+    },
+    {
+      "id": "uppu-drum-heartbeat-ghost-crux-atrahasis",
+      "source": "a-na du-úr da-ar up-pa i ni-iš-me",
+      "translit": "ana dūr dāri uppa i nišme",
+      "strongs": "CAD U/W 181–182 s.v. uppu; Abusch 1998 ('Ghost and God'); Lambert–Millard 1969, 153",
+      "lemma": "uppu",
+      "partOfSpeech": "Akkadian noun — 'drum'(?); classic crux",
+      "literal": "the drum(?) / the throb",
+      "standardEnglish": "the drum (Lambert–Millard 1969)",
+      "wohChoice": "'the drum(?)' — Lambert–Millard baseline, marked uncertain; the heartbeat/pulse and ghost-token readings documented",
+      "claim_type": "direct",
+      "rationale": "*uppu* in *ana dūr dāri uppa i nišme* 'for all time let us hear the *uppu*' is a classic crux with three readings: (a) 'drum' (Lambert–Millard 1969), a cultic instrument; (b) the heartbeat/pulse — the throb that marks life; (c) a token/sign of the ghost's continued presence. Abusch (1998, 'Ghost and God') ties *uppu* to the *eṭemmu* and the *ittu* 'sign' of the following line (I:218): the throb the living 'hear' is the drum-beat of the indwelling ghost — the sign that the human carries the slain god's spirit. The Editor retains the Lambert–Millard 'drum(?)' in the text (marked uncertain, as the draft has it) and documents the heartbeat and ghost-token readings in commentary; the choice is not adjudicated and no translation change is made.",
+      "appliesTo": [
+        "ATRA-WOH-I:216",
+        "ATRA-WOH-I:226"
+      ]
+    },
+    {
+      "id": "urutam-freedom-birth-stool-crux-atrahasis",
+      "source": "ap-ṭú-ur ab-ša-nam aš-ku-un ú-ru-tam",
+      "translit": "apṭur abšānam aškun urûtam",
+      "strongs": "CAD U/W 265 s.v. urû; AHw 1435; Lambert–Millard 1969, 62–63",
+      "lemma": "urûtu",
+      "partOfSpeech": "Akkadian noun — 'freedom'(?) / 'birth-stool'(?); crux",
+      "literal": "freedom / release (?) — or the birth-stool",
+      "standardEnglish": "freedom(?) (Lambert–Millard 1969, tentative)",
+      "wohChoice": "'freedom(?)' — retained with the birth-stool alternative noted",
+      "claim_type": "direct",
+      "rationale": "In *apṭur abšānam aškun urûtam* 'I have loosed the yoke, I have established *urûtam*,' the noun is disputed: (a) 'freedom/release,' giving the antithetical parallelism loosed-yoke // established-freedom (Lambert–Millard 1969, marked tentative); (b) 'the birth-stool,' the physical *urû* of childbirth (AHw 1435), which fits the surrounding birth-goddess context and the fourteen-pieces / birth-brick material that immediately follows. The Editor retains 'freedom(?)' as primary on the parallelism argument, marked uncertain, and notes the birth-stool reading in commentary. No adjudication; verification-pending flagged.",
+      "appliesTo": [
+        "ATRA-WOH-I:242"
+      ]
+    },
+    {
+      "id": "rutu-spittle-igigi-clay-ratification-atrahasis",
+      "source": "ru-ʾu-ti-ša im-ta-al-lu-ú ṭi-iṭ-ṭa",
+      "translit": "ruʾtīša imtallû ṭiṭṭa",
+      "strongs": "CAD R 435–437 s.v. ruʾtu; AHw 999",
+      "lemma": "ruʾtu",
+      "partOfSpeech": "Akkadian noun — 'spittle, saliva'",
+      "literal": "with their spittle they filled / covered the clay",
+      "standardEnglish": "spat upon the clay (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "'spat upon the clay' — the plain, standard rendering; the interpretive question of the act's function reserved for commentary",
+      "claim_type": "direct",
+      "rationale": "*ruʾtu* 'spittle' (CAD R 435) is uncontested; the Igigi 'spat upon the clay' (I:233). What is interpretively open is the act's FUNCTION: (a) animation of the clay; (b) ritual ratification / collective assent to the creation (the Igigi endorse it corporately); (c) contribution of a further divine bodily-substance — so that ALL the Igigi, not only the one slain god, add themselves to humankind (alongside the flesh and blood). The Editor keeps the plain rendering and reserves the interpretive options for commentary; no reading is imported into the text. **Explicit lens-discipline note:** the 'spittle as animating agent' reading is declined in the surface text — the line says the gods spat on the clay, and the rendering says exactly that.",
+      "appliesTo": [
+        "ATRA-WOH-I:233"
+      ]
+    }
+  ]
+}
