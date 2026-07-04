@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scope": "atrahasis-woh",
-  "description": "Per-translation overlay glossary for Atra-ḫasīs, Tablet I (the project's second Akkadian-source text, after Adapa). Houses composition-specific anthropogonic vocabulary and philological cruxes: the *lullû* primeval-human keyword; the *inūma ilū awīlum* frame-crux (comparative vs identity, with the lens-discipline non-selection of the identity reading recorded); the *eṭemmu* ghost/spirit divine-element (flagged for future central promotion); the Wê-ila / *ṭēmu* double-pun (the anthropogonic heart); the *šīru/damu/ṭiṭṭu* flesh/blood/clay triad (flagged as a CENTRAL-GLOSSARY candidate, cross-corpus to Hebrew *bāśār/dām/ʿāfār–ḥōmer* → Gen 2:7, deferred to the separate central-glossary Python step); and the four minor cruxes *uppu* (drum/heartbeat/ghost-token), *urûtam* (freedom/birth-stool), and *ruʾtu* (spittle). Cross-corpus foundational vocabulary already carried by central entries (*dullu*, *ṭiṭṭu*/clay, DINGIR-prefix-prose-drop, Anunnaki/Igigi, corvée-basket, birth-goddess cluster, lacuna-bracket) is referenced by id in the chapter glossaryRefs and flagged in the Editor report for Akkadian-side appliesTo activation in the separate central step; NOT touched here.",
+  "description": "Per-translation overlay glossary for Atra-ḫasīs (the project's second Akkadian-source text, after Adapa). v1.0.0 covered Tablet I (anthropogony): the *lullû* primeval-human keyword; the *inūma ilū awīlum* frame-crux (comparative vs identity, with the lens-discipline non-selection of the identity reading recorded); the *eṭemmu* ghost/spirit divine-element (flagged for future central promotion); the Wê-ila / *ṭēmu* double-pun (the anthropogonic heart); the *šīru/damu/ṭiṭṭu* flesh/blood/clay triad (flagged as a CENTRAL-GLOSSARY candidate, cross-corpus to Hebrew *bāśār/dām/ʿāfār–ḥōmer* → Gen 2:7, deferred to the separate central-glossary Python step); and the minor cruxes *uppu* (drum/heartbeat/ghost-token), *urûtam* (freedom/birth-stool), and *ruʾtu* (spittle). v1.1.0 (semver-minor, additions only) extends coverage to Tablet II (the population-control cycle) and Tablet III (the Flood): the *rigmu/ḫubūru* clamor-of-overpopulation flood-cause (flagged as a CENTRAL-GLOSSARY candidate, cross-corpus to Hebrew *ḥāmās*/*ṣeʿāqâ*, deferred to the central step); *Namtar* the plague/fate-god; *Adad*'s inverted drought-role (rain WITHHELD, the inverse of the flood-instrument sense — a scope-note over the central Adad entry); the offering-concentration / shaming-the-god stratagem (with the Tablet-II *ṭēmu* = 'plan/scheme' sense held DISTINCT from the Tablet-I anthropogonic *ṭēmu*-pun — the two are NOT conflated); the population-control affliction-vocabulary (*šuruppû*, *diʾu*, *bubūtu*, *idrānu*); the *Atra-ḫasīs* name-etymology gloss ('exceedingly wise'); the reed-wall (*igāru*/*kikkišu*) oath-loophole; the *napišta bulliṭ* 'keep life alive' flood-instruction; and the etiological population-limit cluster that closes the poem — *pašittu* (the infant-snatching demoness), *lā ālittu* (non-bearing women), the celibate priestess classes *ugbabtu*/*entu*/*igiṣītu* under the *ikkibu* birth-taboo, and settled *mūtu* (mortality). Cross-corpus foundational vocabulary already carried by central entries (*dullu*, *ṭiṭṭu*/clay, DINGIR-prefix-prose-drop, Anunnaki/Igigi, birth-goddess cluster, lacuna-bracket, and the FLOOD cluster: *abūbu*, *eleppu*, gods-like-flies, the flood-council/decree/oath and survivor-name entries) is referenced by id in the chapter glossaryRefs and flagged in the Editor reports for Akkadian-side appliesTo activation in the separate central step; NOT touched here.",
   "sourceLanguages": [
     "akk"
   ],
@@ -176,6 +176,231 @@
       "rationale": "*ruʾtu* 'spittle' (CAD R 435) is uncontested; the Igigi 'spat upon the clay' (I:233). What is interpretively open is the act's FUNCTION: (a) animation of the clay; (b) ritual ratification / collective assent to the creation (the Igigi endorse it corporately); (c) contribution of a further divine bodily-substance — so that ALL the Igigi, not only the one slain god, add themselves to humankind (alongside the flesh and blood). The Editor keeps the plain rendering and reserves the interpretive options for commentary; no reading is imported into the text. **Explicit lens-discipline note:** the 'spittle as animating agent' reading is declined in the surface text — the line says the gods spat on the clay, and the rendering says exactly that.",
       "appliesTo": [
         "ATRA-WOH-I:233"
+      ]
+    },
+    {
+      "id": "rigmu-huburu-clamor-of-overpopulation-flood-cause-atrahasis",
+      "source": "ri-gi-im a-wi-lu-ti; i-na ḫu-bu-ri-ši-na",
+      "translit": "rigim awīlūti; ina ḫubūrišina",
+      "strongs": "CAD R 328–334 s.v. rigmu; CAD Ḫ 218–220 s.v. ḫubūru B ('noise, din'); AHw 982 / 352",
+      "lemma": "rigmu; ḫubūru",
+      "partOfSpeech": "Akkadian nouns — 'noise / cry / clamor' and 'din / uproar' of a too-numerous humankind; the narrative engine of Tablet II and the stated flood-cause",
+      "literal": "the noise (rigmu) of humankind; at their clamor / din (ḫubūru)",
+      "standardEnglish": "noise / clamor / uproar / din — uniform across editions (Lambert–Millard 1969; Foster 2005; Bottéro–Kramer 1989)",
+      "wohChoice": "render *rigmu* 'noise' and *ḫubūru* 'clamor / uproar' plainly; the overpopulation framing is left implicit in the line (it is already explicit in Enlil's grievance) and is NOT editorialized into the text",
+      "claim_type": "inferred",
+      "rationale": "*rigmu* (CAD R 328) 'voice, cry, noise' and *ḫubūru* (CAD Ḫ 218, ḫubūru B) 'noise, din, uproar' are the recurring terms for the sound of a swelling humankind that robs Enlil of sleep (II i 3–4, 6–7; ii 18; iii 3–4, 6; vi 4) and that the Flood is sent to silence (III iii 7, where Anzû/the deluge 'stills its clamor'). The plain glosses are direct and uncontested; what THIS entry asserts — and why the claim_type is `inferred` rather than `direct` — is the reading, foundational since Kilmer (1972) and Moran (1971), that the *rigmu/ḫubūru* is the noise of OVERPOPULATION, so that the successive afflictions and finally the Flood function as divine POPULATION-CONTROL. This same *rigmu*-as-flood-cause appears in Gilgamesh XI (the gods resolve on the flood because of humankind's clamor) and stands in pointed CONTRAST to the Genesis flood, whose cause is moral: *ḥāmās* 'violence' filling the earth (Gen 6:11–13) and, at Sodom, the *ṣeʿāqâ* 'outcry' of injustice (Gen 18:20–21) — noise-vs-corruption, a contrast, not an identity. Note a homonym to be kept separate: at III iii 15 (*rigim abūbi*) and III ii 28 *rigmu* denotes the ROAR of the storm/Adad, not the human clamor; those occurrences are excluded from this entry's scope. **CENTRAL-GLOSSARY CANDIDATE:** propose promoting *rigmu/ḫubūru* to a dedicated central entry wiring the Akkadian clamor ↔ the Gilgamesh XI flood-cause ↔ Hebrew *ḥāmās*/*ṣeʿāqâ*, to be handled in the separate central-glossary (Python) step — deliberately NOT committed to the ~4 MB central file here. **Lens-discipline note:** the overpopulation reading is mainstream Assyriology and is allowed to stand in the apparatus, but it is kept OUT of the translated line (which says only 'noise' / 'clamor'); the interpretive Elohim-frame identification of a population-managing civilization is escalated to the Explainer, not the text.",
+      "appliesTo": [
+        "ATRA-WOH-II:i.3",
+        "ATRA-WOH-II:i.4",
+        "ATRA-WOH-II:i.6",
+        "ATRA-WOH-II:i.7",
+        "ATRA-WOH-II:ii.18",
+        "ATRA-WOH-II:iii.3",
+        "ATRA-WOH-II:iii.4",
+        "ATRA-WOH-II:iii.6",
+        "ATRA-WOH-II:vi.4",
+        "ATRA-WOH-III:iii.7"
+      ]
+    },
+    {
+      "id": "namtar-plague-fate-god-atrahasis",
+      "source": "(d)namtar li-šá-aḫ-ḫi-ir ri-gim-ši-in; bāb (d)namtar",
+      "translit": "Namtar",
+      "strongs": "CAD N/1 247 s.v. namtaru ('fate; the god of death/plague'); AHw 729; Lambert–Millard 1969, 66–73",
+      "lemma": "Namtar (DN)",
+      "partOfSpeech": "Akkadian/Sumerian divine name — the plague/fate-god Enlil dispatches to reduce humankind",
+      "literal": "Namtar (Sumerian NAM.TAR 'fate, that which is decreed')",
+      "standardEnglish": "Namtar (retained; Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "retain 'Namtar' untranslated as a divine name; apply only the DINGIR-prefix-prose-drop convention",
+      "claim_type": "direct",
+      "rationale": "*Namtar* (CAD N/1 247, from Sumerian NAM.TAR 'fate') is both the abstract 'fate/decree' and the netherworld deity of death and pestilence who serves as vizier of Ereškigal; in Tablet II he is the agent of Enlil's first affliction, dispatched to 'diminish the noise' of humankind by plague (II i 9–10) and later the god at whose 'door' the people concentrate their offering (II ii 14, 18). The Editor retains the name untranslated, consistent with the project's treatment of the other divine names in the poem (Adad, Nisaba, Ea, Enlil), rather than rendering the function ('Fate', 'the plague-god'), because the name is a fixed proper noun in the tradition and the plague-function is already clear from the narrative. The wordplay latent in the name (NAM.TAR 'the decreed thing' → the decreed pestilence) is noted in commentary, not imported into the line; no lens is carried.",
+      "appliesTo": [
+        "ATRA-WOH-II:i.9",
+        "ATRA-WOH-II:ii.14",
+        "ATRA-WOH-II:ii.18"
+      ]
+    },
+    {
+      "id": "adad-inverted-drought-role-scope-note-atrahasis",
+      "source": "(d)adad zu-un-na-šu li-šá-aq-qir; li-še-eṣ-ṣi i-na mu-ši-im na-al-šu",
+      "translit": "Adad zunnašu lišaqqir; lišēṣṣi ina mūšim nalšu",
+      "strongs": "CAD A/1 51–52 s.v. Adad; CAD Z 156 s.v. zunnu ('rain'); AHw 1537; central entry adad-hadad-baal-storm-god-flood-instrument-cross-corpus",
+      "lemma": "Adad (with zunnu 'rain')",
+      "partOfSpeech": "convention / scope-note — the INVERTED (drought) role of the storm-god Adad in Tablet II, against his flood-instrument role elsewhere",
+      "literal": "let Adad make his rain precious (i.e. scarce / withhold it); let him send down his dew stealthily in the night",
+      "standardEnglish": "let Adad withhold his rain / hold back the rain (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "render the drought-function plainly ('let Adad withhold his rain'; 'send down his dew … rain down stealthily like dew'); apply the central Adad entry by id for the NAME identity, and flag the drought-role for Akkadian-side appliesTo activation + a scope note in the central step",
+      "claim_type": "direct",
+      "rationale": "The central entry `adad-hadad-baal-storm-god-flood-instrument-cross-corpus` frames Adad as the storm-god who is the INSTRUMENT of the Flood (his role in Tablet III ii 27–33 and Gilgamesh XI). In Tablet II his role is the INVERSE: Enlil orders him to WITHHOLD the rain (*zunnašu lišaqqir*, lit. 'make his rain precious/scarce', II iii 7) so drought and famine thin humankind — the black fields whiten and the plain brings forth salt — and then, under Enki's stratagem, Adad RELENTS, sending down a stealthy night-dew (*ina mūšim nalšu*, II iv 13–14). The name-identity is covered centrally (id in glossaryRefs); this overlay entry records the drought-scope so the reader sees that the SAME storm-god is the withholder-of-rain here and the sender-of-flood there — the storm powers both the drought (rain denied) and the deluge (rain unleashed). The Editor renders each function plainly and flags the Tablet-II drought lines for Akkadian-side `appliesTo` activation on the central entry, with a scope note (storm-as-flood vs storm-withheld-as-drought), deferred to the central (Python) step; no new central sub-node is created here.",
+      "appliesTo": [
+        "ATRA-WOH-II:iii.7",
+        "ATRA-WOH-II:iv.13",
+        "ATRA-WOH-II:iv.14"
+      ]
+    },
+    {
+      "id": "offering-concentration-shaming-the-god-stratagem-atrahasis",
+      "source": "e ta-ap-la-ḫa i-li-ku-un … bi-il-la a-na pa-ni-šu ma-aṣ-ḫa-tam … li-ba-aš i-na kad-ri-šu-ma li-is-suḫ qá-as-su; wa-ar-ki-šu (d)é-a te-ma iš-ku-un",
+      "translit": "ē taplaḫā ilīkun … billā ana pānišu maṣḫatam … libâš ina kadrišu-ma lissuḫ qāssu; warkišu Ea ṭēma iškun",
+      "strongs": "CAD B 5–8 s.v. bâšu ('to be ashamed'); CAD K 33 s.v. kadru/kadrû ('gift, offering'); CAD N/2 3–14 s.v. nasāḫu ('to remove'); CAD Ṭ 85–98 s.v. ṭēmu ('plan, counsel, instruction')",
+      "lemma": "bâšu; kadrû; nasāḫu qāta; ṭēmu (sense 'plan')",
+      "partOfSpeech": "Akkadian idiom-cluster — Enki's repeated stratagem: concentrate all offerings on one god so that, shamed, he lifts the scourge; with the Tablet-II sense of ṭēmu ('plan/scheme')",
+      "literal": "do not reverence your gods … carry a flour-offering before him … let him be shamed by the gift and pull away his hand; Ea had set the plan (ṭēmu) behind it",
+      "standardEnglish": "withhold reverence, bring the offering to the one god, let him be shamed and lift the affliction (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "render the stratagem plainly across its two occurrences; render Tablet-II *ṭēmu* as 'plan' / 'scheme'; do NOT apply the Tablet-I anthropogonic ṭēmu-pun entry here",
+      "claim_type": "direct",
+      "rationale": "Twice in Tablet II (the plague, ii 11–17; the drought, iv 7–14) Enki instructs Atra-ḫasīs on the same stratagem: have the people WITHHOLD reverence from all the gods (*ē taplaḫā*, negative precative) and concentrate every offering (*maṣḫatu* flour-offering, *niqû* offering) on the SINGLE deity responsible for the current scourge (Namtar; then Adad), so that god — *bâšu* 'shamed' (CAD B 5) by the *kadrû* 'gift' (CAD K 33) arriving at his door alone — lifts the affliction (*nasāḫu qāta*, lit. 'pull away the hand'). This offering-concentration/shaming-the-god device is the interpretive spine of Tablet II and turns on the Mesopotamian economy in which gods DEPEND on human offerings (the same dependency that later leaves them starving during the Flood, III iv 16–19). **Critical distinction, per the editorial question:** the *ṭēmu* at II vii 1 (*Ea ṭēma iškun* 'Ea had set the ṭēmu/plan behind it') carries the sense 'plan, scheme, counsel, instruction' (CAD Ṭ 85, senses 3–5) — the clever design by which Ea repeatedly thwarts Enlil — and is therefore rendered 'plan'/'scheme'. This is a DIFFERENT sense from the Tablet-I anthropogonic *ṭēmu* (the slain god's 'intelligence/reason' that becomes the human *eṭemmu*, I 222/238); the overlay entry `we-ila-temu-anthropogonic-pun-atrahasis` is deliberately NOT applied to Tablet II, and the two senses are kept unconflated. No lens is carried: the stratagem and the plan are rendered exactly as the Akkadian states them.",
+      "appliesTo": [
+        "ATRA-WOH-II:ii.11",
+        "ATRA-WOH-II:ii.14",
+        "ATRA-WOH-II:ii.15",
+        "ATRA-WOH-II:ii.16",
+        "ATRA-WOH-II:ii.17",
+        "ATRA-WOH-II:iv.10",
+        "ATRA-WOH-II:iv.11",
+        "ATRA-WOH-II:iv.12",
+        "ATRA-WOH-II:vii.1",
+        "ATRA-WOH-II:vii.2"
+      ]
+    },
+    {
+      "id": "population-control-afflictions-vocabulary-atrahasis",
+      "source": "šu-ru-up-pu-ú; di-iʾ-um; bu-bu-tu; ru-uš-tum id-ra-na",
+      "translit": "šuruppû; diʾu; bubūtu; idrānu",
+      "strongs": "CAD Š/3 411 s.v. šuruppû ('frost, chills-disease'); CAD D 165 s.v. diʾu (a febrile disease); CAD B 301 s.v. bubūtu ('hunger, famine'); CAD I/J 10 s.v. idrānu ('saltpetre, natron, salt')",
+      "lemma": "šuruppû; diʾu; bubūtu; idrānu",
+      "partOfSpeech": "Akkadian nouns — the successive afflictions sent to reduce humankind: chills-disease, fever-sickness, famine, and the drought's salt",
+      "literal": "the chills-disease (šuruppû); the fever-sickness (diʾu); hunger / famine (bubūtu); saltpetre / salt (idrānu)",
+      "standardEnglish": "the chills / frost-disease, sickness, famine, salt (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "render each affliction plainly — *šuruppû* 'the chills-disease', *diʾu* 'sickness', *bubūtu* 'famine', *idrānu* 'salt' (the drought's 'black fields turned white') — with no interpretive expansion",
+      "claim_type": "direct",
+      "rationale": "Tablet II deploys a distinct affliction-vocabulary that the glossary did not previously cover: *šuruppû* (CAD Š/3 411) the 'chills/frost' pestilence Enlil first unleashes (II i 8; ii 8, where 'your šuruppû is devouring the land'); *diʾu* (CAD D 165) the febrile 'sickness' set within the people (II i 10); *bubūtu* (CAD B 301) 'hunger/famine', the third scourge (II iv 4; recurring for the gods' own hunger at III iv 16–19 and as a post-flood check at III vi 24); and *idrānu* (CAD I/J 10) 'saltpetre/salt', the sign of the drought's ruin as 'the black fields turn white' and 'the broad plain brings forth salt' (II iii 11–12). Each is rendered plainly; the glosses are uncontested. The afflictions form a coherent sequence — pestilence, then drought/famine — that the mainstream reading (Kilmer 1972) treats as instruments of divine POPULATION-CONTROL, escalating toward the Flood; that reading is allowed in the apparatus but the lexemes stay plain in the line. **Flagged (not committed) as a possible central 'divine population-control afflictions' cluster** for the separate central step; not asserted as a cross-corpus claim here.",
+      "appliesTo": [
+        "ATRA-WOH-II:i.8",
+        "ATRA-WOH-II:i.10",
+        "ATRA-WOH-II:ii.8",
+        "ATRA-WOH-II:iii.11",
+        "ATRA-WOH-II:iii.12",
+        "ATRA-WOH-II:iv.4"
+      ]
+    },
+    {
+      "id": "atrahasis-name-exceedingly-wise-atrahasis",
+      "source": "at-ra-am-ḫa-sí-is; a-tar-ḫa-sí-is",
+      "translit": "Atra(m)-ḫasīs",
+      "strongs": "CAD A/2 495 s.v. atru ('surpassing, excess'); CAD Ḫ 126 s.v. ḫasīsu ('wisdom, understanding, ear'); central entry ziusudra-atrahasis-utnapishtim-noach-flood-survivor-name-cluster-cross-corpus",
+      "lemma": "Atra(m)-ḫasīs (PN)",
+      "partOfSpeech": "Akkadian proper name — the flood-hero; etymologically 'exceedingly wise'",
+      "literal": "Atra-ḫasīs = *atra* 'surpassing / exceeding(ly)' + *ḫasīsu* 'wisdom, understanding' → 'exceedingly wise'",
+      "standardEnglish": "Atra-ḫasīs (retained; 'Atrahasis'); the name means 'exceedingly wise' (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "retain 'Atra-ḫasīs' untranslated (per the central survivor-name cluster); gloss the etymology 'the exceedingly-wise' in commentary on first occurrence in each tablet; flag the central cluster's Akkadian-side appliesTo activation",
+      "claim_type": "direct",
+      "rationale": "The protagonist's name, *Atra(m)-ḫasīs*, is transparently 'exceedingly wise': *atra* 'surpassing, in excess' (CAD A/2 495) + *ḫasīsu* 'wisdom, understanding, (the discerning) ear' (CAD Ḫ 126) — the very epithet that marks him as the sage who 'keeps his ear open' to Ea (II ii 2) and is chosen to survive. The Editor retains the name untranslated, following the central survivor-name cluster `ziusudra-atrahasis-utnapishtim-noach-flood-survivor-name-cluster-cross-corpus` (which files him with Sumerian Ziusudra 'life of long days', Akkadian Ūta-napišti 'he found life', and Hebrew Noaḥ), and glosses the meaning in commentary on the name's first occurrence in Tablet II (ii 1) and Tablet III (ii 10) rather than inserting a parenthetical into the line. The name is the composition's title. The central cluster's `appliesTo` currently lists Sumerian-Flood-Story refIds only; the Akkadian occurrences are flagged for `appliesTo` activation in the separate central step. No lens is carried; the etymology is a plain philological fact.",
+      "appliesTo": [
+        "ATRA-WOH-II:ii.1",
+        "ATRA-WOH-III:ii.10"
+      ]
+    },
+    {
+      "id": "igaru-kikkishu-reed-wall-oath-loophole-atrahasis",
+      "source": "i-ga-ru ši-ta-am-mi-a-an-ni; ki-ik-ki-šu ṣú-ur-ri ka-la zi-ik-ri-ia",
+      "translit": "igāru šitammiânni; kikkišu ṣurri kala zikriya",
+      "strongs": "CAD I/J 33–39 s.v. igāru ('wall'); CAD K 352 s.v. kikkišu ('reed fence, reed hut wall'); central entries iz-zi-da-kikkish-talking-through-the-wall-to-keep-an-oath-flood-trope-cross-corpus; ea-warning-deception-misadvice-test-crux-cross-corpus",
+      "lemma": "igāru; kikkišu",
+      "partOfSpeech": "Akkadian nouns — the (reed) wall Enki addresses to warn Atra-ḫasīs without breaking his oath",
+      "literal": "'Wall, listen closely to me! Reed wall, attend to all my words!'",
+      "standardEnglish": "'Reed wall … ' / 'Wall, hear me! Reed-fence, heed my words!' (Lambert–Millard 1969; parallel to Gilgamesh XI 21–22)",
+      "wohChoice": "render the doubled apostrophe plainly — 'Wall, listen closely to me! reed wall, attend to all my words!'; apply the central reed-wall and Ea-warning trope entries by id, flagging Akkadian-side appliesTo activation",
+      "claim_type": "direct",
+      "rationale": "*igāru* 'wall' (CAD I/J 33) paired with *kikkišu* 'reed fence / reed-hut wall' (CAD K 352) is the device by which Enki keeps the letter of the divine oath (*māmītu*) not to warn a human of the Flood directly: he speaks INTO the reed wall of Atra-ḫasīs's hut, so the man 'overhears' and Enki can later plead (III vi 13–14) that he 'did not reveal the command of the gods'. This talking-through-the-wall oath-loophole is a cross-corpus flood-trope (Sumerian Flood Story; famously Gilgamesh XI 21–22, *kikkiš kikkiš igār igār* 'Reed-fence, reed-fence! Wall, wall!'), covered by the central entries `iz-zi-da-kikkish-talking-through-the-wall-to-keep-an-oath-flood-trope-cross-corpus` and `ea-warning-deception-misadvice-test-crux-cross-corpus`; this overlay entry anchors the specific Akkadian Atra-ḫasīs wording and flags those central entries for Akkadian-side `appliesTo` activation. The Editor keeps the plainer doubling attested in the Atra-ḫasīs lines rather than importing the fuller Gilgamesh reduplication. The oath-loophole is rendered as narrated; the interpretive 'was Enki deceiving or testing?' question belongs to the central Ea-warning crux, not the line.",
+      "appliesTo": [
+        "ATRA-WOH-III:i.11",
+        "ATRA-WOH-III:i.12"
+      ]
+    },
+    {
+      "id": "napishtu-bullit-save-life-flood-instruction-atrahasis",
+      "source": "na-pí-iš-ta bu-ul-li-iṭ; e-eš-ta uṣ-ṣí-a-am na-pí-iš-tum; aš-šum na-ap-ša-tim uš-te-ṣi",
+      "translit": "napišta bulliṭ; ēšta uṣṣiam napištum; aššum napšātim uštēṣi",
+      "strongs": "CAD N/1 296–304 s.v. napištu ('life, throat, living being'); CAD B 60–63 s.v. balāṭu, D-stem bulluṭu ('to keep alive, preserve'); AHw 738 / 99",
+      "lemma": "napištu; balāṭu (D bulluṭu)",
+      "partOfSpeech": "Akkadian noun + verb — the instruction to 'keep life alive' / preserve the living",
+      "literal": "keep life (napištu) alive (bulliṭ, D-imperative); 'where did life escape?'; 'because of life I brought (it) out'",
+      "standardEnglish": "keep life / living things alive; save life (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "'Spurn possessions and keep life alive!' — render *napišta bulliṭ* as 'keep life alive' / 'save life'; *napištu* as 'life, living things', not the reflexive 'save your own life'",
+      "claim_type": "direct",
+      "rationale": "*napištu* (CAD N/1 296) is 'life, throat, breath, living being', and the D-stem of *balāṭu* (*bulluṭu*, CAD B 60) is factitive 'to keep alive, preserve, save'; Enki's charge *makkūra zērma napišta bulliṭ* (III i 14) is therefore 'spurn possessions and keep LIFE alive' — the seed of humankind and the living creatures Atra-ḫasīs loads onto the boat, not merely his own survival. The same root frames the flood's aftermath: Enlil's furious 'where did *napištu* escape?' / 'how did a man survive?' (III vi 9–10) and Enki's confession 'because of *napšātu* (life) I brought (it) out' (III vi 18). The Editor renders 'keep life alive' / 'save life', collective, rejecting the reflexive 'save your own life' because the narrative point (and the preservation-of-the-seed flood-aitia carried centrally by `preservation-of-the-seed-of-humankind-and-animals-flood-aitia-cross-corpus`) is the rescue of life as such. Comparative note for commentary: the same instruction underlies Genesis 6:19–20 ('to keep them alive with you', *lĕhaḥăyôt*) and 7:3 ('to keep seed alive', *lĕḥayyôt zeraʿ*). No lens is carried.",
+      "appliesTo": [
+        "ATRA-WOH-III:i.14",
+        "ATRA-WOH-III:vi.9",
+        "ATRA-WOH-III:vi.18"
+      ]
+    },
+    {
+      "id": "pasittu-infant-snatching-demoness-population-limit-atrahasis",
+      "source": "li-ib-ši i-na ni-ši pa-ši-it-tu; li-iṣ-ba-at še-er-ra i-na bi-ir-ki a-li-it-ti",
+      "translit": "libši ina nišī pašittu; liṣbat šerra ina birki ālitti",
+      "strongs": "CAD P 253 s.v. pašittu (a demon); AHw 845; Lambert–Millard 1969, 102–103, 163",
+      "lemma": "pašittu",
+      "partOfSpeech": "Akkadian noun — a female demon who snatches the newborn; one of the permanent post-flood checks on human fertility",
+      "literal": "the pašittu (from *pašāṭu* 'to erase/blot out'?), 'let her seize the baby from the lap of her who bore it'",
+      "standardEnglish": "the pašittu-demon / the 'Eradicator' (Lambert–Millard 1969); a stillbirth/infant-mortality demoness (Foster 2005)",
+      "wohChoice": "retain *pašittu* transliterated, glossed 'the pašittu-demon' — as Tablet I retained *lullû* and *eṭemmu*",
+      "claim_type": "direct",
+      "rationale": "*pašittu* (CAD P 253; probably from *pašāṭu* 'to blot out, erase') is a female demon of the birth-chamber, established in the poem's etiological close as a permanent check on human numbers: 'let there be among the peoples the *pašittu*, to snatch the baby from the lap of her who bore it' (III vii 8–9) — the mythic aetiology of infant mortality and stillbirth. The Editor retains the term transliterated with a descriptive gloss, following the Tablet-I precedent for technical anthropogonic/demonic keywords (*lullû*, *eṭemmu*), rather than flattening it to 'the snatcher' or over-specifying to 'the stillbirth-demon', neither of which is consensus. The *pašittu* belongs to the DELIBERATE population-limiting apparatus that closes Atra-ḫasīs: the gods, having decided not to repeat the total Flood, install standing limits on fertility so the human *rigmu* never again grows unbearable — a reading that is explicit in the Akkadian (Kilmer 1972; Lambert–Millard 1969) and is rendered plainly. No lens is carried.",
+      "appliesTo": [
+        "ATRA-WOH-III:vii.8",
+        "ATRA-WOH-III:vii.9"
+      ]
+    },
+    {
+      "id": "la-alittu-non-bearing-women-population-limit-atrahasis",
+      "source": "a-li-it-tum ù la a-li-it-tum",
+      "translit": "ālittu u lā ālittu",
+      "strongs": "CAD A/1 341 s.v. ālittu ('woman who has given birth, mother'); CAD (lā + participle, negation); AHw 38",
+      "lemma": "ālittu; lā ālittu",
+      "partOfSpeech": "Akkadian noun-pair — 'the woman who bears' and 'the woman who does not bear'; the institution of childlessness as a population check",
+      "literal": "the bearing woman (ālittu) and the not-bearing woman (lā ālittu)",
+      "standardEnglish": "the woman who bears and the woman who does not bear (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "render 'the woman who bears and the woman who does not bear' — plain; no transliteration needed",
+      "claim_type": "direct",
+      "rationale": "*ālittu* (CAD A/1 341, from *alādu* 'to give birth') is 'a woman who has borne, a mother'; the poem's close establishes alongside her the *lā ālittu*, 'the woman who does NOT bear' (III vii 7), as a permanent human category — barrenness/childlessness instituted, like the *pašittu*-demon and the celibate priestesses, to cap human fertility after the Flood. The phrase is rendered plainly and needs no transliteration (unlike the demon- and priestess-names it is ordinary descriptive vocabulary). This entry documents its place in the etiological population-limit cluster: the three devices — non-bearing women, the infant-snatching *pašittu*, and the celibate priestess classes — together with settled mortality are the gods' DELIBERATE, standing replacement for the one-off Flood, the mechanism by which the human clamor (`rigmu-huburu-...`) is permanently held in check. This is stated in the Akkadian and is rendered without lens.",
+      "appliesTo": [
+        "ATRA-WOH-III:vii.7"
+      ]
+    },
+    {
+      "id": "ugbabtu-entu-igisitu-celibate-priestesses-ikkibu-birth-taboo-population-limit-atrahasis",
+      "source": "šu-uk-ni ug-ba-ak-ka-ti en-e-ti ù i-gi-ṣi-a-ti; lu ik-ki-bu-ma a-la-da pu-ur-si",
+      "translit": "šukni ugbakkāti enēti u igiṣiāti; lu ikkibū-ma alāda pursi",
+      "strongs": "CAD U/W 25 s.v. ugbabtu; CAD E 172 s.v. ēntu; CAD I/J 44 s.v. igiṣītu; CAD I/J 55 s.v. ikkibu ('taboo, forbidden thing')",
+      "lemma": "ugbabtu; ēntu; igiṣītu; ikkibu",
+      "partOfSpeech": "Akkadian nouns — three classes of cultic priestess placed under a birth-taboo as a permanent fertility check",
+      "literal": "establish the ugbabtu, entu, and igiṣītu (priestess classes); let them be under taboo (ikkibu), and so cut off childbirth",
+      "standardEnglish": "the ugbabtu / entu / igiṣītu priestesses, for whom childbearing is taboo (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "retain *ugbabtu*, *entu*, *igiṣītu* transliterated with the gloss 'priestesses' and render *ikkibu* 'taboo' — 'let them be under taboo, and so cut off childbirth'",
+      "claim_type": "direct",
+      "rationale": "The poem closes its population-limit apparatus with three cultic offices whose members are forbidden to bear: the *ugbabtu* (CAD U/W 25, a high-ranking priestess/votary), the *ēntu* (CAD E 172, the high priestess, often royal), and the *igiṣītu* (CAD I/J 44, a class of votary), for whom childbirth is made an *ikkibu* — 'taboo, an abomination, a forbidden thing' (CAD I/J 55): *lu ikkibū-ma alāda pursi* 'let them be under taboo, and so cut off childbirth' (III vii 10–11). The Editor retains the three office-names transliterated (they are technical cultic titles with no exact English equivalent, following the Tablet-I precedent for *lullû*/*eṭemmu*) and renders *ikkibu* 'taboo'. Historically these lines are the mythic charter for real Old Babylonian institutions of celibate/childless priestesses (the *nadītu* and related classes), here retrojected as a divinely-instituted brake on population — the deliberate fertility-cap that, with the *pašittu*, the *lā ālittu*, and settled mortality, replaces the Flood. The reading is explicit in the Akkadian (Kilmer 1972) and is rendered plainly, without lens.",
+      "appliesTo": [
+        "ATRA-WOH-III:vii.10",
+        "ATRA-WOH-III:vii.11"
+      ]
+    },
+    {
+      "id": "mutu-settled-mortality-etiological-verdict-atrahasis",
+      "source": "šu-uk-ni mu-ú-ta a-na ni-ši",
+      "translit": "šukni mūta ana nišī",
+      "strongs": "CAD M/2 317–318 s.v. mūtu ('death'); AHw 691; central entry return-to-the-earth-mortality-verdict-adapa-genesis-cross-corpus",
+      "lemma": "mūtu",
+      "partOfSpeech": "Akkadian noun — 'death'; here the establishment of settled human mortality as the etiological verdict of the flood-aftermath",
+      "literal": "establish death (mūtu) for the peoples",
+      "standardEnglish": "establish death for the people / appoint death for mankind (Lambert–Millard 1969; Foster 2005)",
+      "wohChoice": "'establish death for the peoples' — *mūtu* as the permanent human CONDITION (mortality), not a 'death-demon'; apply the central mortality-verdict entry by id, flagging Akkadian-side activation",
+      "claim_type": "direct",
+      "rationale": "*mūtu* (CAD M/2 317) is 'death'; Enki's charge to Nintu *šukni mūta ana nišī* 'establish death for the peoples' (III vii 4) is the etiological climax of the whole composition — humankind, created in Tablet I to be effectively perpetual labor, is now made permanently MORTAL so that its numbers, and its clamor, are self-limiting. The Editor reads *mūtu* here as the CONDITION/verdict of mortality (parallel to the mortality-verdicts of Adapa and Genesis 3, and covered cross-corpus by the central entry `return-to-the-earth-mortality-verdict-adapa-genesis-cross-corpus`), not as a personified 'death-demon' on the model of the *pašittu* of the following lines; the plural etiological frame ('for the peoples', not 'upon a mother') and the pairing with the fertility-checks support the condition-reading. The Akkadian-side occurrence is flagged for `appliesTo` activation on the central entry in the separate step. Comparative note for commentary: this is the Mesopotamian settling of the death-question that the biblical primeval history places in Eden (Gen 3:19, 'to dust you shall return'). The line is rendered plainly; no lens is carried, and the interpretive Elohim-frame reading of an engineered lifespan-limit is escalated to the Explainer, not the text.",
+      "appliesTo": [
+        "ATRA-WOH-III:vii.4"
       ]
     }
   ]

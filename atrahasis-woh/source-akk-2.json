@@ -1,0 +1,844 @@
+{
+  "schemaVersion": 2,
+  "bookSlug": "atrahasis-woh",
+  "composition": 2,
+  "source": {
+    "type": "akkadian-composite-reconstruction",
+    "versionTitle": "Atra-ḫasīs, Tablet II — best-effort reconstruction from named scholarly editions",
+    "verificationStatus": "best-effort-reconstruction-pending-verification. Reconstructed from the standard scholarly editions (Lambert & Millard 1969, the critical edition; George & Al-Rawi 1996 for the Old Babylonian Sippar witnesses; Foster 2005 Before the Muses 3rd ed.). Line numbering follows Lambert–Millard 1969, which number Tablet II by COLUMN + line (II i 1, II ii 1 …) rather than the continuous scheme used for Tablet I; refIds accordingly take the form ATRA-WOH-II:<column>-<line> (see the chapter editorial_questions). The eBL corpus L.1.1 (ebl.lmu.de/corpus/L/1/1) and SEAL served as a collation aid only (CC BY-NC — not reproduced). Tablet II is the MOST DAMAGED of the three tablets: the sign-by-sign transliteration is a best-effort reconstruction and is PENDING COLLATION against Lambert–Millard 1969 and eBL L.1.1; per-line sign values may contain reconstruction errors, and confidence here is LOWER than for Tablet I. The narrative SPINE — the population-growth refrain, the clamor (rigmu/ḫubūru) that robs Enlil of sleep, the successive afflictions (plague via Namtar; drought via Adad withholding rain; famine), Enki's offering-concentration stratagem, and the escalation to the flood and the oath — is well-attested across the cited editions and should match the downstream English faithfully. Columns v (the years-of-famine catalogue) and vi–viii (the assembly, the accusation of Ea, the flood-decree, and the oath) are heavily broken and are given in OUTLINE ONLY, honestly marked with lacuna objects.",
+    "license": "Transliteration is a best-effort reconstruction from the cited scholarly editions (Lambert & Millard 1969; George & Al-Rawi 1996; Foster 2005); not reproduced from any single copyrighted edition. All Wheel of Heaven English rendering is original to this project (CC0-1.0).",
+    "fetchedFrom": "scholarly editions (not openly digitized — see citations); eBL L.1.1 consulted as collation aid only",
+    "fetchedAt": "2026-07-04",
+    "citations": [
+      "Lambert, W. G., & Millard, A. R., Atra-ḫasīs: The Babylonian Story of the Flood (Oxford 1969) — the standard critical edition; line-numbering authority for this text (Tablet II numbered by column + line).",
+      "George, A. R., & Al-Rawi, F. N. H., 'Tablets from the Sippar Library VI: Atra-ḫasīs,' Iraq 58 (1996), pp. 147–190 — the Old Babylonian Sippar witnesses.",
+      "Foster, B. R., Before the Muses: An Anthology of Akkadian Literature, 3rd ed. (Bethesda 2005), pp. 227–280 — the accessible English translation ('Atrahasis' / 'When the gods were man').",
+      "electronic Babylonian Library (eBL), corpus L.1.1, ebl.lmu.de/corpus/L/1/1 — consulted as a collation aid only (CC BY-NC; not reproduced).",
+      "Sources of Early Akkadian Literature (SEAL) — consulted as a collation aid only.",
+      "Kilmer, A. D., 'The Mesopotamian Concept of Overpopulation and Its Solution as Reflected in the Mythology,' Orientalia 41 (1972) — the foundational study of the noise/overpopulation → population-control reading of Tablet II.",
+      "Moran, W. L., 'Atrahasis: The Babylonian Story of the Flood,' Biblica 52 (1971) — review-article and analysis of the population/noise motif.",
+      "Bottéro, J., & Kramer, S. N., Lorsque les dieux faisaient l'homme (Paris 1989), pp. 526–564 — French edition and commentary."
+    ],
+    "fragmentationNote": "Atra-ḫasīs is a three-tablet Old Babylonian epic (c. 1700 BCE), best preserved in the copy of the scribe Ku-Aya / Ipiq-Aya (reign of Ammi-ṣaduqa). Tablet II carries the central population-control cycle: the land grows wide and the people multiply until their clamor (rigmu / ḫubūru) disturbs Enlil and robs him of sleep, whereupon he sends successive afflictions to thin humankind — first plague/pestilence (through Namtar), then drought (ordering Adad to withhold the rain and the springs, so the black fields whiten and the plain brings forth salt), then famine — each over the recurring interval (~1200 years). Each time the sage Atra-ḫasīs appeals to his god Enki/Ea, who counsels the people to withhold reverence from all the gods and concentrate every offering on the single deity responsible, so that god, shamed by the gift, lifts the scourge. Enlil, repeatedly thwarted and enraged at Ea's circumvention, escalates to the final solution — the abūbu (flood) — and binds the gods by oath to secrecy; the flood proper belongs to Tablet III. Tablet II is the MOST DAMAGED of the three: this file reconstructs the attested spine and marks the badly-broken stretches (col v famine-catalogue; cols vi–viii assembly, accusation, flood-decree, oath) with honest lacuna objects and outline-only renderings. This is a MOAT TEXT: no usable public-domain English translation of Atra-ḫasīs exists, so the Wheel of Heaven program renders its own English from the Akkadian."
+  },
+  "segments": [
+    {
+      "id": "clamor-and-sleeplessness",
+      "label": "Column i — the land grows wide; the clamor of humankind robs Enlil of sleep (Lambert–Millard II i 1–8)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "col": "i",
+          "n": 1,
+          "refId": "ATRA-WOH-II:i.1",
+          "translit": "ma-a-tum ir-ta-pi-iš ni-šu im-ti-da",
+          "cuneiform": null,
+          "notes": [
+            "*mātu rapāšu* 'the land grew broad'; *nišū mâdu* 'the people became many.' The opening of Tablet II states the population-growth premise plainly."
+          ]
+        },
+        {
+          "col": "i",
+          "n": 2,
+          "refId": "ATRA-WOH-II:i.2",
+          "translit": "ma-a-tum ki-ma li-i i-ša-ap-pu",
+          "cuneiform": null,
+          "notes": [
+            "*šapû* 'to be(come) loud, to bellow'; *lû* 'bull.' The din-of-humankind simile."
+          ]
+        },
+        {
+          "col": "i",
+          "n": 3,
+          "refId": "ATRA-WOH-II:i.3",
+          "translit": "i-na ḫu-bu-ri-ši-na i-lu it-ta-aʾ-dar",
+          "cuneiform": null,
+          "notes": [
+            "*ḫubūru* 'clamor, uproar, din' (no glossary entry — see editorial questions); *adāru* (N) 'to be disturbed, troubled.'"
+          ]
+        },
+        {
+          "col": "i",
+          "n": 4,
+          "refId": "ATRA-WOH-II:i.4",
+          "translit": "(d)en-líl iš-te-me ri-gi-im-ši-in",
+          "cuneiform": null,
+          "notes": [
+            "*rigmu* 'noise, cry, clamor' (no glossary entry — see editorial questions); *šemû* 'to hear.'"
+          ]
+        },
+        {
+          "col": "i",
+          "n": 5,
+          "refId": "ATRA-WOH-II:i.5",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction; *ilū rabûtum* 'the great gods.'"
+          ]
+        },
+        {
+          "col": "i",
+          "n": 6,
+          "refId": "ATRA-WOH-II:i.6",
+          "translit": "ik-ta-ab-ta ri-gi-im a-wi-lu-ti",
+          "cuneiform": null,
+          "notes": [
+            "*kabātu* 'to be(come) heavy, burdensome'; *rigim awīlūti* 'the noise of humankind.' The population-as-problem thesis stated in Enlil's own mouth."
+          ]
+        },
+        {
+          "col": "i",
+          "n": 7,
+          "refId": "ATRA-WOH-II:i.7",
+          "translit": "i-na ḫu-bu-ri-ši-na ú-za-am-ma ši-it-tam",
+          "cuneiform": null,
+          "notes": [
+            "*zamû* 'to be deprived of'; *šittu* 'sleep.' The divine-repose-disturbed motif (cf. Gilgamesh XI); on *ḫubūru* see editorial questions."
+          ]
+        },
+        {
+          "col": "i",
+          "n": 8,
+          "refId": "ATRA-WOH-II:i.8",
+          "translit": "li-iš-ša-kin-ma a-na ni-ši šu-ru-up-pu-ú",
+          "cuneiform": null,
+          "notes": [
+            "*šuruppû* 'chills, frost-disease' (an affliction-term; no glossary entry — see editorial questions). The first population-reduction is a pestilence."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enlil-dispatches-namtar",
+      "label": "Column i (continued) — Enlil dispatches Namtar, the plague (Lambert–Millard II i 9ff, damaged)",
+      "preceding_lacuna": {
+        "type": "damage",
+        "text": "The precise continuation of Enlil's plague-command (II i, lower) is damaged; the spine of the order — Namtar to reduce the human noise by pestilence — is reconstructed from the parallel refrains.",
+        "i18n": {
+          "en": "[Damage: the lower part of column i is broken; the plague-command is reconstructed from the recurring refrain.]"
+        }
+      },
+      "lines": [
+        {
+          "col": "i",
+          "n": 9,
+          "refId": "ATRA-WOH-II:i.9",
+          "translit": "e-le-nu-um-ma (d)namtar li-šá-aḫ-ḫi-ir ri-gim-ši-in",
+          "cuneiform": null,
+          "notes": [
+            "*elēnum* 'above'; *Namtar* — the plague/fate-god (no glossary entry — see editorial questions); *(w)aḫāru* (Š) 'to reduce, hold back'; on *rigmu* see editorial questions."
+          ]
+        },
+        {
+          "col": "i",
+          "n": 10,
+          "refId": "ATRA-WOH-II:i.10",
+          "translit": "li-ib-ši i-na li-ib-bi-ši-na di-iʾ-um",
+          "cuneiform": null,
+          "notes": [
+            "*diʾu* 'headache-fever, a disease'; *bašû* 'to come into being.'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plague-stratagem",
+      "label": "Column ii — Atra-ḫasīs appeals to Enki (Ea); Enki's plague-stratagem (Lambert–Millard II ii, reconstructed)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The transition from Enlil's plague-command to the introduction of Atra-ḫasīs (end of col i) is compressed; the draft resumes at Atra-ḫasīs' attentiveness to his god.",
+        "i18n": {
+          "en": "[Editorial selection: the close of column i is compressed; the draft resumes at Atra-ḫasīs and his god.]"
+        }
+      },
+      "lines": [
+        {
+          "col": "ii",
+          "n": 1,
+          "refId": "ATRA-WOH-II:ii.1",
+          "translit": "ù at-ra-am-ḫa-sí-is a-wi-lum",
+          "cuneiform": null,
+          "notes": [
+            "*Atra-ḫasīs* 'exceedingly-wise' — the protagonist, named for the first time (central name-cluster; see editorial questions); *awīlum* 'the man.'"
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 2,
+          "refId": "ATRA-WOH-II:ii.2",
+          "translit": "a-na (d)é-a be-li-šu uz-na-šu ib-ši",
+          "cuneiform": null,
+          "notes": [
+            "*uznu bašû* 'to keep the ear attentive'; Ea = Enki, his personal god."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 3,
+          "refId": "ATRA-WOH-II:ii.3",
+          "translit": "i-ta-mi it-ti i-li-šu",
+          "cuneiform": null,
+          "notes": [
+            "*atwû/atāmu* 'to converse'; the sage's ongoing communion with Enki."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 4,
+          "refId": "ATRA-WOH-II:ii.4",
+          "translit": "ù (d)é-a it-ti-šu i-ta-mi",
+          "cuneiform": null,
+          "notes": [
+            "The reciprocal — Enki answers Atra-ḫasīs."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 5,
+          "refId": "ATRA-WOH-II:ii.5",
+          "translit": "at-ra-am-ḫa-sí-is pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction formula (*pâšu īpuš*)."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 6,
+          "refId": "ATRA-WOH-II:ii.6",
+          "translit": "iz-za-kar a-na (d)é-a be-li-šu",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 7,
+          "refId": "ATRA-WOH-II:ii.7",
+          "translit": "be-lí ni-šu i-na-az-zi-qá",
+          "cuneiform": null,
+          "notes": [
+            "*nazāqu* 'to worry, groan, suffer distress.'"
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 8,
+          "refId": "ATRA-WOH-II:ii.8",
+          "translit": "šu-ru-up-pu-ú-ku-nu i-ka-al ma-tam",
+          "cuneiform": null,
+          "notes": [
+            "*šuruppû* the plague (see editorial questions); *akālu* 'to consume, devour.' The god's own affliction 'eats' the land."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 9,
+          "refId": "ATRA-WOH-II:ii.9",
+          "translit": "(d)é-a pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 10,
+          "refId": "ATRA-WOH-II:ii.10",
+          "translit": "iz-za-kar a-na ARAD-šu",
+          "cuneiform": null,
+          "notes": [
+            "*wardu* (ARAD) 'servant' — Atra-ḫasīs as Enki's devotee."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 11,
+          "refId": "ATRA-WOH-II:ii.11",
+          "translit": "ši-si-ma ši-bu-ti ù pu-ru-us-sé-e",
+          "cuneiform": null,
+          "notes": [
+            "*šasû* 'to call'; *šībūtu* 'elders'; *purussû* 'decision, the deciding-assembly.' Enki's offering-concentration stratagem begins (see editorial questions)."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 12,
+          "refId": "ATRA-WOH-II:ii.12",
+          "translit": "e ta-ap-la-ḫa i-li-ku-un",
+          "cuneiform": null,
+          "notes": [
+            "*palāḫu* 'to fear, reverence'; prohibitive *ē*. The stratagem: withhold worship from all gods."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 13,
+          "refId": "ATRA-WOH-II:ii.13",
+          "translit": "e tu-ṣa-al-li-a (d)iš-tar-ku-un",
+          "cuneiform": null,
+          "notes": [
+            "*ṣullû* 'to pray'; Ištar here 'your goddess' generically."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 14,
+          "refId": "ATRA-WOH-II:ii.14",
+          "translit": "bāb (d)namtar ši-ʾa-a-ma",
+          "cuneiform": null,
+          "notes": [
+            "*bābu* 'door, gate'; *šeʾû* 'to seek.' Concentrate all reverence on the one god responsible; on *Namtar* see editorial questions."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 15,
+          "refId": "ATRA-WOH-II:ii.15",
+          "translit": "bi-il-la a-na pa-ni-šu ma-aṣ-ḫa-tam",
+          "cuneiform": null,
+          "notes": [
+            "*abālu* 'to bring'; *maṣḫatu* 'roasted-flour offering.'"
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 16,
+          "refId": "ATRA-WOH-II:ii.16",
+          "translit": "li-il-lik-šum-ma ni-qú-ú ma-aṣ-ḫa-tum",
+          "cuneiform": null,
+          "notes": [
+            "*niqû* 'offering, libation.' The god is to be flattered by concentrated devotion."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 17,
+          "refId": "ATRA-WOH-II:ii.17",
+          "translit": "li-ba-aš i-na kad-ri-šu-ma li-is-suḫ qá-as-su",
+          "cuneiform": null,
+          "notes": [
+            "*bâšu* 'to be ashamed'; *kadrû* 'gift, bribe-gift'; *nasāḫu qāta* 'to withdraw the (punishing) hand.' The heart of the stratagem (see editorial questions)."
+          ]
+        },
+        {
+          "col": "ii",
+          "n": 18,
+          "refId": "ATRA-WOH-II:ii.18",
+          "translit": "i-pu-šu-ma [ki-a-am] Namtar it-ta-di ri-gim-ši-in",
+          "cuneiform": null,
+          "notes": [
+            "Reconstructed close: the plague lifts. *nadû* 'to release, set down'; on *rigmu* see editorial questions."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drought-command",
+      "label": "Column iii — the interval returns; Enlil orders Adad to withhold the rain (Lambert–Millard II iii)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The reduction-interval (the recurring ~1200 years) and the renewed growth of humankind between afflictions are compressed; the draft resumes at the refrain and the drought-command.",
+        "i18n": {
+          "en": "[Editorial selection: the interval between plague and drought is compressed to the refrain.]"
+        }
+      },
+      "lines": [
+        {
+          "col": "iii",
+          "n": 1,
+          "refId": "ATRA-WOH-II:iii.1",
+          "translit": "[12-me] ša-na-tim la il-li-ka-ma",
+          "cuneiform": null,
+          "notes": [
+            "The reduction-interval; the numeral is damaged in the witnesses (1200 / 600) — see editorial questions. *šanātu* 'years'; *alāku* 'to pass.'"
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 2,
+          "refId": "ATRA-WOH-II:iii.2",
+          "translit": "ma-a-tum ir-ta-pi-iš ni-šu im-ti-da",
+          "cuneiform": null,
+          "notes": [
+            "The population-growth refrain repeats verbatim from II i 1."
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 3,
+          "refId": "ATRA-WOH-II:iii.3",
+          "translit": "i-na ḫu-bu-ri-ši-na i-lu it-ta-aʾ-dar",
+          "cuneiform": null,
+          "notes": [
+            "Refrain (cf. II i 3); on *ḫubūru* see editorial questions."
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 4,
+          "refId": "ATRA-WOH-II:iii.4",
+          "translit": "(d)en-líl iš-te-me ri-gi-im-ši-in",
+          "cuneiform": null,
+          "notes": [
+            "Refrain (cf. II i 4)."
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 5,
+          "refId": "ATRA-WOH-II:iii.5",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction refrain."
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 6,
+          "refId": "ATRA-WOH-II:iii.6",
+          "translit": "ik-ta-ab-ta ri-gi-im a-wi-lu-ti",
+          "cuneiform": null,
+          "notes": [
+            "Refrain (cf. II i 6); the overpopulation grievance restated."
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 7,
+          "refId": "ATRA-WOH-II:iii.7",
+          "translit": "(d)adad zu-un-na-šu li-šá-aq-qir",
+          "cuneiform": null,
+          "notes": [
+            "*Adad* the storm-god (central entry `adad-...`, applied for the name; note the INVERTED role — here rain is WITHHELD, drought not flood; see editorial questions); *zunnu* 'rain'; *waqāru* (Š) 'to make scarce, withhold.'"
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 8,
+          "refId": "ATRA-WOH-II:iii.8",
+          "translit": "ša-ap-liš a-a il-li-kam mi-lum i-na na-aq-bi",
+          "cuneiform": null,
+          "notes": [
+            "*šapliš* 'below'; *mīlu* 'high water, flood-surge'; *naqbu* 'underground spring, deep.' The subterranean water is cut off as well."
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 9,
+          "refId": "ATRA-WOH-II:iii.9",
+          "translit": "li-il-lik er-ṣe-tum bu-ul-ṭa-ša",
+          "cuneiform": null,
+          "notes": [
+            "*erṣetu* 'earth'; *bulṭu/balāṭu* here 'produce, sustenance.'"
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 10,
+          "refId": "ATRA-WOH-II:iii.10",
+          "translit": "li-ni-iʾ ir-tam (d)nissaba",
+          "cuneiform": null,
+          "notes": [
+            "*Nisaba* — the grain-goddess; *irtu* 'breast'; *nêʾu* 'to turn away.' The grain is withdrawn."
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 11,
+          "refId": "ATRA-WOH-II:iii.11",
+          "translit": "li-te-eʾ-ú eqlū ṣal-mu-tum",
+          "cuneiform": null,
+          "notes": [
+            "*eqlu* 'field'; *ṣalmu* 'black' (fertile soil) turning white — the salinization/drought image."
+          ]
+        },
+        {
+          "col": "iii",
+          "n": 12,
+          "refId": "ATRA-WOH-II:iii.12",
+          "translit": "li-ṣi-a-am ru-uš-tum id-ra-na",
+          "cuneiform": null,
+          "notes": [
+            "*idrānu* 'saltpetre, salt-crust' (an affliction-term; no glossary entry — see editorial questions). Salt where grain should grow — famine by drought."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drought-stratagem",
+      "label": "Column iv — Atra-ḫasīs appeals again; Enki's drought-stratagem, offerings concentrated on Adad (Lambert–Millard II iv, reconstructed)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The onset and bite of the drought-famine (col iii lower – col iv upper) is compressed; the draft resumes at Atra-ḫasīs' renewed appeal to Enki, which mirrors the plague-stratagem.",
+        "i18n": {
+          "en": "[Editorial selection: the onset of the drought-famine is compressed; the draft resumes at the renewed appeal, parallel to the plague-scene.]"
+        }
+      },
+      "lines": [
+        {
+          "col": "iv",
+          "n": 1,
+          "refId": "ATRA-WOH-II:iv.1",
+          "translit": "at-ra-am-ḫa-sí-is pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction (parallel to II ii 5)."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 2,
+          "refId": "ATRA-WOH-II:iv.2",
+          "translit": "iz-za-kar a-na (d)é-a be-li-šu",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 3,
+          "refId": "ATRA-WOH-II:iv.3",
+          "translit": "be-lí ni-šu i-na-az-zi-qá",
+          "cuneiform": null,
+          "notes": [
+            "Parallel refrain (cf. II ii 7)."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 4,
+          "refId": "ATRA-WOH-II:iv.4",
+          "translit": "bu-bu-tu-ku-nu i-ka-al ma-tam",
+          "cuneiform": null,
+          "notes": [
+            "*bubūtu* 'hunger, famine' (no glossary entry — see editorial questions); *akālu* 'to devour.' Now the affliction is hunger, not plague."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 5,
+          "refId": "ATRA-WOH-II:iv.5",
+          "translit": "(d)é-a pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 6,
+          "refId": "ATRA-WOH-II:iv.6",
+          "translit": "iz-za-kar a-na ARAD-šu",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 7,
+          "refId": "ATRA-WOH-II:iv.7",
+          "translit": "ši-si-ma ši-bu-ti ù pu-ru-us-sé-e",
+          "cuneiform": null,
+          "notes": [
+            "The stratagem repeats, now aimed at Adad (cf. II ii 11)."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 8,
+          "refId": "ATRA-WOH-II:iv.8",
+          "translit": "e ta-ap-la-ḫa i-li-ku-un",
+          "cuneiform": null,
+          "notes": [
+            "Refrain of the stratagem."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 9,
+          "refId": "ATRA-WOH-II:iv.9",
+          "translit": "e tu-ṣa-al-li-a (d)iš-tar-ku-un",
+          "cuneiform": null,
+          "notes": [
+            "Refrain."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 10,
+          "refId": "ATRA-WOH-II:iv.10",
+          "translit": "bāb (d)adad ši-ʾa-a-ma",
+          "cuneiform": null,
+          "notes": [
+            "The offerings now concentrated on Adad, the god responsible for the drought."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 11,
+          "refId": "ATRA-WOH-II:iv.11",
+          "translit": "bi-il-la a-na pa-ni-šu ma-aṣ-ḫa-tam",
+          "cuneiform": null,
+          "notes": [
+            "Parallel to II ii 15."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 12,
+          "refId": "ATRA-WOH-II:iv.12",
+          "translit": "li-ba-aš i-na kad-ri-šu-ma",
+          "cuneiform": null,
+          "notes": [
+            "*bâšu* + *kadrû* (cf. II ii 17)."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 13,
+          "refId": "ATRA-WOH-II:iv.13",
+          "translit": "li-še-eṣ-ṣi i-na mu-ši-im na-al-šu",
+          "cuneiform": null,
+          "notes": [
+            "*naltu/naršu* 'dew'; the shamed Adad relents by night."
+          ]
+        },
+        {
+          "col": "iv",
+          "n": 14,
+          "refId": "ATRA-WOH-II:iv.14",
+          "translit": "li-iš-ta-ra-aq-ma li-iz-nu-un ki-ma na-al-ši",
+          "cuneiform": null,
+          "notes": [
+            "*šarāqu* 'to do stealthily'; *zanānu* 'to rain.' Adad circumvents Enlil's ban by a secret night-rain — Enki's circumvention repeated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "years-of-famine",
+      "label": "Column v — the years of famine (Lambert–Millard II v, heavily damaged — outline only)",
+      "preceding_lacuna": {
+        "type": "damage",
+        "text": "Column v — the escalating years-of-famine catalogue — is very badly broken. The Old Babylonian tablet and the later recensions expand a progression (first year, second year … the people reduced to eating their own children); only fragments of the spine are recoverable and are given here in outline, heavily bracketed. Many lines are not reconstructed.",
+        "i18n": {
+          "en": "[Severe damage: column v, the years-of-famine catalogue, is largely lost. Only outline fragments are reconstructed; the full escalation is not recoverable here.]"
+        }
+      },
+      "lines": [
+        {
+          "col": "v",
+          "n": 1,
+          "refId": "ATRA-WOH-II:v.1",
+          "translit": "e-nu-ma ša-at-tum ša-ni-tum ik-šu-dam",
+          "cuneiform": null,
+          "notes": [
+            "*šattu* 'year'; *kašādu* 'to arrive.' The famine-catalogue counts by years (cf. the recension expansions)."
+          ]
+        },
+        {
+          "col": "v",
+          "n": 2,
+          "refId": "ATRA-WOH-II:v.2",
+          "translit": "[i-mu]-ú ma-ak-ku-ra",
+          "cuneiform": null,
+          "notes": [
+            "Heavily reconstructed; *makkūru* 'property, stores.' Sense-of-line only."
+          ]
+        },
+        {
+          "col": "v",
+          "n": 3,
+          "refId": "ATRA-WOH-II:v.3",
+          "translit": "e-nu-ma re-bu-tum ik-šu-dam",
+          "cuneiform": null,
+          "notes": [
+            "The progression continues; the intervening lines are lost."
+          ]
+        },
+        {
+          "col": "v",
+          "n": 4,
+          "refId": "ATRA-WOH-II:v.4",
+          "translit": "ik-ru-ú pa-ap-pa-al-ta-šu-nu ra-pa-áš-tum",
+          "cuneiform": null,
+          "notes": [
+            "*karû* 'to become short/narrow'; the wasting of the starving. Reconstruction uncertain."
+          ]
+        },
+        {
+          "col": "v",
+          "n": 5,
+          "refId": "ATRA-WOH-II:v.5",
+          "translit": "e-nu-ma ḫa-am-uš-tum [še-di-iš-tum] ik-šu-dam",
+          "cuneiform": null,
+          "notes": [
+            "The catalogue climbs toward the famine's extremity; the following lines (the eating of the children) are lost here."
+          ]
+        },
+        {
+          "col": "v",
+          "n": 6,
+          "refId": "ATRA-WOH-II:v.6",
+          "translit": "[ma-ar-tam a-na ma-ka-li-im ...]",
+          "cuneiform": null,
+          "notes": [
+            "Only a fragment survives of the famine's horror; not reconstructed further. Marked outline-only."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enlil-rage",
+      "label": "Columns vi–vii — Enlil's rage at Enki's circumvention; the divine assembly (Lambert–Millard II vi–vii, damaged — outline)",
+      "preceding_lacuna": {
+        "type": "damage",
+        "text": "Columns vi–vii are broken. The recoverable spine: Enlil, thwarted a second time, convenes the assembly and denounces the gods' laxity, then recognizes that Ea (Enki) has repeatedly circumvented the afflictions. Given in outline.",
+        "i18n": {
+          "en": "[Damage: columns vi–vii are broken; the assembly-and-accusation spine is given in outline.]"
+        }
+      },
+      "lines": [
+        {
+          "col": "vi",
+          "n": 1,
+          "refId": "ATRA-WOH-II:vi.1",
+          "translit": "(d)en-líl iš-ta-kan pu-uḫ-ra-šu",
+          "cuneiform": null,
+          "notes": [
+            "*puḫru* 'assembly'; *šakānu* 'to set, convene.'"
+          ]
+        },
+        {
+          "col": "vi",
+          "n": 2,
+          "refId": "ATRA-WOH-II:vi.2",
+          "translit": "iz-za-kar a-na i-li ma-ri-šu",
+          "cuneiform": null,
+          "notes": [
+            "*mārū* 'sons'; the junior gods."
+          ]
+        },
+        {
+          "col": "vi",
+          "n": 3,
+          "refId": "ATRA-WOH-II:vi.3",
+          "translit": "gi-mi-il-ku-nu na-di i-na ni-ši",
+          "cuneiform": null,
+          "notes": [
+            "*gimillu* 'requital, restraint'; *nadû* 'to cast down, waste.'"
+          ]
+        },
+        {
+          "col": "vi",
+          "n": 4,
+          "refId": "ATRA-WOH-II:vi.4",
+          "translit": "aš-šum ḫu-bu-ri-ši-na la a-ṣa-lal a-na-ku",
+          "cuneiform": null,
+          "notes": [
+            "*ṣalālu* 'to sleep'; the insomnia-grievance returns; on *ḫubūru* see editorial questions."
+          ]
+        },
+        {
+          "col": "vii",
+          "n": 1,
+          "refId": "ATRA-WOH-II:vii.1",
+          "translit": "wa-ar-ki-šu (d)é-a te-ma iš-ku-un",
+          "cuneiform": null,
+          "notes": [
+            "*warki* 'behind, after'; *ṭēmu* here 'plan, scheme' (a DIFFERENT sense from the overlay ṭēmu-pun entry — see editorial questions). Enlil identifies Enki as the circumventer."
+          ]
+        },
+        {
+          "col": "vii",
+          "n": 2,
+          "refId": "ATRA-WOH-II:vii.2",
+          "translit": "ip-ta-na-ra-as ši-ip-ra-am ša (d)en-líl",
+          "cuneiform": null,
+          "notes": [
+            "*parāsu* (Gtn) 'to keep cutting off, thwarting'; *šipru* 'work, task, mission.'"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flood-resolved",
+      "label": "Columns vii–viii — Enlil resolves upon the Flood and binds the gods by oath (Lambert–Millard II vii–viii, damaged — outline; the pivot into Tablet III)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The final movement of Tablet II (the escalation from the failed lesser afflictions to the flood, and the oath) survives only in part and continues into Tablet III. The spine — the decree of the abūbu (flood) as the final population-solution, and the oath of secrecy binding the gods — is given in outline.",
+        "i18n": {
+          "en": "[Editorial selection / damage: the flood-decree and oath survive in part and continue into Tablet III; given here in outline.]"
+        }
+      },
+      "lines": [
+        {
+          "col": "vii",
+          "n": 3,
+          "refId": "ATRA-WOH-II:vii.3",
+          "translit": "(d)en-líl pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "col": "vii",
+          "n": 4,
+          "refId": "ATRA-WOH-II:vii.4",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "Speech-introduction."
+          ]
+        },
+        {
+          "col": "vii",
+          "n": 5,
+          "refId": "ATRA-WOH-II:vii.5",
+          "translit": "a-bu-ba-am lu-uš-ku-un a-na na-ap-ḫar ni-ši",
+          "cuneiform": null,
+          "notes": [
+            "*abūbu* 'the Flood' (central flood-vocabulary; the final solution); *napḫaru* 'totality'; *nišū* 'people.' The population-control escalates from plague and famine to annihilation — the cause is the noise, not moral corruption (contrast Genesis; see editorial questions)."
+          ]
+        },
+        {
+          "col": "viii",
+          "n": 1,
+          "refId": "ATRA-WOH-II:viii.1",
+          "translit": "ni-il-qé-a-am ma-mi-tam",
+          "cuneiform": null,
+          "notes": [
+            "*māmītu* 'oath, curse-bound oath'; *leqû* 'to take.' Enlil demands the gods swear to secrecy."
+          ]
+        },
+        {
+          "col": "viii",
+          "n": 2,
+          "refId": "ATRA-WOH-II:viii.2",
+          "translit": "ú-tam-mi (d)a-nu-um (d)en-líl i-li ka-la-šu-nu",
+          "cuneiform": null,
+          "notes": [
+            "*tamû* (D) 'to make swear, bind by oath'; the oath of secrecy imposed on the whole pantheon."
+          ]
+        },
+        {
+          "col": "viii",
+          "n": 3,
+          "refId": "ATRA-WOH-II:viii.3",
+          "translit": "(d)é-a it-ti-šu-nu it-ta-mi",
+          "cuneiform": null,
+          "notes": [
+            "Enki is bound by the same oath — the tension that in Tablet III he resolves by speaking the plan not to Atra-ḫasīs but to the reed-wall, keeping the letter of the oath while circumventing it."
+          ]
+        }
+      ]
+    }
+  ]
+}

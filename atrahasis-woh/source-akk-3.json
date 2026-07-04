@@ -1,0 +1,1134 @@
+{
+  "schemaVersion": 2,
+  "bookSlug": "atrahasis-woh",
+  "composition": 3,
+  "source": {
+    "type": "akkadian-composite-reconstruction",
+    "versionTitle": "Atra-ḫasīs, Tablet III — best-effort reconstruction from named scholarly editions (the Old Babylonian flood tablet)",
+    "verificationStatus": "best-effort-reconstruction-pending-verification. Reconstructed from the standard scholarly editions (Lambert & Millard 1969, the critical edition; George & Al-Rawi 1996 for the Old Babylonian Sippar witnesses; Foster 2005 Before the Muses 3rd ed.). Line-numbering follows Lambert–Millard 1969, which cites Tablet III by column (III i–viii); this file encodes column and line in the refId as ATRA-WOH-III:{col}.{line}. The eBL corpus L.1.1 (ebl.lmu.de/corpus/L/1/1) and SEAL served as a collation aid only (CC BY-NC — not reproduced). The sign-by-sign transliteration is a best-effort reconstruction and is PENDING COLLATION against Lambert–Millard 1969 and eBL L.1.1; per-line sign values may contain reconstruction errors. Tablet III — the Old Babylonian flood tablet of the scribe Ipiq-Aya (Ku-Aya) — is the best-preserved of the three tablets, so it is reconstructed more fully here than the fragmentary Tablets I–II; the sense of each line is well-attested across the cited editions and should match the downstream English faithfully. This draft curates the flood-arc (the reed-wall warning, the boat, the deluge, Nintu's lament, the gods' hunger, the offering, Enlil's rage, Enki's defense, and the population-limit apparatus); some intervening lines are compressed and marked with editorial-selection gap notes.",
+    "license": "Transliteration is a best-effort reconstruction from the cited scholarly editions (Lambert & Millard 1969; George & Al-Rawi 1996; Foster 2005); not reproduced from any single copyrighted edition. All Wheel of Heaven English rendering is original to this project (CC0-1.0).",
+    "fetchedFrom": "scholarly editions (not openly digitized — see citations); eBL L.1.1 consulted as collation aid only",
+    "fetchedAt": "2026-07-04",
+    "citations": [
+      "Lambert, W. G., & Millard, A. R., Atra-ḫasīs: The Babylonian Story of the Flood (Oxford 1969) — the standard critical edition; line-numbering authority for this text (Tablet III cited by column i–viii).",
+      "George, A. R., & Al-Rawi, F. N. H., 'Tablets from the Sippar Library VI: Atra-ḫasīs,' Iraq 58 (1996), pp. 147–190 — the Old Babylonian Sippar witnesses.",
+      "Foster, B. R., Before the Muses: An Anthology of Akkadian Literature, 3rd ed. (Bethesda 2005), pp. 227–280 — the accessible English translation ('Atrahasis').",
+      "electronic Babylonian Library (eBL), corpus L.1.1, ebl.lmu.de/corpus/L/1/1 — consulted as a collation aid only (CC BY-NC; not reproduced).",
+      "Sources of Early Akkadian Literature (SEAL) — consulted as a collation aid only.",
+      "Kilmer, A. D., 'The Mesopotamian Concept of Overpopulation and Its Solution as Reflected in the Mythology,' Orientalia 41 (1972) — for the overpopulation/population-limit frame of the flood's aftermath.",
+      "Bottéro, J., & Kramer, S. N., Lorsque les dieux faisaient l'homme (Paris 1989), pp. 526–564 — French edition and commentary."
+    ],
+    "fragmentationNote": "Atra-ḫasīs is a three-tablet Old Babylonian epic (c. 1700 BCE), best preserved in the copy of the scribe Ipiq-Aya / Ku-Aya (reign of Ammi-ṣaduqa). Tablet III is the flood tablet: after Enlil's earlier attempts to reduce humankind (plague, drought, famine — Tablet I end and Tablet II) fail, the council decrees the Flood (abūbu). Tablet III opens with Enki (Ea), oath-bound not to warn a human directly, addressing the reed wall (igāru / kikkišu) of Atra-ḫasīs's hut so that the man overhears: dismantle the house, build a boat (eleppu) roofed like the Apsû and sealed with pitch (kupru), abandon possessions, and keep life (napištu) alive. Atra-ḫasīs loads his family and living creatures; Adad's storm and the seven-day, seven-night Flood destroy humankind; Enki's own heart breaks; the birth-goddess Nintu / Bēlet-ilī / Mami wails for her offspring, who 'fill the river like dragonflies'; the gods, cut off from human offerings, hunger and thirst. When the Flood recedes, Atra-ḫasīs offers a sacrifice, and the starved gods gather over it 'like flies.' Enlil arrives enraged that a human survived; Enki confesses and defends his stratagem, urging measured checks in place of another total flood. Nintu then establishes permanent limits on human fertility — non-bearing women (lā ālittu), the infant-snatching pašittu-demon, and celibate priestess classes (ugbabtu, entu, igiṣītu) under a birth-taboo — together with settled mortality (mūtu), so that the clamor of humankind never again grows unbearable. This is the Mesopotamian flood-narrative in its oldest connected form, the direct antecedent of Gilgamesh XI and a comparandum to Genesis 6–9. This source file reconstructs the flood-arc; intervening spans not reconstructed here are flagged with editorial-selection gap notes in each segment."
+  },
+  "segments": [
+    {
+      "id": "reed-wall-warning",
+      "label": "Enki warns Atra-ḫasīs through the reed wall — dismantle the house, build the boat, save life (Lambert–Millard III i, curated)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The end of Tablet I and all of Tablet II are not reconstructed in this draft: the multiplication of humankind, the clamor that disturbs Enlil, and Enlil's successive attempts to reduce humankind (plague, drought, famine) before the council decrees the Flood (abūbu). Tablet III opens with Enki, oath-bound not to warn a human directly, addressing the reed wall of Atra-ḫasīs's reed hut so that the man overhears.",
+        "i18n": {
+          "en": "[Editorial selection: the end of Tablet I and all of Tablet II — the growth of humankind, the clamor, and Enlil's plague, drought, and famine — are not reconstructed in this draft. Tablet III opens with Enki addressing the reed wall.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-III:i.11",
+          "translit": "i-ga-ru ši-ta-am-mi-a-an-ni",
+          "cuneiform": null,
+          "notes": [
+            "*igāru* 'wall.' Enki addresses the reed wall of the hut, not Atra-ḫasīs directly — the loophole by which he keeps the divine oath (mamītu) while the man overhears. See editorial question on the reed-wall address."
+          ]
+        },
+        {
+          "n": 12,
+          "refId": "ATRA-WOH-III:i.12",
+          "translit": "ki-ik-ki-šu ṣú-ur-ri ka-la zi-ik-ri-ia",
+          "cuneiform": null,
+          "notes": [
+            "*kikkišu* 'reed-fence, reed hut wall'; parallels Gilgamesh XI:21 *kikkiš kikkiš igār igār*."
+          ]
+        },
+        {
+          "n": 13,
+          "refId": "ATRA-WOH-III:i.13",
+          "translit": "ú-qú-ur bi-ta bi-ni e-le-ep-pa",
+          "cuneiform": null,
+          "notes": [
+            "*eleppa binī* 'build a boat' — the *eleppu*. See editorial question on the flood-vessel term."
+          ]
+        },
+        {
+          "n": 14,
+          "refId": "ATRA-WOH-III:i.14",
+          "translit": "ma-ak-ku-ra ze-er-ma na-pí-iš-ta bu-ul-li-iṭ",
+          "cuneiform": null,
+          "notes": [
+            "*makkūra zērma napišta bulliṭ* — 'reject property and keep *napištu* (life) alive.' See editorial question on *napištu* 'save life.'"
+          ]
+        },
+        {
+          "n": 15,
+          "refId": "ATRA-WOH-III:i.15",
+          "translit": "e-le-ep-pa ša ta-ba-an-nu-ú [at-ta]",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 16,
+          "refId": "ATRA-WOH-III:i.16",
+          "translit": "[lu] mi-it-ḫu-ra-at ru-up-pu-sà ù mu-ra-ak-sà",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 17,
+          "refId": "ATRA-WOH-III:i.17",
+          "translit": "ṣú-ul-li-il-ši ki-ma ap-si-i",
+          "cuneiform": null,
+          "notes": [
+            "*ṣullilši kīma apsî* — roof the boat like the Apsû (Enki's cosmic freshwater domain), sealing it from above."
+          ]
+        },
+        {
+          "n": 18,
+          "refId": "ATRA-WOH-III:i.18",
+          "translit": "ša (d)utu la i-na-aṭ-ṭa-lu qe-re-eb-ša",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 19,
+          "refId": "ATRA-WOH-III:i.19",
+          "translit": "lu ṣú-ul-lu-la-at e-le-nu-um ù ša-ap-la-nu-um",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 20,
+          "refId": "ATRA-WOH-III:i.20",
+          "translit": "lu du-un-nu-na ú-na-tu-ša",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 21,
+          "refId": "ATRA-WOH-III:i.21",
+          "translit": "lu da-an ku-up-ru lu e-mu-uq",
+          "cuneiform": null,
+          "notes": [
+            "*kupru* 'bitumen/pitch' — the boat-sealing agent; Semitic cognate of Hebrew *kōfer* (Gen 6:14). Central entry renders 'bitumen' in Akkadian contexts, 'pitch' in Genesis."
+          ]
+        },
+        {
+          "n": 22,
+          "refId": "ATRA-WOH-III:i.22",
+          "translit": "a-na-ku ú-ša-az-na-na-ak-ku-um-ma",
+          "cuneiform": null,
+          "notes": [
+            "Enki's ambiguous omen: he promises a downpour 'of birds and fish' — a deceptive sign screening the true meaning of the coming abūbu. Tied to the Ea-warning/deception crux."
+          ]
+        },
+        {
+          "n": 23,
+          "refId": "ATRA-WOH-III:i.23",
+          "translit": "ḫi-iṣ-bi iṣ-ṣú-ri bu-du-ri nu-ú-ni",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boat-boarding-and-sealing",
+      "label": "Atra-ḫasīs builds and loads the boat; the elders, the banquet, the boarding, and the sealing of the door (Lambert–Millard III ii, curated)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "Lines III i 24 to III ii 9 (Atra-ḫasīs's reply to Enki, the mustering of the carpenter and the reed-worker, and the details of the boat's construction) are not reconstructed here.",
+        "i18n": {
+          "en": "[Editorial selection: the construction details and the mustering of the craftsmen (III i 24 – III ii 9) are not reconstructed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 10,
+          "refId": "ATRA-WOH-III:ii.10",
+          "translit": "[a]-tar-ḫa-sí-is il-qá-a te4-e-ma",
+          "cuneiform": null,
+          "notes": [
+            "First surviving occurrence of the protagonist's name in this draft. *Atra-ḫasīs* means 'exceedingly wise' (*atra* + *ḫasīsu*). See editorial question on the name's meaning."
+          ]
+        },
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-III:ii.11",
+          "translit": "ši-bu-ti ú-pa-aḫ-ḫi-ir a-na ba-bi-šu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 12,
+          "refId": "ATRA-WOH-III:ii.12",
+          "translit": "[a-tar-ḫa]-sí-is pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 13,
+          "refId": "ATRA-WOH-III:ii.13",
+          "translit": "iz-za-kar a-na ši-bu-ti",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 14,
+          "refId": "ATRA-WOH-III:ii.14",
+          "translit": "it-ti i-li-ku-nu i-li ú-ul im-ta-ag-ru",
+          "cuneiform": null,
+          "notes": [
+            "Atra-ḫasīs's cover story to the townsfolk: Enki (his god) and Enlil have quarreled, so he must leave Enlil's domain. He conceals the coming flood."
+          ]
+        },
+        {
+          "n": 15,
+          "refId": "ATRA-WOH-III:ii.15",
+          "translit": "(d)en-ki ù (d)en-líl ze-nu-ú a-ḫa-mi-iš",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 16,
+          "refId": "ATRA-WOH-III:ii.16",
+          "translit": "uš-te-ṣú-ú-in-ni i-na ma-ti-ku-nu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 18,
+          "refId": "ATRA-WOH-III:ii.18",
+          "translit": "mi-im-ma i-šu-ú i-ṣe-en-ši",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 19,
+          "refId": "ATRA-WOH-III:ii.19",
+          "translit": "ṣé-e-ni-šu bu-la-am ú-še-li a-na li-ib-bi",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 20,
+          "refId": "ATRA-WOH-III:ii.20",
+          "translit": "iṣ-ṣú-ri ša-me-e ù bu-ú-la ša ṣe-ri",
+          "cuneiform": null,
+          "notes": [
+            "The loading of living creatures; parallels the 'seed of all living things' aitia (preservation entry)."
+          ]
+        },
+        {
+          "n": 21,
+          "refId": "ATRA-WOH-III:ii.21",
+          "translit": "ki-im-ta-šu ú-še-ri-ib a-na e-le-ep-pí",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 22,
+          "refId": "ATRA-WOH-III:ii.22",
+          "translit": "e-ku-lu ik-ka-lu iš-tu-ú iš-ta-tu-ú",
+          "cuneiform": null,
+          "notes": [
+            "The banquet on the eve of the flood."
+          ]
+        },
+        {
+          "n": 23,
+          "refId": "ATRA-WOH-III:ii.23",
+          "translit": "šu-ú i-ru-ub ú-ṣí-a-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 24,
+          "refId": "ATRA-WOH-III:ii.24",
+          "translit": "ú-ul ú-ši-ib ú-ul i-ka-am-mi-is",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 25,
+          "refId": "ATRA-WOH-III:ii.25",
+          "translit": "ḫe-pí li-ib-ba-šu i-ma-aʾ ma-ar-ta-am",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 26,
+          "refId": "ATRA-WOH-III:ii.26",
+          "translit": "zi-mu ša u4-mi it-ta-ak-ru",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 27,
+          "refId": "ATRA-WOH-III:ii.27",
+          "translit": "(d)adad i-ša-ag-gu-um i-na er-pe-ti",
+          "cuneiform": null,
+          "notes": [
+            "*Adad*, the storm-god, is the instrument of the flood; his roar in the clouds is the onset-sign. Cross-corpus to Hadad / Baʿlu."
+          ]
+        },
+        {
+          "n": 28,
+          "refId": "ATRA-WOH-III:ii.28",
+          "translit": "i-ša-am-me ri-gi-im-šu-ma",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 29,
+          "refId": "ATRA-WOH-III:ii.29",
+          "translit": "it-ta-ad-di ku-up-ra a-na pí-ḫi ba-bi-šu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 30,
+          "refId": "ATRA-WOH-III:ii.30",
+          "translit": "iš-tu-ma i-di-lu ba-ab-šu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 31,
+          "refId": "ATRA-WOH-III:ii.31",
+          "translit": "(d)adad i-ša-ag-gu-um i-na er-pe-ti",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 32,
+          "refId": "ATRA-WOH-III:ii.32",
+          "translit": "ša-a-ru uz-zu-zu i-na te-bi-šu",
+          "cuneiform": null,
+          "notes": [
+            "*šāru* 'wind' — the destructive-storm vocabulary (cf. *imḫullu*)."
+          ]
+        },
+        {
+          "n": 33,
+          "refId": "ATRA-WOH-III:ii.33",
+          "translit": "ip-ru-uʾ ma-ar-ka-sa e-le-ep-pa ip-ṭú-ur",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-flood-breaks",
+      "label": "The Flood breaks: Anzû rends the sky, the deluge comes upon the peoples like a battle, and Enki's heart breaks (Lambert–Millard III iii, curated)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The column break between III ii and III iii falls in a damaged span; the opening lines of III iii are fragmentary and are not reconstructed here.",
+        "i18n": {
+          "en": "[Editorial selection: the fragmentary opening of column III iii is not reconstructed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 6,
+          "refId": "ATRA-WOH-III:iii.6",
+          "translit": "(d)an-zu-ú i-na ṣú-up-ri-šu ša-ma-i ú-ša-ar-ri-iṭ",
+          "cuneiform": null,
+          "notes": [
+            "The Anzû-bird tears the heavens; a storm-theophany image."
+          ]
+        },
+        {
+          "n": 7,
+          "refId": "ATRA-WOH-III:iii.7",
+          "translit": "[ma-ta] ki-ma ka-ar-pa-tim ri-gi-im-ša iš-ḫu-uṭ",
+          "cuneiform": null,
+          "notes": [
+            "Uncertain: the line is often read as the storm shattering the land 'like a pot.' The clamor (*rigmu*) that provoked the flood is silenced. Sense pending."
+          ]
+        },
+        {
+          "n": 8,
+          "refId": "ATRA-WOH-III:iii.8",
+          "translit": "[i-ba-aʾ] a-bu-bu e-li ni-ši",
+          "cuneiform": null,
+          "notes": [
+            "*abūbu* 'the Flood, the deluge.' See editorial question on the flood-term. Central entry renders 'the flood.'"
+          ]
+        },
+        {
+          "n": 9,
+          "refId": "ATRA-WOH-III:iii.9",
+          "translit": "ki-ma qá-ab-li e-li a-wi-lu-ti i-ba-aʾ e-mu-uq-šu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 10,
+          "refId": "ATRA-WOH-III:iii.10",
+          "translit": "ú-ul im-ma-ar a-wi-lum a-ḫi-šu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-III:iii.11",
+          "translit": "ú-ul ú-ta-ad-du-ú i-na ka-ra-ši-i",
+          "cuneiform": null,
+          "notes": [
+            "*karāšu* 'catastrophe, destruction' — the flood-annihilation."
+          ]
+        },
+        {
+          "n": 12,
+          "refId": "ATRA-WOH-III:iii.12",
+          "translit": "a-bu-bu ki-ma li-i i-ša-ap-pu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 13,
+          "refId": "ATRA-WOH-III:iii.13",
+          "translit": "ša-a-ru [ki-ma] a-ri-i i-na-aq-qá-ru",
+          "cuneiform": null,
+          "notes": [
+            "Uncertain simile; the destructive wind (*šāru* / *imḫullu*) howls. Sense pending."
+          ]
+        },
+        {
+          "n": 14,
+          "refId": "ATRA-WOH-III:iii.14",
+          "translit": "e-ṭú-tum-ma ú-ul i-ba-aš-ši (d)utu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 15,
+          "refId": "ATRA-WOH-III:iii.15",
+          "translit": "[i-lu] ip-ta-al-ḫu a-na ri-gi-im a-bu-bi",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 16,
+          "refId": "ATRA-WOH-III:iii.16",
+          "translit": "(d)en-ki uš-ta-an-na-aḫ li-ib-ba-šu",
+          "cuneiform": null,
+          "notes": [
+            "Enki's private anguish; the wisdom-god's own heart breaks over the destruction of his creation. Tied to the 'Enki deliberates in his own heart' idiom."
+          ]
+        },
+        {
+          "n": 17,
+          "refId": "ATRA-WOH-III:iii.17",
+          "translit": "i-na a-ma-ri-šu ma-ru-šu na-du-ú ma-aḫ-ru-uš-šu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nintu-laments-and-gods-hunger",
+      "label": "Nintu / Bēlet-ilī wails for her offspring, who fill the sea like dragonflies; the gods, cut off from offerings, hunger and thirst (Lambert–Millard III iii–iv, curated)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 4,
+          "refId": "ATRA-WOH-III:iv.4",
+          "translit": "(d)nin-tu ra-bi-tum ša-ap-ta-ša ú-na-aš-ša-ak",
+          "cuneiform": null,
+          "notes": [
+            "Nintu / Bēlet-ilī / Mami, the birth-goddess who fashioned humankind (Tablet I), now grieves her offspring. Divine-feminine lament."
+          ]
+        },
+        {
+          "n": 5,
+          "refId": "ATRA-WOH-III:iv.5",
+          "translit": "(d)be-le-et-ì-lí i-ba-ak-ki ta-ba-ka-ša",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 6,
+          "refId": "ATRA-WOH-III:iv.6",
+          "translit": "ki-ma ku-li-li im-la-a na-ra-am",
+          "cuneiform": null,
+          "notes": [
+            "*kīma kulīlī imlaʾū nāra* — the celebrated simile: the drowned dead fill the watercourse like dragonflies. A highlight of Mami's lament."
+          ]
+        },
+        {
+          "n": 7,
+          "refId": "ATRA-WOH-III:iv.7",
+          "translit": "ki-ma a-mi-im i-na ṣe-ri ir-ta-ak-bu a-na ki-ib-ri",
+          "cuneiform": null,
+          "notes": [
+            "Uncertain second simile; the corpses beach at the water's edge. Sense pending."
+          ]
+        },
+        {
+          "n": 8,
+          "refId": "ATRA-WOH-III:iv.8",
+          "translit": "a-mu-ur-ši-na-ti-ma e-li-ši-na ab-ki-i",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 9,
+          "refId": "ATRA-WOH-III:iv.9",
+          "translit": "ú-qá-at-ti di-ma-ti e-li-ši-na",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 10,
+          "refId": "ATRA-WOH-III:iv.10",
+          "translit": "ib-ki-i-ma li-ib-ba-ša ú-na-ap-pi-iš",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-III:iv.11",
+          "translit": "i-lu it-ti-ša i-ba-ak-ku-ú a-na ma-tim",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 12,
+          "refId": "ATRA-WOH-III:iv.12",
+          "translit": "ša-ab-ʾa-at ni-is-sà-tam-ma i-ṣa-am-me-e a-na ši-ik-ri",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 16,
+          "refId": "ATRA-WOH-III:iv.16",
+          "translit": "ṣa-mu-ú ša-ap-ta-šu-nu i-lu i-na bu-bu-ti",
+          "cuneiform": null,
+          "notes": [
+            "The gods, cut off from human offerings by the flood, suffer hunger and thirst — the mutual dependence of gods and humankind, the flip-side of the corvée that the poem exists to explain."
+          ]
+        },
+        {
+          "n": 18,
+          "refId": "ATRA-WOH-III:iv.18",
+          "translit": "(d)a-nun-na i-lu ra-bu-tum",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 19,
+          "refId": "ATRA-WOH-III:iv.19",
+          "translit": "uš-bu i-na ṣú-mi ù bu-bu-ti",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "flood-recedes-and-offering",
+      "label": "Seven days and seven nights; the Flood recedes; Atra-ḫasīs offers, and the gods gather over it like flies (Lambert–Millard III iv–v, curated)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The intervening span of Nintu's lament and the passage of the storm (III iv 20 – III v 33) is compressed; the draft resumes at the seven-day span and the sacrifice.",
+        "i18n": {
+          "en": "[Editorial selection: the remainder of Nintu's lament and the passage of the storm (III iv 20 – III v 33) are compressed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 34,
+          "refId": "ATRA-WOH-III:v.34",
+          "translit": "u4 7-kam ù mu-ši 7",
+          "cuneiform": null,
+          "notes": [
+            "*ūmū sebe u mūšī sebe* — the Mesopotamian seven-day flood-duration; the Hebrew tradition has forty days (Gen 7:12). Central entry documents the divergence."
+          ]
+        },
+        {
+          "n": 35,
+          "refId": "ATRA-WOH-III:v.35",
+          "translit": "il-li-ik a-bu-bu ra-ḫi-iṣ [me-ḫu-ú]",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 36,
+          "refId": "ATRA-WOH-III:v.36",
+          "translit": "i-nu-uḫ-ma me-ḫu-ú a-bu-bu ik-la",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 38,
+          "refId": "ATRA-WOH-III:v.38",
+          "translit": "[a-tar-ḫa-sí-is] uš-te-ṣí-a-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "In Atra-ḫasīs the boat's grounding and the bird-episode are not preserved as they are in Gilgamesh XI; the draft passes directly to the sacrifice."
+          ]
+        },
+        {
+          "n": 39,
+          "refId": "ATRA-WOH-III:v.39",
+          "translit": "iš-ku-un ni-qá-a-am [a-na i-li]",
+          "cuneiform": null,
+          "notes": [
+            "*niqû* 'offering, sacrifice' — the post-flood thanksgiving sacrifice, a fixed flood-narrative trope (Gilgamesh XI, Genesis 8)."
+          ]
+        },
+        {
+          "n": 40,
+          "refId": "ATRA-WOH-III:v.40",
+          "translit": "iš-ši-ma ni-qá-a-am a-na pa-an i-li",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 41,
+          "refId": "ATRA-WOH-III:v.41",
+          "translit": "i-lu i-ṣi-nu i-ri-ša",
+          "cuneiform": null,
+          "notes": [
+            "The gods smell the *erešu* (savor) of the offering — the setup for the 'like flies' simile."
+          ]
+        },
+        {
+          "n": 42,
+          "refId": "ATRA-WOH-III:v.42",
+          "translit": "ki-ma zu-um-bi e-li ni-qí-i ip-taḫ-ru",
+          "cuneiform": null,
+          "notes": [
+            "*kīma zumbī eli niqî iptaḫrū* — the striking simile: the starved gods swarm the first sacrifice like flies. Directly parallel to Gilgamesh XI:159; contrasts with the Genesis 8:21 'pleasing aroma.' See editorial question."
+          ]
+        },
+        {
+          "n": 43,
+          "refId": "ATRA-WOH-III:v.43",
+          "translit": "iš-tu-ma i-ku-lu ni-qá-a-am",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 44,
+          "refId": "ATRA-WOH-III:v.44",
+          "translit": "(d)nin-tu it-be-e-ma na-ap-ḫa-ar-šu-un tu-uz-za-am",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 45,
+          "refId": "ATRA-WOH-III:v.45",
+          "translit": "e-eš i-li-ik-ma (d)a-num be-el ṭe4-e-mi",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 46,
+          "refId": "ATRA-WOH-III:v.46",
+          "translit": "(d)en-líl iṭ-ḫe-e a-na qú-ut-ri-in-ni",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 47,
+          "refId": "ATRA-WOH-III:v.47",
+          "translit": "ša la im-tal-ku-ma iš-ku-nu a-bu-bu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 48,
+          "refId": "ATRA-WOH-III:v.48",
+          "translit": "ù ni-ši im-nu-ú a-na ka-ra-ši-i",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enlil-rage-and-enki-defense",
+      "label": "Enlil rages that a human survived; Enki confesses and defends his stratagem, and proposes measured checks in place of a flood (Lambert–Millard III vi, curated)",
+      "preceding_lacuna": null,
+      "lines": [
+        {
+          "n": 5,
+          "refId": "ATRA-WOH-III:vi.5",
+          "translit": "(d)en-líl i-na a-ma-ri-šu e-le-ep-pa",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 6,
+          "refId": "ATRA-WOH-III:vi.6",
+          "translit": "im-ta-li li-ib-ba-tim ša (d)i-gi-gi",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 7,
+          "refId": "ATRA-WOH-III:vi.7",
+          "translit": "ni-i-nu ra-bu-tum (d)a-nun-na ka-lu-ni",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 8,
+          "refId": "ATRA-WOH-III:vi.8",
+          "translit": "iš-te-ni-iš ni-iš-ku-un ma-mi-tam",
+          "cuneiform": null,
+          "notes": [
+            "*mamītu* 'oath, binding curse' — the divine oath that no one warn humankind, the very oath Enki circumvented by speaking to the wall."
+          ]
+        },
+        {
+          "n": 9,
+          "refId": "ATRA-WOH-III:vi.9",
+          "translit": "e-eš-ta uṣ-ṣí-a-am na-pí-iš-tum",
+          "cuneiform": null,
+          "notes": [
+            "*napištu* 'life' — Enlil's outrage that *napištu* survived the flood. See editorial question on *napištu*."
+          ]
+        },
+        {
+          "n": 10,
+          "refId": "ATRA-WOH-III:vi.10",
+          "translit": "ki-i ib-lu-uṭ a-wi-lum i-na ka-ra-ši-i",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-III:vi.11",
+          "translit": "(d)a-num pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 12,
+          "refId": "ATRA-WOH-III:vi.12",
+          "translit": "iz-za-kar a-na qú-ra-di (d)en-líl",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 13,
+          "refId": "ATRA-WOH-III:vi.13",
+          "translit": "ma-an-nu-um-ma ša la (d)en-ki i-ip-pu-šu a-wa-tam",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 14,
+          "refId": "ATRA-WOH-III:vi.14",
+          "translit": "[a-na-ku] ú-ul ú-pa-at-ti ṭe4-e-em i-li",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 15,
+          "refId": "ATRA-WOH-III:vi.15",
+          "translit": "(d)en-ki pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 16,
+          "refId": "ATRA-WOH-III:vi.16",
+          "translit": "iz-za-kar a-na i-li ra-bu-tim",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 17,
+          "refId": "ATRA-WOH-III:vi.17",
+          "translit": "i-na ba-li-ku-nu-ma e-te-pu-uš",
+          "cuneiform": null,
+          "notes": [
+            "Enki's confession: he acted deliberately to preserve life, in defiance of the council's oath."
+          ]
+        },
+        {
+          "n": 18,
+          "refId": "ATRA-WOH-III:vi.18",
+          "translit": "aš-šum na-ap-ša-tim uš-te-ṣi",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 19,
+          "refId": "ATRA-WOH-III:vi.19",
+          "translit": "šu-ku-un-ma be-el ar-ni-im še-re-et-su",
+          "cuneiform": null,
+          "notes": [
+            "Enki's principle of proportionate justice: punish the guilty, not all humankind — the argument against a second total flood."
+          ]
+        },
+        {
+          "n": 20,
+          "refId": "ATRA-WOH-III:vi.20",
+          "translit": "e-li ša e-ti-qú se-er-ta-šu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 21,
+          "refId": "ATRA-WOH-III:vi.21",
+          "translit": "aš-šu la ta-ša-ak-ka-nu a-bu-ba",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 22,
+          "refId": "ATRA-WOH-III:vi.22",
+          "translit": "li-ib-ši-ma la-ab-bu-um-ma ni-ši li-im-ṭi",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 23,
+          "refId": "ATRA-WOH-III:vi.23",
+          "translit": "aš-šu la ta-ša-ak-ka-nu a-bu-ba",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 24,
+          "refId": "ATRA-WOH-III:vi.24",
+          "translit": "li-ib-ši-ma bu-bu-tum-ma ma-a-tum li-iš-ta-aḫ-ḫi",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-population-limits",
+      "label": "In place of another Flood: Nintu establishes non-bearing women, the pašittu-demon, celibate priestess classes, and settled mortality (Lambert–Millard III vii, curated)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The transition from Enki's proposal of measured checks (lion, wolf, famine, plague) to his instruction to Nintu (III vi 25 – III vii 0) is compressed; the draft resumes at the establishment of the permanent human limits.",
+        "i18n": {
+          "en": "[Editorial selection: the transition to the establishment of the human limits (III vi 25 – III vii 0) is compressed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 1,
+          "refId": "ATRA-WOH-III:vii.1",
+          "translit": "(d)en-ki pi-a-šu i-pu-ša-am-ma",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 2,
+          "refId": "ATRA-WOH-III:vii.2",
+          "translit": "iz-za-kar a-na (d)nin-tu ša-as-su-ri",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 3,
+          "refId": "ATRA-WOH-III:vii.3",
+          "translit": "at-ti ša-as-su-ru ba-ni-a-at ši-ma-tim",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 4,
+          "refId": "ATRA-WOH-III:vii.4",
+          "translit": "šu-uk-ni mu-ú-ta a-na ni-ši [ ... ]",
+          "cuneiform": null,
+          "notes": [
+            "*mūtu* 'death' — the settling of permanent mortality on humankind. Etiological: humans, once potentially long-lived, are henceforth mortal so their numbers (and clamor) never again grow unbearable. See editorial question on the mortality close."
+          ]
+        },
+        {
+          "n": 6,
+          "refId": "ATRA-WOH-III:vii.6",
+          "translit": "e-le-nu-um-ma li-ib-ši i-na ni-ši",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 7,
+          "refId": "ATRA-WOH-III:vii.7",
+          "translit": "a-li-it-tum ù la a-li-it-tum",
+          "cuneiform": null,
+          "notes": [
+            "*ālittu* 'the bearing (woman)' vs *lā ālittu* 'the non-bearing (woman)' — the first permanent check: a class of women who do not give birth. Uncovered by the glossary; see editorial question on the population-limit apparatus."
+          ]
+        },
+        {
+          "n": 8,
+          "refId": "ATRA-WOH-III:vii.8",
+          "translit": "li-ib-ši i-na ni-ši pa-ši-it-tu",
+          "cuneiform": null,
+          "notes": [
+            "*pašittu* — the infant-snatching demoness who causes the death of newborns (later identified with Lamaštu). A named agent of infant mortality. Uncovered; see editorial question."
+          ]
+        },
+        {
+          "n": 9,
+          "refId": "ATRA-WOH-III:vii.9",
+          "translit": "li-iṣ-ba-at še-er-ra i-na bi-ir-ki a-li-it-ti",
+          "cuneiform": null,
+          "notes": [
+            "*šerru* 'infant, suckling'; the pašittu seizes the newborn from the mother's lap — an aetiology of infant death."
+          ]
+        },
+        {
+          "n": 10,
+          "refId": "ATRA-WOH-III:vii.10",
+          "translit": "šu-uk-ni ug-ba-ak-ka-ti en-e-ti ù i-gi-ṣi-a-ti",
+          "cuneiform": null,
+          "notes": [
+            "Three classes of cultic women — *ugbabtu*, *entu*, *(e)giṣītu* — who are sexually restricted, and so do not bear children. Uncovered; see editorial question."
+          ]
+        },
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-III:vii.11",
+          "translit": "lu ik-ki-bu-ma a-la-da pu-ur-si",
+          "cuneiform": null,
+          "notes": [
+            "*ikkibu* 'taboo, forbidden thing'; the celibate priestess-classes are placed under a birth-taboo, permanently reducing the birth-rate — the etiological purpose of the whole apparatus."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colophon-flood-song",
+      "label": "The flood-song doxology and colophon (Lambert–Millard III viii, curated)",
+      "preceding_lacuna": {
+        "type": "editorial-selection",
+        "text": "The remaining lines of III vii and the opening of III viii are not reconstructed here; the draft closes with the poem's concluding doxology.",
+        "i18n": {
+          "en": "[Editorial selection: the close of III vii and the opening of III viii are not reconstructed in this draft.]"
+        }
+      },
+      "lines": [
+        {
+          "n": 9,
+          "refId": "ATRA-WOH-III:viii.9",
+          "translit": "an-ni-a-am za-ma-ra-am [ … ]",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 10,
+          "refId": "ATRA-WOH-III:viii.10",
+          "translit": "a-bu-ba a-na ka-li-ši-na ni-ši [ni-iš-ku-un]",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 11,
+          "refId": "ATRA-WOH-III:viii.11",
+          "translit": "ù a-wi-lum ib-lu-uṭ i-na ka-ra-ši-i",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 12,
+          "refId": "ATRA-WOH-III:viii.12",
+          "translit": "at-ta ma-li-ik i-li [qú-ra-du]",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 13,
+          "refId": "ATRA-WOH-III:viii.13",
+          "translit": "i-na qí-bi-ti-ka ú-ša-ab-ši ta-ḫa-za",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 14,
+          "refId": "ATRA-WOH-III:viii.14",
+          "translit": "a-na tà-nit-ti-ka li-iš-mu (d)i-gi-gu",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 15,
+          "refId": "ATRA-WOH-III:viii.15",
+          "translit": "na-ar-bi-ka li-ša-ap-pu-ú a-na a-ḫa-mi-iš",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 16,
+          "refId": "ATRA-WOH-III:viii.16",
+          "translit": "za-ma-ar a-bu-bi a-na ka-li-ši-na ni-ši",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        },
+        {
+          "n": 17,
+          "refId": "ATRA-WOH-III:viii.17",
+          "translit": "ši-me-a-ma",
+          "cuneiform": null,
+          "notes": [
+            "Sense well-attested across the cited editions (Lambert–Millard 1969; Foster 2005); sign values are a best-effort reconstruction pending collation."
+          ]
+        }
+      ]
+    }
+  ]
+}
