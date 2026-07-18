@@ -34,6 +34,86 @@
       ],
       "firstFanout": "2026-06-07",
       "method": "parallel-agent-fanout-from-en"
+    },
+    "reviewerReport": {
+      "reviewer": "claude-opus-4-8 acting as woh-reviewer",
+      "reviewedAt": "2026-07-18T00:00:00+00:00",
+      "scope": "Independent philological review of notes.official for Genesis 9 vv. 7, 10, 12, 16, 19, plus a re-audit of the pre-existing flagship notes. Hebrew re-parsed against source-he-9.json.",
+      "reviewNote": "Flagship re-audit corrected 9:13: the lapis-lazuli necklace oath is securely attested in Gilgamesh XI (George 2003, XI 163-165), not Atrahasis (broken there), and the necklace=rainbow equation is a scholarly conjecture the Akkadian does not state; the note now presents both accurately.",
+      "verdicts": [
+        {
+          "refId": "GEN-WOH-9:7",
+          "status": "approve",
+          "citations": [
+            "BDB / HALOT s.v. sharatz; Gen 1:20"
+          ],
+          "reasoning": "shirtzu correctly parsed as imperative of sharatz; 1:20 cross-ref exact; vv.1-7 inclusio accurate."
+        },
+        {
+          "refId": "GEN-WOH-9:10",
+          "status": "approve",
+          "citations": [
+            "Sarna, JPS Genesis (1989); Westermann, Genesis 1-11"
+          ],
+          "reasoning": "'widest party-list of any biblical covenant' standard and accurate; consistent with v9 note."
+        },
+        {
+          "refId": "GEN-WOH-9:12",
+          "status": "approve",
+          "citations": [
+            "Gen 17:11; Exod 31:17/31:13; Sarna on the priestly ot-berit signs"
+          ],
+          "reasoning": "ot ha-brit correct; circumcision-sign at 17:11 and sabbath-sign at Exod 31:17 verified as the priestly ot-berit grouping."
+        },
+        {
+          "refId": "GEN-WOH-9:16",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "brit olam correct; deity's-own-remembering emphasis supported by u-re'itiha lizkor (v16) and ve-zakharti (v15)."
+        },
+        {
+          "refId": "GEN-WOH-9:19",
+          "status": "approve",
+          "citations": [
+            "BDB / HALOT s.v. puts; Gen 11:8-9"
+          ],
+          "reasoning": "naftzah from puts; shared-root-with-Babel verified (Qal here, Hiphil there); gift-or-sentence ambiguity correctly presented as ambiguity."
+        }
+      ],
+      "glossaryReview": [],
+      "flagshipReaudit": [
+        {
+          "refId": "GEN-WOH-9:13",
+          "status": "revised-in-this-pass",
+          "reasoning": "Lapis-necklace flood-oath is attested in Gilgamesh XI (broken in Atrahasis) and the necklace=rainbow gloss is a conjecture, not text; note revised to state both accurately (George 2003, XI 163-165)."
+        },
+        {
+          "refId": "GEN-WOH-9:1",
+          "status": "approve",
+          "reasoning": "1:28 re-issue; dropped kivshuha/redu observation correct."
+        },
+        {
+          "refId": "GEN-WOH-9:3",
+          "status": "approve",
+          "reasoning": "meat/1:29 inverse correct."
+        },
+        {
+          "refId": "GEN-WOH-9:6",
+          "status": "approve",
+          "reasoning": "chiasm + tselem third invocation correct; WoH physical-resemblance reading confined to commentary."
+        },
+        {
+          "refId": "GEN-WOH-9:22",
+          "status": "approve",
+          "reasoning": "three readings of ervat aviv, Sanhedrin 70a, Lev 18 idiom accurate and well-hedged."
+        },
+        {
+          "refId": "GEN-WOH-9:25",
+          "status": "approve",
+          "reasoning": "curse-of-Canaan reception history accurate and responsibly handled."
+        }
+      ],
+      "lens-leakage-flags": []
     }
   },
   "paragraphs": [
@@ -356,7 +436,7 @@
         "qashti-be-anan"
       ],
       "notes": {
-        "official": "**The bow that hangs in the cloud.** The Hebrew noun is קֶשֶׁת *qeshet* — and elsewhere in the Hebrew Bible it almost exclusively means *war-bow*, the weapon. *Qeshet* is the bow of the warrior (Gen 27:3, 48:22), the bow of YHWH as divine warrior (Hab 3:9, 'you uncovered your bow'), the bow that is broken in eschatological peace texts (Hos 1:5, 2:18, Zech 9:10). The vocabulary is martial.\n\nThe chapter's choice to call the rainbow *qeshet* is not casual. The same noun that names the weapon that humans use against each other (cf. 5:5's *darosh-edrosh* logic) and that the divine warrior wields against enemies is now declared *hung up*, *placed in the cloud*, pointed (in the iconography of an unstrung bow held against a cloudy sky) *away from the land* and *toward the heavens*. The Elohim is unstringing the weapon.\n\nOn the WoH frame: the chapter is preserving an extraordinary image. The post-Flood promise is signed not with an abstract symbol but with an inverted weapon. The Elohim, having used cosmic violence on humanity once, hangs up the bow as a continuous public sign that the violence is over.\n\nComparative note: similar imagery appears in Mesopotamian flood traditions. In Atrahasis and the Gilgamesh XI flood, the goddess raises her *necklace of lapis lazuli* (the rainbow) and swears never again to forget the destruction. The motif of a celestial colored arc as a post-flood promise-token is shared; the Hebrew chapter has reshaped the lapis necklace into an unstrung war-bow.",
+        "official": "**The bow that hangs in the cloud.** The Hebrew noun is קֶשֶׁת *qeshet* — and elsewhere in the Hebrew Bible it almost exclusively means *war-bow*, the weapon. *Qeshet* is the bow of the warrior (Gen 27:3, 48:22), the bow of YHWH as divine warrior (Hab 3:9, 'you uncovered your bow'), the bow that is broken in eschatological peace texts (Hos 1:5, 2:18, Zech 9:10). The vocabulary is martial.\n\nThe chapter's choice to call the rainbow *qeshet* is not casual. The same noun that names the weapon that humans use against each other (cf. 5:5's *darosh-edrosh* logic) and that the divine warrior wields against enemies is now declared *hung up*, *placed in the cloud*, pointed (in the iconography of an unstrung bow held against a cloudy sky) *away from the land* and *toward the heavens*. The Elohim is unstringing the weapon.\n\nOn the WoH frame: the chapter is preserving an extraordinary image. The post-Flood promise is signed not with an abstract symbol but with an inverted weapon. The Elohim, having used cosmic violence on humanity once, hangs up the bow as a continuous public sign that the violence is over.\n\nComparative note: a related image appears in the Mesopotamian flood tradition. In the Gilgamesh XI flood (George, *The Babylonian Gilgamesh Epic*, 2003, XI 163–165), the mother-goddess raises the great *necklace of lapis lazuli* that the god Anu had made for her and swears by it never to forget these days. The corresponding lines in the *Atrahasis* epic are broken, so the oath-by-the-necklace is securely attested only in Gilgamesh. Some scholars have connected that jewelled arc at the goddess's neck to the rainbow — an equation the Akkadian text does not itself make, but which, if it holds, would make the Hebrew chapter's move a reshaping of a divine ornament into an unstrung war-bow.",
         "community": []
       }
     },

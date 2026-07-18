@@ -17,7 +17,7 @@
     ],
     "reviewer": "zarazinsfuss",
     "reviewedAt": "2026-05-21T12:00:00+00:00",
-    "status": "stable",
+    "status": "reviewer-approved",
     "updated": "2026-06-07T00:00:00+00:00",
     "i18nFanout": {
       "languages": [
@@ -34,6 +34,99 @@
       ],
       "firstFanout": "2026-06-07",
       "method": "parallel-agent-fanout-from-en"
+    },
+    "reviewerReport": {
+      "reviewer": "claude-opus-4-8 acting as woh-reviewer",
+      "reviewedAt": "2026-07-18T00:00:00+00:00",
+      "scope": "Independent philological review of notes.official for Genesis 6 vv. 1, 11, 15, 19, 20, 21, plus a re-audit of the pre-existing flagship notes. Hebrew re-parsed against source-he-6.json.",
+      "reviewNote": "Initial verdicts were formed against an earlier draft; the 6:15 Gilgamesh/Atrahasis passage and the 6:11 / 6:19 comparative notes were independently revised before this review landed, incorporating exactly the corrections flagged (George 2003 XI 60-63; Finkel 2014; Lambert-Millard; Cassuto counter-reading). Flagship re-audit additionally corrected 6:4 (henmemet hedged as a looser comparandum than a strict demigod class).",
+      "verdicts": [
+        {
+          "refId": "GEN-WOH-6:1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Hebrew correct (hechel ha-adam larov; u-vanot yulledu lahem); 'neutral here, loaded in v2' and the 1:28 cross-reference are sound."
+        },
+        {
+          "refId": "GEN-WOH-6:11",
+          "status": "approve",
+          "citations": [
+            "BDB / HALOT s.v. chamas",
+            "Lambert & Millard, Atra-hasis (1969) — rigmu as flood-trigger"
+          ],
+          "reasoning": "chamas='violence' standard; shachat/chamas pairing accurate; Atrahasis rigmu contrast correct and now anchored to Lambert-Millard."
+        },
+        {
+          "refId": "GEN-WOH-6:15",
+          "status": "approve",
+          "citations": [
+            "A.R. George, The Babylonian Gilgamesh Epic (2003), XI 60-63",
+            "I. Finkel, The Ark Before Noah (2014)",
+            "Lambert & Millard, Atra-hasis (1969)"
+          ],
+          "reasoning": "An earlier draft misstated the Gilgamesh internal division and under-attributed the Atrahasis coracle; the current text corrects both (six decks->seven tiers, interior nine compartments, George; Finkel-attributed Ark-Tablet coracle flagged as not in the main epic). Hebrew dims, cubit, ratio, barge-not-ship, tevah=Gen+Exod 2:3-only all correct."
+        },
+        {
+          "refId": "GEN-WOH-6:19",
+          "status": "approve",
+          "citations": [
+            "Westermann, Genesis 1-11 (1984)",
+            "Cassuto, The Documentary Hypothesis"
+          ],
+          "reasoning": "Hebrew correct; 7:2 seven-pairs contrast and 8:20-sacrifice logic accurate; current text hedges as 'classic source-critical crux... standard analysis' and names Cassuto's unity reading."
+        },
+        {
+          "refId": "GEN-WOH-6:20",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "lemino='according to their kind' correct; cross-refs to 1:11,21,24-25 exact."
+        },
+        {
+          "refId": "GEN-WOH-6:21",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Hebrew correct; still-vegetarian inference (meat first at 9:3) sound and consistent with the 9:3 note."
+        }
+      ],
+      "glossaryReview": [],
+      "flagshipReaudit": [
+        {
+          "refId": "GEN-WOH-6:4",
+          "status": "revised-in-this-pass",
+          "reasoning": "Egyptian henmemet ('sun-folk') was listed flatly beside apkallu/heroes; softened to a 'looser comparandum than a strict demigod class'. apkallu and Greek heroes parallels stand."
+        },
+        {
+          "refId": "GEN-WOH-6:2",
+          "status": "approve",
+          "reasoning": "Four-readings survey of bnei ha-elohim accurate and well-hedged (Job/Enoch/Onkelos/Augustine refs correct)."
+        },
+        {
+          "refId": "GEN-WOH-6:3",
+          "status": "approve",
+          "reasoning": "yadon / b'shagam / 120-years knots accurate and appropriately non-committal."
+        },
+        {
+          "refId": "GEN-WOH-6:9",
+          "status": "approve",
+          "reasoning": "Chanoch/Noah hithallech-et parallel correct."
+        },
+        {
+          "refId": "GEN-WOH-6:14",
+          "status": "approve",
+          "reasoning": "tevah / gopher correct; 'genuinely lost term' appropriately hedged."
+        },
+        {
+          "refId": "GEN-WOH-6:17",
+          "status": "approve",
+          "reasoning": "mabbul exclusivity + Ps 29:10 correct."
+        },
+        {
+          "refId": "GEN-WOH-6:18",
+          "status": "approve",
+          "reasoning": "brit first occurrence correct."
+        }
+      ],
+      "lens-leakage-flags": []
     }
   },
   "paragraphs": [
@@ -140,7 +233,7 @@
         "ha-adam"
       ],
       "notes": {
-        "official": "**The Nephilim are named.** הַנְּפִלִים ha-Nephilim — *the fallen ones / the giants* — appear here and only once again in the Hebrew Bible: Numbers 13:33, where the spies sent into Canaan report seeing them. The Numbers reference creates a long-running textual puzzle: how do the Nephilim survive the Flood (Gen 7) if 'every living being on the face of the land was wiped out, from human to cattle, to creeping thing, to bird of the skies' (7:23)? The Numbers text takes their post-Flood presence as a given. Tradition has resolved this in different ways — hyperbole on the spies' part, localized Flood, re-emergence from one of Noah's daughters-in-law (Sefer ha-Yashar), the Anakim-as-different-Nephilim. The text refuses to comment.\n\n*And also afterward, when the sons of the Elohim came in* — the temporal qualifier אַחֲרֵי־כֵן acharei-khen ('after that, afterward') extends the Nephilim's presence beyond the antediluvian period. The phrase signals that the union of the *b'nei ha-elohim* and *b'not ha-adam* was not a one-time event — it continued into a later era. This is the verse on which much of the Numbers 13 puzzle turns.\n\n*The mighty ones who were from of old, men of name.* The three apposed phrases identify the offspring (and/or the Nephilim themselves) as the *named heroes* of legendary antiquity — the Hebrew Bible's only direct reference to the *demigod / hero* class that Mesopotamian, Greek, Egyptian, and other ANE mythologies developed in detail (the Sumerian *apkallu*, the Greek *heroes*, the Egyptian *henmemet*). The chapter places its own narrative explicitly *within* the broader ANE heroic-age framework — and routes that framework through the specific theological grammar of the Elohim and their sons.\n\nThe verse names the Nephilim and identifies them with the legendary heroes; the chapter then immediately turns (v5) to YHWH's grief over the wickedness of *the human* — without explicitly blaming the union, but with the textual proximity strongly implicating it. The chapter does not say *the Elohim's sons caused the wickedness*; the chapter says *and then YHWH saw that humanity was wicked*. The cause-effect is left to the reader.",
+        "official": "**The Nephilim are named.** הַנְּפִלִים ha-Nephilim — *the fallen ones / the giants* — appear here and only once again in the Hebrew Bible: Numbers 13:33, where the spies sent into Canaan report seeing them. The Numbers reference creates a long-running textual puzzle: how do the Nephilim survive the Flood (Gen 7) if 'every living being on the face of the land was wiped out, from human to cattle, to creeping thing, to bird of the skies' (7:23)? The Numbers text takes their post-Flood presence as a given. Tradition has resolved this in different ways — hyperbole on the spies' part, localized Flood, re-emergence from one of Noah's daughters-in-law (Sefer ha-Yashar), the Anakim-as-different-Nephilim. The text refuses to comment.\n\n*And also afterward, when the sons of the Elohim came in* — the temporal qualifier אַחֲרֵי־כֵן acharei-khen ('after that, afterward') extends the Nephilim's presence beyond the antediluvian period. The phrase signals that the union of the *b'nei ha-elohim* and *b'not ha-adam* was not a one-time event — it continued into a later era. This is the verse on which much of the Numbers 13 puzzle turns.\n\n*The mighty ones who were from of old, men of name.* The three apposed phrases identify the offspring (and/or the Nephilim themselves) as the *named heroes* of legendary antiquity — the Hebrew Bible's only direct reference to the *demigod / hero* class that Mesopotamian, Greek, Egyptian, and other ANE mythologies developed in detail (the Sumerian *apkallu*, the Greek *heroes*; the Egyptian *henmemet* — the primeval “sun-folk” of humankind — is a looser comparandum than a strict demigod class). The chapter places its own narrative explicitly *within* the broader ANE heroic-age framework — and routes that framework through the specific theological grammar of the Elohim and their sons.\n\nThe verse names the Nephilim and identifies them with the legendary heroes; the chapter then immediately turns (v5) to YHWH's grief over the wickedness of *the human* — without explicitly blaming the union, but with the textual proximity strongly implicating it. The chapter does not say *the Elohim's sons caused the wickedness*; the chapter says *and then YHWH saw that humanity was wicked*. The cause-effect is left to the reader.",
         "community": []
       }
     },
