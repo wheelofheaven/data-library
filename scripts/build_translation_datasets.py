@@ -26,6 +26,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = Path(__file__).resolve().parent / "dist-hf"
+DIST_KG = Path(__file__).resolve().parent / "dist-kaggle"
 WWW = "https://www.wheelofheaven.world"
 
 # CC0 -woh books HELD from publication pending a rights/sensitivity review —
@@ -276,7 +277,100 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
     return front + body
 
 
-def build(slug):
+# ---- Kaggle mirror -------------------------------------------------------
+# Kaggle is a second Google-Dataset-Search surface. Same data as the HF bundle,
+# but Kaggle wants a `dataset-metadata.json` and has hard length limits: dataset
+# titles 6–50 chars, subtitles 20–80 chars. `id` is `<owner>/<slug>` where owner
+# is a Kaggle user OR an organization the authenticated user belongs to.
+
+def _trim(s, hi):
+    """Trim to <= hi chars on a word boundary."""
+    if len(s) <= hi:
+        return s
+    cut = s[:hi]
+    return cut[:cut.rfind(" ")] if " " in cut else cut
+
+
+def kaggle_title(en_title):
+    for t in (f"{en_title} — Wheel of Heaven Translation",
+              f"{en_title} — WoH Translation",
+              f"{en_title} (WoH Translation)",
+              f"{en_title} (WoH)"):
+        if len(t) <= 50:
+            return t
+    return _trim(f"{en_title} (WoH)", 50)
+
+
+def kaggle_subtitle(orig_name):
+    name = orig_name if orig_name and orig_name != "the source language" else "Source-text"
+    sub = _trim(f"{name} + Wheel of Heaven English — verse-aligned parallel corpus", 80)
+    return sub if len(sub) >= 20 else (sub + " — Wheel of Heaven")[:80]
+
+
+def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref):
+    has_ref = ref_status == "ok" and n_ref
+    if has_ref:
+        cov = "all verses" if n_ref >= n_rows else f"{round(100 * n_ref / n_rows)}% of verses"
+        ref_line = (f"An aligned public-domain reference translation (**{ref_ver}**, {ref_lic}) is "
+                    f"included in the `reference_english` column ({cov}), so each Wheel of Heaven "
+                    f"rendering can be read against a neutral control.")
+    else:
+        ref_line = ("No aligned public-domain English reference is bundled for this text; the "
+                    "`reference_english` column is present but empty.")
+    return (
+        f"A verse-aligned parallel corpus of **{en_title}** — the {orig_name} source text alongside "
+        f"the Wheel of Heaven English translation, with transliteration, manuscript-witness "
+        f"attribution, per-verse translator commentary, and a {n_gloss}-entry translation glossary.\n\n"
+        f"{ref_line}\n\n"
+        f"**Rows:** {n_rows} (one per verse). **Columns:** ref, chapter, verse, original, "
+        f"original_lang, transliteration, english (WoH), reference_english, reference_version, "
+        f"reference_license, commentary, glossary_refs, witness_primary, witness_secondary.\n\n"
+        f"**License:** the Wheel of Heaven layer (translation, commentary, glossary) is CC0-1.0; any "
+        f"bundled reference translation is public domain. Documented reading edition + citation "
+        f"widget: {WWW}/library/{slug}/\n"
+    )
+
+
+def kaggle_meta(slug, meta, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner):
+    titles = meta.get("titles") or {}
+    en_title = titles.get("en") or slug
+    orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
+    orig_name = LANG_NAME.get(orig_lang, orig_lang or "the source language")
+    subtitle = kaggle_subtitle(orig_name)
+    if not (20 <= len(subtitle) <= 80):
+        sys.exit(f"{slug}: kaggle subtitle must be 20–80 chars, got {len(subtitle)}: {subtitle!r}")
+    return {
+        "title": kaggle_title(en_title),
+        "id": f"{owner}/{slug}",
+        "subtitle": subtitle,
+        "description": kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss,
+                                   ref_ver, ref_lic, ref_status, n_ref),
+        "licenses": [{"name": "CC0-1.0"}],
+        # Kaggle uses a CONTROLLED tag vocabulary AND caps the number of
+        # category-tags per dataset ("exceeded the max category limit" if too
+        # many valid ones). These three are confirmed-valid and within the cap.
+        "keywords": ["nlp", "translation", "text"],
+        "resources": [
+            {"path": f"{slug}.jsonl", "description": f"{en_title} — verse-aligned parallel corpus"},
+            {"path": "glossary.json", "description": "Wheel of Heaven translation glossary"},
+        ],
+    }
+
+
+def emit_kaggle(slug, meta, rows, gloss, n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner):
+    out = DIST_KG / slug
+    out.mkdir(parents=True, exist_ok=True)
+    with open(out / f"{slug}.jsonl", "w", encoding="utf-8") as fh:
+        for r in rows:
+            fh.write(json.dumps(r, ensure_ascii=False) + "\n")
+    with open(out / "glossary.json", "w", encoding="utf-8") as fh:
+        json.dump(gloss, fh, ensure_ascii=False, indent=2)
+    (out / "dataset-metadata.json").write_text(
+        json.dumps(kaggle_meta(slug, meta, len(rows), n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner),
+                   ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def build(slug, kaggle_owner=None):
     bd = ROOT / slug
     meta = json.load(open(bd / "_meta.json", encoding="utf-8"))
     if meta.get("versionLicense") != "CC0-1.0":
@@ -303,27 +397,39 @@ def build(slug):
     (out / "README.md").write_text(
         card(slug, meta, len(rows), n_gloss, review_status(bd, meta),
              ref_ver, ref_lic, ref_status, n_ref), encoding="utf-8")
+    if kaggle_owner:
+        emit_kaggle(slug, meta, rows, gloss, n_gloss, ref_ver, ref_lic, ref_status, n_ref, kaggle_owner)
     filled = sum(1 for r in rows if r["english"].strip())
     ref_note = (f", {n_ref} referenced ({ref_ver})" if n_ref
                 else f", no reference [{ref_status}]")
+    dest = "dist-hf + dist-kaggle" if kaggle_owner else "dist-hf"
     print(f"  ✓ {slug}: {len(rows)} verses ({filled} with English), {n_gloss} glossary entries"
-          f"{ref_note} → dist-hf/{slug}/")
+          f"{ref_note} → {dest}/{slug}/")
     return len(rows)
 
 
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", metavar="SLUG")
+    ap.add_argument("--kaggle-owner", metavar="OWNER",
+                    help="also emit dist-kaggle/<slug>/ bundles owned by OWNER "
+                         "(a Kaggle username or an organization slug you belong to)")
     args = ap.parse_args()
     books = [args.only] if args.only else discover_books()
-    if DIST.exists() and not args.only:
-        shutil.rmtree(DIST)
+    if not args.only:
+        if DIST.exists():
+            shutil.rmtree(DIST)
+        if args.kaggle_owner and DIST_KG.exists():
+            shutil.rmtree(DIST_KG)
     total = 0
-    print(f"Packaging {len(books)} CC0 translation book(s) → {DIST.relative_to(ROOT)}/\n")
+    print(f"Packaging {len(books)} CC0 translation book(s) → {DIST.relative_to(ROOT)}/"
+          + (f" + {DIST_KG.name}/ (owner: {args.kaggle_owner})" if args.kaggle_owner else "") + "\n")
     for b in books:
-        total += build(b)
+        total += build(b, args.kaggle_owner)
     print(f"\n{total} verses across {len(books)} books.")
-    print("Upload: hf upload wheelofheaven/<slug> scripts/dist-hf/<slug> --repo-type=dataset")
+    print("Upload (HF):     hf upload wheelofheaven/<slug> scripts/dist-hf/<slug> --repo-type=dataset")
+    if args.kaggle_owner:
+        print("Upload (Kaggle): kaggle datasets create -p scripts/dist-kaggle/<slug> --public   (per book)")
 
 
 if __name__ == "__main__":
