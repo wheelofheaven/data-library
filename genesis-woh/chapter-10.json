@@ -17,7 +17,7 @@
     ],
     "reviewer": "zarazinsfuss",
     "reviewedAt": "2026-05-21T14:30:00+00:00",
-    "status": "awaiting-human",
+    "status": "reviewer-approved",
     "updated": "2026-06-07T00:00:00+00:00",
     "i18nFanout": {
       "languages": [
@@ -166,11 +166,9 @@
         }
       ],
       "glossaryReview": [],
-      "lens-leakage-flags": [
-        {
-          "refId": "GEN-WOH-10:9",
-          "concern": "Editorial/formatting defect (NOT scholarship, NOT translation): the official notes for 10:9, 10:10, 10:11, 10:21, 10:25 use literal '//' as inline paragraph separators instead of the '\\n\\n' used elsewhere in the corpus. Renders as raw '//' in output. Recommend normalizing to newline breaks for display consistency."
-        }
+      "lens-leakage-flags": [],
+      "editorialFixes": [
+        "Normalized literal '//' inline note separators to newline breaks in 7 notes for display consistency."
       ]
     }
   },
@@ -373,7 +371,7 @@
         "nimrod-gibbor"
       ],
       "notes": {
-        "official": "**A proverb embedded in the narrative.** The chapter cites a popular saying — *like Nimrod, a mighty hunter before YHWH* — as already in circulation in the period the chapter is composed. The text is reporting a folk-tradition about Nimrod, not constructing one. // The preposition לִפְנֵי *lifnei* ('before, in the presence of') is grammatically neutral — it can mean 'in the favor of' (positive), 'in defiance of' (adversarial), or simply 'in the sight of' (witnessed by). Jewish tradition has read it as adversarial (Nimrod the rebel-against-YHWH, builder of Babel); Christian tradition has often read it as positive (Nimrod the divinely-empowered hunter). The Hebrew settles neither. The chapter places Nimrod *visible to YHWH* without taking sides on the relationship's polarity. // *Tzayid* — *hunter* — names a specialized warrior-class skill. In ANE iconography, royal lion-hunting was the signature image of kingship (Assyrian palace reliefs; the Standard of Ur). Nimrod the *gibbor-tzayid* is the Hebrew Bible's compressed image of the founder-king.",
+        "official": "**A proverb embedded in the narrative.** The chapter cites a popular saying — *like Nimrod, a mighty hunter before YHWH* — as already in circulation in the period the chapter is composed. The text is reporting a folk-tradition about Nimrod, not constructing one.\n\nThe preposition לִפְנֵי *lifnei* ('before, in the presence of') is grammatically neutral — it can mean 'in the favor of' (positive), 'in defiance of' (adversarial), or simply 'in the sight of' (witnessed by). Jewish tradition has read it as adversarial (Nimrod the rebel-against-YHWH, builder of Babel); Christian tradition has often read it as positive (Nimrod the divinely-empowered hunter). The Hebrew settles neither. The chapter places Nimrod *visible to YHWH* without taking sides on the relationship's polarity.\n\n*Tzayid* — *hunter* — names a specialized warrior-class skill. In ANE iconography, royal lion-hunting was the signature image of kingship (Assyrian palace reliefs; the Standard of Ur). Nimrod the *gibbor-tzayid* is the Hebrew Bible's compressed image of the founder-king.",
         "community": []
       }
     },
@@ -398,7 +396,7 @@
         "eretz-shinar"
       ],
       "notes": {
-        "official": "**The founding of Mesopotamian civilization, named.** The chapter attributes the four foundational southern-Mesopotamian cities to a single founder — Nimrod. *Babel* (Bavel in Hebrew) — the future Babylon, whose ziggurat will be the subject of chapter 11. *Erech* — Sumerian Uruk, the great walled city of the third-millennium-BCE Sumerian world; archaeologically the largest city of its era. *Akkad* — the capital of Sargon's third-millennium empire, the first political entity to project unified rule across all of Mesopotamia; its location is archaeologically unknown but textually well-attested. *Calneh* — uncertain identification; possibly Nippur (the Sumerian religious center) or an unidentified site. // *Eretz Shinar* — *the land of Shinar* — is the chapter's standard Hebrew term for the alluvial plain of southern Mesopotamia (Sumer + Akkad). It returns in 11:2 as the location of Babel-tower construction, in 14:1 (Amraphel king of Shinar), and in later prophetic literature (Isa 11:11, Zech 5:11, Dan 1:2) where it carries an exilic register. // The Wheel of Heaven lens reads this verse with attention: the chapter is naming Mesopotamia as the cradle of post-Flood civilization, attributing the founding to a *gibbor* whose lineage traces (via Cush) to Ham. The first city-founder of the post-Flood world is, on the Hebrew's terms, a *mighty one* in the same vocabulary as the antediluvian *gibborim anshei ha-shem*. The connection between human technological-political ambition and the *gibbor*-class is being drawn at the chapter's textual surface.",
+        "official": "**The founding of Mesopotamian civilization, named.** The chapter attributes the four foundational southern-Mesopotamian cities to a single founder — Nimrod. *Babel* (Bavel in Hebrew) — the future Babylon, whose ziggurat will be the subject of chapter 11. *Erech* — Sumerian Uruk, the great walled city of the third-millennium-BCE Sumerian world; archaeologically the largest city of its era. *Akkad* — the capital of Sargon's third-millennium empire, the first political entity to project unified rule across all of Mesopotamia; its location is archaeologically unknown but textually well-attested. *Calneh* — uncertain identification; possibly Nippur (the Sumerian religious center) or an unidentified site.\n\n*Eretz Shinar* — *the land of Shinar* — is the chapter's standard Hebrew term for the alluvial plain of southern Mesopotamia (Sumer + Akkad). It returns in 11:2 as the location of Babel-tower construction, in 14:1 (Amraphel king of Shinar), and in later prophetic literature (Isa 11:11, Zech 5:11, Dan 1:2) where it carries an exilic register.\n\nThe Wheel of Heaven lens reads this verse with attention: the chapter is naming Mesopotamia as the cradle of post-Flood civilization, attributing the founding to a *gibbor* whose lineage traces (via Cush) to Ham. The first city-founder of the post-Flood world is, on the Hebrew's terms, a *mighty one* in the same vocabulary as the antediluvian *gibborim anshei ha-shem*. The connection between human technological-political ambition and the *gibbor*-class is being drawn at the chapter's textual surface.",
         "community": []
       }
     },
@@ -419,7 +417,7 @@
         "zh-Hant": "他從那地出來進入亞述，建造了尼尼微、利河伯城、迦拉，"
       },
       "notes": {
-        "official": "**The Mesopotamian-civilization founding extends north.** The verse is grammatically ambiguous about who *Asshur* is: (a) Asshur the *person* (a son of Shem, named in v22) went out from Shinar and founded the northern Mesopotamian cities, OR (b) reading the same consonants as a verbal phrase, *Nimrod* went out to *Assyria* and built those cities (this is the marginal Jewish reading: 'from that land *he* went out *to Assyria*'). The plain reading is (a), with Asshur the founder of northern Mesopotamian civilization paralleling Nimrod's founding of southern Mesopotamian civilization. // *Nineveh* is the future Assyrian capital (modern Mosul region). *Rehoboth-Ir* (literally 'broad-places city') and *Calah* (Kalhu, modern Nimrud — named for Nimrod in traditional etymology) are the other major Assyrian cities. The chapter is compressing the entire ANE city-founding tradition into two figures: Nimrod for the south, Asshur for the north.",
+        "official": "**The Mesopotamian-civilization founding extends north.** The verse is grammatically ambiguous about who *Asshur* is: (a) Asshur the *person* (a son of Shem, named in v22) went out from Shinar and founded the northern Mesopotamian cities, OR (b) reading the same consonants as a verbal phrase, *Nimrod* went out to *Assyria* and built those cities (this is the marginal Jewish reading: 'from that land *he* went out *to Assyria*'). The plain reading is (a), with Asshur the founder of northern Mesopotamian civilization paralleling Nimrod's founding of southern Mesopotamian civilization.\n\n*Nineveh* is the future Assyrian capital (modern Mosul region). *Rehoboth-Ir* (literally 'broad-places city') and *Calah* (Kalhu, modern Nimrud — named for Nimrod in traditional etymology) are the other major Assyrian cities. The chapter is compressing the entire ANE city-founding tradition into two figures: Nimrod for the south, Asshur for the north.",
         "community": []
       }
     },
@@ -484,7 +482,7 @@
         "pelishtim-caphtor"
       ],
       "notes": {
-        "official": "**The Philistines come from where?** The parenthesis אֲשֶׁר יָצְאוּ מִשָּׁם פְּלִשְׁתִּים — *from whom the Pelishtim went out* — places the Philistines as descendants of the *Casluhim*. But the prophetic tradition (Jer 47:4, Amos 9:7) and the consensus modern reading (matching Egyptian and Aegean archaeological evidence) trace the Philistines from *Caphtor* (Crete / the Aegean), not from the Casluhim. The parenthesis may be a scribal misplacement: it should attach to the Caphtorim that immediately follow. The textual problem is well-attested in the manuscript tradition. // Either way, the chapter is locating the Philistines (the Iron Age I newcomers who would dominate Israel's south-coast throughout the Judges and early monarchy period) within the Hamite-Egyptian sphere — which is geographically and culturally accurate to the Sea-Peoples-origin model that contemporary archaeology supports.",
+        "official": "**The Philistines come from where?** The parenthesis אֲשֶׁר יָצְאוּ מִשָּׁם פְּלִשְׁתִּים — *from whom the Pelishtim went out* — places the Philistines as descendants of the *Casluhim*. But the prophetic tradition (Jer 47:4, Amos 9:7) and the consensus modern reading (matching Egyptian and Aegean archaeological evidence) trace the Philistines from *Caphtor* (Crete / the Aegean), not from the Casluhim. The parenthesis may be a scribal misplacement: it should attach to the Caphtorim that immediately follow. The textual problem is well-attested in the manuscript tradition.\n\nEither way, the chapter is locating the Philistines (the Iron Age I newcomers who would dominate Israel's south-coast throughout the Judges and early monarchy period) within the Hamite-Egyptian sphere — which is geographically and culturally accurate to the Sea-Peoples-origin model that contemporary archaeology supports.",
         "community": []
       }
     },
@@ -628,7 +626,7 @@
         "avi-kol-bnei-ever"
       ],
       "notes": {
-        "official": "**Shem is identified as *the father of all the sons of Eber*.** The verse anticipates v24–25, where Eber appears as Shem's great-grandson. The early identification flags Eber's prospective importance: עֵבֶר *Eber* is the eponymous ancestor of the *Ivri* (Hebrew) people — the etymology is widely (though not universally) accepted in modern scholarship. The chapter is opening the Shemite branch by naming, four generations ahead, the figure from whom Israel's own self-designation will derive. // *Achi Yepheth ha-gadol* — *the elder brother of Yapheth*. The Hebrew grammar is ambiguous about whether *ha-gadol* (the elder/great) modifies *Yepheth* (making Yapheth the elder brother) or *Shem* (making Shem the elder); the standard reading is the former. The chapter is positioning Yapheth as the eldest of Noah's three sons, even though the listing order (Shem, Ham, Yapheth) has placed Shem first throughout. The ordering is by *prominence* (Shem-line is Israel's), not by birth order.",
+        "official": "**Shem is identified as *the father of all the sons of Eber*.** The verse anticipates v24–25, where Eber appears as Shem's great-grandson. The early identification flags Eber's prospective importance: עֵבֶר *Eber* is the eponymous ancestor of the *Ivri* (Hebrew) people — the etymology is widely (though not universally) accepted in modern scholarship. The chapter is opening the Shemite branch by naming, four generations ahead, the figure from whom Israel's own self-designation will derive.\n\n*Achi Yepheth ha-gadol* — *the elder brother of Yapheth*. The Hebrew grammar is ambiguous about whether *ha-gadol* (the elder/great) modifies *Yepheth* (making Yapheth the elder brother) or *Shem* (making Shem the elder); the standard reading is the former. The chapter is positioning Yapheth as the eldest of Noah's three sons, even though the listing order (Shem, Ham, Yapheth) has placed Shem first throughout. The ordering is by *prominence* (Shem-line is Israel's), not by birth order.",
         "community": []
       }
     },
@@ -711,7 +709,7 @@
         "peleg-niflega"
       ],
       "notes": {
-        "official": "**The first explicit dating-by-event in Genesis 10.** *Peleg* — פֶּלֶג — is from the root פלג *palag* 'to divide, split'. The chapter glosses the name etiologically: *ki b'yamav niflega ha-aretz* — *for in his days the land was divided*. // What division? Three readings: // (1) **The linguistic division of Babel** (Gen 11). The chapter places Peleg in the genealogy just before the Babel narrative; the etiology pairs his name with the scattering-of-languages event. This is the standard ancient and modern interpretation. // (2) **A geological / continental division** — the reading favored by some modern creationist and ancient-astronaut traditions: that the splitting of continents (sometimes proposed as a post-Flood event) is what is meant. There is no support for this reading in the Hebrew lexicon or in the chapter's own self-frame. // (3) **A political-territorial division** — the division of post-Flood lands among the descendants of Noah, the very catalogue the chapter is providing. The verb is used elsewhere in the Hebrew Bible for the division of inherited land (Job 38:25). // The chapter does not specify which division is meant. The most contextually defensible reading is (1), the linguistic-political scattering; (3) is supplementary. (2) is interpretive and reads back from later cosmological frames. The translation preserves the bare 'the land was divided' and lets the commentary surface the spectrum.",
+        "official": "**The first explicit dating-by-event in Genesis 10.** *Peleg* — פֶּלֶג — is from the root פלג *palag* 'to divide, split'. The chapter glosses the name etiologically: *ki b'yamav niflega ha-aretz* — *for in his days the land was divided*.\n\nWhat division? Three readings:\n\n(1) **The linguistic division of Babel** (Gen 11). The chapter places Peleg in the genealogy just before the Babel narrative; the etiology pairs his name with the scattering-of-languages event. This is the standard ancient and modern interpretation.\n\n(2) **A geological / continental division** — the reading favored by some modern creationist and ancient-astronaut traditions: that the splitting of continents (sometimes proposed as a post-Flood event) is what is meant. There is no support for this reading in the Hebrew lexicon or in the chapter's own self-frame.\n\n(3) **A political-territorial division** — the division of post-Flood lands among the descendants of Noah, the very catalogue the chapter is providing. The verb is used elsewhere in the Hebrew Bible for the division of inherited land (Job 38:25).\n\nThe chapter does not specify which division is meant. The most contextually defensible reading is (1), the linguistic-political scattering; (3) is supplementary. (2) is interpretive and reads back from later cosmological frames. The translation preserves the bare 'the land was divided' and lets the commentary surface the spectrum.",
         "community": []
       }
     },
@@ -847,7 +845,7 @@
         "iyei-hagoyim-nifredu"
       ],
       "notes": {
-        "official": "**The closing summary frames the whole chapter as a single ethnographic act.** *Mishpechot bnei Noach l'toledotam b'goyehem* — *the families of the sons of Noah, by their begettings, in their nations*. The four organizing dimensions of the chapter (family, lineage, geography, polity) are listed in the closing verse, sealing the catalogue. // The verb *niphredu* — *were separated* — runs through the chapter: at v5 (the Japhethite coastlands), implicit in v18 (the Canaanites *naphotzu* scattered), and now in v32 as the universal closing claim. The chapter's keyword is *separation* — the post-Flood world is the *separated* world. Babel in chapter 11 will explain why.",
+        "official": "**The closing summary frames the whole chapter as a single ethnographic act.** *Mishpechot bnei Noach l'toledotam b'goyehem* — *the families of the sons of Noah, by their begettings, in their nations*. The four organizing dimensions of the chapter (family, lineage, geography, polity) are listed in the closing verse, sealing the catalogue.\n\nThe verb *niphredu* — *were separated* — runs through the chapter: at v5 (the Japhethite coastlands), implicit in v18 (the Canaanites *naphotzu* scattered), and now in v32 as the universal closing claim. The chapter's keyword is *separation* — the post-Flood world is the *separated* world. Babel in chapter 11 will explain why.",
         "community": []
       }
     }

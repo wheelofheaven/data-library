@@ -17,7 +17,7 @@
     ],
     "reviewer": "zarazinsfuss",
     "reviewedAt": "2026-05-21T12:00:00+00:00",
-    "status": "awaiting-human",
+    "status": "reviewer-approved",
     "updated": "2026-06-07T00:00:00+00:00",
     "i18nFanout": {
       "languages": [
@@ -190,11 +190,9 @@
         }
       ],
       "glossaryReview": [],
-      "lens-leakage-flags": [
-        {
-          "refId": "GEN-WOH-3:14",
-          "concern": "Source-fidelity nit (NOT translation): chapter Hebrew stores the Tetragrammaton as יְהוָה (no holam) where the independent Westminster Leningrad source has יְהֹוָה (with holam mater). Same divine name, zero semantic/translation impact; flagged for editorial normalization to match the source pointing."
-        }
+      "lens-leakage-flags": [],
+      "editorialFixes": [
+        "3:14: Tetragrammaton re-pointed to match the Westminster Leningrad source (added holam mater: YHWH -> יְהֹוָה). Cosmetic; no translation change."
       ]
     }
   },
@@ -532,10 +530,10 @@
     {
       "n": 14,
       "refId": "GEN-WOH-3:14",
-      "text": "וַיֹּאמֶר֩ יְהוָ֨ה אֱלֹהִ֥ים ׀ אֶֽל־הַנָּחָשׁ֮ כִּ֣י עָשִׂ֣יתָ זֹּאת֒ אָר֤וּר אַתָּה֙ מִכָּל־הַבְּהֵמָ֔ה וּמִכֹּ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה עַל־גְּחֹנְךָ֣ תֵלֵ֔ךְ וְעָפָ֥ר תֹּאכַ֖ל כָּל־יְמֵ֥י חַיֶּֽיךָ׃",
+      "text": "וַיֹּאמֶר֩ יְהֹוָ֨ה אֱלֹהִ֥ים ׀ אֶֽל־הַנָּחָשׁ֮ כִּ֣י עָשִׂ֣יתָ זֹּאת֒ אָר֤וּר אַתָּה֙ מִכָּל־הַבְּהֵמָ֔ה וּמִכֹּ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה עַל־גְּחֹנְךָ֣ תֵלֵ֔ךְ וְעָפָ֥ר תֹּאכַ֖ל כָּל־יְמֵ֥י חַיֶּֽיךָ׃",
       "i18n": {
         "en": "YHWH-Elohim said to the serpent, \"Because you have done this, cursed are you above all cattle and above every wild animal of the field; on your belly you shall go, and dust you shall eat all the days of your life.",
-        "he": "וַיֹּאמֶר֩ יְהוָ֨ה אֱלֹהִ֥ים ׀ אֶֽל־הַנָּחָשׁ֮ כִּ֣י עָשִׂ֣יתָ זֹּאת֒ אָר֤וּר אַתָּה֙ מִכָּל־הַבְּהֵמָ֔ה וּמִכֹּ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה עַל־גְּחֹנְךָ֣ תֵלֵ֔ךְ וְעָפָ֥ר תֹּאכַ֖ל כָּל־יְמֵ֥י חַיֶּֽיךָ׃",
+        "he": "וַיֹּאמֶר֩ יְהֹוָ֨ה אֱלֹהִ֥ים ׀ אֶֽל־הַנָּחָשׁ֮ כִּ֣י עָשִׂ֣יתָ זֹּאת֒ אָר֤וּר אַתָּה֙ מִכָּל־הַבְּהֵמָ֔ה וּמִכֹּ֖ל חַיַּ֣ת הַשָּׂדֶ֑ה עַל־גְּחֹנְךָ֣ תֵלֵ֔ךְ וְעָפָ֥ר תֹּאכַ֖ל כָּל־יְמֵ֥י חַיֶּֽיךָ׃",
         "de": "YHWH Elohim sprachen zur Schlange: \"Weil du dies getan hast, verflucht sollst du sein vor allem Vieh und vor jedem Wildtier des Feldes; auf deinem Bauch sollst du gehen, und Staub sollst du fressen alle Tage deines Lebens.",
         "es": "YHWH Elohim dijo a la serpiente: «Porque has hecho esto, maldita seas entre todo el ganado y entre todo animal salvaje del campo; sobre tu vientre andarás, y polvo comerás todos los días de tu vida.",
         "fr": "YHWH Elohim dit au serpent : « Parce que tu as fait cela, maudit es-tu entre tout le bétail et toute bête sauvage des champs ; sur ton ventre tu iras, et de la poussière tu mangeras tous les jours de ta vie.",
