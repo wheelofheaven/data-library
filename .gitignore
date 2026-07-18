@@ -11,3 +11,6 @@ __pycache__/
 # Local secrets — never commit
 .env
 .env.*
+
+# Translation dataset packaging output (HuggingFace upload folders; derived)
+scripts/dist-hf/
