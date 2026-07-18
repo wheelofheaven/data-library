@@ -28,10 +28,26 @@ ROOT = Path(__file__).resolve().parent.parent
 DIST = Path(__file__).resolve().parent / "dist-hf"
 WWW = "https://www.wheelofheaven.world"
 
-# Only the CC0 Translation Program books (versionLicense == CC0-1.0).
-# The Raëlian canon (the-book-which-tells-the-truth, extraterrestrials-took-me-
-# to-their-planet) is deliberately excluded: versionLicense is unset (not CC0).
-BOOKS = ["daniel-woh", "jubilees-woh", "book-of-enoch-woh", "genesis-woh"]
+# CC0 -woh books HELD from publication pending a rights/sensitivity review —
+# these translate the scriptures of living religious movements. Do not publish
+# without an explicit rights decision. (The Raëlian canon is already excluded by
+# the versionLicense != CC0-1.0 gate.)
+HELD = {"hidden-words-woh", "oomoto-shinyu-woh", "thanh-ngon-hiep-tuyen-woh"}
+
+
+def discover_books():
+    """Every *-woh book with versionLicense == CC0-1.0, minus HELD, sorted."""
+    out = []
+    for d in sorted(ROOT.glob("*-woh")):
+        if not d.is_dir() or d.name in HELD:
+            continue
+        m = d / "_meta.json"
+        try:
+            if m.exists() and json.load(open(m, encoding="utf-8")).get("versionLicense") == "CC0-1.0":
+                out.append(d.name)
+        except Exception:
+            continue
+    return out
 
 # ISO-639 code -> human name (for the card).
 LANG_NAME = {"he": "Hebrew", "arc": "Aramaic", "grc": "Ancient Greek",
@@ -65,8 +81,9 @@ def rows_for(book_dir, meta):
     src = load_source_map(book_dir)
     orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
     rows = []
-    chapters = sorted(glob.glob(str(book_dir / "chapter-*.json")),
-                      key=lambda p: int(re.search(r"chapter-(\d+)\.json", p).group(1)))
+    chapters = sorted(glob.glob(str(book_dir / "chapter-*.json"))
+                      + glob.glob(str(book_dir / "tablet-*.json")),
+                      key=lambda p: int(re.search(r"-(\d+)\.json", p).group(1)))
     for cf in chapters:
         ch = json.load(open(cf, encoding="utf-8"))
         cn = ch.get("n")
@@ -112,17 +129,26 @@ def glossary_terms(gloss):
     return gloss or []
 
 
-def card(slug, meta, n_rows, n_gloss):
+def review_status(book_dir, meta):
+    """An honest one-line review status for the card (never overclaims sign-off)."""
+    vs = meta.get("verificationStatus") or ""
+    if vs.startswith("human-signed-off"):
+        return f"editor + reviewer approved, human-signed-off ({vs.split('human-signed-off-')[-1]})"
+    if "pending-verification" in vs:
+        return ("best-effort manuscript reconstruction, **pending verification** — "
+                "not yet through editor/reviewer sign-off")
+    if list(book_dir.glob("*signoff-package*")) or list(book_dir.glob("*editor-report*")):
+        return "editor + reviewer reviewed per chapter (sign-off packages on file)"
+    return "**draft** — machine translation + glossary applied, not yet editor/reviewer signed off"
+
+
+def card(slug, meta, n_rows, n_gloss, review):
     titles = meta.get("titles") or {}
     en_title = titles.get("en") or slug
     orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
     orig_name = LANG_NAME.get(orig_lang, orig_lang or "the source language")
     desc = clean_desc((meta.get("descriptions") or {}).get("en") or "")
     provenance = meta.get("sourceCitation") or meta.get("versionSource") or ""
-    vstatus = meta.get("verificationStatus")
-    signoff = ""
-    if vstatus and vstatus.startswith("human-signed-off"):
-        signoff = f"\n- **Review status:** editor + reviewer approved, human-signed-off ({vstatus.split('human-signed-off-')[-1]})."
     langs = "\n".join(f"- {c}" for c in dict.fromkeys(["en", orig_lang]) if c)
     pretty = f"{en_title} — Wheel of Heaven Translation"
     front = (
@@ -152,7 +178,7 @@ def card(slug, meta, n_rows, n_gloss):
         "`witness_secondary`.\n\n"
         "## Method & provenance\n\n"
         f"Produced under the Wheel of Heaven Translation Program (translator → editor → "
-        f"reviewer → human sign-off).{signoff}\n\n"
+        f"reviewer → human sign-off).\n- **Review status:** {review}.\n\n"
         + (f"**Source:** {provenance}\n\n" if provenance else "")
         + "## License & citation\n\n"
         "CC0-1.0 (public domain). Documentation and the reading edition: "
@@ -171,6 +197,9 @@ def build(slug):
     if meta.get("versionLicense") != "CC0-1.0":
         sys.exit(f"{slug}: versionLicense is {meta.get('versionLicense')!r}, not CC0 — refusing to package.")
     rows = rows_for(bd, meta)
+    if not any(r["english"].strip() for r in rows):
+        print(f"  · {slug}: SKIPPED — 0 translated verses (stub or source-only)")
+        return 0
     gpath = bd / "_translation-glossary.json"
     gloss = json.load(open(gpath, encoding="utf-8")) if gpath.exists() else {}
     if isinstance(gloss, dict):
@@ -184,7 +213,7 @@ def build(slug):
             fh.write(json.dumps(r, ensure_ascii=False) + "\n")
     with open(out / "glossary.json", "w", encoding="utf-8") as fh:
         json.dump(gloss, fh, ensure_ascii=False, indent=2)
-    (out / "README.md").write_text(card(slug, meta, len(rows), n_gloss), encoding="utf-8")
+    (out / "README.md").write_text(card(slug, meta, len(rows), n_gloss, review_status(bd, meta)), encoding="utf-8")
     filled = sum(1 for r in rows if r["english"].strip())
     print(f"  ✓ {slug}: {len(rows)} verses ({filled} with English), {n_gloss} glossary entries "
           f"→ dist-hf/{slug}/")
@@ -195,7 +224,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--only", metavar="SLUG")
     args = ap.parse_args()
-    books = [args.only] if args.only else BOOKS
+    books = [args.only] if args.only else discover_books()
     if DIST.exists() and not args.only:
         shutil.rmtree(DIST)
     total = 0
