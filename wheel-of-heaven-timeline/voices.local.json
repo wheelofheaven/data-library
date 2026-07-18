@@ -1,0 +1,13 @@
+{
+  "_comment": "Local (Voxtral) casting for the Timeline audiobook. Audiobook-first: the neutral site voice narrates; Scripture is set apart (a second voice) for the gradient. Voxtral presets available (from the model's voice_embedding/): neutral_male, neutral_female, casual_male, casual_female, cheerful_female, and per-language pairs (de/fr/es/it/nl/pt/hi/ar). Re-audition and adjust to taste.",
+  "voices": {
+    "Narrator": "neutral_male",
+    "Scripture": "neutral_female"
+  },
+  "pauses": {
+    "between_paragraphs": 600,
+    "between_speakers": 900,
+    "before_title": 1800,
+    "after_title": 1200
+  }
+}

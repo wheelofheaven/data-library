@@ -1,0 +1,22 @@
+# Local audiobook backend (Timeline) — Apple-Silicon MLX stack, no torch needed
+# for inference (torch arrives only as a transformers dependency, unused here).
+#
+#   python3.13 -m venv data-library/.venv-tts
+#   data-library/.venv-tts/bin/pip install -r scripts/requirements-local-tts.txt
+#
+# Used by generate_audio_local.py:
+#   - mlx-audio    : Voxtral-4B-TTS synthesis (MLX)
+#   - mlx-whisper  : word-level forced alignment (MLX)
+#   - soundfile    : WAV write
+#   - pyyaml/requests : pulled in so update_book_manifest (generate_audio.py)
+#                       runs in this same venv
+mlx-audio
+mlx-whisper
+soundfile
+pyyaml
+requests
+# transformers 5.13.0 breaks mlx_lm's AutoTokenizer.register (str vs class);
+# 5.12.1 is the POC's known-good pin.
+transformers==5.12.1
+# Voxtral's tekken tokenizer needs the audio extra.
+mistral-common[audio]
