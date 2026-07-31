@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 2,
+  "version": "1.0.0",
+  "scope": "isaiah-woh",
+  "description": "Per-translation overlay glossary for Isaiah (Westminster Leningrad Codex; the project's classical-prophet arc, companion to the Ezekiel 1 kavod throne-vision and the Revelation 4 / Enoch 14 / Daniel 7 merkavah cluster). v1.0.0 opens the book with the text-specific lexical and rendering decisions the Editor settled for chapter 6 (the throne-room call-vision, Isa 6:1-13): the standalone Adonai 'the Lord' divine-title handling (kept distinct from the YHWH house-style and from the compound Adonai-YHWH Ezekiel/Genesis entries); the ram-venissa 'high and lifted up' throne-attachment; the shulayw 'hem/train' and heikhal 'temple' (palace/audience-hall in commentary); the seraphim transliteration (winged throne-attendants; NOT the fiery serpents of Num 21) with the srp 'burn' etymology; YHWH tzevaot 'YHWH of hosts' (the heavenly-host/divine-assembly reading confined to commentary); the suffixed kevodo 'his glory/kavod' (physical-presence kavod-tradition; distinct grammatical form from the Ezekiel-scoped kavod-yhwh construct entry); the ammot-sippim 'foundations of the thresholds'; the nidmeti 'I am undone' root-crux (dmh 'ruined' over dmm 'silenced'); ha-melekh 'the King' divine title with the seeing-the-deity theophany-danger; the ritzpah 'live coal' mouth-purification; the kpr 'atoned/purged' formula; the hashmen-lev hardening-commission imperatives; and the levaer 'for burning' / massevet 'stump' / zera-qodesh 'holy seed' remnant cluster at 6:13 with the Old-Greek (LXX) minus of the closing clause. The trishagion qadosh-x3 at Isa 6:3 is handled by the existing CENTRAL entry trisagion-rev-4-8-isa-6-3-sanctus-liturgical-tradition-cross-corpus (which already documents Isa 6:3 at length and defers an Isaiah entry); the 1cp lanu 'for us' divine-plural at Isa 6:8 is handled by a proposed NEW CENTRAL divine-council-plural entry cross-linked to naaseh-adam / havah-neredah / naase-lanu-shem. Both central changes are specified as exact JSON diffs in chapter-6-editor-report.md, marked 'CENTRAL - apply by orchestrator'; the central file is deliberately NOT modified by the Editor. Cross-corpus vocabulary already carried by central entries (the trishagion, the Ezekiel-1 merkavah throne-vision cluster, the harbah-arbeh doubled-infinitive-intensive which already lists ISA-6:9, the hineni prophetic-response formula) is referenced by id in the chapter glossaryRefs and flagged in the Editor report.",
+  "sourceLanguages": [
+    "he"
+  ],
+  "entries": [
+    {
+      "id": "title-and-meta-conventions-isaiah",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "strongs": null,
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: chapter-title and divine-name house-style for the Isaiah overlay",
+      "literal": "(not applicable - meta)",
+      "standardEnglish": "(not applicable - meta)",
+      "wohChoice": "chapter-title 'Isaiah 6 - The throne-room vision and the prophet's commission' (the Translator's descriptive long-form title, ratified). Divine-name house-style for the book, established here: the Tetragrammaton יְהוָה is rendered 'YHWH' (ISA-6:3, 6:5, 6:12), matching the corpus-wide YHWH convention; the bare divine title אֲדֹנָי is rendered 'the Lord' (ISA-6:1, 6:8, 6:11) and kept typographically and lexically distinct from YHWH; the seraphim are transliterated; the first-person-plural divine speech is preserved literally without committing the text to a reading.",
+      "claim_type": "direct",
+      "rationale": "This meta-entry records the divine-name house-style Isaiah inherits from the established corpus convention and fixes for the book at its opening chapter. The Masoretic text of Isaiah 6 alternates deliberately between the Tetragrammaton יְהוָה (6:3, 6:5, 6:12) and the bare title אֲדֹנָי (6:1, 6:8, 6:11); the project renders the two distinctly - 'YHWH' for the Tetragrammaton and 'the Lord' for אֲדֹנָי - so the reader can see the source's own lexical alternation rather than the flattening 'the LORD / the Lord' English convention that masks it. No lens is carried in the title or the name-conventions: they are descriptive of the text and consistent with the corpus. The seraphim-transliteration and divine-plural-preservation decisions are given their own entries below and cross-referenced here only as house-style.",
+      "appliesTo": [
+        "ISA-6:1"
+      ]
+    },
+    {
+      "id": "adonai-standalone-title-isaiah",
+      "source": "אֲדֹנָי",
+      "translit": "ʾăḏōnāy",
+      "strongs": "H136",
+      "lemma": "ʾăḏōnāy (standalone divine title; not the compound אֲדֹנָי יְהוִה)",
+      "partOfSpeech": "divine title (noun, plural-of-majesty of אָדוֹן 'lord/master' with 1cs suffix, used absolutely of the deity)",
+      "literal": "my lords / the Lord",
+      "standardEnglish": "the Lord (ASV/JPS/NRSV)",
+      "wohChoice": "'the Lord' - the standalone אֲדֹנָי title rendered as the ASV/JPS/NRSV standard, kept distinct from 'YHWH' (the corpus rendering of the Tetragrammaton) and from the compound 'Lord YHWH' (the Ezekiel/Genesis adonai-yhwh entries).",
+      "claim_type": "direct",
+      "rationale": "The Masoretic text of Isaiah 6 opens and structures its call-narrative with the bare title אֲדֹנָי - at 6:1 (the vision), 6:8 (the commissioning voice), and 6:11 ('How long, O Lord?') - a genuine divine title (the plural-of-majesty of אָדוֹן 'lord, master') and not the Tetragrammaton, which appears separately at 6:3, 6:5, 6:12. No production-glossary entry governs bare אֲדֹנָי: the existing adonai-yhwh and adonai-yhwh-divine-name entries cover only the compound אֲדֹנָי יְהוִה and are scoped to Ezekiel and Genesis. The Editor renders 'the Lord' (the ASV/JPS/NRSV standard) rather than the escalation-option of reading אֲדֹנָי as a reverential substitution masking an original יהוה: some manuscripts and the tradition of the tiqqune sopherim show scribal sensitivity around the divine names in Isaiah 6, but the consonantal MT reads אֲדֹנָי and accuracy-before-lens forbids promoting a conjectured 'YHWH' into the text where the received text is unambiguous. Keeping 'the Lord' distinct from 'YHWH' preserves the source's own alternation of the two designations, which the throne-vision deploys pointedly.",
+      "appliesTo": [
+        "ISA-6:1",
+        "ISA-6:8",
+        "ISA-6:11"
+      ]
+    },
+    {
+      "id": "throne-ram-venissa-isaiah",
+      "source": "כִּסֵּא רָם וְנִשָּׂא",
+      "translit": "kissēʾ rām wᵉniśśāʾ",
+      "strongs": "H3678 (kissēʾ); H7311 (rûm); H5375 (nāśāʾ)",
+      "lemma": "rām wᵉniśśāʾ (the word-pair 'high and lifted up')",
+      "partOfSpeech": "noun (throne) + two passive/stative participles in attributive agreement",
+      "literal": "a throne high and lifted-up",
+      "standardEnglish": "a throne, high and lifted up (ASV); a high and lofty throne (JPS)",
+      "wohChoice": "the pair modifies the throne: 'a throne, high and lifted up' - the participles rām wᵉniśśāʾ read as attributive to כִּסֵּא (masc. sg., which they immediately follow and agree with), not as predicated of the seated Lord.",
+      "claim_type": "direct",
+      "rationale": "The word-pair רָם וְנִשָּׂא stands directly after כִּסֵּא and agrees with it in gender and number, so the natural syntactic reading takes the throne, not the seated figure, as exalted - the rendering of ASV, JPS, and the major commentaries (Wildberger, Isaiah 1-12, 1991; Williamson, ICC Isaiah 6-12, 2018). The escalation-option that the pair describes the Lord draws on Isa 57:15, where רָם וְנִשָּׂא is applied to God ('the high and lofty One'), but that is a separate, independent construction and cannot govern the syntax here. The Editor ratifies the throne-attachment as the accuracy-first reading; the theological point that the exaltation of the throne connotes the exaltation of its occupant is a matter of sense, not syntax, and is left to the commentary rather than imposed on the line.",
+      "appliesTo": [
+        "ISA-6:1"
+      ]
+    },
+    {
+      "id": "shulayw-hem-train-isaiah",
+      "source": "וְשׁוּלָיו מְלֵאִים אֶת־הַהֵיכָל",
+      "translit": "wᵉšûlāyw mᵉlēʾîm ʾeṯ-ha-hêḵāl",
+      "strongs": "H7757 (šûl)",
+      "lemma": "šûl (the hem/skirt/train of a garment), here suffixed שׁוּלָיו 'his hem(s)'",
+      "partOfSpeech": "noun (plural with 3ms suffix)",
+      "literal": "his skirts/hems (were) filling the temple",
+      "standardEnglish": "his train (JPS); the hem of his robe (NRSV); his train filled the temple (ASV)",
+      "wohChoice": "'the hem of his robe filled the temple' - שׁוּל = the lower hem/skirt/train of a garment; the singular-collective English 'the hem of his robe' for the Hebrew plural שׁוּלָיו, the image being the robe's train flooding the sanctuary.",
+      "claim_type": "direct",
+      "rationale": "שׁוּל denotes the lower hem, skirt, or train of a garment (BDB, HALOT), and the plural שׁוּלָיו pictures the trailing skirts of the enthroned figure's robe overspreading the sanctuary - a deliberately anthropomorphic and spatial image (Wildberger; Blenkinsopp, Isaiah 1-39, AB 19, 2000). The Editor keeps the accessible 'the hem of his robe' (with 'train' recorded as an equally defensible value) rather than the archaizing 'skirts'; no reading diverges from the standard scholarly sense. The point of interest for the vision - that a mere hem of the robe suffices to fill the whole hall, implying the immensity of the seated figure - is a matter of the image, developed in commentary, not a lexical divergence in the text.",
+      "appliesTo": [
+        "ISA-6:1"
+      ]
+    },
+    {
+      "id": "heikhal-temple-palace-isaiah",
+      "source": "הַהֵיכָל",
+      "translit": "ha-hêḵāl",
+      "strongs": "H1964",
+      "lemma": "hêḵāl (temple; palace; great hall / nave)",
+      "partOfSpeech": "noun (definite)",
+      "literal": "the palace / temple / great hall",
+      "standardEnglish": "the temple (ASV/JPS/NRSV)",
+      "wohChoice": "'the temple' - the standard rendering, with the palace / royal-audience-hall register of hêḵāl noted in commentary rather than surfaced in the line.",
+      "claim_type": "direct",
+      "rationale": "hêḵāl (a loanword, ultimately Sumerian e-gal 'big house' via Akkadian ekallu 'palace') means both 'palace' and 'temple', and specifically the great hall or nave of the temple (BDB, HALOT). The Editor renders 'the temple', the standard value and the one the immediate context requires: the vision is set in the Jerusalem sanctuary (the year of Uzziah's death), and the altar of 6:6 (מִזְבֵּחַ) confirms the cultic setting. The palace / royal-audience-hall resonance - the enthroned sovereign holding court in his hall, which is where the throne-audience and the commissioning of a messenger belong - is genuine to the word and is WoH-salient, but rendering it 'palace' would over-specify against the temple setting the chapter builds; that register is therefore carried in the commentary, not the line.",
+      "appliesTo": [
+        "ISA-6:1"
+      ]
+    },
+    {
+      "id": "seraphim-burning-ones-isaiah",
+      "source": "שְׂרָפִים",
+      "translit": "śᵉrāp̄îm",
+      "strongs": "H8314 (śārāp̄); root H8313 (śārap̄ 'to burn')",
+      "lemma": "śārāp̄ / plural śᵉrāp̄îm (a class of winged throne-attendant), root śrp 'to burn'",
+      "partOfSpeech": "noun (masculine plural)",
+      "literal": "burning ones",
+      "standardEnglish": "seraphim (ASV/JPS/NRSV)",
+      "wohChoice": "transliterate 'seraphim' - the winged throne-attendants of the vision; the root-sense 'burning ones' (śrp 'to burn') and the winged-attendant / uraeus iconographic background and the divine-council resonance are carried in commentary. The text does NOT render 'fiery serpents' in the throne-vision.",
+      "claim_type": "direct",
+      "rationale": "śᵉrāp̄îm is the plural of śārāp̄, from the root śrp 'to burn', hence the literal 'burning ones'; in Isaiah 6 the word names six-winged attendants standing above the throne, calling the trishagion and mediating the coal-purification (Wildberger; Blenkinsopp). The Editor transliterates 'seraphim' - the standard scholarly rendering (ASV/JPS/NRSV) - because the term functions here as the proper name of a specific order of throne-beings, not as a live adjective; translating 'burning ones' would be defensible etymologically but would lose the recognizability of the class and is reserved for the commentary. The third escalation-option, 'fiery/flying serpents' (the śārāp̄ of Num 21:6, Deut 8:15, Isa 14:29, 30:6, and the winged-uraeus iconographic parallels discussed by Joines, JBL 86 [1967], and Wildberger), is deliberately DECLINED for the throne-vision: whatever the iconographic prehistory of the seraph-figure, the beings of Isaiah 6 have faces, feet, hands, and voices and act as courtiers, so 'serpents' would import a reading the scene does not support - an accuracy-before-lens ruling. The cross-corpus link to the Ezekiel-1 living-creatures and the Revelation-4 four-living-creatures who take up the same trishagion is developed in commentary and via the central merkavah-tradition entry.",
+      "appliesTo": [
+        "ISA-6:2",
+        "ISA-6:6"
+      ]
+    },
+    {
+      "id": "yhwh-tzevaot-hosts-isaiah",
+      "source": "יְהוָה צְבָאוֹת",
+      "translit": "YHWH ṣᵉḇāʾôṯ",
+      "strongs": "H3068 (YHWH); H6635 (ṣāḇāʾ, plural ṣᵉḇāʾôṯ)",
+      "lemma": "YHWH ṣᵉḇāʾôṯ ('YHWH of hosts/armies')",
+      "partOfSpeech": "divine name + noun in a genitival/appositional bond",
+      "literal": "YHWH of armies/hosts",
+      "standardEnglish": "the LORD of hosts (ASV/JPS); YHWH of hosts",
+      "wohChoice": "'YHWH of hosts' - the standard rendering, retaining the corpus 'YHWH' house-style; the reading of צְבָאוֹת as the heavenly host / divine assembly (the armies of the assembly convened around the throne) is carried in commentary, not by altering the title.",
+      "claim_type": "direct",
+      "rationale": "יְהוָה צְבָאוֹת, 'YHWH of hosts', is the throne-vision's governing divine title, recurring at 6:3 (the seraphim's ascription) and 6:5 (Isaiah's confession 'my eyes have seen the King, YHWH of hosts'). צָבָא is 'army, host', and the title's original reference is disputed - the armies of Israel, the astral bodies, or the heavenly army / divine council - with the assembly-of-heavenly-beings reading argued at length by Mullen (The Divine Council in Canaanite and Early Hebrew Literature, 1980) and F. M. Cross (Canaanite Myth and Hebrew Epic, 1973), who read ṣᵉḇāʾôṯ as YHWH's command of the heavenly host that constitutes the council. The Editor keeps the standard 'YHWH of hosts' in the text (accuracy-before-lens: the title is a fixed epithet and the divergent 'of the heavenly host/armies' would over-translate a frozen form) and confines the heavenly-host/assembly reading - a canon-salient site, since the throne is surrounded by attendant beings in this very vision - to the commentary. The rendering is the standard one and carries no lens; only the house-style 'YHWH' (for the Tetragrammaton) distinguishes it from the KJV/ASV 'the LORD of hosts'.",
+      "appliesTo": [
+        "ISA-6:3",
+        "ISA-6:5"
+      ]
+    },
+    {
+      "id": "kevodo-kavod-suffixed-isaiah",
+      "source": "מְלֹא כָל־הָאָרֶץ כְּבוֹדוֹ",
+      "translit": "mᵉlōʾ ḵol-hā-ʾāreṣ kᵉḇôḏô",
+      "strongs": "H3519 (kāḇôḏ), root H3513 (kāḇēḏ 'be heavy'); H776 (ʾereṣ); H4393 (mᵉlōʾ)",
+      "lemma": "kāḇôḏ (glory / weight / radiant presence), here suffixed כְּבוֹדוֹ 'his glory'",
+      "partOfSpeech": "noun (with 3ms suffix), predicate of a verbless clause",
+      "literal": "the fullness of all the earth (is) his glory",
+      "standardEnglish": "the whole earth is full of his glory (ASV/JPS); the fullness of the whole earth is his glory",
+      "wohChoice": "'the fullness of the whole earth is his glory' - the literal nominal-clause word order preserved (kᵉḇôḏô as predicate), with kᵉḇôḏô rendered 'his glory'; the physical-presence sense of kāḇôḏ (the weighty, radiant manifestation) and the cosmic scope of kol hā-ʾāreṣ ('the whole earth') carried in commentary. Distinct grammatical form from the construct kᵉḇôḏ-YHWH governed by the Ezekiel-scoped kavod-yhwh entry.",
+      "claim_type": "direct",
+      "rationale": "כְּבוֹדוֹ is the suffixed form of כָּבוֹד ('glory'), from the root kbd 'to be heavy'; the term is the Hebrew Bible's technical word for the weighty, radiant, quasi-physical presence-manifestation of the deity (Ex 40:34-35; 1 Kgs 8:10-11; Ezek 1:28), a sense the central kavod-yhwh entry documents for the construct כְּבוֹד־יְהוָה in Ezekiel. That entry cannot govern here because the form differs: Isaiah has the suffixed predicate כְּבוֹדוֹ in a verbless clause, not the bound construct. The Editor preserves the draft's literal word order 'the fullness of the whole earth is his glory' - which keeps kᵉḇôḏô as the clause's predicate, a defensible construal of מְלֹא כָל־הָאָרֶץ כְּבוֹדוֹ alongside the smoother 'the whole earth is full of his glory' - and renders kol hā-ʾāreṣ 'the whole earth' in its cosmic scope (the standard reading here, over against the 'whole land' value the Gen-1-scoped eretz entry uses). The physical-presence, kavod-fills-space register (the same phenomenon Isaiah's smoke-filled house dramatizes) is the WoH-salient point and is developed in commentary; the text keeps the standard 'his glory', so the entry is direct.",
+      "appliesTo": [
+        "ISA-6:3"
+      ]
+    },
+    {
+      "id": "ammot-sippim-thresholds-isaiah",
+      "source": "אַמּוֹת הַסִּפִּים",
+      "translit": "ʾammôṯ ha-sippîm",
+      "strongs": "H520 (ʾammāh); H5592 (sap̄, plural sippîm)",
+      "lemma": "ʾammôṯ ha-sippîm (the posts/foundations of the thresholds)",
+      "partOfSpeech": "noun (construct plural) + noun (definite plural)",
+      "literal": "the pivots/foundations of the thresholds/sills",
+      "standardEnglish": "the foundations of the thresholds (JPS); the posts of the door (ASV)",
+      "wohChoice": "'the foundations of the thresholds' - ʾammôṯ as the sockets/foundations bearing the doorframe, sippîm as the thresholds/door-sills; the architectural element that shook at the seraph's voice.",
+      "claim_type": "direct",
+      "rationale": "אַמָּה here is not 'cubit' but a structural member - the pivot, socket, or foundation on which the door-structure turns or rests - and סַף is the threshold or door-sill (BDB, HALOT); the pair names the load-bearing base of the doorway that trembles at the sound (Wildberger; Blenkinsopp). The Editor follows JPS 'the foundations of the thresholds' as the most transparent rendering, with 'the posts of the door' (ASV) and 'the door-pivots/sockets' recorded as defensible alternatives among which the sources do not decisively adjudicate. The decision is lexical-architectural and carries no lens; verse 4 is scene-setting (the shaking sanctuary and the filling smoke) and receives no separate commentary.",
+      "appliesTo": [
+        "ISA-6:4"
+      ]
+    },
+    {
+      "id": "nidmeti-undone-isaiah",
+      "source": "נִדְמֵיתִי",
+      "translit": "niḏmêṯî",
+      "strongs": "H1820 (dāmāh II 'be cut off, cease, be ruined'); cf. H1826 (dāmam 'be silent')",
+      "lemma": "niḏmêṯî (Niphal 1cs; root ambiguous between dmh 'be ruined/undone' and dmm 'be silenced')",
+      "partOfSpeech": "verb (Niphal perfect 1cs)",
+      "literal": "I am ruined / cut off / undone",
+      "standardEnglish": "I am undone (ASV); I am lost (NRSV/NJPS)",
+      "wohChoice": "'I am undone' - the dmh 'be cut off / ruined / doomed' reading (the sense of imminent destruction on seeing the deity), with the competing dmm 'be silenced / struck dumb' reading noted in commentary.",
+      "claim_type": "direct",
+      "rationale": "נִדְמֵיתִי is a genuine root-crux: it may derive from דמה 'to cease, be cut off, be ruined/destroyed' (BDB, HALOT), giving 'I am undone / ruined / doomed', or from דמם 'to be silent, be struck dumb', giving 'I am silenced'. The Editor renders 'I am undone', the majority scholarly and versional reading (ASV; JPS/NRSV 'I am lost'), because the following clause supplies the ground - 'for my eyes have seen the King' - which invokes the lethal danger of seeing the deity (Ex 33:20; Judg 13:22), a fear of destruction rather than of muteness. The 'struck dumb / silenced' reading is contextually attractive - it would chime with the 'unclean lips' motif that dominates Isaiah's confession and its coal-cure - and it is recorded in the commentary as a live alternative, but it is the minority reading and is not promoted into the text. The chosen rendering is the standard one; the entry is direct with the crux flagged.",
+      "appliesTo": [
+        "ISA-6:5"
+      ]
+    },
+    {
+      "id": "ha-melekh-divine-title-isaiah",
+      "source": "אֶת־הַמֶּלֶךְ יְהוָה צְבָאוֹת רָאוּ עֵינָי",
+      "translit": "ʾeṯ-ha-meleḵ YHWH ṣᵉḇāʾôṯ rāʾû ʿênāy",
+      "strongs": "H4428 (meleḵ); H7200 (rāʾāh)",
+      "lemma": "ha-meleḵ ('the King', divine title in apposition to YHWH ṣᵉḇāʾôṯ)",
+      "partOfSpeech": "noun (definite), divine title, object of 'have seen'",
+      "literal": "for the King, YHWH of hosts, my eyes have seen",
+      "standardEnglish": "the King, the LORD of hosts (ASV/JPS)",
+      "wohChoice": "'the King, YHWH of hosts' - הַמֶּלֶךְ as a divine title in apposition to YHWH of hosts; the theological weight of physically seeing the enthroned deity (the danger behind Isaiah's 'woe') carried in commentary.",
+      "claim_type": "direct",
+      "rationale": "הַמֶּלֶךְ 'the King' stands in apposition to יְהוָה צְבָאוֹת and is the object of רָאוּ עֵינָי 'my eyes have seen' - the enthroned figure of the vision is titled 'the King', a designation with royal-throne resonance that the whole scene (throne, hall, courtiers, audience) sustains (Wildberger; Williamson, ICC). The Editor renders the standard 'the King, YHWH of hosts'; no reading diverges from the versions. The salient point - that Isaiah's cry of woe is grounded in the peril of having physically seen the deity, against the tradition that no one sees God and lives (Ex 33:20; cf. Gen 32:31; Judg 13:22) - is a matter of the scene's theology and is developed in the commentary rather than surfaced by re-rendering the title.",
+      "appliesTo": [
+        "ISA-6:5"
+      ]
+    },
+    {
+      "id": "ritzpah-live-coal-isaiah",
+      "source": "רִצְפָּה ... בְּמֶלְקַחַיִם לָקַח מֵעַל הַמִּזְבֵּחַ",
+      "translit": "riṣpāh ... bᵉmelqāḥayim lāqaḥ mēʿal ha-mizbēaḥ",
+      "strongs": "H7531 (riṣpāh); H4457 (melqāḥayim); H4196 (mizbēaḥ)",
+      "lemma": "riṣpāh (a live coal / hot glowing stone), taken with מֶלְקַחַיִם (tongs) from the מִזְבֵּחַ (altar)",
+      "partOfSpeech": "noun (feminine)",
+      "literal": "a glowing/hot stone (a live coal)",
+      "standardEnglish": "a live coal (ASV/JPS)",
+      "wohChoice": "'a glowing coal' - riṣpāh as the live/glowing coal (or heated stone) lifted with tongs from the altar; the mouth-and-lip purification it effects in v7 carried in commentary.",
+      "claim_type": "direct",
+      "rationale": "רִצְפָּה denotes a hot, glowing stone or live coal (BDB, HALOT; cf. the cognate sense of rṣp 'to set/join stones', and 1 Kgs 19:6 rᵉṣap̄îm 'hot stones/coals'), here taken from the altar with tongs (מֶלְקַחַיִם) - the seraph handles it with tongs precisely because it is too hot to hold. The Editor keeps the draft's 'glowing coal' (with 'live coal', ASV/JPS, and 'burning/hot stone' as equivalents), the standard rendering; no divergence from the versions. That the burning coal from the altar touches and purges the 'unclean lips' - fire as the agent of purification and consecration for speech - is the point of the scene and is developed in the commentary on vv 6-7.",
+      "appliesTo": [
+        "ISA-6:6"
+      ]
+    },
+    {
+      "id": "kupar-atonement-isaiah",
+      "source": "וְסָר עֲוֺנֶךָ וְחַטָּאתְךָ תְּכֻפָּר",
+      "translit": "wᵉsār ʿăwōneḵā wᵉḥaṭṭāʾṯḵā tᵉḵuppār",
+      "strongs": "H5493 (sûr); H5771 (ʿāwōn); H2403 (ḥaṭṭāʾṯ); H3722 (kāp̄ar)",
+      "lemma": "tᵉḵuppār (Pual imperfect of kpr 'to atone, expiate, purge, cover'); with sār ʿăwōn 'iniquity is removed'",
+      "partOfSpeech": "verb (Pual imperfect 3fs) + verbal clause",
+      "literal": "your iniquity is turned-aside, and your sin is atoned/purged/covered",
+      "standardEnglish": "thine iniquity is taken away, and thy sin purged (ASV); your iniquity shall depart and your sin be purged away (JPS/NRSV); expiated (NJPS)",
+      "wohChoice": "'your iniquity is removed, and your sin is atoned for' - sār ʿăwōn 'iniquity removed'; tᵉḵuppār (kpr) rendered 'atoned for' (with 'purged / wiped away' as equivalents), the ritual purgation the coal effects.",
+      "claim_type": "direct",
+      "rationale": "The verse pairs two purgation-verbs: סָר (from סור 'to turn aside'), the iniquity 'is removed', and תְּכֻפָּר, a Pual of כפר, the sin 'is atoned/expiated/purged' - the standard priestly kpr vocabulary for the wiping-away or covering of sin (BDB, HALOT; the cover/wipe etymological debate is longstanding). The Editor renders 'your iniquity is removed, and your sin is atoned for' (with JPS/NJPS 'expiated' and ASV 'purged' as equivalents), the standard versional reading; no divergence. The scene's logic - that the altar-coal's touch performs on Isaiah's lips a cultic purgation the priesthood otherwise performs by blood and fire - is developed in the commentary on vv 6-7, not asserted by re-rendering the verb.",
+      "appliesTo": [
+        "ISA-6:7"
+      ]
+    },
+    {
+      "id": "hashmen-hardening-commission-isaiah",
+      "source": "הַשְׁמֵן לֵב־הָעָם הַזֶּה וְאָזְנָיו הַכְבֵּד וְעֵינָיו הָשַׁע",
+      "translit": "hašmēn lēḇ-hā-ʿām ha-zzeh wᵉ-ʾoznāyw haḵbēḏ wᵉ-ʿênāyw hāšaʿ",
+      "strongs": "H8080 (šāmēn 'be/grow fat'); H3513 (kāḇēḏ 'be heavy'); H8173 (šāʿaʿ 'smear over, be blinded'); H3820 (lēḇ)",
+      "lemma": "the hardening-commission imperatives: hašmēn 'make fat/dull', haḵbēḏ 'make heavy', hāšaʿ 'smear over / shut'",
+      "partOfSpeech": "three causative (Hiphil) imperatives",
+      "literal": "make fat the heart of this people, and make its ears heavy, and smear-over its eyes",
+      "standardEnglish": "Make the heart of this people fat, and make their ears heavy, and shut their eyes (ASV); Dull the mind of this people, stop up its ears, and seal its eyes (NJPS)",
+      "wohChoice": "'Make the heart of this people fat, make its ears heavy, and smear over its eyes' - the purposive imperatives of hardening read at face value (the divinely-commanded non-comprehension), with the ironic/rhetorical and resultative construals carried in commentary. Pairs with the doubled-infinitive intensives of v9 governed by the central harbah-arbeh-doubled-infinitive-intensive entry.",
+      "claim_type": "direct",
+      "rationale": "Verse 10 issues three causative imperatives - הַשְׁמֵן 'make fat/dull' (the heart), הַכְבֵּד 'make heavy' (the ears), הָשַׁע 'smear over / shut' (the eyes) - followed by the פֶּן 'lest' clause 'lest it see... and turn back and be healed'; grammatically these are imperatives addressed to the prophet, commissioning him to render the people insensible (Wildberger; Blenkinsopp; Williamson, ICC). The Editor renders them at face value as the purposive hardening-commission (ASV/JPS baseline), which is what the Hebrew says; the softening alternatives - the ironic/rhetorical reading (a bitter prediction of futile reception cast as command) and the resultative reading ('so that', foreseen outcome rather than intended purpose), together with the ancient tradition of easing the offense (the LXX recasts the imperatives as a resultative statement of fact, 'the heart of this people has grown dull', and the Targum paraphrases) - are theologically significant and are surfaced in the commentary, but they are not imposed on the line, since accuracy requires the imperatives to stand. The doubled-infinitive intensives of v9 ('hear indeed... see indeed') are handled by the central harbah-arbeh-doubled-infinitive-intensive entry, which already lists ISA-6:9. No lens is carried in the text.",
+      "appliesTo": [
+        "ISA-6:10"
+      ]
+    },
+    {
+      "id": "levaer-massevet-stump-isaiah",
+      "source": "וְשָׁבָה וְהָיְתָה לְבָעֵר ... אֲשֶׁר בְּשַׁלֶּכֶת מַצֶּבֶת בָּם",
+      "translit": "wᵉšāḇāh wᵉhāyᵉṯāh lᵉḇāʿēr ... ʾăšer bᵉšalleḵeṯ maṣṣeḇeṯ bām",
+      "strongs": "H1197 (bāʿar 'burn, consume'); H4678 (maṣṣeḇeṯ 'stump, stock'); H7995 (šalleḵeṯ 'felling'); H424 (ʾēlāh 'terebinth'); H437 (ʾallôn 'oak')",
+      "lemma": "lᵉḇāʿēr 'to be burned/consumed' (bʿr); maṣṣeḇeṯ 'stump/stock' of a felled terebinth/oak",
+      "partOfSpeech": "preposition + infinitive (bʿr); noun (maṣṣeḇeṯ)",
+      "literal": "and it shall again be for burning ... whose stump/stock (remains) in them when felled",
+      "standardEnglish": "it shall be eaten up ... whose stock remaineth when they are felled (ASV); it shall be ravaged ... whose stump remains when it is felled (NRSV/NJPS)",
+      "wohChoice": "'it too shall again be for burning ... like the terebinth and like the oak, whose stump remains in them when they are felled' - lᵉḇāʿēr rendered 'for burning' (the bʿr 'burn/consume' sense), maṣṣeḇeṯ as the tree-stump/stock left standing after felling (šalleḵeṯ).",
+      "claim_type": "direct",
+      "rationale": "The verse turns on two lexical decisions: לְבָעֵר, from בער 'to burn, kindle, consume', which the Editor renders 'for burning' (with the extended 'to be consumed/ravaged', NRSV/NJPS, and the by-grazing sense 'be browsed' recorded as a minority botanical construal); and מַצֶּבֶת, the stump, stock, or standing-trunk of a felled tree (BDB, HALOT), pictured for the אֵלָה 'terebinth' and אַלּוֹן 'oak' left as a stump בְּשַׁלֶּכֶת 'when felled / in their felling'. The Editor follows the standard felled-tree image (ASV/NRSV/NJPS); the botanical pair terebinth/oak is rendered by its conventional values and receives no separate entry. The whole clause is the vehicle for the remnant-image that the following words (זֶרַע קֹדֶשׁ 'the holy seed') interpret, and that theology is developed in the commentary on 6:13; the renderings here are lexical and carry no lens.",
+      "appliesTo": [
+        "ISA-6:13"
+      ]
+    },
+    {
+      "id": "zera-qodesh-holy-seed-isaiah",
+      "source": "זֶרַע קֹדֶשׁ מַצַּבְתָּהּ",
+      "translit": "zeraʿ qōḏeš maṣṣaḇtāh",
+      "strongs": "H2233 (zeraʿ); H6944 (qōḏeš); H4678 (maṣṣeḇeṯ, suffixed)",
+      "lemma": "zeraʿ qōḏeš ('holy seed') - the closing clause of Isa 6:13, subject to a text-critical minus in the Old Greek",
+      "partOfSpeech": "construct noun-phrase (nominal clause)",
+      "literal": "a holy seed (is) its stump",
+      "standardEnglish": "the holy seed is the stock thereof (ASV); the holy seed is its stump (NRSV/NJPS)",
+      "wohChoice": "'the holy seed is its stump' - the MT closing clause retained, rendering the remnant that survives the felling as a 'holy seed'; the LXX-minus of the whole clause and the remnant/regeneration reading flagged in commentary as a text-critical and interpretive matter, not resolved in the line.",
+      "claim_type": "direct",
+      "rationale": "The Masoretic text closes 6:13 with זֶרַע קֹדֶשׁ מַצַּבְתָּהּ, 'a holy seed (is) its stump' - identifying the surviving stump of the felled tree with a consecrated remnant, the germ from which the people can regrow (Wildberger; Blenkinsopp; Williamson, ICC). The Editor retains the MT clause and its standard rendering; the significant text-critical fact - that the closing clause זֶרַע קֹדֶשׁ מַצַּבְתָּהּ is absent from the Old Greek (LXX), which many read as marking it a later, hope-bearing addition to an otherwise unrelieved oracle of devastation - is recorded in the commentary rather than acted on, since the received Hebrew text carries the clause and the project translates the MT. The remnant/holy-seed motif is theologically weighty and canon-adjacent (a preserved seed-line surviving catastrophe), and that reading is developed in the commentary; the text keeps the standard rendering and the entry is direct, with the LXX-minus disclosed for the reader's audit.",
+      "appliesTo": [
+        "ISA-6:13"
+      ]
+    }
+  ]
+}
