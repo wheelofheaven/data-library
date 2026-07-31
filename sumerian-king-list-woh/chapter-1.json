@@ -1,0 +1,6970 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "SKL-WOH",
+  "bookSlug": "sumerian-king-list-woh",
+  "n": 1,
+  "title": "The Sumerian King List — kingship descends from heaven, the antediluvian kings and the flood, and the dynasties down to Isin",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "status": "stable",
+    "sourceText": "ETCSL composite text (2.1.1)",
+    "sourceLicense": "ETCSL scholarly source (academic-use terms; © The ETCSL project, University of Oxford); English translation and all WoH content original to this project",
+    "sourceUrl": "https://etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi?text=c.2.1.1",
+    "sourceAccessedVia": "etcsl.orinst.ox.ac.uk/cgi-bin/etcsl.cgi",
+    "glossaryVersion": "2.70.0",
+    "overlayGlossaryVersion": "1.0.0",
+    "modelDrafts": [
+      "claude-opus-4-8 (translator)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-07-31T07:34:04Z",
+    "reviewerReport": {
+      "reviewer": "claude-opus-4-8 acting as woh-reviewer",
+      "reviewedAt": "2026-07-31T07:10:40Z",
+      "verdicts": [
+        {
+          "refId": "SKL-1",
+          "status": "approve",
+          "citations": [
+            "Jacobsen 1939, The Sumerian King List (AS 11), i.1-i.5",
+            "ETCSL c.2.1.1 (Black, Cunningham, Robson, Zolyomi), line 1",
+            "Hallo 1970, JCS 23 (antediluvian tradition)"
+          ],
+          "reasoning": "Re-parsed nam-lugal 'kingship' + an-ta (an 'sky/heaven' + ablative -ta) + ed3 (vertical-motion) + -a-ba (temporal nominalizer). 'After kingship had descended from heaven' is the uniform scholarly consensus; the sky-descent dimension is held in commentary only, so the rendered text carries no lens."
+        },
+        {
+          "refId": "SKL-4",
+          "status": "approve",
+          "citations": [
+            "Jacobsen 1939, AS 11 (sar 3600 / ner 600 structure)",
+            "ETCSL c.2.1.1 line 4"
+          ],
+          "reasoning": "28800 = 8 x 3600 (sar) is arithmetically correct; the bare composite numeral matches ETCSL and the cuneiform sign-values. The Genesis 5 / Berossus longevity comparison is confined to notes.official, not imported into the figure."
+        },
+        {
+          "refId": "SKL-15",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 15",
+            "Steinkeller 2003 / Michalowski (Ur III royal deification, cited in commentary)"
+          ],
+          "reasoning": "^d determinative silently dropped per the central convention; sipad = 'shepherd' is the standard value. Royal deification is flagged in commentary, not asserted in the prose."
+        },
+        {
+          "refId": "SKL-39",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 39",
+            "Jacobsen 1939, AS 11 (Flood as structural hinge)"
+          ],
+          "reasoning": "a-ma-ru 'flood' + ba-ur3 'swept over/effaced' rendered 'Then the flood swept over' matches ETCSL; the intransitive (objectless) construction is correctly noted in commentary."
+        },
+        {
+          "refId": "SKL-41",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 41",
+            "Michalowski 1983, JAOS 103 (deliberate composition, not dittography)",
+            "Glassner 2004, Mesopotamian Chronicles"
+          ],
+          "reasoning": "Verbatim repetition of the SKL-1 formula. Rendered identically ('after kingship had descended from heaven'); the doubled-descent ideology is developed in commentary only. No lens in the text."
+        },
+        {
+          "refId": "SKL-64",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 lines 64-67",
+            "Kinnier Wilson 1985, The Legend of Etana",
+            "Foster, Before the Muses (Etana Epic)"
+          ],
+          "reasoning": "an-she3 (terminative 'to heaven') + ed3 'to go up' is grammatically explicit; 'ascended to heaven' matches ETCSL. Line 64 carries no finite verb of its own (lu2 ... an-she3), so supplying the verb here is necessary; the literal-bodily-ascent lens is apparatus-only. No lens leakage."
+        },
+        {
+          "refId": "SKL-65",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 65"
+          ],
+          "reasoning": "ba-ed3-de3 'who ascended' is the finite verb of the clause split across 64-65; the restatement is a line-atomic segmentation artifact, not an interpolation. Grammatically faithful."
+        },
+        {
+          "refId": "SKL-73A",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 73A",
+            "Jacobsen 1939, AS 11 (bala = rotation/term of office)"
+          ],
+          "reasoning": "bal (bala) 'turn/term of office/reign' rendered 'reign' in the subtotal ('1560 years: the reign of Enmenuna') follows ETCSL; treating the manuscript-insertion line as transmitted translated content (not apparatus) matches the ETCSL composite's own numbering. Defensible."
+        },
+        {
+          "refId": "SKL-97",
+          "status": "revise",
+          "citations": [
+            "ETCSL c.2.1.1 lines 97-98 ('became lord and king; he ruled for 324 years')",
+            "overlay entry en-lugal-royal-title-distinction-skl (rationale: 'SKL-97 en-am3 = was lord')"
+          ],
+          "reasoning": "en-am3 alone means 'was lord (en)'; lugal 'king' is on line 98. Rendering line 97 'was lord and king' AND line 98 'he was king' asserts 'king' twice, where ETCSL has it once (folded as 'lord and king'). Minor but fixable: render SKL-97 'the son of Utu, was lord;' and keep 'he was king; he ruled for 324 years' at SKL-98. This aligns each line to its own source token and matches the overlay entry's own statement. Not a lens or meaning error."
+        },
+        {
+          "refId": "SKL-100",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 lines 100-101"
+          ],
+          "reasoning": "ab-ba 'sea' + ba-an-kur9 'entered' rendered literally; the enigmatic notice is preserved without interpretive smoothing, and commentary explicitly states the meaning is unrecoverable. Good lens discipline."
+        },
+        {
+          "refId": "SKL-113",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 113 ('whose father was a phantom(?)')",
+            "George 2003, The Babylonian Gilgamesh Epic (competing paternity traditions)",
+            "CAD L 190 s.v. lilu (phantom/demon) vs L 189 lillu (fool/deficient one)"
+          ],
+          "reasoning": "lil2 (Akk. lilu) is a genuine crux; 'a phantom' retains the spirit-class reading of the major public translation (ETCSL). The WoH-adjacent temptation to upgrade to a definite non-human/divine paternity is correctly declined and the entry is marked inferred, not direct or speculative. No lens smuggled into the text."
+        },
+        {
+          "refId": "SKL-160",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 160",
+            "Marchesi 2010; Michalowski 1983, JAOS 103 (low-born-ruler ideology)"
+          ],
+          "reasoning": "^lu2azlag2 = 'fuller' is the settled Sumerological value. The low-born-ruler motif (culminating in Sargon) is confined to commentary; only the plain trade-gloss is in the text."
+        },
+        {
+          "refId": "SKL-181",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 181",
+            "overlay entry sexagesimal-reign-figure-rendering-convention-skl"
+          ],
+          "reasoning": "6 shu-shi = 6 x 60 = 360; rendered '360 years (6 x 60)'. Arithmetic correct and matches ETCSL's computed-product practice. The convention is applied uniformly."
+        },
+        {
+          "refId": "SKL-284",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 284",
+            "Glassner 2004, Mesopotamian Chronicles"
+          ],
+          "reasoning": "a-ba-am3 lugal a-ba-am3 nu lugal 'Who was king? Who was not king?' rendered directly, with the Akkadian ms. variant (mannum shar mannum la shar) and the Su3+Su4 variant carried inline. Faithful to the source's rare rhetorical register."
+        },
+        {
+          "refId": "SKL-336",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 336",
+            "overlay entry sexagesimal-reign-figure-rendering-convention-skl"
+          ],
+          "reasoning": "Verified the Editor normalized the former draft outlier: 7 shu-shi = 7 x 60 = 420, now rendered '420 years (7 x 60) and 7 days(?)', consistent with SKL-181/183/187/188. The uniform convention is correctly enforced."
+        },
+        {
+          "refId": "SKL-353A",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 353A",
+            "overlay entry ki-en-gi-sumer-homeland-name-skl"
+          ],
+          "reasoning": "suhush 'foundation' + ki-en-gi(-r) 'Sumer' (endonym) + mu-un-bu 'was torn out'. 'The very foundation of Sumer was torn out' matches ETCSL; ki-en-gi kept distinct from kalam 'the Land'. No lens."
+        },
+        {
+          "refId": "SKL-428",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 428",
+            "Jacobsen 1939, AS 11; Michalowski 1983, JAOS 103 (governing fiction)"
+          ],
+          "reasoning": "shu-nigin2 'in all/total' + 134 (variant 139) lugal rendered 'In all, 134 kings'; the damaged king-count variants carried inline. Faithful colophon-style summation."
+        },
+        {
+          "refId": "SKL-2..SKL-431 (non-commentary roster/regnal-total lines)",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 (Black, Cunningham, Robson, Zolyomi), full composite"
+          ],
+          "reasoning": "All 435 lines were checked line-for-line: every translit field is byte-identical to the immutable source sux, and every remaining formulaic line (city-transfer refrains nam-lugal-bi ...-she3 ba-de6, regnal-year i3-ak entries, dynastic mu-bi ...ib2-ak subtotals, defeat formulae, proper-name and manuscript-variant rosters) tracks the ETCSL sense-of-line faithfully with the toponym roster (preserve sh/g-tilde, anglicize only h-breve) applied consistently. No divergences beyond the SKL-97 item above."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "title-and-meta-conventions-skl",
+          "status": "approve",
+          "citations": [
+            "Flood-Story / Atra-hasis descriptive-title precedent (project convention)"
+          ],
+          "reasoning": "Descriptive composition-title + subtitle naming the text's own tripartite content; direct is correct and no lens is carried."
+        },
+        {
+          "glossary_id": "sexagesimal-reign-figure-rendering-convention-skl",
+          "status": "approve",
+          "citations": [
+            "Jacobsen 1939, AS 11 (sar 3600 / ner 600 arithmetic)",
+            "ETCSL c.2.1.1 (computed shu-shi products)"
+          ],
+          "reasoning": "Rendering convention only; the arithmetic is verifiably real (28800=8x3600; 6 shu-shi=360; 7 shu-shi=420) and the two outliers are now normalized. direct is correct."
+        },
+        {
+          "glossary_id": "skl-postdiluvian-toponym-onomasticon-roster",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 (Sumerian forms Kis, Unug, Urim, Aksak, Agade)",
+            "central five-antediluvian-cities-... entry"
+          ],
+          "reasoning": "Orthographic-consistency ruling (preserve sh and g-tilde, anglicize only h-breve). Verified applied consistently across all EN lines (toponyms keep sh; only 'kingship'/'shepherd' English words carry sh). direct is correct."
+        },
+        {
+          "glossary_id": "en-lugal-royal-title-distinction-skl",
+          "status": "approve",
+          "citations": [
+            "ePSD2 s.v. en 'lord/high priest', lugal 'king'",
+            "ETCSL c.2.1.1 (en rendered 'lord')"
+          ],
+          "reasoning": "en = 'lord', lugal = 'king', en frozen inside throne-names; all defensible and matching ETCSL. Entry is sound; see the SKL-97 line verdict for the one place the line over-applies this (adds 'and king')."
+        },
+        {
+          "glossary_id": "occupation-epithets-low-born-rulers-skl",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 (azlag 'fuller', ma2-lah4 'boatman', simug 'smith', asgab 'leatherworker', nu-kiri6 'gardener', sagi 'cupbearer', zadim 'stonecutter', lu2-kurun-na 'tavern-keeper')",
+            "ePSD2 s.v. these lexemes"
+          ],
+          "reasoning": "Each trade-gloss is a settled Sumerological value; gudug rightly kept transliterated as a cult-title. Ideology confined to commentary. direct is correct."
+        },
+        {
+          "glossary_id": "gilgamesh-phantom-father-lil-crux-skl",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 line 113 ('a phantom(?)')",
+            "CAD L 190 s.v. lilu vs L 189 s.v. lillu",
+            "George 2003, The Babylonian Gilgamesh Epic; Jacobsen 1939, AS 11"
+          ],
+          "reasoning": "The one inferred entry. The lexical evidence is real and accurately cited (lilu phantom-spirit vs lillu 'fool/nobody'); the retained 'a phantom' is ETCSL's own reading; the rationale honestly acknowledges it is a crux, not consensus, and explicitly declines the non-human-paternity upgrade. inferred is the correct claim_type and the reading is defensible. Approved as-is, no downgrade needed."
+        },
+        {
+          "glossary_id": "bal-dynastic-reign-term-skl",
+          "status": "approve",
+          "citations": [
+            "ePSD2 s.v. bala 'turn, term of office, reign'",
+            "Jacobsen 1939, AS 11 (rotating kingship)"
+          ],
+          "reasoning": "bala 'turn/term/reign' is well-attested; 'reign' in the subtotals follows ETCSL. direct is correct. (The 'Sallaberger on the bala-institution' attribution in the rationale is slightly loose - his work centers on the Ur III redistributive bala - but the core lexical claim rests on ePSD2/Jacobsen and is sound.)"
+        },
+        {
+          "glossary_id": "basub-dynasty-abandonment-verb-crux-skl",
+          "status": "approve",
+          "citations": [
+            "ePSD2 s.v. shub 'to fall, abandon'",
+            "ETCSL c.2.1.1 (impersonal rendering of ba-shub / ba-shub-be2-en)"
+          ],
+          "reasoning": "shub 'fall/abandon' rendered impersonally for both forms following ETCSL; the apparent 2nd-person -en has no addressee in the ledger text. Lexical-grammatical decision, direct is correct."
+        },
+        {
+          "glossary_id": "tukul-ba-sag-defeat-formula-skl",
+          "status": "approve",
+          "citations": [
+            "ePSD2 s.v. tukul 'weapon', sag3 'to strike', gul 'to destroy', kur2 'to change/overturn'",
+            "ETCSL c.2.1.1 ('was defeated by force of arms')"
+          ],
+          "reasoning": "'the weapon struck it' idiomatically 'was defeated by force of arms' follows ETCSL; the ba-gul and bal-bi ba-kur2 variants carried inline. direct is correct."
+        },
+        {
+          "glossary_id": "kingless-interregnum-formulae-skl",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 lines 284, 309",
+            "ePSD2 s.v. mu 'name, fame'"
+          ],
+          "reasoning": "The rhetorical couplet and 'a king whose name is unknown' (mu 'name/fame') rendered directly following ETCSL; the fame/renown nuance in commentary. direct is correct."
+        },
+        {
+          "glossary_id": "ki-en-gi-sumer-homeland-name-skl",
+          "status": "approve",
+          "citations": [
+            "ePSD2 s.v. kiengi(r) 'Sumer'",
+            "ETCSL c.2.1.1 line 353A"
+          ],
+          "reasoning": "ki-en-gi(-r) 'Sumer' is the standard endonym value, kept distinct from kalam 'the Land'. direct is correct; no lens."
+        },
+        {
+          "glossary_id": "deified-king-dingir-determinative-scope-note-skl",
+          "status": "approve",
+          "citations": [
+            "ePSD2 s.v. dingir; central dingir-prefix-prose-drop-convention",
+            "Steinkeller 2003 / Michalowski (Ur III royal deification)"
+          ],
+          "reasoning": "Scope-note ratifies the silent ^d drop while recording that on these royal names the determinative marks actual deification - mainstream Assyriology, stated in commentary not the prose. direct is correct."
+        },
+        {
+          "glossary_id": "sumerian-toponym-onomasticon-preserve-s-and-g-anglicize-h-convention-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 (Sumerian toponym forms)",
+            "central five-antediluvian-cities-... entry"
+          ],
+          "reasoning": "CENTRAL addition (v2.70.0). Verified present with claim_type=direct and SKL + FLS appliesTo. Orthographic convention only; correctly supersedes, for the Sumerian arc, the self-contradictory sh->s clause of the older ENM convention entry (which is escalated for a central correction). No lens."
+        },
+        {
+          "glossary_id": "human-ascent-to-heaven-adapa-etana-enoch-elijah-cross-corpus",
+          "status": "approve",
+          "citations": [
+            "ETCSL c.2.1.1 lines 64-65 (an-she3 ... ed3)",
+            "Foster 2005; Kinnier Wilson 1985 (Etana); Izre'el 2001 (Adapa)"
+          ],
+          "reasoning": "CENTRAL appliesTo activation (v2.70.0): SKL-64, SKL-65 added. Verified. The entry's wohChoice ('ascent to heaven') is the grammatically explicit surface, so claim_type=direct is defensible; the literal/ancient-astronaut reading is not encoded in the wohChoice and lives in per-line commentary and the wiki."
+        }
+      ],
+      "lens-leakage-flags": []
+    }
+  },
+  "lines": [
+    {
+      "n": 1,
+      "refId": "SKL-1",
+      "translit": "[nam]-lugal an-ta ed3-de3-a-ba",
+      "i18n": {
+        "en": "After kingship had descended from heaven,"
+      },
+      "notes": {
+        "official": "The composition opens with its signature formula *nam-lugal an-ta ed₃-de₃-a-ba*, \"after kingship had descended from heaven.\" The surface rendering is fixed by the central entry `nam-lugal-an-ta-ed-de-a-ba-...` and matches the uniform scholarly consensus (Jacobsen 1939; Glassner 2004; Black et al., ETCSL): *nam-lugal* \"kingship\" + *an* \"heaven/sky\" + the ablative *-ta* \"from\" + *ed₃* \"to go down\" + the subordinator *-a-ba*.\n\n*an* denotes both the physical sky and the divine sky-realm (and the sky-god An), and *ed₃* is a verb of vertical motion; the Sumerian thus presents kingship as an institution literally *brought down from above*, not merely \"instituted.\" The spatial/physical dimension the Wheel of Heaven apparatus reads in *an-ta* — a descent from the sky — is available in the grammar and is developed in the wiki; it is deliberately NOT imported into the line, which stays at the consensus \"from heaven\" (accuracy before lens).\n\nStructurally the antediluvian section that follows is the Mesopotamian counterpart to the antediluvian genealogy of Genesis 5 and to the ten pre-Flood kings of Berossus (*Babyloniaca*, 3rd c. BCE; ed. Burstein 1978): a fixed sequence of long-lived figures spanning the interval from the origin of kingship to the Flood (Hallo 1970; R. R. Wilson, *Genealogy and History in the Biblical World*, 1977).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "nam-lugal-an-ta-ed-de-a-ba-kingship-descended-from-heaven-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 2,
+      "refId": "SKL-2",
+      "translit": "/eridug\\^ki nam-lugal-la",
+      "i18n": {
+        "en": "kingship was in Eridug."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 3,
+      "refId": "SKL-3",
+      "translit": "eridug^ki a2-lu-lim lugal",
+      "i18n": {
+        "en": "In Eridug, Alulim became king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 4,
+      "refId": "SKL-4",
+      "translit": "mu 28800 i3-ak",
+      "i18n": {
+        "en": "he ruled for 28800 years."
+      },
+      "notes": {
+        "official": "The antediluvian reign-figures — Alulim 28800 years; Alaljar 36000; the dynastic totals 64800, 108000, 241200 — are not random hyperbole but products of the sexagesimal *šár* (3600) and *nēr* (600): 28800 = 8 *šár*, 36000 = 10 *šár*, 43200 = 12 *šár* (Jacobsen 1939). The draft prints the bare composite numeral, matching the ETCSL text and the cuneiform sign-values, with no thousands-separator and no arithmetic gloss; the project-wide convention is recorded at `sexagesimal-reign-figure-rendering-convention-skl`.\n\nThe scale is the standard point of contact with the biblical and Berossus antediluvian traditions. Berossus assigns his ten pre-Flood kings 120 *šár* = 432000 years in total (Burstein 1978), and Genesis 5 gives its ten patriarchs life-spans peaking at Methuselah's 969 years — the same \"impossibly long antediluvian life\" topos rendered in a smaller numerical register (Hallo 1970; cf. Sarna, *Genesis*, JPS, and Cassuto on the Genesis figures).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sexagesimal-reign-figure-rendering-convention-skl"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "SKL-5",
+      "translit": "a2-lal3-ĝar mu 36000 i3-ak",
+      "i18n": {
+        "en": "Alaljar ruled for 36000 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "SKL-6",
+      "translit": "2 lugal",
+      "i18n": {
+        "en": "2 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 7,
+      "refId": "SKL-7",
+      "translit": "mu-<bi> 64800 ib2-ak",
+      "i18n": {
+        "en": "they ruled for 64800 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "SKL-8",
+      "translit": "eridug^ki ba-šub",
+      "i18n": {
+        "en": "Then Eridug was abandoned,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "basub-dynasty-abandonment-verb-crux-skl"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "SKL-9",
+      "translit": "nam-lugal-bi bad3-tibira^ki-še3",
+      "i18n": {
+        "en": "and its kingship, to Bad-tibira,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "SKL-10",
+      "translit": "ba-de6",
+      "i18n": {
+        "en": "was carried away."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 11,
+      "refId": "SKL-11",
+      "translit": "bad3-tibira^ki en-me-en-lu2-an-na",
+      "i18n": {
+        "en": "In Bad-tibira, Enmenluana became king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "SKL-12",
+      "translit": "mu 43200 i3-ak",
+      "i18n": {
+        "en": "he ruled for 43200 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 13,
+      "refId": "SKL-13",
+      "translit": "en-me-en-gal-an-na",
+      "i18n": {
+        "en": "Enmengalana"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 14,
+      "refId": "SKL-14",
+      "translit": "mu 28800 i3-ak",
+      "i18n": {
+        "en": "ruled for 28800 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 15,
+      "refId": "SKL-15",
+      "translit": "^ddumu-zid sipad mu 36000 i3-ak",
+      "i18n": {
+        "en": "Dumuzid, the shepherd, ruled for 36000 years."
+      },
+      "notes": {
+        "official": "*Dumuzid* is written with the divine determinative *^d* (DINGIR); per the central `dingir-prefix-prose-drop-convention` the classifier is dropped in the English prose, so the line reads simply \"Dumuzid, the shepherd.\" Here — and for Lugalbanda (107), Gilgameš (112), and the later Ur III / Isin kings written with *^d* (Šulgi and successors) — the determinative marks actual royal *deification*, not merely the orthography of an ordinary divine name; the scope-note `deified-king-dingir-determinative-scope-note-skl` records that the deification is flagged in commentary rather than carried into the prose.\n\n*sipad* \"shepherd\" is the pastoral-sovereign epithet (see `occupation-epithets-low-born-rulers-skl`). This Dumuzid \"the shepherd\" of Bad-tibira is distinguished by the list itself from Dumuzid \"the fisherman\" of Kuara at line 109, and both carry the name of the dying-and-rising god Dumuzid/Tammuz of the central entry.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "dumuzi-tammuz-adonis-dying-and-rising-vegetation-god-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "occupation-epithets-low-born-rulers-skl",
+        "deified-king-dingir-determinative-scope-note-skl"
+      ]
+    },
+    {
+      "n": 16,
+      "refId": "SKL-16",
+      "translit": "3 lugal",
+      "i18n": {
+        "en": "3 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 17,
+      "refId": "SKL-17",
+      "translit": "mu-bi 108000 ib2-ak",
+      "i18n": {
+        "en": "they ruled for 108000 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 18,
+      "refId": "SKL-18",
+      "translit": "bad3-tibira^ki ba-šub-be2-en",
+      "i18n": {
+        "en": "Then Bad-tibira was abandoned,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "basub-dynasty-abandonment-verb-crux-skl"
+      ]
+    },
+    {
+      "n": 19,
+      "refId": "SKL-19",
+      "translit": "nam-lugal-bi la-ra-ag^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Larag."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 20,
+      "refId": "SKL-20",
+      "translit": "la-ra-ag^ki en-sipad-zid-an-na",
+      "i18n": {
+        "en": "In Larag, Ensipadzidana became king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 21,
+      "refId": "SKL-21",
+      "translit": "mu 28800 i3-ak",
+      "i18n": {
+        "en": "he ruled for 28800 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 22,
+      "refId": "SKL-22",
+      "translit": "1 lugal",
+      "i18n": {
+        "en": "1 king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 23,
+      "refId": "SKL-23",
+      "translit": "mu-bi 28800 ib2-ak",
+      "i18n": {
+        "en": "he ruled for 28800 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 24,
+      "refId": "SKL-24",
+      "translit": "la-ra-ag^ki ba-šub-be2-en",
+      "i18n": {
+        "en": "Then Larag was abandoned,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "basub-dynasty-abandonment-verb-crux-skl"
+      ]
+    },
+    {
+      "n": 25,
+      "refId": "SKL-25",
+      "translit": "nam-lugal-bi zimbir^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Zimbir."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 26,
+      "refId": "SKL-26",
+      "translit": "zimbir^ki en-me-en-dur2-an-na",
+      "i18n": {
+        "en": "In Zimbir, Enmendurana became king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 27,
+      "refId": "SKL-27",
+      "translit": "lugal-am3 mu 21000 i3-ak",
+      "i18n": {
+        "en": "he was king; he ruled for 21000 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 28,
+      "refId": "SKL-28",
+      "translit": "1 lugal",
+      "i18n": {
+        "en": "1 king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 29,
+      "refId": "SKL-29",
+      "translit": "mu-bi 21000 ib2-ak",
+      "i18n": {
+        "en": "he ruled for 21000 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 30,
+      "refId": "SKL-30",
+      "translit": "zimbir^ki ba-šub-be2-en",
+      "i18n": {
+        "en": "Then Zimbir was abandoned,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "basub-dynasty-abandonment-verb-crux-skl"
+      ]
+    },
+    {
+      "n": 31,
+      "refId": "SKL-31",
+      "translit": "nam-lugal-bi šuruppag^ki-<še3> ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Šuruppag."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 32,
+      "refId": "SKL-32",
+      "translit": "šuruppag^ki ubara-tu3-tu3",
+      "i18n": {
+        "en": "In Šuruppag, Ubara-Tutu became king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "five-antediluvian-cities-eridug-bad-tibira-larag-zimbir-shuruppag-cross-corpus",
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 33,
+      "refId": "SKL-33",
+      "translit": "lugal-am3 mu 18600 i3-ak",
+      "i18n": {
+        "en": "he was king; he ruled for 18600 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 34,
+      "refId": "SKL-34",
+      "translit": "1 lugal",
+      "i18n": {
+        "en": "1 king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 35,
+      "refId": "SKL-35",
+      "translit": "mu-bi 18600 ib2-ak",
+      "i18n": {
+        "en": "he ruled for 18600 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 36,
+      "refId": "SKL-36",
+      "translit": "5 iri^ki-me-eš",
+      "i18n": {
+        "en": "These are 5 cities."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 37,
+      "refId": "SKL-37",
+      "translit": "8 lugal",
+      "i18n": {
+        "en": "8 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 38,
+      "refId": "SKL-38",
+      "translit": "mu-<bi> 241200 ib2-ak",
+      "i18n": {
+        "en": "they ruled for 241200 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 39,
+      "refId": "SKL-39",
+      "translit": "a-ma-ru ba-ur3-«ra-ta»",
+      "i18n": {
+        "en": "Then the flood swept over."
+      },
+      "notes": {
+        "official": "The Flood enters with *a-ma-ru ba-ur₃*, \"the flood swept over.\" The noun *a-ma-ru* is fixed by the central flood-vocabulary entry (cross-corpus to Akkadian *abūbu* and Hebrew *mabbûl*); the verb *ur₃* means \"to sweep, wipe over, efface.\"\n\nThe same collocation closes the antediluvian world in the Sumerian Flood Story (ETCSL 1.7.4, *a-ma-ru … ba-ur₃*), where an explicit object (the cult-centres / the Land) is present; in the King List the verb stands intransitively, with no stated object — the erasure is total and unspecified. This one-line Flood is the composition's structural hinge, dividing the antediluvian dynasties from the post-diluvian exactly as the Deluge divides Genesis 5 from Genesis 10–11 and Berossus's pre- from post-Flood kings.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "a-ma-ru-abubu-mabbul-great-flood-vocabulary-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 40,
+      "refId": "SKL-40",
+      "translit": "eĝer a-ma-ru ba-ur3-ra-ta",
+      "i18n": {
+        "en": "After the flood had swept over,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "a-ma-ru-abubu-mabbul-great-flood-vocabulary-cross-corpus"
+      ]
+    },
+    {
+      "n": 41,
+      "refId": "SKL-41",
+      "translit": "nam-lugal an-ta ed3-de3-a-ba",
+      "i18n": {
+        "en": "and after kingship had descended from heaven,"
+      },
+      "notes": {
+        "official": "After the Flood the opening formula returns verbatim: kingship *descends from heaven a second time* (see SKL-1). The doubled descent is the composition's ideological spine — kingship is a heavenly institution repeatedly *lowered* to earth, surviving the Flood that erases everything else — and the repetition is deliberate composition, not scribal dittography (Michalowski 1983; Glassner 2004).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "nam-lugal-an-ta-ed-de-a-ba-kingship-descended-from-heaven-cross-corpus"
+      ]
+    },
+    {
+      "n": 42,
+      "refId": "SKL-42",
+      "translit": "kiš^ki nam-lugal-la",
+      "i18n": {
+        "en": "kingship was in Kiš."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 43,
+      "refId": "SKL-43",
+      "translit": "kiš^ki ĝušurx(ĜIŠ.UR3)",
+      "i18n": {
+        "en": "In Kiš, Ĝušur became king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 44,
+      "refId": "SKL-44",
+      "translit": "lugal-am3",
+      "i18n": {
+        "en": "he was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 45,
+      "refId": "SKL-45",
+      "translit": "mu 1200 i3-ak",
+      "i18n": {
+        "en": "he ruled for 1200 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 46,
+      "refId": "SKL-46",
+      "translit": "kul2-la-si2-na-/be\\-el",
+      "i18n": {
+        "en": "Kullassina-bel"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 47,
+      "refId": "SKL-47",
+      "translit": "mu {960} {() 900} i3-ak",
+      "i18n": {
+        "en": "ruled for 960 {alternate manuscript: 900} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 48,
+      "refId": "SKL-48",
+      "translit": "na-an-ĝiš-li-iš-ma",
+      "i18n": {
+        "en": "Nangišlišma"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 49,
+      "refId": "SKL-49",
+      "translit": "() {/670\\} mu i3-ak",
+      "i18n": {
+        "en": "ruled for 670 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 50,
+      "refId": "SKL-50",
+      "translit": "en-taraḫ-an-na-ke4",
+      "i18n": {
+        "en": "Entarahana"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 51,
+      "refId": "SKL-51",
+      "translit": "() {420} mu a-ra2 X [(X)]-am3 itid 3 ud 3 1/2 i3-ak",
+      "i18n": {
+        "en": "ruled for 420 years, … times(?), 3 months and 3½ days."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 52,
+      "refId": "SKL-52",
+      "translit": "ba-bu-um X [(X)]",
+      "i18n": {
+        "en": "Babum …"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 53,
+      "refId": "SKL-53",
+      "translit": "() {300} mu i3-[ak]",
+      "i18n": {
+        "en": "ruled for 300 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 54,
+      "refId": "SKL-54",
+      "translit": "pu-an-/nu-um\\ mu {/840\\} {() /240\\} i3-ak",
+      "i18n": {
+        "en": "Puannum ruled for 840 {alternate manuscript: 240} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 55,
+      "refId": "SKL-55",
+      "translit": "ka3-li2-bu-um",
+      "i18n": {
+        "en": "Kalibum"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 56,
+      "refId": "SKL-56",
+      "translit": "mu {960} {() 900} i3-ak",
+      "i18n": {
+        "en": "ruled for 960 {alternate manuscript: 900} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 57,
+      "refId": "SKL-57",
+      "translit": "ka-lu-mu-um mu {840} {() 900} i3-ak",
+      "i18n": {
+        "en": "Kalumum ruled for 840 {alternate manuscript: 900} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 58,
+      "refId": "SKL-58",
+      "translit": "zu2-qa2-qi4-ip",
+      "i18n": {
+        "en": "Zuqaqip"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 59,
+      "refId": "SKL-59",
+      "translit": "mu {900} {() 600} i3-ak",
+      "i18n": {
+        "en": "ruled for 900 {alternate manuscript: 600} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 60,
+      "refId": "SKL-60",
+      "translit": "{a2-tab} {() a2-ba} mu 600 i3-ak",
+      "i18n": {
+        "en": "Atab {alternate manuscript: Aba} ruled for 600 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 61,
+      "refId": "SKL-61",
+      "translit": "<maš-da3 dumu> a2-tab-ba mu {840} {() 720} i3-ak",
+      "i18n": {
+        "en": "Mašda, the son of Atab, ruled for 840 {alternate manuscript: 720} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 62,
+      "refId": "SKL-62",
+      "translit": "ar-wi-u2-um dumu maš-da3-ke4",
+      "i18n": {
+        "en": "Arwium, the son of Mašda,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 63,
+      "refId": "SKL-63",
+      "translit": "mu 720 i3-ak",
+      "i18n": {
+        "en": "ruled for 720 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 64,
+      "refId": "SKL-64",
+      "translit": "e-ta-na sipad lu2 an-še3",
+      "i18n": {
+        "en": "Etana, the shepherd, the one who ascended to heaven,"
+      },
+      "notes": {
+        "official": "*e-ta-na sipad lu₂ an-še₃ ba-ed₃-de₃*, \"Etana, the shepherd, the one who ascended to heaven.\" The clause is grammatically explicit — *an-še₃* \"to heaven\" (terminative) + *ed₃* \"to go up\" — and is governed by the central cross-corpus entry `human-ascent-to-heaven-adapa-etana-enoch-elijah-cross-corpus`, whose `appliesTo` is extended to these lines (see the editor report).\n\nThe King List compresses the Old Babylonian Etana Epic, in which the childless shepherd-king is carried up to the heaven of An on the back of an eagle to fetch the \"plant of birth\" (*šammu ša alādi*) (Kinnier Wilson 1985; Foster, *Before the Muses*, 2005). Etana joins Adapa (summoned before Anu), Enoch (Gen 5:24, \"taken\"), and Elijah (2 Kgs 2:11, \"went up … into heaven\") in the cross-corpus motif of the single human lifted bodily into the sky-realm.\n\nThe Wheel of Heaven reading of that motif as a literal ascent belongs to the apparatus and the wiki; the line here renders only what the Sumerian states — that Etana went up to heaven.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "human-ascent-to-heaven-adapa-etana-enoch-elijah-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 65,
+      "refId": "SKL-65",
+      "translit": "ba-ed3-de3",
+      "i18n": {
+        "en": "who ascended,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "human-ascent-to-heaven-adapa-etana-enoch-elijah-cross-corpus"
+      ]
+    },
+    {
+      "n": 66,
+      "refId": "SKL-66",
+      "translit": "lu2 kur-kur mu-un-gen6-na",
+      "i18n": {
+        "en": "who made all the lands secure,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 67,
+      "refId": "SKL-67",
+      "translit": "lugal-am3 mu {1500} {() 635} i3-ak",
+      "i18n": {
+        "en": "he was king; he ruled for 1500 {alternate manuscript: 635} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 68,
+      "refId": "SKL-68",
+      "translit": "ba-li-iḫ",
+      "i18n": {
+        "en": "Balih,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 69,
+      "refId": "SKL-69",
+      "translit": "dumu e-ta-na-ke4",
+      "i18n": {
+        "en": "the son of Etana,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 70,
+      "refId": "SKL-70",
+      "translit": "mu {400} {() 410} i3-ak",
+      "i18n": {
+        "en": "ruled for 400 {alternate manuscript: 410} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 71,
+      "refId": "SKL-71",
+      "translit": "en-me-nun-na mu {660} {() 621} i3-ak",
+      "i18n": {
+        "en": "Enmenuna ruled for 660 {alternate manuscript: 621} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 72,
+      "refId": "SKL-72",
+      "translit": "me-lem4-kiš^ki dumu en-me-nun-na-ke4",
+      "i18n": {
+        "en": "Melam-Kiš, the son of Enmenuna,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 73,
+      "refId": "SKL-73",
+      "translit": "mu 900 i3-ak",
+      "i18n": {
+        "en": "ruled for 900 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": "73A",
+      "refId": "SKL-73A",
+      "translit": "1560 mu bal en-me-nun-na-kam",
+      "i18n": {
+        "en": "1560 years: the reign of Enmenuna."
+      },
+      "notes": {
+        "official": "Several manuscripts (P₃+BT₁₄ and others) insert dynastic-total lines of the form *N mu bal PN-kam*, here \"1560 years: the reign of Enmenuna.\" *bal* is the dynastic \"reign, term of office, turn in office\" — the very concept of a rotating kingship that structures the whole composition (see `bal-dynastic-reign-term-skl`). These insertion lines (73A, 89A, 106A, 249A, 283A) are treated as translated content — parenthetical dynastic subtotals — rather than demoted to apparatus, following the ETCSL composite's line-numbering.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "bal-dynastic-reign-term-skl"
+      ]
+    },
+    {
+      "n": 74,
+      "refId": "SKL-74",
+      "translit": "{bar-sal-nun-na dumu en-me-nun-na-ke4} {() bar-sal-nun-na}",
+      "i18n": {
+        "en": "Barsalnuna, the son of Enmenuna, {alternate manuscript: Barsalnuna,}"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 75,
+      "refId": "SKL-75",
+      "translit": "mu 1200 i3-ak",
+      "i18n": {
+        "en": "ruled for 1200 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 76,
+      "refId": "SKL-76",
+      "translit": "zamug(DUB)^za-mug dumu bar-sal-nun-na-ke4",
+      "i18n": {
+        "en": "Zamug, the son of Barsalnuna,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 77,
+      "refId": "SKL-77",
+      "translit": "mu 140 i3-ak",
+      "i18n": {
+        "en": "ruled for 140 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 78,
+      "refId": "SKL-78",
+      "translit": "ti-iz-qar dumu zamug(DUB)^za-mug-ke4",
+      "i18n": {
+        "en": "Tizqar, the son of Zamug,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 79,
+      "refId": "SKL-79",
+      "translit": "mu 305^! i3-ak",
+      "i18n": {
+        "en": "ruled for 305 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": "79A",
+      "refId": "SKL-79A",
+      "translit": "1620^? + X X [X X] X MU^?",
+      "i18n": {
+        "en": "1620(?) + … years(?)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 80,
+      "refId": "SKL-80",
+      "translit": "il-ku-u2 mu 900 i3-ak",
+      "i18n": {
+        "en": "Ilku ruled for 900 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 81,
+      "refId": "SKL-81",
+      "translit": "il-ta-sa-du-um",
+      "i18n": {
+        "en": "Iltasadum"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 82,
+      "refId": "SKL-82",
+      "translit": "mu 1200 i3-ak",
+      "i18n": {
+        "en": "ruled for 1200 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 83,
+      "refId": "SKL-83",
+      "translit": "en-me-en-barag-ge-si",
+      "i18n": {
+        "en": "Enmebaragesi,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 84,
+      "refId": "SKL-84",
+      "translit": "lu2 ma-da elam^ki-ma",
+      "i18n": {
+        "en": "the one who, over the land of Elam,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 85,
+      "refId": "SKL-85",
+      "translit": "^ĝištukul-bi ib2-ta-an-gam",
+      "i18n": {
+        "en": "carried off its weapons as spoil,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 86,
+      "refId": "SKL-86",
+      "translit": "lugal-am3 mu 900 i3-ak",
+      "i18n": {
+        "en": "he was king; he ruled for 900 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 87,
+      "refId": "SKL-87",
+      "translit": "ag-ga3",
+      "i18n": {
+        "en": "Aga,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 88,
+      "refId": "SKL-88",
+      "translit": "dumu en-me-en-barag-ge-si-ke4",
+      "i18n": {
+        "en": "the son of Enmebaragesi,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 89,
+      "refId": "SKL-89",
+      "translit": "mu 625 i3-ak",
+      "i18n": {
+        "en": "ruled for 625 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": "89A",
+      "refId": "SKL-89A",
+      "translit": "/1525 mu\\ [bal]",
+      "i18n": {
+        "en": "1525 years: the reign."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "bal-dynastic-reign-term-skl"
+      ]
+    },
+    {
+      "n": "89B",
+      "refId": "SKL-89B",
+      "translit": "en-me-/barag\\-[ge4-e-si]",
+      "i18n": {
+        "en": "Enmebaragesi."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 90,
+      "refId": "SKL-90",
+      "translit": "23 lugal",
+      "i18n": {
+        "en": "23 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 91,
+      "refId": "SKL-91",
+      "translit": "mu-bi 24510 itid 3",
+      "i18n": {
+        "en": "they ruled for 24510 years, 3 months,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 92,
+      "refId": "SKL-92",
+      "translit": "ud 3 ud 1/2 ib2-ak",
+      "i18n": {
+        "en": "and 3½ days."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 93,
+      "refId": "SKL-93",
+      "translit": "kiš^ki ^ĝištukul ba-an-sag3",
+      "i18n": {
+        "en": "Then Kiš was defeated by force of arms,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 94,
+      "refId": "SKL-94",
+      "translit": "nam-lugal-bi e2-an-na-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to E-ana."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 95,
+      "refId": "SKL-95",
+      "translit": "e2-an-na-ka",
+      "i18n": {
+        "en": "In E-ana,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 96,
+      "refId": "SKL-96",
+      "translit": "meš3-ki-aĝ2-ga-še-er",
+      "i18n": {
+        "en": "Meškiaĝgašer,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 97,
+      "refId": "SKL-97",
+      "translit": "dumu ^dutu en-am3",
+      "i18n": {
+        "en": "the son of Utu, was lord;"
+      },
+      "notes": {
+        "official": "Meškiaĝgašer is *dumu ^dutu*, \"the son of Utu\" — Utu the sun-god (Akkadian Šamaš), fixed by the central entry; the *^d* is dropped in prose per convention. His title is *en* (SKL-97, *en-am₃* \"was en\") paired with *lugal* \"king\" at 98: the entry `en-lugal-royal-title-distinction-skl` renders standalone *en* as \"lord\" (ETCSL's range \"lord / high priest\") and *lugal* as \"king,\" keeping the two Sumerian sovereignty-terms distinct.\n\n*en* is retained untranslated where it is frozen inside the antediluvian throne-names (En-men-lu-ana, En-sipad-zid-ana, Enmebaragesi). The claim that a king is a god's *son* is the Sumerian ideology of divinely-descended kingship, not a biological assertion in the text.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "utu-shamash-sun-god-justice-divinity-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "en-lugal-royal-title-distinction-skl"
+      ]
+    },
+    {
+      "n": 98,
+      "refId": "SKL-98",
+      "translit": "lugal-am3 mu {/324\\} {() 325} i3-ak",
+      "i18n": {
+        "en": "he was king; he ruled for 324 {alternate manuscript: 325} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 99,
+      "refId": "SKL-99",
+      "translit": "meš3-ki-aĝ2-ga-še-er",
+      "i18n": {
+        "en": "Meškiaĝgašer"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 100,
+      "refId": "SKL-100",
+      "translit": "ab-ba ba-an-kur9",
+      "i18n": {
+        "en": "entered the sea"
+      },
+      "notes": {
+        "official": "Of Meškiaĝgašer the list adds an enigmatic notice with no parallel in the surrounding formulaic entries: he \"entered the sea (*ab-ba*) and came up out of it into the mountains (*ḫur-saĝ*)\" (SKL-100–101). Whether this records a sea-to-mountain expedition, a disappearance-and-return, or a mythic passage is unrecoverable from the line; the King List preserves it without comment, and so does this translation.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 101,
+      "refId": "SKL-101",
+      "translit": "ḫur-saĝ-še3 ba-an-ed3",
+      "i18n": {
+        "en": "and came up out of it into the mountains."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 102,
+      "refId": "SKL-102",
+      "translit": "en-me-er-kar2 dumu meš3-ki-aĝ2-ga-še-er",
+      "i18n": {
+        "en": "Enmerkar, the son of Meškiaĝgašer,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 103,
+      "refId": "SKL-103",
+      "translit": "lugal unug^ki-ga lu2 unug^ki",
+      "i18n": {
+        "en": "the king of Unug, the one who Unug"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 104,
+      "refId": "SKL-104",
+      "translit": "{mu-un-du3-a} {() mu-un-da-du3-a}",
+      "i18n": {
+        "en": "built {alternate manuscript: built up},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 105,
+      "refId": "SKL-105",
+      "translit": "lugal-am3",
+      "i18n": {
+        "en": "he was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 106,
+      "refId": "SKL-106",
+      "translit": "mu {420} {() X + 900} i3-ak",
+      "i18n": {
+        "en": "he ruled for 420 {alternate manuscript: 900 + …} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": "106A",
+      "refId": "SKL-106A",
+      "translit": "745 mu [bal] meš3-ki-in-ga-še^?-[er]",
+      "i18n": {
+        "en": "745 years: the reign of Meškiĝašer(?)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "bal-dynastic-reign-term-skl"
+      ]
+    },
+    {
+      "n": "106B",
+      "refId": "SKL-106B",
+      "translit": "en-am3 lugal-SI.NAM.SAR /mu\\ [X] + /5\\ in-ak",
+      "i18n": {
+        "en": "Enam, the king … , ruled for … + 5 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 107,
+      "refId": "SKL-107",
+      "translit": "^dlugal-ban3-da sipad",
+      "i18n": {
+        "en": "Lugalbanda, the shepherd,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "occupation-epithets-low-born-rulers-skl",
+        "deified-king-dingir-determinative-scope-note-skl"
+      ]
+    },
+    {
+      "n": 108,
+      "refId": "SKL-108",
+      "translit": "mu 1200 i3-ak",
+      "i18n": {
+        "en": "ruled for 1200 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 109,
+      "refId": "SKL-109",
+      "translit": "^ddumu-zid šu-KU6",
+      "i18n": {
+        "en": "Dumuzid, the fisherman,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "dumuzi-tammuz-adonis-dying-and-rising-vegetation-god-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 110,
+      "refId": "SKL-110",
+      "translit": "iri^ki-ni kuara^ki",
+      "i18n": {
+        "en": "whose city was Kuara,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 111,
+      "refId": "SKL-111",
+      "translit": "mu {100} {() 110} i3-ak",
+      "i18n": {
+        "en": "ruled for 100 {alternate manuscript: 110} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": "111A",
+      "refId": "SKL-111A",
+      "translit": "šu dili en^?-me-barag-ge4-e-si",
+      "i18n": {
+        "en": "As a single entry(?): Enmebaragesi(?)"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": "111B",
+      "refId": "SKL-111B",
+      "translit": "nam-ra /i3^?\\-ak^?",
+      "i18n": {
+        "en": "he took (it) as booty(?)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 112,
+      "refId": "SKL-112",
+      "translit": "^dgilgameš3",
+      "i18n": {
+        "en": "Gilgameš,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "deified-king-dingir-determinative-scope-note-skl"
+      ]
+    },
+    {
+      "n": 113,
+      "refId": "SKL-113",
+      "translit": "ab-ba-ni lil2-la2",
+      "i18n": {
+        "en": "whose father was a phantom,"
+      },
+      "notes": {
+        "official": "*ab-ba-ni lil₂-la₂*, literally \"his father (was) a *lil₂*.\" *lil₂* (Akkadian *lilû*) denotes a wind- or phantom-spirit, a being of the *lilû/lilītu* demon-class; the phrase is a genuine crux, read variously as \"a phantom\" (ETCSL, \"whose father was a phantom(?)\"), \"a *lila*-spirit,\" or — taking *lillu* as \"deficient one / fool\" — \"a nobody, a man of no account\" (discussed by Jacobsen 1939; George, *The Babylonian Gilgamesh Epic*, 2003, notes the competing traditions that make Lugalbanda his father).\n\nThe entry `gilgamesh-phantom-father-lil-crux-skl` retains the spirit-reading \"a phantom\" (claim_type *inferred*, matching ETCSL) without upgrading it to a definite divine or non-human paternity. The hero's semi-divine parentage — elsewhere two-thirds god, son of the goddess Ninsun — is a matter for commentary, and the line renders only the attested crux.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "gilgamesh-phantom-father-lil-crux-skl"
+      ]
+    },
+    {
+      "n": 114,
+      "refId": "SKL-114",
+      "translit": "en kul-ab-ba-ke4",
+      "i18n": {
+        "en": "the lord of Kulaba,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster",
+        "en-lugal-royal-title-distinction-skl"
+      ]
+    },
+    {
+      "n": 115,
+      "refId": "SKL-115",
+      "translit": "mu 126 i3-ak",
+      "i18n": {
+        "en": "ruled for 126 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 116,
+      "refId": "SKL-116",
+      "translit": "ur-^dnun-gal",
+      "i18n": {
+        "en": "Ur-Nungal,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 117,
+      "refId": "SKL-117",
+      "translit": "dumu ^dgilgameš2",
+      "i18n": {
+        "en": "the son of Gilgameš,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 118,
+      "refId": "SKL-118",
+      "translit": "mu 30 i3-ak",
+      "i18n": {
+        "en": "ruled for 30 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 119,
+      "refId": "SKL-119",
+      "translit": "u-dul3-kalam-ma",
+      "i18n": {
+        "en": "Udul-kalama,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 120,
+      "refId": "SKL-120",
+      "translit": "dumu {ur-^dnun-gal-ke4} {() ur-lugal-ke4}",
+      "i18n": {
+        "en": "the son of Ur-Nungal {alternate manuscript: Ur-lugal},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 121,
+      "refId": "SKL-121",
+      "translit": "mu 15 i3-ak",
+      "i18n": {
+        "en": "ruled for 15 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 122,
+      "refId": "SKL-122",
+      "translit": "la-ba-/a’^?-šum^?\\",
+      "i18n": {
+        "en": "La-ba’šum(?)"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 123,
+      "refId": "SKL-123",
+      "translit": "mu 9 i3-ak",
+      "i18n": {
+        "en": "ruled for 9 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 124,
+      "refId": "SKL-124",
+      "translit": "en-nun-taraḫ-an-na",
+      "i18n": {
+        "en": "Ennun-tarahana"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 125,
+      "refId": "SKL-125",
+      "translit": "mu 8 i3-ak",
+      "i18n": {
+        "en": "ruled for 8 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 126,
+      "refId": "SKL-126",
+      "translit": "/meš3^?\\-ḫe2 simug mu 36 i3-ak",
+      "i18n": {
+        "en": "Meš-He(?), the smith, ruled for 36 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 127,
+      "refId": "SKL-127",
+      "translit": "{me-lem4-an-na} {() til3-kug X […]}",
+      "i18n": {
+        "en": "Melam-ana {alternate manuscript: Til-kug …},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 128,
+      "refId": "SKL-128",
+      "translit": "mu {6} {() 900} i3-ak",
+      "i18n": {
+        "en": "ruled for 6 {alternate manuscript: 900} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 129,
+      "refId": "SKL-129",
+      "translit": "lugal-ki-tun3^? mu {36} {() 420} i3-ak",
+      "i18n": {
+        "en": "Lugal-kitun(?) ruled for 36 {alternate manuscript: 420} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 130,
+      "refId": "SKL-130",
+      "translit": "12 lugal",
+      "i18n": {
+        "en": "12 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 131,
+      "refId": "SKL-131",
+      "translit": "mu-bi {2310} {() 3588} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 2310 {alternate manuscript: 3588} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 132,
+      "refId": "SKL-132",
+      "translit": "unug^ki ^ĝištukul ba-an-sag3",
+      "i18n": {
+        "en": "Then Unug was defeated by force of arms,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 133,
+      "refId": "SKL-133",
+      "translit": "nam-lugal-bi urim2^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Urim."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 134,
+      "refId": "SKL-134",
+      "translit": "urim2^ki-ma",
+      "i18n": {
+        "en": "In Urim,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 135,
+      "refId": "SKL-135",
+      "translit": "meš3-an-ne2-pad3-da",
+      "i18n": {
+        "en": "Mešanepada"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 136,
+      "refId": "SKL-136",
+      "translit": "lugal-am3 mu 80 i3-ak",
+      "i18n": {
+        "en": "was king; he ruled for 80 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 137,
+      "refId": "SKL-137",
+      "translit": "{meš3-ki-aĝ2-^dnanna} {() meš3-ki-aĝ2-nun-na}",
+      "i18n": {
+        "en": "Meškiaĝ-Nanna {alternate manuscript: Meškiaĝnuna},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 138,
+      "refId": "SKL-138",
+      "translit": "dumu meš3-an-ne2-pad3-da",
+      "i18n": {
+        "en": "the son of Mešanepada,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 139,
+      "refId": "SKL-139",
+      "translit": "lugal-am3",
+      "i18n": {
+        "en": "was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 140,
+      "refId": "SKL-140",
+      "translit": "mu {36} {() 30} i3-ak",
+      "i18n": {
+        "en": "he ruled for 36 {alternate manuscript: 30} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 141,
+      "refId": "SKL-141",
+      "translit": "e-lu-lu mu () {25} i3-ak",
+      "i18n": {
+        "en": "Elulu ruled for 25 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 142,
+      "refId": "SKL-142",
+      "translit": "ba-lu-lu () {36} mu i3-ak",
+      "i18n": {
+        "en": "Balulu ruled for 36 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 143,
+      "refId": "SKL-143",
+      "translit": "() {4} lugal",
+      "i18n": {
+        "en": "4 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 144,
+      "refId": "SKL-144",
+      "translit": "mu-bi () {/171\\} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 171 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 145,
+      "refId": "SKL-145",
+      "translit": "urim2^ki [^ĝištukul] ba-an-sag3",
+      "i18n": {
+        "en": "Then Urim was defeated by force of arms,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 146,
+      "refId": "SKL-146",
+      "translit": "nam-lugal-[bi]",
+      "i18n": {
+        "en": "and its kingship"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 147,
+      "refId": "SKL-147",
+      "translit": "a-wa-an^ki-[še3] [ba-de6]",
+      "i18n": {
+        "en": "was carried off to Awan."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 148,
+      "refId": "SKL-148",
+      "translit": "a-wa-an^ki-[na]",
+      "i18n": {
+        "en": "In Awan,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 149,
+      "refId": "SKL-149",
+      "translit": "[… lugal-am3]",
+      "i18n": {
+        "en": "… was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 150,
+      "refId": "SKL-150",
+      "translit": "[mu … i3-ak]",
+      "i18n": {
+        "en": "he ruled for … years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 152,
+      "refId": "SKL-152",
+      "translit": "mu [… i3-ak]",
+      "i18n": {
+        "en": "ruled for … years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 153,
+      "refId": "SKL-153",
+      "translit": "ku-ul-[…]",
+      "i18n": {
+        "en": "Kul-… ,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 154,
+      "refId": "SKL-154",
+      "translit": "mu 36 [i3-ak]",
+      "i18n": {
+        "en": "ruled for 36 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 155,
+      "refId": "SKL-155",
+      "translit": "3 [lugal]",
+      "i18n": {
+        "en": "3 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 156,
+      "refId": "SKL-156",
+      "translit": "mu-bi /356\\ [ib2-ak]",
+      "i18n": {
+        "en": "they ruled for 356 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 157,
+      "refId": "SKL-157",
+      "translit": "a-wa-an^ki ^ĝiš/tukul\\ [ba]-/an\\-sag3",
+      "i18n": {
+        "en": "Then Awan was defeated by force of arms,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 158,
+      "refId": "SKL-158",
+      "translit": "nam-lugal-bi",
+      "i18n": {
+        "en": "and its kingship"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 159,
+      "refId": "SKL-159",
+      "translit": "kiš^ki-še3 /ba-de6\\",
+      "i18n": {
+        "en": "was carried off to Kiš."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 160,
+      "refId": "SKL-160",
+      "translit": "kiš^ki su8-sud3-da ^lu2azlag2",
+      "i18n": {
+        "en": "In Kiš, Susuda, the fuller,"
+      },
+      "notes": {
+        "official": "Susuda is *^lu₂azlag₂*, \"the fuller\" — one of a cluster of occupation-epithets the King List attaches to post-diluvian kings: the boatman (Mamagal, 164), the smith (Meš-He, 126), the leatherworker (Bazi, 215), the fuller again (Zizi, 216), the *gudug*-priest (Limer, 217, a cult-title kept transliterated), the woman tavern-keeper or alewife (Kug-Bau, 225), the stonecutter (Nanniya, 254), and climactically the gardener's son and cupbearer Sargon (267–268). The entry `occupation-epithets-low-born-rulers-skl` renders each with its standard ETCSL value.\n\nThe \"low-born ruler\" motif — kingship passing to men of humble trade — belongs to the composition's ideology that kingship is a mobile, heaven-given office that can alight anywhere, not the property of a bloodline (Michalowski 1983; Marchesi 2010); it culminates in the Sargon legend of the gardener-reared cupbearer who becomes king (cf. the Sargon Birth Legend).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 161,
+      "refId": "SKL-161",
+      "translit": "lugal-am3",
+      "i18n": {
+        "en": "was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 162,
+      "refId": "SKL-162",
+      "translit": "mu 201 + X /i3\\-ak",
+      "i18n": {
+        "en": "he ruled for 201 + … years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 163,
+      "refId": "SKL-163",
+      "translit": "da-da-sig mu () {81} i3-ak",
+      "i18n": {
+        "en": "Dadasig ruled for 81 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 164,
+      "refId": "SKL-164",
+      "translit": "ma2-ma2-gal ^lu2ma2-laḫ4-e",
+      "i18n": {
+        "en": "Mamagal, the boatman,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 165,
+      "refId": "SKL-165",
+      "translit": "mu {360} {() 420} i3-ak",
+      "i18n": {
+        "en": "ruled for 360 {alternate manuscript: 420} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 166,
+      "refId": "SKL-166",
+      "translit": "ka-al-bu-um",
+      "i18n": {
+        "en": "Kalbum,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 167,
+      "refId": "SKL-167",
+      "translit": "dumu {ma2-ma2-gal-ke4} {() ma2-gal-gal-/la\\}",
+      "i18n": {
+        "en": "the son of Mamagal {alternate manuscript: Magalgal},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 168,
+      "refId": "SKL-168",
+      "translit": "mu {195} {() 132} i3-ak",
+      "i18n": {
+        "en": "ruled for 195 {alternate manuscript: 132} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 169,
+      "refId": "SKL-169",
+      "translit": "TUG2-e mu 360 i3-ak",
+      "i18n": {
+        "en": "Tuge ruled for 360 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 170,
+      "refId": "SKL-170",
+      "translit": "men-nun-na {() dumu TUG2-e-ke4} mu 180 i3-ak",
+      "i18n": {
+        "en": "Mennuna {alternate manuscript: the son of Tuge} ruled for 180 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 171,
+      "refId": "SKL-171",
+      "translit": "i-bi-X-X",
+      "i18n": {
+        "en": "Ibi-… ,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 172,
+      "refId": "SKL-172",
+      "translit": "mu 290^? i3-ak",
+      "i18n": {
+        "en": "ruled for 290(?) years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 173,
+      "refId": "SKL-173",
+      "translit": "lugal-ĝu10 mu {360} {() 420} i3-ak",
+      "i18n": {
+        "en": "Lugalngu ruled for 360 {alternate manuscript: 420} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 174,
+      "refId": "SKL-174",
+      "translit": "8 lugal",
+      "i18n": {
+        "en": "8 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 175,
+      "refId": "SKL-175",
+      "translit": "mu-bi {3195} {() 3792} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 3195 {alternate manuscript: 3792} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 176,
+      "refId": "SKL-176",
+      "translit": "kiš^ki ^ĝištukul ba-an-sag3",
+      "i18n": {
+        "en": "Then Kiš was defeated by force of arms,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 177,
+      "refId": "SKL-177",
+      "translit": "nam-lugal-bi",
+      "i18n": {
+        "en": "and its kingship"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 178,
+      "refId": "SKL-178",
+      "translit": "ḫa-ma-zi2^ki-še3 ba-de6",
+      "i18n": {
+        "en": "was carried off to Hamazi."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 179,
+      "refId": "SKL-179",
+      "translit": "ḫa-ma-zi2^ki-a ḫa-da-ni-iš",
+      "i18n": {
+        "en": "In Hamazi, Hadaniš"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 180,
+      "refId": "SKL-180",
+      "translit": "lugal-am3",
+      "i18n": {
+        "en": "was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 181,
+      "refId": "SKL-181",
+      "translit": "mu 6 šu-ši i3-ak",
+      "i18n": {
+        "en": "he ruled for 360 years (6 × 60)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sexagesimal-reign-figure-rendering-convention-skl"
+      ]
+    },
+    {
+      "n": 182,
+      "refId": "SKL-182",
+      "translit": "1 lugal",
+      "i18n": {
+        "en": "1 king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 183,
+      "refId": "SKL-183",
+      "translit": "mu-bi 6 šu-ši ib2-ak",
+      "i18n": {
+        "en": "he ruled for 360 years (6 × 60)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sexagesimal-reign-figure-rendering-convention-skl"
+      ]
+    },
+    {
+      "n": 184,
+      "refId": "SKL-184",
+      "translit": "ḫa-ma-zi2^ki ^ĝištukul ba-an-sag3",
+      "i18n": {
+        "en": "Then Hamazi was defeated by force of arms,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 185,
+      "refId": "SKL-185",
+      "translit": "{nam-lugal-bi unug^ki-še3 ba-de6} {() [nam]-/lugal\\ a-ra2 2-kam-ma-še3 [unug]^ki-še3^? ba^?-e^?-gur^?}",
+      "i18n": {
+        "en": "and its kingship was carried off to Unug {alternate manuscript: the kingship was returned to Unug for a second time}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 186,
+      "refId": "SKL-186",
+      "translit": "unug^ki-ga en-šakkan2-ša4-an-na",
+      "i18n": {
+        "en": "In Unug, Enšakanšana"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 187,
+      "refId": "SKL-187",
+      "translit": "lugal-am3 mu 1 šu-ši i3-ak",
+      "i18n": {
+        "en": "was king; he ruled for 60 years (1 × 60)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sexagesimal-reign-figure-rendering-convention-skl"
+      ]
+    },
+    {
+      "n": 188,
+      "refId": "SKL-188",
+      "translit": "{lugal-ur-e} {() lugal-ki-/ni^?-še3^?\\-[du7-du7]} 2 šu-ši mu i3-/ak\\",
+      "i18n": {
+        "en": "Lugal-ure {alternate manuscript: Lugal-kineše-dudu} ruled for 120 years (2 × 60)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "sexagesimal-reign-figure-rendering-convention-skl"
+      ]
+    },
+    {
+      "n": 189,
+      "refId": "SKL-189",
+      "translit": "ar-ga-an-de2-a 7 mu i3-ak",
+      "i18n": {
+        "en": "Argandea ruled for 7 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 190,
+      "refId": "SKL-190",
+      "translit": "() {3} lugal mu-bi () {187} ib2-ak",
+      "i18n": {
+        "en": "3 kings; they ruled for 187 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 191,
+      "refId": "SKL-191",
+      "translit": "unug^ki {^ĝištukul ba-sag3} {() ba-gul}",
+      "i18n": {
+        "en": "Then Unug was defeated by force of arms {alternate manuscript: was destroyed},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 192,
+      "refId": "SKL-192",
+      "translit": "/nam\\-lugal-bi /urim2\\-[še3] [ba-de6]",
+      "i18n": {
+        "en": "and its kingship was carried off to Urim."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 193,
+      "refId": "SKL-193",
+      "translit": "/urim2\\-ma na-an-ni",
+      "i18n": {
+        "en": "In Urim, Nanni"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 194,
+      "refId": "SKL-194",
+      "translit": "lugal-am3",
+      "i18n": {
+        "en": "was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 195,
+      "refId": "SKL-195",
+      "translit": "mu {() 120 + X} {() X + 54} i3-ak",
+      "i18n": {
+        "en": "he ruled for 120 + … {alternate manuscript: … + 54} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 196,
+      "refId": "SKL-196",
+      "translit": "meš3-ki-aĝ2-^d/nanna\\ dumu na-an-ni-ke4",
+      "i18n": {
+        "en": "Meškiaĝ-Nanna, the son of Nanni,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 197,
+      "refId": "SKL-197",
+      "translit": "mu () {/48^?\\} i3-ak",
+      "i18n": {
+        "en": "ruled for 48(?) years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 198,
+      "refId": "SKL-198",
+      "translit": "[…]-ak",
+      "i18n": {
+        "en": "… ruled …"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 199,
+      "refId": "SKL-199",
+      "translit": "[…] X-ke4",
+      "i18n": {
+        "en": "… ,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 200,
+      "refId": "SKL-200",
+      "translit": "mu () {/2\\} i3-ak",
+      "i18n": {
+        "en": "ruled for 2 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 201,
+      "refId": "SKL-201",
+      "translit": "() {3} lugal",
+      "i18n": {
+        "en": "3 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 202,
+      "refId": "SKL-202",
+      "translit": "mu-bi {() 582} {() /578\\} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 582 {alternate manuscript: 578} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": "A",
+      "refId": "SKL-A",
+      "translit": "2 /lugal\\",
+      "i18n": {
+        "en": "2 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": "B",
+      "refId": "SKL-B",
+      "translit": "mu-bi 120 + X /i3\\-ib2-ak",
+      "i18n": {
+        "en": "they ruled for 120 + … years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 203,
+      "refId": "SKL-203",
+      "translit": "urim2^ki {^ĝištukul ba-sag3} {() /ba-gul\\}",
+      "i18n": {
+        "en": "Then Urim was defeated by force of arms {alternate manuscript: was destroyed},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 204,
+      "refId": "SKL-204",
+      "translit": "[nam]-lugal-/bi\\ adab^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Adab."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 205,
+      "refId": "SKL-205",
+      "translit": "adab^ki-/ba^?\\ lugal-an-ne2-mu-un-du3",
+      "i18n": {
+        "en": "In Adab, Lugal-Anemundu"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 206,
+      "refId": "SKL-206",
+      "translit": "lugal-am3 mu () {90} in-ak",
+      "i18n": {
+        "en": "was king; he ruled for 90 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 207,
+      "refId": "SKL-207",
+      "translit": "() {1} lugal",
+      "i18n": {
+        "en": "1 king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 208,
+      "refId": "SKL-208",
+      "translit": "mu-bi () {90} in-ak",
+      "i18n": {
+        "en": "he ruled for 90 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 209,
+      "refId": "SKL-209",
+      "translit": "adab^ki {^ĝištukul ba-an-sag3} {() tukul ba-gul}",
+      "i18n": {
+        "en": "Then Adab was defeated by force of arms {alternate manuscript: was destroyed},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 210,
+      "refId": "SKL-210",
+      "translit": "nam-lugal-bi ma-ri2^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Mari."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 211,
+      "refId": "SKL-211",
+      "translit": "ma-ri2^ki-a AN.BU",
+      "i18n": {
+        "en": "In Mari, Anbu"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 212,
+      "refId": "SKL-212",
+      "translit": "lugal-am3 mu {30} {() 90} i3-ak",
+      "i18n": {
+        "en": "was king; he ruled for 30 {alternate manuscript: 90} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 213,
+      "refId": "SKL-213",
+      "translit": "AN.BA dumu AN.BU-ke4",
+      "i18n": {
+        "en": "Anba, the son of Anbu,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 214,
+      "refId": "SKL-214",
+      "translit": "mu {[17]} {() 7} i3-ak",
+      "i18n": {
+        "en": "ruled for 17 {alternate manuscript: 7} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 215,
+      "refId": "SKL-215",
+      "translit": "«AN» ba-zi ^lu2ašgab mu 30 i3-ak",
+      "i18n": {
+        "en": "Bazi, the leatherworker, ruled for 30 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 216,
+      "refId": "SKL-216",
+      "translit": "zi-zi ^lu2azlag2 mu 20 i3-ak",
+      "i18n": {
+        "en": "Zizi, the fuller, ruled for 20 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 217,
+      "refId": "SKL-217",
+      "translit": "/li^?\\-im-er gudug mu 30 i3-ak",
+      "i18n": {
+        "en": "Limer, the gudug-priest, ruled for 30 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 218,
+      "refId": "SKL-218",
+      "translit": "šarrum-i-ter mu {9} {() 7} i3-ak",
+      "i18n": {
+        "en": "Šarrum-iter ruled for 9 {alternate manuscript: 7} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 219,
+      "refId": "SKL-219",
+      "translit": "6 lugal",
+      "i18n": {
+        "en": "6 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 220,
+      "refId": "SKL-220",
+      "translit": "mu-bi {136} {() /184\\} i3-ak",
+      "i18n": {
+        "en": "they ruled for 136 {alternate manuscript: 184} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 221,
+      "refId": "SKL-221",
+      "translit": "/ma\\-ri^ki {[^ĝištukul] ba-an-sag3} {() ba-gul}",
+      "i18n": {
+        "en": "Then Mari was defeated by force of arms {alternate manuscript: was destroyed},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 222,
+      "refId": "SKL-222",
+      "translit": "nam-lugal-bi",
+      "i18n": {
+        "en": "and its kingship"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 223,
+      "refId": "SKL-223",
+      "translit": "kiš^ki-še3 ba-de6",
+      "i18n": {
+        "en": "was carried off to Kiš."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 224,
+      "refId": "SKL-224",
+      "translit": "kiš^ki-a kug-^dba-u2",
+      "i18n": {
+        "en": "In Kiš, Kug-Bau,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 225,
+      "refId": "SKL-225",
+      "translit": "^flu2-kurun-na",
+      "i18n": {
+        "en": "the woman tavern-keeper,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 226,
+      "refId": "SKL-226",
+      "translit": "suḫuš kiš^ki mu-un-gen6-na",
+      "i18n": {
+        "en": "who made firm the foundations of Kiš,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 227,
+      "refId": "SKL-227",
+      "translit": "lugal-am3 mu 100 i3-ak",
+      "i18n": {
+        "en": "became king; she ruled for 100 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 228,
+      "refId": "SKL-228",
+      "translit": "1 lugal",
+      "i18n": {
+        "en": "1 king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 229,
+      "refId": "SKL-229",
+      "translit": "mu-bi 100 i3-ak",
+      "i18n": {
+        "en": "she ruled for 100 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 230,
+      "refId": "SKL-230",
+      "translit": "kiš^ki {[^ĝištukul] ba-an-sag3} {() /ba-gul\\}",
+      "i18n": {
+        "en": "Then Kiš was defeated by force of arms {alternate manuscript: was destroyed},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 231,
+      "refId": "SKL-231",
+      "translit": "nam-lugal-bi akšak^ki-<še3> ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Akšak."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 232,
+      "refId": "SKL-232",
+      "translit": "akšak^ki-a un-zi",
+      "i18n": {
+        "en": "In Akšak, Unzi"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 233,
+      "refId": "SKL-233",
+      "translit": "lugal-am3 mu 30 i3-ak",
+      "i18n": {
+        "en": "was king; he ruled for 30 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 234,
+      "refId": "SKL-234",
+      "translit": "un-da-lu-lu mu {6} {() 12} i3-ak",
+      "i18n": {
+        "en": "Undalulu ruled for 6 {alternate manuscript: 12} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 235,
+      "refId": "SKL-235",
+      "translit": "ur-ur mu 6 {i3-ak} {() ĝal2}",
+      "i18n": {
+        "en": "Ur-Ur ruled for 6 years {alternate manuscript: was there for 6 years}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 236,
+      "refId": "SKL-236",
+      "translit": "puzur4-^dniraḫ mu () {20} i3-ak",
+      "i18n": {
+        "en": "Puzur-Nirah ruled for 20 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 237,
+      "refId": "SKL-237",
+      "translit": "i-šu-il mu () {24} i3-ak",
+      "i18n": {
+        "en": "Išu-Il ruled for 24 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 238,
+      "refId": "SKL-238",
+      "translit": "šu-^dsuen dumu i-šu-il-la-ke4 mu {() 7} {() 24} i3-ak",
+      "i18n": {
+        "en": "Šu-Suen, the son of Išu-Il, ruled for 7 {alternate manuscript: 24} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 239,
+      "refId": "SKL-239",
+      "translit": "{() 6} {() 5} lugal",
+      "i18n": {
+        "en": "6 {alternate manuscript: 5} kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 240,
+      "refId": "SKL-240",
+      "translit": "mu-bi {() 99} {() 116} {() 87} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 99 {alternate manuscript: 116} {alternate manuscript: 87} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 241,
+      "refId": "SKL-241",
+      "translit": "{akšak^ki ^ĝištukul ba-sag3} {() akšak^ki-a bal-bi ba-kur2}",
+      "i18n": {
+        "en": "Then Akšak was defeated by force of arms {alternate manuscript: the reign of Akšak was overturned},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 242,
+      "refId": "SKL-242",
+      "translit": "nam-lugal-bi",
+      "i18n": {
+        "en": "and its kingship"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 243,
+      "refId": "SKL-243",
+      "translit": "kiš^ki-še3 ba-de6",
+      "i18n": {
+        "en": "was carried off to Kiš."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 244,
+      "refId": "SKL-244",
+      "translit": "kiš^ki-a puzur4-^dsuen",
+      "i18n": {
+        "en": "In Kiš, Puzur-Suen,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 245,
+      "refId": "SKL-245",
+      "translit": "dumu kug-^dba-u2-ke4",
+      "i18n": {
+        "en": "the son of Kug-Bau,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 246,
+      "refId": "SKL-246",
+      "translit": "lugal-am3 mu 25 i3-ak",
+      "i18n": {
+        "en": "was king; he ruled for 25 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 247,
+      "refId": "SKL-247",
+      "translit": "ur-^dza-ba4-ba4",
+      "i18n": {
+        "en": "Ur-Zababa,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 248,
+      "refId": "SKL-248",
+      "translit": "dumu puzur4-^dsuen-/na\\-ke4",
+      "i18n": {
+        "en": "the son of Puzur-Suen,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 249,
+      "refId": "SKL-249",
+      "translit": "mu {400} {() 6} {() 4 + X} i3-ak",
+      "i18n": {
+        "en": "ruled for 400 {alternate manuscript: 6} {alternate manuscript: 4 + …} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": "249A",
+      "refId": "SKL-249A",
+      "translit": "131^? mu /bal\\ kug-ba-u2-/kam\\",
+      "i18n": {
+        "en": "131(?) years: the reign of Kug-Bau."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "bal-dynastic-reign-term-skl"
+      ]
+    },
+    {
+      "n": 250,
+      "refId": "SKL-250",
+      "translit": "{zi-mu-dar} {() zi-ĝu10-i3-/ak\\-e} mu {30} {() 30 + X} i3-ak",
+      "i18n": {
+        "en": "Zimudar {alternate manuscript: Ziĝu-iake} ruled for 30 {alternate manuscript: 30 + …} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 251,
+      "refId": "SKL-251",
+      "translit": "u2-ṣi2-wa-tar2 dumu {zi-mu-dar-ra-ke4} {() zi-/ĝu10\\-i3-ak-e} mu {7} {() 6} i3-ak",
+      "i18n": {
+        "en": "Uṣi-watar, the son of Zimudar {alternate manuscript: Ziĝu-iake}, ruled for 7 {alternate manuscript: 6} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 252,
+      "refId": "SKL-252",
+      "translit": "eš4-tar2-mu-ti mu {11} {() /17^?\\} i3-ak",
+      "i18n": {
+        "en": "Ištar-muti ruled for 11 {alternate manuscript: 17} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 253,
+      "refId": "SKL-253",
+      "translit": "iš-me-^dšamaš mu 11 i3-ak",
+      "i18n": {
+        "en": "Išme-Šamaš ruled for 11 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "utu-shamash-sun-god-justice-divinity-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": "253A",
+      "refId": "SKL-253A",
+      "translit": "šu-i3-li2-šu",
+      "i18n": {
+        "en": "Šu-ilišu"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": "253B",
+      "refId": "SKL-253B",
+      "translit": "15 mu i3-ak",
+      "i18n": {
+        "en": "ruled for 15 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 254,
+      "refId": "SKL-254",
+      "translit": "{na-an-ni-ia zadim} {() zi-mu-dar} {() be-li-[…]} mu {7} {() 3} i3-ak",
+      "i18n": {
+        "en": "Nanniya, the stonecutter {alternate manuscript: Zimudar} {alternate manuscript: Beli-…}, ruled for 7 {alternate manuscript: 3} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 255,
+      "refId": "SKL-255",
+      "translit": "{7} {() 8} lugal",
+      "i18n": {
+        "en": "7 {alternate manuscript: 8} kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 256,
+      "refId": "SKL-256",
+      "translit": "mu-bi {491} {() 485} {() 586} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 491 {alternate manuscript: 485} {alternate manuscript: 586} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 257,
+      "refId": "SKL-257",
+      "translit": "{kiš^ki ^ĝištukul ba-an-sag3} {() kiš^ki bal-bi ba-/kur2\\}",
+      "i18n": {
+        "en": "Then Kiš was defeated by force of arms {alternate manuscript: the reign of Kiš was overturned},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 258,
+      "refId": "SKL-258",
+      "translit": "{nam-lugal-bi unug^ki-še3 ba-de6} {() [nam]-/lugal^?\\ a-ra2^? [3-kam-ma-še3] /unug^?^ ki-še3^?\\ [ba-e-gur]}",
+      "i18n": {
+        "en": "and its kingship was carried off to Unug {alternate manuscript: the kingship was returned to Unug for a third time}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 259,
+      "refId": "SKL-259",
+      "translit": "unug^ki-ga lugal-zag-ge-si",
+      "i18n": {
+        "en": "In Unug, Lugal-zagesi"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 260,
+      "refId": "SKL-260",
+      "translit": "lugal-am3 mu {25} {() 34} i3-ak",
+      "i18n": {
+        "en": "was king; he ruled for 25 {alternate manuscript: 34} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 261,
+      "refId": "SKL-261",
+      "translit": "1 lugal",
+      "i18n": {
+        "en": "1 king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 262,
+      "refId": "SKL-262",
+      "translit": "mu-bi {25} {() 34} i3-ak",
+      "i18n": {
+        "en": "he ruled for 25 {alternate manuscript: 34} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 263,
+      "refId": "SKL-263",
+      "translit": "{unug^ki ^ĝištukul ba-an-sag3} {() unug^ki-ga bal-bi ba-kur2}",
+      "i18n": {
+        "en": "Then Unug was defeated by force of arms {alternate manuscript: the reign of Unug was overturned},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 264,
+      "refId": "SKL-264",
+      "translit": "nam-lugal-bi",
+      "i18n": {
+        "en": "and its kingship"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 265,
+      "refId": "SKL-265",
+      "translit": "a-ga-de3^ki-še3 ba-de6",
+      "i18n": {
+        "en": "was carried off to Agade."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 266,
+      "refId": "SKL-266",
+      "translit": "a-ga-de3^ki-a šar-ru-ki-in",
+      "i18n": {
+        "en": "In Agade, Šarru-kin,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 267,
+      "refId": "SKL-267",
+      "translit": "ab-ba-ni nu-kiri6",
+      "i18n": {
+        "en": "whose father was a gardener,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 268,
+      "refId": "SKL-268",
+      "translit": "sagi ur-^dza-ba4-ba4",
+      "i18n": {
+        "en": "the cupbearer of Ur-Zababa,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "occupation-epithets-low-born-rulers-skl"
+      ]
+    },
+    {
+      "n": 269,
+      "refId": "SKL-269",
+      "translit": "lugal a-ga-de3^ki lu2 a-ga-de3^ki",
+      "i18n": {
+        "en": "the king of Agade, the one who Agade"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 270,
+      "refId": "SKL-270",
+      "translit": "{mu-un-du3-a} {() mu-un-da-du3-a}",
+      "i18n": {
+        "en": "built {alternate manuscript: built up},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 271,
+      "refId": "SKL-271",
+      "translit": "lugal-am3 mu {56} {() 55} {() 54} i3-ak",
+      "i18n": {
+        "en": "was king; he ruled for 56 {alternate manuscript: 55} {alternate manuscript: 54} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 272,
+      "refId": "SKL-272",
+      "translit": "ri2-mu-uš dumu šar-ru-ki-in",
+      "i18n": {
+        "en": "Rimuš, the son of Šarru-kin,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 273,
+      "refId": "SKL-273",
+      "translit": "mu {9} {() 7} {() 15} i3-ak",
+      "i18n": {
+        "en": "ruled for 9 {alternate manuscript: 7} {alternate manuscript: 15} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 274,
+      "refId": "SKL-274",
+      "translit": "ma-ni-iš-ti-iš-šu",
+      "i18n": {
+        "en": "Maništišu,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 275,
+      "refId": "SKL-275",
+      "translit": "šeš-gal ri2-mu-uš",
+      "i18n": {
+        "en": "the older brother of Rimuš,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 276,
+      "refId": "SKL-276",
+      "translit": "dumu šar-ru-ki-in",
+      "i18n": {
+        "en": "the son of Šarru-kin,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 277,
+      "refId": "SKL-277",
+      "translit": "mu {15} {() 7} i3-ak",
+      "i18n": {
+        "en": "ruled for 15 {alternate manuscript: 7} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 278,
+      "refId": "SKL-278",
+      "translit": "na-ra-am-/^d\\[suen]",
+      "i18n": {
+        "en": "Naram-Suen,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 279,
+      "refId": "SKL-279",
+      "translit": "dumu ma-ni-iš-ti-iš-[šu]",
+      "i18n": {
+        "en": "the son of Maništišu,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 280,
+      "refId": "SKL-280",
+      "translit": "mu () {56} i3-ak",
+      "i18n": {
+        "en": "ruled for 56 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 281,
+      "refId": "SKL-281",
+      "translit": "šar-ka3-li2-šar-ri2",
+      "i18n": {
+        "en": "Šar-kali-šarri,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 282,
+      "refId": "SKL-282",
+      "translit": "dumu na-ra-am-^dsuen",
+      "i18n": {
+        "en": "the son of Naram-Suen,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 283,
+      "refId": "SKL-283",
+      "translit": "mu {() 25} {() 24} i3-ak",
+      "i18n": {
+        "en": "ruled for 25 {alternate manuscript: 24} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": "283A",
+      "refId": "SKL-283A",
+      "translit": "/157\\ mu [bal]",
+      "i18n": {
+        "en": "157 years: the reign."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "bal-dynastic-reign-term-skl"
+      ]
+    },
+    {
+      "n": "283B",
+      "refId": "SKL-283B",
+      "translit": "/šar\\-ru-ki2-nim",
+      "i18n": {
+        "en": "Šarru-kin(?)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 284,
+      "refId": "SKL-284",
+      "translit": "{a-ba-/am3 lugal\\ a-ba-am3 nu lugal} ({(mss. L1+N1, P3+BT14 ḫave instead, in Akkadian:) ma-nu-um šar3 ma-nu-um la šar3)} {(ms. Su3+Su4 ḫas instead:) a-ba lugal a-ba lugal-am3}",
+      "i18n": {
+        "en": "Who was king? Who was not king? {alternate manuscript (in Akkadian): “Who was king? Who was not king?”} {alternate manuscript: “Who was king? Who was king?”}"
+      },
+      "notes": {
+        "official": "At the collapse of the dynasty of Agade the list breaks from its ledger-style into a rhetorical couplet, *a-ba-am₃ lugal a-ba-am₃ nu lugal*, \"Who was king? Who was not king?\" — preserved in one manuscript in Akkadian (*mannum šar mannum lā šar*) and reflecting the anarchy of the Gutian period; a variant reads \"Who was king? Who was king?\" The couplet is one of the composition's rare departures from the ledger and is rendered directly (see `kingless-interregnum-formulae-skl`).\n\nIt pairs with the Gutian notice *lugal mu nu-tuku* (309), \"a king who had no name\": *mu* is \"name\" and also \"fame, renown,\" so the phrase carries both \"unrecorded\" and \"unrenowned.\" Both formulae mark the failure of the King List's central premise — that kingship always rests, nameable, in exactly one city.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "kingless-interregnum-formulae-skl"
+      ]
+    },
+    {
+      "n": 285,
+      "refId": "SKL-285",
+      "translit": "ir-gi4-gi4 lugal",
+      "i18n": {
+        "en": "Irgigi, king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 286,
+      "refId": "SKL-286",
+      "translit": "i-mi lugal",
+      "i18n": {
+        "en": "Imi, king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 287,
+      "refId": "SKL-287",
+      "translit": "na-nu-um lugal",
+      "i18n": {
+        "en": "Nanum, king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 288,
+      "refId": "SKL-288",
+      "translit": "i-lu-lu lugal",
+      "i18n": {
+        "en": "Ilulu, king —"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 289,
+      "refId": "SKL-289",
+      "translit": "() {4-bi} () {3} mu /ib2\\-ak",
+      "i18n": {
+        "en": "the four of them ruled for 3 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 290,
+      "refId": "SKL-290",
+      "translit": "du-du mu 21 i3-ak",
+      "i18n": {
+        "en": "Dudu ruled for 21 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 291,
+      "refId": "SKL-291",
+      "translit": "šu-dur-ul3 dumu du-du-ke4",
+      "i18n": {
+        "en": "Šu-Durul, the son of Dudu,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 292,
+      "refId": "SKL-292",
+      "translit": "mu {15} {() 18} i3-ak",
+      "i18n": {
+        "en": "ruled for 15 {alternate manuscript: 18} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 293,
+      "refId": "SKL-293",
+      "translit": "{11} {() 12} {() 9} lugal",
+      "i18n": {
+        "en": "11 {alternate manuscript: 12} {alternate manuscript: 9} kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 294,
+      "refId": "SKL-294",
+      "translit": "mu-bi {181} {() 197} {() 161} {() 177} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 181 {alternate manuscript: 197} {alternate manuscript: 161} {alternate manuscript: 177} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 295,
+      "refId": "SKL-295",
+      "translit": "{a-ga-de3^ki ^ĝištukul ba-an-sag3} {() a-ga-de3^ki bal-bi ba-kur2}",
+      "i18n": {
+        "en": "Then Agade was defeated by force of arms {alternate manuscript: the reign of Agade was overturned},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 296,
+      "refId": "SKL-296",
+      "translit": "nam-lugal-bi unug^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Unug."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 297,
+      "refId": "SKL-297",
+      "translit": "unug^ki-ga ur-niĝin3 lugal-am3",
+      "i18n": {
+        "en": "In Unug, Ur-niĝin was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 298,
+      "refId": "SKL-298",
+      "translit": "mu {7} {() 3} {() 15} {() 30} i3-ak",
+      "i18n": {
+        "en": "he ruled for 7 {alternate manuscript: 3} {alternate manuscript: 15} {alternate manuscript: 30} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 299,
+      "refId": "SKL-299",
+      "translit": "ur-^ĝišgigir dumu ur-niĝin3-ke4",
+      "i18n": {
+        "en": "Ur-gigir, the son of Ur-niĝin,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 300,
+      "refId": "SKL-300",
+      "translit": "mu {6} {() 7} {() 15} {() 7} i3-ak",
+      "i18n": {
+        "en": "ruled for 6 {alternate manuscript: 7} {alternate manuscript: 15} {alternate manuscript: 7} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 301,
+      "refId": "SKL-301",
+      "translit": "kud-da mu 6 i3-ak",
+      "i18n": {
+        "en": "Kuda ruled for 6 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 302,
+      "refId": "SKL-302",
+      "translit": "puzur4-i3-li2 mu {5} {() 20} i3-ak",
+      "i18n": {
+        "en": "Puzur-ili ruled for 5 {alternate manuscript: 20} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 303,
+      "refId": "SKL-303",
+      "translit": "{ur-^dutu mu 6} {() ur-^dutu dumu ur-^ĝišgigir mu 25} {() lugal-me-lem4 dumu ur-^ĝišgigir mu 7} i3-ak",
+      "i18n": {
+        "en": "Ur-Utu ruled for 6 years {alternate manuscript: Ur-Utu, the son of Ur-gigir, for 25 years} {alternate manuscript: Lugal-melam, the son of Ur-gigir, for 7 years}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "utu-shamash-sun-god-justice-divinity-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 304,
+      "refId": "SKL-304",
+      "translit": "{5} {() 3} lugal mu-bi {30} {() /43^!\\} {() 26} {() 47} ib2-ak",
+      "i18n": {
+        "en": "5 {alternate manuscript: 3} kings; they ruled for 30 {alternate manuscript: 43} {alternate manuscript: 26} {alternate manuscript: 47} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 305,
+      "refId": "SKL-305",
+      "translit": "{unug^ki ^ĝištukul ba-an-sag3} {() unug^ki-ga bal-bi ba-kur2}",
+      "i18n": {
+        "en": "Then Unug was defeated by force of arms {alternate manuscript: the reign of Unug was overturned},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 306,
+      "refId": "SKL-306",
+      "translit": "nam-lugal-bi",
+      "i18n": {
+        "en": "and its kingship"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 307,
+      "refId": "SKL-307",
+      "translit": "{ugnim} {() /ma-da\\} gu-tu-um^ki-še3 ba-de6",
+      "i18n": {
+        "en": "was carried off to the horde {alternate manuscript: the land} of Gutium."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 308,
+      "refId": "SKL-308",
+      "translit": "{ugnim} {() [ma]-/da\\} gu-tu-um^ki",
+      "i18n": {
+        "en": "The horde {alternate manuscript: the land} of Gutium —"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 309,
+      "refId": "SKL-309",
+      "translit": "lugal mu nu-tuku",
+      "i18n": {
+        "en": "a king whose name is unknown;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "kingless-interregnum-formulae-skl"
+      ]
+    },
+    {
+      "n": 310,
+      "refId": "SKL-310",
+      "translit": "ni2-ta-a lugal-am3 mu 3 i3-ak",
+      "i18n": {
+        "en": "Nita was king; he ruled for 3 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": "C",
+      "refId": "SKL-C",
+      "translit": "lugal nu-ub-tuku",
+      "i18n": {
+        "en": "there was no king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": "D",
+      "refId": "SKL-D",
+      "translit": "ni2-bi-a mu 5 i3-ak",
+      "i18n": {
+        "en": "by itself it ruled for 5 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 311,
+      "refId": "SKL-311",
+      "translit": "{in-ki-šuš2} {() […]-/ga\\-ba} mu {6} {() 7} i3-ak",
+      "i18n": {
+        "en": "Inkišuš {alternate manuscript: …-gaba} ruled for 6 {alternate manuscript: 7} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 312,
+      "refId": "SKL-312",
+      "translit": "zar2-lagab^la-gab mu 6 i3-ak",
+      "i18n": {
+        "en": "Zarlagab ruled for 6 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 313,
+      "refId": "SKL-313",
+      "translit": "{šul-me-e} {() ia-ar-la-ga-aš} mu 6 i3-ak",
+      "i18n": {
+        "en": "Šulme {alternate manuscript: Yarlagaš} ruled for 6 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 314,
+      "refId": "SKL-314",
+      "translit": "{si-lu-lu-me-eš} {() si-lu-lu} mu {6} {() 7} i3-ak",
+      "i18n": {
+        "en": "Silulumeš {alternate manuscript: Silulu} ruled for 6 {alternate manuscript: 7} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 315,
+      "refId": "SKL-315",
+      "translit": "{i-ni-ma-ba-ke-eš mu 5} {() dug3-ga 6 mu} i3-ak",
+      "i18n": {
+        "en": "Inimabakeš ruled for 5 years {alternate manuscript: Duga, for 6 years}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 316,
+      "refId": "SKL-316",
+      "translit": "{i-ge4-eš-a-uš mu 6} {() i-lu-AN mu 3} i3-ak",
+      "i18n": {
+        "en": "Igeš-auš ruled for 6 years {alternate manuscript: Ilu-An, for 3 years}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 317,
+      "refId": "SKL-317",
+      "translit": "ia-ar-la-gab mu {15} {() 5} i3-ak",
+      "i18n": {
+        "en": "Yarlagab ruled for 15 {alternate manuscript: 5} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 318,
+      "refId": "SKL-318",
+      "translit": "i-ba-te mu 3 i3-ak",
+      "i18n": {
+        "en": "Ibate ruled for 3 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 319,
+      "refId": "SKL-319",
+      "translit": "{ia-ar-la} {() [ia]-/ar-la\\-an-gab} mu 3 i3-ak",
+      "i18n": {
+        "en": "Yarla {alternate manuscript: Yarlangab} ruled for 3 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 320,
+      "refId": "SKL-320",
+      "translit": "{ku-ru-um} {() […]-bi} mu {1} {() 3} i3-ak",
+      "i18n": {
+        "en": "Kurum {alternate manuscript: …-bi} ruled for 1 {alternate manuscript: 3} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 321,
+      "refId": "SKL-321",
+      "translit": "/a\\-pil-ki^?-in mu 3 i3-ak",
+      "i18n": {
+        "en": "Apil-kin ruled for 3 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 322,
+      "refId": "SKL-322",
+      "translit": "[la-e2]-ra-bu-um mu 2 i3-ak",
+      "i18n": {
+        "en": "La-erabum ruled for 2 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 323,
+      "refId": "SKL-323",
+      "translit": "i-ra-ru-um mu 2 i3-ak",
+      "i18n": {
+        "en": "Irarum ruled for 2 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 324,
+      "refId": "SKL-324",
+      "translit": "ib-ra-nu-um mu 1 i3-ak",
+      "i18n": {
+        "en": "Ibranum ruled for 1 year."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 325,
+      "refId": "SKL-325",
+      "translit": "ḫa-ab-lum mu 2 i3-ak",
+      "i18n": {
+        "en": "Hablum ruled for 2 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 326,
+      "refId": "SKL-326",
+      "translit": "puzur4-^dsuen dumu ḫa-ab-lum",
+      "i18n": {
+        "en": "Puzur-Suen, the son of Hablum,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": "326A",
+      "refId": "SKL-326A",
+      "translit": "mu 7 i3-ak",
+      "i18n": {
+        "en": "ruled for 7 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 327,
+      "refId": "SKL-327",
+      "translit": "[ia]-ar-la-ga-an-da mu 7 i3-ak",
+      "i18n": {
+        "en": "Yarlaganda ruled for 7 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 328,
+      "refId": "SKL-328",
+      "translit": "[si]-/UD\\ mu 7 i3-ak",
+      "i18n": {
+        "en": "Si-U(?) ruled for 7 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 329,
+      "refId": "SKL-329",
+      "translit": "[ti-ri]-/ga\\ ud 40 i3-ak",
+      "i18n": {
+        "en": "Tiriga ruled for 40 days."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 330,
+      "refId": "SKL-330",
+      "translit": "21 lugal",
+      "i18n": {
+        "en": "21 kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 331,
+      "refId": "SKL-331",
+      "translit": "[mu-bi] {() 124 ud 40} {() 25} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 124 years and 40 days {alternate manuscript: 25 years}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 332,
+      "refId": "SKL-332",
+      "translit": "ugnim gu-ti-um^ki",
+      "i18n": {
+        "en": "The horde of Gutium —"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 333,
+      "refId": "SKL-333",
+      "translit": "{^ĝištukul ba-an-sag3} {() [ba]-/gul\\}",
+      "i18n": {
+        "en": "was defeated by force of arms {alternate manuscript: was destroyed},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 334,
+      "refId": "SKL-334",
+      "translit": "nam-lugal-bi unug^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Unug."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 335,
+      "refId": "SKL-335",
+      "translit": "unug^ki-ga ^dutu-ḫe2-ĝal2 [lugal]-am3",
+      "i18n": {
+        "en": "In Unug, Utu-hegal was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "utu-shamash-sun-god-justice-divinity-cross-corpus",
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 336,
+      "refId": "SKL-336",
+      "translit": "mu {7 šu-ši 7 ud […]} {() 26 [itid X] + 2 ud 15} {() 7 itid /6\\ ud [15]} {() 7 /itid 6 ud\\ 5} i3-ak",
+      "i18n": {
+        "en": "he ruled for 420 years (7 × 60) and 7 days(?) … {alternate manuscript: 26 years, … months, 2 days, 15} {alternate manuscript: 7 years, 6 months and 15 days} {alternate manuscript: 7 years, 6 months and 5 days}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "sexagesimal-reign-figure-rendering-convention-skl"
+      ]
+    },
+    {
+      "n": 337,
+      "refId": "SKL-337",
+      "translit": "1 lugal",
+      "i18n": {
+        "en": "1 king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 338,
+      "refId": "SKL-338",
+      "translit": "mu-bi {7 šu-ši 7 /ud\\ […]} {() [7] itid 6 ud 15} {() 7 itid 6 ud 5} i3-ak",
+      "i18n": {
+        "en": "he ruled for 420 years (7 × 60) and 7 days(?) … {alternate manuscript: 7 (years), 6 months and 15 days} {alternate manuscript: 7 (years), 6 months and 5 days}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "sexagesimal-reign-figure-rendering-convention-skl"
+      ]
+    },
+    {
+      "n": 339,
+      "refId": "SKL-339",
+      "translit": "unug^ki ^ĝištukul ba-an-sag3",
+      "i18n": {
+        "en": "Then Unug was defeated by force of arms,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": 340,
+      "refId": "SKL-340",
+      "translit": "nam-lugal-bi urim2^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Urim."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 341,
+      "refId": "SKL-341",
+      "translit": "urim2^ki-ma ur-^dnamma lugal-am3",
+      "i18n": {
+        "en": "In Urim, Ur-Namma was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 342,
+      "refId": "SKL-342",
+      "translit": "mu 18 i3-ak",
+      "i18n": {
+        "en": "he ruled for 18 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 343,
+      "refId": "SKL-343",
+      "translit": "^dšul-gi dumu ur-^dnamma-ke4",
+      "i18n": {
+        "en": "Šulgi, the son of Ur-Namma,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 344,
+      "refId": "SKL-344",
+      "translit": "mu {46} {() 48} {() 58} i3-ak",
+      "i18n": {
+        "en": "ruled for 46 {alternate manuscript: 48} {alternate manuscript: 58} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 345,
+      "refId": "SKL-345",
+      "translit": "^damar-^dsuen-na dumu ^dšul-gi-ke4",
+      "i18n": {
+        "en": "Amar-Suena, the son of Šulgi,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 346,
+      "refId": "SKL-346",
+      "translit": "mu {9} {() 25} i3-ak",
+      "i18n": {
+        "en": "ruled for 9 {alternate manuscript: 25} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 347,
+      "refId": "SKL-347",
+      "translit": "šu-^dsuen dumu ^damar-^dsuen-na-ke4",
+      "i18n": {
+        "en": "Šu-Suen, the son of Amar-Suena,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 348,
+      "refId": "SKL-348",
+      "translit": "mu {9} {() 7} {() 20 + X} {() 16} i3-ak",
+      "i18n": {
+        "en": "ruled for 9 {alternate manuscript: 7} {alternate manuscript: 20 + …} {alternate manuscript: 16} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 349,
+      "refId": "SKL-349",
+      "translit": "i-bi2-^dsuen dumu šu-^dsuen-ke4",
+      "i18n": {
+        "en": "Ibbi-Suen, the son of Šu-Suen,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 350,
+      "refId": "SKL-350",
+      "translit": "mu {24} {() 25} {() 15} {() /23^?\\} i3-ak",
+      "i18n": {
+        "en": "ruled for 24 {alternate manuscript: 25} {alternate manuscript: 15} {alternate manuscript: 23} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 351,
+      "refId": "SKL-351",
+      "translit": "{4} {() 5} lugal",
+      "i18n": {
+        "en": "4 {alternate manuscript: 5} kings;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 352,
+      "refId": "SKL-352",
+      "translit": "mu-bi {108} {() 117} {() 120 + X} {() 123} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 108 {alternate manuscript: 117} {alternate manuscript: 120 + …} {alternate manuscript: 123} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 353,
+      "refId": "SKL-353",
+      "translit": "{urim2^ki-ma ^ĝištukul ba-an-sag3} {() /urim2^ki\\ bal-bi ba-an-kur2}",
+      "i18n": {
+        "en": "Then Urim was defeated by force of arms {alternate manuscript: the reign of Urim was overturned},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "tukul-ba-sag-defeat-formula-skl"
+      ]
+    },
+    {
+      "n": "353A",
+      "refId": "SKL-353A",
+      "translit": "suḫuš /ki\\-[en-gi-ra] mu-/un\\-[bu]",
+      "i18n": {
+        "en": "the very foundation of Sumer was torn out."
+      },
+      "notes": {
+        "official": "*suḫuš ki-en-gi-ra mu-un-bu*, \"the very foundation of Sumer was torn out,\" marks the fall of the Ur III dynasty (manuscript P₃+BT₁₄). *ki-en-gi(-r)* is the Sumerians' own name for their land, rendered \"Sumer\" (`ki-en-gi-sumer-homeland-name-skl`); it is a distinct lexeme from *kalam* / *ka-na-aĝ₂* \"the Land\" (its own central entry). The King List reaches for the homeland-name here, at the traumatic end of the last great Sumerian dynasty, rather than the generic \"Land.\"",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "ki-en-gi-sumer-homeland-name-skl"
+      ]
+    },
+    {
+      "n": 354,
+      "refId": "SKL-354",
+      "translit": "nam-lugal-bi i3-si-in^ki-še3 ba-de6",
+      "i18n": {
+        "en": "and its kingship was carried off to Isin."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 355,
+      "refId": "SKL-355",
+      "translit": "i3-si-in^ki-na iš-bi-^der3-ra lugal-am3",
+      "i18n": {
+        "en": "In Isin, Išbi-Erra was king;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 356,
+      "refId": "SKL-356",
+      "translit": "mu {33} {() 32} i3-ak",
+      "i18n": {
+        "en": "he ruled for 33 {alternate manuscript: 32} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 357,
+      "refId": "SKL-357",
+      "translit": "šu-i3-li2-šu dumu iš-bi-^der3-ra-ke4",
+      "i18n": {
+        "en": "Šu-ilišu, the son of Išbi-Erra,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 358,
+      "refId": "SKL-358",
+      "translit": "mu {20} {() 10} {() 15} i3-ak",
+      "i18n": {
+        "en": "ruled for 20 {alternate manuscript: 10} {alternate manuscript: 15} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 359,
+      "refId": "SKL-359",
+      "translit": "i-din-^dda-gan dumu šu-i3-li2-šu-ke4",
+      "i18n": {
+        "en": "Iddin-Dagan, the son of Šu-ilišu,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 360,
+      "refId": "SKL-360",
+      "translit": "mu {21} {() 25} i3-ak",
+      "i18n": {
+        "en": "ruled for 21 {alternate manuscript: 25} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 361,
+      "refId": "SKL-361",
+      "translit": "iš-me-^dda-gan dumu i-din-^dda-gan-ke4",
+      "i18n": {
+        "en": "Išme-Dagan, the son of Iddin-Dagan,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 362,
+      "refId": "SKL-362",
+      "translit": "mu {() 20} {() 18} i3-ak",
+      "i18n": {
+        "en": "ruled for 20 {alternate manuscript: 18} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 363,
+      "refId": "SKL-363",
+      "translit": "li-pi2-it-eš4-tar2 dumu {iš-me-^dda-gan-ke4} {() ^di-din-[^d]da-[gan]}",
+      "i18n": {
+        "en": "Lipit-Ištar, the son of Išme-Dagan {alternate manuscript: Iddin-Dagan},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 364,
+      "refId": "SKL-364",
+      "translit": "mu () {11} i3-ak",
+      "i18n": {
+        "en": "ruled for 11 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 365,
+      "refId": "SKL-365",
+      "translit": "^dur-^dnin-urta {() dumu ^diškur-ke4 mu ḫe2-ĝal2-la bal sag9-ga til3 niĝ2 dug3-ga [(X)] ud ḫa-ba-/zal\\-[zal-e]} mu () {28} i3-ak",
+      "i18n": {
+        "en": "Ur-Ninurta {alternate manuscript: the son of Iškur — may he enjoy years of abundance, a good reign and a sweet life; may his days be long} ruled for 28 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 366,
+      "refId": "SKL-366",
+      "translit": "^dbur-^dsuen dumu ^dur-^dnin-urta-ke4",
+      "i18n": {
+        "en": "Bur-Suen, the son of Ur-Ninurta,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 367,
+      "refId": "SKL-367",
+      "translit": "mu 21 i3-ak",
+      "i18n": {
+        "en": "ruled for 21 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 368,
+      "refId": "SKL-368",
+      "translit": "^dli-pi2-it-^den-lil2",
+      "i18n": {
+        "en": "Lipit-Enlil,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 369,
+      "refId": "SKL-369",
+      "translit": "dumu bur-^dsuen-ke4 mu 5 i3-ak",
+      "i18n": {
+        "en": "the son of Bur-Suen, ruled for 5 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 370,
+      "refId": "SKL-370",
+      "translit": "^der3-ra-i-mi-ti mu {8} {() 7} i3-ak",
+      "i18n": {
+        "en": "Erra-imitti ruled for 8 {alternate manuscript: 7} years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": "370A",
+      "refId": "SKL-370A",
+      "translit": "/DA^?\\ [X X X] (X) X itid 6 /in\\-[ak]",
+      "i18n": {
+        "en": "… ruled … for 6 months(?)."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 371,
+      "refId": "SKL-371",
+      "translit": "^den-lil2-ba-ni mu 24 i3-ak",
+      "i18n": {
+        "en": "Enlil-bani ruled for 24 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 372,
+      "refId": "SKL-372",
+      "translit": "^dza-am-bi-ia mu 3 i3-ak",
+      "i18n": {
+        "en": "Zambiya ruled for 3 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 373,
+      "refId": "SKL-373",
+      "translit": "^di-te-er-pi4-ša mu 4 i3-ak",
+      "i18n": {
+        "en": "Iter-piša ruled for 4 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 374,
+      "refId": "SKL-374",
+      "translit": "^dur-du6-kug-ga mu 4 i3-ak",
+      "i18n": {
+        "en": "Ur-dukuga ruled for 4 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": 375,
+      "refId": "SKL-375",
+      "translit": "^dsuen-ma-gir mu 11 i3-ak",
+      "i18n": {
+        "en": "Suen-magir ruled for 11 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention"
+      ]
+    },
+    {
+      "n": "375A",
+      "refId": "SKL-375A",
+      "translit": "da-/mi\\-iq-i3-li2-šu dumu ^dsuen-ma-gir mu 23 [in-ak]",
+      "i18n": {
+        "en": "Damiq-ilišu, the son of Suen-magir, ruled for 23 years."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "dingir-prefix-prose-drop-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 376,
+      "refId": "SKL-376",
+      "translit": "14(source: 13) lugal",
+      "i18n": {
+        "en": "14 kings (one manuscript reads 13);"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 377,
+      "refId": "SKL-377",
+      "translit": "mu-bi {203} {() 225 itid 6} ib2-ak",
+      "i18n": {
+        "en": "they ruled for 203 years {alternate manuscript: 225 years and 6 months}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 378,
+      "refId": "SKL-378",
+      "translit": "šu-niĝin2 40^!-la2-[1 lugal]",
+      "i18n": {
+        "en": "In all, 39 kings"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 379,
+      "refId": "SKL-379",
+      "translit": "mu-bi /14400\\ + [X] + 9 mu [3 itid 3 1/2 ud] ib2-ak",
+      "i18n": {
+        "en": "ruled for 14400 + [ … ] + 9 years, [3 months and 3½ days]."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 380,
+      "refId": "SKL-380",
+      "translit": "a-ra2 4-[kam]",
+      "i18n": {
+        "en": "for the 4th time,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 381,
+      "refId": "SKL-381",
+      "translit": "šag4 kiš[^ki]",
+      "i18n": {
+        "en": "within Kiš."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 382,
+      "refId": "SKL-382",
+      "translit": "/šu-niĝin2\\ 22 /lugal\\",
+      "i18n": {
+        "en": "In all, 22 kings"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 383,
+      "refId": "SKL-383",
+      "translit": "mu-bi 2610 + [X] 6 itid 15 ud ib2-ak",
+      "i18n": {
+        "en": "ruled for 2610 + [ … ] years, 6 months and 15 days,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 384,
+      "refId": "SKL-384",
+      "translit": "a-ra2 5-kam",
+      "i18n": {
+        "en": "for the 5th time,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 385,
+      "refId": "SKL-385",
+      "translit": "šag4 unug^ki-ga",
+      "i18n": {
+        "en": "within Unug."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 386,
+      "refId": "SKL-386",
+      "translit": "šu-niĝin2 12 lugal",
+      "i18n": {
+        "en": "In all, 12 kings"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 387,
+      "refId": "SKL-387",
+      "translit": "mu-bi 396 mu ib2-ak",
+      "i18n": {
+        "en": "ruled for 396 years,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 388,
+      "refId": "SKL-388",
+      "translit": "/a-ra2\\ 3-kam",
+      "i18n": {
+        "en": "for the 3rd time,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 389,
+      "refId": "SKL-389",
+      "translit": "[šag4] urim2^ki-ma",
+      "i18n": {
+        "en": "within Urim."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 390,
+      "refId": "SKL-390",
+      "translit": "/šu-niĝin2\\ 3 lugal",
+      "i18n": {
+        "en": "In all, 3 kings"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 391,
+      "refId": "SKL-391",
+      "translit": "mu-bi 356 mu ib2-ak",
+      "i18n": {
+        "en": "ruled for 356 years,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 392,
+      "refId": "SKL-392",
+      "translit": "a-ra2 1-kam",
+      "i18n": {
+        "en": "for the 1st time,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 393,
+      "refId": "SKL-393",
+      "translit": "šag4 a-wa-an^ki",
+      "i18n": {
+        "en": "within Awan."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention"
+      ]
+    },
+    {
+      "n": 394,
+      "refId": "SKL-394",
+      "translit": "[šu]-niĝin2 1 lugal",
+      "i18n": {
+        "en": "In all, 1 king"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 395,
+      "refId": "SKL-395",
+      "translit": "mu-bi 420 mu [i3]-ak",
+      "i18n": {
+        "en": "ruled for 420 years,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 396,
+      "refId": "SKL-396",
+      "translit": "a-ra2 1-[kam]",
+      "i18n": {
+        "en": "for the 1st time,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 397,
+      "refId": "SKL-397",
+      "translit": "šag4 /ḫa^?\\-[ma]-/zi\\^ki-a",
+      "i18n": {
+        "en": "within Hamazi."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 414,
+      "refId": "SKL-414",
+      "translit": "[šu-niĝin2 12] lugal",
+      "i18n": {
+        "en": "In all, 12 kings"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 415,
+      "refId": "SKL-415",
+      "translit": "[mu-bi 60] + 137 [mu] ib2-ak",
+      "i18n": {
+        "en": "ruled for 60 + 137 years,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 416,
+      "refId": "SKL-416",
+      "translit": "[a]-/ra2\\ 1-kam",
+      "i18n": {
+        "en": "for the 1st time,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 417,
+      "refId": "SKL-417",
+      "translit": "[šag4] /a\\-ga-de3^ki",
+      "i18n": {
+        "en": "within Agade."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 418,
+      "refId": "SKL-418",
+      "translit": "/šu-niĝin2\\ {21} {() 23} lugal",
+      "i18n": {
+        "en": "In all, 21 {alternate manuscript: 23} kings"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 419,
+      "refId": "SKL-419",
+      "translit": "mu-bi {125 mu 40 ud} {() 99} ib2-ak",
+      "i18n": {
+        "en": "ruled for 125 years and 40 days {alternate manuscript: 99 years},"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention"
+      ]
+    },
+    {
+      "n": 420,
+      "refId": "SKL-420",
+      "translit": "a-ra2 1-kam",
+      "i18n": {
+        "en": "for the 1st time,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 421,
+      "refId": "SKL-421",
+      "translit": "/šag4\\ ugnim",
+      "i18n": {
+        "en": "within the horde"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 422,
+      "refId": "SKL-422",
+      "translit": "/gu\\-ti-um^ki",
+      "i18n": {
+        "en": "of Gutium."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 423,
+      "refId": "SKL-423",
+      "translit": "[šu-niĝin] {11} {() 16} lugal",
+      "i18n": {
+        "en": "In all, 11 {alternate manuscript: 16} kings"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 424,
+      "refId": "SKL-424",
+      "translit": "[mu]-/bi\\ {159} {() 226} mu ib2-ak",
+      "i18n": {
+        "en": "ruled for 159 {alternate manuscript: 226} years,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 425,
+      "refId": "SKL-425",
+      "translit": "[šag4] [i]-/si-in\\^ki-na",
+      "i18n": {
+        "en": "within Isin."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sumerian-proper-name-transliteration-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "skl-postdiluvian-toponym-onomasticon-roster"
+      ]
+    },
+    {
+      "n": 426,
+      "refId": "SKL-426",
+      "translit": "11 iri^ki",
+      "i18n": {
+        "en": "11 cities —"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 427,
+      "refId": "SKL-427",
+      "translit": "[iri]/^ki\\ nam-lugal-la /ib2\\-ak-ka3",
+      "i18n": {
+        "en": "cities in which kingship was exercised."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 428,
+      "refId": "SKL-428",
+      "translit": "[šu]-niĝin2 {134} {() 139} lugal",
+      "i18n": {
+        "en": "In all, 134 {alternate manuscript: 139} kings;"
+      },
+      "notes": {
+        "official": "The composition closes with its own grand summation: \"134 kings (variant 139), … in all\" across the \"cities in which kingship was exercised.\" This colophon-like total, treating the whole sequence of dynasties as a single institution of kingship passing from city to city, is the clearest statement of the King List's governing fiction — that at any moment kingship rests in exactly one city, handed on (never shared) down the ages (Jacobsen 1939; Michalowski 1983). The king-count and the surviving year-total are damaged in the manuscripts, and the variants are carried inline.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 429,
+      "refId": "SKL-429",
+      "translit": "[šu]-niĝin2",
+      "i18n": {
+        "en": "in all,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 430,
+      "refId": "SKL-430",
+      "translit": "mu-bi {28800 + [X] + 76} {() X + 3443}",
+      "i18n": {
+        "en": "their years: 28800 + [ … ] + 76 {alternate manuscript: … + 3443}."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "manuscript-variant-inline-rendering-convention",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    },
+    {
+      "n": 431,
+      "refId": "SKL-431",
+      "translit": "/21\\",
+      "i18n": {
+        "en": "21."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard"
+      ]
+    }
+  ],
+  "editorial_questions": []
+}

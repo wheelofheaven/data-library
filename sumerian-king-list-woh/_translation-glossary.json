@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 2,
+  "version": "1.0.0",
+  "scope": "sumerian-king-list-woh",
+  "description": "Per-translation overlay glossary for the Sumerian King List (ETCSL 2.1.1; the project's Sumerian-arc companion to the Flood Story, Enki-and-Ninmah, Enmerkar and the Debate compositions). v1.0.0 records the text-specific lexical and rendering decisions the Editor settled for chapter 1: the sexagesimal reign-figure rendering convention (huge antediluvian composite numerals printed bare, matching ETCSL and the cuneiform; the written-out 'N su-si' sixty-multiplier phrases computed to Arabic-numeral years with a parenthetical factor, applied UNIFORMLY across the composition, normalizing the two draft outliers at SKL-336/338); the SKL post-diluvian toponym and royal-onomasticon transliteration roster (preserve s and g-tilde, anglicize only h-breve to h, matching the Flood-Story precedent and the five-antediluvian-cities central entry, and resolving the internal contradiction in the central sumerian-proper-name-transliteration-convention wohChoice text, which is escalated for a CENTRAL correction); the en/lugal royal-title distinction; the occupation-epithets 'low-born ruler' cluster; the Gilgames lil-la phantom-father crux (the sole claim_type=inferred entry); bal 'dynastic reign/term of office' and the treatment of the 'N mu bal PN' subtotal insertion lines as translated content; the ba-sub dynasty-abandonment verb and the (gis)tukul ba-an-sag defeat formula with its ba-gul / bal-bi ba-kur variants; the kingless / nameless interregnum formulae; the ki-en-gi 'Sumer' homeland-name; and a scope-note on the DINGIR determinative over deified kings. Cross-corpus vocabulary already carried by central entries (nam-lugal an-ta ed 'kingship descended from heaven'; the five antediluvian cities; a-ma-ru / abubu / mabbul flood-vocabulary; Dumuzid/Tammuz; Utu/Shamash; the human-ascent-to-heaven motif applied to Etana; the DINGIR-prefix-prose-drop, lacuna-bracket, manuscript-variant, and proper-name transliteration conventions) is referenced by id in the chapter glossaryRefs and flagged in the Editor report for SKL-side appliesTo activation in the separate central (Python) step; NOT touched here. The central file is deliberately NOT modified by the Editor.",
+  "sourceLanguages": [
+    "sux",
+    "akk"
+  ],
+  "entries": [
+    {
+      "id": "title-and-meta-conventions-skl",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "strongs": null,
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: chapter-title and meta-conventions for the Sumerian King List overlay",
+      "literal": "(not applicable — meta)",
+      "standardEnglish": "(not applicable — meta)",
+      "wohChoice": "chapter-title 'The Sumerian King List — kingship descends from heaven, the antediluvian kings and the flood, and the dynasties down to Isin' — the canonical composition-name plus a descriptive subtitle naming the three curated spans (the descent-of-kingship frame, the antediluvian kings and the Flood, and the post-diluvian dynastic succession); follows the Flood-Story / Atra-ḫasīs descriptive long-form title precedent.",
+      "claim_type": "direct",
+      "rationale": "Title convention follows the Mesopotamian-arc precedent (Flood Story, Atra-ḫasīs): the canonical composition-name plus a descriptive subtitle that names what the text narrates. The subtitle foregrounds the signature incipit 'kingship descended from heaven' and the composition's tripartite shape (antediluvian dynasties, the Flood, post-diluvian dynasties to Isin), which is the structural pair to the antediluvian/postdiluvian division of Genesis 5–11 and of Berossus. No project-wide convention is introduced and no lens is carried: the title is descriptive of the text's own contents, not of the Wheel of Heaven reading.",
+      "appliesTo": [
+        "SKL-1"
+      ]
+    },
+    {
+      "id": "sexagesimal-reign-figure-rendering-convention-skl",
+      "source": "mu 28800 i3-ak; mu 6 šu-ši i3-ak; mu 7 šu-ši 7 ud … i3-ak",
+      "translit": "mu N i-ak; mu N šūši; šár (3600); nēr (600); šūši (60)",
+      "strongs": "ePSD2 s.v. mu 'year'; ak 'to do/make'; šar₂ (numeral 3600); ner (numeral 600); šuši (numeral 60)",
+      "lemma": "mu 'year'; the sexagesimal units šár (3600), nēr (600), šu-ši (60)",
+      "partOfSpeech": "rendering-convention — how the reign-figures (regnal years, months, days) are rendered in the English prose",
+      "literal": "he/they ruled (i-ak / ib-ak) for N years (mu); N sixties (šu-ši) = N × 60",
+      "standardEnglish": "ETCSL prints the antediluvian composite numerals as bare digits (28800, 36000) and renders the written-out 'N šu-ši' phrases as computed products in years (e.g. 360 years).",
+      "wohChoice": "ONE uniform convention across the whole composition: (a) figures written in the source as composite numerals (the antediluvian tens-of-thousands and the post-diluvian year-counts) are printed as bare Arabic numerals with NO thousands-separator and NO arithmetic gloss, matching the ETCSL text and the cuneiform sign-values (SKL-4 Alulim 28800; SKL-5 Alaljar 36000; the dynastic totals 64800, 108000, 241200); (b) figures the source writes OUT as an explicit sexagesimal multiplier 'N šu-ši' (sixty) are rendered as the computed product in years, with a parenthetical literal factor 'N years (N × 60)' (SKL-181/183 360 years (6 × 60); SKL-187 60 years (1 × 60); SKL-188 120 years (2 × 60); SKL-336/338 420 years (7 × 60) and 7 days(?)). Months (itid) and days (ud) are rendered plainly; the ½-day fraction is kept.",
+      "claim_type": "direct",
+      "rationale": "The antediluvian reign-figures are sexagesimally structured products of the šár (3600) and nēr (600): 28800 = 8 šár, 36000 = 10 šár, 43200 = 12 šár (Jacobsen 1939). The draft was internally inconsistent — SKL-181/183/187/188 already computed the šu-ši products with a parenthetical factor, while SKL-336/338 left '7 šu-ši' as the literal 'seven sixties' — and the editorial questions at SKL-4 and SKL-181 asked the Editor to settle ONE convention and apply it uniformly. The Editor ratifies the draft's dominant pattern (bare composite numerals for source-numeral figures; computed product + factor for written-out šu-ši phrases) and normalizes the two outliers accordingly (SKL-336/338 'seven sixties' → '420 years (7 × 60)'). Rendering the product matches ETCSL and keeps the reader able to reconstruct the sexagesimal arithmetic; no interpretive claim is made about the numbers, and no lens is carried — the number commentary (the Genesis 5 / Berossus antediluvian-longevity comparison) lives in the per-line notes, not in the figures.",
+      "appliesTo": [
+        "SKL-4",
+        "SKL-181",
+        "SKL-183",
+        "SKL-187",
+        "SKL-188",
+        "SKL-336",
+        "SKL-338"
+      ]
+    },
+    {
+      "id": "skl-postdiluvian-toponym-onomasticon-roster",
+      "source": "kiš^ki; unug^ki; urim2^ki; akšak^ki; a-ga-de3^ki; ma-ri2^ki; adab^ki; ḫa-ma-zi^ki; a-wa-an^ki; gu-ti-um^ki; i-si-in^ki; e2-an-na; kuara^ki; kul-ab; elam^ki",
+      "translit": "Kiš, Unug, Urim, Akšak, Agade, Mari, Adab, Hamazi, Awan, Gutium, Isin, E-ana, Kuara, Kulaba, Elam",
+      "strongs": "ePSD2 place-name entries (Kiš, Unug, Urim, Akšak, Agade, Mari, Adab, Hamazi, Awan, Gutium, Isin); cf. central sumerian-proper-name-transliteration-convention and five-antediluvian-cities-... entries",
+      "lemma": "the SKL post-diluvian toponym roster + royal onomasticon",
+      "partOfSpeech": "transliteration-roster — text-specific application of the proper-name convention to the post-diluvian place-names and royal names",
+      "literal": "Sumerian-source city/land names preserved (Unug not Uruk; Urim not Ur; Kiš not Kish)",
+      "standardEnglish": "Akkadian-conventional English forms are common in the literature (Kish, Uruk, Ur, Akshak, Akkad, Mari, Adab, Hamazi, Awan, Gutium, Isin); ETCSL preserves the Sumerian forms (Kiš, Unug, Urim, Akšak, Agade).",
+      "wohChoice": "Preserve the Sumerian-source forms and RETAIN š and ĝ; anglicize ONLY ḫ→h. Thus Kiš, Unug, Urim, Akšak, Agade (not Akkad), Mari, Adab, Hamazi (ḫa-ma-zi → Hamazi), Awan, Gutium, Isin, E-ana, Kuara, Kulaba, Elam; royal names likewise keep š/ĝ (Meškiaĝgašer, Enmebaragesi, Šarru-kin, Šulgi, Puzur-Suen). This matches the sibling Flood-Story output and the central five-antediluvian-cities entry (Šuruppag, Bad-tibira) and the translit field's strict ETCSL forms.",
+      "claim_type": "direct",
+      "rationale": "The central five-antediluvian-cities entry covers only Eridug/Bad-tibira/Larag/Zimbir/Šuruppag; the post-diluvian roster needed its own text-specific ruling. The central sumerian-proper-name-transliteration-convention is self-contradictory on this point: its stated policy is to preserve the Sumerian-source forms (Unug not Uruk), yet its wohChoice text also says the English prose 'uses anglicized digraphs (sh for š; h for ḫ)' — a clause the project's own Flood-Story output and five-cities entry already violate by preserving š (Šuruppag). The Editor rules for the de-facto standard actually in use: preserve š and ĝ, anglicize only ḫ→h. This keeps the King List's toponyms visually consistent with the rest of the Sumerian arc and preserves the phonemic information a scholarly reader needs, while the ḫ→h relaxation aids the general reader. The general clause in the central convention entry is escalated for a CENTRAL correction (see the Editor report); this overlay entry carries the SKL-specific roster. No lens is carried — this is an orthographic-consistency decision only.",
+      "appliesTo": [
+        "SKL-42",
+        "SKL-84",
+        "SKL-94",
+        "SKL-103",
+        "SKL-110",
+        "SKL-114",
+        "SKL-133",
+        "SKL-147",
+        "SKL-178",
+        "SKL-204",
+        "SKL-210",
+        "SKL-231",
+        "SKL-265",
+        "SKL-332",
+        "SKL-425"
+      ]
+    },
+    {
+      "id": "en-lugal-royal-title-distinction-skl",
+      "source": "dumu ^dutu en-am3 (SKL-97); en kul-ab-ba-ke4 (SKL-114); lugal (passim)",
+      "translit": "en; lugal; (ensi₂)",
+      "strongs": "ePSD2 s.v. en 'lord, high priest, ruler'; lugal 'king' (lit. 'big man', lu₂ 'man' + gal 'great'); ensi 'city-ruler, governor'",
+      "lemma": "en; lugal",
+      "partOfSpeech": "Sumerian sovereignty-title lexemes — the distinction between en and lugal",
+      "literal": "lugal 'king' (great-man); en 'lord' (also 'high priest, en-ruler'); ensi₂ 'city-governor'",
+      "standardEnglish": "lugal 'king'; en 'lord' or (in the Unug context) 'high priest / en-ruler' (ETCSL renders en as 'lord' / 'high priest'); ensi₂ 'ruler / governor'",
+      "wohChoice": "lugal = 'king' throughout; standalone en = 'lord' (SKL-97 en-am₃ 'was lord'; SKL-114 en kul-ab-ba 'the lord of Kulaba', Gilgameš's title); en left untranslated where it is a frozen element inside the antediluvian throne-names (En-men-lu-ana, En-men-gal-ana, En-sipad-zid-ana, En-men-dur-ana, Enmebaragesi). ensi₂ does not occur in this WB recension.",
+      "claim_type": "direct",
+      "rationale": "Sumerian distinguishes three sovereignty-titles — lugal 'king', en 'lord / en-ruler (with a cultic dimension)', and ensi₂ 'city-governor' — and the King List deploys en and lugal contrastively for the Unug rulers, whose en-ship over E-ana/Kulaba (the office Gilgameš holds at SKL-114) carries the priestly-sovereign sense specific to Unug. The Editor renders standalone en as 'lord', the neutral value ETCSL also uses, rather than over-specifying to 'high priest' (option declined at the SKL-97 editorial question) — 'lord' preserves the title's sovereignty sense without asserting a cultic office the line does not spell out, and it keeps en distinct from lugal 'king'. en is kept untranslated inside the frozen throne-names, where it is a name-element, not a live title. No lens is carried; the priestly-sovereign nuance of the Unug en-ship is noted in commentary, not imported into the prose.",
+      "appliesTo": [
+        "SKL-97",
+        "SKL-114"
+      ]
+    },
+    {
+      "id": "occupation-epithets-low-born-rulers-skl",
+      "source": "^lu2azlag2 (fuller); ^lu2ma2-laḫ4 (boatman); simug (smith); ^lu2ašgab (leatherworker); gudug (a purification-priest); nu-kiri6 (gardener); sagi (cupbearer); zadim (stonecutter); ^flu2-kurun-na (woman tavern-keeper); šu-KU6 (fisherman); sipad (shepherd)",
+      "translit": "azlag; malaḫ; simug; ašgab; gudug; nukiri; sagi; zadim; lukuruna; šuku(d); sipad",
+      "strongs": "ePSD2 s.v. azlag 'fuller/launderer'; ma₂-laḫ₄ 'boatman'; simug 'smith'; ašgab 'leatherworker'; gudug 'gudu-priest'; nu-kiri₆ 'gardener'; sagi 'cupbearer'; zadim 'stonecutter/lapidary'; kurun 'beer/tavern'; sipad 'shepherd'",
+      "lemma": "the SKL occupation-epithet cluster",
+      "partOfSpeech": "Sumerian occupation/trade nouns used as royal epithets — the 'low-born ruler' motif",
+      "literal": "the fuller, the boatman, the smith, the leatherworker, the gudug-priest, the gardener, the cupbearer, the stonecutter, the (woman) tavern-keeper, the fisherman, the shepherd",
+      "standardEnglish": "standard ETCSL occupational renderings (fuller, boatman, smith, leatherworker, gardener, cupbearer, stonecutter, tavern-keeper/alewife, fisherman, shepherd); gudug is a cult-title usually left transliterated",
+      "wohChoice": "render each epithet with its standard ETCSL value — Susuda/Zizi the 'fuller' (azlag₂), Mamagal the 'boatman' (ma₂-laḫ₄), Meš-He the 'smith' (simug), Bazi the 'leatherworker' (ašgab), the gardener (nu-kiri₆) and cupbearer (sagi) of the Sargon notice, Nanniya the 'stonecutter' (zadim), Kug-Bau the 'woman tavern-keeper' / alewife (lu₂-kurun-na), Dumuzid the 'fisherman' (šu-KU₆), and sipad 'shepherd' (Dumuzid, Etana, Lugalbanda); keep gudug transliterated as a cult-title (Limer the gudug-priest).",
+      "claim_type": "direct",
+      "rationale": "The glossary covered none of these trade-terms; each has a settled Sumerological value and the Editor renders them plainly. The cluster is thematically unified: the King List repeatedly notes the humble trade of a king or his father — fuller, boatman, smith, leatherworker, gardener, cupbearer, stonecutter, alewife — a 'low-born ruler' motif that culminates in Sargon of Agade, the gardener-reared cupbearer of Ur-Zababa who becomes king (SKL-266–268; cf. the Sargon Birth Legend). This ideology — that kingship is a mobile, heaven-given office that can alight on a man of any station, not the possession of a bloodline — is the governing fiction of the composition (Michalowski 1983; Marchesi 2010). gudug is kept transliterated because it is a specific cult-office with no exact English equivalent, following the project's treatment of technical cultic titles. The motif is WoH-adjacent (kingship as an office conferred from above rather than inherited), but nothing beyond the plain trade-glosses is asserted in the text; the ideological reading is confined to commentary.",
+      "appliesTo": [
+        "SKL-15",
+        "SKL-64",
+        "SKL-107",
+        "SKL-109",
+        "SKL-126",
+        "SKL-160",
+        "SKL-164",
+        "SKL-215",
+        "SKL-216",
+        "SKL-217",
+        "SKL-225",
+        "SKL-254",
+        "SKL-267",
+        "SKL-268"
+      ]
+    },
+    {
+      "id": "gilgamesh-phantom-father-lil-crux-skl",
+      "source": "ab-ba-ni lil2-la2",
+      "translit": "abbani lila (lil₂-la₂)",
+      "strongs": "ePSD2 s.v. lil₂ 'wind, breath; phantom, spirit'; cf. Akkadian lilû (CAD L 190) 'a phantom/demon'; lillu (CAD L 189) 'fool, deficient one'",
+      "lemma": "lil₂ (Akkadian lilû)",
+      "partOfSpeech": "Sumerian noun — a wind/phantom-spirit; here the paternity of Gilgameš (a crux)",
+      "literal": "his father (was) a lil₂ (phantom / wind-spirit)",
+      "standardEnglish": "'whose father was a phantom(?)' (ETCSL); alternatively 'a lila-spirit / lilû', or — taking lillu 'deficient one' — 'a nobody, a man of no account'",
+      "wohChoice": "'whose father was a phantom' — retain the spirit-class reading of lil₂ (matching ETCSL's 'a phantom(?)'), marked as the standing crux; do NOT upgrade to a definite divine or non-human paternity, and do NOT flatten to 'a nobody'.",
+      "claim_type": "inferred",
+      "rationale": "lil₂ (Akkadian lilû) is a genuine crux. It denotes a wind- or phantom-spirit of the lilû/lilītu demon-class, giving ETCSL's 'whose father was a phantom(?)'; but a competing reading takes the word as lillu 'deficient one, fool', yielding 'a nobody, a man of no account' (the low-born-father reading), and other traditions make Lugalbanda Gilgameš's father (discussed by Jacobsen 1939 and by George, The Babylonian Gilgamesh Epic, 2003). The Editor retains the spirit-reading 'a phantom' — the reading of the major public translation (ETCSL) and the one consistent with the hero's elsewhere-attested semi-divine parentage (two-thirds god, son of the goddess Ninsun) — but marks it claim_type=inferred because it is a defensible reading of a crux, not consensus. Explicit lens-discipline note: the line is WoH-adjacent (non-human / semi-divine paternity of a famous king), and the temptation to render lil₂ as a definite non-human being is DECLINED; the text says only that his father was a lil₂/phantom, and the rendering says exactly that. The semi-divine-parentage reading is developed in commentary and the wiki, not the line.",
+      "appliesTo": [
+        "SKL-113"
+      ]
+    },
+    {
+      "id": "bal-dynastic-reign-term-skl",
+      "source": "1560 mu bal en-me-nun-na-kam (SKL-73A); N mu bal PN-kam",
+      "translit": "bal; N mu bal PN-kam",
+      "strongs": "ePSD2 s.v. bala (bal) 'turn, term of office, reign, dynasty; to rotate, cross over'",
+      "lemma": "bal (bala)",
+      "partOfSpeech": "Sumerian noun — a term of office / reign / dynastic turn",
+      "literal": "N years: the bal (turn-in-office / reign / dynasty) of PN",
+      "standardEnglish": "'the reign' / 'the dynasty' / 'the term of office' (ETCSL renders bal as 'reign' in these totals)",
+      "wohChoice": "bal = 'reign' in the subtotal insertion lines ('1560 years: the reign of Enmenuna'); the manuscript-insertion lines (SKL-73A, 89A, 106A, 249A, 283A) are treated as TRANSLATED content — parenthetical dynastic subtotals — not demoted to apparatus. (The same lexeme bal appears in the defeat-variant bal-bi ba-kur₂ 'its reign/dynasty was overturned'; see tukul-ba-sag-defeat-formula-skl.)",
+      "claim_type": "direct",
+      "rationale": "bal (bala) is 'a turn, a rotation, a term of office' and hence 'reign, dynasty' — the very concept that structures the King List, in which kingship rotates (bala) from one city to the next (Jacobsen 1939; Sallaberger on the bala-institution). In the 'N mu bal PN-kam' lines it denotes a dynasty's aggregate term, and the Editor renders it 'reign' following ETCSL, the value that reads naturally in a subtotal ('1560 years: the reign of Enmenuna'). Per the SKL-73A editorial question these manuscript-insertion lines are kept as translated verses (parenthetical totals), consistent with the ETCSL composite's decision to number and print them, rather than relegated to apparatus notes — they are part of the transmitted text of certain manuscripts (P₃+BT₁₄ and others), not editorial commentary. No lens is carried.",
+      "appliesTo": [
+        "SKL-73A",
+        "SKL-89A",
+        "SKL-106A",
+        "SKL-249A",
+        "SKL-283A"
+      ]
+    },
+    {
+      "id": "basub-dynasty-abandonment-verb-crux-skl",
+      "source": "eridug^ki ba-šub (SKL-8); bad3-tibira^ki ba-šub-be2-en (SKL-18, 24, 30)",
+      "translit": "ba-šub; ba-šub-be₂-en",
+      "strongs": "ePSD2 s.v. šub 'to fall, drop, abandon; to be abandoned'",
+      "lemma": "šub (ba-šub / ba-šub-be₂-en)",
+      "partOfSpeech": "Sumerian verb — the antediluvian dynasty-fall formula ('X was abandoned / fell')",
+      "literal": "X fell / was abandoned (ba-šub); with the -be₂-en form apparently '(you) abandoned X'",
+      "standardEnglish": "'Then X was abandoned' / 'X fell' (ETCSL renders both forms impersonally)",
+      "wohChoice": "'Then X was abandoned' throughout, impersonal — for both the plain ba-šub (SKL-8) and the ba-šub-be₂-en form (SKL-18, 24, 30); the apparent 2nd-person -en is NOT surfaced as 'you abandoned X'.",
+      "claim_type": "direct",
+      "rationale": "The antediluvian cities each 'fall' (ba-šub) so that kingship is carried (ba-de₆) to the next; the recurrent variant ba-šub-be₂-en carries an apparent -en that on a literal parse could be read as a 2nd-person / marû ending, 'you abandoned X' — a known SKL crux. The Editor follows ETCSL in rendering both forms impersonally ('Then X was abandoned'), because the 2nd-person reading has no addressee anywhere in the surrounding ledger-style text and is best taken as an orthographic / morphological feature of the formula rather than a genuine direct address (Jacobsen 1939; ETCSL). The choice is lexical-grammatical, not interpretive, and carries no lens.",
+      "appliesTo": [
+        "SKL-8",
+        "SKL-18",
+        "SKL-24",
+        "SKL-30"
+      ]
+    },
+    {
+      "id": "tukul-ba-sag-defeat-formula-skl",
+      "source": "kiš^ki ^ĝištukul ba-an-sag3 (SKL-93); variants ba-gul; bal-bi ba-kur2",
+      "translit": "(ĝiš)tukul ba-an-sag₃; ba-gul; bal-bi ba-kur₂",
+      "strongs": "ePSD2 s.v. ĝištukul 'weapon'; sag₃ (saĝ) 'to strike, beat'; gul 'to destroy'; kur₂ 'to change, alter, become hostile'",
+      "lemma": "tukul + saĝ (ba-an-sag₃); gul; kur₂",
+      "partOfSpeech": "Sumerian verbal formula — the post-diluvian defeat/transition idiom ('X was defeated by force of arms')",
+      "literal": "the weapon (tukul) struck it (ba-an-sag₃); it was destroyed (ba-gul); its reign was overturned/changed (bal-bi ba-kur₂)",
+      "standardEnglish": "'X was defeated' (ETCSL); the variants 'X was destroyed' / 'its dynasty was overturned'",
+      "wohChoice": "'Then X was defeated by force of arms' for (ĝiš)tukul ba-an-sag₃; the manuscript variants carried inline — ba-gul 'was destroyed'; bal-bi ba-kur₂ 'its reign was overturned' — per the manuscript-variant convention.",
+      "claim_type": "direct",
+      "rationale": "Where an antediluvian city merely 'falls' (ba-šub), a post-diluvian dynasty is usually ended by military defeat: (ĝiš)tukul ba-an-sag₃, literally 'the weapon struck it'. The Editor follows ETCSL's idiomatic 'was defeated by force of arms', which keeps the martial sense of tukul 'weapon' while reading naturally in English; the concrete image is preserved in the translit and the literal field. The two attested variants — ba-gul 'was destroyed' and bal-bi ba-kur₂ 'its reign/dynasty was overturned' (the same bal lexeme as the subtotal lines) — are carried inline as manuscript variants rather than collapsed. The formula is the post-diluvian counterpart to the antediluvian abandonment-verb and, with the 'kingship was carried to Y' clause, forms the connective refrain of the dynastic succession. No lens is carried.",
+      "appliesTo": [
+        "SKL-93",
+        "SKL-132",
+        "SKL-145",
+        "SKL-157",
+        "SKL-176",
+        "SKL-184",
+        "SKL-191",
+        "SKL-203",
+        "SKL-209",
+        "SKL-221",
+        "SKL-230",
+        "SKL-241",
+        "SKL-257",
+        "SKL-263",
+        "SKL-295",
+        "SKL-305",
+        "SKL-333",
+        "SKL-339",
+        "SKL-353"
+      ]
+    },
+    {
+      "id": "kingless-interregnum-formulae-skl",
+      "source": "a-ba-am3 lugal a-ba-am3 nu lugal (SKL-284); lugal mu nu-tuku (SKL-309)",
+      "translit": "aba-am lugal aba-am nu lugal; lugal mu nu-tuku; lugal nu-ub-tuku",
+      "strongs": "ePSD2 s.v. a-ba 'who?'; lugal 'king'; mu 'name, fame, renown'; tuku 'to have, acquire'; nu (negation)",
+      "lemma": "a-ba-am₃ … nu lugal; mu nu-tuku",
+      "partOfSpeech": "Sumerian interrogative/negative formulae — the collapse-of-order and nameless-king notices",
+      "literal": "Who was king? Who was not king? (a-ba-am₃ lugal a-ba-am₃ nu lugal); a king who did not have (nu-tuku) a name/fame (mu)",
+      "standardEnglish": "'Who was king? Who was not king?' (ETCSL; Akkadian variant mannum šar mannum lā šar); 'a king whose name is unknown' / 'who had no name'",
+      "wohChoice": "render the rhetorical couplet directly — 'Who was king? Who was not king?' (with the Akkadian ms. variant 'Who was king? Who was not king?' and the Sumerian variant 'Who was king? Who was king?' carried inline); render lugal mu nu-tuku as 'a king whose name is unknown', with mu = 'name'.",
+      "claim_type": "direct",
+      "rationale": "At the collapse of Agade the list abandons its ledger-style for a rhetorical couplet, a-ba-am₃ lugal a-ba-am₃ nu lugal 'Who was king? Who was not king?', preserved in one manuscript in Akkadian (mannum šar mannum lā šar) — a rare, affecting notice of anarchy that the Editor renders directly rather than smoothing to a statement. It pairs with the Gutian-interregnum notice lugal mu nu-tuku (SKL-309), where mu is 'name' and, by a well-attested extension, 'fame, renown', so the phrase means both 'unrecorded' and 'unrenowned'; the Editor keeps 'whose name is unknown' (ETCSL) as primary and notes the 'no fame/renown' nuance in commentary. Both formulae mark the failure of the King List's central premise (that kingship always rests, nameable, in one city). The renderings are lexical, carry no lens, and preserve the composition's own rhetoric.",
+      "appliesTo": [
+        "SKL-284",
+        "SKL-309"
+      ]
+    },
+    {
+      "id": "ki-en-gi-sumer-homeland-name-skl",
+      "source": "suḫuš ki-en-gi-ra mu-un-bu (SKL-353A)",
+      "translit": "ki-en-gi(-r); suḫuš ki-en-gi-ra mu-un-bu",
+      "strongs": "ePSD2 s.v. kiengi(r) 'Sumer'; suḫuš 'foundation, base, root'; bu(r) 'to tear out, pull up'",
+      "lemma": "ki-en-gi(-r)",
+      "partOfSpeech": "Sumerian proper noun — the Sumerians' name for their own land",
+      "literal": "the foundation (suḫuš) of Sumer (ki-en-gi) was torn out (mu-un-bu)",
+      "standardEnglish": "'Sumer' (standard); the transliterated homeland-name is Kiengir / Ki-en-gi",
+      "wohChoice": "ki-en-gi = 'Sumer' (SKL-353A 'the very foundation of Sumer was torn out'); kept distinct from kalam / ka-na-aĝ₂ 'the Land' (its own central entry), which the King List uses elsewhere — the homeland-name is deployed here, at the fall of the last great Sumerian dynasty (Ur III).",
+      "claim_type": "direct",
+      "rationale": "ki-en-gi(-r) is the Sumerians' endonym for their land, conventionally 'Sumer'; it is a distinct lexeme from kalam / ka-na-aĝ₂ 'the Land' (which has its own applied central entry). The Editor renders 'Sumer', the standard value, rather than the transliterated 'Kiengir' or the harmonized 'the Land', because the composition reaches for the specific homeland-name precisely at the traumatic close of the Ur III dynasty (P₃+BT₁₄: suḫuš ki-en-gi-ra mu-un-bu 'the very foundation of Sumer was torn out') — the emotional weight of the line depends on naming Sumer as such. The decision is lexical and carries no lens; a possible central homeland-name entry (ki-en-gi ↔ kalam) is noted for future consideration but not asserted here.",
+      "appliesTo": [
+        "SKL-353A"
+      ]
+    },
+    {
+      "id": "deified-king-dingir-determinative-scope-note-skl",
+      "source": "^ddumu-zid (SKL-15, 109); ^dlugal-ban3-da (107); ^dgilgameš (112); ^dšul-gi and the Ur III / Isin ^d-kings",
+      "translit": "DINGIR (^d) determinative over royal names",
+      "strongs": "ePSD2 s.v. diĝir 'god, deity'; cf. central dingir-prefix-prose-drop-convention",
+      "lemma": "^d (DINGIR determinative) on deified kings",
+      "partOfSpeech": "scope-note — application of the central DINGIR-prefix-prose-drop convention to DEIFIED kings",
+      "literal": "the divine-classifier ^d written before a royal name, marking the king's deification",
+      "standardEnglish": "the DINGIR determinative is not pronounced; scholarly practice drops it or renders it with a superscript d / 'divine'",
+      "wohChoice": "drop the ^d silently in the English prose, per the central dingir-prefix-prose-drop-convention — 'Dumuzid', 'Lugalbanda', 'Gilgameš', 'Šulgi' — while flagging in commentary that on these royal names the determinative marks actual royal DEIFICATION (not merely the orthography of an ordinary divine name).",
+      "claim_type": "direct",
+      "rationale": "The DINGIR determinative (^d) is an unpronounced semantic classifier, and the project's central convention drops it in prose. On several King List rulers, however, the ^d is historically significant: it signals that the king was deified — Dumuzid and Gilgameš as legendary divine kings, and the Ur III and Isin kings (Šulgi, Amar-Suena, and successors) who were deified in their own lifetimes (Michalowski; Steinkeller on Ur III royal deification). The Editor ratifies the silent drop (the determinative is genuinely unpronounced and 'the divine Šulgi' would over-render an orthographic sign), and records the deification in commentary at the first deified-king occurrence rather than altering the prose. This scope-note exists so the reader knows the dropped ^d on these names is not trivial. No lens is carried; the fact of royal deification is mainstream Assyriology, stated in the notes, not the text.",
+      "appliesTo": [
+        "SKL-15",
+        "SKL-107",
+        "SKL-112"
+      ]
+    }
+  ]
+}
