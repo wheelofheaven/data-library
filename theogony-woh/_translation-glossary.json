@@ -1,526 +1,802 @@
 {
-  "schemaVersion": 2,
-  "version": "1.1.0",
-  "scope": "theogony-woh",
-  "description": "Per-translation overlay glossary for Hesiod's Theogony (the project's first Archaic-Greek hexameter source text). v1.0.0 covers Block A (lines 1–210: the proem/Dichterweihe, the cosmogony, and the Ouranos episode). It records the Editor's adjudication of the twelve Block-A editorial questions, in every case accuracy-first: the translated line reflects the defensible scholarly reading and the Wheel-of-Heaven lens is confined to clearly-marked commentary. Entries: the chapter-title and theonym-transliteration convention (Greek forms, not Latinized: Ouranos not Uranus, Kronos not Cronus, Kypros not Cyprus); Zeus's epithet *aigiochos* 'aegis-holding'; the Muses' *pseudea/etyma/alēthea* truth-crux at 27–28 (the one surface refinement in the block — ἔτυμα 'genuine' distinguished from ἀληθέα 'true', following Most 2006 against Evelyn-White); Kronos's epithet *ankylomētēs* 'of crooked counsel' (the sickle folk-association noted, not adopted); the *kratos/phertatos* sovereignty vocabulary; the Hesiodic earth-born *Gigantes* held DISTINCT from the biblical/Enochic Nephilim (the shared Septuagint lexeme γίγαντες documented as comparative apparatus only — the central *nephilim-giants* entry deliberately NOT extended, see the Editor report); *Chaos* as the primordial 'gap/chasm/yawning void' (√χα-, West 1966), not the later 'disorder'; the primordial cosmogonic *Eros* of 120 (distinct from the later Eros of 201); the *Gaia/Ouranos* personified-vs-common-noun boundary (onset of personification fixed at 126–127); the athetized-lines convention (111 = 46, plus 118 and 196, retained-and-translated unmarked in the surface, athetesis recorded in commentary); and Hesiod's folk-etymology of the *Titēnes* at 207–210 (the τιταίνω~Τιτῆνες / τίσις double pun left visible only in the Greek). No entry is claim_type `speculative`; no central-glossary entry is modified by this overlay — any central change (notably the THEO-50 Gigantes question) is specified in the Editor report's 'CENTRAL — apply by orchestrator' section for the orchestrator to apply. Greek terms are indexed by LSJ (and Chantraine DELG / West 1966 commentary) in the `strongs` field, per the project's auditability-not-Strong's convention for non-biblical source languages. v1.1.0 extends the overlay to Block B (lines 211–452: Nyx's and Eris's brood, the Pontos line and the Phorkys/Keto monster-catalogue, the Nereid/Okeanid/River catalogues, the Helios/Selene/Eos line, the Styx oath, and the Hekate hymn), resolving the fourteen Block-B editorial questions accuracy-first exactly as Block A did. Fifteen entries are added — the personified-abstraction and catalogue-speaking-name conventions; the Graiai and Pegasos/Chrysaor folk-etymologies; the ophis/drakon serpent vocabulary; the Chimaira/she-goat and (via the name convention) river-catalogue and Phix/Sphinx presentation decisions; the ein-Arimoisin people/place crux (the block's single `inferred` entry); the Styx-oath/Horkos distinction; the Hekate-hymn honour-lexicon (timē/geras/moira/aisa/dasmos/olbos); mounogenēs 'only child' (Johannine 'only-begotten' declined for the surface and kept as reception apparatus); the kourotrophos cult-title; the krokopeplos epithet-not-name reading; and the West transposed-line-order convention (214↔213, 427↔426, 434↔430). Fourteen of the fifteen are `direct` and one (`ein-arimoisin-crux-theogony`) is `inferred`; none is `speculative`, and no central-glossary entry is modified. The appliesTo arrays of five existing entries are extended into Block B (the Gaia/Ouranos boundary, the kratos/phertatos sovereignty vocabulary, the Titan-name transliteration, the athetized-lines convention, and the name-and-title convention). The four WoH-salient sites in the block — the Styx oath, mounogenēs, the honour-distribution vocabulary, and kourotrophos — are all rendered accuracy-first, with any lens confined to clearly-marked lens-discipline notes.",
-  "sourceLanguages": [
-    "grc"
-  ],
-  "entries": [
-    {
-      "id": "theogony-name-and-title-conventions",
-      "source": "(meta)",
-      "translit": "(meta)",
-      "strongs": null,
-      "lemma": "(meta)",
-      "partOfSpeech": "convention: chapter-title and theonym-transliteration policy for the Theogony overlay",
-      "literal": "(not applicable — meta)",
-      "standardEnglish": "(not applicable — meta)",
-      "wohChoice": "Chapter-title 'Theogony — the genealogy of the gods, from Chaos to the ordering of the cosmos under Zeus' (canonical composition-name + descriptive subtitle, per the Mesopotamian-arc precedent). Name policy: the cosmological theonyms that double as common nouns are transliterated in their Greek forms when personified (Chaos, Gaia, Ouranos, Pontos, Nyx, Erebos, Aither, Hemera, Eros, Himeros) and glossed as common nouns only at clearly non-personified sites, exactly where the reference edition (Evelyn-White) does — 'the earth' (108), 'the wide heaven' (110), 'black earth' (69). Transliteration is Greek, NOT Latinized: Ouranos (not Uranus), Kronos (not Cronus), Gaia (not Gaea), Kypros (not Cyprus), Kythereia (not Cytherea), Kyklopes (not Cyclopes). Established English collectives are retained (the Muses, the Graces, Desire for Himeros). This is the Evelyn-White default (option 1 of the THEO-1 question).",
-      "claim_type": "direct",
-      "rationale": "The transliterate-personified-theonyms / gloss-common-nouns policy is standard scholarly practice for translating archaic Greek theogonic verse and matches the reference edition's own usage; it is a presentation convention, not an interpretive claim, so it carries no lens. Retaining the Greek (rather than Latinized) forms follows current Loeb practice (Most 2006) and the Perseus source orthography, and keeps the theonyms auditable against the Greek text. The common-noun/personified boundary is genuinely fluid in the cosmogony and is fixed line-by-line by the dedicated boundary entry (`ouranos-gaia-cosmogony-personification-boundary-theogony`); this meta-entry records only the project-wide convention and the chapter title. The chapter title is descriptive of what the text narrates (Chaos → the ordered cosmos under Zeus) and lens-free.",
-      "appliesTo": [
-        "THEO-1",
-        "THEO-20",
-        "THEO-233",
-        "THEO-411"
-      ]
-    },
-    {
-      "id": "aigiochos-aegis-bearer-zeus-epithet-theogony",
-      "source": "ὑμνεῦσαι Δία τʼ αἰγίοχον; κούρην τʼ αἰγιόχοιο Διός; κοῦραι Διὸς αἰγιόχοιο",
-      "translit": "aigiochos / aigiochoio",
-      "strongs": "LSJ s.v. αἰγίοχος; Chantraine, DELG s.v. αἰγίς; West 1966, comm. ad 11",
-      "lemma": "αἰγίοχος (aigiochos)",
-      "partOfSpeech": "Greek adjective — recurring epithet of Zeus, 'aegis-holding'",
-      "literal": "aegis-holding / aegis-bearing",
-      "standardEnglish": "who holds the aegis / aegis-holding (Evelyn-White 1914); aegis-bearing (Most 2006)",
-      "wohChoice": "'who holds the aegis' / 'aegis-holding' retained (Evelyn-White); the *aigis* itself left untranslated as a fixed cultic object",
-      "claim_type": "direct",
-      "rationale": "*αἰγίοχος* (aigiochos) is Zeus's stock Homeric-Hesiodic epithet, recurring in Block A at 11, 13, 25 and 52; it is a transparent compound *aig-* + *-οχος* (< *ἔχω* 'hold, bear'), and the received sense 'holding/bearing the aegis' (Zeus's storm-shield or goatskin) is the consensus rendering across editions. A minority etymology derives the first element not from *αἰγίς* but from the storm-verb *ἀΐσσω* 'to rush, dart' (Chantraine, DELG), which would give a weather-god sense, but this does not change the received translation. The Editor retains Evelyn-White's 'aegis-holding' and leaves *aigis* untranslated as a technical cultic object, adding no divergence from the reference; the entry is recorded for auditability of the recurring epithet. No lens is carried.",
-      "appliesTo": [
-        "THEO-11",
-        "THEO-13",
-        "THEO-25",
-        "THEO-52"
-      ]
-    },
-    {
-      "id": "pseudea-etyma-alethea-muses-truth-crux-theogony",
-      "source": "ἴδμεν ψεύδεα πολλὰ λέγειν ἐτύμοισιν ὁμοῖα, / ἴδμεν δʼ, εὖτʼ ἐθέλωμεν, ἀληθέα γηρύσασθαι",
-      "translit": "idmen pseudea polla legein etymoisin homoia; idmen d' eut' ethelōmen alēthea gērysasthai",
-      "strongs": "LSJ s.v. ἔτυμος, ἀληθής, ψεῦδος; West 1966, comm. ad 27–28; Puelma 1989; Pucci 1977; cf. Odyssey 19.203",
-      "lemma": "ψεύδεα; ἔτυμα; ἀληθέα",
-      "partOfSpeech": "Greek nouns/adjectives — the Muses' truth-declaration crux (27–28)",
-      "literal": "false things resembling genuine ones (27); true things (28)",
-      "standardEnglish": "'false things like to true things … true things' (Evelyn-White 1914, rendering both ἐτύμοισιν and ἀληθέα 'true'); 'false things similar to genuine ones … true things' (Most 2006, distinguishing genuine from true)",
-      "wohChoice": "distinguish ἔτυμα 'genuine/real/actual' (27) from ἀληθέα 'true/unconcealed' (28), following Most 2006 against Evelyn-White; SURFACE CHANGE at 27 ('like to true things' → 'that resemble genuine ones')",
-      "claim_type": "inferred",
-      "rationale": "Lines 27–28 are the Muses' celebrated self-declaration (modelled on Odyssey 19.203, *ἴσκε ψεύδεα πολλὰ λέγων ἐτύμοισιν ὁμοῖα*) and a long-standing crux: the relation of *ψεύδεα … ἐτύμοισιν ὁμοῖα* 'falsehoods resembling ἔτυμα' to *ἀληθέα* 'true things' turns on whether *ἔτυμα* ('genuine, real, actual') and *ἀληθέα* ('un-concealed, true') are distinguished or near-synonymous (Puelma 1989; Pucci 1977; Ferrari). Evelyn-White collapses the two by rendering both 'true'; the Editor follows the current Loeb (Most 2006) in exposing the lexical contrast — 'genuine' for *ἐτύμοισιν* (27), 'what is true' for *ἀληθέα* (28) — which is the more precise philological rendering and the reason the claim_type is `inferred` rather than `direct` (the distinction is defended by named scholarship but is not universally accepted). This is the single surface change in Block A; it is purely lexical and does NOT adopt the stronger interpretive reading (option 3) that the lines assert the Muses' power to make fiction indistinguishable from truth. **Lens-discipline note:** the demythologizing implication — that an inspired tradition may transmit truth mixed with plausible falsehood, to be read critically for a historical kernel — is precisely the Wheel-of-Heaven-congenial reading; it is documented in commentary as clearly-marked interpretation and is kept OUT of the translated line, which says only what the Greek says.",
-      "appliesTo": [
-        "THEO-27",
-        "THEO-28"
-      ]
-    },
-    {
-      "id": "ankylometes-crooked-counsel-kronos-epithet-theogony",
-      "source": "Κρόνον ἀγκυλομήτην; Κρόνος ἀγκυλομήτης",
-      "translit": "ankylomētēs",
-      "strongs": "LSJ s.v. ἀγκυλομήτης; Chantraine, DELG s.v. μῆτις; West 1966, comm. ad 18",
-      "lemma": "ἀγκυλομήτης (ankylomētēs)",
-      "partOfSpeech": "Greek adjective — recurring epithet of Kronos, 'of crooked counsel'",
-      "literal": "crooked-counseled / of crooked cunning",
-      "standardEnglish": "of crooked counsel / wily (Evelyn-White 1914; Most 2006)",
-      "wohChoice": "'of the crooked counsel' retained (Evelyn-White); the *harpē*/sickle folk-association ('crooked-sickled') noted in commentary, not adopted",
-      "claim_type": "direct",
-      "rationale": "*ἀγκυλομήτης* (ankylomētēs), the recurring epithet of Kronos (18, 137, 168), is standardly analysed as *ἀγκυλο-* 'crooked, bent' + *μῆτις* 'counsel, cunning, cleverness', hence 'of crooked counsel, crafty, wily' (LSJ; West 1966) — the consensus reading across editions. A folk-association instead links the first element to the *ἅρπη*, the crooked sickle Kronos wields to castrate Ouranos (161–162, 175, 179), suggesting 'crooked-sickled'; this is a secondary poetic resonance (the sickle is indeed καρχαρόδοντα 'jagged' and πελώριον 'huge' in the episode) but not the primary lexical sense. The Editor retains Evelyn-White's 'of crooked counsel' and records the sickle-pun as a noted-but-not-adopted resonance in commentary; no divergence from the reference, no lens.",
-      "appliesTo": [
-        "THEO-18",
-        "THEO-137",
-        "THEO-168"
-      ]
-    },
-    {
-      "id": "kratos-phertatos-sovereignty-vocabulary-theogony",
-      "source": "ὅσσον φέρτατός ἐστι θεῶν κράτεί τε μέγιστος",
-      "translit": "phertatos … kratei … megistos",
-      "strongs": "LSJ s.v. κράτος, φέρτατος; West 1966, comm.",
-      "lemma": "κράτος; φέρτατος",
-      "partOfSpeech": "Greek noun + adjective — the poem's vocabulary of sovereign might",
-      "literal": "mightiest … greatest in might/power",
-      "standardEnglish": "the mightiest of the gods and greatest in power (Evelyn-White 1914; cf. Most 2006)",
-      "wohChoice": "'mightiest of the gods and greatest in power' retained (Evelyn-White); *κράτος* rendered 'power' and tracked as the Theogony's sovereignty-word",
-      "claim_type": "direct",
-      "rationale": "At 49 the Muses sing 'how far Zeus is *φέρτατος* of the gods and *κράτεϊ … μέγιστος*' — *φέρτατος* 'best, foremost, mightiest' and *κράτος* 'might, strength, sovereign power, dominion', the poem's programmatic language for Zeus's supremacy. The reference rendering 'the mightiest of the gods and greatest in power' is retained; *φέρτατος* is stronger than a bare 'best' here because the whole clause concerns Zeus's victory-won rule (73–74), and 'mightiest' captures that. *κράτος* is flagged as the Theogony's key sovereignty-term — it is personified later as Κράτος 'Might', Zeus's enforcer-ally at 385 (outside Block A) — so its rendering is tracked for consistency across the composition. No divergence from the reference and no lens; the entry standardizes the sovereignty vocabulary for later blocks.",
-      "appliesTo": [
-        "THEO-49",
-        "THEO-385",
-        "THEO-403"
-      ]
-    },
-    {
-      "id": "gigantes-hesiodic-earthborn-vs-nephilim-theogony",
-      "source": "αὖτις δʼ ἀνθρώπων τε γένος κρατερῶν τε Γιγάντων; γείνατʼ Ἐρινῦς τε κρατερὰς μεγάλους τε Γίγαντας",
-      "translit": "Gigantes / Gigantas",
-      "strongs": "LSJ s.v. Γίγας; Septuagint Gen 6:4 (γίγαντες = נְפִילִים / הַגִּבֹּרִים); West 1966, comm. ad 185; Hansen 2004, Handbook of Classical Mythology",
-      "lemma": "Γίγαντες (Gigantes)",
-      "partOfSpeech": "Greek noun — the earth-born Giants",
-      "literal": "the Giants (earth-born, γηγενεῖς)",
-      "standardEnglish": "the Giants (Evelyn-White 1914; Most 2006)",
-      "wohChoice": "translate 'Giants' (Evelyn-White); the Hesiodic earth-born Giants held DISTINCT from the biblical/Enochic Nephilim; the shared Septuagint lexeme γίγαντες documented as comparative apparatus only, NOT as an identity",
-      "claim_type": "inferred",
-      "rationale": "The Hesiodic *Γίγαντες* (50; born at 185) are *γηγενεῖς* 'earth-born', sprung — together with the Erinyes and the ash-tree Meliai — from the blood-drops of the castrated Ouranos that Gaia receives (183–187); they are a distinct mythic class from the biblical *Nephilim* / *gibbōrîm* of Genesis 6:4 and the Watcher-progeny of 1 Enoch 6–7, who are hybrid offspring of divine beings and human women. The Editor therefore translates 'Giants' with the reference and does NOT link the text to the Nephilim in the translated line. What THIS entry records — and the reason the claim_type is `inferred` — is the genuine translation-history datum that the Septuagint renders both *Nephilim* and *gibbōrîm* at Genesis 6:4 with the very word *γίγαντες*, so that Hesiod's Greek term is the shared lexical hinge of the later Greco-Jewish and Christian 'giants' tradition; this is a comparative-philology observation for the apparatus, not an assertion that the two classes are the same. The production glossary's cross-corpus entry `nephilim-giants-1-enoch-7-gen-6-4-cross-corpus` is deliberately NOT extended to any THEO-* refId (its scope stays Enoch/Genesis/Jubilees); the Editor's recommendation against extension, with the exact optional spec, is in the report's 'CENTRAL — apply by orchestrator' section. **Lens-discipline note:** the ancient-astronaut-adjacent temptation to fuse all 'giant' traditions into one referent is declined; the line says 'Giants' and the shared-word link stays in commentary.",
-      "appliesTo": [
-        "THEO-50",
-        "THEO-185"
-      ]
-    },
-    {
-      "id": "chaos-primordial-chasm-void-theogony",
-      "source": "ἦ τοι μὲν πρώτιστα Χάος γένετʼ; ἐκ Χάεος δʼ Ἔρεβός τε μέλαινά τε Νὺξ ἐγένοντο",
-      "translit": "Chaos / Chaeos",
-      "strongs": "LSJ s.v. χάος, χαίνω/χάσκω; West 1966, comm. ad 116; Kirk–Raven–Schofield 1983, The Presocratic Philosophers",
-      "lemma": "Χάος (Chaos)",
-      "partOfSpeech": "Greek noun — the primordial gap/void, first to come to be",
-      "literal": "the gaping void, the chasm, the yawning gap",
-      "standardEnglish": "Chaos (Evelyn-White 1914; Most 2006 — transliterated, sense left open)",
-      "wohChoice": "transliterate 'Chaos'; sense fixed in commentary as the primordial 'gap / chasm / yawning void' (√χα-, West 1966), NOT the later 'disorder/confusion'",
-      "claim_type": "direct",
-      "rationale": "*Χάος* at 116 is the first thing to come to be (*πρώτιστα … γένετο*); the Editor keeps it transliterated with the reference editions, but fixes its sense by etymology in commentary. Deriving from the root *χα-* (*χαίνω/χάσκω* 'to gape, yawn'), Hesiod's Chaos is the primordial 'gap, chasm, yawning void' — a spatial opening — and emphatically NOT the post-classical 'disordered confused mass' familiar from Ovid's *Metamorphoses*; this is the settled scholarly reading (West 1966; Kirk–Raven–Schofield 1983), which is why the claim_type is `direct`. The translation does not translate the word (to write 'the Chasm' in the line would over-determine a transliterated proper-name that the tradition keeps as *Chaos*), but the note supplies the correct sense so the reader is not misled by the modern meaning. **Lens-discipline note:** that Chaos *γένετο* 'came to be' spontaneously, with no creator and no creative act, is a structural feature of Hesiod's cosmogony worth flagging against creator-cosmogonies (e.g. Genesis); this comparative observation is confined to commentary and is not pressed into any canon reading.",
-      "appliesTo": [
-        "THEO-116",
-        "THEO-123"
-      ]
-    },
-    {
-      "id": "eros-primordial-cosmogonic-principle-theogony",
-      "source": "ἠδʼ Ἔρος, ὃς κάλλιστος ἐν ἀθανάτοισι θεοῖσι, / λυσιμελής …",
-      "translit": "Eros",
-      "strongs": "LSJ s.v. ἔρος/ἔρως; West 1966, comm. ad 120; Kirk–Raven–Schofield 1983",
-      "lemma": "Ἔρος (Eros)",
-      "partOfSpeech": "Greek noun / theonym — the primordial cosmogonic Eros",
-      "literal": "Eros — desire/attraction as a generative principle",
-      "standardEnglish": "Eros (Evelyn-White 1914; Most 2006 — transliterated)",
-      "wohChoice": "transliterate 'Eros'; the primordial cosmogonic-principle role marked in commentary; distinguished from the later Eros who attends Aphrodite (201)",
-      "claim_type": "direct",
-      "rationale": "*Ἔρος* at 120 is among the very first entities to come to be — after Chaos, Gaia and Tartaros, and before any sexual genealogy — so he is a primordial cosmogonic principle, the power of attraction and generation that will drive all the pairings of the subsequent theogony (West 1966; Kirk–Raven–Schofield 1983), described as *λυσιμελής* 'limb-loosener' who 'overpowers the mind and prudent counsel' of gods and men (121–122). The Editor keeps 'Eros' transliterated with the reference rather than translating 'Love' or 'Desire', because rendering him as an abstract force in the line would over-determine what the text presents as a named primordial entity; the cosmogonic role is instead marked in commentary. He is expressly distinguished from the later Eros who accompanies the new-born Aphrodite (201) and who, in post-Hesiodic tradition, becomes her son — two different figures sharing the name. No lens is carried; the primordial-principle reading is mainstream and stays in the apparatus.",
-      "appliesTo": [
-        "THEO-120",
-        "THEO-201"
-      ]
-    },
-    {
-      "id": "ouranos-gaia-cosmogony-personification-boundary-theogony",
-      "source": "γαῖα (108) / Γαῖα (117); οὐρανὸς εὐρὺς ὕπερθεν (110), οὐρανῷ ἐμβασιλεύει (71) / Οὐρανὸν ἀστερόενθʼ (127)",
-      "translit": "gaia/Gaia; ouranos/Ouranos",
-      "strongs": "LSJ s.v. γαῖα, οὐρανός; West 1966, comm. ad 108, 116–128",
-      "lemma": "Γαῖα (gaia); Οὐρανός (ouranos)",
-      "partOfSpeech": "Greek nouns/theonyms — the personified-vs-common-noun boundary for the cosmogonic pair",
-      "literal": "earth / the Earth-goddess; sky, heaven / the Sky-god",
-      "standardEnglish": "'the earth' (108) and 'the wide heaven' (110) as common nouns; the deities Gaia and Ouranos elsewhere (Evelyn-White 1914)",
-      "wohChoice": "common noun at 71 ('heaven'), 108 ('the earth') and 110 ('the wide heaven'); the personified deities elsewhere; the onset of personification fixed at 126–127; Γῆ (106) normalized to the standard form Gaia",
-      "claim_type": "direct",
-      "rationale": "*γαῖα* and *οὐρανός* shift between the physical element and the personified deity across Block A, and the Editor fixes the boundary line-by-line with Evelyn-White. In the proem's physical catalogue (108–110: gods, earth, rivers, sea, stars, heaven), *γαῖα* (108) and *οὐρανὸς εὐρὺς ὕπερθεν* (110) are common nouns 'the earth' and 'the wide heaven', as is *οὐρανῷ ἐμβασιλεύει* 'reigns in heaven' of Zeus (71); the register is genuinely ambiguous at 108, since the same word is personified and born as a goddess nine lines later (117, *Γαῖʼ εὐρύστερνος*). The onset of personification for Ouranos is fixed at 126–127, where Gaia bears him 'equal to herself … that he might cover her all about', after which he acts as her consort (133); in the proem (45, 106) 'Gaia and Ouranos' already names the divine parental pair by anticipation. At 106 the Greek genitive *Γῆς* (Gē) is normalized to the standard transliteration Gaia used throughout, per the name convention. This is the reference reading; no lens is carried, and the entry exists to make the fluid boundary auditable.",
-      "appliesTo": [
-        "THEO-45",
-        "THEO-71",
-        "THEO-106",
-        "THEO-108",
-        "THEO-110",
-        "THEO-117",
-        "THEO-126",
-        "THEO-127",
-        "THEO-133",
-        "THEO-238",
-        "THEO-300",
-        "THEO-335",
-        "THEO-346",
-        "THEO-365",
-        "THEO-373",
-        "THEO-382",
-        "THEO-413",
-        "THEO-414",
-        "THEO-421",
-        "THEO-427"
-      ]
-    },
-    {
-      "id": "athetized-lines-convention-theogony",
-      "source": "111 (verbatim = 46); 118; 196 — bracketed in the Perseus/Evelyn-White edition",
-      "translit": "(apparatus / meta)",
-      "strongs": "West 1966 (apparatus criticus); Perseus tlg0020.tlg001.perseus-grc2 (<del> markup)",
-      "lemma": "(athetesis convention)",
-      "partOfSpeech": "convention: treatment of athetized/bracketed lines",
-      "literal": "(not applicable — apparatus)",
-      "standardEnglish": "bracketed / athetized as suspected interpolations (West 1966; Perseus <del>)",
-      "wohChoice": "retain and translate the transmitted lines unmarked in the surface; record the athetesis in commentary",
-      "claim_type": "direct",
-      "rationale": "Three lines within Block A are bracketed (athetized) in the Perseus/Evelyn-White digital text: 111, which repeats 46 verbatim (*οἵ τʼ ἐκ τῶν ἐγένοντο θεοί, δωτῆρες ἐάων*) and is widely judged an interpolation carried over from the earlier passage; 118, suspected as an expansion of the 'seat of the immortals' formula (cf. 128); and 196, a likely anticipatory gloss supplying the cult-titles that 197–198 then etymologize (West 1966). Per project convention the transmitted lines are retained and translated so the reader has the full received text, and the brackets are NOT reproduced in the reading surface; the athetesis is instead recorded in the per-line commentary so the text-critical status stays visible and auditable. This is a presentation convention with no interpretive content and no lens; it simply makes the apparatus transparent to the reader.",
-      "appliesTo": [
-        "THEO-111",
-        "THEO-118",
-        "THEO-196",
-        "THEO-323",
-        "THEO-324"
-      ]
-    },
-    {
-      "id": "titanes-folk-etymology-theogony",
-      "source": "τοὺς δὲ πατὴρ Τιτῆνας ἐπίκλησιν καλέεσκε … / φάσκε δὲ τιταίνοντας ἀτασθαλίῃ μέγα ῥέξαι / ἔργον, τοῖο δʼ ἔπειτα τίσιν μετόπισθεν ἔσεσθαι",
-      "translit": "Titēnes; titainontas; tisis",
-      "strongs": "LSJ s.v. Τιτάν, τιταίνω, τίσις; West 1966, comm. ad 207–210",
-      "lemma": "Τιτῆνες (Titēnes)",
-      "partOfSpeech": "Greek noun + verb + noun — the Titans and Hesiod's folk-etymology of the name",
-      "literal": "the Titans; 'straining/overreaching' (titainontas); 'requital/retribution' (tisis)",
-      "standardEnglish": "Titans; straining; requital / vengeance (Evelyn-White 1914)",
-      "wohChoice": "transliterate 'Titans'; render *τιταίνοντας* 'straining/overreaching' and *τίσιν* 'requital' literally; the τιταίνω~Τιτῆνες / τίσις double pun left visible only in the Greek",
-      "claim_type": "direct",
-      "rationale": "At 207–210 Hesiod supplies his own folk-etymology of the *Τιτῆνες* (Titans): Ouranos names his sons *Titēnas* while reproaching them, saying that 'straining' (*τιταίνοντας*, from *τιταίνω* 'to stretch, strain, overreach') in their presumption they wrought a great deed, for which there would afterward be 'requital' (*τίσιν*, from *τίσις* 'retribution, vengeance'). The passage turns on a double play — *τιταίνω* ~ *Τιτῆνες*, and the assonant *τίσις* — that cannot be reproduced in English; the Editor renders the pun-words literally ('straining', 'requital'), leaving the wordplay visible only in the Greek, and rejects both manufacturing an English pun (which would distort the sense) and an inline gloss (which would clutter the line). The etymology is Hesiod's own poetic invention: the actual origin of the name *Τιτᾶνες* is unknown to modern philology (West 1966). No lens is carried; the wordplay is explained in commentary.",
-      "appliesTo": [
-        "THEO-207",
-        "THEO-208",
-        "THEO-209",
-        "THEO-210",
-        "THEO-392",
-        "THEO-424"
-      ]
-    },
-    {
-      "id": "personified-abstractions-nyx-eris-brood-theogony",
-      "source": "νὺξ δʼ ἔτεκεν στυγερόν τε Μόρον καὶ Κῆρα μέλαιναν … (211); αὐτὰρ Ἔρις στυγερὴ τέκε μὲν Πόνον ἀλγινόεντα … (226); Ζῆλον καὶ Νίκην … καὶ Κράτος ἠδὲ Βίην (384–385)",
-      "translit": "Moros, Kēr, Thanatos, Hypnos, Oneiroi, Mōmos, Oizys, Moirai, Nemesis, Apatē, Philotēs, Gēras, Eris; Ponos, Lēthē, Limos, Algea, Hysminai, Machai, Phonoi, Androktasiai, Neikea, Logoi, Amphillogiai, Dysnomiē, Atē, Horkos; Zēlos, Nikē, Kratos, Biē",
-      "strongs": "LSJ s.vv.; West 1966, comm. ad 211–232, 383–385; Evelyn-White 1914",
-      "lemma": "the personified abstractions of Nyx's and Eris's brood (211–232) and of Styx (384–385)",
-      "partOfSpeech": "convention: translation policy for the personified-abstraction catalogues",
-      "literal": "Doom, Fate, Death, Sleep, Dreams, Blame, Woe, Deceit, Age, Strife; Toil, Forgetfulness, Famine, Pains, Combats, Battles, Murders, Slaughters, Quarrels, Words, Disputes, Lawlessness, Ruin, Oath (transparent-meaning personifications)",
-      "standardEnglish": "the transparent meanings translated (Doom, Death, Sleep, Strife, Toil, Oath …), with the more name-like members transliterated (Klotho, Lachesis, Atropos; Nemesis; Zelos, Nike, Kratos, Bia) (Evelyn-White 1914)",
-      "wohChoice": "translate the transparent meanings of the abstractions (Doom, Death, Sleep, Toil, Famine, Battles, Oath …) and transliterate only the more name-like or cult-established members — the Fates Klotho/Lachesis/Atropos (218), Nemesis (223), and Styx's children Zelos/Nike/Kratos/Bia (384–385); no parenthetical gloss (option 1 of THEO-211, = Evelyn-White)",
-      "claim_type": "direct",
-      "rationale": "Nyx's parthenogenetic brood (211–232) and, in parallel, Eris's children and Styx's children (384–385) are transparent personified abstractions whose names *are* their meanings; translating them (Doom, Death, Toil, Oath) is standard scholarly practice and matches the reference edition (Evelyn-White 1914), so the policy carries no interpretive content and no lens. The Block A name-convention entry (which transliterates the *cosmic* theonyms Chaos, Gaia, Nyx, Erebos, Eros …) is deliberately NOT extended wholesale here: its own stated scope is the primordial cosmic entities, and extending transliteration to the abstractions would suppress the very sense the catalogue exists to enumerate. Transliteration is reserved, exactly as Evelyn-White reserves it, for the members that function as fixed names rather than as running common nouns — the three Moirai (whose individual names Klotho/Lachesis/Atropos are opaque, not transparent), Nemesis, and the cult-established Zelos/Nike/Kratos/Bia who reappear as Zeus's enforcer-retinue (385, cf. the Block A *kratos-phertatos* entry). The boundary is therefore the reference edition's own, drawn line-by-line; the entry records it for auditability across the block.",
-      "appliesTo": [
-        "THEO-211",
-        "THEO-212",
-        "THEO-214",
-        "THEO-217",
-        "THEO-218",
-        "THEO-223",
-        "THEO-224",
-        "THEO-225",
-        "THEO-226",
-        "THEO-227",
-        "THEO-228",
-        "THEO-229",
-        "THEO-230",
-        "THEO-231",
-        "THEO-384",
-        "THEO-385"
-      ]
-    },
-    {
-      "id": "catalogue-speaking-names-transliteration-theogony",
-      "source": "Πλωτώ τʼ Εὐκράντη τε Σαώ τʼ Ἀμφιτρίτη τε … (243); Νημερτής θʼ, ἣ πατρὸς ἔχει νόον ἀθανάτοιο (262); Πειθώ τʼ Ἀδμήτη τε Ἰάνθη τʼ Ἠλέκτρη τε … (349)",
-      "translit": "Plōtō, Eukrantē, Galēnē, Kymothoē, Pontoporeia, Nēmertēs (Nereids 243–262); Peithō, Ploutō, Kalliroē, Ourania, Metis, Eurynomē (Okeanids 349–361)",
-      "strongs": "LSJ s.vv.; West 1966, comm. ad 240–264, 346–366; Evelyn-White 1914",
-      "lemma": "the speaking-names of the Nereid (243–262) and Okeanid (349–361) catalogues",
-      "partOfSpeech": "convention: treatment of transparent 'speaking-names' in the divine catalogues",
-      "literal": "e.g. Ploto 'Sailer', Galene 'Calm', Kymothoe 'Wave-swift', Pontoporeia 'Sea-faring', Nemertes 'Unerring', Peitho 'Persuasion', Plouto 'Wealth'",
-      "standardEnglish": "transliterated as proper names, senses not glossed (Evelyn-White 1914)",
-      "wohChoice": "transliterate the transparent speaking-names of the Nereid (243–262) and Okeanid (349–361) catalogues as proper names, without translating or glossing each sense (option 1 of THEO-240, = Evelyn-White); a name whose sense is thematically pointed is flagged in per-line commentary (Nemertes 262 ~ Nereus's νημερτής 235), not in the surface",
-      "claim_type": "direct",
-      "rationale": "The fifty Nereids (243–262) and the Okeanid roll (349–361) are litanies of transparent 'speaking-names' — Ploto 'Sailer', Galene 'Calm', Kymothoe 'Wave-swift', Pontoporeia 'Sea-faring', Peitho 'Persuasion', Plouto 'Wealth' — and, with Evelyn-White and every standard translation, they are transliterated as proper names rather than translated; a catalogue of names is not a catalogue of common nouns, and rendering each meaning would convert a roll-call into a word-list and misrepresent the genre. This is a presentation convention shared by the reference edition, so it carries no interpretive claim and no lens. Where a name's sense is structurally significant — Nemertes 'Unerring' (262), the last Nereid, whose name reprises her father Nereus's defining epithet *νημερτής* (235) — the point is carried in commentary and left out of the surface, keeping the translated line a plain proper name. The convention is recorded once and governs both catalogues; the river-name catalogue (338–345), which raises the distinct entrenched-exonym question, is handled by its own entry.",
-      "appliesTo": [
-        "THEO-240",
-        "THEO-243",
-        "THEO-262",
-        "THEO-349",
-        "THEO-361"
-      ]
-    },
-    {
-      "id": "graiai-grey-ones-folk-etymology-theogony",
-      "source": "Φόρκυϊ δʼ αὖ Κητὼ Γραίας τέκε καλλιπαρῄους / ἐκ γενετῆς πολιάς, τὰς δὴ Γραίας καλέουσιν",
-      "translit": "Graias … ek genetēs polias … Graias kaleousin",
-      "strongs": "LSJ s.v. γραῖα, γραῦς, πολιός; West 1966, comm. ad 270–271; Chantraine, DELG s.v. γέρων/γραῦς",
-      "lemma": "Γραῖαι (Graiai)",
-      "partOfSpeech": "Greek noun — the Graiai, with Hesiod's folk-etymology of the name",
-      "literal": "the Grey Ones / the Old Women (γραῖαι); 'grey (πολιαί) from birth'",
-      "standardEnglish": "the Graeae (Evelyn-White 1914, Latinized); 'grey from their birth'",
-      "wohChoice": "transliterate 'Graiai' (Greek form, not the Latinized 'Graeae') and render the etymologizing epithet *πολιάς* 'grey from birth' literally, leaving the *Graiai* ~ 'grey/old woman' folk-etymology visible only in the Greek (option 1 of THEO-270); do not translate the name 'the Grey Ones'",
-      "claim_type": "direct",
-      "rationale": "At 270–271 Hesiod names the daughters of Phorkys and Keto *Graiai* and immediately motivates the name: they are *ἐκ γενετῆς πολιάς* 'grey from their birth', so that *Graiai* is heard as 'the Grey/Old Women' (√ of *γραῦς* 'old woman', *πολιός* 'grey'). As with the Titans (207–210, the Block A *titanes-folk-etymology* entry), the wordplay cannot be reproduced in English, and the Editor renders the pun-word literally ('grey from their birth') while transliterating the name, leaving the etymology audible only in the Greek — declining both a manufactured English pun and an inline gloss. The Greek form 'Graiai' (not the Latinized 'Graeae') follows the Block A name convention. No lens is carried; the folk-etymology is Hesiod's own and is explained in commentary.",
-      "appliesTo": [
-        "THEO-270",
-        "THEO-271",
-        "THEO-272"
-      ]
-    },
-    {
-      "id": "pegasos-chrysaor-folk-etymology-theogony",
-      "source": "ἔκθορε Χρυσαωρ τε μέγας καὶ Πήγασος ἵππος (281); τῷ μὲν ἐπώνυμον ἦεν, ὅτʼ Ὠκεανοῦ περὶ πηγὰς / γένθʼ (282–283); ὃ δʼ ἄορ χρύσειον ἔχων μετὰ χερσὶ φίλῃσιν (283)",
-      "translit": "Pēgasos ~ pēgai (282); Chrysaōr ~ aor chryseion (283)",
-      "strongs": "LSJ s.v. πηγή, ἄορ; West 1966, comm. ad 281–283",
-      "lemma": "Πήγασος (Pēgasos); Χρυσάωρ (Chrysaōr)",
-      "partOfSpeech": "Greek proper names + Hesiod's folk-etymologies (springs; golden blade)",
-      "literal": "Pegasos ~ πηγαί 'springs'; Chrysaor ~ χρυσ- 'gold' + ἄορ 'sword/blade'",
-      "standardEnglish": "Pegasus, Chrysaor (Evelyn-White 1914, Latinized 'Pegasus'); etymologies left implicit",
-      "wohChoice": "render the etymologizing clauses literally — Pegasos 'born beside the springs (πηγαί) of Okeanos' (282), Chrysaor 'holding a golden blade (ἄορ χρύσειον)' (283) — leaving the name-plays visible only in the Greek (option 1 of THEO-282, as with the Titans); Greek forms 'Pegasos'/'Chrysaor'; the source misspelling *Χρυσαωρ* (missing final accent) at 281 is kept verbatim in the text field, corrected only to the standard form in translit/translation",
-      "claim_type": "direct",
-      "rationale": "Lines 281–283 supply two folk-etymologies of the beings sprung from Medusa's severed neck: *Pēgasos* is named because he was born beside the *pēgai* 'springs' of Okeanos (282), and *Chrysaōr* because he held an *ἄορ χρύσειον* 'golden blade' at birth (283, *chrys-* 'gold' + *aōr* 'sword'). As with the Titan etymology (207–210), the assonant wordplay cannot survive translation, so the Editor renders the explanatory clauses literally and leaves the *Pēgasos* ~ *pēgai* and *Chrysaōr* ~ *aōr* plays audible only in the Greek, declining both a manufactured English pun and an inline gloss. A source-fidelity point is recorded here: the Perseus edition prints the unaccented *Χρυσαωρ* at 281 (against the correct *Χρυσάωρ* at 287), and the transmitted spelling is preserved in the source *text* field rather than silently corrected, with the standard form given only in the transliteration and the English. Greek forms are used ('Pegasos', not the Latin 'Pegasus'); no lens is carried.",
-      "appliesTo": [
-        "THEO-281",
-        "THEO-282",
-        "THEO-283",
-        "THEO-287"
-      ]
-    },
-    {
-      "id": "ophis-drakon-serpent-vocabulary-theogony",
-      "source": "ἥμισυ δʼ αὖτε πέλωρον ὄφιν δεινόν τε μέγαν τε (299); ἣ δʼ ὄφιος, κρατεροῖο δράκοντος (322); ὄπιθεν δὲ δράκων (323); γείνατο δεινὸν ὄφιν (334)",
-      "translit": "ophis (299, 334); drakōn (322, 323); nymphē (298, 305)",
-      "strongs": "LSJ s.v. ὄφις, δράκων, νύμφη; West 1966, comm. ad 295–336; Evelyn-White 1914",
-      "lemma": "ὄφις (ophis); δράκων (drakōn); νύμφη (nymphē)",
-      "partOfSpeech": "Greek nouns — the serpent/monster vocabulary of the Echidna–Chimaira sequence",
-      "literal": "ophis 'serpent, snake'; drakōn 'serpent, dragon'; nymphē 'nymph, minor goddess / bride'",
-      "standardEnglish": "serpent (ophis), snake/dragon (drakōn), nymph (nymphē) (Evelyn-White 1914, no fixed distinction)",
-      "wohChoice": "render *ophis* 'serpent' (299, 334) and *drakōn* 'dragon' (322–323) as the context of each line invites, without imposing a fixed technical distinction the Greek does not mark; *nymphē* 'nymph' (298, 305) (option 1 of THEO-299, = Evelyn-White); the antecedent of 'she' at 295 (mother of Echidna) is taken as Keto in sense, with the crux noted",
-      "claim_type": "direct",
-      "rationale": "In the Echidna–Chimaira sequence *ὄφις* 'serpent' (299, 334) and *δράκων* 'serpent, dragon' (322–323) are used of the same order of creature and are largely synonymous in early Greek epic; LSJ and the commentators do not report a stable *ophis*/*drakōn* opposition, and Evelyn-White accordingly varies 'serpent'/'dragon' by context without a technical rule. The Editor keeps that practice and declines option 2 (manufacturing a consistent English serpent-vs-dragon distinction), because a fixed mapping would assert a lexical contrast the source does not carry. *νύμφη* is rendered 'nymph' in its plain sense (a minor female divinity), here of the maiden-and-serpent Echidna (298), recurring at 305. The mother of Echidna at 295 (*ἣ δʼ ἔτεκʼ*) is grammatically ambiguous — the nearest antecedent is Kalliroe (288), but the summarizing 'race of Keto and Phorkys' (336) leads Evelyn-White and most editors to supply Keto; the translation keeps the bare 'she' and follows the Keto reading, flagging the crux in commentary rather than silently resolving it. No lens is carried.",
-      "appliesTo": [
-        "THEO-295",
-        "THEO-298",
-        "THEO-299",
-        "THEO-305",
-        "THEO-322",
-        "THEO-323",
-        "THEO-334"
-      ]
-    },
-    {
-      "id": "ein-arimoisin-crux-theogony",
-      "source": "ἣ δʼ ἔρυτʼ εἰν Ἀρίμοισιν ὑπὸ χθονὶ λυγρὴ Ἔχιδνα",
-      "translit": "ein Arimoisin",
-      "strongs": "LSJ s.v. Ἄριμα/Ἄριμοι; West 1966, comm. ad 304; Homer, Iliad 2.783; Strabo 13.4.6",
-      "lemma": "(εἰν) Ἀρίμοισιν (ein Arimoisin)",
-      "partOfSpeech": "Greek dative plural — a long-standing people/place crux",
-      "literal": "'among the Arimoi' (a people) OR 'in Arima' (a place)",
-      "standardEnglish": "'in the land of the Arimi' (Evelyn-White 1914, leaning to the place-reading)",
-      "wohChoice": "'among the Arimoi', reading Ἀρίμοισιν as the dative plural of a people — a small refinement away from Evelyn-White's place-leaning 'in the land of the Arimi'; the location is left unglossed (option 1 of THEO-304)",
-      "claim_type": "inferred",
-      "rationale": "*εἰν Ἀρίμοισιν* (304; the same phrase as *Iliad* 2.783) was already an unsettled crux in antiquity: taken as a dative plural of a people it means 'among the Arimoi', while taken as *ein Arimois* it names a place, 'in Arima' — a district variously located in Cilicia, Lydia, or Mysia (Strabo 13.4.6 canvasses the options). The Editor commits to the people-reading 'among the Arimoi', which is the more literal construal of the transmitted dative plural and is adopted by several modern translators; because this picks one horn of a genuine crux and diverges from Evelyn-White's place-leaning 'in the land of the Arimi', the claim_type is `inferred` rather than `direct`. The referent's location is not recoverable and is deliberately left unglossed, so the line neither over-determines the geography nor imports a modern identification. No lens is carried; the alternative reading is recorded in commentary.",
-      "appliesTo": [
-        "THEO-304"
-      ]
-    },
-    {
-      "id": "chimaira-shegoat-personification-boundary-theogony",
-      "source": "ἣ δὲ Χίμαιραν ἔτικτε πνέουσαν ἀμαιμάκετον πῦρ (319); ἣ δὲ χιμαίρης (322); μέσση δὲ χίμαιρα (323)",
-      "translit": "Chimaira (319) / chimaira 'she-goat' (322, 323)",
-      "strongs": "LSJ s.v. χίμαιρα; West 1966, comm. ad 319–324; Chantraine, DELG s.v. χίμαρος",
-      "lemma": "Χίμαιρα (Chimaira) / χίμαιρα (chimaira)",
-      "partOfSpeech": "Greek noun/theonym — the personified-vs-common-noun boundary for the Chimaira",
-      "literal": "Chimaira the monster / chimaira 'she-goat' (a year-old she-goat)",
-      "standardEnglish": "the Chimaera the monster; 'she-goat' the common noun of the middle head (Evelyn-White 1914)",
-      "wohChoice": "capitalize 'Chimaira' the fire-breathing monster (Greek form, not the Latinized 'Chimaera') and render the common noun *χίμαιρα* 'she-goat' at the middle head (322–323) lower-case, fixing the boundary where Evelyn-White does (option 1 of THEO-319)",
-      "claim_type": "direct",
-      "rationale": "*Χίμαιρα* the monster (319) bears a name identical to the common noun *χίμαιρα* 'she-goat', which is exactly what her middle head is (*μέσση δὲ χίμαιρα*, 323) — a transparent naming that the text itself exposes. As with the *gaia/ouranos* personified-vs-common-noun boundary fixed in Block A (the dedicated boundary entry), the Editor draws the line where the reference edition does: 'Chimaira' capitalized for the personified monster, 'she-goat' lower-case for the animal of the head (322–323). The Greek form 'Chimaira' (not the Latinized 'Chimaera') follows the name convention. Capitalizing the animal-head, or translating the monster's name 'She-Goat', are both declined: the first would obscure the common noun the pun depends on, the second would over-translate an established proper name. The name's transparency is thereby visible in the note without distorting the surface; no lens is carried.",
-      "appliesTo": [
-        "THEO-319",
-        "THEO-322",
-        "THEO-323"
-      ]
-    },
-    {
-      "id": "phix-sphinx-boeotian-form-theogony",
-      "source": "ἣ δʼ ἄρα Φῖκʼ ὀλοὴν τέκε Καδμείοισιν ὄλεθρον",
-      "translit": "Phik' (Phix)",
-      "strongs": "LSJ s.v. Φίξ, Σφίγξ; West 1966, comm. ad 326; Chantraine, DELG s.v. Σφίγξ",
-      "lemma": "Φίξ (Phix) / Σφίγξ (Sphinx)",
-      "partOfSpeech": "Greek proper name — the Boeotian dialect form of the Sphinx",
-      "literal": "Phix (Boeotian) = the Sphinx (panhellenic)",
-      "standardEnglish": "the Sphinx (Evelyn-White 1914)",
-      "wohChoice": "render the familiar panhellenic Greek name 'Sphinx' (Σφίγξ) in the surface — itself a Greek form, not a Latinization, and the name the reader recognizes — while preserving the Boeotian *Φῖκʼ* verbatim in the source text field and documenting it in commentary (option 1 of THEO-326); the ambiguous 'she' at 326 (mother of the Sphinx: Chimaira per Evelyn-White, or Echidna resumed per West) is left ambiguous",
-      "claim_type": "direct",
-      "rationale": "The source reads *Φῖκʼ* — *Phix*, the Boeotian dialect form (from Mt. Phíkion) that Hesiod, himself a Boeotian, uses for the creature panhellenically called the *Σφίγξ* (Sphinx). The Block A name convention forbids *Latinization* (Ouranos not Uranus), but 'Sphinx' is not a Latinization: it is the panhellenic *Greek* form Σφίγξ, and it is the reader-recognizable name, so rendering 'Sphinx' in the surface is fully consistent with the convention while keeping the line legible; the local Boeotian *Phix* is preserved in the source text field and recorded in commentary for auditability. This mirrors the Block A treatment that retains established forms in the reading surface while documenting the underlying Greek. The pronoun antecedent at 326 is a separate crux — 'she' is read by Evelyn-White as the just-slain Chimaira, but many editors (West 1966) take it as Echidna resumed, mated with her own son Orthos (327); the translation keeps the bare 'she', preserving the ambiguity rather than forcing one genealogy. No lens is carried.",
-      "appliesTo": [
-        "THEO-326"
-      ]
-    },
-    {
-      "id": "river-catalogue-greek-forms-theogony",
-      "source": "Νεῖλόν τʼ Ἀλφειόν τε … (338); Μαίανδρόν τε καὶ Ἴστρον … (339); θεῖόν τε Σκάμανδρον (345)",
-      "translit": "Neilos, Alpheios, Istros, Maiandros, Skamandros …",
-      "strongs": "LSJ s.vv.; West 1966, comm. ad 337–345; Evelyn-White 1914",
-      "lemma": "the river-catalogue (338–345)",
-      "partOfSpeech": "convention: transliteration policy for the river-names, including entrenched exonyms",
-      "literal": "Neilos (Nile), Istros (Ister/Danube), Maiandros (Maeander), Skamandros (Scamander) …",
-      "standardEnglish": "Nilus, Ister, Maeander, Scamander (Evelyn-White 1914, Latinized)",
-      "wohChoice": "Greek transliteration throughout — *Neilos* (not 'Nile'), *Istros* (the Greek name of the lower Danube, not 'Danube'), *Maiandros* (not 'Maeander'), *Skamandros* (not 'Scamander') — per the Block A name convention (option 1 of THEO-338); the variant spelling *Γρήνικόν* (342) is normalized to the standard 'Granikos' in the translation, the source form kept in translit",
-      "claim_type": "direct",
-      "rationale": "The Block A name convention transliterates Greek names in their Greek (not Latinized) forms, and the Editor applies it consistently to the river-catalogue (338–345), including the four streams that carry entrenched English exonyms: *Neilos*, *Istros*, *Maiandros*, *Skamandros*. This is the same presentation decision as 'Ouranos not Uranus' in Block A — a Greek form preferred over a more-familiar non-Greek one — so it carries no interpretive content and the claim_type is `direct`; it also avoids anachronism, since Hesiod's *Istros* denotes the lower Danube known to the Greeks, not the modern river-length called 'Danube', and 'Neilos' keeps the Greek name rather than the English 'Nile'. Evelyn-White's Latinized forms (Nilus, Ister, Maeander, Scamander) are declined. The compromise of English exonyms for the entrenched few (option 2) is a reader-familiarity preference, not an accuracy matter, and is flagged for the reviewer in the report; the standing choice is consistency with the convention. A minor normalization is recorded: the edition's *Γρήνικόν* (with eta, 342) is given as the standard 'Granikos' in the English, the source spelling retained in the transliteration.",
-      "appliesTo": [
-        "THEO-337",
-        "THEO-338",
-        "THEO-339",
-        "THEO-342",
-        "THEO-345"
-      ]
-    },
-    {
-      "id": "horkos-styx-great-oath-theogony",
-      "source": "αὐτὴν μὲν γὰρ ἔθηκε θεῶν μέγαν ἔμμεναι ὅρκον",
-      "translit": "theōn megan … horkon",
-      "strongs": "LSJ s.v. ὅρκος; West 1966, comm. ad 400, 775–806; Evelyn-White 1914",
-      "lemma": "ὅρκος (horkos)",
-      "partOfSpeech": "Greek noun — the oath-object; here Styx as the gods' oath-witness",
-      "literal": "oath; the thing sworn by (the oath-witness), not the act or the personified Oath",
-      "standardEnglish": "the great oath of the gods (Evelyn-White 1914)",
-      "wohChoice": "'the great oath of the gods' (Evelyn-White): *horkos* at 400 is the oath-object sworn *by* — the water of Styx made the inviolable oath-witness — rendered 'oath' (lower case), and kept distinct from the personified deity *Horkos* (son of Eris, 231–232); do not capitalize (option 1 of THEO-400)",
-      "claim_type": "direct",
-      "rationale": "At 400 Zeus makes Styx *θεῶν μέγαν … ὅρκον*, 'the great oath of the gods' — i.e. the water of Styx becomes the sanction-object by which the gods swear inviolable oaths (the mechanism elaborated at 775–806, Block D). Here *ὅρκος* denotes the oath *sworn by* — the witness/guarantor — a standard sense of the word (LSJ s.v. II, 'that by which one swears, witness of an oath'), and NOT the personified avenging *Horkos* who is a distinct child of Eris at 231–232, nor the oath-formula as a speech-act. The Editor keeps Evelyn-White's 'the great oath of the gods' (lower case) and, following the reference, does not capitalize *horkos* here or conflate it with the deity; the relation between the two is set out in the commentary at 231 and 400. The claim_type is `direct`: the oath-witness sense is the settled lexical value and the rendering matches the reference. **Lens-discipline note:** this is a high-salience site — Zeus's institution of a binding cosmic sanction/covenant — where a canon reading could be tempting; the commentary is held to the philological level (what *horkos* means, and the Styx/Horkos distinction), and no cosmological reading is pressed into either the line or the note.",
-      "appliesTo": [
-        "THEO-400"
-      ]
-    },
-    {
-      "id": "mounogenes-only-child-hekate-theogony",
-      "source": "οὐδʼ, ὅτι μουνογενής, ἧσσον θεὰ ἔμμορε τιμῆς (426); οὕτω τοι καὶ μουνογενὴς ἐκ μητρὸς ἐοῦσα (448)",
-      "translit": "mounogenēs (Ionic) = monogenēs",
-      "strongs": "LSJ s.v. μουνογενής/μονογενής; West 1966, comm. ad 426, 448; cf. LXX / Johannine reception (John 1:14, 3:16); central entry `yechid-only-one-formula`",
-      "lemma": "μουνογενής (mounogenēs)",
-      "partOfSpeech": "Greek adjective — 'only child, single-born' (Ionic for monogenēs)",
-      "literal": "single-born, only-begotten (mono- 'single/only' + gen- 'born'), i.e. an only child",
-      "standardEnglish": "only child (Evelyn-White 1914)",
-      "wohChoice": "'only child' (Evelyn-White), so too *μουνογενὴς ἐκ μητρός* 'only child from her mother' (448); the theologically loaded 'only-begotten' (option 3) is deliberately declined for the surface (option 1 of THEO-411)",
-      "claim_type": "direct",
-      "rationale": "*μουνογενής* (Ionic for *μονογενής*, *mono-* 'single/only' + *gen-* 'born') means 'only child, single-born', and here is the structural pivot of the Hekate hymn: precisely *because* Hekate is an only child of a single mother (Asteria), with no sibling to divide the ancestral honours, her undiminished share in every domain is remarkable (426, restated at 448). 'Only child' is the consensus rendering (Evelyn-White; and every standard translation of this passage), so the claim_type is `direct`. The same lexeme *monogenēs* is later applied to Christ in the Johannine writings and rendered 'only-begotten' (Vulgate *unigenitus*; John 1:14, 3:16) — but that is a datum of the word's *reception* history, not of its sense in Hesiod, and the theologically loaded 'only-begotten' would import a Christian resonance the Archaic text does not carry. Accuracy-before-lens therefore keeps 'only child' in the surface and confines the Johannine reception to the apparatus. **Cross-corpus note:** the central production glossary has no Greek/Johannine *monogenēs* entry; its only touchpoint is the Hebrew `yechid-only-one-formula` (Gen 22), which already flags the Vulgate *unigenitum* / Johannine *monogenēs* reception within *its* domain. Following the Block A *gigantes* discipline, this overlay entry records the reception link as comparative apparatus only and neither entry is made to govern the other; the Editor recommends no central change (see the report).",
-      "appliesTo": [
-        "THEO-426",
-        "THEO-448"
-      ]
-    },
-    {
-      "id": "time-geras-moira-honor-vocabulary-theogony",
-      "source": "μή τινʼ ἀπορραίσειν γεράων, τιμὴν δὲ ἕκαστον / ἑξέμεν … (393–394); μοῖραν ἔχειν … (413); ἔχει αἶσαν ἁπάντων (422); ἔπλετο δασμός (425); οἱ ὄλβον ὀπάζει (420)",
-      "translit": "timē, geras (gerea), moira, aisa, dasmos, olbos",
-      "strongs": "LSJ s.vv. τιμή, γέρας, μοῖρα, αἶσα, δασμός, ὄλβος; West 1966, comm. ad 392–401, 411–452; Evelyn-White 1914",
-      "lemma": "τιμή; γέρας; μοῖρα; αἶσα; δασμός; ὄλβος",
-      "partOfSpeech": "Greek nouns — the apportioned-honour lexicon of the accession-offer and the Hekate hymn",
-      "literal": "timē 'honour/privilege'; geras 'prerogative'; moira 'share'; aisa 'allotted part'; dasmos 'division/apportionment'; olbos 'wealth/prosperity'",
-      "standardEnglish": "honour, privilege/prerogative, share, part, division, wealth (Evelyn-White 1914, varied)",
-      "wohChoice": "fix a consistent English mapping across the block — *timē* 'honour', *geras* 'prerogative', *moira* 'share', *aisa* 'allotted part', *dasmos* 'division', *olbos* 'wealth' — regularizing Evelyn-White's varied renderings without a rigid one-to-one that would distort (option 1 of THEO-414, tightened); do not transliterate the terms",
-      "claim_type": "direct",
-      "rationale": "Zeus's accession-offer (392–396) and the Hekate hymn (411–452) are saturated with the vocabulary of apportioned divine prerogative: *τιμή* 'honour', *γέρας* (pl. *γέρεα*) 'prerogative', *μοῖρα* 'share' (413), *αἶσα* 'allotted part' (422), *δασμός* 'division' (425), *ὄλβος* 'wealth' (420), with the privatives *ἄτιμος*/*ἀγέραστος* (395). These are well-understood LSJ terms; the Editor fixes a consistent English rendering across the block so the hymn's argument — that Hekate's ancestral share under Zeus is confirmed undiminished — reads as one thematic thread, exactly as the Block A *kratos-phertatos* entry standardizes the sovereignty vocabulary, and the claim_type is `direct` for the same reason (a lexical-consistency convention, not an interpretive move). Evelyn-White's varied renderings are followed but regularized; a rigid one-to-one that flattened context (option 2) and transliteration of the key terms (option 3) are both declined. **Lens-discipline note:** the apportionment of *timai*/*gerea* under a sovereign who confirms each god's domain is a WoH-salient theme (a ruler distributing offices), but the reading is kept lexical in both surface and commentary; the honour-distribution is described, not allegorized, and no canon mapping is pressed.",
-      "appliesTo": [
-        "THEO-393",
-        "THEO-394",
-        "THEO-395",
-        "THEO-396",
-        "THEO-413",
-        "THEO-414",
-        "THEO-415",
-        "THEO-418",
-        "THEO-420",
-        "THEO-422",
-        "THEO-425",
-        "THEO-427",
-        "THEO-449"
-      ]
-    },
-    {
-      "id": "kourotrophos-nurse-of-the-young-theogony",
-      "source": "θῆκε δέ μιν Κρονίδης κουροτρόφον … (450); οὕτως ἐξ ἀρχῆς κουροτρόφος (452); ἄνδρας κουρίζουσι (347)",
-      "translit": "kourotrophos; kourizousi",
-      "strongs": "LSJ s.v. κουροτρόφος, κουρίζω; West 1966, comm. ad 346–348, 450–452; Chantraine, DELG s.v. κόρος/κοῦρος",
-      "lemma": "κουροτρόφος (kourotrophos)",
-      "partOfSpeech": "Greek adjective/cult-title — 'nurse/rearer of the young'",
-      "literal": "rearer of the young / nurse of children (kouro- 'youth' + troph- 'rearing')",
-      "standardEnglish": "nurse of the young (Evelyn-White 1914)",
-      "wohChoice": "'nurse of the young' (Evelyn-White); the cult-title is translated, not transliterated, and its link to the river-daughters who *κουρίζουσι* 'rear men to manhood' (347) is noted (option 1 of THEO-450)",
-      "claim_type": "direct",
-      "rationale": "*κουροτρόφος* (450, 452), 'nurse/rearer of the young' (*κοῦρος* 'youth' + *τροφ-* 'rearing'), is a widespread Greek cult-title borne by many goddesses (Gaia, Hestia, Artemis, and Hekate here), and Zeus extends it to Hekate over *all* who 'after her beheld the light of Eos' — every mortal born thereafter. Evelyn-White's 'nurse of the young' is retained; the cult-title is translated rather than transliterated (declining option 3), since its sense is transparent and central to the hymn's close, and the claim_type is `direct` as the rendering matches the reference and the settled lexical value. The nurturing-of-youth motif is anchored a few lines earlier in the river-daughters who *ἄνδρας κουρίζουσι* 'rear men to manhood' (347), the same *kour-* root, and the cross-link is recorded in commentary. **Lens-discipline note:** *kourotrophos* is a WoH-salient site (a divinity charged with rearing all who are born); the rendering and the note are held to the lexical fact of the cult-title and the *kour-* link, and the 'rearer/cultivator of humanity' motif is not pressed beyond what the title states.",
-      "appliesTo": [
-        "THEO-347",
-        "THEO-450",
-        "THEO-452"
-      ]
-    },
-    {
-      "id": "krokopeplos-saffron-robed-epithet-theogony",
-      "source": "Ἐνυώ τε κροκόπεπλον (273); Τελεστώ τε Κροκοπεπλος (358)",
-      "translit": "krokopeplos",
-      "strongs": "LSJ s.v. κροκόπεπλος; West 1966, comm. ad 358; Evelyn-White 1914",
-      "lemma": "κροκόπεπλος (krokopeplos)",
-      "partOfSpeech": "Greek adjective — 'saffron-robed', an epithet (not a name)",
-      "literal": "saffron-robed / clad in a saffron peplos (krokos 'saffron' + peplos 'robe')",
-      "standardEnglish": "saffron-clad / saffron-robed, epithet of Telesto (Evelyn-White 1914)",
-      "wohChoice": "read *krokopeplos* 'saffron-robed' as the epithet of the Okeanid *Telestō* (358), the same transparent epithet used of *Enyō* at 273 — not a forty-second Okeanid name; the catalogue lists forty-one Okeanids (option 1 of THEO-358, = Evelyn-White)",
-      "claim_type": "direct",
-      "rationale": "*κροκόπεπλος* 'saffron-robed' (*κρόκος* 'saffron' + *πέπλος* 'robe') is a transparent stock epithet, used of *Enyō* just a few lines earlier at 273 and, in the wider tradition, of Eos and other goddesses; at 358 it modifies the Okeanid *Telestō* ('Telesto the saffron-robed'), exactly as Evelyn-White reads it. The Perseus source capitalizes *Κροκοπεπλος* (and drops the accent) at 358, which could suggest a separate forty-second name, but the capitalization is not decisive — the edition capitalizes other epithets inconsistently — and taking it as a name would both duplicate the epithet of 273 and overshoot the catalogue's count. The Editor therefore reads it as Telesto's epithet, keeping the Okeanid roll at forty-one, and records the source capitalization for auditability; the claim_type is `direct` as this is the reference reading and the philologically economical one. No lens is carried.",
-      "appliesTo": [
-        "THEO-273",
-        "THEO-358"
-      ]
-    },
-    {
-      "id": "west-transposed-line-order-theogony",
-      "source": "214↔213; 427↔426; 434↔430 (Perseus, following West 1966)",
-      "translit": "(apparatus / meta)",
-      "strongs": "West 1966 (editorial line-order); Perseus tlg0020.tlg001.perseus-grc2",
-      "lemma": "(line-order convention)",
-      "partOfSpeech": "convention: treatment of West's transposed line order",
-      "literal": "(not applicable — apparatus)",
-      "standardEnglish": "transposed line order (West 1966; Perseus)",
-      "wohChoice": "preserve West's transposed line order — 214 before 213, 427 before 426, 434 before 430 — so the refId/line-number sequence is deliberately non-ascending; the transposition is recorded in commentary at the affected lines",
-      "claim_type": "direct",
-      "rationale": "At three points in Block B the Perseus edition, following West 1966, prints lines in a transposed order for syntactic and sense reasons: 214 before 213 (213 reads as a summarizing verse after the second instalment of Nyx's brood), 427 before 426 (427 completes the 'earth, heaven and sea' tricolon before 426 resumes the *mounogenēs* thought), and 434 before 430 (consecutive clauses of Hekate's civic sphere). The translation preserves the edition's line order, so the *n*/refId sequence is intentionally non-ascending at these points; this is an editorial/text-critical datum, not a translation choice, and it is recorded in the per-line commentary so the non-monotonic numbering is transparent and auditable. This is a presentation convention with no interpretive content and no lens, parallel to the Block A athetized-lines convention.",
-      "appliesTo": [
-        "THEO-213",
-        "THEO-214",
-        "THEO-426",
-        "THEO-427",
-        "THEO-430",
-        "THEO-434"
-      ]
-    }
-  ]
+ "schemaVersion": 2,
+ "version": "1.2.0",
+ "scope": "theogony-woh",
+ "description": "Per-translation overlay glossary for Hesiod's Theogony (the project's first Archaic-Greek hexameter source text). v1.0.0 covers Block A (lines 1–210: the proem/Dichterweihe, the cosmogony, and the Ouranos episode). It records the Editor's adjudication of the twelve Block-A editorial questions, in every case accuracy-first: the translated line reflects the defensible scholarly reading and the Wheel-of-Heaven lens is confined to clearly-marked commentary. Entries: the chapter-title and theonym-transliteration convention (Greek forms, not Latinized: Ouranos not Uranus, Kronos not Cronus, Kypros not Cyprus); Zeus's epithet *aigiochos* 'aegis-holding'; the Muses' *pseudea/etyma/alēthea* truth-crux at 27–28 (the one surface refinement in the block — ἔτυμα 'genuine' distinguished from ἀληθέα 'true', following Most 2006 against Evelyn-White); Kronos's epithet *ankylomētēs* 'of crooked counsel' (the sickle folk-association noted, not adopted); the *kratos/phertatos* sovereignty vocabulary; the Hesiodic earth-born *Gigantes* held DISTINCT from the biblical/Enochic Nephilim (the shared Septuagint lexeme γίγαντες documented as comparative apparatus only — the central *nephilim-giants* entry deliberately NOT extended, see the Editor report); *Chaos* as the primordial 'gap/chasm/yawning void' (√χα-, West 1966), not the later 'disorder'; the primordial cosmogonic *Eros* of 120 (distinct from the later Eros of 201); the *Gaia/Ouranos* personified-vs-common-noun boundary (onset of personification fixed at 126–127); the athetized-lines convention (111 = 46, plus 118 and 196, retained-and-translated unmarked in the surface, athetesis recorded in commentary); and Hesiod's folk-etymology of the *Titēnes* at 207–210 (the τιταίνω~Τιτῆνες / τίσις double pun left visible only in the Greek). No entry is claim_type `speculative`; no central-glossary entry is modified by this overlay — any central change (notably the THEO-50 Gigantes question) is specified in the Editor report's 'CENTRAL — apply by orchestrator' section for the orchestrator to apply. Greek terms are indexed by LSJ (and Chantraine DELG / West 1966 commentary) in the `strongs` field, per the project's auditability-not-Strong's convention for non-biblical source languages. v1.1.0 extends the overlay to Block B (lines 211–452: Nyx's and Eris's brood, the Pontos line and the Phorkys/Keto monster-catalogue, the Nereid/Okeanid/River catalogues, the Helios/Selene/Eos line, the Styx oath, and the Hekate hymn), resolving the fourteen Block-B editorial questions accuracy-first exactly as Block A did. Fifteen entries are added — the personified-abstraction and catalogue-speaking-name conventions; the Graiai and Pegasos/Chrysaor folk-etymologies; the ophis/drakon serpent vocabulary; the Chimaira/she-goat and (via the name convention) river-catalogue and Phix/Sphinx presentation decisions; the ein-Arimoisin people/place crux (the block's single `inferred` entry); the Styx-oath/Horkos distinction; the Hekate-hymn honour-lexicon (timē/geras/moira/aisa/dasmos/olbos); mounogenēs 'only child' (Johannine 'only-begotten' declined for the surface and kept as reception apparatus); the kourotrophos cult-title; the krokopeplos epithet-not-name reading; and the West transposed-line-order convention (214↔213, 427↔426, 434↔430). Fourteen of the fifteen are `direct` and one (`ein-arimoisin-crux-theogony`) is `inferred`; none is `speculative`, and no central-glossary entry is modified. The appliesTo arrays of five existing entries are extended into Block B (the Gaia/Ouranos boundary, the kratos/phertatos sovereignty vocabulary, the Titan-name transliteration, the athetized-lines convention, and the name-and-title convention). The four WoH-salient sites in the block — the Styx oath, mounogenēs, the honour-distribution vocabulary, and kourotrophos — are all rendered accuracy-first, with any lens confined to clearly-marked lens-discipline notes. v1.2.0 extends the overlay to Block C (lines 453–735: the Kronos–Rhea succession — the swallowed children and the swaddled stone, Zeus's birth in Krete and the disgorged stone set as a σῆμα at Pytho, the freeing of the Kyklopes and their storm-triad gift, the Iapetids, the Mekone sacrifice-division, the fire-theft and the fashioned 'beautiful evil' with the race-of-women aetiology, Prometheus bound and freed, and the Titanomachy into the opening of the Tartaros description), resolving the fourteen Block-C editorial questions accuracy-first exactly as Blocks A–B did. Twelve entries are added: the dialectal-theonym normalization (Histiē→Hestia, Aïdēs→Hades, Obriareos→Briareos); the Block-C place-name Greek-forms convention (Krete-not-Crete, under the signed-off river-exonym precedent, plus Lyktos/Aigaion/Pytho/Parnassos); the σῆμα-stone at Pytho (with the later omphalos identification disciplined out of the surface); the thunder-triad brontē/keraunos/steropē; the Mekone meat-division dasmos/moira domain (held distinct from the honour-apportionment lexicon); the Prometheus fire-theft with the narthex/giant-fennel realia; the periphrastic titles for the un-named Poseidon (Ennosigaios) and Hephaestus (Amphigyeeis); the Meliai crux (the block's single inferred entry); the kalon kakon 'beautiful evil' fashioned-woman aetiology (no Pandora and no jar imported, and the misogynistic register preserved unsoftened); the Gaia counsel/prophecy motif-vocabulary; the Titanomachy both-sides-are-gods theomachy formula; and the Tartaros vocabulary (with the 2 Peter 2:4 tartaroo reception). Eleven of the twelve are `direct` and one (`meliai-crux-theogony`) is `inferred`; none is `speculative`, and no central-glossary entry is modified or extended. The cross-corpus pulls the block raises — the Titanomachy vs the central chaoskampf/theomachy cluster; the swallowed-stone / omphalos; the fire-theft; the kalon kakon vs the Genesis/Eve creation-of-woman tradition; Tartaros vs 2 Peter 2:4 — are all recorded as clearly-labeled comparative/reception apparatus overlay-side, exactly per the signed-off Block-A/B non-fusion precedent; the Editor's no-central-change recommendation with optional specs is in the Block-C report. The appliesTo arrays of seven existing entries are extended into Block C (the ankylomētēs Kronos-epithet to 473/495 — the Hesiodic transfer to Prometheus at 546 kept OUT of the entry and documented as a distinct decision; the kratos-phertatos sovereignty vocabulary; the Titan-name transliteration; the Gaia/Ouranos boundary; the name-and-title convention; the aigiochos epithet; and the athetized-lines convention to 496/576/577/591). The high-scrutiny WoH-salient sites — the Titanomachy, Gaia's prophetic counsel, the sēma at Pytho, the fire-theft, the kalon kakon, and Tartaros — are all rendered accuracy-first, the lens confined to clearly-marked lens-discipline notes. Three surface changes vs the draft: Crete→Krete (477, 480) and Obriareos→Briareos (734).",
+ "sourceLanguages": [
+  "grc"
+ ],
+ "entries": [
+  {
+   "id": "theogony-name-and-title-conventions",
+   "source": "(meta)",
+   "translit": "(meta)",
+   "strongs": null,
+   "lemma": "(meta)",
+   "partOfSpeech": "convention: chapter-title and theonym-transliteration policy for the Theogony overlay",
+   "literal": "(not applicable — meta)",
+   "standardEnglish": "(not applicable — meta)",
+   "wohChoice": "Chapter-title 'Theogony — the genealogy of the gods, from Chaos to the ordering of the cosmos under Zeus' (canonical composition-name + descriptive subtitle, per the Mesopotamian-arc precedent). Name policy: the cosmological theonyms that double as common nouns are transliterated in their Greek forms when personified (Chaos, Gaia, Ouranos, Pontos, Nyx, Erebos, Aither, Hemera, Eros, Himeros) and glossed as common nouns only at clearly non-personified sites, exactly where the reference edition (Evelyn-White) does — 'the earth' (108), 'the wide heaven' (110), 'black earth' (69). Transliteration is Greek, NOT Latinized: Ouranos (not Uranus), Kronos (not Cronus), Gaia (not Gaea), Kypros (not Cyprus), Kythereia (not Cytherea), Kyklopes (not Cyclopes). Established English collectives are retained (the Muses, the Graces, Desire for Himeros). This is the Evelyn-White default (option 1 of the THEO-1 question).",
+   "claim_type": "direct",
+   "rationale": "The transliterate-personified-theonyms / gloss-common-nouns policy is standard scholarly practice for translating archaic Greek theogonic verse and matches the reference edition's own usage; it is a presentation convention, not an interpretive claim, so it carries no lens. Retaining the Greek (rather than Latinized) forms follows current Loeb practice (Most 2006) and the Perseus source orthography, and keeps the theonyms auditable against the Greek text. The common-noun/personified boundary is genuinely fluid in the cosmogony and is fixed line-by-line by the dedicated boundary entry (`ouranos-gaia-cosmogony-personification-boundary-theogony`); this meta-entry records only the project-wide convention and the chapter title. The chapter title is descriptive of what the text narrates (Chaos → the ordered cosmos under Zeus) and lens-free.",
+   "appliesTo": [
+    "THEO-1",
+    "THEO-20",
+    "THEO-233",
+    "THEO-411",
+    "THEO-453",
+    "THEO-507",
+    "THEO-617"
+   ]
+  },
+  {
+   "id": "aigiochos-aegis-bearer-zeus-epithet-theogony",
+   "source": "ὑμνεῦσαι Δία τʼ αἰγίοχον; κούρην τʼ αἰγιόχοιο Διός; κοῦραι Διὸς αἰγιόχοιο",
+   "translit": "aigiochos / aigiochoio",
+   "strongs": "LSJ s.v. αἰγίοχος; Chantraine, DELG s.v. αἰγίς; West 1966, comm. ad 11",
+   "lemma": "αἰγίοχος (aigiochos)",
+   "partOfSpeech": "Greek adjective — recurring epithet of Zeus, 'aegis-holding'",
+   "literal": "aegis-holding / aegis-bearing",
+   "standardEnglish": "who holds the aegis / aegis-holding (Evelyn-White 1914); aegis-bearing (Most 2006)",
+   "wohChoice": "'who holds the aegis' / 'aegis-holding' retained (Evelyn-White); the *aigis* itself left untranslated as a fixed cultic object",
+   "claim_type": "direct",
+   "rationale": "*αἰγίοχος* (aigiochos) is Zeus's stock Homeric-Hesiodic epithet, recurring in Block A at 11, 13, 25 and 52; it is a transparent compound *aig-* + *-οχος* (< *ἔχω* 'hold, bear'), and the received sense 'holding/bearing the aegis' (Zeus's storm-shield or goatskin) is the consensus rendering across editions. A minority etymology derives the first element not from *αἰγίς* but from the storm-verb *ἀΐσσω* 'to rush, dart' (Chantraine, DELG), which would give a weather-god sense, but this does not change the received translation. The Editor retains Evelyn-White's 'aegis-holding' and leaves *aigis* untranslated as a technical cultic object, adding no divergence from the reference; the entry is recorded for auditability of the recurring epithet. No lens is carried.",
+   "appliesTo": [
+    "THEO-11",
+    "THEO-13",
+    "THEO-25",
+    "THEO-52",
+    "THEO-735"
+   ]
+  },
+  {
+   "id": "pseudea-etyma-alethea-muses-truth-crux-theogony",
+   "source": "ἴδμεν ψεύδεα πολλὰ λέγειν ἐτύμοισιν ὁμοῖα, / ἴδμεν δʼ, εὖτʼ ἐθέλωμεν, ἀληθέα γηρύσασθαι",
+   "translit": "idmen pseudea polla legein etymoisin homoia; idmen d' eut' ethelōmen alēthea gērysasthai",
+   "strongs": "LSJ s.v. ἔτυμος, ἀληθής, ψεῦδος; West 1966, comm. ad 27–28; Puelma 1989; Pucci 1977; cf. Odyssey 19.203",
+   "lemma": "ψεύδεα; ἔτυμα; ἀληθέα",
+   "partOfSpeech": "Greek nouns/adjectives — the Muses' truth-declaration crux (27–28)",
+   "literal": "false things resembling genuine ones (27); true things (28)",
+   "standardEnglish": "'false things like to true things … true things' (Evelyn-White 1914, rendering both ἐτύμοισιν and ἀληθέα 'true'); 'false things similar to genuine ones … true things' (Most 2006, distinguishing genuine from true)",
+   "wohChoice": "distinguish ἔτυμα 'genuine/real/actual' (27) from ἀληθέα 'true/unconcealed' (28), following Most 2006 against Evelyn-White; SURFACE CHANGE at 27 ('like to true things' → 'that resemble genuine ones')",
+   "claim_type": "inferred",
+   "rationale": "Lines 27–28 are the Muses' celebrated self-declaration (modelled on Odyssey 19.203, *ἴσκε ψεύδεα πολλὰ λέγων ἐτύμοισιν ὁμοῖα*) and a long-standing crux: the relation of *ψεύδεα … ἐτύμοισιν ὁμοῖα* 'falsehoods resembling ἔτυμα' to *ἀληθέα* 'true things' turns on whether *ἔτυμα* ('genuine, real, actual') and *ἀληθέα* ('un-concealed, true') are distinguished or near-synonymous (Puelma 1989; Pucci 1977; Ferrari). Evelyn-White collapses the two by rendering both 'true'; the Editor follows the current Loeb (Most 2006) in exposing the lexical contrast — 'genuine' for *ἐτύμοισιν* (27), 'what is true' for *ἀληθέα* (28) — which is the more precise philological rendering and the reason the claim_type is `inferred` rather than `direct` (the distinction is defended by named scholarship but is not universally accepted). This is the single surface change in Block A; it is purely lexical and does NOT adopt the stronger interpretive reading (option 3) that the lines assert the Muses' power to make fiction indistinguishable from truth. **Lens-discipline note:** the demythologizing implication — that an inspired tradition may transmit truth mixed with plausible falsehood, to be read critically for a historical kernel — is precisely the Wheel-of-Heaven-congenial reading; it is documented in commentary as clearly-marked interpretation and is kept OUT of the translated line, which says only what the Greek says.",
+   "appliesTo": [
+    "THEO-27",
+    "THEO-28"
+   ]
+  },
+  {
+   "id": "ankylometes-crooked-counsel-kronos-epithet-theogony",
+   "source": "Κρόνον ἀγκυλομήτην; Κρόνος ἀγκυλομήτης",
+   "translit": "ankylomētēs",
+   "strongs": "LSJ s.v. ἀγκυλομήτης; Chantraine, DELG s.v. μῆτις; West 1966, comm. ad 18",
+   "lemma": "ἀγκυλομήτης (ankylomētēs)",
+   "partOfSpeech": "Greek adjective — recurring epithet of Kronos, 'of crooked counsel'",
+   "literal": "crooked-counseled / of crooked cunning",
+   "standardEnglish": "of crooked counsel / wily (Evelyn-White 1914; Most 2006)",
+   "wohChoice": "'of the crooked counsel' retained (Evelyn-White); the *harpē*/sickle folk-association ('crooked-sickled') noted in commentary, not adopted",
+   "claim_type": "direct",
+   "rationale": "*ἀγκυλομήτης* (ankylomētēs), the recurring epithet of Kronos (18, 137, 168), is standardly analysed as *ἀγκυλο-* 'crooked, bent' + *μῆτις* 'counsel, cunning, cleverness', hence 'of crooked counsel, crafty, wily' (LSJ; West 1966) — the consensus reading across editions. A folk-association instead links the first element to the *ἅρπη*, the crooked sickle Kronos wields to castrate Ouranos (161–162, 175, 179), suggesting 'crooked-sickled'; this is a secondary poetic resonance (the sickle is indeed καρχαρόδοντα 'jagged' and πελώριον 'huge' in the episode) but not the primary lexical sense. The Editor retains Evelyn-White's 'of crooked counsel' and records the sickle-pun as a noted-but-not-adopted resonance in commentary; no divergence from the reference, no lens.",
+   "appliesTo": [
+    "THEO-18",
+    "THEO-137",
+    "THEO-168",
+    "THEO-473",
+    "THEO-495"
+   ]
+  },
+  {
+   "id": "kratos-phertatos-sovereignty-vocabulary-theogony",
+   "source": "ὅσσον φέρτατός ἐστι θεῶν κράτεί τε μέγιστος",
+   "translit": "phertatos … kratei … megistos",
+   "strongs": "LSJ s.v. κράτος, φέρτατος; West 1966, comm.",
+   "lemma": "κράτος; φέρτατος",
+   "partOfSpeech": "Greek noun + adjective — the poem's vocabulary of sovereign might",
+   "literal": "mightiest … greatest in might/power",
+   "standardEnglish": "the mightiest of the gods and greatest in power (Evelyn-White 1914; cf. Most 2006)",
+   "wohChoice": "'mightiest of the gods and greatest in power' retained (Evelyn-White); *κράτος* rendered 'power' and tracked as the Theogony's sovereignty-word",
+   "claim_type": "direct",
+   "rationale": "At 49 the Muses sing 'how far Zeus is *φέρτατος* of the gods and *κράτεϊ … μέγιστος*' — *φέρτατος* 'best, foremost, mightiest' and *κράτος* 'might, strength, sovereign power, dominion', the poem's programmatic language for Zeus's supremacy. The reference rendering 'the mightiest of the gods and greatest in power' is retained; *φέρτατος* is stronger than a bare 'best' here because the whole clause concerns Zeus's victory-won rule (73–74), and 'mightiest' captures that. *κράτος* is flagged as the Theogony's key sovereignty-term — it is personified later as Κράτος 'Might', Zeus's enforcer-ally at 385 (outside Block A) — so its rendering is tracked for consistency across the composition. No divergence from the reference and no lens; the entry standardizes the sovereignty vocabulary for later blocks.",
+   "appliesTo": [
+    "THEO-49",
+    "THEO-385",
+    "THEO-403",
+    "THEO-647",
+    "THEO-662"
+   ]
+  },
+  {
+   "id": "gigantes-hesiodic-earthborn-vs-nephilim-theogony",
+   "source": "αὖτις δʼ ἀνθρώπων τε γένος κρατερῶν τε Γιγάντων; γείνατʼ Ἐρινῦς τε κρατερὰς μεγάλους τε Γίγαντας",
+   "translit": "Gigantes / Gigantas",
+   "strongs": "LSJ s.v. Γίγας; Septuagint Gen 6:4 (γίγαντες = נְפִילִים / הַגִּבֹּרִים); West 1966, comm. ad 185; Hansen 2004, Handbook of Classical Mythology",
+   "lemma": "Γίγαντες (Gigantes)",
+   "partOfSpeech": "Greek noun — the earth-born Giants",
+   "literal": "the Giants (earth-born, γηγενεῖς)",
+   "standardEnglish": "the Giants (Evelyn-White 1914; Most 2006)",
+   "wohChoice": "translate 'Giants' (Evelyn-White); the Hesiodic earth-born Giants held DISTINCT from the biblical/Enochic Nephilim; the shared Septuagint lexeme γίγαντες documented as comparative apparatus only, NOT as an identity",
+   "claim_type": "inferred",
+   "rationale": "The Hesiodic *Γίγαντες* (50; born at 185) are *γηγενεῖς* 'earth-born', sprung — together with the Erinyes and the ash-tree Meliai — from the blood-drops of the castrated Ouranos that Gaia receives (183–187); they are a distinct mythic class from the biblical *Nephilim* / *gibbōrîm* of Genesis 6:4 and the Watcher-progeny of 1 Enoch 6–7, who are hybrid offspring of divine beings and human women. The Editor therefore translates 'Giants' with the reference and does NOT link the text to the Nephilim in the translated line. What THIS entry records — and the reason the claim_type is `inferred` — is the genuine translation-history datum that the Septuagint renders both *Nephilim* and *gibbōrîm* at Genesis 6:4 with the very word *γίγαντες*, so that Hesiod's Greek term is the shared lexical hinge of the later Greco-Jewish and Christian 'giants' tradition; this is a comparative-philology observation for the apparatus, not an assertion that the two classes are the same. The production glossary's cross-corpus entry `nephilim-giants-1-enoch-7-gen-6-4-cross-corpus` is deliberately NOT extended to any THEO-* refId (its scope stays Enoch/Genesis/Jubilees); the Editor's recommendation against extension, with the exact optional spec, is in the report's 'CENTRAL — apply by orchestrator' section. **Lens-discipline note:** the ancient-astronaut-adjacent temptation to fuse all 'giant' traditions into one referent is declined; the line says 'Giants' and the shared-word link stays in commentary.",
+   "appliesTo": [
+    "THEO-50",
+    "THEO-185"
+   ]
+  },
+  {
+   "id": "chaos-primordial-chasm-void-theogony",
+   "source": "ἦ τοι μὲν πρώτιστα Χάος γένετʼ; ἐκ Χάεος δʼ Ἔρεβός τε μέλαινά τε Νὺξ ἐγένοντο",
+   "translit": "Chaos / Chaeos",
+   "strongs": "LSJ s.v. χάος, χαίνω/χάσκω; West 1966, comm. ad 116; Kirk–Raven–Schofield 1983, The Presocratic Philosophers",
+   "lemma": "Χάος (Chaos)",
+   "partOfSpeech": "Greek noun — the primordial gap/void, first to come to be",
+   "literal": "the gaping void, the chasm, the yawning gap",
+   "standardEnglish": "Chaos (Evelyn-White 1914; Most 2006 — transliterated, sense left open)",
+   "wohChoice": "transliterate 'Chaos'; sense fixed in commentary as the primordial 'gap / chasm / yawning void' (√χα-, West 1966), NOT the later 'disorder/confusion'",
+   "claim_type": "direct",
+   "rationale": "*Χάος* at 116 is the first thing to come to be (*πρώτιστα … γένετο*); the Editor keeps it transliterated with the reference editions, but fixes its sense by etymology in commentary. Deriving from the root *χα-* (*χαίνω/χάσκω* 'to gape, yawn'), Hesiod's Chaos is the primordial 'gap, chasm, yawning void' — a spatial opening — and emphatically NOT the post-classical 'disordered confused mass' familiar from Ovid's *Metamorphoses*; this is the settled scholarly reading (West 1966; Kirk–Raven–Schofield 1983), which is why the claim_type is `direct`. The translation does not translate the word (to write 'the Chasm' in the line would over-determine a transliterated proper-name that the tradition keeps as *Chaos*), but the note supplies the correct sense so the reader is not misled by the modern meaning. **Lens-discipline note:** that Chaos *γένετο* 'came to be' spontaneously, with no creator and no creative act, is a structural feature of Hesiod's cosmogony worth flagging against creator-cosmogonies (e.g. Genesis); this comparative observation is confined to commentary and is not pressed into any canon reading.",
+   "appliesTo": [
+    "THEO-116",
+    "THEO-123"
+   ]
+  },
+  {
+   "id": "eros-primordial-cosmogonic-principle-theogony",
+   "source": "ἠδʼ Ἔρος, ὃς κάλλιστος ἐν ἀθανάτοισι θεοῖσι, / λυσιμελής …",
+   "translit": "Eros",
+   "strongs": "LSJ s.v. ἔρος/ἔρως; West 1966, comm. ad 120; Kirk–Raven–Schofield 1983",
+   "lemma": "Ἔρος (Eros)",
+   "partOfSpeech": "Greek noun / theonym — the primordial cosmogonic Eros",
+   "literal": "Eros — desire/attraction as a generative principle",
+   "standardEnglish": "Eros (Evelyn-White 1914; Most 2006 — transliterated)",
+   "wohChoice": "transliterate 'Eros'; the primordial cosmogonic-principle role marked in commentary; distinguished from the later Eros who attends Aphrodite (201)",
+   "claim_type": "direct",
+   "rationale": "*Ἔρος* at 120 is among the very first entities to come to be — after Chaos, Gaia and Tartaros, and before any sexual genealogy — so he is a primordial cosmogonic principle, the power of attraction and generation that will drive all the pairings of the subsequent theogony (West 1966; Kirk–Raven–Schofield 1983), described as *λυσιμελής* 'limb-loosener' who 'overpowers the mind and prudent counsel' of gods and men (121–122). The Editor keeps 'Eros' transliterated with the reference rather than translating 'Love' or 'Desire', because rendering him as an abstract force in the line would over-determine what the text presents as a named primordial entity; the cosmogonic role is instead marked in commentary. He is expressly distinguished from the later Eros who accompanies the new-born Aphrodite (201) and who, in post-Hesiodic tradition, becomes her son — two different figures sharing the name. No lens is carried; the primordial-principle reading is mainstream and stays in the apparatus.",
+   "appliesTo": [
+    "THEO-120",
+    "THEO-201"
+   ]
+  },
+  {
+   "id": "ouranos-gaia-cosmogony-personification-boundary-theogony",
+   "source": "γαῖα (108) / Γαῖα (117); οὐρανὸς εὐρὺς ὕπερθεν (110), οὐρανῷ ἐμβασιλεύει (71) / Οὐρανὸν ἀστερόενθʼ (127)",
+   "translit": "gaia/Gaia; ouranos/Ouranos",
+   "strongs": "LSJ s.v. γαῖα, οὐρανός; West 1966, comm. ad 108, 116–128",
+   "lemma": "Γαῖα (gaia); Οὐρανός (ouranos)",
+   "partOfSpeech": "Greek nouns/theonyms — the personified-vs-common-noun boundary for the cosmogonic pair",
+   "literal": "earth / the Earth-goddess; sky, heaven / the Sky-god",
+   "standardEnglish": "'the earth' (108) and 'the wide heaven' (110) as common nouns; the deities Gaia and Ouranos elsewhere (Evelyn-White 1914)",
+   "wohChoice": "common noun at 71 ('heaven'), 108 ('the earth') and 110 ('the wide heaven'); the personified deities elsewhere; the onset of personification fixed at 126–127; Γῆ (106) normalized to the standard form Gaia",
+   "claim_type": "direct",
+   "rationale": "*γαῖα* and *οὐρανός* shift between the physical element and the personified deity across Block A, and the Editor fixes the boundary line-by-line with Evelyn-White. In the proem's physical catalogue (108–110: gods, earth, rivers, sea, stars, heaven), *γαῖα* (108) and *οὐρανὸς εὐρὺς ὕπερθεν* (110) are common nouns 'the earth' and 'the wide heaven', as is *οὐρανῷ ἐμβασιλεύει* 'reigns in heaven' of Zeus (71); the register is genuinely ambiguous at 108, since the same word is personified and born as a goddess nine lines later (117, *Γαῖʼ εὐρύστερνος*). The onset of personification for Ouranos is fixed at 126–127, where Gaia bears him 'equal to herself … that he might cover her all about', after which he acts as her consort (133); in the proem (45, 106) 'Gaia and Ouranos' already names the divine parental pair by anticipation. At 106 the Greek genitive *Γῆς* (Gē) is normalized to the standard transliteration Gaia used throughout, per the name convention. This is the reference reading; no lens is carried, and the entry exists to make the fluid boundary auditable.",
+   "appliesTo": [
+    "THEO-45",
+    "THEO-71",
+    "THEO-106",
+    "THEO-108",
+    "THEO-110",
+    "THEO-117",
+    "THEO-126",
+    "THEO-127",
+    "THEO-133",
+    "THEO-238",
+    "THEO-300",
+    "THEO-335",
+    "THEO-346",
+    "THEO-365",
+    "THEO-373",
+    "THEO-382",
+    "THEO-413",
+    "THEO-414",
+    "THEO-421",
+    "THEO-427",
+    "THEO-461",
+    "THEO-463",
+    "THEO-470",
+    "THEO-479",
+    "THEO-486",
+    "THEO-494",
+    "THEO-502",
+    "THEO-505",
+    "THEO-517",
+    "THEO-626",
+    "THEO-644",
+    "THEO-679",
+    "THEO-685",
+    "THEO-693",
+    "THEO-702"
+   ]
+  },
+  {
+   "id": "athetized-lines-convention-theogony",
+   "source": "111 (verbatim = 46); 118; 196 — bracketed in the Perseus/Evelyn-White edition",
+   "translit": "(apparatus / meta)",
+   "strongs": "West 1966 (apparatus criticus); Perseus tlg0020.tlg001.perseus-grc2 (<del> markup)",
+   "lemma": "(athetesis convention)",
+   "partOfSpeech": "convention: treatment of athetized/bracketed lines",
+   "literal": "(not applicable — apparatus)",
+   "standardEnglish": "bracketed / athetized as suspected interpolations (West 1966; Perseus <del>)",
+   "wohChoice": "retain and translate the transmitted lines unmarked in the surface; record the athetesis in commentary",
+   "claim_type": "direct",
+   "rationale": "Three lines within Block A are bracketed (athetized) in the Perseus/Evelyn-White digital text: 111, which repeats 46 verbatim (*οἵ τʼ ἐκ τῶν ἐγένοντο θεοί, δωτῆρες ἐάων*) and is widely judged an interpolation carried over from the earlier passage; 118, suspected as an expansion of the 'seat of the immortals' formula (cf. 128); and 196, a likely anticipatory gloss supplying the cult-titles that 197–198 then etymologize (West 1966). Per project convention the transmitted lines are retained and translated so the reader has the full received text, and the brackets are NOT reproduced in the reading surface; the athetesis is instead recorded in the per-line commentary so the text-critical status stays visible and auditable. This is a presentation convention with no interpretive content and no lens; it simply makes the apparatus transparent to the reader.",
+   "appliesTo": [
+    "THEO-111",
+    "THEO-118",
+    "THEO-196",
+    "THEO-323",
+    "THEO-324",
+    "THEO-496",
+    "THEO-576",
+    "THEO-577",
+    "THEO-591"
+   ]
+  },
+  {
+   "id": "titanes-folk-etymology-theogony",
+   "source": "τοὺς δὲ πατὴρ Τιτῆνας ἐπίκλησιν καλέεσκε … / φάσκε δὲ τιταίνοντας ἀτασθαλίῃ μέγα ῥέξαι / ἔργον, τοῖο δʼ ἔπειτα τίσιν μετόπισθεν ἔσεσθαι",
+   "translit": "Titēnes; titainontas; tisis",
+   "strongs": "LSJ s.v. Τιτάν, τιταίνω, τίσις; West 1966, comm. ad 207–210",
+   "lemma": "Τιτῆνες (Titēnes)",
+   "partOfSpeech": "Greek noun + verb + noun — the Titans and Hesiod's folk-etymology of the name",
+   "literal": "the Titans; 'straining/overreaching' (titainontas); 'requital/retribution' (tisis)",
+   "standardEnglish": "Titans; straining; requital / vengeance (Evelyn-White 1914)",
+   "wohChoice": "transliterate 'Titans'; render *τιταίνοντας* 'straining/overreaching' and *τίσιν* 'requital' literally; the τιταίνω~Τιτῆνες / τίσις double pun left visible only in the Greek",
+   "claim_type": "direct",
+   "rationale": "At 207–210 Hesiod supplies his own folk-etymology of the *Τιτῆνες* (Titans): Ouranos names his sons *Titēnas* while reproaching them, saying that 'straining' (*τιταίνοντας*, from *τιταίνω* 'to stretch, strain, overreach') in their presumption they wrought a great deed, for which there would afterward be 'requital' (*τίσιν*, from *τίσις* 'retribution, vengeance'). The passage turns on a double play — *τιταίνω* ~ *Τιτῆνες*, and the assonant *τίσις* — that cannot be reproduced in English; the Editor renders the pun-words literally ('straining', 'requital'), leaving the wordplay visible only in the Greek, and rejects both manufacturing an English pun (which would distort the sense) and an inline gloss (which would clutter the line). The etymology is Hesiod's own poetic invention: the actual origin of the name *Τιτᾶνες* is unknown to modern philology (West 1966). No lens is carried; the wordplay is explained in commentary.",
+   "appliesTo": [
+    "THEO-207",
+    "THEO-208",
+    "THEO-209",
+    "THEO-210",
+    "THEO-392",
+    "THEO-424",
+    "THEO-630",
+    "THEO-632",
+    "THEO-648",
+    "THEO-650",
+    "THEO-663",
+    "THEO-668",
+    "THEO-674",
+    "THEO-676",
+    "THEO-697",
+    "THEO-717",
+    "THEO-729"
+   ]
+  },
+  {
+   "id": "personified-abstractions-nyx-eris-brood-theogony",
+   "source": "νὺξ δʼ ἔτεκεν στυγερόν τε Μόρον καὶ Κῆρα μέλαιναν … (211); αὐτὰρ Ἔρις στυγερὴ τέκε μὲν Πόνον ἀλγινόεντα … (226); Ζῆλον καὶ Νίκην … καὶ Κράτος ἠδὲ Βίην (384–385)",
+   "translit": "Moros, Kēr, Thanatos, Hypnos, Oneiroi, Mōmos, Oizys, Moirai, Nemesis, Apatē, Philotēs, Gēras, Eris; Ponos, Lēthē, Limos, Algea, Hysminai, Machai, Phonoi, Androktasiai, Neikea, Logoi, Amphillogiai, Dysnomiē, Atē, Horkos; Zēlos, Nikē, Kratos, Biē",
+   "strongs": "LSJ s.vv.; West 1966, comm. ad 211–232, 383–385; Evelyn-White 1914",
+   "lemma": "the personified abstractions of Nyx's and Eris's brood (211–232) and of Styx (384–385)",
+   "partOfSpeech": "convention: translation policy for the personified-abstraction catalogues",
+   "literal": "Doom, Fate, Death, Sleep, Dreams, Blame, Woe, Deceit, Age, Strife; Toil, Forgetfulness, Famine, Pains, Combats, Battles, Murders, Slaughters, Quarrels, Words, Disputes, Lawlessness, Ruin, Oath (transparent-meaning personifications)",
+   "standardEnglish": "the transparent meanings translated (Doom, Death, Sleep, Strife, Toil, Oath …), with the more name-like members transliterated (Klotho, Lachesis, Atropos; Nemesis; Zelos, Nike, Kratos, Bia) (Evelyn-White 1914)",
+   "wohChoice": "translate the transparent meanings of the abstractions (Doom, Death, Sleep, Toil, Famine, Battles, Oath …) and transliterate only the more name-like or cult-established members — the Fates Klotho/Lachesis/Atropos (218), Nemesis (223), and Styx's children Zelos/Nike/Kratos/Bia (384–385); no parenthetical gloss (option 1 of THEO-211, = Evelyn-White)",
+   "claim_type": "direct",
+   "rationale": "Nyx's parthenogenetic brood (211–232) and, in parallel, Eris's children and Styx's children (384–385) are transparent personified abstractions whose names *are* their meanings; translating them (Doom, Death, Toil, Oath) is standard scholarly practice and matches the reference edition (Evelyn-White 1914), so the policy carries no interpretive content and no lens. The Block A name-convention entry (which transliterates the *cosmic* theonyms Chaos, Gaia, Nyx, Erebos, Eros …) is deliberately NOT extended wholesale here: its own stated scope is the primordial cosmic entities, and extending transliteration to the abstractions would suppress the very sense the catalogue exists to enumerate. Transliteration is reserved, exactly as Evelyn-White reserves it, for the members that function as fixed names rather than as running common nouns — the three Moirai (whose individual names Klotho/Lachesis/Atropos are opaque, not transparent), Nemesis, and the cult-established Zelos/Nike/Kratos/Bia who reappear as Zeus's enforcer-retinue (385, cf. the Block A *kratos-phertatos* entry). The boundary is therefore the reference edition's own, drawn line-by-line; the entry records it for auditability across the block.",
+   "appliesTo": [
+    "THEO-211",
+    "THEO-212",
+    "THEO-214",
+    "THEO-217",
+    "THEO-218",
+    "THEO-223",
+    "THEO-224",
+    "THEO-225",
+    "THEO-226",
+    "THEO-227",
+    "THEO-228",
+    "THEO-229",
+    "THEO-230",
+    "THEO-231",
+    "THEO-384",
+    "THEO-385"
+   ]
+  },
+  {
+   "id": "catalogue-speaking-names-transliteration-theogony",
+   "source": "Πλωτώ τʼ Εὐκράντη τε Σαώ τʼ Ἀμφιτρίτη τε … (243); Νημερτής θʼ, ἣ πατρὸς ἔχει νόον ἀθανάτοιο (262); Πειθώ τʼ Ἀδμήτη τε Ἰάνθη τʼ Ἠλέκτρη τε … (349)",
+   "translit": "Plōtō, Eukrantē, Galēnē, Kymothoē, Pontoporeia, Nēmertēs (Nereids 243–262); Peithō, Ploutō, Kalliroē, Ourania, Metis, Eurynomē (Okeanids 349–361)",
+   "strongs": "LSJ s.vv.; West 1966, comm. ad 240–264, 346–366; Evelyn-White 1914",
+   "lemma": "the speaking-names of the Nereid (243–262) and Okeanid (349–361) catalogues",
+   "partOfSpeech": "convention: treatment of transparent 'speaking-names' in the divine catalogues",
+   "literal": "e.g. Ploto 'Sailer', Galene 'Calm', Kymothoe 'Wave-swift', Pontoporeia 'Sea-faring', Nemertes 'Unerring', Peitho 'Persuasion', Plouto 'Wealth'",
+   "standardEnglish": "transliterated as proper names, senses not glossed (Evelyn-White 1914)",
+   "wohChoice": "transliterate the transparent speaking-names of the Nereid (243–262) and Okeanid (349–361) catalogues as proper names, without translating or glossing each sense (option 1 of THEO-240, = Evelyn-White); a name whose sense is thematically pointed is flagged in per-line commentary (Nemertes 262 ~ Nereus's νημερτής 235), not in the surface",
+   "claim_type": "direct",
+   "rationale": "The fifty Nereids (243–262) and the Okeanid roll (349–361) are litanies of transparent 'speaking-names' — Ploto 'Sailer', Galene 'Calm', Kymothoe 'Wave-swift', Pontoporeia 'Sea-faring', Peitho 'Persuasion', Plouto 'Wealth' — and, with Evelyn-White and every standard translation, they are transliterated as proper names rather than translated; a catalogue of names is not a catalogue of common nouns, and rendering each meaning would convert a roll-call into a word-list and misrepresent the genre. This is a presentation convention shared by the reference edition, so it carries no interpretive claim and no lens. Where a name's sense is structurally significant — Nemertes 'Unerring' (262), the last Nereid, whose name reprises her father Nereus's defining epithet *νημερτής* (235) — the point is carried in commentary and left out of the surface, keeping the translated line a plain proper name. The convention is recorded once and governs both catalogues; the river-name catalogue (338–345), which raises the distinct entrenched-exonym question, is handled by its own entry.",
+   "appliesTo": [
+    "THEO-240",
+    "THEO-243",
+    "THEO-262",
+    "THEO-349",
+    "THEO-361"
+   ]
+  },
+  {
+   "id": "graiai-grey-ones-folk-etymology-theogony",
+   "source": "Φόρκυϊ δʼ αὖ Κητὼ Γραίας τέκε καλλιπαρῄους / ἐκ γενετῆς πολιάς, τὰς δὴ Γραίας καλέουσιν",
+   "translit": "Graias … ek genetēs polias … Graias kaleousin",
+   "strongs": "LSJ s.v. γραῖα, γραῦς, πολιός; West 1966, comm. ad 270–271; Chantraine, DELG s.v. γέρων/γραῦς",
+   "lemma": "Γραῖαι (Graiai)",
+   "partOfSpeech": "Greek noun — the Graiai, with Hesiod's folk-etymology of the name",
+   "literal": "the Grey Ones / the Old Women (γραῖαι); 'grey (πολιαί) from birth'",
+   "standardEnglish": "the Graeae (Evelyn-White 1914, Latinized); 'grey from their birth'",
+   "wohChoice": "transliterate 'Graiai' (Greek form, not the Latinized 'Graeae') and render the etymologizing epithet *πολιάς* 'grey from birth' literally, leaving the *Graiai* ~ 'grey/old woman' folk-etymology visible only in the Greek (option 1 of THEO-270); do not translate the name 'the Grey Ones'",
+   "claim_type": "direct",
+   "rationale": "At 270–271 Hesiod names the daughters of Phorkys and Keto *Graiai* and immediately motivates the name: they are *ἐκ γενετῆς πολιάς* 'grey from their birth', so that *Graiai* is heard as 'the Grey/Old Women' (√ of *γραῦς* 'old woman', *πολιός* 'grey'). As with the Titans (207–210, the Block A *titanes-folk-etymology* entry), the wordplay cannot be reproduced in English, and the Editor renders the pun-word literally ('grey from their birth') while transliterating the name, leaving the etymology audible only in the Greek — declining both a manufactured English pun and an inline gloss. The Greek form 'Graiai' (not the Latinized 'Graeae') follows the Block A name convention. No lens is carried; the folk-etymology is Hesiod's own and is explained in commentary.",
+   "appliesTo": [
+    "THEO-270",
+    "THEO-271",
+    "THEO-272"
+   ]
+  },
+  {
+   "id": "pegasos-chrysaor-folk-etymology-theogony",
+   "source": "ἔκθορε Χρυσαωρ τε μέγας καὶ Πήγασος ἵππος (281); τῷ μὲν ἐπώνυμον ἦεν, ὅτʼ Ὠκεανοῦ περὶ πηγὰς / γένθʼ (282–283); ὃ δʼ ἄορ χρύσειον ἔχων μετὰ χερσὶ φίλῃσιν (283)",
+   "translit": "Pēgasos ~ pēgai (282); Chrysaōr ~ aor chryseion (283)",
+   "strongs": "LSJ s.v. πηγή, ἄορ; West 1966, comm. ad 281–283",
+   "lemma": "Πήγασος (Pēgasos); Χρυσάωρ (Chrysaōr)",
+   "partOfSpeech": "Greek proper names + Hesiod's folk-etymologies (springs; golden blade)",
+   "literal": "Pegasos ~ πηγαί 'springs'; Chrysaor ~ χρυσ- 'gold' + ἄορ 'sword/blade'",
+   "standardEnglish": "Pegasus, Chrysaor (Evelyn-White 1914, Latinized 'Pegasus'); etymologies left implicit",
+   "wohChoice": "render the etymologizing clauses literally — Pegasos 'born beside the springs (πηγαί) of Okeanos' (282), Chrysaor 'holding a golden blade (ἄορ χρύσειον)' (283) — leaving the name-plays visible only in the Greek (option 1 of THEO-282, as with the Titans); Greek forms 'Pegasos'/'Chrysaor'; the source misspelling *Χρυσαωρ* (missing final accent) at 281 is kept verbatim in the text field, corrected only to the standard form in translit/translation",
+   "claim_type": "direct",
+   "rationale": "Lines 281–283 supply two folk-etymologies of the beings sprung from Medusa's severed neck: *Pēgasos* is named because he was born beside the *pēgai* 'springs' of Okeanos (282), and *Chrysaōr* because he held an *ἄορ χρύσειον* 'golden blade' at birth (283, *chrys-* 'gold' + *aōr* 'sword'). As with the Titan etymology (207–210), the assonant wordplay cannot survive translation, so the Editor renders the explanatory clauses literally and leaves the *Pēgasos* ~ *pēgai* and *Chrysaōr* ~ *aōr* plays audible only in the Greek, declining both a manufactured English pun and an inline gloss. A source-fidelity point is recorded here: the Perseus edition prints the unaccented *Χρυσαωρ* at 281 (against the correct *Χρυσάωρ* at 287), and the transmitted spelling is preserved in the source *text* field rather than silently corrected, with the standard form given only in the transliteration and the English. Greek forms are used ('Pegasos', not the Latin 'Pegasus'); no lens is carried.",
+   "appliesTo": [
+    "THEO-281",
+    "THEO-282",
+    "THEO-283",
+    "THEO-287"
+   ]
+  },
+  {
+   "id": "ophis-drakon-serpent-vocabulary-theogony",
+   "source": "ἥμισυ δʼ αὖτε πέλωρον ὄφιν δεινόν τε μέγαν τε (299); ἣ δʼ ὄφιος, κρατεροῖο δράκοντος (322); ὄπιθεν δὲ δράκων (323); γείνατο δεινὸν ὄφιν (334)",
+   "translit": "ophis (299, 334); drakōn (322, 323); nymphē (298, 305)",
+   "strongs": "LSJ s.v. ὄφις, δράκων, νύμφη; West 1966, comm. ad 295–336; Evelyn-White 1914",
+   "lemma": "ὄφις (ophis); δράκων (drakōn); νύμφη (nymphē)",
+   "partOfSpeech": "Greek nouns — the serpent/monster vocabulary of the Echidna–Chimaira sequence",
+   "literal": "ophis 'serpent, snake'; drakōn 'serpent, dragon'; nymphē 'nymph, minor goddess / bride'",
+   "standardEnglish": "serpent (ophis), snake/dragon (drakōn), nymph (nymphē) (Evelyn-White 1914, no fixed distinction)",
+   "wohChoice": "render *ophis* 'serpent' (299, 334) and *drakōn* 'dragon' (322–323) as the context of each line invites, without imposing a fixed technical distinction the Greek does not mark; *nymphē* 'nymph' (298, 305) (option 1 of THEO-299, = Evelyn-White); the antecedent of 'she' at 295 (mother of Echidna) is taken as Keto in sense, with the crux noted",
+   "claim_type": "direct",
+   "rationale": "In the Echidna–Chimaira sequence *ὄφις* 'serpent' (299, 334) and *δράκων* 'serpent, dragon' (322–323) are used of the same order of creature and are largely synonymous in early Greek epic; LSJ and the commentators do not report a stable *ophis*/*drakōn* opposition, and Evelyn-White accordingly varies 'serpent'/'dragon' by context without a technical rule. The Editor keeps that practice and declines option 2 (manufacturing a consistent English serpent-vs-dragon distinction), because a fixed mapping would assert a lexical contrast the source does not carry. *νύμφη* is rendered 'nymph' in its plain sense (a minor female divinity), here of the maiden-and-serpent Echidna (298), recurring at 305. The mother of Echidna at 295 (*ἣ δʼ ἔτεκʼ*) is grammatically ambiguous — the nearest antecedent is Kalliroe (288), but the summarizing 'race of Keto and Phorkys' (336) leads Evelyn-White and most editors to supply Keto; the translation keeps the bare 'she' and follows the Keto reading, flagging the crux in commentary rather than silently resolving it. No lens is carried.",
+   "appliesTo": [
+    "THEO-295",
+    "THEO-298",
+    "THEO-299",
+    "THEO-305",
+    "THEO-322",
+    "THEO-323",
+    "THEO-334"
+   ]
+  },
+  {
+   "id": "ein-arimoisin-crux-theogony",
+   "source": "ἣ δʼ ἔρυτʼ εἰν Ἀρίμοισιν ὑπὸ χθονὶ λυγρὴ Ἔχιδνα",
+   "translit": "ein Arimoisin",
+   "strongs": "LSJ s.v. Ἄριμα/Ἄριμοι; West 1966, comm. ad 304; Homer, Iliad 2.783; Strabo 13.4.6",
+   "lemma": "(εἰν) Ἀρίμοισιν (ein Arimoisin)",
+   "partOfSpeech": "Greek dative plural — a long-standing people/place crux",
+   "literal": "'among the Arimoi' (a people) OR 'in Arima' (a place)",
+   "standardEnglish": "'in the land of the Arimi' (Evelyn-White 1914, leaning to the place-reading)",
+   "wohChoice": "'among the Arimoi', reading Ἀρίμοισιν as the dative plural of a people — a small refinement away from Evelyn-White's place-leaning 'in the land of the Arimi'; the location is left unglossed (option 1 of THEO-304)",
+   "claim_type": "inferred",
+   "rationale": "*εἰν Ἀρίμοισιν* (304; the same phrase as *Iliad* 2.783) was already an unsettled crux in antiquity: taken as a dative plural of a people it means 'among the Arimoi', while taken as *ein Arimois* it names a place, 'in Arima' — a district variously located in Cilicia, Lydia, or Mysia (Strabo 13.4.6 canvasses the options). The Editor commits to the people-reading 'among the Arimoi', which is the more literal construal of the transmitted dative plural and is adopted by several modern translators; because this picks one horn of a genuine crux and diverges from Evelyn-White's place-leaning 'in the land of the Arimi', the claim_type is `inferred` rather than `direct`. The referent's location is not recoverable and is deliberately left unglossed, so the line neither over-determines the geography nor imports a modern identification. No lens is carried; the alternative reading is recorded in commentary.",
+   "appliesTo": [
+    "THEO-304"
+   ]
+  },
+  {
+   "id": "chimaira-shegoat-personification-boundary-theogony",
+   "source": "ἣ δὲ Χίμαιραν ἔτικτε πνέουσαν ἀμαιμάκετον πῦρ (319); ἣ δὲ χιμαίρης (322); μέσση δὲ χίμαιρα (323)",
+   "translit": "Chimaira (319) / chimaira 'she-goat' (322, 323)",
+   "strongs": "LSJ s.v. χίμαιρα; West 1966, comm. ad 319–324; Chantraine, DELG s.v. χίμαρος",
+   "lemma": "Χίμαιρα (Chimaira) / χίμαιρα (chimaira)",
+   "partOfSpeech": "Greek noun/theonym — the personified-vs-common-noun boundary for the Chimaira",
+   "literal": "Chimaira the monster / chimaira 'she-goat' (a year-old she-goat)",
+   "standardEnglish": "the Chimaera the monster; 'she-goat' the common noun of the middle head (Evelyn-White 1914)",
+   "wohChoice": "capitalize 'Chimaira' the fire-breathing monster (Greek form, not the Latinized 'Chimaera') and render the common noun *χίμαιρα* 'she-goat' at the middle head (322–323) lower-case, fixing the boundary where Evelyn-White does (option 1 of THEO-319)",
+   "claim_type": "direct",
+   "rationale": "*Χίμαιρα* the monster (319) bears a name identical to the common noun *χίμαιρα* 'she-goat', which is exactly what her middle head is (*μέσση δὲ χίμαιρα*, 323) — a transparent naming that the text itself exposes. As with the *gaia/ouranos* personified-vs-common-noun boundary fixed in Block A (the dedicated boundary entry), the Editor draws the line where the reference edition does: 'Chimaira' capitalized for the personified monster, 'she-goat' lower-case for the animal of the head (322–323). The Greek form 'Chimaira' (not the Latinized 'Chimaera') follows the name convention. Capitalizing the animal-head, or translating the monster's name 'She-Goat', are both declined: the first would obscure the common noun the pun depends on, the second would over-translate an established proper name. The name's transparency is thereby visible in the note without distorting the surface; no lens is carried.",
+   "appliesTo": [
+    "THEO-319",
+    "THEO-322",
+    "THEO-323"
+   ]
+  },
+  {
+   "id": "phix-sphinx-boeotian-form-theogony",
+   "source": "ἣ δʼ ἄρα Φῖκʼ ὀλοὴν τέκε Καδμείοισιν ὄλεθρον",
+   "translit": "Phik' (Phix)",
+   "strongs": "LSJ s.v. Φίξ, Σφίγξ; West 1966, comm. ad 326; Chantraine, DELG s.v. Σφίγξ",
+   "lemma": "Φίξ (Phix) / Σφίγξ (Sphinx)",
+   "partOfSpeech": "Greek proper name — the Boeotian dialect form of the Sphinx",
+   "literal": "Phix (Boeotian) = the Sphinx (panhellenic)",
+   "standardEnglish": "the Sphinx (Evelyn-White 1914)",
+   "wohChoice": "render the familiar panhellenic Greek name 'Sphinx' (Σφίγξ) in the surface — itself a Greek form, not a Latinization, and the name the reader recognizes — while preserving the Boeotian *Φῖκʼ* verbatim in the source text field and documenting it in commentary (option 1 of THEO-326); the ambiguous 'she' at 326 (mother of the Sphinx: Chimaira per Evelyn-White, or Echidna resumed per West) is left ambiguous",
+   "claim_type": "direct",
+   "rationale": "The source reads *Φῖκʼ* — *Phix*, the Boeotian dialect form (from Mt. Phíkion) that Hesiod, himself a Boeotian, uses for the creature panhellenically called the *Σφίγξ* (Sphinx). The Block A name convention forbids *Latinization* (Ouranos not Uranus), but 'Sphinx' is not a Latinization: it is the panhellenic *Greek* form Σφίγξ, and it is the reader-recognizable name, so rendering 'Sphinx' in the surface is fully consistent with the convention while keeping the line legible; the local Boeotian *Phix* is preserved in the source text field and recorded in commentary for auditability. This mirrors the Block A treatment that retains established forms in the reading surface while documenting the underlying Greek. The pronoun antecedent at 326 is a separate crux — 'she' is read by Evelyn-White as the just-slain Chimaira, but many editors (West 1966) take it as Echidna resumed, mated with her own son Orthos (327); the translation keeps the bare 'she', preserving the ambiguity rather than forcing one genealogy. No lens is carried.",
+   "appliesTo": [
+    "THEO-326"
+   ]
+  },
+  {
+   "id": "river-catalogue-greek-forms-theogony",
+   "source": "Νεῖλόν τʼ Ἀλφειόν τε … (338); Μαίανδρόν τε καὶ Ἴστρον … (339); θεῖόν τε Σκάμανδρον (345)",
+   "translit": "Neilos, Alpheios, Istros, Maiandros, Skamandros …",
+   "strongs": "LSJ s.vv.; West 1966, comm. ad 337–345; Evelyn-White 1914",
+   "lemma": "the river-catalogue (338–345)",
+   "partOfSpeech": "convention: transliteration policy for the river-names, including entrenched exonyms",
+   "literal": "Neilos (Nile), Istros (Ister/Danube), Maiandros (Maeander), Skamandros (Scamander) …",
+   "standardEnglish": "Nilus, Ister, Maeander, Scamander (Evelyn-White 1914, Latinized)",
+   "wohChoice": "Greek transliteration throughout — *Neilos* (not 'Nile'), *Istros* (the Greek name of the lower Danube, not 'Danube'), *Maiandros* (not 'Maeander'), *Skamandros* (not 'Scamander') — per the Block A name convention (option 1 of THEO-338); the variant spelling *Γρήνικόν* (342) is normalized to the standard 'Granikos' in the translation, the source form kept in translit",
+   "claim_type": "direct",
+   "rationale": "The Block A name convention transliterates Greek names in their Greek (not Latinized) forms, and the Editor applies it consistently to the river-catalogue (338–345), including the four streams that carry entrenched English exonyms: *Neilos*, *Istros*, *Maiandros*, *Skamandros*. This is the same presentation decision as 'Ouranos not Uranus' in Block A — a Greek form preferred over a more-familiar non-Greek one — so it carries no interpretive content and the claim_type is `direct`; it also avoids anachronism, since Hesiod's *Istros* denotes the lower Danube known to the Greeks, not the modern river-length called 'Danube', and 'Neilos' keeps the Greek name rather than the English 'Nile'. Evelyn-White's Latinized forms (Nilus, Ister, Maeander, Scamander) are declined. The compromise of English exonyms for the entrenched few (option 2) is a reader-familiarity preference, not an accuracy matter, and is flagged for the reviewer in the report; the standing choice is consistency with the convention. A minor normalization is recorded: the edition's *Γρήνικόν* (with eta, 342) is given as the standard 'Granikos' in the English, the source spelling retained in the transliteration.",
+   "appliesTo": [
+    "THEO-337",
+    "THEO-338",
+    "THEO-339",
+    "THEO-342",
+    "THEO-345"
+   ]
+  },
+  {
+   "id": "horkos-styx-great-oath-theogony",
+   "source": "αὐτὴν μὲν γὰρ ἔθηκε θεῶν μέγαν ἔμμεναι ὅρκον",
+   "translit": "theōn megan … horkon",
+   "strongs": "LSJ s.v. ὅρκος; West 1966, comm. ad 400, 775–806; Evelyn-White 1914",
+   "lemma": "ὅρκος (horkos)",
+   "partOfSpeech": "Greek noun — the oath-object; here Styx as the gods' oath-witness",
+   "literal": "oath; the thing sworn by (the oath-witness), not the act or the personified Oath",
+   "standardEnglish": "the great oath of the gods (Evelyn-White 1914)",
+   "wohChoice": "'the great oath of the gods' (Evelyn-White): *horkos* at 400 is the oath-object sworn *by* — the water of Styx made the inviolable oath-witness — rendered 'oath' (lower case), and kept distinct from the personified deity *Horkos* (son of Eris, 231–232); do not capitalize (option 1 of THEO-400)",
+   "claim_type": "direct",
+   "rationale": "At 400 Zeus makes Styx *θεῶν μέγαν … ὅρκον*, 'the great oath of the gods' — i.e. the water of Styx becomes the sanction-object by which the gods swear inviolable oaths (the mechanism elaborated at 775–806, Block D). Here *ὅρκος* denotes the oath *sworn by* — the witness/guarantor — a standard sense of the word (LSJ s.v. II, 'that by which one swears, witness of an oath'), and NOT the personified avenging *Horkos* who is a distinct child of Eris at 231–232, nor the oath-formula as a speech-act. The Editor keeps Evelyn-White's 'the great oath of the gods' (lower case) and, following the reference, does not capitalize *horkos* here or conflate it with the deity; the relation between the two is set out in the commentary at 231 and 400. The claim_type is `direct`: the oath-witness sense is the settled lexical value and the rendering matches the reference. **Lens-discipline note:** this is a high-salience site — Zeus's institution of a binding cosmic sanction/covenant — where a canon reading could be tempting; the commentary is held to the philological level (what *horkos* means, and the Styx/Horkos distinction), and no cosmological reading is pressed into either the line or the note.",
+   "appliesTo": [
+    "THEO-400"
+   ]
+  },
+  {
+   "id": "mounogenes-only-child-hekate-theogony",
+   "source": "οὐδʼ, ὅτι μουνογενής, ἧσσον θεὰ ἔμμορε τιμῆς (426); οὕτω τοι καὶ μουνογενὴς ἐκ μητρὸς ἐοῦσα (448)",
+   "translit": "mounogenēs (Ionic) = monogenēs",
+   "strongs": "LSJ s.v. μουνογενής/μονογενής; West 1966, comm. ad 426, 448; cf. LXX / Johannine reception (John 1:14, 3:16); central entry `yechid-only-one-formula`",
+   "lemma": "μουνογενής (mounogenēs)",
+   "partOfSpeech": "Greek adjective — 'only child, single-born' (Ionic for monogenēs)",
+   "literal": "single-born, only-begotten (mono- 'single/only' + gen- 'born'), i.e. an only child",
+   "standardEnglish": "only child (Evelyn-White 1914)",
+   "wohChoice": "'only child' (Evelyn-White), so too *μουνογενὴς ἐκ μητρός* 'only child from her mother' (448); the theologically loaded 'only-begotten' (option 3) is deliberately declined for the surface (option 1 of THEO-411)",
+   "claim_type": "direct",
+   "rationale": "*μουνογενής* (Ionic for *μονογενής*, *mono-* 'single/only' + *gen-* 'born') means 'only child, single-born', and here is the structural pivot of the Hekate hymn: precisely *because* Hekate is an only child of a single mother (Asteria), with no sibling to divide the ancestral honours, her undiminished share in every domain is remarkable (426, restated at 448). 'Only child' is the consensus rendering (Evelyn-White; and every standard translation of this passage), so the claim_type is `direct`. The same lexeme *monogenēs* is later applied to Christ in the Johannine writings and rendered 'only-begotten' (Vulgate *unigenitus*; John 1:14, 3:16) — but that is a datum of the word's *reception* history, not of its sense in Hesiod, and the theologically loaded 'only-begotten' would import a Christian resonance the Archaic text does not carry. Accuracy-before-lens therefore keeps 'only child' in the surface and confines the Johannine reception to the apparatus. **Cross-corpus note:** the central production glossary has no Greek/Johannine *monogenēs* entry; its only touchpoint is the Hebrew `yechid-only-one-formula` (Gen 22), which already flags the Vulgate *unigenitum* / Johannine *monogenēs* reception within *its* domain. Following the Block A *gigantes* discipline, this overlay entry records the reception link as comparative apparatus only and neither entry is made to govern the other; the Editor recommends no central change (see the report).",
+   "appliesTo": [
+    "THEO-426",
+    "THEO-448"
+   ]
+  },
+  {
+   "id": "time-geras-moira-honor-vocabulary-theogony",
+   "source": "μή τινʼ ἀπορραίσειν γεράων, τιμὴν δὲ ἕκαστον / ἑξέμεν … (393–394); μοῖραν ἔχειν … (413); ἔχει αἶσαν ἁπάντων (422); ἔπλετο δασμός (425); οἱ ὄλβον ὀπάζει (420)",
+   "translit": "timē, geras (gerea), moira, aisa, dasmos, olbos",
+   "strongs": "LSJ s.vv. τιμή, γέρας, μοῖρα, αἶσα, δασμός, ὄλβος; West 1966, comm. ad 392–401, 411–452; Evelyn-White 1914",
+   "lemma": "τιμή; γέρας; μοῖρα; αἶσα; δασμός; ὄλβος",
+   "partOfSpeech": "Greek nouns — the apportioned-honour lexicon of the accession-offer and the Hekate hymn",
+   "literal": "timē 'honour/privilege'; geras 'prerogative'; moira 'share'; aisa 'allotted part'; dasmos 'division/apportionment'; olbos 'wealth/prosperity'",
+   "standardEnglish": "honour, privilege/prerogative, share, part, division, wealth (Evelyn-White 1914, varied)",
+   "wohChoice": "fix a consistent English mapping across the block — *timē* 'honour', *geras* 'prerogative', *moira* 'share', *aisa* 'allotted part', *dasmos* 'division', *olbos* 'wealth' — regularizing Evelyn-White's varied renderings without a rigid one-to-one that would distort (option 1 of THEO-414, tightened); do not transliterate the terms",
+   "claim_type": "direct",
+   "rationale": "Zeus's accession-offer (392–396) and the Hekate hymn (411–452) are saturated with the vocabulary of apportioned divine prerogative: *τιμή* 'honour', *γέρας* (pl. *γέρεα*) 'prerogative', *μοῖρα* 'share' (413), *αἶσα* 'allotted part' (422), *δασμός* 'division' (425), *ὄλβος* 'wealth' (420), with the privatives *ἄτιμος*/*ἀγέραστος* (395). These are well-understood LSJ terms; the Editor fixes a consistent English rendering across the block so the hymn's argument — that Hekate's ancestral share under Zeus is confirmed undiminished — reads as one thematic thread, exactly as the Block A *kratos-phertatos* entry standardizes the sovereignty vocabulary, and the claim_type is `direct` for the same reason (a lexical-consistency convention, not an interpretive move). Evelyn-White's varied renderings are followed but regularized; a rigid one-to-one that flattened context (option 2) and transliteration of the key terms (option 3) are both declined. **Lens-discipline note:** the apportionment of *timai*/*gerea* under a sovereign who confirms each god's domain is a WoH-salient theme (a ruler distributing offices), but the reading is kept lexical in both surface and commentary; the honour-distribution is described, not allegorized, and no canon mapping is pressed.",
+   "appliesTo": [
+    "THEO-393",
+    "THEO-394",
+    "THEO-395",
+    "THEO-396",
+    "THEO-413",
+    "THEO-414",
+    "THEO-415",
+    "THEO-418",
+    "THEO-420",
+    "THEO-422",
+    "THEO-425",
+    "THEO-427",
+    "THEO-449"
+   ]
+  },
+  {
+   "id": "kourotrophos-nurse-of-the-young-theogony",
+   "source": "θῆκε δέ μιν Κρονίδης κουροτρόφον … (450); οὕτως ἐξ ἀρχῆς κουροτρόφος (452); ἄνδρας κουρίζουσι (347)",
+   "translit": "kourotrophos; kourizousi",
+   "strongs": "LSJ s.v. κουροτρόφος, κουρίζω; West 1966, comm. ad 346–348, 450–452; Chantraine, DELG s.v. κόρος/κοῦρος",
+   "lemma": "κουροτρόφος (kourotrophos)",
+   "partOfSpeech": "Greek adjective/cult-title — 'nurse/rearer of the young'",
+   "literal": "rearer of the young / nurse of children (kouro- 'youth' + troph- 'rearing')",
+   "standardEnglish": "nurse of the young (Evelyn-White 1914)",
+   "wohChoice": "'nurse of the young' (Evelyn-White); the cult-title is translated, not transliterated, and its link to the river-daughters who *κουρίζουσι* 'rear men to manhood' (347) is noted (option 1 of THEO-450)",
+   "claim_type": "direct",
+   "rationale": "*κουροτρόφος* (450, 452), 'nurse/rearer of the young' (*κοῦρος* 'youth' + *τροφ-* 'rearing'), is a widespread Greek cult-title borne by many goddesses (Gaia, Hestia, Artemis, and Hekate here), and Zeus extends it to Hekate over *all* who 'after her beheld the light of Eos' — every mortal born thereafter. Evelyn-White's 'nurse of the young' is retained; the cult-title is translated rather than transliterated (declining option 3), since its sense is transparent and central to the hymn's close, and the claim_type is `direct` as the rendering matches the reference and the settled lexical value. The nurturing-of-youth motif is anchored a few lines earlier in the river-daughters who *ἄνδρας κουρίζουσι* 'rear men to manhood' (347), the same *kour-* root, and the cross-link is recorded in commentary. **Lens-discipline note:** *kourotrophos* is a WoH-salient site (a divinity charged with rearing all who are born); the rendering and the note are held to the lexical fact of the cult-title and the *kour-* link, and the 'rearer/cultivator of humanity' motif is not pressed beyond what the title states.",
+   "appliesTo": [
+    "THEO-347",
+    "THEO-450",
+    "THEO-452"
+   ]
+  },
+  {
+   "id": "krokopeplos-saffron-robed-epithet-theogony",
+   "source": "Ἐνυώ τε κροκόπεπλον (273); Τελεστώ τε Κροκοπεπλος (358)",
+   "translit": "krokopeplos",
+   "strongs": "LSJ s.v. κροκόπεπλος; West 1966, comm. ad 358; Evelyn-White 1914",
+   "lemma": "κροκόπεπλος (krokopeplos)",
+   "partOfSpeech": "Greek adjective — 'saffron-robed', an epithet (not a name)",
+   "literal": "saffron-robed / clad in a saffron peplos (krokos 'saffron' + peplos 'robe')",
+   "standardEnglish": "saffron-clad / saffron-robed, epithet of Telesto (Evelyn-White 1914)",
+   "wohChoice": "read *krokopeplos* 'saffron-robed' as the epithet of the Okeanid *Telestō* (358), the same transparent epithet used of *Enyō* at 273 — not a forty-second Okeanid name; the catalogue lists forty-one Okeanids (option 1 of THEO-358, = Evelyn-White)",
+   "claim_type": "direct",
+   "rationale": "*κροκόπεπλος* 'saffron-robed' (*κρόκος* 'saffron' + *πέπλος* 'robe') is a transparent stock epithet, used of *Enyō* just a few lines earlier at 273 and, in the wider tradition, of Eos and other goddesses; at 358 it modifies the Okeanid *Telestō* ('Telesto the saffron-robed'), exactly as Evelyn-White reads it. The Perseus source capitalizes *Κροκοπεπλος* (and drops the accent) at 358, which could suggest a separate forty-second name, but the capitalization is not decisive — the edition capitalizes other epithets inconsistently — and taking it as a name would both duplicate the epithet of 273 and overshoot the catalogue's count. The Editor therefore reads it as Telesto's epithet, keeping the Okeanid roll at forty-one, and records the source capitalization for auditability; the claim_type is `direct` as this is the reference reading and the philologically economical one. No lens is carried.",
+   "appliesTo": [
+    "THEO-273",
+    "THEO-358"
+   ]
+  },
+  {
+   "id": "west-transposed-line-order-theogony",
+   "source": "214↔213; 427↔426; 434↔430 (Perseus, following West 1966)",
+   "translit": "(apparatus / meta)",
+   "strongs": "West 1966 (editorial line-order); Perseus tlg0020.tlg001.perseus-grc2",
+   "lemma": "(line-order convention)",
+   "partOfSpeech": "convention: treatment of West's transposed line order",
+   "literal": "(not applicable — apparatus)",
+   "standardEnglish": "transposed line order (West 1966; Perseus)",
+   "wohChoice": "preserve West's transposed line order — 214 before 213, 427 before 426, 434 before 430 — so the refId/line-number sequence is deliberately non-ascending; the transposition is recorded in commentary at the affected lines",
+   "claim_type": "direct",
+   "rationale": "At three points in Block B the Perseus edition, following West 1966, prints lines in a transposed order for syntactic and sense reasons: 214 before 213 (213 reads as a summarizing verse after the second instalment of Nyx's brood), 427 before 426 (427 completes the 'earth, heaven and sea' tricolon before 426 resumes the *mounogenēs* thought), and 434 before 430 (consecutive clauses of Hekate's civic sphere). The translation preserves the edition's line order, so the *n*/refId sequence is intentionally non-ascending at these points; this is an editorial/text-critical datum, not a translation choice, and it is recorded in the per-line commentary so the non-monotonic numbering is transparent and auditable. This is a presentation convention with no interpretive content and no lens, parallel to the Block A athetized-lines convention.",
+   "appliesTo": [
+    "THEO-213",
+    "THEO-214",
+    "THEO-426",
+    "THEO-427",
+    "THEO-430",
+    "THEO-434"
+   ]
+  },
+  {
+   "id": "dialectal-theonym-normalization-theogony",
+   "source": "Ἱστίην (454); ἴφθιμόν τʼ Ἀίδην (455); καὶ Ὀβριάρεως μεγάθυμος (734), cf. Βριάρεῳ (617), Βριάρεώς (714)",
+   "translit": "Histiēn (Ionic); Aïdēn (epic); Obriareōs (metrical doublet)",
+   "strongs": "LSJ s.vv. Ἑστία, Ἅιδης, Βριάρεως; West 1966, comm. ad 454, 617, 734; cf. Iliad 1.403 (Βριάρεως/Αἰγαίων)",
+   "lemma": "Ἑστία (Hestia); Ἅιδης (Hades); Βριάρεως (Briareos)",
+   "partOfSpeech": "convention: normalization of dialectal/epic/metrical theonym-spellings to their standard Greek forms",
+   "literal": "Ionic Histiē = Hestia; epic (unaspirated) Aïdēs = Hades; metrical Obriareos = Briareos",
+   "standardEnglish": "Hestia; Hades; Briareus/Briareos (Evelyn-White)",
+   "wohChoice": "render the standard panhellenic Greek forms — Hestia (454, for the Ionic Ἱστίην), Hades (455, for the epic unaspirated Ἀίδην), and Briareos (734, normalizing the metrical doublet Ὀβριάρεως to match 617/714) — keeping the source spellings verbatim in the text field; these are Greek forms, NOT Latinizations (which would be Vesta, Pluto/Dis). Option 1 of THEO-454; surface change at 734 ('Obriareos' → 'Briareos').",
+   "claim_type": "direct",
+   "rationale": "The Kronides roster and the Hundred-Hander roll carry three non-standard spellings that the surface normalizes to the received transliterations, exactly as Blocks A–B normalized the genitive Γῆ→Gaia (106) and the eta-spelling Γρήνικον→Granikos (342): Ἱστίην is the Ionic form of Ἑστία 'Hestia', Ἀίδην the epic form of Ἅιδης 'Hades' (the manuscript dropping the rough breathing), and Ὀβριάρεως the metrical/dialectal doublet of Βριάρεως 'Briareos', a prothetic-omicron variant West treats as Hesiodic (West 1966, ad 734; at Iliad 1.403 the name is Βριάρεως, in the distinct Briareos/Aigaion gods-vs-men doublet). 'Hestia' and 'Hades' are the standard *Greek* forms, not Latinizations, so the name convention (Ouranos-not-Uranus, Kypros-not-Cyprus) is respected rather than breached; the Latin forms would be Vesta and Pluto/Dis, which are not used. Normalizing Ὀβριάρεως→'Briareos' gives surface consistency across the name's four occurrences (149, 617, 714, 734), and is the block's single dialectal surface change; in every case the transmitted spelling is preserved in the source text field for auditability. No lens is carried; this is a presentation/normalization convention.",
+   "appliesTo": [
+    "THEO-454",
+    "THEO-455",
+    "THEO-734"
+   ]
+  },
+  {
+   "id": "place-name-greek-forms-block-c-theogony",
+   "source": "ἐς Λύκτον, Κρήτης ἐς πίονα δῆμον (477); Κρήτῃ ἐν εὐρείῃ (480); πρώτην ἐς Λύκτον (482); Αἰγαίῳ ἐν ὄρει (484); Πυθοῖ ἐν ἠγαθέῃ γυάλοις ὕπο Παρνησοῖο (499)",
+   "translit": "Lykton; Krētēs / Krētēi; Aigaiōi; Pythoi; Parnēsoio",
+   "strongs": "LSJ s.vv. Κρήτη, Λύκτος, Αἰγαῖον, Πυθώ, Παρνασσός; West 1966, comm. ad 477–484, 499; Evelyn-White 1914",
+   "lemma": "the Block-C toponyms: Krete, Lyktos, Mount Aigaion, Pytho, Parnassos",
+   "partOfSpeech": "convention: Greek-form transliteration of the Block-C place-names, including the entrenched exonym Krete",
+   "literal": "Krete (the island); Lyktos; Mount Aigaion; Pytho (the Delphic site); Parnassos",
+   "standardEnglish": "Crete, Lyctus, Mt. Aegaeon, Pytho, Parnassus (Evelyn-White, Latinized 'Crete'/'Parnassus')",
+   "wohChoice": "Greek forms throughout — *Krete* (NOT the familiar exonym 'Crete'), *Lyktos*, *Mount Aigaion*, *Pytho*, *Parnassos* (the source eta-spelling Παρνησ- normalized to the standard Parnassos, the source form kept in the transliteration) — per the signed-off Block-B river-exonym precedent and the Block-A Kypros-not-Cyprus island precedent; SURFACE DIVERGENCE from Evelyn-White at 'Crete' → 'Krete' (477, 480). Option 2 of THEO-477 (Greek-form consistency).",
+   "claim_type": "direct",
+   "rationale": "The Block-B river-catalogue question — whether to keep entrenched English exonyms (Nile, Danube) or the Greek forms — was resolved by the human sign-off as KEEP GREEK FORMS, no exceptions (Neilos-not-Nile, Istros-not-Danube), and that precedent governs the whole corpus; Κρήτη is an island toponym exactly parallel to Κύπρος, whose Greek form 'Kypros' (not the Latin 'Cyprus') is already a signed-off Block-A convention example, so 'Krete' follows a fortiori and is not a materially different case. 'Crete' is the Latin-derived exonym (via *Creta*); 'Krete' is the plain transliteration of Κρήτη, and rendering it keeps the Block-C toponyms internally consistent, since Lyktos, Aigaion, Pytho and Parnassos are already given in Greek forms. A minor normalization is recorded: the edition's eta-spelling Παρνησοῖο (499) is given as the standard 'Parnassos' in the surface, the source form retained in the transliteration. This is a presentation convention with no interpretive content and no lens; the reader-familiarity preference for 'Crete' is flagged for the reviewer, but the standing choice is consistency with the signed-off convention.",
+   "appliesTo": [
+    "THEO-477",
+    "THEO-480",
+    "THEO-482",
+    "THEO-484",
+    "THEO-499"
+   ]
+  },
+  {
+   "id": "sema-stone-at-pytho-theogony",
+   "source": "τῷ δὲ σπαργανίσασα μέγαν λίθον ἐγγυάλιξεν (485); πρῶτον δʼ ἐξέμεσεν λίθον (497); τὸν μὲν Ζεὺς στήριξε κατὰ χθονὸς εὐρυοδείης (498); σῆμʼ ἔμεν ἐξοπίσω, θαῦμα θνητοῖσι βροτοῖσιν (500)",
+   "translit": "megan lithon; sēma; thauma",
+   "strongs": "LSJ s.vv. σῆμα, θαῦμα, λίθος; West 1966, comm. ad 485–500; cf. Pausanias 10.24.6 (the Delphic stone anointed daily)",
+   "lemma": "σῆμα (sēma); ὁ λίθος at Pytho",
+   "partOfSpeech": "Greek noun — the swallowed-and-disgorged stone set at Pytho as a σῆμα 'sign/marker'",
+   "literal": "a sign, mark, marker, token; a marvel (thauma)",
+   "standardEnglish": "'to be a sign … a marvel to mortal men' (Evelyn-White)",
+   "wohChoice": "render *σῆμα* 'sign' (Evelyn-White; the word also means 'marker, token') and *θαῦμα* 'marvel'; render the swaddled-stone substitution (485–486) and its disgorging (497) plainly; the later identification of this Delphic stone as the *omphalos* ('navel-stone', centre-of-the-earth marker) is kept OUT of the surface and named only as clearly-labeled reception apparatus. Option 1 of THEO-500.",
+   "claim_type": "direct",
+   "rationale": "At 500 the disgorged stone is set at Pytho *σῆμʼ ἔμεν … θαῦμα* 'to be a sign, a marvel to mortal men'; *σῆμα* is the ordinary word for a sign/mark/marker (LSJ) and Evelyn-White's 'sign' is retained without divergence. The text says only *σῆμα* and *θαῦμα* — the word *ὀμφαλός* 'navel' does not occur — so the omphalos identification of the Delphic stone, familiar from later sources (Pausanias 10.24.6; the daily-anointed stone), is later reception and is disciplined out of the surface, named only in commentary as clearly-labeled apparatus; the central `jerusalem-as-omphalos` entries are not extended to this text. The stone-swallowed-instead-of-child device is the Greek form of the wider Near-Eastern succession-myth (cf. the Hurro-Hittite Kumarbi cycle), which is likewise recorded as comparative apparatus only, not fused, per the Block-A/B non-fusion precedent. No lens is carried in the line.",
+   "appliesTo": [
+    "THEO-485",
+    "THEO-486",
+    "THEO-497",
+    "THEO-498",
+    "THEO-500"
+   ]
+  },
+  {
+   "id": "thunder-triad-bronte-keraunos-sterope-theogony",
+   "source": "δῶκαν δὲ βροντὴν ἠδʼ αἰθαλόεντα κεραυνὸν / καὶ στεροπήν (504–505); ἴκταρ ἅμα βροντῇ τε καὶ ἀστεροπῇ (691); κεραυνοῦ τε στεροπῆς τε (699); βροντήν τε στεροπήν τε καὶ αἰθαλόεντα κεραυνόν (707)",
+   "translit": "brontē; keraunos; steropē / asteropē",
+   "strongs": "LSJ s.vv. βροντή, κεραυνός, στεροπή/ἀστεροπή; West 1966, comm. ad 504–505, 690–708",
+   "lemma": "βροντή (brontē); κεραυνός (keraunos); στεροπή (steropē)",
+   "partOfSpeech": "Greek nouns — Zeus's storm-weapon triad (the Kyklopes' gift, redeployed in the Titanomachy)",
+   "literal": "thunder (the sound); thunderbolt (the bolt/shaft); lightning (the flash)",
+   "standardEnglish": "thunder / thunderbolt / lightning (Evelyn-White)",
+   "wohChoice": "fix a consistent block-wide rendering — *brontē* 'thunder', *(aithaloenta) keraunos* 'blazing thunderbolt', *steropē/asteropē* 'lightning' — without imposing a rigid technical distinction the poem does not mark; the triad and its members recur at 458, 504–505, 515, 690–691, 699 and 707 and are rendered the same throughout. Option 1 of THEO-504 (= Evelyn-White).",
+   "claim_type": "direct",
+   "rationale": "The Kyklopes' gift to Zeus is the storm-triad *βροντή / κεραυνός / στεροπή* (504–505), and the same three weapons drive Zeus's decisive intervention in the Titanomachy (690–691, 699, 707). A real three-way sense underlies them — *brontē* the thunder-sound, *keraunos* the bolt/shaft, *steropē/asteropē* the lightning-flash — but the distinction is not lexically rigid in early epic, and LSJ and the commentators report no fixed opposition; Evelyn-White accordingly renders them 'thunder / thunderbolt / lightning' by context. The Editor keeps that rendering but regularizes it across the block so the recurring triad reads as one thread, exactly as the Block-B honour-vocabulary and Block-A kratos-phertatos entries standardize their vocabularies; a rigid one-to-one that flattened context is declined. No lens is carried.",
+   "appliesTo": [
+    "THEO-458",
+    "THEO-504",
+    "THEO-505",
+    "THEO-515",
+    "THEO-690",
+    "THEO-691",
+    "THEO-699",
+    "THEO-707"
+   ]
+  },
+  {
+   "id": "dasmos-moira-meat-division-mekone-theogony",
+   "source": "ταύτην γάρ οἱ μοῖραν ἐδάσσατο μητίετα Ζεύς (520); καὶ γὰρ ὅτʼ ἐκρίνοντο θεοὶ θνητοί τʼ ἄνθρωποι (535); μέγαν βοῦν … δασσάμενος προέθηκε (536–537); ὡς ἑτεροζήλως διεδάσσαο μοίρας (544)",
+   "translit": "moira; ekrinonto; dassamenos; diedassao moiras",
+   "strongs": "LSJ s.vv. μοῖρα, δατέομαι, κρίνω; West 1966, comm. ad 535–557; Vernant 1979 (Mekone and the origin of sacrifice)",
+   "lemma": "μοῖρα (moira); δατέομαι (dateomai); the Mekone division",
+   "partOfSpeech": "Greek noun + division-verbs — the meat-division / fate-allotment domain (the Mekone sacrifice and Atlas's lot)",
+   "literal": "portion, lot, share (moira); to divide, apportion (dateomai); to settle a reckoning / be separated (krinomai)",
+   "standardEnglish": "portion / divide / allot (Evelyn-White); 'had a dispute' (ἐκρίνοντο)",
+   "wohChoice": "render *moira* 'portion/lot' and the *δα-* verbs 'divide/allot' (Evelyn-White) in the meat-division / fate-allotment domain — Atlas's allotted portion (520) and the Mekone sacrifice-division (536–544) — held DISTINCT from the divine-prerogative *timē/geras* apportionment governed by the honour-vocabulary entry, which is NOT extended here; *ἐκρίνοντο* (535) 'were settling their reckoning' (Evelyn-White), the alternative 'were being separated' (the parting of gods and men, West) noted, not adopted. Option 1 of THEO-536.",
+   "claim_type": "direct",
+   "rationale": "The δα-division verbs and *μοῖρα* recur in Block C of the *sacrificial ox* (δασσάμενος 537, διεδάσσαο μοίρας 544) and of Atlas's *allotted portion* (μοῖραν ἐδάσσατο 520) — a meat-division / fate-allotment domain semantically distinct from the sharing-out of divine offices (*timē*, *geras*) that the Block-B honour-vocabulary entry governs; keeping the two apart is a lexical-domain distinction, not an interpretive move, so the claim_type is `direct`. Evelyn-White's 'portion / divide / allot' is retained. *ἐκρίνοντο* (535) is genuinely ambiguous — 'were settling their reckoning / had a dispute' (LSJ κρίνω, the reference reading) versus 'were being separated' (the moment gods and men parted, West 1966) — and the translation follows the reference, flagging the alternative in commentary rather than diverging. The Mekone episode is the Greek aetiology of animal sacrifice (why the gods receive the smoke and bones, men the meat); its resonance with the wider Near-Eastern sacrificial-portion trope is recorded as comparative apparatus only and is not fused with the central flood-sacrifice/aroma entries, per the non-fusion precedent. No lens is pressed on the aetiology.",
+   "appliesTo": [
+    "THEO-520",
+    "THEO-535",
+    "THEO-536",
+    "THEO-537",
+    "THEO-544"
+   ]
+  },
+  {
+   "id": "fire-theft-prometheus-theogony",
+   "source": "οὐκ ἐδίδου Μελίῃσι πυρὸς μένος ἀκαμάτοιο (563); κλέψας ἀκαμάτοιο πυρὸς τηλέσκοπον. αὐγὴν (566); ἐν κοΐλῳ νάρθηκι (567); αὐτίκα δʼ ἀντὶ πυρὸς τεῦξεν κακὸν ἀνθρώποισιν (570)",
+   "translit": "pyros menos / tēleskopon augēn; narthēx",
+   "strongs": "LSJ s.vv. πῦρ, αὐγή, νάρθηξ; West 1966, comm. ad 562–570; Ferula communis (giant fennel)",
+   "lemma": "πῦρ (pyr); νάρθηξ (narthēx)",
+   "partOfSpeech": "Greek nouns — the stolen fire and the fennel-stalk that carries it",
+   "literal": "the might / the far-seen gleam of unwearying fire; a hollow fennel-stalk (the giant fennel)",
+   "standardEnglish": "the might / the gleam of fire; a hollow fennel-stalk (Evelyn-White)",
+   "wohChoice": "render *πυρὸς μένος / αὐγήν* 'the might / the far-seen gleam of fire' literally (Evelyn-White) and *νάρθηξ* 'hollow fennel-stalk' — the giant fennel, *Ferula communis*, whose dry pith carries an ember — over a transliterated 'narthex' or a generic 'reed'. Option 1 of THEO-567; the source mid-phrase period at 566 (τηλέσκοπον. αὐγὴν) preserved verbatim.",
+   "claim_type": "direct",
+   "rationale": "Prometheus withholds fire from the Meliai/mortals is denied by Zeus (563), then steals the *τηλέσκοπον αὐγήν* 'far-seen gleam' of fire hidden *ἐν κοΐλῳ νάρθηκι* 'in a hollow fennel-stalk' (566–567); the *νάρθηξ* is specifically the giant fennel (*Ferula communis*), whose dry inner pith smoulders slowly and was in fact used to transport fire, so Evelyn-White's botanically exact 'hollow fennel-stalk' is retained over a transliterated 'narthex' (whose ecclesiastical sense is later reception of the stalk-shape) or a vague 'reed'. The rendering follows the reference throughout and the claim_type is `direct`. **Lens-discipline note:** the Promethean fire as the culture- and knowledge-gift that raises humanity is a Wheel-of-Heaven-resonant theme, but the line says only 'fire'; the reading is confined to clearly-marked commentary, and there is no central fire/knowledge entry to invoke (none exists), so no fusion is made. The source's mid-phrase period at 566 is a printing quirk of the edition, preserved in the text field and noted.",
+   "appliesTo": [
+    "THEO-563",
+    "THEO-565",
+    "THEO-566",
+    "THEO-567",
+    "THEO-569",
+    "THEO-570"
+   ]
+  },
+  {
+   "id": "periphrastic-title-unnamed-god-theogony",
+   "source": "καὶ ἐρίκτυπον Ἐννοσίγαιον (456); γαίης γὰρ σύμπλασσε περικλυτὸς Ἀμφιγυήεις (571); τὴν αὐτὸς ποίησε περικλυτὸς Ἀμφιγυήεις (579)",
+   "translit": "eriktypos Ennosigaios; periklytos Amphigyēeis",
+   "strongs": "LSJ s.vv. Ἐννοσίγαιος, Ἀμφιγυήεις; West 1966, comm. ad 441, 456, 571; Evelyn-White 1914",
+   "lemma": "Ἐννοσίγαιος (Ennosigaios) = Poseidon; Ἀμφιγυήεις (Amphigyēeis) = Hephaestus",
+   "partOfSpeech": "convention: periphrastic epithet-titles designating un-named gods, rendered literally",
+   "literal": "the Earth-Shaker (Ennosigaios = Poseidon); the Lame One / lame-in-both-limbs (Amphigyeeis = Hephaestus)",
+   "standardEnglish": "the Earth-Shaker; the famous Lame God (Evelyn-White)",
+   "wohChoice": "render the epithet-title literally and do NOT substitute the proper name — 'the loud-crashing Earth-Shaker' (456, = Poseidon, per the treatment established at 441) and 'the renowned Lame One' (571, 579, = Hephaestus). Option 1 of THEO-571.",
+   "claim_type": "direct",
+   "rationale": "At two Block-C sites a god is designated only by a periphrastic title: *ἐρίκτυπον Ἐννοσίγαιον* 'the loud-crashing Earth-Shaker' is Poseidon (456), and *περικλυτὸς Ἀμφιγυήεις* 'the renowned Lame One' is Hephaestus (571, 579), who moulds the first woman. Evelyn-White renders these periphrases literally and does not supply the names, and the Editor follows: the poem deliberately withholds the names, so substituting them would over-determine the surface, whereas the literal title keeps the line legible and faithful; the Poseidon rendering also matches the treatment already fixed at 441 (Block B). This is a presentation convention with no interpretive content and the claim_type is `direct`. **Lens-discipline note:** identifying the smith-god who fashions humankind's counterpart is a Wheel-of-Heaven-salient point, but it is carried in the note (naming Hephaestus), not pressed into the surface, and no cosmological reading is attached.",
+   "appliesTo": [
+    "THEO-456",
+    "THEO-571",
+    "THEO-579"
+   ]
+  },
+  {
+   "id": "meliai-crux-theogony",
+   "source": "οὐκ ἐδίδου Μελίῃσι πυρὸς μένος ἀκαμάτοιο / θνητοῖς ἀνθρώποις, οἳ ἐπὶ χθονὶ ναιετάουσιν (563–564)",
+   "translit": "Melíēisi",
+   "strongs": "LSJ s.vv. μελία, Μελίαι; West 1966, comm. ad 563; cf. Theogony 187; Works & Days 145; Chantraine, DELG s.v. μελία",
+   "lemma": "Μελίαι (Meliai)",
+   "partOfSpeech": "Greek dative plural — a long-standing people/gloss crux ('to the Meliai')",
+   "literal": "'to the Meliai' — the ash-tree nymphs / the Melian race of men — OR literal 'to the ash-trees'",
+   "standardEnglish": "'to the Meliai', taken as the Melian race in apposition to 'mortal men' (Evelyn-White)",
+   "wohChoice": "render the transmitted dative 'to the Meliai' (563), taken with Evelyn-White as the *Melian race* of mortal men in apposition to *θνητοῖς ἀνθρώποις* 'mortal men' (564) and connected to the ash-tree nymphs Meliai of 187; the bare literal 'ash-trees' reading and the emendation *μελέῃσι* 'to wretched (mortals)' are noted, not adopted. Option 1 of THEO-563.",
+   "claim_type": "inferred",
+   "rationale": "*Μελίῃσι* (563) is a genuine crux: the dative plural is literally 'to the Meliai', the ash-tree nymphs born from Ouranos's blood at 187, but here Evelyn-White (and several editors) construe it as the *Melian race* of mortal men, in apposition to *θνητοῖς ἀνθρώποις* (564) and on analogy with the ash-tree origin of the bronze race in *Works and Days* 145; others read a bare literal 'ash-trees', and West's apparatus records the emendation *μελέῃσι* 'to wretched (mortals)'. The translated surface is the literal transliteration of the transmitted dative ('to the Meliai'), but the entry commits to the Melian-race/apposition construal, and because that picks one horn of an unsettled crux where major scholars divide, the claim_type is `inferred` rather than `direct` — exactly parallel to the Block-B *ein-Arimoisin* crux. The ash-nymph link (187) and the alternatives are set out in commentary, not resolved silently in the line. No lens is carried.",
+   "appliesTo": [
+    "THEO-563"
+   ]
+  },
+  {
+   "id": "kalon-kakon-fashioned-woman-theogony",
+   "source": "πρῶτος γάρ ῥα Διὸς πλαστὴν ὑπέδεκτο γυναῖκα / παρθένον (513–514); ἀντὶ πυρὸς τεῦξεν κακὸν ἀνθρώποισιν (570); αὐτὰρ ἐπεὶ δὴ τεῦξε καλὸν κακὸν ἀντʼ ἀγαθοῖο (585); ἐκ τῆς γὰρ γένος ἐστὶ γυναικῶν … πῆμα μέγα (590–592)",
+   "translit": "plastē gynē; kalon kakon; genos gynaikōn; pēma",
+   "strongs": "LSJ s.vv. πλαστός, καλός, κακός, πῆμα; West 1966, comm. ad 570–612; Works & Days 60–105 (Pandora and the jar); Vernant 1974",
+   "lemma": "καλὸν κακόν (kalon kakon); πλαστὴ γυνή (plastē gynē)",
+   "partOfSpeech": "Greek phrase/noun — the 'beautiful evil', the fashioned first woman, and the race-of-women aetiology",
+   "literal": "a beautiful evil (oxymoron); a moulded / fashioned woman; the race of women; a plague / bane",
+   "standardEnglish": "the beautiful evil; the fashioned woman; the race of women, a plague (Evelyn-White)",
+   "wohChoice": "preserve the oxymoron 'the beautiful evil' (585, Evelyn-White); render *πλαστὴ γυνή* 'fashioned woman' (513) and the race-of-women aetiology (590–612) literally and unsoftened; import NOTHING from *Works and Days* — the *Theogony* gives no name 'Pandora' and no jar (*pithos*); the woman here is only the moulded *παρθένος*. Option 1 of THEO-585 and of THEO-590 (register handled in commentary); the source line-final period at 585 preserved verbatim.",
+   "claim_type": "direct",
+   "rationale": "The Theogony's woman-aetiology runs from the *πλαστὴ γυνή* 'fashioned woman' Epimetheus receives (513), through Zeus's making of *κακὸν … ἀντὶ πυρός* 'an evil in return for the fire' (570), to the *καλὸν κακόν* 'beautiful evil' (585) and the derivation of the whole *γένος γυναικῶν* 'race of women' as a *πῆμα* 'plague' for men (590–612); Evelyn-White's renderings, including the preserved oxymoron 'the beautiful evil', are retained throughout, so the claim_type is `direct`. A firm text-critical discipline governs the passage: the *Theogony* neither names Pandora nor mentions any jar — that material (the name Πανδώρα, the *pithos* of ills) belongs to *Works and Days* 60–105 — and none of it is imported; the woman is only the moulded maiden of 571–589. The misogynistic register of 590–612 is preserved accuracy-first, without softening or endorsement, and is flagged as a datum of the source rather than editorialized in the surface. **Comparative apparatus (labeled):** the woman-as-fashioned-bane aetiology invites comparison with the Genesis 2–3 creation-of-woman / Eve tradition, but the comparison is recorded as apparatus only and is not fused with any central Eve entry (`ish-ishah`, `ezer-kenegdo`, `nin-ti-…-eve`), per the signed-off Block-A/B non-fusion precedent; no lens is carried in the line.",
+   "appliesTo": [
+    "THEO-513",
+    "THEO-570",
+    "THEO-585",
+    "THEO-590",
+    "THEO-591",
+    "THEO-592"
+   ]
+  },
+  {
+   "id": "gaia-counsel-prophecy-vocabulary-theogony",
+   "source": "πεύθετο γὰρ Γαίης τε καὶ Οὐρανοῦ … οὕνεκά οἱ πέπρωτο (463–465); καί οἱ πεφραδέτην, ὅσα περ πέπρωτο γενέσθαι (475); Γαίης ἐννεσίῃσι πολυφραδέεσσι δολωθείς (494); Γαίης φραδμοσύνῃσιν ἀνήγαγον ἐς φάος αὖτις (626)",
+   "translit": "phradmosynē; ennesiai polyphradees; peprōto; pephradetēn",
+   "strongs": "LSJ s.vv. φραδμοσύνη, ἐννεσίη, φράζω, πέπρωται; West 1966, comm. ad 463–465, 494, 626, 884",
+   "lemma": "φραδμοσύνη (phradmosynē); ἐννεσίαι (ennesiai)",
+   "partOfSpeech": "Greek nouns — Gaia's prophetic-counsel vocabulary across the succession narrative",
+   "literal": "counsels, shrewd promptings, wise devisings; that which is fated (peprōto)",
+   "standardEnglish": "the counsels / the shrewd promptings of Gaia (Evelyn-White)",
+   "wohChoice": "render literally — 'the counsels of Gaia' (626, φραδμοσύνῃσιν), 'the shrewd promptings of Gaia' (494, ἐννεσίῃσι πολυφραδέεσσι), and the Gaia-and-Ouranos prophecy at 463–465 / 475 — tracking as one motif the recurring role of Gaia as the source of the counsel that drives each divine succession (culminating in her counsel at 884, Block D). Option 2 of THEO-626 (a dedicated motif entry; the surface stays literal).",
+   "claim_type": "direct",
+   "rationale": "Across the succession narrative Gaia is repeatedly the source of the prophetic counsel that topples each regime: she and Ouranos reveal to Kronos that he is fated to fall to his own son (463–465, restated 475); by *Γαίης ἐννεσίῃσι πολυφραδέεσσι* 'the shrewd promptings of Gaia' (494) Kronos is made to disgorge his children; and by *Γαίης φραδμοσύνῃσιν* 'the counsels of Gaia' (626) the Olympians raise the Hundred-Handers who will win them the war — the same motif that culminates at 884. The vocabulary (*φραδμοσύνη*, *ἐννεσίη*, the *πέπρωται* 'it is fated' formula) is well-understood LSJ material; the Editor renders it literally with Evelyn-White and coins this entry to track the motif for consistency across the composition, exactly as the kratos-phertatos and honour-vocabulary entries do, which is why the claim_type is `direct` (a lexical-consistency convention, not an interpretive claim). **Lens-discipline note:** Gaia as the earth-power whose foreknowledge steers each regime-change is a Wheel-of-Heaven-salient theme, but both surface and note stay at the lexical level and press no cosmological reading; 884 (Block D) is noted as the motif's culmination but is not yet in scope.",
+   "appliesTo": [
+    "THEO-463",
+    "THEO-464",
+    "THEO-465",
+    "THEO-475",
+    "THEO-494",
+    "THEO-626"
+   ]
+  },
+  {
+   "id": "titanomachy-both-sides-gods-theomachy-theogony",
+   "source": "Τιτῆνές τε θεοὶ καὶ ὅσοι Κρόνου ἐξεγένοντο (630, 668; ἐκγενόμεσθα 648); οἳ δʼ ἄρʼ ἀπʼ Οὐλύμποιο θεοί, δωτῆρες ἐάων (633); ὣς φάτʼ· ἐπῄνεσσαν δὲ θεοί, δωτῆρες ἐάων (664)",
+   "translit": "Titēnes te theoi kai hosoi Kronou exegenonto; theoi, dōtēres eaōn",
+   "strongs": "LSJ s.vv. Τιτάν, θεός; West 1966, comm. ad 630–664; cf. 46/111 (θεοί, δωτῆρες ἐάων); central chaoskampf-sea-conflict-cross-corpus-ugaritic-akkadian-hebrew-bible",
+   "lemma": "Τιτῆνές θεοί (the Titan gods) vs οἱ Κρόνου ἐκγενόμενοι (the Olympians)",
+   "partOfSpeech": "convention: the Titan/theoi opposition formula and the both-sides-are-gods framing of the Titanomachy",
+   "literal": "'the Titan gods and all who were born of Kronos' — both armies are θεοί 'gods'",
+   "standardEnglish": "the Titan gods and all who were born of Kronos (Evelyn-White, apposition)",
+   "wohChoice": "render the formula as apposition — 'the Titan gods and all who were born of Kronos' (630/648/668), *θεοί* apposed to *Τιτῆνες* (the Titans-who-are-gods) — NOT as a three-item list; note that the Olympians too are *θεοί, δωτῆρες ἐάων* 'gods, givers of good things' (633/664, the hemistich of 46/111), so the war is a theomachy, gods against gods. Option 1 of THEO-630.",
+   "claim_type": "direct",
+   "rationale": "The repeated formula *Τιτῆνές τε θεοὶ καὶ ὅσοι Κρόνου ἐξεγένοντο* (630, 648, 668) names both warring armies, and the apposition is grammatically explicit: *θεοί* stands in apposition to *Τιτῆνες* ('the Titan gods'), with 'all who were born of Kronos' naming the Olympians — so Evelyn-White's apposition rendering is retained over a three-item list, and the claim_type is `direct`. The point the entry records is on the surface of the Greek itself: the Olympians too are *θεοί, δωτῆρες ἐάων* 'gods, givers of good things' (633, 664 — the very hemistich used of the Olympian gods at 46 and 111), so the Titanomachy is a conflict of gods against gods (a theomachy), not gods against monsters. **Lens-discipline / comparative apparatus (clearly labeled):** the Titanomachy is the Greek instance of the wider Near-Eastern succession-conflict / theomachy pattern documented for the Ugaritic–Akkadian–Hebrew corpus in the central `chaoskampf-sea-conflict-cross-corpus` entry; per the signed-off Block-A/B non-fusion precedent that central entry is deliberately NOT extended to any THEO refId, and the convergence — together with any Wheel-of-Heaven Theomachy-as-history reading — is confined to commentary, kept out of both the surface and the philological claim. The Editor's no-central-change recommendation, with the optional convergence-spec, is in the Block-C report.",
+   "appliesTo": [
+    "THEO-630",
+    "THEO-633",
+    "THEO-648",
+    "THEO-664",
+    "THEO-668"
+   ]
+  },
+  {
+   "id": "tartaros-underworld-vocabulary-theogony",
+   "source": "ἔνοσις δʼ ἵκανε βαρεῖα / Τάρταρον ἠερόεντα (681–682); τόσσον γάρ τʼ ἀπὸ γῆς ἐς Τάρταρον ἠερόεντα (721); ἐκ γαίης κατιὼν δεκάτῃ κʼ ἐς Τάρταρον ἵκοι (725); ἔνθα θεοὶ Τιτῆνες ὑπὸ ζόφῳ ἠερόεντι (729); χώρῳ ἐν εὐρώεντι, πελώρης ἔσχατα γαίης (731)",
+   "translit": "Tartaros ēeroeis",
+   "strongs": "LSJ s.vv. Τάρταρος, ταρταρόω; West 1966, comm. ad 720–735; cf. 2 Peter 2:4 (ταρταρώσας 'having cast down to Tartaros')",
+   "lemma": "Τάρταρος (Tartaros)",
+   "partOfSpeech": "Greek noun/place-name — the Titan-prison at the ends of the earth",
+   "literal": "Tartaros, the misty (ēeroeis) nether pit far below the earth",
+   "standardEnglish": "misty Tartaros (Evelyn-White)",
+   "wohChoice": "transliterate 'Tartaros' (the standard form) and render the prison-description vocabulary (682, 721, 725, 729, 731) literally with Evelyn-White; the reception of the derived verb *ταρταρόω* at 2 Peter 2:4 (of the imprisoned rebel angels) recorded as apparatus only.",
+   "claim_type": "direct",
+   "rationale": "The defeated Titans are hurled 'as far beneath the earth as heaven is from the earth' (720) into *Τάρταρος ἠερόεις* 'misty Tartaros' (682, 721, 725), a bronze-fenced, bronze-doored prison at the ends of the earth (726–735) guarded by the Hundred-Handers; the name is transliterated with the standard 'Tartaros' and the descriptive vocabulary follows Evelyn-White, so the claim_type is `direct`. The word's later life — the denominative verb *ταρταρόω* 'to cast down to Tartaros', used at 2 Peter 2:4 of the angels imprisoned for judgement — is a datum of its Greco-Jewish/Christian reception, recorded here as apparatus only; there is no central Tartaros entry and none is created or extended, per the non-fusion precedent. **Lens-discipline note:** the imprisonment of an entire defeated divine order in a sealed cosmic pit is a Wheel-of-Heaven-salient image, but the rendering and the note are held to the lexical level and press no reading beyond what the text states.",
+   "appliesTo": [
+    "THEO-682",
+    "THEO-721",
+    "THEO-725",
+    "THEO-729",
+    "THEO-731"
+   ]
+  }
+ ]
 }
