@@ -6,9 +6,9 @@
  "title": "Theogony — the genealogy of the gods, from Chaos to the ordering of the cosmos under Zeus",
  "translation": {
   "track": "translation",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "status": "stable",
-  "scope": "Blocks A–C — lines 1–735 of 1042, stable/signed-off (A @1.0.0, B @1.1.0, C @1.2.0); block D (736–1022 + 929a–t) pending",
+  "scope": "Complete composition — lines 1–1022 + variant 929a–t (1042 line objects), stable/signed-off (A @1.0.0, B @1.1.0, C @1.2.0, D @1.3.0)",
   "sourceText": "Hesiod, Theogony — Perseus canonical-greekLit tlg0020.tlg001.perseus-grc2 (Scaife urn:cts:greekLit:tlg0020.tlg001.perseus-grc2)",
   "sourceLicense": "CC BY-SA 4.0 (Perseus Digital Library digital edition); underlying print edition Evelyn-White, Hesiod, the Homeric Hymns and Homerica (Loeb Classical Library, London/New York 1914), Public Domain",
   "sourceUrl": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0020/tlg001/tlg0020.tlg001.perseus-grc2.xml",
@@ -18,7 +18,7 @@
    "claude-opus-4-8 (translator)"
   ],
   "reviewer": "zarazinsfuss",
-  "reviewedAt": "2026-08-04T11:44:32Z",
+  "reviewedAt": "2026-08-04T13:44:41Z",
   "reviewerReport": {
    "reviewer": "claude-opus-4-8[1m] acting as woh-reviewer",
    "reviewedAt": "2026-08-04T06:03:05Z",
@@ -1369,6 +1369,528 @@
       "West 1966 comm. (apparatus criticus) ad 496, 576-577, 591"
      ],
      "reasoning": "Extension to 496, 576, 577, 591 verified: each is athetized in the edition and retained/translated unmarked with the athetesis recorded in the note, per the signed-off convention. The source text field carries no literal brackets (verified) — the note is the sole carrier of text-critical status. Correct."
+    }
+   ],
+   "lens-leakage-flags": []
+  },
+  "reviewerReportBlockD": {
+   "reviewer": "claude-opus-4-8[1m] acting as woh-reviewer",
+   "reviewedAt": "2026-08-04T13:34:32Z",
+   "verdicts": [
+    {
+     "refId": "THEO-736",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914 (Loeb)",
+      "West 1966 comm. ad 736–745; LSJ s.v. Τάρταρος, ἠερόεις"
+     ],
+     "reasoning": "Re-parsed ἔνθα δὲ γῆς δνοφερῆς καὶ Ταρτάρου ἠερόεντος: 'misty Tartaros' and the πηγαί/πείρατα 'sources and limits' cosmography are the plain sense; γῆς/οὐρανοῦ correctly held as common nouns. Transliterated Tartaros with the tartaros-vocabulary entry; ratified."
+    },
+    {
+     "refId": "THEO-740",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 740; LSJ s.v. χάσμα, χαίνω"
+     ],
+     "reasoning": "χάσμα μέγʼ 'a great chasm' is rendered plainly; the note's χάσμα~Χάος (√χα-) cognation is philological and correctly stated as cognation, not identity of referents. No lens; approve."
+    },
+    {
+     "refId": "THEO-761",
+     "status": "approve",
+     "citations": [
+      "Perseus tlg0020.tlg001.perseus-grc2 (edition orthography)",
+      "cf. Χρυσαωρ 281 precedent"
+     ],
+     "reasoning": "Independently confirmed the source prints the grave proclitic εἲς (οὐρανὸν εἲς ἀνιὼν); the quirk is preserved verbatim in the text field and standard εἰς construed in English. The note's citation form ἀνιών (acute) is normal lemma citation, not an error."
+    },
+    {
+     "refId": "THEO-768",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 768; LSJ s.v. Ἅιδης"
+     ],
+     "reasoning": "Ἀίδεω is the epic (unaspirated) genitive of Ἅιδης, correctly normalized to the standard PANHELLENIC GREEK 'Hades' (not Latin Pluto/Dis) exactly as at 455; source spelling kept verbatim. Approve."
+    },
+    {
+     "refId": "THEO-774",
+     "status": "approve",
+     "citations": [
+      "West 1966 (app. crit.); Perseus <del> markup",
+      "LSJ s.v. Ἅιδης"
+     ],
+     "reasoning": "Independently confirmed 774 repeats 768 verbatim and is athetized (<del>) in the source; retained-and-translated-unmarked per the ratified athetized-lines convention, athetesis recorded in commentary. Approve."
+    },
+    {
+     "refId": "THEO-784",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 775–806, 784; LSJ s.v. ὅρκος II"
+     ],
+     "reasoning": "θεῶν μέγαν ὅρκον 'the great oath of the gods' is verbatim = 400; ὅρκος is the oath-OBJECT (the Styx-water sanction) sworn by, correctly kept distinct from the personified Horkos (231) and lower-cased. Scope-extension of horkos-styx to 784 is warranted; no covenant vocabulary leaks into the surface. Approve."
+    },
+    {
+     "refId": "THEO-793",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 793–804"
+     ],
+     "reasoning": "The 793–794 couplet is a single enjambed relative clause; the English redistributes it (793-EN carries 794-Gk 'immortals who hold snowy Olympos', 794-EN carries 793-Gk 'pours a libation and swears falsely'). The composite sense matches Evelyn-White exactly and produces grammatical English; legitimate hexameter-enjambment handling. Approve."
+    },
+    {
+     "refId": "THEO-805",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 805–806; LSJ s.v. ὅρκος, ἄφθιτος, ὠγύγιος"
+     ],
+     "reasoning": "τοῖον ἄρʼ ὅρκον ἔθεντο... Στυγὸς ἄφθιτον ὕδωρ / ὠγύγιον 'such an oath the gods made, the imperishable primeval water of Styx' closes the oath-frame with ὅρκος again the oath-object; second payoff site of horkos-styx. Approve."
+    },
+    {
+     "refId": "THEO-814",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 814; LSJ s.v. χάος"
+     ],
+     "reasoning": "Τιτῆνες ναίουσι, πέρην Χάεος ζοφεροῖο 'the Titans dwell, beyond gloomy Chaos': Χάεος is the primordial gap of 116 functioning as underworld topography, correctly rendered 'Chaos' (not 'disorder'); chaos + titanes entries appropriately extended. Approve."
+    },
+    {
+     "refId": "THEO-818",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 817–819; LSJ s.v. Ἐννοσίγαιος"
+     ],
+     "reasoning": "βαρύκτυπος Ἐννοσίγαιος 'the deep-crashing Earth-Shaker' is Poseidon, correctly rendered by the periphrastic title without supplying the withheld name, as at 441/456. Approve."
+    },
+    {
+     "refId": "THEO-820",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 820–880; Clay 2003, Hesiod's Cosmos"
+     ],
+     "reasoning": "HIGH-SCRUTINY (Typhoeus): re-parsed the whole set-piece against the Greek. The surface is a plain rendering (youngest child of Gaia in union with Tartaros; blasted by the thunderbolt; hurled into Tartaros) with NO chaoskampf coloring in the text; the Near-Eastern combat-myth convergence is confined to a clearly-labeled comparative note. No lens leakage; approve."
+    },
+    {
+     "refId": "THEO-825",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 825; LSJ s.v. ὄφις, δράκων"
+     ],
+     "reasoning": "ἣν ἑκατὸν κεφαλαὶ ὄφιος, δεινοῖο δράκοντος 'a hundred heads of a serpent, a dread dragon': ὄφις/δράκων used of the one creature with no fixed technical opposition, per LSJ and the reference; ophis-drakon entry correctly extended to the climactic serpent. Approve."
+    },
+    {
+     "refId": "THEO-839",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 839–846, 854; LSJ s.vv. βροντή, στεροπή, κεραυνός"
+     ],
+     "reasoning": "ἐβρόντησε and the βροντή/στεροπή/κεραυνός recurrences (845–846, 854) render Zeus's storm-triad consistently as thunder/lightning/(blazing) thunderbolt, without a rigid technical distinction the poem does not mark; thunder-triad scope-extension warranted. Approve."
+    },
+    {
+     "refId": "THEO-850",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 850; LSJ s.v. Ἅιδης"
+     ],
+     "reasoning": "τρέε δʼ Ἀίδης 'Hades trembled': the epic Ἀίδης normalized to the standard Greek form as at 768/774, source spelling kept verbatim. Approve."
+    },
+    {
+     "refId": "THEO-855",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 855; place-name Greek-forms convention"
+     ],
+     "reasoning": "ἀπʼ Οὐλύμποιο: the epic diectatic Οὔλυμπ- normalized to the standard 'Olympos' (Greek form, not Latin Olympus) as at 397/953, source spelling kept verbatim. Approve."
+    },
+    {
+     "refId": "THEO-866",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "name-and-title convention (THEO-1); cf. signed-off Apollo/Athena at 13–14"
+     ],
+     "reasoning": "OBSERVATION (name-form): the surface uses the entrenched anglicized 'Hephaestus' (first occurrence here) rather than the Greek 'Hephaistos', as it does for Apollo (14) and Achilles (1007). This is inconsistent with the convention's Hellenizing thrust (Ouranos-not-Uranus) but falls in the same 'established English theonym' class as the signed-off Apollo/Athena (Block A), and follows the reference edition; defensible, no lens. Approve; recommend the name-convention entry make the entrenched-individual-theonym retention explicit."
+    },
+    {
+     "refId": "THEO-868",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 868; LSJ s.v. Τάρταρος; cf. 2 Pet 2:4 ταρταρόω"
+     ],
+     "reasoning": "ῥῖψε δέ μιν... ἐς Τάρταρον εὐρύν 'he hurled him into wide Tartaros': plain rendering; the ταρταρόω/2 Peter reception is held to the apparatus and does NOT leak into the surface (no 'cast down to Tartaros' cosmology imported). Approve."
+    },
+    {
+     "refId": "THEO-882",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 881–885; LSJ s.vv. τιμή, γέρας"
+     ],
+     "reasoning": "Τιτήνεσσι... τιμάων κρίναντο βίηφι and 885 ἑὰς διεδάσσατο τιμάς: the honour-lexicon reaches its accession payoff (Zeus distributes the timai); rendered 'honours' consistently, scope-extension of time-geras-moira to 882/885/892/904 warranted. A sovereign distributing offices is WoH-salient but the surface stays lexical; no lens. Approve."
+    },
+    {
+     "refId": "THEO-884",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 884; LSJ s.v. φραδμοσύνη"
+     ],
+     "reasoning": "Γαίης φραδμοσύνῃσιν 'by the counsels of Gaia' installs Zeus as king; the gaia-counsel motif culmination (463→475→494→626→884) is correctly tracked, surface literal, no cosmological reading pressed. Approve."
+    },
+    {
+     "refId": "THEO-886",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 886–900; LSJ s.v. μῆτις, μητίετα; Detienne–Vernant, Les ruses de l'intelligence (1974)"
+     ],
+     "reasoning": "HIGH-SCRUTINY (Metis): πρώτην ἄλοχον θέτο Μῆτιν 'made Metis his first wife' — name transliterated (not glossed 'Cunning'), the mētis wordplay-network held in commentary. The swallowing (891–900) is rendered plainly with NO wisdom-tradition import (no 'Wisdom/Sophia' capitalization); non-fusion with the central wisdom entries intact. No lens; approve."
+    },
+    {
+     "refId": "THEO-887",
+     "status": "revise",
+     "citations": [
+      "West 1966 (text: πλεῖστα θεῶν εἰδυῖαν ἰδὲ θνητῶν ἀνθρώπων)",
+      "Perseus tlg0020.tlg001.perseus-grc2 (defective line); cf. the parallel 929p"
+     ],
+     "reasoning": "The printed Perseus source line reads πλεῖστα τε ἰδυῖαν ἰδὲ θνητῶν ἀνθρώπων — hypometric, with θεῶν omitted — yet the surface supplies 'of gods and of mortal men', silently following the standard text and the doublet 929p (πλεῖστα θεῶν τε ἰδυῖα...). The rendering is CORRECT and should stand, but this word-level edition defect is undocumented while the overlay documents far smaller quirks (a stray comma at 1003). REVISE: add a per-line note (or extend source-orthographic-quirks-verbatim) recording that the Perseus line omits θεῶν and the surface follows the standard reading confirmed by 929p."
+    },
+    {
+     "refId": "THEO-891",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 891; LSJ s.v. φραδμοσύνη"
+     ],
+     "reasoning": "Γαίης φραδμοσύνῃσι καὶ Οὐρανοῦ ἀστερόεντος 'by the counsels of Gaia and of starry Ouranos': second gaia-counsel payoff, correctly rendered; Ouranos here the personified consort-deity, within the boundary entry's scope. Approve."
+    },
+    {
+     "refId": "THEO-900",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 897–900, 924–926; Loraux, Les enfants d'Athéna"
+     ],
+     "reasoning": "The swallowing (ἐσκάτθετο νηδύν) 'so that the goddess might advise him of good and evil' and Athena's birth from Zeus's head (924, αὐτὸς δʼ ἐκ κεφαλῆς) are rendered plainly; δόλῳ/αἱμυλίοισι λόγοισιν 'by craft/with wheedling words' preserved. No lens. Approve."
+    },
+    {
+     "refId": "THEO-902",
+     "status": "approve",
+     "citations": [
+      "Perseus edition orthography (Εὐνουμίην)",
+      "Evelyn-White 1914; name-and-title convention"
+     ],
+     "reasoning": "Confirmed source prints Εὐνουμίην; kept verbatim in text, standard 'Eunomia' in translit/English. The Horai/Eunomia/Dike/Eirene transliterated as cult-established Seasons-goddesses (parallel to the Charites 909), transparent senses in commentary. Approve."
+    },
+    {
+     "refId": "THEO-904",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 904 (Moirai doublet); LSJ s.v. μητίετα, τιμή"
+     ],
+     "reasoning": "Μοίρας 'the Fates' (vs 'the Destinies' at 217, correctly distinguished since 217 paired with Κῆρας), Κλωθώ/Λάχεσιν/Ἄτροπον transliterated as at 218, μητίετα 'the counsellor', πλείστην τιμὴν 'the greatest honour'. The Nyx-vs-Zeus/Themis genealogical doublet is honestly flagged, not harmonized (West 1966). Approve."
+    },
+    {
+     "refId": "THEO-913",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914 (Aïdoneus)",
+      "West 1966 comm. ad 913; LSJ s.v. Ἀϊδωνεύς; Homer Iliad 5.190, 20.61"
+     ],
+     "reasoning": "EXPLICIT RULING (flagged call 3 — Aidoneus): I AFFIRM the non-normalization. Ἀιδωνεύς is a distinct expanded -εύς name-form of Hades attested as a fuller proper name in epic (Il. 5.190), NOT a mere orthographic variant of Ἅιδης; keeping 'Aidoneus' while normalizing only the plain epic Ἀίδης/Ἀίδεω (768/774/850) is the philologically correct split and matches the reference. Approve."
+    },
+    {
+     "refId": "THEO-929a",
+     "status": "flag-for-human",
+     "citations": [
+      "West 1966 (app. crit. ad 929a–t); Galen, De placitis Hippocratis et Platonis 3.8 (Chrysippus fr.)",
+      "Perseus <add>/<del> markup; Most 2006 (Loeb) app."
+     ],
+     "reasoning": "EXPLICIT RULING (flagged call 1 — headline). The retain-and-translate-unmarked-in-source-order treatment of the 20-line Chrysippus-apud-Galen doublet is philologically DEFENSIBLE and RECOMMENDED: it consistently extends the ratified athetized-lines convention, the 929a–t non-integer numbering is itself a strong in-surface signal, and the 929a note fully documents provenance/bracketing and the internal 929s athetesis. I flag-for-human ONLY the precedent, because this is the corpus's FIRST <add>-supplement block (sets policy for all future <add> supplements) and involves a 20-line audience-scale question versus single-line athetesis. Recommendation: keep retain-unmarked; the human should (a) ratify the precedent and (b) ensure the reader UI renders the 929a–t numbering + doublet-status so the block is visibly distinguishable. The renderings of 929a–t themselves are accurate (see 929g/929n/929s)."
+    },
+    {
+     "refId": "THEO-929g",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "LSJ s.v. πολυδήνης, ἐξαπαφίσκω"
+     ],
+     "reasoning": "ἐξαπαφὼν Μῆτιν καίπερ πολυδήνεʼ ἐοῦσαν 'deceiving Metis, though she was full of cunning': accurate doublet rendering; πολυδήνεα 'of many wiles' preserved, mētis network kept in commentary. Approve."
+    },
+    {
+     "refId": "THEO-929n",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "LSJ s.v. σπλάγχνον, λανθάνω"
+     ],
+     "reasoning": "Μῆτις δʼ αὖτε Ζηνὸς ὑπὸ σπλάγχνοις λελαθυῖα 'Metis, hidden away beneath the vitals of Zeus': accurate; the swallowed-mētis motif rendered plainly, no lens. Approve."
+    },
+    {
+     "refId": "THEO-929s",
+     "status": "approve",
+     "citations": [
+      "West 1966 (app. crit. — 929s <del>)",
+      "LSJ s.v. αἰγίς, φοβέστρατος"
+     ],
+     "reasoning": "Independently confirmed 929s is athetized (<del>) even within the <add> supplement; retained-and-translated-unmarked, the double status (supplement + athetesis) recorded. αἰγίδα... φοβέστρατον 'the aegis, Athena's army-routing armour' — aigis left untranslated as a cultic object. Approve."
+    },
+    {
+     "refId": "THEO-934",
+     "status": "revise",
+     "citations": [
+      "West 1966 comm. ad 934; LSJ s.vv. Φόβος, Δεῖμος",
+      "Homer Iliad 4.440, 15.119 (Deimos & Phobos, sons/attendants of Ares); project personified-abstractions-nyx-eris-brood convention"
+     ],
+     "reasoning": "EXPLICIT RULING (flagged call 2 — Phobos/Deimos). I find the transliterate option MORE consistent with the project's own signed-off convention and recommend it. Φόβον καὶ Δεῖμον are cult-established named sons of Ares (Homeric daimones, Spartan cult) — exactly the 'cult-established name-like members' the personified-abstractions convention TRANSLITERATES (as it did Zelos/Nike/Kratos/Bia at 384–385) — and their sister Ἁρμονίη is transliterated three words later in the SAME clause (937). Translating 'Panic and Fear' while transliterating Harmonia is internally inconsistent. REVISE surface to 'Phobos and Deimos' (via a glossary tweak); the reference's 'Panic and Fear' remains defensible, so the human may override, but the reviewer's recommendation is transliterate."
+    },
+    {
+     "refId": "THEO-967",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966 comm. ad 963–1018; LSJ s.vv. εὐνάω, δάμνημι, φιλότης, παραλέγομαι"
+     ],
+     "reasoning": "HIGH-SCRUTINY (union formulae): εὐνηθεῖσαι 'having lain with', (ἐν) φιλότητι μιγεῖσα 'mingling in love', δμηθεῖσα/ὑποδμηθεῖσα 'subdued/tamed by' (< δάμνημι), παρελέξατο 'lay beside' are rendered literally and consistently; the δμη- 'subdued' force is preserved (neither euphemized nor coarsened) AND carries no WoH divine-union lens into the surface. Register-precise; approve."
+    },
+    {
+     "refId": "THEO-1000",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "LSJ s.v. δάμνημι"
+     ],
+     "reasoning": "δμηθεῖσʼ ὑπʼ Ἰήσονι, ποιμένι λαῶν 'subdued by Jason, shepherd of the people': the δμη- 'subdued' force preserved, not softened. Approve."
+    },
+    {
+     "refId": "THEO-1006",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "LSJ s.v. δάμνημι"
+     ],
+     "reasoning": "Πηλέι δὲ δμηθεῖσα θεὰ Θέτις 'the goddess Thetis, subdued by Peleus': same disciplined preservation of the 'subdued' force; approve."
+    },
+    {
+     "refId": "THEO-1003",
+     "status": "approve",
+     "citations": [
+      "Perseus edition orthography (κοῦραι,·)",
+      "source-orthographic-quirks-verbatim entry"
+     ],
+     "reasoning": "Confirmed source prints a stray comma-plus-raised-dot after κοῦραι; kept verbatim in the text field and construed normally in English. Approve."
+    },
+    {
+     "refId": "THEO-1014",
+     "status": "approve",
+     "citations": [
+      "West 1966 (app. crit.); Perseus <del> markup",
+      "LSJ; the Telegony reception"
+     ],
+     "reasoning": "Confirmed 1014 (Τηλέγονον...) is athetized (<del>) as a post-Hesiodic addition toward the Telegony; retained-and-translated-unmarked per convention, athetesis recorded. Approve."
+    },
+    {
+     "refId": "THEO-1021",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914",
+      "West 1966; Most 2006 (redactional seam toward the Catalogue of Women/Ehoiai)"
+     ],
+     "reasoning": "νῦν δὲ γυναικῶν φῦλον ἀείσατε 'but now sing the tribe of women' is rendered literally as the transitional invocation mirroring 965–966; the redactional-seam/authenticity discussion is recorded in commentary, not marked in the surface. Approve."
+    },
+    {
+     "refId": "THEO-736–1022 + 929a–929t (block coverage)",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914 (reference edition, whole block)",
+      "West 1966 commentary; LSJ; independent NFC text-field verification against source-grc-1.json (0 mismatches across all 307 line objects)"
+     ],
+     "reasoning": "COVERAGE: every Block-D line object was re-parsed against the pointed Greek and its text field confirmed byte-identical (NFC) to the source. All lines not individually enumerated above (the house-of-Nyx/Sleep-Death description 744–766, the Styx cosmography 776–806, the Titan-prison seam 807–819, the Typhoeus-winds aetiology 869–880, the marriage- and mortal-goddess catalogues, and the 929b–t doublet interior) are plain, accurate Evelyn-White-consistent renderings with no lens leakage; approved."
+    }
+   ],
+   "glossaryReview": [
+    {
+     "glossary_id": "variant-passage-929a-929t-metis-doublet-theogony",
+     "status": "approve",
+     "citations": [
+      "West 1966 (app. crit. ad 929a–t)",
+      "Galen, De placitis Hippocratis et Platonis 3.8 (Chrysippus fr.); Perseus <add>/<del> markup"
+     ],
+     "reasoning": "claim_type=direct is correct: this is an apparatus convention and its text-critical content is accurate and well-cited — the Chrysippus-apud-Galen provenance, West's bracketing, the doublet mapping (929a–d ↔ 927–929; 929e–t ↔ 886–900 + 924, birth by the Triton at 929m), and the internal 929s athetesis were all independently verified against the source. The PRESENTATION-precedent the entry encodes is flag-for-human (see THEO-929a), but the entry's factual apparatus is sound. Approve."
+    },
+    {
+     "glossary_id": "metis-metieta-cunning-counsel-network-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.vv. μῆτις, μητίετα, ἀγκυλομήτης; Chantraine DELG s.v. μῆτις",
+      "Detienne–Vernant, Les ruses de l'intelligence: la mètis des Grecs (1974); West 1966 comm. ad 886–900"
+     ],
+     "reasoning": "claim_type=direct is correct and the lexical evidence is real: Μῆτις = μῆτις 'cunning counsel', μητίετα 'the counsellor' (rendered as at 520), and the etymological tie to Kronos's ἀγκυλομήτης (ankylo- + mētis) are all settled LSJ/Chantraine/Detienne–Vernant material. The wordplay is correctly kept in commentary and OUT of the surface (no inline 'Metis — Cunning' gloss); non-fusion with the central wisdom entries preserved. Approve."
+    },
+    {
+     "glossary_id": "union-formulae-mortal-goddess-catalogue-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.vv. δάμνημι, εὐνάω, φιλότης, παραλέγομαι",
+      "West 1966 comm. ad 963–1018; Evelyn-White 1914"
+     ],
+     "reasoning": "claim_type=direct is correct: preserving the δμη-/δαμ- 'subdued/tamed' force (< δάμνημι 'overpower, break, tame') against euphemism is a lexical fact of the Greek, not an editorial colouring. The 17-site consistency mapping matches the reference; the lens-discipline note keeps the WoH divine-human-union register out of surface and note. Approve."
+    },
+    {
+     "glossary_id": "source-orthographic-quirks-verbatim-theogony",
+     "status": "approve",
+     "citations": [
+      "Perseus tlg0020.tlg001.perseus-grc2 (edition orthography)",
+      "cf. Χρυσαωρ 281 precedent (pegasos-chrysaor entry)"
+     ],
+     "reasoning": "claim_type=direct is correct: all five quirks (761 grave εἲς, 902 Εὐνουμίην, 907 unaccented Εὐρυνομη, 975 unaccented Ἀφροδιτης, 1003 κοῦραι,·) were independently confirmed present in the source and preserved verbatim in the text fields, standard forms in translit/English. NOTE: this entry does NOT cover the word-level defect at 887 (θεῶν omitted); see the THEO-887 revise — extending this entry to 887 is one acceptable fix."
+    },
+    {
+     "glossary_id": "horkos-styx-great-oath-theogony",
+     "status": "approve",
+     "citations": [
+      "West 1966 comm. ad 400, 775–806; LSJ s.v. ὅρκος II",
+      "Evelyn-White 1914"
+     ],
+     "reasoning": "Scope-extension to 784/805 is warranted and lexically exact: the 784 phrase θεῶν μέγαν ὅρκον is verbatim = 400 and ὅρκος is the oath-object/sanction (LSJ II 'that by which one swears'), correctly distinguished from the deity Horkos (231). No covenant-cosmology pressed; approve."
+    },
+    {
+     "glossary_id": "time-geras-moira-honor-vocabulary-theogony",
+     "status": "approve",
+     "citations": [
+      "West 1966 comm. ad 881–885, 892, 904; LSJ s.vv. τιμή, γέρας, μοῖρα",
+      "Evelyn-White 1914"
+     ],
+     "reasoning": "Scope-extension to the accession payoff 882/885/892/904 is warranted: the τιμή/τιμαί apportionment lexicon of the Hekate hymn reaches its structural payoff as Zeus divides the timai. Consistent 'honours' rendering; surface stays lexical. Approve."
+    },
+    {
+     "glossary_id": "gaia-counsel-prophecy-vocabulary-theogony",
+     "status": "approve",
+     "citations": [
+      "West 1966 comm. ad 463–465, 494, 626, 884; LSJ s.v. φραδμοσύνη",
+      "Evelyn-White 1914"
+     ],
+     "reasoning": "Scope-extension to the culmination 884/891 is warranted: Γαίης φραδμοσύνῃσιν installs Zeus and prompts the Metis-swallowing, closing the motif tracked from 463→475→494→626. Surface literal, no cosmological reading. Approve."
+    },
+    {
+     "glossary_id": "ophis-drakon-serpent-vocabulary-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.vv. ὄφις, δράκων",
+      "West 1966 comm. ad 825"
+     ],
+     "reasoning": "Extension to 825 (Typhoeus's hundred serpent-heads) is warranted: ὄφις/δράκων are used of the one creature with no fixed technical opposition, exactly the Block-B finding. Approve."
+    },
+    {
+     "glossary_id": "thunder-triad-bronte-keraunos-sterope-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.vv. βροντή, στεροπή, κεραυνός",
+      "West 1966 comm. ad 504–505, 690–708, 839–854"
+     ],
+     "reasoning": "Extension to 839/845/846/854 is warranted: Zeus's storm-triad against Typhoeus rendered consistently with the Kyklopes'-gift and Titanomachy sites, no rigid technical distinction imposed. Approve."
+    },
+    {
+     "glossary_id": "tartaros-underworld-vocabulary-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.v. Τάρταρος; West 1966 comm. ad 720–735",
+      "cf. 2 Pet 2:4 ταρταρόω (reception, apparatus only)"
+     ],
+     "reasoning": "Extension to 736/807/841/851/868 is warranted (the Block-D prison/cosmography sites); 'Tartaros' transliterated, description literal, the ταρταρόω reception kept as apparatus. No central Tartaros entry created; non-fusion intact. Approve."
+    },
+    {
+     "glossary_id": "chaos-primordial-chasm-void-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.v. χάος, χαίνω; West 1966 comm. ad 116, 740, 814",
+      "Kirk–Raven–Schofield 1983"
+     ],
+     "reasoning": "Extension to 740 (χάσμα, √χα- cognate) and 814 (Χάεος as underworld region) is warranted; the primordial-gap sense is correctly maintained against the post-classical 'disorder'. Approve."
+    },
+    {
+     "glossary_id": "titanes-folk-etymology-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.v. Τιτάν; West 1966 comm. ad 207–210",
+      "Evelyn-White 1914"
+     ],
+     "reasoning": "Extension to 814/820/851/882 is warranted: all are Τιτῆνες/Τιτήνεσσι occurrences, transliterated 'Titans' consistently. Approve."
+    },
+    {
+     "glossary_id": "dialectal-theonym-normalization-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.v. Ἅιδης; West 1966 comm. ad 768, 850",
+      "Evelyn-White 1914"
+     ],
+     "reasoning": "Extension to the epic Hades forms 768/774/850 is warranted and correctly SCOPED: the entry normalizes only the plain epic Ἀίδης/Ἀίδεω to the standard Greek 'Hades', and the distinct fuller name Ἀιδωνεύς (913) is rightly left OUT (kept as 'Aidoneus'; affirmed at THEO-913). Approve."
+    },
+    {
+     "glossary_id": "athetized-lines-convention-theogony",
+     "status": "approve",
+     "citations": [
+      "West 1966 (app. crit.); Perseus <del> markup",
+      "independent verification: 774/1014/929s all carry <del> in the source"
+     ],
+     "reasoning": "Extension to 774/1014/929s is warranted: all three independently confirmed as edition <del> lines, retained-and-translated-unmarked with athetesis in commentary per the ratified convention. Approve."
+    },
+    {
+     "glossary_id": "aigiochos-aegis-bearer-zeus-epithet-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.v. αἰγίοχος, αἰγίς; West 1966 comm. ad 11",
+      "Evelyn-White 1914"
+     ],
+     "reasoning": "Extension to 920/966/1022 (Διὸς αἰγιόχοιο) and 929c (aigiochos epithet) and 929s (the aigis object) is warranted; 'aegis-holding' retained, aigis left untranslated as a cultic object. Approve."
+    },
+    {
+     "glossary_id": "periphrastic-title-unnamed-god-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.vv. Ἐννοσίγαιος, Ἀμφιγυήεις; West 1966 comm. ad 441, 456",
+      "Evelyn-White 1914"
+     ],
+     "reasoning": "Extension to 818/930 (Ennosigaios = Poseidon) and 945 (Amphigyeeis = Hephaestus, the Lame One) is warranted; the withheld names are rendered by literal periphrasis, not supplied in surface. Approve."
+    },
+    {
+     "glossary_id": "place-name-greek-forms-block-c-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.vv. Κρήτη, Ὄλυμπος, Ἰωλκός; West 1966",
+      "signed-off river-/island-exonym precedent (Kypros-not-Cyprus)"
+     ],
+     "reasoning": "Extension to Olympos 855/953, Krete 971, Iolkos 997 is warranted and consistent with the signed-off Greek-forms convention; source spellings (Οὐλυμπ-, Ἰαωλκ-) kept verbatim, standard Greek forms in surface. Approve."
+    },
+    {
+     "glossary_id": "ouranos-gaia-cosmogony-personification-boundary-theogony",
+     "status": "approve",
+     "citations": [
+      "LSJ s.vv. γαῖα, οὐρανός; West 1966 comm. ad 108, 116–128",
+      "Evelyn-White 1914"
+     ],
+     "reasoning": "Extension to the 13 Block-D sites is warranted: the common-noun γῆ/οὐρανός sites (736/746/753/761/779/807/840/847/858) and the personified-deity sites (820/821 Gaia, 884/891 Gaia+Ouranos) are correctly assigned by the boundary the entry governs. Approve."
+    },
+    {
+     "glossary_id": "theogony-name-and-title-conventions",
+     "status": "approve",
+     "citations": [
+      "Evelyn-White 1914; Most 2006 (Loeb)",
+      "name convention (THEO-1); A–C sign-off precedent for representative appliesTo sampling"
+     ],
+     "reasoning": "The six Block-D representative anchors (776/886/902/934/966/1017) follow the established A–C practice of sampling this meta-entry's appliesTo rather than listing all ~90 name-convention sites; verified that every OTHER (non-meta) entry has complete bidirectional Block-D coverage (0 orphans). Approve. Minor: the entry could state explicitly that entrenched individual theonyms (Apollo/Athena/Achilles/Hephaestus) are retained anglicized alongside the Hellenized majority (see THEO-866)."
     }
    ],
    "lens-leakage-flags": []
@@ -10139,6 +10661,3815 @@
     "en": "the faithful guardians of aegis-holding Zeus."
    },
    "glossaryRefs": [
+    "aigiochos-aegis-bearer-zeus-epithet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 736,
+   "refId": "THEO-736",
+   "text": "ἔνθα δὲ γῆς δνοφερῆς καὶ Ταρτάρου ἠερόεντος",
+   "translit": "entha de gēs dnopherēs kai Tartarou ēeroentos",
+   "i18n": {
+    "en": "There, of the murky earth and of misty Tartaros,"
+   },
+   "glossaryRefs": [
+    "tartaros-underworld-vocabulary-theogony",
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {
+    "official": "*Ταρτάρου ἠερόεντος* 'misty Tartaros' (736) opens the cosmography of the world's *πηγαί* and *πείρατα* 'sources and limits' (736–745), continuing the Tartaros description begun at 720–735 (Block C). Transliterated 'Tartaros' with the descriptive vocabulary following Evelyn-White; `tartaros-underworld-vocabulary-theogony`, whose scope is extended to the Block-D prison/cosmography sites (736, 807, 841, 851, 868). *γῆς … οὐρανοῦ* remain common nouns 'earth … heaven' per `ouranos-gaia-cosmogony-personification-boundary-theogony`."
+   }
+  },
+  {
+   "n": 737,
+   "refId": "THEO-737",
+   "text": "πόντου τʼ ἀτρυγέτοιο καὶ οὐρανοῦ ἀστερόεντος",
+   "translit": "pontou t' atrygetoio kai ouranou asteroentos",
+   "i18n": {
+    "en": "and of the barren sea and of the starry heaven,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 738,
+   "refId": "THEO-738",
+   "text": "ἑξείης πάντων πηγαὶ καὶ πείρατʼ ἔασιν",
+   "translit": "hexeiēs pantōn pēgai kai peirat' easin",
+   "i18n": {
+    "en": "are the sources and limits of all things, in order, one after another,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 739,
+   "refId": "THEO-739",
+   "text": "ἀργαλέʼ εὐρώεντα, τά τε στυγέουσι θεοί περ,",
+   "translit": "argale' eurōenta ta te stygeousi theoi per",
+   "i18n": {
+    "en": "grievous and dank, which even the gods abhor,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 740,
+   "refId": "THEO-740",
+   "text": "χάσμα μέγʼ, οὐδέ κε πάντα τελεσφόρον εἰς ἐνιαυτὸν",
+   "translit": "chasma meg' oude ke panta telesphoron eis eniauton",
+   "i18n": {
+    "en": "a great chasm; and not even in a whole completed year"
+   },
+   "glossaryRefs": [
+    "chaos-primordial-chasm-void-theogony"
+   ],
+   "notes": {
+    "official": "*χάσμα μέγʼ* 'a great chasm' (740): the gulf below the bronze threshold of Tartaros is a *χάσμα*, from the same root *χα-* (*χαίνω/χάσκω* 'to gape, yawn') as *Χάος* at 116 — the primordial 'yawning gap' reappearing as the abyss beneath the world. Rendered 'a great chasm' with Evelyn-White; the *χάσμα ~ Χάος* cognation is philological, not an identity of referents (`chaos-primordial-chasm-void-theogony`, extended to 740, 814; cf. the note on 700, where Chaos itself recurs at the climax of the Titanomachy)."
+   }
+  },
+  {
+   "n": 741,
+   "refId": "THEO-741",
+   "text": "οὖδας ἵκοιτʼ, εἰ πρῶτα πυλέων ἔντοσθε γένοιτο,",
+   "translit": "oudas hikoit' ei prōta pyleōn entosthe genoito",
+   "i18n": {
+    "en": "would one reach the floor, if first he passed within the gates,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 742,
+   "refId": "THEO-742",
+   "text": "ἀλλά κεν ἔνθα καὶ ἔνθα φέροι πρὸ θύελλα θυέλλῃ",
+   "translit": "alla ken entha kai entha pheroi pro thyella thyellē",
+   "i18n": {
+    "en": "but storm upon storm would carry him this way and that,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 743,
+   "refId": "THEO-743",
+   "text": "ἀργαλέη· δεινὸν δὲ καὶ ἀθανάτοισι θεοῖσι",
+   "translit": "argaleē deinon de kai athanatoisi theoisi",
+   "i18n": {
+    "en": "a grievous thing; and dread even to the immortal gods"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 744,
+   "refId": "THEO-744",
+   "text": "τοῦτο τέρας. Νυκτὸς δʼ ἐρεβεννῆς οἰκία δεινὰ",
+   "translit": "touto teras Nyktos d' erebennēs oikia deina",
+   "i18n": {
+    "en": "is this portent. And the terrible houses of dark Night"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 745,
+   "refId": "THEO-745",
+   "text": "ἕστηκεν νεφέλῃς κεκαλυμμένα κυανέῃσιν.",
+   "translit": "hestēken nephelēs kekalymmena kyaneēsin",
+   "i18n": {
+    "en": "stand shrouded in dark clouds."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 746,
+   "refId": "THEO-746",
+   "text": "τῶν πρόσθʼ Ἰαπετοῖο πάις ἔχει οὐρανὸν εὐρὺν",
+   "translit": "tōn prosth' Iapetoio pais echei ouranon euryn",
+   "i18n": {
+    "en": "In front of these the son of Iapetos holds the wide heaven,"
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 747,
+   "refId": "THEO-747",
+   "text": "ἑστηὼς κεφαλῇ τε καὶ ἀκαμάτῃσι χέρεσσιν",
+   "translit": "hestēōs kephalē te kai akamatēsi cheressin",
+   "i18n": {
+    "en": "standing, with his head and unwearying hands,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 748,
+   "refId": "THEO-748",
+   "text": "ἀστεμφέως, ὅθι Νύξ τε καὶ Ἡμέρη ἆσσον ἰοῦσαι",
+   "translit": "astempheōs hothi Nyx te kai Hēmerē asson iousai",
+   "i18n": {
+    "en": "unmoving, where Night and Day draw near"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 749,
+   "refId": "THEO-749",
+   "text": "ἀλλήλας προσέειπον, ἀμειβόμεναι μέγαν οὐδὸν",
+   "translit": "allēlas proseeipon ameibomenai megan oudon",
+   "i18n": {
+    "en": "and greet each other as they pass the great threshold"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 750,
+   "refId": "THEO-750",
+   "text": "χάλκεον· ἣ μὲν ἔσω καταβήσεται, ἣ δὲ θύραζε",
+   "translit": "chalkeon hē men esō katabēsetai hē de thyraze",
+   "i18n": {
+    "en": "of bronze; the one will go down within, while the other"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 751,
+   "refId": "THEO-751",
+   "text": "ἔρχεται, οὐδέ ποτʼ ἀμφοτέρας δόμος ἐντὸς ἐέργει,",
+   "translit": "erchetai oude pot' amphoteras domos entos eergei",
+   "i18n": {
+    "en": "goes forth, and never does the house hold both within,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 752,
+   "refId": "THEO-752",
+   "text": "ἀλλʼ αἰεὶ ἑτέρη γε δόμων ἔκτοσθεν ἐοῦσα",
+   "translit": "all' aiei heterē ge domōn ektosthen eousa",
+   "i18n": {
+    "en": "but always one, being outside the house,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 753,
+   "refId": "THEO-753",
+   "text": "γαῖαν ἐπιστρέφεται, ἣ δʼ αὖ δόμου ἐντὸς ἐοῦσα",
+   "translit": "gaian epistrephetai hē d' au domou entos eousa",
+   "i18n": {
+    "en": "ranges over the earth, while the other, being within the house,"
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 754,
+   "refId": "THEO-754",
+   "text": "μίμνει τὴν αὐτῆς ὥρην ὁδοῦ, ἔστʼ ἂν ἵκηται,",
+   "translit": "mimnei tēn autēs hōrēn hodou est' an hikētai",
+   "i18n": {
+    "en": "awaits her own hour of journeying, until it comes;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 755,
+   "refId": "THEO-755",
+   "text": "ἣ μὲν ἐπιχθονίοισι φάος πολυδερκὲς ἔχουσα,",
+   "translit": "hē men epichthonioisi phaos polyderkes echousa",
+   "i18n": {
+    "en": "the one holding a light of wide vision for those upon the earth,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 756,
+   "refId": "THEO-756",
+   "text": "ἣ δʼ Ὕπνον μετὰ χερσί, κασίγνητον Θανάτοιο.",
+   "translit": "hē d' Hypnon meta chersi kasignēton Thanatoio",
+   "i18n": {
+    "en": "the other holding Sleep in her arms, the brother of Death—"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 757,
+   "refId": "THEO-757",
+   "text": "Νὺξ ὀλοή, νεφέλῃ κεκαλυμμένη ἠεροειδεῖ.",
+   "translit": "Nyx oloē nephelē kekalymmenē ēeroeidei",
+   "i18n": {
+    "en": "deadly Night, shrouded in cloudy mist."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 758,
+   "refId": "THEO-758",
+   "text": "ἔνθα δὲ Νυκτὸς παῖδες ἐρεμνῆς οἰκίʼ ἔχουσιν,",
+   "translit": "entha de Nyktos paides eremnēs oiki' echousin",
+   "i18n": {
+    "en": "There the children of dark Night have their dwellings,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 759,
+   "refId": "THEO-759",
+   "text": "Ὕπνος καὶ Θάνατος, δεινοὶ θεοί· οὐδέ ποτʼ αὐτοὺς",
+   "translit": "Hypnos kai Thanatos deinoi theoi oude pot' autous",
+   "i18n": {
+    "en": "Sleep and Death, dread gods; never does"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 760,
+   "refId": "THEO-760",
+   "text": "Ἠέλιος φαέθων ἐπιδέρκεται ἀκτίνεσσιν",
+   "translit": "Ēelios phaethōn epiderketai aktinessin",
+   "i18n": {
+    "en": "the shining Sun look upon them with his beams,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 761,
+   "refId": "THEO-761",
+   "text": "οὐρανὸν εἲς ἀνιὼν οὐδʼ οὐρανόθεν καταβαίνων.",
+   "translit": "ouranon eis aniōn oud' ouranothen katabainōn",
+   "i18n": {
+    "en": "as he goes up into heaven or comes down from heaven."
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony",
+    "source-orthographic-quirks-verbatim-theogony"
+   ],
+   "notes": {
+    "official": "The source prints a grave accent on the proclitic *εἲς* (*οὐρανὸν εἲς ἀνιών*, 761) — a printing quirk of the edition. The transmitted form is kept verbatim in the source text field and the standard *εἰς* 'into' is construed in the English, per the source-fidelity convention (`source-orthographic-quirks-verbatim-theogony`; cf. the unaccented *Χρυσαωρ* at 281)."
+   }
+  },
+  {
+   "n": 762,
+   "refId": "THEO-762",
+   "text": "τῶν δʼ ἕτερος γαῖάν τε καὶ εὐρέα νῶτα θαλάσσης",
+   "translit": "tōn d' heteros gaian te kai eurea nōta thalassēs",
+   "i18n": {
+    "en": "Of these the one roams quietly over the earth and the wide back of the sea,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 763,
+   "refId": "THEO-763",
+   "text": "ἥσυχος ἀνστρέφεται καὶ μείλιχος ἀνθρώποισι,",
+   "translit": "hēsychos anstrephetai kai meilichos anthrōpoisi",
+   "i18n": {
+    "en": "gently, and is kindly to men;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 764,
+   "refId": "THEO-764",
+   "text": "τοῦ δὲ σιδηρέη μὲν κραδίη, χάλκεον δέ οἱ ἦτορ",
+   "translit": "tou de sidēreē men kradiē chalkeon de hoi ētor",
+   "i18n": {
+    "en": "but the other has a heart of iron, and a spirit of bronze,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 765,
+   "refId": "THEO-765",
+   "text": "νηλεὲς ἐν στήθεσσιν· ἔχει δʼ ὃν πρῶτα λάβῃσιν",
+   "translit": "nēlees en stēthessin echei d' hon prōta labēsin",
+   "i18n": {
+    "en": "pitiless within his breast; and he holds fast whomever he first seizes"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 766,
+   "refId": "THEO-766",
+   "text": "ἀνθρώπων· ἐχθρὸς δὲ καὶ ἀθανάτοισι θεοῖσιν.",
+   "translit": "anthrōpōn echthros de kai athanatoisi theoisin",
+   "i18n": {
+    "en": "of men; and he is hateful even to the immortal gods."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 767,
+   "refId": "THEO-767",
+   "text": "ἔνθα θεοῦ χθονίου πρόσθεν δόμοι ἠχήεντες",
+   "translit": "entha theou chthoniou prosthen domoi ēchēentes",
+   "i18n": {
+    "en": "There, in front, stand the echoing halls of the god of the underworld,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 768,
+   "refId": "THEO-768",
+   "text": "ἰφθίμου τʼ Ἀίδεω καὶ ἐπαινῆς Περσεφονείης",
+   "translit": "iphthimou t' Aideō kai epainēs Persephoneiēs",
+   "i18n": {
+    "en": "mighty Hades, and of dread Persephone,"
+   },
+   "glossaryRefs": [
+    "dialectal-theonym-normalization-theogony"
+   ],
+   "notes": {
+    "official": "*Ἀίδεω* (768) is the epic (unaspirated) genitive of *Ἅιδης* 'Hades', normalized to the standard 'Hades' in the surface exactly as at 455 (Block C), the source spelling kept verbatim in the text field; 'Hades' is the standard *Greek* form, not the Latin 'Pluto/Dis'. Governed by `dialectal-theonym-normalization-theogony`, whose scope is extended to the Block-D Hades sites (768, 774, 850). Distinct from *Ἀιδωνεύς* 'Aidoneus' (913), a fuller alternative name kept unnormalized — see the note there."
+   }
+  },
+  {
+   "n": 769,
+   "refId": "THEO-769",
+   "text": "ἑστᾶσιν, δεινὸς δὲ κύων προπάροιθε φυλάσσει",
+   "translit": "hestasin deinos de kyōn proparoithe phylassei",
+   "i18n": {
+    "en": "and a fearful hound keeps guard before them,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 770,
+   "refId": "THEO-770",
+   "text": "νηλειής, τέχνην δὲ κακὴν ἔχει· ἐς μὲν ἰόντας",
+   "translit": "nēleiēs technēn de kakēn echei es men iontas",
+   "i18n": {
+    "en": "pitiless, and he has an evil trick: on those who come in"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 771,
+   "refId": "THEO-771",
+   "text": "σαίνει ὁμῶς οὐρῇ τε καὶ οὔασιν ἀμφοτέροισιν,",
+   "translit": "sainei homōs ourē te kai ouasin amphoteroisin",
+   "i18n": {
+    "en": "he fawns alike with his tail and both his ears,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 772,
+   "refId": "THEO-772",
+   "text": "ἐξελθεῖν δʼ οὐκ αὖτις ἐᾷ πάλιν, ἀλλὰ δοκεύων",
+   "translit": "exelthein d' ouk autis ea palin alla dokeuōn",
+   "i18n": {
+    "en": "but he does not let them go out again; but, watching,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 773,
+   "refId": "THEO-773",
+   "text": "ἐσθίει, ὅν κε λάβῃσι πυλέων ἔκτοσθεν ἰόντα.",
+   "translit": "esthiei hon ke labēsi pyleōn ektosthen ionta",
+   "i18n": {
+    "en": "he devours whomever he catches going out beyond the gates."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 774,
+   "refId": "THEO-774",
+   "text": "ἰφθίμου τʼ Ἀίδεω καὶ ἐπαινῆς Περσεφονείης.",
+   "translit": "iphthimou t' Aideō kai epainēs Persephoneiēs",
+   "i18n": {
+    "en": "of mighty Hades and of dread Persephone."
+   },
+   "glossaryRefs": [
+    "dialectal-theonym-normalization-theogony",
+    "athetized-lines-convention-theogony"
+   ],
+   "notes": {
+    "official": "Line 774 (*ἰφθίμου τʼ Ἀίδεω καὶ ἐπαινῆς Περσεφονείης*) is athetized in the Perseus/West edition: it repeats 768 verbatim and is judged an interpolation resuming the house-of-Hades description after the Kerberos digression (769–773). Per the athetized-lines convention the transmitted line is retained and translated unmarked in the surface, the athetesis recorded here; *Ἀίδεω*→'Hades' as at 768. See `athetized-lines-convention-theogony` and `dialectal-theonym-normalization-theogony`."
+   }
+  },
+  {
+   "n": 775,
+   "refId": "THEO-775",
+   "text": "ἔνθα δὲ ναιετάει στυγερὴ θεὸς ἀθανάτοισι,",
+   "translit": "entha de naietaei stygerē theos athanatoisi",
+   "i18n": {
+    "en": "There dwells a goddess loathed by the immortals,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 776,
+   "refId": "THEO-776",
+   "text": "δεινὴ Στύξ, θυγάτηρ ἀψορρόου Ὠκεανοῖο",
+   "translit": "deinē Styx thygatēr apsorroou Ōkeanoio",
+   "i18n": {
+    "en": "dread Styx, daughter of back-flowing Okeanos,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 777,
+   "refId": "THEO-777",
+   "text": "πρεσβυτάτη· νόσφιν δὲ θεῶν κλυτὰ δώματα ναίει",
+   "translit": "presbytatē nosphin de theōn klyta dōmata naiei",
+   "i18n": {
+    "en": "the eldest; and apart from the gods she dwells in glorious halls"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 778,
+   "refId": "THEO-778",
+   "text": "μακρῇσιν πέτρῃσι κατηρεφέʼ· ἀμφὶ δὲ πάντη",
+   "translit": "makrēsin petrēsi katērephe' amphi de pantē",
+   "i18n": {
+    "en": "roofed over with great rocks; and on every side"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 779,
+   "refId": "THEO-779",
+   "text": "κίοσιν ἀργυρέοισι πρὸς οὐρανὸν ἐστήρικται.",
+   "translit": "kiosin argyreoisi pros ouranon estēriktai",
+   "i18n": {
+    "en": "they are propped toward heaven with silver pillars."
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 780,
+   "refId": "THEO-780",
+   "text": "παῦρα δὲ Θαύμαντος θυγάτηρ πόδας ὠκέα Ἶρις",
+   "translit": "paura de Thaumantos thygatēr podas ōkea Iris",
+   "i18n": {
+    "en": "Seldom does the daughter of Thaumas, swift-footed Iris,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 781,
+   "refId": "THEO-781",
+   "text": "ἀγγελίην πωλεῖται ἐπʼ εὐρέα νῶτα θαλάσσης.",
+   "translit": "angeliēn pōleitai ep' eurea nōta thalassēs",
+   "i18n": {
+    "en": "come with a message over the wide back of the sea."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 782,
+   "refId": "THEO-782",
+   "text": "ὁππότʼ ἔρις καὶ νεῖκος ἐν ἀθανάτοισιν ὄρηται",
+   "translit": "hoppot' eris kai neikos en athanatoisin orētai",
+   "i18n": {
+    "en": "Whenever strife and quarrel arise among the immortals,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 783,
+   "refId": "THEO-783",
+   "text": "καί ῥʼ ὅστις ψεύδηται Ὀλύμπια δώματʼ ἐχόντων,",
+   "translit": "kai rh' hostis pseudētai Olympia dōmat' echontōn",
+   "i18n": {
+    "en": "and one of those who have their homes on Olympos speaks falsely,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 784,
+   "refId": "THEO-784",
+   "text": "Ζεὺς δέ τε Ἶριν ἔπεμψε θεῶν μέγαν ὅρκον ἐνεῖκαι",
+   "translit": "Zeus de te Irin epempse theōn megan horkon eneikai",
+   "i18n": {
+    "en": "then Zeus sends Iris to fetch the great oath of the gods"
+   },
+   "glossaryRefs": [
+    "horkos-styx-great-oath-theogony"
+   ],
+   "notes": {
+    "official": "*θεῶν μέγαν ὅρκον* 'the great oath of the gods' (784) repeats verbatim the phrase of 400 (Block B) and opens the oath-procedure (775–806): Iris fetches the Styx-water in a golden jug (*προχόῳ*, 785), and a forsworn god lies breathless a full year (795–798) and is cut off from the gods for nine (801–804). Here *ὅρκος* is again the oath-*object* sworn by — the sanction-water, not the personified avenger *Horkos* (son of Eris, 231) nor the speech-act — restated at 805 (*τοῖον … ὅρκον ἔθεντο θεοί*). Rendered 'the great oath of the gods' with Evelyn-White; `horkos-styx-great-oath-theogony`, whose scope is extended from 400 to its payoff sites 784 and 805. **Lens-discipline note:** this is the poem's institution of a binding cosmic sanction, but the note stays at the philological level (the *horkos*-as-witness sense and the Styx/Horkos distinction); no covenant-cosmology reading is pressed into line or apparatus — cf. the non-extension of the central Hebrew *brit*/oath entries recorded in the Block-D report."
+   }
+  },
+  {
+   "n": 785,
+   "refId": "THEO-785",
+   "text": "τηλόθεν ἐν χρυσέῃ προχόῳ πολυώνυμον ὕδωρ",
+   "translit": "tēlothen en chryseē prochoō polyōnymon hydōr",
+   "i18n": {
+    "en": "from afar, in a golden jug, the far-famed water,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 786,
+   "refId": "THEO-786",
+   "text": "ψυχρόν, ὅτʼ ἐκ πέτρης καταλείβεται ἠλιβάτοιο",
+   "translit": "psychron hot' ek petrēs kataleibetai ēlibatoio",
+   "i18n": {
+    "en": "the cold water that trickles down from a high, sheer rock;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 787,
+   "refId": "THEO-787",
+   "text": "ὑψηλῆς· πολλὸν δὲ ὑπὸ χθονὸς εὐρυοδείης",
+   "translit": "hypsēlēs pollon de hypo chthonos euryodeiēs",
+   "i18n": {
+    "en": "and far beneath the wide-wayed earth,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 788,
+   "refId": "THEO-788",
+   "text": "ἐξ ἱεροῦ ποταμοῖο ῥέει διὰ νύκτα μέλαιναν",
+   "translit": "ex hierou potamoio rheei dia nykta melainan",
+   "i18n": {
+    "en": "from a holy river it flows through the black night,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 789,
+   "refId": "THEO-789",
+   "text": "Ὠκεανοῖο κέρας· δεκάτη δʼ ἐπὶ μοῖρα δέδασται·",
+   "translit": "Ōkeanoio keras dekatē d' epi moira dedastai",
+   "i18n": {
+    "en": "a branch of Okeanos; and a tenth part is allotted to her."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 790,
+   "refId": "THEO-790",
+   "text": "ἐννέα μὲν περὶ γῆν τε καὶ εὐρέα νῶτα θαλάσσης",
+   "translit": "ennea men peri gēn te kai eurea nōta thalassēs",
+   "i18n": {
+    "en": "With nine streams, winding round the earth and the wide back of the sea"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 791,
+   "refId": "THEO-791",
+   "text": "δίνῃς ἀργυρέῃς εἱλιγμένος εἰς ἅλα πίπτει,",
+   "translit": "dinēs argyreēs heiligmenos eis hala piptei",
+   "i18n": {
+    "en": "in silver eddies, he falls into the salt sea;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 792,
+   "refId": "THEO-792",
+   "text": "ἣ δὲ μίʼ ἐκ πέτρης προρέει μέγα πῆμα θεοῖσιν.",
+   "translit": "hē de mi' ek petrēs proreei mega pēma theoisin",
+   "i18n": {
+    "en": "but this one flows forth alone from a rock, a great bane to the gods."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 793,
+   "refId": "THEO-793",
+   "text": "ὅς κεν τὴν ἐπίορκον ἀπολλείψας ἐπομόσσῃ",
+   "translit": "hos ken tēn epiorkon apolleipsas epomossē",
+   "i18n": {
+    "en": "Whoever of the immortals who hold the peak of snowy Olympos"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 794,
+   "refId": "THEO-794",
+   "text": "ἀθανάτων, οἳ ἔχουσι κάρη νιφόεντος Ὀλύμπου,",
+   "translit": "athanatōn hoi echousi karē niphoentos Olympou",
+   "i18n": {
+    "en": "pours a libation of it and swears falsely,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 795,
+   "refId": "THEO-795",
+   "text": "κεῖται νήυτμος τετελεσμένον εἰς ἐνιαυτόν·",
+   "translit": "keitai nēytmos tetelesmenon eis eniauton",
+   "i18n": {
+    "en": "lies breathless for a full year;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 796,
+   "refId": "THEO-796",
+   "text": "οὐδέ ποτʼ ἀμβροσίης καὶ νέκταρος ἔρχεται ἆσσον",
+   "translit": "oude pot' ambrosiēs kai nektaros erchetai asson",
+   "i18n": {
+    "en": "and never does he come near to ambrosia and nectar"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 797,
+   "refId": "THEO-797",
+   "text": "βρώσιος, ἀλλά τε κεῖται ἀνάπνευστος καὶ ἄναυδος",
+   "translit": "brōsios alla te keitai anapneustos kai anaudos",
+   "i18n": {
+    "en": "for food, but lies without breath and without voice"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 798,
+   "refId": "THEO-798",
+   "text": "στρωτοῖς ἐν λεχέεσσι, κακὸν δέ ἑ κῶμα καλύπτει.",
+   "translit": "strōtois en lecheessi kakon de he kōma kalyptei",
+   "i18n": {
+    "en": "on a spread couch, and an evil stupor covers him."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 799,
+   "refId": "THEO-799",
+   "text": "αὐτὰρ ἐπεὶ νοῦσον τελέσῃ μέγαν εἰς ἐνιαυτόν,",
+   "translit": "autar epei nouson telesē megan eis eniauton",
+   "i18n": {
+    "en": "But when he has completed his sickness through the long year,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 800,
+   "refId": "THEO-800",
+   "text": "ἄλλος γʼ ἐξ ἄλλου δέχεται χαλεπώτερος ἄεθλος.",
+   "translit": "allos g' ex allou dechetai chalepōteros aethlos",
+   "i18n": {
+    "en": "one harder trial follows another, one after the other."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 801,
+   "refId": "THEO-801",
+   "text": "εἰνάετες δὲ θεῶν ἀπαμείρεται αἰὲν ἐόντων,",
+   "translit": "einaetes de theōn apameiretai aien eontōn",
+   "i18n": {
+    "en": "For nine years he is cut off from the gods who are forever,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 802,
+   "refId": "THEO-802",
+   "text": "οὐδέ ποτʼ ἐς βουλὴν ἐπιμίσγεται οὐδʼ ἐπὶ δαῖτας",
+   "translit": "oude pot' es boulēn epimisgetai oud' epi daitas",
+   "i18n": {
+    "en": "and never does he join their council or their feasts"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 803,
+   "refId": "THEO-803",
+   "text": "ἐννέα πάντα ἔτεα· δεκάτῳ δʼ ἐπιμίσγεται αὖτις",
+   "translit": "ennea panta etea dekatō d' epimisgetai autis",
+   "i18n": {
+    "en": "for all nine years; but in the tenth he mingles again"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 804,
+   "refId": "THEO-804",
+   "text": "εἴρας ἐς ἀθανάτων, οἳ Ὀλύμπια δώματʼ ἔχουσιν.",
+   "translit": "eiras es athanatōn hoi Olympia dōmat' echousin",
+   "i18n": {
+    "en": "in the assemblies of the immortals who have their homes on Olympos."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 805,
+   "refId": "THEO-805",
+   "text": "τοῖον ἄρʼ ὅρκον ἔθεντο θεοὶ Στυγὸς ἄφθιτον ὕδωρ",
+   "translit": "toion ar' horkon ethento theoi Stygos aphthiton hydōr",
+   "i18n": {
+    "en": "Such an oath did the gods make of the imperishable, primeval water"
+   },
+   "glossaryRefs": [
+    "horkos-styx-great-oath-theogony"
+   ],
+   "notes": {
+    "official": "*τοῖον ἄρʼ ὅρκον ἔθεντο θεοὶ Στυγὸς ἄφθιτον ὕδωρ / ὠγύγιον* 'such an oath the gods made of the imperishable, primeval water of Styx' (805–806): the closing frame of the oath-procedure, *ὅρκος* again the oath-object (the Styx-water) rather than the deity. Rendered with Evelyn-White; the second payoff site of `horkos-styx-great-oath-theogony` (see on 784)."
+   }
+  },
+  {
+   "n": 806,
+   "refId": "THEO-806",
+   "text": "ὠγύγιον, τὸ δʼ ἵησι καταστυφέλου διὰ χώρου.",
+   "translit": "ōgygion to d' hiēsi katastyphelou dia chōrou",
+   "i18n": {
+    "en": "of Styx, which runs down through a rugged region."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 807,
+   "refId": "THEO-807",
+   "text": "ἔνθα δὲ γῆς δνοφερῆς καὶ Ταρτάρου ἠερόεντος",
+   "translit": "entha de gēs dnopherēs kai Tartarou ēeroentos",
+   "i18n": {
+    "en": "There, of the murky earth and of misty Tartaros,"
+   },
+   "glossaryRefs": [
+    "tartaros-underworld-vocabulary-theogony",
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 808,
+   "refId": "THEO-808",
+   "text": "πόντου τʼ ἀτρυγέτοιο καὶ οὐρανοῦ ἀστερόεντος",
+   "translit": "pontou t' atrygetoio kai ouranou asteroentos",
+   "i18n": {
+    "en": "and of the barren sea and of the starry heaven,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 809,
+   "refId": "THEO-809",
+   "text": "ἑξείης πάντων πηγαὶ καὶ πείρατʼ ἔασιν",
+   "translit": "hexeiēs pantōn pēgai kai peirat' easin",
+   "i18n": {
+    "en": "are the sources and limits of all things, in order, one after another,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 810,
+   "refId": "THEO-810",
+   "text": "ἀργαλέʼ εὐρώεντα, τά τε στυγέουσι θεοί περ.",
+   "translit": "argale' eurōenta ta te stygeousi theoi per",
+   "i18n": {
+    "en": "grievous and dank, which even the gods abhor."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 811,
+   "refId": "THEO-811",
+   "text": "ἔνθα δὲ μαρμάρεαί τε πύλαι καὶ χάλκεος οὐδὸς",
+   "translit": "entha de marmareai te pylai kai chalkeos oudos",
+   "i18n": {
+    "en": "There are the gleaming gates and the bronze threshold,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 812,
+   "refId": "THEO-812",
+   "text": "ἀστεμφής, ῥίζῃσι διηνεκέεσσιν ἀρηρώς,",
+   "translit": "astemphēs rhizēsi diēnekeessin arērōs",
+   "i18n": {
+    "en": "unshaken, fixed with roots running on without end,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 813,
+   "refId": "THEO-813",
+   "text": "αὐτοφυής· πρόσθεν δὲ θεῶν ἔκτοσθεν ἁπάντων",
+   "translit": "autophyēs prosthen de theōn ektosthen hapantōn",
+   "i18n": {
+    "en": "self-grown; and in front, apart from all the gods,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 814,
+   "refId": "THEO-814",
+   "text": "Τιτῆνες ναίουσι, πέρην Χάεος ζοφεροῖο.",
+   "translit": "Titēnes naiousi perēn Chaeos zopheroio",
+   "i18n": {
+    "en": "the Titans dwell, beyond gloomy Chaos."
+   },
+   "glossaryRefs": [
+    "titanes-folk-etymology-theogony",
+    "chaos-primordial-chasm-void-theogony"
+   ],
+   "notes": {
+    "official": "*Τιτῆνες ναίουσι, πέρην Χάεος ζοφεροῖο* 'the Titans dwell, beyond gloomy Chaos' (814): *Χάεος* is the primordial gap/void of 116 (`chaos-primordial-chasm-void-theogony`), here a region of the underworld topography beyond which the imprisoned Titans dwell — not the later 'disorder'. Rendered 'Chaos' with Evelyn-White; *Τιτῆνες* transliterated 'Titans' (`titanes-folk-etymology-theogony`)."
+   }
+  },
+  {
+   "n": 815,
+   "refId": "THEO-815",
+   "text": "αὐτὰρ ἐρισμαράγοιο Διὸς κλειτοὶ ἐπίκουροι",
+   "translit": "autar erismaragoio Dios kleitoi epikouroi",
+   "i18n": {
+    "en": "But the famous helpers of loud-thundering Zeus"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 816,
+   "refId": "THEO-816",
+   "text": "δώματα ναιετάουσιν ἐπʼ Ὠκεανοῖο θεμέθλοις,",
+   "translit": "dōmata naietaousin ep' Ōkeanoio themethlois",
+   "i18n": {
+    "en": "have their dwellings upon the foundations of Okeanos,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 817,
+   "refId": "THEO-817",
+   "text": "Κόττος τʼ ἠδὲ Γύης· Βριάρεών γε μὲν ἠὺν ἐόντα",
+   "translit": "Kottos t' ēde Gyēs Briareōn ge men ēyn eonta",
+   "i18n": {
+    "en": "Kottos and Gyes; but Briareos, being noble,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 818,
+   "refId": "THEO-818",
+   "text": "γαμβρὸν ἑὸν ποίησε βαρύκτυπος Ἐννοσίγαιος,",
+   "translit": "gambron heon poiēse baryktypos Ennosigaios",
+   "i18n": {
+    "en": "the deep-crashing Earth-Shaker made his own son-in-law,"
+   },
+   "glossaryRefs": [
+    "periphrastic-title-unnamed-god-theogony"
+   ],
+   "notes": {
+    "official": "*βαρύκτυπος Ἐννοσίγαιος* 'the deep-crashing Earth-Shaker' (818) is Poseidon, designated only by his periphrastic title as at 441/456 (`periphrastic-title-unnamed-god-theogony`); the noble Briareos (817) is made his son-in-law and given Kymopoleia to wed. The poem withholds the name Poseidon, and it is not supplied in the surface."
+   }
+  },
+  {
+   "n": 819,
+   "refId": "THEO-819",
+   "text": "δῶκε δὲ Κυμοπόλειαν ὀπυίειν, θυγατέρα ἥν.",
+   "translit": "dōke de Kymopoleian opyiein thygatera hēn",
+   "i18n": {
+    "en": "and gave him Kymopoleia, his daughter, to wed."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 820,
+   "refId": "THEO-820",
+   "text": "αὐτὰρ ἐπεὶ Τιτῆνας ἀπʼ οὐρανοῦ ἐξέλασεν Ζεύς,",
+   "translit": "autar epei Titēnas ap' ouranou exelasen Zeus",
+   "i18n": {
+    "en": "But when Zeus had driven the Titans out of heaven,"
+   },
+   "glossaryRefs": [
+    "titanes-folk-etymology-theogony",
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {
+    "official": "*Τυφωέα* 'Typhoeus' (820–880): after the Titans are driven from heaven, huge Gaia bears her youngest child Typhoeus in union with Tartaros (821–822) — a hundred-serpent-headed (825), fire-eyed (826–828), many-voiced (829–835) monster whom Zeus blasts with the thunderbolt and hurls into Tartaros (853–868). The surface is a plain rendering of the Greek: the serpent-anatomy at 825 under `ophis-drakon-serpent-vocabulary-theogony` (scope extended to 825), the storm-weapons under `thunder-triad-bronte-keraunos-sterope-theogony` (scope extended to 839, 845, 846, 854), Tartaros under `tartaros-underworld-vocabulary-theogony`. **Comparative apparatus (clearly labeled):** the Typhoeus-combat is the *Theogony*'s fullest instance of the Near-Eastern divine-combat / *chaoskampf* pattern (Marduk–Tiamat, Baʿlu–Yammu, YHWH–Leviathan/Rahab), documented for the Northwest/East-Semitic corpus in the central `chaoskampf-sea-conflict-cross-corpus-ugaritic-akkadian-hebrew-bible` entry, and it echoes the Hurro-Hittite Illuyanka and Song of Ullikummi. Per the signed-off Block-A/B/C non-fusion precedent that central entry is deliberately NOT extended to any THEO refId (no THEO refId occurs in the central glossary), and the convergence — with any Wheel-of-Heaven combat-as-history reading — is confined to this note, kept out of both the surface and the philological claim. The Editor's no-central-change recommendation is in the Block-D report."
+   }
+  },
+  {
+   "n": 821,
+   "refId": "THEO-821",
+   "text": "ὁπλότατον τέκε παῖδα Τυφωέα Γαῖα πελώρη",
+   "translit": "hoplotaton teke paida Typhōea Gaia pelōrē",
+   "i18n": {
+    "en": "huge Gaia bore her youngest child, Typhoeus,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 822,
+   "refId": "THEO-822",
+   "text": "Ταρτάρου ἐν φιλότητι διὰ χρυσέην Ἀφροδίτην·",
+   "translit": "Tartarou en philotēti dia chryseēn Aphroditēn",
+   "i18n": {
+    "en": "in love with Tartaros, through golden Aphrodite;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 823,
+   "refId": "THEO-823",
+   "text": "οὗ χεῖρες μὲν ἔασιν ἐπʼ ἰσχύι, ἔργματʼ ἔχουσαι,",
+   "translit": "hou cheires men easin ep' ischyi ergmat' echousai",
+   "i18n": {
+    "en": "whose hands were strong for deeds,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 824,
+   "refId": "THEO-824",
+   "text": "καὶ πόδες ἀκάματοι κρατεροῦ θεοῦ· ἐκ δέ οἱ ὤμων",
+   "translit": "kai podes akamatoi kraterou theou ek de hoi ōmōn",
+   "i18n": {
+    "en": "and the feet of the mighty god were untiring; and from his shoulders"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 825,
+   "refId": "THEO-825",
+   "text": "ἣν ἑκατὸν κεφαλαὶ ὄφιος, δεινοῖο δράκοντος,",
+   "translit": "hēn hekaton kephalai ophios deinoio drakontos",
+   "i18n": {
+    "en": "there were a hundred heads of a serpent, a dread dragon,"
+   },
+   "glossaryRefs": [
+    "ophis-drakon-serpent-vocabulary-theogony"
+   ],
+   "notes": {
+    "official": "*ἣν ἑκατὸν κεφαλαὶ ὄφιος, δεινοῖο δράκοντος* 'a hundred heads of a serpent, a dread dragon' (825): *ὄφις* 'serpent' and *δράκων* 'serpent/dragon' are used of the one creature, as in the Echidna–Chimaira sequence (299, 322–323, 334), with no fixed technical opposition (LSJ; the reference varies 'serpent'/'dragon' by context). Rendered accordingly; `ophis-drakon-serpent-vocabulary-theogony`, scope extended from the Block-B monster-catalogue to the poem's climactic serpent."
+   }
+  },
+  {
+   "n": 826,
+   "refId": "THEO-826",
+   "text": "γλώσσῃσιν δνοφερῇσι λελιχμότες, ἐκ δέ οἱ ὄσσων",
+   "translit": "glōssēsin dnopherēsi lelichmotes ek de hoi ossōn",
+   "i18n": {
+    "en": "flickering with dark tongues; and from the eyes"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 827,
+   "refId": "THEO-827",
+   "text": "θεσπεσίῃς κεφαλῇσιν ὑπʼ ὀφρύσι πῦρ ἀμάρυσσεν·",
+   "translit": "thespesiēs kephalēsin hyp' ophrysi pyr amaryssen",
+   "i18n": {
+    "en": "in his wondrous heads fire sparkled beneath the brows;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 828,
+   "refId": "THEO-828",
+   "text": "πασέων δʼ ἐκ κεφαλέων πῦρ καίετο δερκομένοιο·",
+   "translit": "paseōn d' ek kephaleōn pyr kaieto derkomenoio",
+   "i18n": {
+    "en": "and from all his heads fire burned as he glared."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 829,
+   "refId": "THEO-829",
+   "text": "φωναὶ δʼ ἐν πάσῃσιν ἔσαν δεινῇς κεφαλῇσι",
+   "translit": "phōnai d' en pasēsin esan deinēs kephalēsi",
+   "i18n": {
+    "en": "And there were voices in all his dreadful heads,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 830,
+   "refId": "THEO-830",
+   "text": "παντοίην ὄπʼ ἰεῖσαι ἀθέσφατον· ἄλλοτε μὲν γὰρ",
+   "translit": "pantoiēn op' ieisai athesphaton allote men gar",
+   "i18n": {
+    "en": "sending forth all kinds of unspeakable sound; for at one time"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 831,
+   "refId": "THEO-831",
+   "text": "φθέγγονθʼ ὥστε θεοῖσι συνιέμεν, ἄλλοτε δʼ αὖτε",
+   "translit": "phthengonth' hōste theoisi syniemen allote d' aute",
+   "i18n": {
+    "en": "they uttered speech such that the gods could understand, and at another"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 832,
+   "refId": "THEO-832",
+   "text": "ταύρου ἐριβρύχεω, μένος ἀσχέτου, ὄσσαν ἀγαύρου,",
+   "translit": "taurou eribrycheō menos aschetou ossan agaurou",
+   "i18n": {
+    "en": "the cry of a loud-bellowing bull, unrestrained in fury, proud of voice;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 833,
+   "refId": "THEO-833",
+   "text": "ἄλλοτε δʼ αὖτε λέοντος ἀναιδέα θυμὸν ἔχοντος,",
+   "translit": "allote d' aute leontos anaidea thymon echontos",
+   "i18n": {
+    "en": "and at another the voice of a lion with a ruthless heart;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 834,
+   "refId": "THEO-834",
+   "text": "ἄλλοτε δʼ αὖ σκυλάκεσσιν ἐοικότα, θαύματʼ ἀκοῦσαι,",
+   "translit": "allote d' au skylakessin eoikota thaumat' akousai",
+   "i18n": {
+    "en": "and at another sounds like whelps, a wonder to hear;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 835,
+   "refId": "THEO-835",
+   "text": "ἄλλοτε δʼ αὖ ῥοίζεσχʼ, ὑπὸ δʼ ἤχεεν οὔρεα μακρά.",
+   "translit": "allote d' au rhoizesch' hypo d' ēcheen ourea makra",
+   "i18n": {
+    "en": "and at another he hissed, and the high mountains echoed beneath."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 836,
+   "refId": "THEO-836",
+   "text": "καί νύ κεν ἔπλετο ἔργον ἀμήχανον ἤματι κείνῳ",
+   "translit": "kai ny ken epleto ergon amēchanon ēmati keinō",
+   "i18n": {
+    "en": "And on that day a deed beyond remedy would have come to pass,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 837,
+   "refId": "THEO-837",
+   "text": "καί κεν ὅ γε θνητοῖσι καὶ ἀθανάτοισιν ἄναξεν,",
+   "translit": "kai ken ho ge thnētoisi kai athanatoisin anaxen",
+   "i18n": {
+    "en": "and he would have ruled over mortals and immortals,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 838,
+   "refId": "THEO-838",
+   "text": "εἰ μὴ ἄρʼ ὀξὺ νόησε πατὴρ ἀνδρῶν τε θεῶν τε.",
+   "translit": "ei mē ar' oxy noēse patēr andrōn te theōn te",
+   "i18n": {
+    "en": "had not the father of men and gods sharply perceived it."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 839,
+   "refId": "THEO-839",
+   "text": "σκληρὸν δʼ ἐβρόντησε καὶ ὄβριμον, ἀμφὶ δὲ γαῖα",
+   "translit": "sklēron d' ebrontēse kai obrimon amphi de gaia",
+   "i18n": {
+    "en": "Harshly and mightily he thundered, and round about the earth"
+   },
+   "glossaryRefs": [
+    "thunder-triad-bronte-keraunos-sterope-theogony"
+   ],
+   "notes": {
+    "official": "*ἐβρόντησε* 'he thundered' (839), with *βροντή/στεροπή/κεραυνός* recurring at 845–846 and 854: Zeus's storm-triad, first given by the Kyklopes (504–505, Block C) and decisive in the Titanomachy (690–708), now deployed against Typhoeus. Rendered 'thunder / lightning / (blazing) thunderbolt' consistently with Evelyn-White, without a rigid technical distinction the poem does not mark; `thunder-triad-bronte-keraunos-sterope-theogony`, scope extended to 839, 845, 846, 854."
+   }
+  },
+  {
+   "n": 840,
+   "refId": "THEO-840",
+   "text": "σμερδαλέον κονάβησε καὶ οὐρανὸς εὐρὺς ὕπερθε",
+   "translit": "smerdaleon konabēse kai ouranos eurys hyperthe",
+   "i18n": {
+    "en": "rang terribly, and the wide heaven above,"
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 841,
+   "refId": "THEO-841",
+   "text": "πόντος τʼ Ὠκεανοῦ τε ῥοαὶ καὶ Τάρταρα γαίης.",
+   "translit": "pontos t' Ōkeanou te rhoai kai Tartara gaiēs",
+   "i18n": {
+    "en": "and the sea, and the streams of Okeanos, and the nether pit of the earth."
+   },
+   "glossaryRefs": [
+    "tartaros-underworld-vocabulary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 842,
+   "refId": "THEO-842",
+   "text": "ποσσὶ δʼ ὕπʼ ἀθανάτοισι μέγας πελεμίζετʼ Ὄλυμπος",
+   "translit": "possi d' hyp' athanatoisi megas pelemizet' Olympos",
+   "i18n": {
+    "en": "Great Olympos trembled beneath the immortal feet"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 843,
+   "refId": "THEO-843",
+   "text": "ὀρνυμένοιο ἄνακτος· ἐπεστενάχιζε δὲ γαῖα.",
+   "translit": "ornymenoio anaktos epestenachize de gaia",
+   "i18n": {
+    "en": "of the lord as he rose; and the earth groaned."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 844,
+   "refId": "THEO-844",
+   "text": "καῦμα δʼ ὑπʼ ἀμφοτέρων κάτεχεν ἰοειδέα πόντον",
+   "translit": "kauma d' hyp' amphoterōn katechen ioeidea ponton",
+   "i18n": {
+    "en": "A burning heat from both of them seized the violet-dark sea,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 845,
+   "refId": "THEO-845",
+   "text": "βροντῆς τε στεροπῆς τε, πυρός τʼ ἀπὸ τοῖο πελώρου,",
+   "translit": "brontēs te steropēs te pyros t' apo toio pelōrou",
+   "i18n": {
+    "en": "from the thunder and the lightning, and the fire from that monster,"
+   },
+   "glossaryRefs": [
+    "thunder-triad-bronte-keraunos-sterope-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 846,
+   "refId": "THEO-846",
+   "text": "πρηστήρων ἀνέμων τε κεραυνοῦ τε φλεγέθοντος.",
+   "translit": "prēstērōn anemōn te keraunou te phlegethontos",
+   "i18n": {
+    "en": "from the scorching whirlwinds and the blazing thunderbolt."
+   },
+   "glossaryRefs": [
+    "thunder-triad-bronte-keraunos-sterope-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 847,
+   "refId": "THEO-847",
+   "text": "ἔζεε δὲ χθὼν πᾶσα καὶ οὐρανὸς ἠδὲ θάλασσα·",
+   "translit": "ezee de chthōn pasa kai ouranos ēde thalassa",
+   "i18n": {
+    "en": "The whole earth boiled, and the heaven and the sea;"
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 848,
+   "refId": "THEO-848",
+   "text": "θυῖε δʼ ἄρʼ ἀμφʼ ἀκτὰς περί τʼ ἀμφί τε κύματα μακρὰ",
+   "translit": "thyie d' ar' amph' aktas peri t' amphi te kymata makra",
+   "i18n": {
+    "en": "and long waves raged about the shores, around and around,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 849,
+   "refId": "THEO-849",
+   "text": "ῥιπῇ ὕπʼ ἀθανάτων, ἔνοσις δʼ ἄσβεστος ὀρώρει·",
+   "translit": "rhipē hyp' athanatōn enosis d' asbestos orōrei",
+   "i18n": {
+    "en": "beneath the onrush of the immortals, and an unquenchable quaking arose."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 850,
+   "refId": "THEO-850",
+   "text": "τρέε δʼ Ἀίδης, ἐνέροισι καταφθιμένοισιν ἀνάσσων,",
+   "translit": "tree d' Aidēs eneroisi kataphthimenoisin anassōn",
+   "i18n": {
+    "en": "Hades trembled, who rules over the dead below,"
+   },
+   "glossaryRefs": [
+    "dialectal-theonym-normalization-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 851,
+   "refId": "THEO-851",
+   "text": "Τιτῆνές θʼ ὑποταρτάριοι, Κρόνον ἀμφὶς ἐόντες,",
+   "translit": "Titēnes th' hypotartarioi Kronon amphis eontes",
+   "i18n": {
+    "en": "and the Titans beneath Tartaros, gathered about Kronos,"
+   },
+   "glossaryRefs": [
+    "titanes-folk-etymology-theogony",
+    "tartaros-underworld-vocabulary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 852,
+   "refId": "THEO-852",
+   "text": "ἀσβέστου κελάδοιο καὶ αἰνῆς δηιοτῆτος.",
+   "translit": "asbestou keladoio kai ainēs dēiotētos",
+   "i18n": {
+    "en": "at the unquenchable din and the terrible fray."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 853,
+   "refId": "THEO-853",
+   "text": "Ζεὺς δʼ ἐπεὶ οὖν κόρθυνεν ἑὸν μένος, εἵλετο δʼ ὅπλα,",
+   "translit": "Zeus d' epei oun korthynen heon menos heileto d' hopla",
+   "i18n": {
+    "en": "But when Zeus had gathered up his strength and seized his weapons,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 854,
+   "refId": "THEO-854",
+   "text": "βροντήν τε στεροπήν τε καὶ αἰθαλόεντα κεραυνόν,",
+   "translit": "brontēn te steropēn te kai aithaloenta keraunon",
+   "i18n": {
+    "en": "thunder and lightning and the blazing thunderbolt,"
+   },
+   "glossaryRefs": [
+    "thunder-triad-bronte-keraunos-sterope-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 855,
+   "refId": "THEO-855",
+   "text": "πλῆξεν ἀπʼ Οὐλύμποιο ἐπάλμενος· ἀμφὶ δὲ πάσας",
+   "translit": "plēxen ap' Oulympoio epalmenos amphi de pasas",
+   "i18n": {
+    "en": "he leaped and struck from Olympos; and all around"
+   },
+   "glossaryRefs": [
+    "place-name-greek-forms-block-c-theogony"
+   ],
+   "notes": {
+    "official": "*ἀπʼ Οὐλύμποιο* (855; again *ἐν Οὐλύμπῳ* 953): the epic diectatic *Οὔλυμπ-* is normalized to the standard Greek form 'Olympos' in the surface (as already at 397, Block C), the source spelling kept verbatim in the text field; 'Olympos' is the Greek form, not the Latinized 'Olympus'. Governed by `place-name-greek-forms-block-c-theogony`, whose place-name normalization convention is extended to the Block-D toponyms (Olympos 855/953, Krete 971, Iolkos 997)."
+   }
+  },
+  {
+   "n": 856,
+   "refId": "THEO-856",
+   "text": "ἔπρεσε θεσπεσίας κεφαλὰς δεινοῖο πελώρου.",
+   "translit": "eprese thespesias kephalas deinoio pelōrou",
+   "i18n": {
+    "en": "he scorched the wondrous heads of the dread monster."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 857,
+   "refId": "THEO-857",
+   "text": "αὐτὰρ ἐπεὶ δή μιν δάμασεν πληγῇσιν ἱμάσσας,",
+   "translit": "autar epei dē min damasen plēgēsin himassas",
+   "i18n": {
+    "en": "But when he had overpowered him, lashing him with blows,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 858,
+   "refId": "THEO-858",
+   "text": "ἤριπε γυιωθείς, στενάχιζε δὲ γαῖα πελώρη.",
+   "translit": "ēripe gyiōtheis stenachize de gaia pelōrē",
+   "i18n": {
+    "en": "he fell down crippled, and the huge earth groaned."
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 859,
+   "refId": "THEO-859",
+   "text": "φλὸξ δὲ κεραυνωθέντος ἀπέσσυτο τοῖο ἄνακτος",
+   "translit": "phlox de keraunōthentos apessyto toio anaktos",
+   "i18n": {
+    "en": "And a flame shot forth from that lord when he was struck by the thunderbolt,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 860,
+   "refId": "THEO-860",
+   "text": "οὔρεος ἐν βήσσῃσιν ἀιδνῇς παιπαλοέσσῃς,",
+   "translit": "oureos en bēssēsin aidnēs paipaloessēs",
+   "i18n": {
+    "en": "in the dark, rugged glens of the mountain,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 861,
+   "refId": "THEO-861",
+   "text": "πληγέντος. πολλὴ δὲ πελώρη καίετο γαῖα",
+   "translit": "plēgentos pollē de pelōrē kaieto gaia",
+   "i18n": {
+    "en": "where he was smitten. And a great part of the huge earth was scorched"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 862,
+   "refId": "THEO-862",
+   "text": "ἀτμῇ θεσπεσίῃ καὶ ἐτήκετο κασσίτερος ὣς",
+   "translit": "atmē thespesiē kai etēketo kassiteros hōs",
+   "i18n": {
+    "en": "by the wondrous blast, and melted like tin"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 863,
+   "refId": "THEO-863",
+   "text": "τέχνῃ ὕπʼ αἰζηῶν ἐν ἐυτρήτοις χοάνοισι",
+   "translit": "technē hyp' aizēōn en eutrētois choanoisi",
+   "i18n": {
+    "en": "heated by the craft of young men in well-bored crucibles,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 864,
+   "refId": "THEO-864",
+   "text": "θαλφθείς, ἠὲ σίδηρος, ὅ περ κρατερώτατός ἐστιν.",
+   "translit": "thalphtheis ēe sidēros ho per kraterōtatos estin",
+   "i18n": {
+    "en": "or like iron, which is the strongest of all things,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 865,
+   "refId": "THEO-865",
+   "text": "οὔρεος ἐν βήσσῃσι δαμαζόμενος πυρὶ κηλέῳ",
+   "translit": "oureos en bēssēsi damazomenos pyri kēleō",
+   "i18n": {
+    "en": "subdued in the mountain glens by blazing fire"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 866,
+   "refId": "THEO-866",
+   "text": "τήκεται ἐν χθονὶ δίῃ ὑφʼ Ἡφαιστου παλάμῃσιν.",
+   "translit": "tēketai en chthoni diē hyph' Hēphaistou palamēsin",
+   "i18n": {
+    "en": "and melts in the bright earth beneath the hands of Hephaestus."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 867,
+   "refId": "THEO-867",
+   "text": "ὣς ἄρα τήκετο γαῖα σέλαι πυρὸς αἰθομένοιο.",
+   "translit": "hōs ara tēketo gaia selai pyros aithomenoio",
+   "i18n": {
+    "en": "So the earth melted in the glow of the blazing fire."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 868,
+   "refId": "THEO-868",
+   "text": "ῥῖψε δέ μιν θυμῷ ἀκαχὼν ἐς Τάρταρον εὐρύν.",
+   "translit": "rhipse de min thymō akachōn es Tartaron euryn",
+   "i18n": {
+    "en": "And he hurled him, grieved in his heart, into wide Tartaros."
+   },
+   "glossaryRefs": [
+    "tartaros-underworld-vocabulary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 869,
+   "refId": "THEO-869",
+   "text": "ἐκ δὲ Τυφωέος ἔστʼ ἀνέμων μένος ὑγρὸν ἀέντων,",
+   "translit": "ek de Typhōeos est' anemōn menos hygron aentōn",
+   "i18n": {
+    "en": "And from Typhoeus comes the might of the wet winds that blow,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {
+    "official": "*ἐκ δὲ Τυφωέος … ἀνέμων μένος* 'from Typhoeus comes the might of the … winds' (869–880): the destructive storm-winds are aetiologically derived from the blasted monster, held apart from the beneficial named winds *Νότος/Βορέης/Ζέφυρος* Notos, Boreas, Zephyros (870), who are 'of the race of the gods' (871). Rendered literally with Evelyn-White; the wind-names transliterated per the name convention."
+   }
+  },
+  {
+   "n": 870,
+   "refId": "THEO-870",
+   "text": "νόσφι Νότου Βορέω τε καὶ ἀργέστεω Ζεφύροιο·",
+   "translit": "nosphi Notou Boreō te kai argesteō Zephyroio",
+   "i18n": {
+    "en": "apart from Notos and Boreas and the clearing Zephyros;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 871,
+   "refId": "THEO-871",
+   "text": "οἵ γε μὲν ἐκ θεόφιν γενεή, θνητοῖς μέγʼ ὄνειαρ·",
+   "translit": "hoi ge men ek theophin geneē thnētois meg' oneiar",
+   "i18n": {
+    "en": "these are of the race of the gods, a great boon to mortals;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 872,
+   "refId": "THEO-872",
+   "text": "οἱ δʼ ἄλλοι μαψαῦραι ἐπιπνείουσι θάλασσαν·",
+   "translit": "hoi d' alloi mapsaurai epipneiousi thalassan",
+   "i18n": {
+    "en": "but the others, the idle gusts, blow over the sea."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 873,
+   "refId": "THEO-873",
+   "text": "αἳ δή τοι πίπτουσαι ἐς ἠεροειδέα πόντον,",
+   "translit": "hai dē toi piptousai es ēeroeidea ponton",
+   "i18n": {
+    "en": "These, falling upon the misty sea,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 874,
+   "refId": "THEO-874",
+   "text": "πῆμα μέγα θνητοῖσι, κακῇ θυίουσιν ἀέλλῃ·",
+   "translit": "pēma mega thnētoisi kakē thyiousin aellē",
+   "i18n": {
+    "en": "a great bane to mortals, rage with an evil storm;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 875,
+   "refId": "THEO-875",
+   "text": "ἄλλοτε δʼ ἄλλαι ἄεισι διασκιδνᾶσί τε νῆας",
+   "translit": "allote d' allai aeisi diaskidnasi te nēas",
+   "i18n": {
+    "en": "at different times they blow different ways, and scatter ships"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 876,
+   "refId": "THEO-876",
+   "text": "ναύτας τε φθείρουσι· κακοῦ δʼ οὐ γίγνεται ἀλκὴ",
+   "translit": "nautas te phtheirousi kakou d' ou gignetai alkē",
+   "i18n": {
+    "en": "and destroy sailors; and there is no defense against the evil"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 877,
+   "refId": "THEO-877",
+   "text": "ἀνδράσιν, οἳ κείνῃσι συνάντωνται κατὰ πόντον·",
+   "translit": "andrasin hoi keinēsi synantōntai kata ponton",
+   "i18n": {
+    "en": "for men who meet with them upon the sea."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 878,
+   "refId": "THEO-878",
+   "text": "αἳ δʼ αὖ καὶ κατὰ γαῖαν ἀπείριτον ἀνθεμόεσσαν",
+   "translit": "hai d' au kai kata gaian apeiriton anthemoessan",
+   "i18n": {
+    "en": "And again, over the boundless flowering earth"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 879,
+   "refId": "THEO-879",
+   "text": "ἔργʼ ἐρατὰ φθείρουσι χαμαιγενέων ἀνθρώπων",
+   "translit": "erg' erata phtheirousi chamaigeneōn anthrōpōn",
+   "i18n": {
+    "en": "they ruin the lovely works of earth-born men,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 880,
+   "refId": "THEO-880",
+   "text": "πιμπλεῖσαι κόνιός τε καὶ ἀργαλέου κολοσυρτοῦ.",
+   "translit": "pimpleisai konios te kai argaleou kolosyrtou",
+   "i18n": {
+    "en": "filling them with dust and grievous confusion."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 881,
+   "refId": "THEO-881",
+   "text": "αὐτὰρ ἐπεί ῥα πόνον μάκαρες θεοὶ ἐξετέλεσσαν,",
+   "translit": "autar epei rha ponon makares theoi exetelessan",
+   "i18n": {
+    "en": "But when the blessed gods had finished their toil,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 882,
+   "refId": "THEO-882",
+   "text": "Τιτήνεσσι δὲ τιμάων κρίναντο βίηφι,",
+   "translit": "Titēnessi de timaōn krinanto biēphi",
+   "i18n": {
+    "en": "and by force had settled with the Titans the matter of their honors,"
+   },
+   "glossaryRefs": [
+    "titanes-folk-etymology-theogony",
+    "time-geras-moira-honor-vocabulary-theogony"
+   ],
+   "notes": {
+    "official": "*Τιτήνεσσι … τιμάων κρίναντο βίηφι* 'by force they settled with the Titans the matter of their honours' (882), and Zeus *ἑὰς διεδάσσατο τιμάς* 'distributed among them their honours' (885): the apportioned-honour lexicon (*τιμή/τιμαί*) of the accession-offer and the Hekate hymn (392–449, Block B) reaches its structural payoff as Zeus, made king *Γαίης φραδμοσύνῃσιν* 'by the counsels of Gaia' (884), divides the *timai* among the gods. Rendered 'honours' consistently with Evelyn-White; `time-geras-moira-honor-vocabulary-theogony`, scope extended from the Hekate hymn (≤449) to its accession payoff 882, 885, 892, 904. **Lens-discipline note:** a sovereign distributing offices/domains is a WoH-salient theme, but surface and note stay lexical and press no canon mapping."
+   }
+  },
+  {
+   "n": 883,
+   "refId": "THEO-883",
+   "text": "δή ῥα τότʼ ὤτρυνον βασιλευέμεν ἠδὲ ἀνάσσειν",
+   "translit": "dē rha tot' ōtrynon basileuemen ēde anassein",
+   "i18n": {
+    "en": "then indeed they urged him to be king and to rule—"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 884,
+   "refId": "THEO-884",
+   "text": "Γαίης φραδμοσύνῃσιν Ὀλύμπιον εὐρύοπα Ζῆν",
+   "translit": "Gaiēs phradmosynēsin Olympion euryopa Zēn",
+   "i18n": {
+    "en": "by the counsels of Gaia—wide-seeing Olympian Zeus,"
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony",
+    "gaia-counsel-prophecy-vocabulary-theogony"
+   ],
+   "notes": {
+    "official": "*Γαίης φραδμοσύνῃσιν* 'by the counsels of Gaia' (884), restated at 891 (*Γαίης φραδμοσύνῃσι καὶ Οὐρανοῦ ἀστερόεντος*): the culmination of the Gaia-counsel motif tracked since Block C — Gaia and Ouranos' prophecy to Kronos (463–465, 475), the *ἐννεσίαι* that make Kronos disgorge (494), the *φραδμοσύναι* that raise the Hundred-Handers (626). Here her counsel installs Zeus as king (884) and prompts the swallowing of Metis (891), completing the succession the motif has driven throughout. Rendered 'the counsels of Gaia' with Evelyn-White; `gaia-counsel-prophecy-vocabulary-theogony`, scope extended from ≤626 to its Block-D culmination 884, 891. **Lens-discipline note:** Gaia as the earth-power whose foreknowledge steers each regime-change is WoH-salient, but both surface and note stay at the lexical level and press no cosmological reading."
+   }
+  },
+  {
+   "n": 885,
+   "refId": "THEO-885",
+   "text": "ἀθανάτων· ὃ δὲ τοῖσιν ἑὰς διεδάσσατο τιμάς.",
+   "translit": "athanatōn ho de toisin heas diedassato timas",
+   "i18n": {
+    "en": "over the immortals; and he distributed among them their honors."
+   },
+   "glossaryRefs": [
+    "time-geras-moira-honor-vocabulary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 886,
+   "refId": "THEO-886",
+   "text": "Ζεὺς δὲ θεῶν βασιλεὺς πρώτην ἄλοχον θέτο Μῆτιν",
+   "translit": "Zeus de theōn basileus prōtēn alochon theto Mētin",
+   "i18n": {
+    "en": "Now Zeus, king of the gods, made Metis his first wife,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "metis-metieta-cunning-counsel-network-theogony"
+   ],
+   "notes": {
+    "official": "*Μῆτιν* 'Metis' (886), Zeus's first wife, *πλεῖστα … ἰδυῖαν* 'who knows most' (887): her name is the noun *μῆτις* 'cunning counsel, cleverness', and the episode turns on the pun — Zeus swallows Metis to forestall a stronger son (891–900) and thereby internalizes *mētis* itself, becoming *μητίετα Ζεύς* 'Zeus the counsellor' (904, 914). The name is transliterated 'Metis' (not glossed inline 'Cunning'), *μητίετα* rendered 'the counsellor' with Evelyn-White (as at 520); the *mētis* network — including the etymological tie to Kronos's epithet *ἀγκυλομήτης* 'of crooked counsel' (18/137/168/473/495, the crooked-counselled father whom the counsellor-son now outdoes) — is carried in commentary and the new `metis-metieta-cunning-counsel-network-theogony` entry, not in the surface. **Cross-corpus note:** the Metis-swallowing (a sovereign absorbing the counsel-goddess) is kept distinct from the Mesopotamian/Hebrew wisdom entries in the central glossary; non-fusion, per the Block-D report."
+   }
+  },
+  {
+   "n": 887,
+   "refId": "THEO-887",
+   "text": "πλεῖστα τε ἰδυῖαν ἰδὲ θνητῶν ἀνθρώπων.",
+   "translit": "pleista te idyian ide thnētōn anthrōpōn",
+   "i18n": {
+    "en": "she who knows most of gods and of mortal men."
+   },
+   "glossaryRefs": [
+    "metis-metieta-cunning-counsel-network-theogony",
+    "source-orthographic-quirks-verbatim-theogony"
+   ],
+   "notes": {
+    "official": "The printed Perseus line is hypometric: *πλεῖστα τε ἰδυῖαν ἰδὲ θνητῶν ἀνθρώπων* omits *θεῶν*, which the standard text carries (cf. West ad 886–900 and the doublet at 929p, *πλεῖστα θεῶν εἰδυῖαν ἰδὲ θνητῶν ἀνθρώπων*). The surface follows the standard text, 'of gods and of mortal men'; the defective printed line is preserved verbatim in the text field per the source-immutability policy, governed by `source-orthographic-quirks-verbatim-theogony`.",
+    "community": []
+   }
+  },
+  {
+   "n": 888,
+   "refId": "THEO-888",
+   "text": "ἀλλʼ ὅτε δὴ ἄρʼ ἔμελλε θεὰν γλαυκῶπιν Ἀθήνην",
+   "translit": "all' hote dē ar' emelle thean glaukōpin Athēnēn",
+   "i18n": {
+    "en": "But when she was about to bring forth the bright-eyed goddess Athena,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 889,
+   "refId": "THEO-889",
+   "text": "τέξεσθαι, τότʼ ἔπειτα δόλῳ φρένας ἐξαπατήσας",
+   "translit": "texesthai tot' epeita dolō phrenas exapatēsas",
+   "i18n": {
+    "en": "then, deceiving her wits by craft"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 890,
+   "refId": "THEO-890",
+   "text": "αἱμυλίοισι λόγοισιν ἑὴν ἐσκάτθετο νηδὺν",
+   "translit": "haimylioisi logoisin heēn eskattheto nēdyn",
+   "i18n": {
+    "en": "with wheedling words, he put her into his own belly,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 891,
+   "refId": "THEO-891",
+   "text": "Γαίης φραδμοσύνῃσι καὶ Οὐρανοῦ ἀστερόεντος.",
+   "translit": "Gaiēs phradmosynēsi kai Ouranou asteroentos",
+   "i18n": {
+    "en": "by the counsels of Gaia and of starry Ouranos."
+   },
+   "glossaryRefs": [
+    "ouranos-gaia-cosmogony-personification-boundary-theogony",
+    "gaia-counsel-prophecy-vocabulary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 892,
+   "refId": "THEO-892",
+   "text": "τὼς γάρ οἱ φρασάτην, ἵνα μὴ βασιληίδα τιμὴν",
+   "translit": "tōs gar hoi phrasatēn hina mē basilēida timēn",
+   "i18n": {
+    "en": "For thus they counseled him, so that no other of the eternal gods"
+   },
+   "glossaryRefs": [
+    "time-geras-moira-honor-vocabulary-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 893,
+   "refId": "THEO-893",
+   "text": "ἄλλος ἔχοι Διὸς ἀντὶ θεῶν αἰειγενετάων.",
+   "translit": "allos echoi Dios anti theōn aieigenetaōn",
+   "i18n": {
+    "en": "should hold the kingly honor in place of Zeus."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 894,
+   "refId": "THEO-894",
+   "text": "ἐκ γὰρ τῆς εἵμαρτο περίφρονα τέκνα γενέσθαι·",
+   "translit": "ek gar tēs heimarto periphrona tekna genesthai",
+   "i18n": {
+    "en": "For from her it was fated that wise children should be born:"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 895,
+   "refId": "THEO-895",
+   "text": "πρώτην μὲν κούρην γλαυκώπιδα Τριτογένειαν",
+   "translit": "prōtēn men kourēn glaukōpida Tritogeneian",
+   "i18n": {
+    "en": "first a maiden, bright-eyed Tritogeneia,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {
+    "official": "*Τριτογένειαν* 'Tritogeneia' (895, again 924): a cult-epithet of Athena of contested sense ('Trito-born', variously linked to Lake Tritonis or an obscure *tritō-*), transliterated as a name with Evelyn-White rather than etymologized. The fated children of Metis are first this *κούρη* with strength equal to her father's (895–896), then the son who never comes (897–900), forestalled by the swallowing. Name convention."
+   }
+  },
+  {
+   "n": 896,
+   "refId": "THEO-896",
+   "text": "ἶσον ἔχουσαν πατρὶ μένος καὶ ἐπίφρονα βουλήν.",
+   "translit": "ison echousan patri menos kai epiphrona boulēn",
+   "i18n": {
+    "en": "having strength equal to her father's and prudent counsel;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 897,
+   "refId": "THEO-897",
+   "text": "αὐτὰρ ἔπειτʼ ἄρα παῖδα θεῶν βασιλῆα καὶ ἀνδρῶν",
+   "translit": "autar epeit' ara paida theōn basilēa kai andrōn",
+   "i18n": {
+    "en": "but afterward she was to bear a son, king of gods and men,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 898,
+   "refId": "THEO-898",
+   "text": "ἤμελλεν τέξεσθαι, ὑπέρβιον ἦτορ ἔχοντα·",
+   "translit": "ēmellen texesthai hyperbion ētor echonta",
+   "i18n": {
+    "en": "with an overbearing heart."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 899,
+   "refId": "THEO-899",
+   "text": "ἀλλʼ ἄρα μιν Ζεὺς πρόσθεν ἑὴν ἐσκάτθετο νηδύν,",
+   "translit": "all' ara min Zeus prosthen heēn eskattheto nēdyn",
+   "i18n": {
+    "en": "But Zeus put her first into his own belly,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 900,
+   "refId": "THEO-900",
+   "text": "ὡς δή οἱ φράσσαιτο θεὰ ἀγαθόν τε κακόν τε.",
+   "translit": "hōs dē hoi phrassaito thea agathon te kakon te",
+   "i18n": {
+    "en": "so that the goddess might advise him of good and evil."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 901,
+   "refId": "THEO-901",
+   "text": "δεύτερον ἠγάγετο λιπαρὴν Θέμιν, ἣ τέκεν Ὥρας,",
+   "translit": "deuteron ēgageto liparēn Themin hē teken Hōras",
+   "i18n": {
+    "en": "Next he wedded bright Themis, who bore the Horai—"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 902,
+   "refId": "THEO-902",
+   "text": "Εὐνουμίην τε Δίκην τε καὶ Εἰρήνην τεθαλυῖαν,",
+   "translit": "Eunomiēn te Dikēn te kai Eirēnēn tethalyian",
+   "i18n": {
+    "en": "Eunomia and Dike and blooming Eirene,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "source-orthographic-quirks-verbatim-theogony"
+   ],
+   "notes": {
+    "official": "*Ὥρας* 'the Horai' (901) and their names *Εὐνομίην τε Δίκην τε καὶ Εἰρήνην* (902): transparent personified abstractions — Eunomia 'Good-order/Lawfulness', Dike 'Justice', Eirene 'Peace' — that also function as the named Seasons-goddesses. Following the reference and by the principle of `personified-abstractions-nyx-eris-brood-theogony` (translate running abstractions, transliterate cult-established name-like members), they are transliterated as proper names, exactly like their sisters the Charites Aglaia/Euphrosyne/Thalia (909); the transparent senses are given here, not glossed inline in the surface, which is governed by the name convention. The source prints *Εὐνουμίην* (902); the transmitted spelling is kept verbatim in the text field, the standard 'Eunomia' in the transliteration and English (`source-orthographic-quirks-verbatim-theogony`)."
+   }
+  },
+  {
+   "n": 903,
+   "refId": "THEO-903",
+   "text": "αἳ ἔργʼ ὠρεύουσι καταθνητοῖσι βροτοῖσι,",
+   "translit": "hai erg' ōreuousi katathnētoisi brotoisi",
+   "i18n": {
+    "en": "who watch over the works of mortal men—"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 904,
+   "refId": "THEO-904",
+   "text": "Μοίρας θʼ, ᾗ πλείστην τιμὴν πόρε μητίετα Ζεύς,",
+   "translit": "Moiras th' hē pleistēn timēn pore mētieta Zeus",
+   "i18n": {
+    "en": "and the Fates, to whom Zeus the counsellor gave the greatest honor,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "time-geras-moira-honor-vocabulary-theogony",
+    "metis-metieta-cunning-counsel-network-theogony"
+   ],
+   "notes": {
+    "official": "*Μοίρας* 'the Fates' (904), with *Κλωθώ τε Λάχεσίν τε καὶ Ἄτροπον* (905): here daughters of Zeus and Themis — a genealogical doublet of the Moirai born within Nyx's parthenogenetic brood at 211/217 (a known Hesiodic inconsistency, two parentages for the same powers; West 1966 ad 904). The individual names Klotho/Lachesis/Atropos are transliterated exactly as at 218 (`personified-abstractions-nyx-eris-brood-theogony`); the collective *Μοίρας* is rendered 'the Fates' (standing alone), as against 'the Destinies' at 217, where it was paired with the *Κῆρας* 'Fates' and needed a distinguishing English word. To them *μητίετα* 'the counsellor' Zeus gave *πλείστην τιμήν* 'the greatest honour' (904) — *timḗ* under `time-geras-moira-honor-vocabulary-theogony`, *mētieta* under `metis-metieta-cunning-counsel-network-theogony`. The personified-abstractions entry is not extended into this Themis catalogue; the doublet is flagged here."
+   }
+  },
+  {
+   "n": 905,
+   "refId": "THEO-905",
+   "text": "Κλωθώ τε Λάχεσίν τε καὶ Ἄτροπον, αἵτε διδοῦσι",
+   "translit": "Klōthō te Lachesin te kai Atropon haite didousi",
+   "i18n": {
+    "en": "Klotho and Lachesis and Atropos, who give"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 906,
+   "refId": "THEO-906",
+   "text": "θνητοῖς ἀνθρώποισιν ἔχειν ἀγαθόν τε κακόν τε.",
+   "translit": "thnētois anthrōpoisin echein agathon te kakon te",
+   "i18n": {
+    "en": "to mortal men both good and evil to have."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 907,
+   "refId": "THEO-907",
+   "text": "τρεῖς δέ οἱ Εὐρυνομη Χάριτας τέκε καλλιπαρῄους,",
+   "translit": "treis de hoi Eurynomē Charitas teke kalliparēous",
+   "i18n": {
+    "en": "And Eurynome bore him the three fair-cheeked Graces—"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "source-orthographic-quirks-verbatim-theogony"
+   ],
+   "notes": {
+    "official": "*Εὐρυνόμη* 'Eurynome', the Okeanid mother of the three Charites (907–909): the source prints the name without its accent (*Εὐρυνομη*). The transmitted spelling is kept verbatim in the text field and the standard 'Eurynome' given in the transliteration and English, per the source-fidelity convention (`source-orthographic-quirks-verbatim-theogony`; cf. the unaccented *Χρυσαωρ* at 281)."
+   }
+  },
+  {
+   "n": 908,
+   "refId": "THEO-908",
+   "text": "Ὠκεανοῦ κούρη, πολυήρατον εἶδος ἔχουσα,",
+   "translit": "Ōkeanou kourē polyēraton eidos echousa",
+   "i18n": {
+    "en": "daughter of Okeanos, having a lovely form—"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 909,
+   "refId": "THEO-909",
+   "text": "Ἀγλαΐην τε καὶ Εὐφροσύνην Θαλίην τʼ ἐρατεινήν·",
+   "translit": "Aglaiēn te kai Euphrosynēn Thaliēn t' erateinēn",
+   "i18n": {
+    "en": "Aglaia and Euphrosyne and lovely Thalia;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 910,
+   "refId": "THEO-910",
+   "text": "τῶν καὶ ἀπὸ βλεφάρων ἔρος εἴβετο δερκομενάων",
+   "translit": "tōn kai apo blepharōn eros eibeto derkomenaōn",
+   "i18n": {
+    "en": "and from their eyes, as they glanced, desire flowed,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 911,
+   "refId": "THEO-911",
+   "text": "λυσιμελής· καλὸν δέ θʼ ὑπʼ ὀφρύσι δερκιόωνται.",
+   "translit": "lysimelēs kalon de th' hyp' ophrysi derkioōntai",
+   "i18n": {
+    "en": "desire that loosens the limbs; and beautifully they glance from beneath their brows."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 912,
+   "refId": "THEO-912",
+   "text": "αὐτὰρ ὁ Δήμητρος πολυφόρβης ἐς λέχος ἦλθεν,",
+   "translit": "autar ho Dēmētros polyphorbēs es lechos ēlthen",
+   "i18n": {
+    "en": "But he came to the bed of all-nourishing Demeter,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 913,
+   "refId": "THEO-913",
+   "text": "ἣ τέκε Περσεφόνην λευκώλενον, ἣν Ἀιδωνεὺς",
+   "translit": "hē teke Persephonēn leukōlenon hēn Aidōneus",
+   "i18n": {
+    "en": "who bore white-armed Persephone, whom Aidoneus"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {
+    "official": "*Ἀιδωνεύς* 'Aidoneus' (913), who carries off Persephone: a fuller alternative name of Hades (an expanded epic form), NOT a mere orthographic variant of *Ἅιδης*. It is therefore kept as 'Aidoneus' with Evelyn-White and deliberately NOT normalized to 'Hades' — unlike the plain epic *Ἀίδης/Ἀίδεω* forms at 768/774/850, which the `dialectal-theonym-normalization-theogony` convention does normalize. Governed by the name convention; the non-normalization is flagged in the Block-D report."
+   }
+  },
+  {
+   "n": 914,
+   "refId": "THEO-914",
+   "text": "ἥρπασε ἧς παρὰ μητρός· ἔδωκε δὲ μητίετα Ζεύς.",
+   "translit": "hērpase hēs para mētros edōke de mētieta Zeus",
+   "i18n": {
+    "en": "carried off from her mother; and Zeus the counsellor gave her."
+   },
+   "glossaryRefs": [
+    "metis-metieta-cunning-counsel-network-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 915,
+   "refId": "THEO-915",
+   "text": "Μνημοσύνης δʼ ἐξαῦτις ἐράσσατο καλλικόμοιο,",
+   "translit": "Mnēmosynēs d' exautis erassato kallikomoio",
+   "i18n": {
+    "en": "And again he loved fair-haired Mnemosyne,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 916,
+   "refId": "THEO-916",
+   "text": "ἐξ ἧς οἱ Μοῦσαι χρυσάμπυκες ἐξεγένοντο",
+   "translit": "ex hēs hoi Mousai chrysampykes exegenonto",
+   "i18n": {
+    "en": "from whom the gold-filleted Muses were born to him,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 917,
+   "refId": "THEO-917",
+   "text": "ἐννέα, τῇσιν ἅδον θαλίαι καὶ τέρψις ἀοιδῆς.",
+   "translit": "ennea tēsin hadon thaliai kai terpsis aoidēs",
+   "i18n": {
+    "en": "nine of them, to whom festivities and the delight of song are dear."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 918,
+   "refId": "THEO-918",
+   "text": "Λητὼ δʼ Ἀπόλλωνα καὶ Ἄρτεμιν ἰοχέαιραν,",
+   "translit": "Lētō d' Apollōna kai Artemin iocheairan",
+   "i18n": {
+    "en": "And Leto bore Apollo and Artemis, delighting in arrows,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 919,
+   "refId": "THEO-919",
+   "text": "ἱμερόεντα γόνον περὶ πάντων Οὐρανιώνων,",
+   "translit": "himeroenta gonon peri pantōn Ouraniōnōn",
+   "i18n": {
+    "en": "offspring lovelier than all the children of Heaven,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 920,
+   "refId": "THEO-920",
+   "text": "γείνατʼ ἄρʼ αἰγιόχοιο Διὸς φιλότητι μιγεῖσα.",
+   "translit": "geinat' ar' aigiochoio Dios philotēti migeisa",
+   "i18n": {
+    "en": "having mingled in love with aegis-holding Zeus."
+   },
+   "glossaryRefs": [
+    "aigiochos-aegis-bearer-zeus-epithet-theogony",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 921,
+   "refId": "THEO-921",
+   "text": "λοισθοτάτην δʼ Ἥρην θαλερὴν ποιήσατʼ ἄκοιτιν·",
+   "translit": "loisthotatēn d' Hērēn thalerēn poiēsat' akoitin",
+   "i18n": {
+    "en": "And last of all he made blooming Hera his wife;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 922,
+   "refId": "THEO-922",
+   "text": "ἣ δʼ Ἥβην καὶ Ἄρηα καὶ Εἰλείθυιαν ἔτικτε",
+   "translit": "hē d' Hēbēn kai Arēa kai Eileithyian etikte",
+   "i18n": {
+    "en": "and she bore Hebe and Ares and Eileithyia,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 923,
+   "refId": "THEO-923",
+   "text": "μιχθεῖσʼ ἐν φιλότητι θεῶν βασιλῆι καὶ ἀνδρῶν.",
+   "translit": "michtheis' en philotēti theōn basilēi kai andrōn",
+   "i18n": {
+    "en": "mingling in love with the king of gods and men."
+   },
+   "glossaryRefs": [
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 924,
+   "refId": "THEO-924",
+   "text": "αὐτὸς δʼ ἐκ κεφαλῆς γλαυκώπιδα Τριτογένειαν",
+   "translit": "autos d' ek kephalēs glaukōpida Tritogeneian",
+   "i18n": {
+    "en": "But he himself, from his head, brought forth bright-eyed Tritogeneia,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {
+    "official": "*αὐτὸς δʼ ἐκ κεφαλῆς … Τριτογένειαν* 'he himself, from his head, brought forth Tritogeneia' (924–926): the birth of Athena directly from Zeus, the swallowing of Metis (886–900, and the variant 929e–t) having transferred her *mētis* to him. *Ἀτρυτώνην* 'Atrytone' ('unwearying', 925) and *Τριτογένειαν* transliterated as cult-epithets with Evelyn-White. See on 886 and the variant-passage note at 929a."
+   }
+  },
+  {
+   "n": 925,
+   "refId": "THEO-925",
+   "text": "δεινὴν ἐγρεκύδοιμον ἀγέστρατον Ἀτρυτώνην",
+   "translit": "deinēn egrekydoimon agestraton Atrytōnēn",
+   "i18n": {
+    "en": "the dread rouser of the war-din, leader of armies, Atrytone,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 926,
+   "refId": "THEO-926",
+   "text": "πότνιαν, ᾗ κέλαδοί τε ἅδον πόλεμοί τε μάχαι τε,",
+   "translit": "potnian hē keladoi te hadon polemoi te machai te",
+   "i18n": {
+    "en": "the lady to whom din and wars and battles are dear;"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 927,
+   "refId": "THEO-927",
+   "text": "Ἥρη δʼ Ἥφαιστον κλυτὸν οὐ φιλότητι μιγεῖσα",
+   "translit": "Hērē d' Hēphaiston klyton ou philotēti migeisa",
+   "i18n": {
+    "en": "and Hera bore glorious Hephaestus, not mingling in love,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 928,
+   "refId": "THEO-928",
+   "text": "γείνατο, καὶ ζαμένησε καὶ ἤρισε ᾧ παρακοίτῃ,",
+   "translit": "geinato kai zamenēse kai ērise hō parakoitē",
+   "i18n": {
+    "en": "but in wrath and quarrel with her husband,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 929,
+   "refId": "THEO-929",
+   "text": "ἐκ πάντων τέχνῃσι κεκασμένον Οὐρανιώνων.",
+   "translit": "ek pantōn technēsi kekasmenon Ouraniōnōn",
+   "i18n": {
+    "en": "Hephaestus, skilled in crafts beyond all the children of Heaven."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": "929a",
+   "refId": "THEO-929a",
+   "text": "Ἥρη δὲ ζαμένησε καὶ ἤρισε ᾧ παρακοίτῃ.",
+   "translit": "Hērē de zamenēse kai ērise hō parakoitē",
+   "i18n": {
+    "en": "But Hera was wroth and quarreled with her husband,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {
+    "official": "Lines 929a–929t are a twenty-line variant/doublet transmitted by Chrysippus (apud Galen, *De placitis Hippocratis et Platonis* 3.8) and printed by the Perseus/West edition as an *<add>* supplement in source order after 929; West brackets the whole block as secondary. It re-tells, in a fuller form, Hera's parthenogenesis of Hephaestus 'in strife' (929a–d, doublet of 927–929) and the deception and swallowing of Metis and the birth of Athena (929e–t, doublet of 886–900 + 924), locating Athena's birth by the river Triton (929m). Per the presentation decision adopted for the block — an extension of the athetized-lines philosophy from single *<del>* lines to an *<add>* supplement — the passage is retained and translated verbatim in source order, unmarked in the reading surface, with its supplementary/doublet status recorded here and the additional internal athetesis of 929s recorded at that line; see the new `variant-passage-929a-929t-metis-doublet-theogony` entry. **Flagged for the Reviewer:** the passage-level presentation (retain-and-translate-unmarked versus any stronger apparatus marking of the whole block) is the block's principal apparatus adjudication."
+   }
+  },
+  {
+   "n": "929b",
+   "refId": "THEO-929b",
+   "text": "ἐκ ταύτης δʼ ἔριδος ἣ μὲν τέκε φαίδιμον υἱὸν",
+   "translit": "ek tautēs d' eridos hē men teke phaidimon huion",
+   "i18n": {
+    "en": "and out of this strife she bore a glorious son,"
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929c",
+   "refId": "THEO-929c",
+   "text": "Ἥφαιστον, φιλότητος ἄτερ Διὸς αἰγιόχοιο,",
+   "translit": "Hēphaiston philotētos ater Dios aigiochoio",
+   "i18n": {
+    "en": "Hephaestus, apart from the love of aegis-holding Zeus,"
+   },
+   "glossaryRefs": [
+    "aigiochos-aegis-bearer-zeus-epithet-theogony",
+    "theogony-name-and-title-conventions",
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929d",
+   "refId": "THEO-929d",
+   "text": "ἐκ πάντων παλάμῃσι κεκασμένον Οὐρανιώνων·",
+   "translit": "ek pantōn palamēsi kekasmenon Ouraniōnōn",
+   "i18n": {
+    "en": "skilled with his hands beyond all the children of Heaven."
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929e",
+   "refId": "THEO-929e",
+   "text": "αὐτὰρ ὅ γʼ Ὠκεανοῦ καὶ Τηθύος ἠυκόμοιο",
+   "translit": "autar ho g' Ōkeanou kai Tēthyos ēykomoio",
+   "i18n": {
+    "en": "But he himself lay beside the daughter of Okeanos and fair-haired Tethys,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929f",
+   "refId": "THEO-929f",
+   "text": "κούρῃ νόσφʼ Ἥρης παρελέξατο καλλιπαρήῳ,",
+   "translit": "kourē nosph' Hērēs parelexato kalliparēō",
+   "i18n": {
+    "en": "the fair-cheeked maiden, apart from Hera—"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "variant-passage-929a-929t-metis-doublet-theogony",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929g",
+   "refId": "THEO-929g",
+   "text": "ἐξαπαφὼν Μῆτιν καίπερ πολυδήνεʼ ἐοῦσαν.",
+   "translit": "exapaphōn Mētin kaiper polydēne' eousan",
+   "i18n": {
+    "en": "deceiving Metis, though she was full of cunning."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "metis-metieta-cunning-counsel-network-theogony",
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929h",
+   "refId": "THEO-929h",
+   "text": "συμμάρψας δʼ ὅ γε χερσὶν ἑὴν ἐγκάτθετο νηδὺν",
+   "translit": "symmarpsas d' ho ge chersin heēn enkattheto nēdyn",
+   "i18n": {
+    "en": "But he seized her with his hands and put her into his belly,"
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929i",
+   "refId": "THEO-929i",
+   "text": "δείσας, μὴ τέξῃ κρατερώτερον ἄλλο κεραυνοῦ.",
+   "translit": "deisas mē texē kraterōteron allo keraunou",
+   "i18n": {
+    "en": "fearing that she might bear something stronger than the thunderbolt."
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929j",
+   "refId": "THEO-929j",
+   "text": "τοὔνεκά μιν Κρονίδης ὑψίζυγος αἰθέρι ναίων",
+   "translit": "touneka min Kronidēs hypsizygos aitheri naiōn",
+   "i18n": {
+    "en": "Therefore the son of Kronos, throned on high, dwelling in the aether,"
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929k",
+   "refId": "THEO-929k",
+   "text": "κάππιεν ἐξαπίνης· ἣ δʼ αὐτίκα Παλλάδʼ Ἀθήνην",
+   "translit": "kappien exapinēs hē d' autika Pallad' Athēnēn",
+   "i18n": {
+    "en": "swallowed her suddenly; and she at once conceived Pallas Athena;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929l",
+   "refId": "THEO-929l",
+   "text": "κύσατο· τὴν μὲν ἔτικτε πατὴρ ἀνδρῶν τε θεῶν τε",
+   "translit": "kysato tēn men etikte patēr andrōn te theōn te",
+   "i18n": {
+    "en": "and the father of men and gods brought her forth"
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929m",
+   "refId": "THEO-929m",
+   "text": "πὰρ κορυφὴν Τρίτωνος ἐπʼ ὄχθῃσιν ποταμοῖο.",
+   "translit": "par koryphēn Tritōnos ep' ochthēsin potamoio",
+   "i18n": {
+    "en": "by the peak, beside the banks of the river Triton."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929n",
+   "refId": "THEO-929n",
+   "text": "Μῆτις δʼ αὖτε Ζηνὸς ὑπὸ σπλάγχνοις λελαθυῖα",
+   "translit": "Mētis d' aute Zēnos hypo splanchnois lelathyia",
+   "i18n": {
+    "en": "But Metis, hidden away beneath the vitals of Zeus,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "metis-metieta-cunning-counsel-network-theogony",
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {
+    "official": "*Μῆτις … Ζηνὸς ὑπὸ σπλάγχνοις λελαθυῖα* 'Metis, hidden away beneath the vitals of Zeus' (929n): in the variant she remains within Zeus as *Ἀθηναίης μήτηρ* 'mother of Athena' and source of his counsel (929n–r) — the doublet's fuller statement of the swallowed-*mētis* motif of 886–900. `metis-metieta-cunning-counsel-network-theogony`; see on 886 and 929a."
+   }
+  },
+  {
+   "n": "929o",
+   "refId": "THEO-929o",
+   "text": "ἧστο, Ἀθηναίης μήτηρ, τέκταινα δικαίων",
+   "translit": "hēsto Athēnaiēs mētēr tektaina dikaiōn",
+   "i18n": {
+    "en": "remained, the mother of Athena, deviser of just things,"
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929p",
+   "refId": "THEO-929p",
+   "text": "πλεῖστα θεῶν τε ἰδυῖα καταθνητῶν τʼ ἀνθρώπων,",
+   "translit": "pleista theōn te idyia katathnētōn t' anthrōpōn",
+   "i18n": {
+    "en": "knowing most of gods and of mortal men."
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929q",
+   "refId": "THEO-929q",
+   "text": "ἔνθα θεὰ παρέδεκτο ὅθεν παλάμαις περὶ πάντων",
+   "translit": "entha thea paredekto hothen palamais peri pantōn",
+   "i18n": {
+    "en": "There the goddess received that whereby, with her hands, above all"
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929r",
+   "refId": "THEO-929r",
+   "text": "ἀθανάτων ἐκέκασθʼ οἳ Ὀλύμπια δώματʼ ἔχουσιν,",
+   "translit": "athanatōn ekekasth' hoi Olympia dōmat' echousin",
+   "i18n": {
+    "en": "the immortals who have their homes on Olympos she excelled;"
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": "929s",
+   "refId": "THEO-929s",
+   "text": "αἰγίδα ποιήσασα φοβέστρατον ἔντος Ἀθήνης·",
+   "translit": "aigida poiēsasa phobestraton entos Athēnēs",
+   "i18n": {
+    "en": "for she made the aegis, Athena's army-routing armor."
+   },
+   "glossaryRefs": [
+    "aigiochos-aegis-bearer-zeus-epithet-theogony",
+    "athetized-lines-convention-theogony",
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {
+    "official": "Within the variant supplement, line 929s (*αἰγίδα ποιήσασα φοβέστρατον ἔντος Ἀθήνης* 'she made the aegis, Athena's army-routing armour') is additionally athetized (*<del>*) in the edition — a secondary insertion even within the secondary block. Retained and translated unmarked per the athetized-lines convention, the double status (supplement + athetesis) recorded here. The *αἰγίς* is the storm-shield, left untranslated as a cultic object (cf. `aigiochos-aegis-bearer-zeus-epithet-theogony`, whose scope is extended to the Block-D aegis sites). Governed by `variant-passage-929a-929t-metis-doublet-theogony` and `athetized-lines-convention-theogony`."
+   }
+  },
+  {
+   "n": "929t",
+   "refId": "THEO-929t",
+   "text": "σὺν τῇ ἐγείνατό μιν πολεμήια τεύχεʼ ἔχουσαν.",
+   "translit": "syn tē egeinato min polemēia teuche' echousan",
+   "i18n": {
+    "en": "With it he brought her forth, wearing her war-gear."
+   },
+   "glossaryRefs": [
+    "variant-passage-929a-929t-metis-doublet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 930,
+   "refId": "THEO-930",
+   "text": "Ἐκ δʼ Ἀμφιτρίτης καὶ ἐρικτύπου Ἐννοσιγαίου",
+   "translit": "ek d' Amphitritēs kai eriktypou Ennosigaiou",
+   "i18n": {
+    "en": "And of Amphitrite and the loud-crashing Earth-Shaker"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "periphrastic-title-unnamed-god-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 931,
+   "refId": "THEO-931",
+   "text": "Τρίτων εὐρυβίης γένετο μέγας, ὅστε θαλάσσης",
+   "translit": "Tritōn eurybiēs geneto megas hoste thalassēs",
+   "i18n": {
+    "en": "was born great, wide-ruling Triton, who,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 932,
+   "refId": "THEO-932",
+   "text": "πυθμένʼ ἔχων παρὰ μητρὶ φίλῃ καὶ πατρὶ ἄνακτι",
+   "translit": "pythmen' echōn para mētri philē kai patri anakti",
+   "i18n": {
+    "en": "holding the depths of the sea beside his dear mother and his lordly father,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 933,
+   "refId": "THEO-933",
+   "text": "ναίει χρύσεα δῶ, δεινὸς θεός. αὐτὰρ Ἄρηι",
+   "translit": "naiei chrysea dō deinos theos autar Arēi",
+   "i18n": {
+    "en": "dwells in golden halls, a dread god. And to Ares,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 934,
+   "refId": "THEO-934",
+   "text": "ῥινοτόρῳ Κυθέρεια Φόβον καὶ Δεῖμον ἔτικτε",
+   "translit": "rhinotorō Kythereia Phobon kai Deimon etikte",
+   "i18n": {
+    "en": "the shield-piercer, Kythereia bore Phobos and Deimos,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "personified-abstractions-nyx-eris-brood-theogony"
+   ],
+   "notes": {
+    "official": "*Φόβον καὶ Δεῖμον* (934): transparent personifications — Phobos 'Rout/Panic', Deimos 'Terror/Fear' — and also cult-established war-daimones, sons of Ares. The surface transliterates 'Phobos and Deimos' as proper names (Reviewer revise, Block D review, sustained at sign-off), departing from Evelyn-White's translated 'Panic and Fear', for consistency with their sister *Ἁρμονίη* 'Harmonia', transliterated in the same clause (937), and with the cult-established *Ζῆλος/Νίκη/Κράτος/Βίη* transliterated at 384–385 (Block B) under `personified-abstractions-nyx-eris-brood-theogony`. The standing choice is the reference's translated pair; **the translate-vs-transliterate call is flagged for the Reviewer.**"
+   }
+  },
+  {
+   "n": 935,
+   "refId": "THEO-935",
+   "text": "δεινούς, οἵτʼ ἀνδρῶν πυκινὰς κλονέουσι φάλαγγας",
+   "translit": "deinous hoit' andrōn pykinas kloneousi phalangas",
+   "i18n": {
+    "en": "dread gods, who throw into confusion the close ranks of men"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 936,
+   "refId": "THEO-936",
+   "text": "ἐν πολέμῳ κρυόεντι σὺν Ἄρηι πτολιπόρθῳ,",
+   "translit": "en polemō kryoenti syn Arēi ptoliporthō",
+   "i18n": {
+    "en": "in chill war, together with Ares, sacker of cities;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 937,
+   "refId": "THEO-937",
+   "text": "Ἁρμονίην θʼ, ἣν Κάδμος ὑπέρθυμος θέτʼ ἄκοιτιν.",
+   "translit": "Harmoniēn th' hēn Kadmos hyperthymos thet' akoitin",
+   "i18n": {
+    "en": "and Harmonia, whom high-spirited Kadmos made his wife."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 938,
+   "refId": "THEO-938",
+   "text": "Ζηνὶ δʼ ἄρʼ Ἀτλαντὶς Μαίη τέκε κύδιμον Ἑρμῆν,",
+   "translit": "Zēni d' ar' Atlantis Maiē teke kydimon Hermēn",
+   "i18n": {
+    "en": "And to Zeus, Maia, daughter of Atlas, bore glorious Hermes,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 939,
+   "refId": "THEO-939",
+   "text": "κήρυκʼ ἀθανάτων, ἱερὸν λέχος εἰσαναβᾶσα.",
+   "translit": "kēryk' athanatōn hieron lechos eisanabasa",
+   "i18n": {
+    "en": "the herald of the immortals, having ascended his holy bed."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 940,
+   "refId": "THEO-940",
+   "text": "Καδμείη δʼ ἄρα οἱ Σεμέλη τέκε φαίδιμον υἱὸν",
+   "translit": "Kadmeiē d' ara hoi Semelē teke phaidimon huion",
+   "i18n": {
+    "en": "And Semele, daughter of Kadmos, bore him a glorious son,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 941,
+   "refId": "THEO-941",
+   "text": "μιχθεῖσʼ ἐν φιλότητι, Διώνυσον πολυγηθέα,",
+   "translit": "michtheis' en philotēti Diōnyson polygēthea",
+   "i18n": {
+    "en": "mingling in love—Dionysos, the giver of much joy,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 942,
+   "refId": "THEO-942",
+   "text": "ἀθάνατον θνητή· νῦν δʼ ἀμφότεροι θεοί εἰσιν.",
+   "translit": "athanaton thnētē nyn d' amphoteroi theoi eisin",
+   "i18n": {
+    "en": "an immortal, though she was mortal; but now both are gods."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 943,
+   "refId": "THEO-943",
+   "text": "Ἀλκμήνη δʼ ἄρʼ ἔτικτε βίην Ἡρακληείην",
+   "translit": "Alkmēnē d' ar' etikte biēn Hēraklēeiēn",
+   "i18n": {
+    "en": "And Alkmene bore the mighty Herakles,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 944,
+   "refId": "THEO-944",
+   "text": "μιχθεῖσʼ ἐν φιλότητι Διὸς νεφεληγερέταο.",
+   "translit": "michtheis' en philotēti Dios nephelēgeretao",
+   "i18n": {
+    "en": "mingling in love with Zeus the cloud-gatherer."
+   },
+   "glossaryRefs": [
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 945,
+   "refId": "THEO-945",
+   "text": "ἀγλαΐην δʼ Ἥφαιστος, ἀγακλυτὸς ἀμφιγυήεις,",
+   "translit": "aglaiēn d' Hēphaistos agaklytos amphigyēeis",
+   "i18n": {
+    "en": "And Aglaia—Hephaestus, the renowned Lame One,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "periphrastic-title-unnamed-god-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 946,
+   "refId": "THEO-946",
+   "text": "ὁπλοτάτην Χαρίτων θαλερὴν ποιήσατʼ ἄκοιτιν.",
+   "translit": "hoplotatēn Charitōn thalerēn poiēsat' akoitin",
+   "i18n": {
+    "en": "made her, the youngest of the Graces, his blooming wife."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 947,
+   "refId": "THEO-947",
+   "text": "χρυσοκόμης δὲ Διώνυσος ξανθὴν Ἀριάδνην,",
+   "translit": "chrysokomēs de Diōnysos xanthēn Ariadnēn",
+   "i18n": {
+    "en": "And golden-haired Dionysos made fair-haired Ariadne,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 948,
+   "refId": "THEO-948",
+   "text": "κούρην Μίνωος, θαλερὴν ποιήσατʼ ἄκοιτιν.",
+   "translit": "kourēn Minōos thalerēn poiēsat' akoitin",
+   "i18n": {
+    "en": "daughter of Minos, his blooming wife;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 949,
+   "refId": "THEO-949",
+   "text": "τὴν δέ οἱ ἀθάνατον καὶ ἀγήρω θῆκε Κρονίων.",
+   "translit": "tēn de hoi athanaton kai agērō thēke Kroniōn",
+   "i18n": {
+    "en": "and the son of Kronos made her immortal and ageless for him."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 950,
+   "refId": "THEO-950",
+   "text": "ἥβην δʼ Ἀλκμήνης καλλισφύρου ἄλκιμος υἱός,",
+   "translit": "hēbēn d' Alkmēnēs kallisphyrou alkimos huios",
+   "i18n": {
+    "en": "And Hebe—the valiant son of fair-ankled Alkmene,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 951,
+   "refId": "THEO-951",
+   "text": "ἲς Ἡρακλῆος, τελέσας στονόεντας ἀέθλους,",
+   "translit": "is Hēraklēos telesas stonoentas aethlous",
+   "i18n": {
+    "en": "the might of Herakles, when he had accomplished his grievous labors,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 952,
+   "refId": "THEO-952",
+   "text": "παῖδα Διὸς μεγάλοιο καὶ Ἥρης χρυσοπεδίλου,",
+   "translit": "paida Dios megaloio kai Hērēs chrysopedilou",
+   "i18n": {
+    "en": "made the child of great Zeus and gold-sandalled Hera"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 953,
+   "refId": "THEO-953",
+   "text": "αἰδοίην θέτʼ ἄκοιτιν ἐν Οὐλύμπῳ νιφόεντι,",
+   "translit": "aidoiēn thet' akoitin en Oulympō niphoenti",
+   "i18n": {
+    "en": "his revered wife in snowy Olympos:"
+   },
+   "glossaryRefs": [
+    "place-name-greek-forms-block-c-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 954,
+   "refId": "THEO-954",
+   "text": "ὄλβιος, ὃς μέγα ἔργον ἐν ἀθανάτοισιν ἀνύσσας",
+   "translit": "olbios hos mega ergon en athanatoisin anyssas",
+   "i18n": {
+    "en": "happy he, who, having accomplished a great work among the immortals,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 955,
+   "refId": "THEO-955",
+   "text": "ναίει ἀπήμαντος καὶ ἀγήραος ἤματα πάντα.",
+   "translit": "naiei apēmantos kai agēraos ēmata panta",
+   "i18n": {
+    "en": "dwells unscathed and ageless for all his days."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 956,
+   "refId": "THEO-956",
+   "text": "ἠελίῳ δʼ ἀκάμαντι τέκεν κλυτὸς Ὠκεανίνη",
+   "translit": "hēeliō d' akamanti teken klytos Ōkeaninē",
+   "i18n": {
+    "en": "And to the tireless Sun the famous Okeanid"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 957,
+   "refId": "THEO-957",
+   "text": "Περσηὶς Κίρκην τε καὶ Αἰήτην βασιλῆα.",
+   "translit": "Persēis Kirkēn te kai Aiētēn basilēa",
+   "i18n": {
+    "en": "Perseis bore Kirke and Aietes the king."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 958,
+   "refId": "THEO-958",
+   "text": "Αἰήτης δʼ υἱὸς φαεσιμβρότου Ἠελίοιο",
+   "translit": "Aiētēs d' huios phaesimbrotou Ēelioio",
+   "i18n": {
+    "en": "And Aietes, son of the Sun that shines on mortals,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 959,
+   "refId": "THEO-959",
+   "text": "κούρην Ὠκεανοῖο τελήεντος ποταμοῖο",
+   "translit": "kourēn Ōkeanoio telēentos potamoio",
+   "i18n": {
+    "en": "wedded the daughter of Okeanos, the perfect river,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 960,
+   "refId": "THEO-960",
+   "text": "γῆμε θεῶν βουλῇσιν Ἰδυῖαν καλλιπάρῃον.",
+   "translit": "gēme theōn boulēsin Idyian kalliparēon",
+   "i18n": {
+    "en": "fair-cheeked Idyia, by the counsels of the gods;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 961,
+   "refId": "THEO-961",
+   "text": "ἣ δέ οἱ Μήδειαν ἐύσφυρον ἐν φιλότητι",
+   "translit": "hē de hoi Mēdeian eusphyron en philotēti",
+   "i18n": {
+    "en": "and she bore him fair-ankled Medeia, in love,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 962,
+   "refId": "THEO-962",
+   "text": "γείναθʼ ὑποδμηθεῖσα διὰ χρυσέην Ἀφροδίτην.",
+   "translit": "geinath' hypodmētheisa dia chryseēn Aphroditēn",
+   "i18n": {
+    "en": "subdued through golden Aphrodite."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 963,
+   "refId": "THEO-963",
+   "text": "ὑμεῖς μὲν νῦν χαίρετʼ, Ὀλύμπια δώματʼ ἔχοντες,",
+   "translit": "hymeis men nyn chairet' Olympia dōmat' echontes",
+   "i18n": {
+    "en": "Now farewell, you who dwell in the homes of Olympos,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 964,
+   "refId": "THEO-964",
+   "text": "νῆσοί τʼ ἤπειροί τε καὶ ἁλμυρὸς ἔνδοθι πόντος.",
+   "translit": "nēsoi t' ēpeiroi te kai halmyros endothi pontos",
+   "i18n": {
+    "en": "and you islands and mainlands and the salt sea within."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 965,
+   "refId": "THEO-965",
+   "text": "νῦν δὲ θεάων φῦλον ἀείσατε, ἡδυέπειαι",
+   "translit": "nyn de theaōn phylon aeisate hēdyepeiai",
+   "i18n": {
+    "en": "And now sing the tribe of goddesses, sweet-voiced"
+   },
+   "glossaryRefs": [],
+   "notes": {
+    "official": "*νῦν δὲ θεάων φῦλον ἀείσατε* 'now sing the tribe of goddesses' (965–966): the invocation opening the coda of goddesses who bedded mortal men (965–1018); it is answered by the parallel 'tribe of women' invocation at 1021–1022. See on 1021 (the seam toward the *Catalogue of Women*)."
+   }
+  },
+  {
+   "n": 966,
+   "refId": "THEO-966",
+   "text": "Μοῦσαι Ὀλυμπιάδες, κοῦραι Διὸς αἰγιόχοιο,",
+   "translit": "Mousai Olympiades kourai Dios aigiochoio",
+   "i18n": {
+    "en": "Muses of Olympos, daughters of aegis-holding Zeus,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "aigiochos-aegis-bearer-zeus-epithet-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 967,
+   "refId": "THEO-967",
+   "text": "ὅσσαι δὴ θνητοῖσι παρʼ ἀνδράσιν εὐνηθεῖσαι",
+   "translit": "hossai dē thnētoisi par' andrasin eunētheisai",
+   "i18n": {
+    "en": "all those who, having lain with mortal men,"
+   },
+   "glossaryRefs": [
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {
+    "official": "The mortal-goddess coda (963–1018, opened by the invocation 965–966) is saturated with union-formulae, rendered literally and consistently with Evelyn-White and Blocks A–C: *εὐνηθεῖσαι* 'having lain with' (967, 1019), *(ἐν) φιλότητι μιγεῖσα* 'mingling in love' (e.g. 920, 941, 944, 970, 980), *δμηθεῖσα / ὑποδμηθεῖσα* 'subdued/tamed by' (962, 1000, 1006), *παρελέξατο* 'lay beside' (929f). The *δμη-* verbs' 'subdued/tamed' force (< *δάμνημι* 'overpower, break, tame') is preserved, neither coarsened nor euphemized to a neutral 'joined with'; see the new `union-formulae-mortal-goddess-catalogue-theogony` entry. **Lens-discipline note:** goddesses 'subdued by' mortal men and bearing children 'like to the gods' (968, 1020) is a WoH-salient register, but it is kept at the lexical level in both surface and note."
+   }
+  },
+  {
+   "n": 968,
+   "refId": "THEO-968",
+   "text": "ἀθάναται γείναντο θεοῖς ἐπιείκελα τέκνα.",
+   "translit": "athanatai geinanto theois epieikela tekna",
+   "i18n": {
+    "en": "immortal though they were, bore children like to the gods."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 969,
+   "refId": "THEO-969",
+   "text": "Δημήτηρ μὲν Πλοῦτον ἐγείνατο, δῖα θεάων,",
+   "translit": "Dēmētēr men Plouton egeinato dia theaōn",
+   "i18n": {
+    "en": "Demeter, divine among goddesses, bore Plutos,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 970,
+   "refId": "THEO-970",
+   "text": "Ἰασίωνʼ ἥρωι μιγεῖσʼ ἐρατῇ φιλότητι",
+   "translit": "Iasiōn' hērōi migeis' eratē philotēti",
+   "i18n": {
+    "en": "having mingled in lovely love with the hero Iasion,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 971,
+   "refId": "THEO-971",
+   "text": "νειῷ ἔνι τριπόλῳ, Κρήτης ἐν πίονι δήμῳ,",
+   "translit": "neiō eni tripolō Krētēs en pioni dēmō",
+   "i18n": {
+    "en": "in a thrice-plowed fallow field, in the rich land of Krete—"
+   },
+   "glossaryRefs": [
+    "place-name-greek-forms-block-c-theogony"
+   ],
+   "notes": {
+    "official": "*Κρήτης* 'Krete' (971): the Greek form (not the Latin exonym 'Crete'), per the signed-off river-/island-exonym precedent and as at 477/480 (Block C). `place-name-greek-forms-block-c-theogony`."
+   }
+  },
+  {
+   "n": 972,
+   "refId": "THEO-972",
+   "text": "ἐσθλόν, ὃς εἶσʼ ἐπὶ γῆν τε καὶ εὐρέα νῶτα θαλάσσης",
+   "translit": "esthlon hos eis' epi gēn te kai eurea nōta thalassēs",
+   "i18n": {
+    "en": "a good god, who goes over the whole earth and the wide back of the sea,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 973,
+   "refId": "THEO-973",
+   "text": "πάντη· τῷ δὲ τυχόντι καὶ οὗ κʼ ἐς χεῖρας ἵκηται,",
+   "translit": "pantē tō de tychonti kai hou k' es cheiras hikētai",
+   "i18n": {
+    "en": "everywhere; and whoever meets him and into whose hands he comes,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 974,
+   "refId": "THEO-974",
+   "text": "τὸν δʼ ἀφνειὸν ἔθηκε, πολὺν δέ οἱ ὤπασεν ὄλβον.",
+   "translit": "ton d' aphneion ethēke polyn de hoi ōpasen olbon",
+   "i18n": {
+    "en": "him he makes rich, and grants him great wealth."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 975,
+   "refId": "THEO-975",
+   "text": "Κάδμῳ δʼ Ἁρμονίη, θυγάτηρ χρυσέης Ἀφροδιτης,",
+   "translit": "Kadmō d' Harmoniē thygatēr chryseēs Aphroditēs",
+   "i18n": {
+    "en": "And to Kadmos, Harmonia, daughter of golden Aphrodite,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "source-orthographic-quirks-verbatim-theogony"
+   ],
+   "notes": {
+    "official": "The source prints *Ἀφροδιτης* without its accent (975); the transmitted spelling is kept verbatim in the text field, the standard 'Aphrodite' given in the transliteration and English. `source-orthographic-quirks-verbatim-theogony`."
+   }
+  },
+  {
+   "n": 976,
+   "refId": "THEO-976",
+   "text": "Ἰνὼ καὶ Σεμέλην καὶ Ἀγαυὴν καλλιπάρῃον",
+   "translit": "Inō kai Semelēn kai Agauēn kalliparēon",
+   "i18n": {
+    "en": "bore Ino and Semele and fair-cheeked Agaue,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 977,
+   "refId": "THEO-977",
+   "text": "Αὐτονόην θʼ, ἣν γῆμεν Ἀρισταῖος βαθυχαίτης,",
+   "translit": "Autonoēn th' hēn gēmen Aristaios bathychaitēs",
+   "i18n": {
+    "en": "and Autonoe, whom deep-haired Aristaios wedded,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 978,
+   "refId": "THEO-978",
+   "text": "γείνατο καὶ Πολύδωρον ἐυστεφάνῳ ἐνὶ Θήβῃ.",
+   "translit": "geinato kai Polydōron eustephanō eni Thēbē",
+   "i18n": {
+    "en": "and Polydoros also, in well-crowned Thebe."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 979,
+   "refId": "THEO-979",
+   "text": "κούρη δʼ Ὠκεανοῦ, Χρυσάορι καρτεροθύμῳ",
+   "translit": "kourē d' Ōkeanou Chrysaori karterothymō",
+   "i18n": {
+    "en": "And the daughter of Okeanos, mingling in love with strong-hearted Chrysaor"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 980,
+   "refId": "THEO-980",
+   "text": "μιχθεῖσʼ ἐν φιλότητι πολυχρύσου Ἀφροδίτης,",
+   "translit": "michtheis' en philotēti polychrysou Aphroditēs",
+   "i18n": {
+    "en": "through the power of golden Aphrodite,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 981,
+   "refId": "THEO-981",
+   "text": "Καλλιρόη τέκε παῖδα βροτῶν κάρτιστον ἁπάντων,",
+   "translit": "Kalliroē teke paida brotōn kartiston hapantōn",
+   "i18n": {
+    "en": "Kallirhoe bore a son, the strongest of all mortals,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 982,
+   "refId": "THEO-982",
+   "text": "Γηρυονέα, τὸν κτεῖνε βίη Ἡρακληείη",
+   "translit": "Gēryonea ton kteine biē Hēraklēeiē",
+   "i18n": {
+    "en": "Geryones, whom the mighty Herakles slew"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 983,
+   "refId": "THEO-983",
+   "text": "βοῶν ἕνεκʼ εἰλιπόδων ἀμφιρρύτῳ εἰν Ἐρυθείῃ.",
+   "translit": "boōn henek' eilipodōn amphirrytō ein Erytheiē",
+   "i18n": {
+    "en": "for the sake of his shambling oxen in sea-girt Erytheia."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 984,
+   "refId": "THEO-984",
+   "text": "Τιθωνῷ δʼ Ἠὼς τέκε Μέμνονα χαλκοκορυστήν,",
+   "translit": "Tithōnō d' Ēōs teke Memnona chalkokorystēn",
+   "i18n": {
+    "en": "And to Tithonos, Eos bore bronze-helmed Memnon,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 985,
+   "refId": "THEO-985",
+   "text": "Αἰθιόπων βασιλῆα, καὶ Ἠμαθίωνα ἄνακτα.",
+   "translit": "Aithiopōn basilēa kai Ēmathiōna anakta",
+   "i18n": {
+    "en": "king of the Aithiopians, and lord Emathion."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 986,
+   "refId": "THEO-986",
+   "text": "αὐτὰρ ὑπαὶ Κεφάλῳ φιτύσατο φαίδιμον υἱόν,",
+   "translit": "autar hypai Kephalō phitysato phaidimon huion",
+   "i18n": {
+    "en": "But to Kephalos she bore a glorious son,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 987,
+   "refId": "THEO-987",
+   "text": "ἴφθιμον Φαέθοντα, θεοῖς ἐπιείκελον ἄνδρα.",
+   "translit": "iphthimon Phaethonta theois epieikelon andra",
+   "i18n": {
+    "en": "mighty Phaethon, a man like to the gods."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 988,
+   "refId": "THEO-988",
+   "text": "τόν ῥα νέον τέρεν ἄνθος ἔχοντʼ ἐρικυδέος ἥβης",
+   "translit": "ton rha neon teren anthos echont' erikydeos hēbēs",
+   "i18n": {
+    "en": "Him, while young, still holding the tender bloom of glorious youth,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 989,
+   "refId": "THEO-989",
+   "text": "παῖδʼ ἀταλὰ φρονέοντα φιλομμειδὴς Ἀφροδίτη",
+   "translit": "paid' atala phroneonta philommeidēs Aphroditē",
+   "i18n": {
+    "en": "a child of tender thoughts, laughter-loving Aphrodite"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 990,
+   "refId": "THEO-990",
+   "text": "ὦρτʼ ἀναρεψαμένη, καί μιν ζαθέοις ἐνὶ νηοῖς",
+   "translit": "ōrt' anarepsamenē kai min zatheois eni nēois",
+   "i18n": {
+    "en": "caught up and carried off, and in her sacred temples"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 991,
+   "refId": "THEO-991",
+   "text": "νηοπόλον νύχιον ποιήσατο, δαίμονα δῖον.",
+   "translit": "nēopolon nychion poiēsato daimona dion",
+   "i18n": {
+    "en": "made him a nightly temple-keeper, a divine spirit."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 992,
+   "refId": "THEO-992",
+   "text": "κούρην δʼ Αἰήταο διοτρεφέος βασιλῆος",
+   "translit": "kourēn d' Aiētao diotrepheos basilēos",
+   "i18n": {
+    "en": "And the daughter of Aietes, the god-nourished king—"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 993,
+   "refId": "THEO-993",
+   "text": "Αἰσονίδης βουλῇσι θεῶν αἰειγενετάων",
+   "translit": "Aisonidēs boulēsi theōn aieigenetaōn",
+   "i18n": {
+    "en": "the son of Aison, by the counsels of the eternal gods,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 994,
+   "refId": "THEO-994",
+   "text": "ἦγε παρʼ Αἰήτεω, τελέσας στονόεντας ἀέθλους,",
+   "translit": "ēge par' Aiēteō telesas stonoentas aethlous",
+   "i18n": {
+    "en": "led her away from Aietes, when he had accomplished the grievous labors"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 995,
+   "refId": "THEO-995",
+   "text": "τοὺς πολλοὺς ἐπέτελλε μέγας βασιλεὺς ὑπερήνωρ,",
+   "translit": "tous pollous epetelle megas basileus hyperēnōr",
+   "i18n": {
+    "en": "which the great, overbearing king laid upon him,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 996,
+   "refId": "THEO-996",
+   "text": "ὑβριστὴς Πελίης καὶ ἀτάσθαλος, ὀβριμοεργός.",
+   "translit": "hybristēs Peliēs kai atasthalos obrimoergos",
+   "i18n": {
+    "en": "insolent Pelias, reckless and violent in deed."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 997,
+   "refId": "THEO-997",
+   "text": "τοὺς τελέσας Ἰαωλκὸν ἀφίκετο, πολλὰ μογήσας,",
+   "translit": "tous telesas Iaōlkon aphiketo polla mogēsas",
+   "i18n": {
+    "en": "When he had accomplished them, he came to Iolkos, after much toil,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "place-name-greek-forms-block-c-theogony"
+   ],
+   "notes": {
+    "official": "*Ἰαωλκόν* (997): the epic form of the Thessalian city *Ἰωλκός*, normalized to the standard 'Iolkos' in the surface, the source spelling kept verbatim in the text field — the same normalize-to-standard-Greek-form decision as *Γρήνικον*→Granikos (342) and *Παρνησ-*→Parnassos (499). `place-name-greek-forms-block-c-theogony`, scope extended to 997."
+   }
+  },
+  {
+   "n": 998,
+   "refId": "THEO-998",
+   "text": "ὠκείης ἐπὶ νηὸς ἄγων ἑλικώπιδα κούρην",
+   "translit": "ōkeiēs epi nēos agōn helikōpida kourēn",
+   "i18n": {
+    "en": "on his swift ship, leading the quick-glancing maiden,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 999,
+   "refId": "THEO-999",
+   "text": "Αἰσονίδης, καί μιν θαλερὴν ποιήσατʼ ἄκοιτιν.",
+   "translit": "Aisonidēs kai min thalerēn poiēsat' akoitin",
+   "i18n": {
+    "en": "the son of Aison, and made her his blooming wife."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1000,
+   "refId": "THEO-1000",
+   "text": "καί ῥʼ ἥ γε δμηθεῖσʼ ὑπʼ Ἰήσονι, ποιμένι λαῶν,",
+   "translit": "kai rh' hē ge dmētheis' hyp' Iēsoni poimeni laōn",
+   "i18n": {
+    "en": "And she, subdued by Jason, shepherd of the people,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1001,
+   "refId": "THEO-1001",
+   "text": "Μήδειον τέκε παῖδα, τὸν οὔρεσιν ἔτρεφε Χείρων",
+   "translit": "Mēdeion teke paida ton ouresin etrephe Cheirōn",
+   "i18n": {
+    "en": "bore a son, Medeios, whom Cheiron reared in the mountains,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1002,
+   "refId": "THEO-1002",
+   "text": "Φιλυρίδης· μεγάλου δὲ Διὸς νόος ἐξετελεῖτο.",
+   "translit": "Philyridēs megalou de Dios noos exeteleito",
+   "i18n": {
+    "en": "the son of Philyra; and the purpose of great Zeus was fulfilled."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1003,
+   "refId": "THEO-1003",
+   "text": "αὐτὰρ Νηρῆος κοῦραι,· ἁλίοιο γέροντος,",
+   "translit": "autar Nērēos kourai halioio gerontos",
+   "i18n": {
+    "en": "But of the daughters of Nereus, the old man of the sea,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "source-orthographic-quirks-verbatim-theogony"
+   ],
+   "notes": {
+    "official": "The source prints a stray comma and raised dot after *κοῦραι* (*Νηρῆος κοῦραι,·*, 1003) — a punctuation quirk of the edition; kept verbatim in the text field and construed normally in the English ('the daughters of Nereus, the old man of the sea'). `source-orthographic-quirks-verbatim-theogony`."
+   }
+  },
+  {
+   "n": 1004,
+   "refId": "THEO-1004",
+   "text": "ἦ τοι μὲν Φῶκον Ψαμάθη τέκε δῖα θεάων",
+   "translit": "ē toi men Phōkon Psamathē teke dia theaōn",
+   "i18n": {
+    "en": "Psamathe, divine among goddesses, bore Phokos"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1005,
+   "refId": "THEO-1005",
+   "text": "Αἰακοῦ ἐν φιλότητι διὰ χρυσέην Ἀφροδίτην,",
+   "translit": "Aiakou en philotēti dia chryseēn Aphroditēn",
+   "i18n": {
+    "en": "in love with Aiakos, through golden Aphrodite;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1006,
+   "refId": "THEO-1006",
+   "text": "Πηλέι δὲ δμηθεῖσα θεὰ Θέτις ἀργυρόπεζα",
+   "translit": "Pēlei de dmētheisa thea Thetis argyropeza",
+   "i18n": {
+    "en": "and the goddess Thetis, silver-footed, subdued by Peleus,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1007,
+   "refId": "THEO-1007",
+   "text": "γείνατʼ Ἀχιλλῆα ῥηξήνορα θυμολέοντα.",
+   "translit": "geinat' Achillēa rhēxēnora thymoleonta",
+   "i18n": {
+    "en": "bore Achilles, breaker of men, lion-hearted."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1008,
+   "refId": "THEO-1008",
+   "text": "Αἰνείαν δʼ ἄρʼ ἔτικτεν ἐυστέφανος Κυθέρεια",
+   "translit": "Aineian d' ar' etikten eustephanos Kythereia",
+   "i18n": {
+    "en": "And well-crowned Kythereia bore Aineias,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1009,
+   "refId": "THEO-1009",
+   "text": "Ἀγχίσῃ ἥρωι μιγεῖσʼ ἐρατῇ φιλότητι",
+   "translit": "Anchisē hērōi migeis' eratē philotēti",
+   "i18n": {
+    "en": "having mingled in lovely love with the hero Anchises"
+   },
+   "glossaryRefs": [
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1010,
+   "refId": "THEO-1010",
+   "text": "Ἴδης ἐν κορυφῇσι πολυπτύχου ὑληέσσης.",
+   "translit": "Idēs en koryphēsi polyptychou hylēessēs",
+   "i18n": {
+    "en": "on the peaks of many-folded, wooded Ida."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1011,
+   "refId": "THEO-1011",
+   "text": "Κίρκη δʼ, Ἠελίου θυγάτηρ Ὑπεριονίδαο,",
+   "translit": "Kirkē d' Ēeliou thygatēr Hyperionidao",
+   "i18n": {
+    "en": "And Kirke, daughter of Helios, son of Hyperion,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1012,
+   "refId": "THEO-1012",
+   "text": "γείνατʼ Ὀδυσσῆος ταλασίφρονος ἐν φιλότητι",
+   "translit": "geinat' Odyssēos talasiphronos en philotēti",
+   "i18n": {
+    "en": "in love with enduring-hearted Odysseus,"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1013,
+   "refId": "THEO-1013",
+   "text": "Ἄγριον ἠδὲ Λατῖνον ἀμύμονά τε κρατερόν τε·",
+   "translit": "Agrion ēde Latinon amymona te krateron te",
+   "i18n": {
+    "en": "bore Agrios and Latinos, blameless and strong;"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1014,
+   "refId": "THEO-1014",
+   "text": "Τηλέγονον δʼ ἄρʼ ἔτικτε διὰ χρυσέην Ἀφροδίτην.",
+   "translit": "Tēlegonon d' ar' etikte dia chryseēn Aphroditēn",
+   "i18n": {
+    "en": "and she bore Telegonos too, through golden Aphrodite."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "athetized-lines-convention-theogony"
+   ],
+   "notes": {
+    "official": "Line 1014 (*Τηλέγονον δʼ ἄρʼ ἔτικτε διὰ χρυσέην Ἀφροδίτην*) is athetized in the Perseus/West edition — Telegonos, son of Kirke and Odysseus, is widely judged a post-Hesiodic addition drawing the genealogy toward the *Telegony*. Retained and translated unmarked per the athetized-lines convention, the athetesis recorded here. `athetized-lines-convention-theogony`."
+   }
+  },
+  {
+   "n": 1015,
+   "refId": "THEO-1015",
+   "text": "οἳ δή τοι μάλα τῆλε μυχῷ νήσων ἱεράων",
+   "translit": "hoi dē toi mala tēle mychō nēsōn hieraōn",
+   "i18n": {
+    "en": "These, far away in a recess of the holy islands,"
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 1016,
+   "refId": "THEO-1016",
+   "text": "πᾶσιν Τυρσηνοῖσιν ἀγακλειτοῖσιν ἄνασσον.",
+   "translit": "pasin Tyrsēnoisin agakleitoisin anasson",
+   "i18n": {
+    "en": "ruled over all the renowned Tyrsenians."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1017,
+   "refId": "THEO-1017",
+   "text": "Ναυσίθοον δʼ Ὀδυσῆι Καλυψὼ δῖα θεάων",
+   "translit": "Nausithoon d' Odysēi Kalypsō dia theaōn",
+   "i18n": {
+    "en": "And Kalypso, divine among goddesses, bore to Odysseus"
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1018,
+   "refId": "THEO-1018",
+   "text": "γείνατο Ναυσίνοόν τε μιγεῖσʼ ἐρατῇ φιλότητι.",
+   "translit": "geinato Nausinoon te migeis' eratē philotēti",
+   "i18n": {
+    "en": "Nausithoos and Nausinoos, mingling in lovely love."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1019,
+   "refId": "THEO-1019",
+   "text": "αὗται μὲν θνητοῖσι παρʼ ἀνδράσιν εὐνηθεῖσαι",
+   "translit": "hautai men thnētoisi par' andrasin eunētheisai",
+   "i18n": {
+    "en": "These goddesses, having lain with mortal men,"
+   },
+   "glossaryRefs": [
+    "union-formulae-mortal-goddess-catalogue-theogony"
+   ],
+   "notes": {}
+  },
+  {
+   "n": 1020,
+   "refId": "THEO-1020",
+   "text": "ἀθάναται γείναντο θεοῖς ἐπιείκελα τέκνα.",
+   "translit": "athanatai geinanto theois epieikela tekna",
+   "i18n": {
+    "en": "immortal though they were, bore children like to the gods."
+   },
+   "glossaryRefs": [],
+   "notes": {}
+  },
+  {
+   "n": 1021,
+   "refId": "THEO-1021",
+   "text": "νῦν δὲ γυναικῶν φῦλον ἀείσατε, ἡδυέπειαι",
+   "translit": "nyn de gynaikōn phylon aeisate hēdyepeiai",
+   "i18n": {
+    "en": "But now sing the tribe of women, sweet-voiced"
+   },
+   "glossaryRefs": [],
+   "notes": {
+    "official": "*νῦν δὲ γυναικῶν φῦλον ἀείσατε* 'but now sing the tribe of women' (1021–1022): the hymnic transition that rounds off the mortal-goddess catalogue and turns toward the (lost) *Catalogue of Women* (*Ehoiai*). It mirrors the parallel invocation that opened the coda, 'now sing the tribe of goddesses' (965–966). Many editors regard 1019–1022 (and parts of the surrounding coda from ~965) as the redactional seam joining the *Theogony* to the *Catalogue* rather than the poem's original close (West 1966; Most 2006). Rendered literally with Evelyn-White as a transitional invocation; the seam and the authenticity discussion are recorded here, not marked in the reading surface."
+   }
+  },
+  {
+   "n": 1022,
+   "refId": "THEO-1022",
+   "text": "Μοῦσαι Ὀλυμπιάδες, κοῦραι Διὸς αἰγιόχοιο.",
+   "translit": "Mousai Olympiades kourai Dios aigiochoio",
+   "i18n": {
+    "en": "Muses of Olympos, daughters of aegis-holding Zeus."
+   },
+   "glossaryRefs": [
+    "theogony-name-and-title-conventions",
     "aigiochos-aegis-bearer-zeus-epithet-theogony"
    ],
    "notes": {}
