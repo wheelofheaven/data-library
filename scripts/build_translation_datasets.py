@@ -114,7 +114,7 @@ def load_reference(book_slug):
         except Exception:
             continue
         cn = ch.get("n")
-        for p in ch.get("paragraphs", []):
+        for p in ch.get("paragraphs") or ch.get("lines") or []:
             # English lives in `text` for an English edition, else in i18n.en.
             eng = (p.get("text") or "") if prim == "en" else ((p.get("i18n") or {}).get("en") or "")
             if eng.strip():
@@ -141,7 +141,9 @@ def rows_for(book_dir, meta, ref=None):
     for cf in chapters:
         ch = json.load(open(cf, encoding="utf-8"))
         cn = ch.get("n")
-        for p in ch.get("paragraphs", []):
+        # verse books use `paragraphs`; line-based poems (e.g. theogony-woh)
+        # use `lines` — same per-segment fields (n, refId, text, i18n, ...).
+        for p in ch.get("paragraphs") or ch.get("lines") or []:
             rid = p.get("refId")
             s = src.get(rid, {})
             notes = p.get("notes") or {}
