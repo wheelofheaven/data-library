@@ -243,6 +243,7 @@ npx ajv validate -s schemas/book.schema.json -d data/library/book.json
 
 | Script | Purpose |
 |--------|---------|
+| `scripts/apply_reviewed_alignment.py` | Apply source-verified bilingual assignments while preserving reference IDs |
 | `scripts/add-canonical-refs.py` | Add refId fields to paragraphs |
 | `scripts/split-book-chapters.py` | Split large books into chapters |
 | `scripts/validate_version_provenance.py` | Validate structured version and provenance metadata |
