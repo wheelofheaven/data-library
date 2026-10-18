@@ -1,0 +1,1120 @@
+{
+  "date": "2026-10-18",
+  "source_repair": "2026-10-18-paragraph-boundaries.json",
+  "source_commit": "9ef8b14",
+  "tracks_rebuilt": 31,
+  "new_narration_clips": 41,
+  "new_narration_characters": 24253,
+  "cached_narration_clips": 5472,
+  "paragraphs_with_provider_alignment_bounded": 4770,
+  "checks": [
+    "All expected spoken reference units retained",
+    "Continuation gaps zero within 2 ms",
+    "Words bounded to playable paragraph clips",
+    "Voice and ambient durations agree with timing within 150 ms",
+    "Cinematic duration and captions rebuilt",
+    "Corrected TTS text matches synthesis cache metadata",
+    "Published media hashes match manifests; all files at most 25 MiB"
+  ],
+  "max_duration_error_seconds": 0.007000000000061846,
+  "local_only_mp3_masters": [
+    "audio/de/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/es/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/fr/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/he/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/ja/extraterrestrials-took-me-to-their-planet/c1.mp3",
+    "audio/ja/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/ko/extraterrestrials-took-me-to-their-planet/c1.mp3",
+    "audio/ko/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/ru/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/zh/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/zh-Hant/extraterrestrials-took-me-to-their-planet/c2.mp3",
+    "audio/de/the-book-which-tells-the-truth/c3.mp3",
+    "audio/en/the-book-which-tells-the-truth/c3.mp3",
+    "audio/es/the-book-which-tells-the-truth/c3.mp3",
+    "audio/fr/the-book-which-tells-the-truth/c3.mp3",
+    "audio/he/the-book-which-tells-the-truth/c3.mp3",
+    "audio/ja/the-book-which-tells-the-truth/c3.mp3",
+    "audio/ko/the-book-which-tells-the-truth/c3.mp3",
+    "audio/ru/the-book-which-tells-the-truth/c3.mp3",
+    "audio/zh/the-book-which-tells-the-truth/c3.mp3",
+    "audio/zh-Hant/the-book-which-tells-the-truth/c3.mp3"
+  ],
+  "tracks": [
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "de",
+      "chapter": 2,
+      "duration": 5349.464,
+      "max_duration_error": 0.00650000000041473,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "36k",
+      "resynthesized_paragraphs": [
+        39,
+        40
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "323e59894e56f1dc8d200d318d253a504e53d10d9c587a46cca92d498f95d9a8",
+          "bytes": 23986059
+        },
+        "timing.json": {
+          "sha256": "830db2c49acfe6f1d2a662991159d73f71d659543e8aa8c9a3a19e35455a6cac",
+          "bytes": 1218928
+        },
+        "ambient.opus": {
+          "sha256": "c28f9b551edc6e1c67a23eb4c3b3a9fce128ae8c4fbe3e3cfae8a4c12c9e8de6",
+          "bytes": 1214481
+        },
+        "cinematic.json": {
+          "sha256": "5ad493f6914c816c263e65559d7a86f3c02ad936725478d911aa87dd1db60a19",
+          "bytes": 1371882
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "es",
+      "chapter": 2,
+      "duration": 5145.597,
+      "max_duration_error": 0.006583000000318862,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        37,
+        38
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "7449728260b1e785db028f278470a4e0e29405e683c0a42179c296569cc3e1bf",
+          "bytes": 25650910
+        },
+        "timing.json": {
+          "sha256": "0e6929f807fac6b7c52846d06c4b73ef230908bcff943c58e3fd2aa0f9371ad4",
+          "bytes": 1236970
+        },
+        "ambient.opus": {
+          "sha256": "71ee706447f47367d2092dcb11b177cdf902eeb6670d2ec707adad95342559ea",
+          "bytes": 1168201
+        },
+        "cinematic.json": {
+          "sha256": "8800d77ce533e0b4279d231513edf0bcb62c9881f44b2014e24b771ae2012b9a",
+          "bytes": 1382259
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "fr",
+      "chapter": 2,
+      "duration": 4986.353,
+      "max_duration_error": 0.006499999999505235,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        37,
+        38
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "dc74d71facf4a6183dce1b4c80eff168e7b736c2502990ef2cc3bee48e3b284d",
+          "bytes": 24556401
+        },
+        "timing.json": {
+          "sha256": "ebee1c12e3fffd01600744a2d3aa1ebb1c6cbb536931885206c814be97d9ee2d",
+          "bytes": 1231543
+        },
+        "ambient.opus": {
+          "sha256": "3e6b30994da80f89f540ebedf6c2fdfebfd85a6bb58d09df841fe5d27f663d1f",
+          "bytes": 1132056
+        },
+        "cinematic.json": {
+          "sha256": "e7a022526733143e196e2e570ae769d47ee69d9ca8fbd136f187c5be892d53ee",
+          "bytes": 1378043
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "he",
+      "chapter": 2,
+      "duration": 4077.28,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        37,
+        38
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "59fb43c43b4e638c4a087d80464ddd4aa003b23123844a584585eb56ed422ff5",
+          "bytes": 20392566
+        },
+        "timing.json": {
+          "sha256": "a52d63d84ed9d8a69e5d0a421d518ea21eb3d4f0135e0b824d6b8aee19e2c1c3",
+          "bytes": 873560
+        },
+        "ambient.opus": {
+          "sha256": "81165d96b5a03d8d835525584b3578d1d0fe6faee581ba977b85626a6dd0fa37",
+          "bytes": 925701
+        },
+        "cinematic.json": {
+          "sha256": "297f79eaf1d0a4795679aad0d82672e21fb36c3285b8d873814b3e0fc71fd4e7",
+          "bytes": 1031446
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ja",
+      "chapter": 1,
+      "duration": 3291.004,
+      "max_duration_error": 0.0067710000002989545,
+      "max_word_overshoot": 0,
+      "paragraphs": 78,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        3,
+        4
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "fe8f1b71a378be63228ce1419c6cf4166f19fcc510ec1144c2abeecf50555368",
+          "bytes": 16619445
+        },
+        "timing.json": {
+          "sha256": "2e0036db26d12e0eecde056ef7334bb533cf44a0db871c94b8fac9fd56160ace",
+          "bytes": 71345
+        },
+        "ambient.opus": {
+          "sha256": "3a237910e331f7a113f68ef1120b107e71f29e0d0d22687d00dc67b0675c4d0c",
+          "bytes": 747223
+        },
+        "cinematic.json": {
+          "sha256": "338bcc24216781058f1424d6e73eeb27883962be00d6610e12506b6f9ba697c8",
+          "bytes": 125148
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ja",
+      "chapter": 2,
+      "duration": 5641.003,
+      "max_duration_error": 0.00650000000041473,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "36k",
+      "resynthesized_paragraphs": [
+        14,
+        15,
+        30,
+        31,
+        37,
+        38,
+        39,
+        40
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "08ebb79a3bfa0079f11336d463b98b6f08af050a0f5741037faedcd75585b4a0",
+          "bytes": 25171471
+        },
+        "timing.json": {
+          "sha256": "f735521b40461ebb3d036c7d5fe53df4fa85015d223bc54732aec1abdb7b7325",
+          "bytes": 115891
+        },
+        "ambient.opus": {
+          "sha256": "ea79e921e41a4c6d8b97a458ec128d0f1a35a5bbe322243d17f5b71ac42a3045",
+          "bytes": 1280673
+        },
+        "cinematic.json": {
+          "sha256": "3b246894bb678fd96df11a10b40684e0a59cd27b0073f5df39a44fe2410ac134",
+          "bytes": 211175
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ko",
+      "chapter": 1,
+      "duration": 3508.251,
+      "max_duration_error": 0.006978999999773805,
+      "max_word_overshoot": 0,
+      "paragraphs": 78,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        3,
+        4
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "547f18aa038a3adc047ec40781ec52498a55f16980cccf68aaa4bc91a3799ce9",
+          "bytes": 17413901
+        },
+        "timing.json": {
+          "sha256": "bd6be8b23c88e3266d5d465ffb7454bb431f512267b9b6563886430d3d5f82cc",
+          "bytes": 514696
+        },
+        "ambient.opus": {
+          "sha256": "2c68621ac87153d3212f76be787f53d05d44ed2c5a74785ef280c9a65d753551",
+          "bytes": 796530
+        },
+        "cinematic.json": {
+          "sha256": "e88cbe08568a25c09b45face34705479af3441992fdcfba4ffa9de55b4b4807c",
+          "bytes": 613177
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ko",
+      "chapter": 2,
+      "duration": 5301.909,
+      "max_duration_error": 0.006521000000248023,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        14,
+        15,
+        30,
+        31,
+        37,
+        38
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "557f73eab1a4cc941374fc238e2989ac4722ff46c2f97b33b3c2846a56229abf",
+          "bytes": 26142007
+        },
+        "timing.json": {
+          "sha256": "02e049f1db597df6fa3b99b65afcfaf7fa343a94130ca2a079219936726d9b30",
+          "bytes": 905922
+        },
+        "ambient.opus": {
+          "sha256": "1bfe33d42d1222b5e570d91541ee6be44173ecc6aa9b4165370c5417057b2c95",
+          "bytes": 1203673
+        },
+        "cinematic.json": {
+          "sha256": "7520500d3a0eeac19d71e8943b93e191c7519090ed23006efbdc5adf0554fe8b",
+          "bytes": 1078229
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ru",
+      "chapter": 2,
+      "duration": 5032.748,
+      "max_duration_error": 0.0069580000008500065,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        14,
+        15,
+        37,
+        38,
+        39
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "ca66fe00fdace775f8ab2106dcd802cc560a9e1e3099ed5706604144ef6634eb",
+          "bytes": 25380676
+        },
+        "timing.json": {
+          "sha256": "a84a8cb53417aafb1180be2b8fde3931e44b2d2fdfc6f7dd518332f97338a7a5",
+          "bytes": 1092037
+        },
+        "ambient.opus": {
+          "sha256": "ec777a149d6ee98abe8be456dc4fa1410a5104950220c5147a7000d883b00128",
+          "bytes": 1142578
+        },
+        "cinematic.json": {
+          "sha256": "738728c1c91cd81ee057826f803d67d03e1f2e4da3fb9e39a14b1a4bbd252ea6",
+          "bytes": 1287392
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "zh",
+      "chapter": 2,
+      "duration": 4806.957,
+      "max_duration_error": 0.006499999999505235,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        14,
+        15,
+        37,
+        38,
+        39
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "7fcc831096f9f1cb56eaadb54bbbe1f92c9a3251b9f524b6a3430e4268b02061",
+          "bytes": 23988687
+        },
+        "timing.json": {
+          "sha256": "acfa4b54bab24cda52b88a97d761b74c886dbfacbd003771990e75196b2d89e0",
+          "bytes": 89343
+        },
+        "ambient.opus": {
+          "sha256": "98a733b14030ae2a99dfb45ab04f028bd0554155886901c2e5c1a408bda57ea4",
+          "bytes": 1091320
+        },
+        "cinematic.json": {
+          "sha256": "b6a116ac78a11a1db9f9bb9cd9deed5c18e02bfe0aa0031eb7f6fdbbb81f5ae2",
+          "bytes": 158227
+        }
+      }
+    },
+    {
+      "slug": "extraterrestrials-took-me-to-their-planet",
+      "lang": "zh-Hant",
+      "chapter": 2,
+      "duration": 4811.835,
+      "max_duration_error": 0.00650000000041473,
+      "max_word_overshoot": 0,
+      "paragraphs": 132,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [
+        14,
+        15,
+        37,
+        38,
+        39
+      ],
+      "continuations": [],
+      "artifacts": {
+        "opus": {
+          "sha256": "35e08a52cfb9f8df854ef6d24d3700029015b53f964d1759da6b2d627f633219",
+          "bytes": 23995174
+        },
+        "timing.json": {
+          "sha256": "0f7c7931d7560674dc2eefa662676e14177b7bfaa528ceb373643cf872282ebb",
+          "bytes": 89320
+        },
+        "ambient.opus": {
+          "sha256": "bfe6e268e2bcb2606ebfb0624082cb9f44e71ae63ab2702df7d7596827032d58",
+          "bytes": 1092431
+        },
+        "cinematic.json": {
+          "sha256": "b2c069280850074204c871cbb4b6fe0836988c703485090c3977683479488068",
+          "bytes": 158206
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "de",
+      "chapter": 3,
+      "duration": 3515.706,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 298,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "1e89e489835beb18d36904c426b592f65f5abbd1f718b93e6deeea7fe26de040",
+          "bytes": 17127487
+        },
+        "timing.json": {
+          "sha256": "6659c9a914ceebd5ba50df9bc036621ad02f0a41caca889f1d21ddc57aebffb3",
+          "bytes": 895261
+        },
+        "ambient.opus": {
+          "sha256": "033edc3f09d0a8fca1740ee402d23e985f031285c33740dba61bf9c6b14227ff",
+          "bytes": 798211
+        },
+        "cinematic.json": {
+          "sha256": "20d34d3e0a21630c857e963f12321c12fa92a03cddf2299e15faaabfbf3b9f3e",
+          "bytes": 1010595
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "de",
+      "chapter": 4,
+      "duration": 1366.588,
+      "max_duration_error": 0.006646000000046115,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "5c77a5cbf89acd57ab84f6b83821b012d47a2adfe1650b1c0c58076332a2ebbc",
+          "bytes": 21866413
+        },
+        "opus": {
+          "sha256": "bec35e348e6dfbb307afa314ecd8ce1e3b325a0aa2d85b1bfe0a3ceca2a4b330",
+          "bytes": 6630634
+        },
+        "timing.json": {
+          "sha256": "824f678bf43f37476a36cac529b31f4dfa531675349f4734d48d103b8aaf210e",
+          "bytes": 339558
+        },
+        "ambient.opus": {
+          "sha256": "327b6091b5f5393d17a1f77e6237996b353697dd3853df1425aef1aa86abe5bd",
+          "bytes": 310364
+        },
+        "cinematic.json": {
+          "sha256": "8a3eafd005fddd5bcee1175274e93d1c27cf3ba907cef6c8fd6e412e5c241b3d",
+          "bytes": 382165
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "en",
+      "chapter": 3,
+      "duration": 3302.237,
+      "max_duration_error": 0.006582999999864114,
+      "max_word_overshoot": 0,
+      "paragraphs": 298,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "e92615744e524e6df79b8c6c379827747065ba3c68f829e6b5084449c897b2ff",
+          "bytes": 16031320
+        },
+        "timing.json": {
+          "sha256": "de04d1d0f0d2a5022cb5bb2431cf629f7411762e0dbb52801c271d0d89a124b3",
+          "bytes": 946859
+        },
+        "ambient.opus": {
+          "sha256": "d812c3f6fe6e4e550efe54fc1164376f94bf288ddd4e38d00a87e43b80486b9a",
+          "bytes": 749768
+        },
+        "cinematic.json": {
+          "sha256": "2aa155037b716a687f537ffc9d0a296075f2c9f2927f50ddf7c91dfb424a7b1e",
+          "bytes": 1048593
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "en",
+      "chapter": 4,
+      "duration": 1257.205,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "32953a0c8382599844c64b1848734dbb8b3a52e3db529cc168757373e9ab515f",
+          "bytes": 20116418
+        },
+        "opus": {
+          "sha256": "5be1577cb582e4f33ae1c330b59784cce8ba7912e9d8cc74cad14f6a091d46ea",
+          "bytes": 6077692
+        },
+        "timing.json": {
+          "sha256": "b496241dc5b0eca23375a72ea7357a4f94a03d926f863150f8b7dd4b1c6f5654",
+          "bytes": 345916
+        },
+        "ambient.opus": {
+          "sha256": "76b08b293add74fecb1b6ecb3715e16c5add00153d3aee88e4b8f4cbda2ff2b1",
+          "bytes": 285545
+        },
+        "cinematic.json": {
+          "sha256": "31d61385f85c50292ad369d90d2b76e0b0dc23a0a3fcc634b28ab09aec85d928",
+          "bytes": 383419
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "es",
+      "chapter": 3,
+      "duration": 3551.174,
+      "max_duration_error": 0.007000000000061846,
+      "max_word_overshoot": 0,
+      "paragraphs": 298,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "b6e4927963437b3d7630a65a6d848cc20dc4213c26b94dce55fd49a1df3d0e0d",
+          "bytes": 17296743
+        },
+        "timing.json": {
+          "sha256": "f5b28a282855af13aaadbe51bbb8e2987acaf2a7348168eace73aeb0f4bc32c3",
+          "bytes": 921441
+        },
+        "ambient.opus": {
+          "sha256": "f636cce5f7737b1c5eca36e83454799909cf38ac9b2e564e773e3d762e1aeec5",
+          "bytes": 806279
+        },
+        "cinematic.json": {
+          "sha256": "9fac4352e19b803ba703ce36985300cc120de090351fb8744a213b53afae0ad4",
+          "bytes": 1031032
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "es",
+      "chapter": 4,
+      "duration": 1355.83,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "0206603187bf2dbc4fe7cfadbf50c911c87a4c0b84057a9cd8766039a67f8161",
+          "bytes": 21694214
+        },
+        "opus": {
+          "sha256": "c162d397c308d60ff7e4c086cf181d3106e81420550497e9d4347135165bfafb",
+          "bytes": 6566666
+        },
+        "timing.json": {
+          "sha256": "3770fc5335d5a3c7c2251760d3d744329c8ef4047dfc990a9a6d82b6eb378b6b",
+          "bytes": 344769
+        },
+        "ambient.opus": {
+          "sha256": "46bd0cc172963c76a225561c2668cedd3f52b8713da03b0da410c67ab8ea50ae",
+          "bytes": 307915
+        },
+        "cinematic.json": {
+          "sha256": "43f38555fb878f87def579babf78f1ab1e98861ccc38f944dae1153d2323ac40",
+          "bytes": 386390
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "fr",
+      "chapter": 3,
+      "duration": 3306.721,
+      "max_duration_error": 0.00687500000003638,
+      "max_word_overshoot": 0,
+      "paragraphs": 298,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "b04e46a41843071db44c612260f99ef1a7af1e87087ce629448b110cd07a16e4",
+          "bytes": 16026127
+        },
+        "timing.json": {
+          "sha256": "4f7a6966929c20070dc5597c2d3a3c43f7b4fb35c7e51e6d21b147671fd037b4",
+          "bytes": 905462
+        },
+        "ambient.opus": {
+          "sha256": "4b3ecd77a6da230807af61ac2b01a39da993ec36752ae5336836a2d964645fcb",
+          "bytes": 750772
+        },
+        "cinematic.json": {
+          "sha256": "ca098a01895536f2af293c62a46af329d78beffe9296b0f471bdfc3d473e75b6",
+          "bytes": 1011653
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "fr",
+      "chapter": 4,
+      "duration": 1241.517,
+      "max_duration_error": 0.006521000000020649,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "323fa8517f58eb64e05573cc5c136be210bbf2f69722973fa4a22a93a3fbff49",
+          "bytes": 19865225
+        },
+        "opus": {
+          "sha256": "f12eed8d57581ff0dadaceafe40d622f4beeb614b32e35b365d2743351382fe3",
+          "bytes": 5987051
+        },
+        "timing.json": {
+          "sha256": "0fe775cc201aeae0f88c595656bad735196b8000299d3de7a9ba89b446612364",
+          "bytes": 332004
+        },
+        "ambient.opus": {
+          "sha256": "ee523fb24906b3652d1b629279a1c9a1e3cc2d3bcc4b6d8cb5022c8a24f616ad",
+          "bytes": 281977
+        },
+        "cinematic.json": {
+          "sha256": "e7660880265ab665fe6341bd27526f9f0f82d03bcf1b9c853f932a65738b03cb",
+          "bytes": 370870
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "he",
+      "chapter": 3,
+      "duration": 3247.74,
+      "max_duration_error": 0.00650000000041473,
+      "max_word_overshoot": 0,
+      "paragraphs": 298,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "8fea8a193e75ecdcb40ef1cbbe16235a0ab9e43d09390b144ead28b7456b9e1f",
+          "bytes": 15990938
+        },
+        "timing.json": {
+          "sha256": "7d2db26fe2839c9aa70fb93d94a5c47b9283defdd0585a7ea617d9de465a28b9",
+          "bytes": 613665
+        },
+        "ambient.opus": {
+          "sha256": "8f21199345662ec36ae975a721f4d28a7e392c0b289050efe80c6ac07533e72f",
+          "bytes": 737383
+        },
+        "cinematic.json": {
+          "sha256": "8a24cd39ffd408adc1099c550b94ae0a5221fa727cabbc4f1dac4f6b8097d6b8",
+          "bytes": 716135
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "he",
+      "chapter": 4,
+      "duration": 1273.52,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "24752ea7cbab7e40f23385551047a8a72d02be3cb6f419d3ce1697e2ba1565e5",
+          "bytes": 20377225
+        },
+        "opus": {
+          "sha256": "7e0162e30f86193d66de489f06be53c5fc45fea75ab28f00a205f96d66605a13",
+          "bytes": 6254095
+        },
+        "timing.json": {
+          "sha256": "3f944d2ed306f71ad24ed669d4402528a4928eb7d36cedf4ce138bbb451cac75",
+          "bytes": 246816
+        },
+        "ambient.opus": {
+          "sha256": "4421249c5d796a3ec7d54acde14ae861b19355daf2f542d69d7252b001fce0ac",
+          "bytes": 289241
+        },
+        "cinematic.json": {
+          "sha256": "ae9e406b0fc80971b8fdda10328682610947a2c704866d434e6bda2ef3eff51a",
+          "bytes": 288067
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "ja",
+      "chapter": 3,
+      "duration": 3982.04,
+      "max_duration_error": 0.007000000000061846,
+      "max_word_overshoot": 0,
+      "paragraphs": 301,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        17,
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "0aaee54312a88d28b386813ecbb7da6809d1efb1c36a9e120e36de17482de7e7",
+          "bytes": 19182157
+        },
+        "timing.json": {
+          "sha256": "2706f38c7169e05dcba051042c854eed5e28e7bf6abdb0dc6e903f609a8355f0",
+          "bytes": 144888
+        },
+        "ambient.opus": {
+          "sha256": "79dc8cc388e57fc782af80084c41d602f19570ab9d635f17e7f6186cdae7e1c6",
+          "bytes": 904088
+        },
+        "cinematic.json": {
+          "sha256": "bd3e3edc10e01a0b5ce52b553206591ff1c091f64c0ea62a27cf2ebb67cc9e8b",
+          "bytes": 227299
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "ja",
+      "chapter": 4,
+      "duration": 1503.598,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "9553a7b48cbf460edf9e0f346e82c2f7030fad7838a2b745f5a92711af980399",
+          "bytes": 24058609
+        },
+        "opus": {
+          "sha256": "8afe240bdfe98c646cf6c3b88e7e8112205ad3647dfe52213faa4f48cc1e6006",
+          "bytes": 7216075
+        },
+        "timing.json": {
+          "sha256": "11153f4096d7f7ee235572c11288c8206a25cc80e7d1f4c1c3724b1dc59d6734",
+          "bytes": 54432
+        },
+        "ambient.opus": {
+          "sha256": "46798aff712e78470743ed11eea8e7bcc0b941ef235d93657228d5db9d0a4d55",
+          "bytes": 341467
+        },
+        "cinematic.json": {
+          "sha256": "89b2698d2a3e32ae54d99778337ce3cfc8f1c78751ec46ba3b8cada33a04a8ab",
+          "bytes": 85238
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "ko",
+      "chapter": 3,
+      "duration": 3505.773,
+      "max_duration_error": 0.006750000000010914,
+      "max_word_overshoot": 0,
+      "paragraphs": 298,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "b776c0130b3df3705cfffaace6da825dd34c31cb6bc71c054e8f6fa57f0d8c21",
+          "bytes": 17052353
+        },
+        "timing.json": {
+          "sha256": "51f62bfcae35ff769051cb99d319e8f08285e348907d854f2fd45a2b8435ef60",
+          "bytes": 652804
+        },
+        "ambient.opus": {
+          "sha256": "cab801d5a0723017142579978da4538467b55154deb9df1e21e6e48b9dd4f1f2",
+          "bytes": 795953
+        },
+        "cinematic.json": {
+          "sha256": "f8ef43337a72a39a881afddc2e1471e3e3ca286cd00230ecd2687baeb4f9596e",
+          "bytes": 773381
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "ko",
+      "chapter": 4,
+      "duration": 1315.848,
+      "max_duration_error": 0.006812999999965541,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "ccb8f0ca85306af73b4519450c9944e83f992d0be6a57c2e6737f4036bc8066b",
+          "bytes": 21054736
+        },
+        "opus": {
+          "sha256": "92dc3bbc9fff55a9a10a13424163c171302c6997c1e990be9076818f13cf2936",
+          "bytes": 6383900
+        },
+        "timing.json": {
+          "sha256": "f5228cef78b4094a2f6ea911dfbad50e6aa1a9ade095e0a32bc538cd9d044ee5",
+          "bytes": 241582
+        },
+        "ambient.opus": {
+          "sha256": "1f3193cb5a7b29be884f33db21fe0dbaba309a401aa644ac3e28e9e22fdcf6e4",
+          "bytes": 298839
+        },
+        "cinematic.json": {
+          "sha256": "1eda623bcff95d241704e546ace4af41663e849bc30852166edb6537cec0574f",
+          "bytes": 289373
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "ru",
+      "chapter": 3,
+      "duration": 3417.872,
+      "max_duration_error": 0.006624999999985448,
+      "max_word_overshoot": 0,
+      "paragraphs": 298,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "e0da2ee2d06a05b86e197adae7185c9ef433596433199e1dd98cd52c4b2dbe81",
+          "bytes": 16762739
+        },
+        "timing.json": {
+          "sha256": "4542777778a00240649c5a43d5f406ef7e089ed4571dde6998c6c7d5d8adcdf5",
+          "bytes": 777511
+        },
+        "ambient.opus": {
+          "sha256": "a61f4477a06dc407afd0c7db88f68d43c56f97f10d13c831d0958b934f44fcdb",
+          "bytes": 775997
+        },
+        "cinematic.json": {
+          "sha256": "f2556d3b735b36b4155f5702b67d518a1601e4d3eadd7ba5bf4bb6e87acc4385",
+          "bytes": 917607
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "ru",
+      "chapter": 4,
+      "duration": 1287.913,
+      "max_duration_error": 0.006728999999950247,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "ead2944bb08d0da39bc9bda704869189ae711fa3049375f19529b671a21b70e5",
+          "bytes": 20607520
+        },
+        "opus": {
+          "sha256": "2189746c0c17d1987b6f74e7c1528096fc71788c879eb49e210bf904579db84f",
+          "bytes": 6310811
+        },
+        "timing.json": {
+          "sha256": "b6cecaebdcf4d16603f8596c1668525ce92d3bfe66003b2d180ef2917134c995",
+          "bytes": 286620
+        },
+        "ambient.opus": {
+          "sha256": "5ae9cc47879381c345dba82a3cbf24366c10ea9e4d83c24e3dfbd680dde7f06c",
+          "bytes": 292495
+        },
+        "cinematic.json": {
+          "sha256": "01f53aa13bd02b61c607e486357c9e15d84f9604fb45f18fe4740534e43937f0",
+          "bytes": 339548
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "zh",
+      "chapter": 3,
+      "duration": 3257.262,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 301,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        17,
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "e587e7dfd43a3d14b542108fc2b0e88ba45614908e2406920b731babba7607b6",
+          "bytes": 15672184
+        },
+        "timing.json": {
+          "sha256": "e9f1a0aeea851f3efdbbd151c9653a822e51cf96c7c217cd2fb5461c61b3cd63",
+          "bytes": 120536
+        },
+        "ambient.opus": {
+          "sha256": "ef5b182f96abcaf6f94bfffbe3ab8d5810d0a8cf4d8afae5906697bd6aaed760",
+          "bytes": 739557
+        },
+        "cinematic.json": {
+          "sha256": "32015edf2519d60f3f1962eaeecbc179a2e86fdf6795fb2386bbad4650b6f60b",
+          "bytes": 179865
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "zh",
+      "chapter": 4,
+      "duration": 1223.372,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "fe12b108cfaaafb087851457349c24ae8807d14c2ddce9cc8ea557d2d6d11937",
+          "bytes": 19575161
+        },
+        "opus": {
+          "sha256": "c26e27b4cb6436be4ea8c6a7ec6eb5ffc81332dc92a98fcc98ba38cef2954082",
+          "bytes": 5870627
+        },
+        "timing.json": {
+          "sha256": "6b101218aefdf90964b2187946315eb0209d76e0535a2e0eba5a6af5d27c4f74",
+          "bytes": 46052
+        },
+        "ambient.opus": {
+          "sha256": "6a3e047890a7b897aab26959300705fd80bcf748e34a76145ec861dc8a639f91",
+          "bytes": 277859
+        },
+        "cinematic.json": {
+          "sha256": "45a816c53104792bf0aa2ea2779e2aecfcdfab4e5ca53aa8ff2b13c2bcc06a3e",
+          "bytes": 68691
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "zh-Hant",
+      "chapter": 3,
+      "duration": 3246.048,
+      "max_duration_error": 0.00650000000041473,
+      "max_word_overshoot": 0,
+      "paragraphs": 301,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        17,
+        80,
+        81
+      ],
+      "artifacts": {
+        "opus": {
+          "sha256": "2bad84644f4dca05284db8f5fb19322a0cb5b4d96dfb44b200cb63a8b6d8d8aa",
+          "bytes": 15599537
+        },
+        "timing.json": {
+          "sha256": "98289fba2aac01fe5dd9359af0a6f1aa28a38cec1176567ba5a48a454d5c3ddd",
+          "bytes": 120487
+        },
+        "ambient.opus": {
+          "sha256": "e09f8bcbcbc80c995af6b131252e127abe2f52dd22517f9efb9aaf6c2330ac83",
+          "bytes": 737016
+        },
+        "cinematic.json": {
+          "sha256": "51e1182186a3cfb14da8fb06dab13a058fd417eb043d9af5f992525b7fbf589d",
+          "bytes": 179815
+        }
+      }
+    },
+    {
+      "slug": "the-book-which-tells-the-truth",
+      "lang": "zh-Hant",
+      "chapter": 4,
+      "duration": 1223.271,
+      "max_duration_error": 0.006499999999959982,
+      "max_word_overshoot": 0,
+      "paragraphs": 118,
+      "opus_target_bitrate": "40k",
+      "resynthesized_paragraphs": [],
+      "continuations": [
+        14
+      ],
+      "artifacts": {
+        "mp3": {
+          "sha256": "df44c84b988dc12fa32216cdb1c91813052332edcf67bc79449d57cd8c19c148",
+          "bytes": 19573489
+        },
+        "opus": {
+          "sha256": "17abe45ea122741643a8a78fcdac1754e235ab2cc441d81ba8c112dce2619a39",
+          "bytes": 5879569
+        },
+        "timing.json": {
+          "sha256": "4947db077cdaadafa2a00d86848ac87905f74dd87eb9e360b7a00ac4ec05205b",
+          "bytes": 46029
+        },
+        "ambient.opus": {
+          "sha256": "722f45d94007619f12a326e9753b23f5caf14fc706083b3c2464bb78ff5f4d85",
+          "bytes": 277839
+        },
+        "cinematic.json": {
+          "sha256": "75e9780ba0351dcdb02e05952e4f291ab3101a9af7810293ee29435ff4b70d08",
+          "bytes": 68548
+        }
+      }
+    }
+  ]
+}

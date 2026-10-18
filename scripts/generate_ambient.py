@@ -40,6 +40,8 @@ import sys
 import time
 from pathlib import Path
 
+from generate_audio import concat_pcm_files, prepare_concat_piece
+
 try:
     import yaml
 except ImportError:
@@ -222,7 +224,9 @@ def build_chapter_ambient(spans: list[dict], scenes_cfg: dict, total_duration: f
         print(f'  bed for {sid!r} ({dur:.0f}s) …')
         mp3_bytes = generate_sound(prompt, dur, api_key)
         bed_path = SFX_CACHE / f'{sfx_cache_key(prompt, dur)}.mp3'
-        bed_paths[sid] = bed_path
+        # Loop decoded samples rather than MP3 packets: repeated encoder
+        # padding otherwise shifts or shortens scene spans.
+        bed_paths[sid], _ = prepare_concat_piece(bed_path, sample_rate=48000, channels=2)
 
     # Build per-span ambient files (silence outside scenes, tiled bed inside)
     tmp_dir = out_path.parent / f'.{out_path.stem}.tmp'
@@ -237,12 +241,12 @@ def build_chapter_ambient(spans: list[dict], scenes_cfg: dict, total_duration: f
         # Silence gap before this span
         if span['start'] > last_end:
             gap_dur = span['start'] - last_end
-            gap_path = tmp_dir / f'gap_{i}.flac'
+            gap_path = tmp_dir / f'gap_{i}.wav'
             subprocess.run(
                 ['ffmpeg', '-y', '-loglevel', 'error',
                  '-f', 'lavfi', '-i', f'anullsrc=r=48000:cl=stereo',
                  '-t', str(gap_dur),
-                 '-acodec', 'flac', '-sample_fmt', 's16', str(gap_path)],
+                 '-acodec', 'pcm_s16le', str(gap_path)],
                 capture_output=True, check=True,
             )
             pieces.append(gap_path)
@@ -252,7 +256,7 @@ def build_chapter_ambient(spans: list[dict], scenes_cfg: dict, total_duration: f
         gain_db = scenes_cfg[sid].get('gain_db', -18)
         bed_dur = ffprobe_duration(bed_path)
         loops_needed = int(span_dur / bed_dur) + 1
-        span_path = tmp_dir / f'scene_{i}.flac'
+        span_path = tmp_dir / f'scene_{i}.wav'
         # stream_loop + atrim + gain
         subprocess.run(
             ['ffmpeg', '-y', '-loglevel', 'error',
@@ -260,7 +264,7 @@ def build_chapter_ambient(spans: list[dict], scenes_cfg: dict, total_duration: f
              '-i', str(bed_path),
              '-af', f'atrim=0:{span_dur},volume={gain_db}dB,aresample=48000',
              '-ac', '2',
-             '-acodec', 'flac', '-sample_fmt', 's16', str(span_path)],
+             '-acodec', 'pcm_s16le', str(span_path)],
             capture_output=True, check=True,
         )
         pieces.append(span_path)
@@ -269,33 +273,25 @@ def build_chapter_ambient(spans: list[dict], scenes_cfg: dict, total_duration: f
     # Trailing silence to fill out to total_duration
     if last_end < total_duration:
         tail_dur = total_duration - last_end
-        tail_path = tmp_dir / 'tail.flac'
+        tail_path = tmp_dir / 'tail.wav'
         subprocess.run(
             ['ffmpeg', '-y', '-loglevel', 'error',
              '-f', 'lavfi', '-i', f'anullsrc=r=48000:cl=stereo',
              '-t', str(tail_dur),
-             '-acodec', 'flac', str(tail_path)],
+             '-acodec', 'pcm_s16le', str(tail_path)],
             capture_output=True, check=True,
         )
         pieces.append(tail_path)
 
-    # Concat all pieces (FLAC stream copy, no padding issues like MP3)
-    concat_list = tmp_dir / 'concat.txt'
-    concat_list.write_text('\n'.join(f"file '{p.resolve()}'" for p in pieces) + '\n')
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    subprocess.run(
-        ['ffmpeg', '-y', '-loglevel', 'error',
-         '-f', 'concat', '-safe', '0', '-i', str(concat_list),
-         '-c:a', 'libopus', '-b:a', '48k', '-application', 'audio',
-         '-ac', '2', '-vbr', 'on',
-         str(out_path)],
-        capture_output=True, check=True,
+    concat_pcm_files(
+        pieces, out_path,
+        ['-c:a', 'libopus', '-b:a', '48k', '-application', 'audio', '-vbr', 'on'],
+        sample_rate=48000, channels=2,
     )
 
     # Cleanup
     for p in pieces:
         p.unlink(missing_ok=True)
-    concat_list.unlink(missing_ok=True)
     tmp_dir.rmdir()
 
     return {

@@ -37,7 +37,8 @@ its previously stale Hebrew translations into parity with those chapter files.
 
 Its existing 3:193–194 continuation also benefits from the reader fix. The book
 retains 475 reference units. English wording and English text boundaries are
-unchanged in both books. Existing audio was not regenerated.
+unchanged in both books. The text-only repair did not regenerate audio; the
+audio follow-up is recorded below.
 
 ### Apply and verify
 
@@ -59,7 +60,36 @@ pass. Rendered-output checks cover 20 reader pages and 70 API chapter responses
 and 390px mobile visuals, continuation deep links, and interlinear rows were
 checked in the browser. Direct click-selection automation was inconclusive:
 the browser connection repeatedly timed out. Existing selection handlers remain
-on every reference unit. No deployment or audio regeneration was performed.
+on every reference unit. Audio regeneration was handled separately below.
+
+### Audio follow-up
+
+`2026-10-18-audio-boundaries.json` records the 31 rebuilt chapter/language
+combinations and hashes of their released artifacts:
+
+- TBWTT chapters 3 and 4 in all ten languages: remove pauses before newly
+  marked spoken continuations. Citation-only units already skipped by TTS need
+  no new recording.
+- ETTMTTP chapter 1 in Japanese and Korean, and chapter 2 in all nine
+  non-English languages: update 41 affected narration units in 11 TTS sidecars.
+
+The rebuild synthesized 24,253 characters across those 41 clips, reusing the
+remaining narration and cached ambient beds. Reference IDs remain unchanged.
+Opus, timing, cinematic captions, ambient tracks, and media hashes were refreshed
+together. MP3 masters above the existing 25 MiB host limit remain local, with
+Opus advertised for those chapters. Only rebuilt chapter entries were released;
+unrelated local audio edits were preserved.
+
+The renderer now measures decoded, treated samples and concatenates those same
+samples, preventing cumulative timing drift from raw/treated MP3 differences.
+Ambient loops likewise use decoded samples. Provider word timestamps are bounded
+to the playable paragraph, and cached-only rebuilds refresh the manifest too.
+
+Validation covers every spoken reference, continuation gaps, word bounds,
+voice/ambient durations, cinematic duration, synthesis text, and published media
+hashes. Existing scenes without a configured ambient bed retain silence; this
+repair does not add new sound design. See `audio/_README.md` for regeneration
+commands and the timing/manifest regression checks.
 
 ### Separate follow-up: third book
 

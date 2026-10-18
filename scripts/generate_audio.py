@@ -31,7 +31,9 @@ import os
 import re
 import subprocess
 import sys
+import tempfile
 import time
+import wave
 from pathlib import Path
 
 try:
@@ -303,6 +305,17 @@ def group_chars_to_words(alignment: dict, offset_seconds: float) -> list[dict]:
     return words
 
 
+def bound_word_timings(paragraph: dict):
+    """Keep provider alignment inside the playable clip, including its tail.
+
+    Provider timestamps can extend slightly beyond the decoded audio. Do not
+    let the last word's highlight spill into the next paragraph or its pause.
+    """
+    for word in paragraph.get('words', []):
+        word['start'] = min(paragraph['end'], max(paragraph['start'], word['start']))
+        word['end'] = min(paragraph['end'], max(word['start'], word['end']))
+
+
 # ===== ffmpeg helpers =====
 
 def ffprobe_duration(mp3_path: Path) -> float:
@@ -328,6 +341,79 @@ def ffmpeg_silence(out_path: Path, duration_seconds: float):
     )
 
 
+def prepare_concat_piece(source: Path, sample_rate: int = 44100,
+                         channels: int = 1) -> tuple[Path, float]:
+    """Decode once to a common lossless format and measure playable samples.
+
+    Raw and treated MP3 durations can differ, including encoder padding.
+    Summing raw clip durations while playing treated clips accumulates drift.
+    Use the same decoded samples for both the timeline and concatenation.
+    Cache by source bytes so refreshed narration invalidates the decoded clip.
+    """
+    suffix = '.concat.wav' if (sample_rate, channels) == (44100, 1) else f'.concat-{sample_rate}-{channels}.wav'
+    decoded = source.with_suffix(suffix)
+    metadata = decoded.with_suffix('.meta.json')
+    key = hashlib.sha256(source.read_bytes()).hexdigest()
+    if decoded.exists() and metadata.exists():
+        cached = json.loads(metadata.read_text())
+        if (cached.get('source_sha256') == key
+                and cached.get('sample_rate') == sample_rate
+                and cached.get('channels', 1) == channels):
+            return decoded, cached['duration_seconds']
+    # Separate chapter jobs can share silence or ambient cache entries.
+    # Publish complete files atomically so another reader never sees a
+    # partially decoded WAV or partially written metadata.
+    with tempfile.NamedTemporaryFile(dir=source.parent, suffix='.wav', delete=False) as temp:
+        temporary = Path(temp.name)
+    try:
+        subprocess.run([
+            'ffmpeg', '-y', '-xerror', '-loglevel', 'error', '-i', str(source),
+            '-map', '0:a:0', '-ar', str(sample_rate), '-ac', str(channels), '-c:a', 'pcm_s16le',
+            str(temporary),
+        ], capture_output=True, check=True)
+        with wave.open(str(temporary), 'rb') as samples:
+            duration = samples.getnframes() / samples.getframerate()
+        temporary.replace(decoded)
+        with tempfile.NamedTemporaryFile(mode='w', dir=source.parent, suffix='.json', delete=False) as temp:
+            temporary = Path(temp.name)
+            json.dump({
+                'source_sha256': key, 'sample_rate': sample_rate, 'channels': channels,
+                'duration_seconds': duration,
+            }, temp, indent=2)
+            temp.write('\n')
+        temporary.replace(metadata)
+    finally:
+        temporary.unlink(missing_ok=True)
+    return decoded, duration
+
+
+def concat_pcm_files(parts: list[Path], out_path: Path, codec_args: list[str],
+                     sample_rate: int = 44100, channels: int = 1):
+    """Join PCM frames, then encode once, avoiding per-file decoder state.
+
+    In particular, a FLAC concat demuxer can retain the first clip's stream
+    metadata and silently drop later silence frames with different block sizes.
+    Raw PCM concatenation preserves every speech and silence sample.
+    """
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    joined = out_path.with_suffix('.joined.wav')
+    try:
+        with wave.open(str(joined), 'wb') as target:
+            target.setparams((channels, 2, sample_rate, 0, 'NONE', 'not compressed'))
+            for path in parts:
+                with wave.open(str(path), 'rb') as source:
+                    if (source.getnchannels(), source.getsampwidth(), source.getframerate()) != (channels, 2, sample_rate):
+                        raise ValueError(f'Incompatible PCM format: {path}')
+                    while chunk := source.readframes(65536):
+                        target.writeframesraw(chunk)
+        subprocess.run([
+            'ffmpeg', '-y', '-xerror', '-loglevel', 'error', '-i', str(joined),
+            *codec_args, str(out_path),
+        ], capture_output=True, check=True)
+    finally:
+        joined.unlink(missing_ok=True)
+
+
 def ffmpeg_concat(parts: list[Path], out_path: Path, reencode: bool = False):
     """Concatenate MP3 files into one.
 
@@ -336,15 +422,14 @@ def ffmpeg_concat(parts: list[Path], out_path: Path, reencode: bool = False):
     metadata (e.g. v1/v2 pipeline where every paragraph comes straight
     from ElevenLabs).
 
-    When `reencode` is True (used for v3 treatments), re-encodes through
-    libmp3lame on the way out. Required because mixing libmp3lame-encoded
-    treated paragraphs with raw ElevenLabs MP3s and silence inserts via
-    `-c copy` preserves each file's LAME encoder delay/padding (~100 ms
-    of silence at every boundary), causing the chapter's measured duration
-    to drift several seconds longer than the sum of its pieces — and
-    breaking word-timing sync. Re-encoding the concatenated stream
-    re-stitches frames without honoring the per-file padding.
+    When `reencode` is True, encode through libmp3lame on the way out.
+    The chapter generator supplies uniform decoded PCM pieces and measures
+    those same pieces for timing. Re-encoding alone is insufficient if the
+    timing was measured from different (e.g. untreated) MP3 files.
     """
+    if reencode and all(p.suffix == '.wav' for p in parts):
+        concat_pcm_files(parts, out_path, ['-c:a', 'libmp3lame', '-b:a', '128k'])
+        return
     out_path.parent.mkdir(parents=True, exist_ok=True)
     list_file = out_path.with_suffix('.concat.txt')
     list_file.write_text('\n'.join(f"file '{p.resolve()}'" for p in parts) + '\n')
@@ -491,8 +576,9 @@ def generate_chapter(
             pre_silence = WORK / 'silence' / f'{intro_pre_ms}ms.mp3'
             if not pre_silence.exists():
                 ffmpeg_silence(pre_silence, intro_pre_ms / 1000.0)
-            pieces.append(pre_silence)
-            running_t += ffprobe_duration(pre_silence)
+            pre_piece, pre_duration = prepare_concat_piece(pre_silence)
+            pieces.append(pre_piece)
+            running_t += pre_duration
             intro_duration = ffprobe_duration(intro_path)
             intro_entry = {
                 'n': 0, 'speaker': intro_speaker, 'kind': 'intro',
@@ -535,14 +621,17 @@ def generate_chapter(
                         'speaker': intro_speaker, 'filter': intro_eff,
                     }, indent=2))
                 intro_piece = intro_treated
+            intro_piece, intro_duration = prepare_concat_piece(intro_piece)
+            intro_entry['end'] = round(running_t + intro_duration, 3)
             pieces.append(intro_piece)
             running_t += intro_duration
             paragraph_timings.append(intro_entry)
             post_silence = WORK / 'silence' / f'{intro_post_ms}ms.mp3'
             if not post_silence.exists():
                 ffmpeg_silence(post_silence, intro_post_ms / 1000.0)
-            pieces.append(post_silence)
-            running_t += ffprobe_duration(post_silence)
+            post_piece, post_duration = prepare_concat_piece(post_silence)
+            pieces.append(post_piece)
+            running_t += post_duration
             suppress_next_auto_pause = True
             prev_speaker = intro_speaker
 
@@ -626,7 +715,6 @@ def generate_chapter(
 
         # For dry-run, skip duration measurement (no audio file).
         if not dry_run and para_path.exists():
-            duration = ffprobe_duration(para_path)
             # v3: per-speaker treatment (if treatments.yaml provides one).
             # Treated file is cached at p{n}.treated.mp3 keyed by the
             # filter-chain hash, so a treatments.yaml edit invalidates only
@@ -662,6 +750,7 @@ def generate_chapter(
                         'filter': eff_filter,
                     }, indent=2))
                 piece_path = treated_path
+            piece_path, duration = prepare_concat_piece(piece_path)
             # Insert silence before this paragraph (except first). Kind
             # overrides the speaker-aware default:
             #   - continuation: zero silence (TTS-concat with previous)
@@ -680,8 +769,8 @@ def generate_chapter(
                 silence_path = WORK / 'silence' / f'{pause_ms}ms.mp3'
                 if not silence_path.exists():
                     ffmpeg_silence(silence_path, pause_ms / 1000.0)
-                silence_duration = ffprobe_duration(silence_path)
-                pieces.append(silence_path)
+                silence_piece, silence_duration = prepare_concat_piece(silence_path)
+                pieces.append(silence_piece)
                 running_t += silence_duration
             pieces.append(piece_path)
             # Load alignment (if present) and group into words at the
@@ -717,16 +806,13 @@ def generate_chapter(
             'duration_seconds': running_t, 'estimated_cost': cost,
         }
 
-    # Concatenate per-chapter MP3 + write timing sidecar to assets repo.
-    # v3: when any speaker has a treatment filter active, re-encode on
-    # concat (see ffmpeg_concat docstring for why `-c copy` loses sync
-    # across libmp3lame-treated MP3s).
+    # Every piece is now decoded PCM at 44.1 kHz mono. Encode the complete
+    # chapter once; timeline offsets use these exact same playable samples.
     chapter_mp3 = ASSETS_AUDIO / lang / slug / f'c{chap}.mp3'
     chapter_timing = ASSETS_AUDIO / lang / slug / f'c{chap}.timing.json'
-    any_treatment = bool(normalize_filter) or any(
-        treatment_filter(treatments_cfg, s) for s in para_speakers.values()
-    )
-    ffmpeg_concat(pieces, chapter_mp3, reencode=any_treatment)
+    for paragraph in paragraph_timings:
+        bound_word_timings(paragraph)
+    ffmpeg_concat(pieces, chapter_mp3, reencode=True)
     chapter_timing.parent.mkdir(parents=True, exist_ok=True)
     chapter_timing.write_text(json.dumps({
         'book': slug, 'lang': lang, 'chapter': chap,
@@ -766,8 +852,8 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
     Probes for sibling Opus files (`c{N}.opus`) produced by
     `transcode_audio.py` and emits a `formats[]` array per chapter when
     Opus is present. Player picks Opus first when supported and falls
-    back to the MP3. `audio_url` always points at the MP3 for legacy
-    players that don't know about `formats[]`.
+    back to the MP3 when it fits the asset host's 25 MiB file limit.
+    `audio_url` uses the available format for legacy players.
 
     Media URLs carry a `?v=<content-hash>` cache-buster (see
     _asset_version); the timing/manifest JSON stay unhashed and revalidate.
@@ -819,23 +905,29 @@ def update_book_manifest(slug: str, lang: str, voices_cfg: dict):
         opus_name = f'c{chap_n}.opus'
         mp3_path = book_dir / mp3_name
         opus_path = book_dir / opus_name
+        # Long MP3 masters can remain in local storage without being shipped.
+        # Never advertise them when they exceed the existing host file limit.
+        mp3_available = mp3_path.exists() and mp3_path.stat().st_size <= 25 * 1024 * 1024
         formats = []
         if opus_path.exists():
             formats.append({
                 'type': 'audio/ogg; codecs=opus',
                 'url': media_url(opus_name),
             })
-        if mp3_path.exists():
+        if mp3_available:
             formats.append({
                 'type': 'audio/mpeg',
                 'url': media_url(mp3_name),
             })
+        if not formats:
+            # The Opus transcode may still be pending for a long MP3 master.
+            continue
         # audio_url is the legacy single-URL fallback for players that
         # don't read formats[]. Prefer MP3 (universal compat) when it
         # exists; fall back to Opus if it doesn't (e.g. when MP3 was
         # dropped because it exceeded Cloudflare Pages' 25 MiB per-file
         # cap — happens on very long chapters at 128k mono).
-        legacy_url = media_url(mp3_name if mp3_path.exists() else opus_name)
+        legacy_url = media_url(mp3_name if mp3_available else opus_name)
         # v4 — ambient track produced by generate_ambient.py from scenes.yaml
         # + paragraph scene tags. Sibling file if present; omitted from
         # manifest otherwise.
@@ -932,7 +1024,9 @@ def main():
         grand_cached += stats['cached_paragraphs']
         print()
 
-    if not args.dry_run and grand_new > 0:
+    # Cached narration can still produce a different chapter: continuation
+    # tags change inserted pauses and therefore timing and media hashes.
+    if not args.dry_run and grand_duration > 0:
         update_book_manifest(args.slug, args.lang, voices_cfg)
 
     print('=' * 60)
