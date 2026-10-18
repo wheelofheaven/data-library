@@ -7,9 +7,11 @@ The script:
   2. For each target language, finds the sentence-end NEAREST to the same relative
      position in the target text. Returns the full sentence as the marker.
 
-Cross-language alignment may drift by ~1 sentence for languages with different
-sentence structures (esp. JA/KO compared to FR). This is acceptable for audiobook
-purposes since each language reads its own paragraph file.
+Output is an unreviewed candidate list, not an alignment decision. Relative
+position can move a sentence to the wrong reference, especially in JA/KO.
+Compare each language's meaning against the French boundary before applying.
+For published references, prefer repair_paragraph_boundaries.py: preserve n
+and refId rather than renumbering citations, bookmarks, and audio targets.
 """
 
 import json

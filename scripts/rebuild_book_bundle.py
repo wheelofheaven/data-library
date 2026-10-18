@@ -3,7 +3,7 @@
 
 After an edit to per-chapter JSON in data-library/{slug}/chapter-N.json, this
 re-assembles data-library/{slug}.json and updates data-library/{slug}/_meta.json
-so paragraph counts stay in sync.
+and catalog.json so paragraph counts stay in sync.
 """
 
 import json
@@ -57,6 +57,14 @@ def rebuild(slug: str) -> None:
     meta['paragraphCount'] = total
     meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + '\n')
     print(f'updated {meta_path} (paragraphCount={total})')
+
+    catalog_path = LIB / 'catalog.json'
+    catalog = json.loads(catalog_path.read_text())
+    entry = next(book for book in catalog['books'] if book['slug'] == slug)
+    entry['paragraphs'] = total
+    entry['chapters'] = chapter_count
+    catalog_path.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + '\n')
+    print(f'updated catalog entry for {slug} (paragraphs={total})')
 
     # If a combined bundle file exists, update it too. Otherwise skip (split-files-only book).
     if bundle_path.exists():
