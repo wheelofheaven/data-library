@@ -26,6 +26,10 @@ This is a correction of reference alignment, not a new translation or an endorse
 
 The English reading text is conserved character for character after whitespace normalization and the one recorded byline relocation.
 The original French reference sequence remains unchanged.
+English EPUB block boundaries identify 128 continuations (16, 49, 13, and 50 by chapter), recorded as `kindByLang.en` without changing French reading flow.
+A continuation is recorded only when the preceding reference has English text; LWTE-4:53 remains separate after the shared-passage notices.
+`preserveParagraphBreaks.en` retains source paragraph breaks inside a reference unit.
+The catalog's stale total has been corrected from 826 to 836.
 The reader labels shared passages and missing counterparts and provides the French source without presenting it as English.
 
 ## Reproduce and verify

@@ -496,7 +496,7 @@ def generate_chapter(
     # Title  → longer lead-pause; the heading reads as a section break.
     # Continuation → no inter-paragraph silence; the split quotation flows
     # as a single utterance.
-    para_kinds = {str(p['n']): p.get('kind', 'body')
+    para_kinds = {str(p['n']): p.get('kindByLang', {}).get(lang, p.get('kind', 'body'))
                   for p in ch_source['paragraphs']}
 
     treatments_cfg = treatments_cfg or {}

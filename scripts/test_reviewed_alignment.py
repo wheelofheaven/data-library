@@ -35,6 +35,15 @@ class ReviewedAlignmentTests(unittest.TestCase):
                 self.assertEqual(before.get(field), after.get(field))
             self.assertEqual(before['i18n'].get('de'), after['i18n'].get('de'))
 
+    def test_language_specific_flow_preserves_source_kind(self):
+        data, manifest = self.fixture()
+        data['paragraphs'][0]['kind'] = 'body'
+        del manifest['paragraphs'][0]['kind']
+        manifest['paragraphs'][0]['kindByLang'] = {'en': 'continuation'}
+        result = transform(data, manifest)
+        self.assertEqual(result['paragraphs'][0]['kind'], 'body')
+        self.assertEqual(result['paragraphs'][0]['kindByLang'], {'en': 'continuation'})
+
     def test_source_loss_is_rejected(self):
         _, manifest = self.fixture()
         manifest['paragraphs'][0]['en'] = 'The passage.'

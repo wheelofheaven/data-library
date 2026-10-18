@@ -84,6 +84,8 @@ def transform(data, manifest):
         p.setdefault('i18n', {})['en'] = row['en']
         if 'kind' in row:
             p['kind'] = row['kind']
+        if 'kindByLang' in row:
+            p.setdefault('kindByLang', {}).update(row['kindByLang'])
         if 'alignment' in row:
             alignment = row['alignment']
             status = alignment['status']
