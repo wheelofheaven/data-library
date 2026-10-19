@@ -59,3 +59,12 @@ The old third-book recordings/timings still refer to the proportional assignment
 No paid synthesis was performed in this repair.
 French recordings and the first two books are unaffected.
 Remove the hold only after the replacement audio is available and its paragraph targets have been checked.
+
+### English audio release, 19 October 2026
+
+The subsequent audio release replaces the hold with narration for all four English chapters.
+It covers 728 spoken reference units, reusing the 33 previously generated preview units.
+French-only material and secondary references to shared English passages remain unvoiced.
+Phoenix narrates throughout; this book has no configured ambient or cinematic tracks.
+The release report in `../lwte-audio-2026-10-19.json` records source and asset hashes, durations, and technical validation.
+Every spoken reference has a target in the rendered English reader; full listening review remains separate from those checks.
