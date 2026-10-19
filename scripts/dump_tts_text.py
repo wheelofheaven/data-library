@@ -51,6 +51,15 @@ def process_chapter(book: str, chap: int, lang: str, review: bool = False) -> di
         # (in-progress translations etc). Skip silently.
         return {'sidecar': {}, 'changes': 0, 'skipped': 0, 'diffs': []}
     ch = json.loads(ch_path.read_text())
+    # Reviewed, language-specific narration exceptions retain the printed
+    # witness in the reader while excluding footnotes/address directories.
+    overrides_path = LIB / 'audio' / 'text-overrides' / f'{book}.{lang}.json'
+    overrides = {}
+    if overrides_path.exists():
+        overrides = json.loads(overrides_path.read_text())['chapters'].get(str(chap), {})
+        unknown = set(overrides) - {str(p['n']) for p in ch['paragraphs']}
+        if unknown:
+            raise ValueError(f'Unknown narration references: {sorted(unknown)}')
 
     out = {}
     changes = 0
@@ -60,6 +69,12 @@ def process_chapter(book: str, chap: int, lang: str, review: bool = False) -> di
     for p in ch['paragraphs']:
         pn = p['n']
         source = get_source_text(p, lang)
+        override = overrides.get(str(pn), {})
+        if override.get('skip'):
+            out[str(pn)] = {'text': '', 'skip': True, 'reason': override['reason']}
+            skipped += 1
+            continue
+        source = override.get('text', source)
         if not source:
             # Skip empty translations
             continue

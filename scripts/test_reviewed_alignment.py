@@ -79,9 +79,20 @@ class ReviewedAlignmentTests(unittest.TestCase):
             transform(data, manifest)
 
     def test_all_reviewed_chapters_are_applied_and_conserve_text(self):
+        from validate_lwte_french import preceding_chapter
         for path in sorted((ROOT / 'reviews/lwte-alignment-2026-10-18').glob('chapter-*.json')):
             with self.subTest(chapter=path.name):
-                self.assertFalse(prepare(ROOT, json.loads(path.read_text()))[2])
+                manifest = json.loads(path.read_text())
+                chapter = int(path.stem.split('-')[-1])
+                # French has a subsequent, separately hashed source repair.
+                # Reverse only that audited diff, then check the original
+                # alignment byte for byte without weakening its stale guard.
+                with tempfile.TemporaryDirectory() as directory:
+                    root = Path(directory)
+                    target = root / manifest['path']
+                    target.parent.mkdir(parents=True)
+                    target.write_bytes(preceding_chapter(chapter))
+                    self.assertFalse(prepare(root, manifest)[2])
 
     def test_cited_passages_and_edition_gaps(self):
         def paragraphs(c):

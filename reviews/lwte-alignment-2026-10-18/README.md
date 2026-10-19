@@ -34,6 +34,10 @@ The reader labels shared passages and missing counterparts and provides the Fren
 
 ## Reproduce and verify
 
+The subsequent French source repair is recorded in `../lwte-french-2026-10-19/`.
+For the current chapters, run `python3 scripts/validate_lwte_french.py` and the regression tests below.
+That validator checks the current French revision and reconstructs this review's exact chapter bytes in memory; the original whole-file checks below apply to the pre-French-repair revision.
+
 From the `data-library` root (Python 3.11+):
 
 ```sh
