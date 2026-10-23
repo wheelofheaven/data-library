@@ -12,7 +12,7 @@ import generate_audio as audio
 
 
 class ManifestRefresh(unittest.TestCase):
-    def run_generation(self, dry_run=False):
+    def run_generation(self, dry_run=False, cached_only=False):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             book = root / 'test-book'
@@ -25,16 +25,22 @@ class ManifestRefresh(unittest.TestCase):
             argv = ['generate_audio.py', '--slug', 'test-book', '--lang', 'en']
             if dry_run:
                 argv.append('--dry-run')
+            if cached_only:
+                argv.append('--cached-only')
             with (patch.object(audio, 'LIB', root),
                   patch.object(audio, 'load_voices_config', return_value={}),
                   patch.object(audio, 'load_treatments_config', return_value={}),
                   patch.object(audio, 'load_normalize_filter', return_value=''),
                   patch.object(audio, 'load_audioplay_manifest', return_value={}),
-                  patch.object(audio, 'generate_chapter', return_value=stats),
+                  patch.object(audio, 'generate_chapter', return_value=stats) as generate,
                   patch.object(audio, 'update_book_manifest') as update,
                   patch.dict(os.environ, {'ELEVENLABS_API_KEY': 'test-only'}),
                   patch('sys.argv', argv), contextlib.redirect_stdout(io.StringIO())):
                 audio.main()
+                if cached_only:
+                    # A configured API key must never reach generation in
+                    # cache-only mode, even when credentials are present.
+                    self.assertEqual(generate.call_args.args[4], '')
                 return update.call_args_list
 
     def test_cached_only_render_refreshes_manifest(self):
@@ -44,6 +50,9 @@ class ManifestRefresh(unittest.TestCase):
 
     def test_dry_run_does_not_refresh_manifest(self):
         self.assertEqual(self.run_generation(dry_run=True), [])
+
+    def test_cached_only_rebuild_withholds_available_api_credentials(self):
+        self.assertEqual(len(self.run_generation(cached_only=True)), 1)
 
     def test_local_oversized_mp3_is_not_advertised(self):
         with tempfile.TemporaryDirectory() as directory:

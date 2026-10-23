@@ -1,0 +1,1973 @@
+{
+  "date": "2026-10-22",
+  "source_commit": "485ea989e527e599514886283b21ea025f0b7463",
+  "assets_baseline_commit": "773e30db217ccb9346557da30fdae880781ae4ca",
+  "audited_tracks": 100,
+  "repaired_tracks": 69,
+  "languages": [
+    "en",
+    "de",
+    "fr",
+    "es",
+    "he",
+    "ja",
+    "ko",
+    "ru",
+    "zh",
+    "zh-Hant"
+  ],
+  "new_narration_clips": 0,
+  "synthesis_credits_used": 0,
+  "additional_unchanged_release_audit": {
+    "book": "lets-welcome-the-extraterrestrials",
+    "tracks": [
+      {
+        "lang": "en",
+        "chapter": 1,
+        "delta": 0.007,
+        "hashMatches": true
+      },
+      {
+        "lang": "en",
+        "chapter": 2,
+        "delta": 0.006,
+        "hashMatches": true
+      },
+      {
+        "lang": "en",
+        "chapter": 3,
+        "delta": 0.007,
+        "hashMatches": true
+      },
+      {
+        "lang": "en",
+        "chapter": 4,
+        "delta": 0.007,
+        "hashMatches": true
+      },
+      {
+        "lang": "fr",
+        "chapter": 1,
+        "delta": 0.007,
+        "hashMatches": true
+      },
+      {
+        "lang": "fr",
+        "chapter": 2,
+        "delta": 0.007,
+        "hashMatches": true
+      },
+      {
+        "lang": "fr",
+        "chapter": 3,
+        "delta": 0.007,
+        "hashMatches": true
+      },
+      {
+        "lang": "fr",
+        "chapter": 4,
+        "delta": 0.006,
+        "hashMatches": true
+      }
+    ]
+  },
+  "max_original_duration_drift_seconds": 14.087,
+  "max_repaired_media_duration_error_seconds": 0.007125,
+  "checks": [
+    "All advertised repaired media hashes match manifests",
+    "Narration and ambience agree with timing within 150 ms",
+    "Spoken reference sets match current TTS source",
+    "Paragraph and word intervals are bounded and ordered",
+    "Cinematic captions regenerated from repaired timings",
+    "No advertised release file exceeds 25 MiB",
+    "Browser: ETTMTTP English 3:250 starts directly at 4754.764 seconds",
+    "Paid synthesis disabled; decoded intermediates cleaned chapter by chapter"
+  ],
+  "tracks": [
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "de",
+      "chapter": 1,
+      "duration_seconds": 3515.3904308389974,
+      "cached_narration_clips": 78,
+      "artifacts": {
+        "c1.opus": {
+          "sha256": "1d8682e11d56db1ac94a3a82327785eeb748fb90a7f9f1e0c4580acc57fd78f6",
+          "bytes": 17477934
+        },
+        "c1.cinematic.json": {
+          "sha256": "cdba92f485b5fa9352f44fdd74fb7e7a9c4972daf88bb8528ceb39fef49ef439",
+          "bytes": 783299
+        },
+        "c1.timing.json": {
+          "sha256": "ac82507ceee45b1b975bd21e9768ce7873b3a809af8ef3533e5eb8e6c586c9dd",
+          "bytes": 696809
+        },
+        "c1.ambient.opus": {
+          "sha256": "8a5e7d5687ff8b3c1f445f88f5f006d51282cd4c713bbef5c0938ce25d1f5c89",
+          "bytes": 798147
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "de",
+      "chapter": 3,
+      "duration_seconds": 5714.114988662141,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "8bc595d859aa4a314b4449920c561b4bd051ce3edf9fae8254ac99161f5cdd9a",
+          "bytes": 1297268
+        },
+        "c3.timing.json": {
+          "sha256": "d8d4a17b011e324fddbd3ca1f976e834ec5f983a90d95bb35caae94ea8f94c99",
+          "bytes": 1472841
+        },
+        "c3.cinematic.json": {
+          "sha256": "5b7118d677b0d8da9c6f4de00c597a180836f408f8a247835c0a2003e3427427",
+          "bytes": 1626698
+        },
+        "c3.opus": {
+          "sha256": "a9922e4002d099b076b0a8bd5b7093113ae8e16be88cbb826c87f2150ee54f0b",
+          "bytes": 25587862
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "en",
+      "chapter": 1,
+      "duration_seconds": 2999.995147392286,
+      "cached_narration_clips": 78,
+      "artifacts": {
+        "c1.opus": {
+          "sha256": "c1d8c6c07b94258cb3a901cb56edfd0f9ac09f7771f950600d3ec98aa8e24370",
+          "bytes": 15051381
+        },
+        "c1.cinematic.json": {
+          "sha256": "022078208e7793c06a28e69640844663540d756ac0852fdb093ce6994592d73b",
+          "bytes": 813745
+        },
+        "c1.timing.json": {
+          "sha256": "a340ea27446bd267d636626f45db860fd349bdc6085ae10bd406e10acdb4d6d3",
+          "bytes": 733763
+        },
+        "c1.ambient.opus": {
+          "sha256": "7a2bba233a08cacdc2629040e75b2600fddc75c998a6053d3d0c92a6f095bdc0",
+          "bytes": 681166
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "en",
+      "chapter": 2,
+      "duration_seconds": 4799.428435374157,
+      "cached_narration_clips": 132,
+      "artifacts": {
+        "c2.ambient.opus": {
+          "sha256": "ae729920a50c0ebc12eb5120c4fb5d517268597ba6c7cff32ec151d6e473bd2d",
+          "bytes": 1089623
+        },
+        "c2.opus": {
+          "sha256": "148701d6ffa889169edd1d8b5e1586637e2aae49a24ada0d419c5ec91cc67749",
+          "bytes": 23814369
+        },
+        "c2.timing.json": {
+          "sha256": "ef66ab15e06a6ba4e09eefca7ad0cc1ddb9b65ee03258cfc6ee81686bb1dc3e6",
+          "bytes": 1255262
+        },
+        "c2.cinematic.json": {
+          "sha256": "f4e80b87914c55cae39e6f7795a960861278f332067045f1025302827fbacad0",
+          "bytes": 1396847
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "en",
+      "chapter": 3,
+      "duration_seconds": 5142.515464852607,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "afce92fcaf6ace75d99ee53a75996b3a34101f4c49cb4c0a29e5d82905439636",
+          "bytes": 1167504
+        },
+        "c3.timing.json": {
+          "sha256": "5524088050f4bbe359ea05e94e869a290f26d2f9dd1fbf42c5b8853a130da3ed",
+          "bytes": 1468863
+        },
+        "c3.cinematic.json": {
+          "sha256": "c6a9dca390fdaea740b1fb7ce0f07d5fa02e83ae1204701a3cdf15e5c28c2772",
+          "bytes": 1609583
+        },
+        "c3.opus": {
+          "sha256": "3e833f228e393fce19f39608d566acf23f498732ba761e163f70a491ffccd938",
+          "bytes": 25340010
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "es",
+      "chapter": 1,
+      "duration_seconds": 3244.9135827664345,
+      "cached_narration_clips": 78,
+      "artifacts": {
+        "c1.opus": {
+          "sha256": "e20deb54a48439ded0ee478a7c9790fadcbce8e7acb32ba9619e656770d33365",
+          "bytes": 16261947
+        },
+        "c1.cinematic.json": {
+          "sha256": "de4080b81e2e60f7702ec47ad1fc75821b6544fc31d973a9a203cba6f7c14232",
+          "bytes": 773226
+        },
+        "c1.timing.json": {
+          "sha256": "488a9e5606ff477873d5f71c935d93af8ef0d324efb1c183926bd161f8820d3a",
+          "bytes": 691998
+        },
+        "c1.ambient.opus": {
+          "sha256": "3d62e031bac1ebd84494d9b5650df2aa6fc7f48c2340f2ece5b1b3a1c108f828",
+          "bytes": 736738
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "es",
+      "chapter": 3,
+      "duration_seconds": 5372.751043083902,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "5fa55785d4c34a6c351708c75662930dba8066746f9a94c030f6070592788bbe",
+          "bytes": 1219758
+        },
+        "c3.timing.json": {
+          "sha256": "1ddb6bdca080fa406310e71ea9701b868855b61db93b36bf885ad07844659a36",
+          "bytes": 1412746
+        },
+        "c3.cinematic.json": {
+          "sha256": "3098345f6814f500d6d5fbfe662dd6a7093ad115b01f51cebe8d4e4d19c3c140",
+          "bytes": 1555286
+        },
+        "c3.opus": {
+          "sha256": "725e4eddcf0c84c3d5ec0f6a76a736a3b9dce5e4825418b2866d4377288fced2",
+          "bytes": 24037632
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "fr",
+      "chapter": 1,
+      "duration_seconds": 3207.0838775510147,
+      "cached_narration_clips": 78,
+      "artifacts": {
+        "c1.opus": {
+          "sha256": "f06eecd65d3c97e1eff16ad5bf05188cfbb7abde0cfd104f4616f7751f01bb49",
+          "bytes": 15781477
+        },
+        "c1.cinematic.json": {
+          "sha256": "074ed77c415f87c518cea3374f1124bfaee9891750191294fdddd9e4a4477071",
+          "bytes": 782247
+        },
+        "c1.timing.json": {
+          "sha256": "871b91adb99bfcb97140cbba71d142ea2abc38b70ed443971126bd4bbd500201",
+          "bytes": 699758
+        },
+        "c1.ambient.opus": {
+          "sha256": "a2ccc8d218930e362b31557ad2872efa6fc3f297a7ac75b390ec2d79275e405c",
+          "bytes": 728171
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "fr",
+      "chapter": 3,
+      "duration_seconds": 5168.516371882082,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "e826dfb91b1cbf7ed306581f369adbccfec008eaf811991396521936b2827a30",
+          "bytes": 1173406
+        },
+        "c3.timing.json": {
+          "sha256": "768c97e92375da1ab3b8dceeb78562eed4284250ee98ebfcca8580d94ce10835",
+          "bytes": 1443042
+        },
+        "c3.cinematic.json": {
+          "sha256": "2e1e86c1f12e7f18e673e60c64368a6f5f59e7b7292cca1423f7544be43ca0dd",
+          "bytes": 1589044
+        },
+        "c3.opus": {
+          "sha256": "88c2de0b2602450d775ac3a73b737716db77502ec8b320071ec748970b4f5e4b",
+          "bytes": 25483350
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "he",
+      "chapter": 1,
+      "duration_seconds": 2312.9799999999964,
+      "cached_narration_clips": 78,
+      "artifacts": {
+        "c1.opus": {
+          "sha256": "e0cf2b058e34e3e29a60119a84256ade11bd64291fb021fb2d983e40edc6bef7",
+          "bytes": 11811615
+        },
+        "c1.cinematic.json": {
+          "sha256": "044052fe1f0ac84bbb5696fcd253725286ff7fdfe35834892655f894ec4205f3",
+          "bytes": 586694
+        },
+        "c1.timing.json": {
+          "sha256": "454e8fa147deffcb58b0e3817bef07cde41de9065b1cd1ff0818b0ea3c7594e5",
+          "bytes": 496930
+        },
+        "c1.ambient.opus": {
+          "sha256": "1b2364e716f9457862633fa78cca7585ba7d90ee0828afe198ce20e2bb50bdec",
+          "bytes": 525186
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "he",
+      "chapter": 3,
+      "duration_seconds": 4657.6999999999925,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "c624ff1ab7c2a7be6f471b6bb45724fd270055bdeb6f98758c71040d141b6900",
+          "bytes": 1057445
+        },
+        "c3.timing.json": {
+          "sha256": "7ce383ef6ca232d245e20c1681fd6facf343104575275e9817791e6fa243284b",
+          "bytes": 1030909
+        },
+        "c3.cinematic.json": {
+          "sha256": "5a2ef827221017643817e713f84b18b6e99d76540be5974d32ab1697fc681274",
+          "bytes": 1188600
+        },
+        "c3.opus": {
+          "sha256": "d928daeff969e4f1388ecc4127bf5b23bcb6039ca13ec4de225f1b687dea6767",
+          "bytes": 23045469
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ja",
+      "chapter": 3,
+      "duration_seconds": 6276.398185941061,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "5f609f9ebcc9abf1c276b3415246746b74e25bcb38acf1f7d04dc8b02d719b07",
+          "bytes": 1424898
+        },
+        "c3.timing.json": {
+          "sha256": "8006afc081a93efaf2842ea7f9c578399ac1e0fae123f4f4a0a4fd4df9a85a43",
+          "bytes": 162118
+        },
+        "c3.cinematic.json": {
+          "sha256": "64aaa89f9e027d4a77bd187c783bf7b36726b40605d4168949197a8874989c08",
+          "bytes": 280897
+        },
+        "c3.opus": {
+          "sha256": "5a7dd8268f5439e066203359bda272c17ff35a1a73c399dce2bd17a5d16f6f86",
+          "bytes": 24836363
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ko",
+      "chapter": 3,
+      "duration_seconds": 5874.587120181415,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "4e1cccddc6828a0aa9065b3bffbbce50d4274ffea53c7c5f71ef326d53a28b08",
+          "bytes": 1333680
+        },
+        "c3.timing.json": {
+          "sha256": "d39e84e15b12bd304ea4d9884acf66cd199def4885900cc87c308e7162175b95",
+          "bytes": 1072202
+        },
+        "c3.cinematic.json": {
+          "sha256": "cf2cb6fa422cce143836523e20f489c537f4c6db0014f51939dfc120ecaa6363",
+          "bytes": 1266924
+        },
+        "c3.opus": {
+          "sha256": "b372dec6793a452a765e6c19c56b9c04d3f04ad333994b3ca85c620313bb3d65",
+          "bytes": 26084629
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ru",
+      "chapter": 1,
+      "duration_seconds": 3113.129342403622,
+      "cached_narration_clips": 78,
+      "artifacts": {
+        "c1.opus": {
+          "sha256": "993619d31296687162dd1e14330d5b9887971abd3ed16ba918c0d468d5310eb9",
+          "bytes": 15875260
+        },
+        "c1.cinematic.json": {
+          "sha256": "a71cce1af82c941147a23dfcdfc6ef8592b21baad1c5066c300d401aa22a0681",
+          "bytes": 742183
+        },
+        "c1.timing.json": {
+          "sha256": "076e5351613c82f23388d1880cc03aac725500f2c0d60d24b9ff3ec5adb20b53",
+          "bytes": 632325
+        },
+        "c1.ambient.opus": {
+          "sha256": "4f18927d1b3150ad6597fec46a8ae25a07671d2e4bcc6ce192cb095229c1f8d1",
+          "bytes": 706841
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "ru",
+      "chapter": 3,
+      "duration_seconds": 5556.517755102049,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "a1760575e6ea7976a008d4fd3fac3dd344daa22da0d60180b116a441a1a36b04",
+          "bytes": 1261482
+        },
+        "c3.timing.json": {
+          "sha256": "967aaf9d2d41ee6c07efad683ebd7854d6e714dfaba8bf55b7926b091e021ab1",
+          "bytes": 1274984
+        },
+        "c3.cinematic.json": {
+          "sha256": "1d672730255a5b9f6758c09d36312bf25e02e57f26f3e4ad22af5ce9cca8f327",
+          "bytes": 1477244
+        },
+        "c3.opus": {
+          "sha256": "488547adf23898b92a8e9e22973c85fc5dd073f26848eaaa036e829bf1983bfe",
+          "bytes": 25087859
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "zh-Hant",
+      "chapter": 1,
+      "duration_seconds": 2911.660090702944,
+      "cached_narration_clips": 78,
+      "artifacts": {
+        "c1.opus": {
+          "sha256": "2abdabeff0d77ec0731c9ae52702cc9d7895f715906d41f48596e5c87fcf04ef",
+          "bytes": 14737624
+        },
+        "c1.cinematic.json": {
+          "sha256": "d43a67526e8a514da83b52bb02f630d2c1c73f82c4ae6678c5ad6a7b19436b9c",
+          "bytes": 93730
+        },
+        "c1.timing.json": {
+          "sha256": "1143e59d7433074b9e541261c02e230e3139cde228e2c588ceb3094747790b85",
+          "bytes": 55214
+        },
+        "c1.ambient.opus": {
+          "sha256": "7c214fdef9fc1f8ca8f6e9d2842e096370a5b77034a981dcda00fe7bc0b31973",
+          "bytes": 661095
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "zh-Hant",
+      "chapter": 3,
+      "duration_seconds": 5182.944013605443,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "425e352c054a3df8569c9cdc40ba1732bd4c291a24da6d07ba2dd9227e3b88e4",
+          "bytes": 1176668
+        },
+        "c3.timing.json": {
+          "sha256": "faae010651518d0ccb9415ca8538d6266bc572ab6dc7b67faf3ac7837d389313",
+          "bytes": 126885
+        },
+        "c3.cinematic.json": {
+          "sha256": "0a647e0b77ea8bccda908444ab2dfe791e497bbdc1c872480854b129444f6401",
+          "bytes": 210484
+        },
+        "c3.opus": {
+          "sha256": "b569ee69ff277f90b3e27475bfeacd4d6c9f791539ba5c40573d48e7c492a726",
+          "bytes": 25633770
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "zh",
+      "chapter": 1,
+      "duration_seconds": 2934.034943310653,
+      "cached_narration_clips": 78,
+      "artifacts": {
+        "c1.opus": {
+          "sha256": "1035deea5b495792d74fe685d909a6665919723ab7a067ab52c6fd1ef6276bee",
+          "bytes": 14850674
+        },
+        "c1.cinematic.json": {
+          "sha256": "d3d39997f70742f23cd8e82f8cc286e8fbd596bde09b6bbc384c431b6e2584ca",
+          "bytes": 93723
+        },
+        "c1.timing.json": {
+          "sha256": "f66d6e7f07eef4b0ba30fc9c36ab239ad1709d7d46dbe92869a4fb832725d4ed",
+          "bytes": 55211
+        },
+        "c1.ambient.opus": {
+          "sha256": "9dfd3b2d9fdb9cbec21101e4158a792c43843b80b329334232d442cb013c5d36",
+          "bytes": 666192
+        }
+      }
+    },
+    {
+      "book": "extraterrestrials-took-me-to-their-planet",
+      "lang": "zh",
+      "chapter": 3,
+      "duration_seconds": 5181.177165532882,
+      "cached_narration_clips": 264,
+      "artifacts": {
+        "c3.ambient.opus": {
+          "sha256": "62bc096ab7923bbb5f6bc3211abff0746cbf93439b4bec61501d1288ffecd1db",
+          "bytes": 1176289
+        },
+        "c3.timing.json": {
+          "sha256": "587ea1b6c84f8ce80ee9b7cb9366c51068ca206f9463355108bc4da3938b6e50",
+          "bytes": 126876
+        },
+        "c3.cinematic.json": {
+          "sha256": "e41be52e625c5933c6db450f0f50b56fe72d1632687da26c892766d7385cf9de",
+          "bytes": 210477
+        },
+        "c3.opus": {
+          "sha256": "a02d47d0a6a0a715cfdb46ab44f0674915bd7b14b46f03d62c76ac955dbf8266",
+          "bytes": 25581410
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "de",
+      "chapter": 1,
+      "duration_seconds": 914.9120634920624,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "cc95a3d7aec5ae9f77b101f564549cac57db0da9c35628f2a498df7b32567a50",
+          "bytes": 14639481
+        },
+        "c1.opus": {
+          "sha256": "be431fd33d6c410a5558f257cb5b8a415e442a15e5fbd6b715e2106501801186",
+          "bytes": 4387467
+        },
+        "c1.cinematic.json": {
+          "sha256": "611139e6f5d4014a55a8b6d88bdf1df369c328b34e8826aa828b118bcb2aa50b",
+          "bytes": 232383
+        },
+        "c1.timing.json": {
+          "sha256": "c082a9ed18494ff555be049f897c6b38c9b1b95d847d2db441e3baf6463bba33",
+          "bytes": 199360
+        },
+        "c1.ambient.opus": {
+          "sha256": "04f80b0541cf6f4cdb0a0b0991f87c48cd826b7a67d724ff6dc5b3fa63c4b212",
+          "bytes": 801709
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "de",
+      "chapter": 2,
+      "duration_seconds": 1491.6508843537404,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "b5a7a357cbf54c2291e27d5d9eaf723909d633570e69aed01f5a3fb8c6a02bd3",
+          "bytes": 23867602
+        },
+        "c2.ambient.opus": {
+          "sha256": "5b30247d8ac578ec96c2518fc5203fdf9f9e33435ab7577cfd66426c17fd9c71",
+          "bytes": 338751
+        },
+        "c2.opus": {
+          "sha256": "993b1a77eec40a6171b433b17e78482338d90a0bcea0ec442e83f5228838e3b8",
+          "bytes": 7322551
+        },
+        "c2.timing.json": {
+          "sha256": "92a55490175ca9422bfa4d232ccc824a1c0970c49cb95f5180d7b2a4600f738e",
+          "bytes": 369931
+        },
+        "c2.cinematic.json": {
+          "sha256": "6a4ddf04ff41cf523b214e2a0c19a4a44e7002a02738e543b3962898f86265a8",
+          "bytes": 418227
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "de",
+      "chapter": 5,
+      "duration_seconds": 1687.2198412698415,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "189b5d4c6c5dc6fb6902a012d16a20c723efc9359afff891f31448bde3461eac",
+          "bytes": 383159
+        },
+        "c5.timing.json": {
+          "sha256": "276158a9fa1cc9f54bb5290f5063ac0777a268205c5c6bbdac5861fd6e4141f4",
+          "bytes": 420530
+        },
+        "c5.cinematic.json": {
+          "sha256": "d93f025ac5ee52b15c53ef189f462e9dc29aae992f289306dc5de637491f7554",
+          "bytes": 474537
+        },
+        "c5.opus": {
+          "sha256": "b128437171c0af8aa1642495b6e39bed2095e1bc42868071bb7aae6847e45948",
+          "bytes": 8336040
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "de",
+      "chapter": 6,
+      "duration_seconds": 1085.0278231292514,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "2cba257f6fb04eb912d1bb0f83193824ec451cdda363d426df25a4daff441fd7",
+          "bytes": 268445
+        },
+        "c6.opus": {
+          "sha256": "408bab56a8464309612839b6166bbf5ac091be97b01e01c40ff1fce84816878b",
+          "bytes": 5384250
+        },
+        "c6.mp3": {
+          "sha256": "2b1b542d722a45cdbee96ff493f7c37c5993db97eac850c0b4c0ee3b65556a8a",
+          "bytes": 17361649
+        },
+        "c6.cinematic.json": {
+          "sha256": "835b8718971a1bde61dd4de37e2fe7b3c8291b7f8b3e1b7c77478343967b5c74",
+          "bytes": 305867
+        },
+        "c6.ambient.opus": {
+          "sha256": "bfe2e37b792863b9eb150317e78c7306d1b06a97ed67de04017f8a23b18b0955",
+          "bytes": 246465
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "de",
+      "chapter": 7,
+      "duration_seconds": 1796.910544217687,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "479be5ae83c901fc5dab7c6e2b38d44cd1240a6b9455367e0b21ea0dd25640e0",
+          "bytes": 8758760
+        },
+        "c7.timing.json": {
+          "sha256": "e9700025e74418c368500de5d04958473b01bbd139f1801ddae8d1efd68b24e5",
+          "bytes": 410737
+        },
+        "c7.ambient.opus": {
+          "sha256": "df99a32688c12f9c705700a961f6ca20fd19d6a3ba564fc490a172e1c4c4a8a1",
+          "bytes": 408038
+        },
+        "c7.cinematic.json": {
+          "sha256": "79ab4ca16d8adee1ebab664af2fe7962437311efb90b320a4c9b68324f2c06dc",
+          "bytes": 463764
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "en",
+      "chapter": 1,
+      "duration_seconds": 781.7488888888876,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "b486c669719feda627749fbded5d6407dd283213a00342e21e008c8264cb274f",
+          "bytes": 12509143
+        },
+        "c1.opus": {
+          "sha256": "11e1032aa1ced610723ab61561dd51dad72a4dbc82c25de5b5fee32cedf70fb4",
+          "bytes": 3729934
+        },
+        "c1.cinematic.json": {
+          "sha256": "a39b37de82c52ab1f14f17a28198f27dfe527a03f4bb450cf9c7f1f0df7e4e87",
+          "bytes": 223675
+        },
+        "c1.timing.json": {
+          "sha256": "6d063c4e87a282ff8af48d5c61be2e36eb84d10f17ff98b2a369d22b0c71e6a2",
+          "bytes": 193309
+        },
+        "c1.ambient.opus": {
+          "sha256": "60b657da70894da1f4fef02d8edb76e308a865ed633834d60945ff7aa276b873",
+          "bytes": 673482
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "en",
+      "chapter": 2,
+      "duration_seconds": 1405.4435827664383,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "cf8c483b42317c5d468c9c8cc2c2c862bbcf98f029dacdc13144c17459e5e510",
+          "bytes": 22488336
+        },
+        "c2.ambient.opus": {
+          "sha256": "608a2914467d3688751fc72738e820c7a98477724aeb3fd89db77ae3830fe1e5",
+          "bytes": 319189
+        },
+        "c2.opus": {
+          "sha256": "30007dab81dd1e942b8c8a4107317f7774a418c73f422c7eb506e9affe451a21",
+          "bytes": 6861586
+        },
+        "c2.timing.json": {
+          "sha256": "c525c0294512a0ca9579e69879fe57ca15f630bbbb9078fa5d82bc9d96bcac2b",
+          "bytes": 384924
+        },
+        "c2.cinematic.json": {
+          "sha256": "a97a622422155696ed26454f5ef363f59cf8eec80c14f5e67a40097cc67fa7a3",
+          "bytes": 430680
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "en",
+      "chapter": 5,
+      "duration_seconds": 1571.0641269841271,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "e9e886df8cfcb49feb28d9b1f9c265beb4deabb47fa68355d5ec6512facad16f",
+          "bytes": 356795
+        },
+        "c5.mp3": {
+          "sha256": "1f01bf6564d23f7e1031245d933a7ca71e5f99ac37de7742c2e0c9ec2bee1673",
+          "bytes": 25138198
+        },
+        "c5.timing.json": {
+          "sha256": "bbeea63eaed5620d91ce0240e8f51b3bd89de50dbc6bcb0975a4d42fe3ea33a3",
+          "bytes": 433349
+        },
+        "c5.cinematic.json": {
+          "sha256": "bdde8e169965a5efc6545f1e1e3db535cb5592d58a724c5cd0c8465ab079ca99",
+          "bytes": 482437
+        },
+        "c5.opus": {
+          "sha256": "910dc352d1cd9e469e48920179aa902d445a1245f549ecd09ae3f6eb8d247db1",
+          "bytes": 7671357
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "en",
+      "chapter": 6,
+      "duration_seconds": 1016.9052154195015,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "155b169c29e8395fd45ad92587d3d6cdcd916d1b6431237810e0b6d2183e8444",
+          "bytes": 276755
+        },
+        "c6.opus": {
+          "sha256": "f04f917bfd8a3d797c4e9a7042b5658a3ad50e82a4944ad86e66104fdaea953f",
+          "bytes": 4981481
+        },
+        "c6.mp3": {
+          "sha256": "a7b3892541f60c18622c3f860e13840f24233afce349dc20d2b50aa165df90c3",
+          "bytes": 16271612
+        },
+        "c6.cinematic.json": {
+          "sha256": "679f63a4b30e21332e3f6754a321d6eb9a2941a8df65e3b312f7efbf1cf898a4",
+          "bytes": 311885
+        },
+        "c6.ambient.opus": {
+          "sha256": "0d2e4b4d8ecb1b7477cf174ad6b82f90e54502f2fa9258b5473cbac7810ca4cb",
+          "bytes": 230978
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "en",
+      "chapter": 7,
+      "duration_seconds": 1625.8771655328794,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "aee18569a58673126151473216c50a47f435901101234f72cb3d3c21988a006a",
+          "bytes": 7892486
+        },
+        "c7.mp3": {
+          "sha256": "64ebf25a9decfe9f385a6299b954815b6a7cee388b03d042e24cb86aac48416c",
+          "bytes": 26015076
+        },
+        "c7.timing.json": {
+          "sha256": "1d0985c800bd5ec0dd26d35e3e8866a823cdd90cb15dc7137628dd291774e858",
+          "bytes": 425885
+        },
+        "c7.ambient.opus": {
+          "sha256": "11d41bf5b695c008ab588d691db4532bec0cfa9951ee2211958e0f11001c6847",
+          "bytes": 369217
+        },
+        "c7.cinematic.json": {
+          "sha256": "f511e25cc51da9fc4761bbbf1294f183dceef5a673951b4f7b10e20e3230c691",
+          "bytes": 475357
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "es",
+      "chapter": 1,
+      "duration_seconds": 844.9576190476176,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "b8dc00ca3b4ad6c27efec2d1216e5c2393fbe2480342dce72eed2ec37dc23ad7",
+          "bytes": 13520604
+        },
+        "c1.opus": {
+          "sha256": "675a7bc27de6b8f58b6526fd24ee29f5df0e564b9bb2990e105f3a4e7d390423",
+          "bytes": 4064279
+        },
+        "c1.cinematic.json": {
+          "sha256": "7862e99cbae3a6c30e058cdfec35b0a6c44c92c43aac9928b40ca410709e0ac9",
+          "bytes": 224241
+        },
+        "c1.timing.json": {
+          "sha256": "1db4525da74594d9e561e4f3215c194560ee2845affba4918dc51cc581b34994",
+          "bytes": 193078
+        },
+        "c1.ambient.opus": {
+          "sha256": "7e63a64cb521f83b8f692b9ea8f0a31bb120bdccce0b757680e6e52deababe1d",
+          "bytes": 740900
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "es",
+      "chapter": 2,
+      "duration_seconds": 1513.9053287981847,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "6508ee868ed7313a9429a3bd84a5df49f6495fb6cbd4c9160abc48d0b68aee27",
+          "bytes": 24223703
+        },
+        "c2.ambient.opus": {
+          "sha256": "eb33af7c3a7af06167b6f7f851a9c26801e4c6350530f4ee14831a44d7c2aca9",
+          "bytes": 343797
+        },
+        "c2.opus": {
+          "sha256": "8d9290f9372a331445d159b77ff5e6a681e385d221635f0e1290e6b3f93ddc07",
+          "bytes": 7443868
+        },
+        "c2.timing.json": {
+          "sha256": "f96952b36cb8e71776e517fb8193da3d0826a5992037f1e4a21a17aeef8bee56",
+          "bytes": 380155
+        },
+        "c2.cinematic.json": {
+          "sha256": "9f1672983de4f0a10734ccd339e861b2aa3160a42d726a0a53736ec5fe960d31",
+          "bytes": 427609
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "es",
+      "chapter": 5,
+      "duration_seconds": 1658.0301587301587,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "faa1c9cbd0c42119afbd9e11fa7468358a5c3430444f744042c76d2e4b746049",
+          "bytes": 376536
+        },
+        "c5.timing.json": {
+          "sha256": "0124fad051a8c3f705fc0b294bdfe710c1f8616709b01c3c4105ba5386f759bb",
+          "bytes": 421187
+        },
+        "c5.cinematic.json": {
+          "sha256": "e9a478f691b9893d9da0c0ec5fb29b14d76d50e132a67dffea35fc5633804689",
+          "bytes": 472808
+        },
+        "c5.opus": {
+          "sha256": "33dd55b31a145d4862e262513d0e163152108b706ca4d671d8e06927c49819ad",
+          "bytes": 8157235
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "es",
+      "chapter": 6,
+      "duration_seconds": 1059.0873242630387,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "855646887105622a6cad1d7f847bc3cf4673323d2223b23f5bd6faec7aad0ea1",
+          "bytes": 269147
+        },
+        "c6.opus": {
+          "sha256": "162309381c3c918aab3683ffc3b45e1e035bac9e8e8268a9890abf2923183468",
+          "bytes": 5246842
+        },
+        "c6.mp3": {
+          "sha256": "d68f1966ffd25be1082e9e6663e3fe955ed19ef13672fc76ee4924f3c47fb4f7",
+          "bytes": 16946616
+        },
+        "c6.cinematic.json": {
+          "sha256": "287c8723e1a94dd17609a311c4b87b03bd079106d6d828f9951b21d41933501d",
+          "bytes": 304833
+        },
+        "c6.ambient.opus": {
+          "sha256": "ec6b3c9901a1fb29a72ee613135e20d43280ddf35b1241f16a7c6fc499d4b7ec",
+          "bytes": 240575
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "es",
+      "chapter": 7,
+      "duration_seconds": 1710.1224943310658,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "74f4188b8c4fc0188177105928303894d305d570b466076b165f264d82235ea6",
+          "bytes": 8365038
+        },
+        "c7.timing.json": {
+          "sha256": "52516259d315c3336ad7812da62a932cf0c6c01c1d14458c2b8c4b39aefb889c",
+          "bytes": 399973
+        },
+        "c7.ambient.opus": {
+          "sha256": "295ee857b9c5d4a20f195532ed97ee9908a794dcbe920bc3552b106840e8e4ef",
+          "bytes": 388360
+        },
+        "c7.cinematic.json": {
+          "sha256": "7ac06aec78454b9d7c9c6ff386221f603af0db00b6851069b150ec62ba405e90",
+          "bytes": 450213
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "fr",
+      "chapter": 1,
+      "duration_seconds": 853.8686621315181,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "4f9fcaac4ee95e6af9b0d10a76c13977deb412f806c5b8be0a395f0f2a0476d0",
+          "bytes": 13663128
+        },
+        "c1.opus": {
+          "sha256": "46b473afb4c8c3633c63b6262045d028f88d2211d178d6d282f9ae1dffc2bef5",
+          "bytes": 4059622
+        },
+        "c1.cinematic.json": {
+          "sha256": "ed20f691721505ac9c97d4ca75934a4cafbbe848ab1ce9eadf673da3f5a3c25c",
+          "bytes": 228396
+        },
+        "c1.timing.json": {
+          "sha256": "dadeb3bc87dbdaf25af5231bbf64b6455443909e9f428bd22f07591de6ba8224",
+          "bytes": 196431
+        },
+        "c1.ambient.opus": {
+          "sha256": "3704e251d5239cc9fa84cf9524b3997d663ad742284f26ed45e04615f81ffc15",
+          "bytes": 760704
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "fr",
+      "chapter": 2,
+      "duration_seconds": 1450.7790702947837,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "fc8da3b2772d1a63957fa2e65481435e8be9b7c8269f6d9c7773232d5c79a80e",
+          "bytes": 23213496
+        },
+        "c2.ambient.opus": {
+          "sha256": "7e264c6f81f951e22b4db380451b901e0f1aed3ce0eb2991ee5c9cce7c7d98dd",
+          "bytes": 329472
+        },
+        "c2.opus": {
+          "sha256": "814d93ad7922a85250be8b65ea9af38bd514a6c7f0c830cc8a80e7a2b79699fd",
+          "bytes": 7076074
+        },
+        "c2.timing.json": {
+          "sha256": "dc62e2d534661c61fd2364b603f43f25170c0c9ba7ded631929f11300b75f968",
+          "bytes": 386634
+        },
+        "c2.cinematic.json": {
+          "sha256": "1baf52fb63f8cb452c1a3bc6651857e4c268971d924fe7f3f603e10c480d4610",
+          "bytes": 435003
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "fr",
+      "chapter": 5,
+      "duration_seconds": 1553.7236281179137,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "03cd5a19f0667b95bbe374cd276aa784f69f298200751bd097a5b68920baa0d8",
+          "bytes": 352841
+        },
+        "c5.mp3": {
+          "sha256": "db969ee51cfcaee273a64e3221a6909bad2b61401b326bac93bb7bcf9a25a11f",
+          "bytes": 24860673
+        },
+        "c5.timing.json": {
+          "sha256": "3f07db57b99e803a7fc944c06aaa1871131d8492c9c844d79874be6ac1f58f75",
+          "bytes": 420707
+        },
+        "c5.cinematic.json": {
+          "sha256": "906df3c91cc6fb767b14b591089afae13880df2dc5525ea8936f95f7e02f60d7",
+          "bytes": 471835
+        },
+        "c5.opus": {
+          "sha256": "19cc22d6c9226b39175a5fc1069b759df7d0d9de3008db7b53b5df10e15403a8",
+          "bytes": 7605950
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "fr",
+      "chapter": 6,
+      "duration_seconds": 1013.4020181405898,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "9a37428fd8be541f6895216692731e6f77df4d7e7952cb352b936384532b8169",
+          "bytes": 267084
+        },
+        "c6.opus": {
+          "sha256": "54fba80226bceb481f638248af0328fe3fd33b95520d0cc4cd1157dcf98aa309",
+          "bytes": 4984779
+        },
+        "c6.mp3": {
+          "sha256": "a014750dcd419dbe5cd4a2ccb368ce34df8d48a3440d9b1e81c7b61d2e9512e0",
+          "bytes": 16215605
+        },
+        "c6.cinematic.json": {
+          "sha256": "c159824bd858c7605e143b5b91789832e78e8af4f98d107f4802e24bddfcb786",
+          "bytes": 303211
+        },
+        "c6.ambient.opus": {
+          "sha256": "35299808f13a03c6da279b10eea258753f7cc6c4544111bcea4d3829e5a8f184",
+          "bytes": 230197
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "fr",
+      "chapter": 7,
+      "duration_seconds": 1638.2160090702932,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "8d99e327f60d3a0d53384c5024ac4594280850283f6fdfa01c4ed33b7df32aa5",
+          "bytes": 7956089
+        },
+        "c7.mp3": {
+          "sha256": "26614cf2643c35d4ce06593b07fc9c6d0690a1e2b5eda56a1fbf5834bf19b37a",
+          "bytes": 26212353
+        },
+        "c7.timing.json": {
+          "sha256": "f25f2fa175c3fa6c2783c7787cc25c6d83ca99ce4df1412924ccb3db25762f41",
+          "bytes": 414521
+        },
+        "c7.ambient.opus": {
+          "sha256": "962384a9285e0e2f8458cf2ebe5afa2086fb46ff2261eeeed5566663cb5a254f",
+          "bytes": 372036
+        },
+        "c7.cinematic.json": {
+          "sha256": "614e46a023eb02d0d3dc9801daaaef2770db91fbe1d7817a2d70d9c7cf4cfb67",
+          "bytes": 466022
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "he",
+      "chapter": 1,
+      "duration_seconds": 751.4399999999986,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "c73d057c50a62bf908664d21f3c6c0543543d2426fc01d69db836aa7875e62ab",
+          "bytes": 12024310
+        },
+        "c1.opus": {
+          "sha256": "23549b690ec90cc6099ae835b15b1281f8963f3d8714c10421f30edf541eda4f",
+          "bytes": 3639741
+        },
+        "c1.cinematic.json": {
+          "sha256": "d151ba3e2f3a6df45ade525298f3a1256ef7062138744eba75565f5af1fd8eda",
+          "bytes": 183981
+        },
+        "c1.timing.json": {
+          "sha256": "c6d2e2b9a50852110610ba1e4b27cde77fec2150263429a2c6cb4c3885d0f3af",
+          "bytes": 150126
+        },
+        "c1.ambient.opus": {
+          "sha256": "996709ef3344bce5577fefaece80bc2ad086021e1642c6652e5202fed0c4de9b",
+          "bytes": 560326
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "he",
+      "chapter": 2,
+      "duration_seconds": 1421.2799999999993,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "f648063a8d7b21eb751c5df5603fb1984dcc3b96608b07d7ab9df425f7a96a03",
+          "bytes": 22741620
+        },
+        "c2.ambient.opus": {
+          "sha256": "2c1bdb84af65128fc0f4142b18cfc15fa298551754b18c7d3f51b6108b4650f9",
+          "bytes": 322789
+        },
+        "c2.opus": {
+          "sha256": "615c17e88df53531fc33a04f166ed4e16c4ac7df68addd1b867979d9fb22ed10",
+          "bytes": 7041319
+        },
+        "c2.timing.json": {
+          "sha256": "f9844cef63fad5508852941288bd9c8518214e8d7f6b6a9aabb0fea7aaebf431",
+          "bytes": 274739
+        },
+        "c2.cinematic.json": {
+          "sha256": "4e5ccc35132a8a31964e44abd6708f0e9bb3b7de4ed715f75725720f89d8c25d",
+          "bytes": 324702
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "he",
+      "chapter": 5,
+      "duration_seconds": 1582.84,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "c8227e52adf24cd7c7c3598d6370e0086959987a1cd4137a4110327d14106139",
+          "bytes": 359448
+        },
+        "c5.mp3": {
+          "sha256": "ab11f6f6feef7e78500d38d55810a185aafc74ed855331d61818caef61c9c766",
+          "bytes": 25326697
+        },
+        "c5.timing.json": {
+          "sha256": "28d69aa730c4f877a1ce1faa551b7f5170c17935f948fda59d76a0782cb2eb67",
+          "bytes": 293920
+        },
+        "c5.cinematic.json": {
+          "sha256": "a54b8eb4e54ff9a068461189baa6fd01a74775f059e561b0c5905e13ca30f2e4",
+          "bytes": 346230
+        },
+        "c5.opus": {
+          "sha256": "35f0cd6643a4380bd01763ea91535208bbed38f48fc563f7a9157b105a069505",
+          "bytes": 7827179
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "he",
+      "chapter": 6,
+      "duration_seconds": 1055.8600000000001,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "73cd0db4847e858f2cc4d74d4aa15321df1579e7b24ab9d3742622fefbb79963",
+          "bytes": 191408
+        },
+        "c6.opus": {
+          "sha256": "fc9d280ffe1fad68d464c36b17e346677673b0f67c619e8d748d2e9f5510fcd7",
+          "bytes": 5215189
+        },
+        "c6.mp3": {
+          "sha256": "14e64649344b7318b5ec72fc7a14914dd129b449d225b7a8892911f7d1b453f3",
+          "bytes": 16894789
+        },
+        "c6.cinematic.json": {
+          "sha256": "751d1f5e50cd2337d4f98d1247c1d8aa65c51ed2ec180920eeea8ba1a6916145",
+          "bytes": 229376
+        },
+        "c6.ambient.opus": {
+          "sha256": "1b6839f7b08816a4a74a8edc9c393d7501a79b7c161c691bfd090f1d1602e114",
+          "bytes": 239823
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "he",
+      "chapter": 7,
+      "duration_seconds": 1597.4600000000005,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "8800cb19dba97384548559642d5c692fd8e27d9cc9ee8959c5cdbfae2d3632d4",
+          "bytes": 7903352
+        },
+        "c7.mp3": {
+          "sha256": "f9a5e517fb3165611026c55f87357a685b9ac0d93b465396347b1119039921df",
+          "bytes": 25560336
+        },
+        "c7.timing.json": {
+          "sha256": "4d750a54943b1f6d6cca73b1ab173cdbabd2f98cd23cd4f76905f9d350289426",
+          "bytes": 308790
+        },
+        "c7.ambient.opus": {
+          "sha256": "8115d56e487658c7718d280a7f7f5bc2ce5ca57f9087eb89891fd868e13b56c4",
+          "bytes": 362777
+        },
+        "c7.cinematic.json": {
+          "sha256": "47a27739819bafcd9ff9afa8a5818750fec35164b6a3f7e8f2c5394c63d973c5",
+          "bytes": 365043
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ja",
+      "chapter": 1,
+      "duration_seconds": 950.1508390022666,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "dbe6b776ddfe5ab115606c110cfc4d08f5df2e67cfe78021f514913a31c9e851",
+          "bytes": 15203308
+        },
+        "c1.opus": {
+          "sha256": "ceb650caafb4cc05f18c02b6bf132416ff508d5236d09795c873e4cc289b4dad",
+          "bytes": 4607879
+        },
+        "c1.cinematic.json": {
+          "sha256": "05565ebd627325ffa0b745c9bf4f31686d4f2bdf80bc008664cbe2836a355841",
+          "bytes": 50281
+        },
+        "c1.timing.json": {
+          "sha256": "1ec3a0090afc9781a815ba5bd1d7b455554c4934c6ca73a20a7b110494e7f740",
+          "bytes": 31269
+        },
+        "c1.ambient.opus": {
+          "sha256": "dd3579aff9b1d43df2537dd1a293ed948b359df9d4f401e453edaf793350b826",
+          "bytes": 778897
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ja",
+      "chapter": 2,
+      "duration_seconds": 1667.1718820861656,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.ambient.opus": {
+          "sha256": "d2e1671902b4a9459eb9ec7f67d652cb64b35ba015cebf6f2f646979b16021cc",
+          "bytes": 378607
+        },
+        "c2.opus": {
+          "sha256": "184ba3394b027008f81f22668342474403f5084b5d6cc623b3187d38bd132567",
+          "bytes": 8078935
+        },
+        "c2.timing.json": {
+          "sha256": "ddc6f350c8e0fea15bcc637c18d6d77b5445cdece45d26bac206f315286f82f9",
+          "bytes": 51066
+        },
+        "c2.cinematic.json": {
+          "sha256": "8a7b89e55bb9862a7d3749e835b258d1567f6f47c78e2712ae0fbf6139514794",
+          "bytes": 84015
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ja",
+      "chapter": 5,
+      "duration_seconds": 1834.862176870748,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "c45dbd43c16d6153e36e4213fa8d5b3fe26b0e2910a942c785da9a9ac373c74b",
+          "bytes": 416656
+        },
+        "c5.timing.json": {
+          "sha256": "679f792d9f39f837a34f70e37c297898886afb2cb130771cdaadf02fc7b0abed",
+          "bytes": 46860
+        },
+        "c5.cinematic.json": {
+          "sha256": "a7a84f6efaffb6925d4b028f5ea7b6d05755a6033ab3a9a9ae4c7bd3d69450e6",
+          "bytes": 80990
+        },
+        "c5.opus": {
+          "sha256": "b1e2c2fae0a157a053d8911aedc3706e5367e1b42e11c0c5e3927233ef97897b",
+          "bytes": 8925896
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ja",
+      "chapter": 6,
+      "duration_seconds": 1167.7074603174601,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "88ece7a93aed0ca05b92d51ea6b4282dbfbed79f0257ebee812b30bd26aef5c9",
+          "bytes": 25657
+        },
+        "c6.opus": {
+          "sha256": "8169ed8938f4cc78987205b4001b11ed57df81930e72bd82ef91b3e6e891f56d",
+          "bytes": 5679701
+        },
+        "c6.mp3": {
+          "sha256": "54700edb5c509178ccad9f381a5a183de73d1c203411e21b54e33b67f122fa02",
+          "bytes": 18684490
+        },
+        "c6.cinematic.json": {
+          "sha256": "158b35a98e5c19272d040588f8793f61a6311c4831bb83034dd6e07603fda47e",
+          "bytes": 46724
+        },
+        "c6.ambient.opus": {
+          "sha256": "440cc6ff5f4226a171df1e2926acb568fbb5335f53be686c187fb3a202033039",
+          "bytes": 265215
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ja",
+      "chapter": 7,
+      "duration_seconds": 1948.2607256235826,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "edd769f8cd49952dbbf97b4be93de67fa55158aa08f07d0c83c84a6b477cdb4a",
+          "bytes": 9458819
+        },
+        "c7.timing.json": {
+          "sha256": "328dd32fd29b30dbc42f145c5a90dbe52c164ad19d02c9a91cf5c334d377a904",
+          "bytes": 49116
+        },
+        "c7.ambient.opus": {
+          "sha256": "fbcb457527cfaed6ff64c6c9a0ca35b310caf79c864c34ed7a88876a53c955e2",
+          "bytes": 442414
+        },
+        "c7.cinematic.json": {
+          "sha256": "f3cf7fe9614c2db309fea156dba0183f2f442a5c3bc069086e248d4e422e502e",
+          "bytes": 84633
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ko",
+      "chapter": 1,
+      "duration_seconds": 970.8279818594095,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "4863203808f12e076f0b2cae247b29d1d3d9ce1581164411faff8abf8edb1768",
+          "bytes": 15534332
+        },
+        "c1.opus": {
+          "sha256": "5acf11daee75eb54383aa1e3cd9aa85f6a168740fb9289a679157336bf6d78bb",
+          "bytes": 4667864
+        },
+        "c1.cinematic.json": {
+          "sha256": "551a363a667c6a0a6bb18c2e94563d52709498652942ea7c25e26bc1ff8dc1d5",
+          "bytes": 191951
+        },
+        "c1.timing.json": {
+          "sha256": "31b284c860a4af735cdff29e8a0677cb8dc015ca3e7b62c12fa02b31e8d454af",
+          "bytes": 154670
+        },
+        "c1.ambient.opus": {
+          "sha256": "61a1ed9685ca8c009ee9019d79a72a30b0e5a1728fb75ec95d3e81bf135ae7ce",
+          "bytes": 883863
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ko",
+      "chapter": 2,
+      "duration_seconds": 1495.7243083900219,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "a930cd7b3bb3e6e62f9ad9fe9dd4c026e18a120a0fa7e9921bef9be1d652a679",
+          "bytes": 23932803
+        },
+        "c2.ambient.opus": {
+          "sha256": "0df285bf7042634ed6b8f0dd5b85a838e29cf206e44580610c4fba71912268c5",
+          "bytes": 339675
+        },
+        "c2.opus": {
+          "sha256": "cd729731d929bd4642de2ae6f0cc0457dc7f1865c210e9b3f6c030e3c14029d6",
+          "bytes": 7316286
+        },
+        "c2.timing.json": {
+          "sha256": "c08c53c0331708886d885497c5d196d5c40209d4080dfc5398181210ba488c1f",
+          "bytes": 266564
+        },
+        "c2.cinematic.json": {
+          "sha256": "532f9b53ce6ac4e3749410be5361d13a13b01c61ac1871d1377347ecb64a8a78",
+          "bytes": 320354
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ko",
+      "chapter": 5,
+      "duration_seconds": 1661.3038095238096,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "3899cbadfe56c74811c85bea25bb4f2c6d15a6d422d9e92d62a977edcccaf5f8",
+          "bytes": 377273
+        },
+        "c5.timing.json": {
+          "sha256": "8879a946991b143d4a02663dc15d31c64b8dba27d91bd631cbf01b94c522a8f8",
+          "bytes": 297353
+        },
+        "c5.cinematic.json": {
+          "sha256": "d9b5928db8a7d048d44646ef6baf2d1ed9c834a1a6b5d69ce8a9b5e50ad45b0e",
+          "bytes": 358812
+        },
+        "c5.opus": {
+          "sha256": "9484ae9604c64c31f364bf208a86ae9e9b0c04713b5fe1627b97e90eb09d3cf9",
+          "bytes": 8126590
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ko",
+      "chapter": 6,
+      "duration_seconds": 1059.264761904762,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "5a5eb58f36864c60856c6d9bf21770bee17902b992ca95d9a968dc6f2f58d7b6",
+          "bytes": 192111
+        },
+        "c6.opus": {
+          "sha256": "cdfb94d79f8ac92cdc132405fb6b21390158c5dd37374666f00a902c798f5515",
+          "bytes": 5199934
+        },
+        "c6.mp3": {
+          "sha256": "fed80e10daf6855b1906df87340cc6ec7e953d9a8acddc1f04d1ab68fb3553ce",
+          "bytes": 16949123
+        },
+        "c6.cinematic.json": {
+          "sha256": "3cab1179c04d360d8950063d23d7d9321fd25c3facb40c5d588ba185f13c2e2a",
+          "bytes": 233990
+        },
+        "c6.ambient.opus": {
+          "sha256": "47f0a72bde79d73b73461b500f4e3bf41da95cf451c43f02a76d84c8531aa22b",
+          "bytes": 240611
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ko",
+      "chapter": 7,
+      "duration_seconds": 1786.633605442177,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "2496e41ea10114ffc3c25f7ef6a8cae166d05ce95417c465983ad015effc4d40",
+          "bytes": 8713051
+        },
+        "c7.timing.json": {
+          "sha256": "b1c25fe747114b19e586717da7d46c92b5b83a968db32292a86df9cba56e9ec4",
+          "bytes": 304109
+        },
+        "c7.ambient.opus": {
+          "sha256": "e0531ca261df682df46adca4b72c022712296766919a2744faa974cc3e308224",
+          "bytes": 405716
+        },
+        "c7.cinematic.json": {
+          "sha256": "67103d268b16f06866ec059b0dc126e0ec614660a0b6984eb979e124ace210e9",
+          "bytes": 364807
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ru",
+      "chapter": 1,
+      "duration_seconds": 818.1715873015861,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "66b4af9981137cefe318c7884fb574120c5d7f5c11a32346682f1220ae4c25ca",
+          "bytes": 13091778
+        },
+        "c1.opus": {
+          "sha256": "90fcbb7f0882587b644f7ad7519b528da9536bff5fd5ff817303354754fefc31",
+          "bytes": 3998198
+        },
+        "c1.cinematic.json": {
+          "sha256": "5e0462311527678361ff09b67f3662ecf4bb8a9d96349b4ddcae8a07a0300e10",
+          "bytes": 216018
+        },
+        "c1.timing.json": {
+          "sha256": "050778f49fe610e083ddcb12ffe0946bd58e98885f2d5e40c8617920ff73e6bc",
+          "bytes": 177152
+        },
+        "c1.ambient.opus": {
+          "sha256": "4f2e41f4caf0512fb092ddcd2f16950243017332b70d3c1988cdd4ada197dcf4",
+          "bytes": 722341
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ru",
+      "chapter": 2,
+      "duration_seconds": 1421.8027210884347,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "ab598a936f0402f1c47b7c986c55d3aa086a6f7bfe3709653e07d5e7735c608e",
+          "bytes": 22749979
+        },
+        "c2.ambient.opus": {
+          "sha256": "03817f42f2fa8758fbfc3add58a4a36dca1eb9a6b36130a4ea9ff39ec7873060",
+          "bytes": 322893
+        },
+        "c2.opus": {
+          "sha256": "cc1567faf8b845f03e6783964bdac828d20d9ef0d24b9ee87f8080f4aadf5219",
+          "bytes": 7039945
+        },
+        "c2.timing.json": {
+          "sha256": "c886578381f7c64bcd7e6da0f2712d33e25357361c1f36a4b75b9155c0bbe16f",
+          "bytes": 324812
+        },
+        "c2.cinematic.json": {
+          "sha256": "5ec7df8dda8718cb81cc0198b10935c7848270bb465298da242c32b8b59a2593",
+          "bytes": 385381
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ru",
+      "chapter": 5,
+      "duration_seconds": 1618.3682086167798,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "43bcc5afc9300f820569bc37edc5f5367747696cd5fe236d40f88b0858104028",
+          "bytes": 367524
+        },
+        "c5.mp3": {
+          "sha256": "ae48a085156b6be48408cd56af4ff1add36a59efc93bcae4c2f2023513b1c9f8",
+          "bytes": 25895122
+        },
+        "c5.timing.json": {
+          "sha256": "f991c6478e7a87d0976c2a5773e98e21f807a37c6ab227ea09abb04f619d0418",
+          "bytes": 359876
+        },
+        "c5.cinematic.json": {
+          "sha256": "cff6bf6c9e32c83a01ddf70c8e7879f3e2b911e98e7b1f9419200b6d51114fdf",
+          "bytes": 426491
+        },
+        "c5.opus": {
+          "sha256": "72243f3b2e07719ad6f9a138e707fb3c0f8059ce6205a6ba1c0c083108765d92",
+          "bytes": 8048262
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ru",
+      "chapter": 6,
+      "duration_seconds": 1071.3745351473926,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "5570e2d4547f492fc4df49c6d6d182731b0698b1873d7a3b66f0f5fee37f30dc",
+          "bytes": 238569
+        },
+        "c6.opus": {
+          "sha256": "23afc7a23aaf0fbbd3e89cb2b24689dc296c6f1e7511450295469465f52ca0c6",
+          "bytes": 5354677
+        },
+        "c6.mp3": {
+          "sha256": "bd66a9dcad331360be14b2256e899ac877aaaa9898e80a988a04009f9642ab8c",
+          "bytes": 17143056
+        },
+        "c6.cinematic.json": {
+          "sha256": "7526120e32a8504cf8a1c48daec3218b118c59262d72582505a03d24709fe169",
+          "bytes": 285582
+        },
+        "c6.ambient.opus": {
+          "sha256": "0338a2f5cc84514585c14c37750db3e0997d55a95e1dcaa8be9d6aead812969c",
+          "bytes": 243359
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "ru",
+      "chapter": 7,
+      "duration_seconds": 1657.077596371881,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "784745f141681a1c532ceff66dd6e7bf9da33310cb70e03f611f5b42c698b47c",
+          "bytes": 8199238
+        },
+        "c7.timing.json": {
+          "sha256": "79e3e4fbe15989ade2de34ee4c8f3a828a0c8c3a054be169645cb6994e5b5b9d",
+          "bytes": 366056
+        },
+        "c7.ambient.opus": {
+          "sha256": "15390226742e96441f16ed0cfa1d6880cf035c78ed934bcf26e1d4485fddb2e6",
+          "bytes": 376321
+        },
+        "c7.cinematic.json": {
+          "sha256": "71e447922ad9b31d5ca5bf13a7da1d7c92a50294a88df50f9cd1a6935c592766",
+          "bytes": 432652
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh-Hant",
+      "chapter": 1,
+      "duration_seconds": 873.3975056689333,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "d45ff3e6a4c7c3de2f5191c0b460920161cf69d26c85c5c08a0adcbe2b49640a",
+          "bytes": 13975344
+        },
+        "c1.opus": {
+          "sha256": "d62bcca1d88cd572d7e5a2f1b07599c789b37fc836ddba73ea2edc12d1ad73e1",
+          "bytes": 4243207
+        },
+        "c1.cinematic.json": {
+          "sha256": "a98dbe78acc6faefdc3bc6c262435920e7ec7c13fde1c44f79105b3451bb22e3",
+          "bytes": 40352
+        },
+        "c1.timing.json": {
+          "sha256": "539c832b1125cdd960ce66675a43073dc2f5a6374bd33834e354d7c85edac545",
+          "bytes": 26133
+        },
+        "c1.ambient.opus": {
+          "sha256": "0c3336c79bab96ae845432c5828042bde2bef8d3d7aa040e4b54001b632cf43d",
+          "bytes": 738251
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh-Hant",
+      "chapter": 2,
+      "duration_seconds": 1454.2915646258489,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "06fd7ae22f59f6bb91c07dcf6222512b9b1bfa719b668a5ab7f5b97ef8a49b02",
+          "bytes": 23269920
+        },
+        "c2.ambient.opus": {
+          "sha256": "a34187c5eed8dc63e118bb629b290de3fddfeef4a25b830f23356b39e8e2df67",
+          "bytes": 330280
+        },
+        "c2.opus": {
+          "sha256": "69f8a6173f1905887fb03f1efd7721bc2ab15234941a0f5a71e00b02bcf6933a",
+          "bytes": 7080985
+        },
+        "c2.timing.json": {
+          "sha256": "ca9ef3c090354b32e554a52c79182f1c60913f46dc6842ad30dcf18fffa70f22",
+          "bytes": 42518
+        },
+        "c2.cinematic.json": {
+          "sha256": "02fc2175c33efb8ee056d03243ea02f2fdd232bfe9839f8b8154c62609f88c13",
+          "bytes": 67742
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh-Hant",
+      "chapter": 5,
+      "duration_seconds": 1519.8689115646255,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "d8a3d8d9a944083009d6b6ba282ff1fa170d4bc2cf322e108f3df1e2b6a4dded",
+          "bytes": 345151
+        },
+        "c5.mp3": {
+          "sha256": "0b6d0ce1b6f2a5990dd30b5ba2847ad17979b3ef3874b79cd2911373870292e8",
+          "bytes": 24318998
+        },
+        "c5.timing.json": {
+          "sha256": "0f96d497efde25dd0adf67d177b1b37232ef1f84cdff996e6547862d030f90e1",
+          "bytes": 36856
+        },
+        "c5.cinematic.json": {
+          "sha256": "c12e84b2a06ea99c69c12d81da86094ae75f8bdeb0a14c8d63de83c54a53fc51",
+          "bytes": 60973
+        },
+        "c5.opus": {
+          "sha256": "f8ec7aae48aec2b7e20ef1642729cddbbda087c9633a7ce01411818a793bc446",
+          "bytes": 7429377
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh-Hant",
+      "chapter": 6,
+      "duration_seconds": 973.640770975057,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "c4fb9f948332af10db8cef89305db81d901e6919b0cb8f4e204630f08da1f07c",
+          "bytes": 19694
+        },
+        "c6.opus": {
+          "sha256": "b95c9d695954a71251e0a7b770d28bb323bc708499b230aebbfae620f366b957",
+          "bytes": 4787473
+        },
+        "c6.mp3": {
+          "sha256": "4b2f0cd404ebb4b8ae2f630c6310dd0fb5c22da8ea38e64f2b88ba8120701470",
+          "bytes": 15579471
+        },
+        "c6.cinematic.json": {
+          "sha256": "b85d43bac9d53af20a86535e6c51fda00dd31dc3e884989cbe2514963dc8a722",
+          "bytes": 34813
+        },
+        "c6.ambient.opus": {
+          "sha256": "bea8534992dd301cf58c97d920c0f63cec692a0f7d73441a7294e5ba5c59fa01",
+          "bytes": 221165
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh-Hant",
+      "chapter": 7,
+      "duration_seconds": 1601.5379365079355,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "e5fb274c030ee5eb5de426df9d3156ebe5d07d7842939533f715dbf083b57eb5",
+          "bytes": 7815736
+        },
+        "c7.mp3": {
+          "sha256": "3c13ec21e8bd0e9f905abe49c82ffde111c704c0cb2aa11ee753cc4d66de41c6",
+          "bytes": 25625538
+        },
+        "c7.timing.json": {
+          "sha256": "5c71e958c3d5c182314f37f1fc2c0d1a254afdc4c9b0397bf3e0419fa84daed3",
+          "bytes": 39248
+        },
+        "c7.ambient.opus": {
+          "sha256": "16a137394f9620838cea8aa723ffa77cc06fdc99696b72805080c92eaee64b99",
+          "bytes": 363701
+        },
+        "c7.cinematic.json": {
+          "sha256": "8e13c22a8ced5525167d27e0adbb7190459d311e76db0c355415100afdf1da00",
+          "bytes": 64218
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh",
+      "chapter": 1,
+      "duration_seconds": 874.2567800453504,
+      "cached_narration_clips": 65,
+      "artifacts": {
+        "c1.mp3": {
+          "sha256": "f0213d6851fa2b5b64cb6ef31a6887939da5f9cacf0dd0c0dc5aa04f049db1f4",
+          "bytes": 13989136
+        },
+        "c1.opus": {
+          "sha256": "23ef554f09fdc304ae974a14078c9c5a2312a387eb8fbb6bed53ae603186d10f",
+          "bytes": 4249667
+        },
+        "c1.cinematic.json": {
+          "sha256": "20339a4ca44033748e6861f053f586162f5f9bfdb774e15d0f84b93bdde07d3d",
+          "bytes": 40305
+        },
+        "c1.timing.json": {
+          "sha256": "113d6b7be825589c687cd176f579d87a8926de5ec7ab66b16f5034cfe4821029",
+          "bytes": 26089
+        },
+        "c1.ambient.opus": {
+          "sha256": "1397fcfe73a21e19309607647199e6f8c994b249177283156b8f2f0dad0db2cd",
+          "bytes": 738500
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh",
+      "chapter": 2,
+      "duration_seconds": 1468.9043537414957,
+      "cached_narration_clips": 91,
+      "artifacts": {
+        "c2.mp3": {
+          "sha256": "cb824ea98fa16e5c36368ba51addd2adf6b7ead856d0dab219c50de8bcd597b7",
+          "bytes": 23503559
+        },
+        "c2.ambient.opus": {
+          "sha256": "ca8b84728828805eac9d1f1d4d817f79d304763d13c9f21f17d153a69b5c0012",
+          "bytes": 333582
+        },
+        "c2.opus": {
+          "sha256": "6afbe77f68eaeaa082a254a02f4c1f84ded907a9b841066c664a9f2207d37a43",
+          "bytes": 7148709
+        },
+        "c2.timing.json": {
+          "sha256": "4e69edebe7921632e2d0481a55a0d7ac2e83ef9d5040526553637adb8649e237",
+          "bytes": 42526
+        },
+        "c2.cinematic.json": {
+          "sha256": "7785936e061dc1ff1442f49fb9c4f3f3e8502d2b1c0f9be6ce61be53526c8ca6",
+          "bytes": 67751
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh",
+      "chapter": 5,
+      "duration_seconds": 1505.652471655329,
+      "cached_narration_clips": 67,
+      "artifacts": {
+        "c5.ambient.opus": {
+          "sha256": "cc7818048a1187ffdeab1aa5cc18d3bb55a4b16735ed8fc4559434ed51c9f08c",
+          "bytes": 341929
+        },
+        "c5.mp3": {
+          "sha256": "b1d2c53e353bda74a91a0c468d13a537a8980a5c3180284fe8610a355c5dedfc",
+          "bytes": 24091628
+        },
+        "c5.timing.json": {
+          "sha256": "036103571ba0e7f1e875e08f0d0e72b1345c2ff56211efb40d6605fd468247f2",
+          "bytes": 36833
+        },
+        "c5.cinematic.json": {
+          "sha256": "b94f8955395c27b2f0d63e5eea725d5a6eb6229ae9f80e0c297c852e88aecf6b",
+          "bytes": 60951
+        },
+        "c5.opus": {
+          "sha256": "3fdc204e35d602365d2530adf0eedb9d3fb8404e6589bcd12312b988e7f286d1",
+          "bytes": 7363785
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh",
+      "chapter": 6,
+      "duration_seconds": 966.247664399093,
+      "cached_narration_clips": 29,
+      "artifacts": {
+        "c6.timing.json": {
+          "sha256": "23326634d31144532948595fae9334abd33cc73e003d90b9cebeb09821bfcb80",
+          "bytes": 19676
+        },
+        "c6.opus": {
+          "sha256": "ecd28298494197f34d37f0437ede37a0b1e349c475c85e53b3a81a8e2fe47d59",
+          "bytes": 4752300
+        },
+        "c6.mp3": {
+          "sha256": "2b2c75dd9466a87ec39cf96e7bfa908d55aaae8caffaccf19775ed3e55aa129c",
+          "bytes": 15461189
+        },
+        "c6.cinematic.json": {
+          "sha256": "a9f25d9707bf111f67816755c75eb5c5217534b1bdf8c3f925cc3426af4ddb82",
+          "bytes": 34792
+        },
+        "c6.ambient.opus": {
+          "sha256": "11ab1a1e82c2dd51cdcfe7ebcdecaf9cbe5d2e50942e36efbb9d0c87f970f5da",
+          "bytes": 219496
+        }
+      }
+    },
+    {
+      "book": "the-book-which-tells-the-truth",
+      "lang": "zh",
+      "chapter": 7,
+      "duration_seconds": 1598.428344671201,
+      "cached_narration_clips": 83,
+      "artifacts": {
+        "c7.opus": {
+          "sha256": "8618bcb36b4b98140fc20c9cc8f92791ba4333e146d52483bff03dd7377d9b22",
+          "bytes": 7800155
+        },
+        "c7.mp3": {
+          "sha256": "ab7006e540a7e0d83ff24c4d98347590ee4f06f42b2b9bd40adbe2fbc1bd3b7c",
+          "bytes": 25575801
+        },
+        "c7.timing.json": {
+          "sha256": "54ab79ad6876bd2c11dc22996cb2c08aa9089eb5694f1b1eb21d1ac6e3140497",
+          "bytes": 39261
+        },
+        "c7.ambient.opus": {
+          "sha256": "6eda2a7f011200a50bee18c95b712c21c7395aba693960b34909e2c16152d12d",
+          "bytes": 362996
+        },
+        "c7.cinematic.json": {
+          "sha256": "973ff5edec6a814d5f5e6869b8a52798024f1036fb04832e1a6b35abb39d48b0",
+          "bytes": 64229
+        }
+      }
+    }
+  ]
+}

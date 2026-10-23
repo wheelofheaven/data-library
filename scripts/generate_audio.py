@@ -965,6 +965,8 @@ def main():
     ap.add_argument('--lang', required=True, help='Language code (en, fr, …)')
     ap.add_argument('--chapter', type=int, help='Single chapter (default: all chapters in book)')
     ap.add_argument('--dry-run', action='store_true', help='Report cost without API calls')
+    ap.add_argument('--cached-only', action='store_true',
+                    help='Rebuild from paid narration cache; abort instead of synthesizing missing clips')
     ap.add_argument('--price-per-1k', type=float, default=0.30,
                     help='ElevenLabs price per 1k characters (default 0.30 for creator tier)')
     args = ap.parse_args()
@@ -972,8 +974,8 @@ def main():
     voices_cfg = load_voices_config()
     treatments_cfg = load_treatments_config()
     normalize_filter = load_normalize_filter()
-    api_key = os.environ.get('ELEVENLABS_API_KEY')
-    if not api_key and not args.dry_run:
+    api_key = '' if args.cached_only else os.environ.get('ELEVENLABS_API_KEY')
+    if not api_key and not args.dry_run and not args.cached_only:
         print('ELEVENLABS_API_KEY env var not set. Use --dry-run to estimate cost without an API key.',
               file=sys.stderr)
         sys.exit(1)
