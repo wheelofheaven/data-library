@@ -6,19 +6,19 @@
   "title": "Videvdad 2 — Yima, the evil winters, and the Vara",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Videvdad (Vendidad), Fargard 2 — romanized Avestan text after Geldner, hosted at avesta.org (Joseph H. Peterson, Avesta — Zoroastrian Archives)",
     "sourceLicense": "Public Domain (Geldner, Avesta: the Sacred Books of the Parsis, 1886-96); romanized transcription via avesta.org (J.H. Peterson) used as collation aid — Geldner is the canonical basis",
     "sourceUrl": "https://www.avesta.org/vendidad/vd.htm#chapter2",
     "sourceAccessedVia": "avesta.org (J.H. Peterson), fetched 2026-06-12; canonical basis: Geldner, Karl F., Avesta: the Sacred Books of the Parsis, 3 vols (W. Kohlhammer, Stuttgart, 1886-1896) — the canonical critical edition of the Avestan text; Vendidad in vol. 3 (1896)",
-    "glossaryVersion": "2.73.0",
+    "glossaryVersion": "2.74.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "pending",
-    "reviewedAt": null,
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-10-31T21:00:00Z",
+    "status": "stable",
     "overlayGlossaryVersion": "1.0.0",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
@@ -232,7 +232,7 @@
             "Darmesteter, SBE 4 (1880; American ed. 1898), Fargard 2 v. 26 with n. 20",
             "Bartholomae, Altiranisches Wörterbuch (1904) s.v. zairi.gaona-, ajiiamna-, fraskəmba-"
           ],
-          "reasoning": "āpəm frātat.caiia 'make the waters flow'; marəγa 'birds'; ajiiamna- qualifies the food that is eaten, not the colour, so SBE's 'green that never fades' is correctly undone. The four dwelling terms (three hapaxes per SBE n. 20) are glossed by root and marked inferred. Non-blocking typo: commentary and overlay write 'x'airiieiti'; the source form is x'airiieite (avesta.org hvairyeite)."
+          "reasoning": "āpəm frātat.caiia 'make the waters flow'; marəγa 'birds'; ajiiamna- qualifies the food that is eaten, not the colour, so SBE's 'green that never fades' is correctly undone. The four dwelling terms (three hapaxes per SBE n. 20) are glossed by root and marked inferred. Non-blocking typo: commentary and overlay write 'x'airiieite'; the source form is x'airiieite (avesta.org hvairyeite)."
         },
         {
           "refId": "VID-2:27",
@@ -590,7 +590,7 @@
             "Darmesteter, SBE 4 (1880; American ed. 1898), Fargard 2 v. 26 n. 20",
             "Bartholomae, Altiranisches Wörterbuch (1904) s.v. fraskəmba-"
           ],
-          "reasoning": "Inferred approved: root-based glosses of hapaxes, honestly labelled conjectural. Fix the 'x'airiieiti' typo (source x'airiieite)."
+          "reasoning": "Inferred approved: root-based glosses of hapaxes, honestly labelled conjectural. Fix the 'x'airiieite' typo (source x'airiieite)."
         },
         {
           "glossary_id": "urvara-hvaretha-plants-foods-vendidad-woh",
@@ -736,6 +736,15 @@
       "darmesteterCorrectionsCheck": "All confirmed against the re-parsed source: v. 19 θribiiō θrišuuaēibiiō 'three thirds' (SBE 'two-thirds' is an error); v. 23 θrižat- 'a third' (omitted by SBE); v. 40 hakərət 'once' (unrendered by SBE) and x'aδāta- 'self-created' (SBE 'uncreated'); vv. 6-7 numbering (Geldner v. 7 = yimō asti bərəθe xšaθraiiā̊); v. 32 in Geldner's text, rightly unbracketed. Bracket convention applied correctly at 12-14 and 43 ([ ] verbatim restoration), 30 and 38 (⟨ ⟩ supply), and 43 ('…' unrestorable incipit).",
       "escalationReportAdjustments": "Initial verdicts were formed before opening chapter-2-editor-report.md. After reading it: no per-verse verdict changed. The report added (a) the Editor's own offer to skip the ab-bur window extension, which supports the Reviewer's 'revise: do not extend'; (b) the full text of the three central proposals, which led to two concrete fixes for vara-tevah-eleppu (scope of 'in pairs'; unverified CAD page range) and confirmed the speculative entry is apparatus-only. The report's unattributed option-B glosses for the exclusion list (skin blemishes, stunted, deformed) were not verified by the Reviewer and should not be adopted without a named lexical source.",
       "summary": "41 paragraph verdicts: 35 approve, 3 revise (VID-2:22 'many clouds' contradicts the overlay's own pauruua- ruling; VID-2:24 and VID-2:30 commentary contains pipeline meta-language), 3 flag-for-human (VID-2:25 contingent on the speculative sign-off; VID-2:29/37 exclusion list). 33 overlay entries: 31 approve, 1 revise (aghem-zimo, same pauruua- point), 1 flag-for-human (exclusion list). Central proposals: yima-yama approve; vara-tevah-eleppu revise (two small fixes); vara-as-designed (speculative) flag-for-human; extensions: 3 approve, ab-bur window revise (do not extend). Escalated items: suwra transliteration approved; ⟨stroke⟩/⟨stroked⟩ approved. Translation quality is high and corrects the PD reference at every point checked. Status advanced to awaiting-human."
+    },
+    "humanRuling": {
+      "ratifiedAt": "2026-10-31T21:00:00Z",
+      "by": "zarazinsfuss",
+      "rulings": [
+        "Speculative central entry vara-as-designed-preservation-habitat-woh-reading accepted (apparatus only), with the wording \"a superior authority (in the text, Ahura Mazda)\".",
+        "Exclusion list VID-2:29/37: Darmesteter's renderings kept for the six uncertain terms, each marked (?); no physical-defect readings without a named lexical source.",
+        "All reviewer revise items applied (VID-2:22 \"the cloud shall first snow\"; commentary at 24/30; boat-window extension not made; central vara-tevah-eleppu wording); non-blocking items applied."
+      ]
     }
   },
   "paragraphs": [
@@ -847,7 +856,7 @@
         "suwra-ashtra-implements-and-their-verbs-vendidad-woh"
       ],
       "notes": {
-        "official": "**The two implements are lexically uncertain.** Ahura Mazda gives Yima two *zaiia* 'implements': a *suβrā* 'golden' and an *aštrā* 'gold-adorned' (*zaraniiō.paēsī-*).\n\n*Aštrā-* is secure: the Vendidad uses it in its penal formulas for the instrument of the prescribed strokes (*aspahe aštrā*, 'the horse's goad/whip'), and it is cognate with Vedic *aṣṭrā-* 'goad'. Darmesteter's 'poniard' follows later Persian investiture imagery (his n. 4: 'the sword and the seal, the ring and the crown', Firdausi). The WoH text reads 'goad'.\n\n*Suβrā-* has no secure etymology or parallel. 'Seal' or 'ring' is the Pahlavi tradition (Darmesteter even alternates 'seal' at v. 30 and 'ring' at v. 38); later proposals include a horn and an arrow or awl. Because no rendering is secure, the word is transliterated as **suwra** in every occurrence (vv. 6, 10, 14, 18, 30, 38), and this note is the place where the options are recorded (overlay entry, `inferred`).\n\n**Numbering.** Darmesteter (n. 3) treats v. 6 as commentator's quotations and appends 'Behold, here Yima bears the royal sway!' to it; in Geldner that clause is v. 7 (see there).",
+        "official": "**The two implements are lexically uncertain.** Ahura Mazda gives Yima two *zaiia* 'implements': a *suβrā* 'golden' and an *aštrā* 'gold-adorned' (*zaraniiō.paēsī-*).\n\n*Aštrā-* is secure: the Vendidad uses it in its penal formulas for the instrument of the prescribed strokes (*aspahe aštrā*, 'the horse's goad/whip'), and it is cognate with Vedic *aṣṭrā-* 'goad'. Darmesteter's 'poniard' follows later Persian investiture imagery (his n. 4: 'the sword and the seal, the ring and the crown', Firdausi). The WoH text reads 'goad'.\n\n*Suβrā-* has no secure etymology or parallel. 'Seal' or 'ring' is the Pahlavi tradition (Darmesteter even alternates 'seal' at v. 30 and 'ring' at v. 38); other objects have also been proposed. Because no rendering is secure, the word is transliterated as **suwra** in every occurrence (vv. 6, 10, 14, 18, 30, 38), and this note is the place where the options are recorded (overlay entry, `inferred`).\n\n**Numbering.** Darmesteter (n. 3) treats v. 6 as commentator's quotations and appends 'Behold, here Yima bears the royal sway!' to it; in Geldner that clause is v. 7 (see there).",
         "community": []
       }
     },
@@ -1065,7 +1074,7 @@
       "refId": "VID-2:22",
       "text": "âat aoxta ahurô mazdå ýimâi, ýima srîra vîvanghana avi ahûm astvañtem akhem zimô jangheñtu ýahmat haca staxrô mrûrô zyå, avi ahûm astvañtem akhem zimô jangheñtu ýahmat haca paurvô snaodhô vafra snaêzhât barezishtaêibyô gairibyô bãshnubyô areduyå.",
       "i18n": {
-        "en": "Then Ahura Mazda said to Yima: 'O fair Yima, son of Vivanghat! Upon the material world the evil winters shall come, from which comes fierce, deadly frost; upon the material world the evil winters shall come, from which many clouds shall snow down snowflakes on the highest mountains, on the heights, an aredvi deep."
+        "en": "Then Ahura Mazda said to Yima: 'O fair Yima, son of Vivanghat! Upon the material world the evil winters shall come, from which comes fierce, deadly frost; upon the material world the evil winters shall come, from which the cloud shall first snow down snowflakes on the highest mountains, on the heights, an aredvi deep."
       },
       "glossaryRefs": [
         "register-and-proper-name-romanization-convention-vendidad-woh",
@@ -1107,7 +1116,7 @@
         "vara-tevah-eleppu-divinely-instructed-refuge-against-world-catastrophe-cross-corpus"
       ],
       "notes": {
-        "official": "**Before the meltwater.** The verse is syntactically obscure. The Editor keeps the Translator's Darmesteter-based construal but takes *pauruua* as 'before, first' (the adjective *pauruua-* 'former'), not 'abundantly' (which would require *pouru-* 'much'). The resulting order (pasture before the winter, then the waters flooding the land after the snow melts) is the order that *pasca vītaxti vafrahe* 'after the melting of the snow' requires. A sheep's footprint becomes a wonder: the land is emptied of livestock.",
+        "official": "**Before the meltwater.** The verse is syntactically obscure. The WoH text follows Darmesteter's construal but takes *pauruua* as 'before, first' (the adjective *pauruua-* 'former'), not 'abundantly' (which would require *pouru-* 'much'). The resulting order (pasture before the winter, then the waters flooding the land after the snow melts) is the order that *pasca vītaxti vafrahe* 'after the melting of the snow' requires. A sheep's footprint becomes a wonder: the land is emptied of livestock.",
         "community": []
       }
     },
@@ -1116,7 +1125,7 @@
       "refId": "VID-2:25",
       "text": "âat tem varem kerenava caretu-drâjô kemcit paiti cathrushanãm hathra taoxma upa-bara pasvãmca staoranãmca mashyânãmca sûnãmca vayãmca âthrãmca suxrãm saociñtãm, âat tem varem kerenava caretu-drâjô kemcit paiti cathrushanãm narãm aiwi-xshôithne caretu-drâjô kemcit paiti cathrushanãm gavãm gâvayanem.",
       "i18n": {
-        "en": "Therefore make the Vara, the length of a race-course on each of its four sides; bring there the seeds of flocks and herds and men and dogs and birds and red blazing fires. Therefore make the Vara, the length of a race-course on each of its four sides, as a dwelling for men; the length of a race-course on each of its four sides, as a fold for cattle."
+        "en": "Then make the Vara, the length of a race-course on each of its four sides; bring there the seeds of flocks and herds and men and dogs and birds and red blazing fires. Then make the Vara, the length of a race-course on each of its four sides, as a dwelling for men; the length of a race-course on each of its four sides, as a fold for cattle."
       },
       "glossaryRefs": [
         "register-and-proper-name-romanization-convention-vendidad-woh",
@@ -1129,7 +1138,7 @@
         "vara-as-designed-preservation-habitat-woh-reading"
       ],
       "notes": {
-        "official": "**The Vara.** *Vara-*, from *var-* 'to cover, enclose', means an enclosure; the word is transliterated, as in all scholarship (Middle Persian *war*, 'the Var of Jam'), because it names a unique structure. Its plan is given by a measure: *carətu.drājah-* 'having the length of a race-course' *kəmcit paiti caθrušanąm* 'on each of the four sides'. The text describes a square without using the word 'square' (Darmesteter: 'on every side of the square'). The Pahlavi commentary gives two *hāθra* per side, and Darmesteter estimates a *hāθra* at about an English mile (n. 18).\n\nYima is to bring *taoxma* 'seeds' of every kind in the v. 8 catalogue, including the fires. *Taoxman-* 'seed, stock' is rendered 'seeds' uniformly. The preservation of the seed of humankind and of animals through a world-ending catastrophe is a recurring element of the Mesopotamian and Hebrew flood traditions: the Sumerian Flood Story's 'seed of humankind', Gilgamesh XI's 'seed of all living creatures' loaded into the boat (XI 27, 82-85), and Genesis 6:19-20. See the central entry `preservation-of-the-seed-of-humankind-and-animals-flood-aitia-cross-corpus` (proposed Avestan extension).\n\n**Wheel of Heaven reading (interpretive; not part of the translation).** The project reads the Vara, alongside Noah's *tevah* and Atra-ḫasīs's boat, as a deliberately designed preservation of living stock carried out on instruction from a non-human authority. This synthesis is recorded as the proposed central entry `vara-as-designed-preservation-habitat-woh-reading` (`speculative`, pending human sign-off). It does not shape the English, which renders the Avestan as any Iranist would.",
+        "official": "**The Vara.** *Vara-*, from *var-* 'to cover, enclose', means an enclosure; the word is transliterated, as in all scholarship (Middle Persian *war*, 'the Var of Jam'), because it names a unique structure. Its plan is given by a measure: *carətu.drājah-* 'having the length of a race-course' *kəmcit paiti caθrušanąm* 'on each of the four sides'. The text describes a square without using the word 'square' (Darmesteter: 'on every side of the square'). The Pahlavi commentary gives two *hāθra* per side, and Darmesteter estimates a *hāθra* at about an English mile (n. 18).\n\nYima is to bring *taoxma* 'seeds' of every kind in the v. 8 catalogue, including the fires. *Taoxman-* 'seed, stock' is rendered 'seeds' uniformly. The preservation of the seed of humankind and of animals through a world-ending catastrophe is a recurring element of the Mesopotamian and Hebrew flood traditions: the Sumerian Flood Story's 'seed of humankind', Gilgamesh XI's 'seed of all living creatures' loaded into the boat (XI 27, 82-85), and Genesis 6:19-20. See the central entry `preservation-of-the-seed-of-humankind-and-animals-flood-aitia-cross-corpus` (proposed Avestan extension).\n\n**Wheel of Heaven reading (interpretive; not part of the translation).** The project reads the Vara, alongside Noah's *tevah* and Atra-ḫasīs's boat, as a deliberately designed preservation of living stock carried out on instruction from a superior authority (in the text, Ahura Mazda). This synthesis is recorded as the proposed central entry `vara-as-designed-preservation-habitat-woh-reading` (`speculative`, ratified at human sign-off). It does not shape the English, which renders the Avestan as any Iranist would.",
         "community": []
       }
     },
@@ -1147,7 +1156,7 @@
         "vara-dwelling-hapaxes-and-zairigaona-vendidad-woh"
       ],
       "notes": {
-        "official": "**Water, birds, dwellings.** Darmesteter's 'on the green that never fades' attaches 'never' to the colour, but *ajiiamna-* 'unfailing' qualifies the food that is eaten (*x'airiieiti*), and *zairi.gaona-* is simply 'golden-green coloured'. The WoH text restores both: 'by the golden-green, by the food that is eaten and never fails'.\n\nThe four dwelling terms are rare; Darmesteter notes that the last three are hapax legomena of doubtful meaning (n. 20) and offers 'house, balcony, courtyard, gallery'. The WoH renderings follow the roots instead: *kata-* 'chamber, storeroom'; *fraskəmba-*, containing *skəmba-* 'pillar' (Vedic *skambha-*), 'pillared porch'; *frauuāra-* and *pairiuuāra-*, built on *var-* 'enclose' with *fra-* 'in front' and *pairi-* 'around', 'front enclosure' and 'surrounding enclosure' (overlay entry, `inferred`).",
+        "official": "**Water, birds, dwellings.** Darmesteter's 'on the green that never fades' attaches 'never' to the colour, but *ajiiamna-* 'unfailing' qualifies the food that is eaten (*x'airiieite*), and *zairi.gaona-* is simply 'golden-green coloured'. The WoH text restores both: 'by the golden-green, by the food that is eaten and never fails'.\n\nThe four dwelling terms are rare; Darmesteter notes that the last three are hapax legomena of doubtful meaning (n. 20) and offers 'house, balcony, courtyard, gallery'. The WoH renderings follow the roots instead: *kata-* 'chamber, storeroom'; *fraskəmba-*, containing *skəmba-* 'pillar' (Vedic *skambha-*), 'pillared porch'; *frauuāra-* and *pairiuuāra-*, built on *var-* 'enclose' with *fra-* 'in front' and *pairi-* 'around', 'front enclosure' and 'surrounding enclosure' (overlay entry, `inferred`).",
         "community": []
       }
     },
@@ -1195,7 +1204,7 @@
       "refId": "VID-2:29",
       "text": "mâ athra frakavô mâ apakavô mâ apâvayô mâ haredhish mâ driwish mâ daiwish mâ kasvîsh mâ vîzbârish mâ vîmîtô-dañtânô mâ paêsô ýô vîteretô-tanush mâdha-cim anyãm daxshtanãm ýôi heñti angrahe mainyêush daxshtem mashyâishca paiti nidhâtem.",
       "i18n": {
-        "en": "Let there be there no one humped in front, no one humped behind, no impotent one, no lunatic, no malicious one, no liar, no spiteful one, no jealous one, no one with misshapen teeth, no leper whose body is set apart, nor any other of the marks that are the mark of Angra Mainyu, laid upon mortals."
+        "en": "Let there be there no one humped in front, no one humped behind, no impotent(?) one, no lunatic(?), no malicious(?) one, no liar(?), no spiteful(?) one, no jealous(?) one, no one with misshapen teeth, no leper whose body is set apart, nor any other of the marks that are the mark of Angra Mainyu, laid upon mortals."
       },
       "glossaryRefs": [
         "register-and-proper-name-romanization-convention-vendidad-woh",
@@ -1223,11 +1232,10 @@
         "fratema-madhema-nitema-perethu-door-window-vendidad-woh",
         "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
         "vara-tevah-eleppu-divinely-instructed-refuge-against-world-catastrophe-cross-corpus",
-        "ab-bur-aptu-chalon-ha-tevah-flood-boat-window-cross-corpus",
         "vara-as-designed-preservation-habitat-woh-reading"
       ],
       "notes": {
-        "official": "**Plan and sealing of the Vara.** *Fratəma-, maδəma-, nitəma-* are 'foremost, middle, lowest'; Darmesteter's 'largest ... smallest' infers size from the numbers. *Pərətu-* is a passage or crossing (Middle Persian *puhl* 'bridge'), so 'passages', not 'streets'. The seeds of men and women are distributed 1,000 / 600 / 300; Darmesteter (n. 26) suggests the three parts answer to the three social classes.\n\n**The sealing clause.** *Aiβica tē varəfšuua suβriia zaranaēniia* has no verb. Its preverb *aiβi-* is read with the verb *marəz-* of the next clause (*aiβi-marəz-* 'stroke over'; *api-marəz-* 'smear over, seal up'). The Editor therefore supplies ⟨stroke⟩ in angle brackets, the overlay sign for editorial supply. The draft's '[press]' imported a verb from v. 10, and Darmesteter merges both clauses into 'That Vara thou shalt seal up with thy golden seal'. The closing 'a door, a window self-shining from within' (*duuarəm raocanəm x'āraoxšnəm aṇtarə.naēmāt*) is likewise verbless and is left as an apposition, where Darmesteter supplies 'thou shalt make'.\n\nA sealed refuge with a single light-opening can be compared with the boat-window of the flood narratives (Gen 6:16; 8:6; Gilgamesh XI); see `ab-bur-aptu-chalon-ha-tevah-flood-boat-window-cross-corpus` (proposed Avestan extension). Here the window is described as shining by itself.",
+        "official": "**Plan and sealing of the Vara.** *Fratəma-, maδəma-, nitəma-* are 'foremost, middle, lowest'; Darmesteter's 'largest ... smallest' infers size from the numbers. *Pərətu-* is a passage or crossing (Middle Persian *puhl* 'bridge'), so 'passages', not 'streets'. The seeds of men and women are distributed 1,000 / 600 / 300; Darmesteter (n. 26) suggests the three parts answer to the three social classes.\n\n**The sealing clause.** *Aiβica tē varəfšuua suβriia zaranaēniia* has no verb. Its preverb *aiβi-* is read with the verb *marəz-* of the next clause (*aiβi-marəz-* 'stroke over'; *api-marəz-* 'smear over, seal up'). The WoH text therefore supplies ⟨stroke⟩ in angle brackets, the overlay sign for editorial supply; importing *aiwišuuat* 'pressed' from v. 10 would add a verb the clause does not imply, and Darmesteter merges both clauses into 'That Vara thou shalt seal up with thy golden seal'. The closing 'a door, a window self-shining from within' (*duuarəm raocanəm x'āraoxšnəm aṇtarə.naēmāt*) is likewise verbless and is left as an apposition, where Darmesteter supplies 'thou shalt make'.\n\nA sealed refuge with a single light-opening can be compared with the boat-window of the flood narratives (Gen 6:16; 8:6; Gilgamesh XI); see `vara-tevah-eleppu-divinely-instructed-refuge-against-world-catastrophe-cross-corpus`. Unlike the boat-window, which is opened after the storm, the Vara's window is built in and is described as shining by itself.",
         "community": []
       }
     },
@@ -1333,7 +1341,7 @@
       "refId": "VID-2:37",
       "text": "nôit athra frakavô nôit apakavô nôit apâvayô nôit haredhish nôit driwish nôit daiwish nôit kasvîsh nôit vîzbârish nôit vîmîtô-dañtânô nôit paêsô ýô vîteretô-tanush naêdha-cim anyãm daxshtanãm ýôi heñti angrahe mainyêush daxshtem mashyâishca paiti nidhâtem.",
       "i18n": {
-        "en": "There was there no one humped in front, no one humped behind, no impotent one, no lunatic, no malicious one, no liar, no spiteful one, no jealous one, no one with misshapen teeth, no leper whose body is set apart, nor any other of the marks that are the mark of Angra Mainyu, laid upon mortals."
+        "en": "There was there no one humped in front, no one humped behind, no impotent(?) one, no lunatic(?), no malicious(?) one, no liar(?), no spiteful(?) one, no jealous(?) one, no one with misshapen teeth, no leper whose body is set apart, nor any other of the marks that are the mark of Angra Mainyu, laid upon mortals."
       },
       "glossaryRefs": [
         "register-and-proper-name-romanization-convention-vendidad-woh",
@@ -1356,8 +1364,7 @@
         "taoxma-seeds-mithwaire-ajyamna-vendidad-woh",
         "fratema-madhema-nitema-perethu-door-window-vendidad-woh",
         "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
-        "vara-tevah-eleppu-divinely-instructed-refuge-against-world-catastrophe-cross-corpus",
-        "ab-bur-aptu-chalon-ha-tevah-flood-boat-window-cross-corpus"
+        "vara-tevah-eleppu-divinely-instructed-refuge-against-world-catastrophe-cross-corpus"
       ],
       "notes": {
         "official": "**Execution of v. 30.** The supplied verb is again marked ⟨stroked⟩ (see v. 30). Darmesteter renders the same *suβrā* as 'the golden ring' here after 'thy golden seal' at v. 30, which shows how unsettled the identification of the object is; the WoH text keeps the transliteration 'suwra' (see v. 6).",
