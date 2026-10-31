@@ -1,0 +1,672 @@
+{
+  "schemaVersion": 2,
+  "version": "1.0.0",
+  "released": "2026-10-31",
+  "scope": "vendidad-woh",
+  "description": "Per-translation overlay glossary for the Videvdad (Vendidad), the program's first Avestan-source text. v1.0.0 covers Fargard 2 (Yima, the evil winters, and the Vara): three conventions (modern register and plain proper-name romanization; the ellipsis/bracket convention distinguishing restoration [ ] from editorial supply ⟨ ⟩ and un-restorable incipits …; Geldner-vs-SBE verse numbering), and the composition-specific lexical decisions of the chapter — the Ahura Mazda vocative formula, ašauuan- 'righteous', daēnā- 'the Religion', Yima's epithets (srīra/huuąθβa/xšaēta/sraēšta), mərəta-/bərəta- 'rememberer and bearer', the protector/keeper/overseer triad, xšaθra- 'rule', the suβrā/aštrā implements (suwra transliterated as lexically uncertain; aštrā 'goad'), the pasu/staora livestock pair, the winter-reckoning, the southward invocation of Spenta Armaiti, the thirds of enlargement (against SBE's 'two-thirds' at v. 19), the assembly in Airyana Vaejah, the evil winters (without the non-Avestan name Malkosan), the third of the cattle (v. 23, which SBE omits), the vara/varəfšuua enclosure, the race-course measure, taoxman- 'seeds' in pairs, the dwelling hapaxes, plants and foods, the exclusion list of v. 29, the passages/door/window of the sealed Vara, the tread-and-knead instruction, the self-created lights, hakərət 'once' (which SBE omits), the forty-year pair-births, the bird Karšipta, and the ahu/ratu pair with Urvatat-nara. Indexing: Avestan has no Strong's numbers; the 'strongs' field carries the Bartholomae, Altiranisches Wörterbuch (1904) headword(s) for auditability. Cross-corpus comparisons (Vara ↔ ark/boat; seeds-of-every-kind ↔ Gen 6:19-20 / Gilgamesh XI; Yima ↔ Vedic Yama) are not carried here; they are proposed for the CENTRAL glossary in chapter-2-editor-report.md.",
+  "sourceLanguages": [
+    "ave"
+  ],
+  "entries": [
+    {
+      "id": "register-and-proper-name-romanization-convention-vendidad-woh",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "strongs": null,
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: English register and proper-name romanization for the Vendidad overlay",
+      "literal": "(not applicable — meta)",
+      "standardEnglish": "Darmesteter (SBE 4, 1898): archaic 'thou / thy / didst' register; plain proper names (Ahura Mazda, Zarathushtra, Vivanghat, Airyana Vaejo, Vanguhi Daitya)",
+      "wohChoice": "Modern English register (you / your / did), keeping the formality of the dialogue (vocatives, 'I, who am Ahura Mazda'); proper names in plain romanization without diacritics, following the stem forms of the source romanization: Ahura Mazda, Zarathushtra, Spitama, Yima, Vivanghat ('son of Vivanghat' for the patronymic vivanghana), Spenta Armaiti, Angra Mainyu, Airyana Vaejah, Daitya, Karshipta, Urvatat-nara, Yazatas. Scholarly (Hoffmann) forms are carried in the glossary 'source' fields and in commentary only.",
+      "claim_type": "direct",
+      "rationale": "The program's published translations use a modern English register (genesis-woh, isaiah-woh), and the Translator's draft followed Darmesteter's 1898 'thou/didst' diction, which is a feature of the reference, not of the Avestan; the register is therefore modernized throughout while the dialogue's formal address (vocative strings, the self-identifying 'I, who am Ahura Mazda') is preserved. Proper names are given in the plain romanization that a general reader can pronounce, because diacritic-laden Hoffmann forms (Ahura Mazdā, Zaraθuštra, Vīuuaŋhuuaṇt, Airiiana Vaējah) would obstruct the line without adding meaning; the scholarly forms remain auditable in the apparatus. Where Darmesteter's plain form is a nominative that does not match the stem used in modern reference works, the stem form is preferred: 'Airyana Vaejah' (the Encyclopaedia Iranica headword form) rather than 'Airyana Vaejo'. 'Vanguhi Daitya' is not treated as a two-word proper name: vanghuyå dâityayå is a genitive phrase 'of the good Daitya', so the English reads 'Airyana Vaejah of the Good Daitya'. No lens is carried by this convention.",
+      "appliesTo": [
+        "VID-2:1",
+        "VID-2:2",
+        "VID-2:3",
+        "VID-2:4",
+        "VID-2:5",
+        "VID-2:6",
+        "VID-2:7",
+        "VID-2:8",
+        "VID-2:9",
+        "VID-2:10",
+        "VID-2:11",
+        "VID-2:12-14",
+        "VID-2:15",
+        "VID-2:16",
+        "VID-2:17",
+        "VID-2:18",
+        "VID-2:19",
+        "VID-2:20",
+        "VID-2:21",
+        "VID-2:22",
+        "VID-2:23",
+        "VID-2:24",
+        "VID-2:25",
+        "VID-2:26",
+        "VID-2:27",
+        "VID-2:28",
+        "VID-2:29",
+        "VID-2:30",
+        "VID-2:31",
+        "VID-2:32",
+        "VID-2:33",
+        "VID-2:34",
+        "VID-2:35",
+        "VID-2:36",
+        "VID-2:37",
+        "VID-2:38",
+        "VID-2:39",
+        "VID-2:40",
+        "VID-2:41",
+        "VID-2:42",
+        "VID-2:43"
+      ]
+    },
+    {
+      "id": "ellipsis-and-bracket-convention-vendidad-woh",
+      "source": "... (source abbreviation sign in Geldner / avesta.org)",
+      "translit": "(meta)",
+      "strongs": null,
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: rendering of abbreviated repeated formulas and of editorial supplements",
+      "literal": "the source prints '...' where a formula already given in full is repeated",
+      "standardEnglish": "Darmesteter prints the abbreviated verses in full without marking the expansion, and supplies missing verbs silently ('That Vara thou shalt seal up')",
+      "wohChoice": "Three marks, each with one function only. (1) Square brackets [ ] = text the source abbreviates with '...' and that is restored VERBATIM from its first full occurrence in this chapter; inline markers '(v. 13:)', '(v. 14:)' inside the brackets record where Geldner's verse divisions fall in the restored span (VID-2:12-14 restored from vv. 8-10; VID-2:43 'O Maker [of the material world]' restored from v. 1). (2) Angle brackets ⟨ ⟩ = an English word supplied by the Editor where the Avestan syntax is elliptical and NO wording exists in the text (VID-2:30, VID-2:38: the gapped verb ⟨stroke⟩ / ⟨stroked⟩). (3) The source's own ellipsis is printed as '…' where the abbreviated text does not occur in full anywhere in the chapter and so cannot be restored (VID-2:43, the liturgical incipit 'Ashem vohu …').",
+      "claim_type": "direct",
+      "rationale": "The Translator used square brackets for two different operations: restoring an abbreviated formula (vv. 12-14, 43) and supplying a verb absent from elliptical syntax (vv. 30, 38). These carry different epistemic claims — the first restores words the text certainly intends, the second adds words the text does not contain — so one mark cannot honestly serve both; the Editor splits them, in line with the central `lacuna-bracket-convention-sumerian-mesopotamian-project-standard`, where [word] marks restoration from attested wording and <word> marks editorial supply (rendered here with the typographic ⟨ ⟩ to avoid collision with HTML/Markdown in the reader). Restoration is limited to wording already present in this chapter, so that every bracketed word can be audited against an earlier verse; the closing 'ashem vohû...' is therefore left as an incipit, because the Ashem Vohu prayer is not given in full in Fargard 2. Source segmentation is preserved (VID-2:12-14 stays one paragraph object, as Geldner prints it), and the inline verse markers keep the SBE/Geldner verse numbers 13 and 14 locatable inside it.",
+      "appliesTo": [
+        "VID-2:12-14",
+        "VID-2:30",
+        "VID-2:38",
+        "VID-2:43"
+      ]
+    },
+    {
+      "id": "verse-numbering-geldner-vs-sbe-convention-vendidad-woh",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "strongs": null,
+      "lemma": "(meta)",
+      "partOfSpeech": "convention: verse numbering authority and the points where Darmesteter's SBE text diverges",
+      "literal": "(not applicable — meta)",
+      "standardEnglish": "Darmesteter (SBE 4) prints 'Behold, here Yima bears the royal sway!' at the end of his v. 6 and marks v. 7 '[Obscure.]'; ends v. 40 with 'and a year seems only as a day'; brackets v. 32 as supplied 'From the Vendidad Sada'",
+      "wohChoice": "Geldner's text and numbering are authoritative. v. 7 = yimô asti berethe xshathrayå; v. 41 opens with taêca ayare mainyeñte ýat ýâre; v. 32 is translated as part of the text without brackets. SBE mismatches are noted in commentary at VID-2:6, VID-2:7, VID-2:32, VID-2:40, VID-2:41.",
+      "claim_type": "direct",
+      "rationale": "The source layer of this book is Geldner's critical edition (1886-96) as romanized on avesta.org, so verse numbering and the extent of the text follow Geldner, not the SBE translation, which was made from an earlier textual basis and with Darmesteter's own judgments about interpolation. Darmesteter treats v. 6 as a string of commentator's quotations and leaves v. 7 untranslated as obscure, while placing the clause that Geldner prints as v. 7 at the end of his v. 6; at vv. 40/41 he moves the 'year as a day' clause into v. 40; and he brackets v. 32, which Geldner prints in the text. Recording these mismatches as a convention lets a reader holding the SBE locate every verse without the WoH text adopting SBE's divisions. No lens is carried.",
+      "appliesTo": [
+        "VID-2:6",
+        "VID-2:7",
+        "VID-2:32",
+        "VID-2:40",
+        "VID-2:41"
+      ]
+    },
+    {
+      "id": "ahura-mazda-vocative-formula-spenishta-mainyu-datar-vendidad-woh",
+      "source": "mainiiō spəništa dātarə gaēθanąm astuuaitinąm; daδβā̊",
+      "translit": "mainyô spênishta, dâtare gaêthanãm astvaitinãm; dadhvå",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. spəništa-, mainiiu-, dātar-, gaēθā-, astuuant-, daδuuah-",
+      "lemma": "spəṇta- (sup. spəništa-); mainiiu-; dātar-; gaēθā-; astuuant-",
+      "partOfSpeech": "vocative epithet-string of Ahura Mazda (superlative adjective + noun; agent noun + genitive plural phrase); perfect participle as title",
+      "literal": "O most bounteous (increasing) Spirit, establisher of the bony (corporeal) living beings; the one who has established",
+      "standardEnglish": "most beneficent Spirit, Maker of the material world; the Maker (Darmesteter)",
+      "wohChoice": "'most beneficent Spirit'; 'Maker of the material world'; dadhvå 'the Maker'",
+      "claim_type": "direct",
+      "rationale": "Both phrases are fixed vocative formulas of the Vendidad's question-and-answer frame, and Darmesteter's renderings remain standard and defensible, so the Translator's choices are retained. spəṇta- is built on the root of 'to swell, increase' and its sense is debated between 'holy', 'bounteous' and 'beneficent/life-giving'; 'beneficent' sits within that range and keeps continuity with the PD reference. gaēθā- is plural ('living beings, settlements') and astuuant- literally 'having bones', i.e. corporeal; 'the material world' is the established idiomatic equivalent of the whole phrase, and the literal sense is given in commentary at VID-2:1 rather than in the line. The perfect participle daδβā̊ at vv. 20-21 is rendered 'the Maker' to tie it to the same title.",
+      "appliesTo": [
+        "VID-2:1",
+        "VID-2:20",
+        "VID-2:21",
+        "VID-2:39",
+        "VID-2:42",
+        "VID-2:43"
+      ]
+    },
+    {
+      "id": "ashavan-righteous-vocative-vendidad-woh",
+      "source": "ašāum (voc. of ašauuan-)",
+      "translit": "ashâum",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. ašauuan-",
+      "lemma": "ašauuan- (from aša- 'truth, right order')",
+      "partOfSpeech": "adjective, vocative singular; epithet of Ahura Mazda and of Zarathushtra",
+      "literal": "possessing aša (truth / right order)",
+      "standardEnglish": "thou Holy One / holy (Darmesteter)",
+      "wohChoice": "'righteous one' (vocative to Ahura Mazda); 'righteous' as epithet ('O righteous Zarathushtra', 'O righteous Ahura Mazda')",
+      "claim_type": "direct",
+      "rationale": "ašauuan- is the possessive derivative of aša-, the Avestan term for truth and right order (cognate of Vedic ṛta-), and denotes one who adheres to and embodies that order. Darmesteter's 'holy' reflects nineteenth-century usage that assimilated the term to a sanctity vocabulary; modern English renderings of the Avestan corpus prefer 'righteous' (or 'truthful', 'orderly'), which keeps the link to aša visible. The change from 'thou Holy One' to 'righteous one' is also required by the modern-register convention. The same rendering is used for both addressees so that the text's application of one epithet to god and prophet alike stays visible.",
+      "appliesTo": [
+        "VID-2:1",
+        "VID-2:2",
+        "VID-2:39",
+        "VID-2:42",
+        "VID-2:43"
+      ]
+    },
+    {
+      "id": "peres-converse-anyo-mana-other-than-vendidad-woh",
+      "source": "aperese; anyô mana / anyô θβat",
+      "translit": "aperese; anyô mana; anyô thwat",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. pərəs-, aniia-",
+      "lemma": "pərəs- (middle: 'to consult, converse with'); aniia- 'other'",
+      "partOfSpeech": "verb, aorist middle; pronominal adjective + ablative/genitive pronoun",
+      "literal": "consulted, held converse with; other than me / other than you",
+      "standardEnglish": "didst converse ... before myself / before thee (Darmesteter)",
+      "wohChoice": "'converse'; 'other than me' / 'other than you' (literal)",
+      "claim_type": "direct",
+      "rationale": "The middle of pərəs- 'to ask' denotes asking of, consulting, holding converse with someone, and 'converse' is Darmesteter's and the Translator's rendering; it is retained. aniia- means 'other', so 'other than me, Zarathushtra' is the literal construal; Darmesteter's 'before myself' is a sense paraphrase that imports chronology already carried by paoiryô 'first'. The literal rendering is kept because it is unambiguous and loses nothing.",
+      "appliesTo": [
+        "VID-2:1",
+        "VID-2:2"
+      ]
+    },
+    {
+      "id": "daena-the-religion-ahuiri-zarathushtri-mazdayasni-vendidad-woh",
+      "source": "daēnā- āhūirī- zaraθuštrī- māzdaiiasnī-",
+      "translit": "daênã âhûirîm zarathushtrîm; daênãm mâzdayasnîm",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. daēnā-, āhūirī-, māzdaiiasnī-",
+      "lemma": "daēnā- with relational adjectives",
+      "partOfSpeech": "noun with relational adjectives",
+      "literal": "the daēnā (religious vision / teaching) belonging to Ahura, belonging to Zarathushtra; the Mazda-worshipping daēnā",
+      "standardEnglish": "the Religion of Ahura, the Religion of Zarathushtra; the Religion of Mazda (Darmesteter)",
+      "wohChoice": "'the Religion, that of Ahura, that of Zarathushtra' (vv. 1-2); 'the Religion' (vv. 3-4); 'the Mazda-worshipping Religion' (v. 42)",
+      "claim_type": "direct",
+      "rationale": "daēnā- has a wide semantic range in Avestan (the inner 'vision' or conscience of a person, and the religion as teaching), and in this chapter, where it is taught, memorized and carried, the 'religion as teaching' sense is the one in play; 'the Religion' (capitalized as a technical term) is retained from Darmesteter and the draft. The adjectives āhūirī- and zaraθuštrī- are relational ('Ahuric, Zarathushtrian'), and the draft's 'that of Ahura, that of Zarathushtra' renders them without inventing a second noun. At v. 42 the adjective is māzdaiiasnī- 'Mazda-worshipping', which Darmesteter contracts to 'of Mazda'; the literal compound is restored ('the Mazda-worshipping Religion'), because 'of Mazda' shifts the attribute from the worshippers to the god.",
+      "appliesTo": [
+        "VID-2:1",
+        "VID-2:2",
+        "VID-2:3",
+        "VID-2:4",
+        "VID-2:42"
+      ]
+    },
+    {
+      "id": "yima-epithets-srira-hvathwa-xshaeta-sraeshta-vendidad-woh",
+      "source": "srīra-; huuąθβa-; xšaēta-; sraēšta-",
+      "translit": "srîra; hvãthwa; xshaêta; sraêshta",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. srīra-, huuąθβa-, xšaēta-, sraēšta-",
+      "lemma": "srīra- 'beautiful'; huuąθβa- 'having good herds'; xšaēta- 'shining, radiant'; sraēšta- (superlative of srīra-)",
+      "partOfSpeech": "adjectives / epithets",
+      "literal": "fair; having good herds; shining; fairest",
+      "standardEnglish": "srīra 'fair'; huuąθβa 'the good shepherd'; xšaēta also 'fair'; sraēšta 'finest' (v. 27) / 'happiest' (v. 41) (Darmesteter)",
+      "wohChoice": "srīra 'fair' (kept); huuąθβa 'of the good herds'; xšaēta 'the radiant'; sraēšta 'fairest' at every occurrence (vv. 27, 35, 41)",
+      "claim_type": "direct",
+      "rationale": "Darmesteter renders two different Avestan words, srīra- and xšaēta-, by the same English 'fair', which hides a distinction the text makes: xšaēta- 'shining, radiant' is the specific epithet that survives in the later name of the same hero, Middle and New Persian Jam(šēd) < Yima xšaēta. huuąθβa- is a bahuvrīhi 'having good herds'; Darmesteter's 'the good shepherd' follows the Pahlavi commentary he cites (n. 2, Yima kept 'herds of men and herds of animals') and is a sense paraphrase, so the literal 'of the good herds' is restored. sraēšta- is the superlative of the same srīra- that is Yima's standing epithet; Darmesteter renders it 'finest' at v. 27 and 'happiest' at v. 41, breaking the visible link, so the WoH text uses 'fairest' consistently. All three choices are lexically secure and change no sense, only precision.",
+      "appliesTo": [
+        "VID-2:2",
+        "VID-2:3",
+        "VID-2:5",
+        "VID-2:9",
+        "VID-2:12-14",
+        "VID-2:17",
+        "VID-2:20",
+        "VID-2:21",
+        "VID-2:22",
+        "VID-2:27",
+        "VID-2:31",
+        "VID-2:35",
+        "VID-2:41"
+      ]
+    },
+    {
+      "id": "mereta-bereta-daenayai-rememberer-bearer-vendidad-woh",
+      "source": "mərətō bərətaca daēnaiiāi; nōit dātō ahmi nōit cistō",
+      "translit": "meretô beretaca daênayâi; nôit dâtô ahmi nôit cistô",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. mərəta-, bərətar-, dāta-, cista-",
+      "lemma": "mərəta- (root mar- 'to remember, memorize'; cf. Vedic smṛ-); bərəta-/bərətar- (root bar- 'to carry'); dāta- (ppp. of dā- 'to set, make, establish'); cista- (ppp. of cit- 'to perceive, be instructed')",
+      "partOfSpeech": "agent nouns / participles in predicate position",
+      "literal": "one who memorizes and one who carries (the Religion); I am not made, I am not instructed",
+      "standardEnglish": "the preacher and the bearer of my Religion; I was not born, I was not taught (Darmesteter)",
+      "wohChoice": "'rememberer and bearer of the Religion'; 'I was not made, I was not taught'",
+      "claim_type": "inferred",
+      "rationale": "The pair mərəta- / bərəta- is built on the roots 'remember, memorize' and 'carry', describing the role of an oral tradent who holds the teaching in memory and carries it to others; Darmesteter's 'preacher' renders the social function rather than the word, and 'rememberer' restores the lexical core that matters in an oral-liturgical culture. dāta- is the participle of dā- 'to set, make, establish', so Yima says he was not 'made' (fashioned, appointed) for the role; 'born' is a paraphrase. The choice is marked inferred because 'preacher' remains a defensible functional rendering and the exact nuance of mərəta- (memorizer vs. one who keeps in mind, i.e. observes) is not settled. No lens is carried.",
+      "appliesTo": [
+        "VID-2:3",
+        "VID-2:4"
+      ]
+    },
+    {
+      "id": "gaetha-thratar-haretar-aiwyaxshtar-vendidad-woh",
+      "source": "gaēθā̊ frāδaiia ... varəδaiia; θrātāca harətāca aiβiiāxštaca",
+      "translit": "gaêthå frâdhaya ... varedhaya; thrâtâca haretâca aiwyâxshtaca",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. gaēθā-, θrātar-, harətar-, aiβiiāxštar-",
+      "lemma": "gaēθā- (pl.); θrātar- (cf. Vedic trātṛ- 'protector'); harətar- 'keeper, guardian'; aiβiiāxštar- 'overseer'",
+      "partOfSpeech": "noun (plural) + causative imperatives; triad of agent nouns",
+      "literal": "make my living beings prosper ... grow; protector, keeper, overseer",
+      "standardEnglish": "make my world increase ... grow; to nourish, to rule, and to watch over my world (Darmesteter)",
+      "wohChoice": "'my world' (kept, with the plural noted in commentary); 'the protector, the keeper, and the overseer'",
+      "claim_type": "direct",
+      "rationale": "gaēθā- in the plural denotes the living beings and settlements that make up the material world, and 'my world' is the established rendering, retained from the draft with the literal plural explained at VID-2:4. The agent-noun triad, however, is mis-rendered in Darmesteter: θrātar- is the exact cognate of Vedic trātṛ- 'protector', not 'nourisher', and harətar- is 'keeper, guardian' rather than 'ruler'. The Editor restores the lexical values, 'protector, keeper, and overseer', which are secure and change the portrait of Yima's office from provider-king to guardian of the living.",
+      "appliesTo": [
+        "VID-2:4",
+        "VID-2:5"
+      ]
+    },
+    {
+      "id": "xshathra-rule-and-v7-berethe-vendidad-woh",
+      "source": "xšaθra-; yimō asti bərəθe xšaθraiiā̊",
+      "translit": "xshathra; ýimô asti berethe xshathrayå",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. xšaθra-, bar-",
+      "lemma": "xšaθra- 'rule, dominion, kingship'; bərəθe (dative infinitive of bar- 'to carry, bear')",
+      "partOfSpeech": "noun; (v. 7) copula + infinitive + genitive/adjectival form",
+      "literal": "rule; Yima is for the bearing of rule",
+      "standardEnglish": "while I am king (v. 5); under the sway of Yima (vv. 8, 12, 16); 'Behold, here Yima bears the royal sway!' (end of SBE v. 6)",
+      "wohChoice": "'rule' throughout: 'under my rule' (v. 5), 'winters of Yima's rule' (vv. 8, 12-14, 16); v. 7 'Yima is to bear the kingly rule'",
+      "claim_type": "direct",
+      "rationale": "xšaθra- is the ordinary Avestan word for rule, dominion and kingship (later Persian šahr), and the draft's 'sway' is an archaism inherited from Darmesteter; 'rule' is the plain modern equivalent and is used for every occurrence so the repeated formula remains recognizable. The dative-construction yimāi xšaθrāi of vv. 8/12/16 ('for Yima's rule') is rendered 'winters of Yima's rule'. v. 7 is a short nominal clause that Darmesteter both relocates and exclaims ('Behold, here Yima bears the royal sway!'); bərəθe is a dative infinitive 'to bear', and the line is rendered as a plain statement of office, 'Yima is to bear the kingly rule', with its obscurity noted in commentary.",
+      "appliesTo": [
+        "VID-2:5",
+        "VID-2:7",
+        "VID-2:8",
+        "VID-2:12-14",
+        "VID-2:16"
+      ]
+    },
+    {
+      "id": "suwra-ashtra-implements-and-their-verbs-vendidad-woh",
+      "source": "zaiia (du.) suβrąm zaranaēnīm aštrąmca zaraniiō.paēsīm; aiwišuuat; sifat; (aiwi-, api-) marəz-",
+      "translit": "zaya suwrãm zaranaênîm ashtrãmca zaranyô-paêsîm; aiwishvat; sifat; mareza / marezat",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. suβrā-, aštrā-, zaiia-, marəz-",
+      "lemma": "suβrā- (meaning uncertain); aštrā- 'goad, whip' (cf. Vedic aṣṭrā- 'goad'); zaiia- 'implement'; marəz- 'to stroke, touch, wipe' (api- 'to smear over, seal')",
+      "partOfSpeech": "nouns with material adjectives; verbs of handling",
+      "literal": "a golden suwra and a goad adorned with gold; he pressed(?) with the suwra, he stroked/pierced(?) with the goad; (v. 30) over the Varas with the golden suwra ... and seal up that Vara",
+      "standardEnglish": "a golden seal and a poniard inlaid with gold; pressed ... bored; 'That Vara thou shalt seal up with thy golden seal' (v. 30), 'with the golden ring' (v. 38) (Darmesteter)",
+      "wohChoice": "'a golden suwra' (transliterated, lexically uncertain) and 'a goad adorned/inlaid with gold'; verbs 'pressed ... pierced'; vv. 30/38: 'And ⟨stroke⟩ over the Varas with the golden suwra, and seal up that Vara' (gapped verb supplied in angle brackets)",
+      "claim_type": "inferred",
+      "rationale": "aštrā- is the word the Vendidad itself uses in its penal formulas for the instrument of the prescribed strokes (aspahe aštrā, 'the horse's goad/whip', Vd 4 and passim), and it is cognate with Vedic aṣṭrā- 'goad'; his 'poniard' in Fargard 2 follows later Persian royal-investiture imagery (his n. 4, 'the sword and the seal'), so the WoH text restores 'goad'. suβrā- has no secure etymology or parallel: 'seal' and 'ring' come from the Pahlavi tradition (Darmesteter himself alternates 'seal' at v. 30 and 'ring' at v. 38), and later scholarship has proposed other objects (a horn, an arrow or awl); because no rendering is secure, the word is transliterated in the line and the options are set out in commentary, which is the accuracy-first choice. The verbs aiwišuuat and sifat are also uncertain; Darmesteter's construal ('pressed', 'bored', modernized to 'pierced') is retained as the reference default with the uncertainty noted. At vv. 30/38 the first clause has no verb; its preverb aiwi- is read with the verb marəz- of the following clause (aiwi-marəz 'stroke over', api-marəz 'smear over, seal up'), so the Editor supplies ⟨stroke⟩ in angle brackets in place of the draft's '[press]', which imported a verb from v. 10. Marked inferred because the object-identification and both verb-construals remain open.",
+      "appliesTo": [
+        "VID-2:6",
+        "VID-2:10",
+        "VID-2:12-14",
+        "VID-2:18",
+        "VID-2:30",
+        "VID-2:38"
+      ]
+    },
+    {
+      "id": "pasu-staora-flocks-and-herds-gav-vendidad-woh",
+      "source": "pasuuąmca staoranąmca; gauuąm gāuuaiianəm; gə̄uš sarəδanąm",
+      "translit": "pasvãmca staoranãmca; gavãm gâvayanem; gêush saredhanãm",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. pasu-, staora-, gāuuaiiana-, sarəδa-",
+      "lemma": "pasu- 'small livestock (sheep, goats)'; staora- 'large livestock (cattle, draught animals)'; gāuuaiiana- 'cattle-fold'; sarəδa- 'kind, species'",
+      "partOfSpeech": "nouns (genitive plural pair); compound noun; genitive phrase",
+      "literal": "of small cattle and large cattle; a fold of cattle for cattle; of the kinds of cattle",
+      "standardEnglish": "flocks and herds (vv. 8-19) but 'sheep and oxen' (vv. 25, 33) for the identical words; 'for oxen and sheep'; 'every kind of cattle' (Darmesteter)",
+      "wohChoice": "'flocks and herds' at every occurrence; 'a fold for cattle'; 'all kinds of cattle' / 'the kinds of cattle'",
+      "claim_type": "direct",
+      "rationale": "pasu- and staora- are the Avestan pair for small and large livestock, and English 'flocks and herds' renders the pair idiomatically; Darmesteter uses it in vv. 8-19 but switches to 'sheep and oxen' at vv. 25 and 33 for the same two words, a variation the Avestan does not make. The draft's unification is retained, so the repeated catalogue (flocks, herds, men, dogs, birds, fires) reads as one formula across the warning, the enlargements and the Vara instructions. gāuuaiiana- is a fold for cattle, and sarəδa- 'kind, species' is rendered 'kinds'. No lens is carried.",
+      "appliesTo": [
+        "VID-2:8",
+        "VID-2:9",
+        "VID-2:10",
+        "VID-2:11",
+        "VID-2:12-14",
+        "VID-2:15",
+        "VID-2:16",
+        "VID-2:17",
+        "VID-2:18",
+        "VID-2:19",
+        "VID-2:25",
+        "VID-2:27",
+        "VID-2:33",
+        "VID-2:35",
+        "VID-2:41"
+      ]
+    },
+    {
+      "id": "zima-winters-reckoning-hanjasenti-vendidad-woh",
+      "source": "θrisatō.zima-, xšuuaš.satō.zima-, nauua.satō.zima-; haṇjasəṇti",
+      "translit": "thrisatô-zima; xshvash-satô-zima; nava-satô-zima; hañjaseñti",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. zim-/zaiian-, ham-gam-",
+      "lemma": "compound numerals with zim- 'winter'; ham-jas- 'to come together, be completed'",
+      "partOfSpeech": "numeral compound (bahuvrīhi); verb, present 3 pl.",
+      "literal": "(periods) of three hundred winters come together / are completed",
+      "standardEnglish": "three hundred winters passed away (Darmesteter)",
+      "wohChoice": "'three hundred / six hundred / nine hundred winters of Yima's rule were completed'",
+      "claim_type": "direct",
+      "rationale": "The Avestan reckons Yima's reign in 'winters', and the unit is kept literally because the chapter's catastrophe is itself a winter (v. 22): the count and the threat share one word. The verb haṇjasəṇti means 'come together, meet', hence 'are completed (as a total)', and 'were completed' renders it more exactly than Darmesteter's 'passed away'. Both changes are lexically direct.",
+      "appliesTo": [
+        "VID-2:8",
+        "VID-2:12-14",
+        "VID-2:16"
+      ]
+    },
+    {
+      "id": "raocah-rapithwa-path-of-sun-spenta-armaiti-invocation-vendidad-woh",
+      "source": "raocā̊ ā upa rapiθβąm hū paiti aδβanəm; friθa spəṇta ārmaite fraca šuua vīca nəmaŋha",
+      "translit": "raocå â upa rapithwãm hû paiti adhwanem; fritha speñta ârmaite fraca shva vîca nemangha",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. raocah-, rapiθβā-, friθa-, nəmah-",
+      "lemma": "raocah- 'light' (acc. pl.); rapiθβā- 'noon, midday (quarter), south'; friθa- 'dear'; nəmah- 'homage, reverence'",
+      "partOfSpeech": "prepositional phrases of direction; vocative + imperatives + instrumental",
+      "literal": "to the lights, toward the midday (quarter), on the path of the sun; O dear Spenta Armaiti, go forth and apart, with reverence",
+      "standardEnglish": "in light, southwards, on the way of the sun; 'O Spenta Armaiti, kindly open asunder and stretch thyself afar' (Darmesteter; nəmaŋha not rendered)",
+      "wohChoice": "'toward the lights, southward, on the path of the sun'; 'O dear Spenta Armaiti, move forward and spread apart, in reverence, to bear flocks and herds and men'",
+      "claim_type": "direct",
+      "rationale": "raocā̊ is accusative plural with the directional particle ā, so the literal sense is 'toward the lights', not Darmesteter's instrumental 'in light', which follows the later image of Yima himself shining (his n. 5); the literal is preferred. rapiθβā- is 'midday', and in Iranian orientation the midday quarter is the south, so 'southward' is retained as the standard equivalent. friθa- is the cognate of Vedic priya- 'dear'; Darmesteter's 'kindly' follows the commentary's paraphrase, while the draft's 'dear' is lexical and kept. Darmesteter does not render nəmaŋha 'with homage/reverence'; the draft restored it and the Editor keeps it.",
+      "appliesTo": [
+        "VID-2:10",
+        "VID-2:12-14",
+        "VID-2:18"
+      ]
+    },
+    {
+      "id": "thrishva-thirds-and-zaosha-pleasure-vendidad-woh",
+      "source": "aēuua θrišuua / duua θrišuua / θribiiō θrišuuaēibiiō; yaθa kaθaca hē zaošō",
+      "translit": "aêva thrishva / dva thrishva / thribyô thrishvaêibyô; ýatha kathaca hê zaoshô",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. θrišuua-, zaoša-",
+      "lemma": "θrišuua- 'third part'; zaoša- 'pleasure, liking'; hē (enclitic 3 sg.)",
+      "partOfSpeech": "numeral + fraction noun (nom., du., instr. pl.); relative clause",
+      "literal": "by one third / by two thirds / by three thirds; in whatever way was his pleasure",
+      "standardEnglish": "one-third, two-thirds, and (v. 19) again 'two-thirds' (Darmesteter); 'as many as he wished'",
+      "wohChoice": "'by one third', 'by two thirds', 'by three thirds' (v. 19, following the Avestan against SBE); 'in whatever way it pleased him'",
+      "claim_type": "direct",
+      "rationale": "The three enlargements are graded aēuua / duua / θribiiō θrišuuaēibiiō, 'one / two / three thirds', and Darmesteter prints 'two-thirds' for the third enlargement at v. 19, an error in the reference that the WoH text does not follow. The term is θrišuua- 'third part', not karšuuar- (the regional 'clime'), which does not occur in this chapter. In the clause yaθa kaθaca hē zaošō the enclitic hē is singular, so 'in whatever way it pleased him' keeps the grammar while leaving the referent (Yima, or each creature distributively) as open as the Avestan; Darmesteter's 'as many as he wished' adds a quantity the clause does not state.",
+      "appliesTo": [
+        "VID-2:11",
+        "VID-2:15",
+        "VID-2:19"
+      ]
+    },
+    {
+      "id": "hanjamana-assembly-mainyava-yazata-sruto-airyana-vaejah-vendidad-woh",
+      "source": "haṇjamanəm frabarata ... haθra mainiiaoibiiō yazataēibiiō srūtō airiiene vaējahi vaŋhuiiā̊ dāitiiaiiā̊",
+      "translit": "hañjamanem frabarata ... hathra mainyaoibyô ýazataêibyô srûtô airyene vaêjahi vanghuyå dâityayå",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. haṇjamana-, mainiiauua-, yazata-, srūta-, vaējah-, dāitiiā-",
+      "lemma": "haṇjamana- 'assembly'; mainiiauua- 'spiritual, of the mental existence'; yazata- 'being worthy of worship'; srūta- 'famed' (nom. sg. masc.)",
+      "partOfSpeech": "noun + verb; instrumental-comitative phrase; nominative participle; locative + genitive phrase",
+      "literal": "brought forth an assembly with the spiritual Yazatas, (he) renowned, in Airyana Vaejah of the good Daitya",
+      "standardEnglish": "called together a meeting of the celestial Yazatas in the Airyana Vaejo of high renown, by the Vanguhi Daitya (Darmesteter)",
+      "wohChoice": "'convened an assembly with the spiritual Yazatas — he, renowned in Airyana Vaejah of the Good Daitya'",
+      "claim_type": "inferred",
+      "rationale": "srūtō is nominative singular masculine and cannot agree with the locative airiiene vaējahi, so Darmesteter's 'Airyana Vaejo of high renown' attaches the adjective to the wrong noun; the WoH text construes it with the subject (Ahura Mazda in the first clause, Yima in the second). mainiiauua- is the adjective of mainiiu- 'spirit' and contrasts with gaēθiia- 'material'; 'spiritual' renders it exactly, where 'celestial' adds a spatial image the word does not carry. vaŋhuiiā̊ dāitiiaiiā̊ is genitive, 'of the good Dāityā' (the river of Airyana Vaējah, cf. Vd 1.2), not 'by the Vanguhi Daitya'. Marked inferred because the apposition of srūtō to the subject, while grammatically required, produces a slightly unusual phrasing that some translators smooth differently.",
+      "appliesTo": [
+        "VID-2:20",
+        "VID-2:21"
+      ]
+    },
+    {
+      "id": "aghem-zimo-evil-winters-aredvi-measure-vendidad-woh",
+      "source": "aγəm zimō jaŋhəṇtu; staxrō mrūrō ziiā̊; pauruuō snaoδō vafra snaēžāt ... arəδuiiā̊",
+      "translit": "akhem zimô jangheñtu; staxrô mrûrô zyå; paurvô snaodhô vafra snaêzhât ... areduyå",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. aγa-, zim-/ziiam-, snaoδa-, arəδuiiā-",
+      "lemma": "aγa- 'evil'; zim-/ziiam- 'winter, frost'; snaoδa- 'cloud'; arəδuiiā (form disputed: a measure of depth, or genitive of the name Arədvī)",
+      "partOfSpeech": "noun phrase + injunctive/imperative 3 pl.; adjective string; noun + verb; uncertain form",
+      "literal": "evil (of) winter(s) shall come; strong, deadly frost; much cloud shall snow snows ... (to) an aredvi",
+      "standardEnglish": "the evil winters are about to fall ... fierce, deadly frost ... make snow-flakes fall thick, even an aredvi deep (Darmesteter); the Pahlavi commentary names the winters Malkosan",
+      "wohChoice": "'the evil winters shall come'; 'fierce, deadly frost'; 'many clouds shall snow down snowflakes'; 'an aredvi deep' (untranslated measure). The name Malkosan / Mahrkusha is NOT introduced: it does not occur in the Avestan.",
+      "claim_type": "inferred",
+      "rationale": "The subject phrase aγəm zimō is ambiguous between 'evil winter(s)' and 'the evil of winter' (zimō may be genitive singular), while the verb jaŋhəṇtu is plural; 'the evil winters' follows the plural verb and the standard rendering, and the alternative is recorded in commentary. Darmesteter's note shows that the Pahlavi commentary names these winters malkōsān after a demon Mahrkūša; that name is absent from the Avestan text, and importing it would make the catastrophe demonic by naming, which the text itself does not do, so it stays in commentary. arəδuiiā̊ is rendered as a measure ('an aredvi deep'), following Darmesteter and the commentary's gloss (one vitasti and two fingers), with the possibility that it is the name Arədvī noted; marked inferred because the depth-measure reading is traditional rather than proven.",
+      "appliesTo": [
+        "VID-2:22"
+      ]
+    },
+    {
+      "id": "thrizhat-third-of-cattle-v23-vendidad-woh",
+      "source": "θrižatca iδa yima gə̄uš apa.jasāt ... θβiiąstəmaēšu asaŋhąm ... jąfnušuua raonąm paxrumaēšu nmānaēšu",
+      "translit": "thrizhatca idha ýima gêush apa-jasat ... thwyãstemaêshu asanghãm ... jãfnushva raonãm paxrumaêshu nmânaêshu",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. θrižat-, apa-gam-, θβiiąstəma-, raona-, paxruma-",
+      "lemma": "θrižat- 'a third (part)'; apa-gam- 'to go away, get away'; θβiiąstəma- 'most dreadful'; raona- 'river(-valley)'; paxruma- (uncertain: 'enclosed, sheltered')",
+      "partOfSpeech": "fraction noun + verb (subjunctive); relative clauses with locatives",
+      "literal": "a third, here, O Yima, of the cattle shall go away: those that are in the most dreadful of places ... in the depths of the river-valleys, in sheltered(?) dwellings",
+      "standardEnglish": "And the beasts that live in the wilderness, and those that live on the tops of the mountains, and those that live in the bosom of the dale shall take shelter in underground abodes (Darmesteter — 'third' not rendered)",
+      "wohChoice": "'And a third of the cattle, O Yima, shall go away from here: those in the most dreadful of places, those on the heights of the mountains, and those in the depths of the river valleys, in sheltered dwellings.'",
+      "claim_type": "inferred",
+      "rationale": "The verse opens with θrižat- 'a third', which Darmesteter omits; the WoH text renders it, because a fraction of surviving or departing livestock is part of what the verse says. apa-gam- means 'go away, get away', and whether the third 'escapes' the winter or 'departs' (perishes) is not decided by the verb alone; 'shall go away from here' keeps that open rather than resolving it as Darmesteter's 'take shelter'. Darmesteter's 'underground abodes' is an interpretation of paxruma- driven by the later belief that the Vara was subterranean (his n. 30); the word's sense is uncertain, and 'sheltered dwellings' is the more neutral rendering. raona- is 'river', so 'river valleys' replaces 'dale'. Marked inferred because the construal of the whole verse remains disputed.",
+      "appliesTo": [
+        "VID-2:23"
+      ]
+    },
+    {
+      "id": "v24-pasture-before-meltwater-footprint-wonder-vendidad-woh",
+      "source": "parō zimō aētaŋhā̊ daiŋhuš aŋhat bərətō vāstrəm təm āfš pauruua vazaiδiiāi pasca vītaxti vafrahe; abdaca ... pasə̄uš anumaiiehe paδəm",
+      "translit": "parô zimô aêtanghå danghush anghat beretô vâstrem tem âfsh paurva vazaidhyâi pasca vîtaxti vafrahe; abdaca ... pasêush anumayehe padhem",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. vāstra-, pauruua-, vītaxti-, abda-, anumaiia-",
+      "lemma": "vāstra- 'pasture'; pauruua- 'first, before'; vītaxti- 'melting'; abda- 'wonder'; anumaiia- 'sheep'",
+      "partOfSpeech": "temporal clause with subjunctive and infinitive; nominal clause",
+      "literal": "before the winter this land would bear pasture; before (the time when) the waters are to flow over it, after the melting of the snow; a wonder ... the footprint of a sheep",
+      "standardEnglish": "Before that winter, the country would bear plenty of grass for cattle, before the waters had flooded it. Now after the melting of the snow ... a place wherein the footprint of a sheep may be seen will be a wonder (Darmesteter)",
+      "wohChoice": "'Before the winter, this land would bear pasture, before the waters are to flood it after the melting of the snow; and it will seem a wonder, O Yima, in the material world, if the footprint of a sheep is seen here.'",
+      "claim_type": "inferred",
+      "rationale": "The verse is syntactically obscure, and the Translator followed Darmesteter's construal; the Editor retains that construal but takes pauruua as 'before / first' (the adjective pauruua- 'former'), not 'abundantly' (which would require pouru- 'much'), so the draft's 'overflow it abundantly' becomes 'before the waters are to flood it'. This puts the meltwater flood after the winter, which is the order the clause pasca vītaxti vafrahe 'after the melting of the snow' requires. The closing image (a sheep's footprint as a rarity) is lexically clear and kept. Marked inferred because the infinitive construction admits other readings.",
+      "appliesTo": [
+        "VID-2:24"
+      ]
+    },
+    {
+      "id": "vara-varefshva-enclosure-vendidad-woh",
+      "source": "vara- (acc. varəm; loc. pl. varəfšuua)",
+      "translit": "varem; varefshva",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. vara-",
+      "lemma": "vara- (from var- 'to cover, enclose')",
+      "partOfSpeech": "noun, masculine; accusative singular and locative plural",
+      "literal": "enclosure, fenced/walled space",
+      "standardEnglish": "the Vara (Darmesteter, always singular, including for the locative plural varəfšuua)",
+      "wohChoice": "'the Vara' (transliterated, capitalized as the name of Yima's structure); the locative plural varəfšuua rendered 'in the Varas' / 'in those Varas'",
+      "claim_type": "direct",
+      "rationale": "vara- derives from var- 'to cover, enclose' and means an enclosure; scholarship transliterates it ('vara', Middle Persian war, 'the Var of Jam') because it functions as the name of a unique structure, and the WoH text follows that practice, giving the meaning in commentary. Seven times the text uses the locative plural varəfšuua with plural demonstratives ('in those Varas which Yima made'), which Darmesteter flattens to a singular; the plural is grammatically explicit and is kept, with commentary noting that it may refer to the Vara's parts or be a plural of extent. The English thus reports both the singular construction-command and the plural habitation-language exactly as the text distributes them.",
+      "appliesTo": [
+        "VID-2:25",
+        "VID-2:28",
+        "VID-2:30",
+        "VID-2:31",
+        "VID-2:33",
+        "VID-2:36",
+        "VID-2:38",
+        "VID-2:39",
+        "VID-2:41",
+        "VID-2:42"
+      ]
+    },
+    {
+      "id": "caretu-drajah-race-course-measure-hathra-vendidad-woh",
+      "source": "carətu.drājah- kəmcit paiti caθrušanąm; hāθrō.masaŋhəm aδβanəm",
+      "translit": "caretu-drâjô kemcit paiti cathrushanãm; hâthrô-masanghem adhwanem",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. carətu-, drājah-, caθruša-, hāθra-",
+      "lemma": "carətu- 'race-course' (as a unit of length); drājah- 'length'; caθruša- 'side (of four)'; hāθra- (a length measure)",
+      "partOfSpeech": "bahuvrīhi compound; distributive phrase; compound adjective + noun",
+      "literal": "having the length of a race-course on each of the four sides; a course of a hathra's length",
+      "standardEnglish": "long as a riding-ground on every side of the square; a bed a hathra long (Darmesteter; Pahlavi commentary: two hathras on each side; a hathra 'about an English mile')",
+      "wohChoice": "'the length of a race-course on each of its four sides'; 'along a course a hathra in length'",
+      "claim_type": "direct",
+      "rationale": "carətu- is a race-course or riding-track, used here as a measure of length, and 'race-course' is the closer modern English than Darmesteter's 'riding-ground'. kəmcit paiti caθrušanąm is distributive, 'on each of the four sides', which describes a square plan without the text using the word 'square' (Darmesteter's 'every side of the square'). The commentary's equation (two hathras per side; a hathra about a mile) is reported in commentary, not imported into the line. No lens is carried.",
+      "appliesTo": [
+        "VID-2:25",
+        "VID-2:26",
+        "VID-2:33",
+        "VID-2:34"
+      ]
+    },
+    {
+      "id": "taoxma-seeds-mithwaire-ajyamna-vendidad-woh",
+      "source": "taoxma- (acc. pl.); miθβairē; ajiiamna-",
+      "translit": "taoxma; mithwaire; ajyamna",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. taoxman-, miθβara-, ajiiamna-",
+      "lemma": "taoxman- 'seed, germ, stock'; miθβara- 'pair'; ajiiamna- 'not failing, inexhaustible' (negated participle of jī- 'to diminish')",
+      "partOfSpeech": "noun; locative/adverbial of pair-noun; negated participle",
+      "literal": "the seeds (of men, animals, fires, plants); in pairs; unfailing",
+      "standardEnglish": "seeds; 'two of every kind'; 'to be kept inexhaustible' (Darmesteter)",
+      "wohChoice": "'seeds'; 'in pairs'; 'to be inexhaustible'; vv. 26/34 'food that is eaten and never fails'",
+      "claim_type": "direct",
+      "rationale": "taoxman- is the general word for seed, germ or stock and is applied in this chapter to men, livestock, dogs, birds, fires and plants alike; 'seeds' is literal and is kept uniformly so the reader sees the single category the text uses, without the narrower 'specimens' or the biologizing 'germs'. miθβairē is 'in pairs'; Darmesteter's 'two of every kind' echoes the King James wording of Gen 6:19 and is avoided so that the comparison is made in commentary rather than built into the English. ajiiamna- 'not diminishing' is rendered 'inexhaustible' / 'never fails'.",
+      "appliesTo": [
+        "VID-2:25",
+        "VID-2:26",
+        "VID-2:27",
+        "VID-2:28",
+        "VID-2:30",
+        "VID-2:33",
+        "VID-2:34",
+        "VID-2:35",
+        "VID-2:36",
+        "VID-2:38"
+      ]
+    },
+    {
+      "id": "vara-dwelling-hapaxes-and-zairigaona-vendidad-woh",
+      "source": "aui mat zairi.gaonəm mat x'airiieiti ajiiamnəm; katəmca fraskəmbəmca frauuārəmca pairiuuārəmca",
+      "translit": "avi mat zairi-gaonem mat hvairyeite ajyamnem; katemca fraskembemca fravâremca pairi-vâremca",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. zairi.gaona-, kata-, fraskəmba-, frauuāra-, pairiuuāra-",
+      "lemma": "zairi.gaona- 'golden-green / yellow coloured'; kata- 'chamber, storeroom'; fraskəmba- (cf. skəmba- 'pillar', Vedic skambha-) 'pillared porch(?)'; frauuāra- 'fore-enclosure(?)'; pairiuuāra- 'surrounding enclosure(?)' (var- 'to cover, enclose')",
+      "partOfSpeech": "adjective used substantivally + relative clause; four coordinated nouns (three hapax legomena)",
+      "literal": "by the golden-green, by the unfailing (food) that is eaten; a chamber, a pillared porch, a fore-enclosure, a surrounding enclosure",
+      "standardEnglish": "on the green that never fades, with food that never fails; a house with a balcony, a courtyard, and a gallery (Darmesteter, who notes the last three words are hapax legomena of doubtful meaning)",
+      "wohChoice": "'by the golden-green, by the food that is eaten and never fails'; 'a chamber and a pillared porch and a front enclosure and a surrounding enclosure'",
+      "claim_type": "inferred",
+      "rationale": "Darmesteter's 'the green that never fades' attaches 'never' to the colour word, but ajiiamna- 'unfailing' qualifies the food that is eaten (x'airiieiti), and zairi.gaona- simply means 'golden-green coloured'; the WoH text restores both. The four building-terms are rare (three are hapax legomena, as Darmesteter notes), and his 'balcony, courtyard, gallery' are guesses from later domestic architecture; the WoH renderings follow the roots instead: kata- 'chamber/storeroom', fraskəmba- containing skəmba- 'pillar', frauuāra- and pairiuuāra- built on var- 'to enclose' with fra- 'in front' and pairi- 'around'. Marked inferred because root-based glosses of hapaxes remain conjectural, though better grounded than the reference.",
+      "appliesTo": [
+        "VID-2:26",
+        "VID-2:34"
+      ]
+    },
+    {
+      "id": "urvara-hvaretha-plants-foods-vendidad-woh",
+      "source": "uruuaranąm; x'arəθanąm; barəzišta-, x'arəzišta-, hubaoiδitəma-",
+      "translit": "urvaranãm; hvarethanãm; barezishta, hvarezishta, hubaoidhitema",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. uruuarā-, x'arəθa-",
+      "lemma": "uruuarā- 'plant'; x'arəθa- 'food, edible thing'; superlatives 'tallest', 'most delicious', 'most fragrant'",
+      "partOfSpeech": "nouns (genitive plural) with superlative adjectives",
+      "literal": "of all plants ... the tallest and most fragrant; of all foods ... the most delicious and most fragrant",
+      "standardEnglish": "every kind of tree ... the highest of size and sweetest of odour; every kind of fruit, the best of savour (Darmesteter)",
+      "wohChoice": "'all plants'; 'all foods'; 'the tallest and most fragrant'; 'the most delicious and most fragrant'",
+      "claim_type": "direct",
+      "rationale": "uruuarā- is the general Avestan word for plant, and x'arəθa- is 'food, what is eaten'; Darmesteter's 'trees' and 'fruits' follow the Pahlavi commentary's examples (cypress and plane; date and citron, his nn. 22-23), which narrow the categories. The WoH text gives the general terms, which are what the text says. The superlatives are rendered literally.",
+      "appliesTo": [
+        "VID-2:28",
+        "VID-2:36"
+      ]
+    },
+    {
+      "id": "exclusion-list-daxshta-of-angra-mainyu-vendidad-woh",
+      "source": "frakauuō apakauuō apāuuaiiō hərəδiš driβiš daiβiš kasuuīš vīzbāriš vīmitō.daṇtānō paēsō yō vītərətō.tanuš ... daxštanąm ... aŋrahe mainiiə̄uš daxštəm",
+      "translit": "frakavô, apakavô, apâvayô, haredhish, driwish, daiwish, kasvîsh, vîzbârish, vîmîtô-dañtânô, paêsô ýô vîteretô-tanush; daxshta",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. frakauua-, apakauua-, vīmitō.dantan-, paēsa-, daxšta-",
+      "lemma": "list of disqualifying conditions; daxšta- 'mark, sign, brand'",
+      "partOfSpeech": "nominal list in prohibitive / negated existential clauses",
+      "literal": "no one humped in front, humped behind, ... with mis-measured teeth, leper whose body is set apart ... nor any other of the marks which are the mark of Angra Mainyu laid upon mortals",
+      "standardEnglish": "no humpbacked, none bulged forward; no impotent, no lunatic; no malicious, no liar; no one spiteful, none jealous; no one with decayed tooth, no leprous to be pent up, nor any of the brands wherewith Angra Mainyu stamps the bodies of mortals (Darmesteter)",
+      "wohChoice": "'no one humped in front, no one humped behind' (fra-/apa-); 'no one with misshapen teeth' (vīmita- 'mis-measured'); 'no leper whose body is set apart'; 'the marks that are the mark of Angra Mainyu, laid upon mortals'; the six uncertain middle items (apāuuaiia-, hərəδi-, driβi-, daiβi-, kasuuī-, vīzbāri-) KEEP Darmesteter's renderings as the reference default (impotent, lunatic, malicious, liar, spiteful, jealous) pending human ruling",
+      "claim_type": "inferred",
+      "rationale": "The list names the conditions excluded from the Vara, and its terms are mostly rare; where the morphology is transparent the WoH text follows it: frakauua- / apakauua- are 'humped in front' and 'humped behind' (preverbs fra- 'forward', apa- 'back'), vīmitō.dantan- is 'with mis-measured (irregular) teeth' rather than Darmesteter's 'decayed', and paēsa- yō vītərətō.tanuš is 'a leper whose body is set apart'. For the middle six items the evidence is divided between moral readings (Darmesteter's 'malicious, liar, spiteful, jealous') and physical or bodily readings proposed in later lexicography, and the Editor cannot settle them without importing a guess; Darmesteter's renderings are therefore kept as the reference default and the item is escalated for human ruling. The closing daxšta- 'mark, sign' is rendered 'marks', keeping the text's image of Angra Mainyu's sign laid on mortals without Darmesteter's 'stamps the bodies'.",
+      "appliesTo": [
+        "VID-2:29",
+        "VID-2:37"
+      ]
+    },
+    {
+      "id": "fratema-madhema-nitema-perethu-door-window-vendidad-woh",
+      "source": "fratəməm daiŋhə̄uš ... maδəmō ... nitəmō; pərəθβō; duuarəm raocanəm x'āraoxšnəm aṇtarə.naēmāt",
+      "translit": "fratemem dainghêush ... madhemô ... nitemô; perethwô; dvarem raocanem hvâraoxshnem añtare-naêmât",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. fratəma-, maδəma-, nitəma-, pərətu-, raocana-, x'āraoxšna-",
+      "lemma": "superlatives 'foremost / middle / lowest'; pərətu- 'passage, crossing, bridge'; raocana- 'light-opening, window'; x'āraoxšna- 'self-shining'",
+      "partOfSpeech": "spatial superlatives with genitive; noun; noun phrase in apposition",
+      "literal": "in the foremost (part) of the place nine passages, in the middle six, in the lowest three; a door, a window self-shining, from the inner side",
+      "standardEnglish": "In the largest part of the place ... nine streets ... in the smallest three ... and thou shalt make a door, and a window self-shining within (Darmesteter)",
+      "wohChoice": "'In the foremost part of the place make nine passages, in the middle part six, in the lowest three'; 'a door, a window self-shining from within' (no verb supplied for the appositive phrase)",
+      "claim_type": "inferred",
+      "rationale": "fratəma-, maδəma- and nitəma- are 'foremost/first', 'middle' and 'lowest/last'; Darmesteter's 'largest ... smallest' infers size from the numbers of passages and seeds, and the WoH text gives the words. pərətu- is a passage, crossing or bridge (Middle Persian puhl), and 'passages' is closer than 'streets'. The appositive 'a door, a window self-shining from within' has no verb in the Avestan; Darmesteter supplies 'thou shalt make', while the WoH text leaves it as an apposition to the sealing clause, which reports the text without adding a verb. x'āraoxšna- 'self-shining' is literal. Marked inferred because the spatial meaning of the three superlatives (front-to-back vs. top-to-bottom) is not certain.",
+      "appliesTo": [
+        "VID-2:30",
+        "VID-2:38"
+      ]
+    },
+    {
+      "id": "vispar-vixadh-tread-knead-soft-earth-vendidad-woh",
+      "source": "pāšnābiia vīspara zastaēibiia vīxaδa mąnaiiən ahe yaθa nū mašiiāka xšuuisti zəmē vīšāuuaiieiṇte",
+      "translit": "pâshnâbya vîspara zastaêibya vîxadha mãnayen ahe ýatha nû mashyâka xshivisti zemê vîshâvayeiñte",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. vī-spar-, vī-xad-, xšuuisti-",
+      "lemma": "vī-spar- 'tread apart'; vī-xad- 'knead apart'; mąnaiiən ahe yaθa 'in the manner as'; xšuuisti- 'soft, moist'",
+      "partOfSpeech": "imperatives with instrumental duals; comparative clause",
+      "literal": "tread apart with the heels, knead apart with the hands, in the manner that men now spread out soft earth",
+      "standardEnglish": "Crush the earth with a stamp of thy heel, and then knead it with thy hands, as the potter does when kneading the potter's clay (Darmesteter); v. 32 bracketed as from the Vendidad Sade",
+      "wohChoice": "'tread this earth apart with your heels, knead it apart with your hands, in the way that men now spread out soft earth'; v. 32 translated as part of the text, unbracketed",
+      "claim_type": "direct",
+      "rationale": "The comparison clause says only that 'mortals now spread out soft earth', with no mention of a potter or of clay; Darmesteter's 'as the potter does when kneading the potter's clay' is an interpretive expansion, and the WoH text renders the words. Both verbs carry the preverb vī- 'apart', and 'tread apart', 'knead apart' keep the image of spreading earth that links this verse to Yima's enlargement of the earth (vīšāuuaiiat, vv. 11, 15, 19 — the same verb vīšāuuaiia- recurs here). v. 32 is printed in Geldner's text and is translated without brackets.",
+      "appliesTo": [
+        "VID-2:31",
+        "VID-2:32"
+      ]
+    },
+    {
+      "id": "hvadhata-stidhata-self-created-lights-vendidad-woh",
+      "source": "x'aδātāca raocā̊ stiδātāca",
+      "translit": "hvadhâtaca raocå stidhâtaca",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. x'aδāta-, stiδāta-",
+      "lemma": "x'aδāta- 'self-created, self-established' (x'a- 'self' + dāta-); stiδāta- 'created in (material) existence' (stī- 'existence' + dāta-)",
+      "partOfSpeech": "two compound adjectives with raocah- 'light' (nom. pl.)",
+      "literal": "self-created lights and lights created in (material) existence",
+      "standardEnglish": "uncreated lights and created lights (Darmesteter; n. 29: 'The endless light, which is eternal, and artificial lights')",
+      "wohChoice": "'self-created lights and lights created in the world'",
+      "claim_type": "direct",
+      "rationale": "x'aδāta- is a transparent compound of x'a- 'self' and dāta- 'created, established', so it means 'self-created', not 'uncreated'; Darmesteter's rendering imports the later Pahlavi category of the 'endless lights' (anagr rōšnīh), and the Translator notes that the phrase anaγra raocā̊ does not occur in this verse. stiδāta- pairs dāta- with stī- 'existence' and denotes lights made within the material world. The literal pair is given, and Darmesteter's own gloss of the second class as 'artificial lights' (n. 29) is reported in commentary as part of the reception history, not adopted in the line.",
+      "appliesTo": [
+        "VID-2:40"
+      ]
+    },
+    {
+      "id": "hakeret-once-setting-and-rising-v40-vendidad-woh",
+      "source": "hakərət zī irixtahe saδaiiaca vaēnaite strə̄ušca mā̊sca huuarəca",
+      "translit": "hakeret zî irixtahe sadhayaca vaênaite starasca måsca hvareca",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. hakərət, saδaiia-",
+      "lemma": "hakərət 'once' (cf. Vedic sakṛt); irixta- (ric- 'to leave': 'the going-away, setting'); saδaiia- 'appearing'",
+      "partOfSpeech": "adverb + genitive/verbal noun pair + passive verb",
+      "literal": "for (only) once is seen the setting and the appearing of the stars and moon and sun",
+      "standardEnglish": "The one thing missed there is the sight of the stars, the moon, and the sun (Darmesteter — hakərət not rendered)",
+      "wohChoice": "'For only once is the setting and rising of the stars and the moon and the sun seen'",
+      "claim_type": "inferred",
+      "rationale": "hakərət is the Avestan cognate of Vedic sakṛt 'once', and Darmesteter's 'the one thing missed there is the sight of' does not render it; the WoH text follows the Avestan. The pair irixta- / saδaiia- is taken as 'setting' (from ric- 'to leave') and 'appearing, rising', the reading of later translators, which makes the verse cohere with v. 41's 'they think to be a day what is a year'. No 'a year' is supplied in brackets, because v. 41 states the consequence itself. Marked inferred because the form and sense of irixta- are not fully secure.",
+      "appliesTo": [
+        "VID-2:40",
+        "VID-2:41"
+      ]
+    },
+    {
+      "id": "aiwigama-forty-years-pair-births-vendidad-woh",
+      "source": "caθβarəsatəm aiβi.gāmanąm duuaēibiia haca nərəbiia duua nara us.zaiieiṇte miθβana strīca nairiiasca",
+      "translit": "cathwaresatem aiwi-gâmanãm dvaêibya haca nerebya dva nara us-zayeiñte mithwana strica nairyasca",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. aiβi.gāma-, miθβana-",
+      "lemma": "aiβi.gāma- 'winter, year' (lit. 'the on-coming'); miθβana- 'pair, couple'",
+      "partOfSpeech": "temporal phrase + clause with dual numerals",
+      "literal": "in (every) forty years, from two human beings two human beings are born, a pair, female and male",
+      "standardEnglish": "Every fortieth year, to every couple two are born, a male and a female (Darmesteter)",
+      "wohChoice": "'Every forty years, from two human beings two human beings are born, a pair, female and male'",
+      "claim_type": "direct",
+      "rationale": "The dual phrasing 'from two human beings, two human beings' is kept because it states a replacement-rate that Darmesteter's 'to every couple two' paraphrases away. aiβi.gāma- is a different word from zim- 'winter' (vv. 8, 22) and is the ordinary term for 'year' reckoned by winters, so 'years' is used here. The order 'female and male' follows strīca nairiiasca, which Darmesteter reverses.",
+      "appliesTo": [
+        "VID-2:41"
+      ]
+    },
+    {
+      "id": "karshipta-bird-vi-barat-vendidad-woh",
+      "source": "vīš karšipta; vī.barat",
+      "translit": "vîsh karshipta; vî-barat",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. karšiptan-, vi-, vī-bar-",
+      "lemma": "vi- 'bird'; Karšiptan- (proper name); vī-bar- 'to carry abroad, spread'",
+      "partOfSpeech": "noun + proper name; verb with preverb vī- 'apart'",
+      "literal": "the bird Karšipta; (who) carried abroad / spread",
+      "standardEnglish": "the bird Karshipta; 'brought the Religion of Mazda into the Vara' (Darmesteter)",
+      "wohChoice": "'the bird Karshipta'; vī.barat 'spread'; the vocative 'O Spitama Zarathushtra' kept (Darmesteter omits 'Spitama')",
+      "claim_type": "direct",
+      "rationale": "Karšipta (Pahlavi Karšift) is the bird who, in the later Pahlavi tradition reported by Darmesteter (n. 34), recites the Avesta in the language of birds; the name is retained. The preverb vī- 'apart, abroad' gives vī-bar- the sense 'to spread, carry about', and the WoH text renders 'spread' instead of Darmesteter's 'brought'. The source prints the vocative spitama zaraθuštra, and the WoH text keeps 'Spitama', which Darmesteter replaces with 'holy'.",
+      "appliesTo": [
+        "VID-2:42"
+      ]
+    },
+    {
+      "id": "ahu-ratu-urvatat-nara-vendidad-woh",
+      "source": "aŋhuca ratušca; uruuatat.narō",
+      "translit": "anghuca ratushca; urvatat-narô",
+      "strongs": "Bartholomae, Altiranisches Wörterbuch (1904), s.v. ahu-, ratu-, uruuatat.nara-",
+      "lemma": "ahu- 'lord (temporal)'; ratu- 'master, judge (of right order)'; Uruuatat.nara- (proper name)",
+      "partOfSpeech": "paired nouns; proper name",
+      "literal": "both ahu and ratu; Urvatat-nara",
+      "standardEnglish": "the Lord and the Master (Darmesteter; n. 35 explains ahu as temporal lord, ratu as spiritual lord)",
+      "wohChoice": "'their lord and master'; 'Urvatat-nara'; 'and you, who are Zarathushtra'",
+      "claim_type": "direct",
+      "rationale": "ahu- and ratu- form a fixed Avestan pair (most famously in the Ahuna Vairya prayer, yaθā ahū vairiiō aθā ratuš), designating the worldly lord and the authority who judges according to aša; 'lord and master' is Darmesteter's and remains the standard English for the pair. The technical distinction, and the later tradition (Darmesteter n. 35) that assigns Urvatat-nara, Zarathushtra's son, the temporal role and Zarathushtra the spiritual one, are given in commentary, because the Avestan line does not divide the roles between the two names. The proper name Urvatat-nara is retained.",
+      "appliesTo": [
+        "VID-2:43"
+      ]
+    }
+  ]
+}
