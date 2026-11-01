@@ -1,0 +1,629 @@
+{
+  "editor": "claude-opus-5-5 (woh-editor), 2026-11-01, Kings waves C-D (1 Kgs 6, 8; 2 Kgs 4, 17)",
+  "base": "Each overlay at v1.0.0 plus the pending wave-B overlay diff (wave-b-overlay-diff.json, -> v1.1.0, including its 2-kings-woh mirror section), which must be applied first.",
+  "applySemantics": "op=add appends `entry` to `entries`. op=extend is additive only: for each field in `appendToFields`, append the given string to the end of the current field value (strings begin with their own separator); then append each refId in `addToAppliesTo` to `appliesTo` if not already present. No existing text or refId is removed or rewritten, so the ops apply cleanly on top of the wave-B extensions and of any wave-A Reviewer revision. Ops marked `shared: true` appear identically in both sections, so the shared entries of the two overlays stay identical. After applying a section, set the overlay's `version` to the section's `toVersion` and append its `descriptionAddendum` to `description`.",
+  "sections": {
+    "1-kings-woh": {
+      "target": "1-kings-woh/_translation-glossary.json",
+      "fromVersion": "1.1.0",
+      "toVersion": "1.2.0",
+      "descriptionAddendum": " v1.2.0 (2026-11-01, Editor pass, Kings waves C-D: 1 Kgs 6, 8; 2 Kgs 4, 17) adds one 1 Kings-specific decision (pəqāʿîm 'gourds', 1 Kgs 6:18) and two shared entries (gāhar 'crouched', 1 Kgs 18:42 // 2 Kgs 4:34-35; tôrâ 'law' in Kings), and extends seven shared entries (names, elohim referent incl. new clause 5, man of the Elohim, nefesh, Ketiv/Qere, MT baseline, Ba'al); mirrored in 2-kings-woh v1.2.0.",
+      "ops": [
+        {
+          "op": "add",
+          "id": "gahar-crouch-over-kings",
+          "entry": {
+            "id": "gahar-crouch-over-kings",
+            "source": "וַיִּגְהַר",
+            "translit": "wayyiḡhar",
+            "strongs": "H1457",
+            "lemma": "ghr 'bend down, crouch' (Qal; three occurrences, all in Kings)",
+            "partOfSpeech": "verb, Qal wayyiqtol 3rd masculine singular",
+            "literal": "and he bent down / crouched",
+            "standardEnglish": "bowed himself down / cast himself down (1 Kgs 18:42, ASV / KJV); stretched himself upon (2 Kgs 4:34-35, ASV, KJV); crouched, bent over (modern versions)",
+            "wohChoice": "'he crouched down upon the earth' (1 Kgs 18:42, wave A); 'he crouched over him' (2 Kgs 4:34, 35)",
+            "claim_type": "direct",
+            "rationale": "*gāhar* occurs only three times, all in the Elijah-Elisha cycle: Eliyahu on Karmel, praying for rain with his face between his knees (1 Kgs 18:42), and Elisha over the dead boy at Shunem (2 Kgs 4:34, 35). The lexica give 'bend down, crouch' (BDB; HALOT), a sense that fits a posture with the face between the knees, and the ASV renders the three sites with two different verbs ('bowed himself down', 'stretched himself upon'), the second taking its sense from the preceding 'lay upon the child'. The wave-A line already reads 'he crouched down' at 1 Kgs 18:42, and its commentary points to 2 Kgs 4:34-35; using the same verb at all three sites keeps visible the link between the two prophets' intercessory postures, which the narrative draws deliberately (Elisha's raising of the Shunammite's son repeats Eliyahu's at Tzarfat, 1 Kgs 17:17-24 // 2 Kgs 4:18-37; Cogan and Tadmor, *II Kings*, AB 11, 1988). The entry is a concordance decision with no interpretive content; the canon's reading of 2 Kgs 4:32-37 as a resuscitation is recorded only in a labelled reception note. Application note: the wave-A chapter paragraph 1KI-WOH-18:42 should receive this id in glossaryRefs when the overlay diff is applied.",
+            "appliesTo": [
+              "1KI-WOH-18:42",
+              "2KI-WOH-4:34",
+              "2KI-WOH-4:35"
+            ]
+          },
+          "shared": true
+        },
+        {
+          "op": "add",
+          "id": "torah-law-deuteronomistic-kings",
+          "entry": {
+            "id": "torah-law-deuteronomistic-kings",
+            "source": "תּוֹרָה",
+            "translit": "tôrâ",
+            "strongs": "H8451",
+            "lemma": "tôrâ 'instruction, direction, law' (from yrh Hiphil 'teach')",
+            "partOfSpeech": "noun, feminine singular (with article in 2 Kgs 17:13, 34, 37)",
+            "literal": "instruction, teaching; law",
+            "standardEnglish": "law (ASV, KJV, NRSV); Teaching (NJPS); torah (exodus-woh at Ex 13:9; 16:4)",
+            "wohChoice": "'the law' in Kings: 'the law of Moshe' (1 Kgs 2:3, wave B); 'according to all the law' (2 Kgs 17:13); 'the law ... the commandment' (17:34, 37)",
+            "claim_type": "direct",
+            "rationale": "*tôrâ* ranges from a parent's or priest's instruction to a body of written law (BDB; HALOT). In the Deuteronomistic History it names the written law of Moshe, the Deuteronomic book (Deut 31:9-12, 24-26; Josh 1:7-8; 1 Kgs 2:3; 2 Kgs 14:6; 17:37 'which he wrote for you'; 22:8-11), and it stands in fixed series with *ḥuqqîm* 'statutes', *mišpāṭîm* 'ordinances' and *miṣwâ* 'commandment' (2 Kgs 17:34, 37). In that usage the ASV 'law' is accurate and is kept, as the wave-B Editor already did at 1 Kgs 2:3 (von Rad, *Studies in Deuteronomy*, 1953; Weinfeld, *Deuteronomy and the Deuteronomic School*, 1972). exodus-woh renders *tôrâ* 'torah' (Ex 13:9 'the torah of YHWH'; 16:4) without a glossary entry; the transliteration there suits the earlier, broader sense of 'instruction', and the difference between the two books is one of register, not of meaning. This entry records the Kings decision so that a later corpus-wide entry can reconcile the two; whether to unify the rendering is a founder point in the wave-C/D editor report. Within 2 Kgs 17 'law' is reserved for *tôrâ*, and the customary-practice sense of *mišpāṭ* is rendered 'manner' (2-kings-woh `mishpat-manner-custom-2-kings-17`). Application note: the wave-B paragraph 1KI-WOH-2:3 should receive this id in glossaryRefs when the overlay diff is applied.",
+            "appliesTo": [
+              "1KI-WOH-2:3",
+              "2KI-WOH-17:13",
+              "2KI-WOH-17:34",
+              "2KI-WOH-17:37"
+            ]
+          },
+          "shared": true
+        },
+        {
+          "op": "add",
+          "id": "peqaim-gourd-ornaments-1-kings-6",
+          "entry": {
+            "id": "peqaim-gourd-ornaments-1-kings-6",
+            "source": "פְּקָעִים",
+            "translit": "pəqāʿîm",
+            "strongs": "H6497",
+            "lemma": "pəqāʿîm 'gourd-shaped ornaments' (plural only; cf. paqquʿōṯ 'wild gourds', H6498)",
+            "partOfSpeech": "noun, masculine plural",
+            "literal": "gourds, gourd-shaped knobs",
+            "standardEnglish": "knops (ASV, KJV); gourds (NRSV, NJPS)",
+            "wohChoice": "'carved with gourds and open flowers' (1 Kgs 6:18); the same rendering for the gourd-band of the bronze sea (1 Kgs 7:24) when that chapter is translated",
+            "claim_type": "direct",
+            "rationale": "*pəqāʿîm* (1 Kgs 6:18; 7:24 twice) are gourd-shaped ornaments carved in the cedar panelling and cast on the rim of the bronze sea; the noun belongs with *paqquʿōṯ*, the wild gourds (colocynths) of 2 Kgs 4:39 (BDB; HALOT; Zohary, *Plants of the Bible*, 1982). The ASV 'knops' is an archaic English word for ornamental knobs that conveys neither the plant nor the shape, and modern versions render 'gourds' (NRSV, NJPS; Cogan, *1 Kings*, AB 10, 2001). 'Gourds' is therefore a correction toward the lexical consensus, and it also lets the English reader see the shared root of the Temple ornament and of the gourds in the Elisha story within the same translation. No interpretive content is involved.",
+            "appliesTo": [
+              "1KI-WOH-6:18"
+            ]
+          }
+        },
+        {
+          "op": "extend",
+          "id": "hebrew-proper-name-transliteration-convention-kings",
+          "appendToFields": {
+            "wohChoice": " Waves C-D (1 Kgs 6, 8; 2 Kgs 4, 17): Mitzrayim = Egypt; Tziyyon = Zion; Chamat = Hamath; month names Ziv (later Iyyar), Bul (later Marcheshvan), Etanim = Ethanim (later Tishri); Gechazi = Gehazi; Shunem = Shunem; Ba'al-Shalishah = Baal-shalishah; Achaz = Ahaz; Hoshea = Hoshea; Elah = Elah; Shalman'eser = Shalmaneser; Ashur = Assyria; So = So; Par'oh = Pharaoh; Chalach = Halah; Chavor = Habor; Gozan = Gozan; Madai = the Medes; Bavel = Babylon; Kutah / Kut = Cuthah / Cuth (both MT forms kept); Avva = Avva; Sefarvayim = Sepharvaim; deity names Sukkot-Benot = Succoth-benoth, Nergal = Nergal, Ashima = Ashima, Nivchaz = Nibhaz, Tartaq = Tartak, Adrammelekh = Adrammelech, Anammelekh = Anammelech; gentilics 'the Shomronites' (haššōmərōnîm; ASV 'the Samaritans'), 'the Avvites', 'the Sefarvites'. Kept in English: Horeb, Gilgal, Asherah / Asherim, David. The drafts' 'Shomeron' and 'Mosheh' are normalized to Shomron and Moshe as in the existing table.",
+            "rationale": " Waves C-D apply the tz rule to Mitzrayim and Tziyyon, which occur here for the first time in Kings; genesis-woh (mostly) and exodus-woh write 'Mitsrayim', so a corpus-wide normalization of that one name is left as a founder decision (wave-C/D editor report). Par'oh is transliterated like Moshe, since exodus-woh's 'Pharaoh' and 'Moses' are the grandfathered single-book exception. haššōmərōnîm (2 Kgs 17:29), the only occurrence of the word in the Hebrew Bible, is rendered 'the Shomronites' under the gentilic rule; the ASV 'the Samaritans' is anachronistic, because the word here means the Israelite inhabitants of Shomron, not the later Samaritan community (Cogan and Tadmor, II Kings, AB 11, 1988). The ASV's gentilic forms 'the Avvites' and 'the Sepharvites' (17:31) are matched by 'the Avvites' and 'the Sefarvites'. Month names are transliterated as in the ASV, and their later Babylonian equivalents are given in commentary."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-6:1",
+            "1KI-WOH-6:2",
+            "1KI-WOH-6:11",
+            "1KI-WOH-6:13",
+            "1KI-WOH-6:14",
+            "1KI-WOH-6:21",
+            "1KI-WOH-6:37",
+            "1KI-WOH-6:38",
+            "1KI-WOH-8:1",
+            "1KI-WOH-8:2",
+            "1KI-WOH-8:3",
+            "1KI-WOH-8:5",
+            "1KI-WOH-8:9",
+            "1KI-WOH-8:12",
+            "1KI-WOH-8:14",
+            "1KI-WOH-8:15",
+            "1KI-WOH-8:16",
+            "1KI-WOH-8:17",
+            "1KI-WOH-8:20",
+            "1KI-WOH-8:21",
+            "1KI-WOH-8:22",
+            "1KI-WOH-8:23",
+            "1KI-WOH-8:25",
+            "1KI-WOH-8:26",
+            "1KI-WOH-8:30",
+            "1KI-WOH-8:33",
+            "1KI-WOH-8:34",
+            "1KI-WOH-8:36",
+            "1KI-WOH-8:38",
+            "1KI-WOH-8:41",
+            "1KI-WOH-8:43",
+            "1KI-WOH-8:51",
+            "1KI-WOH-8:52",
+            "1KI-WOH-8:53",
+            "1KI-WOH-8:54",
+            "1KI-WOH-8:55",
+            "1KI-WOH-8:56",
+            "1KI-WOH-8:59",
+            "1KI-WOH-8:62",
+            "1KI-WOH-8:63",
+            "1KI-WOH-8:65",
+            "1KI-WOH-8:66",
+            "2KI-WOH-4:1",
+            "2KI-WOH-4:2",
+            "2KI-WOH-4:8",
+            "2KI-WOH-4:12",
+            "2KI-WOH-4:14",
+            "2KI-WOH-4:17",
+            "2KI-WOH-4:25",
+            "2KI-WOH-4:27",
+            "2KI-WOH-4:29",
+            "2KI-WOH-4:31",
+            "2KI-WOH-4:32",
+            "2KI-WOH-4:36",
+            "2KI-WOH-4:38",
+            "2KI-WOH-4:42",
+            "2KI-WOH-17:1",
+            "2KI-WOH-17:2",
+            "2KI-WOH-17:3",
+            "2KI-WOH-17:4",
+            "2KI-WOH-17:5",
+            "2KI-WOH-17:6",
+            "2KI-WOH-17:7",
+            "2KI-WOH-17:8",
+            "2KI-WOH-17:9",
+            "2KI-WOH-17:13",
+            "2KI-WOH-17:16",
+            "2KI-WOH-17:18",
+            "2KI-WOH-17:19",
+            "2KI-WOH-17:20",
+            "2KI-WOH-17:21",
+            "2KI-WOH-17:22",
+            "2KI-WOH-17:23",
+            "2KI-WOH-17:24",
+            "2KI-WOH-17:26",
+            "2KI-WOH-17:27",
+            "2KI-WOH-17:28",
+            "2KI-WOH-17:29",
+            "2KI-WOH-17:30",
+            "2KI-WOH-17:31",
+            "2KI-WOH-17:34",
+            "2KI-WOH-17:36"
+          ],
+          "reason": "Waves C-D: equivalence table extended for 1 Kgs 6, 8 and 2 Kgs 4, 17 (places, months, Assyrian-period names, the settlers' deities, gentilics); appliesTo extended to every wave-C/D verse with a transliterated name.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "elohim-referent-and-article-conventions-kings",
+          "appendToFields": {
+            "wohChoice": " Waves C-D: clause (1) 'YHWH, he is the Elohim' (1 Kgs 8:60); clause (2) also covers an anarthrous subject in direct speech ('But will Elohim indeed dwell on the earth?', 8:27); clause (3) 'O Elohim of Yisra'el' in pure vocative without English article (8:26), and 'the Elohim of the land' (2 Kgs 17:26, 27), where the settlers speak of a territorial god but the narrator has identified the sender of the lions as YHWH (17:25); clause (4) 'other elohim' (2 Kgs 17:7, 35, 37, 38), 'elohim of its own', 'their own elohim', 'the elohim of Sefarvayim' (17:29, 31, 33). (5) Generic class in a comparison or negation: lower-case 'elohim' ('there is no elohim like you in the heavens above or on the earth beneath', 1 Kgs 8:23), because the referent is the class with which YHWH is compared, not YHWH.",
+            "rationale": " Clause (5) (wave C) follows from the referent principle of clause (4): in the incomparability formula ʾên-kāmôḵā ʾĕlōhîm (1 Kgs 8:23; cf. Ex 15:11 mî-ḵāmōḵā bāʾēlim; Ps 86:8 ʾên-kāmôḵā ḇāʾĕlōhîm) the noun classifies, and a capital would read as a name and make the sentence compare YHWH with himself. Whether the formula presupposes other divine beings or is monotheistic, as Deut 4:39 suggests, is not decided by the case, and the commentary says so; the ASV 'no God like thee' takes the monotheistic reading. At 2 Kgs 17:26-27 the case follows the referent as the narrator identifies it, not the speakers' theology, and the commentary records the ASV's lower-case 'god of the land'."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-8:23",
+            "1KI-WOH-8:26",
+            "1KI-WOH-8:27",
+            "1KI-WOH-8:60",
+            "2KI-WOH-17:7",
+            "2KI-WOH-17:26",
+            "2KI-WOH-17:27",
+            "2KI-WOH-17:29",
+            "2KI-WOH-17:31",
+            "2KI-WOH-17:33",
+            "2KI-WOH-17:35",
+            "2KI-WOH-17:37",
+            "2KI-WOH-17:38",
+            "2KI-WOH-17:39"
+          ],
+          "reason": "Waves C-D: sites added under clauses (1)-(4); new clause (5) for the generic comparative use at 1 Kgs 8:23 (draft capital 'Elohim' changed to lower case).",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "ish-ha-elohim-man-of-the-elohim-prophetic-title-kings",
+          "appendToFields": {
+            "wohChoice": "; waves C-D: 'the man of the Elohim' at the ten articular occurrences of 2 Kgs 4 (vv 7, 16, 21, 22, 25 twice, 27 twice, 40, 42) and 'a holy man of Elohim' at the anarthrous v 9"
+          },
+          "addToAppliesTo": [
+            "2KI-WOH-4:7",
+            "2KI-WOH-4:9",
+            "2KI-WOH-4:16",
+            "2KI-WOH-4:21",
+            "2KI-WOH-4:22",
+            "2KI-WOH-4:25",
+            "2KI-WOH-4:27",
+            "2KI-WOH-4:40",
+            "2KI-WOH-4:42"
+          ],
+          "reason": "Waves C-D: 2 Kgs 4 brought under the shared rule (draft already conformed).",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "nefesh-scope-and-spelling-kings",
+          "appendToFields": {
+            "wohChoice": "; waves C-D: 'being' in the heart-and-nepeš pair (1 Kgs 8:48, as 2:4); 'she is in bitter distress' for the idiom nap̄šāh mārâ-lāh (2 Kgs 4:27; ASV 'her soul is vexed within her'); 'as you yourself live' for the oath ḥê-nap̄šəḵā (2 Kgs 4:30, as 2 Kgs 2:2, 4, 6)",
+            "rationale": " mar-nepeš 'bitter of nepeš' (1 Sam 1:10; 22:2; Judg 18:25; 2 Kgs 4:27) is an idiom for acute distress and is rendered in plain English (NRSV, NJPS 'she is in bitter distress'), with the literal form given in commentary. 1 Kgs 8:48 applies the wave-B rendering of the Deuteronomic pair, as the wave-B extension anticipated."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-8:48",
+            "2KI-WOH-4:27",
+            "2KI-WOH-4:30"
+          ],
+          "reason": "Waves C-D: three ASV 'soul' sites in the drafts (1 Kgs 8:48; 2 Kgs 4:27, 30) brought under the existing rule.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "ketiv-qere-qere-translated-kings",
+          "appendToFields": {
+            "wohChoice": ". Waves C-D sites (21 readings in 19 verses): 1 Kgs 6:5, 6, 10 (K yṣwʿ / Q yāṣîaʿ 'side-structure'), 6:16 and 6:21 (orthographic), 6:38 (K singular / Q plural 'its specifications'), 8:26 (K 'your words' / Q 'your word'), 8:48 (K bnyt / Q bānîṯî 'I have built'); 2 Kgs 4:2, 3, 7 (twice), 16, 23 (twice) (archaic 2nd feminine singular forms in the Ketiv), 4:5 (participle form), 4:34 (K 'his palm' / Q 'his palms'); 17:13 (K 'his prophets' / Q 'prophets of'), 17:16 (K absolute / Q construct 'two'), 17:21 (K wydʾ / Q wayyaddaḥ 'drove away'), 17:31 (K ʾlh sprym / Q ʾĕlōhê səp̄arwāyim)",
+            "rationale": " In waves C-D the ASV follows the Ketiv at 1 Kgs 6:38 ('according to all the fashion of it'); elsewhere it agrees with the Qere. The Ketiv forms of 2 Kgs 4 (-kî, ʾattî) are archaic or northern second-person feminine forms characteristic of the Elisha stories (Rendsburg, Israelian Hebrew in the Book of Kings, 2002) and do not affect the sense. Where the Qere stands at verse end (2 Kgs 4:5; 17:31) the source edition places the sof pasuq inside the bracketed Qere in the Hebrew text field; the text is kept as delivered."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-6:5",
+            "1KI-WOH-6:6",
+            "1KI-WOH-6:10",
+            "1KI-WOH-6:16",
+            "1KI-WOH-6:21",
+            "1KI-WOH-6:38",
+            "1KI-WOH-8:26",
+            "1KI-WOH-8:48",
+            "2KI-WOH-4:2",
+            "2KI-WOH-4:3",
+            "2KI-WOH-4:5",
+            "2KI-WOH-4:7",
+            "2KI-WOH-4:16",
+            "2KI-WOH-4:23",
+            "2KI-WOH-4:34",
+            "2KI-WOH-17:13",
+            "2KI-WOH-17:16",
+            "2KI-WOH-17:21",
+            "2KI-WOH-17:31"
+          ],
+          "reason": "Waves C-D: 19 verses (21 readings) added; rationale notes the ASV Ketiv reading at 1 Kgs 6:38, the archaic feminine forms of 2 Kgs 4, and the bracket cosmetics of the source text.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "mt-baseline-at-versional-cruxes-and-versification-kings",
+          "appendToFields": {
+            "wohChoice": " Waves C-D sites: 1 Kgs 6:1 'four hundred and eightieth' (LXX 440; LXX order after 5:32); 6:8 'the middle side-chamber' (LXX 'the lowest'); 6:11-14 (absent from LXX Vaticanus; translated); 6:15 'the walls of the ceiling' (LXX 'beams', qôrôṯ); 6:20 'covered the altar' (LXX 'made an altar'); 6:34 qəlāʿîm construed 'leaves' (BDB), where most read ṣəlāʿîm; 8:1-5 (LXX shorter text); 8:12-13 (LXX places a longer form after 8:53, ending 'in the book of the song'); 8:16 (LXX and 2 Chr 6:5-6 longer; probable homoioteleuton in the MT); 8:31 second ʾālâ construed as the verb 'and swears' (ASV, LXX), no emendation; 8:37 'in the land of their cities' (MT 'land of his gates'; LXX 'in one of'); 8:65 'seven days and seven days, fourteen days' (LXX 'seven days'); 2 Kgs 17:27 plural verbs followed by singular 'let him teach' (versions harmonize)."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-6:1",
+            "1KI-WOH-6:8",
+            "1KI-WOH-6:11",
+            "1KI-WOH-6:12",
+            "1KI-WOH-6:13",
+            "1KI-WOH-6:14",
+            "1KI-WOH-6:15",
+            "1KI-WOH-6:20",
+            "1KI-WOH-6:34",
+            "1KI-WOH-8:1",
+            "1KI-WOH-8:4",
+            "1KI-WOH-8:5",
+            "1KI-WOH-8:12",
+            "1KI-WOH-8:13",
+            "1KI-WOH-8:16",
+            "1KI-WOH-8:31",
+            "1KI-WOH-8:37",
+            "1KI-WOH-8:53",
+            "1KI-WOH-8:65",
+            "2KI-WOH-17:27"
+          ],
+          "reason": "Waves C-D: versional cruxes and LXX pluses/minuses in 1 Kgs 6 and 8 and one number discord in 2 Kgs 17 brought under the MT-baseline rule; no MT reading is emended.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "habbaal-baal-hebrew-bible-rendering-kings",
+          "appendToFields": {
+            "wohChoice": "; 'and served Ba'al' (2 Kgs 17:16, MT ʾeṯ-habbaʿal; draft 'Baal' aligned with the Kings spelling)"
+          },
+          "addToAppliesTo": [
+            "2KI-WOH-17:16"
+          ],
+          "reason": "Waves C-D: 2 Kgs 17:16 added; the draft's 'Baal' aligned.",
+          "shared": true
+        }
+      ]
+    },
+    "2-kings-woh": {
+      "target": "2-kings-woh/_translation-glossary.json",
+      "fromVersion": "1.1.0",
+      "toVersion": "1.2.0",
+      "descriptionAddendum": " v1.2.0 (2026-11-01, Editor pass, Kings waves C-D: 1 Kgs 6, 8; 2 Kgs 4, 17) adds one 2 Kings-specific decision (mišpāṭ 'manner', 2 Kgs 17:26-40) and two shared entries (gāhar 'crouched'; tôrâ 'law'), extends seven shared entries (names, elohim referent incl. new clause 5, man of the Elohim, nefesh, Ketiv/Qere, MT baseline, Ba'al) and the 2 Kings entry bene-ha-neviim (4:1, 38); shared changes mirrored in 1-kings-woh v1.2.0.",
+      "ops": [
+        {
+          "op": "add",
+          "id": "gahar-crouch-over-kings",
+          "entry": {
+            "id": "gahar-crouch-over-kings",
+            "source": "וַיִּגְהַר",
+            "translit": "wayyiḡhar",
+            "strongs": "H1457",
+            "lemma": "ghr 'bend down, crouch' (Qal; three occurrences, all in Kings)",
+            "partOfSpeech": "verb, Qal wayyiqtol 3rd masculine singular",
+            "literal": "and he bent down / crouched",
+            "standardEnglish": "bowed himself down / cast himself down (1 Kgs 18:42, ASV / KJV); stretched himself upon (2 Kgs 4:34-35, ASV, KJV); crouched, bent over (modern versions)",
+            "wohChoice": "'he crouched down upon the earth' (1 Kgs 18:42, wave A); 'he crouched over him' (2 Kgs 4:34, 35)",
+            "claim_type": "direct",
+            "rationale": "*gāhar* occurs only three times, all in the Elijah-Elisha cycle: Eliyahu on Karmel, praying for rain with his face between his knees (1 Kgs 18:42), and Elisha over the dead boy at Shunem (2 Kgs 4:34, 35). The lexica give 'bend down, crouch' (BDB; HALOT), a sense that fits a posture with the face between the knees, and the ASV renders the three sites with two different verbs ('bowed himself down', 'stretched himself upon'), the second taking its sense from the preceding 'lay upon the child'. The wave-A line already reads 'he crouched down' at 1 Kgs 18:42, and its commentary points to 2 Kgs 4:34-35; using the same verb at all three sites keeps visible the link between the two prophets' intercessory postures, which the narrative draws deliberately (Elisha's raising of the Shunammite's son repeats Eliyahu's at Tzarfat, 1 Kgs 17:17-24 // 2 Kgs 4:18-37; Cogan and Tadmor, *II Kings*, AB 11, 1988). The entry is a concordance decision with no interpretive content; the canon's reading of 2 Kgs 4:32-37 as a resuscitation is recorded only in a labelled reception note. Application note: the wave-A chapter paragraph 1KI-WOH-18:42 should receive this id in glossaryRefs when the overlay diff is applied.",
+            "appliesTo": [
+              "1KI-WOH-18:42",
+              "2KI-WOH-4:34",
+              "2KI-WOH-4:35"
+            ]
+          },
+          "shared": true
+        },
+        {
+          "op": "add",
+          "id": "torah-law-deuteronomistic-kings",
+          "entry": {
+            "id": "torah-law-deuteronomistic-kings",
+            "source": "תּוֹרָה",
+            "translit": "tôrâ",
+            "strongs": "H8451",
+            "lemma": "tôrâ 'instruction, direction, law' (from yrh Hiphil 'teach')",
+            "partOfSpeech": "noun, feminine singular (with article in 2 Kgs 17:13, 34, 37)",
+            "literal": "instruction, teaching; law",
+            "standardEnglish": "law (ASV, KJV, NRSV); Teaching (NJPS); torah (exodus-woh at Ex 13:9; 16:4)",
+            "wohChoice": "'the law' in Kings: 'the law of Moshe' (1 Kgs 2:3, wave B); 'according to all the law' (2 Kgs 17:13); 'the law ... the commandment' (17:34, 37)",
+            "claim_type": "direct",
+            "rationale": "*tôrâ* ranges from a parent's or priest's instruction to a body of written law (BDB; HALOT). In the Deuteronomistic History it names the written law of Moshe, the Deuteronomic book (Deut 31:9-12, 24-26; Josh 1:7-8; 1 Kgs 2:3; 2 Kgs 14:6; 17:37 'which he wrote for you'; 22:8-11), and it stands in fixed series with *ḥuqqîm* 'statutes', *mišpāṭîm* 'ordinances' and *miṣwâ* 'commandment' (2 Kgs 17:34, 37). In that usage the ASV 'law' is accurate and is kept, as the wave-B Editor already did at 1 Kgs 2:3 (von Rad, *Studies in Deuteronomy*, 1953; Weinfeld, *Deuteronomy and the Deuteronomic School*, 1972). exodus-woh renders *tôrâ* 'torah' (Ex 13:9 'the torah of YHWH'; 16:4) without a glossary entry; the transliteration there suits the earlier, broader sense of 'instruction', and the difference between the two books is one of register, not of meaning. This entry records the Kings decision so that a later corpus-wide entry can reconcile the two; whether to unify the rendering is a founder point in the wave-C/D editor report. Within 2 Kgs 17 'law' is reserved for *tôrâ*, and the customary-practice sense of *mišpāṭ* is rendered 'manner' (2-kings-woh `mishpat-manner-custom-2-kings-17`). Application note: the wave-B paragraph 1KI-WOH-2:3 should receive this id in glossaryRefs when the overlay diff is applied.",
+            "appliesTo": [
+              "1KI-WOH-2:3",
+              "2KI-WOH-17:13",
+              "2KI-WOH-17:34",
+              "2KI-WOH-17:37"
+            ]
+          },
+          "shared": true
+        },
+        {
+          "op": "add",
+          "id": "mishpat-manner-custom-2-kings-17",
+          "entry": {
+            "id": "mishpat-manner-custom-2-kings-17",
+            "source": "מִשְׁפָּט",
+            "translit": "mišpāṭ",
+            "strongs": "H4941",
+            "lemma": "mišpāṭ 'judgement, justice; legal claim; ordinance; custom, manner'",
+            "partOfSpeech": "noun, masculine singular and plural (construct and with suffixes)",
+            "literal": "judgement; custom, regular practice",
+            "standardEnglish": "law (2 Kgs 17:26-27, ASV, NRSV); manner (17:26-27, KJV; 17:33, 34, 40, ASV); ordinances (17:34b, 37, ASV); rules (17:26-27, NJPS)",
+            "wohChoice": "'manner' where mišpāṭ is the customary practice of a people or of a territorial god: 'the manner of the Elohim of the land' (2 Kgs 17:26 twice, 27), 'the manner of the nations' (17:33), 'the former manners' (17:34a), 'their former manner' (17:40); 'ordinances' in the legal series with ḥuqqîm / tôrâ / miṣwâ (17:34b, 37)",
+            "claim_type": "direct",
+            "rationale": "*mišpāṭ* has a wide range, from 'judgement' and 'legal claim' (1 Kgs 8:45, 49, 59 'their cause') to 'ordinance' and 'custom, manner, regular practice' (BDB *mišpāṭ* 6; HALOT; Judg 18:7; 1 Sam 8:9-11; 2 Kgs 1:7 'what manner of man'). 2 Kgs 17:24-41 uses it as a keyword: the settlers do not know the *mišpāṭ* of the god of the land (vv 26-27), they serve their own gods according to the *mišpāṭ* of the nations (v 33), and later generations still follow 'the former *mišpāṭîm*' (vv 34, 40) instead of the statutes, ordinance, *tôrâ* and commandment given to Yaʿaqov (vv 34, 37). The ASV renders the first sites 'law' and the later ones 'manner', which hides the repetition and gives 'law' to both *mišpāṭ* and *tôrâ* in the same passage; the KJV has 'manner' throughout vv 26-40. The translation follows the KJV at vv 26-27, so that the customary-practice sense is rendered 'manner' consistently and 'law' is reserved for *tôrâ* (`torah-law-deuteronomistic-kings`), while the legal-series sense keeps 'ordinances' as in 1 Kgs 6:12 and 8:58 (on the keyword structure of the passage, Cogan and Tadmor, *II Kings*, AB 11, 1988). The decision is concordance-driven and has no interpretive content.",
+            "appliesTo": [
+              "2KI-WOH-17:26",
+              "2KI-WOH-17:27",
+              "2KI-WOH-17:33",
+              "2KI-WOH-17:34",
+              "2KI-WOH-17:37",
+              "2KI-WOH-17:40"
+            ]
+          }
+        },
+        {
+          "op": "extend",
+          "id": "hebrew-proper-name-transliteration-convention-kings",
+          "appendToFields": {
+            "wohChoice": " Waves C-D (1 Kgs 6, 8; 2 Kgs 4, 17): Mitzrayim = Egypt; Tziyyon = Zion; Chamat = Hamath; month names Ziv (later Iyyar), Bul (later Marcheshvan), Etanim = Ethanim (later Tishri); Gechazi = Gehazi; Shunem = Shunem; Ba'al-Shalishah = Baal-shalishah; Achaz = Ahaz; Hoshea = Hoshea; Elah = Elah; Shalman'eser = Shalmaneser; Ashur = Assyria; So = So; Par'oh = Pharaoh; Chalach = Halah; Chavor = Habor; Gozan = Gozan; Madai = the Medes; Bavel = Babylon; Kutah / Kut = Cuthah / Cuth (both MT forms kept); Avva = Avva; Sefarvayim = Sepharvaim; deity names Sukkot-Benot = Succoth-benoth, Nergal = Nergal, Ashima = Ashima, Nivchaz = Nibhaz, Tartaq = Tartak, Adrammelekh = Adrammelech, Anammelekh = Anammelech; gentilics 'the Shomronites' (haššōmərōnîm; ASV 'the Samaritans'), 'the Avvites', 'the Sefarvites'. Kept in English: Horeb, Gilgal, Asherah / Asherim, David. The drafts' 'Shomeron' and 'Mosheh' are normalized to Shomron and Moshe as in the existing table.",
+            "rationale": " Waves C-D apply the tz rule to Mitzrayim and Tziyyon, which occur here for the first time in Kings; genesis-woh (mostly) and exodus-woh write 'Mitsrayim', so a corpus-wide normalization of that one name is left as a founder decision (wave-C/D editor report). Par'oh is transliterated like Moshe, since exodus-woh's 'Pharaoh' and 'Moses' are the grandfathered single-book exception. haššōmərōnîm (2 Kgs 17:29), the only occurrence of the word in the Hebrew Bible, is rendered 'the Shomronites' under the gentilic rule; the ASV 'the Samaritans' is anachronistic, because the word here means the Israelite inhabitants of Shomron, not the later Samaritan community (Cogan and Tadmor, II Kings, AB 11, 1988). The ASV's gentilic forms 'the Avvites' and 'the Sepharvites' (17:31) are matched by 'the Avvites' and 'the Sefarvites'. Month names are transliterated as in the ASV, and their later Babylonian equivalents are given in commentary."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-6:1",
+            "1KI-WOH-6:2",
+            "1KI-WOH-6:11",
+            "1KI-WOH-6:13",
+            "1KI-WOH-6:14",
+            "1KI-WOH-6:21",
+            "1KI-WOH-6:37",
+            "1KI-WOH-6:38",
+            "1KI-WOH-8:1",
+            "1KI-WOH-8:2",
+            "1KI-WOH-8:3",
+            "1KI-WOH-8:5",
+            "1KI-WOH-8:9",
+            "1KI-WOH-8:12",
+            "1KI-WOH-8:14",
+            "1KI-WOH-8:15",
+            "1KI-WOH-8:16",
+            "1KI-WOH-8:17",
+            "1KI-WOH-8:20",
+            "1KI-WOH-8:21",
+            "1KI-WOH-8:22",
+            "1KI-WOH-8:23",
+            "1KI-WOH-8:25",
+            "1KI-WOH-8:26",
+            "1KI-WOH-8:30",
+            "1KI-WOH-8:33",
+            "1KI-WOH-8:34",
+            "1KI-WOH-8:36",
+            "1KI-WOH-8:38",
+            "1KI-WOH-8:41",
+            "1KI-WOH-8:43",
+            "1KI-WOH-8:51",
+            "1KI-WOH-8:52",
+            "1KI-WOH-8:53",
+            "1KI-WOH-8:54",
+            "1KI-WOH-8:55",
+            "1KI-WOH-8:56",
+            "1KI-WOH-8:59",
+            "1KI-WOH-8:62",
+            "1KI-WOH-8:63",
+            "1KI-WOH-8:65",
+            "1KI-WOH-8:66",
+            "2KI-WOH-4:1",
+            "2KI-WOH-4:2",
+            "2KI-WOH-4:8",
+            "2KI-WOH-4:12",
+            "2KI-WOH-4:14",
+            "2KI-WOH-4:17",
+            "2KI-WOH-4:25",
+            "2KI-WOH-4:27",
+            "2KI-WOH-4:29",
+            "2KI-WOH-4:31",
+            "2KI-WOH-4:32",
+            "2KI-WOH-4:36",
+            "2KI-WOH-4:38",
+            "2KI-WOH-4:42",
+            "2KI-WOH-17:1",
+            "2KI-WOH-17:2",
+            "2KI-WOH-17:3",
+            "2KI-WOH-17:4",
+            "2KI-WOH-17:5",
+            "2KI-WOH-17:6",
+            "2KI-WOH-17:7",
+            "2KI-WOH-17:8",
+            "2KI-WOH-17:9",
+            "2KI-WOH-17:13",
+            "2KI-WOH-17:16",
+            "2KI-WOH-17:18",
+            "2KI-WOH-17:19",
+            "2KI-WOH-17:20",
+            "2KI-WOH-17:21",
+            "2KI-WOH-17:22",
+            "2KI-WOH-17:23",
+            "2KI-WOH-17:24",
+            "2KI-WOH-17:26",
+            "2KI-WOH-17:27",
+            "2KI-WOH-17:28",
+            "2KI-WOH-17:29",
+            "2KI-WOH-17:30",
+            "2KI-WOH-17:31",
+            "2KI-WOH-17:34",
+            "2KI-WOH-17:36"
+          ],
+          "reason": "Waves C-D: equivalence table extended for 1 Kgs 6, 8 and 2 Kgs 4, 17 (places, months, Assyrian-period names, the settlers' deities, gentilics); appliesTo extended to every wave-C/D verse with a transliterated name.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "elohim-referent-and-article-conventions-kings",
+          "appendToFields": {
+            "wohChoice": " Waves C-D: clause (1) 'YHWH, he is the Elohim' (1 Kgs 8:60); clause (2) also covers an anarthrous subject in direct speech ('But will Elohim indeed dwell on the earth?', 8:27); clause (3) 'O Elohim of Yisra'el' in pure vocative without English article (8:26), and 'the Elohim of the land' (2 Kgs 17:26, 27), where the settlers speak of a territorial god but the narrator has identified the sender of the lions as YHWH (17:25); clause (4) 'other elohim' (2 Kgs 17:7, 35, 37, 38), 'elohim of its own', 'their own elohim', 'the elohim of Sefarvayim' (17:29, 31, 33). (5) Generic class in a comparison or negation: lower-case 'elohim' ('there is no elohim like you in the heavens above or on the earth beneath', 1 Kgs 8:23), because the referent is the class with which YHWH is compared, not YHWH.",
+            "rationale": " Clause (5) (wave C) follows from the referent principle of clause (4): in the incomparability formula ʾên-kāmôḵā ʾĕlōhîm (1 Kgs 8:23; cf. Ex 15:11 mî-ḵāmōḵā bāʾēlim; Ps 86:8 ʾên-kāmôḵā ḇāʾĕlōhîm) the noun classifies, and a capital would read as a name and make the sentence compare YHWH with himself. Whether the formula presupposes other divine beings or is monotheistic, as Deut 4:39 suggests, is not decided by the case, and the commentary says so; the ASV 'no God like thee' takes the monotheistic reading. At 2 Kgs 17:26-27 the case follows the referent as the narrator identifies it, not the speakers' theology, and the commentary records the ASV's lower-case 'god of the land'."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-8:23",
+            "1KI-WOH-8:26",
+            "1KI-WOH-8:27",
+            "1KI-WOH-8:60",
+            "2KI-WOH-17:7",
+            "2KI-WOH-17:26",
+            "2KI-WOH-17:27",
+            "2KI-WOH-17:29",
+            "2KI-WOH-17:31",
+            "2KI-WOH-17:33",
+            "2KI-WOH-17:35",
+            "2KI-WOH-17:37",
+            "2KI-WOH-17:38",
+            "2KI-WOH-17:39"
+          ],
+          "reason": "Waves C-D: sites added under clauses (1)-(4); new clause (5) for the generic comparative use at 1 Kgs 8:23 (draft capital 'Elohim' changed to lower case).",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "ish-ha-elohim-man-of-the-elohim-prophetic-title-kings",
+          "appendToFields": {
+            "wohChoice": "; waves C-D: 'the man of the Elohim' at the ten articular occurrences of 2 Kgs 4 (vv 7, 16, 21, 22, 25 twice, 27 twice, 40, 42) and 'a holy man of Elohim' at the anarthrous v 9"
+          },
+          "addToAppliesTo": [
+            "2KI-WOH-4:7",
+            "2KI-WOH-4:9",
+            "2KI-WOH-4:16",
+            "2KI-WOH-4:21",
+            "2KI-WOH-4:22",
+            "2KI-WOH-4:25",
+            "2KI-WOH-4:27",
+            "2KI-WOH-4:40",
+            "2KI-WOH-4:42"
+          ],
+          "reason": "Waves C-D: 2 Kgs 4 brought under the shared rule (draft already conformed).",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "nefesh-scope-and-spelling-kings",
+          "appendToFields": {
+            "wohChoice": "; waves C-D: 'being' in the heart-and-nepeš pair (1 Kgs 8:48, as 2:4); 'she is in bitter distress' for the idiom nap̄šāh mārâ-lāh (2 Kgs 4:27; ASV 'her soul is vexed within her'); 'as you yourself live' for the oath ḥê-nap̄šəḵā (2 Kgs 4:30, as 2 Kgs 2:2, 4, 6)",
+            "rationale": " mar-nepeš 'bitter of nepeš' (1 Sam 1:10; 22:2; Judg 18:25; 2 Kgs 4:27) is an idiom for acute distress and is rendered in plain English (NRSV, NJPS 'she is in bitter distress'), with the literal form given in commentary. 1 Kgs 8:48 applies the wave-B rendering of the Deuteronomic pair, as the wave-B extension anticipated."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-8:48",
+            "2KI-WOH-4:27",
+            "2KI-WOH-4:30"
+          ],
+          "reason": "Waves C-D: three ASV 'soul' sites in the drafts (1 Kgs 8:48; 2 Kgs 4:27, 30) brought under the existing rule.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "ketiv-qere-qere-translated-kings",
+          "appendToFields": {
+            "wohChoice": ". Waves C-D sites (21 readings in 19 verses): 1 Kgs 6:5, 6, 10 (K yṣwʿ / Q yāṣîaʿ 'side-structure'), 6:16 and 6:21 (orthographic), 6:38 (K singular / Q plural 'its specifications'), 8:26 (K 'your words' / Q 'your word'), 8:48 (K bnyt / Q bānîṯî 'I have built'); 2 Kgs 4:2, 3, 7 (twice), 16, 23 (twice) (archaic 2nd feminine singular forms in the Ketiv), 4:5 (participle form), 4:34 (K 'his palm' / Q 'his palms'); 17:13 (K 'his prophets' / Q 'prophets of'), 17:16 (K absolute / Q construct 'two'), 17:21 (K wydʾ / Q wayyaddaḥ 'drove away'), 17:31 (K ʾlh sprym / Q ʾĕlōhê səp̄arwāyim)",
+            "rationale": " In waves C-D the ASV follows the Ketiv at 1 Kgs 6:38 ('according to all the fashion of it'); elsewhere it agrees with the Qere. The Ketiv forms of 2 Kgs 4 (-kî, ʾattî) are archaic or northern second-person feminine forms characteristic of the Elisha stories (Rendsburg, Israelian Hebrew in the Book of Kings, 2002) and do not affect the sense. Where the Qere stands at verse end (2 Kgs 4:5; 17:31) the source edition places the sof pasuq inside the bracketed Qere in the Hebrew text field; the text is kept as delivered."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-6:5",
+            "1KI-WOH-6:6",
+            "1KI-WOH-6:10",
+            "1KI-WOH-6:16",
+            "1KI-WOH-6:21",
+            "1KI-WOH-6:38",
+            "1KI-WOH-8:26",
+            "1KI-WOH-8:48",
+            "2KI-WOH-4:2",
+            "2KI-WOH-4:3",
+            "2KI-WOH-4:5",
+            "2KI-WOH-4:7",
+            "2KI-WOH-4:16",
+            "2KI-WOH-4:23",
+            "2KI-WOH-4:34",
+            "2KI-WOH-17:13",
+            "2KI-WOH-17:16",
+            "2KI-WOH-17:21",
+            "2KI-WOH-17:31"
+          ],
+          "reason": "Waves C-D: 19 verses (21 readings) added; rationale notes the ASV Ketiv reading at 1 Kgs 6:38, the archaic feminine forms of 2 Kgs 4, and the bracket cosmetics of the source text.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "mt-baseline-at-versional-cruxes-and-versification-kings",
+          "appendToFields": {
+            "wohChoice": " Waves C-D sites: 1 Kgs 6:1 'four hundred and eightieth' (LXX 440; LXX order after 5:32); 6:8 'the middle side-chamber' (LXX 'the lowest'); 6:11-14 (absent from LXX Vaticanus; translated); 6:15 'the walls of the ceiling' (LXX 'beams', qôrôṯ); 6:20 'covered the altar' (LXX 'made an altar'); 6:34 qəlāʿîm construed 'leaves' (BDB), where most read ṣəlāʿîm; 8:1-5 (LXX shorter text); 8:12-13 (LXX places a longer form after 8:53, ending 'in the book of the song'); 8:16 (LXX and 2 Chr 6:5-6 longer; probable homoioteleuton in the MT); 8:31 second ʾālâ construed as the verb 'and swears' (ASV, LXX), no emendation; 8:37 'in the land of their cities' (MT 'land of his gates'; LXX 'in one of'); 8:65 'seven days and seven days, fourteen days' (LXX 'seven days'); 2 Kgs 17:27 plural verbs followed by singular 'let him teach' (versions harmonize)."
+          },
+          "addToAppliesTo": [
+            "1KI-WOH-6:1",
+            "1KI-WOH-6:8",
+            "1KI-WOH-6:11",
+            "1KI-WOH-6:12",
+            "1KI-WOH-6:13",
+            "1KI-WOH-6:14",
+            "1KI-WOH-6:15",
+            "1KI-WOH-6:20",
+            "1KI-WOH-6:34",
+            "1KI-WOH-8:1",
+            "1KI-WOH-8:4",
+            "1KI-WOH-8:5",
+            "1KI-WOH-8:12",
+            "1KI-WOH-8:13",
+            "1KI-WOH-8:16",
+            "1KI-WOH-8:31",
+            "1KI-WOH-8:37",
+            "1KI-WOH-8:53",
+            "1KI-WOH-8:65",
+            "2KI-WOH-17:27"
+          ],
+          "reason": "Waves C-D: versional cruxes and LXX pluses/minuses in 1 Kgs 6 and 8 and one number discord in 2 Kgs 17 brought under the MT-baseline rule; no MT reading is emended.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "habbaal-baal-hebrew-bible-rendering-kings",
+          "appendToFields": {
+            "wohChoice": "; 'and served Ba'al' (2 Kgs 17:16, MT ʾeṯ-habbaʿal; draft 'Baal' aligned with the Kings spelling)"
+          },
+          "addToAppliesTo": [
+            "2KI-WOH-17:16"
+          ],
+          "reason": "Waves C-D: 2 Kgs 17:16 added; the draft's 'Baal' aligned.",
+          "shared": true
+        },
+        {
+          "op": "extend",
+          "id": "bene-ha-neviim-sons-of-the-prophets-kings",
+          "addToAppliesTo": [
+            "2KI-WOH-4:1",
+            "2KI-WOH-4:38"
+          ],
+          "reason": "Wave D: 2 Kgs 4:1, 38 added (the entry's rationale already cites them); line unchanged."
+        }
+      ]
+    }
+  }
+}

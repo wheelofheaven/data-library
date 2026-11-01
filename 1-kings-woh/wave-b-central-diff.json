@@ -1,0 +1,504 @@
+[
+  {
+    "op": "version",
+    "from": "2.78.0",
+    "to": "2.79.0",
+    "note": "Base: v2.77.0 export + the wave-A diff (applied and published as v2.78.0) (2.77.0 -> 2.78.0), which must be applied first. Contents: 2 new entries (qarnot-ha-mizbeach-horns-of-the-altar-cross-corpus, tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus), 1 rationale cross-reference update (divine-council-phr-mad-cross-corpus-ugaritic-akkadian-hebrew-bible: the requested Hebrew-side back-reference; no correction, wohChoice unchanged), and 22 appliesTo extensions (one of which, qedeshah, also states the masculine form in wohChoice). No existing decision is reversed; the only wohChoice edit (qedeshah) adds the masculine form 'qadesh' to the same transliteration decision, so a minor bump (2.79.0) is recommended under both the role doc's rule (additions = minor) and house practice. Apply semantics as in wave-a-central-diff.json: op=add inserts `entry`; op=modify replaces each field in `changes` (appliesTo values are complete arrays preserving every refId of v2.78.0, i.e. including the wave-A extensions).",
+    "scopeNoteAddendum": "**v2.79.0 (Kings wave B — 1 Kgs 1, 2, 13, 22: the Solomonic succession, the man of the Elohim at Beit-El, Mikhayehu's council vision):** two new entries, `qarnot-ha-mizbeach-horns-of-the-altar-cross-corpus` (1 Kgs 1:50-51; 2:28, canon-cited; literal 'horns of the altar', reception confined to apparatus) and `tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus` (1 Kgs 22:19, canon-cited; 'heavens' under the register rule ratified at the wave-A sign-off; the Hebrew-side divine-council entry requested by `divine-council-phr-mad-cross-corpus-ugaritic-akkadian-hebrew-bible`, whose rationale now back-references it). appliesTo extensions for chei-x-oath, shakhav-im-avotav, mishmeret-mitzvot, hithallekh-lefanai, elohim-imkha, navi, darash-yhwh, davar-yhwh, malakh-yhwh-messenger, shamayim, adam-adamah, piska, mot-tamut, elohei-yisrael, adonai-yhwh-divine-name, eretz, saris, sheol, chesed, zonah, bethel-luz and qedeshah (wohChoice now 'qedeshah (fem.) / qadesh (masc.)'; 1 Kgs 22:47 haqqādēš now 'the qadesh', replacing ASV 'sodomites', as the entry's rationale already required). Kings-specific decisions live in the 1-kings-woh overlay v1.1.0 (mirrored shared entries in 2-kings-woh v1.1.0)."
+  },
+  {
+    "op": "add",
+    "id": "qarnot-ha-mizbeach-horns-of-the-altar-cross-corpus",
+    "entry": {
+      "id": "qarnot-ha-mizbeach-horns-of-the-altar-cross-corpus",
+      "source": "קַרְנוֹת הַמִּזְבֵּחַ",
+      "translit": "qarnôṯ hammizbēaḥ",
+      "strongs": "H7161 + H4196",
+      "partOfSpeech": "construct noun phrase (feminine plural of qeren 'horn' + mizbēaḥ 'altar' with article)",
+      "literal": "the horns of the altar",
+      "standardEnglish": "the horns of the altar (ASV, KJV, NRSV, NJPS)",
+      "wohChoice": "the horns of the altar (literal; the horn-shaped projections at the altar's four upper corners)",
+      "claim_type": "direct",
+      "rationale": "*qarnôṯ hammizbēaḥ* are the four horn-shaped projections at the upper corners of an Israelite altar. They are prescribed for the bronze altar (Ex 27:2; 38:2) and the incense altar (Ex 30:2-3, 10), daubed with blood in consecration and purification rites (Ex 29:12; Lev 4:7, 18, 25, 30, 34; 8:15; 9:9; 16:18; Ezek 43:15, 20), and cut off as a sign of judgement on the Beit-El altar (Amos 3:14); cf. Jer 17:1 and Ps 118:27. Horned altars are well attested archaeologically, from the reassembled ashlar altar of Tel Be'er Sheva (Y. Aharoni, 'The Horned Altar of Beer-sheba', *BA* 37, 1974) to the small four-horned limestone altars of Megiddo and Tel Miqne-Ekron. // **Asylum.** Grasping the horns was an act of seeking sanctuary: Adoniyahu at 1 Kgs 1:50-51 and Yo'av at 2:28. The custom is regulated by Ex 21:13-14, which denies the altar's protection to a deliberate killer ('you shall take him from my altar, that he may die'), the legal ground for Yo'av's execution at 1 Kgs 2:29-34 (Cogan, *1 Kings*, AB 10, 2001; Sweeney, *I & II Kings*, OTL, 2007). // **Rendering.** Every major version renders 'horns', and the literal noun also keeps the *qeren* link with *qeren haššemen* 'the horn of oil' (1 Kgs 1:39) and *qarnê ḇarzel* 'horns of iron' (1 Kgs 22:11). // **Reception, apparatus only.** The Raëlian canon (*The Book Which Tells the Truth*, ch. 3) cites 1 Kgs 1:50 and 2:28 ('He caught hold on the horns of the altar') and reads the gesture as the handling of the levers of a transmitter-receiver used to contact the creators. That reading is recorded only in labelled reception notes in the chapter commentary; this entry claims nothing beyond the lexical, cultic and archaeological sense, and the line is unaffected by it. // **Central housing.** The phrase recurs in Exodus, Leviticus, Kings, Amos, Jeremiah, Ezekiel and Psalms, so one decision should govern it across the corpus. The claim_type is *direct*: the meaning of the phrase and the asylum custom are uncontested.",
+      "appliesTo": [
+        "1KI-WOH-1:50",
+        "1KI-WOH-1:51",
+        "1KI-WOH-2:28"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus",
+    "entry": {
+      "id": "tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus",
+      "source": "צְבָא הַשָּׁמַיִם",
+      "translit": "ṣəḇāʾ haššāmayim",
+      "strongs": "H6635 + H8064",
+      "partOfSpeech": "construct noun phrase (collective ṣāḇāʾ 'army, host' + šāmayim with article)",
+      "literal": "the army / host of the skies (heavens)",
+      "standardEnglish": "the host of heaven (ASV, KJV, NRSV, NJPS)",
+      "wohChoice": "the host of the heavens ('host' as in the ASV, keeping the lexical link with ṣāḇāʾ in śar haṣṣāḇāʾ 'captain of the host'; šāmayim 'heavens' at this divine-realm site, under the register rule ratified at the Kings wave-A sign-off, 2026-11-01)",
+      "claim_type": "direct",
+      "rationale": "*ṣāḇāʾ* is an army or organized company, and *ṣəḇāʾ haššāmayim* is the company of the sky. It has two senses in the Hebrew Bible. (1) **The heavenly retinue / divine council**: at 1 Kgs 22:19 (= 2 Chr 18:18) Mikhayehu sees YHWH enthroned 'and all the host of the heavens standing by him, on his right hand and on his left', and the host deliberates (vv 20-22); cf. Neh 9:6; Ps 103:21; 148:2, and the council scenes of Isa 6:1-8, Job 1:6-12 and Zech 3. (2) **The stars and celestial bodies**, especially as objects of worship forbidden to Israel (Deut 4:19; 17:3; 2 Kgs 17:16; 21:3, 5; 23:4-5; Jer 8:2; 19:13; Zeph 1:5), and as stars (Isa 34:4; Jer 33:22; Dan 8:10). The two senses are closely related in Northwest Semitic thought, where the gods of the council were associated with the stars (cf. Job 38:7) (E. T. Mullen, *The Divine Council in Canaanite and Early Hebrew Literature*, HSM 24, 1980; L. K. Handy, *Among the Host of Heaven*, 1994; M. S. Smith, *The Origins of Biblical Monotheism*, 2001). // **Rendering.** 'Host' (ASV) is kept because Kings uses the same noun for Israel's army (1 Kgs 1:19, 25; 2:5, 32, 35: 'captain of the host'), and the English should keep the lexical link the Hebrew makes between the earthly and the heavenly *ṣāḇāʾ*. *šāmayim* is rendered 'heavens' at 1 Kgs 22:19 following the recommendation of the Kings wave-A Reviewer (2026-11-01) that divine-realm uses of *šāmayim* take 'heaven(s)', as genesis-woh already does at its divine-realm sites (e.g. GEN-WOH-28:12), while weather and directional uses keep the central `shamayim` 'skies'. That recommendation was ratified at the wave-A human sign-off (2026-11-01), with 2 Kgs 2:1, 11 'to the heavens'; this verse, YHWH's council around his throne, is the clearest divine-realm site in Kings. The plural keeps the Hebrew form visible; the ASV singular 'host of heaven' is recorded in commentary. In the astral sense (Deut 4:19; 2 Kgs 17:16 ...) later passes may use 'skies'; that choice is left to them. // **Bidirectional cross-references.** This is the Hebrew-side entry called for by `divine-council-phr-mad-cross-corpus-ugaritic-akkadian-hebrew-bible` (Ugaritic *pḫr mʿd*), and it clusters with `bn-ilm-sons-of-god-cross-corpus-ugaritic-hebrew-bnei-elohim` (the council's membership). // **Reception, apparatus only.** The Raëlian canon (*The Book Which Tells the Truth*, ch. 3) quotes 1 Kgs 22:19 ('all the host of heaven standing by him') as the prophet's vision of the creators. That reading is recorded only in a labelled reception note in the chapter commentary; this entry asserts only the lexical sense and the scholarly council interpretation, and the line encodes neither a fleet nor personnel. // The claim_type is *direct*: the grammar and both senses of the phrase, and the council reading of 1 Kgs 22:19, are scholarly consensus.",
+      "appliesTo": [
+        "1KI-WOH-22:19"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "divine-council-phr-mad-cross-corpus-ugaritic-akkadian-hebrew-bible",
+    "changes": {
+      "rationale": "**The Northwest-Semitic divine-council formal designation.** Ugaritic *pḫr mʿd* is the formal designation for the divine council in the Baal Cycle. At KTU 1.2-i:20, Yammu's messengers travel *tk ġr ll ʿm pḫr mʿd* 'to the midst of Mount Lel, to the gathered assembly'. At KTU 1.2-i:31, *ʾaḫr tmġyn mlʾak ym tʿdt ṯpṭ nhr* 'afterward, the messengers of Yammu arrive, the embassy of Judge Naharu' — the *tʿdt* 'embassy' is the same *√yʿd* root as *mʿd*. At 1.2-i:32, the messengers stand *l pʿn ʾil l tpl l tštḥwy pḫr mʿd* 'at the feet of ʾIlu they do not fall, they do not bow down to the gathered assembly'. The *pḫr mʿd* designates the formally-convened divine council with ʾIlu presiding.\n\n**Cross-corpus Akkadian — puḫru ša ilāni.** The Akkadian *puḫru ša ilāni* 'assembly of the gods' is the direct cognate of Ugaritic *pḫr* (proto-Semitic *√pḫr* 'to gather'). Attestations include:\n- **Adapa B (Anu's heavenly court)** — the divine assembly before which Adapa appears.\n- **Enuma Elish III.130-VI** — the *puḫru* convenes to grant Marduk kingship; the *Upšu-ukkina* is the formal divine-assembly-chamber in Marduk's Esagil.\n- **Atrahasis I-III** — the divine assembly decides the flood; the *puḫrum* irrevocability-of-decree convention is covered at the existing central entry `di-til-la-puhrum-irrevocability-of-divine-assembly-decree-cross-corpus`.\n\nThe Akkadian-side divine-assembly cluster is already documented at the central entries on Akkadian source-texts (Adapa-pass; Enki-and-Ninmah-pass; Flood Story); this Ugaritic entry activates the Northwest-Semitic side of the same cluster.\n\n**Cross-corpus Hebrew Bible — the divine-council survivals.** The Hebrew Bible preserves the divine-council framework in several attestations:\n- **Ps 82:1** — *ʾĕlōhîm nitzav b-ʿadat ʾēl b-qerev ʾĕlōhîm yishpoṭ* 'Elohim takes his stand in the divine council; in the midst of the gods he judges'. The *ʿădat ʾēl* 'council of God / divine council' is the Hebrew counterpart of Ugaritic *pḫr mʿd*.\n- **Ps 89:6, 8** — *yodu shamayim pilʾakha YHWH af emunatkha bi-qehal qĕdōshîm — ʾēl naʿaratz b-sod qĕdōshîm rabbah* 'the heavens praise your wonders, YHWH, your faithfulness in the assembly of the holy ones — God is awesome in the council of the many holy ones'. The *qehal qĕdōshîm* 'assembly of the holy ones' + *sod qĕdōshîm* 'council of the holy ones' twin-designations.\n- **Ps 89:7** — *ki mi va-shachaq yaʿarokh la-YHWH yidmeh la-YHWH bi-vnei ʾēlîm* 'who in the skies is equal to YHWH, who is like YHWH among the sons of god' — the divine-assembly framing.\n- **1 Kgs 22:19-22** — *raʾiti et-YHWH yoshev ʿal-kis'o v-khol tzva ha-shamayim ʿomed ʿalav mi-y'mino u-mi-s'molo* 'I saw YHWH sitting on his throne, and all the host of heaven standing about him on his right and his left' — Micaiah's vision of the divine assembly deliberating Ahab's death.\n- **Isa 6:1-8** — Isaiah's throne-vision of YHWH amid the divine assembly.\n- **Job 1:6; 2:1** — *bĕnê hā-ʾĕlōhîm* presenting themselves before YHWH (the *Satan* among them) — the divine-council scene that opens Job.\n- **Jer 23:18, 22** — *ki mi ʿamad b-sod YHWH v-yereʾ v-yishmaʿ et-devaro* 'for who has stood in the council of YHWH, that he has perceived and heard his word?' — the prophetic-criterion is participation in YHWH's *sod* (divine council).\n- **Dan 7:9-10** — the throne-room vision with the Ancient of Days and the assembled court.\n\nThe Hebrew tradition's divine-council framework directly inherits the Northwest-Semitic divine-assembly conception. Named-scholarship: **E. T. Mullen**, *The Divine Council in Canaanite and Early Hebrew Literature* (HSM 24, Chico CA 1980) — the foundational monograph treatment, structured around the comparative Ugaritic-Hebrew material. **M. S. Heiser**, *The Divine Council in Late Canonical and Non-Canonical Second Temple Jewish Literature* (PhD diss., U. of Wisconsin 2004); *The Unseen Realm* (Bellingham 2015). **L. K. Handy**, *Among the Host of Heaven: The Syro-Palestinian Pantheon as Bureaucracy* (Winona Lake 1994). **F. M. Cross**, *Canaanite Myth and Hebrew Epic* (Cambridge MA 1973).\n\n**Bidirectional cross-references.** Cluster with: existing central entry `di-til-la-puhrum-irrevocability-of-divine-assembly-decree-cross-corpus` (Sumerian/Akkadian-side, established at prior Mesopotamian passes); new Ugaritic entries `el-ugaritic-ilu-northwest-semitic-pantheon-head-cross-corpus` (the council's head), `bn-ilm-sons-of-god-cross-corpus-ugaritic-hebrew-bnei-elohim` (the council's membership). The Hebrew-side central entry for 1 Kgs 22:19 is `tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus` (v2.79.0, Kings wave B), which back-references this entry; a Hebrew entry for the council nouns *sôḏ* / *ʿēḏâ* (Ps 82; 89; Jer 23:18, 22) remains for a future Psalms or Jeremiah pass.\n\n**Lens-discipline operational disavowals.** (i) **No Wheel-of-Heaven Council-of-Eternals reading of *pḫr mʿd* as the Anunnaki ruling council.** The WoH project's reading of the divine council as a real Elohim governing body is the WoH-distinctive synthesis that lives in wiki and methodology pages; in the source-text apparatus the Editor surfaces the Ugaritic *pḫr mʿd* in its standard NW-Semitic divine-assembly register, with cross-corpus links to Akkadian *puḫru* and Hebrew *ʿădat ʾēl* / *sod qĕdōshîm*. (ii) **No Sitchin-corpus reading of *pḫr mʿd* as Anunnaki-counter-rebellion-council or extraterrestrial-government-body.** The source-text deploys the standard Bronze Age NW-Semitic divine-council theology."
+    },
+    "reason": "Bidirectional back-reference requested in the entry's own rationale: the forward-looking sentence is replaced by a pointer to the new Hebrew-side entry. No other text, wohChoice or appliesTo change."
+  },
+  {
+    "op": "modify",
+    "id": "chei-x-oath-by-the-life-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-42:15",
+        "GEN-WOH-42:16",
+        "1KI-WOH-17:1",
+        "1KI-WOH-17:12",
+        "1KI-WOH-18:10",
+        "1KI-WOH-18:15",
+        "2KI-WOH-2:2",
+        "2KI-WOH-2:4",
+        "2KI-WOH-2:6",
+        "1KI-WOH-1:29",
+        "1KI-WOH-2:24",
+        "1KI-WOH-22:14"
+      ]
+    },
+    "reason": "appliesTo extension only, following the wave-A practice (the rationale lists 1 Kgs 1:29, 2:24, 22:14 among the chai-YHWH attestations; the line reads 'As YHWH lives')."
+  },
+  {
+    "op": "modify",
+    "id": "shakhav-im-avotav-death-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:30",
+        "GEN-WOH-49:29",
+        "GEN-WOH-49:33",
+        "1KI-WOH-1:21",
+        "1KI-WOH-2:10",
+        "1KI-WOH-22:40",
+        "1KI-WOH-22:51"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "mishmeret-mitzvot-chuqim-torot-fourfold-covenant",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-26:5",
+        "1KI-WOH-2:3"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "hithallekh-lefanai-patriarchal-walking-before-elohim-covenantal-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-48:15",
+        "1KI-WOH-2:4"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-imkha-divine-presence-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-21:22",
+        "GEN-WOH-26:28",
+        "GEN-WOH-28:15",
+        "GEN-WOH-31:3",
+        "1KI-WOH-1:37"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "navi-first-occurrence-abraham",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-20:7",
+        "1KI-WOH-18:4",
+        "1KI-WOH-18:13",
+        "1KI-WOH-18:19",
+        "1KI-WOH-18:20",
+        "1KI-WOH-18:22",
+        "1KI-WOH-18:25",
+        "1KI-WOH-18:36",
+        "1KI-WOH-18:40",
+        "1KI-WOH-19:1",
+        "1KI-WOH-19:10",
+        "1KI-WOH-19:14",
+        "1KI-WOH-19:16",
+        "2KI-WOH-2:3",
+        "2KI-WOH-2:5",
+        "2KI-WOH-2:7",
+        "2KI-WOH-2:15",
+        "1KI-WOH-1:8",
+        "1KI-WOH-1:10",
+        "1KI-WOH-1:22",
+        "1KI-WOH-1:23",
+        "1KI-WOH-1:32",
+        "1KI-WOH-1:34",
+        "1KI-WOH-1:38",
+        "1KI-WOH-1:44",
+        "1KI-WOH-1:45",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:18",
+        "1KI-WOH-13:20",
+        "1KI-WOH-13:23",
+        "1KI-WOH-13:25",
+        "1KI-WOH-13:26",
+        "1KI-WOH-13:29",
+        "1KI-WOH-22:6",
+        "1KI-WOH-22:7",
+        "1KI-WOH-22:10",
+        "1KI-WOH-22:12",
+        "1KI-WOH-22:13",
+        "1KI-WOH-22:22",
+        "1KI-WOH-22:23"
+      ]
+    },
+    "reason": "appliesTo extension only (nāḇîʾ 'prophet', ASV-baseline), following the wave-A practice of listing every Kings occurrence; base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "darash-yhwh-seeking-oracle",
+    "changes": {
+      "appliesTo": [
+        "GEN-25:22",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:6",
+        "2KI-WOH-1:16",
+        "1KI-WOH-22:5",
+        "1KI-WOH-22:7",
+        "1KI-WOH-22:8"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line); base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "davar-yhwh-prophetic-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:1",
+        "GEN-15:4",
+        "1KI-WOH-17:2",
+        "1KI-WOH-17:8",
+        "1KI-WOH-18:1",
+        "1KI-WOH-18:31",
+        "1KI-WOH-19:9",
+        "1KI-WOH-13:20"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line); base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "malakh-yhwh-messenger",
+    "changes": {
+      "appliesTo": [
+        "GEN-16:7",
+        "GEN-16:9",
+        "GEN-16:10",
+        "GEN-16:11",
+        "GEN-19:1",
+        "GEN-19:15",
+        "GEN-22:11",
+        "GEN-22:15",
+        "GEN-48:16",
+        "EXOD-3:2",
+        "EXOD-14:19",
+        "EXOD-23:20",
+        "EXOD-23:23",
+        "EXOD-32:34",
+        "EXOD-33:2",
+        "NUM-22:22",
+        "NUM-22:23",
+        "NUM-22:24",
+        "NUM-22:25",
+        "NUM-22:26",
+        "NUM-22:27",
+        "NUM-22:31",
+        "NUM-22:32",
+        "NUM-22:34",
+        "NUM-22:35",
+        "JOSH-5:13",
+        "JOSH-5:14",
+        "JOSH-5:15",
+        "JUDG-2:1",
+        "JUDG-5:23",
+        "JUDG-6:11",
+        "JUDG-6:12",
+        "JUDG-6:20",
+        "JUDG-6:21",
+        "JUDG-6:22",
+        "JUDG-13:3",
+        "JUDG-13:6",
+        "JUDG-13:9",
+        "JUDG-13:13",
+        "JUDG-13:15",
+        "JUDG-13:16",
+        "JUDG-13:17",
+        "JUDG-13:18",
+        "JUDG-13:20",
+        "JUDG-13:21",
+        "2SAM-24:16",
+        "1KGS-19:7",
+        "2KGS-1:3",
+        "2KGS-1:15",
+        "2KGS-19:35",
+        "ISA-37:36",
+        "ISA-63:9",
+        "ZECH-1:11",
+        "ZECH-1:12",
+        "ZECH-3:1",
+        "ZECH-3:5",
+        "ZECH-3:6",
+        "PS-34:8",
+        "PS-35:5",
+        "PS-35:6",
+        "1KI-WOH-19:2",
+        "1KI-WOH-19:5",
+        "1KI-WOH-19:7",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:5",
+        "2KI-WOH-1:15",
+        "2KI-WOH-1:16",
+        "1KI-WOH-13:18"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line); base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "shamayim",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:30",
+        "1KI-WOH-18:45",
+        "2KI-WOH-1:10",
+        "2KI-WOH-1:12",
+        "2KI-WOH-1:14",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11",
+        "1KI-WOH-22:19"
+      ]
+    },
+    "reason": "appliesTo extension only; wohChoice unchanged. 1 Kgs 22:19 reads 'the host of the heavens', under the register rule ratified at the wave-A sign-off: divine-realm šāmayim is 'heaven(s)' (see tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus); it follows that decision when settled. Base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "adam-adamah",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:5",
+        "GEN-2:6",
+        "GEN-2:7",
+        "GEN-2:9",
+        "GEN-2:19",
+        "1KI-WOH-17:14",
+        "1KI-WOH-18:1",
+        "1KI-WOH-13:2",
+        "1KI-WOH-13:34"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line); base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "piska-b-emtza-pasuq-masoretic-paragraph-break",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-35:22",
+        "2KI-WOH-1:17",
+        "1KI-WOH-13:20"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line); base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "mot-tamut",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:17",
+        "1KI-WOH-2:37",
+        "1KI-WOH-2:42"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "elohei-yisrael",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:19",
+        "EZK-10:20",
+        "1KI-WOH-1:30",
+        "1KI-WOH-1:48",
+        "1KI-WOH-22:54"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh-divine-name",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:2",
+        "GEN-15:8",
+        "1KI-WOH-2:26"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:30",
+        "1KI-WOH-22:36",
+        "1KI-WOH-22:47"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "saris-court-official-eunuch-ambiguity",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-37:36",
+        "GEN-WOH-39:1",
+        "GEN-WOH-40:2",
+        "GEN-WOH-40:7",
+        "1KI-WOH-22:9"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "sheol-underworld-realm-of-the-dead",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-37:35",
+        "GEN-WOH-42:38",
+        "GEN-WOH-44:29",
+        "GEN-WOH-44:31",
+        "1KI-WOH-2:6",
+        "1KI-WOH-2:9"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "chesed-solitary-covenant-kindness",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-39:21",
+        "GEN-WOH-40:14",
+        "1KI-WOH-2:7"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "zonah-prostitute-status-vocabulary-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-34:31",
+        "GEN-WOH-38:15",
+        "GEN-WOH-38:24",
+        "1KI-WOH-22:38"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line)."
+  },
+  {
+    "op": "modify",
+    "id": "qedeshah-consecrated-woman-sacred-prostitution-crux",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-38:21",
+        "GEN-WOH-38:22",
+        "1KI-WOH-22:47"
+      ],
+      "wohChoice": "qedeshah (fem.) / qadesh (masc.) (transliterated; the cultic-vs-common-prostitute distinction and the contested status of 'sacred prostitution' documented in commentary)"
+    },
+    "reason": "wohChoice names the masculine form, and appliesTo adds 1 Kgs 22:47. The entry's rationale already names 1 Kgs 22:47 among the sites it governs ('the lexical decision must govern all of them uniformly'); the masculine collective haqqādēš is transliterated 'the qadesh', replacing the ASV 'sodomites'. The decision is unchanged (transliteration); the wohChoice now states both genders explicitly. Rationale unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "bethel-luz-name-etymology",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-28:19",
+        "GEN-WOH-35:1",
+        "GEN-WOH-35:3",
+        "GEN-WOH-35:6",
+        "GEN-WOH-35:7",
+        "GEN-WOH-35:8",
+        "GEN-WOH-35:15",
+        "GEN-WOH-35:16",
+        "GEN-WOH-48:3",
+        "2KI-WOH-2:2",
+        "2KI-WOH-2:3",
+        "2KI-WOH-2:23",
+        "1KI-WOH-13:1",
+        "1KI-WOH-13:4",
+        "1KI-WOH-13:10",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:32"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line); base array is the wave-A (v2.78.0) array."
+  }
+]

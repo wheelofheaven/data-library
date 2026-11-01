@@ -1,0 +1,444 @@
+{
+  "target": "1-kings-woh/_translation-glossary.json",
+  "fromVersion": "1.0.0",
+  "toVersion": "1.1.0",
+  "mirror": {
+    "target": "2-kings-woh/_translation-glossary.json",
+    "fromVersion": "1.0.0",
+    "toVersion": "1.1.0",
+    "note": "Every op carrying mirrorTo extends one of the nine entries shared verbatim between the two Kings overlays. Apply it identically to 2-kings-woh/_translation-glossary.json so the shared entries keep identical text and appliesTo. The six op=add entries are 1-kings-woh only and are not mirrored.",
+    "descriptionAddendum": " v1.1.0 (2026-11-01, mirrored from the 1-kings-woh Editor pass for Kings wave B, 1 Kgs 1, 2, 13, 22): eight shared entries extended (names, nefesh, man of the Elohim, elohim referent, Ketiv/Qere, MT baseline, Ba'al, ruach) with 1 Kings refIds and wave-B clauses; no 2 Kings rendering changes."
+  },
+  "editor": "claude-opus-5-5 (woh-editor), 2026-11-01, Kings wave B (1 Kgs 1, 2, 13, 22)",
+  "applySemantics": "op=add appends `entry` to `entries`. op=extend is additive only, so it applies cleanly on top of any wave-A Reviewer revision of the shared entries: for each field in `appendToFields`, append the given string to the end of the current field value (strings begin with their own separator); then append each refId in `addToAppliesTo` to `appliesTo` if not already present. No existing text or refId is removed or rewritten. Base: overlay v1.0.0 as written by the wave-A Editor (read-only during this pass); after applying, set `version` to 1.1.0 and append the matching `descriptionAddendum` to `description` (top-level for 1-kings-woh, `mirror.descriptionAddendum` for 2-kings-woh).",
+  "descriptionAddendum": " v1.1.0 (2026-11-01, Editor pass, Kings wave B: 1 Kgs 1, 2, 13, 22) adds six 1 Kings-specific decisions (sokhenet 'attendant', 1:2-4; 'shofar', 1:34-41; the altar 'torn', 13:3-5; the lion 'mauled', 13:26-28; the threshing floor of 22:10; the ruach and the lying ruach of 22:21-23, inferred) and extends eight of the nine shared entries (names, nefesh, man of the Elohim, elohim referent, Ketiv/Qere, MT baseline, Ba'al, ruach); the shared-entry changes are mirrored in 2-kings-woh v1.1.0.",
+  "ops": [
+    {
+      "op": "add",
+      "id": "sokhenet-attendant-1-kings-1",
+      "entry": {
+        "id": "sokhenet-attendant-1-kings-1",
+        "source": "סֹכֶנֶת",
+        "translit": "sōḵeneṯ",
+        "strongs": "H5532",
+        "lemma": "skn 'be of use, serve, administer'; feminine Qal participle sōḵeneṯ used as a noun",
+        "partOfSpeech": "verb, Qal participle feminine singular (substantival)",
+        "literal": "one who serves / attends; a (female) servitor",
+        "standardEnglish": "cherish (ASV, KJV); attendant (NRSV, NJPS)",
+        "wohChoice": "'be his attendant' (1 Kgs 1:2); 'became the king's attendant' (1 Kgs 1:4)",
+        "claim_type": "direct",
+        "rationale": "The feminine participle sōḵeneṯ occurs only at 1 Kgs 1:2, 4; the masculine sōḵēn is a palace official at Isa 22:15 ('this steward, Shevna, who is over the house'), and cognate titles name an administrator in the Canaanite glosses of the Amarna letters (zukinu) and at Ugarit (skn). The lexica give 'servitor, attendant' for the feminine (BDB; HALOT), and modern versions and commentators render 'attendant' (NRSV; NJPS; Cogan, 1 Kings, AB 10, 2001). The ASV/KJV 'cherish' rests on an older derivation of the verb ('be of benefit') applied to the warming of v 2, and it is not supported by the comparative evidence, so it is not kept; the change is a correction toward the lexical consensus, not a lens choice. Whether the word implies a recognized office in the household is debated and is left to commentary, since it bears on Adoniyahu's request for Avishag in 2:13-25.",
+        "appliesTo": [
+          "1KI-WOH-1:2",
+          "1KI-WOH-1:4"
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "id": "shofar-coronation-signal-1-kings-1",
+      "entry": {
+        "id": "shofar-coronation-signal-1-kings-1",
+        "source": "שׁוֹפָר",
+        "translit": "šôp̄ār",
+        "strongs": "H7782",
+        "lemma": "šôp̄ār 'ram's horn (as a signal instrument)'",
+        "partOfSpeech": "noun, masculine singular",
+        "literal": "ram's horn",
+        "standardEnglish": "trumpet (ASV, KJV, NRSV); horn (NJPS)",
+        "wohChoice": "'shofar' (transliterated, as exodus-woh at Sinai): 'blow the shofar' (1 Kgs 1:34), 'they blew the shofar' (1:39), 'the sound of the shofar' (1:41)",
+        "claim_type": "direct",
+        "rationale": "The šôp̄ār is the ram's horn used as a signal instrument, and at a royal accession it gives the signal for the acclamation 'Long live the king' (2 Sam 15:10; 1 Kgs 1:34, 39, 41; 2 Kgs 9:13). English 'trumpet' (ASV) is the conventional rendering but also translates the metal trumpet ḥăṣōṣərâ, which Kings uses separately at another accession (2 Kgs 11:14), so 'trumpet' would merge two instruments the books of Kings keep apart (BDB; HALOT; Braun, Music in Ancient Israel/Palestine, 2002). exodus-woh already keeps 'shofar' at Sinai (EXO-WOH-19:16, 19; 20:18, overlay sinai-cloud-fire-thunder-trumpet-imagery-exodus-compositional-cluster-overlay), and 'shofar' is a standard English loanword, so the transliteration is used here too. Central-promotion candidate: if a third book (Joshua, Judges, Samuel) adopts the same rendering, the decision should move to the central glossary with the Exodus and Kings sites in its appliesTo.",
+        "appliesTo": [
+          "1KI-WOH-1:34",
+          "1KI-WOH-1:39",
+          "1KI-WOH-1:41"
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "id": "niqra-ha-mizbeach-the-altar-torn-1-kings-13",
+      "entry": {
+        "id": "niqra-ha-mizbeach-the-altar-torn-1-kings-13",
+        "source": "הַמִּזְבֵּחַ נִקְרָע",
+        "translit": "hammizbēaḥ niqrāʿ",
+        "strongs": "H7167 (qāraʿ) + H4196",
+        "lemma": "qrʿ 'tear, rend' (Niphal 'be torn')",
+        "partOfSpeech": "verb, Niphal participle (13:3, future sense) / Niphal perfect or participle (13:5)",
+        "literal": "the altar is being torn / is torn",
+        "standardEnglish": "the altar shall be rent ... the altar also was rent (ASV, KJV); 'torn down' / 'broken apart' (modern versions)",
+        "wohChoice": "'the altar shall be torn' (1 Kgs 13:3); 'The altar also was torn' (13:5)",
+        "claim_type": "direct",
+        "rationale": "qrʿ is the ordinary verb for tearing cloth (BDB; HALOT), and its Niphal is used of the altar at Beit-El in the oracle and its fulfilment (13:3, 5). 'Torn' is the modern equivalent of the ASV 'rent' and keeps the verb's identity with the keyword of the Yarov'am narrative, in which YHWH 'tears' the kingdom from Shelomoh's house and Achiyah tears his garment (11:11-13, 30-31; 14:8); renderings such as 'split' or 'broken apart' describe the effect on stone more naturally but lose that link. The English edition of the Raëlian canon quotes these verses as 'rent' and the French as 'se fendre', reading them as the work of a destructive device; the line renders the verb lexically and the reading is confined to labelled commentary. Within ch. 13 'torn' is reserved for qrʿ; the lion's šbr (13:26, 28) is rendered 'mauled' (shavar-the-lion-mauled-1-kings-13).",
+        "appliesTo": [
+          "1KI-WOH-13:3",
+          "1KI-WOH-13:5"
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "id": "shavar-the-lion-mauled-1-kings-13",
+      "entry": {
+        "id": "shavar-the-lion-mauled-1-kings-13",
+        "source": "וַיִּשְׁבְּרֵהוּ / וְלֹא שָׁבַר",
+        "translit": "wayyišbərēhû / wəlōʾ šāḇar",
+        "strongs": "H7665",
+        "lemma": "šbr 'break'",
+        "partOfSpeech": "verb, Qal (wayyiqtol with suffix; perfect)",
+        "literal": "and it broke him / and it did not break",
+        "standardEnglish": "which hath torn him ... nor torn the ass (ASV, KJV)",
+        "wohChoice": "'which has mauled him' (1 Kgs 13:26); 'nor mauled the donkey' (13:28)",
+        "claim_type": "direct",
+        "rationale": "šbr is the common verb 'break', used of a beast that breaks or mangles its prey (BDB šāḇar Qal 1; HALOT). The ASV renders it 'torn' and keeps 'rent' for qrʿ in the same chapter; the draft's modernization of 'rent' to 'torn' (13:3, 5) would have given one English word to two Hebrew verbs within a few verses, so the lion's šbr is rendered 'mauled', an accurate equivalent for a predator's attack. The change is concordance-driven and has no interpretive content; the pair of entries makes the chapter's two verbs auditable.",
+        "appliesTo": [
+          "1KI-WOH-13:26",
+          "1KI-WOH-13:28"
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "id": "goren-threshing-floor-1-kings-22-10",
+      "entry": {
+        "id": "goren-threshing-floor-1-kings-22-10",
+        "source": "בְּגֹרֶן",
+        "translit": "bəḡōren",
+        "strongs": "H1637",
+        "lemma": "gōren 'threshing floor'",
+        "partOfSpeech": "noun, masculine singular, with preposition bə-, anarthrous",
+        "literal": "at/on a threshing floor",
+        "standardEnglish": "in an open place (ASV); in a void place (KJV); at the threshing floor (NRSV, NJPS)",
+        "wohChoice": "'at the threshing floor at the entrance of the gate of Shomron' (1 Kgs 22:10; same in the parallel 2 Chr 18:9)",
+        "claim_type": "direct",
+        "rationale": "gōren means 'threshing floor' in every occurrence (BDB; HALOT), and the ASV 'open place' is a paraphrase that explains the setting instead of rendering the noun. A large flat floor by the city gate was a public space for royal and judicial business, as in the Ugaritic Aqhat epic, where Danel sits 'at the entrance of the gate ... on the threshing floor' to judge (KTU 1.17 V 6-8), and the threshing floor of Aravnah becomes a royal sacred site in 2 Sam 24:16-25 (Cogan, 1 Kings, AB 10). Rendering the noun keeps that setting visible and lets the reader see the parallel the narrative draws between the two kings enthroned before their prophets (v 10) and YHWH enthroned before his host (v 19). The Hebrew is anarthrous; English 'the' marks the known floor by the gate, as in NRSV and NJPS.",
+        "appliesTo": [
+          "1KI-WOH-22:10"
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "id": "ha-ruach-ruach-sheqer-the-ruach-and-the-lying-ruach-1-kings-22",
+      "entry": {
+        "id": "ha-ruach-ruach-sheqer-the-ruach-and-the-lying-ruach-1-kings-22",
+        "source": "הָרוּחַ / רוּחַ שֶׁקֶר",
+        "translit": "hārûaḥ / rûaḥ šeqer",
+        "strongs": "H7307 + H8267",
+        "lemma": "rûaḥ 'wind, breath, spirit' (with article); šeqer 'falsehood, lie'",
+        "partOfSpeech": "noun with article (22:21); construct chain with genitive of quality (22:22, 23)",
+        "literal": "the spirit/wind; a spirit of falsehood",
+        "standardEnglish": "a spirit ... a lying spirit (ASV, KJV, NRSV, NJPS); the spirit (JPS 1917)",
+        "wohChoice": "'the ruach' (1 Kgs 22:21; the Hebrew article kept); 'a lying ruach' (22:22, 23)",
+        "claim_type": "inferred",
+        "rationale": "In Mikhayehu's council scene a member of YHWH's assembly volunteers to entice Ach'av (22:21), becomes rûaḥ šeqer 'a spirit of falsehood' in the mouth of the four hundred prophets (22:22-23), and Tzidqiyahu answers with a sarcastic question about the rûaḥ-YHWH (22:24); the same noun carries the scene, and Tzidqiyahu's retort depends on it. The shared Kings convention (ruach-yhwh-and-prophetic-ruach-transliteration-kings) transliterates rûaḥ where a passage turns on the identity of the word, and 22:24 falls under it; rendering 21-23 'spirit' and 24 'ruach' would break the chain the Hebrew builds, so the same transliteration is used throughout vv 21-24, with 'lying' for the genitive of quality šeqer (GKC §128p) as in the ASV. The article of hārûaḥ is kept: Hebrew can use the article for a figure not yet introduced (GKC §126q-r), which is how the ASV and most versions arrive at 'a spirit', but it can equally mark a figure known in the council, and the rabbinic identification of 'the spirit' as Navot's (b. Sanh. 89a) and the JPS 1917 rendering 'the spirit' show the definite reading has standing; the closest structural parallel, haśśāṭān in the council of Job 1:6, is likewise articular. The entry is inferred, not direct, because both the article and the transliteration leave open readings that the major versions close (indefinite 'a spirit'; 'spirit' rather than 'wind' or 'breath'); the English edition of the Raëlian canon quotes 22:22 as 'a lying spirit' and reads the scene as 'group telepathy', a reading confined to labelled commentary. Founder-preference point: the alternative is the ASV wording ('a spirit', 'a lying spirit') with the article recorded in commentary.",
+        "appliesTo": [
+          "1KI-WOH-22:21",
+          "1KI-WOH-22:22",
+          "1KI-WOH-22:23"
+        ]
+      }
+    },
+    {
+      "op": "extend",
+      "id": "hebrew-proper-name-transliteration-convention-kings",
+      "appendToFields": {
+        "wohChoice": " Wave B (1 Kgs 1, 2, 13, 22): Shelomoh = Solomon; Adoniyahu = Adonijah (MT short form ʾăḏōniyyâ at 1:5, 7, 18; 2:28, normalized); Tzidqiyahu = Zedekiah (short form ṣiḏqiyyâ at 22:11, normalized); Bat-Sheva = Bathsheba; Natan = Nathan; Tzadoq = Zadok; Benayahu = Benaiah; Yehoyada = Jehoiada; Yo'av = Joab; Tzeruyah = Zeruiah; Evyatar = Abiathar; Avishag = Abishag; Chaggit = Haggith; Avshalom = Absalom; Yonatan = Jonathan; Shim'i = Shimei; Re'i = Rei; Avner = Abner; Yeter = Jether; Gera = Gera; Barzillai = Barzillai; Bachurim = Bahurim; Machanayim = Mahanaim; Hevron = Hebron; Gihon = Gihon; Ein-Rogel = En-rogel; Zochelet = Zoheleth; Anatot = Anathoth; Qidron = Kidron; Akhish = Achish; Ma'akhah = Maacah; Gat = Gath; Yerushalayim = Jerusalem; Moshe = Moses; Yarov'am = Jeroboam; Nevat = Nebat; Yoshiyahu = Josiah; Mikhayehu = Micaiah; Yimlah = Imlah; Kena'anah = Chenaanah; Ramot-Gil'ad = Ramoth-gilead; Yo'ash = Joash; Azuvah = Azubah; Shilchi = Shilhi; Etzyon-Gever = Ezion-geber. Kept in English: Edom, Ophir, Tarshish, Asa, Amon, David. Tsade is written tz (Tzarfat, Tzidon, Tzadoq, Tzidqiyahu, Etzyon-Gever). Gentilics in -î take English '-ite' on the transliterated stem: the Tishbite, the Shunammite, the Gil'adite, the Binyaminite, and the collectives hakkərēṯî wəhappəlēṯî 'the Kerethites and the Pelethites'. Hevron and Gihon keep the genesis-woh spellings.",
+        "rationale": " Wave B (1 Kgs 1, 2, 13, 22) applies the same rules. The MT short forms ʾăḏōniyyâ and ṣiḏqiyyâ are normalized to the long forms, like ʾēliyyâ and ʾăḥazyâ in wave A, and the MT spelling is recorded in commentary at each site. Tsade is written tz, as in Tzarfat and Tzidon above and genesis-woh Yitzchaq; the wave-B draft's ts (Tseruyah, Tsadoq, Tsidqiyahu, Etsyon-Gever) is normalized. Gentilic adjectives take English '-ite' on the transliterated stem, as 'the Tishbite' and 'the Shunammite' already do, so David's guard hakkərēṯî wəhappəlēṯî (1 Kgs 1:38, 44) is 'the Kerethites and the Pelethites' (ASV 'Cherethites and Pelethites') and Barzillai and Shim'i are 'the Gil'adite' and 'the Binyaminite' (2:7, 8). Moshe (2:3) stays transliterated, because the exodus-woh 'Moses' is the grandfathered single-book exception described above."
+      },
+      "addToAppliesTo": [
+        "1KI-WOH-1:3",
+        "1KI-WOH-1:5",
+        "1KI-WOH-1:6",
+        "1KI-WOH-1:7",
+        "1KI-WOH-1:8",
+        "1KI-WOH-1:9",
+        "1KI-WOH-1:10",
+        "1KI-WOH-1:11",
+        "1KI-WOH-1:12",
+        "1KI-WOH-1:13",
+        "1KI-WOH-1:15",
+        "1KI-WOH-1:16",
+        "1KI-WOH-1:17",
+        "1KI-WOH-1:18",
+        "1KI-WOH-1:19",
+        "1KI-WOH-1:20",
+        "1KI-WOH-1:21",
+        "1KI-WOH-1:22",
+        "1KI-WOH-1:23",
+        "1KI-WOH-1:24",
+        "1KI-WOH-1:25",
+        "1KI-WOH-1:26",
+        "1KI-WOH-1:28",
+        "1KI-WOH-1:30",
+        "1KI-WOH-1:31",
+        "1KI-WOH-1:32",
+        "1KI-WOH-1:33",
+        "1KI-WOH-1:34",
+        "1KI-WOH-1:35",
+        "1KI-WOH-1:36",
+        "1KI-WOH-1:37",
+        "1KI-WOH-1:38",
+        "1KI-WOH-1:39",
+        "1KI-WOH-1:41",
+        "1KI-WOH-1:42",
+        "1KI-WOH-1:43",
+        "1KI-WOH-1:44",
+        "1KI-WOH-1:45",
+        "1KI-WOH-1:46",
+        "1KI-WOH-1:47",
+        "1KI-WOH-1:48",
+        "1KI-WOH-1:49",
+        "1KI-WOH-1:50",
+        "1KI-WOH-1:51",
+        "1KI-WOH-1:52",
+        "1KI-WOH-1:53",
+        "1KI-WOH-2:1",
+        "1KI-WOH-2:3",
+        "1KI-WOH-2:4",
+        "1KI-WOH-2:5",
+        "1KI-WOH-2:7",
+        "1KI-WOH-2:8",
+        "1KI-WOH-2:11",
+        "1KI-WOH-2:12",
+        "1KI-WOH-2:13",
+        "1KI-WOH-2:15",
+        "1KI-WOH-2:17",
+        "1KI-WOH-2:18",
+        "1KI-WOH-2:19",
+        "1KI-WOH-2:21",
+        "1KI-WOH-2:22",
+        "1KI-WOH-2:23",
+        "1KI-WOH-2:24",
+        "1KI-WOH-2:25",
+        "1KI-WOH-2:26",
+        "1KI-WOH-2:27",
+        "1KI-WOH-2:28",
+        "1KI-WOH-2:29",
+        "1KI-WOH-2:30",
+        "1KI-WOH-2:31",
+        "1KI-WOH-2:32",
+        "1KI-WOH-2:33",
+        "1KI-WOH-2:34",
+        "1KI-WOH-2:35",
+        "1KI-WOH-2:36",
+        "1KI-WOH-2:37",
+        "1KI-WOH-2:38",
+        "1KI-WOH-2:39",
+        "1KI-WOH-2:40",
+        "1KI-WOH-2:41",
+        "1KI-WOH-2:42",
+        "1KI-WOH-2:44",
+        "1KI-WOH-2:45",
+        "1KI-WOH-2:46",
+        "1KI-WOH-13:1",
+        "1KI-WOH-13:2",
+        "1KI-WOH-13:4",
+        "1KI-WOH-13:10",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:12",
+        "1KI-WOH-13:14",
+        "1KI-WOH-13:21",
+        "1KI-WOH-13:32",
+        "1KI-WOH-13:33",
+        "1KI-WOH-13:34",
+        "1KI-WOH-22:1",
+        "1KI-WOH-22:2",
+        "1KI-WOH-22:3",
+        "1KI-WOH-22:4",
+        "1KI-WOH-22:5",
+        "1KI-WOH-22:6",
+        "1KI-WOH-22:7",
+        "1KI-WOH-22:8",
+        "1KI-WOH-22:9",
+        "1KI-WOH-22:10",
+        "1KI-WOH-22:11",
+        "1KI-WOH-22:12",
+        "1KI-WOH-22:13",
+        "1KI-WOH-22:14",
+        "1KI-WOH-22:15",
+        "1KI-WOH-22:17",
+        "1KI-WOH-22:18",
+        "1KI-WOH-22:20",
+        "1KI-WOH-22:24",
+        "1KI-WOH-22:25",
+        "1KI-WOH-22:26",
+        "1KI-WOH-22:28",
+        "1KI-WOH-22:29",
+        "1KI-WOH-22:30",
+        "1KI-WOH-22:31",
+        "1KI-WOH-22:32",
+        "1KI-WOH-22:33",
+        "1KI-WOH-22:34",
+        "1KI-WOH-22:37",
+        "1KI-WOH-22:38",
+        "1KI-WOH-22:39",
+        "1KI-WOH-22:40",
+        "1KI-WOH-22:41",
+        "1KI-WOH-22:42",
+        "1KI-WOH-22:45",
+        "1KI-WOH-22:46",
+        "1KI-WOH-22:49",
+        "1KI-WOH-22:50",
+        "1KI-WOH-22:51",
+        "1KI-WOH-22:52",
+        "1KI-WOH-22:53",
+        "1KI-WOH-22:54"
+      ],
+      "reason": "Wave B: equivalence table extended for the Solomonic succession, 1 Kgs 13 and 22; rules confirmed and made explicit for short theophoric forms (Adoniyah/Adoniyahu, Tzidqiyah/Tzidqiyahu), tsade = tz (draft ts normalized), and gentilics in '-ite' (Kerethites/Pelethites, Gil'adite, Binyaminite); appliesTo extended to every wave-B verse with a transliterated name.",
+      "mirrorTo": [
+        "2-kings-woh/_translation-glossary.json"
+      ]
+    },
+    {
+      "op": "extend",
+      "id": "nefesh-scope-and-spelling-kings",
+      "appendToFields": {
+        "wohChoice": "; wave B: 'life' (1 Kgs 1:12; 1:29 'who has redeemed my life', ASV 'soul'; 2:23 'against his own life'), and 'being' in the Deuteronomic pair bəḵol-ləḇāḇām ûḇəḵol-napšām 'with all their heart and with all their being' (1 Kgs 2:4; ASV 'soul')",
+        "rationale": " In wave B, pāḏâ ʾeṯ-napšî at 1 Kgs 1:29 (the rescue idiom of David's oath, also 2 Sam 4:9) takes 'life', and the Deuteronomic heart-and-nepeš pair at 2:4 (Deut 6:5) takes 'being', the whole living self (HALOT nepeš 'person, self'; Wolff 1974; Alter's rendering of Deut 6:5), not the ASV 'soul'. Later Kings waves should use the same pair at 1 Kgs 8:48 and 2 Kgs 23:3, 25."
+      },
+      "addToAppliesTo": [
+        "1KI-WOH-1:12",
+        "1KI-WOH-1:29",
+        "1KI-WOH-2:4",
+        "1KI-WOH-2:23"
+      ],
+      "reason": "Wave B: two ASV 'soul' sites (1 Kgs 1:29, 2:4) brought under the existing rule (no 'soul' in the Kings line); the heart-and-nepeš pair receives an explicit rendering ('being') for later waves.",
+      "mirrorTo": [
+        "2-kings-woh/_translation-glossary.json"
+      ]
+    },
+    {
+      "op": "extend",
+      "id": "ish-ha-elohim-man-of-the-elohim-prophetic-title-kings",
+      "appendToFields": {
+        "wohChoice": "; wave B: 'a man of Elohim' at 1 Kgs 13:1 and 'the man of the Elohim' at its fourteen articular occurrences (13:4, 5, 6 twice, 7, 8, 11, 12, 14 twice, 21, 26, 29, 31)",
+        "rationale": " In 1 Kgs 13 the title is anarthrous at its first occurrence (13:1) and articular at all fourteen later ones, where the article is anaphoric ('the man already mentioned'). Grammatically the article on the genitive makes the whole construct chain definite (GKC §127a; Joüon-Muraoka §139a), so 'the man of Elohim' would also be acceptable English; the convention nevertheless renders the Hebrew article where it stands, because the same written form carries meaning in 2 Kgs 1:9-13 and one rule for the whole book keeps the Hebrew auditable. The Raëlian canon quotes 13:1 in English as 'a man of God'; the conventional English is given in commentary."
+      },
+      "addToAppliesTo": [
+        "1KI-WOH-13:1",
+        "1KI-WOH-13:4",
+        "1KI-WOH-13:5",
+        "1KI-WOH-13:6",
+        "1KI-WOH-13:7",
+        "1KI-WOH-13:8",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:12",
+        "1KI-WOH-13:14",
+        "1KI-WOH-13:21",
+        "1KI-WOH-13:26",
+        "1KI-WOH-13:29",
+        "1KI-WOH-13:31"
+      ],
+      "reason": "Wave B: 1 Kgs 13 (the anonymous man of the Elohim from Yehudah, canon-cited at 13:1-5) brought under the shared rule; rationale records the construct-definiteness point raised by the Translator.",
+      "mirrorTo": [
+        "2-kings-woh/_translation-glossary.json"
+      ]
+    },
+    {
+      "op": "extend",
+      "id": "elohim-referent-and-article-conventions-kings",
+      "appendToFields": {
+        "wohChoice": " Wave B under clause (2): 'May Elohim make' (1 Kgs 1:47, Qere ʾĕlōhîm) and the Israelite self-imprecation with a singular verb, sworn by YHWH, 'So may Elohim do to me, and more also' (1 Kgs 2:23)."
+      },
+      "addToAppliesTo": [
+        "1KI-WOH-1:47",
+        "1KI-WOH-2:23"
+      ],
+      "reason": "Wave B: two anarthrous YHWH-referent sites added under clause (2); 2:23 is the singular-verb counterpart of 19:2 already discussed in the rationale.",
+      "mirrorTo": [
+        "2-kings-woh/_translation-glossary.json"
+      ]
+    },
+    {
+      "op": "extend",
+      "id": "ketiv-qere-qere-translated-kings",
+      "appendToFields": {
+        "wohChoice": ". Wave B sites (seven readings in six verses): 1 Kgs 1:27 (K 'your servants' / Q 'your servant'), 1:37 (K jussive yhy / Q yihyeh), 1:47 (K 'your Elohim' / Q 'Elohim'), 2:24 (K plene / Q wayyôšîḇanî, orthographic), 22:13 (K 'your words' / Q 'your word'), 22:49 (K ʿśr / Q ʿāśâ 'made'; K nšbrh / Q nišbərû 'were broken')",
+        "rationale": " Of the seven wave-B readings, two depart from the ASV, which follows the Ketiv at 1 Kgs 1:27 ('thy servants') and 1:47 ('Thy God'); the Qere is translated there as everywhere, and the ASV reading is recorded in commentary."
+      },
+      "addToAppliesTo": [
+        "1KI-WOH-1:27",
+        "1KI-WOH-1:37",
+        "1KI-WOH-1:47",
+        "1KI-WOH-2:24",
+        "1KI-WOH-22:13",
+        "1KI-WOH-22:49"
+      ],
+      "reason": "Wave B: six verses (seven readings) added; rationale notes the two sites where the ASV follows the Ketiv.",
+      "mirrorTo": [
+        "2-kings-woh/_translation-glossary.json"
+      ]
+    },
+    {
+      "op": "extend",
+      "id": "mt-baseline-at-versional-cruxes-and-versification-kings",
+      "appendToFields": {
+        "wohChoice": " Wave B sites: 1 Kgs 1:8 'and Re'i' (MT proper name; some Greek witnesses 'his companions'); 1:18 second wəʿattâ 'and now' (many MSS and versions wəʾattâ 'and you', ASV); 1:40 'split' (LXX 'resounded'); 2:22 the elliptical 'even for him, and for Evyatar ...'; 2:28 'after Avshalom' (versions 'after Shelomoh'); 2:29 (LXX plus) and 2:35, 46 (LXX supplements 2:35a-o, 2:46a-l, not translated); 13:11 'his son' (versions 'his sons'); 13:12 'had seen' (versions Hiphil 'showed him'); 22:6 ʾăḏōnāy 'the Lord' (many MSS YHWH); 22:28 'Hear, you peoples, all of you' (absent from LXX; = Mic 1:2; translated, noted as a probable addition); 22:38 (LXX adds the pigs and 'in the blood'). Versification: 1 Kgs 22:21-22 (MT v 21 ends with 'By what means?', which English versions place at the start of v 22) and 22:43-54 (MT 22:43-44 = ASV 22:43; MT 22:45-54 = ASV 22:44-53; MT 1 Kings has 54 verses in ch. 22)."
+      },
+      "addToAppliesTo": [
+        "1KI-WOH-1:8",
+        "1KI-WOH-1:18",
+        "1KI-WOH-1:40",
+        "1KI-WOH-2:22",
+        "1KI-WOH-2:28",
+        "1KI-WOH-2:29",
+        "1KI-WOH-2:35",
+        "1KI-WOH-2:46",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:12",
+        "1KI-WOH-22:6",
+        "1KI-WOH-22:21",
+        "1KI-WOH-22:22",
+        "1KI-WOH-22:28",
+        "1KI-WOH-22:38",
+        "1KI-WOH-22:43",
+        "1KI-WOH-22:44",
+        "1KI-WOH-22:45",
+        "1KI-WOH-22:46",
+        "1KI-WOH-22:47",
+        "1KI-WOH-22:48",
+        "1KI-WOH-22:49",
+        "1KI-WOH-22:50",
+        "1KI-WOH-22:51",
+        "1KI-WOH-22:52",
+        "1KI-WOH-22:53",
+        "1KI-WOH-22:54"
+      ],
+      "reason": "Wave B: ten versional cruxes, the LXX pluses and supplements of ch. 2, and two versification divergences in ch. 22 brought under the MT-baseline rule; no MT reading is emended.",
+      "mirrorTo": [
+        "2-kings-woh/_translation-glossary.json"
+      ]
+    },
+    {
+      "op": "extend",
+      "id": "habbaal-baal-hebrew-bible-rendering-kings",
+      "appendToFields": {
+        "wohChoice": "; 'And he served Ba'al' (1 Kgs 22:54, MT ʾeṯ-habbaʿal)"
+      },
+      "addToAppliesTo": [
+        "1KI-WOH-22:54"
+      ],
+      "reason": "Wave B: 22:54 added; the draft's 'the Ba'al' was aligned with the no-English-article rule.",
+      "mirrorTo": [
+        "2-kings-woh/_translation-glossary.json"
+      ]
+    },
+    {
+      "op": "extend",
+      "id": "ruach-yhwh-and-prophetic-ruach-transliteration-kings",
+      "appendToFields": {
+        "wohChoice": "; and 'the ruach of YHWH' also where rûaḥ YHWH is the inspiring agent a prophet claims to speak by (1 Kgs 22:24, Tzidqiyahu's retort), the sense of the prophet's rûaḥ at 2 Kgs 2:9, 15. The council figure hārûaḥ and the rûaḥ šeqer of 1 Kgs 22:21-23 are governed by the 1-kings-woh entry ha-ruach-ruach-sheqer-the-ruach-and-the-lying-ruach-1-kings-22",
+        "rationale": " At 1 Kgs 22:24 Tzidqiyahu asks 'Which way did the rûaḥ-YHWH pass from me to speak to you?', answering Mikhayehu's report that a rûaḥ of the council has become 'a lying rûaḥ' in the prophets' mouths (22:21-23); the retort only works if the reader sees the same noun, so the transliteration applies here too, and the ASV capital 'Spirit of Jehovah' is not used for the same reason as at 1 Kgs 18:12."
+      },
+      "addToAppliesTo": [
+        "1KI-WOH-22:24"
+      ],
+      "reason": "Wave B: 1 Kgs 22:24 brought under the rule (prophetic-inspiration sense); the council figure of 22:21-23 is a separate 1 Kings overlay entry.",
+      "mirrorTo": [
+        "2-kings-woh/_translation-glossary.json"
+      ]
+    }
+  ]
+}

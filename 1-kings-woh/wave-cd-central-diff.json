@@ -1,0 +1,736 @@
+[
+  {
+    "op": "version",
+    "from": "2.79.0",
+    "to": "2.80.0",
+    "note": "Base: v2.77.0 export + the pending wave-A diff (2.77.0 -> 2.78.0) + the pending wave-B diff (2.78.0 -> 2.79.0), which must be applied first, in that order. Contents: 5 new entries (ulam-hekhal-devir-temple-three-room-plan-cross-corpus, shakhan-dwell-divine-presence-verb-cross-corpus, arafel-thick-darkness-divine-presence-cross-corpus, beit-zevul-exalted-house-1-kgs-8-13-cross-corpus, he-anan-cloud-fills-the-sanctuary-cross-corpus; all direct), 1 modification of the wave-B entry tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus (scope extended to its astral sense at 2 Kgs 17:16; wohChoice appended, one forward-looking rationale sentence resolved, appliesTo +1), and 24 appliesTo-only extensions. No shipped wohChoice is changed and no decision is reversed, so a minor bump (2.80.0) is recommended. Apply semantics as in wave-a-central-diff.json: op=add inserts `entry`; op=modify replaces each field in `changes` (appliesTo values are complete arrays preserving every refId of v2.79.0, i.e. including the wave-A and wave-B extensions).",
+    "scopeNoteAddendum": "**v2.80.0 (Kings waves C-D — 1 Kgs 6, 8: the Temple and its dedication; 2 Kgs 4, 17: Elisha's miracles and the fall of Shomron):** five new entries: `ulam-hekhal-devir-temple-three-room-plan-cross-corpus` (the Temple plan: 'porch', 'great hall', 'inner sanctuary', 'most holy place'; replaces the ASV 'temple'/'oracle' for the rooms), `shakhan-dwell-divine-presence-verb-cross-corpus` (1 Kgs 6:13; 8:12, canon-cited), `arafel-thick-darkness-divine-presence-cross-corpus` (Ex 20:18 MT; 1 Kgs 8:12, canon-cited; 'thick darkness', not 'cloud'), `beit-zevul-exalted-house-1-kgs-8-13-cross-corpus` (1 Kgs 8:13, canon-cited; 'an exalted house' after Ugaritic zbl), `he-anan-cloud-fills-the-sanctuary-cross-corpus` (1 Kgs 8:10-11, canon-cited; literal 'the cloud', reception confined to apparatus). `tzeva-ha-shamayim-...` now also governs the astral sense (2 Kgs 17:16 'all the host of the heavens'). appliesTo extensions for cherubim-ezek, kavod-yhwh, elohei-yisrael, karat-brit, ka-et-chayah, chei-x-oath, adonai-yhwh-divine-name, har-sinai-horev, ad-ha-yom-ha-zeh, olah, navi, davar-yhwh, elohim-imkha, hithallekh-lefanai, bethel-luz, rachamim (1 Kgs 8:50 'mercy'), chesed-solitary (8:23 'kindness'), matzevah, pesel, nichesh-laban, malakh-yhwh-messenger, seven-day-banquet, shamayim (1 Kgs 8 prayer 'heavens', 8:35 'skies') and eretz. Kings-specific decisions live in the 1-kings-woh and 2-kings-woh overlays v1.2.0."
+  },
+  {
+    "op": "add",
+    "id": "ulam-hekhal-devir-temple-three-room-plan-cross-corpus",
+    "entry": {
+      "id": "ulam-hekhal-devir-temple-three-room-plan-cross-corpus",
+      "source": "אוּלָם / הֵיכָל / דְּבִיר / קֹדֶשׁ הַקֳּדָשִׁים",
+      "translit": "ʾûlām / hêḵāl / dəḇîr / qōḏeš haqqŏḏāšîm",
+      "strongs": "H197 / H1964 / H1687 / H6944",
+      "partOfSpeech": "nouns (architectural terms of the Temple plan); qōḏeš haqqŏḏāšîm is a superlative construct",
+      "literal": "porch, front hall / great house, palace / back room / holiness of holinesses",
+      "standardEnglish": "porch / temple / oracle / most holy place (ASV, KJV); vestibule / nave / inner sanctuary / most holy place (NRSV); portico / Great Hall / Shrine / Holy of Holies (NJPS)",
+      "wohChoice": "In the three-room plan of the Temple: ʾûlām 'porch' (ASV); hêḵāl 'great hall' (NJPS, Alter; ASV 'temple'); dəḇîr 'inner sanctuary' (NRSV; ASV 'oracle'); qōḏeš haqqŏḏāšîm 'the most holy place' (ASV); habbayiṯ happənîmî 'the inner house' (literal). Where hêḵāl denotes a whole sanctuary or a palace (e.g. 1 Sam 1:9; 1 Kgs 21:1; Isa 6:1; Ps 11:4) it is rendered 'temple' or 'palace' by context.",
+      "claim_type": "direct",
+      "rationale": "1 Kings 6-7 describes the Temple as a 'house' (*bayiṯ*) of three successive rooms on one axis: the *ʾûlām* in front (6:3), the *hêḵāl*, forty cubits long (6:17), and the *dəḇîr* at the rear, a twenty-cubit cube also called *qōḏeš haqqŏḏāšîm* and 'the inner house' (6:16, 19-20, 27). The same plan recurs in 2 Chr 3-4 and in Ezekiel's temple (Ezek 40:48-41:4), and it has close Iron Age parallels in north Syria (ʿAin Dara, Tell Tayinat; Monson, *BAR* 26/3, 2000; King and Stager, *Life in Biblical Israel*, 2001). // (1) *hêḵāl* is a loanword from Sumerian é.gal 'great house' via Akkadian *ekallu*, meaning 'palace' or 'temple' in general; in the plan it is the main room (HALOT *hêḵāl* 3). The ASV 'temple' is accurate for the general sense but misleading in 1 Kgs 6, where the whole building is the 'house' and 'the temple of the house' (6:3) names one of its rooms; 'great hall' (NJPS; Alter) keeps both the function of the room and the etymology. (2) *dəḇîr* is the rear room (HALOT 'back room'; cf. Arabic *dubr* 'back'). The ASV/KJV 'oracle' comes through the Vulgate *oraculum* from the ancient derivation of the word from *dbr* 'speak' (Aquila and Symmachus *chrēmatistērion*), which the modern lexica reject; the line uses 'inner sanctuary' (NRSV). (3) *ʾûlām* 'porch' and *qōḏeš haqqŏḏāšîm* 'the most holy place' (superlative construct, GKC §133i) are kept from the ASV. // The decision is lexical and architectural and carries no interpretive content. The Raëlian canon's description of the Temple as a residence built to receive the creators (*The Book Which Tells the Truth*, ch. 3) is recorded only in labelled reception notes in the chapter commentary. // **Central housing.** The terms recur in Kings, Chronicles, Ezekiel and the Psalms (*dəḇîr* Ps 28:2; *hêḵāl* passim), so one decision should govern the corpus; the claim_type is *direct* because the room functions and the lexical senses are uncontested in current scholarship.",
+      "appliesTo": [
+        "1KI-WOH-6:3",
+        "1KI-WOH-6:5",
+        "1KI-WOH-6:16",
+        "1KI-WOH-6:17",
+        "1KI-WOH-6:19",
+        "1KI-WOH-6:20",
+        "1KI-WOH-6:21",
+        "1KI-WOH-6:22",
+        "1KI-WOH-6:23",
+        "1KI-WOH-6:27",
+        "1KI-WOH-6:31",
+        "1KI-WOH-6:33",
+        "1KI-WOH-8:6",
+        "1KI-WOH-8:8",
+        "1KI-WOH-8:10"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "shakhan-dwell-divine-presence-verb-cross-corpus",
+    "entry": {
+      "id": "shakhan-dwell-divine-presence-verb-cross-corpus",
+      "source": "שָׁכַן",
+      "translit": "šāḵan",
+      "strongs": "H7931",
+      "partOfSpeech": "verb, Qal (perfect with waw-consecutive, 1 Kgs 6:13; infinitive construct, 8:12)",
+      "literal": "settle, abide, dwell",
+      "standardEnglish": "dwell (ASV, KJV, NRSV); abide (NJPS at 1 Kgs 8:12)",
+      "wohChoice": "'dwell': 'I will dwell in the midst of the children of Yisra'el' (1 Kgs 6:13); 'that he would dwell in the thick darkness' (1 Kgs 8:12). The related yāšaḇ 'sit, be enthroned, dwell' (1 Kgs 8:13, 27, 30, 39, 43, 49) is also rendered 'dwell' and is distinguished in commentary.",
+      "claim_type": "direct",
+      "rationale": "*šāḵan* is the verb of settling or abiding, used of people and animals (Gen 9:27; Judg 5:17) and above all of YHWH's presence among Israel (Ex 25:8; 29:45-46; Num 5:3; 35:34; Deut 12:11 'to make his name dwell there'; Ezek 43:7, 9; Zech 2:14-15). Its derivatives are *miškān* 'dwelling, tabernacle' (central `brit-shalom-mishkan`) and the post-biblical *šəḵînâ*, the rabbinic term for the divine presence (BDB; HALOT; Cross, *Canaanite Myth and Hebrew Epic*, 1973, on the tent-dwelling sense; Mettinger, *The Dethronement of Sabaoth*, 1982, on name and glory theology). // In 1 Kings the verb occurs at two canon-cited sites: the conditional promise of 6:13, which repeats the language of Ex 25:8 and 29:45 ('I will dwell in the midst of'), and the temple poem of 8:12 ('YHWH has said that he would dwell in the thick darkness'). Every major version renders 'dwell', which is kept; the entry exists so that the two sites, and the related *yāšaḇ* 'sit, dwell, be enthroned' of 8:13 and of the prayer's 'your dwelling-place' (8:30, 39, 43, 49), can be audited together. // The Raëlian canon (*The Book Which Tells the Truth*, ch. 3) quotes both verses ('I will dwell among the children of Israel'; 'he would dwell in a cloud') in its account of the Temple as a residence of the creators. That reading is confined to labelled reception notes; the line renders the verb lexically. // **Central housing.** The verb is a cross-corpus divine-presence term (Torah, Kings, Ezekiel, Psalms). The claim_type is *direct*: the rendering is the consensus one.",
+      "appliesTo": [
+        "1KI-WOH-6:13",
+        "1KI-WOH-8:12"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "arafel-thick-darkness-divine-presence-cross-corpus",
+    "entry": {
+      "id": "arafel-thick-darkness-divine-presence-cross-corpus",
+      "source": "עֲרָפֶל",
+      "translit": "ʿărāp̄el",
+      "strongs": "H6205",
+      "partOfSpeech": "noun, masculine singular (with article at Ex 20:18 MT and 1 Kgs 8:12)",
+      "literal": "dense darkness, heavy dark cloud",
+      "standardEnglish": "thick darkness (ASV, KJV, NRSV); thick cloud (NJPS at 1 Kgs 8:12)",
+      "wohChoice": "'the thick darkness' (Ex 20:18 MT; 1 Kgs 8:12); 'thick darkness' in the poetic pair ʿānān waʿărāp̄el 'clouds and thick darkness' (Deut 4:11; Ps 97:2; Joel 2:2; Zeph 1:15)",
+      "claim_type": "direct",
+      "rationale": "*ʿărāp̄el* is the dense, dark cloud of the theophany: Moshe 'drew near to the *ʿărāp̄el* where the Elohim was' at Sinai (Ex 20:18 MT = 20:21 ASV; Deut 4:11; 5:22), YHWH has *ʿărāp̄el* under his feet in the storm theophany (2 Sam 22:10 = Ps 18:10), 'clouds and *ʿărāp̄el* are round about him' (Ps 97:2), and the day of YHWH is a day of *ʿānān* and *ʿărāp̄el* (Joel 2:2; Zeph 1:15). It is distinct from the ordinary *ʿānān* 'cloud', with which it is paired (BDB; HALOT 'deep darkness, heavy cloud'; cf. Ugaritic *ʿrpt* 'clouds', as in *rkb ʿrpt*, central `rider-of-the-clouds-rkb-arpt-cross-corpus-ugaritic-hebrew-bible-storm-theophany`). // exodus-woh renders the Sinai site 'the thick darkness' (EXO-WOH-20:18, under the overlay `sinai-cloud-fire-thunder-trumpet-imagery-exodus-compositional-cluster-overlay`), and 1 Kgs 8:12 deliberately echoes Sinai in Shelomoh's temple poem; the ASV rendering is kept at both so that the echo stays visible. // The Raëlian canon's French quotes 1 Kgs 8:12 as 'il réside dans un nuage' ('in a cloud') and reads the cloud as a craft in orbit (*The Book Which Tells the Truth*, ch. 3). The Hebrew there is *ʿărāp̄el*, not *ʿānān*, and accuracy requires 'thick darkness'; the reading is confined to a labelled reception note. // **Central housing.** The noun recurs across the Torah, the Former Prophets, the Psalms and the Prophets. The claim_type is *direct*: the rendering is the ASV and consensus one.",
+      "appliesTo": [
+        "EXO-WOH-20:18",
+        "1KI-WOH-8:12"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "beit-zevul-exalted-house-1-kgs-8-13-cross-corpus",
+    "entry": {
+      "id": "beit-zevul-exalted-house-1-kgs-8-13-cross-corpus",
+      "source": "בֵּית זְבֻל",
+      "translit": "bêṯ zəḇul",
+      "strongs": "H1004 + H2073",
+      "partOfSpeech": "construct noun phrase (bayiṯ + zəḇul, genitive of quality)",
+      "literal": "a house of exaltation / of princely abode",
+      "standardEnglish": "a house of habitation (ASV); an house to dwell in (KJV); an exalted house (RSV, NRSV); a stately House (NJPS)",
+      "wohChoice": "'an exalted house' (1 Kgs 8:13 = 2 Chr 6:2); zəḇul elsewhere 'lofty abode' by context (Isa 63:15; Hab 3:11; Ps 49:15)",
+      "claim_type": "direct",
+      "rationale": "*zəḇul* occurs five times (1 Kgs 8:13 = 2 Chr 6:2; Isa 63:15; Hab 3:11; Ps 49:15). Older lexicography derived it from *zbl* 'dwell' (cf. Gen 30:20 *yizbəlēnî*), whence the KJV/ASV 'house of habitation'. The Ugaritic texts, where *zbl* is a title 'prince, exalted one' (*zbl bʿl ʾarṣ* 'the Prince, lord of the earth', of Baʿlu; *zbl ym* 'Prince Yammu'), have since established the sense 'elevation, princely or lofty abode' (HALOT; DCH; Cogan, *1 Kings*, AB 10, 2001; Mettinger, *The Dethronement of Sabaoth*, 1982). Isa 63:15 ('look down from the heavens and see, from your holy and glorious *zəḇul*') and Hab 3:11 (sun and moon stand still in their *zəḇul*) use it of a celestial height; in 1 Kgs 8:13 it presents the Temple as the deity's princely seat. // Modern versions render 'exalted house' (RSV, NRSV) or 'stately House' (NJPS); 'an exalted house' is adopted as a correction toward the lexical consensus, not as a lens choice. The same title is generally recognized in the divine name Baal-zebul, deformed in 2 Kgs 1:2-16 as Baʿal-Zevuv (Cogan and Tadmor, *II Kings*, AB 11, 1988). // The Raëlian canon quotes the verse from the KJV ('I have surely built thee an house to dwell in') as evidence that the Temple was a residence for the creators (*The Book Which Tells the Truth*, ch. 3). The line renders *zəḇul* by its lexical sense, and the reading is confined to a labelled reception note. // **Central housing.** The noun recurs in Kings, Chronicles, Isaiah, Habakkuk and the Psalms. The claim_type is *direct* (consensus of current lexica and versions).",
+      "appliesTo": [
+        "1KI-WOH-8:13"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "he-anan-cloud-fills-the-sanctuary-cross-corpus",
+    "entry": {
+      "id": "he-anan-cloud-fills-the-sanctuary-cross-corpus",
+      "source": "הֶעָנָן",
+      "translit": "heʿānān",
+      "strongs": "H6051",
+      "partOfSpeech": "noun, masculine singular, with article",
+      "literal": "the cloud",
+      "standardEnglish": "the cloud (ASV, KJV, NRSV, NJPS)",
+      "wohChoice": "'the cloud' (literal, with the Hebrew article) for the cloud that fills or covers a completed sanctuary: 1 Kgs 8:10, 11 (cf. Ex 40:34-38; Num 9:15-22; 2 Chr 5:13-14; Ezek 10:3-4)",
+      "claim_type": "direct",
+      "rationale": "At the completion of a sanctuary the narratives report that 'the cloud' (*heʿānān*, with the article of the known cloud) covers or fills it and that the glory of YHWH fills it, so that the officiants cannot enter or minister: the tent of meeting (Ex 40:34-35), Shelomoh's Temple (1 Kgs 8:10-11 = 2 Chr 5:13-14), and, in the movement of the glory, Ezekiel's temple (Ezek 10:3-4; 43:4-5). The cloud is the visible veil of the presence (*kāḇôḏ*; central `kavod-yhwh`) and is continuous with the wilderness pillar of cloud (central `pillar-of-cloud-and-fire-ammud-ha-anan-ve-esh-divine-presence-marker-cross-corpus`) and the cloud of Sinai (Ex 19:9, 16; 24:15-18; central `sinai-theophany-ex-19-elohim-craft-descent-disavowals-volcanic-hypothesis-cross-corpus`) (Mettinger, *The Dethronement of Sabaoth*, 1982; Cogan, *1 Kings*, AB 10, 2001). It is distinct from *ʿărāp̄el* 'thick darkness' (central `arafel-thick-darkness-divine-presence-cross-corpus`), which 1 Kgs 8:12 uses in the poem that follows. // Every version renders 'the cloud', which is kept. // The Raëlian canon (*The Book Which Tells the Truth*, ch. 3) quotes 1 Kgs 8:10 ('The cloud filled the house of Yahweh') and reads the cloud as the creators' craft. This entry asserts only the lexical sense and the literary parallel with Ex 40; like the pillar-of-cloud entry, the line encodes neither a craft nor a natural phenomenon, and the reading is confined to labelled reception notes. // **Central housing.** The motif is cross-corpus (Exodus, Numbers, Kings, Chronicles, Ezekiel). The claim_type is *direct*.",
+      "appliesTo": [
+        "1KI-WOH-8:10",
+        "1KI-WOH-8:11"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus",
+    "changes": {
+      "wohChoice": "the host of the heavens ('host' as in the ASV, keeping the lexical link with ṣāḇāʾ in śar haṣṣāḇāʾ 'captain of the host'; šāmayim 'heavens' at this divine-realm site, under the register rule ratified at the Kings wave-A sign-off, 2026-11-01); the same rendering in the astral-worship sense ('and worshipped all the host of the heavens', 2 Kgs 17:16)",
+      "rationale": "*ṣāḇāʾ* is an army or organized company, and *ṣəḇāʾ haššāmayim* is the company of the sky. It has two senses in the Hebrew Bible. (1) **The heavenly retinue / divine council**: at 1 Kgs 22:19 (= 2 Chr 18:18) Mikhayehu sees YHWH enthroned 'and all the host of the heavens standing by him, on his right hand and on his left', and the host deliberates (vv 20-22); cf. Neh 9:6; Ps 103:21; 148:2, and the council scenes of Isa 6:1-8, Job 1:6-12 and Zech 3. (2) **The stars and celestial bodies**, especially as objects of worship forbidden to Israel (Deut 4:19; 17:3; 2 Kgs 17:16; 21:3, 5; 23:4-5; Jer 8:2; 19:13; Zeph 1:5), and as stars (Isa 34:4; Jer 33:22; Dan 8:10). The two senses are closely related in Northwest Semitic thought, where the gods of the council were associated with the stars (cf. Job 38:7) (E. T. Mullen, *The Divine Council in Canaanite and Early Hebrew Literature*, HSM 24, 1980; L. K. Handy, *Among the Host of Heaven*, 1994; M. S. Smith, *The Origins of Biblical Monotheism*, 2001). // **Rendering.** 'Host' (ASV) is kept because Kings uses the same noun for Israel's army (1 Kgs 1:19, 25; 2:5, 32, 35: 'captain of the host'), and the English should keep the lexical link the Hebrew makes between the earthly and the heavenly *ṣāḇāʾ*. *šāmayim* is rendered 'heavens' at 1 Kgs 22:19 following the recommendation of the Kings wave-A Reviewer (2026-11-01) that divine-realm uses of *šāmayim* take 'heaven(s)', as genesis-woh already does at its divine-realm sites (e.g. GEN-WOH-28:12), while weather and directional uses keep the central `shamayim` 'skies'. That recommendation was ratified at the wave-A human sign-off (2026-11-01), with 2 Kgs 2:1, 11 'to the heavens'; this verse, YHWH's council around his throne, is the clearest divine-realm site in Kings. The plural keeps the Hebrew form visible; the ASV singular 'host of heaven' is recorded in commentary. In the astral sense the same rendering is kept (2 Kgs 17:16 'all the host of the heavens', Kings wave D, v2.80.0), so that one Hebrew phrase has one English form across its two related senses; the commentary at each site states which sense is in play. // **Bidirectional cross-references.** This is the Hebrew-side entry called for by `divine-council-phr-mad-cross-corpus-ugaritic-akkadian-hebrew-bible` (Ugaritic *pḫr mʿd*), and it clusters with `bn-ilm-sons-of-god-cross-corpus-ugaritic-hebrew-bnei-elohim` (the council's membership). // **Reception, apparatus only.** The Raëlian canon (*The Book Which Tells the Truth*, ch. 3) quotes 1 Kgs 22:19 ('all the host of heaven standing by him') as the prophet's vision of the creators. That reading is recorded only in a labelled reception note in the chapter commentary; this entry asserts only the lexical sense and the scholarly council interpretation, and the line encodes neither a fleet nor personnel. // The claim_type is *direct*: the grammar and both senses of the phrase, and the council reading of 1 Kgs 22:19, are scholarly consensus.",
+      "appliesTo": [
+        "1KI-WOH-22:19",
+        "2KI-WOH-17:16"
+      ]
+    },
+    "reason": "Extension of the wave-B entry (pending in v2.79.0) to its astral sense at 2 Kgs 17:16: the rationale's forward-looking sentence ('later passes may scale back to skies') is resolved in favour of one rendering for both senses, per the šāmayim-by-register rule ratified at the wave-A sign-off (founder decision B: YHWH's realm 'heaven(s)', physical sky 'skies'). No other text changed."
+  },
+  {
+    "op": "modify",
+    "id": "cherubim-ezek",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:1",
+        "EZK-10:2",
+        "EZK-10:3",
+        "EZK-10:5",
+        "EZK-10:6",
+        "EZK-10:7",
+        "EZK-10:8",
+        "EZK-10:9",
+        "EZK-10:12",
+        "EZK-10:14",
+        "EZK-10:15",
+        "EZK-10:16",
+        "EZK-10:17",
+        "EZK-10:18",
+        "EZK-10:19",
+        "EZK-10:20",
+        "EZK-10:21",
+        "1KI-WOH-6:23",
+        "1KI-WOH-6:24",
+        "1KI-WOH-6:25",
+        "1KI-WOH-6:26",
+        "1KI-WOH-6:27",
+        "1KI-WOH-6:28",
+        "1KI-WOH-6:29",
+        "1KI-WOH-6:32",
+        "1KI-WOH-6:35",
+        "1KI-WOH-8:6",
+        "1KI-WOH-8:7"
+      ]
+    },
+    "reason": "appliesTo extension only: the entry's rationale already cites the Temple cherubim of 1 Kgs 6:23-28; 'cherub(im)' governs the Kings line. The id is Ezekiel-named but the decision is corpus-wide."
+  },
+  {
+    "op": "modify",
+    "id": "kavod-yhwh",
+    "changes": {
+      "appliesTo": [
+        "EZK-1:28",
+        "1KI-WOH-8:11"
+      ]
+    },
+    "reason": "appliesTo extension only: the rationale already lists 1 Kgs 8:10-11 among the kavod sites; 'the glory of YHWH' governs the line (canon-cited verse; reception in apparatus only). Base array includes the exodus-woh extensions if applied (EXO-WOH-16:7, 10)."
+  },
+  {
+    "op": "modify",
+    "id": "elohei-yisrael",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:19",
+        "EZK-10:20",
+        "1KI-WOH-1:30",
+        "1KI-WOH-1:48",
+        "1KI-WOH-22:54",
+        "1KI-WOH-8:15",
+        "1KI-WOH-8:17",
+        "1KI-WOH-8:20",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:25",
+        "1KI-WOH-8:26"
+      ]
+    },
+    "reason": "appliesTo extension only ('the Elohim of Yisra'el', Kings name form, as wave B); vocative 8:26 without English article. Base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "karat-brit-cut-covenant",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:18",
+        "GEN-21:27",
+        "GEN-21:32",
+        "GEN-26:28",
+        "GEN-31:44",
+        "EXOD-24:8",
+        "EXOD-34:10",
+        "EXOD-34:27",
+        "DEUT-4:23",
+        "DEUT-5:2",
+        "DEUT-5:3",
+        "DEUT-7:2",
+        "DEUT-28:69",
+        "DEUT-29:13",
+        "DEUT-31:16",
+        "JOSH-24:25",
+        "JER-31:31",
+        "JER-31:33",
+        "JER-34:8",
+        "JER-34:13",
+        "JER-34:15",
+        "JER-34:18",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "2KI-WOH-17:15",
+        "2KI-WOH-17:35",
+        "2KI-WOH-17:38"
+      ]
+    },
+    "reason": "appliesTo extension only: 'cut a covenant'; at 1 Kgs 8:9 the elided object bərîṯ is supplied (BDB kāraṯ 1b)."
+  },
+  {
+    "op": "modify",
+    "id": "ka-et-chayah-time-of-life",
+    "changes": {
+      "appliesTo": [
+        "GEN-18:10",
+        "GEN-18:14",
+        "2KI-WOH-4:16",
+        "2KI-WOH-4:17"
+      ]
+    },
+    "reason": "appliesTo extension only: the rationale already names 2 Kgs 4:16-17 as the formula's only other attestation; 'when the season comes around' governs the line."
+  },
+  {
+    "op": "modify",
+    "id": "chei-x-oath-by-the-life-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-42:15",
+        "GEN-WOH-42:16",
+        "1KI-WOH-17:1",
+        "1KI-WOH-17:12",
+        "1KI-WOH-18:10",
+        "1KI-WOH-18:15",
+        "2KI-WOH-2:2",
+        "2KI-WOH-2:4",
+        "2KI-WOH-2:6",
+        "1KI-WOH-1:29",
+        "1KI-WOH-2:24",
+        "1KI-WOH-22:14",
+        "2KI-WOH-4:30"
+      ]
+    },
+    "reason": "appliesTo extension only ('As YHWH lives'), following the wave-A/B practice; base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh-divine-name",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:2",
+        "GEN-15:8",
+        "1KI-WOH-2:26",
+        "1KI-WOH-8:53"
+      ]
+    },
+    "reason": "appliesTo extension only ('Lord YHWH'); base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-3:1",
+        "EXO-WOH-3:12",
+        "EXO-WOH-17:6",
+        "EXO-WOH-19:1",
+        "EXO-WOH-19:2",
+        "EXO-WOH-19:3",
+        "EXO-WOH-19:11",
+        "EXO-WOH-19:18",
+        "EXO-WOH-19:20",
+        "EXO-WOH-19:23",
+        "GILG-WOH-11:138",
+        "GILG-WOH-11:139",
+        "GILG-WOH-11:154",
+        "ENO-WOH-1:4",
+        "ENO-WOH-18:6",
+        "ENO-WOH-24:3",
+        "ENO-WOH-25:3",
+        "JUB-WOH-1:1",
+        "JUB-WOH-1:2",
+        "JUB-WOH-1:3",
+        "JUB-WOH-1:4",
+        "JUB-WOH-8:19",
+        "1KI-WOH-19:8",
+        "1KI-WOH-8:9"
+      ]
+    },
+    "reason": "appliesTo extension only ('Horeb'); base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "ad-ha-yom-ha-zeh-aetiological-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:26",
+        "GEN-WOH-48:15",
+        "2KI-WOH-2:22",
+        "1KI-WOH-8:8",
+        "2KI-WOH-17:23",
+        "2KI-WOH-17:34",
+        "2KI-WOH-17:41"
+      ]
+    },
+    "reason": "appliesTo extension only ('unto this day'); base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "olah-burnt-offering",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:2",
+        "GEN-WOH-22:3",
+        "GEN-WOH-22:6",
+        "GEN-WOH-22:7",
+        "GEN-WOH-22:8",
+        "GEN-WOH-22:13",
+        "1KI-WOH-18:34",
+        "1KI-WOH-18:38",
+        "1KI-WOH-8:64"
+      ]
+    },
+    "reason": "appliesTo extension only ('burnt-offering'); base array is the wave-A (v2.78.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "navi-first-occurrence-abraham",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-20:7",
+        "1KI-WOH-18:4",
+        "1KI-WOH-18:13",
+        "1KI-WOH-18:19",
+        "1KI-WOH-18:20",
+        "1KI-WOH-18:22",
+        "1KI-WOH-18:25",
+        "1KI-WOH-18:36",
+        "1KI-WOH-18:40",
+        "1KI-WOH-19:1",
+        "1KI-WOH-19:10",
+        "1KI-WOH-19:14",
+        "1KI-WOH-19:16",
+        "2KI-WOH-2:3",
+        "2KI-WOH-2:5",
+        "2KI-WOH-2:7",
+        "2KI-WOH-2:15",
+        "1KI-WOH-1:8",
+        "1KI-WOH-1:10",
+        "1KI-WOH-1:22",
+        "1KI-WOH-1:23",
+        "1KI-WOH-1:32",
+        "1KI-WOH-1:34",
+        "1KI-WOH-1:38",
+        "1KI-WOH-1:44",
+        "1KI-WOH-1:45",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:18",
+        "1KI-WOH-13:20",
+        "1KI-WOH-13:23",
+        "1KI-WOH-13:25",
+        "1KI-WOH-13:26",
+        "1KI-WOH-13:29",
+        "1KI-WOH-22:6",
+        "1KI-WOH-22:7",
+        "1KI-WOH-22:10",
+        "1KI-WOH-22:12",
+        "1KI-WOH-22:13",
+        "1KI-WOH-22:22",
+        "1KI-WOH-22:23",
+        "2KI-WOH-4:1",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:13",
+        "2KI-WOH-17:23"
+      ]
+    },
+    "reason": "appliesTo extension only (nāḇîʾ 'prophet', incl. 'the sons of the prophets'); base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "davar-yhwh-prophetic-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:1",
+        "GEN-15:4",
+        "1KI-WOH-17:2",
+        "1KI-WOH-17:8",
+        "1KI-WOH-18:1",
+        "1KI-WOH-18:31",
+        "1KI-WOH-19:9",
+        "1KI-WOH-13:20",
+        "1KI-WOH-6:11"
+      ]
+    },
+    "reason": "appliesTo extension only ('the word of YHWH came to'); base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-imkha-divine-presence-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-21:22",
+        "GEN-WOH-26:28",
+        "GEN-WOH-28:15",
+        "GEN-WOH-31:3",
+        "1KI-WOH-1:37",
+        "1KI-WOH-8:57"
+      ]
+    },
+    "reason": "appliesTo extension only (jussive 'May YHWH our Elohim be with us'); base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "hithallekh-lefanai-patriarchal-walking-before-elohim-covenantal-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-48:15",
+        "1KI-WOH-2:4",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:25"
+      ]
+    },
+    "reason": "appliesTo extension only ('walk before'); base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "bethel-luz-name-etymology",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-28:19",
+        "GEN-WOH-35:1",
+        "GEN-WOH-35:3",
+        "GEN-WOH-35:6",
+        "GEN-WOH-35:7",
+        "GEN-WOH-35:8",
+        "GEN-WOH-35:15",
+        "GEN-WOH-35:16",
+        "GEN-WOH-48:3",
+        "2KI-WOH-2:2",
+        "2KI-WOH-2:3",
+        "2KI-WOH-2:23",
+        "1KI-WOH-13:1",
+        "1KI-WOH-13:4",
+        "1KI-WOH-13:10",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:32",
+        "2KI-WOH-17:28"
+      ]
+    },
+    "reason": "appliesTo extension only (toponym Beit-El); base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "rachamim-compassion-womb-root",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-43:14",
+        "GEN-WOH-43:30",
+        "1KI-WOH-8:50"
+      ]
+    },
+    "reason": "appliesTo extension: 1 Kgs 8:50 has the idiom nāṯan ləraḥămîm lip̄nê of Gen 43:14 ('give mercy before'); the line now reads 'mercy' per the entry's wohChoice (draft and ASV 'compassion'). wohChoice and rationale unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "chesed-solitary-covenant-kindness",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-39:21",
+        "GEN-WOH-40:14",
+        "1KI-WOH-2:7",
+        "1KI-WOH-8:23"
+      ]
+    },
+    "reason": "appliesTo extension: solitary ḥeseḏ in the Deuteronomic pair šōmēr habbərîṯ wəhaḥeseḏ; the line now reads 'kindness' per the entry's wohChoice (draft and ASV 'lovingkindness'), as at 1 Kgs 2:7 (wave B). Base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "matzevah-sacred-pillar-patriarchal-religion",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-28:18",
+        "GEN-WOH-28:22",
+        "GEN-WOH-31:13",
+        "GEN-WOH-31:45",
+        "GEN-WOH-31:51",
+        "GEN-WOH-31:52",
+        "GEN-WOH-35:14",
+        "GEN-WOH-35:20",
+        "2KI-WOH-17:10"
+      ]
+    },
+    "reason": "appliesTo extension only ('pillars'); the rationale's Deuteronomic-prohibition axis covers the Kings site."
+  },
+  {
+    "op": "modify",
+    "id": "pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:4",
+        "EXO-WOH-20:5",
+        "EXO-WOH-20:6",
+        "EXO-WOH-20:23",
+        "2KI-WOH-17:41"
+      ]
+    },
+    "reason": "appliesTo extension only: plural pəsîlîm 'carved images', the entry's 'carved image' in the plural."
+  },
+  {
+    "op": "modify",
+    "id": "nichesh-laban-divination",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-30:27",
+        "GEN-44:5",
+        "GEN-44:15",
+        "LEV-19:26",
+        "DEUT-18:10",
+        "NUM-24:1",
+        "2KI-17:17",
+        "2KI-21:6",
+        "2CH-33:6",
+        "2KI-WOH-17:17"
+      ]
+    },
+    "reason": "appliesTo extension: the rationale already cites 2 Kgs 17:17 and the array lists it in the legacy id format '2KI-17:17'; the translation refId 2KI-WOH-17:17 is added (legacy id kept). Line: 'practised divination and divined'."
+  },
+  {
+    "op": "modify",
+    "id": "malakh-yhwh-messenger",
+    "changes": {
+      "appliesTo": [
+        "GEN-16:7",
+        "GEN-16:9",
+        "GEN-16:10",
+        "GEN-16:11",
+        "GEN-19:1",
+        "GEN-19:15",
+        "GEN-22:11",
+        "GEN-22:15",
+        "GEN-48:16",
+        "EXOD-3:2",
+        "EXOD-14:19",
+        "EXOD-23:20",
+        "EXOD-23:23",
+        "EXOD-32:34",
+        "EXOD-33:2",
+        "NUM-22:22",
+        "NUM-22:23",
+        "NUM-22:24",
+        "NUM-22:25",
+        "NUM-22:26",
+        "NUM-22:27",
+        "NUM-22:31",
+        "NUM-22:32",
+        "NUM-22:34",
+        "NUM-22:35",
+        "JOSH-5:13",
+        "JOSH-5:14",
+        "JOSH-5:15",
+        "JUDG-2:1",
+        "JUDG-5:23",
+        "JUDG-6:11",
+        "JUDG-6:12",
+        "JUDG-6:20",
+        "JUDG-6:21",
+        "JUDG-6:22",
+        "JUDG-13:3",
+        "JUDG-13:6",
+        "JUDG-13:9",
+        "JUDG-13:13",
+        "JUDG-13:15",
+        "JUDG-13:16",
+        "JUDG-13:17",
+        "JUDG-13:18",
+        "JUDG-13:20",
+        "JUDG-13:21",
+        "2SAM-24:16",
+        "1KGS-19:7",
+        "2KGS-1:3",
+        "2KGS-1:15",
+        "2KGS-19:35",
+        "ISA-37:36",
+        "ISA-63:9",
+        "ZECH-1:11",
+        "ZECH-1:12",
+        "ZECH-3:1",
+        "ZECH-3:5",
+        "ZECH-3:6",
+        "PS-34:8",
+        "PS-35:5",
+        "PS-35:6",
+        "1KI-WOH-19:2",
+        "1KI-WOH-19:5",
+        "1KI-WOH-19:7",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:5",
+        "2KI-WOH-1:15",
+        "2KI-WOH-1:16",
+        "1KI-WOH-13:18",
+        "2KI-WOH-17:4"
+      ]
+    },
+    "reason": "appliesTo extension only: bare malʾāḵîm 'messengers' (human envoys), as wave A; base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "seven-day-banquet-feast-structure-cross-corpus-ugaritic-mesopotamian-hebrew-bible",
+    "changes": {
+      "appliesTo": [
+        "BCY-WOH-1.4-v:54",
+        "BCY-WOH-1.4-vi:24",
+        "BCY-WOH-1.4-vi:29",
+        "BCY-WOH-1.4-vi:30",
+        "BCY-WOH-1.4-vi:33",
+        "BCY-WOH-1.4-vi:36",
+        "BCY-WOH-1.4-vi:39",
+        "BCY-WOH-1.4-vi:42",
+        "BCY-WOH-1.4-vi:43",
+        "BCY-WOH-1.4-vi:44",
+        "1KI-WOH-8:65",
+        "1KI-WOH-8:66"
+      ]
+    },
+    "reason": "appliesTo extension: the wohChoice already names 1 Kgs 8:65-66 as the Hebrew cross-corpus site documented in commentary; the line preserves the seven-day structure."
+  },
+  {
+    "op": "modify",
+    "id": "shamayim",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:30",
+        "1KI-WOH-18:45",
+        "2KI-WOH-1:10",
+        "2KI-WOH-1:12",
+        "2KI-WOH-1:14",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11",
+        "1KI-WOH-22:19",
+        "1KI-WOH-8:22",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:27",
+        "1KI-WOH-8:30",
+        "1KI-WOH-8:32",
+        "1KI-WOH-8:34",
+        "1KI-WOH-8:35",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:39",
+        "1KI-WOH-8:43",
+        "1KI-WOH-8:45",
+        "1KI-WOH-8:49",
+        "1KI-WOH-8:54",
+        "2KI-WOH-17:16"
+      ]
+    },
+    "reason": "appliesTo extension only. 1 Kgs 8:35 ('when the skies are shut up') is governed by the wohChoice 'skies'; the divine-dwelling sites of Shelomoh's prayer (8:22, 23, 27, 30, 32, 34, 36, 39, 43, 45, 49, 54; the entry's rationale itself cites 8:30 for that sense) and 2 Kgs 17:16 are rendered 'heavens' under the entry's numinous-register clause, as 1 Kgs 22:19 in wave B. This follows the šāmayim-by-register rule ratified at the wave-A sign-off (founder decision B: YHWH's realm 'heaven(s)', physical sky 'skies'). Base array is the wave-B (v2.79.0) array."
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:30",
+        "1KI-WOH-22:36",
+        "1KI-WOH-22:47",
+        "1KI-WOH-6:1",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:37",
+        "1KI-WOH-8:41",
+        "1KI-WOH-8:46",
+        "1KI-WOH-8:47",
+        "1KI-WOH-8:48",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:5",
+        "2KI-WOH-17:7",
+        "2KI-WOH-17:26",
+        "2KI-WOH-17:27",
+        "2KI-WOH-17:36"
+      ]
+    },
+    "reason": "appliesTo extension only: ʾereṣ rendered 'land' (wohChoice); sites where ʾereṣ means 'earth' in the cosmic merism or 'all the peoples of the earth' (1 Kgs 8:23, 27, 43, 53, 60) are not added. Base array is the wave-B (v2.79.0) array."
+  }
+]
