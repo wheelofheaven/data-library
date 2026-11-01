@@ -1,0 +1,460 @@
+[
+  {
+    "op": "version",
+    "from": "2.77.0",
+    "to": "2.78.0",
+    "note": "1 new entry + 5 rationale/wohChoice corrections (esh-elohim, ruach-se'arah, min-ha-se-arah, shamayim, tzet-nephesh) + 18 appliesTo-only extensions. The role doc's strict rule treats any modification of an existing entry as semver-major (-> 3.0.0); house practice (e.g., the GEN-21:17 malakh-yhwh-messenger 'semver-major correction' shipped inside 2.x) labels corrections as semver-major in the changelog but increments the minor number. No wohChoice decision is reversed (tzet-nephesh changes spelling only), so 2.78.0 is recommended; 3.0.0 if the orchestrator applies the strict rule. Apply semantics: op=add inserts `entry`; op=modify replaces each field in `changes` with the given value (appliesTo values are complete arrays with all existing refIds preserved). Base: translation-glossary.json v2.77.0 export.",
+    "scopeNoteAddendum": "**v2.78.0 (Kings wave A — the Elijah cycle, 1 Kgs 17-19, 2 Kgs 1-2):** one new entry, `esh-yhwh-fire-of-yhwh` (1 Kgs 18:38). Semver-major corrections (wohChoice decisions unchanged): `esh-elohim` no longer claims 1 Kgs 18:38 (MT ʾēš-YHWH) or 2 Kgs 1:10 (bare ʾēš), now governs 2 Kgs 1:12; `ruach-se'arah` no longer claims 2 Kgs 2:11 or Jer 23:19/30:23, and states the scope split (compound rûaḥ sĕʿārâ 'stormy wind' vs bare sĕʿārâ 'whirlwind'); `min-ha-se-arah` extended to bare bassĕʿārâ at 2 Kgs 2:1, 11; `shamayim` drops the inaccurate 'grammatically dual' claim and records the exodus-woh 'heavens' drift; `tzet-nephesh-departure-at-death-formula` normalized to the house spelling 'nefesh' (id unchanged) and extended to 1 Kgs 17:21-22. appliesTo extensions for chei-x-oath, davar-yhwh, malakh-yhwh-messenger, yonah-orev, al-tira, darash-yhwh, olah, yad-yhwh, har-sinai-horev, minchah-shaah, doubled-name-call, bethel-luz, be-er-sheva, ad-ha-yom-ha-zeh, adam-adamah, navi, piska, elohei-avraham. Kings-specific conventions (name transliteration, elohim referent/article, man of the Elohim, nefesh scope, ruach, Ketiv/Qere, MT baseline, YHWH of hosts, Ba'al) live in the 1-kings-woh and 2-kings-woh overlays v1.0.0."
+  },
+  {
+    "op": "modify",
+    "id": "esh-elohim",
+    "changes": {
+      "rationale": "*Esh Elohim* (fire of Elohim) is the Hebrew Bible's designation for **divinely-sent fire** — lightning, supernatural conflagration, or fire-of-divine-origin in general. The exact construct *ʾēš ʾĕlōhîm* occurs at Job 1:16 (here) and 2 Kgs 1:12 (the fire that consumes the second captain of fifty and his men: *wattērēḏ ʾēš-ʾĕlōhîm min-haššāmayim*). **Correction (v2.78.0, Kings wave A editor pass):** earlier versions of this rationale listed 1 Kgs 18:38 and 2 Kgs 1:10 as *esh Elohim* occurrences. They are not: the MT of 1 Kgs 18:38 reads *wattippōl ʾēš-YHWH* 'the fire of YHWH fell' (governed by the sibling entry `esh-yhwh-fire-of-yhwh`), and 2 Kgs 1:10, 14 read the bare noun *ʾēš* 'fire'. The category-noun *Elohim* in the compound functions as an intensifier-genitive: 'God-fire' = fire of divine origin / divinely-sent fire. // The chapter at Job 1:16 names the second disaster as *esh Elohim nafelah min ha-shamayim* — *fire of Elohim fell from the skies*. The verb *nafal* (fall) and the source *min ha-shamayim* (from the skies) name a **descent-from-above fire phenomenon** — consistent with lightning or atmospheric-electrical discharge. The WoH translation preserves the literal compound (esh + Elohim) and the YHWH-translation convention; the commentary surfaces the lightning / meteorological reading. // **Scope.** The entry governs the construct *ʾēš ʾĕlōhîm* → 'fire of Elohim' (anarthrous, as in the Hebrew). The verb is rendered per site: *nāp̄əlâ* 'fell' at Job 1:16, *wattērēḏ* 'came down' at 2 Kgs 1:12 (the wohChoice phrase 'fell from the skies' is the Job wording and is not imported into Kings).",
+      "appliesTo": [
+        "JOB-1:16",
+        "2KI-WOH-1:12"
+      ]
+    },
+    "reason": "Factual correction flagged by the Translator (item 1): the rationale misattributed 1 Kgs 18:38 (MT ʾēš-YHWH) and 2 Kgs 1:10 (bare ʾēš) to the ʾēš ʾĕlōhîm construct; adds 2 Kgs 1:12, the one Kings site with the construct, and scopes the entry to the construct so the Job verb is not imported. wohChoice unchanged."
+  },
+  {
+    "op": "add",
+    "id": "esh-yhwh-fire-of-yhwh",
+    "entry": {
+      "id": "esh-yhwh-fire-of-yhwh",
+      "source": "אֵשׁ־יְהוָה",
+      "translit": "ʾēš-YHWH",
+      "strongs": "H784 + H3068",
+      "partOfSpeech": "construct noun phrase (fire + divine name)",
+      "literal": "fire of YHWH",
+      "standardEnglish": "the fire of Jehovah (ASV); the fire of the LORD (KJV, NRSV, NJPS)",
+      "wohChoice": "the fire of YHWH (definite: a construct with a proper name is definite in Hebrew; corpus divine-name style 'YHWH')",
+      "claim_type": "direct",
+      "rationale": "*ʾēš-YHWH* 'the fire of YHWH' is the sibling of `esh-elohim`: the same construct of *ʾēš* with the divine name instead of the class noun. It occurs at Num 11:1, 3 (the fire that burns among the complaining people at Taberah), and at 1 Kgs 18:38 (*wattippōl ʾēš-YHWH* 'then the fire of YHWH fell' on Eliyahu's altar on Karmel); closely related are *ʾēš millip̄nê YHWH* 'fire from before YHWH' at Lev 9:24 and 10:2 and *ʾēš yāṣəʾâ mēʾēt YHWH* at Num 16:35. A construct governed by a proper name is definite in Hebrew grammar (GKC §127a; Joüon-Muraoka §139), so 'the fire of YHWH' is the exact rendering (ASV, KJV, NRSV, NJPS all agree); the anarthrous 'fire of Elohim' of `esh-elohim` is not harmonized with it. In the cultic texts (Lev 9:24; 1 Kgs 18:38; cf. 2 Chr 7:1) the fire marks divine acceptance of an offering by consuming it; at Carmel it also settles the contest of 1 Kgs 18:24, 'the Elohim who answers by fire, he is the Elohim' (Cogan, 1 Kings, AB 10, 2001). The commentary may record meteorological readings (lightning) and the Raëlian canon's reading of 1 Kgs 18:38 (The Book Which Tells the Truth, ch. 3) as clearly labelled reception notes; the line renders the Hebrew construct and verb literally ('fell', *wattippōl*) and nothing else.",
+      "appliesTo": [
+        "1KI-WOH-18:38"
+      ]
+    },
+    "reason": "New sibling entry requested by the Translator for the canon-cited ʾēš-YHWH at 1 Kgs 18:38, which esh-elohim had wrongly claimed; cross-corpus (Numbers, Leviticus-related forms, Kings), hence central."
+  },
+  {
+    "op": "modify",
+    "id": "ruach-se'arah",
+    "changes": {
+      "rationale": "*Ruach se'arah* — 'a stormy wind' — opens Ezekiel's vision (1:4) as the carrier of the approaching apparition. *Ruach* is the standard Hebrew word for *wind / breath / spirit* (see `ruach-elohim` for the Gen 1:2 cosmogonic sense); *se'arah* is *storm, tempest, gale* (HALOT; BDB). The compound phrase *rûaḥ sĕʿārâ* recurs at Ezek 13:11, 13 and Ps 107:25; 148:8. **Correction (v2.78.0, Kings wave A editor pass):** earlier versions of this rationale said the compound recurs at 2 Kgs 2:11 and in Jer 23:19; 30:23. It does not: 2 Kgs 2:1, 11 have the bare articular noun *bassĕʿārâ* 'in the storm/whirlwind' (governed by `min-ha-se-arah`), and Jer 23:19; 30:23 have *saʿărat YHWH* 'the storm of YHWH' without *rûaḥ*. The Ezekiel verse uses the phrase as the *transport-medium* of the chayyot apparatus — the chayyot come from the north *in* (or *with*) a stormy wind. **Scope of the rendering.** In the compound, *rûaḥ* supplies the noun 'wind' and *sĕʿārâ* qualifies it, so 'a stormy wind' is the literal rendering and is preferred to KJV/ASV 'whirlwind', which over-specifies rotation; rotation is not encoded in *sĕʿārâ* itself. Where *sĕʿārâ* stands alone (Job 38:1; 40:6; 2 Kgs 2:1, 11) the conventional English 'whirlwind' is retained under `min-ha-se-arah`, with the same lexical caveat in commentary."
+    },
+    "reason": "Translator item 2: the rationale's claim that rûaḥ sĕʿārâ occurs at 2 Kgs 2:11 is false (bare bassĕʿārâ) and Jer 23:19/30:23 lack rûaḥ; the corrected rationale also states the scope split with min-ha-se-arah so the two central entries no longer contradict each other. wohChoice and appliesTo unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "min-ha-se-arah",
+    "changes": {
+      "rationale": "Job 38:1 opens YHWH's first speech with the source-formula *min ha-se'arah* — *from the whirlwind/storm*. The noun *se'arah* (סְעָרָה) is the same word that opens Ezekiel's vision at Ezek 1:4 — *ruach se'arah ba'ah min ha-tzafon* — *a stormy wind coming from the north*. The verbal echo across Job 38:1 and Ezek 1:4 is one of the Hebrew Bible's tighter cross-textual links — both texts stage divine manifestation as **emerging from a storm-vehicle**. // The chapter is positioning YHWH's voice in the same meteorological-vehicular register as Ezekiel's chayyot-throne apparatus. The chapter's reading of the storm as the source-vehicle of the divine voice connects Job 38 to the broader Hebrew Bible theophany-vocabulary (Ex 19:18 the smoke and trembling at Sinai; 1 Kgs 19:11-13 the wind / earthquake / fire at Horeb; Ezek 1:4 the storm-wind from the north). // *Min ha-se'arah* recurs in Job 40:6 (the start of YHWH's second speech). The two divine speeches both open with the same source-formula — the whirlwind is the chapter's standing vehicle for divine address. // **Bare *sĕʿārâ* convention (v2.78.0, Kings wave A).** This entry governs the noun *sĕʿārâ* when it stands without *rûaḥ*: 'the whirlwind', the long-established English for the storm-noun (ASV, KJV, NRSV, NJPS at Job 38:1 and 2 Kgs 2:1, 11). Lexically *sĕʿārâ* is 'storm, tempest, gale' (HALOT; BDB) and rotation is not encoded; the rendering is kept because English needs a wind-noun here and 'whirlwind' is the established equivalent, and the commentary at each site states the lexical range. At 2 Kgs 2:1, 11 (*bassĕʿārâ haššāmayim*) the Hebrew article is kept: 'in the whirlwind to the skies' (ASV 'by a whirlwind into heaven'). The compound *rûaḥ sĕʿārâ* remains governed by `ruach-se'arah` ('a stormy wind').",
+      "appliesTo": [
+        "JOB-38:1",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11"
+      ]
+    },
+    "reason": "Translator item 2: resolves the ruach-se'arah / min-ha-se-arah conflict by scope — compound rûaḥ sĕʿārâ = 'stormy wind', bare sĕʿārâ = 'whirlwind' — and extends the bare-noun entry to the canon-cited 2 Kgs 2:1, 11."
+  },
+  {
+    "op": "modify",
+    "id": "shamayim",
+    "changes": {
+      "rationale": "שָׁמַיִם has a plural form with a dual-like vocalization (-ayim); most grammars treat it, like *mayim* 'water', as a plural (plurale tantum), not a true dual (GKC §88d; Joüon-Muraoka §91f; HALOT), and Hebrew has no singular form for sky/heaven. **Correction (v2.78.0, Kings wave A editor pass):** earlier versions of this rationale called the word 'grammatically dual'; the decision does not depend on that claim. Rendering as singular 'heaven' (as KJV/ASV do) imports a later theological 'heaven-the-realm' concept onto a word that in narrative means 'the sky/skies' in the physical sense, though it also names the dwelling of YHWH (e.g., 1 Kgs 8:30). 'Skies' is closer to the cosmological register Gen 1 actually operates in and keeps the plural form visible. Where the text demands a more numinous register (e.g. כֹּכְבֵי הַשָּׁמַיִם 'stars of the skies'), the rendering scales accordingly. **Corpus note.** genesis-woh, job-woh, ezekiel-woh and the Kings volumes apply 'skies'; exodus-woh renders 'heavens' at Ex 16:4; 17:14; 20:4, 11, 19 (MT numbering) without citing this entry — an unrecorded divergence to be reconciled at the next Exodus pass. In the Kings wave the entry governs meteorological and directional uses: 'the skies grew black' (1 Kgs 18:45), fire 'from the skies' (2 Kgs 1:10, 12, 14), and Eliyahu's ascent 'to the skies' (2 Kgs 2:1, 11); at the last, a canon-cited site, the commentary records that *šāmayim* also denotes the divine dwelling, so the rendering does not narrow the destination to a physical location.",
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:30",
+        "1KI-WOH-18:45",
+        "2KI-WOH-1:10",
+        "2KI-WOH-1:12",
+        "2KI-WOH-1:14",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11"
+      ]
+    },
+    "reason": "Translator item 3: confirms 'skies' as the corpus rendering for Kings; corrects the inaccurate 'grammatically dual' claim (šāmayim is a plural with dual-like form); records the exodus-woh 'heavens' drift for reconciliation; extends appliesTo. wohChoice unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "tzet-nephesh-departure-at-death-formula",
+    "changes": {
+      "wohChoice": "as her nefesh was departing (preserving *nefesh* in transliteration; avoiding the ASV/Platonic *soul* register)",
+      "rationale": "**Gen 35:18's *va-yhi b-tzet nafshah ki metah* — *and it came to pass, as her nefesh was going out, for she was dying* — is the explicit Hebrew Bible formula for the *nefesh-departure-at-death*.** The construction names *nefesh* (נֶפֶשׁ — *life-breath, animating vitality, throat*) as the departing-life-component at the moment of death. The formula is editorially distinctive: most patriarchal-death-formulae use *va-yigva va-yamot va-ye'asef el-ammav* (*expired and died and was gathered to his peoples*) without specifying the *nefesh* as the departing-component; Gen 35:18 makes the *nefesh-departure* explicit.\n\n**The cross-corpus distribution.**\n\n*Patriarchal:*\n- **Gen 25:8** (Avraham): *va-yigva va-yamot Avraham b-seyvah tovah zaqen v-save'a va-ye'asef el-ammav* — without the explicit *tzet nafsho*; the *gavah / mut / ye'asef* triple-formula.\n- **Gen 35:18** (Rachel, here): explicit *tzet nafshah*.\n- **Gen 49:33** (Ya'aqov): *va-ye'asef raglav el-ha-mittah va-yigva va-ye'asef el-ammav* — without the explicit *tzet nafsho*.\n\n*Wisdom-and-prophetic:*\n- **1 Kgs 17:21-22** (Eliyahu's revival of the Tzarfat-widow's son): *tashov-na nefesh ha-yeled ha-zeh al-qirbo... va-tashov nefesh ha-yeled al-qirbo va-yechi* — *let the boy's nefesh return to his interior... and the boy's nefesh returned to his interior, and he lived*. The explicit-formula of **return-of-nefesh** parallel to the Gen 35:18 **departure-of-nefesh**.\n- **Ps 146:4** (*tetze rucho yashuv l-admato* — *his ruach goes out, he returns to his dust*; the parallel **tetze-ruach** formula using *ruach* rather than *nefesh*).\n- **Jonah 4:3** (Jonah's death-wish: *kach-na et-nafshi mimmenni* — *take my nefesh from me*).\n- **Job 11:20** (*mafach-nefesh* — *the breathing-out of nefesh*; the related-but-distinct death-formula).\n\n**The Gen 2:7 inverse-formula.** Gen 2:7 deploys the inverse construction: *va-yipach b-apav nishmat chayyim va-yhi ha-adam l-nefesh chayyah* — *and he breathed into his nostrils the breath of life; and the adam became a living nefesh*. The conferral-of-nefesh at the breath-inbreathing (Gen 2:7) and the departure-of-nefesh at the breath-exhalation (Gen 35:18) form a paired editorial framework: the nefesh is conferred at the inbreathed beginning and departs at the exhaled end. The Gen 2:7 conferral-formula is covered in the central [nefesh-chayah](#nefesh-chayah) entry; the present entry covers the departure-formula and its cross-corpus distribution.\n\n**The Hebrew anthropological-vocabulary cluster.** The HB's foundational anthropological vocabulary includes *nefesh* (life-breath, throat, animating vitality), *ruach* (spirit, breath, wind), *neshamah* (breath, life-breath), *basar* (flesh, body), and *lev* (heart, mind, will). The cluster is not the Platonic body-and-soul dualism that the LXX-and-Vulgate translation-tradition imposed: the *nefesh* is not a separable immortal soul but a life-component of the embodied person; at death the *nefesh* departs (Gen 35:18) or is taken (Jonah 4:3) or returns (1 Kgs 17:22). The semantic core is *breath-life-animating-presence*, not *separable-immortal-soul*. Modern HB scholarship is unanimous on this: **Wolff** *Anthropology of the Old Testament* 1974 (the foundational modern monograph); **Brown-Driver-Briggs** s.v. *nefesh*; **HALOT** s.v. *nefesh*; **Westermann** *Theologische Beobachtungen zum Alten Testament* 1974.\n\n**The Platonic-dualist mistranslation problem.** The ASV/KJV/Geneva *as her soul was departing* uses the English word *soul* — which by the 16th-19th centuries had acquired Platonic-Christian connotations of a separable-immortal-component of the person. The translation imports a body-soul dualism that the Hebrew lexeme does not support. The NRSV/NJPS modernize to *life* (NRSV: *as her life was departing*; NJPS: *as her soul was passing*), which avoids the worst of the Platonic-import but loses the lexical-specificity. The WoH choice preserves *nefesh* in transliteration, matching the project's practice with other technical anthropological vocabulary and the central [nefesh-chayah](#nefesh-chayah) policy.\n\n**Modern scholarly literature.** Sarna *JPS Genesis* 1989 p. 244; Westermann *Genesis 12-36* 1985 pp. 556-557; Wenham *WBC Genesis 16-50* 1994 p. 327; Hamilton *NICOT Genesis 18-50* 1995 pp. 379-380; Speiser *AB Genesis* 1964 p. 273; Alter *Five Books of Moses* 2004 p. 198; Wolff *Anthropology of the Old Testament* 1974; Westermann *Theologische Beobachtungen* 1974; HALOT s.v. *nefesh*; BDB pp. 659-661; TDOT IX:497-519 (s.v. *nefesh*); on the Hebrew-vs-Platonic anthropology: Boman *Hebrew Thought Compared with Greek* 1960; Pedersen *Israel: Its Life and Culture* 1926; Dahood *Anchor Bible Psalms* (introductory anthropological notes on *nefesh*).\n\nThe claim_type is *direct* because (a) the construction *b-tzet nafshah* is grammatically explicit; (b) the cross-corpus departure-of-nefesh formula at 1 Kgs 17:21-22 (with the inverse return-formula) is HB-internal-explicit; (c) the Gen 2:7 inverse-formula is documentary; (d) the modern critical anthropological consensus (Wolff, HALOT, BDB) is documented and is mainstream; (e) the Platonic-mistranslation critique is the unanimous modern-critical position. // **Spelling note (v2.78.0):** the transliteration is normalized to the house spelling *nefesh* (as in `nefesh-chayah`, `nefesh-blessing-transfer`, `karet-penalty-cut-off-from-people`, `shivim-nefesh-seventy-souls-foundational-number-LXX-variant`); the entry id keeps its original spelling for reference stability. The entry now also governs the return-of-*nefesh* formula at 1 Kgs 17:21-22 (*tāšāḇ-nāʾ nep̄eš-hayyeleḏ hazzeh ʿal-qirbô* ... *wattāšāḇ nep̄eš-hayyeleḏ ʿal-qirbô wayyeḥî*), which this rationale already cites.",
+      "appliesTo": [
+        "GEN-WOH-35:18",
+        "1KI-WOH-17:21",
+        "1KI-WOH-17:22"
+      ]
+    },
+    "reason": "Translator item 4: normalizes the only 'nephesh' spelling in the central glossary to the house 'nefesh' (5 of 6 text sites and 4 of 5 entries use 'nefesh'); id kept for stability; extends appliesTo to 1 Kgs 17:21-22, which the rationale already cites. DOWNSTREAM: genesis-woh GEN-WOH-35:18 English reads 'nephesh' and should be re-spelled 'nefesh' by the genesis-woh owner (not touched by this pass).",
+    "downstream": [
+      "genesis-woh/chapter-35.json GEN-WOH-35:18 i18n.en: 'nephesh' -> 'nefesh' (spelling only)"
+    ]
+  },
+  {
+    "op": "modify",
+    "id": "chei-x-oath-by-the-life-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-42:15",
+        "GEN-WOH-42:16",
+        "1KI-WOH-17:1",
+        "1KI-WOH-17:12",
+        "1KI-WOH-18:10",
+        "1KI-WOH-18:15",
+        "2KI-WOH-2:2",
+        "2KI-WOH-2:4",
+        "2KI-WOH-2:6"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): Israelite ḥay-YHWH oath, rendered 'As YHWH ... lives' (ASV baseline); the rationale already lists 1 Kgs 17:1, 12; 18:10, 15; 2 Kgs 2:2, 4, 6."
+  },
+  {
+    "op": "modify",
+    "id": "davar-yhwh-prophetic-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:1",
+        "GEN-15:4",
+        "1KI-WOH-17:2",
+        "1KI-WOH-17:8",
+        "1KI-WOH-18:1",
+        "1KI-WOH-18:31",
+        "1KI-WOH-19:9"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): wayəhî dəḇar-YHWH ʾel-X (lēʾmōr), rendered 'the word of YHWH came to'."
+  },
+  {
+    "op": "modify",
+    "id": "malakh-yhwh-messenger",
+    "changes": {
+      "appliesTo": [
+        "GEN-16:7",
+        "GEN-16:9",
+        "GEN-16:10",
+        "GEN-16:11",
+        "GEN-19:1",
+        "GEN-19:15",
+        "GEN-22:11",
+        "GEN-22:15",
+        "GEN-48:16",
+        "EXOD-3:2",
+        "EXOD-14:19",
+        "EXOD-23:20",
+        "EXOD-23:23",
+        "EXOD-32:34",
+        "EXOD-33:2",
+        "NUM-22:22",
+        "NUM-22:23",
+        "NUM-22:24",
+        "NUM-22:25",
+        "NUM-22:26",
+        "NUM-22:27",
+        "NUM-22:31",
+        "NUM-22:32",
+        "NUM-22:34",
+        "NUM-22:35",
+        "JOSH-5:13",
+        "JOSH-5:14",
+        "JOSH-5:15",
+        "JUDG-2:1",
+        "JUDG-5:23",
+        "JUDG-6:11",
+        "JUDG-6:12",
+        "JUDG-6:20",
+        "JUDG-6:21",
+        "JUDG-6:22",
+        "JUDG-13:3",
+        "JUDG-13:6",
+        "JUDG-13:9",
+        "JUDG-13:13",
+        "JUDG-13:15",
+        "JUDG-13:16",
+        "JUDG-13:17",
+        "JUDG-13:18",
+        "JUDG-13:20",
+        "JUDG-13:21",
+        "2SAM-24:16",
+        "1KGS-19:7",
+        "2KGS-1:3",
+        "2KGS-1:15",
+        "2KGS-19:35",
+        "ISA-37:36",
+        "ISA-63:9",
+        "ZECH-1:11",
+        "ZECH-1:12",
+        "ZECH-3:1",
+        "ZECH-3:5",
+        "ZECH-3:6",
+        "PS-34:8",
+        "PS-35:5",
+        "PS-35:6",
+        "1KI-WOH-19:2",
+        "1KI-WOH-19:5",
+        "1KI-WOH-19:7",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:5",
+        "2KI-WOH-1:15",
+        "2KI-WOH-1:16"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): malʾaḵ YHWH 'the messenger of YHWH' (19:7; 2 Kgs 1:3, 15) and bare malʾāḵ 'messenger' (human at 19:2 and 2 Kgs 1:2, 5, 16; unidentified at 19:5, Hebrew indefiniteness kept)."
+  },
+  {
+    "op": "modify",
+    "id": "yonah-orev",
+    "changes": {
+      "appliesTo": [
+        "GEN-8:7",
+        "GEN-8:8",
+        "GEN-8:9",
+        "GEN-8:10",
+        "GEN-8:11",
+        "GEN-8:12",
+        "1KI-WOH-17:4",
+        "1KI-WOH-17:6"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): ʿōrēḇ 'raven' (rationale already cites 1 Kgs 17:6); vocalization decision in the 1-kings-woh overlay entry orvim-ravens-mt-vocalization-1-kings-17."
+  },
+  {
+    "op": "modify",
+    "id": "al-tira-fear-not-divine-encouragement-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-26:24",
+        "GEN-WOH-46:3",
+        "1KI-WOH-17:13",
+        "2KI-WOH-1:15"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): ʾal-tîrāʾ 'do not fear'."
+  },
+  {
+    "op": "modify",
+    "id": "darash-yhwh-seeking-oracle",
+    "changes": {
+      "appliesTo": [
+        "GEN-25:22",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:6",
+        "2KI-WOH-1:16"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): dāraš b- 'inquire of' an oracle-giving deity, rendered as in the entry ('inquire of')."
+  },
+  {
+    "op": "modify",
+    "id": "olah-burnt-offering",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:2",
+        "GEN-WOH-22:3",
+        "GEN-WOH-22:6",
+        "GEN-WOH-22:7",
+        "GEN-WOH-22:8",
+        "GEN-WOH-22:13",
+        "1KI-WOH-18:34",
+        "1KI-WOH-18:38"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): ʿōlâ 'burnt-offering'."
+  },
+  {
+    "op": "modify",
+    "id": "yad-yhwh",
+    "changes": {
+      "appliesTo": [
+        "EZK-1:3",
+        "1KI-WOH-18:46"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): yaḏ-YHWH 'the hand of YHWH' on the prophet."
+  },
+  {
+    "op": "modify",
+    "id": "har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-3:1",
+        "EXO-WOH-3:12",
+        "EXO-WOH-17:6",
+        "EXO-WOH-19:1",
+        "EXO-WOH-19:2",
+        "EXO-WOH-19:3",
+        "EXO-WOH-19:11",
+        "EXO-WOH-19:18",
+        "EXO-WOH-19:20",
+        "EXO-WOH-19:23",
+        "GILG-WOH-11:138",
+        "GILG-WOH-11:139",
+        "GILG-WOH-11:154",
+        "ENO-WOH-1:4",
+        "ENO-WOH-18:6",
+        "ENO-WOH-24:3",
+        "ENO-WOH-25:3",
+        "JUB-WOH-1:1",
+        "JUB-WOH-1:2",
+        "JUB-WOH-1:3",
+        "JUB-WOH-1:4",
+        "JUB-WOH-8:19",
+        "1KI-WOH-19:8"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): har hāʾĕlōhîm ḥōrēḇ 'the mountain of the Elohim, Horeb'."
+  },
+  {
+    "op": "modify",
+    "id": "minchah-shaah",
+    "changes": {
+      "appliesTo": [
+        "GEN-4:3",
+        "GEN-4:4",
+        "GEN-4:5",
+        "1KI-WOH-18:29",
+        "1KI-WOH-18:36"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): minḥâ 'offering' (the afternoon offering), rendered 'offering'."
+  },
+  {
+    "op": "modify",
+    "id": "doubled-name-call-theophanic-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-46:2",
+        "2KI-WOH-2:12"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): doubled vocative ʾāḇî ʾāḇî 'My father, my father' (the rationale already cites 2 Kgs 2:12)."
+  },
+  {
+    "op": "modify",
+    "id": "bethel-luz-name-etymology",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-28:19",
+        "GEN-WOH-35:1",
+        "GEN-WOH-35:3",
+        "GEN-WOH-35:6",
+        "GEN-WOH-35:7",
+        "GEN-WOH-35:8",
+        "GEN-WOH-35:15",
+        "GEN-WOH-35:16",
+        "GEN-WOH-48:3",
+        "2KI-WOH-2:2",
+        "2KI-WOH-2:3",
+        "2KI-WOH-2:23"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): toponym Beit-El."
+  },
+  {
+    "op": "modify",
+    "id": "be-er-sheva-folk-etymology",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-21:31",
+        "GEN-WOH-21:14",
+        "GEN-WOH-21:32",
+        "GEN-WOH-21:33",
+        "GEN-WOH-26:23",
+        "GEN-WOH-26:33",
+        "1KI-WOH-19:3"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): toponym Be'er Sheva."
+  },
+  {
+    "op": "modify",
+    "id": "ad-ha-yom-ha-zeh-aetiological-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:26",
+        "GEN-WOH-48:15",
+        "2KI-WOH-2:22"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): ʿaḏ hayyôm hazzeh 'unto this day'."
+  },
+  {
+    "op": "modify",
+    "id": "adam-adamah",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:5",
+        "GEN-2:6",
+        "GEN-2:7",
+        "GEN-2:9",
+        "GEN-2:19",
+        "1KI-WOH-17:14",
+        "1KI-WOH-18:1"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): ʾăḏāmâ 'the ground' in 'upon the face of the ground'."
+  },
+  {
+    "op": "modify",
+    "id": "navi-first-occurrence-abraham",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-20:7",
+        "1KI-WOH-18:4",
+        "1KI-WOH-18:13",
+        "1KI-WOH-18:19",
+        "1KI-WOH-18:20",
+        "1KI-WOH-18:22",
+        "1KI-WOH-18:25",
+        "1KI-WOH-18:36",
+        "1KI-WOH-18:40",
+        "1KI-WOH-19:1",
+        "1KI-WOH-19:10",
+        "1KI-WOH-19:14",
+        "1KI-WOH-19:16",
+        "2KI-WOH-2:3",
+        "2KI-WOH-2:5",
+        "2KI-WOH-2:7",
+        "2KI-WOH-2:15"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): nāḇîʾ 'prophet' (ASV baseline)."
+  },
+  {
+    "op": "modify",
+    "id": "piska-b-emtza-pasuq-masoretic-paragraph-break",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-35:22",
+        "2KI-WOH-1:17"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): the Leningrad Codex has a pisqa (פ) in mid-verse at 2 Kgs 1:17, after 'and Yehoram reigned in his place'."
+  },
+  {
+    "op": "modify",
+    "id": "elohei-avraham-yitzchaq-veyaakov-patriarchal-god-formula-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-3:6",
+        "EXO-WOH-3:15",
+        "EXO-WOH-3:16",
+        "1KI-WOH-18:36"
+      ]
+    },
+    "reason": "appliesTo extension only (wohChoice governs the Kings line): patriarchal divine title at 1 Kgs 18:36, here in the single-construct form YHWH ʾĕlōhê ʾaḇrāhām yiṣḥāq wəyiśrāʾēl with 'Yisra'el' for Ya'aqov; the threefold-repetition clause of the wohChoice does not apply because the Hebrew has one ʾĕlōhê (noted in commentary)."
+  }
+]

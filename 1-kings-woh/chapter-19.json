@@ -1,0 +1,675 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "1KI-WOH",
+  "bookSlug": "1-kings-woh",
+  "n": 19,
+  "title": "1 Kings 19 — Eliyahu (Elijah) at Horeb and the call of Elisha",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Hebrew Masoretic text (Westminster Leningrad Codex base, Public Domain) — Tanach with Ta'amei Hamikra",
+    "sourceLicense": "Public Domain",
+    "sourceUrl": "https://www.sefaria.org/api/v3/texts/I_Kings.19",
+    "sourceAccessedVia": "Sefaria v3 API",
+    "glossaryVersion": "2.78.0",
+    "overlayGlossaryVersion": "1.0.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-01T11:30:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-01T10:28:10Z",
+      "verdicts": [
+        {
+          "refId": "1KI-WOH-19:1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "wəʾēṯ kol-ʾăšer hāraḡ ʾeṯ-kol-hannəḇîʾîm beḥāreḇ: 'all how he had killed' is literal. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:2",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. ʾĕlōhîm",
+            "1 Sam 3:17; 14:44; 2 Sam 3:9 (Israelite oath with ʾĕlōhîm + singular verbs)"
+          ],
+          "reasoning": "Re-parsed: kōh-yaʿăśûn ʾĕlōhîm wəḵōh yôsip̄ûn, plural verbs, no lî; 'So may the elohim do, and more also' with lower case and no supplied 'to me' is exact. Non-blocking factual fix to the commentary (and the overlay rationale): Ruth 1:17 is not an Israelite oath with ʾĕlōhîm (Ruth is a Moabite and the subject there is YHWH); cite 1 Sam 3:17; 14:44; 2 Sam 3:9 beside 1 Kgs 2:23."
+        },
+        {
+          "refId": "1KI-WOH-19:3",
+          "status": "approve",
+          "citations": [
+            "Cogan, I Kings (AB 10; 2001), ad loc.",
+            "Burney, Notes on the Hebrew Text of the Books of Kings (1903), ad loc.",
+            "LXX 3 Kgdms 19:3 (kai ephobēthē); Vulgate timuit"
+          ],
+          "reasoning": "Disputed: the MT points wayyarʾ 'and he saw'; LXX, Vulgate and many moderns read wayyîrāʾ 'and he was afraid'. Keeping the construable MT and recording the versions is the declared baseline. wayyēleḵ ʾel-napšô 'went for his life' is idiomatic and correct."
+        },
+        {
+          "refId": "1KI-WOH-19:4",
+          "status": "approve",
+          "citations": [
+            "Tov 2012 on Ketiv/Qere",
+            "BDB s.v. rōṯem",
+            "Zohary, Plants of the Bible (1982)"
+          ],
+          "reasoning": "Ketiv ʾḥt / Qere ʾeḥāḏ verified ('a certain broom tree'). rōṯem = Retama raetam, so ASV 'juniper' is a misidentification and 'broom tree' corrects the baseline on lexical grounds. wayyišʾal ʾeṯ-napšô lāmûṯ: reflexive 'for himself' is correct."
+        },
+        {
+          "refId": "1KI-WOH-19:5",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. malʾāḵ"
+          ],
+          "reasoning": "wəhinnēh-zeh malʾāḵ nōḡēaʿ bô: indefinite noun and participle kept ('a messenger was touching him'). 'messenger' applies the central direct malakh entry and is lexically primary. Reception note accurately reports TBWTT ch. 3 and is labelled."
+        },
+        {
+          "refId": "1KI-WOH-19:6",
+          "status": "approve",
+          "citations": [
+            "HALOT s.v. reṣep̄"
+          ],
+          "reasoning": "ʿuggaṯ rəṣāp̄îm 'a cake baked on hot stones' (NRSV/NJPS sense); ṣappaḥaṯ mayim; wayyāšāḇ wayyiškāḇ 'lay down again'. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:7",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "wayyāšāḇ malʾaḵ YHWH šēnîṯ ... kî raḇ mimməḵā hadderek. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:8",
+          "status": "approve",
+          "citations": [
+            "Cogan, I Kings (AB 10; 2001), ad loc."
+          ],
+          "reasoning": "bəḵōaḥ hāʾăḵîlâ hahîʾ ʾarbāʿîm yôm ... ʿaḏ har hāʾĕlōhîm ḥōrēḇ: 'the mountain of the Elohim, Horeb' follows Hebrew word order and the article. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:9",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "wayyāḇōʾ-šām ʾel-hammĕʿārâ: 'the cave' keeps the article that ASV ('a cave') drops. mah-llḵā p̄ōh. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:10",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "qannōʾ qinnēʾṯî 'I have been very jealous' (infinitive absolute intensifier, ASV); YHWH ʾĕlōhê ṣəḇāʾôṯ; wāʾiwwāṯēr ʾănî ləḇaddî. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:11",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. rûaḥ"
+          ],
+          "reasoning": "Participle ʿōḇēr 'was passing by'; rûaḥ gəḏôlâ wəḥāzāq məp̄ārēq hārîm ûməšabbēr səlāʿîm translated 'wind' (meteorological); nominal clauses lōʾ ḇārûaḥ YHWH with ASV's 'but'. Reception note accurately reports TBWTT ch. 3 ('landing of a craft') and is labelled; the line adds nothing."
+        },
+        {
+          "refId": "1KI-WOH-19:12",
+          "status": "revise",
+          "citations": [
+            "LXX 3 Kgdms 19:12 (phōnē auras leptēs)",
+            "Lust, 'A Gentle Breeze or a Roaring Thunderous Sound? Elijah at Horeb: 1 Kings XIX 12', VT 25 (1975)",
+            "HALOT s.v. dəmāmâ",
+            "BDB s.v. dəmāmâ"
+          ],
+          "reasoning": "The English line ('a still small voice') is approved, since each word is a recognized sense of qôl dəmāmâ daqqâ. The commentary and overlay rationale need correcting. (1) Dhorme's 'brise légère', which the French canon quotes, comes from the LXX's phōnē auras leptēs, so the commentary should say it has versional support rather than calling it Dhorme's interpretation. (2) Lust's reading of dəmāmâ from dmm II, 'a roaring, thunderous sound', is a documented scholarly alternative and must be listed. Without it the commentary implies the only options are kinds of quiet."
+        },
+        {
+          "refId": "1KI-WOH-19:13",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "wayyāleṭ pānāyw bəʾaddartô ... wəhinnēh ʾēlāyw qôl 'a voice came to him'. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:14",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Verbatim repeat of v 10, rendered identically. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:15",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "lēḵ šûḇ ləḏarkəḵā miḏbbarâ ḏammāśeq ... ûmāšaḥtā ʾeṯ-ḥăzāʾēl ləmeleḵ ʿal-ʾărām. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:16",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Two timšaḥ clauses; lənāḇîʾ taḥteyḵā 'to be prophet in your place'. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:17",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "hannimlāṭ mēḥereḇ ... yāmîṯ. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:18",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "wəhišʾartî (weqatal) 'Yet I will leave', the normal future force (ASV); Rom 11:4 noted. 'every mouth that has not kissed him'. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:19",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "šənêm-ʿāśār ṣəmāḏîm ləp̄ānāyw wəhûʾ bišnêm heʿāśār; wayyašlēḵ ʾaddartô ʾēlāyw. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:20",
+          "status": "approve",
+          "citations": [
+            "Cogan, I Kings (AB 10; 2001), ad loc."
+          ],
+          "reasoning": "ʾeššəqâ-nnāʾ ... lēḵ šûḇ kî meh-ʿāśîṯî lāḵ: the ASV wording keeps the crux open and the three readings are in commentary. Exact."
+        },
+        {
+          "refId": "1KI-WOH-19:21",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ṣemeḏ habbāqār wayyizbāḥēhû; ûḇiḵlî habbāqār bišlām habbāśār; wayšārtēhû 'served him'. Exact."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "hebrew-proper-name-transliteration-convention-kings",
+          "status": "flag-for-human",
+          "citations": [
+            "Cogan, I Kings (AB 10; 2001), ad loc.",
+            "genesis-woh / exodus-woh name practice (Avraham, Ya'aqov, Beit-El; Yisra'el, Aharon) vs isaiah-woh / ezekiel-woh / daniel-woh English forms (checked in the data)"
+          ],
+          "reasoning": "The rendering is philologically sound: forms are transliterated, short and long MT forms are normalized with a note, and the equivalence table is complete. claim_type direct is right for a presentation convention with no interpretive content. It is flagged only because it is the open founder decision A. Reviewer recommendation: retain transliteration, which continues the Torah-narrative volumes and keeps the 'my El is Yah' / 18:39 wordplay visible; add the English form to each chapter title (e.g. 'Eliyahu (Elijah) ...') for discoverability."
+        },
+        {
+          "glossary_id": "elohim-referent-and-article-conventions-kings",
+          "status": "revise",
+          "citations": [
+            "BDB s.v. ʾĕlōhîm",
+            "1 Sam 3:17; 14:44; 2 Sam 3:9 (MT)",
+            "Cogan, I Kings (AB 10; 2001), ad loc."
+          ],
+          "reasoning": "Direct is defensible: case is a declared editorial device, the article and number follow the Hebrew, and the Ex 20:3 precedent exists. One factual fix: the rationale cites Ruth 1:17 as the 'same oath in Israelite mouths' with singular verbs, but Ruth is a Moabite and the subject there is YHWH, not ʾĕlōhîm. Replace it with 1 Sam 3:17; 14:44; 2 Sam 3:9 (kōh yaʿăśeh ʾĕlōhîm, singular), keep 1 Kgs 2:23, and make the same fix in the 1KI-WOH-19:2 commentary. Fix both overlays together."
+        },
+        {
+          "glossary_id": "nefesh-scope-and-spelling-kings",
+          "status": "approve",
+          "citations": [
+            "HALOT s.v. nepeš",
+            "Wolff, Anthropology of the Old Testament (1974)"
+          ],
+          "reasoning": "Scope is correct: the word is transliterated only where nepeš names the returning life (17:21-22) and rendered idiomatically in fixed idioms. 'as you yourself live' for ḥê-napšəḵā is accurate (cf. NJPS). The spelling unification depends on the central tzet-nephesh op shipping together with the GEN-WOH-35:18 respelling."
+        },
+        {
+          "glossary_id": "ruach-yhwh-and-prophetic-ruach-transliteration-kings",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. rûaḥ",
+            "HALOT s.v. rûaḥ",
+            "EZK-WOH-37:1 corpus precedent",
+            "Cogan & Tadmor, II Kings (AB 11; 1988), ad loc."
+          ],
+          "reasoning": "Inferred is the right label: transliteration deliberately leaves a recognized wind/spirit ambiguity unresolved, and the rationale admits the 'wind' reading of rûaḥ YHWH is a minority one. Is leaving the word untranslated lens-leaning? Reviewer finding: no. 'Spirit' would itself be the more interpretive choice, the convention is pre-existing (ezekiel-woh), and physical wind is still translated 'wind' (1 Kgs 18:45; 19:11). Non-blocking: the appliesTo list includes 1KI-WOH-19:11, where the entry's rule yields 'wind', which is consistent but worth stating in the wohChoice."
+        },
+        {
+          "glossary_id": "ketiv-qere-qere-translated-kings",
+          "status": "approve",
+          "citations": [
+            "Tov, Textual Criticism of the Hebrew Bible (3rd ed. 2012), on Ketiv/Qere"
+          ],
+          "reasoning": "All six sites were re-checked in the source and none was missed: 17:14 (tttn/tēt), 17:15 (hwʾ-whyʾ / hîʾ wāhûʾ), 18:36, 18:42, 19:4, 2 Kgs 2:16. The Qere is translated each time and the Ketiv recorded. Direct confirmed."
+        },
+        {
+          "glossary_id": "mt-baseline-at-versional-cruxes-and-versification-kings",
+          "status": "revise",
+          "citations": [
+            "Wickes, Treatise on the Accentuation of the Twenty-One So-called Prose Books (1887)",
+            "LXX 4 Kgdms 2:14",
+            "Burney, Notes on the Hebrew Text of the Books of Kings (1903)",
+            "Cogan, I Kings (AB 10; 2001), ad loc."
+          ],
+          "reasoning": "The principle and the 18:33-34 versification note are correct (MT 18:33 ends at 'laid it on the wood'; ASV 18:33 already includes the jar command). Fix the 2 Kgs 2:14 item: it is not a site where the line departs from the Masoretic reading. The etnaḥta on ʾēliyyāhû puts ʾap̄-hûʾ at the head of the second half-verse, so the adopted construal is the Masoretic one, and LXX aphphō is the alternative. Restate as 'MT accentuation followed; LXX aphphō in commentary'."
+        },
+        {
+          "glossary_id": "yhwh-tsevaot-yhwh-of-hosts-kings",
+          "status": "approve",
+          "citations": [
+            "Mettinger, The Dethronement of Sabaoth (1982)"
+          ],
+          "reasoning": "Matches isaiah-woh yhwh-tzevaot-hosts-isaiah (entry exists). 'hosts' keeps the referent open. Direct confirmed."
+        },
+        {
+          "glossary_id": "habbaal-baal-hebrew-bible-rendering-kings",
+          "status": "approve",
+          "citations": [
+            "Cogan, I Kings (AB 10; 2001), ad loc.",
+            "Smith, The Early History of God (2nd ed. 2002)"
+          ],
+          "reasoning": "Dropping the English article for habbaʿal follows ASV, NRSV and NJPS, with the Hebrew article recorded; 'the Ba'als' for the plural. Direct confirmed."
+        },
+        {
+          "glossary_id": "rotem-broom-tree-1-kings-19-4",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. rōṯem",
+            "Zohary, Plants of the Bible (1982)"
+          ],
+          "reasoning": "Lexical correction of ASV 'juniper'; every major modern version reads 'broom'. Direct confirmed."
+        },
+        {
+          "glossary_id": "qol-demamah-daqqah-still-small-voice-1-kings-19-12",
+          "status": "revise",
+          "citations": [
+            "LXX 3 Kgdms 19:12 (phōnē auras leptēs)",
+            "Lust, VT 25 (1975), on 1 Kgs 19:12",
+            "HALOT s.v. dəmāmâ"
+          ],
+          "reasoning": "Keeping 'a still small voice' is approved, and direct is acceptable for the line. Two rationale fixes. (1) Dhorme's 'breeze' follows the LXX's auras leptēs, so the rationale should not call it 'not supported' without noting that the reading is versional. (2) Add Lust's 'roaring thunderous sound' (dmm II) as the documented minority reading. Mirror both in the 1KI-WOH-19:12 commentary."
+        },
+        {
+          "glossary_id": "central-diff:version 2.77.0->2.78.0",
+          "status": "approve",
+          "citations": [
+            "data-library glossary scopeNote history (GEN-21:17 malakh-yhwh-messenger 'semver-major correction' shipped as 2.x minor)"
+          ],
+          "reasoning": "House practice consistently increments the minor version for appliesTo extensions and labelled corrections, and no wohChoice decision is reversed, so 2.78.0 is right. Strictly applied, the SKILL/editor docs would demand 3.0.0; the docs, not this release, should be brought into line with practice. The only surface-affecting change is the tzet-nephesh respelling, which is acceptable in a minor release provided GEN-WOH-35:18 is respelled in the same release."
+        },
+        {
+          "glossary_id": "central-diff:davar-yhwh-prophetic-formula (appliesTo)",
+          "status": "approve",
+          "citations": [
+            "Source re-check of each added refId"
+          ],
+          "reasoning": "appliesTo-only extension, checked against the base: no existing refId lost, no duplicates, and each added Kings refId contains the governed lexeme or formula."
+        },
+        {
+          "glossary_id": "central-diff:har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus (appliesTo)",
+          "status": "approve",
+          "citations": [
+            "Source re-check of each added refId"
+          ],
+          "reasoning": "appliesTo-only extension, checked against the base: no existing refId lost, no duplicates, and each added Kings refId contains the governed lexeme or formula."
+        },
+        {
+          "glossary_id": "central-diff:be-er-sheva-folk-etymology (appliesTo)",
+          "status": "approve",
+          "citations": [
+            "Source re-check of each added refId"
+          ],
+          "reasoning": "appliesTo-only extension, checked against the base: no existing refId lost, no duplicates, and each added Kings refId contains the governed lexeme or formula."
+        },
+        {
+          "glossary_id": "central-diff:navi-first-occurrence-abraham (appliesTo)",
+          "status": "approve",
+          "citations": [
+            "Source re-check of each added refId"
+          ],
+          "reasoning": "appliesTo-only extension, checked against the base: no existing refId lost, no duplicates, and each added Kings refId contains the governed lexeme or formula."
+        },
+        {
+          "glossary_id": "central-diff:malakh-yhwh-messenger (appliesTo)",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. malʾāḵ"
+          ],
+          "reasoning": "appliesTo-only extension, checked: nothing lost; the human-messenger sites (19:2; 2 Kgs 1:2, 5, 16) fit the rationale, which itself cites 1 Kgs 19:2. Non-blocking: the list now holds 1KGS-19:7 / 2KGS-1:3, 15 alongside 1KI-WOH-19:7 / 2KI-WOH-1:3, 15 for the same verses; normalize the refId scheme at the next pass."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "lensLeakageCheck": "Checked all 21 lines. 19:5-7 'messenger' applies a central direct entry. 19:11-12 render the theophany vocabulary in its ordinary sense. The canon's 'landing of a craft' reading of 19:11-12 is confined to labelled notes, and the French Dhorme quotation was verified in TBWTT ch. 3 ('le son d'une brise légère').",
+      "escalationReportAdjustments": "Initial verdicts on all verses, overlay entries and central ops were formed from the chapters, source, overlays and diff before opening wave-a-editor-report.md. After reading it, no verdict changed. The report's Founder point B says 'skies' 'matches genesis-woh, job-woh and ezekiel-woh' and holds 'across the corpus'. A corpus check shows genesis-woh uses 'heaven(s)' at about 13 divine-realm sites (e.g. GEN-WOH-19:24, 28:12), which strengthens the reviewer's 'revise' at 2 Kgs 2:1, 11 and on the central shamayim op. The report's confirmation that 1KI-WOH-18:38 depends on applying esh-yhwh-fire-of-yhwh is recorded in that op's reasoning.",
+      "founderDecisionRecommendations": {
+        "A-proper-names": "Retain Hebrew transliteration (continuity with genesis-woh/exodus-woh narrative volumes; theophoric wordplay at 1 Kgs 18:39 stays visible; mechanically reversible). Add the English form to chapter titles for discoverability.",
+        "B-shamayim-at-2-Kgs-2:1,11": "Render 'to the heavens' at 2 Kgs 2:1, 11 (corpus precedent GEN-WOH-28:12 etc.; central shamayim's numinous-register clause; central human-ascent entry). Keep 'skies' at 1 Kgs 18:45 and 2 Kgs 1:10, 12, 14 (meteorological / Job 1:16 precedent)."
+      },
+      "summary": "21 verdicts: 20 approve, 1 revise (19:12 commentary: add LXX auras leptēs as the source of Dhorme's 'breeze', and Lust's 'roaring thunderous sound'; the English line is approved). Non-blocking: 19:2 commentary cites Ruth 1:17 wrongly (Moabite speaker, YHWH subject); use 1 Sam 3:17; 14:44; 2 Sam 3:9."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "1KI-WOH-19:1",
+      "text": "וַיַּגֵּ֤ד אַחְאָב֙ לְאִיזֶ֔בֶל אֵ֛ת כָּל־אֲשֶׁ֥ר עָשָׂ֖ה אֵלִיָּ֑הוּ וְאֵ֨ת כָּל־אֲשֶׁ֥ר הָרַ֛ג אֶת־כָּל־הַנְּבִיאִ֖ים בֶּחָֽרֶב׃",
+      "i18n": {
+        "en": "And Ach'av told Izevel all that Eliyahu had done, and all how he had killed all the prophets with the sword."
+      },
+      "glossaryRefs": [
+        "navi-first-occurrence-abraham",
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "Names in this chapter: Ach'av = Ahab, Izevel = Jezebel, Eliyahu = Elijah, Be'er Sheva = Beersheba, Chaza'el = Hazael, Yehu = Jehu, Avel-Mecholah = Abel-meholah (`hebrew-proper-name-transliteration-convention-kings`). *hāraḡ ... baḥereḇ* 'had killed ... with the sword' refers to the slaughter at the Qishon (18:40).",
+        "community": []
+      }
+    },
+    {
+      "n": 2,
+      "refId": "1KI-WOH-19:2",
+      "text": "וַתִּשְׁלַ֤ח אִיזֶ֙בֶל֙ מַלְאָ֔ךְ אֶל־אֵלִיָּ֖הוּ לֵאמֹ֑ר כֹּֽה־יַעֲשׂ֤וּן אֱלֹהִים֙ וְכֹ֣ה יוֹסִפ֔וּן כִּֽי־כָעֵ֤ת מָחָר֙ אָשִׂ֣ים אֶֽת־נַפְשְׁךָ֔ כְּנֶ֖פֶשׁ אַחַ֥ד מֵהֶֽם׃",
+      "i18n": {
+        "en": "Then Izevel sent a messenger to Eliyahu, saying, \"So may the elohim do, and more also, if by this time tomorrow I do not make your life as the life of one of them.\""
+      },
+      "glossaryRefs": [
+        "malakh-yhwh-messenger",
+        "elohim-as-translation",
+        "elohim-aherim-other-gods-monolatry-vs-monotheism-scholarly-dispute-cross-corpus",
+        "hebrew-proper-name-transliteration-convention-kings",
+        "elohim-referent-and-article-conventions-kings",
+        "nefesh-scope-and-spelling-kings"
+      ],
+      "notes": {
+        "official": "*kōh-yaʿăśûn ʾĕlōhîm wəḵōh yôsip̄ûn* 'So may the elohim do, and more also': Izevel's oath governs *ʾĕlōhîm* with plural verbs, as Ben-Hadad's does at 20:10. When Israelites use the same oath the verbs are singular (1 Kgs 2:23; 1 Sam 3:17; 14:44; 2 Sam 3:9). It is therefore rendered as a plural with lower-case 'elohim' (`elohim-referent-and-article-conventions-kings`). The ASV's 'to me' is not in the Hebrew of this verse and is not supplied.\n\n*malʾāḵ* 'a messenger' is a human envoy (`malakh-yhwh-messenger`), the same noun as the messenger of vv 5, 7. *ʾet-napšəḵā kənep̄eš ʾaḥaḏ mēhem* 'your life as the life of one of them': *nepeš* as 'life' (`nefesh-scope-and-spelling-kings`). The LXX prefixes 'If you are Eliyahu, I am Izevel'.",
+        "community": []
+      }
+    },
+    {
+      "n": 3,
+      "refId": "1KI-WOH-19:3",
+      "text": "וַיַּ֗רְא וַיָּ֙קָם֙ וַיֵּ֣לֶךְ אֶל־נַפְשׁ֔וֹ וַיָּבֹ֕א בְּאֵ֥ר שֶׁ֖בַע אֲשֶׁ֣ר לִֽיהוּדָ֑ה וַיַּנַּ֥ח אֶֽת־נַעֲר֖וֹ שָֽׁם׃",
+      "i18n": {
+        "en": "And he saw, and he arose and went for his life, and came to Be'er Sheva, which belongs to Yehudah, and left his servant there."
+      },
+      "glossaryRefs": [
+        "be-er-sheva-folk-etymology",
+        "hebrew-proper-name-transliteration-convention-kings",
+        "nefesh-scope-and-spelling-kings",
+        "mt-baseline-at-versional-cruxes-and-versification-kings"
+      ],
+      "notes": {
+        "official": "*wayyarʾ* 'And he saw' follows the MT vocalization. The LXX, Peshitta, Vulgate and some Hebrew manuscripts read *wayyîrāʾ* 'and he was afraid', which most modern versions adopt (NRSV; Cogan, *1 Kings*). The MT is construable ('he saw how things stood') and is kept (`mt-baseline-at-versional-cruxes-and-versification-kings`).\n\n*wayyēleḵ ʾel-napšô* 'and went for his life' (`nefesh-scope-and-spelling-kings`). Be'er Sheva (`be-er-sheva-folk-etymology`) = Beersheba, the southern limit of Yehudah (Judah).",
+        "community": []
+      }
+    },
+    {
+      "n": 4,
+      "refId": "1KI-WOH-19:4",
+      "text": "וְהֽוּא־הָלַ֤ךְ בַּמִּדְבָּר֙ דֶּ֣רֶךְ י֔וֹם וַיָּבֹ֕א וַיֵּ֕שֶׁב תַּ֖חַת רֹ֣תֶם אחת [אֶחָ֑ד] וַיִּשְׁאַ֤ל אֶת־נַפְשׁוֹ֙ לָמ֔וּת וַיֹּ֣אמֶר ׀ רַ֗ב עַתָּ֤ה יְהוָה֙ קַ֣ח נַפְשִׁ֔י כִּֽי־לֹא־ט֥וֹב אָנֹכִ֖י מֵאֲבֹתָֽי׃",
+      "i18n": {
+        "en": "But he himself went a day's journey into the wilderness, and came and sat down under a certain broom tree; and he asked for himself that he might die, and said, \"It is enough; now, O YHWH, take my life, for I am no better than my fathers.\""
+      },
+      "glossaryRefs": [
+        "nefesh-scope-and-spelling-kings",
+        "ketiv-qere-qere-translated-kings",
+        "rotem-broom-tree-1-kings-19-4"
+      ],
+      "notes": {
+        "official": "Ketiv/Qere: Ketiv *ʾaḥaṯ* (fem.) / Qere *ʾeḥāḏ* (masc.), agreeing with *rōṯem*, which is masculine in v 5; the Qere is translated, 'a certain broom tree' (`ketiv-qere-qere-translated-kings`).\n\n*rōṯem* is the white broom, *Retama raetam*, a desert shrub that gives shade. ASV/KJV 'juniper-tree' is a misidentification (`rotem-broom-tree-1-kings-19-4`; Zohary, *Plants of the Bible*, 1982).\n\n*wayyišʾal ʾeṯ-napšô lāmûṯ* 'he asked for himself that he might die'; *qaḥ napšî* 'take my life' (`nefesh-scope-and-spelling-kings`). The prayer echoes Moses (Num 11:15) and Jonah (Jonah 4:3, 8).",
+        "community": []
+      }
+    },
+    {
+      "n": 5,
+      "refId": "1KI-WOH-19:5",
+      "text": "וַיִּשְׁכַּב֙ וַיִּישַׁ֔ן תַּ֖חַת רֹ֣תֶם אֶחָ֑ד וְהִנֵּֽה־זֶ֤ה מַלְאָךְ֙ נֹגֵ֣עַ בּ֔וֹ וַיֹּ֥אמֶר ל֖וֹ ק֥וּם אֱכֽוֹל׃",
+      "i18n": {
+        "en": "And he lay down and slept under a broom tree; and behold, a messenger was touching him, and he said to him, \"Arise, eat.\""
+      },
+      "glossaryRefs": [
+        "malakh-yhwh-messenger",
+        "rotem-broom-tree-1-kings-19-4"
+      ],
+      "notes": {
+        "official": "*wəhinnēh-zeh malʾāḵ nōḡēaʿ bô* 'and behold, a messenger was touching him': the noun is indefinite and the verb a participle. The translation keeps both, and does not identify this figure with 'the messenger of YHWH' of v 7 (`malakh-yhwh-messenger`; ASV 'an angel'). The narrator holds the identification back until the second visit.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 3) quotes vv 5-6 ('an angel touched him ... a cake ... and a cruse of water', 'in the middle of the desert') as an instance of the Elohim's care for the prophet. The line keeps the Hebrew 'messenger' and adds nothing.",
+        "community": []
+      }
+    },
+    {
+      "n": 6,
+      "refId": "1KI-WOH-19:6",
+      "text": "וַיַּבֵּ֕ט וְהִנֵּ֧ה מְרַאֲשֹׁתָ֛יו עֻגַ֥ת רְצָפִ֖ים וְצַפַּ֣חַת מָ֑יִם וַיֹּ֣אכַל וַיֵּ֔שְׁתְּ וַיָּ֖שָׁב וַיִּשְׁכָּֽב׃",
+      "i18n": {
+        "en": "And he looked, and behold, at his head there was a cake baked on hot stones and a jug of water. And he ate and drank, and lay down again."
+      },
+      "glossaryRefs": [],
+      "notes": {
+        "official": "*ʿuggaṯ rəṣāp̄îm* 'a cake baked on hot stones': *reṣep̄* / *riṣpâ* is a glowing stone or coal (Isa 6:6), and bread was baked on heated stones (HALOT; NRSV, NJPS). ASV 'a cake baken on the coals'. *ṣappaḥaṯ mayim* 'a jug of water', the same vessel as the widow's oil jug (17:12, 14).",
+        "community": []
+      }
+    },
+    {
+      "n": 7,
+      "refId": "1KI-WOH-19:7",
+      "text": "וַיָּשָׁב֩ מַלְאַ֨ךְ יְהוָ֤ה ׀ שֵׁנִית֙ וַיִּגַּע־בּ֔וֹ וַיֹּ֖אמֶר ק֣וּם אֱכֹ֑ל כִּ֛י רַ֥ב מִמְּךָ֖ הַדָּֽרֶךְ׃",
+      "i18n": {
+        "en": "And the messenger of YHWH came again a second time and touched him and said, \"Arise, eat, for the journey is too great for you.\""
+      },
+      "glossaryRefs": [
+        "malakh-yhwh-messenger"
+      ],
+      "notes": {
+        "official": "*malʾaḵ YHWH* 'the messenger of YHWH' (`malakh-yhwh-messenger`; ASV 'the angel of Jehovah'): now identified (see v 5). *kî raḇ mimməḵā hadderek* 'for the journey is too great for you'.",
+        "community": []
+      }
+    },
+    {
+      "n": 8,
+      "refId": "1KI-WOH-19:8",
+      "text": "וַיָּ֖קָם וַיֹּ֣אכַל וַיִּשְׁתֶּ֑ה וַיֵּ֜לֶךְ בְּכֹ֣חַ ׀ הָאֲכִילָ֣ה הַהִ֗יא אַרְבָּעִ֥ים יוֹם֙ וְאַרְבָּעִ֣ים לַ֔יְלָה עַ֛ד הַ֥ר הָאֱלֹהִ֖ים חֹרֵֽב׃",
+      "i18n": {
+        "en": "And he arose and ate and drank, and went in the strength of that food forty days and forty nights to the mountain of the Elohim, Horeb."
+      },
+      "glossaryRefs": [
+        "elohim-as-translation",
+        "har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus",
+        "elohim-referent-and-article-conventions-kings"
+      ],
+      "notes": {
+        "official": "*ʾarbāʿîm yôm wəʾarbāʿîm laylâ* 'forty days and forty nights' and *har hāʾĕlōhîm ḥōrēḇ* 'the mountain of the Elohim, Horeb' (`har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus`) make Eliyahu's journey a return to Moses' mountain (Ex 3:1; 24:18; 34:28). Commentators read the whole Horeb scene as a deliberate Moses typology (Cogan, *1 Kings*; Sweeney, *I & II Kings*, OTL, 2007).",
+        "community": []
+      }
+    },
+    {
+      "n": 9,
+      "refId": "1KI-WOH-19:9",
+      "text": "וַיָּבֹא־שָׁ֥ם אֶל־הַמְּעָרָ֖ה וַיָּ֣לֶן שָׁ֑ם וְהִנֵּ֤ה דְבַר־יְהוָה֙ אֵלָ֔יו וַיֹּ֣אמֶר ל֔וֹ מַה־לְּךָ֥ פֹ֖ה אֵלִיָּֽהוּ׃",
+      "i18n": {
+        "en": "And he came there to the cave and lodged there; and behold, the word of YHWH came to him, and he said to him, \"What are you doing here, Eliyahu?\""
+      },
+      "glossaryRefs": [
+        "davar-yhwh-prophetic-formula",
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "*hammĕʿārâ* 'the cave', with the article, as if a known cave: Jewish tradition identifies it with the *niqraṯ haṣṣûr* 'cleft of the rock' where Moses stood while YHWH passed by (Ex 33:22). *mah-llḵā p̄ōh* 'What are you doing here?' is asked twice (vv 9, 13), and Eliyahu gives the same answer twice (vv 10, 14).",
+        "community": []
+      }
+    },
+    {
+      "n": 10,
+      "refId": "1KI-WOH-19:10",
+      "text": "וַיֹּאמֶר֩ קַנֹּ֨א קִנֵּ֜אתִי לַיהוָ֣ה ׀ אֱלֹהֵ֣י צְבָא֗וֹת כִּֽי־עָזְב֤וּ בְרִֽיתְךָ֙ בְּנֵ֣י יִשְׂרָאֵ֔ל אֶת־מִזְבְּחֹתֶ֣יךָ הָרָ֔סוּ וְאֶת־נְבִיאֶ֖יךָ הָרְג֣וּ בֶחָ֑רֶב וָֽאִוָּתֵ֤ר אֲנִי֙ לְבַדִּ֔י וַיְבַקְשׁ֥וּ אֶת־נַפְשִׁ֖י לְקַחְתָּֽהּ׃",
+      "i18n": {
+        "en": "And he said, \"I have been very jealous for YHWH, the Elohim of hosts; for the children of Yisra'el have forsaken your covenant, thrown down your altars, and killed your prophets with the sword; and I, I alone, am left; and they seek my life, to take it away.\""
+      },
+      "glossaryRefs": [
+        "elohim-as-translation",
+        "navi-first-occurrence-abraham",
+        "hebrew-proper-name-transliteration-convention-kings",
+        "nefesh-scope-and-spelling-kings",
+        "yhwh-tsevaot-yhwh-of-hosts-kings"
+      ],
+      "notes": {
+        "official": "*qannōʾ qinnēʾṯî* 'I have been very jealous': infinitive absolute + finite verb, an intensifier. ASV/KJV/RSV 'very jealous', NRSV 'very zealous'. The verb is the one used of Pinchas (Num 25:11, 13), and 'jealous for YHWH' means zealous on YHWH's behalf. The ASV wording is kept.\n\n*YHWH ʾĕlōhê ṣəḇāʾôṯ* 'YHWH, the Elohim of hosts' (`yhwh-tsevaot-yhwh-of-hosts-kings`). *wayəḇaqšû ʾeṯ-napšî ləqaḥtāh* 'and they seek my life, to take it away' (`nefesh-scope-and-spelling-kings`).",
+        "community": []
+      }
+    },
+    {
+      "n": 11,
+      "refId": "1KI-WOH-19:11",
+      "text": "וַיֹּ֗אמֶר צֵ֣א וְעָמַדְתָּ֣ בָהָר֮ לִפְנֵ֣י יְהוָה֒ וְהִנֵּ֧ה יְהוָ֣ה עֹבֵ֗ר וְר֣וּחַ גְּדוֹלָ֡ה וְחָזָ֞ק מְפָרֵק֩ הָרִ֨ים וּמְשַׁבֵּ֤ר סְלָעִים֙ לִפְנֵ֣י יְהוָ֔ה לֹ֥א בָר֖וּחַ יְהוָ֑ה וְאַחַ֤ר הָר֨וּחַ רַ֔עַשׁ לֹ֥א בָרַ֖עַשׁ יְהוָֽה׃",
+      "i18n": {
+        "en": "And he said, \"Go out and stand on the mountain before YHWH.\" And behold, YHWH was passing by, and a great and strong wind was tearing the mountains and breaking the rocks in pieces before YHWH; but YHWH was not in the wind. And after the wind an earthquake; but YHWH was not in the earthquake."
+      },
+      "glossaryRefs": [
+        "ruach-yhwh-and-prophetic-ruach-transliteration-kings"
+      ],
+      "notes": {
+        "official": "*wəhinnēh YHWH ʿōḇēr* 'And behold, YHWH was passing by': the participle is kept (ASV 'passed by'). *ʿbr* is the verb of Ex 33:19, 22 and 34:6, where YHWH 'passes by' Moses.\n\n*wərûaḥ gəḏôlâ wəḥāzāq* 'a great and strong wind': here *rûaḥ* is physical wind and is translated (`ruach-yhwh-and-prophetic-ruach-transliteration-kings`). *raʿaš* 'earthquake' can also be 'quaking, commotion'. The three phenomena are the classic accompaniments of theophany (Ex 19:16-18; Judg 5:4-5; Ps 18:8-16). *lōʾ ḇārûaḥ YHWH* is a nominal clause, literally 'not in the wind YHWH'. ASV's supplied 'but' is kept for English flow.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 3) quotes vv 11-12 and reads the sequence of wind, earthquake and fire as the description of a landing craft. The translation renders the theophany vocabulary in its ordinary sense and adds no technical terms.",
+        "community": []
+      }
+    },
+    {
+      "n": 12,
+      "refId": "1KI-WOH-19:12",
+      "text": "וְאַחַ֤ר הָרַ֙עַשׁ֙ אֵ֔שׁ לֹ֥א בָאֵ֖שׁ יְהוָ֑ה וְאַחַ֣ר הָאֵ֔שׁ ק֖וֹל דְּמָמָ֥ה דַקָּֽה׃",
+      "i18n": {
+        "en": "And after the earthquake a fire; but YHWH was not in the fire. And after the fire a still small voice."
+      },
+      "glossaryRefs": [
+        "qol-demamah-daqqah-still-small-voice-1-kings-19-12"
+      ],
+      "notes": {
+        "official": "*qôl dəmāmâ daqqâ* 'a still small voice': *qôl* 'voice, sound'; *dəmāmâ* 'stillness, calm, silence' (Ps 107:29; Job 4:16); *daqqâ* 'thin, fine, small'. Literally 'a sound of thin silence', a deliberate paradox. The ASV/KJV rendering is kept (`qol-demamah-daqqah-still-small-voice-1-kings-19-12`). Every word of it is a recognized sense of the Hebrew, and 'voice' keeps the link with *qôl* in v 13. Alternatives: 'a sound of sheer silence' (NRSV), 'a soft murmuring sound' (NJPS), 'le son d'une brise légère' (Dhorme). Dhorme's breeze has versional support: the LXX reads *phōnē auras leptēs* 'the sound of a light breeze'. In the other direction, J. Lust, 'A Gentle Breeze or a Roaring Thunderous Sound? Elijah at Horeb: 1 Kings XIX 12', *VT* 25 (1975), reads *dəmāmâ* as 'roaring' and the phrase as a thunderous sound. The translation keeps the lexical rendering of the MT. The central `cosmic-silence-shem-ha-mephorash-revelation-tradition-cross-corpus-shiur-qomah-revelation-8-1` reads this verse as the Hebrew Bible's chief text of divine presence in silence. It is cited here as background and not applied.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The English edition of The Book Which Tells the Truth (ch. 3) quotes 'a still small voice', and the French original quotes Dhorme's 'le son d'une brise légère', as the end of a landing sequence. The translation keeps the lexical rendering.",
+        "community": []
+      }
+    },
+    {
+      "n": 13,
+      "refId": "1KI-WOH-19:13",
+      "text": "וַיְהִ֣י ׀ כִּשְׁמֹ֣עַ אֵלִיָּ֗הוּ וַיָּ֤לֶט פָּנָיו֙ בְּאַדַּרְתּ֔וֹ וַיֵּצֵ֕א וַֽיַּעֲמֹ֖ד פֶּ֣תַח הַמְּעָרָ֑ה וְהִנֵּ֤ה אֵלָיו֙ ק֔וֹל וַיֹּ֕אמֶר מַה־לְּךָ֥ פֹ֖ה אֵלִיָּֽהוּ׃",
+      "i18n": {
+        "en": "And it came to pass, when Eliyahu heard it, that he wrapped his face in his mantle, and went out and stood at the entrance of the cave. And behold, a voice came to him and said, \"What are you doing here, Eliyahu?\""
+      },
+      "glossaryRefs": [
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "*wayyāleṭ pānāyw bəʾaddartô* 'he wrapped his face in his mantle', like Moses hiding his face (Ex 3:6) and sheltered in the rock (Ex 33:22). The *ʾadderet* 'mantle' becomes the prophet's emblem: cast on Elisha (v 19), used to part the Yarden (2 Kgs 2:8, 14). *qôl* 'a voice' picks up the *qôl* of v 12.",
+        "community": []
+      }
+    },
+    {
+      "n": 14,
+      "refId": "1KI-WOH-19:14",
+      "text": "וַיֹּאמֶר֩ קַנֹּ֨א קִנֵּ֜אתִי לַיהוָ֣ה ׀ אֱלֹהֵ֣י צְבָא֗וֹת כִּֽי־עָזְב֤וּ בְרִֽיתְךָ֙ בְּנֵ֣י יִשְׂרָאֵ֔ל אֶת־מִזְבְּחֹתֶ֣יךָ הָרָ֔סוּ וְאֶת־נְבִיאֶ֖יךָ הָרְג֣וּ בֶחָ֑רֶב וָאִוָּתֵ֤ר אֲנִי֙ לְבַדִּ֔י וַיְבַקְשׁ֥וּ אֶת־נַפְשִׁ֖י לְקַחְתָּֽהּ׃ (ס)",
+      "i18n": {
+        "en": "And he said, \"I have been very jealous for YHWH, the Elohim of hosts; for the children of Yisra'el have forsaken your covenant, thrown down your altars, and killed your prophets with the sword; and I, I alone, am left; and they seek my life, to take it away.\""
+      },
+      "glossaryRefs": [
+        "elohim-as-translation",
+        "navi-first-occurrence-abraham",
+        "hebrew-proper-name-transliteration-convention-kings",
+        "nefesh-scope-and-spelling-kings",
+        "yhwh-tsevaot-yhwh-of-hosts-kings"
+      ],
+      "notes": {
+        "official": "Eliyahu's answer repeats v 10 verbatim (see there for *qannōʾ qinnēʾṯî*, `yhwh-tsevaot-yhwh-of-hosts-kings` and `nefesh-scope-and-spelling-kings`). The unchanged answer after the theophany is part of the scene's meaning: the commission of vv 15-18 responds to it.",
+        "community": []
+      }
+    },
+    {
+      "n": 15,
+      "refId": "1KI-WOH-19:15",
+      "text": "וַיֹּ֤אמֶר יְהוָה֙ אֵלָ֔יו לֵ֛ךְ שׁ֥וּב לְדַרְכְּךָ֖ מִדְבַּ֣רָה דַמָּ֑שֶׂק וּבָ֗אתָ וּמָשַׁחְתָּ֧ אֶת־חֲזָאֵ֛ל לְמֶ֖לֶךְ עַל־אֲרָֽם׃",
+      "i18n": {
+        "en": "And YHWH said to him, \"Go, return on your way to the wilderness of Damascus; and when you arrive, you shall anoint Chaza'el to be king over Aram;"
+      },
+      "glossaryRefs": [
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "Chaza'el = Hazael, king of Aram (Damascus). In the sequel it is Elisha who designates Chaza'el (2 Kgs 8:7-15) and a disciple of Elisha who anoints Yehu (Jehu; 2 Kgs 9:1-10). The commission is carried out through Eliyahu's successor.",
+        "community": []
+      }
+    },
+    {
+      "n": 16,
+      "refId": "1KI-WOH-19:16",
+      "text": "וְאֵת֙ יֵה֣וּא בֶן־נִמְשִׁ֔י תִּמְשַׁ֥ח לְמֶ֖לֶךְ עַל־יִשְׂרָאֵ֑ל וְאֶת־אֱלִישָׁ֤ע בֶּן־שָׁפָט֙ מֵאָבֵ֣ל מְחוֹלָ֔ה תִּמְשַׁ֥ח לְנָבִ֖יא תַּחְתֶּֽיךָ׃",
+      "i18n": {
+        "en": "and Yehu the son of Nimshi you shall anoint to be king over Yisra'el; and Elisha the son of Shafat of Avel-Mecholah you shall anoint to be prophet in your place."
+      },
+      "glossaryRefs": [
+        "navi-first-occurrence-abraham",
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "Elisha (the same name in Hebrew and English, 'my El has saved'), son of Shafat (Shaphat), of Avel-Mecholah (Abel-meholah). 'Anoint ... to be prophet' is unique; prophets are not otherwise anointed (cf. Isa 61:1, figuratively), and Eliyahu in fact designates Elisha by casting his mantle (v 19).",
+        "community": []
+      }
+    },
+    {
+      "n": 17,
+      "refId": "1KI-WOH-19:17",
+      "text": "וְהָיָ֗ה הַנִּמְלָ֛ט מֵחֶ֥רֶב חֲזָאֵ֖ל יָמִ֣ית יֵה֑וּא וְהַנִּמְלָ֛ט מֵחֶ֥רֶב יֵה֖וּא יָמִ֥ית אֱלִישָֽׁע׃",
+      "i18n": {
+        "en": "And it shall come to pass that whoever escapes from the sword of Chaza'el, Yehu shall kill; and whoever escapes from the sword of Yehu, Elisha shall kill."
+      },
+      "glossaryRefs": [
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "",
+        "community": []
+      }
+    },
+    {
+      "n": 18,
+      "refId": "1KI-WOH-19:18",
+      "text": "וְהִשְׁאַרְתִּ֥י בְיִשְׂרָאֵ֖ל שִׁבְעַ֣ת אֲלָפִ֑ים כָּל־הַבִּרְכַּ֗יִם אֲשֶׁ֤ר לֹֽא־כָֽרְעוּ֙ לַבַּ֔עַל וְכָ֨ל־הַפֶּ֔ה אֲשֶׁ֥ר לֹֽא־נָשַׁ֖ק לֽוֹ׃",
+      "i18n": {
+        "en": "Yet I will leave seven thousand in Yisra'el — all the knees that have not bowed to Ba'al, and every mouth that has not kissed him.\""
+      },
+      "glossaryRefs": [
+        "hebrew-proper-name-transliteration-convention-kings",
+        "habbaal-baal-hebrew-bible-rendering-kings"
+      ],
+      "notes": {
+        "official": "*wəhišʾartî* 'Yet I will leave': waw-consecutive perfect, normally future in force (ASV). Paul quotes the verse as past, 'I have kept for myself seven thousand' (Rom 11:4, *katelipon*), following a construal of the form as a perfect of assurance. The ASV future is kept. The central `she-erit-remnant-cross-corpus-theological-keyword` governs the noun *šəʾērîṯ*, not this verb, and is cited, not applied. Kissing the image of Ba'al (*wəḵol-happeh ʾăšer lōʾ-nāšaq lô*) is attested at Hos 13:2.",
+        "community": []
+      }
+    },
+    {
+      "n": 19,
+      "refId": "1KI-WOH-19:19",
+      "text": "וַיֵּ֣לֶךְ מִ֠שָּׁם וַיִּמְצָ֞א אֶת־אֱלִישָׁ֤ע בֶּן־שָׁפָט֙ וְה֣וּא חֹרֵ֔שׁ שְׁנֵים־עָשָׂ֤ר צְמָדִים֙ לְפָנָ֔יו וְה֖וּא בִּשְׁנֵ֣ים הֶעָשָׂ֑ר וַיַּעֲבֹ֤ר אֵלִיָּ֙הוּ֙ אֵלָ֔יו וַיַּשְׁלֵ֥ךְ אַדַּרְתּ֖וֹ אֵלָֽיו׃",
+      "i18n": {
+        "en": "So he went from there and found Elisha the son of Shafat, who was plowing with twelve yoke of oxen before him, and he was with the twelfth; and Eliyahu passed over to him and cast his mantle upon him."
+      },
+      "glossaryRefs": [
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "*šənêm-ʿāśār ṣəmāḏîm ləp̄ānāyw wəhûʾ bišnêm heʿāśār* 'twelve yoke of oxen before him, and he with the twelfth': a wealthy farm, and perhaps an echo of the twelve stones of 18:31. Casting the *ʾadderet* 'mantle' on Elisha is a symbolic act of designation or adoption.",
+        "community": []
+      }
+    },
+    {
+      "n": 20,
+      "refId": "1KI-WOH-19:20",
+      "text": "וַיַּעֲזֹ֣ב אֶת־הַבָּקָ֗ר וַיָּ֙רָץ֙ אַחֲרֵ֣י אֵֽלִיָּ֔הוּ וַיֹּ֗אמֶר אֶשְּׁקָה־נָּא֙ לְאָבִ֣י וּלְאִמִּ֔י וְאֵלְכָ֖ה אַחֲרֶ֑יךָ וַיֹּ֤אמֶר לוֹ֙ לֵ֣ךְ שׁ֔וּב כִּ֥י מֶה־עָשִׂ֖יתִי לָֽךְ׃",
+      "i18n": {
+        "en": "And he left the oxen and ran after Eliyahu and said, \"Please let me kiss my father and my mother, and then I will follow you.\" And he said to him, \"Go, return; for what have I done to you?\""
+      },
+      "glossaryRefs": [
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "*lēḵ šûḇ kî meh-ʿāśîṯî lāḵ* 'Go, return; for what have I done to you?' is a crux. It can be read as dismissive ('Go back; what have I done to you?'), as permissive with a warning ('go back, but remember what I have done to you'), or as saying that the mantle laid no binding claim. The ASV wording, which keeps all three open, is retained (Cogan, *1 Kings*). Contrast Luke 9:61-62.",
+        "community": []
+      }
+    },
+    {
+      "n": 21,
+      "refId": "1KI-WOH-19:21",
+      "text": "וַיָּ֨שָׁב מֵאַחֲרָ֜יו וַיִּקַּ֣ח אֶת־צֶ֧מֶד הַבָּקָ֣ר וַיִּזְבָּחֵ֗הוּ וּבִכְלִ֤י הַבָּקָר֙ בִּשְּׁלָ֣ם הַבָּשָׂ֔ר וַיִּתֵּ֥ן לָעָ֖ם וַיֹּאכֵ֑לוּ וַיָּ֗קָם וַיֵּ֛לֶךְ אַחֲרֵ֥י אֵלִיָּ֖הוּ וַיְשָׁרְתֵֽהוּ׃ (פ)",
+      "i18n": {
+        "en": "And he turned back from following him, and took the yoke of oxen and slaughtered them, and with the implements of the oxen he boiled their meat, and gave it to the people, and they ate. Then he arose and went after Eliyahu and served him."
+      },
+      "glossaryRefs": [
+        "hebrew-proper-name-transliteration-convention-kings"
+      ],
+      "notes": {
+        "official": "*wayyizbāḥēhû* 'and slaughtered them': *zbḥ* is often sacrificial, and the meal given to 'the people' may be a sacrificial feast. 'Slaughtered' (ASV 'slew') leaves this open. Burning the yoke with the *kəlî habbāqār* 'implements of the oxen' marks a break with his former life. *wayšārtēhû* 'and served him': Elisha becomes Eliyahu's attendant, as Yehoshua was Moses' (Ex 24:13, *məšārēṯ*).",
+        "community": []
+      }
+    }
+  ],
+  "editorial_questions": []
+}
