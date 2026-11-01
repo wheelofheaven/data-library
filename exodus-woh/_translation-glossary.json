@@ -1,9 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "scope": "exodus-woh",
-  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of Exodus (canon-cited chapters: 3, 13, 14, 16, 17, 19, 20). Contains composition-specific entries (Exodus-distinctive theophany vocabulary, the Sinai-event compositional cluster, recension-variant readings, the Raëlian-canon-citation acknowledgment-without-endorsement framework for the highest-lens-risk sites at Ex 13:21-22, Ex 14:16-22, Ex 16:4, Ex 19:16-19) that are not (yet) appropriate for promotion to the central production glossary. Entries here may be promoted to central via the standard overlay→central promotion pattern when they appear in subsequent compositions (Deuteronomy retelling at Deut 4-5; the Psalter's Sinai theophany allusions; the prophetic books' Sinai-covenant prooftexts) and acquire cross-corpus reach. v1.1.0 (2026-06-04, Editor pass on chapters 3/13/14/16/17/19/20) adds entries on the *ʾehyeh-ʾăšer-ʾehyeh* English-rendering convention (overlay-companion to the central `ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus`), the *ratsach* murder/kill translation-decision, the *chamad* covet/scheme-to-acquire translation-decision, the Sinai cloud-fire-thunder-trumpet compositional cluster (Exodus-specific), the *chamushim* hapax-difficulty at Ex 13:18, the *mehuspas* hapax at Ex 16:14, the *kes-vs-nes* textual variant at Ex 17:16, the *yobel* shofar/jubilee-horn translation, and the *erev-bayn-ha-arbayim* / *bayn-ha-arbayim* dual-evening convention at Ex 16:12.",
-  "sourceLanguages": ["he"],
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of Exodus (canon-cited chapters: 3, 13, 14, 16, 17, 19, 20). Contains composition-specific entries (Exodus-distinctive theophany vocabulary, the Sinai-event compositional cluster, recension-variant readings, the Raëlian-canon-citation acknowledgment-without-endorsement framework for the highest-lens-risk sites at Ex 13:21-22, Ex 14:16-22, Ex 16:4, Ex 19:16-19) that are not (yet) appropriate for promotion to the central production glossary. Entries here may be promoted to central via the standard overlay→central promotion pattern when they appear in subsequent compositions (Deuteronomy retelling at Deut 4-5; the Psalter's Sinai theophany allusions; the prophetic books' Sinai-covenant prooftexts) and acquire cross-corpus reach. v1.1.0 (2026-06-04, Editor pass on chapters 3/13/14/16/17/19/20) adds entries on the *ʾehyeh-ʾăšer-ʾehyeh* English-rendering convention (overlay-companion to the central `ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus`), the *ratsach* murder/kill translation-decision, the *chamad* covet/scheme-to-acquire translation-decision, the Sinai cloud-fire-thunder-trumpet compositional cluster (Exodus-specific), the *chamushim* hapax-difficulty at Ex 13:18, the *mehuspas* hapax at Ex 16:14, the *kes-vs-nes* textual variant at Ex 17:16, the *yobel* shofar/jubilee-horn translation, and the *erev-bayn-ha-arbayim* / *bayn-ha-arbayim* dual-evening convention at Ex 16:12. v1.2.0 (2026-11-01, Torah wave T1 Editor pass on chapters 24, 25 and 33) adds the shared Torah conventions also carried by the new numbers-woh and deuteronomy-woh overlays (hebrew-proper-name-transliteration-convention-torah, direct-speech-quotation-marks-convention-torah, mt-baseline-ketiv-qere-and-accent-division-torah, elohim-referent-and-article-conventions-torah; with deuteronomy-woh panim-presence-face-convention-torah and adamah-earth-land-ground-scope-torah; with numbers-woh edut-the-testimony-capitalisation-torah), the sanctuary vocabulary of Ex 25 (tabernacle-furnishings-vocabulary-exodus-25) and the Ex 24:10 pavement (livnat-hassappir-pavement-of-sapphire-exodus-24-10), and appends a scope sentence to the ratsach entry. Central proposals of the wave (tərûmâ 'oblation', nəḥōšeṯ 'bronze', taḇnîṯ 'pattern', tôrâ 'law', the hishtachavah Torah clause) are in wave-t1-central-diff.json. Sign-off corrections (2026-11-01): reviewer fixes applied (elohim-referent rationale at Deut 4:7; KJV attribution of the canon's English; ḥērem Hiphil 'devote ... to destruction' in numbers-woh; bārāʾ 'create' outside Genesis and the published Exodus name forms ratified). Signed off at human review on 2026-11-01 (zarazinsfuss); this wave's central proposals were applied as central glossary v2.84.0, and the sign-off merge is v2.90.0.",
+  "sourceLanguages": [
+    "he"
+  ],
   "entries": [
     {
       "id": "ehyeh-asher-ehyeh-english-rendering-convention-exodus-overlay",
@@ -32,7 +34,7 @@
       "standardEnglish": "Thou shalt not kill (KJV — broader 'kill', not the modern critical 'murder'); You shall not murder (RSV / NJPS / NRSV — modern critical, the *rṣḥ*-as-unlawful-killing-specifically reading); You shall not commit murder (some modern paraphrases)",
       "wohChoice": "'You shall not murder' — preserves the modern critical *rṣḥ*-as-unlawful-killing-specifically reading at EXO-WOH-20:13. The KJV 'thou shalt not kill' is a documented historical-English-translation convention; the modern critical consensus (Childs 1974; Propp 2006; Sarna 1991) supports the narrower 'murder' rendering on the basis of the Hebrew lexical distribution",
       "claim_type": "direct",
-      "rationale": "The Hebrew root *rṣḥ* is used 47 times in the Hebrew Bible; analysis of its distribution shows it covers specifically unlawful-killing (Num 35:11-12, 16-21, 30-31, the cities-of-refuge legislation distinguishes accidental from intentional *rṣḥ* — both are designated *rṣḥ* but accidental *rṣḥ* receives sanctuary while intentional *rṣḥ* is punished with death) and does not cover warfare or capital punishment per se. The cities-of-refuge legislation at Num 35 and Deut 19 is the foundational distributional evidence. The broader 'killing' verb *hrg* is used for warfare (Ex 22:23; Josh 8:24) and for capital punishment (Ex 21:14; Lev 20:15). The Decalogue Sixth/Seventh Word's *lōʾ tirṣāḥ* therefore prohibits unlawful-killing-specifically; the modern critical translation 'You shall not murder' captures this lexical range. The KJV 'kill' is a broader translation that has historically been used to support pacifist-conscientious-objector positions; this remains a defensible theological-pacifist position (Lind 1980; the historic-peace-church tradition) but does not control the philological-lexical analysis. Operational disavowals: no commitment to the pacifist-vs-just-war theological tradition; no commitment to the modern capital-punishment debate; the WoH-Translation preserves the philological reading and documents the theological-receptional disputes in the apparatus.",
+      "rationale": "The Hebrew root *rṣḥ* is used 47 times in the Hebrew Bible; analysis of its distribution shows it covers specifically unlawful-killing (Num 35:11-12, 16-21, 30-31, the cities-of-refuge legislation distinguishes accidental from intentional *rṣḥ* — both are designated *rṣḥ* but accidental *rṣḥ* receives sanctuary while intentional *rṣḥ* is punished with death) and does not cover warfare or capital punishment per se. The cities-of-refuge legislation at Num 35 and Deut 19 is the foundational distributional evidence. The broader 'killing' verb *hrg* is used for warfare (Ex 22:23; Josh 8:24) and for capital punishment (Ex 21:14; Lev 20:15). The Decalogue Sixth/Seventh Word's *lōʾ tirṣāḥ* therefore prohibits unlawful-killing-specifically; the modern critical translation 'You shall not murder' captures this lexical range. The KJV 'kill' is a broader translation that has historically been used to support pacifist-conscientious-objector positions; this remains a defensible theological-pacifist position (Lind 1980; the historic-peace-church tradition) but does not control the philological-lexical analysis. Operational disavowals: no commitment to the pacifist-vs-just-war theological tradition; no commitment to the modern capital-punishment debate; the WoH-Translation preserves the philological reading and documents the theological-receptional disputes in the apparatus. Scope (v1.2.0, Torah wave T1): 'murder' is limited to the Decalogue prohibition and its direct echoes; where rṣḥ describes unintentional homicide in the asylum law (Num 35; Deut 4:42; 19:3-6) the line uses 'manslayer' / 'kill' (deuteronomy-woh rotseach-manslayer-unintentional-killing-deuteronomy-4-42).",
       "appliesTo": [
         "EXO-WOH-20:13"
       ]
@@ -151,6 +153,190 @@
       "rationale": "The dual *bên hā-ʿarbayim* 'between the two evenings' is one of the most-documented cultic-temporal phrases of the Hebrew Bible. The rabbinic Mishnaic interpretation (m. Pesachim 5:1) takes the phrase as 'from after the noon-zenith until sunset' — the period of declining-afternoon-to-evening. The Karaite interpretation takes it literally as 'between the setting-of-the-sun and the full dark' (between two evenings: the first evening at sunset, the second at nightfall). The Samaritan tradition aligns with the Karaite. The dispute has practical implications for Pesach-slaughter timing and for the daily-tamid-offering timing. Modern scholarship (Milgrom 1990 *Numbers*; Levine 1989 *Leviticus*; Propp 1999 ad loc.) generally documents both traditions without adjudicating. The WoH-Translation preserves 'between the evenings' on the surface. No operational lens-discipline concerns at this site.",
       "appliesTo": [
         "EXO-WOH-16:12"
+      ]
+    },
+    {
+      "id": "hebrew-proper-name-transliteration-convention-torah",
+      "source": "(proper names and toponyms of the Torah narrative)",
+      "translit": "—",
+      "strongs": "—",
+      "lemma": "Hebrew personal names, toponyms and gentilics in the Torah volumes of the Wheel of Heaven Translation",
+      "partOfSpeech": "Presentation convention for proper names in exodus-woh, numbers-woh and deuteronomy-woh (shared Torah convention, identical in the three overlays)",
+      "literal": "—",
+      "standardEnglish": "ASV/KJV English forms (Moses, Aaron, Egypt, Hormah, Sihon, Heshbon, Jordan, Jericho, Kadesh, Baal-peor)",
+      "wohChoice": "Transliterated Hebrew forms, as in genesis-woh and the signed-off exodus-woh chapters, with two grandfathered English exceptions, 'Moses' and 'Pharaoh'. Spelling rules: tz for tsade (Baal-Tzefon, Etzyon-Gever, Tzin, Tzalmonah, Betzer, Chatzerot, Rimmon-Peretz), except the country name 'Mitsrayim', which keeps the ts of the central `mitsrayim` entry and of the 119 occurrences already printed in genesis-woh and exodus-woh; q for qof (Qadesh, Qivrot-haTa'avah, Qehelatah, Mitqah, Yabboq); ch for chet (Chormah, Cheshbon, Chermon, Chor-haGidgad, Chashmonah); v for undageshed bet (Avihu, Ovot, Nevo, Avarim, Medeva, Livnah, Avronah); f for undageshed pe (Sufah, Nofach, Shefer, Dofqah); the article as 'ha' joined to the name (Pi-haChirot, Qivrot-haTa'avah, Beit-haYeshimot, Avel-haShittim, Iyye-ha'Avarim); 'Baal-' without apostrophe in compound toponyms (Baal-Tzefon, published at Ex 14:2, 9; Baal-Pe'or, Deut 4:3). Kept in their familiar English form: Moses, Pharaoh, Moab, Edom, Ammon, Sinai, Horeb, Marah, Elim, Sin, Arad, Arnon, Bashan, Og, Golan, the Negev, Mount Hor, Pisgah. Gentilics: English collective plurals for the peoples of the land (the Canaanite, the Amorite(s), the Hittite, the Perizzite, the Hivite, the Jebusite, as exodus-woh 3:8; the Levites; the Gadites); English '-ite' on the transliterated stem otherwise (the Re'uvenites, the Menashites). Mitsrayim / the Egyptians: 'Mitsrayim' for the country and the state; 'the Egyptians' where miṣrayim denotes the population as the agent or experiencer (exodus-woh 3:9 and Ex 14 passim; Num 33:3-4). Aetiological names are glossed in parentheses only where the Hebrew states the etymology in a causal clause (exodus-woh 17:7 'Massah (Testing)'); names whose wordplay is implicit (Chormah, Num 21:3; Be'er, Num 21:16, where the text adds 'that is the well') are left unglossed and the wordplay is given in commentary. Equivalence table (WoH = ASV): Nadav = Nadab; Avihu = Abihu; Chur = Hur; Yehoshua = Joshua; Aharon = Aaron; Yisra'el = Israel; Avraham = Abraham; Yitzchaq = Isaac; Ya'aqov = Jacob; Levi = Levi; Chormah = Hormah; Atarim = Atharim; Ovot = Oboth; Iyye-ha'Avarim = Iye-abarim; Iyyim = Iim; Zered = Zered; Vahev = Vaheb; Sufah = Suphah; Ar = Ar; Be'er = Beer; Mattanah = Mattanah; Nachali'el = Nahaliel; Bamot = Bamoth; Sichon = Sihon; Yahatz = Jahaz; Yabboq = Jabbok; Cheshbon = Heshbon; Kemosh = Chemosh; Dibon = Dibon; Nofach = Nophah; Medeva = Medeba; Ya'zer = Jazer; Edre'i = Edrei; Ra'meses = Rameses; Sukkot = Succoth; Etam = Etham; Pi-haChirot = Pi-hahiroth; haChirot = Hahiroth; Baal-Tzefon = Baal-zephon; Migdol = Migdol; Dofqah = Dophkah; Alush = Alush; Refidim = Rephidim; Qivrot-haTa'avah = Kibroth-hattaavah; Chatzerot = Hazeroth; Ritmah = Rithmah; Rimmon-Peretz = Rimmon-perez; Livnah = Libnah; Rissah = Rissah; Qehelatah = Kehelathah; Mount Shefer = mount Shepher; Charadah = Haradah; Maqhelot = Makheloth; Tachat = Tahath; Terach = Terah; Mitqah = Mithkah; Chashmonah = Hashmonah; Moserot = Moseroth; Benei-Ya'aqan = Bene-jaakan; Chor-haGidgad = Hor-haggidgad; Yotvatah = Jotbathah; Avronah = Abronah; Etzyon-Gever = Ezion-geber; Tzin = Zin; Qadesh = Kadesh; Tzalmonah = Zalmonah; Punon = Punon; Dibon-Gad = Dibon-gad; Almon-Divlatayim = Almon-diblathaim; Avarim = Abarim; Nevo = Nebo; Yarden = Jordan; Yericho = Jericho; Beit-haYeshimot = Beth-jeshimoth; Avel-haShittim = Abel-shittim; Baal-Pe'or = Baal-peor; Beit-Pe'or = Beth-peor; Betzer = Bezer; Ramot = Ramoth; Gil'ad = Gilead; Re'uvenites = Reubenites; Menashites = Manassites; Aro'er = Aroer; Si'on = Sion; Chermon = Hermon; the Aravah = the Arabah.",
+      "claim_type": "direct",
+      "rationale": "The Torah volumes continue the narrative Hebrew of genesis-woh, which transliterates names (Avraham, Ya'aqov, Yosef, Beit-El), and exodus-woh, whose signed-off chapters print 'Yisra'el', 'Aharon', 'Yehoshua', 'Refidim', 'Pi-haChirot' and 'Baal-Tzefon' but keep 'Moses' and 'Pharaoh' in English. Within one book a single practice must hold, and the signed-off exodus-woh chapters are not retro-edited; numbers-woh and deuteronomy-woh, which open in this wave, therefore adopt the exodus-woh practice so that the three Torah volumes read as one, including its two English exceptions. The Kings overlays transliterate 'Moshe' and 'Par'oh' and write 'Mitzrayim' with tz (ratified at the Kings sign-off, 2026-11-01), and describe exodus-woh's 'Moses' and 'Pharaoh' as a grandfathered single-book exception: the corpus therefore has two practices for these three names, which this entry records for the founder rather than resolving by retro-editing either set of signed-off chapters. For tsade the Torah volumes already print tz in names (Yitzchaq, Baal-Tzefon, genesis-woh Etzer), which agrees with the Kings rule, and keep ts only in 'Mitsrayim', the form fixed by the central entry. The equivalence table lets a reader match every form to the ASV and to the English editions of the Raëlian books, which quote these chapters with the KJV names (identical to the ASV forms in the table); the ASV form is also given in commentary at the first occurrence of each new name in a chapter. The Mitsrayim / 'the Egyptians' rule describes exodus-woh's published practice (3:9 miṣrayim lōḥăṣîm 'the Egyptians are oppressing'; Ex 14 passim) and departs from the central entry's gentilic 'Mitsri'; the departure is recorded in the central diff of this wave as a corpus note. The convention carries no interpretive content. Ratified at human sign-off (2026-11-01, zarazinsfuss): the Torah volumes keep the published exodus-woh forms ('Moses', 'Pharaoh', 'Mitsrayim', 'the Egyptians'); the split with the Kings forms stays recorded for a later corpus normalization pass.",
+      "appliesTo": [
+        "EXO-WOH-24:1",
+        "EXO-WOH-24:4",
+        "EXO-WOH-24:5",
+        "EXO-WOH-24:9",
+        "EXO-WOH-24:10",
+        "EXO-WOH-24:11",
+        "EXO-WOH-24:13",
+        "EXO-WOH-24:14",
+        "EXO-WOH-24:17",
+        "EXO-WOH-25:1",
+        "EXO-WOH-25:2",
+        "EXO-WOH-25:22",
+        "EXO-WOH-33:1",
+        "EXO-WOH-33:2",
+        "EXO-WOH-33:5",
+        "EXO-WOH-33:6",
+        "EXO-WOH-33:11"
+      ]
+    },
+    {
+      "id": "direct-speech-quotation-marks-convention-torah",
+      "source": "(punctuation of direct speech)",
+      "translit": "—",
+      "strongs": "—",
+      "lemma": "Quotation marks for direct speech in the Torah volumes",
+      "partOfSpeech": "Presentation convention (shared Torah convention, identical in the three overlays)",
+      "literal": "—",
+      "standardEnglish": "ASV: no quotation marks; NJPS / NRSV: double quotation marks, with the Deuteronomic discourses of Moses usually printed without outer marks (NJPS)",
+      "wohChoice": "Double quotation marks for direct speech; single marks for speech within speech (as exodus-woh). Quoted poems and book-citations take double marks (Num 21:14-15 the Book of the Wars of YHWH; 21:17-18 the song of the well; 21:27-30 the Cheshbon song). Deuteronomy: the discourses of Moses are printed without outer quotation marks; the first discourse opens at Deut 1:6 and runs to 4:40, so Deut 4:1-40 carries no outer marks, speech cited inside it takes double marks (4:6, 4:10), and the narrator's frame resumes at 4:41.",
+      "claim_type": "direct",
+      "rationale": "Hebrew has no quotation marks, and the convention only has to make the speech structure clear and consistent. exodus-woh prints double marks with single marks for embedded speech (e.g. Ex 3:14-15), and the Torah volumes follow it. Deuteronomy is different in kind: chapters 1-30 are almost entirely Moses' first-person discourse, introduced by the narrator at 1:1-5 and resumed at 4:41-49, 4:44-5:1 and later headings; wrapping thirty chapters in quotation marks would leave the speech within the speech (Moses quoting YHWH or the people, 4:10) three levels deep, and NJPS and most commentaries print the discourses without outer marks. Since this wave translates Deut 4 before Deut 1-3, the chapter file opens inside the discourse; vv 1-40 are therefore printed without outer marks and the narrative frame of vv 41-49 is unmarked narration. The rule should be applied unchanged when Deut 1-3 and 5 are translated.",
+      "appliesTo": [
+        "EXO-WOH-33:5"
+      ]
+    },
+    {
+      "id": "mt-baseline-ketiv-qere-and-accent-division-torah",
+      "source": "(Masoretic Text)",
+      "translit": "—",
+      "strongs": "—",
+      "lemma": "Textual baseline for the Torah volumes",
+      "partOfSpeech": "Text-critical convention (shared Torah convention, identical in the three overlays; same policy as the Kings and Ezekiel overlays and the exodus-woh kes-yah entry)",
+      "literal": "—",
+      "standardEnglish": "ASV: MT with occasional silent adoption of versional readings (e.g. Deut 4:37 'their seed after them')",
+      "wohChoice": "Translate the MT consonantal text, vocalization, Qere and accent division; give the Ketiv, the extraordinary points and the readings of the Samaritan Pentateuch, the Septuagint, the Targums, the Peshitta and the Vulgate in commentary. Wave T1 sites: Ex 24:10 'they saw the Elohim of Yisra'el' (LXX 'the place where the God of Israel stood'; Onqelos 'the glory of the God of Israel'); 24:11 'they beheld the Elohim' (LXX 'they appeared in the place of God'); Num 21:1 'the way of Atarim' (LXX, Targums, Peshitta, Vulgate 'the way of the spies'); 21:14 'Vahev in Sufah' (crux, kept as an unfinished fragment); 21:18 'And from the wilderness to Mattanah' (LXX 'and from the well'); 21:24 'was strong' (MT ʿaz; LXX 'Jazer'); 21:28 'the lords of the high places' (LXX 'it swallowed'); 21:30 ʾăšer with an extraordinary point (Sam, LXX 'fire'); 21:32 Qere 'and drove out' (Ketiv wyyrš); Num 33:8 'from before haChirot' (Sam, Peshitta, Vulgate 'from Pi-haChirot'); Deut 4:30 phrase division by the athnach on hāʾēlleh; 4:33 'the voice of the Elohim' (Sam, LXX add 'living', cf. 5:26); 4:37 'his seed after him' (Sam, LXX, Peshitta, Vulgate, ASV 'their seed after them'); 4:48 'Mount Si'on' (Peshitta 'Sirion', cf. 3:9).",
+      "claim_type": "direct",
+      "rationale": "The Wheel of Heaven Translation translates the Masoretic Text and records the ancient versions in the apparatus rather than adopting them in the line; this is the policy of genesis-woh, of exodus-woh (kes-yah-vs-nes-yah at Ex 17:16) and of the Kings and Ezekiel overlays. At every wave-T1 site the MT gives a construable sense: 'they saw the Elohim of Yisra'el' is the Hebrew, which the LXX and the Targums soften for theological reasons (Propp, Exodus 19-40, AB 2A, 2006); 'his seed after him' at Deut 4:37 refers distributively to each of the fathers or to Avraham (Driver, Deuteronomy, ICC, 1895; Tigay, JPS Deuteronomy, 1996), while the plural of the versions is a harmonization with the plural 'your fathers'; and at Num 21:30 the Masoretes mark ʾăšer as doubtful with a dot (one of the ten puncta extraordinaria of the Torah, Sifre Num 69) but still read it. Where a versional reading is widely preferred by modern commentators (Num 21:1 'the spies'; 21:30 'fire'), the commentary says so. At Deut 4:30 the accents attach 'in the latter days' to the second half of the verse, and the line follows them, as the Kings overlay does at 2 Kgs 2:14. The Qere is translated and the Ketiv recorded, as in the Kings and Ezekiel overlays.",
+      "appliesTo": [
+        "EXO-WOH-24:10",
+        "EXO-WOH-24:11"
+      ]
+    },
+    {
+      "id": "elohim-referent-and-article-conventions-torah",
+      "source": "אֱלֹהִים / הָאֱלֹהִים / אֵל",
+      "translit": "ʾĕlōhîm / hāʾĕlōhîm / ʾēl",
+      "strongs": "H430; H410",
+      "lemma": "ʾĕlōhîm (plural form), with and without the article",
+      "partOfSpeech": "Rendering convention for the referent and article of ʾĕlōhîm in the Torah volumes (shared Torah convention, identical in the three overlays; Torah counterpart of elohim-referent-and-article-conventions-kings)",
+      "literal": "the Elohim / elohim (gods, a god)",
+      "standardEnglish": "God (YHWH referent); god(s) (other referents)",
+      "wohChoice": "(1) YHWH referent: 'the Elohim', with or without the Hebrew article, in narrative and in direct speech (central elohim-as-translation; exodus-woh 3:4, 13:17, 20:1, 20:16): Ex 24:11, 13; Num 21:5; Deut 4:32, 33, 35, 39. (2) Construct with a possessor: 'YHWH your/our/my Elohim', 'the Elohim of Yisra'el', 'the Elohim of your fathers' (Ex 24:10; Deut 4 passim). (3) Non-YHWH referent: lower-case 'elohim' ('upon their elohim', Num 33:4; 'there you shall serve elohim, the work of human hands', Deut 4:28; exodus-woh 20:3, 20). (4) Generic class in a comparison: lower-case 'elohim' ('what great nation is there that has elohim so near to it', Deut 4:7; 'has any elohim ventured to go and take for himself a nation', Deut 4:34). (5) Bare ʾēl as a predicate: 'El' (see el-qanna-el-rachum-bare-el-predicate-deuteronomy).",
+      "claim_type": "direct",
+      "rationale": "The central elohim-as-translation entry fixes the untranslated 'Elohim' and the narrative article, and exodus-woh applies the article to the YHWH referent both in narrative and in speech, whether or not the Hebrew has it; the Torah volumes keep that practice, which differs from the Kings overlay's clause (2) only at anarthrous predicates, none of which occurs in this wave. The capital/lower-case distinction for other referents follows exodus-woh at Ex 20:3, 20 ('other elohim', central elohim-aherim-other-gods-monolatry-vs-monotheism-scholarly-dispute-cross-corpus) and the Kings clause (4); it is an editorial device, since Hebrew script has no case. Clause (4) follows the referent principle of the Kings clause (5): at Deut 4:7 the comparison 'as YHWH our Elohim is' sets YHWH against the gods of other nations (the plural adjective qərōḇîm 'near' does not decide the point by itself, since plural attributives also stand with ʾĕlōhîm of YHWH, Deut 5:26; Josh 24:19; GKC §132h), and at 4:34 the question 'has ʾĕlōhîm ventured to take for himself a nation ... as YHWH your Elohim did for you' compares YHWH with any other deity, so that a capital would make the verse compare YHWH with himself (NRSV and NJPS 'any god' at 4:34; Tigay 1996; the ASV 'hath God assayed' takes the YHWH referent, which is recorded in commentary). At 4:33 the voice heard from the fire is the voice of the Sinai theophany, and the YHWH referent is kept with the ASV. Whether 4:35, 39 ('YHWH, he is the Elohim; there is none else') is monotheistic in the later sense or a superlative claim within a world of other elohim is not decided by the case and is recorded in commentary.",
+      "appliesTo": [
+        "EXO-WOH-24:10",
+        "EXO-WOH-24:11",
+        "EXO-WOH-24:13"
+      ]
+    },
+    {
+      "id": "panim-presence-face-convention-torah",
+      "source": "פָּנִים / פָּנַי / בְּפָנָיו",
+      "translit": "pānîm / pānay / bəp̄ānāyw",
+      "strongs": "H6440",
+      "lemma": "pānîm 'face'",
+      "partOfSpeech": "Rendering convention for pānîm as the divine presence in the Torah volumes (shared by exodus-woh and deuteronomy-woh)",
+      "literal": "face / my face / with his face",
+      "standardEnglish": "my presence (ASV Ex 33:14), thy presence (33:15); with his presence (ASV Deut 4:37); my face (Ex 33:20, 23); showbread (Ex 25:30)",
+      "wohChoice": "'presence' where pānîm is the subject or instrument of YHWH's accompanying (Ex 33:14 'My presence shall go', without the ASV's supplied 'with thee'; 33:15 'your presence'; Deut 4:37 'with his presence'), and in the fixed term leḥem pānîm 'the bread of the presence' (Ex 25:30); 'face' where pānîm is the visible face (Ex 33:11 'face to face'; 33:20, 23 'my face'). The literal 'face' is given in commentary at each 'presence' site.",
+      "claim_type": "direct",
+      "rationale": "pānîm is 'face', and with a verb of going (Ex 33:14-15) or as the instrument of the Exodus (Deut 4:37 'he brought you out bəp̄ānāyw') it denotes YHWH's personal presence; the ASV, NRSV and most English versions render it 'presence' in these places (NJPS 'I will go in the lead' / 'in person'), and HALOT lists the sense 'in person' (pānîm 6). Ex 33 plays on the word throughout (vv 11, 14, 15, 16 'upon the face of the earth', 19, 20, 23), so the English cannot keep one rendering without misrepresenting either the idiom or the anthropomorphism; the line uses 'presence' at the accompanying sites and 'face' where the text speaks of seeing, and the commentary lays out the thread. leḥem pānîm (Ex 25:30) is rendered 'the bread of the presence' (NRSV) rather than the ASV 'showbread', which comes from Luther's Schaubrot by way of Tyndale and hides the pānîm of 'before me' (ləp̄ānay) in the same verse; NJPS 'bread of display' is recorded. The convention is lexical and makes no claim about what was seen.",
+      "appliesTo": [
+        "EXO-WOH-25:30",
+        "EXO-WOH-33:14",
+        "EXO-WOH-33:15",
+        "EXO-WOH-33:20",
+        "EXO-WOH-33:23"
+      ]
+    },
+    {
+      "id": "adamah-earth-land-ground-scope-torah",
+      "source": "אֲדָמָה",
+      "translit": "ʾăḏāmâ",
+      "strongs": "H127",
+      "lemma": "ʾăḏāmâ 'ground, soil, land, earth'",
+      "partOfSpeech": "Context-sensitive rendering of ʾăḏāmâ in the Torah volumes (shared by exodus-woh and deuteronomy-woh)",
+      "literal": "ground",
+      "standardEnglish": "earth (ASV Ex 33:16; Deut 4:10); ground (Deut 4:18); land (Deut 4:40)",
+      "wohChoice": "'the earth' in the idioms for the inhabited world ('all the people that are upon the face of the earth', Ex 33:16; 'all the days that they live upon the earth', Deut 4:10); 'the ground' for the physical surface (Deut 4:18 'anything that creeps on the ground', as the central adam-adamah); 'the land' where ʾăḏāmâ is the territory given to Yisra'el (Deut 4:40 'upon the land which YHWH your Elohim gives you', as 1 Kgs 8:34, 40)",
+      "claim_type": "direct",
+      "rationale": "ʾăḏāmâ is primarily the tillable ground (central adam-adamah, Gen 2:7), but in fixed phrases it also denotes the whole inhabited surface (ʿal-pənê hāʾăḏāmâ, Gen 6:7; Ex 32:12; 33:16) and the territory of a people (Deut 4:40; 1 Kgs 8:34, 40) (BDB ʾăḏāmâ 1-4; HALOT). No single English word covers the three senses, and rendering every occurrence 'ground' produces lines such as 'prolong your days upon the ground which YHWH gives you', which misstate the territorial sense the ASV, NRSV and NJPS all give as 'land'. The Kings chapters already render the territorial ʾăḏāmâ 'land' (1 Kgs 8:34, 40), and the world idiom 'upon the face of the earth' is the ASV's. The distinction from ʾereṣ, which the central eretz entry governs, is recorded in commentary where both nouns occur (Deut 4:17-18, 39-40).",
+      "appliesTo": [
+        "EXO-WOH-33:16"
+      ]
+    },
+    {
+      "id": "edut-the-testimony-capitalisation-torah",
+      "source": "הָעֵדֻת / אֲרֹן הָעֵדֻת / אֹהֶל הָעֵדֻת",
+      "translit": "hāʿēḏuṯ / ʾărōn hāʿēḏuṯ / ʾōhel hāʿēḏuṯ",
+      "strongs": "H5715",
+      "lemma": "ʿēḏûṯ 'testimony, solemn charge'",
+      "partOfSpeech": "Rendering convention for ʿēḏûṯ as the designation of the tablets and of the objects that house them (shared by exodus-woh and numbers-woh)",
+      "literal": "the testimony",
+      "standardEnglish": "the testimony (ASV lower case); the Pact (NJPS); the covenant (NRSV at Ex 25:16, 21)",
+      "wohChoice": "'the Testimony' (capitalised) where hāʿēḏuṯ designates the tablets (Ex 25:16, 21, as exodus-woh 16:34) and in the titles 'the ark of the Testimony' (Ex 25:22) and 'the tent of the Testimony' (Num 18:2); lower-case 'testimonies' for the plural legal term ʿēḏōṯ (Deut 4:45).",
+      "claim_type": "direct",
+      "rationale": "In the Priestly texts hāʿēḏuṯ is a technical name for the two tablets (Ex 25:16, 21; 31:18 'the two tablets of the Testimony'; 40:20), and by extension it names the ark and the tent that house them (Ex 25:22; 26:33; Num 1:50; 9:15; 17:22-23; 18:2) (BDB; Propp 2006). exodus-woh already prints the capitalised 'the Testimony' at 16:34, where the manna jar is placed 'before the Testimony', and the capital marks the technical sense against the ordinary noun. NJPS 'the Pact' and NRSV 'the covenant' interpret the word through its Akkadian cognate adê 'treaty stipulations'; the commentary records that reading, but the line keeps the established English term. The plural ʿēḏōṯ in the Deuteronomic series 'testimonies, statutes and ordinances' (Deut 4:45) is the ordinary legal noun and stays lower case.",
+      "appliesTo": [
+        "EXO-WOH-25:16",
+        "EXO-WOH-25:21",
+        "EXO-WOH-25:22"
+      ]
+    },
+    {
+      "id": "tabernacle-furnishings-vocabulary-exodus-25",
+      "source": "אֲרוֹן / בַּדִּים / כַּפֹּרֶת / מִקְשָׁה / שֻׁלְחָן / לֶחֶם פָּנִים / מְנֹרָה / גְּבִיעִים מְשֻׁקָּדִים / כַּפְתֹּר / פֶּרַח / עֹרֹת תְּחָשִׁים / שֹׁהַם / חֹשֶׁן / מִשְׁכָּן",
+      "translit": "ʾărôn / baddîm / kappōreṯ / miqšâ / šulḥān / leḥem pānîm / mənôrâ / gəḇîʿîm məšuqqāḏîm / kap̄tōr / peraḥ / ʿōrōṯ təḥāšîm / šōham / ḥōšen / miškān",
+      "strongs": "H727; H905; H3727; H4749; H7979; H3899+H6440; H4501; H1375+H8246; H3730; H6525; H8476; H7718; H2833; H4908",
+      "lemma": "the furnishings of the wilderness sanctuary in Ex 25",
+      "partOfSpeech": "Cluster entry for the sanctuary vocabulary of Ex 25 (the same terms recur in Ex 26-31 and 35-40)",
+      "literal": "chest / poles / cover (place of atonement) / hammered work / table / bread of the face / lampstand / almond-shaped cups / knob / flower / skins of taḥaš / šōham stones / breastpiece / dwelling",
+      "standardEnglish": "ASV: ark, staves, mercy-seat, beaten work, table, showbread, candlestick, cups made like almond-blossoms, knop, flower, sealskins, onyx stones, breastplate, tabernacle",
+      "wohChoice": "ark; poles (as 1 Kgs 8:7-8, for the ASV 'staves'); mercy-seat (ASV); hammered work (for 'beaten work'); table; the bread of the presence (NRSV, for the ASV 'showbread'; see panim-presence-face-convention-torah); lampstand (NRSV, NJPS, for the anachronistic 'candlestick'); cups made like almond-blossoms; knob (for 'knop'); flower; sealskins (ASV, identification uncertain); onyx stones (ASV, identification uncertain); breastplate (ASV); tabernacle (ASV, for the structure). Dye terms keep the ASV: təḵēleṯ 'blue', ʾargāmān 'purple', tôlaʿaṯ šānî 'scarlet'; ʿizzîm 'goats' hair'.",
+      "claim_type": "direct",
+      "rationale": "The ASV vocabulary of the sanctuary is kept wherever it is accurate, and replaced where it is obsolete or misleading. (1) mənôrâ is a lampstand carrying oil lamps (v 37 'its lamps', nērōṯêhā), so the ASV 'candlestick' is an anachronism; 'lampstand' is the term of NRSV, NJPS and the modern commentaries (Sarna, JPS Exodus, 1991; Propp 2006; C. L. Meyers, The Tabernacle Menorah, 1976). (2) leḥem pānîm is literally 'bread of the face', set ləp̄ānay 'before my face'; 'the bread of the presence' (NRSV) keeps the noun the verse repeats, while 'showbread' (Tyndale after Luther) does not. (3) kappōreṯ is either the 'cover' of the ark (NJPS) or, from kippēr, the 'place of atonement' (LXX hilastērion; Milgrom, Leviticus 1-16, AB 3, 1991, on Lev 16); the ASV 'mercy-seat' (Tyndale, after Luther's Gnadenstuhl) is an interpretive rendering, but it keeps the link with atonement that 'cover' loses, it is retained by NRSV, and the dispute is recorded in commentary rather than resolved in the line. (4) baddîm 'poles' follows the signed-off 1-kings-woh 8:7-8 for the same carrying poles; miqšâ 'hammered work' and kap̄tōr 'knob' modernize the ASV 'beaten work' and 'knop' without change of sense. (5) taḥaš and šōham are unidentified: taḥaš has been explained from Arabic tuḫas 'dugong, dolphin' (NJPS 'dolphin skins'), from Egyptian ṯḥś 'stretched (dyed) leather' (NRSV 'fine leather'; Propp) or from Akkadian dušû, a yellow-orange stone or leather colour; šōham has been taken as onyx, carnelian or lapis lazuli. The line keeps the ASV and the commentary lists the candidates. (6) miškān, literally 'dwelling', is the technical term for the portable sanctuary and keeps the ASV 'tabernacle', as NJPS and Alter do; the link with the verb šāḵan 'dwell' in 25:8 is shown in commentary. The central brit-shalom-mishkan entry renders the metaphorical 'my dwelling' at Ezek 37:27 and does not govern the structure. The Raëlian canon's reading of the sanctuary as a residence built to the creators' plans (The Book Which Tells the Truth, ch. 3) is recorded only in labelled reception notes.",
+      "appliesTo": [
+        "EXO-WOH-25:4",
+        "EXO-WOH-25:5",
+        "EXO-WOH-25:7",
+        "EXO-WOH-25:9",
+        "EXO-WOH-25:13",
+        "EXO-WOH-25:14",
+        "EXO-WOH-25:17",
+        "EXO-WOH-25:18",
+        "EXO-WOH-25:27",
+        "EXO-WOH-25:28",
+        "EXO-WOH-25:30",
+        "EXO-WOH-25:31",
+        "EXO-WOH-25:32",
+        "EXO-WOH-25:33",
+        "EXO-WOH-25:34",
+        "EXO-WOH-25:35"
+      ]
+    },
+    {
+      "id": "livnat-hassappir-pavement-of-sapphire-exodus-24-10",
+      "source": "כְּמַעֲשֵׂה לִבְנַת הַסַּפִּיר וּכְעֶצֶם הַשָּׁמַיִם לָטֹהַר",
+      "translit": "kəmaʿăśēh liḇnaṯ hassappîr ûḵəʿeṣem haššāmayim lāṭōhar",
+      "strongs": "H3840; H5601; H6106; H2892",
+      "lemma": "liḇnâ 'brick, tile'; sappîr 'lapis lazuli, sapphire'; ʿeṣem 'bone, substance, self'",
+      "partOfSpeech": "Rendering decision for the description of the pavement under the feet of the Elohim of Yisra'el at Ex 24:10",
+      "literal": "like the work of the brick/tilework of the sapphire, and like the very substance of the skies for clearness",
+      "standardEnglish": "as it were a paved work of sapphire stone, and as it were the very heaven for clearness (ASV); a pavement of sapphire (NRSV); a pavement of sapphire (NJPS)",
+      "wohChoice": "'as it were a paved work of sapphire, and as it were the very skies for clearness' — the ASV wording without its supplied 'stone', and šāmayim 'skies' under the central shamayim register rule",
+      "claim_type": "direct",
+      "rationale": "The Hebrew has liḇnaṯ hassappîr, 'the brick (or tilework) of the sappîr'; it does not have ʾeḇen 'stone', which the ASV supplies and which belongs to Ezekiel's kəmarʾēh ʾeḇen-sappîr (Ezek 1:26; 10:1, central eben-sapir-kisse). Omitting the supplied word keeps the two phrases distinct for a reader comparing the Sinai vision with Ezekiel's throne, a comparison the central entry itself draws. sappîr is most probably lapis lazuli, the deep-blue stone of ANE divine iconography, since true sapphire was hardly known before the Roman period (HALOT; Sarna 1991; Propp 2006); the line keeps 'sapphire' with the ASV, NRSV and NJPS, and the commentary gives the identification. ʿeṣem 'bone' used for 'the very substance' of a thing (Ex 24:10; cf. bəʿeṣem hayyôm 'on that very day') yields 'the very skies', and the colour and clarity of the sky are physical, so the central shamayim rule gives 'skies'. The Raëlian canon's reading of the pavement as a pedestal of bluish alloy (The Book Which Tells the Truth, ch. 3) is recorded only in a labelled reception note.",
+      "appliesTo": [
+        "EXO-WOH-24:10"
       ]
     }
   ]

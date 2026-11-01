@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "scope": "jonah-woh",
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of Jonah (Westminster Leningrad Codex). v1.0.0 (2026-11-01, Editor pass, wave LP1: Jonah 2 in MT numbering, canon-cited at 2:1 and 2:11) creates the overlay with three Jonah-specific decisions: dāḡ gāḏôl 'a great fish' (dag-gadol-great-fish-jonah-2), the MT versification (mt-versification-jonah-2; JNA-WOH-2:1 = English 1:17), and the lexical cruxes of the psalm. It also holds the twelve conventions of the Latter-Prophets set, shared verbatim (identical text and identical appliesTo, the union over the five books) with the jeremiah-woh, amos-woh, jonah-woh, zephaniah-woh and zechariah-woh overlays: house-conventions-latter-prophets, elohim-god-latter-prophets, eretz-earth-or-land-latter-prophets, ruach-spirit-wind-breath-latter-prophets, mt-qere-textual-policy-latter-prophets, bara-create-latter-prophets, massa-oracle-latter-prophets, megillah-scroll-latter-prophets, menorah-lampstand-latter-prophets, sarim-officials-latter-prophets, shofar-latter-prophets and hevel-vanity-latter-prophets. They follow the isaiah-woh conventions ('God', 'earth'/'land' by scope, lower-case 'spirit', 'create', 'oracle', 'teaching') where the Isaiah and Ezekiel precedents differ, and the corpus rulings 'scroll', 'lampstand', 'officials' and 'shofar'; extend all five overlays together. No speculative entry; the project lens appears only in labelled reception notes in the chapter commentary. Central glossary base 2.83.0; central proposals in zechariah-woh/wave-lp1-central-diff.json. Signed off at human review on 2026-11-01 (zarazinsfuss); this wave's central proposals were applied as central glossary v2.88.0, and the sign-off merge is v2.90.0.",
+  "sourceLanguages": [
+    "he"
+  ],
+  "entries": [
+    {
+      "id": "house-conventions-latter-prophets",
+      "source": "(meta)",
+      "translit": "(meta)",
+      "strongs": null,
+      "lemma": "(meta) names, divine titles, speech marks and formulas for jeremiah-woh, amos-woh, jonah-woh, zephaniah-woh and zechariah-woh",
+      "partOfSpeech": "convention: book-wide presentation rules shared by the Latter-Prophets overlays",
+      "literal": "(not applicable - meta)",
+      "standardEnglish": "(not applicable - meta)",
+      "wohChoice": "English forms of personal names and toponyms (Jacob, Israel, Judah, Tarshish, Uphaz; Bashan, Samaria, Bethel, Gilgal, Egypt, Sodom, Gomorrah; Jonah; Zephaniah, Cushi, Josiah, Amon, Baal, Malcam, Canaan; Zerubbabel, Hadrach, Damascus, Hamath, Tyre, Sidon, Ashkelon, Gaza, Ekron, Ashdod, Ephraim, Zion, Greece, Shinar). Divine names and titles: 'YHWH'; 'YHWH of hosts' (YHWH ṣəḇāʾôṯ); 'the God of hosts' (ʾĕlōhê ṣəḇāʾôṯ); 'the Lord YHWH' for the compound ʾăḏōnāy YHWH (central adonai-yhwh); 'the Lord' for the standalone ʾăḏōnāy. Speech: double quotation marks for direct speech in narrative and in vision dialogue, single quotes for speech within speech, double again at a third level; a speech running over several verses opens once and closes once. The messenger formula 'Thus says YHWH' that opens an oracle introduces the divine speech without quotation marks (as in isaiah-woh); words the prophet is told to say (Jer 10:11) and words quoted inside an oracle (Amos 4:1; Zeph 1:12) keep their marks. Formulas: nəʾum YHWH 'declares YHWH', kept distinct from ʾāmar YHWH 'says YHWH' and placed inside the speech it closes. Forward rule for later chapters of these books: tôrâ 'teaching' where it is prophetic or priestly instruction (as isaiah-woh torah-teaching-isaiah).",
+      "claim_type": "direct",
+      "rationale": "These five books stand closer to the idiom of Isaiah and the Writings than to the narrative books, so the wave follows the Isaiah house-style wherever the two signed-off Latter-Prophets precedents differ, and keeps what Ezekiel and Isaiah share: English name forms, 'YHWH', the compound 'the Lord YHWH', the standalone 'the Lord', and nested double/single quotation marks. Quotation marks are editorial in every English Bible; the only point where the Ezekiel and Isaiah practices diverge is the messenger formula, which Ezekiel's wave-E2 convention quotes and Isaiah leaves open. The Isaiah practice is adopted because the Hebrew of a prophetic oracle marks where it begins but often not where it ends (Jer 10:2-5 runs into a hymn addressed to YHWH in v6 with no closing formula), and leaving the oracle unquoted avoids inventing a boundary the text does not draw. nəʾum YHWH is rendered 'declares YHWH' (ESV, Ezekiel) rather than Isaiah's 'says YHWH', so that the two Hebrew formulas nəʾum and ʾāmar, which occur side by side in Zechariah (4:6; 5:4), stay distinguishable in English; the divergence from isaiah-woh is flagged for the founder in wave-lp1-editor-report.md. None of these rules carries interpretive content: they fix presentation so that the five books read as one volume with Isaiah.",
+      "appliesTo": [
+        "JER-WOH-10:1",
+        "JER-WOH-10:2",
+        "JER-WOH-10:16",
+        "JER-WOH-10:18",
+        "AMO-WOH-4:1",
+        "AMO-WOH-4:3",
+        "JNA-WOH-2:1",
+        "ZEP-WOH-1:1",
+        "ZEP-WOH-1:4",
+        "ZEP-WOH-1:10",
+        "ZEP-WOH-1:12",
+        "ZEC-WOH-4:1",
+        "ZEC-WOH-4:6",
+        "ZEC-WOH-4:9",
+        "ZEC-WOH-5:1",
+        "ZEC-WOH-5:4",
+        "ZEC-WOH-9:1",
+        "ZEC-WOH-9:4",
+        "ZEC-WOH-9:15"
+      ]
+    },
+    {
+      "id": "elohim-god-latter-prophets",
+      "source": "אֱלֹהִים / אֱלֹהֵי־ / אֱלֹהֶיךָ ... ; Aramaic אֱלָהַיָּא",
+      "translit": "ʾĕlōhîm (absolute, construct, suffixed); Aramaic ʾĕlāhayyāʾ",
+      "strongs": "H430 (ʾĕlōhîm); H426 (Aramaic ʾĕlāh)",
+      "lemma": "ʾĕlōhîm designating YHWH, in all its forms; the gods of the nations",
+      "partOfSpeech": "noun (plural form; absolute, construct, with pronominal suffixes)",
+      "literal": "God / gods",
+      "standardEnglish": "God, the God of hosts, your/his/my/our/their God; gods (ASV, NRSV, NJPS)",
+      "wohChoice": "'God' wherever ʾĕlōhîm designates YHWH: absolute ('as God overthrew Sodom and Gomorrah', Amos 4:11), in predication ('YHWH is the true God; he is the living God', Jer 10:10), in construct ('the God of hosts', Amos 4:13) and with suffixes ('your God', Amos 4:12; 'his God', Jonah 2:2; 'my God', Jonah 2:7; 'our God', Zech 9:7; 'their God', Zech 9:16). Lower-case 'gods' for the gods of the nations (Aramaic ʾĕlāhayyāʾ, Jer 10:11). The central 'the Elohim' convention (elohim-as-translation, scoped to Genesis 1) is not applied, as in isaiah-woh (elohim-el-eloah-monotheistic-formula-isaiah).",
+      "claim_type": "direct",
+      "rationale": "isaiah-woh renders ʾĕlōhîm 'God' in every form (overlay elohim-el-eloah-monotheistic-formula-isaiah, with the suffixed and construct forms since chapter 24), and the wave follows that practice by direction; the published Ezekiel chapters print 'Elohim' ('the Elohim of Israel', Ezek 43:2), and the divergence is a founder decision recorded in the report. In these chapters the word is always either YHWH himself or the foreign gods set against him: Jer 10 is an incomparability polemic in which 'the true God ... the living God' (10:10) is contrasted with gods that 'did not make the skies and the earth' (10:11), the same contrast Isaiah 40-48 draws, and printing a transliteration on one side of the contrast and English on the other would mark a distinction the text does not make. The plural adjective of ʾĕlōhîm ḥayyîm (Jer 10:10; cf. Deut 5:26; 1 Sam 17:26) is a known grammatical feature of the phrase and is reported in commentary, not carried by the English. Amos 4:11 kəmahpēḵaṯ ʾĕlōhîm is the fixed Sodom formula of Deut 29:22, Isa 13:19 and Jer 49:18; 50:40, which isaiah-woh renders 'as when God overthrew Sodom', and the superlative reading ('a mighty overthrow') is reported only. Capitalization follows ASV and NRSV.",
+      "appliesTo": [
+        "JER-WOH-10:10",
+        "JER-WOH-10:11",
+        "AMO-WOH-4:11",
+        "AMO-WOH-4:12",
+        "AMO-WOH-4:13",
+        "JNA-WOH-2:2",
+        "JNA-WOH-2:7",
+        "ZEC-WOH-9:7",
+        "ZEC-WOH-9:16"
+      ]
+    },
+    {
+      "id": "eretz-earth-or-land-latter-prophets",
+      "source": "אֶרֶץ / הָאָרֶץ ; Aramaic אַרְקָא / אַרְעָא",
+      "translit": "ʾereṣ / hāʾāreṣ; Aramaic ʾarqāʾ / ʾarʿāʾ",
+      "strongs": "H776 (ʾereṣ); H778, H772 (Aramaic ʾăraq, ʾăraʿ)",
+      "lemma": "ʾereṣ by scope: the earth as a whole vs a particular land",
+      "partOfSpeech": "noun (feminine) - a rendering-scope rule",
+      "literal": "earth / land / ground",
+      "standardEnglish": "the earth (cosmic and universal contexts); the land (territory) - ASV, NRSV, NJPS by context",
+      "wohChoice": "'the earth' where ʾereṣ is the earth as a whole: the creation and storm doxology of Jer 10:10-13 (and the Aramaic ʾarqāʾ / ʾarʿāʾ of 10:11), the theophany hymn of Amos 4:13 ('the high places of the earth'), the underworld 'earth with its bars' of Jonah 2:7, the universal day of YHWH of Zeph 1:18 (framed by 1:2-3), and the universal formulas of Zechariah ('through the whole earth', 4:10; 'the Lord of the whole earth', 4:14; 'between the earth and the skies', 5:9; 'to the ends of the earth', 9:10). 'the land' (central eretz) where it is a particular territory: Jer 10:17, 18, 22; Zech 5:3, 6; 9:1; Zech 5:11 'the land of Shinar' (central eretz-shinar).",
+      "claim_type": "direct",
+      "rationale": "The central eretz entry sets 'land' as the default and allows 'earth' in some verses; isaiah-woh applies 'earth' to cosmic and universal contexts and 'land' to territory (overlay eretz-cosmic-scope-isaiah-24, ratified for chapter 24 and extended to Isa 13 and 40-65 in wave I2), and the wave follows Isaiah by direction. The test is the scope the verse itself gives the word: pairing with šāmayim or tēḇēl in a creation formula (Jer 10:11-13), the theophanic idiom 'treads on the heights of the earth' (Amos 4:13; Mic 1:3), the formula ʾăḏôn kol-hāʾāreṣ 'Lord of the whole earth' (Zech 4:14; Josh 3:11, 13; Mic 4:13; Ps 97:5), the range of YHWH's eyes (Zech 4:10; 2 Chr 16:9) and the Psalm-72 idiom ʾap̄sê-ʾāreṣ (Zech 9:10; Ps 72:8). In Jonah 2:7 hāʾāreṣ is the underworld, whose barred gates hold the dead (Exod 15:12; Ps 71:20; Sasson, Jonah, AB 24B, 1990), and English 'earth' keeps both senses where 'land' would mislead. Zeph 1:18 is the closing frame of a chapter that opens with the sweeping away of humans, beasts, birds and fish 'from the face of the ground' (1:2-3), and its phrase recurs at 3:8 in an explicitly universal judgment; NRSV has 'the whole earth', ASV and NJPS 'the land', and the line follows the chapter's own frame. Where the reference is Judah, a named territory or the land a curse goes out over (Jer 10:17-22; Zech 5:3, 6; 9:1), the central 'land' stands.",
+      "appliesTo": [
+        "JER-WOH-10:10",
+        "JER-WOH-10:11",
+        "JER-WOH-10:12",
+        "JER-WOH-10:13",
+        "AMO-WOH-4:13",
+        "JNA-WOH-2:7",
+        "ZEP-WOH-1:18",
+        "ZEC-WOH-4:10",
+        "ZEC-WOH-4:14",
+        "ZEC-WOH-5:9",
+        "ZEC-WOH-9:10"
+      ]
+    },
+    {
+      "id": "ruach-spirit-wind-breath-latter-prophets",
+      "source": "רוּחַ / בְּרוּחִי",
+      "translit": "rûaḥ; bərûḥî 'by my rûaḥ'",
+      "strongs": "H7307",
+      "lemma": "rûaḥ 'wind, breath, spirit'",
+      "partOfSpeech": "noun (feminine)",
+      "literal": "wind / breath / spirit",
+      "standardEnglish": "my Spirit (ASV, Zech 4:6); my spirit (NRSV, NJPS); wind; breath",
+      "wohChoice": "lower-case 'spirit' for YHWH's own rûaḥ ('not by might, nor by power, but by my spirit', Zech 4:6); 'wind' for the physical wind (Jer 10:13 'brings out the wind from his treasuries'; Amos 4:13 'creates the wind'; Zech 5:9 'wind was in their wings'); 'breath' for the life-breath idols lack (Jer 10:14 'there is no breath in them'). No capital 'Spirit'. The Kings/Ezekiel transliteration 'ruach' is not adopted, as in isaiah-woh (ruach-divine-spirit-lower-case-isaiah).",
+      "claim_type": "direct",
+      "rationale": "isaiah-woh prints lower-case 'spirit' for YHWH's endowing rûaḥ (32:15; 40:13; 42:1; 44:3; 48:16), with NRSV and NJPS, and the wave follows it by direction; Kings and Ezekiel transliterate 'ruach' where the rûaḥ acts as an agent that lifts or carries a prophet, and the founder decision on harmonizing the two practices is recorded in the report. At Zech 4:6 the rûaḥ is YHWH's power set against ḥayil 'might' and kōaḥ 'strength', the means by which the temple will be finished, not a figure that moves the prophet, so the Isaiah genre test points to 'spirit'. The Hebrew does not mark the capital 'Spirit' of the ASV, which reflects English Bible typography rather than anything in the text; NRSV and NJPS print lower case. The physical senses follow the context: wind brought out of storehouses with rain and lightning (Jer 10:13 = 51:16), wind paired with mountains in a creation hymn (Amos 4:13; ASV, NRSV, NJPS 'wind'), wind under wings (Zech 5:9), and the breath that cast images do not have (Jer 10:14 = 51:17; cf. Hab 2:19).",
+      "appliesTo": [
+        "JER-WOH-10:13",
+        "JER-WOH-10:14",
+        "AMO-WOH-4:13",
+        "ZEC-WOH-4:6",
+        "ZEC-WOH-5:9"
+      ]
+    },
+    {
+      "id": "mt-qere-textual-policy-latter-prophets",
+      "source": "כְּתִיב / קְרֵי ; MT / LXX / 4QJerᵇ",
+      "translit": "kəṯîḇ / qərê",
+      "strongs": "n/a (text-critical policy)",
+      "lemma": "the textual basis of the line: Masoretic Text (Leningrad Codex), Qere read, Ketiv, versions and conjectures in commentary",
+      "partOfSpeech": "text-critical convention",
+      "literal": "what is written / what is read",
+      "standardEnglish": "ASV generally follows MT and the Qere; NRSV adopts LXX readings and conjectures at several of these sites",
+      "wohChoice": "The line translates the MT, and at Ketiv/Qere sites the Qere: Jer 10:13 (Q hāʾāreṣ 'the earth', article only), Jer 10:17 (Q yōšeḇeṯ, same sense as the archaic K yōšaḇtî), Zech 4:2 (Q wāʾōmar 'And I said'; K wayyōʾmer 'And he said' - the one sense-changing pair of the wave). Versional readings and emendations are reported, not adopted: Jer 10:6-8, 10 (absent from LXX and 4QJerᵇ) and the LXX placement of 10:9; Amos 4:9 harbôṯ (emended heḥĕraḇtî), 4:13 śēḥô (LXX 'his anointed'); Jonah 2:5 ʾaḵ (Theodotion ʾêḵ); Zeph 1:3 hammaḵšēlôṯ, 1:14 the accent division; Zech 5:6 ʿênām (LXX/Syriac 'their iniquity'), 9:1 ʿên ʾāḏām (emended 'the cities of Aram'), 9:8 miṣṣāḇâ, 9:10 wəhiḵrattî (LXX 'he will cut off'), 9:15 (LXX 'their blood'). MT versification is kept (Jonah 2:1-11 = English 1:17-2:10). Masoretic marks are reproduced in the Hebrew field: the rafe over the final he of lāh at Zech 5:11 is translated 'for her'.",
+      "claim_type": "direct",
+      "rationale": "The Wheel of Heaven Translation translates the Leningrad Codex and follows the Qere, the baseline of genesis-woh, the Kings overlays (ketiv-qere-qere-translated-kings), ezekiel-woh (mt-baseline-at-versional-cruxes-ezekiel) and isaiah-woh (mt-qere-textual-policy-isaiah). The three Ketiv/Qere pairs of the wave are bracketed in the source; two change only the article or an archaic ending, but at Zech 4:2 the Ketiv makes the messenger answer his own question, and the Qere, which the ASV, NRSV and NJPS follow, gives the prophet's reply. The Minor Prophets have several famous cruxes where the NRSV prints an LXX reading or a conjecture; at each site in this wave the MT yields a construable sense, so the alternative is set out in commentary, where a reader can audit it, rather than adopted case by case into a base text that is otherwise consistently Masoretic (Tov, Textual Criticism of the Hebrew Bible, 3rd ed., 2012). Jeremiah is a special case, with a shorter Old Greek edition attested in Hebrew at Qumran; the book-level decision is recorded in jeremiah-woh mt-longer-edition-jeremiah-10. The rafe at Zech 5:11 marks a he that the edition reads without mappiq; the Masorah treats the form as the 3fs suffix 'for her' and the line translates it so.",
+      "appliesTo": [
+        "JER-WOH-10:13",
+        "JER-WOH-10:17",
+        "AMO-WOH-4:9",
+        "AMO-WOH-4:13",
+        "JNA-WOH-2:5",
+        "ZEP-WOH-1:3",
+        "ZEP-WOH-1:14",
+        "ZEC-WOH-4:2",
+        "ZEC-WOH-5:6",
+        "ZEC-WOH-5:11",
+        "ZEC-WOH-9:1",
+        "ZEC-WOH-9:8",
+        "ZEC-WOH-9:10",
+        "ZEC-WOH-9:15"
+      ]
+    },
+    {
+      "id": "bara-create-latter-prophets",
+      "source": "בֹּרֵא",
+      "translit": "bôrēʾ (Qal participle of bārāʾ)",
+      "strongs": "H1254",
+      "lemma": "bārāʾ 'create'",
+      "partOfSpeech": "verb, Qal participle",
+      "literal": "creating / creator of",
+      "standardEnglish": "createth (ASV); creates (NRSV, NJPS)",
+      "wohChoice": "'create': 'he who forms the mountains and creates the wind' (Amos 4:13). The Genesis-scoped central bara 'shape' (claim_type inferred, appliesTo Gen 1:1, 21, 27) is not extended, as in isaiah-woh (bara-create-isaiah).",
+      "claim_type": "direct",
+      "rationale": "isaiah-woh renders bārāʾ 'create' throughout Second Isaiah because the verb there takes objects that are not materials (darkness, calamity, righteousness, new events), and the wave follows that ruling by direction; whether the Isaiah evidence should reopen the Genesis 'shape' decision is already on the founder's agenda from wave I2 and is not reopened here. At Amos 4:13 bôrēʾ rûaḥ stands in a hymnic participle chain beside yôṣēr hārîm 'who forms the mountains' (yāṣar, the potter's verb, central yatsar) and ʿōśēh 'who makes' (central asah), the same three-verb set Isaiah uses (Isa 45:7, 18); 'create' keeps bārāʾ distinct from the craft verb beside it, where 'shape' would collapse it into a near-synonym of 'form'. The object rûaḥ 'wind' is not a material that could be shaped, and the major commentaries read the clause as sovereign bringing-about (Wolff, Joel and Amos, Hermeneia, 1977; Paul, Amos, Hermeneia, 1991). 'Create' does not commit the line to creation from nothing, which the verse does not discuss.",
+      "appliesTo": [
+        "AMO-WOH-4:13"
+      ]
+    },
+    {
+      "id": "massa-oracle-latter-prophets",
+      "source": "מַשָּׂא",
+      "translit": "maśśāʾ",
+      "strongs": "H4853",
+      "lemma": "maśśāʾ II 'pronouncement, oracle' (as a heading)",
+      "partOfSpeech": "noun (superscription)",
+      "literal": "a lifting up (of the voice) / a load",
+      "standardEnglish": "The burden of (ASV, KJV); An Oracle (NRSV); A pronouncement (NJPS)",
+      "wohChoice": "'An oracle' as the heading of Zech 9:1 ('An oracle: the word of YHWH upon the land of Hadrach'); 'burden' only in commentary. The same ruling governs the headings Zech 12:1 and Mal 1:1 when translated.",
+      "claim_type": "direct",
+      "rationale": "isaiah-woh renders the heading maśśāʾ 'oracle' (massa-oracle-superscription-isaiah: Isa 13:1; 14:28; 15:1), and the wave follows that ruling. The traditional 'burden' derives the noun from nāśāʾ 'carry' (maśśāʾ I 'load'), whereas the heading is now generally explained from the idiom nāśāʾ qôl 'lift up the voice' (HALOT; Weis, A Definition of the Genre Maśśāʾ, 1986; Petersen, Zechariah 9-14 and Malachi, OTL, 1995). The construction maśśāʾ dəḇar-YHWH, found only at Zech 9:1; 12:1 and Mal 1:1, is a heading followed by the word it introduces, so the line sets 'An oracle' off with a colon (NRSV, NJPS) rather than reading 'the burden of the word of YHWH' as one phrase. The pun on the two senses at Jer 23:33-38 shows that hearers felt the link, and commentary records it, but it does not make 'burden' the meaning of the heading.",
+      "appliesTo": [
+        "ZEC-WOH-9:1"
+      ]
+    },
+    {
+      "id": "megillah-scroll-latter-prophets",
+      "source": "מְגִלָּה",
+      "translit": "məḡillâ",
+      "strongs": "H4039",
+      "lemma": "məḡillâ 'scroll' (from gālal 'roll')",
+      "partOfSpeech": "noun (feminine)",
+      "literal": "a thing rolled, a roll",
+      "standardEnglish": "roll (ASV, KJV); scroll (NRSV, NJPS)",
+      "wohChoice": "'scroll': 'a flying scroll' (Zech 5:1, 2). Aligns with the corpus rulings 'a scroll of a book' (ezekiel-woh megillat-sefer-scroll-written-front-and-back-ezekiel-2-3, Ezek 2:9; 3:1-3) and 'a sealed scroll' (isaiah-woh sefer-sealed-scroll-isaiah-29).",
+      "claim_type": "direct",
+      "rationale": "məḡillâ is the rolled writing-sheet of papyrus or leather (BDB; HALOT), the same object Ezekiel eats (Ezek 2:9-3:3) and Baruch writes (Jer 36), and the corpus already renders it 'scroll' in Ezekiel and renders the written document of Isa 29 'scroll'. The ASV 'roll' is the same word in older English, and modern English 'scroll' names the object unambiguously, which is why NRSV, NJPS and modern commentaries generally print it. The change is a register update for one Hebrew noun and is applied everywhere the noun occurs in the wave. What the flying scroll is in the vision - a curse written on both sides (5:3), sent out over the land - is set out in the zechariah-woh entry megillah-afah-flying-scroll-zechariah-5, and the canon's reading of it is reported there in a labelled reception note.",
+      "appliesTo": [
+        "ZEC-WOH-5:1",
+        "ZEC-WOH-5:2"
+      ]
+    },
+    {
+      "id": "menorah-lampstand-latter-prophets",
+      "source": "מְנוֹרָה / מְנֹרָה",
+      "translit": "mənôrâ",
+      "strongs": "H4501",
+      "lemma": "mənôrâ 'lampstand' (from nēr 'lamp')",
+      "partOfSpeech": "noun (feminine)",
+      "literal": "a lamp-holder, place of light",
+      "standardEnglish": "candlestick (ASV, KJV); lampstand (NRSV, NJPS)",
+      "wohChoice": "'lampstand': 'a lampstand all of gold' (Zech 4:2); 'on the right side of the lampstand' (4:11). Aligns with 2-kings-woh 4:10 ('a lampstand', signed off) and with the 'lampstand' recommended for Ex 25:31-35 in the pending exodus-woh draft.",
+      "claim_type": "direct",
+      "rationale": "A mənôrâ holds oil lamps (nērôṯ), which the text itself names ('its seven lamps on it', Zech 4:2; Ex 25:37), and the object is never a holder for candles, which the ancient Near East did not use; the ASV/KJV 'candlestick' is an anachronism that the modern versions and the lexica replace with 'lampstand' (HALOT; NRSV; NJPS). The corpus has already printed 'lampstand' at 2 Kgs 4:10, and the Exodus 25 draft recommends the same word for the tabernacle mənôrâ; adopting it here keeps one English word for one Hebrew noun across the corpus. If the Exodus editor rules otherwise, this entry and the Exodus ruling must be reconciled, and the report flags the dependency. The canon's own phrase for the object is 'the seven-branched candlestick' (le chandelier à sept branches), which belongs to the reception of the tabernacle mənôrâ; it is quoted in the reception note at Zech 4:2 and does not govern the line.",
+      "appliesTo": [
+        "ZEC-WOH-4:2",
+        "ZEC-WOH-4:11"
+      ]
+    },
+    {
+      "id": "sarim-officials-latter-prophets",
+      "source": "שָׂרִים",
+      "translit": "śārîm",
+      "strongs": "H8269",
+      "lemma": "śar 'official, officer, commander'",
+      "partOfSpeech": "noun (masculine plural)",
+      "literal": "officials, chiefs",
+      "standardEnglish": "princes (ASV, KJV); officials (NRSV, NJPS)",
+      "wohChoice": "'officials' for the court śārîm: 'I will punish the officials and the king's sons' (Zeph 1:8). Aligns with ezekiel-woh sar-and-nasi-officials-and-prince-ezekiel (Ezek 11:1 'officials of the people').",
+      "claim_type": "direct",
+      "rationale": "śar is the general word for an official, officer or commander (BDB; HALOT), and at Zeph 1:8 the śārîm stand beside 'the king's sons' as the Jerusalem court of Josiah's minority, the same body that Ezek 11:1 calls 'the officials of the people'. English 'princes' implies royal birth, which would merge them with the 'king's sons' named next to them, and the ezekiel-woh ruling reserves 'prince' for nāśîʾ. NRSV and NJPS print 'officials' (Berlin, Zephaniah, AB 25A, 1994; Sweeney, Zephaniah, Hermeneia, 2003). isaiah-woh keeps the ASV 'princes' at Isa 32:1; 40:23; 43:28; the wave follows the Ezekiel ruling by direction, and the Isaiah divergence is flagged for the founder.",
+      "appliesTo": [
+        "ZEP-WOH-1:8"
+      ]
+    },
+    {
+      "id": "shofar-latter-prophets",
+      "source": "שׁוֹפָר",
+      "translit": "šôp̄ār",
+      "strongs": "H7782",
+      "lemma": "šôp̄ār 'ram's horn'",
+      "partOfSpeech": "noun (masculine)",
+      "literal": "ram's horn",
+      "standardEnglish": "trumpet (ASV, KJV, NRSV); horn (NJPS)",
+      "wohChoice": "'shofar' (transliterated): 'a day of the shofar and alarm' (Zeph 1:16); 'the Lord YHWH will blow the shofar' (Zech 9:14). Aligns with the Kings and Exodus practice (1-kings-woh shofar-coronation-signal-1-kings-1; exodus-woh at Sinai).",
+      "claim_type": "direct",
+      "rationale": "The šôp̄ār is the ram's horn, distinct from the metal ḥăṣōṣərâ 'trumpet' of Num 10:2 and Hos 5:8, where both instruments are named together; English 'trumpet' merges the two (BDB; HALOT; J. Braun, Music in Ancient Israel/Palestine, 2002). The corpus already transliterates 'shofar' in Exodus and Kings, as several modern Jewish translations do, and the word is current in English. In Zeph 1:16 the shofar and tərûʿâ 'alarm' are the war-signal sounded against fortified cities, and in Zech 9:14 YHWH himself blows it as the divine warrior; both are the same instrument and receive the same word. isaiah-woh prints 'a great trumpet' at Isa 27:13 (shofar-gadol-ingathering-isaiah-27); the wave follows the Kings ruling by direction, and the Isaiah divergence is flagged for the founder.",
+      "appliesTo": [
+        "ZEP-WOH-1:16",
+        "ZEC-WOH-9:14"
+      ]
+    },
+    {
+      "id": "hevel-vanity-latter-prophets",
+      "source": "הֶבֶל / הֲבָלִים ; הַבְלֵי־שָׁוְא",
+      "translit": "heḇel; hăḇālîm; haḇlê-šāwʾ",
+      "strongs": "H1892 (heḇel); H7723 (šāwʾ)",
+      "lemma": "heḇel 'breath, vapor', hence 'futility, nothingness', and of idols 'nothings' (the common noun; not the personal name Hevel/Abel)",
+      "partOfSpeech": "noun (masculine; singular and plural)",
+      "literal": "breath, vapor",
+      "standardEnglish": "vanity / vanities (ASV); false, worthless, idols (NRSV, by context); delusion (NJPS)",
+      "wohChoice": "'vanity' / 'vanities': 'the customs of the peoples are vanity' (Jer 10:3); 'the instruction of vanities is wood' (10:8); 'They are vanity, a work of delusion' (10:15); 'lying vanities' for haḇlê-šāwʾ (Jonah 2:9). The literal 'breath, vapor' and the idol sense are given in commentary. The central hevel entry (the personal name, Gen 4) does not apply.",
+      "claim_type": "direct",
+      "rationale": "heḇel is literally a breath or vapor (Isa 57:13; Ps 62:10; Prov 21:6), and in the polemic against idols it becomes a term for what has no substance: the gods of the nations are hăḇālîm (Deut 32:21; 1 Kgs 16:13, 26; Jer 8:19; 14:22). English 'vanity' (Latin vanitas 'emptiness') carries that sense and is the rendering of the ASV, which the corpus takes as baseline, and of most translations of Ecclesiastes; NRSV changes the word by context ('false', 'worthless idols') and so loses the repetition that ties Jer 10:3, 8 and 15 together. The plural at 10:8 and in haḇlê-šāwʾ (Jonah 2:9; Ps 31:7) refers to the idols themselves, which commentary states. The central entry hevel is the name of Adam's son (Gen 4), a homograph, and is not extended. ecclesiastes-woh, in a parallel pass, will make the book-defining decision for heḇel in Ecclesiastes; this entry governs the prophetic idol sense only, and a single central entry should be considered once both rulings are signed off.",
+      "appliesTo": [
+        "JER-WOH-10:3",
+        "JER-WOH-10:8",
+        "JER-WOH-10:15",
+        "JNA-WOH-2:9"
+      ]
+    },
+    {
+      "id": "dag-gadol-great-fish-jonah-2",
+      "source": "וַיְמַן יְהוָה דָּג גָּדוֹל לִבְלֹעַ אֶת־יוֹנָה ... בִּמְעֵי הַדָּג ... מִמְּעֵי הַדָּגָה ... וַיָּקֵא",
+      "translit": "wayman YHWH dāḡ gāḏôl liḇlōaʿ ʾeṯ-yônâ ... bimʿê haddāḡ ... mimməʿê haddāḡâ ... wayyāqēʾ",
+      "strongs": "H4487 (mānâ, Piel 'appoint'); H1709 (dāḡ); H1710 (dāḡâ); H1419 (gāḏôl); H1104 (bālaʿ); H4578 (mēʿeh); H6958 (qîʾ)",
+      "lemma": "dāḡ gāḏôl 'a great fish' (masculine dāḡ 2:1, 11; feminine dāḡâ 2:2), appointed (wayman) to swallow Jonah",
+      "partOfSpeech": "noun + adjective; Piel waw-consecutive (mnh); construct mēʿê 'inner parts'",
+      "literal": "and YHWH appointed a great fish to swallow Jonah ... in the inner parts of the fish ... from the inner parts of the fish (f.) ... and it vomited",
+      "standardEnglish": "Jehovah prepared a great fish (ASV); the LORD provided a large fish (NRSV, NJPS)",
+      "wohChoice": "'a great fish' for dāḡ gāḏôl, translated literally (not 'whale', which is the LXX/Matt 12:40 kētos tradition, and not identified); 'prepared' for wayman (ASV; 'appointed, assigned' in commentary, the verb of 4:6-8); 'the belly of the fish' for both mēʿê haddāḡ (2:1) and mēʿê haddāḡâ (2:2), the gender change reported in commentary; 'vomited out' for wayyāqēʾ (2:11).",
+      "claim_type": "direct",
+      "rationale": "The Hebrew names only 'a great fish', and the line says exactly that: the LXX kētos 'sea-monster', taken into Matt 12:40 and from there into the English 'whale', adds a species the text does not give, and modern versions print 'fish' (NRSV, NJPS; Sasson, Jonah, AB 24B, 1990; Limburg, Jonah, OTL, 1993). wayman is the Piel of mānâ 'count, assign, appoint', the verb the book uses for each of YHWH's appointed agents (the plant, the worm and the east wind, 4:6-8); the ASV's 'prepared' is kept in the line as the established rendering, and the leitwort is pointed out in commentary. The masculine dāḡ in 2:1 and 2:11 and the feminine dāḡâ in 2:2 are probably a collective or stylistic variation (GKC §122t), though a midrash makes them two fish (Midrash Yonah, cited by Rashi on 2:2); the line renders both 'fish'. The canon quotes 2:1 and 2:11 and reads the 'great fish' as a submarine in which the creators speak with Jonah; that reading is reported in labelled reception notes at both verses and nothing in the line identifies the fish.",
+      "appliesTo": [
+        "JNA-WOH-2:1",
+        "JNA-WOH-2:2",
+        "JNA-WOH-2:11"
+      ]
+    },
+    {
+      "id": "mt-versification-jonah-2",
+      "source": "MT Jonah 2:1-11 ; English 1:17; 2:1-10",
+      "translit": "n/a",
+      "strongs": "n/a (versification)",
+      "lemma": "chapter division of Jonah 1-2",
+      "partOfSpeech": "versification convention",
+      "literal": "n/a",
+      "standardEnglish": "English Bibles (KJV, ASV, NRSV) number MT 2:1 as 1:17 and MT 2:2-11 as 2:1-10; NJPS, BHS and most French Bibles keep the MT numbering",
+      "wohChoice": "MT numbering (2:1-11), so that JNA-WOH-2:N = English 2:(N-1) for N ≥ 2 and JNA-WOH-2:1 = English 1:17; the English equivalents are given in commentary at 2:1 and wherever a reference could mislead.",
+      "claim_type": "direct",
+      "rationale": "The corpus keys every Hebrew-Bible chapter to the Masoretic verse numbers of the source text, as the Kings overlays do (mt-baseline-at-versional-cruxes-and-versification-kings), so that the refIds match the Hebrew field line for line. The canon cites Jonah in the MT numbering ('Jonas, II-1' for the great fish; 'Jonas, II-11' for the fish vomiting Jonah out), as French Bibles do, so the MT numbering also lets the reception notes cite the canon's references without conversion. The English chapter break after 1:16 goes back to the Vulgate tradition and makes the fish verse the end of chapter 1; the Hebrew opens chapter 2 with it, binding the swallowing to the prayer said inside the fish. The hosted reference files for Jonah 2 are the World English Bible in English numbering, which is recorded in the report as a library follow-up.",
+      "appliesTo": [
+        "JNA-WOH-2:1",
+        "JNA-WOH-2:11"
+      ]
+    },
+    {
+      "id": "lexical-cruxes-jonah-2",
+      "source": "מְצוּלָה ... וְנָהָר (2:4) ; אַךְ אוֹסִיף (2:5) ; עַד־נֶפֶשׁ ... נַפְשִׁי (2:6, 8) ; הָאָרֶץ בְּרִחֶיהָ בַעֲדִי (2:7) ; חַסְדָּם (2:9)",
+      "translit": "məṣûlâ ... wənāhār; ʾaḵ ʾôsîp̄; ʿaḏ-nep̄eš ... napšî; hāʾāreṣ bəriḥêhā ḇaʿăḏî; ḥasdām",
+      "strongs": "H4688 (məṣûlâ); H5104 (nāhār); H389 (ʾaḵ); H5315 (nep̄eš); H1280 (bərîaḥ); H1157 (baʿaḏ); H2617 (ḥeseḏ)",
+      "lemma": "single-site decisions in Jonah's psalm (MT 2:3-10)",
+      "partOfSpeech": "nouns and particles (see wohChoice)",
+      "literal": "the depth ... and the river; surely I will add; to the throat / soul ... my soul; the earth, its bars behind me; their loyalty",
+      "standardEnglish": "the depth ... the flood (ASV); yet I will look again (ASV) / how shall I look again (NRSV); even to the soul (ASV) / up to my neck (NRSV); the earth with its bars closed upon me (ASV); their own mercy (ASV)",
+      "wohChoice": "2:4 'the depth' (məṣûlâ) kept distinct from 'the deep' (təhôm, 2:6, central tehom), and 'the flood' (nāhār, the ocean current, not the Flood mabbûl); 2:5 'yet I will look again' (MT ʾaḵ; Theodotion's ʾêḵ 'how' in commentary); 2:6, 8 'soul' for nep̄eš (ASV; 'throat, neck' and 'life' in commentary); 2:7 'the earth with its bars' (the underworld, under eretz-earth-or-land-latter-prophets); 2:9 'their own kindness' (central chesed-solitary-covenant-kindness).",
+      "claim_type": "direct",
+      "rationale": "Jonah's psalm is a thanksgiving built from the stock language of the Psalms (Ps 18:5-7; 42:8; 69:2-3; 88:7-8; 120:1), and its cruxes are mostly a matter of keeping distinct Hebrew words distinct. məṣûlâ 'depth' and təhôm 'the deep' are different nouns, and nāhār, normally 'river', here names the current of the cosmic sea (Ps 24:2; 93:3), so ASV's 'flood' is kept with a note that it is not the mabbûl of Genesis 6-9. At 2:5 the MT particle ʾaḵ gives a statement of renewed hope, while the reading ʾêḵ (Theodotion; NRSV) gives a despairing question; the MT is kept per the textual policy. nep̄eš at 2:6 has its concrete sense 'throat' in the idiom of waters rising 'to the nep̄eš' (Ps 69:2), which NRSV renders 'up to my neck'; the ASV 'soul' is kept because the corpus has no ruling that would justify 'throat' in one verse and 'soul' in the next (2:8), and commentary gives the concrete sense. The underworld sense of hāʾāreṣ at 2:7 is the reason for 'the earth' there, and ḥasdām at 2:9 follows the central entry.",
+      "appliesTo": [
+        "JNA-WOH-2:4",
+        "JNA-WOH-2:5",
+        "JNA-WOH-2:6",
+        "JNA-WOH-2:7",
+        "JNA-WOH-2:8",
+        "JNA-WOH-2:9"
+      ]
+    }
+  ]
+}

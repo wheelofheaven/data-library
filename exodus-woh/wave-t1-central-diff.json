@@ -1,0 +1,1300 @@
+[
+  {
+    "op": "version",
+    "from": "2.83.0",
+    "to": "2.84.0",
+    "note": "Base: the v2.83.0 export (translation-glossary-2.83.0.json). Contents: 3 new entries (torah-law-instruction-rendering-cross-corpus, nechoshet-bronze-copper-alloy-cross-corpus, tabnit-pattern-model-cross-corpus; all direct) and 40 modifications of existing entries, of which 8 change text and 32 are appliesTo-only extensions. Text changes: qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus (the deferred Torah clause for tərûmâ resolved as 'oblation', with hērîm 'set apart'; the shipped Ezekiel rendering is unchanged); hishtachavah-bow-down-obeisance-worship (Torah clause 'bow down' appended); eretz (cosmic context clause appended); aseret-ha-dvarim-... ('the ten words' appended); nishba-la-avraham-... (modern-register 'swore' appended); eben-sapir-kisse, mitsrayim and shamayim (rationale notes appended: a factual correction, a corpus note on 'the Egyptians' / 'Mitzrayim', and the Deut 4 register application). No shipped wohChoice is replaced and no signed-off line changes, so a minor bump (2.84.0) is recommended, following the precedent of the Kings and Ezekiel diffs for additive clauses; under a strict reading of the 'modifications are major' rule the qorbanot clause resolution would make this 3.0.0, which is a founder call. Apply semantics as in 1-kings-woh/wave-cd-central-diff.json: op=add inserts `entry`; op=modify replaces each field in `changes`; appliesTo values are complete arrays preserving every refId of v2.83.0, and each op lists its additions in `appliesToAdded`. SEQUENCING: the parallel isaiah-woh and Former Prophets (joshua-woh, judges-woh, 1-samuel-woh) editor diffs also target base 2.83.0. Apply them in any order, renumbering the target version of each later diff; for any entry modified by more than one diff, merge appliesTo as the set union (base plus each diff's `appliesToAdded`) and apply text appends to the then-current field rather than replacing it. Entries most likely to be touched by more than one diff: shamayim, eretz, elohim-as-translation, hishtachavah-bow-down-obeisance-worship, malakh-yhwh-messenger, karat-brit-cut-covenant, al-tira-fear-not-divine-encouragement-formula, qorbanot-..., kavod-yhwh, cherubim-ezek, har-sinai-horev-..., yam-suf-..., mitsrayim. Decision overlaps to reconcile if the parallel waves rule on the same lexemes: tôrâ (Isa 42:4, 21, 24; Josh 1:7-8), nəḥōšeṯ (1 Sam 17:5-6), śārāp̄ (Isa 14:29; held here in the numbers-woh overlay), ḥērem (Josh 6-7; 1 Sam 15; held here in the numbers-woh overlay) and bārāʾ (Isa 40-45; not extended here).",
+    "scopeNoteAddendum": "**v2.84.0 (Torah wave T1 — Ex 24, 25, 33; Num 18, 21, 33; Deut 4: the Sinai covenant meal and the vision of the elders, the sanctuary offering and furnishings, the tent of meeting and the request to see the glory, the priestly dues, the bronze serpent and the march to Moab, the wilderness stations, the voice from the fire):** three new entries, `torah-law-instruction-rendering-cross-corpus` (tôrâ 'law' where it names a written body of law; exodus-woh's 'torah' at 13:9, 16:4 left for a founder ruling), `nechoshet-bronze-copper-alloy-cross-corpus` ('bronze', replacing the ASV 'brass'; canon-cited Ex 25:3, Num 21:9) and `tabnit-pattern-model-cross-corpus` ('pattern' at Ex 25:9, 40 and Deut 4:16-18, aligned with Ezekiel). `qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus` resolves the Torah's tərûmâ as 'oblation' with hērîm 'set apart' (replacing the ASV 'offering' / 'heave-offering'). `hishtachavah-bow-down-obeisance-worship` gains a Torah clause ('bow down', as exodus-woh 20:5), `eretz` a cosmic clause ('earth' in the heaven-earth-waters cosmology), `aseret-ha-dvarim-...` the phrase 'the ten words' (Deut 4:13), and `eben-sapir-kisse`, `mitsrayim` and `shamayim` rationale notes. appliesTo extensions for the Torah sites of some thirty further entries. Torah-specific conventions live in the exodus-woh overlay v1.2.0 and the new numbers-woh and deuteronomy-woh overlays v1.0.0."
+  },
+  {
+    "op": "add",
+    "id": "torah-law-instruction-rendering-cross-corpus",
+    "entry": {
+      "id": "torah-law-instruction-rendering-cross-corpus",
+      "source": "תּוֹרָה",
+      "translit": "tôrâ",
+      "strongs": "H8451",
+      "partOfSpeech": "noun f.; rendering decision by sense, cross-corpus (Exodus, Deuteronomy, Kings; Gen 26:5 plural)",
+      "literal": "instruction, direction, teaching; a body of law",
+      "standardEnglish": "law (ASV, KJV, NRSV); teaching / Instruction (NJPS in places); torah (transliterated)",
+      "wohChoice": "'law' where tôrâ names a written or fixed body of law given through Moses (Ex 24:12 'the law and the commandment which I have written'; Deut 4:8 'all this law', 4:44 'And this is the law'; Kings: 'the law of Moshe', 1 Kgs 2:3; 2 Kgs 17:13, 34, 37); the published exodus-woh 'torah' (lower case, transliterated) at Ex 13:9 'the torah of YHWH' and 16:4 'my torah', where the word has its earlier sense 'instruction', stands pending a founder ruling on unification; genesis-woh 26:5 'my laws' (plural tôrōṯ) stands. The prophetic and wisdom senses ('teaching', 'instruction', e.g. Isa 1:10; 2:3; 42:4; Prov 1:8) are not decided by this entry.",
+      "claim_type": "direct",
+      "rationale": "*tôrâ*, from *yrh* (Hiphil 'point out, teach'), ranges from a parent's, priest's or prophet's instruction to a written body of law (BDB; HALOT; G. Liedke and C. Petersen, TLOT 3, 1997, s.v.). In Deuteronomy and the Deuteronomistic History it names the written law of Moses, the Deuteronomic book itself (Deut 1:5; 4:8, 44; 17:18-19; 31:9-12, 24-26; Josh 1:7-8; 1 Kgs 2:3; 2 Kgs 14:6; 22:8-11), and it stands in fixed series with *ḥuqqîm* 'statutes', *mišpāṭîm* 'ordinances' and *miṣwâ* 'commandment' (von Rad, Studies in Deuteronomy, 1953; Weinfeld, Deuteronomy and the Deuteronomic School, 1972). In that usage the ASV 'law' is accurate, and the Kings overlays (torah-law-deuteronomistic-kings) and this wave use it. Ex 24:12 belongs with these sites: the *tôrâ* there is something YHWH 'has written' and gives with the tablets of stone. exodus-woh renders *tôrâ* 'torah' at 13:9 and 16:4 without a glossary entry; in both verses the word has the earlier, broader sense 'instruction' (Propp, Exodus 1-18, AB 2, 1999), and the transliteration is defensible there. This entry records the sense-based rule so that the corpus has one decision instead of two book-level practices, keeps the signed-off exodus-woh lines unchanged, and leaves to the founder whether exodus-woh 13:9 and 16:4 should become 'law' or 'instruction' at the next Exodus pass. The Kings overlay entry torah-law-deuteronomistic-kings is subsumed by this entry and can be retired, or kept as a pointer, at the merge. The prophetic and sapiential uses are left to the books in which they occur.",
+      "appliesTo": [
+        "EXO-WOH-13:9",
+        "EXO-WOH-16:4",
+        "1KI-WOH-2:3",
+        "2KI-WOH-17:13",
+        "2KI-WOH-17:34",
+        "2KI-WOH-17:37",
+        "EXO-WOH-24:12",
+        "DEU-WOH-4:8",
+        "DEU-WOH-4:44"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "nechoshet-bronze-copper-alloy-cross-corpus",
+    "entry": {
+      "id": "nechoshet-bronze-copper-alloy-cross-corpus",
+      "source": "נְחֹשֶׁת",
+      "translit": "nəḥōšeṯ",
+      "strongs": "H5178",
+      "partOfSpeech": "noun f., the metal copper and its tin alloy; cross-corpus (Exodus, Numbers, Kings, Prophets)",
+      "literal": "copper / bronze",
+      "standardEnglish": "brass (ASV, KJV); bronze (NRSV); copper (NJPS in places)",
+      "wohChoice": "'bronze': 'gold, and silver, and bronze' (Ex 25:3); 'a serpent of bronze' (Num 21:9, twice); 'the bronze altar' (1 Kgs 8:64, signed off). 'Copper' may be used by context where the raw metal or ore is meant (Deut 8:9).",
+      "claim_type": "direct",
+      "rationale": "*nəḥōšeṯ* denotes copper and its alloy with tin, bronze, which was the common worked metal of the Late Bronze and Iron Age Levant; brass, the alloy of copper and zinc, came into general use only in the Roman period (P. R. S. Moorey, Ancient Mesopotamian Materials and Industries, 1994; HALOT). The ASV and KJV 'brass' reflects older English usage, in which 'brass' could name any copper alloy (OED s.v. brass, 1), but for a modern reader it names the wrong metal. NRSV renders 'bronze' throughout, and the signed-off 1-kings-woh 8:64 already prints 'the bronze altar', so the corpus has adopted 'bronze' in practice; this entry records the decision and applies it to the Torah sites of wave T1. In Num 21:9 the Hebrew plays on *nāḥāš* 'serpent' and *nəḥōšeṯ*, and the commentary gives the wordplay (cf. Nechushtan, 2 Kgs 18:4). The Raëlian canon quotes Ex 25:3 and Num 21:9 in the ASV wording ('brass', 'serpent of brass', French *airain*); the canon's wording is recorded in the reception notes, and the line renders the metal. The decision is lexical and carries no interpretive content.",
+      "appliesTo": [
+        "1KI-WOH-8:64",
+        "EXO-WOH-25:3",
+        "NUM-WOH-21:9"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "tabnit-pattern-model-cross-corpus",
+    "entry": {
+      "id": "tabnit-pattern-model-cross-corpus",
+      "source": "תַּבְנִית",
+      "translit": "taḇnîṯ",
+      "strongs": "H8403",
+      "partOfSpeech": "noun f., from bnh 'build'; cross-corpus (Exodus, Deuteronomy, Kings, Chronicles, Ezekiel, Psalms)",
+      "literal": "pattern, model, plan; form, shape",
+      "standardEnglish": "pattern (ASV Ex 25:9, 40); likeness (ASV Deut 4:16-18); form (ASV Ezek 8:3, 10); model (NJPS 2 Kgs 16:10)",
+      "wohChoice": "'pattern' throughout: 'the pattern of the tabernacle and the pattern of all its furnishings' (Ex 25:9); 'after their pattern' (Ex 25:40); 'the pattern of male or female ... the pattern of any beast ... the pattern of any winged bird ... the pattern of anything that creeps ... the pattern of any fish' (Deut 4:16-18); the Ezekiel sites (8:3, 10; 10:8) under the ezekiel-woh overlay entry tabnit-toknit-tekhunah-pattern-plan-arrangement-ezekiel, which keeps toḵnîṯ 'plan' (43:10) and təḵûnâ 'arrangement' (43:11) distinct",
+      "claim_type": "direct",
+      "rationale": "*taḇnîṯ* is formed from *bnh* 'build' and denotes the pattern or model after which something is made (Ex 25:9, 40; 2 Kgs 16:10; 1 Chr 28:11-19), and by extension the form or shape of a thing (Deut 4:16-18; Ezek 8:3, 10; 10:8; Ps 106:20) (BDB; HALOT; Hurowitz, I Have Built You an Exalted House, 1992). The ASV uses three English words for it ('pattern', 'likeness', 'form'), and in Deut 4 its 'likeness' collides with the central pesel-utemunah entry, which renders *təmûnâ* 'likeness'. A single English word keeps the noun visible: Deut 4:16-18 lists the forms that may not be made, and Ezek 8:10 (*kol-taḇnîṯ remeś ûḇəhēmâ*) takes up that very list, an allusion that is lost if the two passages use different words. 'Pattern' is the ASV word at the sanctuary sites and the rendering the signed-off ezekiel-woh 10:8 and the ezekiel-woh wave E2 already use for creature-forms ('the pattern of a hand', 'every pattern of creeping thing'), so it is adopted corpus-wide. In Deut 4 the resulting set is *pesel* 'carved image', *təmûnâ* 'likeness', *semel* 'figure', *taḇnîṯ* 'pattern'. The decision is lexical. The Raëlian canon's reading of the sanctuary as a residence built to the creators' plans is confined to labelled reception notes.",
+      "appliesTo": [
+        "EXO-WOH-25:9",
+        "EXO-WOH-25:40",
+        "DEU-WOH-4:16",
+        "DEU-WOH-4:17",
+        "DEU-WOH-4:18"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "aseret-ha-dvarim-decalogue-enumeration-jewish-vs-augustinian-orthodox-cross-corpus",
+    "changes": {
+      "wohChoice": "the Decalogue enumeration is preserved per the Hebrew Masoretic convention (Jewish enumeration): the *Anokhi YHWH* prologue at Ex 20:2 is the First Word; the no-other-elohim + image-prohibition (vv 3-6) together are the Second Word; the name-in-vain (v 7) is the Third Word; the Sabbath (vv 8-11) is the Fourth Word; honor-parents (v 12) is the Fifth Word; murder, adultery, theft, false-witness (v 13) are the Sixth-Seventh-Eighth-Ninth Words; coveting (v 14) is the Tenth Word, as a single single-issue commandment.; the phrase ʿăśereṯ hadḏəḇārîm (Deut 4:13; 10:4; Ex 34:28) is rendered 'the ten words' (ASV 'the ten commandments'), consistent with the 'First Word' ... 'Tenth Word' enumeration",
+      "rationale": "**The Decalogue's enumeration is one of the most-documented sites of cross-traditional divergence in Western religious history.** Three major enumeration-conventions are attested:\n\n**(a) Jewish (Talmudic-Masoretic) enumeration.** The *Anokhi YHWH* prologue at Ex 20:2 is the First Word (the divine self-identification is itself a commandment — the commandment to recognize YHWH as the Elohim who brought Israel out of Egypt). The no-other-elohim prohibition + the image-prohibition (vv 3-6) together are the Second Word. The name-in-vain prohibition (v 7) is the Third. The Sabbath (vv 8-11) is the Fourth. Honor-parents (v 12) is the Fifth. Murder, adultery, theft, false-witness (v 13 in MT verse-numbering, split into vv 13/14/15/16 in English-translation verse-numbering) are the Sixth, Seventh, Eighth, Ninth. Coveting (v 14 in MT / v 17 in English) is the Tenth, as a single coveting-commandment covering both house and wife and possessions together. This enumeration is attested at b. Mak. 23b-24a; Mekhilta de-Rabbi Ishmael, Bahodesh 8; Maimonides *Mishneh Torah*, Sefer ha-Mitzvot, positive 1 and negative 1-2; the Targum traditions. The Jewish enumeration preserves the *Anokhi YHWH* as a *dibber* (Word) in its own right, on the rabbinic principle that the self-identification of YHWH is itself a commandment of recognition.\n\n**(b) Augustinian / Catholic / Lutheran enumeration.** Following Augustine's *Quaestiones in Heptateuchum* on Exodus, the Augustinian tradition takes verse 2 as a prologue (not a commandment in its own right); the no-other-elohim prohibition + the image-prohibition (vv 3-6) together as the First Commandment; the name-in-vain (v 7) as the Second; the Sabbath (vv 8-11) as the Third; honor-parents (v 12) as the Fourth; murder (v 13a) as the Fifth; adultery (v 13b) as the Sixth; theft (v 13c) as the Seventh; false-witness (v 13d) as the Eighth; coveting-the-neighbor's-wife (v 14a) as the Ninth; coveting-the-neighbor's-house/property (v 14b) as the Tenth. The coveting is thus split into two commandments to preserve the count at Ten despite combining the no-other-gods and the image-prohibition. The Augustinian enumeration is preserved in the Catholic Catechism, the Lutheran Small Catechism, and the broader Western-Latin Christian tradition.\n\n**(c) Orthodox / Reformed (Calvinist) enumeration.** Following the Greek patristic tradition (especially Philo of Alexandria's *De Decalogo* and Origen) and the Reformed Christian tradition (Calvin, the Westminster Larger Catechism), this enumeration takes verse 2 as a prologue; the no-other-elohim prohibition (v 3) as the First Commandment; the image-prohibition (vv 4-6) as the Second; the name-in-vain (v 7) as the Third; the Sabbath (vv 8-11) as the Fourth; honor-parents (v 12) as the Fifth; murder (v 13a) as the Sixth; adultery (v 13b) as the Seventh; theft (v 13c) as the Eighth; false-witness (v 13d) as the Ninth; coveting (v 14, all of it together) as the Tenth. The image-prohibition stands alone as a distinct commandment; the coveting stands alone as a single commandment.\n\n**The WoH-Translation preserves the Jewish (Hebrew Masoretic) enumeration** per the source-text. The Hebrew Masoretic *parashah* divisions at Ex 20 mark the major caesuras consistent with the Jewish enumeration: a *setumah* (closed paragraph) division after v 2 marks the Anokhi YHWH self-identification; another *setumah* after v 6 marks the close of the no-other-elohim + image-prohibition combination; another *setumah* after v 7; another after v 11; another after v 12; another after v 13 (which is treated as a single verse containing the four short prohibitions); and a *petuchah* (open paragraph) after v 14. The Masoretic *parashah* divisions are themselves an early-medieval scholarly preservation tradition; they correspond closely with the Talmudic Jewish enumeration. **The WoH-Translation does NOT adjudicate between the Augustinian/Orthodox/Reformed enumerations of the Christian traditions; it documents them in the apparatus and preserves the Jewish enumeration on the surface per the source-text Masoretic convention.**\n\n**Named scholarship.** B. S. Childs, *The Book of Exodus* (OTL, Westminster 1974) ad loc., for the form-critical and tradition-historical treatment; W. H. C. Propp, *Exodus 19-40* (Anchor Bible 2A, Doubleday 2006) ad loc.; N. M. Sarna, *Exodus* (JPS Torah Commentary 1991) ad loc.; U. Cassuto, *Commentary on the Book of Exodus* (Magnes 1967) ad loc.; M. Weinfeld, *The Decalogue and the Recitation of \"Shema\"* (Magnes 2001), the standard recent treatment; A. Phillips, *Ancient Israel's Criminal Law: A New Approach to the Decalogue* (Schocken 1970); J. J. Stamm and M. E. Andrew, *The Ten Commandments in Recent Research* (Allenson 1967); R. Y. Z. Werblowsky, 'Tradition and Innovation: The Decalogue', in *Judaism and Christianity in the First Century* (1992); M. Greenberg, 'The Decalogue Tradition Critically Reexamined', in *Studies in the Bible and Jewish Thought* (JPS 1995); D. Patrick, *Old Testament Law* (John Knox 1985), 35-62 on the Decalogue. For the enumeration disputes specifically: J. M. Bover, 'Las diversas enumeraciones del decálogo', *Estudios Bíblicos* 1 (1942); J. Sailhamer, *The Pentateuch as Narrative* (Zondervan 1992), 282-289. For the Augustinian tradition: Augustine, *Quaestiones in Heptateuchum* II.71. For the Reformed tradition: J. Calvin, *Institutes* II.8.8-12.\n\n**Bidirectional cross-corpus wiring.** Cluster with new central entries `anokhi-YHWH-divine-self-identification-formula-cross-corpus`, `elohim-aherim-other-gods-monolatry-vs-monotheism-scholarly-dispute-cross-corpus`, `pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus`, `shem-YHWH-lashav-name-of-YHWH-in-vain-cross-corpus`, `shabbat-creation-grounding-vs-exodus-grounding-deuteronomic-variant-cross-corpus`, `sinai-theophany-ex-19-elohim-craft-descent-disavowals-volcanic-hypothesis-cross-corpus`. Cluster with existing entries `elohim-as-translation`, `chesed-solitary-covenant-kindness`.\n\n**Lens-discipline operational disavowals.** (i) **No Christian-supersessionist 'the Decalogue is the moral-natural-law preserved while the rest of Mosaic Law is abrogated' pre-resolution.** The threefold Mosaic-law division (moral / ceremonial / civil) is a medieval-Christian theological scheme that the WoH-Translation does NOT pre-resolve onto the Hebrew text. (ii) **No 'Decalogue = engineered behavioral-control protocol' Sitchin / Raëlian-canon reading.** The popular-fringe readings of the Decalogue as an Anunnaki / Elohim behavioral-engineering protocol are acknowledged as documented popular-fringe positions that the WoH-Translation does not endorse. (iii) **No adjudication among the three enumeration-conventions.** The WoH-Translation preserves the Jewish-Masoretic enumeration on the surface per the source-text; the Augustinian / Catholic / Lutheran and Orthodox / Reformed enumerations are documented in this glossary entry without adjudication. (iv) **The *Anokhi YHWH* at Ex 20:2 is treated in the surface translation as the prologue-and-First-Word per Jewish convention, with the apparatus documenting the Augustinian-Reformed prologue-only reading.** // **The phrase 'the ten words' (Torah wave T1).** The Hebrew name of the Decalogue is *ʿăśereṯ hadḏəḇārîm* 'the ten words' (Ex 34:28; Deut 4:13; 10:4), from which the Greek *dekalogos* is formed; the ASV's 'the ten commandments' interprets *dəḇārîm* as commands. Since this entry already names the units 'Words', Deut 4:13 renders the phrase 'the ten words', in lower case like the ASV's phrase.",
+      "appliesTo": [
+        "EXO-WOH-20:1",
+        "EXO-WOH-20:2",
+        "EXO-WOH-20:3",
+        "EXO-WOH-20:4",
+        "EXO-WOH-20:5",
+        "EXO-WOH-20:6",
+        "EXO-WOH-20:7",
+        "EXO-WOH-20:8",
+        "EXO-WOH-20:9",
+        "EXO-WOH-20:10",
+        "EXO-WOH-20:11",
+        "EXO-WOH-20:12",
+        "EXO-WOH-20:13",
+        "EXO-WOH-20:14",
+        "DEU-WOH-4:13"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:13"
+    ],
+    "reason": "Extends the entry to the name of the Decalogue (wohChoice and rationale appended). appliesTo +1 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:13."
+  },
+  {
+    "op": "modify",
+    "id": "eben-sapir-kisse",
+    "changes": {
+      "rationale": "*Eben sappir* — *sapphire stone* — appears in the Hebrew Bible at Ex 24:10 (Moses and the seventy elders see at Sinai: *and there was under his feet as it were a paved work of sapphire stone, and as it were the very heaven for clearness*), Ezek 1:26, Ezek 10:1, and the closely-related stone in the high-priest's breastplate (Ex 28:18, 39:11). The Hebrew *sappir* may refer to *sapphire* (modern gemological identification) or to *lapis lazuli* (the deep-blue stone widely used in ANE iconography for divine-throne platforms — Mesopotamian, Egyptian, and Levantine art alike). // *Demut kisse* — *the likeness of a throne*. Ezekiel uses *demut* (likeness) rather than direct identification. The chapter is reusing the Sinai-theophany vocabulary: at Sinai, the elders saw blue-stone-platform *under his feet*; at the Kebar canal, Ezekiel sees blue-stone-throne *above the dome*. The structural parallel is part of the chapter's claim about what Ezekiel is seeing: the same kind of phenomenon as the Sinai theophany, but in exile, by a canal, in Babylonia. // **Correction (v2.84.0, Torah wave T1).** The sentence above that lists Ex 24:10 among the occurrences of *eben sappir* is inexact: Ex 24:10 has *liḇnaṯ hassappîr* 'a pavement (tilework) of sapphire', without *ʾeḇen*, and the ASV's 'sapphire stone' there supplies the noun. The Sinai parallel the entry draws stands, but the phrase *ʾeḇen sappîr* belongs to Ezek 1:26 and 10:1 (and the breastplate stone of Ex 28:18; 39:11). exodus-woh 24:10 renders 'a paved work of sapphire' under the exodus-woh overlay entry livnat-hassappir-pavement-of-sapphire-exodus-24-10."
+    },
+    "reason": "Factual correction appended to the rationale; wohChoice and appliesTo unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "changes": {
+      "wohChoice": "land. Context clause (ezekiel-woh wave E2): 'ground' where ʾereṣ is the ground level of a structure from which a height is measured (Ezek 42:6 mēhāʾāreṣ 'from the ground'; 43:14 mēḥêq hāʾāreṣ 'from the bottom on the ground'). Cosmic context clause (Torah wave T1): 'earth' where ʾereṣ is the cosmic level of the world, paired with šāmayim or with the waters below (Deut 4:17, 18, 26, 32, 36, 39; exodus-woh 20:4, 11), with 'land' kept for territory (Deut 4:1, 5, 14, 21-22, 25, 38, 43, 46-47; Num 21, 33 passim).",
+      "rationale": "אֶרֶץ in Hebrew covers a spectrum from 'patch of ground' to 'inhabited territory' to 'the whole inhabited world'. The capital-E 'Earth' (the planet) is a 17th-century-onwards English meaning that has no clean Hebrew equivalent. In Gen 1, אֶרֶץ is paired with שָׁמַיִם — they're a hendiadys for 'the whole physical setting'. 'Land' preserves the Hebrew register; 'earth' (lowercase, when the meaning is the dry ground as opposed to seas) is acceptable in some verses, but the default WoH choice is 'land'. Where the verse explicitly contrasts 'land' (dry) with 'seas' (water) (e.g. v10), 'land' is the more accurate choice anyway.\n\n**Cross-corpus back-reference (Flood Story Editor pass, 2026-06).** The Hebrew *eretz* / *ha-aretz* is in cross-corpus cluster with the Sumerian *kalam* / *ka-na-aĝ2* — see the existing central entry `kalam-ka-na-ag-the-land-cross-corpus` (established at the Enki and Ninmaḫ Editor pass).\n\n**Architectural context clause (ezekiel-woh wave E2, 2026-11).** In Ezekiel's measurements ʾereṣ twice denotes the ground level of a building or altar from which heights are reckoned (42:6, of the stories of the priests' chambers; 43:14, of the base of the altar). Neither 'land' nor 'earth' gives the sense, and the ASV, NRSV and NJPS all have 'ground'. The clause is lexical (BDB s.v. ʾereṣ, 'ground, surface of the ground') and does not change the default 'land', which governs the other Ezekiel sites of this wave (8:3, 12, 17; 11:15; 40:2; 43:2). // **Cosmic context clause (Torah wave T1, 2026-11).** Outside Gen 1, where the pair is the decision of that chapter ('the skies and the land'), the corpus already renders *ʾereṣ* 'earth' where it stands for the lower level of the cosmos: exodus-woh 20:4 'in the earth beneath ... in the waters beneath the earth' and 20:11 'the heavens and the earth' (signed off), and 1-kings-woh 8:23, 27 'on the earth beneath' / 'dwell on the earth'. Deut 4 uses the same cosmology (the beast 'on the earth', the fish 'in the water beneath the earth', the heavens and the earth as witnesses, YHWH 'in the heavens above and on the earth beneath'), and the clause makes that existing practice explicit. The territorial sense keeps the default 'land'. The noun *ʾăḏāmâ* is not governed by this entry (see the exodus-woh and deuteronomy-woh overlay entry adamah-earth-land-ground-scope-torah).",
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:30",
+        "1KI-WOH-22:36",
+        "1KI-WOH-22:47",
+        "1KI-WOH-6:1",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:37",
+        "1KI-WOH-8:41",
+        "1KI-WOH-8:46",
+        "1KI-WOH-8:47",
+        "1KI-WOH-8:48",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:5",
+        "2KI-WOH-17:7",
+        "2KI-WOH-17:26",
+        "2KI-WOH-17:27",
+        "2KI-WOH-17:36",
+        "EZK-WOH-8:3",
+        "EZK-WOH-8:12",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:15",
+        "EZK-WOH-40:2",
+        "EZK-WOH-42:6",
+        "EZK-WOH-43:2",
+        "EZK-WOH-43:14",
+        "EXO-WOH-33:1",
+        "EXO-WOH-33:3",
+        "NUM-WOH-18:13",
+        "NUM-WOH-18:20",
+        "NUM-WOH-21:4",
+        "NUM-WOH-21:22",
+        "NUM-WOH-21:24",
+        "NUM-WOH-21:26",
+        "NUM-WOH-21:31",
+        "NUM-WOH-21:34",
+        "NUM-WOH-21:35",
+        "NUM-WOH-33:1",
+        "NUM-WOH-33:37",
+        "NUM-WOH-33:38",
+        "NUM-WOH-33:40",
+        "NUM-WOH-33:51",
+        "NUM-WOH-33:52",
+        "NUM-WOH-33:53",
+        "NUM-WOH-33:54",
+        "NUM-WOH-33:55",
+        "DEU-WOH-4:1",
+        "DEU-WOH-4:5",
+        "DEU-WOH-4:14",
+        "DEU-WOH-4:17",
+        "DEU-WOH-4:18",
+        "DEU-WOH-4:21",
+        "DEU-WOH-4:22",
+        "DEU-WOH-4:25",
+        "DEU-WOH-4:26",
+        "DEU-WOH-4:32",
+        "DEU-WOH-4:36",
+        "DEU-WOH-4:38",
+        "DEU-WOH-4:39",
+        "DEU-WOH-4:43",
+        "DEU-WOH-4:46",
+        "DEU-WOH-4:47"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-33:1",
+      "EXO-WOH-33:3",
+      "NUM-WOH-18:13",
+      "NUM-WOH-18:20",
+      "NUM-WOH-21:4",
+      "NUM-WOH-21:22",
+      "NUM-WOH-21:24",
+      "NUM-WOH-21:26",
+      "NUM-WOH-21:31",
+      "NUM-WOH-21:34",
+      "NUM-WOH-21:35",
+      "NUM-WOH-33:1",
+      "NUM-WOH-33:37",
+      "NUM-WOH-33:38",
+      "NUM-WOH-33:40",
+      "NUM-WOH-33:51",
+      "NUM-WOH-33:52",
+      "NUM-WOH-33:53",
+      "NUM-WOH-33:54",
+      "NUM-WOH-33:55",
+      "DEU-WOH-4:1",
+      "DEU-WOH-4:5",
+      "DEU-WOH-4:14",
+      "DEU-WOH-4:17",
+      "DEU-WOH-4:18",
+      "DEU-WOH-4:21",
+      "DEU-WOH-4:22",
+      "DEU-WOH-4:25",
+      "DEU-WOH-4:26",
+      "DEU-WOH-4:32",
+      "DEU-WOH-4:36",
+      "DEU-WOH-4:38",
+      "DEU-WOH-4:39",
+      "DEU-WOH-4:43",
+      "DEU-WOH-4:46",
+      "DEU-WOH-4:47"
+    ],
+    "reason": "Adds a cosmic context clause (wohChoice and rationale appended) describing existing exodus-woh and Kings practice; the default 'land' is unchanged. appliesTo +36 (Torah wave T1 sites where the entry governs the line): EXO-WOH-33:1, EXO-WOH-33:3, NUM-WOH-18:13, NUM-WOH-18:20, NUM-WOH-21:4, NUM-WOH-21:22, NUM-WOH-21:24, NUM-WOH-21:26, NUM-WOH-21:31, NUM-WOH-21:34, NUM-WOH-21:35, NUM-WOH-33:1, NUM-WOH-33:37, NUM-WOH-33:38, NUM-WOH-33:40, NUM-WOH-33:51, NUM-WOH-33:52, NUM-WOH-33:53, NUM-WOH-33:54, NUM-WOH-33:55, DEU-WOH-4:1, DEU-WOH-4:5, DEU-WOH-4:14, DEU-WOH-4:17, DEU-WOH-4:18, DEU-WOH-4:21, DEU-WOH-4:22, DEU-WOH-4:25, DEU-WOH-4:26, DEU-WOH-4:32, DEU-WOH-4:36, DEU-WOH-4:38, DEU-WOH-4:39, DEU-WOH-4:43, DEU-WOH-4:46, DEU-WOH-4:47."
+  },
+  {
+    "op": "modify",
+    "id": "hishtachavah-bow-down-obeisance-worship",
+    "changes": {
+      "wohChoice": "made obeisance (ASV-baseline; applied consistently across the dream-and-fulfilment arc Gen 37:7, 9, 10 / 42:6 / forward 43:26, 28; 44:14; 50:18 — preserving the lexical-keyword across the cycle; the cross-corpus worship-and-prostration distribution documented in commentary). Torah clause (Torah wave T1): 'bow down' where the Hishtaphel describes prostration before YHWH or before other powers, including the Decalogue pair hištaḥăwâ + ʿāḇaḏ 'bow down ... serve' (exodus-woh 20:5, signed off; Ex 24:1 'and bow down from afar'; 33:10 'and bow down, each man at the entrance of his tent'; Deut 4:19 'and bow down to them and serve them'); 'made obeisance' stays for the Yosef cycle",
+      "rationale": "**The Hishtaphel of *chwh* (formerly mis-parsed as the Hithpael of *shachah*; HALOT and the modern Hebrew lexica register the corrected stem-analysis after the discovery of the Ugaritic *yštḥwy* parallel) is the standard HB worship/prostration/obeisance verb — hundreds of occurrences across the corpus, governing every standard prostration / worship / homage-to-superior scene. The Genesis-WoH translation deploys the verb at its Yosef-cycle dream-and-fulfilment-arc node: the sheaves dream at Gen 37:7 (*va-tishtachaveynah la-alumati*, 'and they made obeisance to my sheaf'), the sun-moon-and-stars dream at Gen 37:9 (*mishtachavim li*, 'making obeisance to me'), Ya'aqov's incredulous Gen 37:10 (*le-hishtachavot lekha artzah*, 'to bow down to thee to the earth'), and the first fulfilment at Gen 42:6 (*va-yishtachavu-lo apayim artzah*, 'and made obeisance to him with their faces to the earth') with the narrator's explicit dream-fulfilment-flag at v 9 (*va-yizkor Yosef et ha-chalomot asher chalam lahem*, 'and Yosef remembered the dreams which he dreamed of them'). The forward fulfilment-verses continue: Gen 43:26, 28; 44:14; 50:18.** // **Promotion-to-central history.** This entry was originally housed in the Genesis-WoH overlay as `hishtachavah-obeisance-yosef-dreams`, scoped to the Gen 37 dream-verses, with the explicit annotation: *strong promotion candidate; when the Yosef-cycle fulfilment-verses (Gen 42:6; 43:26 + 28; 44:14; 50:18) and the wider worship-corpus are in view, a central `hishtachavah-bow-down-obeisance-worship` entry should be created, with this Gen 37 entry as the dream-anchor sibling*. The promotion was scheduled to happen at the long-anticipated Gen 42:6 fulfilment-moment, and the v 2.42.0 Genesis 42 editorial pass executes that promotion: the overlay entry has been deprecated and removed; this central entry takes over the Gen 37 anchor-verses AND extends to Gen 42:6 (the first fulfilment) AND will extend forward to the Gen 43-50 fulfilment-verses when those chapters are translated. // **The lexeme.** The verb is the Hishtaphel (an old reflexive-causative stem, attested across Northwest Semitic; cf. Ugaritic *yštḥwy*) of the root *chwh* ('to bow down'). The stem-analysis matters because the former Hithpael-of-*shachah* parse generated the wrong morphological-history: the verb is not a Hithpael of a separate root but the Hishtaphel of a single Northwest Semitic *chwh*-root. HALOT s.v. *chwh* (Hishtaphel) records the corrected analysis; J. A. Emerton 'The Etymology of *hištaḥawāh*' OTS 20 (1977) 41-55 is the standard treatment. The verb means 'to bow oneself down, to prostrate oneself, to do homage/obeisance' — the full-body prostration of respect, submission, or worship. The form is reflexive-causative: the action of causing-oneself-to-bow-down. // **The semantic range.** The lexeme covers three distinguishable but overlapping registers: (i) **prostration before a human superior** — before a king, a powerful person, or one whose authority is being acknowledged (Gen 23:7, 12 — Avraham before the Hittites; Gen 27:29 — the brothers-shall-bow-down formula in Yitzchaq's blessing of Ya'aqov; Gen 33:3, 6, 7 — Ya'aqov, the wives, the children before Esav; Gen 37:7, 9, 10 — the Yosef-cycle dreams; Gen 42:6 the first fulfilment; many others); (ii) **prostration before the deity in worship** — the standard worship-verb (Gen 22:5 — Avraham at the Aqedah, *ve-nishtachaveh*, 'we will worship'; Gen 24:26, 48, 52 — Avraham's servant; Exod 4:31 — Mosheh and Aharon; the Pentateuchal cultic-instructional uses; the Psalmic worship-verses; etc.); (iii) **prostration before idols / other deities** — the standard prohibited-worship verb of the Decalogue and the prophetic indictments (Exod 20:5 — *lo tishtachaveh lahem*; Deut 5:9; the prophets' indictments of idolatry). The choice of register is context-determined; the lexeme itself does not discriminate. // **The dream-and-fulfilment-arc deployment in the Yosef cycle.** The verb is the structural keyword of the Yosef cycle: the brothers' obeisance-to-Yosef in the dreams of Gen 37 is fulfilled in the obeisance-to-Yosef as the Egyptian *shallit* at Gen 42:6, 43:26, 28; 44:14; 50:18. Each fulfilment-occurrence uses the same verb the dreams used. The narrator's explicit flag at Gen 42:9 (*va-yizkor Yosef et ha-chalomot*) makes the connection between dream and fulfilment textually unambiguous. The cycle's literary structure is built on the lexeme's recurrence: the brothers' refusal to acknowledge Yosef's lordship at Gen 37:8 (*ha-malokh timlokh aleinu im-mashol timshol banu* — 'shalt thou indeed reign over us, or shalt thou indeed have dominion over us?') is reversed by their unwitting submission at Gen 42:6 (the *apayim artzah* full-prostration). The cycle resolves the dispute about the dreams not by argument but by performance: the brothers bow. // **The *apayim artzah* full-prostration formula.** The Gen 42:6 verse adds the *apayim artzah* ('with their faces to the earth') intensifier — the standard full-prostration formula, distinct from a lesser bow. The formula recurs at Gen 19:1; 33:3; Num 22:31; 1 Sam 20:41; 24:8 [MT 24:9]; 25:23; 28:14; 2 Sam 9:6; 14:4, 22, 33; 18:28; 24:20; 1 Kgs 1:23, 31; 1 Chr 21:21; 2 Chr 7:3; 20:18 — always marking the most formal prostration, often before a king or the deity. // **Central housing.** **MANDATORY central** by (i) the lexeme's status as the corpus's standard worship/prostration verb (hundreds of occurrences, governing every standard prostration / worship / homage-to-superior scene); (ii) the load-bearing function in the Yosef cycle's structural dream-and-fulfilment arc (Gen 37:7, 9, 10 / 42:6 / 43:26, 28; 44:14; 50:18 — one of the corpus's tightest cross-chapter lexical-keyword arcs); (iii) the necessary single governing decision for the verb across all its registers (human-superior / deity-worship / idolatrous-worship) and across all its occurrences. *AppliesTo* is anchored at the Gen 37 dream-verses and the Gen 42:6 first fulfilment, with forward extension to Gen 43-50 fulfilment-verses and the wider corpus-worship/prostration scenes to be added when those texts are translated. // **The translation choice.** The WoH translation renders the ASV-baseline **'made obeisance to'** consistently across the dream-and-fulfilment-arc: 'made obeisance to my sheaf' (Gen 37:7); 'making obeisance to me' (Gen 37:9); 'to bow down to thee to the earth' (Gen 37:10); 'made obeisance to him with their faces to the earth' (Gen 42:6). The consistency-decision preserves the dream-fulfilment lexical-keyword across the cycle. The plainer 'bowed down' (NJPS, Alter) and the literal 'prostrated themselves' are noted as alternatives; the 'worshipped' rendering is reserved for the unambiguously cultic-deity registers elsewhere in the corpus (not the Gen 37-50 obeisance-to-Yosef scenes, which are homage-to-human-superior, not worship). // The claim_type is *direct* because (a) the verb is morphologically explicit (the Hishtaphel of *chwh*); (b) the lexeme's status as the corpus's standard prostration-and-worship verb is documented across HALOT, BDB, TDOT, NIDOTTE; (c) the Gen 37 dreams and the Gen 42:6 fulfilment use the same lexeme — the dream-and-fulfilment lexical structure is grammatically transparent; (d) the cross-corpus distribution is verifiable; (e) the 'made obeisance' rendering is the direct sense in the homage-to-superior register. The 'worship' overlap with the cultic register is documented but not adopted on the surface for the Yosef-cycle scenes (which are homage, not worship). Named scholarship only; no project synthesis. // **Scholarly literature.** HALOT s.v. *chwh* (Hishtaphel); BDB p. 1005 (s.v. *shachah*, with the now-superseded root-analysis); TDOT IV:248-256; NIDOTTE 2:42-44; J. A. Emerton 'The Etymology of *hištaḥawāh*' OTS 20 (1977) 41-55 (the Ugaritic *yštḥwy* analysis); Sarna *JPS Genesis* 1989 pp. 256, 290; Westermann *Genesis 37-50* 1986 pp. 37, 106-107; Alter *The Five Books of Moses* 2004 pp. 208, 242; on the verb as the structural keyword of the Yosef cycle: G. W. Coats *From Canaan to Egypt: Structural and Theological Context for the Joseph Story* CBQMS 4, 1976; on the Gen 37:8 / 42:6 reversal-structure: J. P. Fokkelman *Narrative Art in Genesis* SSN 17, 1975; on the prostration formula *apayim artzah*: M. I. Gruber *Aspects of Nonverbal Communication in the Ancient Near East* Studia Pohl 12, 1980.\n\n// **Gen 50:18 cycle-closing implicit-bowing extension.** *AppliesTo* extended to GEN-WOH-50:18 even though the surface lexeme there is *va-yippelu lefanav* ('they fell down before him') rather than the *hishtachavah*-form proper. The fall-down construction at v 18 is the cycle's narrative-closure of the Gen 37 sheaves-and-stars dream-fulfilment arc — the brothers' final prostration before Yosef after Ya'aqov's death. Named scholarship: Sarna *JPS Genesis* p. 351; Alter *Five Books of Moses* p. 299; Hamilton *NICOT Genesis 18-50* p. 699; Brueggemann *Genesis* IBC p. 376 (all reading v 18 as the narrative-completion of the dream-fulfilment-bowing-sequence even with the lexical shift). Including v 18 in the *appliesTo* preserves the lexical-keyword arc as a literary-observational matter; the rationale documents the lexical-shift explicitly. // **Torah clause (Torah wave T1).** The ASV renders the verb 'worship' at Ex 24:1; 33:10 and Deut 4:19, but 'bow down' at Ex 20:5, where exodus-woh (signed off) follows it. The verb denotes the bodily act of prostration in all these places (Gruber, Aspects of Nonverbal Communication in the Ancient Near East, 1980), and Deut 4:19 repeats the exact verb pair of Ex 20:5 (*hištaḥăwâ* + *ʿāḇaḏ*), so the Torah volumes use 'bow down' consistently and let the context show whether the prostration is worship. The register of the Yosef cycle ('made obeisance') is unchanged.",
+      "appliesTo": [
+        "GEN-WOH-37:7",
+        "GEN-WOH-37:9",
+        "GEN-WOH-37:10",
+        "GEN-WOH-42:6",
+        "GEN-WOH-43:26",
+        "GEN-WOH-43:28",
+        "GEN-WOH-44:14",
+        "GEN-WOH-47:31",
+        "GEN-WOH-48:12",
+        "GEN-WOH-49:8",
+        "GEN-WOH-50:18",
+        "EXO-WOH-24:1",
+        "EXO-WOH-33:10",
+        "DEU-WOH-4:19"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:1",
+      "EXO-WOH-33:10",
+      "DEU-WOH-4:19"
+    ],
+    "reason": "Adds a Torah clause (wohChoice and rationale appended); the Genesis rendering is unchanged. appliesTo +3 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:1, EXO-WOH-33:10, DEU-WOH-4:19."
+  },
+  {
+    "op": "modify",
+    "id": "mitsrayim",
+    "changes": {
+      "rationale": "מִצְרַיִם is the Hebrew Bible's name for Egypt. The form is grammatically dual (*-ayim* ending), traditionally read as referring to the political duality of Upper and Lower Egypt (the two ancient kingdoms united in the Old Kingdom). Etymologically it may be cognate with Akkadian *Musur* and ultimately of unknown origin. The standard English 'Egypt' comes through Greek Αἴγυπτος (likely from the Memphite *Hwt-ka-Ptah*, 'mansion of the soul of Ptah'), an entirely unrelated naming-tradition. The WoH Translation preserves the Hebrew name *Mitsrayim* (matching the project's convention for proper names — Shet rather than Seth, Chavvah rather than Eve, Yapheth rather than Japheth) and uses the gentilic 'Mitsri' for citizens. Where context requires modern clarity, 'Egypt' may be glossed in commentary; the text uses the Hebrew form. Reclassified from `direct` to `inferred` because the choice between *Mitsrayim* and *Egypt* is a transliteration-vs.-traditional-English call, not a directly-attested rendering. // **Corpus note (Torah wave T1, 2026-11).** Usage across the corpus differs on two points. (1) Gentilic: genesis-woh prints 'the Mitsrim' (50:11), but exodus-woh (signed off) renders *miṣrayim* construed as the population 'the Egyptians' (3:9; 14:4, 9-10, 12-13, 17-18, 23-27, 30), and numbers-woh follows exodus-woh (Num 33:3-4); the country name stays 'Mitsrayim' in all Torah volumes. (2) Spelling: the 1-2 Kings overlays write 'Mitzrayim' under their tz rule for tsade (ratified 2026-11-01), while the Torah volumes keep this entry's 'Mitsrayim'. Both points are recorded for a founder decision; any normalization is a separate mechanical pass.",
+      "appliesTo": [
+        "GEN-10:6",
+        "GEN-10:13",
+        "GEN-WOH-50:3",
+        "GEN-WOH-50:7",
+        "GEN-WOH-50:11",
+        "GEN-WOH-50:14",
+        "GEN-WOH-50:22",
+        "GEN-WOH-50:26",
+        "EXO-WOH-33:1",
+        "NUM-WOH-21:5",
+        "NUM-WOH-33:1",
+        "NUM-WOH-33:3",
+        "NUM-WOH-33:4",
+        "NUM-WOH-33:38",
+        "DEU-WOH-4:20",
+        "DEU-WOH-4:34",
+        "DEU-WOH-4:37",
+        "DEU-WOH-4:45",
+        "DEU-WOH-4:46"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-33:1",
+      "NUM-WOH-21:5",
+      "NUM-WOH-33:1",
+      "NUM-WOH-33:3",
+      "NUM-WOH-33:4",
+      "NUM-WOH-33:38",
+      "DEU-WOH-4:20",
+      "DEU-WOH-4:34",
+      "DEU-WOH-4:37",
+      "DEU-WOH-4:45",
+      "DEU-WOH-4:46"
+    ],
+    "reason": "Corpus note appended to the rationale recording the gentilic and spelling variants; wohChoice unchanged. appliesTo +11 (Torah wave T1 sites where the entry governs the line): EXO-WOH-33:1, NUM-WOH-21:5, NUM-WOH-33:1, NUM-WOH-33:3, NUM-WOH-33:4, NUM-WOH-33:38, DEU-WOH-4:20, DEU-WOH-4:34, DEU-WOH-4:37, DEU-WOH-4:45, DEU-WOH-4:46."
+  },
+  {
+    "op": "modify",
+    "id": "nishba-la-avraham-le-yitzchaq-u-le-yaaqov-patriarchal-oath-triple-formula-cross-corpus",
+    "changes": {
+      "wohChoice": "which he sware to Avraham, to Yitzchaq, and to Ya'aqov (ASV-baseline preserving the formal-oath register; the three patriarchal proper-names in WoH-transliteration; cross-corpus reach to Exod 33:1 + Deut saturation + Joshua + prophets documented in commentary; STRICT operational disavowals on the lens-axis applied); in the modern-register books the verb is 'swore' ('which I swore to Avraham, to Yitzchaq, and to Ya'aqov', exodus-woh 33:1)",
+      "appliesTo": [
+        "GEN-WOH-50:24",
+        "EXO-WOH-33:1"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-33:1"
+    ],
+    "reason": "Records the modern-register verb form at the Exodus site the rationale already names. appliesTo +1 (Torah wave T1 sites where the entry governs the line): EXO-WOH-33:1."
+  },
+  {
+    "op": "modify",
+    "id": "qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus",
+    "changes": {
+      "wohChoice": "ḥaṭṭāʾṯ 'sin-offering'; ʾāšām as a cultic noun 'guilt-offering'; minḥâ in a list of cultic offerings 'meal-offering' (the generic 'offering, gift, tribute' sense stays under minchah-shaah and minchah-tribute-gift-of-appeasement); šəlāmîm 'peace-offerings'; zeḇaḥ 'sacrifice'; qorbān 'offering'; tərûmâ 'oblation' throughout the corpus (the Ezekiel usage, including the land allotment of Ezek 45 and 48; the Torah, Ex 25:2-3 and Num 18 passim, ruled at the Torah wave T1 review), with the verb hērîm 'set apart' where its object is a tərûmâ or a portion taken from a larger whole (Num 18:19, 24, 26, 28-30, 32; ASV 'heave', 'offer'); tənûp̄â 'wave-offering' (ASV) is kept; zāraq dām 'dash blood'; kippēr 'make atonement'; ḥiṭṭēʾ 'cleanse'; ṭihar 'purify'; millēʾ yāḏ 'consecrate', with the literal 'fill the hand' given in commentary. Compound offering names are hyphenated, as in olah-burnt-offering ('burnt-offering').",
+      "rationale": "The sacrificial terms of the Priestly code recur in Exodus, Leviticus, Numbers, Kings, Ezekiel and the Prophets. Ezek 40-46 uses almost the whole set in lists (40:39; 42:13; 44:29), so one decision should govern the corpus. The baseline is the ASV, whose terms the corpus already uses: 'burnt-offering' (central olah-burnt-offering), 'peace-offerings' (Ex 20:21 MT = 20:24 ET; 1 Kgs 8:63-64) and 'meal-offering' (1 Kgs 8:64). // Two ASV renderings are replaced by those of current versions. (1) For the cultic noun ʾāšām, 'guilt-offering' (NRSV, NJPS) replaces 'trespass-offering'; isaiah-woh already has 'guilt-offering' at Isa 53:10 under central ashem-asham-guilt-bearing-vocabulary, whose rationale names the sacrificial sense. (2) zāraq is to throw or dash liquid from a basin (mizrāq) against the altar (Ex 29:16, 20; Lev 1:5, 11). Sprinkling is a different act, hizzâ with the finger (Lev 4:6, 17; 16:14), and the Priestly ritual keeps the two apart (Milgrom, Leviticus 1-16, AB 3, 1991). The ASV 'sprinkle' for zāraq erases that distinction, so 'dash' (NRSV, NJPS) is used. // Milgrom's 'purification offering' for ḥaṭṭāʾṯ and 'reparation offering' for ʾāšām are widely discussed and recorded in commentary, but they are not adopted. The traditional terms are used by most versions, and 'sin-offering' keeps the link to the root ḥṭʾ 'sin', from which ḥaṭṭāʾṯ and the verb ḥiṭṭēʾ 'cleanse (from sin)' are formed. qorbān ('what is brought near', from qrb) is rendered 'offering' and tərûmâ ('what is lifted off', from rwm) keeps 'oblation', so that the ASV's single word 'oblation' no longer covers two lexemes. millēʾ yāḏ 'fill the hand' is the installation idiom (Ex 28:41; 29:9; Judg 17:5, 12), applied to the altar at Ezek 43:26 and rendered by its sense, 'consecrate', as in the ASV. // The decisions are lexical. The Raëlian canon's reading of the priestly dues of Ezek 44 as provisions for the creators (The Book Which Tells the Truth, ch. 3) is confined to labelled reception notes. // **Central housing.** The cluster is cross-corpus (Torah, Kings, Prophets, Psalms). The claim_type is direct because each rendering is either the ASV's or that of the main current versions. // **Torah review (Torah wave T1, Ex 25; Num 18).** The review of the Torah's *tərûmâ* that this entry reserved has been carried out on the first Torah sites. The ASV has 'offering' at Ex 25:2-3 and 'heave-offering' throughout Num 18, a rendering that rests on the rabbinic explanation of the *tərûmâ* by a lifting or heaving gesture; the texts describe no such rite, and the noun denotes a portion lifted off, i.e. set apart, from a larger whole for YHWH and then assigned to the sanctuary or the priests (Milgrom, 'The Šôq hattĕrûmâ', in Studies in Cultic Theology and Terminology, 1983; Milgrom, Numbers, JPS, 1990, excursus on the *tərûmâ*; NJPS 'gifts', 'contribution'). 'Oblation' gives that sense, is already the corpus term in Ezekiel, and keeps *tərûmâ* distinct from *qorbān* 'offering' at Num 18:9, where the ASV's 'oblation' for *qorbān* would otherwise have reappeared. The verb *hērîm* with a *tərûmâ* or a share as its object is rendered 'set apart' (NJPS 'set aside'), replacing the ASV 'heave' and 'offer'. *tənûp̄â* (Num 18:11, 18) keeps the ASV 'wave-offering'; Milgrom's 'elevation offering' is recorded in commentary. Leviticus and the remaining Torah sites follow this ruling.",
+      "appliesTo": [
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-40:43",
+        "EZK-WOH-42:13",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:19",
+        "EZK-WOH-43:20",
+        "EZK-WOH-43:21",
+        "EZK-WOH-43:22",
+        "EZK-WOH-43:23",
+        "EZK-WOH-43:25",
+        "EZK-WOH-43:26",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "EZK-WOH-44:27",
+        "EZK-WOH-44:29",
+        "EZK-WOH-44:30",
+        "EXO-WOH-20:21",
+        "1KI-WOH-8:63",
+        "1KI-WOH-8:64",
+        "EXO-WOH-24:5",
+        "EXO-WOH-24:6",
+        "EXO-WOH-24:8",
+        "EXO-WOH-25:2",
+        "EXO-WOH-25:3",
+        "NUM-WOH-18:8",
+        "NUM-WOH-18:9",
+        "NUM-WOH-18:11",
+        "NUM-WOH-18:17",
+        "NUM-WOH-18:19",
+        "NUM-WOH-18:24",
+        "NUM-WOH-18:26",
+        "NUM-WOH-18:27",
+        "NUM-WOH-18:28",
+        "NUM-WOH-18:29",
+        "NUM-WOH-18:30",
+        "NUM-WOH-18:32"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:5",
+      "EXO-WOH-24:6",
+      "EXO-WOH-24:8",
+      "EXO-WOH-25:2",
+      "EXO-WOH-25:3",
+      "NUM-WOH-18:8",
+      "NUM-WOH-18:9",
+      "NUM-WOH-18:11",
+      "NUM-WOH-18:17",
+      "NUM-WOH-18:19",
+      "NUM-WOH-18:24",
+      "NUM-WOH-18:26",
+      "NUM-WOH-18:27",
+      "NUM-WOH-18:28",
+      "NUM-WOH-18:29",
+      "NUM-WOH-18:30",
+      "NUM-WOH-18:32"
+    ],
+    "reason": "Resolves the deferred clause of the wohChoice ('the Torah's tərûmâ to be reviewed when Leviticus and Numbers are translated') with the Torah ruling and adds the verb rule; the Ezekiel rendering 'oblation' is unchanged, so no shipped line changes. appliesTo +17 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:5, EXO-WOH-24:6, EXO-WOH-24:8, EXO-WOH-25:2, EXO-WOH-25:3, NUM-WOH-18:8, NUM-WOH-18:9, NUM-WOH-18:11, NUM-WOH-18:17, NUM-WOH-18:19, NUM-WOH-18:24, NUM-WOH-18:26, NUM-WOH-18:27, NUM-WOH-18:28, NUM-WOH-18:29, NUM-WOH-18:30, NUM-WOH-18:32."
+  },
+  {
+    "op": "modify",
+    "id": "shamayim",
+    "changes": {
+      "rationale": "שָׁמַיִם has a plural form with a dual-like vocalization (-ayim); most grammars treat it, like *mayim* 'water', as a plural (plurale tantum), not a true dual (HALOT; the standard grammars), and Hebrew has no singular form for sky/heaven. **Correction (v2.78.0, Kings wave A editor pass):** earlier versions of this rationale called the word 'grammatically dual'; the decision does not depend on that claim. Rendering as singular 'heaven' (as KJV/ASV do) imports a later theological 'heaven-the-realm' concept onto a word that in narrative means 'the sky/skies' in the physical sense, though it also names the dwelling of YHWH (e.g., 1 Kgs 8:30). 'Skies' is closer to the cosmological register Gen 1 actually operates in and keeps the plural form visible. Where the text demands a more numinous register (e.g. כֹּכְבֵי הַשָּׁמַיִם 'stars of the skies'), the rendering scales accordingly. **Corpus note (ratified at human sign-off, 2026-11-01).** The rendering scales with register, as the clause above allows: the physical sky is 'skies' (Gen 1; 'the skies grew black', 1 Kgs 18:45; fire 'from the skies', 2 Kgs 1:10, 12, 14), and where *šāmayim* names the dwelling or realm of YHWH the corpus uses 'heaven(s)' — genesis-woh does so deliberately at some fourteen sites (e.g. Gen 22:11; 28:12), and Eliyahu's ascent at 2 Kgs 2:1, 11 is 'to the heavens'. exodus-woh's 'heavens' at Ex 16:4; 17:14; 20:4, 11, 19 should be checked against this register test at the next Exodus pass rather than treated as drift. // **Torah wave T1 application (2026-11).** Deut 4 applies the register test verse by verse: physical sky 'skies' (4:11 'to the heart of the skies'; 4:17 the birds; 4:19 'lift up your eyes to the skies', 'under the whole of the skies'; 4:32 'from one end of the skies to the other'; Ex 24:10 'the very skies for clearness'); divine realm 'heavens' (4:36 'Out of the heavens he made you hear his voice'; 4:39 'in the heavens above'); the fixed 'host of the heavens' (4:19, tzeva-ha-shamayim). The cosmic merism invoked as witness (4:26) follows exodus-woh 20:11 'the heavens and the earth'; Gen 1:1 keeps its own 'the skies and the land'. This answers, for Deuteronomy, the check this entry asks for at the next Exodus pass; exodus-woh 16:4; 17:14; 20:4, 11, 19 remain to be checked there.",
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:30",
+        "1KI-WOH-18:45",
+        "2KI-WOH-1:10",
+        "2KI-WOH-1:12",
+        "2KI-WOH-1:14",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11",
+        "1KI-WOH-22:19",
+        "1KI-WOH-8:22",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:27",
+        "1KI-WOH-8:30",
+        "1KI-WOH-8:32",
+        "1KI-WOH-8:34",
+        "1KI-WOH-8:35",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:39",
+        "1KI-WOH-8:43",
+        "1KI-WOH-8:45",
+        "1KI-WOH-8:49",
+        "1KI-WOH-8:54",
+        "2KI-WOH-17:16",
+        "EZK-WOH-8:3",
+        "EXO-WOH-24:10",
+        "DEU-WOH-4:11",
+        "DEU-WOH-4:17",
+        "DEU-WOH-4:19",
+        "DEU-WOH-4:26",
+        "DEU-WOH-4:32",
+        "DEU-WOH-4:36",
+        "DEU-WOH-4:39"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:10",
+      "DEU-WOH-4:11",
+      "DEU-WOH-4:17",
+      "DEU-WOH-4:19",
+      "DEU-WOH-4:26",
+      "DEU-WOH-4:32",
+      "DEU-WOH-4:36",
+      "DEU-WOH-4:39"
+    ],
+    "reason": "Records the Torah application of the ratified register rule; wohChoice unchanged. appliesTo +8 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:10, DEU-WOH-4:11, DEU-WOH-4:17, DEU-WOH-4:19, DEU-WOH-4:26, DEU-WOH-4:32, DEU-WOH-4:36, DEU-WOH-4:39."
+  },
+  {
+    "op": "modify",
+    "id": "adam-adamah",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:5",
+        "GEN-2:6",
+        "GEN-2:7",
+        "GEN-2:9",
+        "GEN-2:19",
+        "1KI-WOH-17:14",
+        "1KI-WOH-18:1",
+        "1KI-WOH-13:2",
+        "1KI-WOH-13:34",
+        "DEU-WOH-4:18"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:18"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:18."
+  },
+  {
+    "op": "modify",
+    "id": "al-tira-fear-not-divine-encouragement-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-26:24",
+        "GEN-WOH-46:3",
+        "1KI-WOH-17:13",
+        "2KI-WOH-1:15",
+        "NUM-WOH-21:34"
+      ]
+    },
+    "appliesToAdded": [
+      "NUM-WOH-21:34"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): NUM-WOH-21:34."
+  },
+  {
+    "op": "modify",
+    "id": "arafel-thick-darkness-divine-presence-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:18",
+        "1KI-WOH-8:12",
+        "DEU-WOH-4:11"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:11"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:11."
+  },
+  {
+    "op": "modify",
+    "id": "be-acharit-ha-yamim-latter-days-temporal-eschatological-horizon-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-49:1",
+        "DEU-WOH-4:30"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:30"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:30."
+  },
+  {
+    "op": "modify",
+    "id": "cherubim-ezek",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:1",
+        "EZK-10:2",
+        "EZK-10:3",
+        "EZK-10:5",
+        "EZK-10:6",
+        "EZK-10:7",
+        "EZK-10:8",
+        "EZK-10:9",
+        "EZK-10:12",
+        "EZK-10:14",
+        "EZK-10:15",
+        "EZK-10:16",
+        "EZK-10:17",
+        "EZK-10:18",
+        "EZK-10:19",
+        "EZK-10:20",
+        "EZK-10:21",
+        "1KI-WOH-6:23",
+        "1KI-WOH-6:24",
+        "1KI-WOH-6:25",
+        "1KI-WOH-6:26",
+        "1KI-WOH-6:27",
+        "1KI-WOH-6:28",
+        "1KI-WOH-6:29",
+        "1KI-WOH-6:32",
+        "1KI-WOH-6:35",
+        "1KI-WOH-8:6",
+        "1KI-WOH-8:7",
+        "EZK-WOH-11:22",
+        "EXO-WOH-25:18",
+        "EXO-WOH-25:19",
+        "EXO-WOH-25:20",
+        "EXO-WOH-25:22"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-25:18",
+      "EXO-WOH-25:19",
+      "EXO-WOH-25:20",
+      "EXO-WOH-25:22"
+    ],
+    "reason": "appliesTo extension only: appliesTo +4 (Torah wave T1 sites where the entry governs the line): EXO-WOH-25:18, EXO-WOH-25:19, EXO-WOH-25:20, EXO-WOH-25:22."
+  },
+  {
+    "op": "modify",
+    "id": "elohei-yisrael",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:19",
+        "EZK-10:20",
+        "1KI-WOH-1:30",
+        "1KI-WOH-1:48",
+        "1KI-WOH-22:54",
+        "1KI-WOH-8:15",
+        "1KI-WOH-8:17",
+        "1KI-WOH-8:20",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:25",
+        "1KI-WOH-8:26",
+        "EZK-WOH-8:4",
+        "EZK-WOH-11:22",
+        "EZK-WOH-43:2",
+        "EZK-WOH-44:2",
+        "EXO-WOH-24:10"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:10"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:10."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-aherim-other-gods-monolatry-vs-monotheism-scholarly-dispute-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:3",
+        "EXO-WOH-20:20",
+        "NUM-WOH-33:4",
+        "DEU-WOH-4:28",
+        "DEU-WOH-4:35"
+      ]
+    },
+    "appliesToAdded": [
+      "NUM-WOH-33:4",
+      "DEU-WOH-4:28",
+      "DEU-WOH-4:35"
+    ],
+    "reason": "appliesTo extension only: appliesTo +3 (Torah wave T1 sites where the entry governs the line): NUM-WOH-33:4, DEU-WOH-4:28, DEU-WOH-4:35."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-as-translation",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:3",
+        "GEN-1:4",
+        "GEN-1:5",
+        "GEN-1:6",
+        "GEN-1:7",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:14",
+        "GEN-1:16",
+        "GEN-1:17",
+        "GEN-1:18",
+        "GEN-1:20",
+        "GEN-1:21",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:27",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:31",
+        "EZK-WOH-11:20",
+        "EXO-WOH-24:10",
+        "EXO-WOH-24:11",
+        "EXO-WOH-24:13",
+        "NUM-WOH-21:5",
+        "NUM-WOH-33:4",
+        "DEU-WOH-4:1",
+        "DEU-WOH-4:2",
+        "DEU-WOH-4:3",
+        "DEU-WOH-4:4",
+        "DEU-WOH-4:5",
+        "DEU-WOH-4:7",
+        "DEU-WOH-4:10",
+        "DEU-WOH-4:19",
+        "DEU-WOH-4:21",
+        "DEU-WOH-4:23",
+        "DEU-WOH-4:24",
+        "DEU-WOH-4:25",
+        "DEU-WOH-4:28",
+        "DEU-WOH-4:29",
+        "DEU-WOH-4:30",
+        "DEU-WOH-4:31",
+        "DEU-WOH-4:32",
+        "DEU-WOH-4:33",
+        "DEU-WOH-4:34",
+        "DEU-WOH-4:35",
+        "DEU-WOH-4:39",
+        "DEU-WOH-4:40"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:10",
+      "EXO-WOH-24:11",
+      "EXO-WOH-24:13",
+      "NUM-WOH-21:5",
+      "NUM-WOH-33:4",
+      "DEU-WOH-4:1",
+      "DEU-WOH-4:2",
+      "DEU-WOH-4:3",
+      "DEU-WOH-4:4",
+      "DEU-WOH-4:5",
+      "DEU-WOH-4:7",
+      "DEU-WOH-4:10",
+      "DEU-WOH-4:19",
+      "DEU-WOH-4:21",
+      "DEU-WOH-4:23",
+      "DEU-WOH-4:24",
+      "DEU-WOH-4:25",
+      "DEU-WOH-4:28",
+      "DEU-WOH-4:29",
+      "DEU-WOH-4:30",
+      "DEU-WOH-4:31",
+      "DEU-WOH-4:32",
+      "DEU-WOH-4:33",
+      "DEU-WOH-4:34",
+      "DEU-WOH-4:35",
+      "DEU-WOH-4:39",
+      "DEU-WOH-4:40"
+    ],
+    "reason": "appliesTo extension only: appliesTo +27 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:10, EXO-WOH-24:11, EXO-WOH-24:13, NUM-WOH-21:5, NUM-WOH-33:4, DEU-WOH-4:1, DEU-WOH-4:2, DEU-WOH-4:3, DEU-WOH-4:4, DEU-WOH-4:5, DEU-WOH-4:7, DEU-WOH-4:10, DEU-WOH-4:19, DEU-WOH-4:21, DEU-WOH-4:23, DEU-WOH-4:24, DEU-WOH-4:25, DEU-WOH-4:28, DEU-WOH-4:29, DEU-WOH-4:30, DEU-WOH-4:31, DEU-WOH-4:32, DEU-WOH-4:33, DEU-WOH-4:34, DEU-WOH-4:35, DEU-WOH-4:39, DEU-WOH-4:40."
+  },
+  {
+    "op": "modify",
+    "id": "goy-gadol-great-nation-promise-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-46:3",
+        "DEU-WOH-4:6",
+        "DEU-WOH-4:7",
+        "DEU-WOH-4:8"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:6",
+      "DEU-WOH-4:7",
+      "DEU-WOH-4:8"
+    ],
+    "reason": "appliesTo extension only: appliesTo +3 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:6, DEU-WOH-4:7, DEU-WOH-4:8."
+  },
+  {
+    "op": "modify",
+    "id": "har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-3:1",
+        "EXO-WOH-3:12",
+        "EXO-WOH-17:6",
+        "EXO-WOH-19:1",
+        "EXO-WOH-19:2",
+        "EXO-WOH-19:3",
+        "EXO-WOH-19:11",
+        "EXO-WOH-19:18",
+        "EXO-WOH-19:20",
+        "EXO-WOH-19:23",
+        "GILG-WOH-11:138",
+        "GILG-WOH-11:139",
+        "GILG-WOH-11:154",
+        "ENO-WOH-1:4",
+        "ENO-WOH-18:6",
+        "ENO-WOH-24:3",
+        "ENO-WOH-25:3",
+        "JUB-WOH-1:1",
+        "JUB-WOH-1:2",
+        "JUB-WOH-1:3",
+        "JUB-WOH-1:4",
+        "JUB-WOH-8:19",
+        "1KI-WOH-19:8",
+        "1KI-WOH-8:9",
+        "EXO-WOH-24:13",
+        "EXO-WOH-24:16",
+        "EXO-WOH-33:6",
+        "DEU-WOH-4:10",
+        "DEU-WOH-4:15"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:13",
+      "EXO-WOH-24:16",
+      "EXO-WOH-33:6",
+      "DEU-WOH-4:10",
+      "DEU-WOH-4:15"
+    ],
+    "reason": "appliesTo extension only: appliesTo +5 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:13, EXO-WOH-24:16, EXO-WOH-33:6, DEU-WOH-4:10, DEU-WOH-4:15."
+  },
+  {
+    "op": "modify",
+    "id": "karat-brit-cut-covenant",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:18",
+        "GEN-21:27",
+        "GEN-21:32",
+        "GEN-26:28",
+        "GEN-31:44",
+        "EXOD-24:8",
+        "EXOD-34:10",
+        "EXOD-34:27",
+        "DEUT-4:23",
+        "DEUT-5:2",
+        "DEUT-5:3",
+        "DEUT-7:2",
+        "DEUT-28:69",
+        "DEUT-29:13",
+        "DEUT-31:16",
+        "JOSH-24:25",
+        "JER-31:31",
+        "JER-31:33",
+        "JER-34:8",
+        "JER-34:13",
+        "JER-34:15",
+        "JER-34:18",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "2KI-WOH-17:15",
+        "2KI-WOH-17:35",
+        "2KI-WOH-17:38",
+        "EXO-WOH-24:8",
+        "DEU-WOH-4:23"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:8",
+      "DEU-WOH-4:23"
+    ],
+    "reason": "appliesTo extension only: appliesTo +2 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:8, DEU-WOH-4:23."
+  },
+  {
+    "op": "modify",
+    "id": "kavod-yhwh",
+    "changes": {
+      "appliesTo": [
+        "EZK-1:28",
+        "1KI-WOH-8:11",
+        "EZK-WOH-3:12",
+        "EZK-WOH-3:23",
+        "EZK-WOH-8:4",
+        "EZK-WOH-11:22",
+        "EZK-WOH-11:23",
+        "EZK-WOH-43:2",
+        "EZK-WOH-43:4",
+        "EZK-WOH-43:5",
+        "EZK-WOH-44:4",
+        "EXO-WOH-24:16",
+        "EXO-WOH-24:17",
+        "EXO-WOH-33:18",
+        "EXO-WOH-33:22"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:16",
+      "EXO-WOH-24:17",
+      "EXO-WOH-33:18",
+      "EXO-WOH-33:22"
+    ],
+    "reason": "appliesTo extension only: appliesTo +4 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:16, EXO-WOH-24:17, EXO-WOH-33:18, EXO-WOH-33:22."
+  },
+  {
+    "op": "modify",
+    "id": "maaser-first-pre-sinai",
+    "changes": {
+      "appliesTo": [
+        "GEN-14:20",
+        "GEN-WOH-28:22",
+        "NUM-WOH-18:21",
+        "NUM-WOH-18:24",
+        "NUM-WOH-18:26",
+        "NUM-WOH-18:28"
+      ]
+    },
+    "appliesToAdded": [
+      "NUM-WOH-18:21",
+      "NUM-WOH-18:24",
+      "NUM-WOH-18:26",
+      "NUM-WOH-18:28"
+    ],
+    "reason": "appliesTo extension only: appliesTo +4 (Torah wave T1 sites where the entry governs the line): NUM-WOH-18:21, NUM-WOH-18:24, NUM-WOH-18:26, NUM-WOH-18:28."
+  },
+  {
+    "op": "modify",
+    "id": "malakh-yhwh-messenger",
+    "changes": {
+      "appliesTo": [
+        "GEN-16:7",
+        "GEN-16:9",
+        "GEN-16:10",
+        "GEN-16:11",
+        "GEN-19:1",
+        "GEN-19:15",
+        "GEN-22:11",
+        "GEN-22:15",
+        "GEN-48:16",
+        "EXOD-3:2",
+        "EXOD-14:19",
+        "EXOD-23:20",
+        "EXOD-23:23",
+        "EXOD-32:34",
+        "EXOD-33:2",
+        "NUM-22:22",
+        "NUM-22:23",
+        "NUM-22:24",
+        "NUM-22:25",
+        "NUM-22:26",
+        "NUM-22:27",
+        "NUM-22:31",
+        "NUM-22:32",
+        "NUM-22:34",
+        "NUM-22:35",
+        "JOSH-5:13",
+        "JOSH-5:14",
+        "JOSH-5:15",
+        "JUDG-2:1",
+        "JUDG-5:23",
+        "JUDG-6:11",
+        "JUDG-6:12",
+        "JUDG-6:20",
+        "JUDG-6:21",
+        "JUDG-6:22",
+        "JUDG-13:3",
+        "JUDG-13:6",
+        "JUDG-13:9",
+        "JUDG-13:13",
+        "JUDG-13:15",
+        "JUDG-13:16",
+        "JUDG-13:17",
+        "JUDG-13:18",
+        "JUDG-13:20",
+        "JUDG-13:21",
+        "2SAM-24:16",
+        "1KGS-19:7",
+        "2KGS-1:3",
+        "2KGS-1:15",
+        "2KGS-19:35",
+        "ISA-37:36",
+        "ISA-63:9",
+        "ZECH-1:11",
+        "ZECH-1:12",
+        "ZECH-3:1",
+        "ZECH-3:5",
+        "ZECH-3:6",
+        "PS-34:8",
+        "PS-35:5",
+        "PS-35:6",
+        "1KI-WOH-19:2",
+        "1KI-WOH-19:5",
+        "1KI-WOH-19:7",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:5",
+        "2KI-WOH-1:15",
+        "2KI-WOH-1:16",
+        "1KI-WOH-13:18",
+        "2KI-WOH-17:4",
+        "EXO-WOH-33:2"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-33:2"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): EXO-WOH-33:2."
+  },
+  {
+    "op": "modify",
+    "id": "matza-chen-be-einei-x-favor-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:25",
+        "GEN-WOH-47:29",
+        "EXO-WOH-33:12",
+        "EXO-WOH-33:13",
+        "EXO-WOH-33:16",
+        "EXO-WOH-33:17"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-33:12",
+      "EXO-WOH-33:13",
+      "EXO-WOH-33:16",
+      "EXO-WOH-33:17"
+    ],
+    "reason": "appliesTo extension only: appliesTo +4 (Torah wave T1 sites where the entry governs the line): EXO-WOH-33:12, EXO-WOH-33:13, EXO-WOH-33:16, EXO-WOH-33:17."
+  },
+  {
+    "op": "modify",
+    "id": "matzevah-sacred-pillar-patriarchal-religion",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-28:18",
+        "GEN-WOH-28:22",
+        "GEN-WOH-31:13",
+        "GEN-WOH-31:45",
+        "GEN-WOH-31:51",
+        "GEN-WOH-31:52",
+        "GEN-WOH-35:14",
+        "GEN-WOH-35:20",
+        "2KI-WOH-17:10",
+        "EXO-WOH-24:4"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:4"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:4."
+  },
+  {
+    "op": "modify",
+    "id": "mishmeret-mitzvot-chuqim-torot-fourfold-covenant",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-26:5",
+        "1KI-WOH-2:3",
+        "DEU-WOH-4:1",
+        "DEU-WOH-4:5",
+        "DEU-WOH-4:8",
+        "DEU-WOH-4:14",
+        "DEU-WOH-4:40",
+        "DEU-WOH-4:45"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:1",
+      "DEU-WOH-4:5",
+      "DEU-WOH-4:8",
+      "DEU-WOH-4:14",
+      "DEU-WOH-4:40",
+      "DEU-WOH-4:45"
+    ],
+    "reason": "appliesTo extension only: appliesTo +6 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:1, DEU-WOH-4:5, DEU-WOH-4:8, DEU-WOH-4:14, DEU-WOH-4:40, DEU-WOH-4:45."
+  },
+  {
+    "op": "modify",
+    "id": "olah-burnt-offering",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:2",
+        "GEN-WOH-22:3",
+        "GEN-WOH-22:6",
+        "GEN-WOH-22:7",
+        "GEN-WOH-22:8",
+        "GEN-WOH-22:13",
+        "1KI-WOH-18:34",
+        "1KI-WOH-18:38",
+        "1KI-WOH-8:64",
+        "EZK-WOH-40:38",
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:24",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "EXO-WOH-24:5"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:5"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:5."
+  },
+  {
+    "op": "modify",
+    "id": "peniel-panim-el-panim-divine-face-encounter",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-32:31",
+        "GEN-WOH-32:32",
+        "GEN-WOH-33:10",
+        "EXO-WOH-33:11",
+        "EXO-WOH-33:20"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-33:11",
+      "EXO-WOH-33:20"
+    ],
+    "reason": "appliesTo extension only: appliesTo +2 (Torah wave T1 sites where the entry governs the line): EXO-WOH-33:11, EXO-WOH-33:20."
+  },
+  {
+    "op": "modify",
+    "id": "pesach-pidyon-firstborn-passover-firstborn-redemption-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-13:2",
+        "EXO-WOH-13:12",
+        "EXO-WOH-13:13",
+        "EXO-WOH-13:15",
+        "NUM-WOH-18:15"
+      ]
+    },
+    "appliesToAdded": [
+      "NUM-WOH-18:15"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): NUM-WOH-18:15."
+  },
+  {
+    "op": "modify",
+    "id": "pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:4",
+        "EXO-WOH-20:5",
+        "EXO-WOH-20:6",
+        "EXO-WOH-20:23",
+        "2KI-WOH-17:41",
+        "DEU-WOH-4:12",
+        "DEU-WOH-4:15",
+        "DEU-WOH-4:16",
+        "DEU-WOH-4:23",
+        "DEU-WOH-4:25"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:12",
+      "DEU-WOH-4:15",
+      "DEU-WOH-4:16",
+      "DEU-WOH-4:23",
+      "DEU-WOH-4:25"
+    ],
+    "reason": "appliesTo extension only: appliesTo +5 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:12, DEU-WOH-4:15, DEU-WOH-4:16, DEU-WOH-4:23, DEU-WOH-4:25."
+  },
+  {
+    "op": "modify",
+    "id": "pillar-of-cloud-and-fire-ammud-ha-anan-ve-esh-divine-presence-marker-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-13:21",
+        "EXO-WOH-13:22",
+        "EXO-WOH-14:19",
+        "EXO-WOH-14:20",
+        "EXO-WOH-14:24",
+        "EXO-WOH-33:9",
+        "EXO-WOH-33:10"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-33:9",
+      "EXO-WOH-33:10"
+    ],
+    "reason": "appliesTo extension only: appliesTo +2 (Torah wave T1 sites where the entry governs the line): EXO-WOH-33:9, EXO-WOH-33:10."
+  },
+  {
+    "op": "modify",
+    "id": "raamses-eastern-delta-store-city-toponym",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:11",
+        "NUM-WOH-33:3",
+        "NUM-WOH-33:5"
+      ]
+    },
+    "appliesToAdded": [
+      "NUM-WOH-33:3",
+      "NUM-WOH-33:5"
+    ],
+    "reason": "appliesTo extension only: appliesTo +2 (Torah wave T1 sites where the entry governs the line): NUM-WOH-33:3, NUM-WOH-33:5."
+  },
+  {
+    "op": "modify",
+    "id": "reach-hannichoach",
+    "changes": {
+      "appliesTo": [
+        "GEN-8:21",
+        "NUM-WOH-18:17"
+      ]
+    },
+    "appliesToAdded": [
+      "NUM-WOH-18:17"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): NUM-WOH-18:17."
+  },
+  {
+    "op": "modify",
+    "id": "shakhan-dwell-divine-presence-verb-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "1KI-WOH-6:13",
+        "1KI-WOH-8:12",
+        "EZK-WOH-43:7",
+        "EZK-WOH-43:9",
+        "EXO-WOH-24:16",
+        "EXO-WOH-25:8"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:16",
+      "EXO-WOH-25:8"
+    ],
+    "reason": "appliesTo extension only: appliesTo +2 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:16, EXO-WOH-25:8."
+  },
+  {
+    "op": "modify",
+    "id": "shesh-fine-linen-egyptian-loanword",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-41:42",
+        "EXO-WOH-25:4"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-25:4"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): EXO-WOH-25:4."
+  },
+  {
+    "op": "modify",
+    "id": "shivtei-yisrael-shenim-asar-twelve-tribes-institutional-political-formula-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-49:28",
+        "EXO-WOH-24:4"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:4"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:4."
+  },
+  {
+    "op": "modify",
+    "id": "sinai-theophany-ex-19-elohim-craft-descent-disavowals-volcanic-hypothesis-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-19:9",
+        "EXO-WOH-19:11",
+        "EXO-WOH-19:16",
+        "EXO-WOH-19:17",
+        "EXO-WOH-19:18",
+        "EXO-WOH-19:19",
+        "EXO-WOH-19:20",
+        "EXO-WOH-20:15",
+        "EXO-WOH-20:18",
+        "EXO-WOH-20:19",
+        "ACT-WOH-2:2",
+        "ACT-WOH-2:3",
+        "ACT-WOH-2:4",
+        "EXO-WOH-24:15",
+        "EXO-WOH-24:16",
+        "EXO-WOH-24:17",
+        "EXO-WOH-24:18"
+      ]
+    },
+    "appliesToAdded": [
+      "EXO-WOH-24:15",
+      "EXO-WOH-24:16",
+      "EXO-WOH-24:17",
+      "EXO-WOH-24:18"
+    ],
+    "reason": "appliesTo extension only: appliesTo +4 (Torah wave T1 sites where the entry governs the line): EXO-WOH-24:15, EXO-WOH-24:16, EXO-WOH-24:17, EXO-WOH-24:18."
+  },
+  {
+    "op": "modify",
+    "id": "sukkot-toponym-and-festival-etymology",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-33:17",
+        "NUM-WOH-33:5",
+        "NUM-WOH-33:6"
+      ]
+    },
+    "appliesToAdded": [
+      "NUM-WOH-33:5",
+      "NUM-WOH-33:6"
+    ],
+    "reason": "appliesTo extension only: appliesTo +2 (Torah wave T1 sites where the entry governs the line): NUM-WOH-33:5, NUM-WOH-33:6."
+  },
+  {
+    "op": "modify",
+    "id": "tzarah-distress-tribulation-vocabulary",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-42:21",
+        "DEU-WOH-4:30"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:30"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:30."
+  },
+  {
+    "op": "modify",
+    "id": "tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "1KI-WOH-22:19",
+        "2KI-WOH-17:16",
+        "DEU-WOH-4:19"
+      ]
+    },
+    "appliesToAdded": [
+      "DEU-WOH-4:19"
+    ],
+    "reason": "appliesTo extension only: appliesTo +1 (Torah wave T1 sites where the entry governs the line): DEU-WOH-4:19."
+  },
+  {
+    "op": "modify",
+    "id": "yam-suf-sea-of-reeds-vs-red-sea-geographical-textual-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-13:18",
+        "NUM-WOH-21:4",
+        "NUM-WOH-33:10",
+        "NUM-WOH-33:11"
+      ]
+    },
+    "appliesToAdded": [
+      "NUM-WOH-21:4",
+      "NUM-WOH-33:10",
+      "NUM-WOH-33:11"
+    ],
+    "reason": "appliesTo extension only: appliesTo +3 (Torah wave T1 sites where the entry governs the line): NUM-WOH-21:4, NUM-WOH-33:10, NUM-WOH-33:11."
+  }
+]

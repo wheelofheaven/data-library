@@ -1,0 +1,1472 @@
+[
+  {
+    "op": "version",
+    "from": "2.83.0",
+    "to": "2.84.0",
+    "note": "Base: translation-glossary v2.83.0 (scratchpad/gloss/translation-glossary-2.83.0.json). Parallel Torah and Isaiah Editor diffs also target 2.83.0; the orchestrator should apply them in sequence and renumber (this diff's ops touch no entry the Torah/Isaiah diffs are known to modify except possibly common appliesTo arrays such as elohim-as-translation, shamayim, eretz, malakh-yhwh-messenger, olah-burnt-offering, which must be re-merged as unions, using appliesToAdded). Contents: 3 new entries (shofar-rams-horn-signal-instrument-cross-corpus, promoted from the 1-kings-woh overlay as that entry anticipates; aron-ark-of-the-covenant-ark-of-the-elohim-cross-corpus; dagon-philistine-deity-hebrew-bible-cross-corpus, requested by the Ugaritic dagan entry; all direct); 3 field modifications (hishtachavah: Former Prophets clause appended, Josh 5:14 'bowed down'; michyah: Judg 6:4 clause appended; dagan: back-reference appended), none reversing a shipped decision; and 43 appliesTo-only extensions. Recommended version 2.84.0 (minor), following house practice for appended clauses; 3.0.0 only if the strict role-doc rule for modifications is applied. Apply semantics as in the Kings diffs: op=add inserts `entry`; op=modify replaces each field in `changes` (appliesTo values are complete arrays preserving every refId of v2.83.0; `appliesToAdded` lists the additions for re-merging). Chapters carry glossaryVersion 2.84.0; update them if the merge order renumbers.",
+    "scopeNoteAddendum": "**v2.84.0 (Former Prophets wave 1 — Josh 5, 6, 10; Judg 6, 13; 1 Sam 3, 5, 6, 17, the chapters cited in the Raëlian canon):** three new entries: `shofar-rams-horn-signal-instrument-cross-corpus` ('shofar' in every context; 'rams' horns' for yôḇēl; promoted from the 1-kings-woh overlay on its third and fourth book, Joshua and Judges), `aron-ark-of-the-covenant-ark-of-the-elohim-cross-corpus` ('the ark', each Hebrew genitive kept; reception confined to apparatus) and `dagon-philistine-deity-hebrew-bible-cross-corpus` (the Hebrew 'Dagon', sibling of the Ugaritic Daganu). `hishtachavah-bow-down-obeisance-worship` gains a Former Prophets clause ('bowed down', Josh 5:14 and the Kings sites); `michyah-preservation-of-life-rare-noun` a Judg 6:4 clause ('sustenance'). appliesTo extensions for the central ids applied in the wave. Joshua-, Judges- and Samuel-specific decisions and the shared Former Prophets conventions live in the joshua-woh, judges-woh and 1-samuel-woh overlays v1.0.0."
+  },
+  {
+    "op": "add",
+    "id": "shofar-rams-horn-signal-instrument-cross-corpus",
+    "entry": {
+      "id": "shofar-rams-horn-signal-instrument-cross-corpus",
+      "source": "שׁוֹפָר ; שׁוֹפְרוֹת הַיּוֹבְלִים ; קֶרֶן הַיּוֹבֵל",
+      "translit": "šôp̄ār ; šôp̄rôṯ hayyôḇəlîm ; qeren hayyôḇēl",
+      "strongs": "H7782 (šôp̄ār); H3104 (yôḇēl); H7161 (qeren)",
+      "lemma": "šôp̄ār 'ram's horn (as a signal instrument)'; yôḇēl 'ram' (later 'jubilee'); qeren 'horn'",
+      "partOfSpeech": "noun, masculine (pl. šôp̄rôṯ / šôp̄ārôṯ); construct phrases",
+      "literal": "ram's horn; horns of the rams; the horn of the ram",
+      "standardEnglish": "trumpet (ASV, KJV, NRSV); horn (NJPS); trumpets of rams' horns (ASV Josh 6:4)",
+      "wohChoice": "'shofar' (transliterated; plural 'shofars') for šôp̄ār in every context: Sinai ('the sound of a shofar', Ex 19:16, 19; 20:18 in the exodus-woh numbering); the Jericho rite ('seven shofars of rams' horns', Josh 6:4, 6, 8, 13; 'the sound of the shofar', 6:5, 20; 'blow the shofars', 6:4, 8, 9, 13, 16, 20); mustering ('he blew the shofar', Judg 6:34); royal acclamation ('blow the shofar', 1 Kgs 1:34, 39, 41). 'ram's horn' / 'rams' horns' for yôḇēl and qeren hayyôḇēl (Josh 6:4-8, 13; exodus-woh Ex 19:13). 'trumpet' is reserved for the metal ḥăṣōṣərâ (Num 10:2-10; 2 Kgs 11:14).",
+      "claim_type": "direct",
+      "rationale": "**Promotion to central.** The decision was first made in two overlays, exodus-woh at Sinai (overlay sinai-cloud-fire-thunder-trumpet-imagery-exodus-compositional-cluster-overlay, with yobel-rams-horn-jubilee-horn-translation-convention-exodus-19-13-overlay for yôḇēl) and 1-kings-woh at Shelomoh's accession (shofar-coronation-signal-1-kings-1, whose rationale names a third book as the trigger for promotion). Joshua 6 and Judges 6 are the third and fourth books, so the decision moves here; the Kings overlay entry should be retired in favour of this id (or kept as a pointer) when the diff is applied, and the exodus-woh overlay entries may cite it. // **The instrument.** The šôp̄ār is the horn of a ram (or other animal) used as a signal instrument; it produces a few natural tones and serves for alarm, assembly, war, cultic proclamation and royal acclamation (Braun, Music in Ancient Israel/Palestine, 2002; Jones, 'Music and Musical Instruments', ABD IV, 1992; BDB; HALOT). The Hebrew Bible distinguishes it from the ḥăṣōṣərâ, the straight metal trumpet made of hammered silver (Num 10:2), and both appear side by side (Ps 98:6; 1 Chr 15:28; 2 Chr 15:14). English 'trumpet' (ASV, KJV, NRSV) translates both and so merges two instruments the Hebrew keeps apart, while 'horn' (NJPS) is accurate but generic (qeren 'horn' is a separate word, used in Josh 6:5). 'shofar' is a standard English loanword, current through its continued Jewish liturgical use, and is used in every context so that one Hebrew word has one English form. // **yôḇēl.** In Josh 6:4-13 and Ex 19:13 yôḇēl is the ram (BDB yôḇēl 1, cf. Phoenician ybl 'ram'), and the instrument is the ram's horn; the later sense 'jubilee' (Lev 25:10-13) derives from the horn that announced the year. šôp̄rôṯ hayyôḇəlîm is rendered 'shofars of rams' horns' and qeren hayyôḇēl 'the ram's horn'. // **Reception.** The English and French Bibles quoted in The Book Which Tells the Truth (ch. 3) have 'trumpet' at Josh 6:5, and the canon reads the Jericho instrument as a complex sound device. The transliteration is chosen for the lexical reason given above, not to make or avoid that reading; the reading is confined to labelled reception notes. The entry is direct: it renders the Hebrew noun by its established loanword and records the instrument's identity, which is not disputed. // **Application note.** The Exodus sites are taken from the 1-kings-woh entry (EXO-WOH-19:16, 19; 20:18); the orchestrator should check them against the exodus-woh refIds (MT 20:15 = ET 20:18) and the parallel Exodus Editor pass.",
+      "appliesTo": [
+        "EXO-WOH-19:16",
+        "EXO-WOH-19:19",
+        "EXO-WOH-20:18",
+        "1KI-WOH-1:34",
+        "1KI-WOH-1:39",
+        "1KI-WOH-1:41",
+        "JOS-WOH-6:4",
+        "JOS-WOH-6:5",
+        "JOS-WOH-6:6",
+        "JOS-WOH-6:8",
+        "JOS-WOH-6:9",
+        "JOS-WOH-6:13",
+        "JOS-WOH-6:16",
+        "JOS-WOH-6:20",
+        "JDG-WOH-6:34"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "aron-ark-of-the-covenant-ark-of-the-elohim-cross-corpus",
+    "entry": {
+      "id": "aron-ark-of-the-covenant-ark-of-the-elohim-cross-corpus",
+      "source": "אֲרוֹן ; אֲרוֹן הַבְּרִית ; אֲרוֹן יְהוָה ; אֲרוֹן הָאֱלֹהִים ; אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל",
+      "translit": "ʾărôn ; ʾărôn habbərîṯ ; ʾărôn YHWH ; ʾărôn hāʾĕlōhîm ; ʾărôn ʾĕlōhê yiśrāʾēl",
+      "strongs": "H727 (ʾărôn)",
+      "lemma": "ʾărôn 'chest, box'; the cultic ark",
+      "partOfSpeech": "noun, masculine (usually with the article or in construct)",
+      "literal": "the chest; the chest of the covenant / of YHWH / of the God / of the God of Israel",
+      "standardEnglish": "the ark; the ark of the covenant; the ark of Jehovah; the ark of God; the ark of the God of Israel (ASV)",
+      "wohChoice": "'the ark' for the cultic ʾărôn, with its genitive rendered as the Hebrew gives it at each site: 'the ark of the covenant (of YHWH)' (Josh 6:6, 8), 'the ark of YHWH' (Josh 6:6, 7, 11-13; 1 Sam 5:3, 4; 6:1-21 passim), 'the ark of the Elohim' (articular; 1 Sam 5:1, 2, 10, 11), 'the ark of Elohim' (anarthrous; 1 Sam 3:3), 'the ark of the Elohim of Yisra'el' (in Pelishti speech; 1 Sam 5:7, 8, 10, 11; 6:3); the bare noun 'the ark' (Josh 6:4, 9, 13; 1 Sam 6:13, 15). Non-cultic ʾărôn is 'coffin' (Gen 50:26) or 'chest' (2 Kgs 12:10-11).",
+      "claim_type": "direct",
+      "rationale": "ʾărôn is an ordinary word for a box or chest (Gen 50:26 Yosef's coffin; 2 Kgs 12:10-11 the collection chest), and its cultic referent is the wooden chest overlaid with gold, carried on poles, that held the tablets of the covenant (Ex 25:10-22; Deut 10:1-5; 1 Kgs 8:9) and was associated with YHWH's presence enthroned above the cherubim (1 Sam 4:4; 2 Sam 6:2) (Seow, 'Ark of the Covenant', ABD I, 1992; de Vaux, Ancient Israel, 1961; Haran, Temples and Temple-Service in Ancient Israel, 1978). 'Ark' (Latin arca 'chest') is the established English term and is kept. The Hebrew uses several genitives, which modern scholarship connects with different traditions about the object, the Deuteronomistic 'ark of the covenant' (a container of the tablets) and the older 'ark of YHWH / of the Elohim' (the war palladium and throne of the ark narrative, 1 Sam 4-6; 2 Sam 6) (Miller and Roberts, The Hand of the Lord, 1977; Campbell, The Ark Narrative, 1975); the translation renders each genitive as it stands, including the article on ʾĕlōhîm under the elohim-referent conventions, and does not harmonize them. In the ark narrative the ark is the locus of YHWH's power against the Pelishtim and against Israelites who treat it improperly (1 Sam 5:1-12; 6:19; 2 Sam 6:6-7), which the commentary describes in the terms of the text. The Book Which Tells the Truth (ch. 3) reads the ark as housing a transmitter-receiver with its own power source; that reading is confined to labelled reception notes, and the line uses no technical vocabulary. The entry is direct. **Coordination note:** if the parallel Exodus Editor pass creates an entry for ʾărôn at Ex 25, the two should be merged under one id, with these sites in its appliesTo.",
+      "appliesTo": [
+        "JOS-WOH-6:4",
+        "JOS-WOH-6:6",
+        "JOS-WOH-6:7",
+        "JOS-WOH-6:8",
+        "JOS-WOH-6:9",
+        "JOS-WOH-6:11",
+        "JOS-WOH-6:12",
+        "JOS-WOH-6:13",
+        "1SA-WOH-3:3",
+        "1SA-WOH-5:1",
+        "1SA-WOH-5:2",
+        "1SA-WOH-5:3",
+        "1SA-WOH-5:4",
+        "1SA-WOH-5:7",
+        "1SA-WOH-5:8",
+        "1SA-WOH-5:10",
+        "1SA-WOH-5:11",
+        "1SA-WOH-6:1",
+        "1SA-WOH-6:2",
+        "1SA-WOH-6:3",
+        "1SA-WOH-6:8",
+        "1SA-WOH-6:11",
+        "1SA-WOH-6:13",
+        "1SA-WOH-6:15",
+        "1SA-WOH-6:18",
+        "1SA-WOH-6:19",
+        "1SA-WOH-6:21"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "id": "dagon-philistine-deity-hebrew-bible-cross-corpus",
+    "entry": {
+      "id": "dagon-philistine-deity-hebrew-bible-cross-corpus",
+      "source": "דָּגוֹן",
+      "translit": "dāḡôn",
+      "strongs": "H1712",
+      "lemma": "dāḡôn, the Philistine name of the West-Semitic deity Dagan",
+      "partOfSpeech": "divine name",
+      "literal": "Dagon",
+      "standardEnglish": "Dagon (ASV, all English versions)",
+      "wohChoice": "'Dagon' (the Hebrew form, identical in English) in Hebrew-Bible sources: 1 Sam 5:2-5, 7; also Judg 16:23 and 1 Chr 10:10 when translated. The Ugaritic form Daganu is governed by the sibling entry dagan-dagon-grain-deity-cross-corpus-ugaritic-hebrew-bible-philistine-pantheon.",
+      "claim_type": "direct",
+      "rationale": "The Ugaritic central entry dagan-dagon-grain-deity-cross-corpus-ugaritic-hebrew-bible-philistine-pantheon asks that 'a future Hebrew Editor pass on Judg 16:23 or 1 Sam 5' produce the Hebrew central entry on the Philistine Dagon, with a bidirectional back-reference; this is that entry. Dagan is a West-Semitic god attested from the third millennium at Ebla and Mari, worshipped at Ugarit (where Baʿlu is called 'son of Dagan') and in Iron-Age Philistia, whose name is generally connected with *dgn* 'grain' (Hebrew dāḡān) (Healey, 'Dagon', DDD, 2nd ed., 1999; Singer, 'Towards the Image of Dagon the God of the Philistines', Syria 69, 1992; Day, Yahweh and the Gods and Goddesses of Canaan, 2000); the Philistines adopted the local deity, which the Hebrew Bible presents as their national god (Judg 16:23; 1 Sam 5:2-7; 1 Chr 10:10). The Hebrew form dāḡôn is used, unchanged in English, as the ASV and all versions do. The derivation from dāḡ 'fish' and the image of a fish-tailed god are later folk etymology, partly built on the MT of 1 Sam 5:4 (raq dāḡôn nišʾar ʿālāyw 'only Dagon was left to him'), which the commentary there discusses; the Hebrew does not describe the image's form. 1 Sam 5 narrates the image falling prostrate before the ark and then broken, a polemic of YHWH's superiority in the god's own house (McCarter, I Samuel, AB 8, 1980; Miller and Roberts, The Hand of the Lord, 1977). The canon's reading of the scene (The Book Which Tells the Truth, ch. 3: an electrical discharge from the ark) is confined to a labelled reception note. The entry is direct.",
+      "appliesTo": [
+        "1SA-WOH-5:2",
+        "1SA-WOH-5:3",
+        "1SA-WOH-5:4",
+        "1SA-WOH-5:5",
+        "1SA-WOH-5:7"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "hishtachavah-bow-down-obeisance-worship",
+    "changes": {
+      "wohChoice": "made obeisance (ASV-baseline; applied consistently across the dream-and-fulfilment arc Gen 37:7, 9, 10 / 42:6 / forward 43:26, 28; 44:14; 50:18 — preserving the lexical-keyword across the cycle; the cross-corpus worship-and-prostration distribution documented in commentary); Former Prophets clause (v2.84.0): outside the Yosef-cycle arc, plain 'bowed down' (Josh 5:14 'fell on his face to the ground and bowed down'; 1 Kgs 22:54; 2 Kgs 2:15; 17:35, 36), as the Kings volumes already print",
+      "rationale": "**The Hishtaphel of *chwh* (formerly mis-parsed as the Hithpael of *shachah*; HALOT and the modern Hebrew lexica register the corrected stem-analysis after the discovery of the Ugaritic *yštḥwy* parallel) is the standard HB worship/prostration/obeisance verb — hundreds of occurrences across the corpus, governing every standard prostration / worship / homage-to-superior scene. The Genesis-WoH translation deploys the verb at its Yosef-cycle dream-and-fulfilment-arc node: the sheaves dream at Gen 37:7 (*va-tishtachaveynah la-alumati*, 'and they made obeisance to my sheaf'), the sun-moon-and-stars dream at Gen 37:9 (*mishtachavim li*, 'making obeisance to me'), Ya'aqov's incredulous Gen 37:10 (*le-hishtachavot lekha artzah*, 'to bow down to thee to the earth'), and the first fulfilment at Gen 42:6 (*va-yishtachavu-lo apayim artzah*, 'and made obeisance to him with their faces to the earth') with the narrator's explicit dream-fulfilment-flag at v 9 (*va-yizkor Yosef et ha-chalomot asher chalam lahem*, 'and Yosef remembered the dreams which he dreamed of them'). The forward fulfilment-verses continue: Gen 43:26, 28; 44:14; 50:18.** // **Promotion-to-central history.** This entry was originally housed in the Genesis-WoH overlay as `hishtachavah-obeisance-yosef-dreams`, scoped to the Gen 37 dream-verses, with the explicit annotation: *strong promotion candidate; when the Yosef-cycle fulfilment-verses (Gen 42:6; 43:26 + 28; 44:14; 50:18) and the wider worship-corpus are in view, a central `hishtachavah-bow-down-obeisance-worship` entry should be created, with this Gen 37 entry as the dream-anchor sibling*. The promotion was scheduled to happen at the long-anticipated Gen 42:6 fulfilment-moment, and the v 2.42.0 Genesis 42 editorial pass executes that promotion: the overlay entry has been deprecated and removed; this central entry takes over the Gen 37 anchor-verses AND extends to Gen 42:6 (the first fulfilment) AND will extend forward to the Gen 43-50 fulfilment-verses when those chapters are translated. // **The lexeme.** The verb is the Hishtaphel (an old reflexive-causative stem, attested across Northwest Semitic; cf. Ugaritic *yštḥwy*) of the root *chwh* ('to bow down'). The stem-analysis matters because the former Hithpael-of-*shachah* parse generated the wrong morphological-history: the verb is not a Hithpael of a separate root but the Hishtaphel of a single Northwest Semitic *chwh*-root. HALOT s.v. *chwh* (Hishtaphel) records the corrected analysis; J. A. Emerton 'The Etymology of *hištaḥawāh*' OTS 20 (1977) 41-55 is the standard treatment. The verb means 'to bow oneself down, to prostrate oneself, to do homage/obeisance' — the full-body prostration of respect, submission, or worship. The form is reflexive-causative: the action of causing-oneself-to-bow-down. // **The semantic range.** The lexeme covers three distinguishable but overlapping registers: (i) **prostration before a human superior** — before a king, a powerful person, or one whose authority is being acknowledged (Gen 23:7, 12 — Avraham before the Hittites; Gen 27:29 — the brothers-shall-bow-down formula in Yitzchaq's blessing of Ya'aqov; Gen 33:3, 6, 7 — Ya'aqov, the wives, the children before Esav; Gen 37:7, 9, 10 — the Yosef-cycle dreams; Gen 42:6 the first fulfilment; many others); (ii) **prostration before the deity in worship** — the standard worship-verb (Gen 22:5 — Avraham at the Aqedah, *ve-nishtachaveh*, 'we will worship'; Gen 24:26, 48, 52 — Avraham's servant; Exod 4:31 — Mosheh and Aharon; the Pentateuchal cultic-instructional uses; the Psalmic worship-verses; etc.); (iii) **prostration before idols / other deities** — the standard prohibited-worship verb of the Decalogue and the prophetic indictments (Exod 20:5 — *lo tishtachaveh lahem*; Deut 5:9; the prophets' indictments of idolatry). The choice of register is context-determined; the lexeme itself does not discriminate. // **The dream-and-fulfilment-arc deployment in the Yosef cycle.** The verb is the structural keyword of the Yosef cycle: the brothers' obeisance-to-Yosef in the dreams of Gen 37 is fulfilled in the obeisance-to-Yosef as the Egyptian *shallit* at Gen 42:6, 43:26, 28; 44:14; 50:18. Each fulfilment-occurrence uses the same verb the dreams used. The narrator's explicit flag at Gen 42:9 (*va-yizkor Yosef et ha-chalomot*) makes the connection between dream and fulfilment textually unambiguous. The cycle's literary structure is built on the lexeme's recurrence: the brothers' refusal to acknowledge Yosef's lordship at Gen 37:8 (*ha-malokh timlokh aleinu im-mashol timshol banu* — 'shalt thou indeed reign over us, or shalt thou indeed have dominion over us?') is reversed by their unwitting submission at Gen 42:6 (the *apayim artzah* full-prostration). The cycle resolves the dispute about the dreams not by argument but by performance: the brothers bow. // **The *apayim artzah* full-prostration formula.** The Gen 42:6 verse adds the *apayim artzah* ('with their faces to the earth') intensifier — the standard full-prostration formula, distinct from a lesser bow. The formula recurs at Gen 19:1; 33:3; Num 22:31; 1 Sam 20:41; 24:8 [MT 24:9]; 25:23; 28:14; 2 Sam 9:6; 14:4, 22, 33; 18:28; 24:20; 1 Kgs 1:23, 31; 1 Chr 21:21; 2 Chr 7:3; 20:18 — always marking the most formal prostration, often before a king or the deity. // **Central housing.** **MANDATORY central** by (i) the lexeme's status as the corpus's standard worship/prostration verb (hundreds of occurrences, governing every standard prostration / worship / homage-to-superior scene); (ii) the load-bearing function in the Yosef cycle's structural dream-and-fulfilment arc (Gen 37:7, 9, 10 / 42:6 / 43:26, 28; 44:14; 50:18 — one of the corpus's tightest cross-chapter lexical-keyword arcs); (iii) the necessary single governing decision for the verb across all its registers (human-superior / deity-worship / idolatrous-worship) and across all its occurrences. *AppliesTo* is anchored at the Gen 37 dream-verses and the Gen 42:6 first fulfilment, with forward extension to Gen 43-50 fulfilment-verses and the wider corpus-worship/prostration scenes to be added when those texts are translated. // **The translation choice.** The WoH translation renders the ASV-baseline **'made obeisance to'** consistently across the dream-and-fulfilment-arc: 'made obeisance to my sheaf' (Gen 37:7); 'making obeisance to me' (Gen 37:9); 'to bow down to thee to the earth' (Gen 37:10); 'made obeisance to him with their faces to the earth' (Gen 42:6). The consistency-decision preserves the dream-fulfilment lexical-keyword across the cycle. The plainer 'bowed down' (NJPS, Alter) and the literal 'prostrated themselves' are noted as alternatives; the 'worshipped' rendering is reserved for the unambiguously cultic-deity registers elsewhere in the corpus (not the Gen 37-50 obeisance-to-Yosef scenes, which are homage-to-human-superior, not worship). // The claim_type is *direct* because (a) the verb is morphologically explicit (the Hishtaphel of *chwh*); (b) the lexeme's status as the corpus's standard prostration-and-worship verb is documented across HALOT, BDB, TDOT, NIDOTTE; (c) the Gen 37 dreams and the Gen 42:6 fulfilment use the same lexeme — the dream-and-fulfilment lexical structure is grammatically transparent; (d) the cross-corpus distribution is verifiable; (e) the 'made obeisance' rendering is the direct sense in the homage-to-superior register. The 'worship' overlap with the cultic register is documented but not adopted on the surface for the Yosef-cycle scenes (which are homage, not worship). Named scholarship only; no project synthesis. // **Scholarly literature.** HALOT s.v. *chwh* (Hishtaphel); BDB p. 1005 (s.v. *shachah*, with the now-superseded root-analysis); TDOT IV:248-256; NIDOTTE 2:42-44; J. A. Emerton 'The Etymology of *hištaḥawāh*' OTS 20 (1977) 41-55 (the Ugaritic *yštḥwy* analysis); Sarna *JPS Genesis* 1989 pp. 256, 290; Westermann *Genesis 37-50* 1986 pp. 37, 106-107; Alter *The Five Books of Moses* 2004 pp. 208, 242; on the verb as the structural keyword of the Yosef cycle: G. W. Coats *From Canaan to Egypt: Structural and Theological Context for the Joseph Story* CBQMS 4, 1976; on the Gen 37:8 / 42:6 reversal-structure: J. P. Fokkelman *Narrative Art in Genesis* SSN 17, 1975; on the prostration formula *apayim artzah*: M. I. Gruber *Aspects of Nonverbal Communication in the Ancient Near East* Studia Pohl 12, 1980.\n\n// **Gen 50:18 cycle-closing implicit-bowing extension.** *AppliesTo* extended to GEN-WOH-50:18 even though the surface lexeme there is *va-yippelu lefanav* ('they fell down before him') rather than the *hishtachavah*-form proper. The fall-down construction at v 18 is the cycle's narrative-closure of the Gen 37 sheaves-and-stars dream-fulfilment arc — the brothers' final prostration before Yosef after Ya'aqov's death. Named scholarship: Sarna *JPS Genesis* p. 351; Alter *Five Books of Moses* p. 299; Hamilton *NICOT Genesis 18-50* p. 699; Brueggemann *Genesis* IBC p. 376 (all reading v 18 as the narrative-completion of the dream-fulfilment-bowing-sequence even with the lexical shift). Including v 18 in the *appliesTo* preserves the lexical-keyword arc as a literary-observational matter; the rationale documents the lexical-shift explicitly.\n\n// **Former Prophets clause (v2.84.0, wave-FP1 Editor pass).** The 'made obeisance' rendering was fixed for the Yosef-cycle dream-and-fulfilment arc, where it preserves the keyword across Gen 37-50. The Kings volumes, ratified at human sign-off on 2026-11-01, print plain 'bowed down' where the verb stands alone (1 Kgs 22:54; 2 Kgs 2:15; 17:35, 36) and idiomatic variants where it is paired or reflexive ('bowed himself', 1 Kgs 1:23, 47; 2:19; 2 Kgs 4:37; 'bowed and prostrated herself' with qāḏaḏ, 1 Kgs 1:16, 31); they did not cite this entry. Josh 5:14 (wayyištāḥû before the captain of the host of YHWH) is aligned with the Kings rendering, 'bowed down' (ASV 'did worship'). The plain verb is preferred here because the choice is interpretively loaded: 'worshipped' would decide that Yehoshua takes the figure for YHWH, and 'made obeisance' would suggest homage to a human superior, while the narrative leaves the figure's status open (Nelson, Joshua, OTL, 1997). The clause records the Kings practice so that the entry governs the verb across the Former Prophets; the Kings sites printing 'bowed down' are added to appliesTo, and the Kings paragraphs may receive this id in glossaryRefs at their next pass.",
+      "appliesTo": [
+        "GEN-WOH-37:7",
+        "GEN-WOH-37:9",
+        "GEN-WOH-37:10",
+        "GEN-WOH-42:6",
+        "GEN-WOH-43:26",
+        "GEN-WOH-43:28",
+        "GEN-WOH-44:14",
+        "GEN-WOH-47:31",
+        "GEN-WOH-48:12",
+        "GEN-WOH-49:8",
+        "GEN-WOH-50:18",
+        "JOS-WOH-5:14",
+        "1KI-WOH-22:54",
+        "2KI-WOH-2:15",
+        "2KI-WOH-17:35",
+        "2KI-WOH-17:36"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-5:14",
+      "1KI-WOH-22:54",
+      "2KI-WOH-2:15",
+      "2KI-WOH-17:35",
+      "2KI-WOH-17:36"
+    ],
+    "reason": "Scope extension, not a reversal: a Former Prophets clause is appended to wohChoice and rationale recording the Kings rendering 'bowed down' (published, uncited) and aligning Josh 5:14 with it (draft 'made obeisance' changed to 'bowed down'); the Yosef-cycle wohChoice is unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "michyah-preservation-of-life-rare-noun",
+    "changes": {
+      "wohChoice": "to preserve life (ASV-baseline; the noun's rare cross-corpus distribution and the chapter-internal chayah-keyword arc documented in commentary; sibling-link to `shelachani-elohim-lifneikhem-providential-sending-formula-yosef-cycle`); at Judg 6:4 the livelihood sense: 'and would leave no sustenance in Yisra'el' (ASV; the rationale's distribution already describes this sense)",
+      "appliesTo": [
+        "GEN-WOH-45:5",
+        "GEN-WOH-47:25",
+        "GEN-WOH-50:20",
+        "JDG-WOH-6:4"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:4"
+    ],
+    "reason": "The entry's rationale lists Judg 6:4 among the five occurrences and describes it as the agricultural-sustenance sense ('sustenance', Alter), but its wohChoice ('to preserve life') fits only the ləmiḥyâ construction of Gen 45:5. A clause for the Judges sense is appended so that the entry can govern JDG-WOH-6:4; nothing else changes."
+  },
+  {
+    "op": "modify",
+    "id": "dagan-dagon-grain-deity-cross-corpus-ugaritic-hebrew-bible-philistine-pantheon",
+    "changes": {
+      "rationale": "**The Northwest-Semitic grain-deity.** Ugaritic *Daganu* (alphabetic-cuneiform *dgn*) is attested as **Baʿlu's father** — the standing epithet *bn dgn* 'Son of Daganu' is applied to Baʿlu throughout KTU 1.2 (1.2-i:18, 35, 38, 40). The paternity-relation is fixed across the Ugaritic mythological corpus, although Daganu himself appears only rarely as a narrative-figure (the Baal Cycle has Baʿlu interacting with ʾIlu, his grandfather-figure-by-marriage, rather than with Daganu directly). The lexeme *dgn* has two main etymological proposals: (i) cereal-grain (cognate to Phoenician and Aramaic *dāgān* 'grain'); (ii) rain-cloud (Healey's less-common alternative). The grain-deity reading is the consensus.\n\n**Cross-corpus attestation across the Levant and Mesopotamia.**\n- **Mari (Old Babylonian)** — *Dagan* is one of the principal deities of the Mari pantheon (18th c. BCE). Attestation in royal-inscription and personal-name material.\n- **Emar (Late Bronze Age)** — *Dagan* is a major cult-figure at Emar (on the Middle Euphrates); the Emar ritual-texts give extensive evidence of his cult.\n- **Ugarit (Late Bronze Age)** — attested as Baʿlu's father; smaller cult-presence than the Mari/Emar evidence would suggest, indicating a regionally-diffused divine figure with shifting prominence.\n- **The Philistine pantheon (Iron Age I-II)** — *Dāgôn* is the principal deity of Ashdod, Gaza, and Ashkelon. The Philistine adoption of Daganu is widely interpreted (Singer 1992; Day 2000) as the Aegean-migrant Philistines absorbing the local West-Semitic divine name into their adapted pantheon.\n\n**Cross-corpus Hebrew Bible — the Philistine Dagon.** Hebrew Bible attestations of *Dāgôn*:\n- **Judg 16:23-30** — Samson destroys the temple of Dagon at Gaza; *va-yiqr'u et Dagon eloheihem* 'they called Dagon their god'.\n- **1 Sam 5:1-7** — the ark-narrative; the captured Israelite ark is placed in the temple of Dagon at Ashdod; Dagon's image falls before the ark twice and is finally broken (*ve-rosh Dagon u-shtei kappot yadav k'rutot* 'the head of Dagon and his two hand-palms were cut off').\n- **1 Chr 10:10** — Saul's head placed in Dagon's temple by the Philistines.\n\nThe Hebrew Bible's Dagon-polemic is thus specifically **anti-Philistine cult-polemic**, distinct from the broader anti-Canaanite Baʿal-and-Asherah polemic. The Iron Age I Philistine takeover of the West-Semitic Daganu cult and the Hebrew-Israelite contest with the Philistines are the historical context.\n\n**Cross-corpus Mesopotamian and the Akkadian-side.** Akkadian *Dagan* is attested at Mari, in personal-names across the Old Babylonian and Late Babylonian periods, and in royal-inscriptional material. The Mari evidence is particularly rich — letters and rituals from the royal archive of Zimri-Lim. **Itamar Singer**, *Hittite and Northern Hittite Studies presented to Hans G. Güterbock on the Occasion of his 75th Birthday* (1992) — important treatment. **A. Archi**, 'Cult of the Ancestors and Tutelary God at Ebla,' in *Fucus: A Semitic/Afrasian Gathering in Remembrance of Albert Ehrman* (Amsterdam 1988) on the Eblaite background.\n\n**Named-scholarship frame.** **J. F. Healey**, 'Dagon,' in K. van der Toorn et al. (eds.), *Dictionary of Deities and Demons in the Bible* (2nd ed., Leiden 1999), pp. 216-219. **I. Singer**, *Hittite Studies* (1992) — see above. **J. Day**, *Yahweh and the Gods and Goddesses of Canaan* (JSOTSup 265, Sheffield 2000), pp. 85-90 on Dagon. **B. Doak**, *The Last of the Rephaim: Conquest and Cataclysm in the Heroic Ages of Ancient Israel* (Boston 2012) on the Philistine context. **L. E. Stager**, 'Forging an Identity: The Emergence of Ancient Israel,' in *The Oxford History of the Biblical World* (Oxford 1998) on the broader Iron Age I Philistine cult-context.\n\n**Bidirectional cross-references.** Cluster with new Ugaritic central entries `baal-ugaritic-baalu-storm-god-cross-corpus-hebrew-bible-polemic` (Baʿlu's parentage), `el-ugaritic-ilu-northwest-semitic-pantheon-head-cross-corpus`. Future Hebrew Editor pass on Judg 16:23 or 1 Sam 5 should produce the Hebrew central entry on the Philistine Dagon-polemic with bidirectional back-reference.\n\n**Lens-discipline operational disavowals.** (i) **No Sitchin-corpus reading of Daganu as Anunnaki-fish-deity** (a popular fringe-reading conflating Daganu with Akkadian *Oannes / Adapa* via the false-etymological *dag* 'fish' Hebrew). Daganu is the **grain-deity** (proto-Semitic *√dgn* 'grain'); the *dag* 'fish' Hebrew folk-etymology, popularized in 19th c. comparative-religion literature and resurrected in Sitchin-corpus material, is **philologically incorrect**. The fish-iconography sometimes associated with Dagon in popular literature derives from a misreading of 1 Sam 5:4 *raq Dagon nišʾar ʿalav* '(only Dagon's stump remained on him') as a fish-tail reference; the Hebrew text does not support this. (ii) **No syncretistic Christian-typology** mapping Daganu/Dagon onto later traditions.\n\n**Back-reference (v2.84.0).** The Hebrew-Bible sibling requested above now exists: `dagon-philistine-deity-hebrew-bible-cross-corpus` governs the Hebrew form 'Dagon' (1 Sam 5:2-7; Judg 16:23; 1 Chr 10:10), with a back-reference to this entry."
+    },
+    "reason": "Bidirectional back-reference to the new Hebrew-Bible Dagon entry, as this entry's rationale requests; one sentence appended, nothing else changed."
+  },
+  {
+    "op": "modify",
+    "id": "ad-ha-yom-ha-zeh-aetiological-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:26",
+        "GEN-WOH-48:15",
+        "2KI-WOH-2:22",
+        "1KI-WOH-8:8",
+        "2KI-WOH-17:23",
+        "2KI-WOH-17:34",
+        "2KI-WOH-17:41",
+        "JOS-WOH-5:9",
+        "JOS-WOH-6:25",
+        "JOS-WOH-10:27",
+        "JDG-WOH-6:24",
+        "1SA-WOH-5:5",
+        "1SA-WOH-6:18"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-5:9",
+      "JOS-WOH-6:25",
+      "JOS-WOH-10:27",
+      "JDG-WOH-6:24",
+      "1SA-WOH-5:5",
+      "1SA-WOH-6:18"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh-divine-name",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:2",
+        "GEN-15:8",
+        "1KI-WOH-2:26",
+        "1KI-WOH-8:53",
+        "JDG-WOH-6:22"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:22"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "al-ken-qara-shemah-aetiological-naming-formula-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-50:11",
+        "JOS-WOH-5:9",
+        "JDG-WOH-6:24",
+        "JDG-WOH-6:32"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-5:9",
+      "JDG-WOH-6:24",
+      "JDG-WOH-6:32"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "al-tira-fear-not-divine-encouragement-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-26:24",
+        "GEN-WOH-46:3",
+        "1KI-WOH-17:13",
+        "2KI-WOH-1:15",
+        "JOS-WOH-10:8",
+        "JOS-WOH-10:25",
+        "JDG-WOH-6:23"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-10:8",
+      "JOS-WOH-10:25",
+      "JDG-WOH-6:23"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "arur-curse-formula-patriarchal-utterance-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-49:7",
+        "JOS-WOH-6:26"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-6:26"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "ashem-asham-guilt-bearing-vocabulary",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-42:21",
+        "ISA-53:10",
+        "1SA-WOH-6:3",
+        "1SA-WOH-6:4",
+        "1SA-WOH-6:8",
+        "1SA-WOH-6:17"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-6:3",
+      "1SA-WOH-6:4",
+      "1SA-WOH-6:8",
+      "1SA-WOH-6:17"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "atar-l-yhwh-intercession",
+    "changes": {
+      "appliesTo": [
+        "GEN-25:21",
+        "JDG-WOH-13:8"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-13:8"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "avon-iniquity-cross-corpus-keyword",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-44:16",
+        "ISA-53:5",
+        "ISA-53:6",
+        "ISA-53:11",
+        "ISA-26:21",
+        "ISA-27:9",
+        "1SA-WOH-3:13",
+        "1SA-WOH-3:14"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-3:13",
+      "1SA-WOH-3:14"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "b-etzem-ha-yom-ha-ze-P-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-17:23",
+        "GEN-17:26",
+        "JOS-WOH-5:11"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-5:11"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "be-er-sheva-folk-etymology",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-21:31",
+        "GEN-WOH-21:14",
+        "GEN-WOH-21:32",
+        "GEN-WOH-21:33",
+        "GEN-WOH-26:23",
+        "GEN-WOH-26:33",
+        "1KI-WOH-19:3",
+        "1SA-WOH-3:20"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-3:20"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "be-yedkhem-nittanu",
+    "changes": {
+      "appliesTo": [
+        "GEN-9:2",
+        "JOS-WOH-6:2",
+        "JOS-WOH-10:8",
+        "JOS-WOH-10:19",
+        "JOS-WOH-10:30",
+        "JOS-WOH-10:32",
+        "JDG-WOH-6:1",
+        "JDG-WOH-13:1",
+        "1SA-WOH-17:46",
+        "1SA-WOH-17:47"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-6:2",
+      "JOS-WOH-10:8",
+      "JOS-WOH-10:19",
+      "JOS-WOH-10:30",
+      "JOS-WOH-10:32",
+      "JDG-WOH-6:1",
+      "JDG-WOH-13:1",
+      "1SA-WOH-17:46",
+      "1SA-WOH-17:47"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "brit-milah-circumcision-covenant",
+    "changes": {
+      "appliesTo": [
+        "GEN-17:10",
+        "GEN-17:11",
+        "GEN-17:12",
+        "GEN-17:13",
+        "GEN-17:14",
+        "GEN-17:23",
+        "GEN-17:24",
+        "GEN-17:25",
+        "GEN-17:26",
+        "GEN-17:27",
+        "GEN-21:4",
+        "JOS-WOH-5:2",
+        "JOS-WOH-5:3",
+        "JOS-WOH-5:4",
+        "JOS-WOH-5:5",
+        "JOS-WOH-5:7",
+        "JOS-WOH-5:8",
+        "1SA-WOH-17:26",
+        "1SA-WOH-17:36"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-5:2",
+      "JOS-WOH-5:3",
+      "JOS-WOH-5:4",
+      "JOS-WOH-5:5",
+      "JOS-WOH-5:7",
+      "JOS-WOH-5:8",
+      "1SA-WOH-17:26",
+      "1SA-WOH-17:36"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "chei-x-oath-by-the-life-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-42:15",
+        "GEN-WOH-42:16",
+        "1KI-WOH-17:1",
+        "1KI-WOH-17:12",
+        "1KI-WOH-18:10",
+        "1KI-WOH-18:15",
+        "2KI-WOH-2:2",
+        "2KI-WOH-2:4",
+        "2KI-WOH-2:6",
+        "1KI-WOH-1:29",
+        "1KI-WOH-2:24",
+        "1KI-WOH-22:14",
+        "2KI-WOH-4:30",
+        "1SA-WOH-17:55"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-17:55"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "doubled-name-call-theophanic-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-46:2",
+        "2KI-WOH-2:12",
+        "1SA-WOH-3:10"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-3:10"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "elohei-yisrael",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:19",
+        "EZK-10:20",
+        "1KI-WOH-1:30",
+        "1KI-WOH-1:48",
+        "1KI-WOH-22:54",
+        "1KI-WOH-8:15",
+        "1KI-WOH-8:17",
+        "1KI-WOH-8:20",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:25",
+        "1KI-WOH-8:26",
+        "EZK-WOH-8:4",
+        "EZK-WOH-11:22",
+        "EZK-WOH-43:2",
+        "EZK-WOH-44:2",
+        "JOS-WOH-10:40",
+        "JOS-WOH-10:42",
+        "JDG-WOH-6:8",
+        "1SA-WOH-5:7",
+        "1SA-WOH-5:8",
+        "1SA-WOH-5:10",
+        "1SA-WOH-5:11",
+        "1SA-WOH-6:3",
+        "1SA-WOH-6:5"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-10:40",
+      "JOS-WOH-10:42",
+      "JDG-WOH-6:8",
+      "1SA-WOH-5:7",
+      "1SA-WOH-5:8",
+      "1SA-WOH-5:10",
+      "1SA-WOH-5:11",
+      "1SA-WOH-6:3",
+      "1SA-WOH-6:5"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-aherim-other-gods-monolatry-vs-monotheism-scholarly-dispute-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:3",
+        "EXO-WOH-20:20",
+        "JDG-WOH-6:10"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:10"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-as-translation",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:3",
+        "GEN-1:4",
+        "GEN-1:5",
+        "GEN-1:6",
+        "GEN-1:7",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:14",
+        "GEN-1:16",
+        "GEN-1:17",
+        "GEN-1:18",
+        "GEN-1:20",
+        "GEN-1:21",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:27",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:31",
+        "EZK-WOH-11:20",
+        "JOS-WOH-10:19",
+        "JOS-WOH-10:40",
+        "JOS-WOH-10:42",
+        "JDG-WOH-6:8",
+        "JDG-WOH-6:10",
+        "JDG-WOH-6:20",
+        "JDG-WOH-6:26",
+        "JDG-WOH-6:31",
+        "JDG-WOH-6:36",
+        "JDG-WOH-6:39",
+        "JDG-WOH-6:40",
+        "JDG-WOH-13:5",
+        "JDG-WOH-13:6",
+        "JDG-WOH-13:7",
+        "JDG-WOH-13:8",
+        "JDG-WOH-13:9",
+        "JDG-WOH-13:22",
+        "1SA-WOH-3:3",
+        "1SA-WOH-3:17",
+        "1SA-WOH-5:1",
+        "1SA-WOH-5:2",
+        "1SA-WOH-5:7",
+        "1SA-WOH-5:8",
+        "1SA-WOH-5:10",
+        "1SA-WOH-5:11",
+        "1SA-WOH-6:3",
+        "1SA-WOH-6:5",
+        "1SA-WOH-6:20",
+        "1SA-WOH-17:26",
+        "1SA-WOH-17:36",
+        "1SA-WOH-17:43",
+        "1SA-WOH-17:45",
+        "1SA-WOH-17:46"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-10:19",
+      "JOS-WOH-10:40",
+      "JOS-WOH-10:42",
+      "JDG-WOH-6:8",
+      "JDG-WOH-6:10",
+      "JDG-WOH-6:20",
+      "JDG-WOH-6:26",
+      "JDG-WOH-6:31",
+      "JDG-WOH-6:36",
+      "JDG-WOH-6:39",
+      "JDG-WOH-6:40",
+      "JDG-WOH-13:5",
+      "JDG-WOH-13:6",
+      "JDG-WOH-13:7",
+      "JDG-WOH-13:8",
+      "JDG-WOH-13:9",
+      "JDG-WOH-13:22",
+      "1SA-WOH-3:3",
+      "1SA-WOH-3:17",
+      "1SA-WOH-5:1",
+      "1SA-WOH-5:2",
+      "1SA-WOH-5:7",
+      "1SA-WOH-5:8",
+      "1SA-WOH-5:10",
+      "1SA-WOH-5:11",
+      "1SA-WOH-6:3",
+      "1SA-WOH-6:5",
+      "1SA-WOH-6:20",
+      "1SA-WOH-17:26",
+      "1SA-WOH-17:36",
+      "1SA-WOH-17:43",
+      "1SA-WOH-17:45",
+      "1SA-WOH-17:46"
+    ],
+    "reason": "appliesTo extension: 'Elohim' untranslated at every site of the wave, with the article and case governed by the Former Prophets overlay entry elohim-referent-and-article-conventions-former-prophets (applying the ratified Kings rule); Judg 6:40 applies this entry's narrative-article rule to an anarthrous narrative subject."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-imkha-divine-presence-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-21:22",
+        "GEN-WOH-26:28",
+        "GEN-WOH-28:15",
+        "GEN-WOH-31:3",
+        "1KI-WOH-1:37",
+        "1KI-WOH-8:57",
+        "JOS-WOH-6:27",
+        "JDG-WOH-6:12",
+        "JDG-WOH-6:13",
+        "JDG-WOH-6:16",
+        "1SA-WOH-3:19",
+        "1SA-WOH-17:37"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-6:27",
+      "JDG-WOH-6:12",
+      "JDG-WOH-6:13",
+      "JDG-WOH-6:16",
+      "1SA-WOH-3:19",
+      "1SA-WOH-17:37"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:30",
+        "1KI-WOH-22:36",
+        "1KI-WOH-22:47",
+        "1KI-WOH-6:1",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:37",
+        "1KI-WOH-8:41",
+        "1KI-WOH-8:46",
+        "1KI-WOH-8:47",
+        "1KI-WOH-8:48",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:5",
+        "2KI-WOH-17:7",
+        "2KI-WOH-17:26",
+        "2KI-WOH-17:27",
+        "2KI-WOH-17:36",
+        "EZK-WOH-8:3",
+        "EZK-WOH-8:12",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:15",
+        "EZK-WOH-40:2",
+        "EZK-WOH-42:6",
+        "EZK-WOH-43:2",
+        "EZK-WOH-43:14",
+        "JOS-WOH-5:6",
+        "JOS-WOH-5:11",
+        "JOS-WOH-5:12",
+        "JOS-WOH-6:22",
+        "JOS-WOH-6:27",
+        "JOS-WOH-10:40",
+        "JOS-WOH-10:41",
+        "JOS-WOH-10:42",
+        "JDG-WOH-6:4",
+        "JDG-WOH-6:5",
+        "JDG-WOH-6:9",
+        "JDG-WOH-6:10",
+        "1SA-WOH-6:5"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-5:6",
+      "JOS-WOH-5:11",
+      "JOS-WOH-5:12",
+      "JOS-WOH-6:22",
+      "JOS-WOH-6:27",
+      "JOS-WOH-10:40",
+      "JOS-WOH-10:41",
+      "JOS-WOH-10:42",
+      "JDG-WOH-6:4",
+      "JDG-WOH-6:5",
+      "JDG-WOH-6:9",
+      "JDG-WOH-6:10",
+      "1SA-WOH-6:5"
+    ],
+    "reason": "appliesTo extension only where ʾereṣ is rendered 'land' (wohChoice). Sites where ʾereṣ / ʾarṣâ is 'ground' (to the ground, on all the ground) or 'earth' (1 Sam 17:46) were cited by the draft and are not added; the Editor removed the citation there."
+  },
+  {
+    "op": "modify",
+    "id": "eshet-yefat-mareh",
+    "changes": {
+      "appliesTo": [
+        "GEN-12:11",
+        "GEN-12:14",
+        "GEN-26:7",
+        "GEN-29:17",
+        "GEN-WOH-29:17",
+        "GEN-39:6",
+        "1SA-16:12",
+        "1SA-25:3",
+        "2SA-11:2",
+        "2SA-14:27",
+        "1KI-1:3",
+        "1KI-1:4",
+        "EST-1:11",
+        "EST-2:7",
+        "1SA-WOH-17:42"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-17:42"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "hineni-prophetic-response-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:1",
+        "GEN-WOH-22:7",
+        "GEN-WOH-22:11",
+        "GEN-WOH-46:2",
+        "ISA-6:8",
+        "1SA-WOH-3:4",
+        "1SA-WOH-3:5",
+        "1SA-WOH-3:6",
+        "1SA-WOH-3:8",
+        "1SA-WOH-3:16"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-3:4",
+      "1SA-WOH-3:5",
+      "1SA-WOH-3:6",
+      "1SA-WOH-3:8",
+      "1SA-WOH-3:16"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "kahah-eynayim-patriarchal-blindness-narrative-trigger",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-27:1",
+        "GEN-WOH-48:10",
+        "1SA-WOH-3:2"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-3:2"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "malakh-elohim-messenger",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-21:17",
+        "GEN-WOH-31:11",
+        "GEN-WOH-32:2",
+        "JDG-WOH-6:20",
+        "JDG-WOH-13:6",
+        "JDG-WOH-13:9"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:20",
+      "JDG-WOH-13:6",
+      "JDG-WOH-13:9"
+    ],
+    "reason": "appliesTo extension: articular malʾaḵ hāʾĕlōhîm (Judg 6:20; 13:6, 9), rendered 'the messenger of the Elohim' with the Hebrew article under the Former Prophets elohim-referent rule (clause 1)."
+  },
+  {
+    "op": "modify",
+    "id": "malakh-yhwh-messenger",
+    "changes": {
+      "appliesTo": [
+        "GEN-16:7",
+        "GEN-16:9",
+        "GEN-16:10",
+        "GEN-16:11",
+        "GEN-19:1",
+        "GEN-19:15",
+        "GEN-22:11",
+        "GEN-22:15",
+        "GEN-48:16",
+        "EXOD-3:2",
+        "EXOD-14:19",
+        "EXOD-23:20",
+        "EXOD-23:23",
+        "EXOD-32:34",
+        "EXOD-33:2",
+        "NUM-22:22",
+        "NUM-22:23",
+        "NUM-22:24",
+        "NUM-22:25",
+        "NUM-22:26",
+        "NUM-22:27",
+        "NUM-22:31",
+        "NUM-22:32",
+        "NUM-22:34",
+        "NUM-22:35",
+        "JOSH-5:13",
+        "JOSH-5:14",
+        "JOSH-5:15",
+        "JUDG-2:1",
+        "JUDG-5:23",
+        "JUDG-6:11",
+        "JUDG-6:12",
+        "JUDG-6:20",
+        "JUDG-6:21",
+        "JUDG-6:22",
+        "JUDG-13:3",
+        "JUDG-13:6",
+        "JUDG-13:9",
+        "JUDG-13:13",
+        "JUDG-13:15",
+        "JUDG-13:16",
+        "JUDG-13:17",
+        "JUDG-13:18",
+        "JUDG-13:20",
+        "JUDG-13:21",
+        "2SAM-24:16",
+        "1KGS-19:7",
+        "2KGS-1:3",
+        "2KGS-1:15",
+        "2KGS-19:35",
+        "ISA-37:36",
+        "ISA-63:9",
+        "ZECH-1:11",
+        "ZECH-1:12",
+        "ZECH-3:1",
+        "ZECH-3:5",
+        "ZECH-3:6",
+        "PS-34:8",
+        "PS-35:5",
+        "PS-35:6",
+        "1KI-WOH-19:2",
+        "1KI-WOH-19:5",
+        "1KI-WOH-19:7",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:5",
+        "2KI-WOH-1:15",
+        "2KI-WOH-1:16",
+        "1KI-WOH-13:18",
+        "2KI-WOH-17:4",
+        "JOS-WOH-6:17",
+        "JOS-WOH-6:25",
+        "JDG-WOH-6:11",
+        "JDG-WOH-6:12",
+        "JDG-WOH-6:21",
+        "JDG-WOH-6:22",
+        "JDG-WOH-6:35",
+        "JDG-WOH-13:3",
+        "JDG-WOH-13:13",
+        "JDG-WOH-13:15",
+        "JDG-WOH-13:16",
+        "JDG-WOH-13:17",
+        "JDG-WOH-13:18",
+        "JDG-WOH-13:20",
+        "JDG-WOH-13:21",
+        "1SA-WOH-6:21"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-6:17",
+      "JOS-WOH-6:25",
+      "JDG-WOH-6:11",
+      "JDG-WOH-6:12",
+      "JDG-WOH-6:21",
+      "JDG-WOH-6:22",
+      "JDG-WOH-6:35",
+      "JDG-WOH-13:3",
+      "JDG-WOH-13:13",
+      "JDG-WOH-13:15",
+      "JDG-WOH-13:16",
+      "JDG-WOH-13:17",
+      "JDG-WOH-13:18",
+      "JDG-WOH-13:20",
+      "JDG-WOH-13:21",
+      "1SA-WOH-6:21"
+    ],
+    "reason": "appliesTo extension: the translation refIds of the malʾaḵ YHWH scenes of Judg 6 and 13 (the entry already lists them in the legacy JUDG- format, kept) and the human-envoy uses of bare malʾāḵîm (Josh 6:17, 25; Judg 6:35; 1 Sam 6:21), as in the Kings waves. The legacy refs JOSH-5:13, 14, 15 reflect the rationale's note that many identify the captain of the host with the malʾaḵ YHWH; the Hebrew of Josh 5:13-15 has no malʾāḵ, so the translation refIds JOS-WOH-5:13-15 are not added and the captain is governed by the joshua-woh entry sar-tzeva-yhwh-captain-of-the-host-of-yhwh-joshua-5. The orchestrator may wish to annotate or drop the three legacy refs."
+  },
+  {
+    "op": "modify",
+    "id": "mannah-bread-from-heaven-ex-16-quranic-and-nt-cross-corpus-with-disavowals",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-16:4",
+        "EXO-WOH-16:13",
+        "EXO-WOH-16:14",
+        "EXO-WOH-16:15",
+        "EXO-WOH-16:16",
+        "EXO-WOH-16:31",
+        "EXO-WOH-16:32",
+        "EXO-WOH-16:33",
+        "EXO-WOH-16:35",
+        "JOS-WOH-5:12"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-5:12"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "matza-chen-be-einei-x-favor-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:25",
+        "GEN-WOH-47:29",
+        "JDG-WOH-6:17"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:17"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "mifthan-ha-bayit",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:4",
+        "EZK-10:18",
+        "1SA-WOH-5:4",
+        "1SA-WOH-5:5"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-5:4",
+      "1SA-WOH-5:5"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "minchah-tribute-gift-of-appeasement",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-32:14",
+        "GEN-WOH-32:19",
+        "GEN-WOH-32:21",
+        "GEN-WOH-32:22",
+        "GEN-WOH-43:11",
+        "GEN-WOH-43:15",
+        "GEN-WOH-43:25",
+        "GEN-WOH-43:26",
+        "JDG-WOH-6:18"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:18"
+    ],
+    "reason": "appliesTo extension: 'my present' (Judg 6:18), the hospitality gift that becomes an offering in vv 19-21; the cultic overlap is documented in commentary as the wohChoice anticipates."
+  },
+  {
+    "op": "modify",
+    "id": "mot-tamut",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:17",
+        "1KI-WOH-2:37",
+        "1KI-WOH-2:42",
+        "JDG-WOH-13:22"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-13:22"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "name-refusal-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-32:30",
+        "JDG-WOH-13:18"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-13:18"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "navi-first-occurrence-abraham",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-20:7",
+        "1KI-WOH-18:4",
+        "1KI-WOH-18:13",
+        "1KI-WOH-18:19",
+        "1KI-WOH-18:20",
+        "1KI-WOH-18:22",
+        "1KI-WOH-18:25",
+        "1KI-WOH-18:36",
+        "1KI-WOH-18:40",
+        "1KI-WOH-19:1",
+        "1KI-WOH-19:10",
+        "1KI-WOH-19:14",
+        "1KI-WOH-19:16",
+        "2KI-WOH-2:3",
+        "2KI-WOH-2:5",
+        "2KI-WOH-2:7",
+        "2KI-WOH-2:15",
+        "1KI-WOH-1:8",
+        "1KI-WOH-1:10",
+        "1KI-WOH-1:22",
+        "1KI-WOH-1:23",
+        "1KI-WOH-1:32",
+        "1KI-WOH-1:34",
+        "1KI-WOH-1:38",
+        "1KI-WOH-1:44",
+        "1KI-WOH-1:45",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:18",
+        "1KI-WOH-13:20",
+        "1KI-WOH-13:23",
+        "1KI-WOH-13:25",
+        "1KI-WOH-13:26",
+        "1KI-WOH-13:29",
+        "1KI-WOH-22:6",
+        "1KI-WOH-22:7",
+        "1KI-WOH-22:10",
+        "1KI-WOH-22:12",
+        "1KI-WOH-22:13",
+        "1KI-WOH-22:22",
+        "1KI-WOH-22:23",
+        "2KI-WOH-4:1",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:13",
+        "2KI-WOH-17:23",
+        "EZK-WOH-2:5",
+        "JDG-WOH-6:8",
+        "1SA-WOH-3:20"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:8",
+      "1SA-WOH-3:20"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "olah-burnt-offering",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:2",
+        "GEN-WOH-22:3",
+        "GEN-WOH-22:6",
+        "GEN-WOH-22:7",
+        "GEN-WOH-22:8",
+        "GEN-WOH-22:13",
+        "1KI-WOH-18:34",
+        "1KI-WOH-18:38",
+        "1KI-WOH-8:64",
+        "EZK-WOH-40:38",
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:24",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "JDG-WOH-6:26",
+        "JDG-WOH-13:16",
+        "JDG-WOH-13:23",
+        "1SA-WOH-6:14",
+        "1SA-WOH-6:15"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:26",
+      "JDG-WOH-13:16",
+      "JDG-WOH-13:23",
+      "1SA-WOH-6:14",
+      "1SA-WOH-6:15"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "pelishtim-caphtor",
+    "changes": {
+      "appliesTo": [
+        "GEN-10:14",
+        "JDG-WOH-13:1",
+        "JDG-WOH-13:5",
+        "1SA-WOH-5:1",
+        "1SA-WOH-5:2",
+        "1SA-WOH-5:8",
+        "1SA-WOH-5:11",
+        "1SA-WOH-6:1",
+        "1SA-WOH-6:2",
+        "1SA-WOH-6:4",
+        "1SA-WOH-6:12",
+        "1SA-WOH-6:16",
+        "1SA-WOH-6:17",
+        "1SA-WOH-6:18",
+        "1SA-WOH-6:21",
+        "1SA-WOH-17:1",
+        "1SA-WOH-17:2",
+        "1SA-WOH-17:3",
+        "1SA-WOH-17:4",
+        "1SA-WOH-17:19",
+        "1SA-WOH-17:21",
+        "1SA-WOH-17:23",
+        "1SA-WOH-17:46",
+        "1SA-WOH-17:51",
+        "1SA-WOH-17:52",
+        "1SA-WOH-17:53"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-13:1",
+      "JDG-WOH-13:5",
+      "1SA-WOH-5:1",
+      "1SA-WOH-5:2",
+      "1SA-WOH-5:8",
+      "1SA-WOH-5:11",
+      "1SA-WOH-6:1",
+      "1SA-WOH-6:2",
+      "1SA-WOH-6:4",
+      "1SA-WOH-6:12",
+      "1SA-WOH-6:16",
+      "1SA-WOH-6:17",
+      "1SA-WOH-6:18",
+      "1SA-WOH-6:21",
+      "1SA-WOH-17:1",
+      "1SA-WOH-17:2",
+      "1SA-WOH-17:3",
+      "1SA-WOH-17:4",
+      "1SA-WOH-17:19",
+      "1SA-WOH-17:21",
+      "1SA-WOH-17:23",
+      "1SA-WOH-17:46",
+      "1SA-WOH-17:51",
+      "1SA-WOH-17:52",
+      "1SA-WOH-17:53"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "peniel-panim-el-panim-divine-face-encounter",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-32:31",
+        "GEN-WOH-32:32",
+        "GEN-WOH-33:10",
+        "JDG-WOH-6:22"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:22"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "piska-b-emtza-pasuq-masoretic-paragraph-break",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-35:22",
+        "2KI-WOH-1:17",
+        "1KI-WOH-13:20",
+        "JDG-WOH-6:22",
+        "1SA-WOH-17:37"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-6:22",
+      "1SA-WOH-17:37"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-40:43",
+        "EZK-WOH-42:13",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:19",
+        "EZK-WOH-43:20",
+        "EZK-WOH-43:21",
+        "EZK-WOH-43:22",
+        "EZK-WOH-43:23",
+        "EZK-WOH-43:25",
+        "EZK-WOH-43:26",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "EZK-WOH-44:27",
+        "EZK-WOH-44:29",
+        "EZK-WOH-44:30",
+        "EXO-WOH-20:21",
+        "1KI-WOH-8:63",
+        "1KI-WOH-8:64",
+        "JDG-WOH-13:19",
+        "JDG-WOH-13:23",
+        "1SA-WOH-3:14",
+        "1SA-WOH-6:3",
+        "1SA-WOH-6:4",
+        "1SA-WOH-6:8",
+        "1SA-WOH-6:15",
+        "1SA-WOH-6:17"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-13:19",
+      "JDG-WOH-13:23",
+      "1SA-WOH-3:14",
+      "1SA-WOH-6:3",
+      "1SA-WOH-6:4",
+      "1SA-WOH-6:8",
+      "1SA-WOH-6:15",
+      "1SA-WOH-6:17"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "sarai-aqarah",
+    "changes": {
+      "appliesTo": [
+        "GEN-11:30",
+        "JDG-WOH-13:2",
+        "JDG-WOH-13:3"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-13:2",
+      "JDG-WOH-13:3"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "shamayim",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:30",
+        "1KI-WOH-18:45",
+        "2KI-WOH-1:10",
+        "2KI-WOH-1:12",
+        "2KI-WOH-1:14",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11",
+        "1KI-WOH-22:19",
+        "1KI-WOH-8:22",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:27",
+        "1KI-WOH-8:30",
+        "1KI-WOH-8:32",
+        "1KI-WOH-8:34",
+        "1KI-WOH-8:35",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:39",
+        "1KI-WOH-8:43",
+        "1KI-WOH-8:45",
+        "1KI-WOH-8:49",
+        "1KI-WOH-8:54",
+        "2KI-WOH-17:16",
+        "EZK-WOH-8:3",
+        "JOS-WOH-10:11",
+        "JOS-WOH-10:13",
+        "JDG-WOH-13:20",
+        "1SA-WOH-5:12",
+        "1SA-WOH-17:44",
+        "1SA-WOH-17:46"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-10:11",
+      "JOS-WOH-10:13",
+      "JDG-WOH-13:20",
+      "1SA-WOH-5:12",
+      "1SA-WOH-17:44",
+      "1SA-WOH-17:46"
+    ],
+    "reason": "appliesTo extension: 'skies' for the physical sky and directions (Josh 10:11, 13; Judg 13:20 'toward the skies', the flame's direction; 1 Sam 17:44, 46 'the birds of the skies'), and 'heavens' at 1 Sam 5:12, 'the cry of the city went up to the heavens', a cry rising to the divine realm, under the ratified register clause."
+  },
+  {
+    "op": "modify",
+    "id": "ulam-hekhal-devir-temple-three-room-plan-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "1KI-WOH-6:3",
+        "1KI-WOH-6:5",
+        "1KI-WOH-6:16",
+        "1KI-WOH-6:17",
+        "1KI-WOH-6:19",
+        "1KI-WOH-6:20",
+        "1KI-WOH-6:21",
+        "1KI-WOH-6:22",
+        "1KI-WOH-6:23",
+        "1KI-WOH-6:27",
+        "1KI-WOH-6:31",
+        "1KI-WOH-6:33",
+        "1KI-WOH-8:6",
+        "1KI-WOH-8:8",
+        "1KI-WOH-8:10",
+        "EZK-WOH-8:16",
+        "EZK-WOH-40:7",
+        "EZK-WOH-40:8",
+        "EZK-WOH-40:9",
+        "EZK-WOH-40:15",
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:40",
+        "EZK-WOH-40:48",
+        "EZK-WOH-40:49",
+        "EZK-WOH-42:8",
+        "EZK-WOH-42:15",
+        "EZK-WOH-44:3",
+        "1SA-WOH-3:3"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-3:3"
+    ],
+    "reason": "appliesTo extension: hêḵal YHWH at Shiloh (1 Sam 3:3), the whole sanctuary, 'temple' under the wohChoice's context clause (which names 1 Sam 1:9)."
+  },
+  {
+    "op": "modify",
+    "id": "va-yaal-elohim-divine-ascent-departure",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-35:13",
+        "JDG-WOH-13:20"
+      ]
+    },
+    "appliesToAdded": [
+      "JDG-WOH-13:20"
+    ],
+    "reason": "appliesTo extension: the rationale already discusses Judg 13:20 as a divine-departure-by-ascent site; the line keeps 'went up' for wayyaʿal, the verb the entry governs."
+  },
+  {
+    "op": "modify",
+    "id": "yad-yhwh",
+    "changes": {
+      "appliesTo": [
+        "EZK-1:3",
+        "1KI-WOH-18:46",
+        "EZK-WOH-3:14",
+        "EZK-WOH-3:22",
+        "EZK-WOH-8:1",
+        "EZK-WOH-40:1",
+        "1SA-WOH-5:6",
+        "1SA-WOH-5:9"
+      ]
+    },
+    "appliesToAdded": [
+      "1SA-WOH-5:6",
+      "1SA-WOH-5:9"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "yhwh-yilachem-lakhem-divine-warrior-formula-ex-14-13-14-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-14:13",
+        "EXO-WOH-14:14",
+        "EXO-WOH-14:25",
+        "JOS-WOH-10:14",
+        "JOS-WOH-10:42"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-10:14",
+      "JOS-WOH-10:42"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  },
+  {
+    "op": "modify",
+    "id": "zonah-prostitute-status-vocabulary-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-34:31",
+        "GEN-WOH-38:15",
+        "GEN-WOH-38:24",
+        "1KI-WOH-22:38",
+        "JOS-WOH-6:17",
+        "JOS-WOH-6:22",
+        "JOS-WOH-6:25"
+      ]
+    },
+    "appliesToAdded": [
+      "JOS-WOH-6:17",
+      "JOS-WOH-6:22",
+      "JOS-WOH-6:25"
+    ],
+    "reason": "appliesTo extension only: the entry's wohChoice governs the Former Prophets wave-1 lines as cited; no other field changes."
+  }
+]

@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "WIS-WOH",
+  "bookSlug": "wisdom-of-solomon-woh",
+  "n": 13,
+  "title": "Wisdom of Solomon 13 — The craftsman known from his works, and the carved idol",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Septuagint Greek — H. B. Swete, The Old Testament in Greek according to the Septuagint, vol. 2 (Cambridge University Press, 1896), the text of Codex Vaticanus (B/03); Swete's apparatus (Sinaiticus א, Alexandrinus A, etc.) survives in the transcription only as OCR-garbled footnotes; witnesses named in the notes are read from it. OCR corrections listed in source-grc-13.json `corrections`.",
+    "sourceLicense": "Swete 1896 (Public Domain); digital transcription First1KGreek, CC BY-SA 4.0",
+    "sourceUrl": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0527/tlg033/tlg0527.tlg033.1st1K-grc1.xml",
+    "sourceAccessedVia": "First1KGreek (Open Greek and Latin) tlg0527.tlg033.1st1K-grc1, fetched 2026-11-01 into source-grc-13.json; reference translation Brenton 1844/1851 (PD), consulted from the translator's knowledge only (no hosted edition)",
+    "glossaryVersion": "2.90.0",
+    "overlayGlossaryVersion": "1.0.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-01T17:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-01T14:28:55Z",
+      "verdicts": [
+        {
+          "refId": "WIS-WOH-13:1",
+          "status": "approve",
+          "citations": [
+            "Winston, The Wisdom of Solomon, AB 43 (1979), ad loc. 13:1",
+            "LSJ s.v. τεχνίτης",
+            "Philo, De vita Mosis 1.75",
+            "TBWTT ch. 3 (TBWTT-3:268-270)"
+          ],
+          "reasoning": "Re-parsed: mataioi ... physei predicate; hois parēn theou agnōsia dative of possession, taken restrictively ('all people in whom there was ignorance of God'), as NRSV and Winston; ton onta masc. acc. articular participle; ek tōn horōmenōn agathōn; proschontes aor. ptc. of prosechō. 'him who is' and 'the craftsman' are singular and lexical; the Ex 3:14 LXX allusion is standard in the commentaries. Reception note checked against the citation extract (FR and EN, reverse order, 'workmaster' = KJV) and confined to its labelled paragraph."
+        },
+        {
+          "refId": "WIS-WOH-13:2",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. πρύτανις (Aeschylus, Prometheus 169)",
+            "LSJ, BDAG s.v. φωστήρ",
+            "Philo, De decalogo 53-57"
+          ],
+          "reasoning": "Re-parsed: all-ē list of accusatives, phōstēras ouranou followed directly by prytaneis kosmou, then theous enomisan. The Greek order favours apposition to the luminaries, but the predicate reading is that of KJV, Brenton and NRSV; 'they deemed to be gods, rulers of the world' stays close to both. 'rulers', not 'presidents', is the poetic/general sense; pneuma 'wind' in an element list is correct; 'luminaries' is NRSV and LXX Gen 1:14, 16. The note's 'as open as the Greek' slightly overstates (non-blocking)."
+        },
+        {
+          "refId": "WIS-WOH-13:3",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. δεσπότης",
+            "LXX Gen 15:2, 8 (Δέσποτα for ʾădōnāy)",
+            "Muraoka, A Greek-English Lexicon of the Septuagint (2009), s.v. κτίζω"
+          ],
+          "reasoning": "Re-parsed: hōn ... tē kallonē 'in whose beauty' (rendered 'their beauty'); gnōtōsan imperative; posō dative of measure; toutōn either comparative genitive or with despotēs, and the line follows NRSV verbatim. genesiarchēs 'first author' (KJV); ektisen 'created', so central bara rightly not applied. Minor: the note says despotēs renders 'ʾādôn (Gen 15:2, 8)'; at those sites it renders the vocative ʾădōnāy, as the overlay entry correctly says (non-blocking)."
+        },
+        {
+          "refId": "WIS-WOH-13:4",
+          "status": "approve",
+          "citations": [
+            "Gilbert, La critique des dieux dans le Livre de la Sagesse (Sg 13-15), AnBib 53 (1973)"
+          ],
+          "reasoning": "Re-parsed: dynamei kai energeia dative of cause with ekplagentes; noēsatōsan; ho kataskeuasas aor. ptc. 'he who fashioned them' (NRSV 'formed'). Matching the verb at 13:11 is accurate (the same lemma) and exposes a parallel the Greek really makes."
+        },
+        {
+          "refId": "WIS-WOH-13:5",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. ἀναλόγως",
+            "Winston, AB 43 (1979), ad loc. 13:5",
+            "Plato, Republic 508b-c",
+            "TBWTT ch. 3 (TBWTT-3:268-269)"
+          ],
+          "reasoning": "Re-parsed: ek megethous kallonēs kai ktismatōn read as 'the greatness and beauty of created things' (KJV, NRSV); analogōs 'by analogy' is the lexical sense; theōreitai passive 'is seen'; ho genesiourgos autōn singular 'their maker'. The canon's plural 'creators' stays in the labelled reception note; FR and EN quotations verified. (Swete's apparatus shows A omitting kai, 'the greatness of the beauty of created things': optional mention.)"
+        },
+        {
+          "refId": "WIS-WOH-13:6",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. τάχα II"
+          ],
+          "reasoning": "Re-parsed: mempsis oligē; kai gar autoi tacha planōntai + present = 'perhaps'; theon zētountes anarthrous, read 'God' as by NRSV and Winston. 'they too' for kai ... autoi is one defensible rendering of kai."
+        },
+        {
+          "refId": "WIS-WOH-13:7",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. διερευνάω",
+            "Swete 1896 apparatus ad 13:7 (διερευνωσιν Bab ℵc.a A)"
+          ],
+          "reasoning": "Re-parsed: anastrephomenoi en tois ergois 'occupied with / living among his works'; diereunōsin without object, object supplied from 'his works' (KJV supplies 'him'); peithontai tē opsei 'trust their sight' (NRSV 'trust in what they see'). Swete's apparatus, preserved in the raw transcription, confirms διεραυνῶσιν is the first hand of B, so the 'Vaticanus spelling' claim is correct."
+        },
+        {
+          "refId": "WIS-WOH-13:8",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. συγγνωστός",
+            "Swete 1896 apparatus ad 13:8 (συγγνωστοι Bb)"
+          ],
+          "reasoning": "palin d' oud' autoi syngnōstoi: 'not even they are to be pardoned' is exact. Apparatus confirms συνγνωστοί is B* (corrected to συγγνωστοί by Bb)."
+        },
+        {
+          "refId": "WIS-WOH-13:9",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. στοχάζομαι II",
+            "BDAG s.v. αἰών 3"
+          ],
+          "reasoning": "Re-parsed: tosouton ... hina result clause; stochasasthai aor. mid. inf.; aiōn in the spatial sense 'world' (BDAG 3, KJV, NRSV). 'form conjectures about' is the lexicon's figurative sense and closer to stochazomai than NRSV 'investigate'; 'aim at' (KJV/Brenton) is retained in commentary."
+        },
+        {
+          "refId": "WIS-WOH-13:10",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. ἐμμελέτημα",
+            "Swete 1896 apparatus ad 13:10 (εμμελετηματα ℵc.a)"
+          ],
+          "reasoning": "Re-parsed: talaipōroi predicate; en nekrois neuter 'in dead things' (KJV, NRSV); erga cheirōn anthrōpōn; cheiros ergon archaias in apposition to the stone. The two OCR corrections (ἀνθρώπωον; the apparatus block) are confirmed against the raw XML. The comma for the stop is plausible, since a stop before an appositive genitive phrase makes a fragment, but the commentary asserts 'it is not Swete's punctuation' without a page-image check. Non-blocking: soften to 'taken as a transcription error' or verify Swete vol. 2 p. 628."
+        },
+        {
+          "refId": "WIS-WOH-13:11",
+          "status": "revise",
+          "citations": [
+            "LSJ s.vv. ὑλοτόμος, εὐκίνητος, εὐμαθῶς",
+            "Smyth, Greek Grammar §2837 (apodotic δέ)"
+          ],
+          "reasoning": "Rendering approved. Copyedit: 'skilfully' (British) sits in the same chapter as 'vigor' (13:19, American), and psalms-woh lines use 'skillfully'. Change to 'skillfully'. Also optional: the commentary could note that ei de kai tis ... (13:11-12) has no formal apodosis before 13:13, where KJV, Brenton and NRSV drop the 'if' altogether."
+        },
+        {
+          "refId": "WIS-WOH-13:12",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-parsed: ta apoblēmata tēs ergasias ... analōsas eneplēsthē 'having spent the leftovers of his work on preparing food, has eaten his fill'. Exact; no note needed."
+        },
+        {
+          "refId": "WIS-WOH-13:13",
+          "status": "revise",
+          "citations": [
+            "Swete 1896 apparatus ad 13:13: ανεσεως] συνεσεως ℵc.a; αργιας] εργασιας ℵc.a A (preserved in the First1KGreek XML footnote)",
+            "Smyth, Greek Grammar §2837"
+          ],
+          "reasoning": "The line is approved: ἀνέσεως (Swete; NRSV 'skill gained in idleness'), 'he likened it to the image of a human being'. Revise the commentary. Its premise that 'Swete's apparatus is not reproduced in the transcription' is wrong. The raw XML keeps the apparatus as footnotes, OCR-degraded with ℵ written 'U+05D0'. That apparatus gives συνέσεως as the reading of a corrector of Sinaiticus (ℵc.a), and ἐργασίας for ἀργίας as ℵc.a A. Name that witness and drop 'witnesses not named'. The Translator's guess of Alexandrinus is not supported. Also optional: note that 'then' renders apodotic δέ after the protasis of 13:11."
+        },
+        {
+          "refId": "WIS-WOH-13:14",
+          "status": "approve",
+          "citations": [
+            "LSJ s.vv. μίλτος, φῦκος, χρόα"
+          ],
+          "reasoning": "Re-parsed: ē zōō tini eutelei hōmoiōsen; katachrisas miltō; phykei erythēnas chroan. 'vermilion', 'paint', 'its surface' are lexical; the doubled katachrisas is kept as 'smearing ... smearing over'."
+        },
+        {
+          "refId": "WIS-WOH-13:15",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. οἴκημα"
+          ],
+          "reasoning": "kai poiēsas autō autou axion oikēma ... en toichō ethēken ... asphalisamenos sidērō: 'a dwelling worthy of it ... in a wall, fastening it with iron'. Exact; NRSV 'niche' is recorded in the note."
+        },
+        {
+          "refId": "WIS-WOH-13:16",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "hina men oun mē katapesē proenoēsen autou; eidōs hoti adynatei heautō boēthēsai; kai gar estin eikōn. Exact; the OCR correction μὲν οὖν is confirmed."
+        },
+        {
+          "refId": "WIS-WOH-13:17",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. γάμος"
+          ],
+          "reasoning": "Re-parsed: peri ktēmatōn kai gamōn autou kai teknōn proseuchomenos; tō apsychō proslalōn; to asthenes epikaleitai. 'his marriage' for plural gamoi is lexically sound."
+        },
+        {
+          "refId": "WIS-WOH-13:18",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. ἄπειρος (A)"
+          ],
+          "reasoning": "Re-parsed: to nekron axioi; to apeirotaton hiketeuei; to mēde basei chrēsthai dynamenon. 'the most inexperienced thing' matches NRSV ('utterly inexperienced') and the lexeme; the draft's 'helpless' was a paraphrase."
+        },
+        {
+          "refId": "WIS-WOH-13:19",
+          "status": "approve",
+          "citations": [
+            "LSJ s.vv. ἀδρανής, εὐδράνεια"
+          ],
+          "reasoning": "Re-parsed: peri porismou kai ergasias kai cheirōn epitychias; to adranestaton tais chersin eudraneian aiteitai. 'vigor ... without vigor' keeps the adranēs/eudraneia wordplay; tais chersin taken with adranestaton, as NRSV does."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom",
+          "status": "revise",
+          "citations": [
+            "Swete 1896, vol. 2, apparatus to Wis 13 (preserved in First1KGreek tlg0527.tlg033 XML footnotes)",
+            "Ziegler, Sapientia Salomonis, Göttingen Septuaginta XII/1 (1962; 2nd ed. 1980)"
+          ],
+          "reasoning": "Direct is right for the convention itself: translate Swete's B text, list OCR fixes, and keep B orthography. All 9 listed corrections were verified by diffing the raw XML against source-grc-13.json, with no unlisted change. Revise the rationale, wohChoice and 13:13 note, which say the apparatus is 'lost' or 'stripped'. It survives as OCR footnotes and already confirms the entry's orthography claims (διεραυνῶσιν B*, συνγνωστοί B*). It also supplies the 13:13 siglum (συνέσεως ℵc.a), so the rule becomes: name witnesses where Swete's apparatus gives them, and mark them as read from an OCR transcription."
+        },
+        {
+          "glossary_id": "theos-god-rendering-wisdom",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. θεός",
+            "Muraoka (2009) s.v. θεός"
+          ],
+          "reasoning": "Direct is correct: Wisdom was composed in Greek, LXX theos renders ʾĕlōhîm/ʾēl and kyrios the Tetragrammaton, and the rule matches all Greek books in the corpus."
+        },
+        {
+          "glossary_id": "greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom",
+          "status": "approve",
+          "citations": [
+            "LSJ, BDAG s.v. φωστήρ",
+            "LXX Gen 1:14, 16"
+          ],
+          "reasoning": "Direct. The entry states the explicit lexical criterion the Revelation reviewer asked for: apply a central entry only where the Greek word is the LXX equivalent and the central English renders it. It is applied correctly: meorot (phōstēres) is applied, while bara (ktizō), pesel and tzeva are background."
+        },
+        {
+          "glossary_id": "anthropos-generic-people-convention-wisdom",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄνθρωπος",
+            "LSJ s.v. ἄνθρωπος"
+          ],
+          "reasoning": "Direct; same rule as the ratified Matthew entry; no anēr in the chapter; the 13:13/14 human/animal contrast justifies 'a human being'."
+        },
+        {
+          "glossary_id": "raelian-canon-citation-reception-note-convention-wisdom",
+          "status": "approve",
+          "citations": [
+            "TBWTT ch. 3 (TBWTT-3:266, 268-270)"
+          ],
+          "reasoning": "Direct for an apparatus convention. Both reception notes were checked against the citation extract (FR and EN wording, the reverse order of 13:5 then 13:1, the 'creators' gloss at 3:269). Neither leaks into the line."
+        },
+        {
+          "glossary_id": "ton-onta-him-who-is-wis-13-1",
+          "status": "approve",
+          "citations": [
+            "Winston, AB 43 (1979), ad loc. 13:1",
+            "Larcher, Le Livre de la Sagesse ou la Sagesse de Salomon (Études bibliques, 1983-85), ad loc.",
+            "Philo, De vita Mosis 1.75"
+          ],
+          "reasoning": "Direct: the participle's gender and case are explicit, and the Ex 3:14 LXX allusion is standard in the commentaries. Lower-case 'him who is' matches the Revelation rendering and adds no title."
+        },
+        {
+          "glossary_id": "technites-craftsman-wis-13-1",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. τεχνίτης",
+            "BDAG s.v. τεχνίτης"
+          ],
+          "reasoning": "Direct: ordinary lexical sense, with NRSV 'artisan' as an equal alternative; the Wisdom word-family (7:21; 13:10-11) is real."
+        },
+        {
+          "glossary_id": "creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. κτίζω",
+            "LSJ s.vv. γενεσιάρχης, γενεσιουργός",
+            "Gilbert, AnBib 53 (1973)"
+          ],
+          "reasoning": "Direct. All four agents are singular and rendered so; ktizō 'created' declines the central bara 'shape', which is correct under the scope rule. The kataskeuazō parallel 13:4/13:11 is Gilbert's observation."
+        },
+        {
+          "glossary_id": "despotes-lord-wis-13-3-9",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. δεσπότης",
+            "LXX Gen 15:2, 8"
+          ],
+          "reasoning": "Direct; KJV/NRSV agree. The rationale's 'ʾādôn and the vocative ʾădōnāy (Gen 15:2, 8)' is accurate; only the 13:3 note compresses it to 'ʾādôn' (non-blocking)."
+        },
+        {
+          "glossary_id": "prytaneis-kosmou-rulers-of-the-world-wis-13-2",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. πρύτανις",
+            "Aeschylus, Prometheus Bound 169"
+          ],
+          "reasoning": "Direct. 'Rulers' is the poetic/general sense, and the civic 'presidents' is rightly excluded. Minor: the rationale cites Philo De decalogo 52-65 while the 13:2 note cites 53-57 (harmonize, non-blocking)."
+        },
+        {
+          "glossary_id": "elements-and-heavenly-bodies-list-wis-13-2",
+          "status": "approve",
+          "citations": [
+            "LSJ s.vv. πνεῦμα, κύκλος",
+            "BDAG s.v. φωστήρ",
+            "Philo, De vita contemplativa 3-5"
+          ],
+          "reasoning": "Direct; standard renderings, no zodiac narrowing, 'wind' not 'spirit'."
+        },
+        {
+          "glossary_id": "analogos-theoreitai-by-analogy-wis-13-5",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. ἀναλόγως",
+            "Winston, AB 43 (1979), ad loc. 13:5"
+          ],
+          "reasoning": "Direct; lexical sense; the rationale openly states that the agreement with the canon's French was not the reason for the choice."
+        },
+        {
+          "glossary_id": "stochasasthai-ton-aiona-wis-13-9",
+          "status": "approve",
+          "citations": [
+            "LSJ s.v. στοχάζομαι II",
+            "BDAG s.v. αἰών 3"
+          ],
+          "reasoning": "Direct is acceptable. The aiōn = world sense is consensus, and the verb's sense is the lexicon's; 'form conjectures' differs from KJV/NRSV wording but not from the lexical evidence."
+        },
+        {
+          "glossary_id": "knowing-god-vocabulary-wis-13-1-9",
+          "status": "approve",
+          "citations": [
+            "LSJ s.vv. τάχα, συγγνωστός",
+            "Jer 2:5 LXX (mataios)"
+          ],
+          "reasoning": "Direct; the Translator's renderings are standard. Non-blocking: the source/translit fields give 'diereunōsin' while the chapter translit and Greek are διεραυνῶσιν/'dieraunōsin'; either state the lemma form explicitly or align it."
+        },
+        {
+          "glossary_id": "idol-polemic-vocabulary-wis-13-10-19",
+          "status": "approve",
+          "citations": [
+            "LSJ s.vv. ἀπεικάζω, ἄπειρος (A), γάμος",
+            "Gilbert, AnBib 53 (1973)",
+            "Isa 44:9-20; Jer 10:3-5"
+          ],
+          "reasoning": "Direct. Every listed sense was checked against the Greek; the four changed lines (13:10, 11, 13, 18) are lexically tighter than the draft."
+        },
+        {
+          "glossary_id": "central-op:ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus (appliesTo +WIS-WOH-13:1)",
+          "status": "approve",
+          "citations": [
+            "Winston, AB 43 (1979), ad loc. 13:1",
+            "Philo, De vita Mosis 1.75"
+          ],
+          "reasoning": "Verified against base 2.83.0: the array preserves all six existing refIds and adds one. The site is a reception of the LXX ho ōn stratum, as at the Revelation sites, and the Hebrew-surface wohChoice is not imported into the line."
+        },
+        {
+          "glossary_id": "central-op:meorot (appliesTo +WIS-WOH-13:2; strongs + G5458)",
+          "status": "approve",
+          "citations": [
+            "LSJ, BDAG s.v. φωστήρ",
+            "LXX Gen 1:14, 16"
+          ],
+          "reasoning": "Verified: base array preserved. LXX uses φωστῆρες at Gen 1:14 and 1:16 (1:15 has φαῦσιν, correctly omitted), and 'luminaries' renders the Greek. Non-blocking: the strongs string lists Phil 2:15 and Rev 21:11, and the corpus renders Rev 21:11 'radiance'. Add '(lexeme occurrences; not all governed)' so no one reads them as appliesTo."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "lensLeakageCheck": "All 19 English lines were re-read against the Greek. No line contains Elohim, Yahweh, creators, council, president, craft, planet or any other lens vocabulary. At the two canon-cited sites the Greek agent nouns are singular (13:1 ton onta, ton technitēn; 13:5 ho genesiourgos autōn), and the lines keep them singular ('him who is', 'the craftsman', 'their maker'). The canon's plural 'creators' (TBWTT-3:269) appears only in the two paragraphs headed 'reception note, not a translation claim'. 13:2 prytaneis kosmou is 'rulers of the world', the poetic/general sense shared by KJV and NRSV, not the civic 'presidents'/'council'. No ambiguity is resolved in the canon's direction. Where line and canon agree (13:5 'par analogie'), the agreement is lexical (LSJ), and the KJV words the canon's English quotes ('workmaster', 'proportionably') are recorded as older renderings of the same Greek. 'luminaries' at 13:2 follows NRSV and LXX Gen 1, not the lens.",
+      "sourceVerification": "source-grc-13.json was diffed against the raw First1KGreek XML (scratchpad wis/wis.xml). Every difference is one of the 9 listed corrections (8 OCR fixes plus the 13:10 comma), and nothing else was changed. The OCR fixes are certain (ὁραωμένων, μέν γὰρ, ἀλλ ἢ, δυνα-τώτερος, ἴνα, ἀνθρώπωον, μέν οὗν, and the apparatus block run into 13:10). The 13:10 comma is plausible but was not checked against Swete's page image (vol. 2 p. 628). The XML keeps Swete's apparatus as OCR footnotes. It confirms the B* orthographies the overlay keeps and gives ℵc.a for συνέσεως at 13:13. The source file's note that the apparatus is 'not reproduced' is accurate for the source JSON, but the overlay's statement that it was 'lost' in the transcription is not.",
+      "escalationReportAdjustments": "Initial verdicts on 19 verses, 15 overlay entries and 2 central ops were formed from the chapter, the overlay, the diff, the 2.83.0 base, the source and the raw XML before wave-wis1-editor-report.md was opened. After reading it, no verdict changed. The report's escalation on 13:13 ('Swete's apparatus was stripped from the transcription ... the Reviewer ... should add the sigla') is answered by the 13:13 and Swete-convention revises: the apparatus gives συνέσεως ℵc.a, not A. The Translator's 'Alexandrinus' guess is not supported. The 13:10 page-image check remains open and is non-blocking. The section-field question (13:1, 13:10) is a schema matter for the orchestrator, and the commentary handles it adequately. The report's '8 changed lines' were confirmed and each is endorsed. No _meta.json exists for the new book, so the orchestrator should create it before publication.",
+      "founderDecisionRecommendations": {
+        "A-theos-God-in-the-Septuagint": "Endorse. No ʾĕlōhîm stands behind a Greek-composed text; same rule as Matthew/Revelation.",
+        "B-technites-craftsman-not-workmaster": "Endorse. 'Workmaster' is the KJV's word for the same noun; 'craftsman' (or NRSV 'artisan') is current English and keeps the 7:21/13:10-11 word-family.",
+        "C-anthropoi-people": "Endorse; Matthew rule, NRSV practice.",
+        "D-analogos-by-analogy": "Endorse; LSJ sense, Winston's 'correspondingly' is the same reading.",
+        "E-despotes-Lord": "Endorse; KJV/NRSV; kyrios distinction named in commentary.",
+        "F-prytaneis-kosmou-rulers-of-the-world": "Endorse and keep closed. The predicate reading follows KJV/Brenton/NRSV, and 'presidents/council' would be a lens-shaped lexical choice the context does not support.",
+        "G-13:13-aneseos": "Endorse following Swete (ἀνέσεως is also the reading behind NRSV). Modify the 'wait for sigla' part: Swete's apparatus, which survives in the transcription's footnotes, gives συνέσεως as ℵc.a (a corrector of Sinaiticus), so the siglum can be added now.",
+        "H-plural-creators": "Agree that no decision is needed. Every Greek agent is singular, the lines keep the singular, and the reception notes state the divergence accurately against TBWTT-3:268-270."
+      },
+      "summary": "19 verdicts: 17 approve, 2 revise (13:11 spelling copyedit 'skilfully' → 'skillfully'; 13:13 commentary should name the ℵc.a siglum for συνέσεως, now verifiable from the apparatus in the transcription). 17 glossary/op reviews: 16 approve, 1 revise (Swete convention: the apparatus is not lost). 0 speculative entries. 0 lens-leakage flags. The English lines need only the one-word copyedit; the other revisions are to apparatus text. Status: awaiting-human."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "WIS-WOH-13:1",
+      "text": "Μάταιοι μὲν γὰρ πάντες ἄνθρωποι φύσει, οἷς παρῆν θεοῦ ἀγνωσία, καὶ ἐκ τῶν ὁρωμένων ἀγαθῶν οὐκ ἴσχυσαν εἰδέναι τὸν ὄντα, οὔτε τοῖς ἔργοις προσχόντες ἐπέγνωσαν τὸν τεχνίτην·",
+      "translit": "mataioi men gar pantes anthrōpoi physei, hois parēn theou agnōsia, kai ek tōn horōmenōn agathōn ouk ischysan eidenai ton onta, oute tois ergois proschontes epegnōsan ton technitēn·",
+      "i18n": {
+        "en": "For vain by nature were all people in whom there was ignorance of God, and who from the good things that are seen were not able to know him who is, nor, by attending to the works, did they recognize the craftsman;"
+      },
+      "notes": {
+        "official": "*Ton onta* 'him who is' is the masculine articular participle of *eimi* 'to be', the accusative of the Septuagint's *ho ōn* in Ex 3:14 (*egō eimi ho ōn*), and commentators read it as a deliberate allusion to that divine self-designation with a Hellenistic colouring of 'true being' (Winston, AB 43, ad loc.; Larcher, ad loc.; cf. Philo, *De vita Mosis* 1.75). The line uses the corpus's rendering of the same participle in Revelation ('him who is', Rev 1:4, 8), without title capitals (`ton-onta-him-who-is-wis-13-1`). The Exodus formula and its reading history are collected in the central `ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus`; the Revelation solecism entry is background only, since the participle here is regularly declined.\n\n*Ton technitēn* 'the craftsman' (KJV and Brenton 'the workmaster'; NRSV 'the artisan') opens a word-family the chapter exploits: Wisdom is *hē pantōn technitis* 'the fashioner of all things' (7:21), the idol is *technēs emmeletēma* (13:10), and the carpenter works *technēsamenos* (13:11). One plain word keeps the contrast between the divine and the human craftsman visible (`technites-craftsman-wis-13-1`). *Pantes anthrōpoi* is generic, 'all people' (draft 'all men'; NRSV 'all people'; `anthropos-generic-people-convention-wisdom`). *Hois parēn theou agnōsia* is a dative of possession, 'in whom there was ignorance of God'; *theos* is 'God' as in the corpus's other Greek books (`theos-god-rendering-wisdom`).\n\nSwete prints a capital at *Mataioi*, opening the section on nature-worship (13:1-9); *gar* links it to the argument of ch. 12. The OCR corrections listed in the source file are accepted; Vaticanus spellings are kept (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *The Book Which Tells the Truth* (ch. 3) quotes this verse after 13:5. The French has « Ils n'ont pas été capables de connaître d'après les biens visibles. Celui qui est », which corresponds to the first clause. The English edition has instead 'Neither by considering the works did they acknowledge the workmaster (…) he that is' (KJV wording, with the clauses in reverse order). The book reads the two verses together: 'It was nevertheless simple to see the truth, to recognize the creators by observing the created thing.' The line keeps the singular participle 'him who is' and renders *technitēs* 'the craftsman'. 'Workmaster' is the KJV's word for the same noun, not a different reading, and the plural 'creators' belongs to the book's reading, not to the Greek.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-wisdom",
+        "anthropos-generic-people-convention-wisdom",
+        "knowing-god-vocabulary-wis-13-1-9",
+        "ton-onta-him-who-is-wis-13-1",
+        "ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus",
+        "technites-craftsman-wis-13-1",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom",
+        "greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom",
+        "raelian-canon-citation-reception-note-convention-wisdom"
+      ]
+    },
+    {
+      "n": 2,
+      "refId": "WIS-WOH-13:2",
+      "text": "ἀλλʼ ἢ πῦρ ἢ πνεῦμα ἢ ταχινὸν ἀέρα ἢ κύκλον ἄστρων ἢ βίαιον ὕδωρ ἢ φωστῆρας οὐρανοῦ πρυτάνεις κόσμου θεοὺς ἐνόμισαν.",
+      "translit": "allʼ ē pyr ē pneuma ē tachinon aera ē kyklon astrōn ē biaion hydōr ē phōstēras ouranou prytaneis kosmou theous enomisan.",
+      "i18n": {
+        "en": "but either fire, or wind, or swift air, or the circle of the stars, or violent water, or the luminaries of heaven they deemed to be gods, rulers of the world."
+      },
+      "notes": {
+        "official": "*Prytaneis kosmou* 'rulers of the world': *prytanis* means 'ruler, lord' in poetic Greek (Aeschylus, *Prometheus* 169, of Zeus) and, in Athenian civic usage, a presiding member of the Council. The context, elements and stars that people 'deemed gods' as governors of the cosmos, calls for the general sense (`prytaneis-kosmou-rulers-of-the-world-wis-13-2`). Syntactically the phrase is either a second predicate ('deemed them gods, rulers of the world') or in apposition to 'the luminaries of heaven'; the Greek word order favours apposition to the luminaries, while the English follows the predicate reading of the KJV, Brenton and NRSV and stays close to both. KJV and NRSV restructure it as 'the gods which govern/rule the world'.\n\nThe list (fire, wind, swift air, the circle of the stars, violent water, the luminaries) is the standard inventory of Hellenistic critiques of element- and star-worship (Philo, *De decalogo* 53-57; *De vita contemplativa* 3-5; Winston, AB 43, ad loc.). *Pneuma* among the physical elements is 'wind', not 'spirit'. *Kyklos astrōn* is the revolving circuit of the stars, not specifically the zodiac. *Phōstēres* is the Septuagint word for the *mᵊʾōrōt* of Gen 1:14-16, rendered 'luminaries' under the central `meorot`, as in NRSV (draft 'lights'; `elements-and-heavenly-bodies-list-wis-13-2`). The astral-worship background of the central `tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus` (2 Kgs 17:16) is related but is not applied to the Greek line.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-wisdom",
+        "elements-and-heavenly-bodies-list-wis-13-2",
+        "meorot",
+        "prytaneis-kosmou-rulers-of-the-world-wis-13-2",
+        "greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom"
+      ]
+    },
+    {
+      "n": 3,
+      "refId": "WIS-WOH-13:3",
+      "text": "ὧν εἰ μὲν τῇ καλλονῇ τερπόμενοι θεοὺς ὑπελάμβανον, γνώτωσαν πόσῳ τούτων ὁ δεσπότης ἐστὶ βελτίων· ὁ γὰρ τοῦ κάλλους γενεσιάρχης ἔκτισεν αὐτά.",
+      "translit": "hōn ei men tē kallonē terpomenoi theous hypelambanon, gnōtōsan posō toutōn ho despotēs esti beltiōn· ho gar tou kallous genesiarchēs ektisen auta.",
+      "i18n": {
+        "en": "And if, delighting in their beauty, they took them to be gods, let them know how much better than these is their Lord; for the first author of beauty created them."
+      },
+      "notes": {
+        "official": "*Ho despotēs* 'their Lord' (KJV 'the Lord of them'; NRSV 'their Lord'): *despotēs* is the master or owner, and in the Septuagint it renders *ʾādôn*, and the vocative *Despota* renders *ʾădōnāy* at Gen 15:2, 8. It is a different word from *kyrios*, which the corpus also renders 'Lord'. The argument is one of ownership: the things people deified have a master greater than they (`despotes-lord-wis-13-3-9`). *Toutōn* can be taken with *beltiōn* ('better than these') or with *despotēs* ('the Lord of these'); the English follows NRSV and lets 'their' carry the second sense.\n\n*Ho tou kallous genesiarchēs* 'the first author of beauty' (KJV) is a rare compound of *genesis* 'origin' and *archē* 'beginning'. *Ektisen* 'created' is *ktizō*, the Septuagint's ordinary verb for divine creation. The central `bara` 'shape' governs the Hebrew verb of Gen 1 and is background here (`creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-wisdom",
+        "despotes-lord-wis-13-3-9",
+        "creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13",
+        "greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom"
+      ]
+    },
+    {
+      "n": 4,
+      "refId": "WIS-WOH-13:4",
+      "text": "εἰ δὲ δυνάμει καὶ ἐνεργείᾳ ἐκπλαγέντες, νοησάτωσαν ἀπʼ αὐτῶν πόσῳ ὁ κατασκευάσας αὐτὰ δυνατώτερός ἐστιν·",
+      "translit": "ei de dynamei kai energeia ekplagentes, noēsatōsan apʼ autōn posō ho kataskeuasas auta dynatōteros estin·",
+      "i18n": {
+        "en": "And if they were astounded at their power and working, let them understand from them how much mightier is he who fashioned them;"
+      },
+      "notes": {
+        "official": "*Ho kataskeuasas auta* 'he who fashioned them' (draft and KJV 'made'): the same verb describes the carpenter who 'has fashioned' a vessel at 13:11, and the author builds the chapter on this parallel between the divine and the human maker (Gilbert, *La critique des dieux dans le Livre de la Sagesse*, AnBib 53, 1973). One English verb for both keeps it visible (`creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13`). *Dynamei kai energeia* 'power and working': *energeia* is active operation (KJV 'virtue', in its older sense of efficacy).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "WIS-WOH-13:5",
+      "text": "ἐκ γὰρ μεγέθους καλλονῆς καὶ κτισμάτων ἀναλόγως ὁ γενεσιουργὸς αὐτῶν θεωρεῖται.",
+      "translit": "ek gar megethous kallonēs kai ktismatōn analogōs ho genesiourgos autōn theōreitai.",
+      "i18n": {
+        "en": "for from the greatness and beauty of created things their maker is seen by analogy."
+      },
+      "notes": {
+        "official": "*Analogōs* 'by analogy' (KJV 'proportionably'; NRSV 'a corresponding perception') names the inference from the qualities of the works to those of their maker, the argument from analogy of Greek philosophical theology (LSJ s.v. 'proportionally, analogously'; Winston, AB 43, ad loc.; cf. Rom 1:20). The KJV's 'proportionably' is an older word for the same sense. The compressed *ek megethous kallonēs kai ktismatōn* is read, as by the KJV and NRSV, as 'the greatness and beauty of created things'; Swete's apparatus records Alexandrinus without *kai* ('the greatness of the beauty of created things'). *Theōreitai* 'is seen' (KJV) is the passive of 'behold, perceive' (`analogos-theoreitai-by-analogy-wis-13-5`).\n\n*Ho genesiourgos autōn* 'their maker' (KJV 'the maker of them'; NRSV 'their Creator') is a rare compound, 'the worker of their coming-into-being', paired with *genesiarchēs* in 13:3. It is singular (`creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *The Book Which Tells the Truth* (ch. 3) quotes this verse: French « Car en partant de la grandeur et de la beauté des créatures on contemple par analogie leur auteur »; English edition 'For by the greatness and beauty of the creatures proportionably the maker of them is seen' (KJV). It comments: 'It was nevertheless simple to see the truth, to recognize the creators by observing the created thing.' The French 'par analogie' agrees with the line's 'by analogy', which follows the lexicon. 'Créatures'/'creatures' is the older sense 'created things' (*ktismata*). The Greek *genesiourgos* is singular. The book's plural 'creators' is its reading and does not enter the line.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "analogos-theoreitai-by-analogy-wis-13-5",
+        "creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13",
+        "raelian-canon-citation-reception-note-convention-wisdom"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "WIS-WOH-13:6",
+      "text": "ἀλλʼ ὅμως ἐπὶ τούτοις ἐστὶν μέμψις ὀλίγη, καὶ γὰρ αὐτοὶ τάχα πλανῶνται θεὸν ζητοῦντες καὶ θέλοντες εὑρεῖν·",
+      "translit": "allʼ homōs epi toutois estin mempsis oligē, kai gar autoi tacha planōntai theon zētountes kai thelontes heurein·",
+      "i18n": {
+        "en": "Yet for these there is little blame, for they too perhaps go astray while seeking God and wishing to find him;"
+      },
+      "notes": {
+        "official": "*Mempsis oligē* 'little blame': the author concedes that the nature-worshippers are seekers. *Tacha* with the present is 'perhaps', not 'quickly' (LSJ s.v. II). *Theon zētountes* is anarthrous but is read as 'seeking God', continuing the argument about the one maker (Winston, AB 43, ad loc.; `theos-god-rendering-wisdom`; `knowing-god-vocabulary-wis-13-1-9`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-wisdom",
+        "knowing-god-vocabulary-wis-13-1-9"
+      ]
+    },
+    {
+      "n": 7,
+      "refId": "WIS-WOH-13:7",
+      "text": "ἐν γὰρ τοῖς ἔργοις αὐτοῦ ἀναστρεφόμενοι διεραυνῶσιν, καὶ πείθονται τῇ ὄψει ὅτι καλὰ τὰ βλεπόμενα.",
+      "translit": "en gar tois ergois autou anastrephomenoi dieraunōsin, kai peithontai tē opsei hoti kala ta blepomena.",
+      "i18n": {
+        "en": "for, being occupied with his works, they search them out, and they trust their sight, because the things that are seen are beautiful."
+      },
+      "notes": {
+        "official": "*Diereunōsin* (the first hand of Vaticanus, B*, with -au-; Swete's apparatus gives -eu- for the B correctors, ℵ^c.a and A; kept) has no expressed object. 'They search them out' takes the object from 'his works' in the same clause; the KJV's 'search him diligently' supplies God instead. *Peithontai tē opsei* 'they trust their sight', i.e. they are persuaded by what they see because it is beautiful (`knowing-god-vocabulary-wis-13-1-9`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "knowing-god-vocabulary-wis-13-1-9",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "WIS-WOH-13:8",
+      "text": "πάλιν δʼ οὐδʼ αὐτοὶ συνγνωστοί·",
+      "translit": "palin dʼ oudʼ autoi syngnōstoi·",
+      "i18n": {
+        "en": "But again, not even they are to be pardoned;"
+      },
+      "notes": {
+        "official": "*Syngnōstoi* 'to be pardoned' (LSJ 'pardonable, excusable') reverses the concession of 13:6. Swete prints the unassimilated spelling συνγνωστοί, the first hand of Vaticanus (B*; corrected to συγγνωστοί by B^b, per Swete's apparatus), kept in the Greek (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`; `knowing-god-vocabulary-wis-13-1-9`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "knowing-god-vocabulary-wis-13-1-9",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "WIS-WOH-13:9",
+      "text": "εἰ γὰρ τοσοῦτον ἴσχυσαν εἰδέναι ἵνα δύνωνται στοχάσασθαι τὸν αἰῶνα, τὸν τούτων δεσπότην πῶς τάχιον οὐχ εὗρον;",
+      "translit": "ei gar tosouton ischysan eidenai hina dynōntai stochasasthai ton aiōna, ton toutōn despotēn pōs tachion ouch heuron;",
+      "i18n": {
+        "en": "for if they were able to know so much that they could form conjectures about the world, how did they not sooner find the Lord of these things?"
+      },
+      "notes": {
+        "official": "*Stochasasthai ton aiōna* 'form conjectures about the world' (KJV and Brenton 'aim at the world'; NRSV 'investigate the world'). *Stochazomai* means 'aim at' and, figuratively, 'conjecture, infer' (LSJ s.v. II); the context of people theorizing about the cosmos requires the figurative sense. *Aiōn*, usually 'age' or 'eternity', has here the Hellenistic sense 'world' (BDAG s.v. 3), as both the KJV and NRSV take it (`stochasasthai-ton-aiona-wis-13-9`). *Ton toutōn despotēn* 'the Lord of these things' (`despotes-lord-wis-13-3-9`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "stochasasthai-ton-aiona-wis-13-9",
+        "despotes-lord-wis-13-3-9"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "WIS-WOH-13:10",
+      "text": "Ταλαίπωροι δὲ καὶ ἐν νεκροῖς αἱ ἐλπίδες αὐτῶν, οἵτινες ἐκάλεσαν θεοὺς ἔργα χειρῶν ἀνθρώπων, χρυσὸν καὶ ἄργυρον, τέχνης ἐμμελέτημα, καὶ ἀπεικάσματα ζῴων, ἢ λίθον ἄχρηστον, χειρὸς ἔργον ἀρχαίας.",
+      "translit": "talaipōroi de kai en nekrois hai elpides autōn, hoitines ekalesan theous erga cheirōn anthrōpōn, chryson kai argyron, technēs emmeletēma, kai apeikasmata zōōn, ē lithon achrēston, cheiros ergon archaias.",
+      "i18n": {
+        "en": "But miserable are they, and their hopes are in dead things, who called gods the works of human hands, gold and silver, a thing worked out with art, and likenesses of living creatures, or a useless stone, the work of an ancient hand."
+      },
+      "notes": {
+        "official": "Swete's capital at *Talaipōroi* marks the second section of the chapter, from nature-worship to the worship of made objects (13:10-19); the paragraph schema records no section field, so the break is noted here. *En nekrois hai elpides autōn* 'their hopes are in dead things' (KJV 'in dead things is their hope'): *nekrois* is neuter, matching the lifeless objects listed (draft 'among dead things'). *Erga cheirōn anthrōpōn* 'the works of human hands' (`anthropos-generic-people-convention-wisdom`). *Technēs emmeletēma* 'a thing worked out with art' and *apeikasmata zōōn* 'likenesses of living creatures' continue the craft vocabulary of 13:1 (`idol-polemic-vocabulary-wis-13-10-19`).\n\nThe transcription had a full stop after *achrēston*, taken as a transcription error (a stop before the appositive phrase would leave a fragment; not yet checked against Swete's page image, vol. 2 p. 628); the source now reads a comma, so 'the work of an ancient hand' stands in apposition to the stone (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-wisdom",
+        "anthropos-generic-people-convention-wisdom",
+        "idol-polemic-vocabulary-wis-13-10-19",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 11,
+      "refId": "WIS-WOH-13:11",
+      "text": "εἰ δὲ καί τις ὑλοτόμος τέκτων εὐκίνητον φυτὸν ἐκπρίσας περιέξυσεν εὐμαθῶς πάντα τὸν φλοιὸν αὐτοῦ, καὶ τεχνησάμενος εὐπρεπῶς κατεσκεύασεν χρήσιμον σκεῦος εἰς ὑπηρεσίαν ζωῆς,",
+      "translit": "ei de kai tis hylotomos tektōn eukinēton phyton ekprisas periexysen eumathōs panta ton phloion autou, kai technēsamenos euprepōs kateskeuasen chrēsimon skeuos eis hypēresian zōēs,",
+      "i18n": {
+        "en": "And if some woodcutting carpenter, having sawn out a tree easy to handle, has skillfully scraped off all its bark round about, and, working it with art, has handsomely fashioned a useful vessel for the service of life,"
+      },
+      "notes": {
+        "official": "The satire on the woodcarver (13:11-19) is modelled on Isa 44:9-20 and Jer 10:3-5 (Gilbert, AnBib 53, 1973; Winston, AB 43, ad loc.). *Hylotomos tektōn* 'woodcutting carpenter' (KJV 'a carpenter that felleth timber'). *Kateskeuasen* 'has fashioned' is the verb used of God in 13:4 (`creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13`). *Ei de kai tis* … (13:11-12) is a protasis with no formal apodosis; the main clause resumes at 13:13 with apodotic *de* ('then'), which KJV, Brenton and NRSV smooth by dropping the 'if'. *Euprepōs* 'handsomely' replaces the draft's 'in seemly fashion' so that 'fashion' is not repeated. The carpenter's work is first useful (*chrēsimon skeuos*), and only its waste becomes a god (13:13; `idol-polemic-vocabulary-wis-13-10-19`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "creator-vocabulary-ktizo-genesiarches-kataskeuazo-genesiourgos-wis-13",
+        "idol-polemic-vocabulary-wis-13-10-19"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "WIS-WOH-13:12",
+      "text": "τὰ δὲ ἀποβλήματα τῆς ἐργασίας εἰς ἑτοιμασίαν τροφῆς ἀναλώσας ἐνεπλήσθη·",
+      "translit": "ta de apoblēmata tēs ergasias eis hetoimasian trophēs analōsas eneplēsthē·",
+      "i18n": {
+        "en": "and, having spent the leftovers of his work on preparing food, has eaten his fill;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "idol-polemic-vocabulary-wis-13-10-19"
+      ]
+    },
+    {
+      "n": 13,
+      "refId": "WIS-WOH-13:13",
+      "text": "τὸ δὲ ἐξ αὐτῶν ἀπόβλημα εἰς οὐθὲν εὔχρηστον, ξύλον σκολιὸν καὶ ὄζοις συμπεφυκός, λαβὼν ἔγλυψεν ἐν ἐπιμελείᾳ ἀργίας αὐτοῦ, καὶ ἐμπειρίᾳ ἀνέσεως ἐτύπωσεν αὐτό, ἀπείκασεν αὐτὸ εἰκόνι ἀνθρώπου,",
+      "translit": "to de ex autōn apoblēma eis outhen euchrēston, xylon skolion kai ozois sympephykos, labōn eglypsen en epimeleia argias autou, kai empeiria aneseōs etypōsen auto, apeikasen auto eikoni anthrōpou,",
+      "i18n": {
+        "en": "then the leftover from among them, useful for nothing, a crooked piece of wood grown full of knots, he took and carved with the care of his idleness, and shaped it with the skill of his leisure; he likened it to the image of a human being,"
+      },
+      "notes": {
+        "official": "Textual note: Swete prints *empeiria aneseōs* 'with the skill of his leisure', which keeps the chiasm with *epimeleia argias* 'the care of his idleness': careful work done in spare time. The KJV's 'by the skill of his understanding' presupposes *syneseōs*, which Swete's apparatus gives as the reading of a corrector of Codex Sinaiticus (ℵ^c.a); the same apparatus gives *ergasias* 'work' for *argias* 'idleness' in ℵ^c.a and Alexandrinus (A). Both are read from the apparatus footnotes preserved, OCR-degraded, in the First1KGreek transcription. Swete's text, with B and ℵ*, keeps the leisure/idleness pair, and NRSV ('skill gained in idleness') follows the same reading. The line follows Swete (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).\n\n*Apeikasen auto eikoni anthrōpou* 'he likened it to the image of a human being' (draft 'he made it a likeness of the image of a man'; NRSV 'the image of a human being'). *Apeikazō* with the dative means 'liken to', and *anthrōpos* is contrasted with 'some paltry animal' in 13:14 (`anthropos-generic-people-convention-wisdom`; `idol-polemic-vocabulary-wis-13-10-19`). 'then' at the head of the verse renders apodotic *de* after the protasis of 13:11-12. The Hebrew-text central `pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus` is background: no *glypton*/*pesel* noun stands in the Greek, only the verb *eglypsen* 'carved'.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "anthropos-generic-people-convention-wisdom",
+        "idol-polemic-vocabulary-wis-13-10-19",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom",
+        "greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom"
+      ]
+    },
+    {
+      "n": 14,
+      "refId": "WIS-WOH-13:14",
+      "text": "ἢ ζῴῳ τινὶ εὐτελεῖ ὡμοίωσεν αὐτό, καταχρίσας μίλτῳ καὶ φύκει ἐρυθήνας χρόαν αὐτοῦ, καὶ πᾶσαν κηλῖδα τὴν ἐν αὐτῷ καταχρίσας,",
+      "translit": "ē zōō tini eutelei hōmoiōsen auto, katachrisas miltō kai phykei erythēnas chroan autou, kai pasan kēlida tēn en autō katachrisas,",
+      "i18n": {
+        "en": "or made it like some paltry animal, smearing it with vermilion and reddening its surface with paint, and smearing over every blemish that is in it,"
+      },
+      "notes": {
+        "official": "*Miltos* is red ochre or vermilion and *phykos* a red cosmetic paint, originally made from seaweed; *chroa* is the skin or surface. The idol is made up like a face (`idol-polemic-vocabulary-wis-13-10-19`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "idol-polemic-vocabulary-wis-13-10-19"
+      ]
+    },
+    {
+      "n": 15,
+      "refId": "WIS-WOH-13:15",
+      "text": "καὶ ποιήσας αὐτῷ αὐτοῦ ἄξιον οἴκημα, ἐν τοίχῳ ἔθηκεν αὐτὸ ἀσφαλισάμενος σιδήρῳ.",
+      "translit": "kai poiēsas autō autou axion oikēma, en toichō ethēken auto asphalisamenos sidērō.",
+      "i18n": {
+        "en": "and, having made for it a dwelling worthy of it, he set it in a wall, fastening it with iron."
+      },
+      "notes": {
+        "official": "*Oikēma* 'a dwelling': the word also means a room or a shrine (LSJ s.v.), and NRSV has 'a niche'. Set 'in a wall' and fixed with iron, it is a wall niche, which the line leaves to the reader (`idol-polemic-vocabulary-wis-13-10-19`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "idol-polemic-vocabulary-wis-13-10-19"
+      ]
+    },
+    {
+      "n": 16,
+      "refId": "WIS-WOH-13:16",
+      "text": "ἵνα μὲν οὖν μὴ καταπέσῃ προενόησεν αὐτοῦ, εἰδὼς ὅτι ἀδυνατεῖ ἑαυτῷ βοηθῆσαι, καὶ γάρ ἐστιν εἰκὼν καὶ χρείαν ἔχει βοηθείας.",
+      "translit": "hina men oun mē katapesē proenoēsen autou, eidōs hoti adynatei heautō boēthēsai, kai gar estin eikōn kai chreian echei boētheias.",
+      "i18n": {
+        "en": "So he took thought for it, that it might not fall down, knowing that it is unable to help itself; for it is indeed an image and has need of help."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "idol-polemic-vocabulary-wis-13-10-19"
+      ]
+    },
+    {
+      "n": 17,
+      "refId": "WIS-WOH-13:17",
+      "text": "περὶ δὲ κτημάτων καὶ γάμων αὐτοῦ καὶ τέκνων προσευχόμενος οὐκ αἰσχύνεται τῷ ἀψύχῳ προσλαλῶν· καὶ περὶ μὲν ὑγείας τὸ ἀσθενὲς ἐπικαλεῖται,",
+      "translit": "peri de ktēmatōn kai gamōn autou kai teknōn proseuchomenos ouk aischynetai tō apsychō proslalōn· kai peri men hygeias to asthenes epikaleitai,",
+      "i18n": {
+        "en": "And when he prays about his possessions and his marriage and his children, he is not ashamed to speak to the lifeless thing; and for health he calls upon the weak thing,"
+      },
+      "notes": {
+        "official": "*Gamōn* is plural, but the plural of *gamos* regularly means a single wedding or marriage (LSJ s.v.), so 'his marriage' is accurate (`idol-polemic-vocabulary-wis-13-10-19`). The prayers move through property, family and health to the lifeless addressee.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "idol-polemic-vocabulary-wis-13-10-19"
+      ]
+    },
+    {
+      "n": 18,
+      "refId": "WIS-WOH-13:18",
+      "text": "περὶ δὲ ζωῆς τὸ νεκρὸν ἀξιοῖ, περὶ δὲ ἐπικουρίας τὸ ἀπειρότατον ἱκετεύει, περὶ δὲ ὁδοιπορίας τὸ μηδὲ βάσει χρῆσθαι δυνάμενον,",
+      "translit": "peri de zōēs to nekron axioi, peri de epikourias to apeirotaton hiketeuei, peri de hodoiporias to mēde basei chrēsthai dynamenon,",
+      "i18n": {
+        "en": "and for life he entreats the dead thing, and for aid he supplicates the most inexperienced thing, and for a journey that which cannot even use a foot,"
+      },
+      "notes": {
+        "official": "*To apeirotaton* 'the most inexperienced thing' (draft 'the most helpless thing'; KJV 'that which hath least means to help'; NRSV 'a thing that is utterly inexperienced'): *apeiros*, from *peira* 'trial, experience', means 'without experience' (LSJ s.v. ἄπειρος (A)); the satire is that the carver asks for help from something that has never experienced anything. *Basis* is 'step, foot' (`idol-polemic-vocabulary-wis-13-10-19`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "idol-polemic-vocabulary-wis-13-10-19"
+      ]
+    },
+    {
+      "n": 19,
+      "refId": "WIS-WOH-13:19",
+      "text": "περὶ δὲ πορισμοῦ καὶ ἐργασίας καὶ χειρῶν ἐπιτυχίας τὸ ἀδρανέστατον ταῖς χερσὶν εὐδράνειαν αἰτεῖται.",
+      "translit": "peri de porismou kai ergasias kai cheirōn epitychias to adranestaton tais chersin eudraneian aiteitai.",
+      "i18n": {
+        "en": "and for gain and work and success of his hands he asks vigor from that which is most without vigor in its hands."
+      },
+      "notes": {
+        "official": "*To adranestaton … eudraneian* is a wordplay on *drainō* 'to act, accomplish': 'vigor … without vigor' keeps it (KJV 'ability to do, of him that is most unable to do any thing'). *Porismos* is 'gain, means of getting' (`idol-polemic-vocabulary-wis-13-10-19`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "idol-polemic-vocabulary-wis-13-10-19"
+      ]
+    }
+  ],
+  "editorial_questions": []
+}

@@ -1,0 +1,734 @@
+[
+  {
+    "op": "version",
+    "from": "2.83.0",
+    "to": "2.84.0",
+    "note": "Base: central glossary v2.83.0 (translation-glossary-2.83.0.json). Contents: 27 modify ops, all appliesTo extensions for the Latter-Prophets wave LP1 (jeremiah-woh 10, amos-woh 4, jonah-woh 2, zephaniah-woh 1, zechariah-woh 4, 5, 9). No new central entry, no wohChoice or rationale changed, no decision reversed, so a minor bump is recommended. Apply semantics as in the Kings, Revelation and Isaiah wave diffs: op=modify replaces each field in `changes`; appliesTo values are complete arrays preserving every refId of v2.83.0, and `appliesToAdded` lists the new refIds. CONCURRENCY: isaiah-woh wave I2 (wave-i2-central-diff.json) also targets 2.83.0 -> 2.84.0, and the Torah and Former-Prophets passes produce diffs from the same base. If any is merged first, renumber this diff to the next free minor (likely 2.85.0 or later), re-base each appliesTo array as the union (merged array + this op's appliesToAdded), and update glossaryVersion in the seven LP1 chapters. Likely overlaps: eretz, shamayim, asah, yatsar, adam-adamah, pesel-utemunah, qorbanot, chesed-solitary, bor-pit, adonai-yhwh. DELIBERATE NON-EXTENSIONS (recorded, not applied): bara (the Genesis-scoped 'shape' is NOT extended; Amos 4:13 renders bôrēʾ 'creates' under the overlay bara-create-latter-prophets, following isaiah-woh bara-create-isaiah; the Genesis 'shape' decision is under founder review from wave I2 and is not touched here); elohim-as-translation ('the Elohim' NOT extended; 'God' under the overlay elohim-god-latter-prophets, as isaiah-woh); eretz at the 'earth' sites listed in the eretz op; hevel (the personal name Abel; the common noun heḇel 'vanity' is in the overlay hevel-vanity-latter-prophets); nesekh libation entry at Jer 10:14 (nēseḵ II 'cast image', a homograph); taninim at Jer 10:22 (tannîm 'jackals'); otzrot-sheleg-barad at Jer 10:13; mlk-olam at Jer 10:10 (Ugaritic title); shut-ba-aretz at Zech 4:10 (different phrase); she-erit at Zeph 1:4 (šəʾār, not šəʾērîṯ); baal-ugaritic-baalu at Zeph 1:4; hishtachavah at Zeph 1:5 (cultic worship, not homage); mitsrayim (Amos 4:10 'Egypt', English names); bethel-luz-name-etymology (Amos 4:4 'Bethel', English names); pelishtim-caphtor (Zech 9:6 'Philistines'); adam-adamah at Zeph 1:17 (generic 'men'); malakh-yhwh-messenger is extended only for the lexeme 'messenger'.",
+    "scopeNoteAddendum": "**v2.84.0 (Latter-Prophets wave LP1 — Jer 10, Amos 4, Jonah 2, Zeph 1, Zech 4, 5, 9, the canon-cited chapters of Jeremiah and the Minor Prophets):** appliesTo extensions only, for adam-adamah (+3), adonai-yhwh (+4), aluf-edomite-clan-chief-tribal-confederation (+1), arafel-thick-darkness-divine-presence-cross-corpus (+1), asah (+3), bor-pit-cistern-dry-water-shaft (+1), chesed-solitary-covenant-kindness (+1), darash-yhwh-seeking-oracle (+2), davar-yhwh-prophetic-formula (+2), eretz (+6), eretz-shinar (+1), kerem-vineyard (+2), mahapekhah-overthrowing-formula (+1), malakh-yhwh-messenger (+5), mayim (+2), mifthan-ha-bayit (+1), mizbeach-olah (+1), ototh (+1), pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus (+1), qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus (+3), shamayim (+5), sheol-underworld-realm-of-the-dead (+1), tehom (+1), tzarah-distress-tribulation-vocabulary (+2), tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus (+1), ulam-hekhal-devir-temple-three-room-plan-cross-corpus (+2), yatsar (+2). The five books open per-translation overlays (v1.0.0) with a shared Latter-Prophets convention set that follows isaiah-woh ('God' for ʾĕlōhîm; 'earth'/'land' by scope; lower-case 'spirit'; bārāʾ 'create'; maśśāʾ 'oracle') and the corpus rulings 'scroll', 'lampstand', 'officials' and 'shofar'. The central bara and elohim-as-translation entries are deliberately not extended."
+  },
+  {
+    "op": "modify",
+    "id": "adam-adamah",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:5",
+        "GEN-2:6",
+        "GEN-2:7",
+        "GEN-2:9",
+        "GEN-2:19",
+        "1KI-WOH-17:14",
+        "1KI-WOH-18:1",
+        "1KI-WOH-13:2",
+        "1KI-WOH-13:34",
+        "ZEP-WOH-1:2",
+        "ZEP-WOH-1:3",
+        "ZEC-WOH-9:16"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEP-WOH-1:2",
+      "ZEP-WOH-1:3",
+      "ZEC-WOH-9:16"
+    ],
+    "reason": "ʾāḏām / ʾăḏāmâ 'the human / the ground' (wohChoice): Zeph 1:2 ('the face of the ground'), 1:3 ('human and beast ... the human from off the face of the ground', the Gen 2:7 wordplay in a creation-reversal); Zech 9:16 ('over his ground'). The generic lāʾāḏām of Zeph 1:17 ('men') is not added. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh",
+    "changes": {
+      "appliesTo": [
+        "EZK-37:3",
+        "EZK-37:5",
+        "EZK-37:9",
+        "EZK-37:12",
+        "EZK-37:19",
+        "EZK-37:21",
+        "EZK-WOH-2:4",
+        "EZK-WOH-3:11",
+        "EZK-WOH-3:27",
+        "EZK-WOH-8:1",
+        "EZK-WOH-11:7",
+        "EZK-WOH-11:8",
+        "EZK-WOH-11:13",
+        "EZK-WOH-11:16",
+        "EZK-WOH-11:17",
+        "EZK-WOH-11:21",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:19",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:6",
+        "EZK-WOH-44:9",
+        "EZK-WOH-44:12",
+        "EZK-WOH-44:15",
+        "EZK-WOH-44:27",
+        "AMO-WOH-4:2",
+        "AMO-WOH-4:5",
+        "ZEP-WOH-1:7",
+        "ZEC-WOH-9:14"
+      ]
+    },
+    "appliesToAdded": [
+      "AMO-WOH-4:2",
+      "AMO-WOH-4:5",
+      "ZEP-WOH-1:7",
+      "ZEC-WOH-9:14"
+    ],
+    "reason": "appliesTo extension only ('the Lord YHWH'): Amos 4:2, 5; Zeph 1:7; Zech 9:14. The compound is used outside Ezekiel, as isaiah-woh records in adonai-yhwh-compound-isaiah-25. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "aluf-edomite-clan-chief-tribal-confederation",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-36:15",
+        "GEN-WOH-36:16",
+        "GEN-WOH-36:17",
+        "GEN-WOH-36:18",
+        "GEN-WOH-36:19",
+        "GEN-WOH-36:21",
+        "GEN-WOH-36:29",
+        "GEN-WOH-36:30",
+        "GEN-WOH-36:40",
+        "GEN-WOH-36:41",
+        "GEN-WOH-36:42",
+        "GEN-WOH-36:43",
+        "ZEC-WOH-9:7"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEC-WOH-9:7"
+    ],
+    "reason": "appliesTo extension only: the rationale already discusses Zech 9:7; 'chief' governs the line ('like a chief in Judah'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "arafel-thick-darkness-divine-presence-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:18",
+        "1KI-WOH-8:12",
+        "ZEP-WOH-1:15"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEP-WOH-1:15"
+    ],
+    "reason": "appliesTo extension only: the wohChoice already names Zeph 1:15 ('clouds and thick darkness'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "asah",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:7",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:16",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:31",
+        "JER-WOH-10:12",
+        "JER-WOH-10:13",
+        "AMO-WOH-4:13"
+      ]
+    },
+    "appliesToAdded": [
+      "JER-WOH-10:12",
+      "JER-WOH-10:13",
+      "AMO-WOH-4:13"
+    ],
+    "reason": "ʿāśâ 'made / makes' (wohChoice) in the creation and storm doxologies: Jer 10:12 ('He who made the earth'), 10:13 ('he makes lightnings'); Amos 4:13 ('who makes the morning darkness'), beside yāṣar and bārāʾ. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "bor-pit-cistern-dry-water-shaft",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-37:20",
+        "GEN-WOH-37:22",
+        "GEN-WOH-37:24",
+        "GEN-WOH-37:28",
+        "GEN-WOH-37:29",
+        "GEN-WOH-40:15",
+        "GEN-WOH-41:14",
+        "ZEC-WOH-9:11"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEC-WOH-9:11"
+    ],
+    "reason": "bôr 'pit' (wohChoice) at Zech 9:11, 'the pit in which there is no water', the dry cistern the entry's rationale describes. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "chesed-solitary-covenant-kindness",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-39:21",
+        "GEN-WOH-40:14",
+        "1KI-WOH-2:7",
+        "1KI-WOH-8:23",
+        "JNA-WOH-2:9"
+      ]
+    },
+    "appliesToAdded": [
+      "JNA-WOH-2:9"
+    ],
+    "reason": "solitary ḥeseḏ 'kindness' (wohChoice) at Jonah 2:9 ('forsake their own kindness'; ASV 'mercy'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "darash-yhwh-seeking-oracle",
+    "changes": {
+      "appliesTo": [
+        "GEN-25:22",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:6",
+        "2KI-WOH-1:16",
+        "1KI-WOH-22:5",
+        "1KI-WOH-22:7",
+        "1KI-WOH-22:8",
+        "JER-WOH-10:21",
+        "ZEP-WOH-1:6"
+      ]
+    },
+    "appliesToAdded": [
+      "JER-WOH-10:21",
+      "ZEP-WOH-1:6"
+    ],
+    "reason": "dāraš 'inquire of' YHWH: Jer 10:21 ('they have not inquired of YHWH'); Zeph 1:6 ('nor inquired of him'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "davar-yhwh-prophetic-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-15:1",
+        "GEN-15:4",
+        "1KI-WOH-17:2",
+        "1KI-WOH-17:8",
+        "1KI-WOH-18:1",
+        "1KI-WOH-18:31",
+        "1KI-WOH-19:9",
+        "1KI-WOH-13:20",
+        "1KI-WOH-6:11",
+        "EZK-WOH-3:16",
+        "EZK-WOH-11:14",
+        "ZEP-WOH-1:1",
+        "ZEC-WOH-4:8"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEP-WOH-1:1",
+      "ZEC-WOH-4:8"
+    ],
+    "reason": "'the word of YHWH came to' (wohChoice): Zeph 1:1 (superscription); Zech 4:8. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:30",
+        "1KI-WOH-22:36",
+        "1KI-WOH-22:47",
+        "1KI-WOH-6:1",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:37",
+        "1KI-WOH-8:41",
+        "1KI-WOH-8:46",
+        "1KI-WOH-8:47",
+        "1KI-WOH-8:48",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:5",
+        "2KI-WOH-17:7",
+        "2KI-WOH-17:26",
+        "2KI-WOH-17:27",
+        "2KI-WOH-17:36",
+        "EZK-WOH-8:3",
+        "EZK-WOH-8:12",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:15",
+        "EZK-WOH-40:2",
+        "EZK-WOH-42:6",
+        "EZK-WOH-43:2",
+        "EZK-WOH-43:14",
+        "JER-WOH-10:17",
+        "JER-WOH-10:18",
+        "JER-WOH-10:22",
+        "ZEC-WOH-5:3",
+        "ZEC-WOH-5:6",
+        "ZEC-WOH-9:1"
+      ]
+    },
+    "appliesToAdded": [
+      "JER-WOH-10:17",
+      "JER-WOH-10:18",
+      "JER-WOH-10:22",
+      "ZEC-WOH-5:3",
+      "ZEC-WOH-5:6",
+      "ZEC-WOH-9:1"
+    ],
+    "reason": "ʾereṣ rendered 'land' (wohChoice) where it is a particular territory: Jer 10:17 ('from the land'), 10:18 ('the inhabitants of the land'), 10:22 ('the land of the north'); Zech 5:3 ('the whole land'), 5:6 ('in all the land'), 9:1 ('the land of Hadrach'). Sites where the Latter-Prophets overlays render 'earth' in a cosmic or universal scope (Jer 10:10-13; Amos 4:13; Jonah 2:7; Zeph 1:18; Zech 4:10, 14; 5:9; 9:10) are governed by the overlay entry eretz-earth-or-land-latter-prophets and are NOT added. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "eretz-shinar",
+    "changes": {
+      "appliesTo": [
+        "GEN-10:10",
+        "GEN-11:2",
+        "ZEC-WOH-5:11"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEC-WOH-5:11"
+    ],
+    "reason": "'the land of Shinar' (wohChoice) at Zech 5:11. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "kerem-vineyard",
+    "changes": {
+      "appliesTo": [
+        "GEN-9:20",
+        "AMO-WOH-4:9",
+        "ZEP-WOH-1:13"
+      ]
+    },
+    "appliesToAdded": [
+      "AMO-WOH-4:9",
+      "ZEP-WOH-1:13"
+    ],
+    "reason": "kerem 'vineyard' (wohChoice): Amos 4:9; Zeph 1:13. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "mahapekhah-overthrowing-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-19:25",
+        "GEN-19:29",
+        "DEUT-29:22",
+        "ISA-13:19",
+        "JER-49:18",
+        "JER-50:40",
+        "AMOS-4:11",
+        "LAM-4:6",
+        "ZEPH-2:9",
+        "AMO-WOH-4:11"
+      ]
+    },
+    "appliesToAdded": [
+      "AMO-WOH-4:11"
+    ],
+    "reason": "appliesTo extension: the array already lists Amos 4:11 in the legacy id format 'AMOS-4:11'; the translation refId AMO-WOH-4:11 is added (legacy id kept). Line: 'as God overthrew Sodom and Gomorrah' (hpk lexeme kept; ʾĕlōhîm 'God' under the amos-woh overlay elohim-god-latter-prophets). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "malakh-yhwh-messenger",
+    "changes": {
+      "appliesTo": [
+        "GEN-16:7",
+        "GEN-16:9",
+        "GEN-16:10",
+        "GEN-16:11",
+        "GEN-19:1",
+        "GEN-19:15",
+        "GEN-22:11",
+        "GEN-22:15",
+        "GEN-48:16",
+        "EXOD-3:2",
+        "EXOD-14:19",
+        "EXOD-23:20",
+        "EXOD-23:23",
+        "EXOD-32:34",
+        "EXOD-33:2",
+        "NUM-22:22",
+        "NUM-22:23",
+        "NUM-22:24",
+        "NUM-22:25",
+        "NUM-22:26",
+        "NUM-22:27",
+        "NUM-22:31",
+        "NUM-22:32",
+        "NUM-22:34",
+        "NUM-22:35",
+        "JOSH-5:13",
+        "JOSH-5:14",
+        "JOSH-5:15",
+        "JUDG-2:1",
+        "JUDG-5:23",
+        "JUDG-6:11",
+        "JUDG-6:12",
+        "JUDG-6:20",
+        "JUDG-6:21",
+        "JUDG-6:22",
+        "JUDG-13:3",
+        "JUDG-13:6",
+        "JUDG-13:9",
+        "JUDG-13:13",
+        "JUDG-13:15",
+        "JUDG-13:16",
+        "JUDG-13:17",
+        "JUDG-13:18",
+        "JUDG-13:20",
+        "JUDG-13:21",
+        "2SAM-24:16",
+        "1KGS-19:7",
+        "2KGS-1:3",
+        "2KGS-1:15",
+        "2KGS-19:35",
+        "ISA-37:36",
+        "ISA-63:9",
+        "ZECH-1:11",
+        "ZECH-1:12",
+        "ZECH-3:1",
+        "ZECH-3:5",
+        "ZECH-3:6",
+        "PS-34:8",
+        "PS-35:5",
+        "PS-35:6",
+        "1KI-WOH-19:2",
+        "1KI-WOH-19:5",
+        "1KI-WOH-19:7",
+        "2KI-WOH-1:2",
+        "2KI-WOH-1:3",
+        "2KI-WOH-1:5",
+        "2KI-WOH-1:15",
+        "2KI-WOH-1:16",
+        "1KI-WOH-13:18",
+        "2KI-WOH-17:4",
+        "ZEC-WOH-4:1",
+        "ZEC-WOH-4:4",
+        "ZEC-WOH-4:5",
+        "ZEC-WOH-5:5",
+        "ZEC-WOH-5:10"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEC-WOH-4:1",
+      "ZEC-WOH-4:4",
+      "ZEC-WOH-4:5",
+      "ZEC-WOH-5:5",
+      "ZEC-WOH-5:10"
+    ],
+    "reason": "appliesTo extension only: malʾāḵ 'messenger' for Zechariah's interpreting messenger, hammalʾāḵ haddōḇēr bî 'the messenger who talked with me' (Zech 4:1, 4, 5; 5:5, 10); the fixed title is recorded in the zechariah-woh overlay (hammalakh-haddover-bi-interpreting-messenger-zechariah). The legacy ids ZECH-1:11 etc. are kept. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "mayim",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:2",
+        "GEN-1:6",
+        "GEN-1:7",
+        "GEN-1:9",
+        "GEN-1:10",
+        "GEN-1:20",
+        "GEN-1:21",
+        "GEN-1:22",
+        "JER-WOH-10:13",
+        "JNA-WOH-2:6"
+      ]
+    },
+    "appliesToAdded": [
+      "JER-WOH-10:13",
+      "JNA-WOH-2:6"
+    ],
+    "reason": "mayim 'waters' (wohChoice): Jer 10:13 ('a tumult of waters in the skies'); Jonah 2:6 ('The waters closed in around me'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "mifthan-ha-bayit",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:4",
+        "EZK-10:18",
+        "ZEP-WOH-1:9"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEP-WOH-1:9"
+    ],
+    "reason": "appliesTo extension only: the rationale already lists Zeph 1:9; mip̄tān 'threshold' ('everyone who leaps over the threshold'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "mizbeach-olah",
+    "changes": {
+      "appliesTo": [
+        "GEN-8:20",
+        "ZEC-WOH-9:15"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEC-WOH-9:15"
+    ],
+    "reason": "mizbēaḥ 'altar' (wohChoice) at Zech 9:15 ('the corners of the altar'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "ototh",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:14",
+        "JER-WOH-10:2"
+      ]
+    },
+    "appliesToAdded": [
+      "JER-WOH-10:2"
+    ],
+    "reason": "ʾōṯôṯ 'signs' (wohChoice) at Jer 10:2, 'the signs of the skies', the celestial signs of Gen 1:14. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:4",
+        "EXO-WOH-20:5",
+        "EXO-WOH-20:6",
+        "EXO-WOH-20:23",
+        "2KI-WOH-17:41",
+        "JER-WOH-10:14"
+      ]
+    },
+    "appliesToAdded": [
+      "JER-WOH-10:14"
+    ],
+    "reason": "appliesTo extension only: pesel 'carved image' at Jer 10:14 ('put to shame by his carved image'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-40:43",
+        "EZK-WOH-42:13",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:19",
+        "EZK-WOH-43:20",
+        "EZK-WOH-43:21",
+        "EZK-WOH-43:22",
+        "EZK-WOH-43:23",
+        "EZK-WOH-43:25",
+        "EZK-WOH-43:26",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "EZK-WOH-44:27",
+        "EZK-WOH-44:29",
+        "EZK-WOH-44:30",
+        "EXO-WOH-20:21",
+        "1KI-WOH-8:63",
+        "1KI-WOH-8:64",
+        "AMO-WOH-4:4",
+        "ZEP-WOH-1:7",
+        "ZEP-WOH-1:8"
+      ]
+    },
+    "appliesToAdded": [
+      "AMO-WOH-4:4",
+      "ZEP-WOH-1:7",
+      "ZEP-WOH-1:8"
+    ],
+    "reason": "zeḇaḥ 'sacrifice' (wohChoice): Amos 4:4 ('your sacrifices'); Zeph 1:7 ('YHWH has prepared a sacrifice'), 1:8 ('YHWH's sacrifice'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "shamayim",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:30",
+        "1KI-WOH-18:45",
+        "2KI-WOH-1:10",
+        "2KI-WOH-1:12",
+        "2KI-WOH-1:14",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11",
+        "1KI-WOH-22:19",
+        "1KI-WOH-8:22",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:27",
+        "1KI-WOH-8:30",
+        "1KI-WOH-8:32",
+        "1KI-WOH-8:34",
+        "1KI-WOH-8:35",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:39",
+        "1KI-WOH-8:43",
+        "1KI-WOH-8:45",
+        "1KI-WOH-8:49",
+        "1KI-WOH-8:54",
+        "2KI-WOH-17:16",
+        "EZK-WOH-8:3",
+        "JER-WOH-10:2",
+        "JER-WOH-10:12",
+        "JER-WOH-10:13",
+        "ZEP-WOH-1:3",
+        "ZEC-WOH-5:9"
+      ]
+    },
+    "appliesToAdded": [
+      "JER-WOH-10:2",
+      "JER-WOH-10:12",
+      "JER-WOH-10:13",
+      "ZEP-WOH-1:3",
+      "ZEC-WOH-5:9"
+    ],
+    "reason": "šāmayim 'skies' (wohChoice) in the physical register: Jer 10:2 ('the signs of the skies'), 10:12 ('stretched out the skies'), 10:13 ('waters in the skies'); Zeph 1:3 ('the birds of the skies'); Zech 5:9 ('between the earth and the skies'). Zeph 1:5 'the host of the heavens' stays under tzeva-ha-shamayim. The Aramaic šəmayyāʾ of Jer 10:11 is governed by the jeremiah-woh overlay (aramaic-verse-jeremiah-10-11) and is not added to this Hebrew-lemma entry. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "sheol-underworld-realm-of-the-dead",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-37:35",
+        "GEN-WOH-42:38",
+        "GEN-WOH-44:29",
+        "GEN-WOH-44:31",
+        "1KI-WOH-2:6",
+        "1KI-WOH-2:9",
+        "JNA-WOH-2:3"
+      ]
+    },
+    "appliesToAdded": [
+      "JNA-WOH-2:3"
+    ],
+    "reason": "'She'ol' (wohChoice) at Jonah 2:3 ('out of the belly of She'ol'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "tehom",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:2",
+        "GEN-WOH-49:25",
+        "JNA-WOH-2:6"
+      ]
+    },
+    "appliesToAdded": [
+      "JNA-WOH-2:6"
+    ],
+    "reason": "təhôm 'the deep' (wohChoice) at Jonah 2:6, kept distinct from məṣûlâ 'the depth' (2:4). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "tzarah-distress-tribulation-vocabulary",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-42:21",
+        "JNA-WOH-2:3",
+        "ZEP-WOH-1:15"
+      ]
+    },
+    "appliesToAdded": [
+      "JNA-WOH-2:3",
+      "ZEP-WOH-1:15"
+    ],
+    "reason": "ṣārâ 'distress' (wohChoice): Jonah 2:3 ('out of my distress'); Zeph 1:15 ('a day of distress and anguish'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "1KI-WOH-22:19",
+        "2KI-WOH-17:16",
+        "ZEP-WOH-1:5"
+      ]
+    },
+    "appliesToAdded": [
+      "ZEP-WOH-1:5"
+    ],
+    "reason": "appliesTo extension only: the rationale already names Zeph 1:5 among the astral-worship sites; 'the host of the heavens' governs the line. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "ulam-hekhal-devir-temple-three-room-plan-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "1KI-WOH-6:3",
+        "1KI-WOH-6:5",
+        "1KI-WOH-6:16",
+        "1KI-WOH-6:17",
+        "1KI-WOH-6:19",
+        "1KI-WOH-6:20",
+        "1KI-WOH-6:21",
+        "1KI-WOH-6:22",
+        "1KI-WOH-6:23",
+        "1KI-WOH-6:27",
+        "1KI-WOH-6:31",
+        "1KI-WOH-6:33",
+        "1KI-WOH-8:6",
+        "1KI-WOH-8:8",
+        "1KI-WOH-8:10",
+        "EZK-WOH-8:16",
+        "EZK-WOH-40:7",
+        "EZK-WOH-40:8",
+        "EZK-WOH-40:9",
+        "EZK-WOH-40:15",
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:40",
+        "EZK-WOH-40:48",
+        "EZK-WOH-40:49",
+        "EZK-WOH-42:8",
+        "EZK-WOH-42:15",
+        "EZK-WOH-44:3",
+        "JNA-WOH-2:5",
+        "JNA-WOH-2:8"
+      ]
+    },
+    "appliesToAdded": [
+      "JNA-WOH-2:5",
+      "JNA-WOH-2:8"
+    ],
+    "reason": "appliesTo extension under the entry's own context clause (hêḵāl denoting a whole sanctuary is rendered 'temple'): Jonah 2:5, 8 'your holy temple'. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "yatsar",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:7",
+        "GEN-2:8",
+        "GEN-2:19",
+        "JER-WOH-10:16",
+        "AMO-WOH-4:13"
+      ]
+    },
+    "appliesToAdded": [
+      "JER-WOH-10:16",
+      "AMO-WOH-4:13"
+    ],
+    "reason": "yāṣar 'form' (wohChoice): Jer 10:16 ('the former of all things'); Amos 4:13 ('he who forms the mountains'). Base array is the v2.83.0 array."
+  }
+]

@@ -1,0 +1,598 @@
+[
+  {
+    "op": "version",
+    "from": "2.83.0",
+    "to": "2.84.0",
+    "note": "Base: central glossary v2.83.0 (translation-glossary-2.83.0.json). Contents: 20 modify ops, all appliesTo extensions for isaiah-woh wave I2 (Isa 13, 14, 15, 29, 32, 40, 42, 43, 44, 45, 48, 54, 65). No new central entry, no wohChoice or rationale changed, no decision reversed, so a minor bump is recommended. Apply semantics as in the Kings and Revelation wave diffs: op=modify replaces each field in `changes`; appliesTo values are complete arrays preserving every refId of v2.83.0, and `appliesToAdded` lists the new refIds. CONCURRENCY: the exodus-woh / numbers-woh / deuteronomy-woh Editor and the Former-Prophets (joshua-woh / judges-woh / 1-samuel-woh) pass are producing central diffs from the same 2.83.0 base. If either is merged first, renumber this diff to the next free minor and re-base each appliesTo array as the union (merged array + this op's appliesToAdded); shamayim, eretz, yatsar, asah, olah-burnt-offering, qorbanot, pesel-utemunah, adam-adamah and avon are the likeliest overlaps. DELIBERATE NON-EXTENSIONS (recorded, not applied): bara (Genesis-scoped 'shape' NOT extended to Isaiah; Isaiah renders bārāʾ 'create' under the isaiah-woh overlay bara-create-isaiah; founder decision flagged); elohim-as-translation ('the Elohim' NOT extended; Isaiah's 'God' practice recorded in the overlay elohim-el-eloah-monotheistic-formula-isaiah; the 45:18 / 1 Kgs 18:39 divergence flagged); shaddai-eloah for Eloah at 44:8; el-elyon (14:14 'the Most High'); kokhvei-boqer (14:13 'the stars of God'); kimah-kesil-mazzarot-ayish (13:10 'their constellations'); tohu-vavohu (the pair; bare tōhû in the overlay); tzedakah-u-mishpat-justice-pair (32:16 split pair); nachash-arum (65:25, Gen 3:14 allusion only); chesed-solitary at 40:6 (human constancy).",
+    "scopeNoteAddendum": "**v2.84.0 (Isaiah wave I2 — Isa 13-15, 29, 32, 40, 42-45, 48, 54, 65, the canon-cited oracles and Second/Third Isaiah):** appliesTo extensions only, for adam-adamah (+5), asah (+8), avon-iniquity-cross-corpus-keyword (+5), bi-nishbati-divine-self-oath (+1), bor-pit-cistern-dry-water-shaft (+2), brit-shalom-mishkan (+1), chesed-solitary-covenant-kindness (+2), eretz (+3), hineni-prophetic-response-formula (+1), kavod-yhwh (+1), mount-sapunu-tsafon-cosmic-mountain-cross-corpus-ugaritic-hebrew-bible (+1), nivrakhu-bekha-niphal-hithpael (+1), olah-burnt-offering (+2), pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus (+10), qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus (+3), shaddai-eloah (+1), shamayim (+15), sheol-underworld-realm-of-the-dead (+3), tachat-substitution-formula (+2), yatsar (+16). The šāmayim register rule is applied book-wide: 'skies' for the physical and created sky (the horizon idiom of 13:5, the creation hymns of chs. 40-48, and the Gen 1:1 merism of 65:17 'new skies and a new earth'), 'the heavens' for the divine-council realm of 14:12-13. Isaiah keeps bārāʾ 'create' (overlay), not the Genesis 'shape'; that and the other Isaiah-specific decisions live in the isaiah-woh overlay v1.6.0."
+  },
+  {
+    "op": "modify",
+    "id": "adam-adamah",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:5",
+        "GEN-2:6",
+        "GEN-2:7",
+        "GEN-2:9",
+        "GEN-2:19",
+        "1KI-WOH-17:14",
+        "1KI-WOH-18:1",
+        "1KI-WOH-13:2",
+        "1KI-WOH-13:34",
+        "ISA-14:1",
+        "ISA-14:2",
+        "ISA-15:9",
+        "ISA-32:13",
+        "ISA-45:9"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-14:1",
+      "ISA-14:2",
+      "ISA-15:9",
+      "ISA-32:13",
+      "ISA-45:9"
+    ],
+    "reason": "appliesTo extension only: ʾăḏāmāh 'ground' (wohChoice) at Isa 14:1 ('their own ground'), 14:2 ('the ground of YHWH'), 15:9 ('the remnant of the ground'), 32:13 ('the ground of my people'), 45:9 ('a potsherd among the potsherds of the ground'; ASV 'of the earth'). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "asah",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:7",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:16",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:31",
+        "ISA-29:16",
+        "ISA-43:7",
+        "ISA-44:2",
+        "ISA-44:24",
+        "ISA-45:7",
+        "ISA-45:12",
+        "ISA-45:18",
+        "ISA-54:5"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-29:16",
+      "ISA-43:7",
+      "ISA-44:2",
+      "ISA-44:24",
+      "ISA-45:7",
+      "ISA-45:12",
+      "ISA-45:18",
+      "ISA-54:5"
+    ],
+    "reason": "appliesTo extension only: ʿāśāh 'make / made' (wohChoice) in Isaiah's creation and maker formulas: 29:16 ('its maker'), 43:7 ('whom I have made', the canon-cited triad 'created, formed and made'), 44:2 ('who made you'), 44:24 ('who makes all things'), 45:7 ('who makes well-being ... who makes all these things'), 45:12 ('I made the earth'), 45:18 ('formed the earth and made it'), 54:5 ('your Maker'; the formally plural participle ʿōśayiḵ rendered singular, plural noted in commentary). Keeping ʿāśāh distinct from yāṣar and bārāʾ is the entry's stated purpose. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "avon-iniquity-cross-corpus-keyword",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-44:16",
+        "ISA-53:5",
+        "ISA-53:6",
+        "ISA-53:11",
+        "ISA-26:21",
+        "ISA-27:9",
+        "ISA-13:11",
+        "ISA-14:21",
+        "ISA-40:2",
+        "ISA-43:24",
+        "ISA-65:7"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-13:11",
+      "ISA-14:21",
+      "ISA-40:2",
+      "ISA-43:24",
+      "ISA-65:7"
+    ],
+    "reason": "appliesTo extension only (bare distribution addition, as for the ISA-53, 26:21 and 27:9 extensions): ʿāwōn 'iniquity' at Isa 13:11; 14:21; 40:2; 43:24; 65:7. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "bi-nishbati-divine-self-oath",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:16",
+        "ISA-45:23"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-45:23"
+    ],
+    "reason": "appliesTo extension only: bî nišbaʿtî 'By myself I have sworn' at Isa 45:23 (wohChoice; quoted Rom 14:11; Phil 2:10-11). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "bor-pit-cistern-dry-water-shaft",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-37:20",
+        "GEN-WOH-37:22",
+        "GEN-WOH-37:24",
+        "GEN-WOH-37:28",
+        "GEN-WOH-37:29",
+        "GEN-WOH-40:15",
+        "GEN-WOH-41:14",
+        "ISA-14:15",
+        "ISA-14:19"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-14:15",
+      "ISA-14:19"
+    ],
+    "reason": "appliesTo extension only: 'pit' (wohChoice) at Isa 14:15 ('the far reaches of the pit', mirroring 'the far reaches of Zaphon' in v13) and 14:19 ('the stones of the pit'), where bôr is a synonym of She'ol, a sense the entry's rationale already covers in its extended uses. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "brit-shalom-mishkan",
+    "changes": {
+      "appliesTo": [
+        "EZK-37:26",
+        "EZK-37:27",
+        "ISA-54:10"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-54:10"
+    ],
+    "reason": "appliesTo extension only: bᵉrîṯ šᵉlômî 'my covenant of peace' at Isa 54:10 (the 'covenant of peace' half of the wohChoice; the entry already pairs Num 25:12 / Ezek 34:25; 37:26). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "chesed-solitary-covenant-kindness",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-39:21",
+        "GEN-WOH-40:14",
+        "1KI-WOH-2:7",
+        "1KI-WOH-8:23",
+        "ISA-54:8",
+        "ISA-54:10"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-54:8",
+      "ISA-54:10"
+    ],
+    "reason": "appliesTo extension only: solitary ḥeseḏ 'kindness' (wohChoice) at Isa 54:8 ('with everlasting kindness') and 54:10 ('my kindness shall not depart from you'). The human ḥeseḏ of Isa 40:6 ('all its constancy') is deliberately NOT added (isaiah-woh overlay lexical-cruxes-wave-i2-isaiah). Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:30",
+        "1KI-WOH-22:36",
+        "1KI-WOH-22:47",
+        "1KI-WOH-6:1",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:37",
+        "1KI-WOH-8:41",
+        "1KI-WOH-8:46",
+        "1KI-WOH-8:47",
+        "1KI-WOH-8:48",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:5",
+        "2KI-WOH-17:7",
+        "2KI-WOH-17:26",
+        "2KI-WOH-17:27",
+        "2KI-WOH-17:36",
+        "EZK-WOH-8:3",
+        "EZK-WOH-8:12",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:15",
+        "EZK-WOH-40:2",
+        "EZK-WOH-42:6",
+        "EZK-WOH-43:2",
+        "EZK-WOH-43:14",
+        "ISA-13:5",
+        "ISA-14:20",
+        "ISA-14:25"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-13:5",
+      "ISA-14:20",
+      "ISA-14:25"
+    ],
+    "reason": "appliesTo extension only: ʾereṣ as a particular territory is 'land' (wohChoice) at Isa 13:5 ('to destroy the whole land', Babylon; canon-cited, the canon's own 'tout le pays'), 14:20 ('you have destroyed your land') and 14:25 ('in my land'). The cosmic sites of the wave (13:9, 13 and the creation formulas of chs. 40-65) take 'earth' under the isaiah-woh overlay entry eretz-cosmic-scope-isaiah-24 and are NOT added. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "hineni-prophetic-response-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:1",
+        "GEN-WOH-22:7",
+        "GEN-WOH-22:11",
+        "GEN-WOH-46:2",
+        "ISA-6:8",
+        "ISA-65:1"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-65:1"
+    ],
+    "reason": "appliesTo extension only: 'Here am I' (wohChoice; ASV 'Behold me') at Isa 65:1, where the formula is spoken by YHWH (hinnēnî hinnēnî), an inversion noted in commentary; the entry already lists ISA-6:8. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "kavod-yhwh",
+    "changes": {
+      "appliesTo": [
+        "EZK-1:28",
+        "1KI-WOH-8:11",
+        "EZK-WOH-3:12",
+        "EZK-WOH-3:23",
+        "EZK-WOH-8:4",
+        "EZK-WOH-11:22",
+        "EZK-WOH-11:23",
+        "EZK-WOH-43:2",
+        "EZK-WOH-43:4",
+        "EZK-WOH-43:5",
+        "EZK-WOH-44:4",
+        "ISA-40:5"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-40:5"
+    ],
+    "reason": "appliesTo extension only: 'the glory of YHWH' (wohChoice) at Isa 40:5. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "mount-sapunu-tsafon-cosmic-mountain-cross-corpus-ugaritic-hebrew-bible",
+    "changes": {
+      "appliesTo": [
+        "BCY-WOH-1.1-v:5",
+        "BCY-WOH-1.1-v:18",
+        "BCY-WOH-1.3-i:20",
+        "BCY-WOH-1.3-iii:38",
+        "BCY-WOH-1.3-iv:4",
+        "BCY-WOH-1.3-iv:34",
+        "BCY-WOH-1.3-v:45",
+        "BCY-WOH-1.4-i:36",
+        "BCY-WOH-1.4-iv:10",
+        "BCY-WOH-1.4-v:23",
+        "BCY-WOH-1.4-vii:42",
+        "GILG-WOH-11:138",
+        "GILG-WOH-11:139",
+        "GILG-WOH-11:154",
+        "ENO-WOH-18:6",
+        "ENO-WOH-18:8",
+        "ENO-WOH-24:1",
+        "ENO-WOH-24:2",
+        "ENO-WOH-25:3",
+        "ENO-WOH-77:2",
+        "ISA-14:13"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-14:13"
+    ],
+    "reason": "appliesTo extension: the entry's wohChoice provides that the Hebrew cognate is rendered conventionally where it appears in the Hebrew Bible. Isa 14:13 bᵉyarkᵉṯê ṣāp̄ôn is rendered 'in the far reaches of Zaphon' (NRSV, NJPS; ASV 'the uttermost parts of the north'), the divine mountain of the assembly being the setting of the vow (Clifford, The Cosmic Mountain, 1972; Day 2000). Canon-cited verse; the reception reading is confined to the apparatus. Isaiah-specific handling in the isaiah-woh overlay helel-zaphon-elyon-taunt-isaiah-14. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "nivrakhu-bekha-niphal-hithpael",
+    "changes": {
+      "appliesTo": [
+        "GEN-12:3",
+        "GEN-18:18",
+        "GEN-22:18",
+        "GEN-26:4",
+        "GEN-WOH-28:14",
+        "ISA-65:16"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-65:16"
+    ],
+    "reason": "appliesTo extension only: the Hithpael hammiṯbārēḵ ... yiṯbārēḵ 'whoever blesses himself ... shall bless himself' at Isa 65:16, the entry's 'shall bless themselves (at hithpael-pointed verses)'. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "olah-burnt-offering",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:2",
+        "GEN-WOH-22:3",
+        "GEN-WOH-22:6",
+        "GEN-WOH-22:7",
+        "GEN-WOH-22:8",
+        "GEN-WOH-22:13",
+        "1KI-WOH-18:34",
+        "1KI-WOH-18:38",
+        "1KI-WOH-8:64",
+        "EZK-WOH-40:38",
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:24",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "ISA-40:16",
+        "ISA-43:23"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-40:16",
+      "ISA-43:23"
+    ],
+    "reason": "appliesTo extension only: 'burnt-offering' (wohChoice) at Isa 40:16 and 43:23. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:4",
+        "EXO-WOH-20:5",
+        "EXO-WOH-20:6",
+        "EXO-WOH-20:23",
+        "2KI-WOH-17:41",
+        "ISA-40:19",
+        "ISA-40:20",
+        "ISA-42:8",
+        "ISA-42:17",
+        "ISA-44:9",
+        "ISA-44:10",
+        "ISA-44:15",
+        "ISA-44:17",
+        "ISA-45:20",
+        "ISA-48:5"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-40:19",
+      "ISA-40:20",
+      "ISA-42:8",
+      "ISA-42:17",
+      "ISA-44:9",
+      "ISA-44:10",
+      "ISA-44:15",
+      "ISA-44:17",
+      "ISA-45:20",
+      "ISA-48:5"
+    ],
+    "reason": "appliesTo extension only: pesel / pᵉsîlîm 'carved image(s)' (the entry's 'carved image', singular and plural, as at 2 Kgs 17:41) throughout Isaiah's idol polemic: 40:19, 20; 42:8, 17; 44:9, 10, 15, 17; 45:20; 48:5. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-40:43",
+        "EZK-WOH-42:13",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:19",
+        "EZK-WOH-43:20",
+        "EZK-WOH-43:21",
+        "EZK-WOH-43:22",
+        "EZK-WOH-43:23",
+        "EZK-WOH-43:25",
+        "EZK-WOH-43:26",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "EZK-WOH-44:27",
+        "EZK-WOH-44:29",
+        "EZK-WOH-44:30",
+        "EXO-WOH-20:21",
+        "1KI-WOH-8:63",
+        "1KI-WOH-8:64",
+        "ISA-40:20",
+        "ISA-43:23",
+        "ISA-43:24"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-40:20",
+      "ISA-43:23",
+      "ISA-43:24"
+    ],
+    "reason": "appliesTo extension only: tᵉrûmāh 'oblation' at Isa 40:20 (the line now reads 'As an oblation he chooses sissoo wood'; the draft's ASV 'impoverished' reading of mᵉsukkān replaced by the Akkadian loanword musukkannu, see the isaiah-woh overlay lexical-cruxes-wave-i2-isaiah), minḥāh 'meal-offerings' and zeḇaḥ 'sacrifices' at 43:23, zᵉḇāḥîm 'sacrifices' at 43:24. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "shaddai-eloah",
+    "changes": {
+      "appliesTo": [
+        "JOB-40:2",
+        "ISA-13:6"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-13:6"
+    ],
+    "reason": "appliesTo extension for the name Shaddai only: Isa 13:6 kᵉšōḏ miš-šadday 'like destruction from Shaddai' (= Joel 1:15), transliterated with NJPS so that the šōḏ / šadday paronomasia stays audible. The Eloah half of the entry is deliberately NOT extended to Isa 44:8 (hă-yēš ʾĕlôah mib-balʿāḏay 'Is there a God besides me?'), where ʾĕlôah is one of three synonyms (with ʾĕlōhîm 44:6 and ʾēl 45:21) in a single denial formula and is rendered 'God' under the isaiah-woh overlay elohim-el-eloah-monotheistic-formula-isaiah. The entry's Job-specific rationale is unaffected. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "shamayim",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:30",
+        "1KI-WOH-18:45",
+        "2KI-WOH-1:10",
+        "2KI-WOH-1:12",
+        "2KI-WOH-1:14",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11",
+        "1KI-WOH-22:19",
+        "1KI-WOH-8:22",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:27",
+        "1KI-WOH-8:30",
+        "1KI-WOH-8:32",
+        "1KI-WOH-8:34",
+        "1KI-WOH-8:35",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:39",
+        "1KI-WOH-8:43",
+        "1KI-WOH-8:45",
+        "1KI-WOH-8:49",
+        "1KI-WOH-8:54",
+        "2KI-WOH-17:16",
+        "EZK-WOH-8:3",
+        "ISA-13:5",
+        "ISA-13:10",
+        "ISA-13:13",
+        "ISA-14:12",
+        "ISA-14:13",
+        "ISA-40:12",
+        "ISA-40:22",
+        "ISA-42:5",
+        "ISA-44:23",
+        "ISA-44:24",
+        "ISA-45:8",
+        "ISA-45:12",
+        "ISA-45:18",
+        "ISA-48:13",
+        "ISA-65:17"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-13:5",
+      "ISA-13:10",
+      "ISA-13:13",
+      "ISA-14:12",
+      "ISA-14:13",
+      "ISA-40:12",
+      "ISA-40:22",
+      "ISA-42:5",
+      "ISA-44:23",
+      "ISA-44:24",
+      "ISA-45:8",
+      "ISA-45:12",
+      "ISA-45:18",
+      "ISA-48:13",
+      "ISA-65:17"
+    ],
+    "reason": "appliesTo extension only, applying the register rule ratified at the Kings wave-A sign-off (2026-11-01). 'skies' (wohChoice) for the physical sky: the horizon idiom miqṣēh haš-šāmayim 'from the end of the skies' (Isa 13:5, canon-cited; the stock idiom for the edge of the world, Deut 4:32; 30:4), 'the stars of the skies' (13:10), the shaken skies (13:13), the rain-giving skies parallel to šᵉḥāqîm 'clouds' (45:8), and the measured and stretched-out skies of Second Isaiah's creation hymns (40:12, 22; 42:5; 44:23, 24; 45:12, 18; 48:13), which are the made cosmos of the Gen 1 register. 'the heavens' (the entry's divine-realm register) at Isa 14:12-13, where the vow to ascend 'above the stars of God' to 'the mount of assembly' places šāmayim in the realm of the divine council. Isa 65:17 'new skies and a new earth' is the Gen 1:1 merism for the whole created order (same verb, same pair, rendered 'the skies and the earth' at Gen 1:1), not YHWH's dwelling (contrast 66:1 'the heavens are my throne'), and therefore takes 'skies'; the reception form 'new heavens' (2 Pet 3:13; Rev 21:1, 'a new heaven' in revelation-woh) is recorded in commentary and the register choice is flagged to the founder in wave-i2-editor-report.md. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "sheol-underworld-realm-of-the-dead",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-37:35",
+        "GEN-WOH-42:38",
+        "GEN-WOH-44:29",
+        "GEN-WOH-44:31",
+        "1KI-WOH-2:6",
+        "1KI-WOH-2:9",
+        "ISA-14:9",
+        "ISA-14:11",
+        "ISA-14:15"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-14:9",
+      "ISA-14:11",
+      "ISA-14:15"
+    ],
+    "reason": "appliesTo extension only: 'She'ol' (transliterated, wohChoice) at Isa 14:9, 11, 15 in the taunt over the king of Babylon. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "tachat-substitution-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-44:33",
+        "GEN-WOH-50:19",
+        "ISA-53:12",
+        "ISA-43:3",
+        "ISA-43:4"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-43:3",
+      "ISA-43:4"
+    ],
+    "reason": "appliesTo extension only: 'instead of' (wohChoice) at Isa 43:3 (taḥteḵā 'Cush and Seba instead of you') and 43:4 (taḥteḵā / taḥaṯ nap̄šeḵā), following the Isa 53:12 extension. Base array is the v2.83.0 array."
+  },
+  {
+    "op": "modify",
+    "id": "yatsar",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:7",
+        "GEN-2:8",
+        "GEN-2:19",
+        "ISA-29:16",
+        "ISA-43:1",
+        "ISA-43:7",
+        "ISA-43:10",
+        "ISA-43:21",
+        "ISA-44:2",
+        "ISA-44:9",
+        "ISA-44:10",
+        "ISA-44:12",
+        "ISA-44:21",
+        "ISA-44:24",
+        "ISA-45:7",
+        "ISA-45:9",
+        "ISA-45:11",
+        "ISA-45:18",
+        "ISA-54:17"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-29:16",
+      "ISA-43:1",
+      "ISA-43:7",
+      "ISA-43:10",
+      "ISA-43:21",
+      "ISA-44:2",
+      "ISA-44:9",
+      "ISA-44:10",
+      "ISA-44:12",
+      "ISA-44:21",
+      "ISA-44:24",
+      "ISA-45:7",
+      "ISA-45:9",
+      "ISA-45:11",
+      "ISA-45:18",
+      "ISA-54:17"
+    ],
+    "reason": "appliesTo extension only: yāṣar 'form' (wohChoice) across Isaiah's creation and idol-making language: the forming of Israel (43:1, 7, 21; 44:2, 21, 24), the formula 'before me no god was formed' (43:10), the idol-makers (44:9, 10, 12), the clay passages (29:16; 45:9, 11; book-level ruling in the isaiah-woh overlay yotser-potter-clay-image-isaiah: the absolute substantive hay-yôṣēr 'the potter' at 29:16, the suffixed participle 'the one who formed him'), the creation triads (45:7, 18) and the weapon 'formed' against Zion (54:17). The entry's rationale already names yôṣēr 'potter' (Jer 18:2-6) as the root's anchor. In Isaiah yāṣar stays distinct from bārāʾ, which the isaiah-woh overlay renders 'create' (bara-create-isaiah). Base array is the v2.83.0 array."
+  }
+]

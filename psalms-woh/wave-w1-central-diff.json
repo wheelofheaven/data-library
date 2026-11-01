@@ -1,0 +1,511 @@
+[
+  {
+    "op": "version",
+    "from": "2.83.0",
+    "to": "2.84.0",
+    "note": "Base: v2.83.0 export. Contents: 1 new entry (shechaqim-clouds-cross-corpus, direct); 3 modifications that append scope or correct a quotation without reversing any decision (koneh-shamayim-va-aretz: verbal clause + appliesTo; reshit-darkhei-el: rationale quotation of Prov 8:22 corrected from 'possessed' to 'created'; shaddai-eloah: bare ʾēl 'El' + appliesTo); and 12 appliesTo-only extensions. No shipped wohChoice is changed and no decision is reversed, so a minor bump is recommended. Several parallel editor diffs (Torah, Isaiah, Former Prophets, Latter Prophets) also target 2.83.0; apply them in sequence and give this diff the next free minor (2.84.0 if it is applied first). Apply semantics as in the Kings diffs: op=add inserts `entry`; op=modify replaces each field in `changes`. appliesTo values are complete arrays relative to v2.83.0 and `appliesToAdded` lists exactly what this diff adds: when another diff has already extended the same entry (likely for shamayim, eretz, elohim-as-translation, ha-adam, ben-adam, tehom, chesed-solitary), apply `appliesToAdded` as a union to the current array instead of replacing it. The rationale/wohChoice modifications are written against the v2.83.0 text; if a parallel diff modified the same field of koneh-shamayim-va-aretz, reshit-darkhei-el or shaddai-eloah first, re-apply the appended text to the current value. Chapters of this wave pin glossaryVersion 2.84.0 and overlayGlossaryVersion 1.0.0; re-pin if the diff lands under another number.",
+    "scopeNoteAddendum": "**v2.84.0 (Writings wave W1 — Job 37; Pss 8, 19, 33, 139, 147; Prov 8, 10; Eccl 3; the biblical Writings chapters cited in the first three Raëlian books):** one new entry, `shechaqim-clouds-cross-corpus` (šĕḥāqîm 'clouds', distinct from šāmayim 'skies'; Job 37:18, 21; 38:37; Prov 8:28). `koneh-shamayim-va-aretz` gains a verbal clause ('created', Ps 139:13; Prov 8:22) and `reshit-darkhei-el` no longer quotes Prov 8:22 as 'possessed'. `shaddai-eloah` now also governs bare ʾēl 'El' in the poetic books (Job 37; Ps 19:2; 139:17, 23). appliesTo extensions for shamayim, eretz, raqia (Ps 19:2), ben-adam (Ps 8:5), ha-adam, elohim-as-translation, tehom, sheol, chesed-solitary ('kindness' in the Psalms and Job 37:13), tzedakah-u-mishpat, tzeva-ha-shamayim (Ps 33:6, astral) and toevah. The book-level Writings conventions (English proper names; divine names and the Elohim article; šāmayim register; ʾereṣ 'earth' / 'land'; ʾādām terms; nepeš; rûaḥ; Ketiv/Qere; MT baseline and Psalm numbering; lineation) live in new overlays v1.0.0 for job-woh, psalms-woh, proverbs-woh and ecclesiastes-woh."
+  },
+  {
+    "op": "add",
+    "id": "shechaqim-clouds-cross-corpus",
+    "entry": {
+      "id": "shechaqim-clouds-cross-corpus",
+      "source": "שְׁחָקִים (sg. שַׁחַק)",
+      "translit": "šĕḥāqîm (sg. šaḥaq)",
+      "strongs": "H7834",
+      "partOfSpeech": "noun, masculine (mostly plural)",
+      "literal": "fine dust; clouds",
+      "standardEnglish": "clouds / sky / skies / heavens (KJV 'clouds' at Job 38:37, Prov 3:20, 8:28, Ps 77:17; ASV 'sky' or 'skies' at Job 37:18, 21, Prov 8:28; NRSV 'skies'; NJPS 'heavens')",
+      "wohChoice": "'clouds' for šĕḥāqîm (Job 37:18, 21; 38:37; Prov 8:28; and at its later sites, e.g. Deut 33:26; Job 35:5; 36:28; Ps 18:12; 36:6; 57:11; 68:35; 77:18; 78:23; 89:7, 38; 108:5; Prov 3:20; Isa 45:8; Jer 51:9), kept distinct from šāmayim 'skies / heavens', with which it is regularly paired; singular šaḥaq 'fine dust' (Isa 40:15).",
+      "claim_type": "direct",
+      "rationale": "šaḥaq is 'fine dust' (Isa 40:15, šaḥaq môʾzĕnayim 'the dust on the scales'), and the plural šĕḥāqîm is 'clouds', the thin, dust-like cloud mass of the sky, and by extension the sky itself (BDB 'dust, cloud'; HALOT 'thin cloud', pl. 'clouds, sky'). In poetry it is the regular partner of šāmayim (Deut 33:26; Job 38:37; Ps 36:6; 57:11; 108:5; Prov 8:27-28; Isa 45:8; Jer 51:9) and the subject of verbs of raining and dripping (Job 36:28; Ps 77:18; Prov 3:20 'the clouds drop down the dew'; Isa 45:8). English versions divide between 'clouds' (KJV at Job 38:37; Prov 3:20; 8:28; Ps 77:17), 'sky' or 'skies' (ASV at Job 37:18, 21 and Prov 8:28; NRSV) and 'heavens' (NJPS). The corpus already renders šāmayim 'skies' in its physical sense (central shamayim), so 'skies' for šĕḥāqîm as well would give two Hebrew words one English word in adjacent lines, as at Prov 8:27-28. The stable job-woh 38:37 ('Who can count the clouds in wisdom, or tip the bottles of the skies') already makes the distinction, and this entry extends it. Job 37:18 needs a note: The Book Which Tells the Truth (ch. 3) quotes the verse in a French wording with 'nuages solides' and reads the clouds as metallic craft. The rendering 'clouds' rests on the lexical sense and the job-woh precedent; the adjective ḥăzāqîm stays 'strong' (ASV), and the reception is confined to the verse commentary. The cloud words ʿāb 'thick cloud' and ʿānān 'cloud' remain distinct in the same chapters (Job 37:11, 15, 16). Application note: the stable paragraph JOB-WOH-38:37 should receive this id in glossaryRefs at its next revision.",
+      "appliesTo": [
+        "JOB-WOH-38:37",
+        "JOB-WOH-37:18",
+        "JOB-WOH-37:21",
+        "PRO-WOH-8:28"
+      ]
+    },
+    "reason": "New cross-corpus entry (Job, Proverbs; later Deuteronomy, Psalms, Isaiah, Jeremiah). Resolves the šĕḥāqîm / šāmayim collision (Prov 8:27-28; Job 37:3, 18, 21) on the stable job-woh 38:37 precedent ('clouds'). English lines changed: Job 37:18, 21; Prov 8:28 ('skies' -> 'clouds')."
+  },
+  {
+    "op": "modify",
+    "id": "koneh-shamayim-va-aretz",
+    "changes": {
+      "wohChoice": "creator of heaven and earth Verbal clause (Writings wave W1): the finite verb qnh in the create-sense passages is rendered 'created' (Ps 139:13 'For you created my inward parts'; Prov 8:22 'YHWH created me at the beginning of his way'); the common sense 'acquire, possess' governs elsewhere and is not affected.",
+      "rationale": "**The epithet *koneh shamayim va-aretz* at Gen 14:19 and 14:22 is an inherited West-Semitic high-god title** — attached in the Hebrew Bible to *El Elyon* — and one of the most directly attested cross-Semitic philological links in the canon.\n\nThe Hebrew verb-root *q-n-h* has a lexical duality: in dominant Biblical Hebrew usage it means *acquire / possess / buy* (Gen 4:1, 25:10, Exod 21:2, and the noun *miqneh*); in an older, more poetic register it means *create / produce / beget*. The create-sense is preserved at **Deut 32:6** *halo hu avikha qanekha* ('is he not your father who created you'), at **Ps 139:13** *ki atah qanita khilyotai* ('for you created my inward parts' — a womb-formation context), and at **Prov 8:22** *YHWH qanani reshit darko* (the personified Wisdom's origin — and the verse over which the entire 4th-century Arian-Athanasian Christological dispute turned).\n\nThe **cross-Semitic parallels are decisive for the *create*-sense in divine-epithet contexts**. The Ugaritic high-god **El** bears the epithet ***qny ʾrṣ*** — *creator of the earth*. The Phoenician **Karatepe inscription** (KAI 26, 8th c. BCE) contains the divine-name compound ***ʾl qn ʾrṣ*** — *El, creator of the earth* — the closest comparative cognate to the Hebrew Gen 14 formula (identical form, same divine-name pairing). The Hittite-Hurrian **Elkunirsa myth** preserves the same divine epithet as a personal name (*Elkunirsa* = ʾEl-qōnē-ʾaraṣ). The 2nd-millennium West-Semitic *qny ʾrṣ* epithet is well-attested as a stable, transmissible high-god title attached to *El*, and in every attested cross-Semitic instance the meaning is unambiguously *create*, not *possess*.\n\nWestermann (1985, p. 204), Sarna (1989, p. 109), Wenham (1987, p. 317), Hamilton (1990, p. 410), Cross (1973, pp. 15-18, 50-52), and Smith (*The Origins of Biblical Monotheism*, 2001) all treat the epithet as inherited West-Semitic. The modern English translation tradition splits on which Hebrew sense — *possess* or *create* — best preserves the inherited meaning: ASV / KJV / RSV read 'possessor'; NRSV / NJPS / NIV / Alter / Speiser read 'maker / creator'.\n\nThe WoH translation reads **'creator of heaven and earth'**, departing from ASV in favor of the modern critical consensus. The choice rests on the cross-Semitic epithet evidence: in the specific *El qn ʾrṣ* high-god-epithet context that Gen 14:19, 22 inherits, the West-Semitic comparators preserve only the *create* sense. The internal Hebrew create-sense attestations (Deut 32:6, Ps 139:13, Prov 8:22) reinforce that the verb's create-sense is alive in early Hebrew divine-context usage. The dominant Biblical Hebrew *possess*-sense of *q-n-h* is preserved in the glossary apparatus for the lexical layer; the wohChoice 'creator' preserves the inherited West-Semitic epithet meaning in the translation.\n\n**Writings wave W1 (2026-11).** The entry has always cited Ps 139:13 and Prov 8:22 as Hebrew attestations of the create-sense; the wave applies it to the translation refIds (PSA-WOH-139:13, PRO-WOH-8:22) and states the verbal rendering, since the wohChoice names only the epithet. Prov 8:22 is the most contested site of the entry: the ASV has 'possessed', Aquila, Symmachus and Theodotion ektēsato, the Vulgate possedit, and Vawter (JBL 99, 1980) argues for 'acquire'; the LXX ektisen, the Targum, the Peshitta, NRSV and NJPS have 'created', and the birth verbs of Prov 8:24-25 (ḥôlāltî 'I was brought forth') favour a sense of origin over ownership. The entry's direct classification rests on the Gen 14 epithet and its West-Semitic parallels and is not meant to present the Prov 8:22 reading as a consensus; the alternatives stand in the verse commentary. The rationale of central reshit-darkhei-el is corrected in the same diff, so that the two entries no longer quote the verse differently.",
+      "appliesTo": [
+        "GEN-14:19",
+        "GEN-14:22",
+        "DEUT-32:6",
+        "PS-139:13",
+        "PROV-8:22",
+        "PSA-WOH-139:13",
+        "PRO-WOH-8:22"
+      ]
+    },
+    "appliesToAdded": [
+      "PSA-WOH-139:13",
+      "PRO-WOH-8:22"
+    ],
+    "reason": "wohChoice appended (verbal clause; the epithet rendering 'creator of heaven and earth' is unchanged), rationale appended, appliesTo extended with the translation refIds of the two verses the rationale already cites (legacy ids PS-139:13 and PROV-8:22 kept). No line changes: the drafts already read 'created'."
+  },
+  {
+    "op": "modify",
+    "id": "reshit-darkhei-el",
+    "changes": {
+      "rationale": "Job 40:19's *hu reshit darkhei-El* — *he is the first of the ways of El*. The chapter places Behemoth in **cosmogonic-first-creature** position. // *Reshit* (רֵאשִׁית) is the same noun that opens Gen 1:1 (*bereshit* — *in beginning*); the lexical core is *beginning, first-fruit, first-of-its-class*. The compound *reshit darkhei* — *first of the ways/works* — recurs in Prov 8:22 of personified Wisdom: *YHWH qanani reshit darko* — *YHWH created me at the beginning of his way* (proverbs-woh, under `koneh-shamayim-va-aretz`; ASV 'possessed me'; the noun phrase can also be construed appositionally, 'as the first of his way', the construction of Job 40:19). The two passages (Job 40:19 of Behemoth; Prov 8:22 of Wisdom) use the same compound for a creature of **singular cosmic-foundational status** — the first of YHWH's projects. // The chapter is asserting Behemoth's primordial-creation status. The reading is consistent with both the **mythological-cosmological identification** (Behemoth as a cosmic-foundational beast) and the **early-extinct-megafauna identification** (Behemoth as an *early* creature in evolutionary time). The lens reads the verse for what it says: Behemoth was created at the *beginning* — first in the sequence of divine works."
+    },
+    "appliesToAdded": [],
+    "reason": "Rationale correction only: the entry quoted Prov 8:22 with the ASV 'YHWH possessed me', while koneh-shamayim-va-aretz (which lists Prov 8:22 in appliesTo) reads 'created'. The quotation now matches the proverbs-woh line and points to the governing entry. wohChoice and appliesTo (JOB-40:19) unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "shaddai-eloah",
+    "changes": {
+      "wohChoice": "Shaddai / Eloah; bare ʾēl in the poetic books 'El' (Writings wave W1, on the job-woh practice: Job 37:5, 10, 14; Ps 19:2; 139:17, 23; cf. job-woh 38:41)",
+      "rationale": "The book of Job uses a distinctive **patriarchal-Aramean divine-name register** rather than the standard Israelite-covenantal YHWH-Elohim cluster. // **Eloah** (אֱלוֹהַּ) is the rarer singular form of *Elohim*, appearing 52 times in the Hebrew Bible — **41 of those in Job alone**. The form is concentrated in the Job dialogues and is a marker of the book's distinctive divine-name vocabulary. The WoH translation preserves *Eloah* untranslated, matching the project's pattern of preserving Hebrew divine-name forms. // **Shaddai** (שַׁדַּי) is the patriarchal divine name (see `qol-mayim-rabbim` for full etymology) — used in the book of Job 31 times. The compound *El Shaddai* appears 7 times in Genesis (17:1, 28:3, 35:11, 43:14, 48:3, 49:25; Ex 6:3 explicitly names *El Shaddai* as the name by which YHWH was known to the patriarchs). // The combined Job-pattern (Eloah-Shaddai-El, with limited use of YHWH-Elohim except in the prose frame of chs 1-2 and 42:7-17) places the book firmly in the **international Wisdom-literature tradition** — the Aramean / Edomite cultural sphere rather than the Israelite-Sinaitic one. // The conventional English 'the Almighty' for *Shaddai* is the Vulgate-via-LXX rendering; the WoH translation preserves the Hebrew name directly, matching its broader preservation pattern (YHWH, Elohim, El). // **Writings wave W1 (2026-11).** job-woh already transliterates bare ʾēl ('El', Job 38:41; 40:9 under z-roa-ka-el), and the last sentence of this rationale names El among the preserved forms, but no entry governed bare ʾēl outside the compound names (El Shaddai, El Elyon). The wave applies the job-woh practice to Job 37 (ʾēl 37:5, 10, 14; ʾĕlôah 37:15, 22; šadday 37:23) and to the same poetic names in the Psalms: kĕbôd-ʾēl 'the glory of El' (Ps 19:2), ʾēl in address (Ps 139:17, 23) and ʾĕlôah (Ps 139:19 'Eloah'). The isaiah-woh overlay (elohim-el-eloah-monotheistic-formula-isaiah) renders these words 'God' inside Second Isaiah's denial formulas, where ʾĕlōhîm, ʾēl and ʾĕlôah alternate in one argument; that book-level exception stands and is not affected.",
+      "appliesTo": [
+        "JOB-40:2",
+        "JOB-WOH-37:5",
+        "JOB-WOH-37:10",
+        "JOB-WOH-37:14",
+        "JOB-WOH-37:15",
+        "JOB-WOH-37:22",
+        "JOB-WOH-37:23",
+        "PSA-WOH-19:2",
+        "PSA-WOH-139:17",
+        "PSA-WOH-139:19",
+        "PSA-WOH-139:23"
+      ]
+    },
+    "appliesToAdded": [
+      "JOB-WOH-37:5",
+      "JOB-WOH-37:10",
+      "JOB-WOH-37:14",
+      "JOB-WOH-37:15",
+      "JOB-WOH-37:22",
+      "JOB-WOH-37:23",
+      "PSA-WOH-19:2",
+      "PSA-WOH-139:17",
+      "PSA-WOH-139:19",
+      "PSA-WOH-139:23"
+    ],
+    "reason": "Scope extended to bare ʾēl in the poetic books (wohChoice appended; 'Shaddai / Eloah' unchanged), on the job-woh practice; appliesTo extended to Job 37 and the Psalms sites. Legacy id JOB-40:2 kept."
+  },
+  {
+    "op": "modify",
+    "id": "shamayim",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:30",
+        "1KI-WOH-18:45",
+        "2KI-WOH-1:10",
+        "2KI-WOH-1:12",
+        "2KI-WOH-1:14",
+        "2KI-WOH-2:1",
+        "2KI-WOH-2:11",
+        "1KI-WOH-22:19",
+        "1KI-WOH-8:22",
+        "1KI-WOH-8:23",
+        "1KI-WOH-8:27",
+        "1KI-WOH-8:30",
+        "1KI-WOH-8:32",
+        "1KI-WOH-8:34",
+        "1KI-WOH-8:35",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:39",
+        "1KI-WOH-8:43",
+        "1KI-WOH-8:45",
+        "1KI-WOH-8:49",
+        "1KI-WOH-8:54",
+        "2KI-WOH-17:16",
+        "EZK-WOH-8:3",
+        "JOB-WOH-37:3",
+        "PSA-WOH-8:2",
+        "PSA-WOH-8:4",
+        "PSA-WOH-8:9",
+        "PSA-WOH-19:2",
+        "PSA-WOH-19:7",
+        "PSA-WOH-33:6",
+        "PSA-WOH-33:13",
+        "PSA-WOH-139:8",
+        "PSA-WOH-147:8",
+        "PRO-WOH-8:27",
+        "ECC-WOH-3:1"
+      ]
+    },
+    "appliesToAdded": [
+      "JOB-WOH-37:3",
+      "PSA-WOH-8:2",
+      "PSA-WOH-8:4",
+      "PSA-WOH-8:9",
+      "PSA-WOH-19:2",
+      "PSA-WOH-19:7",
+      "PSA-WOH-33:6",
+      "PSA-WOH-33:13",
+      "PSA-WOH-139:8",
+      "PSA-WOH-147:8",
+      "PRO-WOH-8:27",
+      "ECC-WOH-3:1"
+    ],
+    "reason": "appliesTo extension only. Physical sky 'skies' (Ps 8:2, 4, 9; 19:2, 7; 33:6; 147:8; Prov 8:27; Eccl 3:1; Job 37:3); divine dwelling or cosmic height 'heavens' under the entry's register clause (Ps 33:13, parallel to 'the place of his dwelling'; 139:8, set against She'ol), following the founder ruling at the Kings wave-A sign-off. Site-by-site application recorded in the Writings overlays (shamayim-register-application-writings)."
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:30",
+        "1KI-WOH-22:36",
+        "1KI-WOH-22:47",
+        "1KI-WOH-6:1",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:37",
+        "1KI-WOH-8:41",
+        "1KI-WOH-8:46",
+        "1KI-WOH-8:47",
+        "1KI-WOH-8:48",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:5",
+        "2KI-WOH-17:7",
+        "2KI-WOH-17:26",
+        "2KI-WOH-17:27",
+        "2KI-WOH-17:36",
+        "EZK-WOH-8:3",
+        "EZK-WOH-8:12",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:15",
+        "EZK-WOH-40:2",
+        "EZK-WOH-42:6",
+        "EZK-WOH-43:2",
+        "EZK-WOH-43:14",
+        "JOB-WOH-37:3",
+        "JOB-WOH-37:13",
+        "PRO-WOH-10:30"
+      ]
+    },
+    "appliesToAdded": [
+      "JOB-WOH-37:3",
+      "JOB-WOH-37:13",
+      "PRO-WOH-10:30"
+    ],
+    "reason": "appliesTo extension only: ʾereṣ 'land' where it is territory or settled land (Prov 10:30 'dwell in the land'; Job 37:13 'his land') and in 'the wings of the land' (Job 37:3, as job-woh 38:13). Cosmic and hymnic sites rendered 'earth' are not added; they are governed by the Writings overlay entry eretz-earth-and-land-scope-writings (the isaiah-woh ruling eretz-cosmic-scope-isaiah-24 adopted), a candidate for promotion to a central context clause."
+  },
+  {
+    "op": "modify",
+    "id": "raqia",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:6",
+        "GEN-1:7",
+        "GEN-1:8",
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "PSA-WOH-19:2"
+      ]
+    },
+    "appliesToAdded": [
+      "PSA-WOH-19:2"
+    ],
+    "reason": "appliesTo extension only: hārāqîaʿ 'the dome' at Ps 19:2, paired with šāmayim as at Gen 1:8; the rationale is general and needs no change (ASV 'firmament')."
+  },
+  {
+    "op": "modify",
+    "id": "ben-adam",
+    "changes": {
+      "appliesTo": [
+        "EZK-37:3",
+        "EZK-37:9",
+        "EZK-37:11",
+        "EZK-37:16",
+        "EZK-WOH-2:1",
+        "EZK-WOH-2:3",
+        "EZK-WOH-2:6",
+        "EZK-WOH-2:8",
+        "EZK-WOH-3:1",
+        "EZK-WOH-3:3",
+        "EZK-WOH-3:4",
+        "EZK-WOH-3:10",
+        "EZK-WOH-3:17",
+        "EZK-WOH-3:25",
+        "EZK-WOH-8:5",
+        "EZK-WOH-8:6",
+        "EZK-WOH-8:8",
+        "EZK-WOH-8:12",
+        "EZK-WOH-8:15",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:2",
+        "EZK-WOH-11:4",
+        "EZK-WOH-11:15",
+        "EZK-WOH-40:4",
+        "EZK-WOH-43:7",
+        "EZK-WOH-43:10",
+        "EZK-WOH-43:18",
+        "EZK-WOH-44:5",
+        "PSA-WOH-8:5",
+        "PRO-WOH-8:4",
+        "PRO-WOH-8:31"
+      ]
+    },
+    "appliesToAdded": [
+      "PSA-WOH-8:5",
+      "PRO-WOH-8:4",
+      "PRO-WOH-8:31"
+    ],
+    "reason": "appliesTo extension only: the rationale already cites Ps 8:5 ('son-of-human'). Ps 8:5 ben-ʾādām 'a son of human'; the anarthrous plural bĕnê ʾādām at Prov 8:4, 31 'the sons of human' is the same decision in the plural (overlay adam-enosh-ish-human-terms-writings)."
+  },
+  {
+    "op": "modify",
+    "id": "ha-adam",
+    "changes": {
+      "appliesTo": [
+        "GEN-2:7",
+        "GEN-2:8",
+        "GEN-2:15",
+        "GEN-2:16",
+        "GEN-2:18",
+        "GEN-2:19",
+        "GEN-2:20",
+        "GEN-2:21",
+        "GEN-2:22",
+        "GEN-2:23",
+        "GEN-2:25",
+        "JOB-WOH-37:7",
+        "PSA-WOH-33:13",
+        "PRO-WOH-8:34",
+        "ECC-WOH-3:10",
+        "ECC-WOH-3:11",
+        "ECC-WOH-3:13",
+        "ECC-WOH-3:18",
+        "ECC-WOH-3:19",
+        "ECC-WOH-3:21",
+        "ECC-WOH-3:22"
+      ]
+    },
+    "appliesToAdded": [
+      "JOB-WOH-37:7",
+      "PSA-WOH-33:13",
+      "PRO-WOH-8:34",
+      "ECC-WOH-3:10",
+      "ECC-WOH-3:11",
+      "ECC-WOH-3:13",
+      "ECC-WOH-3:18",
+      "ECC-WOH-3:19",
+      "ECC-WOH-3:21",
+      "ECC-WOH-3:22"
+    ],
+    "reason": "appliesTo extension only: hāʾādām / ʾādām 'the human', 'every human' (Job 37:7; Prov 8:34; Eccl 3:11, 13, 19, 22) and articular bĕnê hāʾādām 'the sons of the human' (Ps 33:13; Eccl 3:10, 18, 19, 21), as genesis-woh at Gen 11:5. 1 Kgs 8:39 woh ('the children of men') is the corpus outlier, flagged in the wave-W1 editor report."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-as-translation",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:3",
+        "GEN-1:4",
+        "GEN-1:5",
+        "GEN-1:6",
+        "GEN-1:7",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:14",
+        "GEN-1:16",
+        "GEN-1:17",
+        "GEN-1:18",
+        "GEN-1:20",
+        "GEN-1:21",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:27",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:31",
+        "EZK-WOH-11:20",
+        "PSA-WOH-8:6",
+        "PSA-WOH-33:12",
+        "PSA-WOH-147:1",
+        "PSA-WOH-147:7",
+        "PSA-WOH-147:12",
+        "ECC-WOH-3:10",
+        "ECC-WOH-3:11",
+        "ECC-WOH-3:13",
+        "ECC-WOH-3:14",
+        "ECC-WOH-3:15",
+        "ECC-WOH-3:17",
+        "ECC-WOH-3:18"
+      ]
+    },
+    "appliesToAdded": [
+      "PSA-WOH-8:6",
+      "PSA-WOH-33:12",
+      "PSA-WOH-147:1",
+      "PSA-WOH-147:7",
+      "PSA-WOH-147:12",
+      "ECC-WOH-3:10",
+      "ECC-WOH-3:11",
+      "ECC-WOH-3:13",
+      "ECC-WOH-3:14",
+      "ECC-WOH-3:15",
+      "ECC-WOH-3:17",
+      "ECC-WOH-3:18"
+    ],
+    "reason": "appliesTo extension only: ʾĕlōhîm untranslated, with the English article only where the Hebrew has it ('the Elohim' Eccl 3:11, 14, 15, 17, 18; 'Elohim' Ps 8:6; Eccl 3:10, 13; suffixed 'our / your / whose Elohim' Ps 33:12; 147:1, 7, 12). Article rule recorded in the Writings overlays (divine-names-convention-writings), parallel to the Kings overlay's clause 2."
+  },
+  {
+    "op": "modify",
+    "id": "tehom",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:2",
+        "GEN-WOH-49:25",
+        "PSA-WOH-33:7",
+        "PRO-WOH-8:24",
+        "PRO-WOH-8:27",
+        "PRO-WOH-8:28"
+      ]
+    },
+    "appliesToAdded": [
+      "PSA-WOH-33:7",
+      "PRO-WOH-8:24",
+      "PRO-WOH-8:27",
+      "PRO-WOH-8:28"
+    ],
+    "reason": "appliesTo extension only: plural tĕhômôt / tĕhōmôt 'the deeps', 'depths' (Ps 33:7; Prov 8:24) and tĕhôm 'the deep' (Prov 8:27, 28; ʿal-pĕnê tĕhôm as Gen 1:2)."
+  },
+  {
+    "op": "modify",
+    "id": "sheol-underworld-realm-of-the-dead",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-37:35",
+        "GEN-WOH-42:38",
+        "GEN-WOH-44:29",
+        "GEN-WOH-44:31",
+        "1KI-WOH-2:6",
+        "1KI-WOH-2:9",
+        "PSA-WOH-139:8"
+      ]
+    },
+    "appliesToAdded": [
+      "PSA-WOH-139:8"
+    ],
+    "reason": "appliesTo extension only: 'She'ol' at Ps 139:8, set against šāmayim as the lower extreme of the cosmos."
+  },
+  {
+    "op": "modify",
+    "id": "chesed-solitary-covenant-kindness",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-39:21",
+        "GEN-WOH-40:14",
+        "1KI-WOH-2:7",
+        "1KI-WOH-8:23",
+        "JOB-WOH-37:13",
+        "PSA-WOH-33:5",
+        "PSA-WOH-33:18",
+        "PSA-WOH-33:22",
+        "PSA-WOH-147:11"
+      ]
+    },
+    "appliesToAdded": [
+      "JOB-WOH-37:13",
+      "PSA-WOH-33:5",
+      "PSA-WOH-33:18",
+      "PSA-WOH-33:22",
+      "PSA-WOH-147:11"
+    ],
+    "reason": "appliesTo extension: solitary ḥesed 'kindness' (Ps 33:5, 18, 22; 147:11; Job 37:13); the lines now read 'kindness' per the wohChoice (drafts and ASV 'lovingkindness'), as 1 Kgs 8:23 in the Kings wave C-D. The Psalter has some 120 further occurrences; the founder may wish to confirm the rendering before the Psalms grow (wave-W1 editor report)."
+  },
+  {
+    "op": "modify",
+    "id": "tzedakah-u-mishpat-justice-pair",
+    "changes": {
+      "appliesTo": [
+        "GEN-18:19",
+        "PSA-WOH-33:5"
+      ]
+    },
+    "appliesToAdded": [
+      "PSA-WOH-33:5"
+    ],
+    "reason": "appliesTo extension only: ʾōhēb ṣĕdāqâ ûmišpāṭ 'He loves righteousness and justice' (Ps 33:5)."
+  },
+  {
+    "op": "modify",
+    "id": "tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "1KI-WOH-22:19",
+        "2KI-WOH-17:16",
+        "PSA-WOH-33:6"
+      ]
+    },
+    "appliesToAdded": [
+      "PSA-WOH-33:6"
+    ],
+    "reason": "appliesTo extension only: ṣĕbāʾām 'all their host' (Ps 33:6), the host of the created skies, i.e. the stars (cf. Gen 2:1), the astral sense already in the wohChoice. The suffix replaces the construct, so the line has 'their host', not 'the host of the heavens'."
+  },
+  {
+    "op": "modify",
+    "id": "toevah-abomination-cross-corpus-keyword",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-43:32",
+        "GEN-WOH-46:34",
+        "GEN-WOH-47:3",
+        "EZK-WOH-8:6",
+        "EZK-WOH-8:9",
+        "EZK-WOH-8:13",
+        "EZK-WOH-8:15",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:18",
+        "EZK-WOH-11:21",
+        "EZK-WOH-43:8",
+        "EZK-WOH-44:6",
+        "EZK-WOH-44:7",
+        "EZK-WOH-44:13",
+        "PRO-WOH-8:7"
+      ]
+    },
+    "appliesToAdded": [
+      "PRO-WOH-8:7"
+    ],
+    "reason": "appliesTo extension only: tôʿăbat śĕpātay 'an abomination to my lips' (Prov 8:7), in the wisdom strand the rationale already names."
+  }
+]

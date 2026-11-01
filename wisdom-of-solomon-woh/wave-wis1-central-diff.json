@@ -1,0 +1,45 @@
+[
+  {
+    "op": "version",
+    "from": "2.83.0",
+    "to": "2.84.0",
+    "note": "Base: central glossary v2.83.0 (translation-glossary-2.83.0.json). Contents: 2 modify ops, both appliesTo extensions for wisdom-of-solomon-woh wave WIS1 (Wis 13, the corpus's first Septuagint-only text); the meorot op also extends the strongs field with the Greek lexeme (precedent: gophrit-va-esh in wave R2). No new central entry, no wohChoice changed, no decision reversed, so a minor bump is recommended. Apply semantics as in the Kings and Revelation wave diffs: op=modify replaces each field in `changes`; appliesTo values are complete arrays preserving every refId of v2.83.0. CONCURRENCY: several parallel diffs also target 2.83.0. If any is merged first, renumber this diff to the next free minor and re-base each appliesTo array as the union of the then-current array and `appliesToAdded`. Considered and not proposed: apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus (its subject is the Rev 1:4 nominative-after-apo solecism and the triadic formula; Wis 13:1 has the regularly declined accusative ton onta, so the entry is cited as background only); bara, pesel-utemunah-..., tzeva-ha-shamayim-... (Hebrew-text decisions whose English does not render the Greek words at Wis 13:3, 13:13 and 13:2; background only under the wisdom-of-solomon-woh scope rule).",
+    "scopeNoteAddendum": "**v2.84.0 (Wisdom of Solomon wave WIS1 — Wis 13, quoted at 13:1 and 13:5 in *The Book Which Tells the Truth* ch. 3; the corpus's first Septuagint-only text, Swete's Vaticanus):** no new central entries. `ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus` gains Wis 13:1 *ton onta* 'him who is' as a reception site of the Septuagint *ho ōn* stratum it documents (as at Rev 1:4, 1:8, 4:8, 16:5). `meorot` now also governs Greek *phōstēres* 'luminaries' (Wis 13:2; LXX Gen 1:14-16). Wisdom-specific decisions (Swete base text and variant reporting; theos 'God'; generic anthrōpos 'people'; the scope rule for Hebrew-text central entries in a Greek book; technitēs 'craftsman' against the KJV 'workmaster'; analogōs 'by analogy'; despotēs 'Lord'; prytaneis kosmou 'rulers of the world'; stochasasthai ton aiōna; the idol-satire vocabulary) live in the new wisdom-of-solomon-woh overlay v1.0.0."
+  },
+  {
+    "op": "modify",
+    "id": "ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-3:12",
+        "EXO-WOH-3:14",
+        "REV-WOH-1:4",
+        "REV-WOH-1:8",
+        "REV-WOH-4:8",
+        "REV-WOH-16:5",
+        "WIS-WOH-13:1"
+      ]
+    },
+    "appliesToAdded": [
+      "WIS-WOH-13:1"
+    ],
+    "reason": "appliesTo extension only. Wis 13:1 *ton onta* is the accusative of the Septuagint *ho ōn* of Ex 3:14, read by commentators as a deliberate allusion (Winston, AB 43; Larcher). The entry's rationale already documents the LXX *ho ōn* stratum and lists its New Testament reception sites, which the appliesTo carries for Revelation (REV-WOH-1:4, 1:8, 4:8, 16:5); Wis 13:1 is the same kind of site. The Greek line reads 'him who is' (wisdom-of-solomon-woh overlay `ton-onta-him-who-is-wis-13-1`), as the Revelation lines read 'him who is'; the entry's Hebrew-surface wohChoice 'I am that I am' is not imported into the Greek line. The entry's disavowal (ii) applies: the canon's reception of this verse (TBWTT ch. 3) is recorded in a labelled reception note only."
+  },
+  {
+    "op": "modify",
+    "id": "meorot",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:14",
+        "GEN-1:15",
+        "GEN-1:16",
+        "WIS-WOH-13:2"
+      ],
+      "strongs": "H3974; Greek φωστήρ phōstēr G5458 (LXX Gen 1:14, 16; Wis 13:2; Phil 2:15; Rev 21:11)"
+    },
+    "appliesToAdded": [
+      "WIS-WOH-13:2"
+    ],
+    "reason": "Extension to the Greek equivalent *phōstēres*, the Septuagint's rendering of *mᵊʾōrōt* at Gen 1:14-16. 'luminaries' is also the lexical sense of the Greek (LSJ, BDAG s.v. φωστήρ) and NRSV's rendering at Wis 13:2; the draft's 'lights' (KJV/Brenton) becomes 'the luminaries of heaven', which keeps the Genesis link visible in a verse about the deification of the heavenly bodies. No change of decision; strongs field extended with the Greek lexeme for auditability (precedent: gophrit-va-esh-destruction-formula, wave R2)."
+  }
+]
