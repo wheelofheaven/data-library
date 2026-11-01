@@ -1,0 +1,1765 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "THOM-WOH",
+  "bookSlug": "gospel-of-thomas-woh",
+  "n": 1,
+  "title": "The Gospel of Thomas 1 — The hidden sayings of the living Jesus",
+  "translation": {
+    "track": "translation",
+    "version": "1.2.0-rc1",
+    "status": "awaiting-human",
+    "block": "C (n=77–114)",
+    "scope": "Block C only: logia 77–114 (38 units). Separate draft file; Block A (n=0–38) is signed off in chapter-1.json and Block B (39–76) is under review in chapter-1.blockB.draft.json. To be merged into chapter-1.json after review and human sign-off; at the merge, carry translation.subscriptTitle into chapter-1.json's translation object.",
+    "sourceText": "Coptic Scriptorium thomas-gospel corpus, Dilley edition, v6.2.0 (2025-11-25) — diplomatic bound groups (orig_group); Nag Hammadi Codex II,2 (msName NHAM.02; Coptic Museum Cairo, NH 10544; codex pages 32-51; 4th century CE); Sahidic Coptic, with Lycopolitan features",
+    "sourceCitation": "Paul C. Dilley (ed.), Gospel of Thomas, in Coptic SCRIPTORIUM (Caroline T. Schroeder, Amir Zeldes et al.), corpus thomas.gospel, urn:cts:copticLit:nh.thomas.NHAM02:0-114; edition based on The Facsimile Edition of the Nag Hammadi Codices: Codex II (Leiden: Brill, 1974), consulting Layton 1989 and Bethge et al. 1996.",
+    "sourceLicense": "Coptic source layer: CC BY 4.0 (Coptic Scriptorium thomas-gospel corpus). English translation: original to the Wheel of Heaven Translation Program, released CC0-1.0.",
+    "englishLicense": "CC0-1.0",
+    "sourceUrl": "https://raw.githubusercontent.com/CopticScriptorium/corpora/master/thomas-gospel/thomas.gospel_TT/thomas_gospel.tt",
+    "sourceAccessedVia": "https://github.com/CopticScriptorium/corpora (thomas-gospel corpus, fetched 2026-06-12); lemma/POS aid from the same corpus (CC BY 4.0) used for parsing only",
+    "comparisonText": "Greek Oxyrhynchus fragments: only P.Oxy. 1 (verso, ll. 27–30) overlaps Block C, at logion 77b, where the Greek joins the wood/stone sentence to logion 30; cited from the Translator's knowledge of the Greek. Coptic followed throughout, the overlap raised in editorial_questions. NT comparanda (matthew-woh, luke-woh, mark-woh) consulted for program vocabulary only; no line harmonised.",
+    "glossaryVersion": "2.75.0",
+    "overlayGlossaryVersion": "1.2.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "pending",
+    "reviewedAt": null,
+    "subscriptTitle": {
+      "cop": "ⲡⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲡⲕⲁⲧⲁ ⲑⲱⲙⲁⲥ",
+      "en": "The Gospel according to Thomas",
+      "placement": "The manuscript closes with this subscript title after logion 114. It is not part of the saying and is not a numbered unit, so that the units stay aligned with the source verse list (0-114), where the title is kept in source.subscriptTitle. Explained in the commentary of THOM-114.",
+      "glossaryRefs": [
+        "subscript-title-gospel-according-to-thomas-thomas-woh"
+      ]
+    },
+    "reviewerReportBlockC": {
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-01T08:10:00Z",
+      "verdicts": [
+        {
+          "refId": "THOM-77",
+          "status": "revise",
+          "citations": [
+            "Attridge, 'The Greek Fragments', in Layton (ed.), Nag Hammadi Codex II,2-7 (NHS 20, 1989): translation of P.Oxy. 1 (30 + 77b)",
+            "Crum, A Coptic Dictionary (1939), CD 280ab s.v. ⲡⲱϩ 'break, divide' and CD 281ab s.v. ⲡⲱϩ 'reach, attain' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C2973, C2979)",
+            "Layton, A Coptic Grammar (on the focalising conversion / second tenses)"
+          ],
+          "reasoning": "English approved: nominal sentences, two focalising second perfects as clefts, ⲡⲱϩ 'reached' / 'split' (two homonymous lemmas, confirmed), Coptic order wood-then-stone kept. Citation fix only: the Greek wording (stone first, 'the wood', 'you will find me there', 'I am there') agrees with Attridge's translation of P.Oxy. 1, but the locator 'verso, ll. 27-30' is not confirmable and conflicts with Block A's style ('P.Oxy. 1.23-30' for logion 30, no side named); change 'P.Oxy. 1 (verso, ll. 27-30)' to 'P.Oxy. 1.27-30' here, in the logion-77 entry's strongs field and in the base-text scopeNote."
+        },
+        {
+          "refId": "THOM-78",
+          "status": "revise",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 429b s.v. ⲉⲃⲟⲗ ϩⲓⲧⲛ̄- 'by, through' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C4489, a compound-preposition lemma)",
+            "Crum, A Coptic Dictionary (1939), CD 108ab s.v. ⲕⲓⲙ (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C1215: no compound ⲕⲓⲙ ⲉⲃⲟⲗ is listed)",
+            "Crum, A Coptic Dictionary (1939), CD 377a s.v. ⲥⲱϣⲉ 'field, meadow, country'"
+          ],
+          "reasoning": "Exact change: 'To see a reed [shaken] by the wind?' → 'To see a reed shaken [by] the wind?'. The restored ⲉ̣[ⲃⲟⲗ] is the first half of the compound preposition ⲉⲃⲟⲗ ϩⲓⲧⲛ̄ 'by' (agent), not part of a compound verb ⲕⲓⲙ ⲉⲃⲟⲗ, so under the Editor's own morph rule the bracket belongs on 'by' and ⲕⲓⲙ (extant) is unbracketed; fix the 'Brackets' sentence of the commentary to match. Everything else stands: 'countryside' for ⲥⲱϣⲉ (not synoptic 'wilderness'), '[man who]', '[like your]', '[the soft]' (article and relative partly restored), '[will]'."
+        },
+        {
+          "refId": "THOM-79",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ⲛⲁⲓⲁⲧ= (native beatitude)",
+            "Lk 11:27-28; 23:29 (comparison only)"
+          ],
+          "reasoning": "Re-parsed: ⲛⲉⲉⲓⲁⲧⲥ ⲛ̄ⲑϩⲏ ⲛ̄ⲧⲁϩϥⲓ ϩⲁⲣⲟⲕ, relative perfects, ⲁⲩⲁⲣⲉϩ ⲉⲣⲟϥ ϩⲛ̄ⲟⲩⲙⲉ 'kept it in truth', ⲧⲁⲉⲓ ⲉⲧⲉⲙ̄ⲡⲥⲱ, ⲉⲙⲡⲟⲩϯⲉⲣⲱⲧⲉ. 'Blessed' for native ⲛⲁⲓⲁⲧ= is exact; brackets '[woman]', '[breasts]', '[her]' follow the morph rule and the unbracketed 'the womb' ([ⲛ̄] only) is correct."
+        },
+        {
+          "refId": "THOM-80",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ⲡⲉⲛⲧⲁϩⲥⲟⲩⲱⲛ ⲡⲕⲟⲥⲙⲟⲥ ⲁϥϩⲉ ⲉⲡⲥⲱⲙⲁ … ⲡⲕⲟⲥⲙⲟⲥ ⲙ̄ⲡϣⲁ ⲙ̄ⲙⲟϥ ⲁⲛ: literal, and the doublet difference from 56 ('a corpse' / 'the body', article included) is kept rather than harmonised."
+        },
+        {
+          "refId": "THOM-81",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἀρνέομαι"
+          ],
+          "reasoning": "ⲙⲁⲣⲉϥⲣ̄ⲣⲣⲟ 'let him reign' / ⲙⲁⲣⲉϥⲁⲣⲛⲁ 'let him renounce' (jussives); no object supplied where the Coptic has none; same English as 110."
+        },
+        {
+          "refId": "THOM-82",
+          "status": "revise",
+          "citations": [
+            "Origen, Homily 20 on Jeremiah, Greek text (Klostermann, GCS Origenes Werke 3; First1KGreek tlg2042.tlg021): section 3 checked, the saying is not there",
+            "Layton, A Coptic Grammar (on the focalising conversion / second tenses)"
+          ],
+          "reasoning": "English approved ('Whoever is near me is near the fire, and whoever is far from me is far from the kingdom'). Citation fix: 'Origen quotes it (Homilies on Jeremiah 20.3)' could not be confirmed: the Greek Homily 20.3 does not contain the saying, and the Latin-homily locator given in secondary lists could not be checked. Remove the parenthesis and the Origen clause (e.g. 'The saying has no canonical parallel.'), unless the human verifies a locator in the Latin homilies. Advisory: the reason given for not using a cleft (ⲉϥϩⲏⲛ homographic with the circumstantial) is weak, since after the extraposed ⲡⲉⲧϩⲏⲛ ⲉⲣⲟⲉⲓ the clause must be a main clause; the parallel with ϥⲟⲩⲏⲩ is the better reason and suffices."
+        },
+        {
+          "refId": "THOM-83",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ϭⲱⲗⲡ; s.v. ⲟⲩⲱⲛϩ"
+          ],
+          "reasoning": "ϥⲛⲁϭⲱⲗⲡ ⲉⲃⲟⲗ: masculine subject ambiguous between ⲡⲉⲓⲱⲧ and ⲟⲩⲟⲉⲓⲛ (m.); 'He' with the alternative 'It … its' stated in commentary, as ruled at 24. 'is hidden' keeps the stative (Lambdin's 'will remain concealed' is interpretive)."
+        },
+        {
+          "refId": "THOM-84",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)",
+            "Crum, A Coptic Dictionary (1939) s.v. ⲟⲩⲏⲣ 'how much?' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C5113)"
+          ],
+          "reasoning": "ϣⲁⲣⲉⲧⲛ̄ⲣⲁϣⲉ habitual 'you rejoice'; ⲉⲓⲛⲉ 'likeness' vs ϩⲓⲕⲱⲛ 'images' kept apart; negative aorists 'neither die nor become manifest'; ⲧⲉⲧⲛⲁϥⲓ ϩⲁⲟⲩⲏⲣ 'how much you will bear!' renders the plain future. Lambdin 'will have to bear' confirmed."
+        },
+        {
+          "refId": "THOM-85",
+          "status": "approve",
+          "citations": [
+            "Layton, A Coptic Grammar (on the focalising conversion / second tenses)"
+          ],
+          "reasoning": "Second perfect ⲛ̄ⲧⲁⲁⲇⲁⲙ ϣⲱⲡⲉ … focalising, so the cleft is right; ⲛⲉⲩⲁⲝⲓⲟⲥ ⲅⲁⲣ ⲡⲉ unreal protasis + preterite future apodosis 'he would not have tasted death' (tense correct). The duplicated ϯ̣ⲡ̣[ⲉ in `text` is an encoding artefact (token layer has it once); reading it once is right."
+        },
+        {
+          "refId": "THOM-86",
+          "status": "approve",
+          "citations": [
+            "central son-of-man-bar-enash-dan-7-13-mt-cross-corpus (v2.75.0)",
+            "Mt 8:20 / Lk 9:58 (comparison only)"
+          ],
+          "reasoning": "ⲛⲟⲩ- plural possessive 'their [holes]', singular ⲡⲉⲩⲙⲁϩ 'their nest' kept against synoptic 'nests', 'and rest' (ⲙ̄ⲧⲟⲛ, native) kept. 'the Son of Man' follows the central convention, which explicitly does not pre-resolve the debate, and the commentary states the self-reference / 'a human being' reading; no overlay override is warranted."
+        },
+        {
+          "refId": "THOM-87",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 88b-89a s.v. ⲁϣⲉ (ⲛ-) 'hang from, depend on' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C1019)"
+          ],
+          "reasoning": "ⲉⲧⲁϣⲉ ⲛ̄- 'that depends on'; ⲧⲁⲗⲁⲓⲡⲱⲣⲟⲛ/-ⲟⲥ 'wretched'; same verb and English as 112."
+        },
+        {
+          "refId": "THOM-88",
+          "status": "revise",
+          "citations": [
+            "BDAG s.v. ἄγγελος (1 human messenger; 2 angel)",
+            "Crum, A Coptic Dictionary (1939) s.v. ⲟⲩⲛ̄ⲧⲉ- (possessive 'have')",
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Exact change: 'and they will give you what is yours' → 'and they will give you what you have'. ⲛⲉⲧⲉⲩⲛ̄ⲧⲏⲧⲛ̄ⲥⲉ is 'the things that you have' (relative + possessive ⲟⲩⲛ̄ⲧⲉ-), which the Coptic contrasts with ⲡⲉⲧⲉⲡⲱⲟⲩ 'what is theirs' (possessive pronoun); 'what is yours' flattens the two constructions into a symmetry the text lacks and loses the paradox (they bring what you already have; Lambdin marks it with '(already)'). Update the 'Wording' sentence and the angelos entry's wohChoice. Lens check passed: 'angels' is the plain rendering, as at 13, and the WoH paragraph is labelled and apparatus-only."
+        },
+        {
+          "refId": "THOM-89",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ⲧⲁⲙⲓⲟ 'make, create' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C4311)"
+          ],
+          "reasoning": "'made', not 'created', for ⲧⲁⲙⲓⲟ in a cup image (lexically exact, keeps creator vocabulary out of the line); ⲧⲉⲧⲛ̄ⲣ̄ⲛⲟⲉⲓ ⲁⲛ as a question is the standard reading."
+        },
+        {
+          "refId": "THOM-90",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. χρηστός (Mt 11:30 'easy')",
+            "Crum, A Coptic Dictionary (1939) s.v. ⲣⲙ̄ⲣⲁϣ 'mild, gentle' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C3218)"
+          ],
+          "reasoning": "'easy' for ⲭⲣⲏⲥⲧⲟⲥ of a yoke is the lexicon's sense, not an import; Thomas's 'lordship' kept against Matthew's 'burden'; 'repose' applies the ratified ἀνάπαυσις rule (Block B), consistent with 50, 51, 60 and distinct from native ⲙ̄ⲧⲟⲛ 'rest' at 86."
+        },
+        {
+          "refId": "THOM-91",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πειράζω"
+          ],
+          "reasoning": "ⲣ̄ⲡⲓⲣⲁⲍⲉ 'test' (not Luke's δοκιμάζω 'interpret'); 'the sky' under the context rule; 'the one who is in your presence you have not known' keeps the negative perfect and ⲙ̄ⲡⲉⲧⲛ̄ⲙ̄ⲧⲟ ⲉⲃⲟⲗ as at 52."
+        },
+        {
+          "refId": "THOM-92",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "'In those days' / 'on that day' kept apart; ⲉϩⲛⲁⲓ̈ circumstantial of ϩⲛⲉ- 'be willing'; ⲧⲉⲧⲛ̄ϣⲓⲛⲉ ⲁⲛ ⲛ̄ⲥⲱⲟⲩ 'you do not seek them'."
+        },
+        {
+          "refId": "THOM-93",
+          "status": "approve",
+          "citations": [
+            "Coptic SCRIPTORIUM lemma layer: ⲛ- tagged ANEGOPT (negative optative) in ϫⲉⲕⲁⲥ ⲛⲟⲩⲛⲟϫⲟⲩ and ϫⲉⲛⲟⲩⲁⲁϥ"
+          ],
+          "reasoning": "'lest' is grammatically exact (negative optative after ϫⲉⲕⲁⲥ / ϣⲓⲛⲁ ϫⲉ). No formula supplied; pronoun mismatches kept; the gap printed '…'; '[pearls to]' (ⲥ of ⲙⲁⲣⲅⲁⲣⲓⲧⲏⲥ and the preposition restored) correct under the morph rule."
+        },
+        {
+          "refId": "THOM-94",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "'[whoever knocks]' marks the substantial restoration; the impersonal ⲥⲉⲛⲁⲟⲩⲱⲛ ⲛⲁϥ as a passive is the normal English for the Coptic impersonal plural, not a Matthean import."
+        },
+        {
+          "refId": "THOM-95",
+          "status": "approve",
+          "citations": [
+            "Coptic SCRIPTORIUM lemma layer: ⲡ-ⲉⲧ-ⲉⲧⲛ-ⲛⲁ (the restored ⲉ belongs to the 2pl pronoun)"
+          ],
+          "reasoning": "'[it]' (ⲙ[ⲙⲟϥ]) and '[you]' (ⲧ[ⲉ]ⲧⲛ) are right under the morph rule; singular 'it' / plural 'them' kept; no 'back' added."
+        },
+        {
+          "refId": "THOM-96",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ϣⲱⲧⲉ 'dough' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C6102)"
+          ],
+          "reasoning": "Kingdom compared to the woman (not the leaven); 'large loaves' kept against Matthew's three measures; brackets match restored morphs ('[is like a]', '[she hid]', '[large]', '[let]'); attributive [ⲛ] unbracketed."
+        },
+        {
+          "refId": "THOM-97",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)",
+            "Crum, A Coptic Dictionary (1939), CD 212b s.v. ⲙⲁⲁϫⲉ 'ear', also 'handle' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C2328)",
+            "Crum, A Coptic Dictionary (1939), CD 711b-712a s.v. ϩⲓⲥⲉ (n. m. 'labour, suffering')"
+          ],
+          "reasoning": "'handle' for ⲙⲁⲁϫⲉ is a lexicon sense; ϭⲉⲗⲙⲉⲉⲓ masculine resumed by ⲉϥϣⲟⲩⲉⲓⲧ 'it … empty'; 'still far off' renders the circumstantial idiomatically; Lambdin 'accident' confirmed (the overlay quote needs correcting, see glossaryReview)."
+        },
+        {
+          "refId": "THOM-98",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 403a s.v. ⲧⲱⲕ 'be strong, firm' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C4190; C4192 ⲧⲱⲕ ⲉϩⲟⲩⲛ 'persist')",
+            "KoptHWb 311 s.v. ϣⲱⲗⲙ 'draw forth' (via CDO C5833)"
+          ],
+          "reasoning": "Hard saying kept: the kingdom is compared to a man preparing a killing; 'great man' links ⲙⲉⲅⲓⲥⲧⲁⲛⲟⲥ to 78; 'hold firm' for ⲧⲱⲕ ⲉϩⲟⲩⲛ is within the lexical range ('be firm, persist'). Overlay attribution and Lambdin quote need correcting (see glossaryReview)."
+        },
+        {
+          "refId": "THOM-99",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ⲛⲁⲉⲓ ⲛⲉ resumptive 'these are'; the Coptic cleft ⲛ̄ⲧⲟⲟⲩ ⲡⲉ ⲉⲧⲛⲁⲃⲱⲕ 'It is they who will enter' kept; Thomas's extra line not harmonised away."
+        },
+        {
+          "refId": "THOM-100",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "'a gold coin' (ⲟⲩⲛⲟⲩⲃ, not 'denarius'); ⲛⲉⲧⲏⲡ ⲁⲕⲁⲓⲥⲁⲣ 'Those who belong to Caesar'; 'God' for ⲡⲛⲟⲩⲧⲉ (no 'Elohim'); the third member 'what is mine, give it to me' kept."
+        },
+        {
+          "refId": "THOM-101",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Hard saying kept: 'hate' and the contradictory 'love' clause both in the line; no formula supplied; gaps '…' without conjecture; brackets match restorations. The overlay's Lambdin quote wrongly includes a conjecture (see glossaryReview)."
+        },
+        {
+          "refId": "THOM-102",
+          "status": "revise",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 480a s.v. ⲟⲩⲟⲙϥ 'manger' (n. m.; forms ⲟⲩⲟⲙϥ, ⲟⲩⲟⲛϩϥ, ⲟⲩⲁⲙϥ, ⲟⲩⲁⲛϥ, via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C5037)",
+            "Lucian, Timon 14 (Greek text, Harmon, LCL; Perseus tlg0062.tlg022): καθάπερ τὴν ἐν τῇ φάτνῃ κύνα μήτε αὐτὴν ἐσθίουσαν τῶν κριθῶν μήτε τῷ ἵππῳ πεινῶντι ἐπιτρέπουσαν"
+          ],
+          "reasoning": "English approved ('a dog sleeping on the manger of oxen'). Commentary fix: replace 'a form for which the Editor knows no meaning' (and the same phrase in the logion-102 entry's rationale) with a statement that Crum lists ⲟⲩⲟⲙϥ 'manger' with variant spellings in ⲛ (ⲟⲩⲟⲛϩϥ, ⲟⲩⲁⲛϥ; CD 480a), so the diplomatic ⲡⲟⲩⲟⲛⲉϥ is best taken as a variant spelling of the same noun. `inferred` may stay (the exact spelling is unattested). Lucian, Timon 14 confirmed; note that Lucian's dog keeps a horse, not oxen, from the barley."
+        },
+        {
+          "refId": "THOM-103",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)",
+            "Crum, A Coptic Dictionary (1939) s.v. ⲣⲣⲟ (ⲙⲛ̄ⲧⲉⲣⲟ 'kingdom, kingship')",
+            "Lk 12:39 / Mt 24:43 (comparison only)"
+          ],
+          "reasoning": "'domain' for ⲙⲛ̄ⲧⲉⲣⲟ in the householder-and-robbers image is the ratified logion-21 exception applied by its own criterion (same ⲗⲏⲥⲧⲏⲥ, same girding ⲙⲟⲩⲣ … ⲉϫⲛ̄ ϯⲡⲉ); Lambdin's 'muster his domain' confirmed; the lexical identity with 'kingdom' is stated in commentary. Brackets narrowed correctly ('[he] may', ⲛ̣ⲁ extant)."
+        },
+        {
+          "refId": "THOM-104",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. νυμφών"
+          ],
+          "reasoning": "Second perfect interrogative ⲛ̄ⲧⲁⲩϫⲣⲟ ⲉⲣⲟⲉⲓ ϩⲛ̄ⲟⲩ as a passive question; pray/fast and fast/pray order kept; one English term for ⲛⲩⲙⲫⲱⲛ and native ⲡⲙⲁ ⲛ̄ϣⲉⲗⲉⲉⲧ (same referent) with the pair recorded in the apparatus."
+        },
+        {
+          "refId": "THOM-105",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πόρνη"
+          ],
+          "reasoning": "Hard saying kept; lower-case 'the father and the mother' leaves the referent open (consistent with the eiot criterion); 'whore' carries the insult register of 'son of a …' and is defensible; 'son' under the ratified filial rule."
+        },
+        {
+          "refId": "THOM-106",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ⲛ̄ϣⲏⲣⲉ ⲙ̄ⲡⲣⲱⲙⲉ plural, zero article: 'sons of man', lower case, outside the central title convention; 'Mountain, move away' as at 48."
+        },
+        {
+          "refId": "THOM-107",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)",
+            "Crum, A Coptic Dictionary (1939) s.v. ⲟⲩⲱϣ 'wish, desire, love' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C5257)"
+          ],
+          "reasoning": "'a man, a shepherd' (apposition as 76); 'it was the largest'; 'Having toiled'; ϯⲟⲩⲟϣⲕ 'I love you' within the lexical range; Lambdin 'I care for you' confirmed (overlay quote has one wording error, see glossaryReview)."
+        },
+        {
+          "refId": "THOM-108",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Literal 'drinks from my mouth'; ⲁⲛⲟⲕ ϩⲱ ϯⲛⲁϣⲱⲡⲉ ⲉⲛⲧⲟϥ ⲡⲉ 'I myself will become he' (Lambdin's wording confirmed); ⲟⲩⲱⲛϩ ⲉⲣⲟϥ 'appear to him'."
+        },
+        {
+          "refId": "THOM-109",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)",
+            "Crum, A Coptic Dictionary (1939), CD 377a s.v. ⲥⲱϣⲉ (n. f.; the restored ⲧⲁⲁ[ⲥ] agrees)"
+          ],
+          "reasoning": "Hard ending kept (moneylending, against 95, same English); brackets narrowed correctly at 'the one [who]' and 'to [those whom]'; '[being]' and '[did]' render partly restored converters and are acceptable."
+        },
+        {
+          "refId": "THOM-110",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "'Whoever has found the world and become rich, let him renounce the world'; restored object marker unbracketed under the morph rule; same verb as 81."
+        },
+        {
+          "refId": "THOM-111",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "'The heavens will be rolled up, and the earth, in your presence' keeps Coptic order; ⲡⲉⲧⲟⲛϩ ⲉⲃⲟⲗ ϩⲛ̄ⲡⲉⲧⲟⲛϩ verbal + substantive; 'will not see death' (ⲛⲁⲩ). 'Does not Jesus say …?' is Lambdin's parse (confirmed) and is marked `inferred` with the 'not that' alternative in commentary; not marking the gloss in the line is correct (text-historical claims belong in the apparatus)."
+        },
+        {
+          "refId": "THOM-112",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Symmetrical ⲟⲩⲟⲉⲓ … ⲉⲧⲟϣⲉ ⲛ̄- 'woe … that depends on', paired with 87."
+        },
+        {
+          "refId": "THOM-113",
+          "status": "approve",
+          "citations": [
+            "Block B sign-off ruling (humanRulingBlockB, 2026-11-01): ⟨Salome said:⟩ at 61 admitted only where grammar identifies the speaker"
+          ],
+          "reasoning": "Topicalised question kept; no formula for the reply, as at 43. Under the ratified 61 criterion 113 does not qualify (speaker change marked by sense, not grammar), so no ⟨Jesus said:⟩. 'watching out for it', 'Behold, here / there', 'spread out upon the earth', 'people' all exact."
+        },
+        {
+          "refId": "THOM-114",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ⲥⲱⲕ 'draw, lead' (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C3408)"
+          ],
+          "reasoning": "Manuscript reading kept: 'make her male', 'makes herself male', 'women are not worthy of life'; ⲛⲁⲩ 'to them' kept (not Lambdin's 'to him'); 'Mariham'; 'the kingdom of the heavens' per central entry. Subscript title correctly kept out of the saying."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "focalising-conversion-cleft-convention-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Layton, A Coptic Grammar (on the focalising conversion / second tenses)"
+          ],
+          "reasoning": "Direct confirmed: the corpus tags CFOC at 77 and 85, and clefts continue THOM-12/62. Restricting clefts to clear contrastive cases is sound. Advisory only: at 82 the better ground for no cleft is the parallel with ϥⲟⲩⲏⲩ, not homography with the circumstantial."
+        },
+        {
+          "glossary_id": "restored-morph-without-english-word-convention-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 429b s.v. ⲉⲃⲟⲗ ϩⲓⲧⲛ̄- (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C4489)"
+          ],
+          "reasoning": "Convention approved as a faithful codification of Blocks A/B practice. One example is wrong: remove \"'[shaken]' 78\" from clause (a); ⲉ̣[ⲃⲟⲗ] there belongs to the compound preposition ⲉⲃⲟⲗ ϩⲓⲧⲛ̄, so 78 reads 'shaken [by] the wind' under the same rule."
+        },
+        {
+          "glossary_id": "subscript-title-gospel-according-to-thomas-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Direct confirmed: the field mirrors source.subscriptTitle and keeps units aligned 0-114; 'The Gospel according to Thomas' renders ⲡⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲡⲕⲁⲧⲁ ⲑⲱⲙⲁⲥ. The renderer needs a template change to display it."
+        },
+        {
+          "glossary_id": "logion-77-light-above-all-and-poh-reach-split-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Attridge, 'The Greek Fragments', in Layton (ed.), Nag Hammadi Codex II,2-7 (NHS 20, 1989): translation of P.Oxy. 1 (30 + 77b)",
+            "Crum, A Coptic Dictionary (1939), CD 280ab and 281ab s.v. ⲡⲱϩ"
+          ],
+          "reasoning": "Lexical content approved (two homonymous ⲡⲱϩ verbs confirmed). Change the strongs locator 'P.Oxy. 1 verso ll. 27-30' to 'P.Oxy. 1.27-30' (side not confirmable; Block A cites the same passage without a side)."
+        },
+        {
+          "glossary_id": "logion-78-countryside-shaken-reed-and-megistanos-great-men-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 429b s.v. ⲉⲃⲟⲗ ϩⲓⲧⲛ̄-",
+            "Crum, A Coptic Dictionary (1939), CD 377a s.v. ⲥⲱϣⲉ"
+          ],
+          "reasoning": "'countryside' and 'great men' approved. In wohChoice change 'a reed [shaken] by the wind' to 'a reed shaken [by] the wind'; in literal change 'a reed moving out by the wind' to 'a reed moving by the wind'."
+        },
+        {
+          "glossary_id": "naiat-native-beatitude-blessed-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ⲛⲁⲓⲁⲧ="
+          ],
+          "reasoning": "Direct confirmed; native/loan pair recorded, not marked in the English."
+        },
+        {
+          "glossary_id": "logos-word-of-the-father-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. λόγος"
+          ],
+          "reasoning": "Direct confirmed; capital 'Father' fits the context."
+        },
+        {
+          "glossary_id": "arna-renounce-dynamis-power-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἀρνέομαι"
+          ],
+          "reasoning": "Direct confirmed; absolute 'renounce' at 81 avoids supplying an object."
+        },
+        {
+          "glossary_id": "ouonh-ebol-bolp-ebol-manifest-revealed-appear-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ⲟⲩⲱⲛϩ; s.v. ϭⲱⲗⲡ (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C7668)"
+          ],
+          "reasoning": "Direct confirmed; state/event split for ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ is consistent with Blocks A/B."
+        },
+        {
+          "glossary_id": "logion-84-likeness-images-and-bearing-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Direct confirmed; Lambdin quote verified verbatim."
+        },
+        {
+          "glossary_id": "axios-mpsha-worthy-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Direct confirmed; 85 uses both forms in one sentence with no difference of sense."
+        },
+        {
+          "glossary_id": "ashe-depend-talaiporos-wretched-ouoei-woe-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 88b-89a s.v. ⲁϣⲉ (ⲛ-)",
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Direct confirmed; Lambdin quote verified ('dependent upon a body')."
+        },
+        {
+          "glossary_id": "angelos-angels-and-prophets-logion-88-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "BDAG s.v. ἄγγελος",
+            "Crum, A Coptic Dictionary (1939) s.v. ⲟⲩⲛ̄ⲧⲉ-"
+          ],
+          "reasoning": "'angels' approved (direct). In wohChoice replace \"'what is yours'\" with \"'what you have'\" to match the THOM-88 revise."
+        },
+        {
+          "glossary_id": "woh-reading-logion-88-angels-and-prophets-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄγγελος (both 'messenger' and 'angel' are real senses)",
+            "Raëlian canon: TBWTT (messengers and prophets sent by the Elohim), cited by the entry only in general terms"
+          ],
+          "reasoning": "Speculative, apparatus only. The lexical evidence the rationale relies on is accurate (the 'messenger' range of ἄγγελος; the saying names no sender), the rationale states plainly what the reading goes beyond, the paragraph is labelled and placed after the mainstream readings, and the English keeps 'angels'. Approve; human sign-off by name still required."
+        },
+        {
+          "glossary_id": "tamio-made-logion-89-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ⲧⲁⲙⲓⲟ"
+          ],
+          "reasoning": "Direct confirmed; 'made' keeps creator vocabulary out of a household image."
+        },
+        {
+          "glossary_id": "logion-90-chrestos-easy-yoke-and-lordship-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. χρηστός",
+            "Crum, A Coptic Dictionary (1939) s.v. ⲣⲙ̄ⲣⲁϣ",
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Direct confirmed; Lambdin 'my yoke is easy and my lordship is mild' verified."
+        },
+        {
+          "glossary_id": "logion-91-test-the-face-of-the-sky-and-kairos-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πειράζω"
+          ],
+          "reasoning": "Direct confirmed; 'test' keeps Thomas's verb distinct from Luke's."
+        },
+        {
+          "glossary_id": "logion-93-holy-to-dogs-pronouns-and-gap-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Coptic SCRIPTORIUM lemma layer (ANEGOPT)"
+          ],
+          "reasoning": "Direct confirmed; 'lest' is the negative optative."
+        },
+        {
+          "glossary_id": "homt-money-mese-interest-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Direct confirmed; shared English at 95 and 109 makes the tension visible."
+        },
+        {
+          "glossary_id": "logion-96-leaven-parable-vocabulary-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939) s.v. ϣⲱⲧⲉ"
+          ],
+          "reasoning": "Direct confirmed."
+        },
+        {
+          "glossary_id": "logion-97-jar-of-meal-vocabulary-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)",
+            "Crum, A Coptic Dictionary (1939), CD 212b s.v. ⲙⲁⲁϫⲉ"
+          ],
+          "reasoning": "Lexical choices approved. Attribution fix in standardEnglish: Lambdin reads 'she had noticed no accident', not 'She had not noticed an accident'; quote it exactly or drop the quotation marks."
+        },
+        {
+          "glossary_id": "logion-98-assassin-parable-vocabulary-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)",
+            "KoptHWb 311 s.v. ϣⲱⲗⲙ 'draw forth' (via CDO C5833, which gives no Crum page for this sense)"
+          ],
+          "reasoning": "Lexical choices approved. Two attribution fixes: (1) standardEnglish misquotes Lambdin, who reads 'a certain man who wanted to kill a powerful man. In his own house he drew his sword and stuck it into the wall in order to find out whether his hand could carry through. Then he slew the powerful man' (not 'wished', 'thrust'); (2) in strongs replace \"Crum s.v. ϣⲱⲗⲙ 'draw (sword)'\" with \"KoptHWb 311 s.v. ϣⲱⲗⲙ 'draw forth'\", since the dictionary data give no Crum page for this sense."
+        },
+        {
+          "glossary_id": "noute-god-and-logion-100-caesar-vocabulary-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Direct confirmed; 'God' without article is the exact equivalent; 'Elohim' rightly excluded."
+        },
+        {
+          "glossary_id": "logion-101-hate-love-and-true-mother-gap-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Treatment approved. Attribution fix in standardEnglish: Lambdin prints 'For my mother [...], but my true mother gave me life'; the conjecture '[gave me falsehood]' is not his and must be removed from the quotation (and '(Lambdin, with a conjectural completion)' changed to '(Lambdin)')."
+        },
+        {
+          "glossary_id": "logion-102-dog-in-the-manger-normalised-reading-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 480a s.v. ⲟⲩⲟⲙϥ (via Coptic Dictionary Online (coptic-dictionary.org, Crum-based) C5037)",
+            "Lucian, Timon 14 (Harmon, LCL; Perseus Greek text)"
+          ],
+          "reasoning": "`inferred` approved; Lucian, Timon 14 confirmed. In rationale replace 'for which the Editor knows no meaning' with the Crum evidence: ⲟⲩⲟⲙϥ 'manger' is listed with ⲛ-spellings ⲟⲩⲟⲛϩϥ and ⲟⲩⲁⲛϥ (CD 480a), so ⲡⲟⲩⲟⲛⲉϥ is best read as a variant spelling. This answers the Editor's question 4; whether to upgrade to `direct` is optional."
+        },
+        {
+          "glossary_id": "logion-103-householder-domain-and-robbers-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "`inferred` approved: the widening meets the exception's own criterion (identical householder-and-robbers image as 21), Lambdin's 'muster his domain' is verified, and the lexical identity is kept visible."
+        },
+        {
+          "glossary_id": "nymphios-nymphon-bridegroom-bridal-chamber-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. νυμφών"
+          ],
+          "reasoning": "Direct confirmed; same referent, pair recorded, no Valentinian import."
+        },
+        {
+          "glossary_id": "logion-105-father-mother-son-of-a-whore-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πόρνη",
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Direct confirmed; 'whore' defensible for the insult register; Lambdin 'harlot' verified."
+        },
+        {
+          "glossary_id": "logion-106-sons-of-man-plural-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Direct confirmed; Lambdin 'the sons of man' verified."
+        },
+        {
+          "glossary_id": "logion-107-shepherd-and-largest-sheep-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Choices approved. Attribution fix in standardEnglish: Lambdin reads 'When he had gone to such trouble', not 'After he had gone to such trouble'."
+        },
+        {
+          "glossary_id": "logion-108-drink-from-my-mouth-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Direct confirmed; Lambdin quote verified."
+        },
+        {
+          "glossary_id": "logion-109-hidden-treasure-parable-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Direct confirmed; Lambdin quote verified."
+        },
+        {
+          "glossary_id": "logion-111-the-living-one-and-gloss-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "`inferred` approved; Lambdin quote verified; the οὐχ ὅτι alternative is stated."
+        },
+        {
+          "glossary_id": "logion-113-kingdom-spread-out-upon-the-earth-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)"
+          ],
+          "reasoning": "Direct confirmed; consistent with the ratified 61 criterion (no supplied formula at 113)."
+        },
+        {
+          "glossary_id": "logion-114-make-her-male-manuscript-reading-thomas-woh",
+          "status": "approve",
+          "citations": [
+            "Lambdin's translation of Thomas (Layton ed., Nag Hammadi Codex II,2-7, NHS 20, 1989; wording checked against the reprint in The Nag Hammadi Library in English at gnosis.org/naghamm/gthlamb.html)",
+            "Crum, A Coptic Dictionary (1939) s.v. ⲥⲱⲕ"
+          ],
+          "reasoning": "Direct confirmed; Lambdin quote verified."
+        },
+        {
+          "glossary_id": "register-sayings-format-and-proper-names-convention-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "greek-loanword-rendering-convention-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "shaje-ethep-hidden-sayings-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "etonh-the-living-lowercase-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "jitpe-mpmou-taste-death-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "ptirf-the-all-reign-over-the-all-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "mntero-the-kingdom-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "tpe-sky-heaven-context-rule-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "shere-son-child-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "eiot-father-capitalisation-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "oua-ouot-a-single-one-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "rome-man-human-person-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "makarios-blessed-singular-formula-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "sower-parable-coptic-form-and-eisheete-behold-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "kosmos-world-kah-earth-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "ouoein-light-man-of-light-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "pneuma-sarx-soma-spirit-flesh-body-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "mariham-name-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "eikon-image-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "psyche-soul-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "hmhal-slave-joeis-master-lord-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "ptoma-corpse-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "hise-suffer-toil-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "goosht-look-watch-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "ma-nsheleet-bridal-chamber-thomas-woh",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Extension verified: only appliesTo (Block C ids added) and appended scopeNote text differ from the Block B snapshot; the Block C scope note is accurate."
+        },
+        {
+          "glossary_id": "restored-text-bracket-and-sigla-convention-thomas-woh",
+          "status": "revise",
+          "citations": [],
+          "reasoning": "Block C appendix approved. Rebase required (see glossaryDiffCheck): the live entry carries the pre-sign-off wording of note (d); restore the signed-off (HEAD 5cbd4f2) wording and re-append the v1.2.0 Block C text."
+        },
+        {
+          "glossary_id": "topos-ma-place-thomas-woh",
+          "status": "revise",
+          "citations": [],
+          "reasoning": "Block C addition (THOM-86) approved. Rebase required: the live entry re-adds THOM-66 and its scope note, which the Block B sign-off removed; take the HEAD 5cbd4f2 entry and add only THOM-86 and the Block C scope sentence."
+        },
+        {
+          "glossary_id": "kim-anapausis-mton-movement-repose-rest-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Crum, A Coptic Dictionary (1939), CD 429b s.v. ⲉⲃⲟⲗ ϩⲓⲧⲛ̄-"
+          ],
+          "reasoning": "90 'repose' and 86 'rest' approved. In the Block C scope sentence replace 'The verb ⲕⲓⲙ ⲉⲃⲟⲗ of a reed in the wind is 'shaken' (78)' with 'The verb ⲕⲓⲙ of a reed moved by (ⲉⲃⲟⲗ ϩⲓⲧⲛ̄) the wind is 'shaken' (78)'."
+        },
+        {
+          "glossary_id": "coptic-base-text-and-oxyrhynchus-greek-witnesses-convention-thomas-woh",
+          "status": "revise",
+          "citations": [
+            "Attridge, 'The Greek Fragments', in Layton (ed.), Nag Hammadi Codex II,2-7 (NHS 20, 1989): translation of P.Oxy. 1 (30 + 77b)"
+          ],
+          "reasoning": "Block C appendix approved in substance; change 'P.Oxy. 1 verso ll. 27-30' to 'P.Oxy. 1.27-30' (side not confirmable)."
+        },
+        {
+          "glossary_id": "central: iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus (appliesTo + 32 THOM ids)",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Verified by script: exactly the 32 Block C units whose `text` has the name (incl. ⲓⲏ︤ⲥ︥ 90, ⲓⲥ 94, restored 95, 111); 79, 91, 93, 99, 101, 113 correctly excluded; glossaryRefs match."
+        },
+        {
+          "glossary_id": "central: lacuna-bracket-convention-sumerian-mesopotamian-project-standard (appliesTo + 15 THOM ids)",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Verified by script: exactly the 15 units with [ ] restorations or gaps; 107 ([[ ]] only) correctly excluded."
+        },
+        {
+          "glossary_id": "central: son-of-man-bar-enash-dan-7-13-mt-cross-corpus (appliesTo + THOM-86)",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Singular arthrous ⲡϣⲏⲣⲉ ⲙ̄ⲡⲣⲱⲙⲉ; entry does not pre-resolve the debate; 106 correctly excluded."
+        },
+        {
+          "glossary_id": "central: kingdom-of-heaven-basileia-tōn-ouranōn-mt-distinctive-cross-corpus-hebrew-malkhut-shamayim (appliesTo + THOM-114)",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ⲧⲙⲛ̄ⲧⲉⲣⲟ ⲛⲙ̄ⲡⲏⲩⲉ, completing 20, 54, 114. Version note: central is now 2.76.0 in chapter-1.json (Block B applied), so this is 2.77.0."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "lensLeakageCheck": "Performed on all 38 English lines against the re-parsed Coptic (diplomatic text, normalisation and lemma layer). No English line carries a Wheel of Heaven reading: 77 'the light', 'the All'; 88 'angels' (lexical; the WoH paragraph is labelled, apparatus-only, after the mainstream readings); 89 'made'; 100 'God'; 114 'a living spirit' lower case. No canonical wording is imported where the Coptic differs: 78 'countryside', not 'wilderness'; 86 singular 'nest'; 90 'lordship', not 'burden'; 91 'test', not 'interpret'; 96 'large loaves'; 100 'a gold coin' plus the third member; 107 'the largest' and 'more than the ninety-nine'; 113 no supplied formula. 'easy' (90) and the passive at 94 are lexical/grammatical, not imports. Hard sayings stand in the manuscript reading: 93 (no formula, pronoun mismatches, gap), 98, 101 (hate and love), 105 ('son of a whore'), 109 (moneylending against 95), 111 (unmarked third-person clause), 114 ('make her male'). The only smoothing found is 88 'what is yours' (not lens-related), handled as a revise.",
+      "citationVerification": [
+        {
+          "citation": "Lambdin 84 'will have to bear'",
+          "result": "confirmed",
+          "note": "verbatim"
+        },
+        {
+          "citation": "Lambdin 97 'accident'",
+          "result": "confirmed (commentary)",
+          "note": "Lambdin: 'she had noticed no accident'. The overlay standardEnglish misquotes it ('She had not noticed an accident'): fix"
+        },
+        {
+          "citation": "Lambdin 98 'carry through'",
+          "result": "confirmed (commentary)",
+          "note": "overlay standardEnglish has 'wished' and 'thrust' where Lambdin has 'wanted' and 'stuck': fix"
+        },
+        {
+          "citation": "Lambdin 103 'domain'",
+          "result": "confirmed",
+          "note": "'muster his domain'"
+        },
+        {
+          "citation": "Lambdin 105 'harlot'",
+          "result": "confirmed",
+          "note": "'the son of a harlot'"
+        },
+        {
+          "citation": "Lambdin 107 'I care for you'",
+          "result": "confirmed (commentary)",
+          "note": "overlay standardEnglish has 'After he had gone' where Lambdin has 'When he had gone': fix"
+        },
+        {
+          "citation": "Lambdin 111 'Does not Jesus say'",
+          "result": "confirmed",
+          "note": "'Does not Jesus say, \"Whoever finds himself is superior to the world?\"'"
+        },
+        {
+          "citation": "Lambdin 101 (overlay standardEnglish) '[gave me falsehood]'",
+          "result": "not confirmable: remove",
+          "note": "not in the Editor's list; Lambdin prints 'For my mother [...]'"
+        },
+        {
+          "citation": "Origen, Homilies on Jeremiah 20.3 (82)",
+          "result": "not confirmable: remove",
+          "note": "Greek Hom. 20.3 (Klostermann GCS, First1KGreek tlg2042.tlg021) checked and does not contain the saying; the Latin-homily locator in secondary lists was not checked"
+        },
+        {
+          "citation": "Lucian, Timon 14 (102)",
+          "result": "confirmed",
+          "note": "Perseus Greek (Harmon): τὴν ἐν τῇ φάτνῃ κύνα μήτε αὐτὴν ἐσθίουσαν τῶν κριθῶν μήτε τῷ ἵππῳ πεινῶντι ἐπιτρέπουσαν"
+        },
+        {
+          "citation": "P.Oxy. 1 Greek at 77b",
+          "result": "wording confirmed in substance; locator not confirmable",
+          "note": "the order (stone, then wood), 'the stone', 'the wood', 'you (sg.) will find me there' and 'I am there' agree with Attridge's and Doresse's translations; 'verso, ll. 27-30' should become 'P.Oxy. 1.27-30'"
+        },
+        {
+          "citation": "Crum s.v. ϣⲱⲗⲙ 'draw (sword)' (98 entry)",
+          "result": "not confirmable: replace",
+          "note": "CDO C5833 gives this sense from KoptHWb 311 only, with no Crum page"
+        }
+      ],
+      "sourceFindingsCheck": "The `text` of all 38 units is byte-identical to source-cop-1.json (77-114). Confirmed: duplicated ϯ̣ⲡ̣[ⲉ at 85 (token layer once); ⲓⲥ without overline at 94; ⲡⲟⲩⲟⲛⲉϥ at 102; stray '/' at 103; [[ ]] at 79, 107; { }/⟨ ⟩ metathesis at 90. Added: ⲡⲟⲩⲟⲛⲉϥ is close to Crum's variant spellings of ⲟⲩⲟⲙϥ (ⲟⲩⲟⲛϩϥ, ⲟⲩⲁⲛϥ; CD 480a). The iēsous (32) and lacuna-bracket (15) unit lists were re-derived from `text` by script and match the glossaryRefs and the CENTRAL proposals; every glossaryRef resolves, and glossaryRefs equal the overlay appliesTo arrays.",
+      "glossaryDiffCheck": "Against the Block B snapshot (v1.1.0-blockB-snapshot.json) the live overlay v1.2.0 adds 35 entries and changes 30 existing entries only in appliesTo (additions) and appended scopeNote text, as claimed. BUT Block B was signed off and merged after the Editor's pass (commit 5cbd4f2, overlay v1.1.0 at HEAD), and the live v1.2.0 is built on the pre-sign-off snapshot. Committed as is, it would silently revert five ratified Block B sign-off changes: woh-reading-logion-50-origin-from-the-light-thomas-woh (rationale sentence on DeConick/Genesis 1 deleted), logion-74-jote-shone-crux-thomas-woh (wohChoice 'sickness(?)' and the ratified rationale lost), whole-word-supply-angle-brackets-convention-thomas-woh (THOM-61 and the '⟨Salome said:⟩' ruling dropped), topos-ma-place-thomas-woh (THOM-66 re-added), restored-text-bracket-and-sigla-convention-thomas-woh (old note (d)). Required before commit: rebase v1.2.0 on HEAD's v1.1.0. Take those five entries from HEAD and re-apply only the Block C appliesTo/scopeNote additions (topos-ma: +THOM-86 and its sentence; restored-text: +Block C ids and its sentence; the other three have no Block C change).",
+      "escalationVerdicts": {
+        "1 speculative woh-reading-logion-88": "approve (apparatus only); lexical evidence accurate and rationale candid. Human sign-off by name still required.",
+        "2 103 'domain'": "approve. Same image and criterion as the ratified 21 exception; Lambdin verified.",
+        "3 111 rhetorical question, no gloss marking": "approve. Lambdin's parse, `inferred`, alternative stated; marking a gloss in the line would be a text-historical claim.",
+        "4 102 'manger' from the normalised layer": "approve the English; revise the commentary/rationale with Crum's ⲛ-spellings (CD 480a). `inferred` may stay; `direct` is optional.",
+        "5 clefts at 77/85": "approve.",
+        "6 morph-level bracket convention and five bracket fixes": "approve the convention and the fixes at 93, 97, 103, 109 and 78 '[man who]'; revise 78 '[shaken] by' → 'shaken [by]' (ⲉⲃⲟⲗ ϩⲓⲧⲛ̄ compound preposition).",
+        "7 86 'the Son of Man'": "approve under the central convention; no overlay override.",
+        "8 104 one term for both bridal-chamber words": "approve.",
+        "9 105 'whore', lower-case father/mother": "approve.",
+        "10 90 'repose'": "approve (ratified Block B rule).",
+        "11 subscriptTitle field": "approve; orchestrator carries it into chapter-1.json at the merge; display needs a template change.",
+        "12 hard sayings": "approve: all seven in the manuscript reading.",
+        "13 citations": "see citationVerification: four removals or replacements (Origen locator; the [gave me falsehood] attribution; Crum for ϣⲱⲗⲙ; P.Oxy. side) and three overlay misquotes corrected; no English line changes.",
+        "14 113 vs 61 ⟨Salome said:⟩": "The human adopted ⟨Salome said:⟩ at 61 (humanRulingBlockB) as a narrow exception where grammar identifies the speaker. 113 does not meet it (speaker change by sense only, as at 43), so no ⟨Jesus said:⟩. Optional: cite the 61 ruling in the 113 commentary.",
+        "15 CENTRAL (four appliesTo extensions)": "approve all four; central is 2.76.0 at HEAD, so this is 2.77.0 and the Block C translation.glossaryVersion should be updated at application."
+      },
+      "escalationReportAdjustments": "Initial verdicts were formed from the chapter, overlay, source, lemma aid, Block A/B files and the external checks before opening chapter-1-editor-report-block-c.md. After reading it no verdict changed. The report's question 4 (102) is answered by the Crum forms found independently. Its review 11 says Block B's revises 'can be applied on top'. They now must be, because Block B was signed off after the report was written; that point is recorded in glossaryDiffCheck. Its statement that 113 is 'marked by sense, not by grammar' agrees with the 113 verdict.",
+      "summary": "38 unit verdicts: 33 approve, 5 revise (77 citation locator; 78 'shaken [by]'; 82 remove the unconfirmed Origen locator; 88 'what you have'; 102 commentary on ⲟⲩⲟⲙϥ spellings), 0 flag-for-human. Two revises change English lines (78, 88). 35 new overlay entries: 26 approve (including the speculative 88 entry and the 103 and 111 inferred entries), 9 revise (restored-morph example; logion-77 locator; logion-78 wording; angelos wohChoice; 97, 98, 101 and 107 Lambdin quotes or attributions; logion-102 rationale). 30 extended entries: 26 approve, 4 revise (kim and base-text scope sentences; topos-ma and restored-text rebase). Blocking finding: the live overlay v1.2.0 predates the Block B sign-off (HEAD 5cbd4f2) and would revert five ratified changes if committed; it must be rebased. Central: all four appliesTo extensions approved (now 2.77.0). Lens leakage: none. Status advanced to awaiting-human."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 77,
+      "refId": "THOM-77",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲁⲛⲟⲕ ⲡⲉ ⲡⲟⲩⲟⲉⲓⲛ ⲡⲁⲉⲓ ⲉⲧϩⲓϫⲱⲟⲩ ⲧⲏⲣⲟⲩ ⲁⲛⲟⲕ⳿ ⲡⲉ ⲡⲧⲏⲣϥ⳿ ⲛ̄ⲧⲁⲡⲧⲏⲣϥ ⲉⲓ ⲉⲃⲟⲗ ⲛ̄ϩⲏⲧ⳿ ⲁⲩⲱ ⲛ̄ⲧⲁⲡⲧⲏⲣϥ⳿ ⲡⲱϩ ϣⲁⲣⲟⲉⲓ ⲡⲱϩ ⲛ̄ⲛⲟⲩϣⲉ ⲁⲛⲟⲕ⳿ ϯⲙ̄ⲙⲁⲩ ϥⲓ ⲙ̄ⲡⲱⲛⲉ ⲉϩⲣⲁⲓ̈ ⲁⲩⲱ ⲧⲉⲧⲛⲁϩⲉ ⲉⲣⲟⲉⲓ ⲙ̄ⲙⲁⲩ",
+      "i18n": {
+        "en": "Jesus said: I am the light that is above them all. I am the All. It is from me that the All came forth, and it is to me that the All has reached. Split a piece of wood: I am there. Lift up the stone, and you will find me there."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "coptic-base-text-and-oxyrhynchus-greek-witnesses-convention-thomas-woh",
+        "ptirf-the-all-reign-over-the-all-thomas-woh",
+        "ouoein-light-man-of-light-thomas-woh",
+        "focalising-conversion-cleft-convention-thomas-woh",
+        "logion-77-light-above-all-and-poh-reach-split-thomas-woh"
+      ],
+      "notes": {
+        "official": "**Greek witness.** Logion 77b, the wood-and-stone sentence, also survives in Greek in P.Oxy. 1 (verso, ll. 27-30), where it ends logion 30 ('where there is one alone, I am with him'); the Greek has no counterpart to 77a. It reads ἔγει[ρ]ον τὸν λίθον κἀκεῖ εὑρήσεις με, σχίσον τὸ ξύλον κἀγὼ ἐκεῖ εἰμι, 'Lift the stone, and there you will find me; split the wood, and I am there'. The order is reversed (stone first), the Greek has the definite 'the wood' where the Coptic has 'a piece of wood', 'raise' (ἔγειρον) where the Coptic has 'lift up', and 'and I am there' where the Coptic has no conjunction. The Coptic stands in the line (see `coptic-base-text-and-oxyrhynchus-greek-witnesses-convention-thomas-woh`); the Block A commentary on logion 30 records the same overlap from the other side.\n\n**The ⲡⲱϩ catchword.** The Coptic join turns on one form: ⲡⲱϩ 'reach, attain' (ⲛ̄ⲧⲁⲡⲧⲏⲣϥ ⲡⲱϩ ϣⲁⲣⲟⲉⲓ 'the All has reached to me') and ⲡⲱϩ 'split, break' (ⲡⲱϩ ⲛ̄ⲛⲟⲩϣⲉ 'split a piece of wood'), two homonymous verbs (Crum s.v. ⲡⲱϩ). Greek σχίσον cannot carry the pun, so commentators commonly explain the placement of 77b after 77a as a catchword join made in Coptic. English cannot keep it: 'reached' and 'split' are the plain senses (see `logion-77-light-above-all-and-poh-reach-split-thomas-woh`).\n\n**Wording.** ⲡⲁⲉⲓ ⲉⲧϩⲓϫⲱⲟⲩ ⲧⲏⲣⲟⲩ 'that is above them all' keeps the Coptic plural pronoun, which has no stated antecedent. ⲡⲧⲏⲣϥ is 'the All', capitalised as at 2 and 67 (see `ptirf-the-all-reign-over-the-all-thomas-woh`). The two second perfects ⲛ̄ⲧⲁⲡⲧⲏⲣϥ … are focalising, so the emphasis falls on 'from me' and 'to me'. The English now marks it with a cleft, as at THOM-12 and 62, instead of the draft's fronting (see `focalising-conversion-cleft-convention-thomas-woh`). The self-predication is usually compared with Jn 8:12 and with Wisdom, which 'pervades and penetrates all things' (Wis 7:24).",
+        "community": []
+      }
+    },
+    {
+      "n": 78,
+      "refId": "THOM-78",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲉⲧⲃⲉⲟⲩ ⲁⲧⲉⲧⲛⲉⲓ ⲉⲃⲟⲗ ⲉⲧⲥⲱϣⲉ ⲉⲛⲁⲩ ⲉⲩⲕⲁϣ ⲉϥⲕⲓⲙ ⲉ̣[ⲃⲟⲗ] ϩⲓⲧⲙ̄ⲡⲧⲏⲩ ⲁⲩⲱ ⲉⲛⲁⲩ ⲉⲩⲣ[ⲱ]ⲙ̣[ⲉ ⲉ]ⲩ̣ⲛ̄ϣⲧⲏⲛ ⲉⲩϭⲏⲛ ϩⲓⲱⲱⲃ ⲛ̄[ⲑⲉ ⲛ̄ⲛⲉⲧ]ⲛ̣ⲣ̄ⲣⲱⲟⲩ ⲙⲛ̄ⲛⲉⲧⲙ̄ⲙⲉⲅⲓⲥⲧⲁⲛⲟⲥ ⲛⲁⲉⲓ ⲉⲛ[ⲉ]ϣ̣ⲧ̣ⲏ̣ⲛ̣ ⲉ̣[ⲧ]ϭⲏⲛ ϩⲓⲱⲟⲩ ⲁⲩⲱ ⲥⲉⲛ̣[ⲁ]ϣⲥⲟⲩⲛⲧⲙⲉ ⲁⲛ",
+      "i18n": {
+        "en": "Jesus said: Why have you come out to the countryside? To see a reed [shaken] by the wind? And to see a [man who] has soft garments on him, [like your] kings and your great men? These have [the soft] garments on them, and they [will] not be able to know the truth."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "rome-man-human-person-thomas-woh",
+        "kim-anapausis-mton-movement-repose-rest-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "logion-78-countryside-shaken-reed-and-megistanos-great-men-thomas-woh"
+      ],
+      "notes": {
+        "official": "**Vocabulary.** ⲥⲱϣⲉ is 'field' at 21 and 109. As the place people go out to in order to see a reed, it is open country, hence 'countryside'. Mt 11:7 and Lk 7:24 have 'the wilderness' (ἔρημος), which the line does not import. ⲕⲓⲙ is the verb 'move' of logion 19 and the noun 'movement' of 50; of a reed in the wind the English idiom is 'shaken' (see `kim-anapausis-mton-movement-repose-rest-thomas-woh`). ⲙⲉⲅⲓⲥⲧⲁⲛⲟⲥ (μεγιστάν 'grandee, magnate', as in Mk 6:21) is 'great men' here and 'a great man' at 98, so the two sayings stay linked (see `logion-78-countryside-shaken-reed-and-megistanos-great-men-thomas-woh`). Thomas ends with 'they will not be able to know the truth', where the synoptics speak of the houses of kings.\n\n**Brackets.** There are six restored spans. 'a [man who] has' merges two adjacent bracketed words (ⲉⲩⲣ[ⲱ]ⲙ̣[ⲉ and the restored circumstantial ⲉ]ⲩ̣-), as at THOM-72; the draft had '[man] [who]'. '[shaken]' brackets the verb because the restored adverb ⲉ̣[ⲃⲟⲗ] belongs to the compound ⲕⲓⲙ ⲉⲃⲟⲗ, as '[appeared]' does at THOM-50 (see `restored-morph-without-english-word-convention-thomas-woh`). '[like your]' stands on ⲛ̄[ⲑⲉ ⲛ̄ⲛⲉⲧ]-, '[the soft]' on the restored article and relative of ⲉⲛ[ⲉ]ϣ̣ⲧ̣ⲏ̣ⲛ̣ ⲉ̣[ⲧ]ϭⲏⲛ, and '[will]' on the future auxiliary of ⲥⲉⲛ̣[ⲁ]ϣ-.\n\n**Source note.** The lemma aid counts six supplied spans; `text` shows seven bracket groups.",
+        "community": []
+      }
+    },
+    {
+      "n": 79,
+      "refId": "THOM-79",
+      "text": "ⲡⲉϫⲉⲟⲩⲥϩⲓⲙ̣[ⲉ] ⲛⲁϥ ϩⲙ̄ⲡⲙⲏϣⲉ ϫⲉⲛⲉⲉⲓⲁⲧⲥ̣ [ⲛ̄]ⲑϩⲏ ⲛ̄ⲧⲁϩϥⲓ ϩⲁⲣⲟⲕ ⲁⲩⲱ ⲛ̄ⲕⲓ[ⲃ]ⲉ ⲉⲛⲧⲁϩⲥⲁ[[ϩ]]ⲛⲟⲩϣⲕ ⲡⲉϫⲁϥ ⲛⲁ[ⲥ] ϫⲉⲛⲉⲉⲓⲁⲧⲟⲩ ⲛ̄ⲛⲉⲛⲧⲁϩⲥⲱ̣ⲧⲙ̄ ⲁ:ⲡⲗⲟⲅⲟⲥ ⲙ̄ⲡⲉⲓⲱⲧ ⲁⲩ̣ⲁⲣⲉϩ ⲉⲣⲟϥ ϩⲛ̄ⲟⲩⲙⲉ ⲟⲩⲛ̄ϩⲛ̄ϩⲟⲟⲩ ⲅⲁⲣ ⲛⲁϣⲱⲡⲉ ⲛ̄ⲧⲉⲧⲛ̄ϫⲟⲟⲥ ϫⲉⲛⲉⲉⲓⲁⲧϥ︦ ⲛ̄ⲑϩⲏ ⲧⲁⲉⲓ ⲉⲧⲉⲙ̄ⲡⲥⲱ ⲁⲩⲱ ⲛ̄ⲕⲓⲃⲉ ⲛⲁⲉⲓ ⲉⲙⲡⲟⲩϯⲉⲣⲱⲧⲉ",
+      "i18n": {
+        "en": "A [woman] in the crowd said to him: Blessed is the womb that bore you, and the [breasts] that nourished you. He said to [her]: Blessed are those who have heard the word of the Father and have kept it in truth. For there will be days when you will say, 'Blessed is the womb that has not conceived, and the breasts that have not given milk.'"
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "naiat-native-beatitude-blessed-thomas-woh",
+        "logos-word-of-the-father-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'Blessed'.** The beatitude here is native ⲛⲉⲉⲓⲁⲧ= (normalised ⲛⲁⲓⲁⲧ=), not the Greek loan ⲙⲁⲕⲁⲣⲓⲟⲥ of 7, 18, 19, 49, 54, 58 and 103. ⲛⲁⲓⲁⲧ= is the word the Sahidic New Testament uses for μακάριος, so 'Blessed' is exact at all three occurrences. The native/loan pair is recorded in `naiat-native-beatitude-blessed-thomas-woh` and is not marked in the English.\n\n**Parallels.** The saying joins Lk 11:27-28 and Lk 23:29. Where Luke has 'the word of God', Thomas has ⲡⲗⲟⲅⲟⲥ ⲙ̄ⲡⲉⲓⲱⲧ 'the word of the Father'. This is Greek λόγος, its only occurrence in Thomas, kept distinct from native ϣⲁϫⲉ 'sayings' (see `logos-word-of-the-father-thomas-woh`). 'Kept it in truth' renders ϩⲛ̄ⲟⲩⲙⲉ literally. The central beatitudes entry governs the Sermon beatitudes and is not cited.\n\n**Brackets and source note.** 'A [woman]', 'the [breasts]' and 'to [her]' stand on partly restored tokens. In [ⲛ̄]ⲑϩⲏ only the linking ⲛ̄ is restored. It has no English word, so 'the womb' is unbracketed (see `restored-morph-without-english-word-convention-thomas-woh`). `text` has a stray colon in ⲁ:ⲡⲗⲟⲅⲟⲥ, which the normalised layer repeats (ⲉ:ⲡⲗⲟⲅⲟⲥ). It also has a scribal erasure, ⲉⲛⲧⲁϩⲥⲁ[[ϩ]]ⲛⲟⲩϣⲕ. The corpus notes the rasura, but the source file's sigla note does not list [[ ]] (the same siglum appears at THOM-63 and 107). Neither affects the English.",
+        "community": []
+      }
+    },
+    {
+      "n": 80,
+      "refId": "THOM-80",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲡⲉⲛⲧⲁϩⲥⲟⲩⲱⲛⲡⲕⲟⲥⲙⲟⲥ ⲁϥϩⲉ ⲉⲡⲥⲱⲙⲁ ⲡⲉⲛⲧⲁϩϩⲉ ⲇⲉ ⲉⲡⲥⲱⲙⲁ ⲡⲕⲟⲥⲙⲟⲥ ⲙ̄ⲡϣⲁ ⲙ̄ⲙⲟϥ⳿ ⲁⲛ⳿",
+      "i18n": {
+        "en": "Jesus said: Whoever has come to know the world has found the body; and whoever has found the body, the world is not worthy of him."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "kosmos-world-kah-earth-thomas-woh",
+        "pneuma-sarx-soma-spirit-flesh-body-thomas-woh",
+        "ptoma-corpse-thomas-woh",
+        "axios-mpsha-worthy-thomas-woh"
+      ],
+      "notes": {
+        "official": "Doublet of logion 56. Where 56 has ⲡⲧⲱⲙⲁ 'corpse', 80 has ⲥⲱⲙⲁ 'body', with the definite article: 'the body' (ⲉⲡⲥⲱⲙⲁ, twice). The English keeps both differences ('a corpse' at 56, 'the body' here) and does not harmonise the doublets (see `ptoma-corpse-thomas-woh` and `pneuma-sarx-soma-spirit-flesh-body-thomas-woh`). 'The world is not worthy of him' (ⲙ̄ⲡϣⲁ) is the formula of 56 and 111 (see `axios-mpsha-worthy-thomas-woh`).\n\n**Source note.** Diplomatic ⲡⲉⲛⲧⲁϩ- is the Lycopolitan perfect relative. The lemma aid's normalisation of the second verb, ⲡⲉⲛⲧⲁϩⲙϩⲉ, contains a stray ⲙ (a typo in the aid); the sense is 'whoever has found'.",
+        "community": []
+      }
+    },
+    {
+      "n": 81,
+      "refId": "THOM-81",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲡⲉⲛⲧⲁϩⲣ̄ⲣⲙ̄ⲙⲁⲟ ⲙⲁⲣⲉϥⲣ̄ⲣⲣⲟ ⲁⲩⲱ ⲡⲉⲧⲉⲩⲛ̄ⲧⲁϥ⳿ ⲛ̄ⲟⲩⲇⲩⲛⲁⲙⲓⲥ ⲙⲁⲣⲉϥⲁⲣⲛⲁ",
+      "i18n": {
+        "en": "Jesus said: Whoever has become rich, let him reign; and whoever has power, let him renounce."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "ptirf-the-all-reign-over-the-all-thomas-woh",
+        "arna-renounce-dynamis-power-thomas-woh"
+      ],
+      "notes": {
+        "official": "ⲁⲣⲛⲁ is Greek ἀρνέομαι 'deny, refuse, renounce'. It is absolute here and takes 'the world' at 110, which repeats the shape of this saying. 'Renounce' is used at both so that the pair stays visible (see `arna-renounce-dynamis-power-thomas-woh`). The line supplies no object at 81, because the Coptic leaves open what the powerful one is to renounce. ⲣ̄ⲣⲣⲟ is 'reign', as at 2 (`ptirf-the-all-reign-over-the-all-thomas-woh`). ⲇⲩⲛⲁⲙⲓⲥ is 'power', the loan of 'great power' at 21 and 85. The two jussives can be read as a paradox or as a sequence; the English keeps the parallel form without choosing.",
+        "community": []
+      }
+    },
+    {
+      "n": 82,
+      "refId": "THOM-82",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲡⲉⲧϩⲏⲛ ⲉⲣⲟⲉⲓ ⲉϥϩⲏⲛ ⲉⲧⲥⲁⲧⲉ ⲁⲩⲱ ⲡⲉⲧⲟⲩⲏⲩ⳿ ⲙ̄ⲙⲟⲉⲓ ϥⲟⲩⲏⲩ ⲛ̄ⲧⲙⲛ̄ⲧⲉⲣⲟ",
+      "i18n": {
+        "en": "Jesus said: Whoever is near me is near the fire, and whoever is far from me is far from the kingdom."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "focalising-conversion-cleft-convention-thomas-woh"
+      ],
+      "notes": {
+        "official": "The saying has no canonical parallel, but it circulated outside Thomas: Origen quotes it (Homilies on Jeremiah 20.3). The corpus tags ⲉϥϩⲏⲛ ⲉⲧⲥⲁⲧⲉ as a focalising form ('it is the fire that he is near'). The form is identical to the circumstantial, however, and the parallel clause uses the plain present ϥⲟⲩⲏⲩ. The English therefore renders both clauses alike, without a cleft (see `focalising-conversion-cleft-convention-thomas-woh`). 'The kingdom' follows `mntero-the-kingdom-thomas-woh`.",
+        "community": []
+      }
+    },
+    {
+      "n": 83,
+      "refId": "THOM-83",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲛϩⲓⲕⲱⲛ ⲥⲉⲟⲩⲟⲛϩ ⲉⲃⲟⲗ ⲙ̄ⲡⲣⲱⲙⲉ ⲁⲩⲱ ⲡⲟⲩⲟⲉⲓⲛ ⲉⲧⲛ̄ϩⲏⲧⲟⲩ ϥϩⲏⲡ⳿ ϩⲛ̄ⲑⲓⲕⲱⲛ ⲙ̄ⲡⲟⲩⲟⲉⲓⲛ ⲙ̄ⲡⲉⲓⲱⲧ ϥⲛⲁϭⲱⲗⲡ⳿ ⲉⲃⲟⲗ ⲁⲩⲱ ⲧⲉϥϩⲓⲕⲱⲛ ϩⲏⲡ⳿ ⲉⲃⲟⲗ ϩⲓⲧⲛ̄ⲡⲉϥ̂ⲟⲩⲟⲉⲓⲛ",
+      "i18n": {
+        "en": "Jesus said: The images are manifest to man, and the light that is in them is hidden in the image of the light of the Father. He will be revealed, and his image is hidden by his light."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "shaje-ethep-hidden-sayings-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "rome-man-human-person-thomas-woh",
+        "ouoein-light-man-of-light-thomas-woh",
+        "eikon-image-thomas-woh",
+        "ouonh-ebol-bolp-ebol-manifest-revealed-appear-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'He will be revealed'.** The subject of ϥⲛⲁϭⲱⲗⲡ ⲉⲃⲟⲗ is masculine singular. It can resume 'the Father', the nearest antecedent, or 'the light', since ⲟⲩⲟⲉⲓⲛ is masculine, and 'his image … his light' inherit the same ambiguity. The English reads 'He', the Father. 'It will be revealed, and its image is hidden by its light' is equally grammatical. This follows the ruling at THOM-24 (see `ouoein-light-man-of-light-thomas-woh`).\n\n**Concordance.** ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ 'be manifest' (83, 84; 'made manifest' at 5) and ϭⲱⲗⲡ ⲉⲃⲟⲗ 'be revealed' (83; 'revealed' at 5) are kept apart (see `ouonh-ebol-bolp-ebol-manifest-revealed-appear-thomas-woh`). ϩⲏⲡ is 'hidden', as everywhere (`shaje-ethep-hidden-sayings-thomas-woh`). ϩⲓⲕⲱⲛ is 'image(s)' (`eikon-image-thomas-woh`), and ⲙ̄ⲡⲣⲱⲙⲉ is generic 'to man'. The image sayings 83-84 are usually read against Gen 1:26-27, where humanity is made 'in the image' (LXX κατ᾽ εἰκόνα).",
+        "community": []
+      }
+    },
+    {
+      "n": 84,
+      "refId": "THOM-84",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ⲛ̄ϩⲟⲟⲩ ⲉⲧⲉⲧⲛ̄ⲛⲁⲩ ⲉⲡⲉⲧⲛ̄ⲉⲓⲛⲉ ϣⲁⲣⲉⲧⲛ̄ⲣⲁϣⲉ ϩⲟⲧⲁⲛ ⲇⲉ ⲉⲧⲉⲧⲛ̄ϣⲁⲛⲛⲁⲩ · ⲁⲛⲉⲧⲛ̄ϩⲓⲕⲱⲛ⳿ ⲛ̄ⲧⲁϩϣⲱⲡⲉ ϩⲓⲧⲉⲧⲛⲉϩⲏ ⲟⲩⲧⲉ ⲙⲁⲩⲙⲟⲩ ⲟⲩⲧⲉ ⲙⲁⲩⲟⲩⲱⲛϩ ⲉⲃⲟⲗ ⲧⲉⲧⲛⲁϥⲓ ϩⲁⲟⲩⲏⲣ⳿",
+      "i18n": {
+        "en": "Jesus said: In the days when you see your likeness, you rejoice. But when you see your images that came into being before you, which neither die nor become manifest, how much you will bear!"
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "eikon-image-thomas-woh",
+        "ouonh-ebol-bolp-ebol-manifest-revealed-appear-thomas-woh",
+        "logion-84-likeness-images-and-bearing-thomas-woh"
+      ],
+      "notes": {
+        "official": "Native ⲉⲓⲛⲉ 'likeness' and Greek ϩⲓⲕⲱⲛ 'images' stand in the same saying, and the English keeps them distinct. One is the likeness the hearers see, as in a mirror; the others are the images that 'came into being before you' (see `logion-84-likeness-images-and-bearing-thomas-woh` and `eikon-image-thomas-woh`). ϩⲓⲧⲉⲧⲛⲉϩⲏ is 'before you', read temporally because the images precede the hearers; 'in front of you' is also possible. ⲧⲉⲧⲛⲁϥⲓ ϩⲁⲟⲩⲏⲣ is taken as an exclamation, 'how much you will bear!'. A question is possible, and Lambdin's 'will have to bear' makes the burden explicit. 'Become manifest' renders ⲟⲩⲱⲛϩ ⲉⲃⲟⲗ, as at 83. 'In the days when you see' matches 'In the days when you ate' at 11.\n\n**Source note.** Diplomatic ⲁⲛⲉⲧⲛ̄ϩⲓⲕⲱⲛ has Lycopolitan ⲁ- for the preposition ⲉ- (normalised ⲉⲛⲉⲧⲛ̄ϩⲓⲕⲱⲛ). Diplomatic ⲙⲁⲩⲙⲟⲩ and ⲙⲁⲩⲟⲩⲱⲛϩ are normalised to the habitual negative ⲙⲉⲩ-. The English follows the normalised reading.",
+        "community": []
+      }
+    },
+    {
+      "n": 85,
+      "refId": "THOM-85",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲛ̄ⲧⲁⲁⲇⲁⲙ ϣⲱⲡⲉ ⲉⲃⲟⲗ ϩⲛ̄ⲛⲟⲩⲛⲟϭ ⲛ̄ⲇⲩⲛⲁⲙⲓⲥ ⲙⲛ̄ⲟⲩⲛⲟϭ̣ ⲙ̣̄ⲙⲛ̄ⲧⲣⲙ̄ⲙⲁⲟ ⲁⲩⲱ ⲙ̄ⲡⲉϥϣⲱⲡⲉ ⲉ̣[ϥⲙ]ⲡ̣ϣ ⲙ̄ⲙⲱⲧⲛ̄ ⲛⲉⲩⲁⲝⲓⲟⲥ ⲅⲁⲣ ⲡⲉ [ⲛⲉϥⲛⲁϫⲓ]ϯ̣ⲡ̣[ⲉ ϯ̣ⲡ̣[ⲉ ⲁⲛ ⲙ̄ⲡⲙⲟⲩ",
+      "i18n": {
+        "en": "Jesus said: It is from a great power and a great wealth that Adam came into being, and he did not become [worthy] of you. For had he been worthy, [he would] not [have tasted] death."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "jitpe-mpmou-taste-death-thomas-woh",
+        "focalising-conversion-cleft-convention-thomas-woh",
+        "arna-renounce-dynamis-power-thomas-woh",
+        "axios-mpsha-worthy-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'Taste death' with a counterfactual tense.** ⲛⲉⲩⲁⲝⲓⲟⲥ ⲅⲁⲣ ⲡⲉ is an unreal condition ('for had he been worthy'), and its apodosis is the preterite future ⲛⲉϥⲛⲁϫⲓϯⲡⲉ ⲁⲛ ⲙ̄ⲡⲙⲟⲩ. The idiom of logion 1 is kept ('taste death', not 'die' or 'experience death'), and the tense follows the Coptic: 'he would not have tasted death'. 'Will not taste death' would mistranslate the tense (see the scope note of `jitpe-mpmou-taste-death-thomas-woh`).\n\n**Brackets.** [ⲛⲉϥⲛⲁϫⲓ]ϯ̣ⲡ̣[ⲉ restores the preterite, the subject, the future auxiliary and part of the verb, while 'not' stands on the extant ⲁⲛ. Hence '[he would] not [have tasted] death', with the brackets split around the extant word as at THOM-64. ⲉ̣[ϥⲙ]ⲡ̣ϣ gives '[worthy]'.\n\n**Cleft and vocabulary.** ⲛ̄ⲧⲁⲁⲇⲁⲙ ϣⲱⲡⲉ is a focalising second perfect, so the source of Adam's coming into being is in focus: 'It is from a great power and a great wealth that Adam came into being'. The draft's fronted order is changed (see `focalising-conversion-cleft-convention-thomas-woh`). ⲇⲩⲛⲁⲙⲓⲥ is 'power', as at 21 and 81 (`arna-renounce-dynamis-power-thomas-woh`), and ⲙⲛ̄ⲧⲣⲙ̄ⲙⲁⲟ is 'wealth', as at 29. Loan ⲁⲝⲓⲟⲥ and native ⲙ̄ⲡϣⲁ are both 'worthy' (`axios-mpsha-worthy-thomas-woh`). ⲙ̄ⲙⲱⲧⲛ̄ is plural: 'of you'.\n\n**Source note.** `text` repeats the partly restored word (ϯ̣ⲡ̣[ⲉ ϯ̣ⲡ̣[ⲉ), with four opening brackets against two closing ones, and the normalised layer likewise reads ⲛⲉϥⲛⲁϫⲓϯⲡⲉ ϯⲡⲉ. The token layer has the word once (ϫⲓ ⲧ-ⲉⲓⲡⲉ), so the repetition looks like an encoding error. The English reads the word once.",
+        "community": []
+      }
+    },
+    {
+      "n": 86,
+      "refId": "THOM-86",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉ̣[ⲛ̄ⲃⲁϣⲟⲣ ⲟⲩⲛ̄ⲧ]ⲁ̣ⲩ̣ ̣ⲛ̣ⲟ̣ⲩ̣[ⲃⲏ]ⲃ̣ ̣ⲁ̣ⲩ̣ⲱ̣ ⲛϩⲁⲗⲁⲧⲉ ⲟⲩⲛ̄ⲧⲁⲩ ⲙⲙⲁⲩ ⲙ̄ⲡ̣[̣ⲉ]ⲩⲙⲁϩ ⲡϣⲏⲣⲉ ⲇⲉ ⲙ̄ⲡⲣⲱⲙⲉ ⲙⲛ̄ⲧⲁϥ⳿ ⲛⲛ̣[ⲟ]ⲩⲙⲁ ⲉⲣⲓⲕⲉ ⲛ̄ⲧⲉϥ⳿ⲁⲡⲉ ⲛ̄ϥ⳿ⲙ̄ⲧⲟⲛ · ⲙ̄[ⲙⲟ]ϥ̣",
+      "i18n": {
+        "en": "Jesus said: [The foxes have] their [holes], and the birds have [their] nest. But the Son of Man does not have [a] place to lay his head and rest."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "son-of-man-bar-enash-dan-7-13-mt-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "topos-ma-place-thomas-woh",
+        "kim-anapausis-mton-movement-repose-rest-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'The Son of Man'.** ⲡϣⲏⲣⲉ ⲙ̄ⲡⲣⲱⲙⲉ occurs only here in Thomas. It is rendered 'the Son of Man' under the central convention `son-of-man-bar-enash-dan-7-13-mt-cross-corpus`, which keeps the conventional capital without pre-resolving the debate. The capital follows that convention and is not a ruling on Thomas. In this saying (Mt 8:20 / Lk 9:58) the phrase is often read as a self-reference or as 'a human being', in contrast with the foxes and birds, and several translations print it in lower case. The plural ⲛ̄ϣⲏⲣⲉ ⲙ̄ⲡⲣⲱⲙⲉ at 106 is not a title and is printed 'sons of man'.\n\n**Thomas's form.** Thomas adds 'and rest' (ⲛ̄ϥⲙ̄ⲧⲟⲛ ⲙ̄ⲙⲟϥ). This is native ⲙ̄ⲧⲟⲛ, rendered 'rest' as at 61 and kept apart from Greek ⲁⲛⲁⲡⲁⲩⲥⲓⲥ 'repose' (see `kim-anapausis-mton-movement-repose-rest-thomas-woh`). ⲣⲓⲕⲉ is literally 'incline', and 'lay' is the English idiom. ⲙⲁ is 'place' (`topos-ma-place-thomas-woh`).\n\n**Brackets and source note.** '[The foxes have] their [holes]', '[their] nest' and '[a] place' stand on restored letters. The plural possessive article ⲛⲟⲩ- ('their') before 'holes' is extant, with underdots. The reflexive object ⲙ̄[ⲙⲟ]ϥ has no English word and is unbracketed (see `restored-morph-without-english-word-convention-thomas-woh`). `text` has three combining dots below that sit on a space or a bracket rather than on a letter (before ⲛ̣ⲟ̣ⲩ̣ and ⲁ̣ⲩ̣ⲱ̣, and in ⲙ̄ⲡ̣[̣ⲉ]). They look like misplaced uncertainty marks and do not affect the reading.",
+        "community": []
+      }
+    },
+    {
+      "n": 87,
+      "refId": "THOM-87",
+      "text": "ⲡⲉϫⲁϥ ⲛ̄ϭⲓⲓ︤ⲥ︥ ϫⲉⲟⲩⲧⲁⲗⲁⲓⲡⲱⲣⲟⲛ⳿ ⲡⲉ̣ ⲡⲥⲱⲙⲁ ⲉⲧⲁϣⲉ ⲛ̄ⲟⲩⲥⲱⲙⲁ⳿ ⲁⲩⲱ ⲟⲩⲧ̣ⲁ̣ⲗ̣ⲁⲓⲡⲱⲣⲟⲥ ⲧⲉ ⲧ̂ⲯⲩⲭⲏ ⲉⲧⲁϣⲉ ⲛ̄ⲛⲁⲉⲓ ⲙ̣ⲡ̣ⲥⲛⲁⲩ",
+      "i18n": {
+        "en": "Jesus said: Wretched is the body that depends on a body, and wretched is the soul that depends on these two."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "pneuma-sarx-soma-spirit-flesh-body-thomas-woh",
+        "psyche-soul-thomas-woh",
+        "ashe-depend-talaiporos-wretched-ouoei-woe-thomas-woh"
+      ],
+      "notes": {
+        "official": "Paired with 112. ⲁϣⲉ (stative ⲟϣⲉ) is 'hang', and with ⲛ̄- 'hang on, depend on'. 'Depends on' is used here and at 112 (see `ashe-depend-talaiporos-wretched-ouoei-woe-thomas-woh`). ⲧⲁⲗⲁⲓⲡⲱⲣⲟⲛ / ⲧⲁⲗⲁⲓⲡⲱⲣⲟⲥ (ταλαίπωρος, the word of Rom 7:24) is 'wretched'; native ⲟⲩⲟⲉⲓ at 112 is 'woe'. ⲥⲱⲙⲁ 'body' and ⲯⲩⲭⲏ 'soul' follow the existing entries. 'A body that depends on a body' has been read as a body that lives by eating other bodies, and as the body's dependence on the physical world; the English leaves it as written.",
+        "community": []
+      }
+    },
+    {
+      "n": 88,
+      "refId": "THOM-88",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲛ̄ⲁⲅⲅⲉⲗⲟⲥ ⲛⲏⲩ ϣⲁⲣⲱⲧⲛ̄ ⲙⲛ̄ⲛ̄ⲡⲣⲟⲫⲏⲧⲏⲥ ⲁⲩⲱ ⲥⲉⲛⲁϯ ⲛⲏⲧⲛ̄ ⲛ̄ⲛⲉⲧⲉⲩⲛ̄ⲧⲏⲧⲛ̄ⲥⲉ ⲁⲩⲱ ⲛ̄ⲧⲱⲧⲛ̄ ϩⲱⲧ̂ⲧⲏⲩⲧⲛ̄ ⲛⲉⲧⲛ̄ⲧⲟⲧ⳿ⲧⲏⲛⲉ ⲧⲁⲁⲩ ⲛⲁⲩ ⲛ̄ⲧⲉⲧⲛ̄ϫⲟⲟⲥ ⲛⲏⲧⲛ̄ ϫⲉⲁϣ ⲛ̄ϩⲟⲟⲩ ⲡⲉⲧⲟⲩⲛ̄ⲛⲏⲩ ⲛ̄ⲥⲉϫⲓⲡⲉⲧⲉⲡⲱⲟⲩ",
+      "i18n": {
+        "en": "Jesus said: The angels and the prophets are coming to you, and they will give you what is yours. And you too, give them what is in your hands, and say to yourselves, 'On what day will they come and take what is theirs?'"
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "angelos-angels-and-prophets-logion-88-thomas-woh",
+        "woh-reading-logion-88-angels-and-prophets-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'Angels'.** ⲁⲅⲅⲉⲗⲟⲥ is rendered 'angels', as in 'a righteous angel' at 13 (see `angelos-angels-and-prophets-logion-88-thomas-woh`). The Greek word also means 'messenger', and because they are paired with 'prophets' who come to the hearers, some commentators think of human envoys. The line keeps the established rendering. The program's Hebrew convention 'messenger' for malʾāḵ belongs to another source word and is not carried into this Greek loan.\n\n**Wording.** ⲛⲉⲧⲉⲩⲛ̄ⲧⲏⲧⲛ̄ⲥⲉ is 'what is yours' (literally 'the things you have'), ⲛⲉⲧⲛ̄ⲧⲟⲧⲧⲏⲛⲉ is 'what is in your hands', and ϫⲟⲟⲥ ⲛⲏⲧⲛ̄ is 'say to yourselves'. The saying has no canonical parallel. Mainstream commentary reads it either as eschatological messengers who bring the hearers what belongs to them or as travelling envoys whom the community receives and provides for. The closing question is the hearers' expectation of their return.\n\n**Wheel of Heaven reading (interpretive; not part of the translation).** A Wheel of Heaven reader will notice that Thomas pairs ⲁⲅⲅⲉⲗⲟⲥ with prophets as visitors who come, give, and will come again to take what is theirs. This can be read alongside the canon's account of messengers sent by the Elohim and of the prophets they instructed. The saying does not say who sends them or where they come from, and the English keeps 'angels'. See `woh-reading-logion-88-angels-and-prophets-thomas-woh` (speculative).",
+        "community": []
+      }
+    },
+    {
+      "n": 89,
+      "refId": "THOM-89",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲉⲧⲃⲉⲟⲩ ⲧⲉⲧⲛ̄ⲉⲓⲱⲉ ⲙ̄ⲡⲥⲁ ⲛⲃⲟⲗ ⲙ̄ⲡⲡⲟⲧⲏⲣⲓⲟⲛ ⲧⲉⲧⲛ̄ⲣ̄ⲛⲟⲉⲓ ⲁⲛ ϫⲉⲡⲉⲛⲧⲁϩⲧⲁⲙⲓⲟ ⲙ̄ⲡⲥⲁ ⲛϩⲟⲩⲛ ⲛ̄ⲧⲟϥ ⲟⲛ ⲡⲉⲛⲧⲁϥⲧⲁⲙⲓⲟ ⲙ̄ⲡⲥⲁ ⲛⲃⲟⲗ ·",
+      "i18n": {
+        "en": "Jesus said: Why do you wash the outside of the cup? Do you not understand that the one who made the inside is also the one who made the outside?"
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "tamio-made-logion-89-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare Lk 11:39-40 and Mt 23:25-26. ⲧⲁⲙⲓⲟ 'make, create' is rendered 'made', as Luke's ὁ ποιήσας is. 'Created' would add a theological weight that the household image does not need (see `tamio-made-logion-89-thomas-woh`). 'The outside … the inside' (ⲡⲥⲁ ⲛⲃⲟⲗ / ⲡⲥⲁ ⲛϩⲟⲩⲛ) is the pair of logion 22. Thomas has no woe and no Pharisees here; the question is put to the hearers.",
+        "community": []
+      }
+    },
+    {
+      "n": 90,
+      "refId": "THOM-90",
+      "text": "ⲡⲉϫⲉⲓⲏ︤ⲥ︥ ϫⲉⲁⲙⲏⲉⲓⲧⲛ̄ ϣⲁⲣⲟⲉⲓ̂ ϫⲉⲟⲩⲭⲣⲏⲥⲧⲟⲥ ⲡⲉ ⲡⲁⲛⲁϩⲃ ⲁⲩⲱ ⲧⲁⲙⲛ︤ⲧ︥ϫⲟⲉⲓⲥ ⲟⲩⲣⲙ̄ⲣⲁϣ ⲧⲉ ⲁⲩⲱ ⲧⲉⲧⲛⲁϩⲉ ⲁⲛⲁ{ⲩ}ⲡⲁ⟨ⲩ⟩ⲥⲓⲥ ⲛⲏⲧⲛ̄",
+      "i18n": {
+        "en": "Jesus said: Come to me, for my yoke is easy and my lordship is gentle, and you will find repose for yourselves."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "hmhal-slave-joeis-master-lord-thomas-woh",
+        "kim-anapausis-mton-movement-repose-rest-thomas-woh",
+        "logion-90-chrestos-easy-yoke-and-lordship-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'Repose'.** ⲁⲛⲁ{ⲩ}ⲡⲁ⟨ⲩ⟩ⲥⲓⲥ is the Greek loan ἀνάπαυσις, which the program renders 'repose' (50, 51, 60), keeping native ⲙ̄ⲧⲟⲛ 'rest' (61, 86) distinct (see `kim-anapausis-mton-movement-repose-rest-thomas-woh`). The draft's 'rest' is changed. This is a deliberate difference from 'rest' in Mt 11:28-29, where the same Greek noun stands. The scribe's metathesis (ⲁⲛⲁⲩⲡⲁⲥⲓⲥ) is corrected in the source with { } and ⟨ ⟩ and is rendered silently. The normalised layer reads ⲉⲟⲩⲁⲛⲁⲡⲁⲩⲥⲓⲥ, supplying a preposition and article that the diplomatic text does not mark; the English is unaffected.\n\n**Yoke and lordship.** ⲭⲣⲏⲥⲧⲟⲥ (χρηστός) means 'good, kind'; of a yoke it is 'easy', its standard sense in Mt 11:30, and 'easy' is kept. The same adjective is the source's restoration at 65, '[good]' of a man; the noun it qualifies decides the English. ⲧⲁⲙⲛ̄ⲧϫⲟⲉⲓⲥ is 'my lordship' (the abstract of ϫⲟⲉⲓⲥ, where Matthew has 'my burden'), and ⲣⲙ̄ⲣⲁϣ is 'gentle' (see `logion-90-chrestos-easy-yoke-and-lordship-thomas-woh` and `hmhal-slave-joeis-master-lord-thomas-woh`). The spelling ⲓⲏ︤ⲥ︥ is expanded silently.",
+        "community": []
+      }
+    },
+    {
+      "n": 91,
+      "refId": "THOM-91",
+      "text": "ⲡⲉϫⲁⲩ ⲛⲁϥ⳿ ϫⲉϫⲟⲟⲥ ⲉⲣⲟⲛ ϫⲉⲛ̄ⲧⲕⲛⲓⲙ ϣⲓⲛⲁ ⲉⲛⲁⲣ̄ⲡⲓⲥⲧⲉⲩⲉ ⲉⲣⲟⲕ⳿ ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲧⲉⲧⲛ̄ⲣ̄ⲡⲓⲣⲁⲍⲉ ⲙ̄ⲡϩⲟ ⲛ̄ⲧⲡⲉ ⲙⲛ̄ⲡⲕⲁϩ ⲁⲩⲱ ⲡⲉⲧⲛ̄ⲡⲉⲧⲛ̄ⲙⲧⲟ ⲉⲃⲟⲗ⳿ ⲙ̄ⲡⲉⲧⲛ̄ⲥⲟⲩⲱⲛϥ⳿ ⲁⲩⲱ ⲡⲉⲉⲓⲕⲁⲓⲣⲟⲥ ⲧⲉⲧⲛ̄ⲥⲟⲟⲩⲛ ⲁⲛ ⲛ̄ⲣ̄ⲡⲓⲣⲁⲍⲉ ⲙ̄ⲙⲟϥ⳿",
+      "i18n": {
+        "en": "They said to him: Tell us who you are, so that we may believe in you. He said to them: You test the face of the sky and the earth, and the one who is in your presence you have not known, and this moment you do not know how to test it."
+      },
+      "glossaryRefs": [
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "tpe-sky-heaven-context-rule-thomas-woh",
+        "kosmos-world-kah-earth-thomas-woh",
+        "logion-91-test-the-face-of-the-sky-and-kairos-thomas-woh"
+      ],
+      "notes": {
+        "official": "ⲡϩⲟ ⲛ̄ⲧⲡⲉ ⲙⲛ̄ⲡⲕⲁϩ is a weather-reading image (Lk 12:54-56), so ⲧⲡⲉ is 'the sky' under the context rule, as at 3, 9 and 20, and ⲕⲁϩ is 'the earth' (see `tpe-sky-heaven-context-rule-thomas-woh`). ⲣ̄ⲡⲓⲣⲁⲍⲉ (πειράζω) is 'test' at both occurrences, literally; Luke has δοκιμάζω 'interpret'. ⲕⲁⲓⲣⲟⲥ is 'this moment' (see `logion-91-test-the-face-of-the-sky-and-kairos-thomas-woh`). 'The one who is in your presence' repeats the construction of 52. The disciples' request recalls Jn 8:25 ('Who are you?'). The Coptic names no speaker for the reply ('He said to them').\n\n**Source note.** Diplomatic ϣⲓⲛⲁ, ⲉⲛⲁⲣ̄- and ⲡⲓⲣⲁⲍⲉ are normalised to ϩⲓⲛⲁ, ⲉⲛⲛⲁⲣ- and ⲡⲉⲓⲣⲁⲍⲉ (the corpus notes the optative or second future in the purpose clause). The sense is unchanged.",
+        "community": []
+      }
+    },
+    {
+      "n": 92,
+      "refId": "THOM-92",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉϣⲓⲛⲉ ⲁⲩⲱ ⲧⲉⲧⲛⲁϭⲓⲛⲉ ⲁⲗⲗⲁ ⲛⲉⲧⲁⲧⲉⲧⲛ̄ϫⲛⲟⲩⲉⲓ ⲉⲣⲟⲟⲩ ⲛ̄ⲛⲓϩⲟⲟⲩ ⲉⲙ̄ⲡⲓϫⲟⲟⲩ ⲛⲏⲧⲛ̄ ⲙ̄ⲫⲟⲟⲩ ⲉⲧⲙ̄ⲙⲁⲩ ⲧⲉⲛⲟⲩ ⲉϩⲛⲁⲓ̈ ⲉϫⲟⲟⲩ ⲁⲩⲱ ⲧⲉⲧⲛ̄ϣⲓⲛⲉ ⲁⲛ⳿ ⲛ̄ⲥⲱⲟⲩ",
+      "i18n": {
+        "en": "Jesus said: Seek and you will find. But the things you asked me about in those days, and that I did not tell you on that day, now I am willing to tell them, and you do not seek them."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare Mt 7:7 / Lk 11:9 for the opening, and Jn 16:4-5 for the reproach that the disciples no longer ask. 'In those days' (ⲛ̄ⲛⲓϩⲟⲟⲩ) and 'on that day' (ⲙ̄ⲫⲟⲟⲩ ⲉⲧⲙ̄ⲙⲁⲩ) are kept apart as in the Coptic. ⲉϩⲛⲁⲓ̈ is the circumstantial of ϩⲛⲉ- 'be willing': 'now I am willing to tell them'.",
+        "community": []
+      }
+    },
+    {
+      "n": 93,
+      "refId": "THOM-93",
+      "text": "ϫⲉⲙ̄ⲡⲣ̄ϯⲡⲉⲧⲟⲩⲁⲁⲃ ⲛ̄ⲛⲟⲩϩⲟⲟⲣ⳿ ϫⲉⲕⲁⲥ ⲛⲟⲩⲛⲟϫⲟⲩ ⲉⲧⲕⲟⲡⲣⲓⲁ ⲙ̄ⲡⲣ̄ⲛⲟⲩϫⲉ ⲛⲙ̄ⲙⲁⲣⲅⲁⲣⲓⲧⲏ̣[ⲥ ⲛ̄]ⲛ̣ⲉϣⲁⲩ ϣⲓⲛⲁ ϫⲉⲛⲟⲩⲁⲁϥ · ⲛ̣ⲗ̣ⲁ̣[...]",
+      "i18n": {
+        "en": "Do not give what is holy to the dogs, lest they throw them on the dung heap. Do not throw the [pearls to] the swine, lest they make it …"
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "logion-93-holy-to-dogs-pronouns-and-gap-thomas-woh"
+      ],
+      "notes": {
+        "official": "**No speech formula.** The unit begins with the quotative ϫⲉ but has no ⲡⲉϫⲉ ⲓ︤ⲥ︥. It may continue logion 92, or the formula may have dropped out. Under the register convention none is supplied, so the English begins with the saying itself (see `logion-93-holy-to-dogs-pronouns-and-gap-thomas-woh`).\n\n**The gap.** The last clause breaks off: ϣⲓⲛⲁ ϫⲉⲛⲟⲩⲁⲁϥ · ⲛ̣ⲗ̣ⲁ̣[...]. 'Lest they make it …' prints what survives. The three uncertain letters ⲛ̣ⲗ̣ⲁ̣ are too few to translate, and the completions proposed in the editions are not printed (as at THOM-71).\n\n**Pronouns and brackets.** The pronouns are kept as written: singular 'what is holy' is followed by plural 'them' (ⲛⲟⲩⲛⲟϫⲟⲩ), and plural 'pearls' by singular 'it'. Compare Mt 7:6. ⲉⲧⲕⲟⲡⲣⲓⲁ is 'on the dung heap'. 'The [pearls to] the swine' merges two adjacent bracketed words, the last letter of ⲙⲁⲣⲅⲁⲣⲓⲧⲏ̣[ⲥ and the preposition ⲛ̄]; the draft had '[pearls] [to]' (see `restored-morph-without-english-word-convention-thomas-woh`).\n\n**Source note.** The lemma aid counts no supplied spans, although `text` has two bracket groups (a restoration and an unrestored gap).",
+        "community": []
+      }
+    },
+    {
+      "n": 94,
+      "refId": "THOM-94",
+      "text": "[ⲡⲉϫ]ⲉ̣ⲓⲥ ⲡⲉⲧϣⲓⲛⲉ ϥⲛⲁϭⲓⲛⲉ [ⲡⲉⲧⲧⲱϩⲙ ⲉ]ϩ̣ⲟⲩⲛ ⲥⲉⲛⲁⲟⲩⲱⲛ ⲛⲁϥ⳿",
+      "i18n": {
+        "en": "Jesus [said]: Whoever seeks will find; [whoever knocks], it will be opened to him."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh"
+      ],
+      "notes": {
+        "official": "The second clause rests on Dilley's restoration [ⲡⲉⲧⲧⲱϩⲙ ⲉ]ϩ̣ⲟⲩⲛ, of which only ϩ̣ⲟⲩⲛ partly survives. It is printed '[whoever knocks]': the restoration is secure from the pairing of seeking and knocking in Mt 7:8 / Lk 11:10, and the brackets show the reader how much is restored. The impersonal ⲥⲉⲛⲁⲟⲩⲱⲛ ⲛⲁϥ 'they will open to him' is rendered as a passive, 'it will be opened to him', as at Mt 7:8. 'Jesus [said]' stands on the partly restored [ⲡⲉϫ]ⲉ̣.\n\n**Source note.** The name is written ⲓⲥ without the nomen-sacrum overline in `text`. The corpus does not show whether the stroke is lost, was never written, or was dropped in encoding. The name is expanded silently, as everywhere (see `nomina-sacra-and-abbreviation-expansion-convention-thomas-woh`).",
+        "community": []
+      }
+    },
+    {
+      "n": 95,
+      "refId": "THOM-95",
+      "text": "[ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉ]ⲉ̣ϣⲱⲡⲉ ⲟⲩⲛ̄ⲧⲏⲧⲛ̄ ϩⲟⲙⲧ⳿ ⲙ̄ⲡⲣ̄ϯ ⲉⲧⲙⲏⲥⲉ ⲁⲗⲗⲁ ϯ̣ ⲙ̣[ⲙⲟϥ] ⲙ̣ⲡ̣ⲉ̣ⲧ̣[ⲉ]ⲧⲛⲁϫⲓⲧⲟⲩ ⲁⲛ ⲛ̄ⲧⲟⲟⲧϥ⳿",
+      "i18n": {
+        "en": "[Jesus said:] If you have money, do not lend at interest; rather, give [it] to the one from whom [you] will not receive them."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "homt-money-mese-interest-thomas-woh"
+      ],
+      "notes": {
+        "official": "'Give [it] to the one from whom [you] will not receive them' keeps the Coptic pronouns: singular ⲙ̣[ⲙⲟϥ] 'it' (the money) and plural ϫⲓⲧⲟⲩ 'them'. ϫⲓ … ⲛ̄ⲧⲟⲟⲧϥ is 'take from his hand', rendered 'receive from', and 'back' is not added. ϩⲟⲙⲧ is 'money', as at 63 and 64, and ϯ ⲉⲧⲙⲏⲥⲉ is 'lend at interest', the phrase that returns at the end of 109 (see `homt-money-mese-interest-thomas-woh`). Compare Lk 6:34-35 and Mt 5:42.\n\n**Brackets.** The speech formula [ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉ] is wholly restored: '[Jesus said:]'. The restored ⲉ of the relative-and-subject complex ⲡⲉⲧ[ⲉ]ⲧ- gives '[you]'.",
+        "community": []
+      }
+    },
+    {
+      "n": 96,
+      "refId": "THOM-96",
+      "text": "ⲡ̣[ⲉϫ]ⲉ̣ⲓ︤ⲥ︥ ϫⲉⲧⲙ︤ⲛ︥ⲧⲉⲣⲟ ⲙ̄ⲡⲉⲓⲱⲧ̂ ⲉⲥⲧⲛ̄ⲧⲱ[ⲛ ⲉⲩ]ⲥϩⲓⲙⲉ ⲁⲥϫⲓ ⲛ̄ⲟⲩⲕⲟⲩⲉⲓ ⲛ̄ⲥⲁⲉⲓⲣ ⲁ[ⲥϩ]ⲟ̣ⲡϥ⳿ ϩⲛ̄ⲟⲩϣⲱⲧⲉ ⲁⲥⲁⲁϥ ⲛ̄ϩⲛ̄ⲛⲟ[ϭ ⲛ]ⲛⲟⲉⲓⲕ⳿ ⲡⲉⲧⲉⲩⲙ̄ⲙⲁⲁϫⲉ ⲙ̄ⲙⲟϥ ⲙⲁ[ⲣⲉ]ϥ̣ⲥⲱⲧⲙ̄",
+      "i18n": {
+        "en": "Jesus [said]: The kingdom of the Father [is like a] woman. She took a little leaven, [she hid] it in dough, and made it into [large] loaves. Whoever has ears, [let] him hear."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "shaje-ethep-hidden-sayings-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "logion-96-leaven-parable-vocabulary-thomas-woh"
+      ],
+      "notes": {
+        "official": "This is the first of three parables of 'the kingdom of the Father' in this block (96-98); 107 and 109 have 'the kingdom' alone (see `mntero-the-kingdom-thomas-woh`). Compare Mt 13:33 / Lk 13:20-21. Thomas compares the kingdom to the woman, not to the leaven, and ends with 'large loaves'. ⲥⲁⲉⲓⲣ is 'leaven', as in matthew-woh 13:33, ϣⲱⲧⲉ is 'dough' and ⲛⲟⲉⲓⲕ 'loaves' (see `logion-96-leaven-parable-vocabulary-thomas-woh`). ϩⲱⲡ 'hide' is the root of 'hidden' in the incipit.\n\n**Brackets.** '[is like a] woman' stands on ⲉⲥⲧⲛ̄ⲧⲱ[ⲛ ⲉⲩ]ⲥϩⲓⲙⲉ, where the stative 'be like' and the article are partly restored. '[she hid] it' stands on ⲁ[ⲥϩ]ⲟ̣ⲡϥ, '[large]' on ⲛⲟ[ϭ, and '[let] him hear' on ⲙⲁ[ⲣⲉ]ϥ̣ⲥⲱⲧⲙ̄. The attributive ⲛ̄ in [ⲛ]ⲛⲟⲉⲓⲕ has no English word (see `restored-morph-without-english-word-convention-thomas-woh`). 'Jesus [said]' stands on ⲡ̣[ⲉϫ]ⲉ̣.",
+        "community": []
+      }
+    },
+    {
+      "n": 97,
+      "refId": "THOM-97",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲧⲙⲛ̄ⲧⲉⲣⲟ ⲙ̄ⲡⲉ̣[ⲓⲱⲧ ⲉⲥ]ⲧⲛ̄ⲧⲱⲛ ⲁⲩⲥϩⲓⲙⲉ ⲉⲥϥⲓ ϩⲁⲟⲩϭⲗ̣[ⲙⲉⲉⲓ] ⲉϥ⳿ⲙⲉϩ ⲛ̄ⲛⲟⲉⲓⲧ⳿ ⲉⲥⲙⲟⲟϣⲉ ϩ̣[ⲓⲧⲉ]ϩⲓⲏ · ⲉⲥⲟⲩⲏⲟⲩ ⲁⲡⲙⲁⲁϫⲉ ⲙ̄ⲡϭⲗ︦ⲙ[ⲉⲉ]ⲓ ⲟⲩⲱϭⲡ · ⲁⲡⲛⲟⲉⲓⲧ ϣⲟⲩⲟ ⲛ̄ⲥⲱⲥ̣ [ϩ]ⲓ̣ⲧⲉϩⲓⲏ ⲛⲉⲥⲥⲟⲟⲩⲛ ⲁⲛ ⲡⲉ ⲛⲉⲙ̄ⲡⲉⲥⲉⲓⲙⲉ ⲉϩⲓⲥⲉ ⲛ̄ⲧⲁⲣⲉⲥⲡⲱϩ ⲉϩⲟⲩⲛ ⲉⲡⲉⲥⲏⲉⲓ ⲁⲥⲕⲁⲡϭⲗ︦ⲙⲉⲉⲓ ⲁⲡⲉⲥⲏⲧ · ⲁⲥϩⲉ ⲉⲣⲟϥ ⲉϥ⳿ϣⲟⲩⲉⲓⲧ ·",
+      "i18n": {
+        "en": "Jesus said: The kingdom of the [Father] is like a woman carrying a [jar] full of meal. While she was walking [on the] road, still far off, the handle of the [jar] broke; the meal poured out behind her [on] the road. She did not know; she had not noticed any trouble. When she reached her house, she put the jar down and found it empty."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "hise-suffer-toil-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "logion-97-jar-of-meal-vocabulary-thomas-woh"
+      ],
+      "notes": {
+        "official": "This parable has no canonical parallel. ⲡⲙⲁⲁϫⲉ ⲙ̄ⲡϭⲗ︦ⲙ[ⲉⲉ]ⲓ is literally 'the ear of the jar', its handle. ⲙⲁⲁϫⲉ is the word for 'ear' (96) and, as a homograph, for a dry 'measure' (33). Nothing in this saying plays on the word, so the line has 'handle' and the commentary records the ear-word (see `logion-97-jar-of-meal-vocabulary-thomas-woh`).\n\n**Wording.** In ⲛⲉⲙ̄ⲡⲉⲥⲉⲓⲙⲉ ⲉϩⲓⲥⲉ, ϩⲓⲥⲉ 'labour, trouble' is 'any trouble', the mishap of the handle (Lambdin 'accident'). The same word is 'suffered' at 58 and 'toiled' at 107 (see `hise-suffer-toil-thomas-woh`). ⲉⲥⲟⲩⲏⲟⲩ is 'still far off'. ⲡⲱϩ ⲉϩⲟⲩⲛ 'reached' (her house) is the verb 'reach' of 77, and ϣⲟⲩⲉⲓⲧ is 'empty', as at 28.\n\n**Brackets.** '[Father]', '[jar]' (twice), '[on the] road' and '[on] the road' stand on restored letters. In ⲙ̄ⲡⲉ̣[ⲓⲱⲧ ⲉⲥ]ⲧⲛ̄ⲧⲱⲛ the restored ⲉⲥ- (converter and resumptive pronoun) has no English word, and 'is like' renders the extant stative. The line therefore reads 'the [Father] is like', changed from the draft's '[Father is like]' (see `restored-morph-without-english-word-convention-thomas-woh`). The contraction ϭⲗ︦ⲙⲉⲉⲓ is expanded silently. The lemma aid counts four supplied spans; `text` has five bracket groups.",
+        "community": []
+      }
+    },
+    {
+      "n": 98,
+      "refId": "THOM-98",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ⲧⲙⲛ̄ⲧⲉⲣⲟ ⲙ̄ⲡⲉⲓⲱⲧ⳿ ⲉⲥⲧⲛ̄ⲧⲱⲛ ⲉⲩⲣⲱⲙⲉ ⲉϥⲟⲩⲱϣ ⲉⲙⲟⲩⲧⲟⲩⲣⲱⲙⲉ ⲙ̄ⲙⲉⲅⲓⲥⲧⲁⲛⲟⲥ ⲁϥϣⲱⲗⲙ⳿ ⲛ̄ⲧⲥⲏϥⲉ ϩⲙ̄ⲡⲉϥⲏⲉⲓ ⲁϥϫⲟⲧⲥ︦ ⲛ̄ⲧϫⲟ ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁⲉⲓⲙⲉ ϫⲉⲧⲉϥϭⲓϫ⳿ ⲛⲁⲧⲱⲕ⳿ ⲉϩⲟⲩⲛ ⲧⲟⲧⲉ ⲁϥϩⲱⲧⲙ̄ ⲙ̄ⲡⲙⲉⲅⲓⲥⲧⲁⲛⲟⲥ",
+      "i18n": {
+        "en": "Jesus said: The kingdom of the Father is like a man who wanted to kill a great man. He drew the sword in his house and drove it into the wall, so that he might know whether his hand would hold firm. Then he killed the great man."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "rome-man-human-person-thomas-woh",
+        "logion-78-countryside-shaken-reed-and-megistanos-great-men-thomas-woh",
+        "logion-98-assassin-parable-vocabulary-thomas-woh"
+      ],
+      "notes": {
+        "official": "This parable has no canonical parallel; compare the king who counts his forces before a war (Lk 14:31-32). It is a hard saying and is kept as it stands: the kingdom is compared to a man who tests his hand before a killing. ⲙⲉⲅⲓⲥⲧⲁⲛⲟⲥ is 'a great man', as 'great men' at 78; 'a powerful man' is common in translations (see `logion-78-countryside-shaken-reed-and-megistanos-great-men-thomas-woh`). ⲧⲱⲕ ⲉϩⲟⲩⲛ is 'be firm', so 'hold firm' of a hand (Lambdin 'carry through'). Two verbs of killing, ⲙⲟⲩⲟⲩⲧ (ⲉⲙⲟⲩⲧ-) and ϩⲱⲧⲃ (written ϩⲱⲧⲙ̄), are both 'kill' (see `logion-98-assassin-parable-vocabulary-thomas-woh`). The introduction lacks the usual ϫⲉ after ⲡⲉϫⲉⲓ︤ⲥ︥; the English is unaffected. ϫⲉⲕⲁⲁⲥ ⲉϥⲛⲁⲉⲓⲙⲉ is an ordinary purpose clause and is not rendered as a cleft (`focalising-conversion-cleft-convention-thomas-woh`).",
+        "community": []
+      }
+    },
+    {
+      "n": 99,
+      "refId": "THOM-99",
+      "text": "ⲡⲉϫⲉⲙ̄ⲙⲁⲑⲏⲧⲏⲥ ⲛⲁϥ ϫⲉⲛⲉⲕⲥⲛⲏⲩ ⲙⲛ̄ⲧⲉⲕⲙⲁⲁⲩ ⲥⲉⲁϩⲉⲣⲁⲧⲟⲩ ϩⲓⲡⲥⲁ ⲛⲃⲟⲗ ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉⲛⲉⲧⲛ̄ⲛⲉⲉⲓⲙⲁ ⲉϯⲣⲉ ⲙ̄ⲡⲟⲩⲱϣ ⲙ̄ⲡⲁⲉⲓⲱⲧ⳿ ⲛⲁⲉⲓ ⲛⲉ ⲛⲁⲥⲛⲏⲩ ⲙⲛ̄ⲧⲁⲙⲁⲁⲩ ⲛ̄ⲧⲟⲟⲩ ⲡⲉ ⲉⲧⲛⲁⲃⲱⲕ⳿ ⲉϩⲟⲩⲛ ⲉⲧⲙⲛ̄ⲧⲉⲣⲟ ⲙ̄ⲡⲁⲉⲓⲱⲧ⳿",
+      "i18n": {
+        "en": "The disciples said to him: Your brothers and your mother are standing outside. He said to them: Those here who do the will of my Father, these are my brothers and my mother. It is they who will enter the kingdom of my Father."
+      },
+      "glossaryRefs": [
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "focalising-conversion-cleft-convention-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare Mk 3:31-35 and parallels. Thomas has a line the synoptics lack: 'It is they who will enter the kingdom of my Father.' ⲛ̄ⲧⲟⲟⲩ ⲡⲉ ⲉⲧⲛⲁⲃⲱⲕ is a cleft sentence in the Coptic, and the English keeps the cleft (`focalising-conversion-cleft-convention-thomas-woh`). 'My Father' is capitalised (`eiot-father-capitalisation-thomas-woh`). ⲛⲉⲧⲛ̄ⲛⲉⲉⲓⲙⲁ is 'those here'; Dilley marks a Lycopolitan feature in this saying, citing Layton 1989, p. 88.",
+        "community": []
+      }
+    },
+    {
+      "n": 100,
+      "refId": "THOM-100",
+      "text": "ⲁⲩⲧⲥⲉⲃⲉⲓ︤ⲥ︥ ⲁⲩⲛⲟⲩⲃ ⲁⲩⲱ ⲡⲉϫⲁⲩ ⲛⲁϥ⳿ ϫⲉⲛⲉⲧⲏⲡ · ⲁⲕⲁⲓⲥⲁⲣ⳿ ⲥⲉϣⲓⲧⲉ ⲙ̄ⲙⲟⲛ ⲛ̄ⲛ̄ϣⲱⲙ⳿ ⲡⲉϫⲁϥ ⲛⲁⲩ ϫⲉϯⲛⲁⲕⲁⲓⲥⲁⲣ⳿ ⲛ̄ⲕⲁⲓⲥⲁⲣ ϯⲛⲁⲡⲛⲟⲩⲧⲉ ⲙ̄ⲡⲛⲟⲩⲧⲉ ⲁⲩⲱ ⲡⲉⲧⲉⲡⲱⲉⲓ ⲡⲉ ⲙⲁⲧⲛ̄ⲛⲁⲉⲓϥ",
+      "i18n": {
+        "en": "They showed Jesus a gold coin and said to him: Those who belong to Caesar demand taxes from us. He said to them: Give the things of Caesar to Caesar, give the things of God to God, and what is mine, give it to me."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "noute-god-and-logion-100-caesar-vocabulary-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare Mk 12:13-17 and parallels.\n\n**'God'.** ⲡⲛⲟⲩⲧⲉ, singular with the article, is the only 'God' in Thomas; logion 30 has plural ⲛⲟⲩⲧⲉ 'gods'. It is rendered 'God', capitalised and without the article, as matthew-woh renders θεός (Mt 6:24) (see `noute-god-and-logion-100-caesar-vocabulary-thomas-woh`). 'The god' would make the English stranger than the Coptic, where the article is normal with this noun. 'Elohim' would import a Hebrew term the text does not contain.\n\n**Wording.** Thomas's third member, 'and what is mine, give it to me', has no synoptic counterpart and is kept as written. ⲟⲩⲛⲟⲩⲃ is literally 'a gold (piece)', hence 'a gold coin'; the synoptics have a denarius. ⲛⲉⲧⲏⲡ ⲁⲕⲁⲓⲥⲁⲣ is 'those who belong to Caesar', and ϣⲱⲙ is 'taxes'. Diplomatic ⲁⲩⲛⲟⲩⲃ has Lycopolitan ⲁ- for ⲉ- (normalised ⲉⲩⲛⲟⲩⲃ).",
+        "community": []
+      }
+    },
+    {
+      "n": 101,
+      "refId": "THOM-101",
+      "text": "ⲡⲉⲧⲁⲙⲉⲥⲧⲉⲡⲉϥⲉⲓ̣[ⲱ]ⲧ⳿ ⲁ̣ⲛ ⲙⲛ̄ⲧⲉϥ⳿ⲙⲁⲁⲩ ⲛ̄ⲧⲁϩⲉ ϥⲛⲁϣⲣ̄ⲙ̣[ⲁⲑⲏⲧ]ⲏ̣ⲥ̣ ̣ⲛ̣ⲁ̣ⲉⲓ ⲁ(ⲛ) ⲁⲩⲱ ⲡⲉⲧⲁⲙⲣ̄ⲣⲉⲡⲉ[ϥⲉⲓⲱⲧ ⲁⲛ ⲙ]ⲛ̣̄ⲧ̣ⲉϥⲙⲁⲁⲩ ⲛ̄ⲧⲁϩⲉ ϥⲛⲁϣⲣ̄ⲙ[ⲁⲑⲏⲧⲏⲥ ⲛⲁ]ⲉⲓ ⲁⲛ ⲧⲁⲙⲁⲁⲩ ⲅⲁⲣ ⲛ̄ⲧⲁⲥ̣[.........] [..]ⲟ̣ⲗ̣ [ⲧⲁⲙⲁⲁ]ⲩ ⲇⲉ ⲙ̄ⲙⲉ ⲁⲥϯ ⲛⲁⲉⲓ ⲙⲡⲱⲛϩ̣",
+      "i18n": {
+        "en": "Whoever does not hate his [father] and his mother as I do will not be able to become a [disciple] to me. And whoever does [not] love [his father and] his mother as I do will not be able to become a [disciple to me]. For my mother who … …, but [my] true [mother] gave me life."
+      },
+      "glossaryRefs": [
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "logion-101-hate-love-and-true-mother-gap-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare 55, Lk 14:26 and Mt 10:37.\n\n**No formula.** The unit opens directly with ⲡⲉⲧⲁⲙⲉⲥⲧⲉ…, and no formula is supplied (register convention, as at 27). Diplomatic ⲡⲉⲧⲁ- is the Lycopolitan future relative (normalised ⲡⲉⲧⲛⲁ-); the generic 'Whoever does not hate' follows 55, as do 'as I do' and 'become a disciple to me'.\n\n**The love clause.** The second sentence says 'whoever does [not] love', and ⲙⲣ̄ⲣⲉ- is clear in the manuscript. The paradox of hating and loving the same parents is often explained by the last sentence, which contrasts a mother who … with the 'true mother' who 'gave me life'. The English keeps both clauses as written (see `logion-101-hate-love-and-true-mother-gap-thomas-woh`).\n\n**The gap.** ⲧⲁⲙⲁⲁⲩ ⲅⲁⲣ ⲛ̄ⲧⲁⲥ̣[.........] [..]ⲟ̣ⲗ̣ is broken. It is printed 'For my mother who … …', with one '…' for each gap, and no conjecture is printed. '[my] true [mother]' brackets the restored possessive and noun on either side of the extant ⲙ̄ⲙⲉ 'true'.\n\n**Brackets and source note.** 'his [father]', 'a [disciple]', '[not]', '[his father and]' and '[disciple to me]' stand on restored letters. ⲁ(ⲛ) has a supplied letter, rendered silently. `text` has a combining dot below on a space before ⲛ̣ⲁ̣ⲉⲓ, and the lemma aid counts six supplied spans against seven bracket groups.",
+        "community": []
+      }
+    },
+    {
+      "n": 102,
+      "refId": "THOM-102",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ [ϫⲉⲟ]ⲩⲟⲉⲓ ⲛⲁⲩ ⲙ̄ⲫⲁⲣⲓⲥⲁⲓⲟⲥ ϫⲉⲉⲩⲉⲓⲛⲉ̣ [ⲛ̄ⲛ]ⲟ̣ⲩⲟⲩϩⲟⲣ ⲉϥⲛ̄ⲛⲕⲟⲧⲕ⳿ ϩⲓϫⲛ̄ⲡⲟⲩⲟⲛⲉϥ ⲛ̄ϩ̣[ⲛ̄]ⲛ̣ⲉϩⲟⲟⲩ ϫⲉⲟⲩⲧⲉ ϥⲟⲩⲱⲙ ⲁⲛ ⲟⲩⲧⲉ ϥⲕ̣[ⲱ] ⲁ̣ⲛ ⲛ̄ⲛⲉϩⲟⲟⲩ ⲉⲟⲩⲱⲙ",
+      "i18n": {
+        "en": "Jesus said: [Woe] to the Pharisees, for they are like a dog sleeping on the manger of oxen, for it neither eats nor [lets] the oxen eat."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "ashe-depend-talaiporos-wretched-ouoei-woe-thomas-woh",
+        "logion-102-dog-in-the-manger-normalised-reading-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare Mt 23:13 and Lk 11:52, and Thomas 39. The dog in the manger that neither eats nor lets the oxen eat is a Greek proverb (Lucian, Timon 14), later told among the Aesopic fables.\n\n**'Manger'.** The diplomatic text reads ⲡⲟⲩⲟⲛⲉϥ, a form for which the Editor knows no meaning. The normalised layer and the lemma aid read ⲡⲟⲩⲟⲙϥ 'manger, feeding trough', which the proverb requires. The English follows the normalised reading, as Blocks A and B did for corrections made only in normalisation. Because the line depends on reading one written form as another, the decision is labelled `inferred` (see `logion-102-dog-in-the-manger-normalised-reading-thomas-woh`).\n\n**Brackets.** '[Woe]' stands on [ϫⲉⲟ]ⲩⲟⲉⲓ and '[lets]' on ϥⲕ̣[ⲱ]. In [ⲛ̄ⲛ]ⲟ̣ⲩⲟⲩϩⲟⲣ and ϩ̣[ⲛ̄]ⲛ̣ⲉϩⲟⲟⲩ the restored letters are the preposition governed by ⲉⲓⲛⲉ and the indefinite plural article, which have no English word, so 'a dog' and 'oxen' are unbracketed (see `restored-morph-without-english-word-convention-thomas-woh`). ⲟⲩⲟⲉⲓ is 'woe', as at 112 (`ashe-depend-talaiporos-wretched-ouoei-woe-thomas-woh`), and 'the Pharisees' is as at 39.",
+        "community": []
+      }
+    },
+    {
+      "n": 103,
+      "refId": "THOM-103",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲟⲩⲙⲁ̣[ⲕⲁ]ⲣⲓⲟⲥ ⲡⲉ ⲡⲣⲱⲙⲉ ⲡⲁⲉⲓ ⲉⲧⲥⲟⲟⲩ(ⲛ) ϫⲉϩ[ⲛ̄ⲁϣ] ⲙ̣̄ⲙⲉⲣⲟⲥ ⲉⲛⲗⲏⲥⲧⲏⲥ ⲛⲏⲩ ⲉϩⲟⲩⲛ ϣⲓⲛⲁ̣ [ⲉϥ]ⲛ̣ⲁⲧⲱⲟⲩⲛ/ ⲛϥⲥⲱϩⲟⲩϩ ⲛ̄ⲧⲉϥ⳿ⲙⲛ︤ⲧ︥ⲉ̣[ⲣⲟ] ⲁⲩⲱ ⲛ̄ϥⲙⲟⲩⲣ ⲙ̄ⲙⲟϥ ⲉϫⲛ̄ⲧⲉϥ⳿ϯⲡⲉ ϩ̣[ⲁ]ⲧ̣ⲉϩⲏ ⲉⲙ⳿ⲡⲁⲧⲟⲩⲉⲓ ⲉϩⲟⲩⲛ",
+      "i18n": {
+        "en": "Jesus said: [Blessed] is the man who knows [in which] part the robbers are coming in, so that [he] may rise, gather his [domain], and gird his loins [before] they come in."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "rome-man-human-person-thomas-woh",
+        "makarios-blessed-singular-formula-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "logion-103-householder-domain-and-robbers-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'His [domain]'.** ⲛ̄ⲧⲉϥⲙⲛ︤ⲧ︥ⲉ̣[ⲣⲟ] is the word rendered 'kingdom' elsewhere. Here, as at 21, it is the property a householder musters against robbers. The saying shares 21's ⲗⲏⲥⲧⲏⲥ 'robbers' and its ⲙⲟⲩⲣ … ⲉϫⲛ̄ ϯⲡⲉ 'gird the loins' (compare Lk 12:39 / Mt 24:43). The exception the mntero entry makes for 21 therefore applies here by its own criterion. The line reads 'gather his [domain]', changed from the draft's '[kingdom]', as the standard English translation (Lambdin) reads 'domain' at both places. The identity of the word with 'the kingdom' is recorded here so that the reader can follow it. The decision is `inferred`, because it rests on a judgement about the image, and is escalated for review (see `logion-103-householder-domain-and-robbers-thomas-woh` and the scope note of `mntero-the-kingdom-thomas-woh`).\n\n**Wording.** ϩ[ⲛ̄ⲁϣ] ⲙ̣̄ⲙⲉⲣⲟⲥ is '[in which] part'. The text does not say part of what: the night, as Matthew's 'watch' would suggest, or the house. ⲥⲱⲟⲩϩ is 'gather'. '[Blessed] is the man' uses the loan ⲙⲁⲕⲁⲣⲓⲟⲥ (`makarios-blessed-singular-formula-thomas-woh`). The saying is not a synoptic beatitude, so the central beatitudes entry is not cited.\n\n**Brackets and source note.** 'so that [he] may rise' brackets only the restored subject, since the future auxiliary ⲛ̣ⲁ is extant; the draft had '[he may]' (see `restored-morph-without-english-word-convention-thomas-woh`). '[before]' stands on ϩ̣[ⲁ]ⲧ̣ⲉϩⲏ. `text` has a stray '/' after ⲧⲱⲟⲩⲛ, which also appears in the normalised layer and the lemma. It probably belongs to the source's \\b…/ notation for superscript letters (compare THOM-76), with the opening marker lost. The diplomatic ⲥⲱϩⲟⲩϩ carries a rasura that the corpus notes but `text` does not mark (normalised ⲥⲱⲟⲩϩ). ⲥⲟⲟⲩ(ⲛ) has a supplied letter, rendered silently. The lemma aid counts seven supplied spans against five bracket groups and one ( ).",
+        "community": []
+      }
+    },
+    {
+      "n": 104,
+      "refId": "THOM-104",
+      "text": "ⲡⲉϫⲁⲩ ⲛ̣[ⲓ︤]ⲥ︥ ϫⲉⲁⲙⲟⲩ ⲛ̄ⲧⲛ̄ϣⲗⲏⲗ⳿ ⲙⲡⲟⲟⲩ ⲁⲩⲱ ⲛⲧⲛ̄ⲣ̄ⲛⲏⲥⲧⲉⲩⲉ ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲟⲩ ⲅⲁⲣ⳿ ⲡⲉ ⲡⲛⲟⲃⲉ ⲛ̄ⲧⲁⲉⲓⲁⲁϥ⳿ ⲏ ⲛ̄ⲧⲁⲩϫⲣⲟ ⲉⲣⲟⲉⲓ ϩⲛ̄ⲟⲩ ⲁⲗⲗⲁ ϩⲟⲧⲁⲛ ⲉⲣϣⲁⲛⲡⲛⲩⲙⲫⲓⲟⲥ ⲉⲓ ⲉⲃⲟⲗ ϩⲙ̄ⲡⲛⲩⲙⲫⲱⲛ ⲧⲟⲧⲉ ⲙⲁⲣⲟⲩⲛⲏ⳿ⲥⲧⲉⲩⲉ ⲁⲩⲱ ⲙⲁⲣⲟⲩϣⲗⲏⲗ ·",
+      "i18n": {
+        "en": "They said to [Jesus]: Come, let us pray today and let us fast. Jesus said: What then is the sin that I have committed, or in what have I been overcome? But when the bridegroom comes out of the bridal chamber, then let them fast and let them pray."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "ma-nsheleet-bridal-chamber-thomas-woh",
+        "nymphios-nymphon-bridegroom-bridal-chamber-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'The bridal chamber'.** Greek ⲛⲩⲙⲫⲱⲛ (νυμφών; Mk 2:19 / Mt 9:15) is 'the bridal chamber'. Logion 75 uses the native compound ⲡⲙⲁ ⲛ̄ϣⲉⲗⲉⲉⲧ for the same thing, also 'the bridal chamber' (see `ma-nsheleet-bridal-chamber-thomas-woh`). The loan/native pair is recorded in the apparatus and not split in the English, as with 'place' (ⲧⲟⲡⲟⲥ / ⲙⲁ) and 'worthy' (ⲁⲝⲓⲟⲥ / ⲙ̄ⲡϣⲁ). The two words mean the same thing, and 'the wedding hall' for one of them would suggest a difference the Coptic does not make. As at 75, the English term does not import the later Valentinian rite (see `nymphios-nymphon-bridegroom-bridal-chamber-thomas-woh`).\n\n**Wording.** Compare Mk 2:18-20. ⲛⲩⲙⲫⲓⲟⲥ is 'the bridegroom' (matthew-woh 25). ⲏ ⲛ̄ⲧⲁⲩϫⲣⲟ ⲉⲣⲟⲉⲓ ϩⲛ̄ⲟⲩ is an impersonal active ('in what have they prevailed over me'), rendered as a passive: 'in what have I been overcome?'. The order is 'pray … fast' in the request and 'fast … pray' in the reply, kept as written. 'To [Jesus]' stands on ⲛ̣[ⲓ︤]ⲥ︥.",
+        "community": []
+      }
+    },
+    {
+      "n": 105,
+      "refId": "THOM-105",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲡⲉⲧⲛⲁⲥⲟⲩⲱⲛⲡⲉⲓⲱⲧ⳿ ⲙⲛ̄ⲧⲙⲁⲁⲩ ⲥⲉⲛⲁⲙⲟⲩⲧⲉ ⲉⲣⲟϥ⳿ ϫⲉⲡϣⲏⲣⲉ ⲙ̄ⲡⲟⲣⲛⲏ",
+      "i18n": {
+        "en": "Jesus said: Whoever knows the father and the mother will be called the son of a whore."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "shere-son-child-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "logion-105-father-mother-son-of-a-whore-thomas-woh"
+      ],
+      "notes": {
+        "official": "A hard saying, kept as the manuscript has it. ⲡⲉⲓⲱⲧ ⲙⲛ̄ⲧⲙⲁⲁⲩ 'the father and the mother' is lower case. The referent is not stated: the hearer's parents, the divine Father and a heavenly Mother, or both have all been proposed. The capital is reserved for the divine Father where the context establishes it (see `eiot-father-capitalisation-thomas-woh`). ⲡϣⲏⲣⲉ ⲙ̄ⲡⲟⲣⲛⲏ is 'the son of a whore': 'son' under the filial rule (`shere-son-child-thomas-woh`), and 'whore' for πόρνη because the phrase is an insult and 'whore' keeps that register in modern English. 'Harlot' (Lambdin) is archaic and 'prostitute' clinical (see `logion-105-father-mother-son-of-a-whore-thomas-woh`). The saying is often compared with Jn 8:41 ('We were not born of fornication').",
+        "community": []
+      }
+    },
+    {
+      "n": 106,
+      "refId": "THOM-106",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉϩⲟⲧⲁⲛ ⲉⲧⲉⲧⲛ̄ϣⲁⲣ̄ⲡⲥⲛⲁⲩ ⲟⲩⲁ ⲧⲉⲧⲛⲁϣⲱⲡⲉ ⲛ̄ϣⲏⲣⲉ ⲙ̄ⲡⲣⲱⲙⲉ ⲁⲩⲱ ⲉⲧⲉⲧⲛ̄ϣⲁⲛ⳿ϫⲟⲟⲥ ϫⲉⲡⲧⲟⲟⲩ ⲡⲱⲱⲛⲉ ⲉⲃⲟⲗ · ϥⲛⲁⲡⲱⲱⲛⲉ",
+      "i18n": {
+        "en": "Jesus said: When you make the two one, you will become sons of man; and when you say, 'Mountain, move away,' it will move away."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "shere-son-child-thomas-woh",
+        "oua-ouot-a-single-one-thomas-woh",
+        "rome-man-human-person-thomas-woh",
+        "logion-106-sons-of-man-plural-thomas-woh"
+      ],
+      "notes": {
+        "official": "'Sons of man' renders ⲛ̄ϣⲏⲣⲉ ⲙ̄ⲡⲣⲱⲙⲉ: plural, without article, with the same genitive as the singular ⲡϣⲏⲣⲉ ⲙ̄ⲡⲣⲱⲙⲉ at 86. The central Son-of-Man convention governs the singular title only, so the plural is lower case, with 'sons' under the filial rule (`shere-son-child-thomas-woh`). It also differs from 28's 'the sons of men', which has plural ⲣ̄ⲣⲱⲙⲉ. Because ⲡⲣⲱⲙⲉ has the article, the phrase may point to 86 ('sons of the Man'); the English leaves that link to the reader (see `logion-106-sons-of-man-plural-thomas-woh`). 'When you make the two one' is the phrase of 22 (`oua-ouot-a-single-one-thomas-woh`). The mountain is addressed as at 48 ('Move away'); compare Mt 17:20 and Mk 11:23.",
+        "community": []
+      }
+    },
+    {
+      "n": 107,
+      "refId": "THOM-107",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲧⲙⲛ̄ⲧⲉⲣⲟ ⲉⲥⲧⲛ̄ⲧⲱ(ⲛ) ⲉⲩⲣⲱⲙⲉ ⲛ̄ϣⲱⲥ ⲉⲩⲛ̄ⲧⲁϥ⳿ ⲙ̄ⲙⲁⲩ ⲛ̄ϣⲉ ⲛ̄ⲉⲥⲟⲟⲩ ⲁⲟⲩⲁ ⲛ̄ϩⲏⲧⲟⲩ ⲥⲱⲣⲙ⳿ ⲉⲡⲛⲟϭ ⲡⲉ ⲁϥⲕⲱ ⲙ̄ⲡⲥⲧⲉⲯⲓⲧ ⲁϥϣⲓⲛⲉ ⲛ̄ⲥⲁⲡⲓⲟⲩⲁ · ϣⲁⲛⲧⲉϥϩⲉ ⲉⲣⲟϥ ⲛ̄ⲧⲁⲣⲉϥϩⲓⲥⲉ ⲡⲉϫⲁϥ⳿ ⲙ̄ⲡⲉⲥⲟ[[ⲩ]]ⲟⲩ ϫⲉϯⲟⲩⲟϣⲕ⳿ ⲡⲁⲣⲁⲡⲥⲧⲉⲯⲓⲧ⳿",
+      "i18n": {
+        "en": "Jesus said: The kingdom is like a man, a shepherd, who had a hundred sheep. One of them went astray; it was the largest. He left the ninety-nine and sought the one until he found it. Having toiled, he said to the sheep, 'I love you more than the ninety-nine.'"
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "oua-ouot-a-single-one-thomas-woh",
+        "rome-man-human-person-thomas-woh",
+        "hise-suffer-toil-thomas-woh",
+        "logion-107-shepherd-and-largest-sheep-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare Mt 18:12-14 / Lk 15:3-7. 'A man, a shepherd' keeps the Coptic apposition ⲉⲩⲣⲱⲙⲉ ⲛ̄ϣⲱⲥ, as 'a man, a merchant' at 76 (`rome-man-human-person-thomas-woh`). Only Thomas says that the lost sheep 'was the largest' (ⲉⲡⲛⲟϭ ⲡⲉ, circumstantial; normalised ⲉⲣⲉⲡⲛⲟϭ) and that the shepherd loves it 'more than the ninety-nine'; the line keeps both. ϯⲟⲩⲟϣⲕ, the stative of ⲟⲩⲱϣ 'want, love', is 'I love you'; 'I care for you' (Lambdin) and 'I want you' are also possible. ⲛ̄ⲧⲁⲣⲉϥϩⲓⲥⲉ is 'Having toiled' (see `hise-suffer-toil-thomas-woh` and `logion-107-shepherd-and-largest-sheep-thomas-woh`). The saying has 'the kingdom', not 'the kingdom of the Father'. ⲉⲥⲧⲛ̄ⲧⲱ(ⲛ) has a supplied letter and ⲡⲉⲥⲟ[[ⲩ]]ⲟⲩ a scribal erasure; both are rendered silently.",
+        "community": []
+      }
+    },
+    {
+      "n": 108,
+      "refId": "THOM-108",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲡⲉⲧⲁⲥⲱ ⲉⲃⲟⲗ ϩⲛ̄ⲧⲁⲧⲁⲡⲣⲟ ϥⲛⲁϣⲱⲡⲉ ⲛ̄ⲧⲁϩⲉ ⲁⲛⲟⲕ ϩⲱ ϯⲛⲁϣⲱⲡⲉ ⲉⲛⲧⲟϥ ⲡⲉ ⲁⲩⲱ ⲛⲉⲑⲏⲡ · ⲛⲁⲟⲩⲱⲛϩ ⲉⲣⲟϥ⳿",
+      "i18n": {
+        "en": "Jesus said: Whoever drinks from my mouth will become like me; I myself will become he, and the hidden things will appear to him."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "shaje-ethep-hidden-sayings-thomas-woh",
+        "ouonh-ebol-bolp-ebol-manifest-revealed-appear-thomas-woh",
+        "logion-108-drink-from-my-mouth-thomas-woh"
+      ],
+      "notes": {
+        "official": "ⲡⲉⲧⲁⲥⲱ ⲉⲃⲟⲗ ϩⲛ̄ⲧⲁⲧⲁⲡⲣⲟ is kept literal, 'Whoever drinks from my mouth', and is not smoothed to 'my teaching'. ⲡⲉⲧⲁ- is the Lycopolitan future relative. Compare 13 ('you have drunk … from the bubbling spring'), Jn 7:37-38 and Sir 24:21. ⲁⲛⲟⲕ ϩⲱ ϯⲛⲁϣⲱⲡⲉ ⲉⲛⲧⲟϥ ⲡⲉ ends in a circumstantial nominal sentence ('he being it'), whose closest English is 'I myself will become he' (see `logion-108-drink-from-my-mouth-thomas-woh`). ⲛⲉⲑⲏⲡ is 'the hidden things' (`shaje-ethep-hidden-sayings-thomas-woh`). ⲛⲁⲟⲩⲱⲛϩ ⲉⲣⲟϥ, ⲟⲩⲱⲛϩ with ⲉ- and without ⲉⲃⲟⲗ, is 'will appear to him', kept distinct from ϭⲱⲗⲡ 'reveal' (`ouonh-ebol-bolp-ebol-manifest-revealed-appear-thomas-woh`).",
+        "community": []
+      }
+    },
+    {
+      "n": 109,
+      "refId": "THOM-109",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲧⲙⲛ̄ⲧⲉⲣⲟ ⲉⲥⲧⲛ̄ⲧⲱⲛ ⲉⲩⲣⲱⲙⲉ ⲉⲩⲛ̄ⲧⲁϥ̣ [ⲙ]ⲙ̣ⲁⲩ ϩⲛ̄ⲧⲉϥ⳿ⲥⲱϣⲉ ⲛ̄ⲛⲟⲩⲉϩⲟ ⲉϥϩ̣ⲏ̣[ⲡ ⲉ]ϥ̣ⲟ ⲛ̄ⲁⲧⲥⲟⲟⲩⲛ⳿ ⲉⲣⲟϥ ⲁⲩⲱ ⲙ̄[ⲙⲛ̄ⲛⲥⲁ ⲧ]ⲣⲉϥⲙⲟⲩ ⲁϥⲕⲁⲁϥ ⲙ︤ⲡ︥ⲉϥ⳿[ϣⲏⲣⲉ ⲛⲉ]ⲡ̣ϣⲏⲣⲉ ⲥⲟⲟⲩⲛ ⲁⲛ⳿ ⲁϥϥⲓ⳿ⲧⲥⲱϣⲉ ⲉⲧⲙⲙⲁⲩ ⲁϥⲧⲁ̣ⲁ̣[ⲥ ⲉⲃⲟ]ⲗ̣ ̣ⲁ̣ⲩ̣ⲱ̣ ̣ⲡ̣[ⲉⲛ]ⲧⲁϩⲧⲟⲟⲩⲥ ⲁϥⲉⲓ ⲉϥⲥⲕⲁⲉⲓ ⲁ̣[ϥϩ]ⲉ ⲁⲡⲉϩⲟ ⲁϥ̣ⲁⲣⲭⲉⲓ ⲛ̄ϯϩⲟⲙⲧ⳿ ⲉⲧⲙⲏⲥⲉ ⲛ̣[ⲛⲉⲧ]ⲟⲩⲟϣⲟⲩ",
+      "i18n": {
+        "en": "Jesus said: The kingdom is like a man who had a [hidden] treasure in his field, [being] unaware of it. And [after] he died, he left it to his [son]. The son [did] not know; he took that field and [sold it]. And the one [who] bought it came plowing; [he found] the treasure, and he began to lend money at interest to [those whom] he wished."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "shaje-ethep-hidden-sayings-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "shere-son-child-thomas-woh",
+        "rome-man-human-person-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "homt-money-mese-interest-thomas-woh",
+        "logion-109-hidden-treasure-parable-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare Mt 13:44. Thomas follows the treasure through three owners and ends with the finder lending money at interest 'to those whom he wished', the practice that logion 95 forbids. The contradiction is in the text and is not softened (see `logion-109-hidden-treasure-parable-thomas-woh` and `homt-money-mese-interest-thomas-woh`). ⲉϥⲥⲕⲁⲉⲓ is 'plowing'; ⲁϩⲟ (here ⲉϩⲟ) is 'treasure', as at 76; ϩⲏⲡ is 'hidden' (`shaje-ethep-hidden-sayings-thomas-woh`). The saying has 'the kingdom', not 'the kingdom of the Father'.\n\n**Brackets.** There are eight restored spans. '[hidden]', '[being] unaware', '[after]', 'his [son]', 'The son [did] not know' (the restored preterite ⲛⲉ is what makes the verb past), '[sold it]', 'the one [who] bought it', '[he found]' and 'to [those whom]' stand on restored letters. Two brackets are narrowed from the draft so that extant letters stay outside them: the article ⲡ̣ of ⲡ̣[ⲉⲛ]ⲧⲁϩⲧⲟⲟⲩⲥ ('the one') and the preposition ⲛ̣ of ⲛ̣[ⲛⲉⲧ]ⲟⲩⲟϣⲟⲩ ('to') are extant. The restored existential [ⲙ]ⲙ̣ⲁⲩ and the causative ⲧ]ⲣⲉ- have no English word (see `restored-morph-without-english-word-convention-thomas-woh`). The contraction ⲙ︤ⲡ︥ⲉϥ is expanded silently.\n\n**Source note.** `text` has combining dots below on two spaces (before ⲁ̣ⲩ̣ⲱ̣ and before ⲡ̣[ⲉⲛ]). They look like misplaced uncertainty marks and do not affect the reading.",
+        "community": []
+      }
+    },
+    {
+      "n": 110,
+      "refId": "THOM-110",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲡⲉⲛⲧⲁϩϭⲓⲛⲉ̣ [ⲙ̄]ⲡⲕⲟⲥⲙⲟⲥ ⲛ̄ϥⲣ̄ⲣⲙ̄ⲙⲁⲟ ⲙⲁⲣⲉϥⲁⲣⲛⲁ ⲙⲡ̣ⲕⲟⲥⲙⲟⲥ",
+      "i18n": {
+        "en": "Jesus said: Whoever has found the world and become rich, let him renounce the world."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "lacuna-bracket-convention-sumerian-mesopotamian-project-standard",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "restored-text-bracket-and-sigla-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "kosmos-world-kah-earth-thomas-woh",
+        "restored-morph-without-english-word-convention-thomas-woh",
+        "arna-renounce-dynamis-power-thomas-woh"
+      ],
+      "notes": {
+        "official": "Paired with 81: whoever has become rich is told there to reign, and here to renounce the world. ⲁⲣⲛⲁ is 'renounce' at both (`arna-renounce-dynamis-power-thomas-woh`), and ⲡⲕⲟⲥⲙⲟⲥ is 'the world' (`kosmos-world-kah-earth-thomas-woh`). The restored object marker in [ⲙ̄]ⲡⲕⲟⲥⲙⲟⲥ has no English word, so 'the world' is unbracketed (see `restored-morph-without-english-word-convention-thomas-woh`). Compare 27 ('fast from the world') and 56/80.",
+        "community": []
+      }
+    },
+    {
+      "n": 111,
+      "refId": "THOM-111",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲙ̄ⲡⲏⲩⲉ ⲛⲁϭⲱⲗ · ⲁ̣ⲩ̣ⲱ ⲡⲕⲁϩ ⲙ̄ⲡⲉⲧⲛⲙ̄ⲧⲟ ⲉⲃⲟⲗ⳿ ⲁⲩⲱ ⲡⲉⲧⲟⲛϩ ⲉⲃⲟⲗ ϩⲛ̄ⲡⲉⲧⲟⲛϩ ϥⲛⲁⲛⲁⲩ ⲁⲛ ⲉⲙⲟⲩ ⲟⲩⲭ ϩⲟⲧⲓ ⲉ ⲓ︤ⲥ︥ ϫⲱ ⲙ̄ⲙⲟⲥ ϫⲉⲡⲉⲧⲁϩⲉ ⲉⲣⲟϥ⳿ ⲟⲩⲁⲁϥ ⲡⲕⲟⲥⲙⲟⲥ ⲙ̄ⲡϣⲁ ⲙ̄ⲙⲟϥ⳿ ⲁⲛ",
+      "i18n": {
+        "en": "Jesus said: The heavens will be rolled up, and the earth, in your presence, and the one who lives from the living one will not see death. Does not Jesus say, 'Whoever finds himself, the world is not worthy of him'?"
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "etonh-the-living-lowercase-thomas-woh",
+        "jitpe-mpmou-taste-death-thomas-woh",
+        "tpe-sky-heaven-context-rule-thomas-woh",
+        "kosmos-world-kah-earth-thomas-woh",
+        "axios-mpsha-worthy-thomas-woh",
+        "logion-111-the-living-one-and-gloss-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'The one who lives from the living one'.** ⲡⲉⲧⲟⲛϩ ⲉⲃⲟⲗ ϩⲛ̄ⲡⲉⲧⲟⲛϩ has the same form twice. The second is the substantive 'the living one', lower case as at 52 and 59 (see `etonh-the-living-lowercase-thomas-woh`). The first is construed with ⲉⲃⲟⲗ ϩⲛ̄- 'from' and is rendered as a verbal relative, 'the one who lives from'. 'The living one from the living one' would hide the verb that the preposition requires (see `logion-111-the-living-one-and-gloss-thomas-woh`). ϥⲛⲁⲛⲁⲩ ⲁⲛ ⲉⲙⲟⲩ is 'will not see death': the verb is ⲛⲁⲩ 'see', not the 'taste death' idiom (corrected at Block A sign-off; see `jitpe-mpmou-taste-death-thomas-woh`).\n\n**The closing clause.** ⲟⲩⲭ ϩⲟⲧⲓ ⲉ ⲓ︤ⲥ︥ ϫⲱ ⲙ̄ⲙⲟⲥ ϫⲉ… speaks of Jesus in the third person inside a 'Jesus said' saying, and it quotes the substance of 56/80 ('the world is not worthy of him'). It is widely taken as a comment added in transmission. The English prints it as the rhetorical question 'Does not Jesus say …?' (Lambdin). Greek οὐχ ὅτι elsewhere means 'not that …', which would give 'Not that Jesus says …', so the parse takes a position and the entry is `inferred`. The line does not mark the clause as a gloss, because that is a claim about the text's history and belongs in the apparatus. Diplomatic ⲡⲉⲧⲁϩⲉ is the Lycopolitan future relative ('whoever finds'), and ⲉⲣⲟϥ ⲟⲩⲁⲁϥ is 'himself'.\n\n**Wording.** ⲙ̄ⲡⲏⲩⲉ ⲛⲁϭⲱⲗ is 'the heavens will be rolled up', with plural 'heavens' (`tpe-sky-heaven-context-rule-thomas-woh`); compare Isa 34:4 and Rev 6:14. 'In your presence' renders ⲙ̄ⲡⲉⲧⲛ̄ⲙ̄ⲧⲟ ⲉⲃⲟⲗ, as at 52 and 91.",
+        "community": []
+      }
+    },
+    {
+      "n": 112,
+      "refId": "THOM-112",
+      "text": "ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲟⲩⲟⲉⲓ ⲛ̄ⲧⲥⲁⲣⲝ⳿ ⲧⲁⲉⲓ ⲉⲧⲟϣⲉ ⲛ̄ⲧⲯⲩⲭⲏ ⲟⲩⲟⲉⲓ ⲛ̄ⲧⲯⲩⲭⲏ ⲧⲁⲉⲓ ⲉⲧⲟϣⲉ ⲛ̄ⲧⲥⲁⲣⲝ",
+      "i18n": {
+        "en": "Jesus said: Woe to the flesh that depends on the soul; woe to the soul that depends on the flesh."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "pneuma-sarx-soma-spirit-flesh-body-thomas-woh",
+        "psyche-soul-thomas-woh",
+        "ashe-depend-talaiporos-wretched-ouoei-woe-thomas-woh"
+      ],
+      "notes": {
+        "official": "Paired with 87, with ⲟⲩⲟⲉⲓ 'woe' where 87 has 'wretched'. ⲟϣⲉ ⲛ̄- is 'depends on' (`ashe-depend-talaiporos-wretched-ouoei-woe-thomas-woh`). ⲥⲁⲣⲝ 'flesh' and ⲯⲩⲭⲏ 'soul' follow the existing entries. The flesh/soul pair can be compared with 29.",
+        "community": []
+      }
+    },
+    {
+      "n": 113,
+      "refId": "THOM-113",
+      "text": "ⲡⲉϫⲁⲩ ⲛⲁϥ ⲛ̄ϭⲓⲛⲉϥⲙⲁⲑⲏⲧⲏⲥ ϫⲉⲧⲙⲛ̄ⲧⲉⲣⲟ ⲉⲥⲛ̄ⲛⲏⲩ ⲛ̄ⲁϣ ⲛ̄ϩⲟⲟⲩ ⲉⲥⲛ̄ⲛⲏⲩ ⲁⲛ ϩⲛ̄ⲟⲩϭⲱϣⲧ ⲉⲃⲟⲗ⳿ ⲉⲩⲛⲁϫⲟⲟⲥ ⲁⲛ ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ ⲙ̄ⲡⲓⲥⲁ ⲏ ⲉⲓⲥϩⲏⲏⲧⲉ ⲧⲏ ⲁⲗⲗⲁ ⲧⲙⲛ̄ⲧⲉⲣⲟ ⲙ̄ⲡⲉⲓⲱⲧ̂ ⲉⲥⲡⲟⲣϣ⳿ ⲉⲃⲟⲗ ϩⲓϫⲙ̄ⲡⲕⲁϩ ⲁⲩⲱ ⲣ̄ⲣⲱⲙⲉ ⲛⲁⲩ ⲁⲛ ⲉⲣⲟⲥ",
+      "i18n": {
+        "en": "His disciples said to him: The kingdom, on what day will it come? It will not come by watching out for it. They will not say, 'Behold, here,' or 'Behold, there.' Rather, the kingdom of the Father is spread out upon the earth, and people do not see it."
+      },
+      "glossaryRefs": [
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "eiot-father-capitalisation-thomas-woh",
+        "rome-man-human-person-thomas-woh",
+        "sower-parable-coptic-form-and-eisheete-behold-thomas-woh",
+        "kosmos-world-kah-earth-thomas-woh",
+        "goosht-look-watch-thomas-woh",
+        "logion-113-kingdom-spread-out-upon-the-earth-thomas-woh"
+      ],
+      "notes": {
+        "official": "Compare Lk 17:20-21 and Thomas 3 and 51.\n\n**No formula.** The answer begins ⲉⲥⲛ̄ⲛⲏⲩ ⲁⲛ … without ⲡⲉϫⲁϥ. As at 43, no formula is supplied and the English runs on. The topicalised subject is kept: 'The kingdom, on what day will it come?'.\n\n**Wording.** ϩⲛ̄ⲟⲩϭⲱϣⲧ ⲉⲃⲟⲗ is 'by watching out for it', the construction rendered 'watching out for' at 21 and 51 (see `goosht-look-watch-thomas-woh`). The Coptic noun is absolute, and English 'watch out for' needs the object 'it'. Luke has μετὰ παρατηρήσεως. 'Behold, here … Behold, there' follows the 'Behold' rule (`sower-parable-coptic-form-and-eisheete-behold-thomas-woh`). ⲉⲥⲡⲟⲣϣ ⲉⲃⲟⲗ ϩⲓϫⲙ̄ⲡⲕⲁϩ is 'spread out upon the earth' (`kosmos-world-kah-earth-thomas-woh`), and ⲣ̄ⲣⲱⲙⲉ is 'people' (`rome-man-human-person-thomas-woh`); see `logion-113-kingdom-spread-out-upon-the-earth-thomas-woh`.\n\n**Source note.** The normalised layer keeps a supralinear stroke in its second ⲉⲥⲛ̄ⲛⲏⲩ but not in the first, an inconsistency with no effect on the reading.",
+        "community": []
+      }
+    },
+    {
+      "n": 114,
+      "refId": "THOM-114",
+      "text": "ⲡⲉϫⲉⲥⲓ̈ⲙⲱⲛ ⲡⲉⲧⲣⲟⲥ ⲛⲁⲩ ϫⲉⲙⲁⲣⲉⲙⲁⲣⲓϩⲁⲙ ⲉⲓ ⲉⲃⲟⲗ ⲛϩⲏⲧⲛ ϫⲉⲛ̄ⲥϩⲓⲟⲙⲉ ⲙ̄ⲡϣⲁ ⲁⲛ⳿ ⲙ̄ⲡⲱⲛϩ ⲡⲉϫⲉⲓ︤ⲥ︥ ϫⲉⲉⲓⲥϩⲏⲏⲧⲉ ⲁⲛⲟⲕ⳿ ϯⲛⲁⲥⲱⲕ⳿ ⲙ̄ⲙⲟⲥ ϫⲉⲕⲁⲁⲥ ⲉⲉⲓⲛⲁⲁⲥ ⲛ̄ϩⲟⲟⲩⲧ ϣⲓⲛⲁ ⲉⲥⲛⲁϣⲱⲡⲉ ϩⲱⲱⲥ ⲛ̄ⲟⲩⲡⲛ︤ⲁ︥ ⲉϥⲟⲛϩ ⲉϥⲉⲓⲛⲉ ⲙ̄ⲙⲱⲧⲛ ⲛ̄ϩⲟⲟⲩⲧ ϫⲉⲥϩⲓⲙⲉ ⲛⲓⲙ⳿ ⲉⲥⲛⲁⲁⲥ ⲛ̄ϩⲟⲟⲩⲧ̂ ⲥⲛⲁⲃⲱⲕ⳿ ⲉϩⲟⲩⲛ ⲉⲧⲙⲛ̄ⲧⲉⲣⲟ ⲛⲙ̄ⲡⲏⲩⲉ",
+      "i18n": {
+        "en": "Simon Peter said to them: Let Mariham go out from among us, for women are not worthy of life. Jesus said: Behold, I myself will lead her, so that I may make her male, so that she too may become a living spirit resembling you males. For every woman who makes herself male will enter the kingdom of the heavens."
+      },
+      "glossaryRefs": [
+        "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+        "kingdom-of-heaven-basileia-tōn-ouranōn-mt-distinctive-cross-corpus-hebrew-malkhut-shamayim",
+        "register-sayings-format-and-proper-names-convention-thomas-woh",
+        "nomina-sacra-and-abbreviation-expansion-convention-thomas-woh",
+        "greek-loanword-rendering-convention-thomas-woh",
+        "etonh-the-living-lowercase-thomas-woh",
+        "mntero-the-kingdom-thomas-woh",
+        "tpe-sky-heaven-context-rule-thomas-woh",
+        "sower-parable-coptic-form-and-eisheete-behold-thomas-woh",
+        "pneuma-sarx-soma-spirit-flesh-body-thomas-woh",
+        "mariham-name-thomas-woh",
+        "subscript-title-gospel-according-to-thomas-thomas-woh",
+        "axios-mpsha-worthy-thomas-woh",
+        "logion-114-make-her-male-manuscript-reading-thomas-woh"
+      ],
+      "notes": {
+        "official": "**'Make her male'.** A hard saying, kept in the manuscript reading. ⲉⲉⲓⲛⲁⲁⲥ ⲛ̄ϩⲟⲟⲩⲧ 'that I may make her male' and ⲉⲥⲛⲁⲁⲥ ⲛ̄ϩⲟⲟⲩⲧ 'who makes herself male' are rendered literally, with ϩⲟⲟⲩⲧ 'male' as at 22. Neither is softened or glossed in the line (see `logion-114-make-her-male-manuscript-reading-thomas-woh`). The commentaries read the image against 22 ('make the male and the female into the single one') and against ancient language in which becoming male describes a move from the perishable to the perfect. They differ on whether the saying was added to the collection late. Peter's hostility to Mary also appears in the Gospel of Mary and in Pistis Sophia.\n\n**Wording.** ϯⲛⲁⲥⲱⲕ ⲙ̄ⲙⲟⲥ is 'I will lead her' (ⲥⲱⲕ 'draw, lead'). ⲛ̄ⲟⲩⲡⲛ︤ⲁ︥ ⲉϥⲟⲛϩ is 'a living spirit', in lower case (`pneuma-sarx-soma-spirit-flesh-body-thomas-woh`, `etonh-the-living-lowercase-thomas-woh`), and ⲉϥⲉⲓⲛⲉ ⲙ̄ⲙⲱⲧⲛ ⲛ̄ϩⲟⲟⲩⲧ is 'resembling you males'. In ⲙ̄ⲡⲱⲛϩ 'of life' the article is not rendered, as in 'the place of life' at 4. 'Mariham' and 'Simon Peter' are as at 21 and 13 (`mariham-name-thomas-woh`). ⲧⲙⲛ̄ⲧⲉⲣⲟ ⲛⲙ̄ⲡⲏⲩⲉ is 'the kingdom of the heavens' under the central Matthean entry, as at 20 and 54.\n\n**The subscript title.** After logion 114 the manuscript has the title ⲡⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ ⲡⲕⲁⲧⲁ ⲑⲱⲙⲁⲥ, 'The Gospel according to Thomas'. It is not part of the saying. The source file keeps it in `source.subscriptTitle`, outside the verse list. The translation carries it in the chapter-level field `translation.subscriptTitle`, not as a numbered unit, so that the units stay aligned with the source (0-114). ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ is 'Gospel', capitalised as a title, and ⲡⲕⲁⲧⲁ is the Greek κατά of the canonical gospel titles (see `subscript-title-gospel-according-to-thomas-thomas-woh`). The lemma aid appends the title to the normalised text of 114; that is a feature of the aid, not of the saying.",
+        "community": []
+      }
+    }
+  ],
+  "editorial_questions": []
+}
