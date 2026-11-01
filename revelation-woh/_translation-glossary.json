@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "scope": "revelation-woh",
-  "description": "Per-translation glossary overlay for the WoH Translation of Revelation (canon-cited chapters 1, 4, 6). Greek source convention + Apocalypse-specific lexicon overlay.",
+  "description": "Per-translation glossary overlay for the WoH Translation of Revelation (canon-cited chapters 1, 4, 6, 7, 8, 9, 10, 12, 13, 16, 21). Greek source convention + Apocalypse-specific lexicon overlay. v1.2.0 (wave R2): base-text and variant-reporting convention, theos 'God' against the canon's English 'Yahweh', Greek proper names and the scope rule for Hebrew-text central entries, doulos, exousia, psychē, skēnē/skēnoō, abyssos, foundation-stone names; apo-ho-on convention extended to 16:5.",
   "sourceLanguages": [
     "grc"
   ],
@@ -17,11 +17,12 @@
       "standardEnglish": "from him who is and who was and who is to come (KJV/ASV/RSV/NRSV/NIV uniform — smoothing the Greek solecism into a relative-clause-with-pronoun construction)",
       "wohChoice": "ASV/RSV-baseline 'from him who is and who was and who is to come' surface rendering preserved; the Greek-grammatical-solecism (apo + nominative ho ōn rather than expected apo + genitive tou ontos) is preserved as a deliberate divine-name-preservation in the original Greek; the surface-English convention smooths the solecism into a relative-clause; the philological-fact is documented in this overlay and in the central entry `apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus`.",
       "claim_type": "direct",
-      "rationale": "**Rev 1:4 contains the most-discussed Greek-grammatical solecism in the Apocalypse**: the preposition *apo* 'from' normally governs the genitive case, but Rev deploys it with the nominative *ho ōn* (rather than expected genitive *tou ontos*). The solecism is widely interpreted as deliberate (Aune WBC 30-32; Beale NIGTC 187-189; Koester AB 222-224; Bauckham 1993 *Climax of Prophecy* 26-31) — preserving the LXX Ex 3:14 *ho ōn* as a fixed-formula indeclinable divine-name. The English-translation convention is to smooth the solecism with a relative-clause-and-pronoun construction ('from him who is'). The WoH-Translation preserves the surface-English-smoothing convention while documenting the philological-fact in this overlay and in the central entry. Same convention applied at Rev 1:8 and Rev 4:8 where the formula appears without the *apo* preposition.",
+      "rationale": "**Rev 1:4 contains the most-discussed Greek-grammatical solecism in the Apocalypse**: the preposition *apo* 'from' normally governs the genitive case, but Rev deploys it with the nominative *ho ōn* (rather than expected genitive *tou ontos*). The solecism is widely interpreted as deliberate (Aune WBC 30-32; Beale NIGTC 187-189; Koester AB 222-224; Bauckham 1993 *Climax of Prophecy* 26-31) — preserving the LXX Ex 3:14 *ho ōn* as a fixed-formula indeclinable divine-name. The English-translation convention is to smooth the solecism with a relative-clause-and-pronoun construction ('from him who is'). The WoH-Translation preserves the surface-English-smoothing convention while documenting the philological-fact in this overlay and in the central entry. Same convention applied at Rev 1:8 and Rev 4:8 where the formula appears without the *apo* preposition. At Rev 16:5 the formula appears in its two-membered form *ho ōn kai ho ēn* (vocative address, 'who are and who were'), with *ho hosios* 'O Holy One' in place of the third member; the same smoothing convention applies, and the omission of 'who is to come' is documented in the verse commentary (the coming is now taking place; cf. 11:17).",
       "appliesTo": [
         "REV-WOH-1:4",
         "REV-WOH-1:8",
-        "REV-WOH-4:8"
+        "REV-WOH-4:8",
+        "REV-WOH-16:5"
       ]
     },
     {
@@ -37,6 +38,224 @@
       "rationale": "**Greek *chlōros* fundamentally means 'green'** — the color of growing-vegetation in Greek classical usage (cf. Mk 6:39 *epi tō chlōrō chortō* 'on the green grass'). In Hellenistic-Greek usage, *chlōros* extends to 'pale' / 'sallow' / 'sickly-green' especially in the context of human-complexion (Thucydides 2.49 deploys *chlōros* for the plague-victim-complexion). The dominant English-translation tradition (KJV 'pale', RSV 'pale', NIV 'pale') renders 'pale' on the surface, recognizing the death-association context. NRSV breaks with this convention and renders 'pale green', restoring the literal-philological color. The WoH-Translation preserves 'pale' on the surface per the conventional convention but documents the literal 'pale-green' / 'sickly-green' / 'green' rendering in this overlay. Aune WBC 400; Beale NIGTC 382; Koester AB 397 all document the philological range.",
       "appliesTo": [
         "REV-WOH-6:8"
+      ]
+    },
+    {
+      "id": "sblgnt-base-text-variant-reporting-convention-revelation",
+      "source": "SBL Greek New Testament (ed. M. W. Holmes, 2010) as printed base text; NA28/UBS5 and the Byzantine/Textus Receptus tradition as reported comparanda",
+      "translit": "n/a (text-critical convention)",
+      "strongs": "n/a (text-critical convention; variant units identified by verse)",
+      "partOfSpeech": "Overlay convention for base text and variant reporting in the Greek of Revelation",
+      "literal": "Translate the printed SBLGNT text; report NA28 divergences and Byzantine/Textus Receptus (KJV) readings in commentary.",
+      "standardEnglish": "ASV 1901 follows the Westcott-Hort / Revised Version text (close to SBLGNT, with exceptions such as 13:10 and the versification of 12:18/13:1); KJV follows the Textus Receptus.",
+      "wohChoice": "The line translates the SBLGNT critical text and keeps its verse division (12:18 'And he stood upon the sand of the sea' is 12:18, not part of 13:1). Where the Byzantine/Textus Receptus reading differs, and in particular where the canon's English edition quotes the KJV wording of a variant (8:7 omission of 'a third of the earth was burned up', with a minority of manuscripts against the Byzantine majority and the critical text; 16:18 the order 'voices, and thunders, and lightnings'; 9:13 'the four horns'; 10:4 'their voices ... unto me'; 21:2 'I John'; 21:3 'a great voice out of heaven' (for *ek tou thronou*), 'his people ... their God'; 21:4 'God shall wipe away'), the variant is named in the verse commentary with its witnesses. NA28 bracketed words absent from the SBLGNT (9:13 [tessarōn]; 21:3 [autōn theos]) are reported, not printed. Where critical editions differ among themselves and the reading cannot be verified (16:18 number of *anthrōpoi*), the commentary says so without asserting a specific edition's reading.",
+      "claim_type": "direct",
+      "rationale": "The source files for this book are the SBLGNT with its variant sigla removed, so the English must translate that text and no other; mixing readings from different textual traditions verse by verse would produce a text no manuscript tradition supports. The SBLGNT and NA28 agree almost everywhere in Revelation, and both rest on the early uncials Sinaiticus, Alexandrinus and Ephraemi with P47 and P115, which for this book are superior to the late Byzantine text behind the Textus Receptus (Metzger, *A Textual Commentary on the Greek New Testament*, 2nd ed., 1994; J. Schmid, *Studien zur Geschichte des griechischen Apokalypse-Textes*, 1955-56; Aune, WBC 52A, cxxxvi-clx). Several of the Textus Receptus readings are known to be secondary: 'which art, and wast, and shalt be' at 16:5 enters the printed text from Beza's conjecture *ho esomenos*, and the omission at 8:7, which the Textus Receptus shares with a minority of manuscripts against the Byzantine majority, is probably a homoeoteleuton. The Raëlian canon's English edition quotes the KJV, so a reader comparing the canon with this translation will meet these differences; the commentary names each one so that the difference is never silent. The convention is direct: it states which text is translated and reports the alternatives without adjudicating them in the line.",
+      "appliesTo": [
+        "REV-WOH-8:7",
+        "REV-WOH-8:13",
+        "REV-WOH-9:13",
+        "REV-WOH-10:4",
+        "REV-WOH-12:12",
+        "REV-WOH-12:17",
+        "REV-WOH-12:18",
+        "REV-WOH-13:10",
+        "REV-WOH-13:18",
+        "REV-WOH-16:5",
+        "REV-WOH-16:7",
+        "REV-WOH-16:18",
+        "REV-WOH-21:2",
+        "REV-WOH-21:3",
+        "REV-WOH-21:4",
+        "REV-WOH-21:6",
+        "REV-WOH-21:24"
+      ]
+    },
+    {
+      "id": "theos-god-rendering-against-canon-english-yahweh-revelation",
+      "source": "θεός",
+      "translit": "theos",
+      "strongs": "G2316",
+      "partOfSpeech": "noun, masculine (with and without the article; vocative and appositional uses)",
+      "literal": "god; God",
+      "standardEnglish": "God (ASV, KJV, RSV, NRSV, and every major version)",
+      "wohChoice": "'God' for *theos* throughout Revelation, as in chapters 1, 4 and 6 and the other Greek books of the corpus (Matthew, Mark, Luke, Acts). The canon's English edition, which renders *theos* as 'Yahweh' at 9:13, 21:2, 21:3 and 21:4 and adds 'their Elohim' at 21:3, is quoted in reception notes and does not alter the line; the canon's French has 'Dieu' at each of these sites. 'Lord God the Almighty' for *kyrios ho theos ho pantokratōr* (4:8 precedent).",
+      "claim_type": "direct",
+      "rationale": "Greek *theos* is the Septuagint's ordinary equivalent of Heb. *ʾĕlōhîm* and also renders *ʾēl*; it does not render the Tetragrammaton, for which the Septuagint and the New Testament use *kyrios* 'Lord' (BDAG s.v. *theos*; TDNT 3:65-123). The project's Hebrew books transliterate YHWH and keep *Elohim* visible because the Hebrew distinguishes them, but the Greek of Revelation does not carry that distinction, so writing 'Yahweh' or 'Elohim' for *theos* would add information the source does not contain. The substitutions in the canon's English edition (9:13 'before Yahweh'; 21:2 'from Yahweh'; 21:3 'the tabernacle of Yahweh ... their Elohim'; 21:4 'Yahweh shall wipe away') are interpretive choices of that edition, not readings of any Greek witness, and its French original reads 'Dieu' at the same places. The decision keeps the published Revelation chapters 1, 4 and 6 and the Greek New Testament books of the corpus consistent. The reception notes record the canon's wording so that the difference is auditable.",
+      "appliesTo": [
+        "REV-WOH-7:2",
+        "REV-WOH-7:3",
+        "REV-WOH-7:10",
+        "REV-WOH-7:11",
+        "REV-WOH-7:12",
+        "REV-WOH-7:15",
+        "REV-WOH-7:17",
+        "REV-WOH-8:2",
+        "REV-WOH-8:4",
+        "REV-WOH-9:4",
+        "REV-WOH-9:13",
+        "REV-WOH-10:7",
+        "REV-WOH-12:5",
+        "REV-WOH-12:6",
+        "REV-WOH-12:10",
+        "REV-WOH-12:17",
+        "REV-WOH-13:6",
+        "REV-WOH-16:1",
+        "REV-WOH-16:7",
+        "REV-WOH-16:9",
+        "REV-WOH-16:11",
+        "REV-WOH-16:14",
+        "REV-WOH-16:19",
+        "REV-WOH-16:21",
+        "REV-WOH-21:2",
+        "REV-WOH-21:3",
+        "REV-WOH-21:7",
+        "REV-WOH-21:10",
+        "REV-WOH-21:11",
+        "REV-WOH-21:22",
+        "REV-WOH-21:23"
+      ]
+    },
+    {
+      "id": "greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation",
+      "source": "Ἰσραήλ, Ἰούδα, Ῥουβήν, Γάδ, Ἀσήρ, Νεφθαλίμ, Μανασσῆ, Συμεών, Λευί, Ἰσσαχάρ, Ζαβουλών, Ἰωσήφ, Βενιαμίν, Ἰερουσαλήμ, Εὐφράτης, Μιχαήλ, Ἀβαδδών, Ἀπολλύων, Ἁρμαγεδών, Βαβυλών, Διάβολος, Σατανᾶς",
+      "translit": "Israēl, Iouda, Rhoubēn, Gad, Asēr, Nephthalim, Manassē, Symeōn, Leui, Issachar, Zaboulōn, Iōsēph, Beniamin, Ierousalēm, Euphratēs, Michaēl, Abaddōn, Apollyōn, Harmagedōn, Babylōn, Diabolos, Satanas",
+      "strongs": "G2474 (Israēl); G2455 (Iouda); G4502 (Rhoubēn); G1045 (Gad); G768 (Asēr); G3508 (Nephthalim); G3128 (Manassēs); G4826 (Symeōn); G3017 (Leui); G2466 (Issachar); G2194 (Zaboulōn); G2501 (Iōsēph); G958 (Beniamin); G2419 (Ierousalēm); G2166 (Euphratēs); G3413 (Michaēl); G3 (Abaddōn); G623 (Apollyōn); G717 (Harmagedōn); G897 (Babylōn); G1228 (diabolos); G4567 (Satanas)",
+      "partOfSpeech": "Overlay convention: proper names and name-like titles in the Greek of Revelation; scope rule for Hebrew-text central entries",
+      "literal": "Greek transliterations of Hebrew and Aramaic names, and the titles 'slanderer' (diabolos) and 'adversary' (Satanas)",
+      "standardEnglish": "Israel, Judah, Reuben, Gad, Asher, Naphtali, Manasseh, Simeon, Levi, Issachar, Zebulun, Joseph, Benjamin, Jerusalem, Euphrates, Michael, Abaddon, Apollyon, Har-magedon (ASV) / Armageddon (KJV), Babylon, the Devil, Satan",
+      "wohChoice": "(1) Names in the Greek books are given in their standard English forms, as in Revelation 1-6, Matthew, Mark, Luke and Acts: Israel, Judah, Reuben ... Benjamin (7:4-8; 21:12), Jerusalem (21:2, 10), Euphrates (9:14; 16:12), Michael (12:7), Babylon (16:19). (2) Names the text itself marks as Hebrew are transliterated as in the ASV: Abaddon (9:11), Har-magedon (16:16). (3) *ho Diabolos kai ho Satanas* after *ho kaloumenos* 'who is called' are names: 'the Devil and Satan' (12:9); *ho diabolos* in running text is 'the devil' (12:12). (4) Scope rule: a central entry written for the Hebrew text applies to a Greek line only where its English is also a correct rendering of the Greek word (e.g. `chayyot` 'living creatures' for *zōa* at 7:11; `gophrit-va-esh-destruction-formula` 'sulfur' for *theion* at 9:17-18; 21:8). Otherwise central entries written for the Hebrew text (`shivtei-yisrael-shenim-asar-...` 'Yisra'el', `ha-satan` 'the adversary', `tehom` 'the deep', `sheol-underworld-realm-of-the-dead`, `nefesh-chayah`) govern Hebrew lines; where their rationales name a Revelation verse as a reception site they are cited in commentary as background and are not applied to the Greek line.",
+      "claim_type": "direct",
+      "rationale": "The Hebrew books of the corpus transliterate names (Yisra'el, Yehudah) because they translate a Hebrew text whose forms the reader can recover. The Greek of Revelation already carries the names in Hellenized forms (*Nephthalim*, *Zaboulōn*, *Ierousalēm*), and a transliteration back into Hebrew would translate a text other than the one printed; the corpus's Greek books have used the standard English forms throughout (Acts 2:22 'Israel'; Matt 5:35 'Jerusalem'; Rev 1:9 'John', 'Patmos'). *Diabolos* is the Septuagint's rendering of Heb. *haśśāṭān* (Job 1-2; Zech 3:1-2; 1 Chr 21:1) and *Satanas* transliterates Aramaic *sāṭānā*; in Rev 12:9 both are introduced by *ho kaloumenos* 'who is called' and so function as names, unlike the articular role-noun of Job that the central `ha-satan` renders 'the adversary' (BDAG s.vv.; Aune, WBC 52B, 697-698; Pagels, *The Origin of Satan*, 1995). *Abaddōn* is marked by the text as Hebrew (*Hebraisti*) and glossed by the Greek *Apollyōn*, and *Harmagedōn* is likewise marked as Hebrew; the ASV forms keep both visible without deciding the disputed etymology of the second (*har məḡiddô* or *har môʿēd*). The scope rule keeps each central Hebrew decision where its evidence lies and records the cross-corpus link in commentary. The test for applying a Hebrew-text entry to a Greek line is lexical: where the Septuagint equivalent carries the same sense and the entry's English correctly renders the Greek word (*zōa* 'living creatures'; *theion* 'sulfur'), the entry governs; where the entry's English encodes a feature of the Hebrew absent from the Greek (the transliterated name Yisra'el, the articular role-noun 'the adversary', the cosmic waters 'the deep'), it remains background.",
+      "appliesTo": [
+        "REV-WOH-7:4",
+        "REV-WOH-7:5",
+        "REV-WOH-7:6",
+        "REV-WOH-7:7",
+        "REV-WOH-7:8",
+        "REV-WOH-9:11",
+        "REV-WOH-9:14",
+        "REV-WOH-12:7",
+        "REV-WOH-12:9",
+        "REV-WOH-12:12",
+        "REV-WOH-16:12",
+        "REV-WOH-16:16",
+        "REV-WOH-16:19",
+        "REV-WOH-21:2",
+        "REV-WOH-21:10",
+        "REV-WOH-21:12"
+      ]
+    },
+    {
+      "id": "doulos-servant-slave-rendering-revelation",
+      "source": "δοῦλος",
+      "translit": "doulos",
+      "strongs": "G1401 (doulos); cf. G4889 (syndoulos)",
+      "partOfSpeech": "noun, masculine",
+      "literal": "slave, bondservant",
+      "standardEnglish": "servant (ASV, KJV, RSV, NRSV at 1:1; 7:3; 10:7); bondman (ASV 6:15; 13:16), slave (RSV, NRSV 6:15; 13:16); slave (some modern versions throughout)",
+      "wohChoice": "'servant(s)' where God or Christ is the master (7:3 'the servants of our God'; 10:7 'his own servants the prophets'; precedent 1:1 and 6:11 'fellow servants'); 'slave(s)' in the social pair free/slave (13:16; precedent 6:15).",
+      "claim_type": "direct",
+      "rationale": "*Doulos* denotes a person owned by another, a slave (BDAG *doulos* 1); in the Septuagint it renders Heb. *ʿeḇeḏ*, which covers both the slave and the honoured royal or divine servant ('my servant Moses', 'his servants the prophets', Amos 3:7; 2 Kgs 17:23). When Revelation calls believers or prophets the *douloi* of God it takes up that Septuagintal title of honour, so 'servant' renders the function the context gives the word; when it lists *douloi* beside *eleutheroi* 'free' (6:15; 13:16; 19:18) it means the social status, and 'slave' is the only accurate English. The same division is used by the ASV/KJV tradition (with 'bondman' for the social sense) and by RSV/NRSV, and it was already applied in Revelation 1:1, 6:11 and 6:15. The canon's French original reads 'esclaves' at 7:3 and 10:7, the literal sense of the noun, while its English edition has 'servants'; both are recorded in the reception notes and the line keeps the convention.",
+      "appliesTo": [
+        "REV-WOH-7:3",
+        "REV-WOH-10:7",
+        "REV-WOH-13:16"
+      ]
+    },
+    {
+      "id": "exousia-authority-power-rendering-revelation",
+      "source": "ἐξουσία",
+      "translit": "exousia",
+      "strongs": "G1849 (exousia); distinguished from G1411 (dynamis)",
+      "partOfSpeech": "noun, feminine",
+      "literal": "right, freedom to act; authority, jurisdiction; capability, power",
+      "standardEnglish": "power (ASV/KJV at 9:3, 10, 19; 13:2, 4, 5, 7, 12; 16:9) / authority (ASV 12:10; RSV/NRSV 13:2-12); RSV/NRSV 'power' at 9:10, 19",
+      "wohChoice": "'authority' where *exousia* is jurisdiction or a right conferred over persons or things, typically with *edothē* 'was given' or *epi* 'over' (12:10; 13:2, 4, 5, 7, 12; 16:9 'who has authority over these plagues'; precedent 6:8); 'power' where it is the natural capacity of an animal to injure, compared to scorpions and located in tails and mouths (9:3, 10, 19). *dynamis* is always 'power' (7:12; 12:10; 13:2).",
+      "claim_type": "direct",
+      "rationale": "BDAG distinguishes the senses of *exousia* as 'a state of control over something, freedom of choice, right', 'potential or resource to command, capability, might, power', and 'the right to control or command, authority, absolute power, warrant'; Revelation uses both the capacity sense and the jurisdiction sense. Within one verse the book can set *dynamis* and *exousia* side by side (13:2 'his power and his throne and great authority'), so a uniform 'power' would merge two different words, which is why 'authority' is used wherever the conferred right is meant; the construction *exousia epi* + accusative 'authority over' (6:8; 13:7; 16:9) is rendered the same way at every occurrence, which changes the ASV 'power' at 16:9. In chapter 9, by contrast, the locusts are given an *exousia* 'as the scorpions of the earth have' (9:3), and the horses' and locusts' *exousia* is 'in their tails' and 'in their mouth' (9:10, 19): the bodily location shows that the capacity to harm is meant, and RSV and NRSV, which otherwise prefer 'authority', render 'power' at 9:10 and 9:19. The canon's English edition has 'their power was to hurt men' at 9:10 and 'they were not given authority to kill them' at 9:5, which agrees with this division. The rule is direct: both senses are lexically established and the choice in each verse follows the construction.",
+      "appliesTo": [
+        "REV-WOH-9:3",
+        "REV-WOH-9:10",
+        "REV-WOH-9:19",
+        "REV-WOH-12:10",
+        "REV-WOH-13:2",
+        "REV-WOH-13:4",
+        "REV-WOH-13:5",
+        "REV-WOH-13:7",
+        "REV-WOH-13:12",
+        "REV-WOH-16:9"
+      ]
+    },
+    {
+      "id": "psyche-soul-life-living-being-rendering-revelation",
+      "source": "ψυχή (ψυχὴ ζωῆς)",
+      "translit": "psychē (psychē zōēs)",
+      "strongs": "G5590 (psychē); G2222 (zōē)",
+      "partOfSpeech": "noun, feminine",
+      "literal": "breath, life; living being; self, soul",
+      "standardEnglish": "8:9 'that had life' (ASV, KJV), 'living creatures' (RSV, NRSV); 12:11 'their life' (ASV), 'their lives' (KJV, RSV); 16:3 'every living soul' (ASV, KJV), 'every living thing' (RSV, NRSV)",
+      "wohChoice": "Context-sensitive: 'souls' for the persons of the dead (precedent 6:9); 'life' for the life a creature has or a person gives up (8:9 'those that had life'; 12:11 'they did not love their life even unto death'); 'living being' for *psychē zōēs* (16:3 'every living being died'), the Greek of Heb. *nep̄eš ḥayyâ*.",
+      "claim_type": "direct",
+      "rationale": "*Psychē* covers the life principle, the earthly life itself, the living being, and the inner self or soul (BDAG *psychē* 1-3); in the Septuagint it renders Heb. *nep̄eš*, whose primary sense is the living, breathing creature (HALOT *nep̄eš* 1-3). At 8:9 and 16:3 the *psychai* are sea creatures, so the later Platonic sense of an immortal 'soul' does not apply, and *psychē zōēs* at 16:3 reproduces the phrase of the creation account where the waters bring forth *nep̄eš ḥayyâ* 'living creatures' (Gen 1:20-21; LXX *psychē zōsa*), which the corpus renders 'living being' (central `nefesh-chayah`, cited as background under the scope rule of `greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation`). The ASV/KJV 'every living soul' is therefore replaced by 'every living being', which keeps the noun phrase and matches RSV/NRSV 'every living thing' in sense. At 12:11 the martyrs did not love their *psychē* 'life' to the point of death, the sense of the synoptic saying on losing one's life (Mark 8:35), and at 6:9 the *psychai* under the altar are the dead persons themselves, for which 'souls' is the established English. The entry keeps the decision auditable across the four sites.",
+      "appliesTo": [
+        "REV-WOH-8:9",
+        "REV-WOH-12:11",
+        "REV-WOH-16:3"
+      ]
+    },
+    {
+      "id": "skene-skenoo-tabernacle-dwell-rendering-revelation",
+      "source": "σκηνή / σκηνόω",
+      "translit": "skēnē / skēnoō",
+      "strongs": "G4633 (skēnē); G4637 (skēnoō)",
+      "partOfSpeech": "noun, feminine / verb, contract (future σκηνώσει; participle σκηνοῦντες)",
+      "literal": "tent, tabernacle / pitch a tent, live in a tent, dwell",
+      "standardEnglish": "7:15 'spread his tabernacle over them' (ASV), 'shelter them with his presence' (RSV, NRSV); 12:12 and 13:6 'dwell' (all); 13:6 and 21:3 'tabernacle' (ASV, KJV), 'dwelling' (RSV, NRSV 13:6), 'home' (NRSV 21:3)",
+      "wohChoice": "Noun *skēnē* 'tabernacle' (13:6; 21:3); verb *skēnoō* 'dwell' (12:12; 13:6; 21:3), except at 7:15, where *skēnōsei ep' autous* 'will spread his tabernacle over them' (ASV) keeps the preposition *epi* 'over' and the image of covering.",
+      "claim_type": "direct",
+      "rationale": "*Skēnē* is the Septuagint's standard word for the tabernacle, rendering both *miškān* and *ʾōhel* (Ex 25:9; 40:34-35), and *skēnoō* is the corresponding verb 'to tent, dwell' (BDAG; TDNT 7:368-394); the pair is the Greek counterpart of the Hebrew *šāḵan* / *miškān* pair collected in the central `shakhan-dwell-divine-presence-verb-cross-corpus` and `brit-shalom-mishkan`, which are cited as background. Rev 21:3 quotes the covenant promise of Lev 26:11-12 and Ezek 37:27 ('I will set my tabernacle among you ... I will be your God and you shall be my people'), so 'tabernacle' for the noun keeps the allusion visible, where 'dwelling' or 'home' would hide it. The verb is 'dwell' wherever it describes residence (12:12; 13:6; 21:3), as in every version. At 7:15 *epi* + accusative 'over' adds the image of the divine presence spread as a covering over the people (Isa 4:5-6, the canopy of cloud and fire over Zion), which 'dwell' alone would lose and which the ASV wording preserves; RSV's 'shelter them with his presence' is an interpretation of the same image. The canon's French renders the 21:3 pair as 'l'abri ... il s'abritera' ('the shelter ... he will shelter'), which is recorded in the reception note and does not affect the line.",
+      "appliesTo": [
+        "REV-WOH-7:15",
+        "REV-WOH-12:12",
+        "REV-WOH-13:6",
+        "REV-WOH-21:3"
+      ]
+    },
+    {
+      "id": "abyssos-pit-of-the-abyss-rendering-revelation",
+      "source": "ἡ ἄβυσσος; τὸ φρέαρ τῆς ἀβύσσου",
+      "translit": "hē abyssos; to phrear tēs abyssou",
+      "strongs": "G12 (abyssos); G5421 (phrear)",
+      "partOfSpeech": "noun, feminine (substantivized adjective 'bottomless'); noun, neuter, with genitive",
+      "literal": "the bottomless (deep); the well/shaft of the abyss",
+      "standardEnglish": "the pit of the abyss (ASV); the bottomless pit (KJV); the shaft of the bottomless pit (RSV, NRSV); the angel of the abyss (ASV 9:11), the angel of the bottomless pit (KJV, RSV, NRSV)",
+      "wohChoice": "'the abyss' for *hē abyssos* (9:11 'the angel of the abyss'); 'the pit of the abyss' for *to phrear tēs abyssou* (9:1, 2), as in the ASV.",
+      "claim_type": "direct",
+      "rationale": "*Abyssos* is originally an adjective 'bottomless' used as a noun; in the Septuagint it renders Heb. *təhôm* 'the deep' (Gen 1:2; 7:11), but in Second Temple and New Testament usage it becomes the subterranean place of confinement of hostile spirits (1 En 18:11-16; 21:7-10; Jub 5:6-10; Luke 8:31; Rom 10:7), and that is its sense in every Revelation occurrence (9:1, 2, 11; 11:7; 17:8; 20:1, 3) (BDAG s.v.; Aune, WBC 52B, 525-526). The central `tehom` ('the deep') therefore governs the Hebrew cosmic waters and is not applied here; it is cited as background under the scope rule of `greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation`. 'Abyss' keeps the Greek noun, which has passed into English with this meaning, and 'pit' renders *phrear* 'well, shaft' as the ASV does. The KJV 'bottomless pit', quoted in the canon's English edition at 9:1-2, renders the etymology of *abyssos* and drops *phrear* as a separate noun; the canon's French 'le puits de l'abîme' matches the ASV structure. Both are recorded in the reception note.",
+      "appliesTo": [
+        "REV-WOH-9:1",
+        "REV-WOH-9:2",
+        "REV-WOH-9:11"
+      ]
+    },
+    {
+      "id": "foundation-stones-gem-names-rev-21-19-20",
+      "source": "ἴασπις, σάπφιρος, χαλκηδών, σμάραγδος, σαρδόνυξ, σάρδιον, χρυσόλιθος, βήρυλλος, τοπάζιον, χρυσόπρασος, ὑάκινθος, ἀμέθυστος (Rev 21:19-20); ὑακίνθινος (9:17)",
+      "translit": "iaspis, sappheiros, chalkēdōn, smaragdos, sardonyx, sardion, chrysolithos, bēryllos, topazion, chrysoprasos, hyakinthos, amethystos; hyakinthinos",
+      "strongs": "G2393, G4552, G5472, G4665, G4557, G4556, G5555, G969, G5116, G5556, G5192, G271; G5191",
+      "partOfSpeech": "nouns (names of stones); adjective of colour (hyakinthinos)",
+      "literal": "jasper, sapphire, chalcedony, emerald, sardonyx, sard/carnelian, gold-stone, beryl, topaz, gold-leek (green) stone, hyacinth/jacinth, amethyst; hyacinth-coloured (dark blue)",
+      "standardEnglish": "ASV: jasper, sapphire, chalcedony, emerald, sardonyx, sardius, chrysolite, beryl, topaz, chrysoprase, jacinth, amethyst; RSV/NRSV: the same with 'carnelian' for sardion and 'agate' for chalcedony (RSV)",
+      "wohChoice": "The ASV names, except *sardion* 'carnelian' (precedent 4:3; RSV, NRSV); *iaspis* 'jasper' also at 21:11, 18; *hyakinthinos* 'of hyacinth' (colour) at 9:17. Modern mineralogical identifications (e.g. *sappheiros* = lapis lazuli) are given in commentary, not in the line.",
+      "claim_type": "direct",
+      "rationale": "Ancient stone names do not map one-to-one onto modern mineral species: *sappheiros* was a blue stone flecked with gold, almost certainly lapis lazuli (Pliny, *NH* 37.120), *topazion* may have been peridot, and *iaspis* covered several stones including translucent green ones, which is why 21:11 can call jasper 'clear as crystal' (BDAG s.vv.; Aune, WBC 52C, 1164-1167). Because the identifications are uncertain, the line keeps the traditional English names that transliterate the Greek, so the reader can recognize the list and its link to the twelve stones of the high priest's breastpiece (Ex 28:17-20; 39:10-13, eight of which recur in the Septuagint list), and the commentary records the probable identifications. *Sardion* is the exception: 'sardius' is an obsolete English word, and 'carnelian' is the standard identification of the red sard (BDAG), already used at 4:3 for the stone of the one on the throne. The adjective *hyakinthinos* at 9:17 is a colour term, dark blue or violet, rendered 'of hyacinth' after the ASV so that the link with *hyakinthos* 'jacinth' at 21:20 stays visible.",
+      "appliesTo": [
+        "REV-WOH-9:17",
+        "REV-WOH-21:11",
+        "REV-WOH-21:18",
+        "REV-WOH-21:19",
+        "REV-WOH-21:20"
       ]
     }
   ]

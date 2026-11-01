@@ -1,0 +1,1749 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "MAT-WOH",
+  "bookSlug": "matthew-woh",
+  "n": 27,
+  "title": "Matthew 27 — Judas's end, the trial before Pilate and Barabbas, the crucifixion, the darkness and the earthquake, the burial and the guard",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Koine Greek New Testament — SBL Greek New Testament (SBLGNT), ed. Michael W. Holmes (2010); critical text with Codex Vaticanus (B/03) and Codex Sinaiticus (א/01) as principal witnesses",
+    "sourceLicense": "CC BY 4.0 (SBLGNT, Society of Biblical Literature and Logos Bible Software)",
+    "sourceUrl": "https://github.com/LogosBible/SBLGNT",
+    "sourceAccessedVia": "SBLGNT data/sblgnt/text/Matt.txt via source-grc-27.json (fetched 2026-11-01; variant sigla stripped); reference PD translation ASV 1901",
+    "verificationStatus": "editor pass complete 2026-11-01 (wave M2); glossaryVersion 2.81.0 is pending application of matthew-woh/wave-m2-central-diff.json (base 2.80.0; the orchestrator may renumber when sequencing the parallel Revelation and Ezekiel diffs); overlay 1.2.0 applied; pending Reviewer and founder sign-off",
+    "glossaryVersion": "2.83.0",
+    "overlayGlossaryVersion": "1.2.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-01T14:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-01T12:57:01Z",
+      "scope": "Matthew wave M2, chapter 27 (66 verses); overlay 1.2.0 entries applying to this chapter; central diff 2.80.0→2.81.0 ops touching this chapter.",
+      "method": "Each verse re-parsed from the SBLGNT Greek in source-grc-27.json (verified identical to the unstripped SBLGNT text with variant sigla). Every Byzantine/TR/KJV attribution was checked against the SBLGNT variant markers (WH/Treg/NIV/RP) and Metzger. Escalation report read only after initial verdicts.",
+      "verdicts": [
+        {
+          "refId": "MAT-WOH-27:1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (prōias de genomenēs symboulion elabon pantes hoi archiereis kai hoi presbyteroi tou laou ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:2",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "paredōkan Pilatō tō hēgemoni: Byzantine/KJV 'Pontius Pilate' correctly reported."
+        },
+        {
+          "refId": "MAT-WOH-27:3",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. μεταμέλομαι"
+          ],
+          "reasoning": "metamelētheis 'seized with remorse' (not metanoeō). Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:4",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Hēmarton paradous haima athōon ... sy opsē. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:5",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a",
+            "Brown, The Death of the Messiah (1994), ad loc.",
+            "Davies and Allison, Matthew (ICC), vol. 3 (1997), ad loc.",
+            "Zech 11:13"
+          ],
+          "reasoning": "rhipsas ta argyria eis ton naon 'into the sanctuary' keeps Matthew's word and its crux (only priests entered the naos), with both scholarly explanations in the commentary. Defensible; to my reading the ASV itself has 'into the sanctuary' here, so the line restores the ASV wording that the draft had changed. If so, the overlay entry's standardEnglish ('ASV except 23:35') should read 'ASV except 23:35 and 27:5'."
+        },
+        {
+          "refId": "MAT-WOH-27:6",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. κορβανᾶς"
+          ],
+          "reasoning": "eis ton korbanan 'into the treasury'; timē haimatos. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:7",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ēgorasan ex autōn ton Agron tou Kerameōs eis taphēn tois xenois. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:8",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Agros Haimatos heōs tēs sēmeron. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:9",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc."
+          ],
+          "reasoning": "dia Ieremiou tou prophētou ... tēn timēn tou tetimēmenou hon etimēsanto apo huiōn Israēl: 'Jeremiah' kept with SBLGNT; Zechariah/Jeremiah background and the scribal corrections accurately reported."
+        },
+        {
+          "refId": "MAT-WOH-27:10",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "edōkan auta eis ton agron tou kerameōs, katha synetaxen moi kyrios. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:11",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Sy ei ho basileus tōn Ioudaiōn; ... Sy legeis. Exact. Non-blocking style point: 'King of the Jews' is capitalized here (and 27:29, 37) but 2:2 reads 'king of the Jews'; harmonize or state the rule (title vs predicate)."
+        },
+        {
+          "refId": "MAT-WOH-27:12",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai en tō katēgoreisthai auton hypo tōn archiereōn kai presbyterōn ouden apekrinato.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:13",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (tote legei autō ho pilatos· ouk akoueis posa sou katamartyrousin;): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:14",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ouk apekrithē autō pros oude hen rhēma 'not even to a single word'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:15",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Kata de heortēn eiōthei ho hēgemōn apolyein ... hon ēthelon. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:16",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "Disputed against ASV 'Barabbas': Iēsoun Barabban is the SBLGNT (and bracketed NA28) text; evidence and the copyists'-motive argument correctly reported."
+        },
+        {
+          "refId": "MAT-WOH-27:17",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "Iēsoun ton Barabban ē Iēsoun ton legomenon christon: two men named Jesus set side by side as in SBLGNT. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:18",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (ēdei gar hoti dia phthonon paredōkan auton.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:19",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Mēden soi kai tō dikaiō ekeinō ... kat' onar. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:20",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "epeisan tous ochlous hina aitēsōntai ton Barabban ton de Iēsoun apolesōsin. Exact; reception note (LWTE ch. 3) labelled."
+        },
+        {
+          "refId": "MAT-WOH-27:21",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (apokritheis de ho hēgemōn eipen autois· tina thelete apo tōn dyo apolysō hymin; hoi de ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:22",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Ti oun poiēsō Iēsoun ton legomenon christon; ... Staurōthētō. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:23",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (ho de ephē· ti gar kakon epoiēsen; hoi de perissōs ekrazon legontes· staurōthētō.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:24",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)",
+            "Deut 21:6-9"
+          ],
+          "reasoning": "Athōos eimi apo tou haimatos toutou (B D Θ): Sinaiticus/Byzantine/KJV 'this just person' correctly reported. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:25",
+          "status": "approve",
+          "citations": [
+            "Davies and Allison, Matthew (ICC), vol. 3 (1997), ad loc.",
+            "Nostra Aetate (1965) §4"
+          ],
+          "reasoning": "pas ho laos ... To haima autou eph' hēmas: exact; the reception-history note is responsible and accurate."
+        },
+        {
+          "refId": "MAT-WOH-27:26",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ton de Iēsoun phragellōsas paredōken hina staurōthē. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:27",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "eis to praitōrion ... holēn tēn speiran 'the whole cohort'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:28",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai ekdysantes auton chlamyda kokkinēn periethēkan autō,): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:29",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. γονυπετέω"
+          ],
+          "reasoning": "gonypetēsantes emprosthen autou enepaixan 'kneeling before him they mocked him' (gonypeteō 'kneel', kept distinct from proskyneō). Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:30",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai emptysantes eis auton elabon ton kalamon kai etypton eis tēn kephalēn autou.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:31",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai hote enepaixan autō, exedysan auton tēn chlamyda kai enedysan auton ta himatia autou ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:32",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "anthrōpon Kyrēnaion onomati Simōna 'a man of Cyrene' (individual). Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:33",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Golgotha, ho estin Kraniou Topos legomenos 'Place of a Skull'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:34",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)",
+            "Ps 69:22"
+          ],
+          "reasoning": "oinon meta cholēs memigmenon: critical 'wine'; Byzantine/KJV oxos correctly reported."
+        },
+        {
+          "refId": "MAT-WOH-27:35",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc."
+          ],
+          "reasoning": "diemerisanto ta himatia autou ballontes klēron: the John 19:24 fulfilment formula is correctly attributed to the TR (Θ f1 f13), not to the Byzantine majority, which the absence of an SBLGNT marker confirms."
+        },
+        {
+          "refId": "MAT-WOH-27:36",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai kathēmenoi etēroun auton ekei.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:37",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Houtos estin Iēsous ho basileus tōn Ioudaiōn. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:38",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. λῃστής 2"
+          ],
+          "reasoning": "dyo lēstai 'two robbers' with the insurgent sense noted. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:39",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "eblasphēmoun auton kinountes tas kephalas autōn 'blaspheming him, wagging their heads'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:40",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a"
+          ],
+          "reasoning": "Ho katalyōn ton naon ... ei huios ei tou theou: 'sanctuary' per convention; 4:3, 6 echo noted. Defensible."
+        },
+        {
+          "refId": "MAT-WOH-27:41",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (homoiōs kai hoi archiereis empaizontes meta tōn grammateōn kai presbyterōn elegon·): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:42",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "basileus Israēl estin (ironic statement) and pisteusomen ep' auton: Byzantine/KJV ei and autō correctly reported. Reception note (ETTMTTP ch. 2) labelled."
+        },
+        {
+          "refId": "MAT-WOH-27:43",
+          "status": "approve",
+          "citations": [
+            "Colwell, JBL 52 (1933) 12-21",
+            "Wis 2:18-20"
+          ],
+          "reasoning": "Theou eimi huios 'I am the Son of God' (anarthrous predicate made definite by 26:63); colon per convention. Defensible."
+        },
+        {
+          "refId": "MAT-WOH-27:44",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "to d' auto kai hoi lēstai hoi systaurōthentes syn autō ōneidizon auton. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:45",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. γῆ 1, 3",
+            "Brown, The Death of the Messiah (1994), ad loc."
+          ],
+          "reasoning": "skotos egeneto epi pasan tēn gēn 'over all the land' (ASV, KJV, RSV, NRSV); the cosmic construal and Amos 8:9 documented. Defensible."
+        },
+        {
+          "refId": "MAT-WOH-27:46",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "Ēli ēli lema sabachthani (SBLGNT spelling); א B elōi elōi, D zaphthani, and KJV/Byzantine lama correctly reported; Hebrew ʾēlî and the Elijah misunderstanding explained. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:47",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Ēlian phōnei houtos 'This man is calling Elijah'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:48",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ὄξος"
+          ],
+          "reasoning": "spongon ... oxous ... epotizen auton 'sour wine ... was giving him a drink'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:49",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "Aphes idōmen ei erchetai Ēlias sōsōn auton: the א B C L spear-thrust addition is correctly reported and kept out of the line, with SBLGNT/NA28/Byzantine agreement. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:50",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πνεῦμα 2, ἀφίημι"
+          ],
+          "reasoning": "aphēken to pneuma 'yielded up his spirit' (lower case, human spirit). Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:51",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a, σείω"
+          ],
+          "reasoning": "to katapetasma tou naou eschisthē ... hē gē eseisthē: 'curtain of the sanctuary', 'the earth was shaken'. Defensible."
+        },
+        {
+          "refId": "MAT-WOH-27:52",
+          "status": "approve",
+          "citations": [
+            "Ezek 37:12-13"
+          ],
+          "reasoning": "ta mnēmeia aneōchthēsan ... tōn kekoimēmenōn hagiōn ēgerthēsan. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:53",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "meta tēn egersin autou 'after his raising'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:54",
+          "status": "approve",
+          "citations": [
+            "Colwell, JBL 52 (1933) 12-21",
+            "Brown, The Death of the Messiah (1994), ad loc.",
+            "BDAG s.v. σεισμός"
+          ],
+          "reasoning": "Alēthōs theou huios ēn houtos 'Truly this was the Son of God' with the NRSV-margin 'a son of God' documented; ton seismon 'the earthquake'. Defensible. Non-blocking: 'repeat word for word the disciples' confession of 14:33' overstates (ei vs ēn houtos); say 'echoes'."
+        },
+        {
+          "refId": "MAT-WOH-27:55",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "gynaikes pollai apo makrothen theōrousai ... diakonousai autō. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:56",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "Iōsēph mētēr (SBLGNT); Byzantine/KJV Iōsē 'Joses' correctly reported (marker present)."
+        },
+        {
+          "refId": "MAT-WOH-27:57",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "anthrōpos plousios apo Harimathaias ... emathēteuthē tō Iēsou 'a rich man ... had become a disciple'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:58",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (houtos proselthōn tō pilatō ētēsato to sōma tou iēsou. tote ho pilatos ekeleusen ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:59",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai labōn to sōma ho iōsēph enetylixen auto sindoni kathara,): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-27:60",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "en tō kainō autou mnēmeiō ho elatomēsen en tē petra 'his own new tomb ... hewn in the rock'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:61",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Mariam hē Magdalēnē kai hē allē Maria ... apenanti tou taphou 'the grave' (taphos vs mnēmeion kept distinct). Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:62",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "meta tēn paraskeuēn 'after the Day of Preparation'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:63",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Kyrie ... ekeinos ho planos ... Meta treis hēmeras egeiromai: 'Sir' for kyrie addressed to Pilate, appropriate. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:64",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "asphalisthēnai ton taphon ... hē eschatē planē cheirōn tēs prōtēs. Exact."
+        },
+        {
+          "refId": "MAT-WOH-27:65",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. κουστωδία, ἔχω",
+            "Brown, The Death of the Messiah (1994), ad loc."
+          ],
+          "reasoning": "Echete koustōdian 'You have a guard': indicative kept with the imperative option documented. Defensible."
+        },
+        {
+          "refId": "MAT-WOH-27:66",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ēsphalisanto ton taphon sphragisantes ton lithon meta tēs koustōdias. Exact."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+          "status": "revise",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994)",
+            "SBLGNT (Holmes 2010) variant markers",
+            "NA28 text at Mt 19:9 and 19:29",
+            "KJV Mt 4:10; 15:4"
+          ],
+          "reasoning": "claim_type direct is right and the decision (translate SBLGNT; record TR/Byzantine readings in commentary; no paragraph for 23:14) is sound and matches the Revelation ruling C. Accuracy fixes to the rationale: (1) 'agree with NA28 in all but a handful of bracketed words' is not accurate for this wave: SBLGNT also differs from NA28 outside brackets at 19:9 (SBLGNT prints the final clause kai ho apolelymenēn gamēsas moichatai, which NA28 omits) and 19:29 (SBLGNT ē gynaika, which NA28 omits); the verse notes already say so, so the entry should list them. (2) Adopt the Revelation reviewer's TR-vs-Byzantine discipline: where the SBLGNT apparatus shows no Robinson-Pierpont difference, a KJV reading is a TR (minority) reading, not 'the Byzantine text' (15:4 sou; 27:35 is already handled correctly); where RP differs but the KJV agrees with SBLGNT, say 'Byzantine majority, not TR/KJV' (4:10 opisō mou; 10:8 is already handled correctly). (3) The 17:21/23:14 inconsistency is correctly flagged; see founder decision 3."
+        },
+        {
+          "glossary_id": "raelian-canon-citation-reception-note-convention-matthew",
+          "status": "approve",
+          "citations": [
+            "matthew-canon-citations.md (TBWTT ch. 4, 5; ETTMTTP ch. 2; LWTE ch. 2, 3)",
+            "Kings wave precedent (1 Kgs 19:5, 11, 12)"
+          ],
+          "reasoning": "Direct is right for a presentation convention. Every one of the 26 reception notes was checked against the citation extract: quotations, chapter numbers and readings are accurate, and each sits in its own labelled paragraph. The two lexicon/canon coincidences (2:2, 9; 26:53) are disclosed as such and rest on BDAG and on versions that predate or are independent of the canon (NAB 1970; NASB)."
+        },
+        {
+          "glossary_id": "speech-introduction-colon-convention-matthew",
+          "status": "approve",
+          "citations": [
+            "published Mt 1:20, 13:24, 17:22 (colon precedent)"
+          ],
+          "reasoning": "Punctuation only; applied consistently in all 12 chapters (script check found no comma before a speech-verb quotation except the stated embedded-word exception at 9:5, 8:9, 23:7). Double quotes balance in every chapter. Harmonizing published 25 and 28 is a sensible later task."
+        },
+        {
+          "glossary_id": "proper-names-and-realia-forms-matthew",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994) at 8:28, 10:3, 15:39, 27:16-17, 27:46, 27:56",
+            "BDAG s.vv. Καναναῖος, Βεελζεβούλ, Ναζωραῖος, ἀσσάριον"
+          ],
+          "reasoning": "Direct is right: names follow the SBLGNT form in standard English spelling; Cananaean/Canaanite, Thaddaeus/Lebbaeus, Magadan/Magdala, Jesus Barabbas and Joseph/Joses explanations are accurate (see the 8:28 witness fix)."
+        },
+        {
+          "glossary_id": "pneuma-spirit-capitalization-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πνεῦμα 2, 5",
+            "Colwell, JBL 52 (1933) 12-21",
+            "Davies and Allison, ICC vol. 1, on 3:16"
+          ],
+          "reasoning": "Direct is right: the capitalization split (divine agent vs human/unclean spirits) is grammatically and contextually grounded; 3:16 anarthrous πνεῦμα θεοῦ as definite is the standard reading. Revelation wave uses the same capitalization ('Spirit' 3x, 'spirit' 4x)."
+        },
+        {
+          "glossary_id": "huios-theou-son-of-god-rendering-matthew",
+          "status": "approve",
+          "citations": [
+            "Colwell, JBL 52 (1933) 12-21",
+            "BDAG s.v. υἱός 2d",
+            "Brown, The Death of the Messiah (1994), on 27:54"
+          ],
+          "reasoning": "Direct is right; Colwell is correctly invoked as 'not necessarily indefinite', with context deciding. Non-blocking wording fix: 27:54 does not repeat 14:33 'word for word' (ei vs ēn houtos); say 'closely echoes' in the entry and in the 14:33 and 27:54 notes."
+        },
+        {
+          "glossary_id": "naos-sanctuary-hieron-temple-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a, ἱερόν",
+            "O. Michel, TDNT 4",
+            "Josephus, War 5.184-247",
+            "NRSV Mt 23:16-35"
+          ],
+          "reasoning": "Direct is right: the naos/hieron distinction is lexical and Matthew observes it. Two notes. (1) Factual: to my reading the ASV has 'sanctuary' at 27:5 as well as 23:35, so standardEnglish should say 'ASV except 23:35 and 27:5'; verify. (2) Cross-book: the Revelation wave renders ναός 'temple' (Revelation has no ἱερόν to contrast); that is defensible, but if this entry is promoted, scope it to books where both words occur (Gospels, Acts) and say why Revelation differs."
+        },
+        {
+          "glossary_id": "seismos-tempest-earthquake-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. σεισμός (Mt 8:24 under storm at sea)",
+            "G. Bornkamm, in Tradition and Interpretation in Matthew (1963)"
+          ],
+          "reasoning": "Direct is right; context-decided English with the common lemma in commentary."
+        },
+        {
+          "glossary_id": "ge-land-earth-mt-27-45",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. γῆ 1, 3",
+            "Brown, The Death of the Messiah (1994), ad loc."
+          ],
+          "reasoning": "Direct is right: 'land' is the ASV/KJV/RSV/NRSV rendering and the cosmic option is documented."
+        },
+        {
+          "glossary_id": "koustodia-you-have-a-guard-mt-27-65",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. κουστωδία",
+            "Brown, The Death of the Messiah (1994), ad loc."
+          ],
+          "reasoning": "Direct is right; the ambiguity is preserved in English and documented."
+        }
+      ],
+      "centralDiffReview": [
+        {
+          "op": "version",
+          "from": "2.80.0",
+          "to": "2.81.0",
+          "status": "approve",
+          "reasoning": "Minor bump 2.80.0 to 2.81.0 is right for appliesTo-only changes; the union-merge sequencing note for the parallel Revelation/Ezekiel diffs is correct and necessary."
+        },
+        {
+          "op": "modify",
+          "id": "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic",
+          "status": "approve",
+          "reasoning": "Verified: base preserved; additions are the titular sites (2:4; 23:10; 26:63, 68; 27:17, 22)."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "lensLeakageCheck": "Every English line of the chapter was read against the Greek. No line adds interpretive content, uses Raëlian-canon vocabulary (no Elohim, Yahweh, craft, creators, ray, planet, Eternals), or resolves an ambiguity in the canon's direction. Each Wheel of Heaven reading sits in its own paragraph headed 'reception note, not a translation claim'. The two lines that coincide with the canon's French were tested specifically: 2:2/2:9 'at its rising' (BDAG ἀνατολή 1 cites both verses; NAB 1970, NRSV, ESV) and 26:53 'put at my disposal' (BDAG παρίστημι 1a cites the verse; NASB identical wording). In both the lexical ground is real and independent of the canon, so neither is lens leakage.",
+      "escalationReportAdjustments": "Initial verdicts were formed from the Greek, the chapter JSON, the overlay and the central diff before the escalation report (wave-m2-editor-report.md) was opened. The report added no information that changes a verdict. It repeats the RSV attribution for 2:2/9 ('RSV, NRSV, NAB'), which this review corrects. Its ten founder-preference points are answered in founderDecisionRecommendations, and its follow-ups (17:21; 17:22; comma/colon in 25 and 28; the 6:13 'testing' wording in central) are endorsed as later-pass items.",
+      "founderDecisionRecommendations": {
+        "1-angelos-angel": "Endorse. ἄγγελος is the technical term for a heavenly envoy in first-century Jewish Greek (BDAG s.v. 2); published Mt 1, 13, 25, 28, Acts 12 and the Revelation wave all print 'angel', so the Greek NT is already harmonized in practice. Promote jointly with Revelation as a central Greek-NT convention; keep 'messenger of YHWH' for Hebrew malʾāḵ.",
+        "2-naos-sanctuary": "Endorse for Matthew. The naos/hieron distinction is lexical (BDAG; Josephus) and NRSV marks it in 23:16-35. 27:5 keeps Matthew's crux honestly (and, to my reading, restores the ASV's own 'sanctuary'). If promoted, scope it to books with both terms; Revelation's 'temple' for ναός is defensible because it has no ἱερόν.",
+        "3-23:14-no-paragraph": "Endorse. SBLGNT has no 23:14; the Byzantine text is quoted in full at 23:13 with witnesses, as the 6:13b precedent and the Revelation ruling C require. Recommend a later pass bring the stable 17:21 into line: its bracketed Greek is not SBLGNT text, so drop the paragraph and move the Byzantine wording into the 17:20 commentary.",
+        "4-colon-convention": "Endorse (punctuation only; applied without exception in the wave). Harmonize published 25 and 28 in a later pass.",
+        "5-magi": "Endorse. 'magi' is the standard scholarly rendering (BDAG; Brown; Powell) and NIV/NAB usage; 'wise men' is noted.",
+        "6-faithfulness-23:23": "Endorse. BDAG lists Mt 23:23 under πίστις 1a 'faithfulness, reliability'; NIV and ESV render so; the Mic 6:8 triad is conduct.",
+        "7-put-at-my-disposal-26:53": "Endorse. BDAG παρίστημι 1a cites this verse for 'put at someone's disposal', and the NASB prints exactly 'put at My disposal'; the ground is independent of the canon's French, and the coincidence is disclosed.",
+        "8-at-its-rising-2:2,9": "Endorse. BDAG ἀνατολή 1 cites both verses; NAB (1970, before TBWTT) and NRSV read 'at its rising', ESV 'when it rose'. Correct the RSV attribution (the RSV reads 'in the East').",
+        "9-defiles-a-person": "Endorse. The article with ἄνθρωπος is generic; the canon's own French « l'homme » is generic too, so the line follows the sense the canon intends rather than the English edition's 'the man'.",
+        "10-tempted-4:1": "Endorse. Agent-driven 'tempted'/'the tempter' is BDAG's and the versions' reading with the devil as agent, and agrees with published 6:13; the test reading (Gerhardsson; canon « mis à l'épreuve ») is properly in commentary. Optionally align the chapter 4 title ('The testing in the wilderness') with the line."
+      },
+      "summary": {
+        "approve": 66,
+        "revise": 0,
+        "flag-for-human": 0,
+        "statusSetTo": "reviewer-approved"
+      }
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "MAT-WOH-27:1",
+      "text": "Πρωΐας δὲ γενομένης συμβούλιον ἔλαβον πάντες οἱ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι τοῦ λαοῦ κατὰ τοῦ Ἰησοῦ ὥστε θανατῶσαι αὐτόν·",
+      "translit": "prōias de genomenēs symboulion elabon pantes hoi archiereis kai hoi presbyteroi tou laou kata tou iēsou hōste thanatōsai auton·",
+      "i18n": {
+        "en": "When morning had come, all the chief priests and the elders of the people took counsel against Jesus, so as to put him to death;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 2,
+      "refId": "MAT-WOH-27:2",
+      "text": "καὶ δήσαντες αὐτὸν ἀπήγαγον καὶ παρέδωκαν Πιλάτῳ τῷ ἡγεμόνι.",
+      "translit": "kai dēsantes auton apēgagon kai paredōkan pilatō tō hēgemoni.",
+      "i18n": {
+        "en": "and they bound him and led him away and handed him over to Pilate the governor."
+      },
+      "notes": {
+        "official": "*Pilatō tō hēgemoni* 'to Pilate the governor' (critical text). The Byzantine text and the KJV read *Pontiō Pilatō* 'Pontius Pilate' (`critical-text-baseline-and-byzantine-variant-recording-matthew`). Pilate was prefect of Judea 26-36 CE; *hēgemōn* is the general word for governor.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 3,
+      "refId": "MAT-WOH-27:3",
+      "text": "Τότε ἰδὼν Ἰούδας ὁ παραδιδοὺς αὐτὸν ὅτι κατεκρίθη μεταμεληθεὶς ἔστρεψεν τὰ τριάκοντα ἀργύρια τοῖς ἀρχιερεῦσιν καὶ πρεσβυτέροις",
+      "translit": "tote idōn ioudas ho paradidous auton hoti katekrithē metamelētheis estrepsen ta triakonta argyria tois archiereusin kai presbyterois",
+      "i18n": {
+        "en": "Then Judas, who had handed him over, seeing that he had been condemned, was seized with remorse and brought back the thirty pieces of silver to the chief priests and elders,"
+      },
+      "notes": {
+        "official": "*metamelētheis* 'seized with remorse': Matthew uses *metamelomai* 'regret', not *metanoeō* 'repent' (3:2; 4:17).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 4,
+      "refId": "MAT-WOH-27:4",
+      "text": "λέγων· Ἥμαρτον παραδοὺς αἷμα ἀθῷον. οἱ δὲ εἶπαν· Τί πρὸς ἡμᾶς; σὺ ὄψῃ.",
+      "translit": "legōn· hēmarton paradous haima athōon. hoi de eipan· ti pros hēmas; sy opsē.",
+      "i18n": {
+        "en": "saying: \"I have sinned in handing over innocent blood.\" But they said: \"What is that to us? You see to it.\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 5,
+      "refId": "MAT-WOH-27:5",
+      "text": "καὶ ῥίψας τὰ ἀργύρια εἰς τὸν ναὸν ἀνεχώρησεν, καὶ ἀπελθὼν ἀπήγξατο.",
+      "translit": "kai rhipsas ta argyria eis ton naon anechōrēsen, kai apelthōn apēnxato.",
+      "i18n": {
+        "en": "And throwing the pieces of silver into the sanctuary, he departed; and he went away and hanged himself."
+      },
+      "notes": {
+        "official": "*rhipsas ta argyria eis ton naon* 'throwing the pieces of silver into the sanctuary': *naos* is the sanctuary building, which only priests could enter (`naos-sanctuary-hieron-temple-matthew`). Commentators either take *naos* loosely here for the temple as a whole or picture Judas throwing the coins into the sanctuary from outside; the line keeps the word Matthew chose, which echoes Zech 11:13 ('I threw them into the house of YHWH'). The draft had 'temple'. Acts 1:18 gives a different account of Judas' death.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "naos-sanctuary-hieron-temple-matthew"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "MAT-WOH-27:6",
+      "text": "οἱ δὲ ἀρχιερεῖς λαβόντες τὰ ἀργύρια εἶπαν· Οὐκ ἔξεστιν βαλεῖν αὐτὰ εἰς τὸν κορβανᾶν, ἐπεὶ τιμὴ αἵματός ἐστιν·",
+      "translit": "hoi de archiereis labontes ta argyria eipan· ouk exestin balein auta eis ton korbanan, epei timē haimatos estin·",
+      "i18n": {
+        "en": "But the chief priests took the pieces of silver and said: \"It is not lawful to put them into the treasury, since it is the price of blood.\""
+      },
+      "notes": {
+        "official": "*eis ton korbanan* 'into the treasury': the temple treasury, from the same root as *korban* 'offering' (cf. 15:5). *timē haimatos* 'the price of blood'.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 7,
+      "refId": "MAT-WOH-27:7",
+      "text": "συμβούλιον δὲ λαβόντες ἠγόρασαν ἐξ αὐτῶν τὸν Ἀγρὸν τοῦ Κεραμέως εἰς ταφὴν τοῖς ξένοις.",
+      "translit": "symboulion de labontes ēgorasan ex autōn ton agron tou kerameōs eis taphēn tois xenois.",
+      "i18n": {
+        "en": "And they took counsel and bought with them the potter's field, as a burial place for strangers."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 8,
+      "refId": "MAT-WOH-27:8",
+      "text": "διὸ ἐκλήθη ὁ ἀγρὸς ἐκεῖνος Ἀγρὸς Αἵματος ἕως τῆς σήμερον.",
+      "translit": "dio eklēthē ho agros ekeinos agros haimatos heōs tēs sēmeron.",
+      "i18n": {
+        "en": "Therefore that field has been called the Field of Blood to this day."
+      },
+      "notes": {
+        "official": "*Agros Haimatos* 'the Field of Blood'; Acts 1:19 gives the Aramaic name, Akeldama. *heōs tēs sēmeron* 'to this day' is an aetiological formula, like the Hebrew *ʿad hayyôm hazzeh*.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 9,
+      "refId": "MAT-WOH-27:9",
+      "text": "τότε ἐπληρώθη τὸ ῥηθὲν διὰ Ἰερεμίου τοῦ προφήτου λέγοντος· Καὶ ἔλαβον τὰ τριάκοντα ἀργύρια, τὴν τιμὴν τοῦ τετιμημένου ὃν ἐτιμήσαντο ἀπὸ υἱῶν Ἰσραήλ,",
+      "translit": "tote eplērōthē to rhēthen dia ieremiou tou prophētou legontos· kai elabon ta triakonta argyria, tēn timēn tou tetimēmenou hon etimēsanto apo huiōn israēl,",
+      "i18n": {
+        "en": "Then was fulfilled what was spoken through Jeremiah the prophet, saying: \"And they took the thirty pieces of silver, the price of the one who was priced, whom some of the sons of Israel priced,"
+      },
+      "notes": {
+        "official": "The quotation is attributed to *Ieremiou tou prophētou* 'Jeremiah the prophet' in SBLGNT and nearly all witnesses, although its wording comes mainly from Zech 11:12-13 (thirty pieces of silver, thrown to the potter in the house of YHWH). Elements come from Jeremiah: the potter (Jer 18:1-3), the purchase of a field (Jer 32:6-15) and the valley of slaughter outside Jerusalem (Jer 19:1-13). A few witnesses read 'Zechariah' or omit the name; these are corrections, and the line follows SBLGNT (Metzger, Textual Commentary, ad loc.; `critical-text-baseline-and-byzantine-variant-recording-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "MAT-WOH-27:10",
+      "text": "καὶ ἔδωκαν αὐτὰ εἰς τὸν ἀγρὸν τοῦ κεραμέως, καθὰ συνέταξέν μοι κύριος.",
+      "translit": "kai edōkan auta eis ton agron tou kerameōs, katha synetaxen moi kyrios.",
+      "i18n": {
+        "en": "and they gave them for the potter's field, as the Lord directed me.\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 11,
+      "refId": "MAT-WOH-27:11",
+      "text": "Ὁ δὲ Ἰησοῦς ἐστάθη ἔμπροσθεν τοῦ ἡγεμόνος· καὶ ἐπηρώτησεν αὐτὸν ὁ ἡγεμὼν λέγων· Σὺ εἶ ὁ βασιλεὺς τῶν Ἰουδαίων; ὁ δὲ Ἰησοῦς ἔφη· Σὺ λέγεις.",
+      "translit": "ho de iēsous estathē emprosthen tou hēgemonos· kai epērōtēsen auton ho hēgemōn legōn· sy ei ho basileus tōn ioudaiōn; ho de iēsous ephē· sy legeis.",
+      "i18n": {
+        "en": "Now Jesus stood before the governor; and the governor asked him, saying: \"Are you the King of the Jews?\" And Jesus said: \"You say so.\""
+      },
+      "notes": {
+        "official": "*Sy legeis* 'You say so': an answer that neither denies nor fully accepts the title in Pilate's sense (cf. 26:25, 64).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 12,
+      "refId": "MAT-WOH-27:12",
+      "text": "καὶ ἐν τῷ κατηγορεῖσθαι αὐτὸν ὑπὸ τῶν ἀρχιερέων καὶ πρεσβυτέρων οὐδὲν ἀπεκρίνατο.",
+      "translit": "kai en tō katēgoreisthai auton hypo tōn archiereōn kai presbyterōn ouden apekrinato.",
+      "i18n": {
+        "en": "And while he was being accused by the chief priests and elders, he answered nothing."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 13,
+      "refId": "MAT-WOH-27:13",
+      "text": "τότε λέγει αὐτῷ ὁ Πιλᾶτος· Οὐκ ἀκούεις πόσα σου καταμαρτυροῦσιν;",
+      "translit": "tote legei autō ho pilatos· ouk akoueis posa sou katamartyrousin;",
+      "i18n": {
+        "en": "Then Pilate says to him: \"Do you not hear how many things they testify against you?\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 14,
+      "refId": "MAT-WOH-27:14",
+      "text": "καὶ οὐκ ἀπεκρίθη αὐτῷ πρὸς οὐδὲ ἓν ῥῆμα, ὥστε θαυμάζειν τὸν ἡγεμόνα λίαν.",
+      "translit": "kai ouk apekrithē autō pros oude hen rhēma, hōste thaumazein ton hēgemona lian.",
+      "i18n": {
+        "en": "And he did not answer him, not even to a single word, so that the governor marveled greatly."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 15,
+      "refId": "MAT-WOH-27:15",
+      "text": "Κατὰ δὲ ἑορτὴν εἰώθει ὁ ἡγεμὼν ἀπολύειν ἕνα τῷ ὄχλῳ δέσμιον ὃν ἤθελον.",
+      "translit": "kata de heortēn eiōthei ho hēgemōn apolyein hena tō ochlō desmion hon ēthelon.",
+      "i18n": {
+        "en": "Now at the feast the governor was accustomed to release to the crowd one prisoner, whom they wished."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 16,
+      "refId": "MAT-WOH-27:16",
+      "text": "εἶχον δὲ τότε δέσμιον ἐπίσημον λεγόμενον Ἰησοῦν Βαραββᾶν.",
+      "translit": "eichon de tote desmion episēmon legomenon iēsoun barabban.",
+      "i18n": {
+        "en": "And they had then a notorious prisoner called Jesus Barabbas."
+      },
+      "notes": {
+        "official": "*Iēsoun Barabban* 'Jesus Barabbas': SBLGNT and NA28 read the double name with Θ, family 1 and 700, and Origen knew it in manuscripts of his time. Vaticanus, Sinaiticus, the Byzantine text and the KJV read 'Barabbas' alone. The editors judge it more likely that copyists removed the name 'Jesus' from a criminal than that they added it (Metzger, Textual Commentary, ad loc.; `critical-text-baseline-and-byzantine-variant-recording-matthew`; `proper-names-and-realia-forms-matthew`). *Bar-abbā* is Aramaic for 'son of the father'. Where the Greek gives the name alone (27:20, 21, 26), the line reads 'Barabbas'.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "proper-names-and-realia-forms-matthew"
+      ]
+    },
+    {
+      "n": 17,
+      "refId": "MAT-WOH-27:17",
+      "text": "συνηγμένων οὖν αὐτῶν εἶπεν αὐτοῖς ὁ Πιλᾶτος· Τίνα θέλετε ἀπολύσω ὑμῖν, Ἰησοῦν τὸν Βαραββᾶν ἢ Ἰησοῦν τὸν λεγόμενον χριστόν;",
+      "translit": "synēgmenōn oun autōn eipen autois ho pilatos· tina thelete apolysō hymin, iēsoun ton barabban ē iēsoun ton legomenon christon;",
+      "i18n": {
+        "en": "So when they had gathered together, Pilate said to them: \"Whom do you wish me to release to you: Jesus Barabbas, or Jesus who is called Christ?\""
+      },
+      "notes": {
+        "official": "*Iēsoun ton Barabban ē Iēsoun ton legomenon christon* 'Jesus Barabbas, or Jesus who is called Christ': in the SBLGNT text Pilate's question sets two men named Jesus side by side. On the variant see 27:16.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic",
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "proper-names-and-realia-forms-matthew"
+      ]
+    },
+    {
+      "n": 18,
+      "refId": "MAT-WOH-27:18",
+      "text": "ᾔδει γὰρ ὅτι διὰ φθόνον παρέδωκαν αὐτόν.",
+      "translit": "ēdei gar hoti dia phthonon paredōkan auton.",
+      "i18n": {
+        "en": "For he knew that it was out of envy that they had handed him over."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 19,
+      "refId": "MAT-WOH-27:19",
+      "text": "Καθημένου δὲ αὐτοῦ ἐπὶ τοῦ βήματος ἀπέστειλεν πρὸς αὐτὸν ἡ γυνὴ αὐτοῦ λέγουσα· Μηδὲν σοὶ καὶ τῷ δικαίῳ ἐκείνῳ, πολλὰ γὰρ ἔπαθον σήμερον κατʼ ὄναρ διʼ αὐτόν.",
+      "translit": "kathēmenou de autou epi tou bēmatos apesteilen pros auton hē gynē autou legousa· mēden soi kai tō dikaiō ekeinō, polla gar epathon sēmeron katʼ onar diʼ auton.",
+      "i18n": {
+        "en": "And while he was sitting on the judgment seat, his wife sent to him, saying: \"Have nothing to do with that righteous man, for I have suffered many things today in a dream because of him.\""
+      },
+      "notes": {
+        "official": "*kat' onar* 'in a dream': the last of Matthew's dream revelations (cf. 1:20; 2:12-22).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 20,
+      "refId": "MAT-WOH-27:20",
+      "text": "Οἱ δὲ ἀρχιερεῖς καὶ οἱ πρεσβύτεροι ἔπεισαν τοὺς ὄχλους ἵνα αἰτήσωνται τὸν Βαραββᾶν τὸν δὲ Ἰησοῦν ἀπολέσωσιν.",
+      "translit": "hoi de archiereis kai hoi presbyteroi epeisan tous ochlous hina aitēsōntai ton barabban ton de iēsoun apolesōsin.",
+      "i18n": {
+        "en": "But the chief priests and the elders persuaded the crowds to ask for Barabbas and to destroy Jesus."
+      },
+      "notes": {
+        "official": "'persuaded the crowds to ask for Barabbas and to destroy Jesus': *apolesōsin* 'destroy', the verb of Herod's intention at 2:13.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** Let's Welcome the Extraterrestrials (ch. 3) quotes 27:20 ('But the chief priests and elders persuaded the multitudes that they should ask for Barabbas and destroy Jesus') and compares the officially recognized religions of today, which persuade 'the crowds' that only ancient religions are acceptable. The canon's English follows the KJV, which has no 'Jesus' before Barabbas at 27:16-17; the verse itself reads 'Barabbas' alone in both texts.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 21,
+      "refId": "MAT-WOH-27:21",
+      "text": "ἀποκριθεὶς δὲ ὁ ἡγεμὼν εἶπεν αὐτοῖς· Τίνα θέλετε ἀπὸ τῶν δύο ἀπολύσω ὑμῖν; οἱ δὲ εἶπαν· Τὸν Βαραββᾶν.",
+      "translit": "apokritheis de ho hēgemōn eipen autois· tina thelete apo tōn dyo apolysō hymin; hoi de eipan· ton barabban.",
+      "i18n": {
+        "en": "And the governor answered and said to them: \"Which of the two do you wish me to release to you?\" And they said: \"Barabbas.\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 22,
+      "refId": "MAT-WOH-27:22",
+      "text": "λέγει αὐτοῖς ὁ Πιλᾶτος· Τί οὖν ποιήσω Ἰησοῦν τὸν λεγόμενον χριστόν; λέγουσιν πάντες· Σταυρωθήτω.",
+      "translit": "legei autois ho pilatos· ti oun poiēsō iēsoun ton legomenon christon; legousin pantes· staurōthētō.",
+      "i18n": {
+        "en": "Pilate says to them: \"What then shall I do with Jesus who is called Christ?\" They all say: \"Let him be crucified!\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic"
+      ]
+    },
+    {
+      "n": 23,
+      "refId": "MAT-WOH-27:23",
+      "text": "ὁ δὲ ἔφη· Τί γὰρ κακὸν ἐποίησεν; οἱ δὲ περισσῶς ἔκραζον λέγοντες· Σταυρωθήτω.",
+      "translit": "ho de ephē· ti gar kakon epoiēsen; hoi de perissōs ekrazon legontes· staurōthētō.",
+      "i18n": {
+        "en": "And he said: \"Why, what evil has he done?\" But they were crying out all the more, saying: \"Let him be crucified!\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 24,
+      "refId": "MAT-WOH-27:24",
+      "text": "Ἰδὼν δὲ ὁ Πιλᾶτος ὅτι οὐδὲν ὠφελεῖ ἀλλὰ μᾶλλον θόρυβος γίνεται λαβὼν ὕδωρ ἀπενίψατο τὰς χεῖρας ἀπέναντι τοῦ ὄχλου λέγων· Ἀθῷός εἰμι ἀπὸ τοῦ αἵματος τούτου· ὑμεῖς ὄψεσθε.",
+      "translit": "idōn de ho pilatos hoti ouden ōphelei alla mallon thorybos ginetai labōn hydōr apenipsato tas cheiras apenanti tou ochlou legōn· athōos eimi apo tou haimatos toutou· hymeis opsesthe.",
+      "i18n": {
+        "en": "So when Pilate saw that he was gaining nothing, but rather that an uproar was starting, he took water and washed his hands before the crowd, saying: \"I am innocent of this blood; you see to it.\""
+      },
+      "notes": {
+        "official": "*Athōos eimi apo tou haimatos toutou* 'I am innocent of this blood' (SBLGNT, with Vaticanus, Bezae and Θ). Sinaiticus, the Byzantine text and the KJV read *tou dikaiou toutou* 'of the blood of this just person' (`critical-text-baseline-and-byzantine-variant-recording-matthew`). The handwashing recalls the rite of Deut 21:6-9, by which elders declare their innocence of a blood guilt.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 25,
+      "refId": "MAT-WOH-27:25",
+      "text": "καὶ ἀποκριθεὶς πᾶς ὁ λαὸς εἶπεν· Τὸ αἷμα αὐτοῦ ἐφʼ ἡμᾶς καὶ ἐπὶ τὰ τέκνα ἡμῶν.",
+      "translit": "kai apokritheis pas ho laos eipen· to haima autou ephʼ hēmas kai epi ta tekna hēmōn.",
+      "i18n": {
+        "en": "And all the people answered and said: \"His blood be on us and on our children!\""
+      },
+      "notes": {
+        "official": "*pas ho laos* 'all the people': Matthew's word for Israel as a people, not *ho ochlos* 'the crowd'. For centuries the verse was used to ground a charge of collective and hereditary Jewish guilt for Jesus' death; the Second Vatican Council's declaration Nostra Aetate (1965, §4) rejects that reading, and modern commentators read the line within Matthew's narrative of the fall of Jerusalem in 70 CE (Davies and Allison, ICC, ad loc.).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 26,
+      "refId": "MAT-WOH-27:26",
+      "text": "τότε ἀπέλυσεν αὐτοῖς τὸν Βαραββᾶν, τὸν δὲ Ἰησοῦν φραγελλώσας παρέδωκεν ἵνα σταυρωθῇ.",
+      "translit": "tote apelysen autois ton barabban, ton de iēsoun phragellōsas paredōken hina staurōthē.",
+      "i18n": {
+        "en": "Then he released Barabbas to them; but Jesus, having had him scourged, he handed over to be crucified."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 27,
+      "refId": "MAT-WOH-27:27",
+      "text": "Τότε οἱ στρατιῶται τοῦ ἡγεμόνος παραλαβόντες τὸν Ἰησοῦν εἰς τὸ πραιτώριον συνήγαγον ἐπʼ αὐτὸν ὅλην τὴν σπεῖραν.",
+      "translit": "tote hoi stratiōtai tou hēgemonos paralabontes ton iēsoun eis to praitōrion synēgagon epʼ auton holēn tēn speiran.",
+      "i18n": {
+        "en": "Then the soldiers of the governor took Jesus into the praetorium and gathered the whole cohort around him."
+      },
+      "notes": {
+        "official": "*eis to praitōrion* 'into the praetorium', the governor's residence; *holēn tēn speiran* 'the whole cohort', nominally 600 soldiers.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 28,
+      "refId": "MAT-WOH-27:28",
+      "text": "καὶ ἐκδύσαντες αὐτὸν χλαμύδα κοκκίνην περιέθηκαν αὐτῷ,",
+      "translit": "kai ekdysantes auton chlamyda kokkinēn periethēkan autō,",
+      "i18n": {
+        "en": "And they stripped him and put a scarlet cloak around him,"
+      },
+      "notes": {
+        "official": "*chlamyda kokkinēn* 'a scarlet cloak': a soldier's red cloak, used as a mock royal robe (Mark 15:17 'purple').",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 29,
+      "refId": "MAT-WOH-27:29",
+      "text": "καὶ πλέξαντες στέφανον ἐξ ἀκανθῶν ἐπέθηκαν ἐπὶ τῆς κεφαλῆς αὐτοῦ καὶ κάλαμον ἐν τῇ δεξιᾷ αὐτοῦ, καὶ γονυπετήσαντες ἔμπροσθεν αὐτοῦ ἐνέπαιξαν αὐτῷ λέγοντες· Χαῖρε, βασιλεῦ τῶν Ἰουδαίων,",
+      "translit": "kai plexantes stephanon ex akanthōn epethēkan epi tēs kephalēs autou kai kalamon en tē dexia autou, kai gonypetēsantes emprosthen autou enepaixan autō legontes· chaire, basileu tōn ioudaiōn,",
+      "i18n": {
+        "en": "and having woven a crown out of thorns, they put it on his head, and a reed in his right hand; and kneeling before him they mocked him, saying: \"Hail, King of the Jews!\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 30,
+      "refId": "MAT-WOH-27:30",
+      "text": "καὶ ἐμπτύσαντες εἰς αὐτὸν ἔλαβον τὸν κάλαμον καὶ ἔτυπτον εἰς τὴν κεφαλὴν αὐτοῦ.",
+      "translit": "kai emptysantes eis auton elabon ton kalamon kai etypton eis tēn kephalēn autou.",
+      "i18n": {
+        "en": "And they spat on him, and took the reed and were striking him on the head."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 31,
+      "refId": "MAT-WOH-27:31",
+      "text": "καὶ ὅτε ἐνέπαιξαν αὐτῷ, ἐξέδυσαν αὐτὸν τὴν χλαμύδα καὶ ἐνέδυσαν αὐτὸν τὰ ἱμάτια αὐτοῦ καὶ ἀπήγαγον αὐτὸν εἰς τὸ σταυρῶσαι.",
+      "translit": "kai hote enepaixan autō, exedysan auton tēn chlamyda kai enedysan auton ta himatia autou kai apēgagon auton eis to staurōsai.",
+      "i18n": {
+        "en": "And when they had mocked him, they stripped him of the cloak and put his own garments on him, and led him away to crucify him."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 32,
+      "refId": "MAT-WOH-27:32",
+      "text": "Ἐξερχόμενοι δὲ εὗρον ἄνθρωπον Κυρηναῖον ὀνόματι Σίμωνα· τοῦτον ἠγγάρευσαν ἵνα ἄρῃ τὸν σταυρὸν αὐτοῦ.",
+      "translit": "exerchomenoi de heuron anthrōpon kyrēnaion onomati simōna· touton ēngareusan hina arē ton stauron autou.",
+      "i18n": {
+        "en": "And as they were coming out, they found a man of Cyrene named Simon; this man they compelled to carry his cross."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 33,
+      "refId": "MAT-WOH-27:33",
+      "text": "Καὶ ἐλθόντες εἰς τόπον λεγόμενον Γολγοθᾶ, ὅ ἐστιν Κρανίου Τόπος λεγόμενος,",
+      "translit": "kai elthontes eis topon legomenon golgotha, ho estin kraniou topos legomenos,",
+      "i18n": {
+        "en": "And when they came to a place called Golgotha, which means Place of a Skull,"
+      },
+      "notes": {
+        "official": "*Golgotha* transliterates Aramaic *gulgaltāʾ* 'skull', and the Greek glosses it *Kraniou Topos* 'Place of a Skull' (`proper-names-and-realia-forms-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "proper-names-and-realia-forms-matthew"
+      ]
+    },
+    {
+      "n": 34,
+      "refId": "MAT-WOH-27:34",
+      "text": "ἔδωκαν αὐτῷ πιεῖν οἶνον μετὰ χολῆς μεμιγμένον· καὶ γευσάμενος οὐκ ἠθέλησεν πιεῖν.",
+      "translit": "edōkan autō piein oinon meta cholēs memigmenon· kai geusamenos ouk ēthelēsen piein.",
+      "i18n": {
+        "en": "they gave him wine mixed with gall to drink; and when he had tasted it, he would not drink."
+      },
+      "notes": {
+        "official": "*oinon meta cholēs memigmenon* 'wine mixed with gall': *oinon* 'wine' is the critical text. The Byzantine text and the KJV read *oxos* 'vinegar' (sour wine), assimilating to Ps 69:22 (EV 69:21; 68:22 LXX), 'They gave me gall for food, and for my thirst they gave me vinegar to drink' (`critical-text-baseline-and-byzantine-variant-recording-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 35,
+      "refId": "MAT-WOH-27:35",
+      "text": "σταυρώσαντες δὲ αὐτὸν διεμερίσαντο τὰ ἱμάτια αὐτοῦ βάλλοντες κλῆρον,",
+      "translit": "staurōsantes de auton diemerisanto ta himatia autou ballontes klēron,",
+      "i18n": {
+        "en": "And when they had crucified him, they divided his garments among them by casting lots;"
+      },
+      "notes": {
+        "official": "*diemerisanto ta himatia autou ballontes klēron* 'they divided his garments among them by casting lots', the wording of Ps 22:19 (EV 22:18). The TR and the KJV add the fulfilment formula 'that it might be fulfilled which was spoken by the prophet, They parted my garments among them, and upon my vesture did they cast lots'. It is imported from John 19:24 and is absent from Vaticanus, Sinaiticus, the majority of Byzantine manuscripts and the critical text; it is present in Θ, families 1 and 13 and the TR (Metzger, Textual Commentary, ad loc.; `critical-text-baseline-and-byzantine-variant-recording-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 36,
+      "refId": "MAT-WOH-27:36",
+      "text": "καὶ καθήμενοι ἐτήρουν αὐτὸν ἐκεῖ.",
+      "translit": "kai kathēmenoi etēroun auton ekei.",
+      "i18n": {
+        "en": "and sitting down, they were keeping watch over him there."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 37,
+      "refId": "MAT-WOH-27:37",
+      "text": "καὶ ἐπέθηκαν ἐπάνω τῆς κεφαλῆς αὐτοῦ τὴν αἰτίαν αὐτοῦ γεγραμμένην· Οὗτός ἐστιν Ἰησοῦς ὁ βασιλεὺς τῶν Ἰουδαίων.",
+      "translit": "kai epethēkan epanō tēs kephalēs autou tēn aitian autou gegrammenēn· houtos estin iēsous ho basileus tōn ioudaiōn.",
+      "i18n": {
+        "en": "And they set over his head the charge against him, written: \"This is Jesus, the King of the Jews.\""
+      },
+      "notes": {
+        "official": "*tēn aitian autou* 'the charge against him': the *titulus* naming the offence. Matthew's wording adds 'This is Jesus' to Mark's 'The King of the Jews'.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 38,
+      "refId": "MAT-WOH-27:38",
+      "text": "Τότε σταυροῦνται σὺν αὐτῷ δύο λῃσταί, εἷς ἐκ δεξιῶν καὶ εἷς ἐξ εὐωνύμων.",
+      "translit": "tote staurountai syn autō dyo lēstai, heis ek dexiōn kai heis ex euōnymōn.",
+      "i18n": {
+        "en": "Then two robbers are crucified with him, one on the right and one on the left."
+      },
+      "notes": {
+        "official": "*dyo lēstai* 'two robbers': *lēstēs* is also used of bandits and insurgents (cf. 26:55).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 39,
+      "refId": "MAT-WOH-27:39",
+      "text": "οἱ δὲ παραπορευόμενοι ἐβλασφήμουν αὐτὸν κινοῦντες τὰς κεφαλὰς αὐτῶν",
+      "translit": "hoi de paraporeuomenoi eblasphēmoun auton kinountes tas kephalas autōn",
+      "i18n": {
+        "en": "And those who passed by were blaspheming him, wagging their heads"
+      },
+      "notes": {
+        "official": "*kinountes tas kephalas autōn* 'wagging their heads': Ps 22:8 (EV 22:7).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 40,
+      "refId": "MAT-WOH-27:40",
+      "text": "καὶ λέγοντες· Ὁ καταλύων τὸν ναὸν καὶ ἐν τρισὶν ἡμέραις οἰκοδομῶν, σῶσον σεαυτόν· εἰ υἱὸς εἶ τοῦ θεοῦ, κατάβηθι ἀπὸ τοῦ σταυροῦ.",
+      "translit": "kai legontes· ho katalyōn ton naon kai en trisin hēmerais oikodomōn, sōson seauton· ei huios ei tou theou, katabēthi apo tou staurou.",
+      "i18n": {
+        "en": "and saying: \"You who destroy the sanctuary and build it in three days, save yourself! If you are the Son of God, come down from the cross.\""
+      },
+      "notes": {
+        "official": "*Ho katalyōn ton naon* 'You who destroy the sanctuary', taking up the charge of 26:61 (`naos-sanctuary-hieron-temple-matthew`; the draft had 'temple'). *ei huios ei tou theou* 'If you are the Son of God' repeats the devil's condition of 4:3, 6 (`huios-theou-son-of-god-rendering-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "naos-sanctuary-hieron-temple-matthew",
+        "huios-theou-son-of-god-rendering-matthew"
+      ]
+    },
+    {
+      "n": 41,
+      "refId": "MAT-WOH-27:41",
+      "text": "ὁμοίως καὶ οἱ ἀρχιερεῖς ἐμπαίζοντες μετὰ τῶν γραμματέων καὶ πρεσβυτέρων ἔλεγον·",
+      "translit": "homoiōs kai hoi archiereis empaizontes meta tōn grammateōn kai presbyterōn elegon·",
+      "i18n": {
+        "en": "In the same way the chief priests also, mocking him with the scribes and elders, were saying:"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 42,
+      "refId": "MAT-WOH-27:42",
+      "text": "Ἄλλους ἔσωσεν, ἑαυτὸν οὐ δύναται σῶσαι· βασιλεὺς Ἰσραήλ ἐστιν, καταβάτω νῦν ἀπὸ τοῦ σταυροῦ καὶ πιστεύσομεν ἐπʼ αὐτόν.",
+      "translit": "allous esōsen, heauton ou dynatai sōsai· basileus israēl estin, katabatō nyn apo tou staurou kai pisteusomen epʼ auton.",
+      "i18n": {
+        "en": "\"He saved others; himself he cannot save. He is the King of Israel; let him come down now from the cross, and we will believe in him."
+      },
+      "notes": {
+        "official": "*basileus Israēl estin* 'He is the King of Israel': an ironic statement in the critical text. The Byzantine text and the KJV prefix *ei* ('If he be the King of Israel'). The critical text also reads *pisteusomen ep' auton* 'we will believe in him', the Byzantine text *autō* 'believe him' (`critical-text-baseline-and-byzantine-variant-recording-matthew`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** Extraterrestrials Took Me to Their Planet (ch. 2) quotes 27:42-43 in compressed form (« Qu'il descende (tout seul) de la croix maintenant… car il a dit : Je suis le fils de Dieu ») as an example of the sarcasm that met Jesus, as it met Muhammad, and states that Jesus now lives on for eternity among the Elohim. The line renders the critical text of both verses in full.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 43,
+      "refId": "MAT-WOH-27:43",
+      "text": "πέποιθεν ἐπὶ τὸν θεόν, ῥυσάσθω νῦν εἰ θέλει αὐτόν· εἶπεν γὰρ ὅτι Θεοῦ εἰμι υἱός.",
+      "translit": "pepoithen epi ton theon, rhysasthō nyn ei thelei auton· eipen gar hoti theou eimi huios.",
+      "i18n": {
+        "en": "He trusts in God; let God deliver him now, if he wants him; for he said: 'I am the Son of God.'\""
+      },
+      "notes": {
+        "official": "*pepoithen epi ton theon, rhysasthō nyn ei thelei auton* 'He trusts in God; let God deliver him now, if he wants him': Ps 22:9 (EV 22:8), in a form close to Wis 2:18-20 ('if the righteous man is God's son, he will help him'). *Theou eimi huios* 'I am the Son of God': the anarthrous predicate, as at 14:33 and 27:54, rendered definite because the mockers quote the claim put at 26:63 in the arthrous form (`huios-theou-son-of-god-rendering-matthew`). The colon follows this wave's convention (`speech-introduction-colon-convention-matthew`). See the reception note at 27:42.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "speech-introduction-colon-convention-matthew",
+        "huios-theou-son-of-god-rendering-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 44,
+      "refId": "MAT-WOH-27:44",
+      "text": "τὸ δʼ αὐτὸ καὶ οἱ λῃσταὶ οἱ συσταυρωθέντες σὺν αὐτῷ ὠνείδιζον αὐτόν.",
+      "translit": "to dʼ auto kai hoi lēstai hoi systaurōthentes syn autō ōneidizon auton.",
+      "i18n": {
+        "en": "And the robbers who were crucified with him also reviled him in the same way."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 45,
+      "refId": "MAT-WOH-27:45",
+      "text": "Ἀπὸ δὲ ἕκτης ὥρας σκότος ἐγένετο ἐπὶ πᾶσαν τὴν γῆν ἕως ὥρας ἐνάτης.",
+      "translit": "apo de hektēs hōras skotos egeneto epi pasan tēn gēn heōs hōras enatēs.",
+      "i18n": {
+        "en": "Now from the sixth hour there was darkness over all the land until the ninth hour."
+      },
+      "notes": {
+        "official": "*skotos egeneto epi pasan tēn gēn* 'there was darkness over all the land': *gē* can mean 'land' or 'earth' (BDAG s.v. 1, 3). The ASV, KJV, RSV and NRSV all read 'land', and the narrative needs no more than the region; a cosmic reading ('all the earth') is defended by some commentators and is not excluded by the English. The darkness at midday echoes Amos 8:9 ('I will cause the sun to go down at noon, and I will darken the earth in the clear day'). The central `cosmic-signs-cluster-joel-2-mark-13-acts-2-luke-21-rev-6-cross-corpus` is relevant background and is not applied (`ge-land-earth-mt-27-45`; Brown, The Death of the Messiah, ad loc.).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "ge-land-earth-mt-27-45"
+      ]
+    },
+    {
+      "n": 46,
+      "refId": "MAT-WOH-27:46",
+      "text": "περὶ δὲ τὴν ἐνάτην ὥραν ἀνεβόησεν ὁ Ἰησοῦς φωνῇ μεγάλῃ λέγων· Ἠλὶ ἠλὶ λεμὰ σαβαχθάνι; τοῦτʼ ἔστιν· Θεέ μου θεέ μου, ἱνατί με ἐγκατέλιπες;",
+      "translit": "peri de tēn enatēn hōran aneboēsen ho iēsous phōnē megalē legōn· ēli ēli lema sabachthani; toutʼ estin· thee mou thee mou, hinati me enkatelipes;",
+      "i18n": {
+        "en": "And about the ninth hour Jesus cried out with a loud voice, saying: \"Eli, Eli, lema sabachthani?\" that is: \"My God, my God, why have you forsaken me?\""
+      },
+      "notes": {
+        "official": "*Ēli ēli lema sabachthani* 'Eli, Eli, lema sabachthani' (SBLGNT spelling): Ps 22:2 (EV 22:1). The address *Ēli* is Hebrew (*ʾēlî*); *sabachthani* is Aramaic *šəḇaqtanî* (the Hebrew psalm has *ʿăzaḇtānî*). Sinaiticus and Vaticanus read *elōi elōi*, the Aramaic form of Mark 15:34; other witnesses read *lama* or *lima*, and Bezae reads *zaphthani*. The KJV's 'Eli, Eli, lama sabachthani' follows the Byzantine spelling (`proper-names-and-realia-forms-matthew`; `critical-text-baseline-and-byzantine-variant-recording-matthew`). The Hebrew *ʾēlî* explains the bystanders' 'He is calling Elijah' in 27:47 better than *elōi*.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "proper-names-and-realia-forms-matthew"
+      ]
+    },
+    {
+      "n": 47,
+      "refId": "MAT-WOH-27:47",
+      "text": "τινὲς δὲ τῶν ἐκεῖ ἑστηκότων ἀκούσαντες ἔλεγον ὅτι Ἠλίαν φωνεῖ οὗτος.",
+      "translit": "tines de tōn ekei hestēkotōn akousantes elegon hoti ēlian phōnei houtos.",
+      "i18n": {
+        "en": "And some of those who stood there, when they heard it, were saying: \"This man is calling Elijah.\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 48,
+      "refId": "MAT-WOH-27:48",
+      "text": "καὶ εὐθέως δραμὼν εἷς ἐξ αὐτῶν καὶ λαβὼν σπόγγον πλήσας τε ὄξους καὶ περιθεὶς καλάμῳ ἐπότιζεν αὐτόν.",
+      "translit": "kai eutheōs dramōn heis ex autōn kai labōn spongon plēsas te oxous kai peritheis kalamō epotizen auton.",
+      "i18n": {
+        "en": "And immediately one of them ran and took a sponge, filled it with sour wine, put it on a reed, and was giving him a drink."
+      },
+      "notes": {
+        "official": "*oxous* 'sour wine': the cheap wine of soldiers and labourers, echoing Ps 69:22 (EV 69:21).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 49,
+      "refId": "MAT-WOH-27:49",
+      "text": "οἱ δὲ λοιποὶ ἔλεγον· Ἄφες ἴδωμεν εἰ ἔρχεται Ἠλίας σώσων αὐτόν.",
+      "translit": "hoi de loipoi elegon· aphes idōmen ei erchetai ēlias sōsōn auton.",
+      "i18n": {
+        "en": "But the rest were saying: \"Let be; let us see whether Elijah is coming to save him.\""
+      },
+      "notes": {
+        "official": "SBLGNT, NA28 and the Byzantine text end the verse with 'whether Elijah is coming to save him'. Sinaiticus, Vaticanus, C, L and others add *allos de labōn lonchēn enyxen autou tēn pleuran, kai exēlthen hydōr kai haima* ('and another took a spear and pierced his side, and out came water and blood'), which places the spear-thrust before Jesus' death; in John 19:34 it follows the death. Despite its early support the editors judge it an interpolation from John (Metzger, Textual Commentary, ad loc.; `critical-text-baseline-and-byzantine-variant-recording-matthew`). The line follows SBLGNT.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 50,
+      "refId": "MAT-WOH-27:50",
+      "text": "ὁ δὲ Ἰησοῦς πάλιν κράξας φωνῇ μεγάλῃ ἀφῆκεν τὸ πνεῦμα.",
+      "translit": "ho de iēsous palin kraxas phōnē megalē aphēken to pneuma.",
+      "i18n": {
+        "en": "And Jesus cried out again with a loud voice and yielded up his spirit."
+      },
+      "notes": {
+        "official": "*aphēken to pneuma* 'yielded up his spirit': a Greek idiom for dying (ASV, KJV 'yielded up the ghost'). *to pneuma* is the human spirit, lower case, unlike 'the Spirit' of 3:16 and 4:1; the article functions as a possessive (`pneuma-spirit-capitalization-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "pneuma-spirit-capitalization-matthew"
+      ]
+    },
+    {
+      "n": 51,
+      "refId": "MAT-WOH-27:51",
+      "text": "καὶ ἰδοὺ τὸ καταπέτασμα τοῦ ναοῦ ἐσχίσθη ἀπʼ ἄνωθεν ἕως κάτω εἰς δύο, καὶ ἡ γῆ ἐσείσθη, καὶ αἱ πέτραι ἐσχίσθησαν,",
+      "translit": "kai idou to katapetasma tou naou eschisthē apʼ anōthen heōs katō eis dyo, kai hē gē eseisthē, kai hai petrai eschisthēsan,",
+      "i18n": {
+        "en": "And behold, the curtain of the sanctuary was torn in two from top to bottom; and the earth was shaken, and the rocks were split;"
+      },
+      "notes": {
+        "official": "*to katapetasma tou naou* 'the curtain of the sanctuary': the veil before the Holy of Holies (Exod 26:31-33), or the outer curtain at the sanctuary's entrance; either way it belongs to the *naos* (`naos-sanctuary-hieron-temple-matthew`; the draft had 'temple'). *hē gē eseisthē* 'the earth was shaken': the verb of *seismos*, which 27:54 calls 'the earthquake' (`seismos-tempest-earthquake-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "naos-sanctuary-hieron-temple-matthew",
+        "seismos-tempest-earthquake-matthew"
+      ]
+    },
+    {
+      "n": 52,
+      "refId": "MAT-WOH-27:52",
+      "text": "καὶ τὰ μνημεῖα ἀνεῴχθησαν καὶ πολλὰ σώματα τῶν κεκοιμημένων ἁγίων ἠγέρθησαν,",
+      "translit": "kai ta mnēmeia aneōchthēsan kai polla sōmata tōn kekoimēmenōn hagiōn ēgerthēsan,",
+      "i18n": {
+        "en": "and the tombs were opened, and many bodies of the saints who had fallen asleep were raised;"
+      },
+      "notes": {
+        "official": "*tōn kekoimēmenōn hagiōn* 'of the saints who had fallen asleep': the euphemism for death. *ēgerthēsan* 'were raised'. The passage, found only in Matthew, draws on Ezek 37:12-13 ('I will open your graves and raise you from your graves').",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 53,
+      "refId": "MAT-WOH-27:53",
+      "text": "καὶ ἐξελθόντες ἐκ τῶν μνημείων μετὰ τὴν ἔγερσιν αὐτοῦ εἰσῆλθον εἰς τὴν ἁγίαν πόλιν καὶ ἐνεφανίσθησαν πολλοῖς.",
+      "translit": "kai exelthontes ek tōn mnēmeiōn meta tēn egersin autou eisēlthon eis tēn hagian polin kai enephanisthēsan pollois.",
+      "i18n": {
+        "en": "and coming out of the tombs after his raising, they entered into the holy city and appeared to many."
+      },
+      "notes": {
+        "official": "*meta tēn egersin autou* 'after his raising', which places the appearance in the holy city after Easter. *tēn hagian polin* 'the holy city', as at 4:5.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 54,
+      "refId": "MAT-WOH-27:54",
+      "text": "Ὁ δὲ ἑκατόνταρχος καὶ οἱ μετʼ αὐτοῦ τηροῦντες τὸν Ἰησοῦν ἰδόντες τὸν σεισμὸν καὶ τὰ γενόμενα ἐφοβήθησαν σφόδρα λέγοντες· Ἀληθῶς θεοῦ υἱὸς ἦν οὗτος.",
+      "translit": "ho de hekatontarchos kai hoi metʼ autou tērountes ton iēsoun idontes ton seismon kai ta genomena ephobēthēsan sphodra legontes· alēthōs theou huios ēn houtos.",
+      "i18n": {
+        "en": "Now the centurion and those who were with him keeping watch over Jesus, when they saw the earthquake and the things that were happening, were exceedingly afraid, saying: \"Truly this was the Son of God.\""
+      },
+      "notes": {
+        "official": "*ton seismon* 'the earthquake', the same noun as 8:24 ('tempest') and 28:2 (`seismos-tempest-earthquake-matthew`). *Alēthōs theou huios ēn houtos* 'Truly this was the Son of God': the anarthrous predicate before the verb is not necessarily indefinite (Colwell's rule). From a Roman officer, 'a son of God' (a divine man) is possible, and the NRSV gives it in the margin. Matthew, however, makes the centurion's words closely echo the disciples' confession of 14:33, which favours the definite reading kept here (`huios-theou-son-of-god-rendering-matthew`; Brown, The Death of the Messiah, ad loc.).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "huios-theou-son-of-god-rendering-matthew",
+        "seismos-tempest-earthquake-matthew"
+      ]
+    },
+    {
+      "n": 55,
+      "refId": "MAT-WOH-27:55",
+      "text": "Ἦσαν δὲ ἐκεῖ γυναῖκες πολλαὶ ἀπὸ μακρόθεν θεωροῦσαι, αἵτινες ἠκολούθησαν τῷ Ἰησοῦ ἀπὸ τῆς Γαλιλαίας διακονοῦσαι αὐτῷ·",
+      "translit": "ēsan de ekei gynaikes pollai apo makrothen theōrousai, haitines ēkolouthēsan tō iēsou apo tēs galilaias diakonousai autō·",
+      "i18n": {
+        "en": "And many women were there, watching from a distance, who had followed Jesus from Galilee, ministering to him;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 56,
+      "refId": "MAT-WOH-27:56",
+      "text": "ἐν αἷς ἦν Μαρία ἡ Μαγδαληνὴ καὶ Μαρία ἡ τοῦ Ἰακώβου καὶ Ἰωσὴφ μήτηρ καὶ ἡ μήτηρ τῶν υἱῶν Ζεβεδαίου.",
+      "translit": "en hais ēn maria hē magdalēnē kai maria hē tou iakōbou kai iōsēph mētēr kai hē mētēr tōn huiōn zebedaiou.",
+      "i18n": {
+        "en": "among them were Mary Magdalene, and Mary the mother of James and Joseph, and the mother of the sons of Zebedee."
+      },
+      "notes": {
+        "official": "*Iōsēph mētēr* 'the mother of James and Joseph' (SBLGNT, with the first hand of Sinaiticus, Bezae and L). The Byzantine text and the KJV read *Iōsē* 'Joses', as in Mark 15:40; the same brothers' names appear at 13:55 (`proper-names-and-realia-forms-matthew`; `critical-text-baseline-and-byzantine-variant-recording-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "proper-names-and-realia-forms-matthew"
+      ]
+    },
+    {
+      "n": 57,
+      "refId": "MAT-WOH-27:57",
+      "text": "Ὀψίας δὲ γενομένης ἦλθεν ἄνθρωπος πλούσιος ἀπὸ Ἁριμαθαίας, τοὔνομα Ἰωσήφ, ὃς καὶ αὐτὸς ἐμαθητεύθη τῷ Ἰησοῦ·",
+      "translit": "opsias de genomenēs ēlthen anthrōpos plousios apo harimathaias, tounoma iōsēph, hos kai autos emathēteuthē tō iēsou·",
+      "i18n": {
+        "en": "And when evening had come, there came a rich man from Arimathea, named Joseph, who also himself had become a disciple of Jesus."
+      },
+      "notes": {
+        "official": "*apo Arimathaias* 'from Arimathea', probably Ramathaim (1 Sam 1:1). Matthew makes Joseph a disciple; Mark 15:43 makes him a member of the council.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 58,
+      "refId": "MAT-WOH-27:58",
+      "text": "οὗτος προσελθὼν τῷ Πιλάτῳ ᾐτήσατο τὸ σῶμα τοῦ Ἰησοῦ. τότε ὁ Πιλᾶτος ἐκέλευσεν ἀποδοθῆναι.",
+      "translit": "houtos proselthōn tō pilatō ētēsato to sōma tou iēsou. tote ho pilatos ekeleusen apodothēnai.",
+      "i18n": {
+        "en": "This man went to Pilate and asked for the body of Jesus. Then Pilate commanded it to be given to him."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 59,
+      "refId": "MAT-WOH-27:59",
+      "text": "καὶ λαβὼν τὸ σῶμα ὁ Ἰωσὴφ ἐνετύλιξεν αὐτὸ σινδόνι καθαρᾷ,",
+      "translit": "kai labōn to sōma ho iōsēph enetylixen auto sindoni kathara,",
+      "i18n": {
+        "en": "And Joseph took the body and wrapped it in a clean linen cloth,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 60,
+      "refId": "MAT-WOH-27:60",
+      "text": "καὶ ἔθηκεν αὐτὸ ἐν τῷ καινῷ αὐτοῦ μνημείῳ ὃ ἐλατόμησεν ἐν τῇ πέτρᾳ, καὶ προσκυλίσας λίθον μέγαν τῇ θύρᾳ τοῦ μνημείου ἀπῆλθεν.",
+      "translit": "kai ethēken auto en tō kainō autou mnēmeiō ho elatomēsen en tē petra, kai proskylisas lithon megan tē thyra tou mnēmeiou apēlthen.",
+      "i18n": {
+        "en": "and laid it in his own new tomb, which he had hewn in the rock; and he rolled a great stone to the door of the tomb and went away."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 61,
+      "refId": "MAT-WOH-27:61",
+      "text": "ἦν δὲ ἐκεῖ Μαριὰμ ἡ Μαγδαληνὴ καὶ ἡ ἄλλη Μαρία καθήμεναι ἀπέναντι τοῦ τάφου.",
+      "translit": "ēn de ekei mariam hē magdalēnē kai hē allē maria kathēmenai apenanti tou taphou.",
+      "i18n": {
+        "en": "And Mary Magdalene was there, and the other Mary, sitting opposite the grave."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 62,
+      "refId": "MAT-WOH-27:62",
+      "text": "Τῇ δὲ ἐπαύριον, ἥτις ἐστὶν μετὰ τὴν παρασκευήν, συνήχθησαν οἱ ἀρχιερεῖς καὶ οἱ Φαρισαῖοι πρὸς Πιλᾶτον",
+      "translit": "tē de epaurion, hētis estin meta tēn paraskeuēn, synēchthēsan hoi archiereis kai hoi pharisaioi pros pilaton",
+      "i18n": {
+        "en": "Now on the next day, which is after the Day of Preparation, the chief priests and the Pharisees gathered together before Pilate,"
+      },
+      "notes": {
+        "official": "*meta tēn paraskeuēn* 'after the Day of Preparation': the Sabbath, described without naming it.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 63,
+      "refId": "MAT-WOH-27:63",
+      "text": "λέγοντες· Κύριε, ἐμνήσθημεν ὅτι ἐκεῖνος ὁ πλάνος εἶπεν ἔτι ζῶν· Μετὰ τρεῖς ἡμέρας ἐγείρομαι·",
+      "translit": "legontes· kyrie, emnēsthēmen hoti ekeinos ho planos eipen eti zōn· meta treis hēmeras egeiromai·",
+      "i18n": {
+        "en": "saying: \"Sir, we remember that that deceiver said while he was still alive: 'After three days I will rise.'"
+      },
+      "notes": {
+        "official": "*ekeinos ho planos* 'that deceiver'; *Meta treis hēmeras egeiromai* 'After three days I will rise'. The colon follows this wave's convention (`speech-introduction-colon-convention-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "speech-introduction-colon-convention-matthew"
+      ]
+    },
+    {
+      "n": 64,
+      "refId": "MAT-WOH-27:64",
+      "text": "κέλευσον οὖν ἀσφαλισθῆναι τὸν τάφον ἕως τῆς τρίτης ἡμέρας, μήποτε ἐλθόντες οἱ μαθηταὶ αὐτοῦ κλέψωσιν αὐτὸν καὶ εἴπωσιν τῷ λαῷ· Ἠγέρθη ἀπὸ τῶν νεκρῶν, καὶ ἔσται ἡ ἐσχάτη πλάνη χείρων τῆς πρώτης.",
+      "translit": "keleuson oun asphalisthēnai ton taphon heōs tēs tritēs hēmeras, mēpote elthontes hoi mathētai autou klepsōsin auton kai eipōsin tō laō· ēgerthē apo tōn nekrōn, kai estai hē eschatē planē cheirōn tēs prōtēs.",
+      "i18n": {
+        "en": "Therefore command that the grave be made secure until the third day, lest his disciples come and steal him away and say to the people: 'He has been raised from the dead'; and the last deception will be worse than the first.\""
+      },
+      "notes": {
+        "official": "*hē eschatē planē* 'the last deception', from the same root as *planos* in 27:63. The colon follows this wave's convention (`speech-introduction-colon-convention-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "speech-introduction-colon-convention-matthew"
+      ]
+    },
+    {
+      "n": 65,
+      "refId": "MAT-WOH-27:65",
+      "text": "ἔφη αὐτοῖς ὁ Πιλᾶτος· Ἔχετε κουστωδίαν· ὑπάγετε ἀσφαλίσασθε ὡς οἴδατε.",
+      "translit": "ephē autois ho pilatos· echete koustōdian· hypagete asphalisasthe hōs oidate.",
+      "i18n": {
+        "en": "Pilate said to them: \"You have a guard; go, make it as secure as you know how.\""
+      },
+      "notes": {
+        "official": "*Echete koustōdian* 'You have a guard': *echete* can be indicative ('you have', i.e. the temple police) or imperative ('take a guard', i.e. Roman soldiers granted by Pilate). *koustōdia* is the Latin *custodia*, a military guard. The sequel at 28:11-14 (the guards report to the chief priests, who promise to keep them safe from 'the governor') favours Roman soldiers but does not settle it. The ASV and NRSV keep the indicative, and the English leaves the question open (`koustodia-you-have-a-guard-mt-27-65`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "koustodia-you-have-a-guard-mt-27-65"
+      ]
+    },
+    {
+      "n": 66,
+      "refId": "MAT-WOH-27:66",
+      "text": "οἱ δὲ πορευθέντες ἠσφαλίσαντο τὸν τάφον σφραγίσαντες τὸν λίθον μετὰ τῆς κουστωδίας.",
+      "translit": "hoi de poreuthentes ēsphalisanto ton taphon sphragisantes ton lithon meta tēs koustōdias.",
+      "i18n": {
+        "en": "And they went and made the grave secure, sealing the stone, together with the guard."
+      },
+      "notes": {
+        "official": "*sphragisantes ton lithon meta tēs koustōdias* 'sealing the stone, together with the guard': the seal attests that the tomb has not been opened (cf. Dan 6:17).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "koustodia-you-have-a-guard-mt-27-65"
+      ]
+    }
+  ],
+  "editorial_questions": [],
+  "editorial_questions_resolved": [
+    {
+      "refId": "MAT-WOH-27:2",
+      "issue": "Textual variant: the Byzantine/TR text (KJV 'Pontius Pilate the governor') reads Ποντίῳ Πιλάτῳ; the critical text has Πιλάτῳ alone.",
+      "default_taken": "Pilate the governor (critical text)",
+      "resolution": "'Pilate the governor' (critical text); 'Pontius' recorded.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:9",
+      "issue": "Textual note: the citation (largely Zech 11:12-13, with Jer 18-19 / 32 elements) is attributed to Ἰερεμίου ('Jeremiah') in SBLGNT and nearly all witnesses; a few witnesses read 'Zechariah' or omit the name. Draft follows SBLGNT without harmonizing.",
+      "default_taken": "Jeremiah (SBLGNT)",
+      "resolution": "'Jeremiah' (SBLGNT) kept without harmonizing; Zechariah/Jeremiah sources in commentary.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:16",
+      "issue": "Textual variant (major; also 27:17): SBLGNT and NA28 read Ἰησοῦν Βαραββᾶν ('Jesus Barabbas'), with Θ, f1, 700* and Origen's knowledge of the reading; Vaticanus, Sinaiticus, the Byzantine/TR text and the KJV read Βαραββᾶν alone. At 27:17 SBLGNT reads Ἰησοῦν τὸν Βαραββᾶν; the draft renders 'Jesus Barabbas' in both verses.",
+      "default_taken": "Jesus Barabbas (SBLGNT / NA28)",
+      "resolution": "'Jesus Barabbas' at 27:16-17 (SBLGNT, NA28); 'Barabbas' alone recorded.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:24",
+      "issue": "Textual variant: SBLGNT reads ἀπὸ τοῦ αἵματος τούτου ('of this blood', B D Θ); Sinaiticus and the Byzantine/TR text (KJV 'of the blood of this just person') read τοῦ δικαίου τούτου; A and others read τούτου τοῦ δικαίου. NA28 has the short reading.",
+      "default_taken": "I am innocent of this blood (SBLGNT)",
+      "resolution": "'I am innocent of this blood' (SBLGNT); 'this just person' recorded.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:34",
+      "issue": "Textual variant: the critical text reads οἶνον ('wine'); the Byzantine/TR text (KJV 'vinegar to drink mingled with gall') reads ὄξος, assimilating to Ps 69:21.",
+      "default_taken": "wine (critical text)",
+      "resolution": "'wine' (critical text); 'vinegar' recorded.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:35",
+      "issue": "Textual variant: the Byzantine/TR text (KJV) adds ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ τοῦ προφήτου· διεμερίσαντο τὰ ἱμάτιά μου ἑαυτοῖς, καὶ ἐπὶ τὸν ἱματισμόν μου ἔβαλον κλῆρον ('that it might be fulfilled which was spoken by the prophet, They parted my garments among them, and upon my vesture did they cast lots'), imported from Jn 19:24 (Ps 22:18); absent from B, א, the majority of Byzantine manuscripts and the critical text; present in Θ, f1, f13 and the TR.",
+      "default_taken": "omit the fulfillment formula (critical text)",
+      "resolution": "Fulfilment formula omitted (critical text); TR/KJV text quoted in commentary.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:42",
+      "issue": "Textual variants: the critical text reads βασιλεὺς Ἰσραήλ ἐστιν ('He is the King of Israel', ironic statement); the Byzantine/TR text (KJV 'If he be the King of Israel') prefixes εἰ. The critical text also reads πιστεύσομεν ἐπ᾽ αὐτόν ('believe in him') vs. Byzantine αὐτῷ ('believe him'). Canon note: ETTMTTP ch. 2 quotes 27:42-43 as « Qu'il descende (tout seul) de la croix maintenant… car il a dit : Je suis le fils de Dieu », compressing the verses; for the anarthrous Θεοῦ εἰμι υἱός (27:43) see the 14:33 question.",
+      "default_taken": "He is the King of Israel … believe in him (critical text)",
+      "resolution": "Critical text followed ('He is the King of Israel ... believe in him'); Byzantine readings recorded; canon (ETTMTTP ch. 2) in reception note.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:45",
+      "issue": "ἐπὶ πᾶσαν τὴν γῆν (epi pasan tēn gēn): 'over all the land' (ASV; regional, Judea) vs. 'over all the earth' (KJV; cosmic). Unglossed; the central cosmic-signs entry does not list Mt 27:45.",
+      "default_taken": "over all the land",
+      "resolution": "'over all the land' kept (ASV, KJV, RSV, NRSV all read 'land'; the draft's attribution of 'earth' to the KJV was mistaken); cosmic reading and Amos 8:9 in commentary; cosmic-signs entry cited, not applied.",
+      "glossaryEntry": "ge-land-earth-mt-27-45",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:46",
+      "issue": "Textual variants in the cry: SBLGNT reads Ἠλὶ ἠλὶ λεμὰ σαβαχθάνι; Sinaiticus and Vaticanus read ελωι ελωι (Aramaic, as Mk 15:34); other witnesses read λαμα / λιμα, and D reads ζαφθανι. Transliteration of the Aramaic/Hebrew on the English surface is unglossed.",
+      "default_taken": "Eli, Eli, lema sabachthani (SBLGNT)",
+      "resolution": "'Eli, Eli, lema sabachthani' (SBLGNT spelling); Eloi / lama / zaphthani readings recorded.",
+      "glossaryEntry": "proper-names-and-realia-forms-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:49",
+      "issue": "Textual variant: Sinaiticus, Vaticanus, C, L and others add ἄλλος δὲ λαβὼν λόγχην ἔνυξεν αὐτοῦ τὴν πλευράν, καὶ ἐξῆλθεν ὕδωρ καὶ αἷμα ('and another took a spear and pierced his side, and out came water and blood', cf. Jn 19:34) before Jesus' death; SBLGNT, NA28 and the Byzantine/TR text omit it.",
+      "default_taken": "omit the spear-thrust (SBLGNT / NA28 / Byzantine)",
+      "resolution": "Spear-thrust omitted (SBLGNT, NA28, Byzantine); א B C L addition quoted in commentary.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:50",
+      "issue": "ἀφῆκεν τὸ πνεῦμα (aphēken to pneuma): 'yielded up his spirit' (ASV/KJV 'yielded up the ghost') vs. 'gave up his spirit' / 'breathed his last'. Lower-case 'spirit' (human breath/spirit) unlike the 'Spirit' of 3:16 and 4:1.",
+      "default_taken": "yielded up his spirit",
+      "resolution": "'yielded up his spirit' kept, lower case (human spirit).",
+      "glossaryEntry": "pneuma-spirit-capitalization-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:54",
+      "issue": "τὸν σεισμόν: 'the earthquake' (consistent with precedent 28:2); 27:51 ἡ γῆ ἐσείσθη 'the earth was shaken'. See the 8:24 question for σεισμός on the sea. The anarthrous Ἀληθῶς θεοῦ υἱὸς ἦν οὗτος ('the Son of God' / 'God's Son' / 'a son of God') is covered by the 14:33 question.",
+      "default_taken": "Truly this was the Son of God",
+      "resolution": "'the earthquake' kept; 'Truly this was the Son of God' kept per the 14:33 ruling; 'a son of God' alternative in commentary.",
+      "glossaryEntry": "huios-theou-son-of-god-rendering-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:56",
+      "issue": "Textual variant: SBLGNT reads Ἰωσήφ ('Joseph', with א* D L); the Byzantine/TR text (KJV 'Joses') reads Ἰωσῆ, as in Mk 15:40.",
+      "default_taken": "Joseph (SBLGNT)",
+      "resolution": "'Joseph' (SBLGNT); 'Joses' recorded.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-27:65",
+      "issue": "Ἔχετε κουστωδίαν (echete koustōdian): indicative 'You have a guard' (ASV/KJV) vs. imperative 'Take a guard' (RSV/NRSV) — whether Pilate refers to the temple police or grants Roman soldiers (cf. 28:11-14).",
+      "default_taken": "You have a guard",
+      "resolution": "'You have a guard' kept (indicative, ASV, NRSV); imperative reading in commentary.",
+      "glossaryEntry": "koustodia-you-have-a-guard-mt-27-65",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    }
+  ]
+}

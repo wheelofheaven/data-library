@@ -1,0 +1,738 @@
+[
+ {
+  "op": "version",
+  "from": "2.80.0",
+  "to": "2.81.0",
+  "note": "Base: v2.80.0 (translation-glossary-2.80.0.json). Contents: 1 new entry (qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus, direct) and 26 modifications of existing entries. Of these, 4 extend the text additively (ulam-hekhal-devir-temple-three-room-plan-cross-corpus rationale; eretz wohChoice and rationale; eretz-kasdim and qol-mayim-rabbim wohChoice) and the rest are appliesTo-only extensions. No shipped wohChoice is replaced and no decision is reversed, so a minor bump (2.81.0) is recommended. Apply semantics as in the Kings diffs: op=add inserts `entry`; op=modify replaces each field in `changes`. appliesTo values are complete arrays that preserve every refId of v2.80.0, and each op's `reason` lists the refIds it adds. SEQUENCING: a parallel Revelation diff also targets 2.80.0. If it is applied first, this diff becomes 2.81.0 -> 2.82.0, and for any entry modified by both diffs (likely candidates: chayyot, ezekiel-1-throne-vision-merkavah-tradition-cross-corpus-hebrew-bible-hekhalot-revelation-4, kavod-yhwh, qol-mayim-rabbim) the appliesTo arrays must be merged as a set union (base plus both sets of additions), not replaced; text appends must likewise be applied to the then-current field. RefId prefix: new Ezekiel sites use the chapter-file refIds (EZK-WOH-n:v); the existing Ezekiel refIds in central (EZK-n:v, 133 occurrences, from the 2026-05 pass) are preserved unchanged. A one-time normalization to EZK-WOH- is recommended at a later pass (see wave-e2-editor-report.md).",
+  "scopeNoteAddendum": "**v2.81.0 (Ezekiel wave E2 — Ezek 2, 3, 8, 11, 40, 42, 43, 44: the commission and the scroll, the transport by the ruach, the abominations in the Temple, the glory's departure, the temple vision, the glory's return, the altar and the Zadokite priests):** one new entry, `qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus` (the Priestly offering vocabulary in one decision: 'sin-offering', 'guilt-offering' (replacing ASV 'trespass-offering'), 'meal-offering', 'peace-offerings', 'sacrifice', qorbān 'offering', tərûmâ 'oblation', zāraq 'dash' (replacing ASV 'sprinkle'), 'make atonement', 'cleanse', 'purify', millēʾ yāḏ 'consecrate'; direct). `ulam-hekhal-devir-temple-three-room-plan-cross-corpus` gains an Ezekiel application paragraph (hêḵāl 'temple' by context at Ezek 8:16, 42:8; ʾêlām routed to the ezekiel-woh overlay as 'vestibule'). `eretz` gains an architectural context clause ('ground', Ezek 42:6; 43:14). `eretz-kasdim` and `qol-mayim-rabbim` gain their second Ezekiel sites (11:24 'to Kasdim'; 43:2). appliesTo extensions for adonai-yhwh, ben-adam, biq'ah-ha-atzamot, chashmal, chayyot, cherubim-ezek, davar-yhwh, elohei-yisrael, elohim-as-translation, the Ezekiel-1 merkavah entry, kavod-yhwh, kavod-yhwh-departure, mar'eh-demut, mar'ot-elohim, navi, nehar-kevar, olah-burnt-offering, qarnot-ha-mizbeach, shakhan, shamayim, toevah and yad-yhwh. Book-scoped conventions (quotation marks, the ruach transliteration, English proper names, Ketiv/Qere, MT baseline) and Temple-vision terms (tāʾ 'guardroom', ʾêlām 'vestibule', ʾayil 'post', units, altar terms, harʾēl/ʾăriʾêl 'altar hearth') live in the new ezekiel-woh overlay v1.0.0."
+ },
+ {
+  "op": "add",
+  "id": "qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus",
+  "entry": {
+   "id": "qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus",
+   "source": "חַטָּאת / אָשָׁם / מִנְחָה / שְׁלָמִים / זֶבַח / קָרְבָּן / תְּרוּמָה / זָרַק / כִּפֶּר / חִטֵּא / טִהַר / מִלֵּא יָד",
+   "translit": "ḥaṭṭāʾṯ / ʾāšām / minḥâ / šəlāmîm / zeḇaḥ / qorbān / tərûmâ / zāraq / kippēr / ḥiṭṭēʾ / ṭihar / millēʾ yāḏ",
+   "strongs": "H2403 / H817 / H4503 / H8002 / H2077 / H7133 / H8641 / H2236 / H3722 / H2398 / H2891 / H4390 + H3027",
+   "partOfSpeech": "nouns and verbs (Priestly and Ezekielian cultic terminology); millēʾ yāḏ is a verbal idiom",
+   "literal": "sin, sin-offering / guilt, reparation / gift, tribute / well-being (offering) / slaughter, sacrifice / what is brought near / what is lifted off, contribution / toss, throw / cover, wipe clean / de-sin, purge / make clean / fill the hand",
+   "standardEnglish": "ASV: sin-offering / trespass-offering / meal-offering / peace-offerings / sacrifice / oblation / oblation (Ezekiel; 'heave-offering' in the Torah) / sprinkle / make atonement / cleanse / purify / consecrate. NRSV: sin offering / guilt offering / grain offering / offerings of well-being / sacrifice / offering / offering / dash / make atonement / purify / purify / consecrate (ordain). Milgrom (Leviticus, AB 3): purification offering / reparation offering",
+   "wohChoice": "ḥaṭṭāʾṯ 'sin-offering'; ʾāšām as a cultic noun 'guilt-offering'; minḥâ in a list of cultic offerings 'meal-offering' (the generic 'offering, gift, tribute' sense stays under minchah-shaah and minchah-tribute-gift-of-appeasement); šəlāmîm 'peace-offerings'; zeḇaḥ 'sacrifice'; qorbān 'offering'; tərûmâ 'oblation' (the Ezekiel usage, including the land allotment of Ezek 45 and 48; the Torah's tərûmâ to be reviewed when Leviticus and Numbers are translated); zāraq dām 'dash blood'; kippēr 'make atonement'; ḥiṭṭēʾ 'cleanse'; ṭihar 'purify'; millēʾ yāḏ 'consecrate', with the literal 'fill the hand' given in commentary. Compound offering names are hyphenated, as in olah-burnt-offering ('burnt-offering').",
+   "claim_type": "direct",
+   "rationale": "The sacrificial terms of the Priestly code recur in Exodus, Leviticus, Numbers, Kings, Ezekiel and the Prophets. Ezek 40-46 uses almost the whole set in lists (40:39; 42:13; 44:29), so one decision should govern the corpus. The baseline is the ASV, whose terms the corpus already uses: 'burnt-offering' (central olah-burnt-offering), 'peace-offerings' (Ex 20:21 MT = 20:24 ET; 1 Kgs 8:63-64) and 'meal-offering' (1 Kgs 8:64). // Two ASV renderings are replaced by those of current versions. (1) For the cultic noun ʾāšām, 'guilt-offering' (NRSV, NJPS) replaces 'trespass-offering'; isaiah-woh already has 'guilt-offering' at Isa 53:10 under central ashem-asham-guilt-bearing-vocabulary, whose rationale names the sacrificial sense. (2) zāraq is to throw or dash liquid from a basin (mizrāq) against the altar (Ex 29:16, 20; Lev 1:5, 11). Sprinkling is a different act, hizzâ with the finger (Lev 4:6, 17; 16:14), and the Priestly ritual keeps the two apart (Milgrom, Leviticus 1-16, AB 3, 1991). The ASV 'sprinkle' for zāraq erases that distinction, so 'dash' (NRSV, NJPS) is used. // Milgrom's 'purification offering' for ḥaṭṭāʾṯ and 'reparation offering' for ʾāšām are widely discussed and recorded in commentary, but they are not adopted. The traditional terms are used by most versions, and 'sin-offering' keeps the link to the root ḥṭʾ 'sin', from which ḥaṭṭāʾṯ and the verb ḥiṭṭēʾ 'cleanse (from sin)' are formed. qorbān ('what is brought near', from qrb) is rendered 'offering' and tərûmâ ('what is lifted off', from rwm) keeps 'oblation', so that the ASV's single word 'oblation' no longer covers two lexemes. millēʾ yāḏ 'fill the hand' is the installation idiom (Ex 28:41; 29:9; Judg 17:5, 12), applied to the altar at Ezek 43:26 and rendered by its sense, 'consecrate', as in the ASV. // The decisions are lexical. The Raëlian canon's reading of the priestly dues of Ezek 44 as provisions for the creators (The Book Which Tells the Truth, ch. 3) is confined to labelled reception notes. // **Central housing.** The cluster is cross-corpus (Torah, Kings, Prophets, Psalms). The claim_type is direct because each rendering is either the ASV's or that of the main current versions.",
+   "appliesTo": [
+    "EZK-WOH-40:39",
+    "EZK-WOH-40:42",
+    "EZK-WOH-40:43",
+    "EZK-WOH-42:13",
+    "EZK-WOH-43:18",
+    "EZK-WOH-43:19",
+    "EZK-WOH-43:20",
+    "EZK-WOH-43:21",
+    "EZK-WOH-43:22",
+    "EZK-WOH-43:23",
+    "EZK-WOH-43:25",
+    "EZK-WOH-43:26",
+    "EZK-WOH-43:27",
+    "EZK-WOH-44:11",
+    "EZK-WOH-44:27",
+    "EZK-WOH-44:29",
+    "EZK-WOH-44:30",
+    "EXO-WOH-20:21",
+    "1KI-WOH-8:63",
+    "1KI-WOH-8:64"
+   ]
+  }
+ },
+ {
+  "op": "modify",
+  "id": "ben-adam",
+  "changes": {
+   "appliesTo": [
+    "EZK-37:3",
+    "EZK-37:9",
+    "EZK-37:11",
+    "EZK-37:16",
+    "EZK-WOH-2:1",
+    "EZK-WOH-2:3",
+    "EZK-WOH-2:6",
+    "EZK-WOH-2:8",
+    "EZK-WOH-3:1",
+    "EZK-WOH-3:3",
+    "EZK-WOH-3:4",
+    "EZK-WOH-3:10",
+    "EZK-WOH-3:17",
+    "EZK-WOH-3:25",
+    "EZK-WOH-8:5",
+    "EZK-WOH-8:6",
+    "EZK-WOH-8:8",
+    "EZK-WOH-8:12",
+    "EZK-WOH-8:15",
+    "EZK-WOH-8:17",
+    "EZK-WOH-11:2",
+    "EZK-WOH-11:4",
+    "EZK-WOH-11:15",
+    "EZK-WOH-40:4",
+    "EZK-WOH-43:7",
+    "EZK-WOH-43:10",
+    "EZK-WOH-43:18",
+    "EZK-WOH-44:5"
+   ]
+  },
+  "reason": "appliesTo extension only: 'son of human' at the twenty-four wave-E2 sites. Adds 24 refId(s): EZK-WOH-2:1, EZK-WOH-2:3, EZK-WOH-2:6, EZK-WOH-2:8, EZK-WOH-3:1, EZK-WOH-3:3, EZK-WOH-3:4, EZK-WOH-3:10, EZK-WOH-3:17, EZK-WOH-3:25, EZK-WOH-8:5, EZK-WOH-8:6, EZK-WOH-8:8, EZK-WOH-8:12, EZK-WOH-8:15, EZK-WOH-8:17, EZK-WOH-11:2, EZK-WOH-11:4, EZK-WOH-11:15, EZK-WOH-40:4, EZK-WOH-43:7, EZK-WOH-43:10, EZK-WOH-43:18, EZK-WOH-44:5."
+ },
+ {
+  "op": "modify",
+  "id": "adonai-yhwh",
+  "changes": {
+   "appliesTo": [
+    "EZK-37:3",
+    "EZK-37:5",
+    "EZK-37:9",
+    "EZK-37:12",
+    "EZK-37:19",
+    "EZK-37:21",
+    "EZK-WOH-2:4",
+    "EZK-WOH-3:11",
+    "EZK-WOH-3:27",
+    "EZK-WOH-8:1",
+    "EZK-WOH-11:7",
+    "EZK-WOH-11:8",
+    "EZK-WOH-11:13",
+    "EZK-WOH-11:16",
+    "EZK-WOH-11:17",
+    "EZK-WOH-11:21",
+    "EZK-WOH-43:18",
+    "EZK-WOH-43:19",
+    "EZK-WOH-43:27",
+    "EZK-WOH-44:6",
+    "EZK-WOH-44:9",
+    "EZK-WOH-44:12",
+    "EZK-WOH-44:15",
+    "EZK-WOH-44:27"
+   ]
+  },
+  "reason": "appliesTo extension only: 'Lord YHWH' for ʾăḏōnāy YHWH at the eighteen wave-E2 sites (messenger and oracle formulas). Adds 18 refId(s): EZK-WOH-2:4, EZK-WOH-3:11, EZK-WOH-3:27, EZK-WOH-8:1, EZK-WOH-11:7, EZK-WOH-11:8, EZK-WOH-11:13, EZK-WOH-11:16, EZK-WOH-11:17, EZK-WOH-11:21, EZK-WOH-43:18, EZK-WOH-43:19, EZK-WOH-43:27, EZK-WOH-44:6, EZK-WOH-44:9, EZK-WOH-44:12, EZK-WOH-44:15, EZK-WOH-44:27."
+ },
+ {
+  "op": "modify",
+  "id": "navi-first-occurrence-abraham",
+  "changes": {
+   "appliesTo": [
+    "GEN-WOH-20:7",
+    "1KI-WOH-18:4",
+    "1KI-WOH-18:13",
+    "1KI-WOH-18:19",
+    "1KI-WOH-18:20",
+    "1KI-WOH-18:22",
+    "1KI-WOH-18:25",
+    "1KI-WOH-18:36",
+    "1KI-WOH-18:40",
+    "1KI-WOH-19:1",
+    "1KI-WOH-19:10",
+    "1KI-WOH-19:14",
+    "1KI-WOH-19:16",
+    "2KI-WOH-2:3",
+    "2KI-WOH-2:5",
+    "2KI-WOH-2:7",
+    "2KI-WOH-2:15",
+    "1KI-WOH-1:8",
+    "1KI-WOH-1:10",
+    "1KI-WOH-1:22",
+    "1KI-WOH-1:23",
+    "1KI-WOH-1:32",
+    "1KI-WOH-1:34",
+    "1KI-WOH-1:38",
+    "1KI-WOH-1:44",
+    "1KI-WOH-1:45",
+    "1KI-WOH-13:11",
+    "1KI-WOH-13:18",
+    "1KI-WOH-13:20",
+    "1KI-WOH-13:23",
+    "1KI-WOH-13:25",
+    "1KI-WOH-13:26",
+    "1KI-WOH-13:29",
+    "1KI-WOH-22:6",
+    "1KI-WOH-22:7",
+    "1KI-WOH-22:10",
+    "1KI-WOH-22:12",
+    "1KI-WOH-22:13",
+    "1KI-WOH-22:22",
+    "1KI-WOH-22:23",
+    "2KI-WOH-4:1",
+    "2KI-WOH-4:38",
+    "2KI-WOH-17:13",
+    "2KI-WOH-17:23",
+    "EZK-WOH-2:5"
+   ]
+  },
+  "reason": "appliesTo extension only: Ezek 2:5. Adds 1 refId(s): EZK-WOH-2:5."
+ },
+ {
+  "op": "modify",
+  "id": "kavod-yhwh",
+  "changes": {
+   "appliesTo": [
+    "EZK-1:28",
+    "1KI-WOH-8:11",
+    "EZK-WOH-3:12",
+    "EZK-WOH-3:23",
+    "EZK-WOH-8:4",
+    "EZK-WOH-11:22",
+    "EZK-WOH-11:23",
+    "EZK-WOH-43:2",
+    "EZK-WOH-43:4",
+    "EZK-WOH-43:5",
+    "EZK-WOH-44:4"
+   ]
+  },
+  "reason": "appliesTo extension only: the rationale already lists Ezek 3:12, 3:23, 8:4, 10-11 and 43:2-5, 44:4 among the kavod sites; nine wave-E2 sites added (canon-cited at 11:23 and 43:2; reception confined to apparatus). Adds 9 refId(s): EZK-WOH-3:12, EZK-WOH-3:23, EZK-WOH-8:4, EZK-WOH-11:22, EZK-WOH-11:23, EZK-WOH-43:2, EZK-WOH-43:4, EZK-WOH-43:5, EZK-WOH-44:4."
+ },
+ {
+  "op": "modify",
+  "id": "chayyot",
+  "changes": {
+   "appliesTo": [
+    "EZK-1:5",
+    "EZK-1:13",
+    "EZK-1:14",
+    "EZK-1:15",
+    "EZK-1:19",
+    "EZK-1:20",
+    "EZK-1:21",
+    "EZK-1:22",
+    "EZK-10:15",
+    "EZK-10:17",
+    "EZK-10:20",
+    "SHQM-WOH-1:45",
+    "SHQM-WOH-1:46",
+    "SHQM-WOH-1:47",
+    "SHQM-WOH-1:49",
+    "SHQM-WOH-1:59",
+    "SHQM-WOH-1:60",
+    "REV-WOH-4:6",
+    "REV-WOH-4:7",
+    "REV-WOH-4:8",
+    "REV-WOH-6:1",
+    "REV-WOH-6:3",
+    "REV-WOH-6:5",
+    "REV-WOH-6:7",
+    "ENO-WOH-14:11",
+    "ENO-WOH-14:18",
+    "ENO-WOH-14:23",
+    "EZK-WOH-3:13"
+   ]
+  },
+  "reason": "appliesTo extension only: haḥayyôṯ 'the living creatures' at Ezek 3:13. Adds 1 refId(s): EZK-WOH-3:13."
+ },
+ {
+  "op": "modify",
+  "id": "ezekiel-1-throne-vision-merkavah-tradition-cross-corpus-hebrew-bible-hekhalot-revelation-4",
+  "changes": {
+   "appliesTo": [
+    "EZK-1:4",
+    "EZK-1:5",
+    "EZK-1:10",
+    "EZK-1:13",
+    "EZK-1:15",
+    "EZK-1:16",
+    "EZK-1:18",
+    "EZK-1:22",
+    "EZK-1:26",
+    "EZK-1:27",
+    "EZK-1:28",
+    "EZK-10:1",
+    "EZK-10:15",
+    "EZK-10:20",
+    "EZK-10:22",
+    "SHQM-WOH-1:7",
+    "SHQM-WOH-1:44",
+    "SHQM-WOH-1:45",
+    "SHQM-WOH-1:46",
+    "SHQM-WOH-1:47",
+    "SHQM-WOH-1:49",
+    "SHQM-WOH-1:51",
+    "SHQM-WOH-1:53",
+    "SHQM-WOH-1:54",
+    "SHQM-WOH-1:55",
+    "SHQM-WOH-1:59",
+    "SHQM-WOH-1:60",
+    "REV-WOH-1:12",
+    "REV-WOH-1:13",
+    "REV-WOH-1:14",
+    "REV-WOH-1:15",
+    "REV-WOH-1:16",
+    "REV-WOH-4:2",
+    "REV-WOH-4:3",
+    "REV-WOH-4:5",
+    "REV-WOH-4:6",
+    "ENO-WOH-14:8",
+    "ENO-WOH-14:9",
+    "ENO-WOH-14:10",
+    "ENO-WOH-14:18",
+    "ENO-WOH-14:19",
+    "ENO-WOH-14:20",
+    "ENO-WOH-14:21",
+    "ENO-WOH-14:22",
+    "DAN-WOH-7:9",
+    "DAN-WOH-7:10",
+    "DAN-WOH-7:13",
+    "DAN-WOH-10:5",
+    "DAN-WOH-10:6",
+    "EZK-WOH-3:13",
+    "EZK-WOH-3:23",
+    "EZK-WOH-43:3"
+   ]
+  },
+  "reason": "appliesTo extension only: the wave-E2 verses that recall the ch. 1 vision (Ezek 3:13, 23; 43:3). Adds 3 refId(s): EZK-WOH-3:13, EZK-WOH-3:23, EZK-WOH-43:3."
+ },
+ {
+  "op": "modify",
+  "id": "yad-yhwh",
+  "changes": {
+   "appliesTo": [
+    "EZK-1:3",
+    "1KI-WOH-18:46",
+    "EZK-WOH-3:14",
+    "EZK-WOH-3:22",
+    "EZK-WOH-8:1",
+    "EZK-WOH-40:1"
+   ]
+  },
+  "reason": "appliesTo extension only: Ezek 3:14, 22; 8:1; 40:1. Adds 4 refId(s): EZK-WOH-3:14, EZK-WOH-3:22, EZK-WOH-8:1, EZK-WOH-40:1."
+ },
+ {
+  "op": "modify",
+  "id": "nehar-kevar",
+  "changes": {
+   "appliesTo": [
+    "EZK-1:1",
+    "EZK-1:3",
+    "EZK-WOH-3:15",
+    "EZK-WOH-3:23",
+    "EZK-WOH-43:3"
+   ]
+  },
+  "reason": "appliesTo extension only: Ezek 3:15, 23; 43:3. Adds 3 refId(s): EZK-WOH-3:15, EZK-WOH-3:23, EZK-WOH-43:3."
+ },
+ {
+  "op": "modify",
+  "id": "davar-yhwh-prophetic-formula",
+  "changes": {
+   "appliesTo": [
+    "GEN-15:1",
+    "GEN-15:4",
+    "1KI-WOH-17:2",
+    "1KI-WOH-17:8",
+    "1KI-WOH-18:1",
+    "1KI-WOH-18:31",
+    "1KI-WOH-19:9",
+    "1KI-WOH-13:20",
+    "1KI-WOH-6:11",
+    "EZK-WOH-3:16",
+    "EZK-WOH-11:14"
+   ]
+  },
+  "reason": "appliesTo extension only: Ezek 3:16; 11:14. Adds 2 refId(s): EZK-WOH-3:16, EZK-WOH-11:14."
+ },
+ {
+  "op": "modify",
+  "id": "biq'ah-ha-atzamot",
+  "changes": {
+   "appliesTo": [
+    "EZK-37:1",
+    "EZK-37:2",
+    "EZK-WOH-3:22",
+    "EZK-WOH-3:23",
+    "EZK-WOH-8:4"
+   ]
+  },
+  "reason": "appliesTo extension only: the same noun biqʿâ 'the valley' at Ezek 3:22-23 and 8:4 (the valley of the second vision, which commentators link with 37:1). Adds 3 refId(s): EZK-WOH-3:22, EZK-WOH-3:23, EZK-WOH-8:4."
+ },
+ {
+  "op": "modify",
+  "id": "mar'eh-demut",
+  "changes": {
+   "appliesTo": [
+    "EZK-1:4",
+    "EZK-1:5",
+    "EZK-1:7",
+    "EZK-1:10",
+    "EZK-1:13",
+    "EZK-1:14",
+    "EZK-1:16",
+    "EZK-1:22",
+    "EZK-1:26",
+    "EZK-1:27",
+    "EZK-1:28",
+    "EZK-WOH-8:2",
+    "EZK-WOH-40:3",
+    "EZK-WOH-43:3"
+   ]
+  },
+  "reason": "appliesTo extension only: Ezek 8:2; 40:3; 43:3. Adds 3 refId(s): EZK-WOH-8:2, EZK-WOH-40:3, EZK-WOH-43:3."
+ },
+ {
+  "op": "modify",
+  "id": "chashmal",
+  "changes": {
+   "appliesTo": [
+    "EZK-1:4",
+    "EZK-1:27",
+    "EZK-WOH-8:2"
+   ]
+  },
+  "reason": "appliesTo extension only: kəʿên haḥašmalâ at Ezek 8:2, rendered as at 1:4, 27. Adds 1 refId(s): EZK-WOH-8:2."
+ },
+ {
+  "op": "modify",
+  "id": "mar'ot-elohim",
+  "changes": {
+   "appliesTo": [
+    "EZK-1:1",
+    "EZK-WOH-8:3",
+    "EZK-WOH-40:2"
+   ]
+  },
+  "reason": "appliesTo extension only: bəmarʾôṯ ʾĕlōhîm at Ezek 8:3; 40:2. Adds 2 refId(s): EZK-WOH-8:3, EZK-WOH-40:2."
+ },
+ {
+  "op": "modify",
+  "id": "shamayim",
+  "changes": {
+   "appliesTo": [
+    "GEN-1:1",
+    "GEN-1:8",
+    "GEN-1:9",
+    "GEN-1:14",
+    "GEN-1:15",
+    "GEN-1:17",
+    "GEN-1:20",
+    "GEN-1:26",
+    "GEN-1:28",
+    "GEN-1:30",
+    "1KI-WOH-18:45",
+    "2KI-WOH-1:10",
+    "2KI-WOH-1:12",
+    "2KI-WOH-1:14",
+    "2KI-WOH-2:1",
+    "2KI-WOH-2:11",
+    "1KI-WOH-22:19",
+    "1KI-WOH-8:22",
+    "1KI-WOH-8:23",
+    "1KI-WOH-8:27",
+    "1KI-WOH-8:30",
+    "1KI-WOH-8:32",
+    "1KI-WOH-8:34",
+    "1KI-WOH-8:35",
+    "1KI-WOH-8:36",
+    "1KI-WOH-8:39",
+    "1KI-WOH-8:43",
+    "1KI-WOH-8:45",
+    "1KI-WOH-8:49",
+    "1KI-WOH-8:54",
+    "2KI-WOH-17:16",
+    "EZK-WOH-8:3"
+   ]
+  },
+  "reason": "appliesTo extension only: Ezek 8:3 'between the land and the skies' (physical-space register, 'skies' under the ratified register rule). Adds 1 refId(s): EZK-WOH-8:3."
+ },
+ {
+  "op": "modify",
+  "id": "eretz",
+  "changes": {
+   "wohChoice": "land. Context clause (ezekiel-woh wave E2): 'ground' where ʾereṣ is the ground level of a structure from which a height is measured (Ezek 42:6 mēhāʾāreṣ 'from the ground'; 43:14 mēḥêq hāʾāreṣ 'from the bottom on the ground').",
+   "rationale": "אֶרֶץ in Hebrew covers a spectrum from 'patch of ground' to 'inhabited territory' to 'the whole inhabited world'. The capital-E 'Earth' (the planet) is a 17th-century-onwards English meaning that has no clean Hebrew equivalent. In Gen 1, אֶרֶץ is paired with שָׁמַיִם — they're a hendiadys for 'the whole physical setting'. 'Land' preserves the Hebrew register; 'earth' (lowercase, when the meaning is the dry ground as opposed to seas) is acceptable in some verses, but the default WoH choice is 'land'. Where the verse explicitly contrasts 'land' (dry) with 'seas' (water) (e.g. v10), 'land' is the more accurate choice anyway.\n\n**Cross-corpus back-reference (Flood Story Editor pass, 2026-06).** The Hebrew *eretz* / *ha-aretz* is in cross-corpus cluster with the Sumerian *kalam* / *ka-na-aĝ2* — see the existing central entry `kalam-ka-na-ag-the-land-cross-corpus` (established at the Enki and Ninmaḫ Editor pass).\n\n**Architectural context clause (ezekiel-woh wave E2, 2026-11).** In Ezekiel's measurements ʾereṣ twice denotes the ground level of a building or altar from which heights are reckoned (42:6, of the stories of the priests' chambers; 43:14, of the base of the altar). Neither 'land' nor 'earth' gives the sense, and the ASV, NRSV and NJPS all have 'ground'. The clause is lexical (BDB s.v. ʾereṣ, 'ground, surface of the ground') and does not change the default 'land', which governs the other Ezekiel sites of this wave (8:3, 12, 17; 11:15; 40:2; 43:2).",
+   "appliesTo": [
+    "GEN-1:1",
+    "GEN-1:2",
+    "GEN-1:10",
+    "GEN-1:11",
+    "GEN-1:12",
+    "GEN-1:15",
+    "GEN-1:17",
+    "GEN-1:20",
+    "GEN-1:22",
+    "GEN-1:24",
+    "GEN-1:25",
+    "GEN-1:26",
+    "GEN-1:28",
+    "GEN-1:29",
+    "GEN-1:30",
+    "1KI-WOH-22:36",
+    "1KI-WOH-22:47",
+    "1KI-WOH-6:1",
+    "1KI-WOH-8:9",
+    "1KI-WOH-8:21",
+    "1KI-WOH-8:36",
+    "1KI-WOH-8:37",
+    "1KI-WOH-8:41",
+    "1KI-WOH-8:46",
+    "1KI-WOH-8:47",
+    "1KI-WOH-8:48",
+    "2KI-WOH-4:38",
+    "2KI-WOH-17:5",
+    "2KI-WOH-17:7",
+    "2KI-WOH-17:26",
+    "2KI-WOH-17:27",
+    "2KI-WOH-17:36",
+    "EZK-WOH-8:3",
+    "EZK-WOH-8:12",
+    "EZK-WOH-8:17",
+    "EZK-WOH-11:15",
+    "EZK-WOH-40:2",
+    "EZK-WOH-42:6",
+    "EZK-WOH-43:2",
+    "EZK-WOH-43:14"
+   ]
+  },
+  "reason": "wohChoice and rationale extended with an architectural context clause ('ground', Ezek 42:6; 43:14); default 'land' unchanged; appliesTo extended with the eight Ezekiel wave-E2 sites. Adds 8 refId(s): EZK-WOH-8:3, EZK-WOH-8:12, EZK-WOH-8:17, EZK-WOH-11:15, EZK-WOH-40:2, EZK-WOH-42:6, EZK-WOH-43:2, EZK-WOH-43:14."
+ },
+ {
+  "op": "modify",
+  "id": "elohei-yisrael",
+  "changes": {
+   "appliesTo": [
+    "EZK-10:19",
+    "EZK-10:20",
+    "1KI-WOH-1:30",
+    "1KI-WOH-1:48",
+    "1KI-WOH-22:54",
+    "1KI-WOH-8:15",
+    "1KI-WOH-8:17",
+    "1KI-WOH-8:20",
+    "1KI-WOH-8:23",
+    "1KI-WOH-8:25",
+    "1KI-WOH-8:26",
+    "EZK-WOH-8:4",
+    "EZK-WOH-11:22",
+    "EZK-WOH-43:2",
+    "EZK-WOH-44:2"
+   ]
+  },
+  "reason": "appliesTo extension only: 'the Elohim of Israel' at Ezek 8:4; 11:22; 43:2; 44:2. Adds 4 refId(s): EZK-WOH-8:4, EZK-WOH-11:22, EZK-WOH-43:2, EZK-WOH-44:2."
+ },
+ {
+  "op": "modify",
+  "id": "toevah-abomination-cross-corpus-keyword",
+  "changes": {
+   "appliesTo": [
+    "GEN-WOH-43:32",
+    "GEN-WOH-46:34",
+    "GEN-WOH-47:3",
+    "EZK-WOH-8:6",
+    "EZK-WOH-8:9",
+    "EZK-WOH-8:13",
+    "EZK-WOH-8:15",
+    "EZK-WOH-8:17",
+    "EZK-WOH-11:18",
+    "EZK-WOH-11:21",
+    "EZK-WOH-43:8",
+    "EZK-WOH-44:6",
+    "EZK-WOH-44:7",
+    "EZK-WOH-44:13"
+   ]
+  },
+  "reason": "appliesTo extension only: 'abomination(s)' at eleven wave-E2 sites. Adds 11 refId(s): EZK-WOH-8:6, EZK-WOH-8:9, EZK-WOH-8:13, EZK-WOH-8:15, EZK-WOH-8:17, EZK-WOH-11:18, EZK-WOH-11:21, EZK-WOH-43:8, EZK-WOH-44:6, EZK-WOH-44:7, EZK-WOH-44:13."
+ },
+ {
+  "op": "modify",
+  "id": "ulam-hekhal-devir-temple-three-room-plan-cross-corpus",
+  "changes": {
+   "rationale": "1 Kings 6-7 describes the Temple as a 'house' (*bayiṯ*) of three successive rooms on one axis: the *ʾûlām* in front (6:3), the *hêḵāl*, forty cubits long (6:17), and the *dəḇîr* at the rear, a twenty-cubit cube also called *qōḏeš haqqŏḏāšîm* and 'the inner house' (6:16, 19-20, 27). The same plan recurs in 2 Chr 3-4 and in Ezekiel's temple (Ezek 40:48-41:4), and it has close Iron Age parallels in north Syria (ʿAin Dara, Tell Tayinat; Monson, *BAR* 26/3, 2000; King and Stager, *Life in Biblical Israel*, 2001). // (1) *hêḵāl* is a loanword from Sumerian é.gal 'great house' via Akkadian *ekallu*, meaning 'palace' or 'temple' in general; in the plan it is the main room (HALOT *hêḵāl* 3). The ASV 'temple' is accurate for the general sense but misleading in 1 Kgs 6, where the whole building is the 'house' and 'the temple of the house' (6:3) names one of its rooms; 'great hall' (NJPS) keeps both the function of the room and the etymology. (2) *dəḇîr* is the rear room (HALOT 'back room'; cf. Arabic *dubr* 'back'). The ASV/KJV 'oracle' comes through the Vulgate *oraculum* from the ancient derivation of the word from *dbr* 'speak' (Aquila and Symmachus *chrēmatistērion*), which the modern lexica reject; the line uses 'inner sanctuary' (NRSV). (3) *ʾûlām* 'porch' and *qōḏeš haqqŏḏāšîm* 'the most holy place' (superlative construct, GKC §133i) are kept from the ASV. // The decision is lexical and architectural and carries no interpretive content. The Raëlian canon's description of the Temple as a residence built to receive the creators (*The Book Which Tells the Truth*, ch. 3) is recorded only in labelled reception notes in the chapter commentary. // **Central housing.** The terms recur in Kings, Chronicles, Ezekiel and the Psalms (*dəḇîr* Ps 28:2; *hêḵāl* passim), so one decision should govern the corpus; the claim_type is *direct* because the room functions and the lexical senses are uncontested in current scholarship. // **Ezekiel application (ezekiel-woh wave E2, 2026-11).** In Ezekiel's temple vision ʾûlām is 'porch' for the porch of each gate (ʾûlām haššaʿar, 40:7-9, 15, 39-40; 44:3) and for the porch of the Temple building (ʾûlām habbayiṯ, 40:48-49). The spelling ʾêlām (40:16-36), which the lexica treat as a by-form of ʾûlām, is rendered 'vestibule' under the ezekiel-woh overlay entry elam-vestibule-gate-element-ezekiel-40, so that the different spelling stays visible. hêḵāl is 'temple' under this entry's context clause where it names the building as a whole: at 8:16 the sun-worshippers stand in the court between the porch and the altar with 'their backs toward the hêḵāl' (so also NRSV and NJPS), and at 42:8 the hêḵāl is faced by the hundred-cubit side of the chamber block, matching the hundred-cubit length of the whole Temple (41:13). Where Ezek 41:1-4 measures the room between the porch and the inner sanctuary, the room is 'great hall' (later wave). habbayiṯ happənîmî 'the inner house' at 42:15 is rendered literally as listed above, but there it names the inner temple complex, not the dəḇîr as in 1 Kgs 6:27.",
+   "appliesTo": [
+    "1KI-WOH-6:3",
+    "1KI-WOH-6:5",
+    "1KI-WOH-6:16",
+    "1KI-WOH-6:17",
+    "1KI-WOH-6:19",
+    "1KI-WOH-6:20",
+    "1KI-WOH-6:21",
+    "1KI-WOH-6:22",
+    "1KI-WOH-6:23",
+    "1KI-WOH-6:27",
+    "1KI-WOH-6:31",
+    "1KI-WOH-6:33",
+    "1KI-WOH-8:6",
+    "1KI-WOH-8:8",
+    "1KI-WOH-8:10",
+    "EZK-WOH-8:16",
+    "EZK-WOH-40:7",
+    "EZK-WOH-40:8",
+    "EZK-WOH-40:9",
+    "EZK-WOH-40:15",
+    "EZK-WOH-40:39",
+    "EZK-WOH-40:40",
+    "EZK-WOH-40:48",
+    "EZK-WOH-40:49",
+    "EZK-WOH-42:8",
+    "EZK-WOH-42:15",
+    "EZK-WOH-44:3"
+   ]
+  },
+  "reason": "Rationale extended with an Ezekiel application paragraph (no change to wohChoice or to any Kings decision): ʾûlām 'porch' at the gate porches and the Temple porch; ʾêlām routed to the ezekiel-woh overlay; hêḵāl 'temple' by the existing context clause at Ezek 8:16 and 42:8; habbayiṯ happənîmî at 42:15. appliesTo extended accordingly. Adds 12 refId(s): EZK-WOH-8:16, EZK-WOH-40:7, EZK-WOH-40:8, EZK-WOH-40:9, EZK-WOH-40:15, EZK-WOH-40:39, EZK-WOH-40:40, EZK-WOH-40:48, EZK-WOH-40:49, EZK-WOH-42:8, EZK-WOH-42:15, EZK-WOH-44:3."
+ },
+ {
+  "op": "modify",
+  "id": "elohim-as-translation",
+  "changes": {
+   "appliesTo": [
+    "GEN-1:1",
+    "GEN-1:2",
+    "GEN-1:3",
+    "GEN-1:4",
+    "GEN-1:5",
+    "GEN-1:6",
+    "GEN-1:7",
+    "GEN-1:8",
+    "GEN-1:9",
+    "GEN-1:10",
+    "GEN-1:11",
+    "GEN-1:12",
+    "GEN-1:14",
+    "GEN-1:16",
+    "GEN-1:17",
+    "GEN-1:18",
+    "GEN-1:20",
+    "GEN-1:21",
+    "GEN-1:22",
+    "GEN-1:24",
+    "GEN-1:25",
+    "GEN-1:26",
+    "GEN-1:27",
+    "GEN-1:28",
+    "GEN-1:29",
+    "GEN-1:31",
+    "EZK-WOH-11:20"
+   ]
+  },
+  "reason": "appliesTo extension only: the covenant formula 'I will be their Elohim' at Ezek 11:20. Adds 1 refId(s): EZK-WOH-11:20."
+ },
+ {
+  "op": "modify",
+  "id": "cherubim-ezek",
+  "changes": {
+   "appliesTo": [
+    "EZK-10:1",
+    "EZK-10:2",
+    "EZK-10:3",
+    "EZK-10:5",
+    "EZK-10:6",
+    "EZK-10:7",
+    "EZK-10:8",
+    "EZK-10:9",
+    "EZK-10:12",
+    "EZK-10:14",
+    "EZK-10:15",
+    "EZK-10:16",
+    "EZK-10:17",
+    "EZK-10:18",
+    "EZK-10:19",
+    "EZK-10:20",
+    "EZK-10:21",
+    "1KI-WOH-6:23",
+    "1KI-WOH-6:24",
+    "1KI-WOH-6:25",
+    "1KI-WOH-6:26",
+    "1KI-WOH-6:27",
+    "1KI-WOH-6:28",
+    "1KI-WOH-6:29",
+    "1KI-WOH-6:32",
+    "1KI-WOH-6:35",
+    "1KI-WOH-8:6",
+    "1KI-WOH-8:7",
+    "EZK-WOH-11:22"
+   ]
+  },
+  "reason": "appliesTo extension only: Ezek 11:22. Adds 1 refId(s): EZK-WOH-11:22."
+ },
+ {
+  "op": "modify",
+  "id": "kavod-yhwh-departure",
+  "changes": {
+   "appliesTo": [
+    "EZK-10:4",
+    "EZK-10:18",
+    "EZK-10:19",
+    "EZK-WOH-11:23"
+   ]
+  },
+  "reason": "appliesTo extension only: the final stage of the departure at Ezek 11:23 ('went up ... and stood on the mountain'). Adds 1 refId(s): EZK-WOH-11:23."
+ },
+ {
+  "op": "modify",
+  "id": "eretz-kasdim",
+  "changes": {
+   "wohChoice": "the land of the Kasdim; with the directional ending and without ʾereṣ, kaśdîmâ is 'to Kasdim' (Ezek 11:24)",
+   "appliesTo": [
+    "EZK-1:3",
+    "EZK-WOH-11:24"
+   ]
+  },
+  "reason": "wohChoice extended for the directional form kaśdîmâ at Ezek 11:24 ('to Kasdim'; ASV 'into Chaldea'; canon-cited verse); appliesTo +1. Adds 1 refId(s): EZK-WOH-11:24."
+ },
+ {
+  "op": "modify",
+  "id": "olah-burnt-offering",
+  "changes": {
+   "appliesTo": [
+    "GEN-WOH-22:2",
+    "GEN-WOH-22:3",
+    "GEN-WOH-22:6",
+    "GEN-WOH-22:7",
+    "GEN-WOH-22:8",
+    "GEN-WOH-22:13",
+    "1KI-WOH-18:34",
+    "1KI-WOH-18:38",
+    "1KI-WOH-8:64",
+    "EZK-WOH-40:38",
+    "EZK-WOH-40:39",
+    "EZK-WOH-40:42",
+    "EZK-WOH-43:18",
+    "EZK-WOH-43:24",
+    "EZK-WOH-43:27",
+    "EZK-WOH-44:11"
+   ]
+  },
+  "reason": "appliesTo extension only: 'burnt-offering' at seven wave-E2 sites (Ezek 40-44); the rest of the sacrificial set is governed by the new cluster entry. Adds 7 refId(s): EZK-WOH-40:38, EZK-WOH-40:39, EZK-WOH-40:42, EZK-WOH-43:18, EZK-WOH-43:24, EZK-WOH-43:27, EZK-WOH-44:11."
+ },
+ {
+  "op": "modify",
+  "id": "qol-mayim-rabbim",
+  "changes": {
+   "wohChoice": "the sound of their wings like the sound of many waters, like the voice of Shaddai; at Ezek 43:2 the simile describes the returning glory: 'his sound was like the sound of many waters' (ASV 'his voice')",
+   "appliesTo": [
+    "EZK-1:24",
+    "EZK-WOH-43:2"
+   ]
+  },
+  "reason": "wohChoice extended for the second Ezekiel site (43:2, canon-cited), where qôl is rendered 'sound' as at 1:24; appliesTo +1. Adds 1 refId(s): EZK-WOH-43:2."
+ },
+ {
+  "op": "modify",
+  "id": "shakhan-dwell-divine-presence-verb-cross-corpus",
+  "changes": {
+   "appliesTo": [
+    "1KI-WOH-6:13",
+    "1KI-WOH-8:12",
+    "EZK-WOH-43:7",
+    "EZK-WOH-43:9"
+   ]
+  },
+  "reason": "appliesTo extension only: the rationale already cites Ezek 43:7, 9. Adds 2 refId(s): EZK-WOH-43:7, EZK-WOH-43:9."
+ },
+ {
+  "op": "modify",
+  "id": "qarnot-ha-mizbeach-horns-of-the-altar-cross-corpus",
+  "changes": {
+   "appliesTo": [
+    "1KI-WOH-1:50",
+    "1KI-WOH-1:51",
+    "1KI-WOH-2:28",
+    "EZK-WOH-43:15",
+    "EZK-WOH-43:20"
+   ]
+  },
+  "reason": "appliesTo extension only: the rationale already cites Ezek 43:15, 20. Adds 2 refId(s): EZK-WOH-43:15, EZK-WOH-43:20."
+ }
+]

@@ -1,9 +1,11 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "scope": "matthew-woh",
-  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of Matthew (canon-cited chapters: 1, 5, 6, 7, 13, 17, 25, 28). Contains composition-specific entries (early-manuscript paleography conventions, NA28/SBLGNT critical-text decisions where Vaticanus and Sinaiticus diverge, sura-specific lexical items, the Raëlian-canon-citation acknowledgment-without-endorsement framework for Mt 13 + Mt 17 + Mt 28, the Christian-supersessionist disavowal apparatus at Mt 5:17 + Mt 28:19-20) that are not (yet) appropriate for promotion to the central production glossary. Entries here may be promoted to central via the standard overlay→central promotion pattern when they appear in subsequent compositions (Mark 16; Luke 21; Acts 2/12/15/17; Revelation 1/4/6+) and acquire cross-corpus reach.",
-  "sourceLanguages": ["grc"],
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of Matthew (canon-cited chapters: 1, 5, 6, 7, 13, 17, 25, 28; wave M2 adds 2, 3, 4, 8, 9, 10, 14, 15, 19, 23, 26, 27). Contains composition-specific entries (early-manuscript paleography conventions, NA28/SBLGNT critical-text decisions where Vaticanus and Sinaiticus diverge, sura-specific lexical items, the Raëlian-canon-citation acknowledgment-without-endorsement framework for Mt 13 + Mt 17 + Mt 28, the Christian-supersessionist disavowal apparatus at Mt 5:17 + Mt 28:19-20) that are not (yet) appropriate for promotion to the central production glossary. Entries here may be promoted to central via the standard overlay→central promotion pattern when they appear in subsequent compositions (Mark 16; Luke 21; Acts 2/12/15/17; Revelation 1/4/6+) and acquire cross-corpus reach. v1.2.0 (wave M2, 2026-11-01): 35 new entries, all direct: the critical-text / Byzantine-variant recording convention, the Raëlian-canon reception-note convention and the speech-introduction colon convention; the Greek-NT lexical rulings for ἄγγελος, πνεῦμα, πειράζω, διάβολος, Σατανᾶς, generic ἄνθρωπος, εὐαγγέλιον, ψυχή, ἐγώ εἰμι, υἱὸς θεοῦ, παλιγγενεσία, ναός/ἱερόν, σεισμός, γῆ (27:45), καθηγητής, μάγοι, ἐν τῇ ἀνατολῇ, προσκυνέω, καθαρίζω, παῖς, σκανδαλίζω, διαθήκη and παρίστημι (26:53); proper names and realia; and single-site cruxes (9:15, 10:9, 15:5, 15:26, 23:23, 26:50, 26:64, 27:65). `aionios-eternal-vs-age-pertaining-translation-convention` extended to 19:16, 19:29. Candidates for promotion to central once the Revelation pass has ruled: `angelos-angel-matthew-convention`, `pneuma-spirit-capitalization-matthew`, `critical-text-baseline-and-byzantine-variant-recording-matthew`.",
+  "sourceLanguages": [
+    "grc"
+  ],
   "entries": [
     {
       "id": "sbl-polytonic-greek-transliteration-convention",
@@ -16,7 +18,9 @@
       "wohChoice": "The WoH-Translation of Matthew uses SBLGNT polytonic Greek (with breathings, accents, and iota subscripts preserved) for the source-language *text* and a project-standard scholarly transliteration for the *translit* field. The transliteration convention: (i) η → ē; ω → ō; macrons mark long-vowels; (ii) breathings: rough breathing → 'h' prefix (e.g., ὁ → ho); smooth breathing → no marking; (iii) ει → ei, ου → ou, αι → ai (diphthongs preserved); (iv) iota subscript → 'subscript-i' not rendered in transliteration; (v) accents NOT marked in transliteration; (vi) capital theta → th; chi → ch; phi → ph; psi → ps; (vii) names preserve standard English forms (Iēsous → Jesus on the surface; Iēsous in translit field); (viii) Hebrew/Aramaic loans (e.g., Emmanouēl) preserve the Greek form in the translit field.",
       "claim_type": "direct",
       "rationale": "**Project-standard scholarly transliteration convention for Koine Greek source-language texts.** This convention is the project's first systematic Koine Greek transliteration-policy, established with the Matthew translation. The convention follows the SBL Handbook of Style (2nd ed., 2014) for polytonic Greek source-text presentation and adopts a scholarly-transliteration convention close to the SBL academic-transliteration standard (with macron-marked long-vowels for η and ω). The convention is documented here so it can be promoted to the central glossary when Mark / Luke / Acts / Revelation translations are added and the convention acquires cross-corpus reach. **Distinct from Hebrew Bible / Akkadian / Sumerian / Ugaritic / Arabic transliteration conventions** (each of which has its own project-standard convention in the central glossary; the Greek convention is project-distinct).\n\n**Named scholarship.** SBL Press, *The SBL Handbook of Style*, 2nd ed. (SBL 2014), §5.1 on Greek transliteration; *NA28* and *UBS5* polytonic Greek conventions; D. F. Watson, 'Greek Grammar and Style', in *A Handbook to the Greek New Testament* (Eerdmans 1989).",
-      "appliesTo": ["MAT-WOH (all paragraphs; convention)"]
+      "appliesTo": [
+        "MAT-WOH (all paragraphs; convention)"
+      ]
     },
     {
       "id": "lords-prayer-doxology-textual-variant-convention",
@@ -29,7 +33,9 @@
       "wohChoice": "The WoH-Translation of Matthew follows the critical-text consensus (NA28/UBS5/SBLGNT) and OMITS the Byzantine doxology at Mt 6:13b. The doxology is documented here as a textual-variant; the Didache 8:2 (c. 100 CE) attests a shorter doxology-form (*hoti sou estin hē dynamis kai hē doxa eis tous aiōnas, amēn* — without 'kingdom') indicating that liturgical-closure-doxologies were in use in 2nd-c. Christian prayer, but the doxology is ABSENT in Vaticanus (B/03) + Sinaiticus (א/01) + the earliest substantial witnesses to Matthew. The doxology is treated as a liturgical-addition not part of the original Matthean text.",
       "claim_type": "direct",
       "rationale": "**Critical-text convention.** B. M. Metzger, *A Textual Commentary on the Greek New Testament*, 2nd ed. (UBS/DBS 1994) ad loc., treats the doxology as a liturgical-addition: 'the doxology, found in the great majority of the later Greek manuscripts, has been added to make the prayer suitable for liturgical use. The earliest and best witnesses [Vaticanus, Sinaiticus, Bezae, the Latin Vulgate, etc.] do not contain it.' The Didache 8:2 doxology is in shorter-form (without 'kingdom'), suggesting that the developed Byzantine-form is a later liturgical-expansion. The NA28/UBS5/SBLGNT critical text omits the doxology.\n\n**Cross-references to central entries.** See `lords-prayer-mt-6-9-13-pater-hēmōn-byzantine-doxology-textual-variant-cross-corpus` for the full philological treatment.\n\n**Named scholarship.** B. M. Metzger, *A Textual Commentary on the Greek New Testament*, 2nd ed. (UBS/DBS 1994) ad loc.; W. D. Davies and D. C. Allison, *A Critical and Exegetical Commentary*, vol. 1 (ICC, T&T Clark 1988) 615-616 on Mt 6:13b; U. Luz, *Matthew 1-7* (Hermeneia, Fortress 2007) 329-330; R. T. France, *The Gospel of Matthew* (NICNT, Eerdmans 2007) 252-253.",
-      "appliesTo": ["MAT-WOH-6:13"]
+      "appliesTo": [
+        "MAT-WOH-6:13"
+      ]
     },
     {
       "id": "epiousios-hapax-translation-convention",
@@ -42,7 +48,9 @@
       "wohChoice": "The WoH-Translation renders *epiousios* as 'daily' per the dominant English-tradition convention (RSV/NRSV-baseline). The hapax-character of the word is documented in this glossary apparatus; the three competing renderings ('daily' / 'for-tomorrow' / 'supersubstantial') are preserved; the translation does NOT pre-resolve the philological dispute.",
       "claim_type": "direct",
       "rationale": "**Hapax-rendering convention.** *epiousios* is a hapax legomenon in NT Greek (only at Mt 6:11 + Lk 11:3, both in the Lord's Prayer). The word is essentially unattested in pre-NT Greek; a single 4th/5th-c. CE papyrus attestation (P.Yadin 11) where it appears to mean 'daily' is disputed. Three competing etymologies: (i) *epi + ousia* 'for-existence / substantial' → 'supersubstantial' (Jerome's Mt 6:11 rendering); (ii) *epi + ienai/iousēs hēmeras* 'coming-upon / for-tomorrow' → Jerome's Lk 11:3 'crastinum'; the Aramaic *yoma de-yatya* 'day-which-is-coming' (Jeremias 1971); (iii) *epi + ousios* 'for-today / daily' → the dominant English-tradition rendering 'daily bread'.\n\n**Cross-references to central entries.** See `lords-prayer-mt-6-9-13-pater-hēmōn-byzantine-doxology-textual-variant-cross-corpus` for the full philological treatment.\n\n**Named scholarship.** W. D. Davies and D. C. Allison, *A Critical and Exegetical Commentary*, vol. 1 (ICC, T&T Clark 1988) 607-610; U. Luz, *Matthew 1-7* (Hermeneia, Fortress 2007) 319-322; R. T. France, *The Gospel of Matthew* (NICNT, Eerdmans 2007) 244-246; J. Jeremias, *The Prayers of Jesus* (SCM 1967); BDAG 376-377 s.v. ἐπιούσιος.",
-      "appliesTo": ["MAT-WOH-6:11"]
+      "appliesTo": [
+        "MAT-WOH-6:11"
+      ]
     },
     {
       "id": "aionios-eternal-vs-age-pertaining-translation-convention",
@@ -55,7 +63,12 @@
       "wohChoice": "The WoH-Translation renders *aiōnios* as 'eternal' per the dominant English-tradition convention. The philological breadth of *aiōnios* (covering 'endless-eternal' / 'age-pertaining' / 'of-the-age-to-come' / 'indefinite-long-duration') is documented in this glossary apparatus and in the central entry `aiōnios-mt-25-41-46-eternal-vs-age-pertaining-cross-corpus`. The translation does NOT pre-resolve the eternalist-vs-conditionalist-vs-universalist hell-doctrine debate.",
       "claim_type": "direct",
       "rationale": "**Translation-convention for a philologically-disputed term.** *aiōnios* is the adjectival form of *aiōn* 'age, era, eon'; the LXX standardly renders Hebrew *ʿôlām* 'long-duration / antiquity / age / eternity' with *aiōn / aiōnios*. The Hebrew *ʿôlām* covers a spectrum from 'long-duration / antiquity' to 'age-to-come / eternity', and the LXX-Greek *aiōnios* inherits this semantic-breadth. Modern philological consensus is that *aiōnios* admits both 'endless-eternal' and 'age-pertaining' senses; the surface English-translation 'eternal' over-specifies in favor of the eternalist reading. The WoH-Translation preserves 'eternal' per the dominant English-tradition convention (avoiding surface-textual editorialization) and documents the philological breadth in the apparatus.\n\n**Cross-references to central entries.** See `aiōnios-mt-25-41-46-eternal-vs-age-pertaining-cross-corpus` for the full philological treatment.\n\n**Named scholarship.** H. Sasse, 'aiōn, aiōnios', in *TDNT* 1 (Eerdmans 1964) 197-209; D. B. Hart, *The New Testament: A Translation* (Yale 2017); D. B. Hart, *That All Shall Be Saved* (Yale 2019); E. W. Fudge, *The Fire That Consumes*, 3rd ed. (Cascade 2011).",
-      "appliesTo": ["MAT-WOH-25:41", "MAT-WOH-25:46"]
+      "appliesTo": [
+        "MAT-WOH-25:41",
+        "MAT-WOH-25:46",
+        "MAT-WOH-19:16",
+        "MAT-WOH-19:29"
+      ]
     },
     {
       "id": "raca-aramaic-insult-untranslated-mt-5-22",
@@ -68,7 +81,9 @@
       "wohChoice": "'Raca' — preserved untranslated per the Greek-text convention (Matthew himself preserves the Aramaic loan-word as *rhaka* rather than translating to Greek). The surface English-translation retains the untranslated Aramaic-insult to preserve the Matthean philological-strategy of preserving the Jesus-tradition Aramaic-source-language. The semantic content ('empty-headed / fool / worthless') is documented in this glossary apparatus.",
       "claim_type": "direct",
       "rationale": "**Untranslated-Aramaic-loan convention.** Matthew at 5:22 preserves the Aramaic insult *rhaka* (← *reqaʾ* 'empty-headed one') rather than translating to Greek (e.g., *kenos* 'empty' or *mōros* 'fool', the latter being deployed in the next clause). The philological-significance: the Matthean preservation of the Aramaic loan-word evidences (a) the Aramaic-substratum of the Jesus-tradition; (b) the Matthean editorial-strategy of preserving Aramaic-loan-words at key-saying-points (other Matthean Aramaic-loans: *amēn* 'truly', *mamōnas* 'mammon' at 6:24, *raqa*, *kephas* in Pauline tradition). The translation-convention preserves the Aramaic-loan untranslated, mirroring the Matthean source-presentation.\n\n**The Mt 5:22 escalation.** Mt 5:22 has a three-fold escalation of judgment: (i) being angry (*orgizomenos*) → liable to judgment (*tē krisei*); (ii) saying 'Raca' (*rhaka*) → liable to the council (*tō synedriō*); (iii) saying 'You fool' (*mōre*) → liable to the gehenna-of-fire (*tēn geennan tou pyros*). The three-fold escalation is widely-treated as a Matthean rhetorical-intensification of the Sixth Commandment (the antithesis-structure of Mt 5:21-26).\n\n**Named scholarship.** W. D. Davies and D. C. Allison, *A Critical and Exegetical Commentary*, vol. 1 (ICC, T&T Clark 1988) 511-515; U. Luz, *Matthew 1-7* (Hermeneia, Fortress 2007) 285-289; R. T. France, *The Gospel of Matthew* (NICNT, Eerdmans 2007) 200-201; D. A. Hagner, *Matthew 1-13* (WBC 33A, Word 1993) 117-118; J. Nolland, *The Gospel of Matthew* (NIGTC, Eerdmans 2005) 232-234; BDAG 902 s.v. ῥακά.",
-      "appliesTo": ["MAT-WOH-5:22"]
+      "appliesTo": [
+        "MAT-WOH-5:22"
+      ]
     },
     {
       "id": "adelphōn-mou-presence-absence-asymmetry-mt-25-40-vs-25-45-gray",
@@ -81,7 +96,764 @@
       "wohChoice": "Preserve the textual-asymmetry between Mt 25:40 (which has *adelphōn mou tōn elachistōn* 'the least of these my brothers') and Mt 25:45 (which has *heni toutōn tōn elachistōn* 'one of these the least' — WITHOUT *adelphōn mou*). The asymmetry is preserved in the surface English-translation per Gray 1989. The asymmetry is philologically-significant: at v.40 (positive-judgment) the addressed-group is 'my brothers'; at v.45 (negative-judgment) the addressed-group is simply 'these least' without the brother-qualifier. The asymmetry may indicate that the criterion is differently-described for the positive vs negative cases, with implications for the universalist-vs-restricted reading-debate.",
       "claim_type": "direct",
       "rationale": "**Gray 1989 specifically notes the textual-asymmetry.** S. W. Gray, *The Least of My Brothers: Matthew 25:31-46. A History of Interpretation* (SBLDS 114, Scholars Press 1989), treats the v.40/v.45 asymmetry systematically. The asymmetry has implications: (i) the *adelphōn mou* at v.40 is a key argument for the restricted-Christian-missionary reading (the 'brothers' = disciples); (ii) the absence of *adelphōn mou* at v.45 may indicate a broader-criterion for the negative-judgment (or may simply be Matthean variatio with no semantic-significance); (iii) the modern critical-translation tradition standardly preserves the asymmetry (KJV/RSV/NRSV/NIV all reproduce the asymmetry literally). The translation-convention preserves the asymmetry as documented in the source-text.\n\n**Cross-references to central entries.** See `sheep-and-goats-mt-25-31-46-adelphōn-mou-tōn-elachistōn-three-readings-gray-cross-corpus` for the full philological treatment.\n\n**Named scholarship.** S. W. Gray, *The Least of My Brothers: Matthew 25:31-46. A History of Interpretation* (SBLDS 114, Scholars Press 1989), the comprehensive monograph; J. R. Donahue, 'The 'Parable' of the Sheep and the Goats: A Challenge to Christian Ethics', *TS* 47 (1986) 3-31; W. D. Davies and D. C. Allison, *A Critical and Exegetical Commentary*, vol. 3 (ICC, T&T Clark 1997) on Mt 25:40 + 25:45.",
-      "appliesTo": ["MAT-WOH-25:40", "MAT-WOH-25:45"]
+      "appliesTo": [
+        "MAT-WOH-25:40",
+        "MAT-WOH-25:45"
+      ]
+    },
+    {
+      "id": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "source": "SBLGNT (Holmes 2010) as base text; Byzantine / Textus Receptus readings as recorded variants",
+      "translit": "(convention entry)",
+      "strongs": null,
+      "partOfSpeech": "textual-criticism convention",
+      "literal": "(N/A; convention entry)",
+      "standardEnglish": "KJV follows the Textus Receptus (Byzantine); ASV, RSV, NRSV, NA28-based versions follow the critical text, usually with footnotes",
+      "wohChoice": "The English line translates the SBLGNT text, including its choices where NA28 brackets a word or where Vaticanus and Sinaiticus diverge. Byzantine / Textus Receptus (KJV) readings are never imported into the line; each is recorded in the verse commentary, with its principal witnesses, and always where the English edition of a Raëlian book quotes the KJV wording. A verse absent from the critical text (Mt 23:14) gets no paragraph: verse numbering skips it, and the omitted Byzantine text is quoted in the commentary at 23:13. Proper-name variants (Gadarenes, Thaddaeus, Magadan, Jesus Barabbas, Joseph at 27:56) follow the same rule.",
+      "claim_type": "direct",
+      "rationale": "The project's Greek source is the SBLGNT, a critical text that mostly agrees with NA28 but not always: besides words NA28 prints in brackets (3:16 αὐτῷ, 23:4 καὶ δυσβάστακτα, 14:30 ἰσχυρόν, 9:14 πολλά), it differs from NA28 outside brackets at sites such as 19:9 (the final clause) and 19:29 (ἢ γυναῖκα). Translating one text consistently keeps every English line auditable against a published Greek edition; importing the KJV's Byzantine readings selectively, for example where a Raëlian book quotes them, would produce an eclectic text that matches no edition. Recording the Byzantine reading in the commentary keeps the reader's familiar wording visible and explains why the English differs from the KJV. This extends the overlay precedent `lords-prayer-doxology-textual-variant-convention` (Mt 6:13b omitted on the surface, documented in the apparatus) to the whole wave. One published inconsistency is flagged for a later pass and not changed here: chapter 17 (stable) prints 17:21, which the critical text omits, as a bracketed paragraph, whereas this wave gives 23:14 no paragraph. Named scholarship: B. M. Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc. at each site; M. W. Holmes, The Greek New Testament: SBL Edition (2010), apparatus; NA28 apparatus; W. D. Davies and D. C. Allison, Matthew (ICC, 3 vols., 1988-1997) ad loc. Wording discipline: 'Byzantine' names the majority tradition (as edited by Robinson-Pierpont); 'Textus Receptus' (TR) names the printed text behind the KJV. Where the two differ (e.g. 4:10 ὀπίσω μου, Byzantine but not TR; 15:4 σου, TR but not marked Byzantine), the commentary names the correct one.",
+      "appliesTo": [
+        "MAT-WOH-2:18",
+        "MAT-WOH-3:16",
+        "MAT-WOH-4:10",
+        "MAT-WOH-8:28",
+        "MAT-WOH-8:29",
+        "MAT-WOH-9:13",
+        "MAT-WOH-9:14",
+        "MAT-WOH-10:3",
+        "MAT-WOH-10:4",
+        "MAT-WOH-10:8",
+        "MAT-WOH-10:25",
+        "MAT-WOH-14:24",
+        "MAT-WOH-14:30",
+        "MAT-WOH-15:4",
+        "MAT-WOH-15:6",
+        "MAT-WOH-15:8",
+        "MAT-WOH-15:39",
+        "MAT-WOH-19:4",
+        "MAT-WOH-19:9",
+        "MAT-WOH-19:16",
+        "MAT-WOH-19:17",
+        "MAT-WOH-19:29",
+        "MAT-WOH-23:4",
+        "MAT-WOH-23:7",
+        "MAT-WOH-23:8",
+        "MAT-WOH-23:13",
+        "MAT-WOH-23:15",
+        "MAT-WOH-23:35",
+        "MAT-WOH-23:38",
+        "MAT-WOH-26:3",
+        "MAT-WOH-26:28",
+        "MAT-WOH-26:42",
+        "MAT-WOH-26:59",
+        "MAT-WOH-26:60",
+        "MAT-WOH-27:2",
+        "MAT-WOH-27:9",
+        "MAT-WOH-27:16",
+        "MAT-WOH-27:17",
+        "MAT-WOH-27:24",
+        "MAT-WOH-27:34",
+        "MAT-WOH-27:35",
+        "MAT-WOH-27:42",
+        "MAT-WOH-27:46",
+        "MAT-WOH-27:49",
+        "MAT-WOH-27:56"
+      ]
+    },
+    {
+      "id": "angelos-angel-matthew-convention",
+      "source": "ἄγγελος; ἄγγελος κυρίου",
+      "translit": "angelos; angelos kyriou",
+      "strongs": "G32; G2962",
+      "partOfSpeech": "noun; construct phrase",
+      "literal": "messenger, envoy; messenger of the Lord",
+      "standardEnglish": "angel; angel of the Lord (KJV/ASV/RSV/NRSV, uniformly in Matthew)",
+      "wohChoice": "'angel' / 'an angel of the Lord' for every ἄγγελος in Matthew whose referent is a heavenly envoy, as in the published chapters 1, 13, 25 and 28. 'messenger' is kept for the human sense (Mt 11:10, John the Baptist, outside the program so far). The Hebrew-side central entry `malakh-yhwh-messenger` ('messenger of YHWH') is not applied to the Greek: the surface difference between the Hebrew-Bible and New Testament renderings is deliberate and is stated in the commentary at the first occurrence of the wave (2:13).",
+      "claim_type": "direct",
+      "rationale": "Hebrew *malʾāḵ* is the ordinary word for a human envoy and only secondarily a divine one, which is why the central entry `malakh-yhwh-messenger` renders the Hebrew Bible figure 'messenger of YHWH'. Greek ἄγγελος also means 'messenger' (BDAG s.v. 1), but by the first century, in Jewish Greek (the LXX, Tobit, the Greek Enoch, Philo, Josephus), it had become the technical term for a heavenly being, and every Matthean occurrence in the program has that sense: the Lord's envoy in Joseph's dreams (1:20; 2:13, 19), the angels of Ps 91 (4:6), the angels who serve Jesus (4:11), the eschatological reapers (13:39-49; 25:31, 41), the twelve legions (26:53) and the figure at the tomb (28:2, 5). 'Angel' is therefore the standard lexicon rendering for these sites, and it is what the published chapters 1, 13, 25 and 28 already print; changing it here would split the book. The same NT convention holds in the published Acts 12 ('an angel of the Lord'). The canon's reading of the angels of Mt 4:11 as 'the Elohim's messengers' (Let's Welcome the Extraterrestrials, ch. 2) is recorded as a reception note, and the etymological sense 'messenger' is stated in commentary, so nothing is hidden from the reader. Promotion to the central glossary as a Greek-NT convention is recommended once the Revelation pass has ruled, so the two Greek books can be harmonized. Named scholarship: BDAG s.v. ἄγγελος; G. Kittel and W. Grundmann, 'ἄγγελος', TDNT 1; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-1:20",
+        "MAT-WOH-1:24",
+        "MAT-WOH-2:13",
+        "MAT-WOH-2:19",
+        "MAT-WOH-4:6",
+        "MAT-WOH-4:11",
+        "MAT-WOH-13:39",
+        "MAT-WOH-13:41",
+        "MAT-WOH-13:49",
+        "MAT-WOH-25:31",
+        "MAT-WOH-25:41",
+        "MAT-WOH-26:53",
+        "MAT-WOH-28:2",
+        "MAT-WOH-28:5"
+      ]
+    },
+    {
+      "id": "pneuma-spirit-capitalization-matthew",
+      "source": "πνεῦμα; πνεῦμα θεοῦ; πνεῦμα ἅγιον; τὸ πνεῦμα",
+      "translit": "pneuma; pneuma theou; pneuma hagion; to pneuma",
+      "strongs": "G4151",
+      "partOfSpeech": "noun",
+      "literal": "breath, wind, spirit",
+      "standardEnglish": "the Spirit of God, the Holy Spirit, the Spirit (divine); spirit (human); unclean spirits",
+      "wohChoice": "Capital 'Spirit' with the definite article for God's πνεῦμα: 'the Holy Spirit' (1:18, 20; 3:11; 28:19), 'the Spirit of God' (3:16, anarthrous πνεῦμα θεοῦ, definite by the genitive), 'the Spirit' (4:1), 'the Spirit of your Father' (10:20). Lower case for the human spirit ('poor in spirit' 5:3; 'the spirit indeed is willing' 26:41; 'yielded up his spirit' 27:50, τὸ πνεῦμα with possessive article) and for 'unclean spirits' / 'the spirits' (8:16; 10:1). The Genesis central entry `ruach-elohim` ('breath of Elohim' at Gen 1:2) is not applied: it governs the cosmogonic Hebrew phrase, not the Greek Gospels.",
+      "claim_type": "direct",
+      "rationale": "In Matthew the divine πνεῦμα is an agent: it conceives (1:18, 20), descends and comes upon Jesus (3:16), leads him (4:1) and speaks through the disciples (10:20). The published chapters 1 and 28 already print 'the Holy Spirit', so capital 'Spirit' is the book's convention, and the canon's French quotation of 3:16 (« l'Esprit de Dieu », The Book Which Tells the Truth, ch. 4) also capitalizes. The anarthrous πνεῦμα θεοῦ at 3:16 is rendered with the article because a head noun governing a definite genitive is normally definite in Greek (Apollonius' canon; cf. ὑπὸ τοῦ πνεύματος in the next verse, 4:1), and 'a spirit of God' would introduce an indefiniteness the context does not have. The Hebrew-side 'breath of Elohim' choice at Gen 1:2 rests on the hovering-over-water context of that verse and on the threefold range of *rûaḥ*; neither applies to Greek πνεῦμα in a narrative of descent and leading. Lower case at 27:50 follows the ordinary idiom for dying (cf. LXX Gen 35:18 for ψυχή; Sir 38:23) and keeps the human spirit distinct. Named scholarship: BDAG s.v. πνεῦμα 2 and 5; Davies and Allison, Matthew (ICC), ad loc.; R. T. France, The Gospel of Matthew (NICNT 2007), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-1:18",
+        "MAT-WOH-1:20",
+        "MAT-WOH-3:11",
+        "MAT-WOH-3:16",
+        "MAT-WOH-4:1",
+        "MAT-WOH-10:20",
+        "MAT-WOH-28:19",
+        "MAT-WOH-5:3",
+        "MAT-WOH-8:16",
+        "MAT-WOH-10:1",
+        "MAT-WOH-26:41",
+        "MAT-WOH-27:50"
+      ]
+    },
+    {
+      "id": "peirazo-peirasmos-tempt-test-matthew",
+      "source": "πειράζω; ὁ πειράζων; πειρασμός; ἐκπειράζω",
+      "translit": "peirazō; ho peirazōn; peirasmos; ekpeirazō",
+      "strongs": "G3985; G3986; G1598",
+      "partOfSpeech": "verb; participle as noun; noun; compound verb",
+      "literal": "try, test, put to the proof; entice to wrong",
+      "standardEnglish": "tempt / the tempter / temptation (ASV, KJV, RSV, NRSV at 4:1-3, 6:13, 26:41); test, try (Pharisees 'testing him', 19:3)",
+      "wohChoice": "Context-sensitive, one lexeme family: 'to be tempted' and 'the tempter' where the devil is the agent of enticement (4:1, 4:3); 'temptation' for πειρασμός in the prayer formulae (6:13 published; 26:41); 'testing him' where opponents probe Jesus with a question (19:3; cf. 16:1, 22:18, 22:35); 'make trial of' for ἐκπειράζω in the Deut 6:16 quotation (4:7). The 'test' sense of the wilderness episode is stated in commentary at 4:1.",
+      "claim_type": "direct",
+      "rationale": "πειράζω covers both 'put to the test' and 'entice to do wrong' (BDAG s.v. 2 and 4), and the agent decides the English: with ὑπὸ τοῦ διαβόλου (4:1) and the participle ὁ πειράζων (4:3) the devil's proposals are enticements, which BDAG and the major versions render 'tempt' and 'the tempter'. The test dimension is also real and is widely argued: B. Gerhardsson, The Testing of God's Son (1966), reads Mt 4:1-11 as a covenant test of the Son modelled on Israel's forty years (Deut 8:2, 'to test you'), and the canon quotes the verse as « mis à l'épreuve » (The Book Which Tells the Truth, ch. 4; Let's Welcome the Extraterrestrials, ch. 2). Both readings are given in the commentary; the line keeps the agent-driven sense because 'to be tested by the devil' with 'the tester' in the next verse is not idiomatic English and would separate the episode from 6:13, where the published surface reads 'temptation'. Note for a later pass, not changed here: the wohChoice text of the central entry `lords-prayer-mt-6-9-13-pater-hēmōn-byzantine-doxology-textual-variant-cross-corpus` says 'testing' for πειρασμός at 6:13, but the stable 6:13 line reads 'temptation'; this entry follows the published line. Named scholarship: BDAG s.v. πειράζω, πειρασμός; H. Seesemann, 'πεῖρα', TDNT 6; Gerhardsson 1966; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-4:1",
+        "MAT-WOH-4:3",
+        "MAT-WOH-4:7",
+        "MAT-WOH-6:13",
+        "MAT-WOH-19:3",
+        "MAT-WOH-26:41"
+      ]
+    },
+    {
+      "id": "diabolos-the-devil-matthew",
+      "source": "ὁ διάβολος",
+      "translit": "ho diabolos",
+      "strongs": "G1228",
+      "partOfSpeech": "noun (substantivized adjective) with article",
+      "literal": "the slanderer, the accuser",
+      "standardEnglish": "the devil (all major English versions)",
+      "wohChoice": "'the devil'. The etymological sense 'slanderer' (from διαβάλλω 'to slander, accuse') is stated in the commentary at 4:1, together with the canon's gloss « calomniateur ».",
+      "claim_type": "direct",
+      "rationale": "διάβολος as an adjective means 'slanderous' (1 Tim 3:11) and as a common noun 'slanderer'; with the article in the Gospels it is the title of a single figure, the LXX's rendering of Hebrew *haśśāṭān* in Job 1-2 and Zech 3 (BDAG s.v. 2). Matthew uses the title interchangeably with the name Satan (4:10) and with 'the tempter' (4:3), and in 13:39 and 25:41 (published, 'the devil') it is a figure with angels of his own. 'The devil' is therefore the lexical equivalent of the title, and 'the slanderer' would turn a title into a description the Greek reader no longer heard in it. Let's Welcome the Extraterrestrials (ch. 2) draws attention to the etymology ('What is the word for slanderer in Greek? Simply diablos'); the commentary records that the etymology is accurate and leaves the reading to the reception note. Named scholarship: BDAG s.v. διάβολος; W. Foerster, 'διάβολος', TDNT 2; E. Pagels, The Origin of Satan (1995) on the development of the figure.",
+      "appliesTo": [
+        "MAT-WOH-4:1",
+        "MAT-WOH-4:5",
+        "MAT-WOH-4:8",
+        "MAT-WOH-4:11",
+        "MAT-WOH-13:39",
+        "MAT-WOH-25:41"
+      ]
+    },
+    {
+      "id": "satanas-satan-name-matthew",
+      "source": "Σατανᾶς (vocative Σατανᾶ)",
+      "translit": "Satanas (voc. Satana)",
+      "strongs": "G4567",
+      "partOfSpeech": "proper noun (Greek transliteration of Aramaic *sāṭānā*)",
+      "literal": "adversary (Hebrew/Aramaic etymology)",
+      "standardEnglish": "Satan",
+      "wohChoice": "'Satan', as a personal name. The central entry `ha-satan` ('the adversary') is not applied: it governs Hebrew הַשָּׂטָן with the article in Job, where the word is a role title, whereas the Greek is an anarthrous name in direct address.",
+      "claim_type": "direct",
+      "rationale": "Σατανᾶς is the Greek transliteration of the Aramaic determinative *sāṭānā* and functions in the Gospels as a proper name (BDAG s.v.): it takes no article in the vocative 'Go away, Satan!' (4:10) and stands in parallel with 'the devil' in the same pericope. The central `ha-satan` entry rests on the Hebrew article in Job 1-2 and Zech 3, which marks a council role ('the adversary'); that argument does not transfer to an anarthrous Greek name, and translating the name as 'adversary' here would be a calque the Greek does not invite. The canon also treats it as a name (Let's Welcome the Extraterrestrials, ch. 2: 'Jesus refers to the slanderer by his name, since he calls him Satan'). The Byzantine majority text adds ὀπίσω μου ('behind me', cf. 16:23); it is absent from SBLGNT and from the Textus Receptus (KJV 'Get thee hence, Satan'). Named scholarship: BDAG s.v. Σατανᾶς; Foerster, TDNT 7; Metzger, Textual Commentary, on 4:10.",
+      "appliesTo": [
+        "MAT-WOH-4:10"
+      ]
+    },
+    {
+      "id": "anthropos-generic-people-convention-matthew",
+      "source": "ἄνθρωπος / ἄνθρωποι (generic); ἀνήρ / ἄνδρες (male)",
+      "translit": "anthrōpos / anthrōpoi; anēr / andres",
+      "strongs": "G444; G435",
+      "partOfSpeech": "noun; translation convention",
+      "literal": "human being / human beings; man (male) / men",
+      "standardEnglish": "man / men (ASV, KJV, RSV throughout); people, others, human (NRSV)",
+      "wohChoice": "Generic plural ἄνθρωποι → 'people' (as in the published 5:13, 16; 6:1-18; 7:12), including 'fishers of people' (4:19), 'to people' (9:8), 'the people marveled' (8:27), 'human precepts' (15:9). Generic singular with the article, distributive → 'a person' / 'no one': 'defiles a person' (15:11, 18, 20), 'let no one separate' (19:6). Kept as 'man': an indefinite individual (ἄνθρωπός τις, 'a man called Matthew' 9:9, 'a man under authority' 8:9), the collective 'Man' of the Deut 8:3 quotation (4:4), and every ἀνήρ (14:21, 35; 15:38). Legacy inconsistency noted, not changed: the stable 17:22 reads 'into the hands of men'.",
+      "claim_type": "direct",
+      "rationale": "ἄνθρωπος is the word for a human being as distinct from God or animals; ἀνήρ is the word for a male (BDAG s.v. ἄνθρωπος 1, ἀνήρ 1). The published Sermon chapters already render generic plurals as 'people', and this wave extends the same rule to the verses where the Translator's draft or the ASV kept 'men' or 'the man'. At 15:11-20 the article with ἄνθρωπος is generic (any person who eats), and the Translator's own chapter title ('What defiles a person') already reads it so; the canon's « profane l'homme » uses French generic *homme*, which the English 'the man' does not reproduce. The collective 'Man' is kept in the Deut 8:3 quotation (4:4), where English 'man' in the sense of humankind is still standard and the LXX singular is gnomic. Named scholarship: BDAG s.v. ἄνθρωπος, ἀνήρ; the NRSV preface on inclusive rendering of generic terms (1989); D. A. Carson, The Inclusive Language Debate (1998), for the limits of the practice (no change where a male is meant).",
+      "appliesTo": [
+        "MAT-WOH-4:4",
+        "MAT-WOH-4:19",
+        "MAT-WOH-8:9",
+        "MAT-WOH-8:27",
+        "MAT-WOH-9:8",
+        "MAT-WOH-9:9",
+        "MAT-WOH-10:17",
+        "MAT-WOH-10:32",
+        "MAT-WOH-10:33",
+        "MAT-WOH-15:9",
+        "MAT-WOH-15:11",
+        "MAT-WOH-15:18",
+        "MAT-WOH-15:20",
+        "MAT-WOH-19:6",
+        "MAT-WOH-19:12",
+        "MAT-WOH-19:26",
+        "MAT-WOH-23:4",
+        "MAT-WOH-23:5",
+        "MAT-WOH-23:7",
+        "MAT-WOH-23:13",
+        "MAT-WOH-23:28",
+        "MAT-WOH-5:13",
+        "MAT-WOH-5:16",
+        "MAT-WOH-6:1",
+        "MAT-WOH-7:12",
+        "MAT-WOH-17:22"
+      ]
+    },
+    {
+      "id": "euangelion-gospel-matthew",
+      "source": "τὸ εὐαγγέλιον (τῆς βασιλείας)",
+      "translit": "to euangelion (tēs basileias)",
+      "strongs": "G2098",
+      "partOfSpeech": "noun",
+      "literal": "good news, glad tidings",
+      "standardEnglish": "the gospel (of the kingdom) (ASV, KJV, RSV, NRSV); the good news (NRSV at some sites, CEB)",
+      "wohChoice": "'the gospel' ('the gospel of the kingdom' 4:23, 9:35; 'this gospel' 26:13), as in the published Mk 16:15 and Acts 15:7. The literal sense 'good news' is stated in the commentary at 4:23. The verb εὐαγγελίζομαι, where it occurs, is rendered 'proclaim the good news'.",
+      "claim_type": "direct",
+      "rationale": "εὐαγγέλιον means 'good news' (BDAG s.v. 1), and in Matthew it is always qualified (of the kingdom, 'this gospel') and always the object of κηρύσσω 'proclaim'. 'Gospel' is the English word that originated as a calque of it (Old English *gōdspel*), and the program has already used it on the published NT surface (Mk 16:15 'proclaim the gospel to all creation'; Acts 15:7 'the word of the gospel'). Using 'good news' only in Matthew would create a split within the program's NT for no lexical gain; the literal sense is supplied in the commentary. Named scholarship: BDAG s.v. εὐαγγέλιον; G. Friedrich, TDNT 2; G. N. Stanton, Jesus and Gospel (2004).",
+      "appliesTo": [
+        "MAT-WOH-4:23",
+        "MAT-WOH-9:35",
+        "MAT-WOH-26:13"
+      ]
+    },
+    {
+      "id": "psyche-soul-life-matthew",
+      "source": "ψυχή",
+      "translit": "psychē",
+      "strongs": "G5590",
+      "partOfSpeech": "noun",
+      "literal": "life, breath of life; the inner self, soul",
+      "standardEnglish": "life (2:20; 6:25; 10:39 ASV) / soul (10:28; 26:38 ASV)",
+      "wohChoice": "Context-sensitive: 'life' where ψυχή is the life that can be sought, lost, saved or provided for (2:20 'the child's life'; 6:25 published; 10:39 'his life' twice); 'soul' where it is set against σῶμα as the part that cannot be killed (10:28) and where it is the seat of emotion (26:38 'My soul is exceedingly sorrowful', echoing Ps 42:6 LXX). The switch is stated in the commentary at 10:28 and 10:39.",
+      "claim_type": "direct",
+      "rationale": "ψυχή renders Hebrew *nepeš* in the LXX and keeps its range: physical life (BDAG s.v. 1) and the inner person, the self (BDAG s.v. 2). At 10:28 the body/ψυχή antithesis ('those who kill the body but cannot kill the ψυχή') requires a word for something that survives bodily death, and 'soul' is the only English term that does that; at 10:39 the paradox 'whoever finds his ψυχή will lose it' is about one's life, and 'soul' there would turn a saying about self-preservation into one about salvation alone. All major versions make the same split. The Hebrew-side counterpart in the program is the Kings overlay entry `nefesh-scope-and-spelling-kings`, which likewise renders *nepeš* by context. Named scholarship: BDAG s.v. ψυχή; E. Schweizer, TDNT 9; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-2:20",
+        "MAT-WOH-6:25",
+        "MAT-WOH-10:28",
+        "MAT-WOH-10:39",
+        "MAT-WOH-26:38"
+      ]
+    },
+    {
+      "id": "ego-eimi-it-is-i-mt-14-27",
+      "source": "ἐγώ εἰμι",
+      "translit": "egō eimi",
+      "strongs": "G1473; G1510",
+      "partOfSpeech": "pronoun + verb (self-identification formula)",
+      "literal": "I am",
+      "standardEnglish": "It is I (ASV, KJV, RSV, NRSV); I am (some commentators, as an allusion)",
+      "wohChoice": "'it is I'. The possible allusion to the divine self-designation ἐγώ εἰμι of Exod 3:14 and Isa 41:4; 43:10 (LXX) is stated in the commentary and not built into the line.",
+      "claim_type": "direct",
+      "rationale": "In ordinary Greek ἐγώ εἰμι with no predicate answers the question 'who is it?', and the context at 14:26-27 is exactly that: the disciples think they see a ghost, and Jesus identifies himself (BDAG s.v. εἰμί 3). Many commentators also hear the divine 'I am' of the LXX, supported in the context by walking on the sea (Job 9:8 LXX, of God 'walking on the sea') and by the confession of 14:33; Davies and Allison call the double sense likely. Both readings can be read from 'it is I', whereas 'I am' would impose the theological reading on a sentence that works first as self-identification. Named scholarship: BDAG s.v. εἰμί; Davies and Allison, Matthew (ICC), ad loc.; D. A. Hagner, Matthew 14-28 (WBC 33B, 1995), ad loc.; R. E. Brown, The Gospel According to John I-XII (AB 29, 1966), Appendix IV on ἐγώ εἰμι.",
+      "appliesTo": [
+        "MAT-WOH-14:27"
+      ]
+    },
+    {
+      "id": "huios-theou-son-of-god-rendering-matthew",
+      "source": "ὁ υἱὸς τοῦ θεοῦ; θεοῦ υἱός (anarthrous predicate); ὁ υἱός μου ὁ ἀγαπητός",
+      "translit": "ho huios tou theou; theou huios; ho huios mou ho agapētos",
+      "strongs": "G5207; G2316; G27",
+      "partOfSpeech": "noun phrase; predicate nominative",
+      "literal": "the son of God; son of God (no article); my son, the beloved",
+      "standardEnglish": "the Son of God (ASV, KJV, RSV at 14:33; 27:43; 27:54); a son of God (NRSV margin at 27:54); my beloved Son (ASV, RSV)",
+      "wohChoice": "'the Son of God', capitalized, at every occurrence, including the anarthrous predicates θεοῦ υἱὸς εἶ (14:33), θεοῦ εἰμι υἱός (27:43) and θεοῦ υἱὸς ἦν οὗτος (27:54); 'This is my beloved Son' (3:17), matching the published 17:5. The alternatives 'God's Son' / 'a son of God' and the appositional 'my Son, the beloved' are given in the commentary.",
+      "claim_type": "direct",
+      "rationale": "A definite predicate noun placed before the verb usually lacks the article in Greek (E. C. Colwell, JBL 52 [1933] 12-21), so the anarthrous form does not show that the phrase is indefinite; the context decides. At 14:33 the disciples' confession anticipates Peter's arthrous 'the Son of the living God' (16:16), and at 27:43 the mockers quote the claim put to Jesus in the arthrous form at 26:63 ('the Christ, the Son of God') and 27:40; 'the Son of God' is the reading these contexts require. At 27:54 a Gentile centurion speaks, and 'a son of God' (a divine man in a Roman frame) is a recognized alternative; Matthew, however, makes the centurion's words closely echo the disciples' confession of 14:33, which favours the definite reading, and the commentary gives both. At 3:17 the second article (ὁ υἱός μου ὁ ἀγαπητός) allows 'my Son, the beloved' (the canon's « mon fils, l'aimé »); 'my beloved Son' is the standard rendering of the attributive construction and is kept for agreement with the published 17:5, which has the same Greek. Named scholarship: Colwell 1933; BDAG s.v. υἱός 2d; Davies and Allison, Matthew (ICC), ad loc.; R. E. Brown, The Death of the Messiah (1994), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-3:17",
+        "MAT-WOH-4:3",
+        "MAT-WOH-4:6",
+        "MAT-WOH-8:29",
+        "MAT-WOH-14:33",
+        "MAT-WOH-17:5",
+        "MAT-WOH-26:63",
+        "MAT-WOH-27:40",
+        "MAT-WOH-27:43",
+        "MAT-WOH-27:54"
+      ]
+    },
+    {
+      "id": "palingenesia-the-regeneration-mt-19-28",
+      "source": "ἐν τῇ παλιγγενεσίᾳ",
+      "translit": "en tē palingenesia",
+      "strongs": "G3824",
+      "partOfSpeech": "noun with article",
+      "literal": "in the again-birth / the new genesis",
+      "standardEnglish": "in the regeneration (ASV, KJV); in the new world (RSV); at the renewal of all things (NRSV, NIV)",
+      "wohChoice": "'in the regeneration', the formal equivalent. The range of the term (Stoic cosmic renewal; Philo of the world after the Flood; Josephus of the national restoration; Titus 3:5 of personal rebirth) is given in the commentary.",
+      "claim_type": "direct",
+      "rationale": "παλιγγενεσία is a compound of πάλιν 'again' and γένεσις 'coming into being', used by the Stoics for the periodic renewal of the cosmos after its conflagration (Marcus Aurelius 11.1), by Philo for the world restored after the Flood, with Noah's family as 'leaders of the regeneration' (Mos. 2.65), and by Josephus for the restoration of the nation after the exile (Ant. 11.66). In the only other NT occurrence (Titus 3:5) it is the rebirth of the believer. Matthew's context (the Son of Man enthroned, the twelve judging the tribes) points to the eschatological renewal of the world; the paraphrases 'the new world' and 'the renewal of all things' commit the line to one interpretation and add words, while 'the regeneration' keeps the compound's structure and its whole range. The cosmological sense matters to the Wheel of Heaven reading of world ages, and for that reason the reading is left to the commentary rather than the line. Named scholarship: BDAG s.v. παλιγγενεσία; F. Büchsel, TDNT 1; D. C. Sim, 'The Meaning of παλιγγενεσία in Matthew 19.28', JSNT 50 (1993) 3-12; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-19:28"
+      ]
+    },
+    {
+      "id": "naos-sanctuary-hieron-temple-matthew",
+      "source": "ὁ ναός; τὸ ἱερόν",
+      "translit": "ho naos; to hieron",
+      "strongs": "G3485; G2411",
+      "partOfSpeech": "nouns",
+      "literal": "the shrine, dwelling of the deity; the sacred precinct",
+      "standardEnglish": "temple for both (KJV, RSV; ASV except 23:35 'sanctuary'); NRSV 'sanctuary' for ναός at 23:16-17, 21, 35",
+      "wohChoice": "ναός → 'sanctuary' throughout (23:16, 17, 21, 35; 26:61; 27:5, 40, 51); ἱερόν → 'temple' throughout (4:5; 26:55). The Kings central entry `ulam-hekhal-devir-temple-three-room-plan-cross-corpus` is not applied: it renders the rooms of the Hebrew plan, not these Greek terms.",
+      "claim_type": "direct",
+      "rationale": "Greek usage for the Jerusalem temple distinguishes τὸ ἱερόν, the whole sacred area with its courts and porticoes, from ὁ ναός, the sanctuary building that housed the Holy Place and the Holy of Holies (BDAG s.v. ναός 1a, ἱερόν; Josephus regularly keeps the two apart in his description of the temple, War 5.184-237). Matthew observes the distinction: Jesus is set on the 'pinnacle of the ἱερόν' (4:5) and teaches 'in the ἱερόν' (26:55), whereas the curtain that tears (27:51), the building Jesus is accused of threatening (26:61; 27:40) and the place 'between the ναός and the altar' (23:35) belong to the ναός. The draft rendered both by 'temple' except at 23:35, which made the one site where the distinction shows look exceptional; marking it consistently costs nothing in English and lets the reader see which word stands behind each line. The known crux at 27:5 (Judas throws the silver 'into the ναός', which only priests could enter) is kept as written and discussed in the commentary. Named scholarship: BDAG s.v. ναός, ἱερόν; O. Michel, TDNT 4; G. Schrenk, TDNT 3; Davies and Allison, Matthew (ICC), ad loc.; R. E. Brown, The Death of the Messiah (1994), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-4:5",
+        "MAT-WOH-23:16",
+        "MAT-WOH-23:17",
+        "MAT-WOH-23:21",
+        "MAT-WOH-23:35",
+        "MAT-WOH-26:55",
+        "MAT-WOH-26:61",
+        "MAT-WOH-27:5",
+        "MAT-WOH-27:40",
+        "MAT-WOH-27:51"
+      ]
+    },
+    {
+      "id": "seismos-tempest-earthquake-matthew",
+      "source": "σεισμός; σείω",
+      "translit": "seismos; seiō",
+      "strongs": "G4578; G4579",
+      "partOfSpeech": "noun; verb",
+      "literal": "a shaking, commotion; to shake",
+      "standardEnglish": "a great tempest (8:24 ASV, KJV; 'storm' RSV); earthquake (27:54; 28:2 all versions); the earth did quake (27:51)",
+      "wohChoice": "On the sea: 'a great tempest' (8:24). On land: 'the earthquake' (27:54), 'a great earthquake' (28:2, published), and 'the earth was shaken' for the verb (27:51). The common lemma is pointed out in the commentary at 8:24 and 27:54.",
+      "claim_type": "direct",
+      "rationale": "σεισμός is any violent shaking (BDAG s.v.): on land an earthquake, on the sea a storm that heaves the water (BDAG lists Mt 8:24 under 'a shaking ... of a storm on the sea'). The context decides the English, and every major version renders 8:24 by a storm word and 27:54 and 28:2 by 'earthquake'. Matthew alone uses σεισμός for the storm (Mk 4:37 and Lk 8:23 have λαῖλαψ ἀνέμου 'a squall of wind'), so the shared word links the stilling of the sea to the shaking at the cross and the tomb; that link belongs in the commentary, because no single English word covers both senses naturally. The canon's English quotation of 28:2 has 'a great shaking' (The Book Which Tells the Truth, ch. 4); the published line keeps 'earthquake'. Named scholarship: BDAG s.v. σεισμός; G. Bornkamm, 'The Stilling of the Storm in Matthew', in Bornkamm, Barth and Held, Tradition and Interpretation in Matthew (1963); Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-8:24",
+        "MAT-WOH-27:51",
+        "MAT-WOH-27:54",
+        "MAT-WOH-28:2"
+      ]
+    },
+    {
+      "id": "ge-land-earth-mt-27-45",
+      "source": "ἐπὶ πᾶσαν τὴν γῆν",
+      "translit": "epi pasan tēn gēn",
+      "strongs": "G1093",
+      "partOfSpeech": "prepositional phrase",
+      "literal": "over all the land / earth",
+      "standardEnglish": "over all the land (ASV, KJV, RSV, NRSV); over the whole earth (the cosmic construal adopted by some commentators)",
+      "wohChoice": "'over all the land'. The cosmic reading 'all the earth' and the Amos 8:9 background are given in the commentary; the central `cosmic-signs-cluster-joel-2-mark-13-acts-2-luke-21-rev-6-cross-corpus` is cited as background and not applied.",
+      "claim_type": "direct",
+      "rationale": "γῆ means both 'land, region' and 'the earth' (BDAG s.v. 1 and 3), and ἐπὶ πᾶσαν τὴν γῆν can be either. The narrative (a darkness observed from Golgotha between the sixth and the ninth hour) does not require more than the land of Judea, and the major English versions in the ASV tradition read 'land'. The phrase also echoes Amos 8:9 LXX ('the sun shall set at noon, and the light shall be darkened on the earth/land'), and some commentators read Matthew's darkness as cosmic; since the source admits both and the English 'land' does not exclude the wider sense, the narrower rendering is kept and the alternative is documented. Named scholarship: BDAG s.v. γῆ; R. E. Brown, The Death of the Messiah (1994), ad loc.; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-27:45"
+      ]
+    },
+    {
+      "id": "kathegetes-instructor-mt-23-10",
+      "source": "καθηγητής (twice); cf. διδάσκαλος (23:8)",
+      "translit": "kathēgētēs; cf. didaskalos",
+      "strongs": "G2519; G1320",
+      "partOfSpeech": "noun",
+      "literal": "guide, teacher, tutor",
+      "standardEnglish": "master (ASV, KJV); master (RSV); instructor (NRSV); leader (NIV)",
+      "wohChoice": "'instructor' / 'instructors'. 'teacher' renders διδάσκαλος (23:8), and 'instructor' keeps the three titles of 23:8-10 distinct in English.",
+      "claim_type": "direct",
+      "rationale": "καθηγητής occurs only here in the NT; in contemporary papyri it is the private teacher or tutor, and B. W. Winter has argued from that usage that Matthew means 'tutor' (Tyndale Bulletin 42 [1991] 152-157). 'Master' (ASV, KJV) is a sixteenth-century sense of 'teacher' that in this passage would blur the title with κύριος 'lord, master' (cf. 10:24-25), and 'leader' (NIV) loses the teaching sense the papyri attest. 'Instructor' (NRSV) is the closest English word that is not already in use for another Greek title in 23:8-10. The canon quotes the verse as « directeur » (The Book Which Tells the Truth, ch. 5), which is recorded in the reception note. Named scholarship: BDAG s.v. καθηγητής; Winter 1991; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-23:8",
+        "MAT-WOH-23:10"
+      ]
+    },
+    {
+      "id": "speech-introduction-colon-convention-matthew",
+      "source": "λέγων / λέγοντες / εἶπεν + direct speech; γέγραπται + quotation",
+      "translit": "legōn / legontes / eipen; gegraptai",
+      "strongs": null,
+      "partOfSpeech": "punctuation convention",
+      "literal": "(N/A; convention entry)",
+      "standardEnglish": "ASV and KJV: comma (often with no quotation marks); RSV and NRSV: comma",
+      "wohChoice": "In the chapters of wave M2, a colon introduces direct speech or a quotation that follows a verb of saying or 'it is written', at every level of nesting ('saying: \"...\"'; 'say to him: \"...\"'; 'it is written: \"...\"'). A comma is kept only where a short quoted word or clause is embedded inside a running sentence ('to say, 'Your sins are forgiven,' or ...' 9:5; 'I say to this one, 'Go,'' 8:9; 'called 'Rabbi'' 23:7). Quotation marks follow the wave-A rule: double for direct speech, single nested, double at a third level.",
+      "claim_type": "direct",
+      "rationale": "The published Matthew chapters mix the two styles: 1:20, 13:24 and 17:22 use the colon, while 25:12, 25:40, 28:5 and 28:18 use the comma. The Translator's drafts for this wave use the colon at the top level almost everywhere and the comma at about a dozen nested quotations, so the colon is adopted and the nested cases are brought into line. A colon after a speech verb also separates the narrator's frame from the quoted words more clearly in a text with many levels of quotation (e.g. 26:18). The published chapters are not edited in this pass; harmonizing 25 and 28 to the colon is recommended for a later pass. The convention changes punctuation only; no wording is affected.",
+      "appliesTo": [
+        "MAT-WOH-10:7",
+        "MAT-WOH-15:4",
+        "MAT-WOH-15:5",
+        "MAT-WOH-19:5",
+        "MAT-WOH-23:16",
+        "MAT-WOH-23:30",
+        "MAT-WOH-23:39",
+        "MAT-WOH-26:18",
+        "MAT-WOH-26:31",
+        "MAT-WOH-26:61",
+        "MAT-WOH-27:43",
+        "MAT-WOH-27:63",
+        "MAT-WOH-27:64"
+      ]
+    },
+    {
+      "id": "magoi-magi-mt-2",
+      "source": "μάγοι",
+      "translit": "magoi",
+      "strongs": "G3097",
+      "partOfSpeech": "noun, plural",
+      "literal": "Magi (members of the Median-Persian priestly caste; by extension astrologers, dream-interpreters)",
+      "standardEnglish": "wise men (ASV, KJV, RSV, NRSV); Magi (NIV, NAB, ESV margin)",
+      "wohChoice": "'magi' (lower case, as a class noun). 'wise men' is mentioned in the commentary as the traditional English rendering.",
+      "claim_type": "direct",
+      "rationale": "μάγος names a member of the Persian priestly class (Herodotus 1.101, 132; BDAG s.v. 1) whose expertise included astrology and dreams, which is exactly the competence the story gives them (a star observed, a warning received in a dream, 2:12). 'Wise men' is an interpretive softening dating from the Tyndale-KJV tradition; it loses the specific identity and the astrological profession that the narrative presupposes. 'Astrologers' over-narrows the term in the other direction, and Matthew's use is positive, unlike the negative 'magician' sense of Acts 8:9; 13:6. 'Magi' keeps the Greek word, is standard in modern scholarship, and is already the word in the Translator's chapter title. Named scholarship: BDAG s.v. μάγος; R. E. Brown, The Birth of the Messiah (updated ed. 1993), ad loc.; Davies and Allison, Matthew (ICC), ad loc.; M. A. Powell, 'The Magi as Wise Men', NTS 46 (2000) 1-20.",
+      "appliesTo": [
+        "MAT-WOH-2:1",
+        "MAT-WOH-2:7",
+        "MAT-WOH-2:16"
+      ]
+    },
+    {
+      "id": "en-te-anatole-at-its-rising-mt-2-2-9",
+      "source": "ἐν τῇ ἀνατολῇ (2:2, 9) vs ἀπὸ ἀνατολῶν (2:1)",
+      "translit": "en tē anatolē; apo anatolōn",
+      "strongs": "G395",
+      "partOfSpeech": "prepositional phrase (singular with article) vs plural without article",
+      "literal": "at the rising (of the star) vs from the risings (= from the east)",
+      "standardEnglish": "in the east (ASV, KJV; RSV 'in the East'); at its rising (NRSV, NAB 1970); when it rose (ESV)",
+      "wohChoice": "'at its rising' (2:2, 2:9); 'from the east' for the plural ἀπὸ ἀνατολῶν (2:1).",
+      "claim_type": "direct",
+      "rationale": "In 2:1 Matthew writes the plural without article, ἀπὸ ἀνατολῶν, the standard idiom for 'from the east' (cf. 8:11, ἀπὸ ἀνατολῶν καὶ δυσμῶν). In 2:2 and 2:9 he switches to the singular with the article, ἐν τῇ ἀνατολῇ, which BDAG lists under the sense 'rising' (s.v. ἀνατολή 1); some commentators specify a heliacal rising. The magi were already in the east, so 'we saw his star in the east' is close to redundant, whereas 'at its rising' gives the observation its astronomical content; the NRSV and the NAB (1970) render 'at its rising' and the ESV 'when it rose', whereas the ASV, KJV and RSV keep 'in the east'. The canon's French quotation of both verses has the same sense (« son étoile se lever », « l'étoile qu'ils avaient vue se lever », The Book Which Tells the Truth, ch. 4), so here the canon and the Greek agree. Named scholarship: BDAG s.v. ἀνατολή; Brown, The Birth of the Messiah (1993), ad loc.; Davies and Allison, Matthew (ICC), ad loc.; France, Matthew (NICNT 2007), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-2:1",
+        "MAT-WOH-2:2",
+        "MAT-WOH-2:9"
+      ]
+    },
+    {
+      "id": "proskyneo-worship-kneel-matthew",
+      "source": "προσκυνέω",
+      "translit": "proskyneō",
+      "strongs": "G4352",
+      "partOfSpeech": "verb",
+      "literal": "prostrate oneself before, do obeisance, worship",
+      "standardEnglish": "worship (ASV, KJV everywhere in Matthew); pay homage (NRSV 2:2, 8, 11); knelt before (NRSV 8:2; 9:18; 15:25)",
+      "wohChoice": "Context-sensitive: 'worship' where the gesture is homage or acclamation (2:2, 8, 11; 4:9, 10; 14:33; and the published 28:9, 17); 'knelt before' where a petitioner approaches with a request (8:2; 9:18; 15:25), following the NRSV. The canon's « nous prosterner » (2:2) is given in the reception note.",
+      "claim_type": "direct",
+      "rationale": "προσκυνέω denotes the gesture of prostration and the attitude it expresses, from respectful obeisance before a king to the worship of God (BDAG s.v.). Matthew uses it of the magi before the newborn king, of the devil's demand (4:9) answered by Deut 6:13 'You shall worship the Lord your God' (4:10), of the disciples in the boat (14:33), and of petitioners asking for healing. Because 'worship' is already the published rendering at 28:9 and 28:17, and because 4:9-10 turns on the same verb applied to God, 'worship' is kept wherever the verb is the act of homage; at 8:2, 9:18 and 15:25 the gesture introduces a request, and the Translator's 'knelt before' renders the bodily act without importing cultic worship into a supplication. The overlap with γονυπετέω 'kneel' (17:14; 27:29) is noted in the commentary. Named scholarship: BDAG s.v. προσκυνέω; H. Greeven, TDNT 6; M. A. Powell, 'A Typology of Worship in the Gospel of Matthew', JSNT 57 (1995) 3-17.",
+      "appliesTo": [
+        "MAT-WOH-2:2",
+        "MAT-WOH-2:8",
+        "MAT-WOH-2:11",
+        "MAT-WOH-4:9",
+        "MAT-WOH-4:10",
+        "MAT-WOH-8:2",
+        "MAT-WOH-9:18",
+        "MAT-WOH-14:33",
+        "MAT-WOH-15:25",
+        "MAT-WOH-28:9",
+        "MAT-WOH-28:17"
+      ]
+    },
+    {
+      "id": "proper-names-and-realia-forms-matthew",
+      "source": "Ναζωραῖος; Βεελζεβούλ; Γαδαρηνοί; Μαγαδάν; Καναναῖος; Θαδδαῖος; Βαραχίας; Ἰησοῦς Βαραββᾶς; Ἰωσήφ (27:56); Ἠλὶ ἠλὶ λεμὰ σαβαχθάνι; Γολγοθᾶ; Γεθσημανί; ἀσσάριον",
+      "translit": "Nazōraios; Beelzeboul; Gadarēnoi; Magadan; Kananaios; Thaddaios; Barachias; Iēsous Barabbas; Iōsēph; Ēli ēli lema sabachthani; Golgotha; Gethsēmani; assarion",
+      "strongs": "G3480; G954; G1046; G3093; G2581; G2280; G914; G912; G2501; G2241, G2982, G4518; G1115; G1068; G787",
+      "partOfSpeech": "proper nouns; Aramaic/Hebrew transliteration; coin name",
+      "literal": "(names)",
+      "standardEnglish": "Nazarene; Beelzebub (KJV) / Beelzebul (RSV, NRSV); Gergesenes (KJV) / Gadarenes (ASV, RSV); Magdala (KJV) / Magadan (RSV); the Canaanite (KJV) / the Cananaean (RSV, NRSV); Lebbaeus, whose surname was Thaddaeus (KJV) / Thaddaeus; Barabbas / Jesus Barabbas (NRSV); Joses (KJV) / Joseph; Eli, Eli, lama sabachthani (KJV); penny (KJV) / farthing",
+      "wohChoice": "Names in the standard English form of the SBLGNT reading: 'Nazarene' (2:23; 26:71), 'Beelzebul' (10:25), 'the Gadarenes' (8:28), 'Magadan' (15:39), 'Simon the Cananaean' (10:4), 'Thaddaeus' (10:3), 'Zechariah the son of Barachiah' (23:35), 'Jesus Barabbas' (27:16-17; 'Barabbas' where the Greek has the name alone, 27:20-26), 'Joseph' (27:56), 'Eli, Eli, lema sabachthani' (27:46, SBLGNT spelling), 'Golgotha', 'Gethsemane'. Coin names are transliterated ('assarion' 10:29), following the published 'quadrans' (5:26). Royal titles are capitalized: 'King of the Jews' (2:2; 27:11, 29, 37), 'King of Israel' (27:42).",
+      "claim_type": "direct",
+      "rationale": "The English line follows the SBLGNT form of each name and uses the established English spelling of that form, so a reader can check every name against the Greek. 'Nazarene' renders Ναζωραῖος (rather than 'Nazorean') because it is the standard English form for both Ναζωραῖος and Ναζαρηνός; the difference, and the debated wordplay on Hebrew *nēṣer* 'branch' (Isa 11:1) or *nāzîr* (Judg 13:5, 7) behind 2:23, are given in the commentary. 'Simon the Cananaean' keeps the Greek transliteration of Aramaic *qanʾānā* 'zealous one' (Luke 6:15 translates it ζηλωτής), and avoids the KJV's 'Canaanite', which comes from a Byzantine spelling and mistakes the meaning. Transliterating the coin names keeps the published practice of 5:26 ('quadrans') and avoids anachronistic English coins. The Aramaic cry at 27:46 is given in SBLGNT's spelling (λεμά), with the variant 'Eloi, Eloi' of Sinaiticus and Vaticanus and its Psalm 22:1 source in the commentary. Named scholarship: BDAG s.vv.; Metzger, Textual Commentary, at 8:28, 10:3, 15:39, 27:16-17, 27:46, 27:56; Brown, The Birth of the Messiah (1993), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-2:23",
+        "MAT-WOH-8:28",
+        "MAT-WOH-10:3",
+        "MAT-WOH-10:4",
+        "MAT-WOH-10:25",
+        "MAT-WOH-10:29",
+        "MAT-WOH-15:39",
+        "MAT-WOH-23:35",
+        "MAT-WOH-26:36",
+        "MAT-WOH-26:71",
+        "MAT-WOH-27:16",
+        "MAT-WOH-27:17",
+        "MAT-WOH-27:33",
+        "MAT-WOH-27:46",
+        "MAT-WOH-27:56",
+        "MAT-WOH-5:26",
+        "MAT-WOH-2:2"
+      ]
+    },
+    {
+      "id": "katharizo-make-clean-leprosy-matthew",
+      "source": "καθαρίζω (καθαρίσαι 8:2; καθαρίσθητι, ἐκαθαρίσθη 8:3; καθαρίζετε 10:8)",
+      "translit": "katharizō",
+      "strongs": "G2511",
+      "partOfSpeech": "verb",
+      "literal": "make clean, cleanse, purify",
+      "standardEnglish": "make clean / be thou made clean / was cleansed (ASV); cleanse lepers (10:8)",
+      "wohChoice": "'make clean' / 'be made clean' / 'was made clean' at 8:2-3; 'cleanse lepers' at 10:8. 'purified' (the canon's « sois purifié ») is given in the reception note.",
+      "claim_type": "direct",
+      "rationale": "καθαρίζω is the LXX verb for the priestly declaration and the state of ritual cleanness after a skin disease (Lev 13-14), and Matthew's leper story ends in exactly that framework, with the man sent to the priest to offer the gift Moses commanded (8:4). 'Make clean' keeps the purity register that the next verse presupposes, and repeats the same English word in the request and the answer as the Greek repeats the verb. 'Purified' is also a correct sense (BDAG s.v. 1), but in modern English it suggests refining or moral purity more than release from a defiling disease; it is recorded as the canon's wording. Named scholarship: BDAG s.v. καθαρίζω; J. Milgrom, Leviticus 1-16 (AB 3, 1991), on *ṣāraʿat*; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-8:2",
+        "MAT-WOH-8:3",
+        "MAT-WOH-10:8"
+      ]
+    },
+    {
+      "id": "pais-servant-mt-8",
+      "source": "ὁ παῖς μου; cf. τῷ δούλῳ μου (8:9)",
+      "translit": "ho pais mou; cf. tō doulō mou",
+      "strongs": "G3816; G1401",
+      "partOfSpeech": "noun",
+      "literal": "my boy (child or servant)",
+      "standardEnglish": "my servant (ASV, KJV, RSV, NRSV); my boy (some modern translations)",
+      "wohChoice": "'my servant' / 'the servant' (8:6, 8, 13), with 'my slave' kept distinct for δοῦλος in 8:9. The ambiguity 'child / servant' is stated in the commentary.",
+      "claim_type": "direct",
+      "rationale": "παῖς means both 'child' and 'servant' (BDAG s.v. 1 and 2). The parallels go different ways: Luke 7:2 calls him the centurion's δοῦλος, John 4:46-53 tells a related story about an official's son (υἱός). Within Matthew the centurion's own speech distinguishes 'my παῖς' (8:8) from 'my δοῦλος' (8:9), which shows only that the words differ, not which sense παῖς has. 'Servant' is the established rendering, leaves the household relation open, and is kept; the alternatives are documented. Named scholarship: BDAG s.v. παῖς; Davies and Allison, Matthew (ICC), ad loc.; France, Matthew (NICNT 2007), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-8:6",
+        "MAT-WOH-8:8",
+        "MAT-WOH-8:13"
+      ]
+    },
+    {
+      "id": "hoi-huioi-tou-nymphonos-mt-9-15",
+      "source": "οἱ υἱοὶ τοῦ νυμφῶνος",
+      "translit": "hoi huioi tou nymphōnos",
+      "strongs": "G5207; G3567",
+      "partOfSpeech": "Semitic construct idiom ('sons of X' = those belonging to X)",
+      "literal": "the sons of the bridal chamber",
+      "standardEnglish": "the sons of the bridechamber (ASV); the children of the bridechamber (KJV); the wedding guests (RSV, NRSV)",
+      "wohChoice": "'the sons of the bridechamber' (literal), with the idiomatic sense 'the bridegroom's attendants / the wedding guests' in the commentary.",
+      "claim_type": "direct",
+      "rationale": "'Sons of X' is a Semitic idiom for persons characterized by or belonging to X (cf. Hebrew *bənê ha-ḥuppâ*, attested in rabbinic sources for the groom's companions), and the published chapters keep the parallel idioms literal ('the sons of the kingdom', 'the sons of the evil one' 13:38; this wave 8:12, 23:15, 23:31). Translating this instance into 'wedding guests' would make it the only such idiom resolved on the surface. The meaning is clear from the context (the bridegroom is with them), and the commentary gives it. Named scholarship: BDAG s.v. νυμφών, υἱός 2cβ; J. Jeremias, TDNT 4 ('νύμφη, νυμφίος'); Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-9:15"
+      ]
+    },
+    {
+      "id": "ktaomai-acquire-mt-10-9",
+      "source": "μὴ κτήσησθε χρυσὸν μηδὲ ἄργυρον μηδὲ χαλκόν",
+      "translit": "mē ktēsēsthe chryson mēde argyron mēde chalkon",
+      "strongs": "G2932; G5557; G696; G5475",
+      "partOfSpeech": "aorist middle subjunctive (prohibition) + objects",
+      "literal": "do not acquire / procure gold nor silver nor copper",
+      "standardEnglish": "Get you no gold, nor silver, nor brass (ASV); Provide neither gold, nor silver, nor brass (KJV); Take no gold, or silver, or copper (NRSV)",
+      "wohChoice": "'Do not acquire gold, nor silver, nor copper for your belts'. 'Possess' and 'money' (the canon's « ne possédez ni or ni argent ni monnaies ») are recorded in the reception note.",
+      "claim_type": "direct",
+      "rationale": "κτάομαι in the present means 'procure, acquire', and only the perfect κέκτημαι means 'possess' (BDAG s.v. 1 and 2); the aorist subjunctive here forbids getting or procuring money for the journey, not owning it. χαλκός is the metal of the small coinage, so 'copper' keeps the three-metal series of the Greek while the sense 'small change' is given in the commentary. The canon's French rendering ('possess ... money') is a natural paraphrase for its argument about church wealth, and is recorded as reception, not adopted into the line. Named scholarship: BDAG s.v. κτάομαι, χαλκός; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-10:9"
+      ]
+    },
+    {
+      "id": "kynaria-the-dogs-mt-15-26",
+      "source": "τοῖς κυναρίοις; τὰ κυνάρια",
+      "translit": "tois kynariois; ta kynaria",
+      "strongs": "G2952",
+      "partOfSpeech": "noun (diminutive of κύων)",
+      "literal": "little dogs, house dogs",
+      "standardEnglish": "the dogs (ASV, KJV, RSV, NRSV); the little dogs (some modern versions)",
+      "wohChoice": "'the dogs'. The diminutive form, and the debate whether it still meant 'little' or 'house' dogs, is stated in the commentary.",
+      "claim_type": "direct",
+      "rationale": "κυνάριον is formally a diminutive of κύων, and BDAG glosses it 'house dog, lap dog'. In Koine many diminutives had lost their diminutive force, and the commentators divide on whether it softens the saying (house pets at the family table, as the woman's reply about crumbs from 'their masters' table' suggests) or is simply the ordinary word. 'The dogs' is the standard rendering, and the detail that the Greek does not use the harsher κύων of 7:6 is given in the commentary, which is where the interpretive question belongs. Named scholarship: BDAG s.v. κυνάριον; Davies and Allison, Matthew (ICC), ad loc.; France, Matthew (NICNT 2007), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-15:26",
+        "MAT-WOH-15:27"
+      ]
+    },
+    {
+      "id": "doron-qorban-gift-mt-15-5",
+      "source": "Δῶρον ὃ ἐὰν ἐξ ἐμοῦ ὠφεληθῇς",
+      "translit": "Dōron ho ean ex emou ōphelēthēs",
+      "strongs": "G1435; cf. G2878 (κορβᾶν, Mk 7:11)",
+      "partOfSpeech": "vow formula (elliptical nominal sentence)",
+      "literal": "A gift, whatever you would have been helped by from me",
+      "standardEnglish": "That wherewith thou mightest have been profited by me is given to God (ASV, with 'is given to God' in italics); It is a gift (KJV); What you would have gained from me is given to God (RSV, NRSV)",
+      "wohChoice": "'Whatever you would have gained from me is a gift', without the supplied 'to God'. The vow formula *qorbān* (Mk 7:11) and its meaning 'dedicated to God' are explained in the commentary.",
+      "claim_type": "direct",
+      "rationale": "The Greek formula has no 'to God'; the ASV marks its addition by italics, and the RSV and NRSV add it silently. Δῶρον is Matthew's Greek equivalent of Mark's κορβᾶν 'qorban', the technical term for property dedicated to the temple by vow; an Aramaic ossuary inscription from Jebel Hallet et-Turi uses *qrbn* in the same declarative way (J. A. Fitzmyer, JBL 78 [1959] 60-65). The line keeps the elliptical formula as Matthew wrote it, and the commentary supplies the technical sense. Named scholarship: BDAG s.v. δῶρον, κορβᾶν; Fitzmyer 1959; Josephus, Against Apion 1.167; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-15:5"
+      ]
+    },
+    {
+      "id": "diatheke-covenant-mt-26-28",
+      "source": "τὸ αἷμά μου τῆς διαθήκης",
+      "translit": "to haima mou tēs diathēkēs",
+      "strongs": "G1242",
+      "partOfSpeech": "noun in genitive",
+      "literal": "my blood of the covenant",
+      "standardEnglish": "my blood of the covenant (ASV, RSV, NRSV); my blood of the new testament (KJV, Byzantine text)",
+      "wohChoice": "'my blood of the covenant'. διαθήκη = 'covenant' (the LXX equivalent of Hebrew *bərît*); the KJV's 'new testament' (Byzantine καινῆς, and 'testament' from Latin *testamentum*) is recorded in the commentary.",
+      "claim_type": "direct",
+      "rationale": "In the LXX διαθήκη regularly renders *bərît*, and the phrase τὸ αἷμα τῆς διαθήκης quotes Exod 24:8 LXX, the blood Moses sprinkles to seal the covenant at Sinai. 'Testament' (a will) is a sense of διαθήκη in Hellenistic law, but not the one the Exodus allusion requires; it entered English through Latin *testamentum*. The adjective 'new' is absent from the critical text (Vaticanus, Sinaiticus) and was added from Luke 22:20 / 1 Cor 11:25 in the Byzantine tradition. The Hebrew-side central entries `brit-covenant` and `karat-brit-cut-covenant` render *bərît* as 'covenant', and this rendering agrees with them. Named scholarship: BDAG s.v. διαθήκη; J. Behm, TDNT 2; Metzger, Textual Commentary, on 26:28; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-26:28"
+      ]
+    },
+    {
+      "id": "skandalizo-fall-away-take-offense-matthew",
+      "source": "σκανδαλίζω; σκανδαλίζομαι ἐν ἐμοί",
+      "translit": "skandalizō; skandalizomai en emoi",
+      "strongs": "G4624",
+      "partOfSpeech": "verb (active and passive)",
+      "literal": "cause to stumble; be caused to stumble (in/because of me)",
+      "standardEnglish": "cause to stumble (5:29-30 ASV); be offended (13:57; 15:12; 26:31, 33 ASV, KJV); fall away (13:21; 26:31, 33 RSV, NRSV)",
+      "wohChoice": "Context-sensitive: active 'causes you to stumble' (5:29-30, published); 'fall away' where the passive means abandoning allegiance (13:21 published; 26:31, 33); 'take offense' / 'be offended' where it means being scandalized by a person or saying (13:57 published; 15:12).",
+      "claim_type": "direct",
+      "rationale": "σκανδαλίζω is built on σκάνδαλον, the trap or stumbling block, and its passive covers both 'be led into sin / fall away' and 'take offense, be shocked' (BDAG s.v. 1 and 2). The published chapters already render the passive in both ways, according to context (13:21 'falls away'; 13:57 'took offense'). At 26:31-33 Jesus predicts the disciples' flight (fulfilled at 26:56 'all the disciples left him and fled'), so 'fall away' is the sense; at 15:12 the Pharisees are scandalized by a saying, so 'were offended'. Named scholarship: BDAG s.v. σκανδαλίζω; G. Stählin, TDNT 7; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-5:29",
+        "MAT-WOH-5:30",
+        "MAT-WOH-13:21",
+        "MAT-WOH-13:57",
+        "MAT-WOH-15:12",
+        "MAT-WOH-26:31",
+        "MAT-WOH-26:33"
+      ]
+    },
+    {
+      "id": "hetaire-eph-ho-parei-mt-26-50",
+      "source": "Ἑταῖρε, ἐφʼ ὃ πάρει",
+      "translit": "Hetaire, eph' ho parei",
+      "strongs": "G2083; G3918",
+      "partOfSpeech": "vocative + elliptical relative clause",
+      "literal": "Comrade, [that] for which you are here",
+      "standardEnglish": "Friend, do that for which thou art come (ASV); Friend, wherefore art thou come? (KJV); Friend, why are you here? (RSV); Friend, do what you are here to do (NRSV)",
+      "wohChoice": "'Friend, do that for which you have come' (ASV, NRSV sense: an imperative supplied). The interrogative and exclamatory readings, and the 'eph' ho parei' drinking-cup inscription, are given in the commentary.",
+      "claim_type": "direct",
+      "rationale": "The phrase is elliptical and has three defended construals: a command with an imperative supplied ('[do] what you are here for'), a question (taking ὅ as interrogative, a use that is rare in Greek of this period) and an exclamation ('so that is what you are here for!'). A. Deissmann, Light from the Ancient East (2nd ed. 1927), adduced drinking cups inscribed εὐφραίνου ἐφʼ ὃ πάρει ('enjoy yourself; that is what you are here for'), which supports a fixed idiom. The imperative reading fits Matthew's portrayal of Jesus as in control of the passion (26:2, 18, 45-46), and it is the reading of the ASV, NRSV and most recent commentators. Named scholarship: BDAG s.v. πάρειμι 1a, ὅς 1iβ; Deissmann 1927; R. E. Brown, The Death of the Messiah (1994), ad loc.; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-26:50"
+      ]
+    },
+    {
+      "id": "paristemi-put-at-disposal-mt-26-53",
+      "source": "ἢ δοκεῖς ὅτι οὐ δύναμαι παρακαλέσαι τὸν πατέρα μου, καὶ παραστήσει μοι ἄρτι πλείω δώδεκα λεγιῶνας ἀγγέλων;",
+      "translit": "ē dokeis hoti ou dynamai parakalesai ton patera mou, kai parastēsei moi arti pleiō dōdeka legiōnas angelōn?",
+      "strongs": "G3936; G3870; G3003",
+      "partOfSpeech": "verb (future active) + dative of advantage",
+      "literal": "and he will place beside me / put at my disposal",
+      "standardEnglish": "and he shall even now send me more than twelve legions of angels (ASV); give me (KJV); send me (RSV, NRSV); put at My disposal (NASB)",
+      "wohChoice": "'appeal to my Father, and he will at once put at my disposal more than twelve legions of angels'. The Translator's 'send me' is replaced.",
+      "claim_type": "direct",
+      "rationale": "παρίστημι means 'place beside, put at someone's disposal' (BDAG s.v. 1a, citing this verse), and the dative μοι marks the beneficiary; Greek has a different verb for 'send' (πέμπω, ἀποστέλλω), which Matthew uses elsewhere of angels (13:41; 24:31). 'Put at my disposal' is therefore the lexical sense; 'send' is an English paraphrase of the result. The canon's French quotation reads « mettrait à l'instant à ma disposition » (The Book Which Tells the Truth, ch. 4), which here agrees with the lexicon; the reason for the change is BDAG's entry, and the agreement with the canon is recorded separately in the reception note. παρακαλέσαι is kept as 'appeal to' (BDAG s.v. 3, 'request, appeal to'; ASV 'beseech'). Named scholarship: BDAG s.v. παρίστημι, παρακαλέω; Davies and Allison, Matthew (ICC), ad loc.; Hagner, Matthew 14-28 (WBC 33B, 1995), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-26:53"
+      ]
+    },
+    {
+      "id": "tes-dynameos-the-power-mt-26-64",
+      "source": "ἐκ δεξιῶν τῆς δυνάμεως",
+      "translit": "ek dexiōn tēs dynameōs",
+      "strongs": "G1411",
+      "partOfSpeech": "noun with article, divine circumlocution",
+      "literal": "at the right (hand) of the Power",
+      "standardEnglish": "at the right hand of Power (ASV, RSV, NRSV); on the right hand of power (KJV)",
+      "wohChoice": "'at the right hand of Power', capitalized as a name for God, as in the ASV and NRSV. The Jewish circumlocution (Hebrew *haggəḇûrâ* 'the Might') and the conflation of Ps 110:1 with Dan 7:13 are given in the commentary.",
+      "claim_type": "direct",
+      "rationale": "ἡ δύναμις here is a reverential substitute for the divine name, corresponding to Hebrew *haggəḇûrâ* 'the Power, the Might', which rabbinic texts use in the same way ('from the mouth of the Power', b. Erub. 54b; b. Shabb. 87a). The capital letter signals the name-like use, as in the ASV, RSV and NRSV; 'the Mighty One' would be an interpretive paraphrase. The verse combines Ps 110:1 ('sit at my right hand') with Dan 7:13 ('coming with the clouds of heaven'), and the second element is governed by the central entry `son-of-man-coming-in-cloud-dan-7-13-synoptic-revelation-1-7-cross-corpus`, whose wording for Mt 24:30 ('coming on the clouds of heaven') this verse shares. Named scholarship: BDAG s.v. δύναμις 5; G. Dalman, The Words of Jesus (1902), on 'the Power'; Brown, The Death of the Messiah (1994), ad loc.; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-26:64"
+      ]
+    },
+    {
+      "id": "koustodia-you-have-a-guard-mt-27-65",
+      "source": "Ἔχετε κουστωδίαν",
+      "translit": "Echete koustōdian",
+      "strongs": "G2892",
+      "partOfSpeech": "verb (present indicative or imperative) + Latin loanword (custodia)",
+      "literal": "You have a guard / Have (= take) a guard",
+      "standardEnglish": "Ye have a guard (ASV, KJV); You have a guard of soldiers (RSV); You have a guard (NRSV); Take a guard (NIV, ESV)",
+      "wohChoice": "'You have a guard' (indicative, as ASV and NRSV). The imperative reading 'Take a guard' and its bearing on 28:11-14 are given in the commentary.",
+      "claim_type": "direct",
+      "rationale": "ἔχετε is formally either the indicative ('you have') or the imperative ('have, take'), and κουστωδία is a Latin loanword (*custodia*) for a military guard. The indicative implies that the priests already have a guard (the temple police), the imperative that Pilate assigns Roman soldiers; the sequel supports the second (the guards report to the chief priests, and the priests promise to protect them before 'the governor', 28:11-14), but not decisively, since temple police would also need protection from the governor. The ASV and NRSV keep the indicative and the ambiguity of the English 'you have a guard' leaves the question open, so it is kept; the alternatives are in the commentary. Named scholarship: BDAG s.v. κουστωδία, ἔχω; Brown, The Death of the Messiah (1994), ad loc.; Davies and Allison, Matthew (ICC), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-27:65",
+        "MAT-WOH-27:66"
+      ]
+    },
+    {
+      "id": "krisis-eleos-pistis-justice-mercy-faithfulness-mt-23-23",
+      "source": "τὴν κρίσιν καὶ τὸ ἔλεος καὶ τὴν πίστιν",
+      "translit": "tēn krisin kai to eleos kai tēn pistin",
+      "strongs": "G2920; G1656; G4102",
+      "partOfSpeech": "noun series",
+      "literal": "justice and mercy and faithfulness",
+      "standardEnglish": "justice, and mercy, and faith (ASV); judgment, mercy, and faith (KJV); justice and mercy and faith (RSV); justice and mercy and faith (NRSV); justice, mercy and faithfulness (NIV, ESV)",
+      "wohChoice": "'justice and mercy and faithfulness'. κρίσις = 'justice' (ASV); πίστις in the ethical sense of 'faithfulness, reliability' rather than 'faith' (belief). The Translator's 'faith' is replaced.",
+      "claim_type": "direct",
+      "rationale": "The triad of 'the weightier matters of the Law' echoes Mic 6:8 ('to do justice, to love kindness, and to walk humbly with your God'), where all three items are covenant conduct, not belief. BDAG lists Mt 23:23 under πίστις 1a, 'that which evokes trust: faithfulness, reliability' (as in Rom 3:3, 'the faithfulness of God'), and κρίσις here is the Hebrew *mišpāṭ* 'justice' (BDAG s.v. 4). English 'faith' in this list would be read as belief, which the context does not support; 'faithfulness' gives the sense the lexicon assigns. Named scholarship: BDAG s.v. πίστις 1a, κρίσις 4; Davies and Allison, Matthew (ICC), ad loc.; France, Matthew (NICNT 2007), ad loc.",
+      "appliesTo": [
+        "MAT-WOH-23:23"
+      ]
+    },
+    {
+      "id": "raelian-canon-citation-reception-note-convention-matthew",
+      "source": "(convention entry: Matthew verses quoted in The Book Which Tells the Truth, Extraterrestrials Took Me to Their Planet and Let's Welcome the Extraterrestrials)",
+      "translit": "(N/A)",
+      "strongs": null,
+      "partOfSpeech": "apparatus convention",
+      "literal": "(N/A; convention entry)",
+      "standardEnglish": "(N/A)",
+      "wohChoice": "At every verse quoted or paraphrased in the first three Raëlian books, the commentary ends with a separately headed paragraph, '**Wheel of Heaven reading (reception note, not a translation claim).**', giving the book, chapter, the quoted wording (French original and English edition where they differ) and the reading the book attaches. The line translates the Greek; where the canon's wording differs (KJV/Byzantine readings, paraphrases such as 'the first shall be last', lexical choices such as « purifié », « possédez », « directeur »), the difference is stated and the Greek is followed. Where the canon's wording and the lexicon agree (2:2, 9 'at its rising'; 26:53 'put at my disposal'), the line follows the lexicon, and the agreement is recorded as such.",
+      "claim_type": "direct",
+      "rationale": "This is the same acknowledgment-without-endorsement framework the published chapters apply at Mt 13, 17 and 28 through their central entries, and the Kings waves apply through the same heading (1 Kgs 19:5, 11, 12). Keeping the reception reading in a separate, labelled paragraph lets a reader audit exactly where the Wheel of Heaven lens enters the apparatus, and guarantees that it never enters the English line. Recording the canon's wording also makes visible where the canon quotes a Byzantine reading or a paraphrase (9:13 'the just'; 19:30; 23:8 'one master') that the critical text does not support. The canon citations were checked against the program's citation extract for this wave (TBWTT ch. 4 and 5; ETTMTTP ch. 2; LWTE ch. 2 and 3).",
+      "appliesTo": [
+        "MAT-WOH-2:2",
+        "MAT-WOH-2:9",
+        "MAT-WOH-2:13",
+        "MAT-WOH-2:19",
+        "MAT-WOH-2:20",
+        "MAT-WOH-3:16",
+        "MAT-WOH-3:17",
+        "MAT-WOH-4:1",
+        "MAT-WOH-4:3",
+        "MAT-WOH-4:4",
+        "MAT-WOH-4:6",
+        "MAT-WOH-4:7",
+        "MAT-WOH-4:9",
+        "MAT-WOH-4:10",
+        "MAT-WOH-4:11",
+        "MAT-WOH-4:24",
+        "MAT-WOH-8:2",
+        "MAT-WOH-8:3",
+        "MAT-WOH-9:5",
+        "MAT-WOH-9:7",
+        "MAT-WOH-9:13",
+        "MAT-WOH-10:9",
+        "MAT-WOH-10:10",
+        "MAT-WOH-10:32",
+        "MAT-WOH-14:19",
+        "MAT-WOH-14:25",
+        "MAT-WOH-14:30",
+        "MAT-WOH-14:32",
+        "MAT-WOH-15:11",
+        "MAT-WOH-19:23",
+        "MAT-WOH-19:30",
+        "MAT-WOH-23:4",
+        "MAT-WOH-23:5",
+        "MAT-WOH-23:6",
+        "MAT-WOH-23:7",
+        "MAT-WOH-23:8",
+        "MAT-WOH-23:9",
+        "MAT-WOH-23:10",
+        "MAT-WOH-23:11",
+        "MAT-WOH-26:52",
+        "MAT-WOH-26:53",
+        "MAT-WOH-26:54",
+        "MAT-WOH-27:20",
+        "MAT-WOH-27:42",
+        "MAT-WOH-27:43"
+      ]
     }
   ]
 }

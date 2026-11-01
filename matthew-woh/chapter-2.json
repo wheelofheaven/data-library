@@ -1,0 +1,748 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "MAT-WOH",
+  "bookSlug": "matthew-woh",
+  "n": 2,
+  "title": "Matthew 2 — The magi and the star, the flight into Egypt, the return to Nazareth",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Koine Greek New Testament — SBL Greek New Testament (SBLGNT), ed. Michael W. Holmes (2010); critical text with Codex Vaticanus (B/03) and Codex Sinaiticus (א/01) as principal witnesses",
+    "sourceLicense": "CC BY 4.0 (SBLGNT, Society of Biblical Literature and Logos Bible Software)",
+    "sourceUrl": "https://github.com/LogosBible/SBLGNT",
+    "sourceAccessedVia": "SBLGNT data/sblgnt/text/Matt.txt via source-grc-2.json (fetched 2026-11-01; variant sigla stripped); reference PD translation ASV 1901",
+    "verificationStatus": "editor pass complete 2026-11-01 (wave M2); glossaryVersion 2.81.0 is pending application of matthew-woh/wave-m2-central-diff.json (base 2.80.0; the orchestrator may renumber when sequencing the parallel Revelation and Ezekiel diffs); overlay 1.2.0 applied; pending Reviewer and founder sign-off",
+    "glossaryVersion": "2.83.0",
+    "overlayGlossaryVersion": "1.2.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-01T14:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-01T12:57:01Z",
+      "scope": "Matthew wave M2, chapter 2 (23 verses); overlay 1.2.0 entries applying to this chapter; central diff 2.80.0→2.81.0 ops touching this chapter.",
+      "method": "Each verse re-parsed from the SBLGNT Greek in source-grc-2.json (verified identical to the unstripped SBLGNT text with variant sigla). Every Byzantine/TR/KJV attribution was checked against the SBLGNT variant markers (WH/Treg/NIV/RP) and Metzger. Escalation report read only after initial verdicts.",
+      "verdicts": [
+        {
+          "refId": "MAT-WOH-2:1",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. μάγος 1",
+            "Brown, The Birth of the Messiah (updated ed. 1993), ad loc.",
+            "M. A. Powell, NTS 46 (2000) 1-20"
+          ],
+          "reasoning": "Re-parsed: idou magoi apo anatolōn paregenonto eis Hierosolyma. Disputed against ASV 'wise men': 'magi' keeps the Greek class noun (Persian priestly/astrological experts), lower case, and is standard in modern scholarship; no lens content. Plural anarthrous apo anatolōn correctly 'from the east'."
+        },
+        {
+          "refId": "MAT-WOH-2:2",
+          "status": "revise",
+          "citations": [
+            "BDAG s.v. ἀνατολή 1 (citing Mt 2:2, 9)",
+            "Brown, The Birth of the Messiah (updated ed. 1993), ad loc.",
+            "Davies and Allison, Matthew (ICC), vol. 1 (1988), ad loc.",
+            "NRSV, NAB (1970), ESV ('when it rose') at 2:2"
+          ],
+          "reasoning": "English line APPROVED: en tē anatolē (singular, article) = 'at its rising' rests on BDAG sense 1, which cites this verse, and on NRSV/NAB/ESV; the NAB's 'at its rising' (1970) predates the canon, so the lexical ground is independent of TBWTT ch. 4. Not lens leakage. Commentary fix only: the RSV does not read 'at its rising' (RSV 2:2 and 2:9 read 'in the East'); replace 'the RSV, NRSV and NAB' with 'the NRSV and NAB (ESV 'when it rose')'. The same RSV attribution must be removed from the overlay entry and the editor report."
+        },
+        {
+          "refId": "MAT-WOH-2:3",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (akousas de ho basileus hērōdēs etarachthē kai pasa hierosolyma metʼ autou,): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-2:4",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. Χριστός 1"
+          ],
+          "reasoning": "ho christos gennatai: titular 'the Christ', present for future in a scribal inquiry rendered 'was to be born'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-2:5",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (hoi de eipan autō· en bēthleem tēs ioudaias· houtōs gar gegraptai dia tou prophētou·): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-2:6",
+          "status": "approve",
+          "citations": [
+            "Davies and Allison, Matthew (ICC), vol. 1 (1988), ad loc.",
+            "Mic 5:1 MT/LXX; 2 Sam 5:2"
+          ],
+          "reasoning": "Re-read the mixed quotation (oudamōs elachistē; hēgoumenos hostis poimanei): rendered as Matthew wrote it, not harmonized to Micah; note on ʾallûpê/ʾalp̄ê is accurate."
+        },
+        {
+          "refId": "MAT-WOH-2:7",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. μάγος"
+          ],
+          "reasoning": "lathra kalesas tous magous ēkribōsen ... ton chronon tou phainomenou asteros: 'magi' per entry; 'the time of the star's appearing' exact."
+        },
+        {
+          "refId": "MAT-WOH-2:8",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. προσκυνέω"
+          ],
+          "reasoning": "exetasate akribōs ... proskynēsō autō: 'search carefully', 'worship' consistent with 2:2, 2:11 and published 28:9, 17."
+        },
+        {
+          "refId": "MAT-WOH-2:9",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἀνατολή 1",
+            "Brown, The Birth of the Messiah (updated ed. 1993), ad loc.",
+            "NRSV 2:9"
+          ],
+          "reasoning": "Disputed as at 2:2: 'which they had seen at its rising' is BDAG's sense for en tē anatolē and the NRSV wording; proēgen ... estathē epanō hou ēn to paidion kept as plain verbs of motion and rest, with no technical vocabulary. The reception note is confined to its labelled paragraph. Not lens leakage."
+        },
+        {
+          "refId": "MAT-WOH-2:10",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (idontes de ton astera echarēsan charan megalēn sphodra.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-2:11",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. προσκυνέω"
+          ],
+          "reasoning": "pesontes prosekynēsan autō 'fell down and worshipped him'; gifts list exact; 'into the house' kept. Isa 60:6/Ps 72 note accurate."
+        },
+        {
+          "refId": "MAT-WOH-2:12",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. χρηματίζω 1b"
+          ],
+          "reasoning": "chrēmatisthentes kat' onar 'warned in a dream' (divine instruction, BDAG 1b). Exact."
+        },
+        {
+          "refId": "MAT-WOH-2:13",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄγγελος 2",
+            "Kittel/Grundmann, TDNT 1, s.v. ἄγγελος"
+          ],
+          "reasoning": "angelos kyriou phainetai kat' onar: 'an angel of the Lord appears' (historic present kept). The Hebrew/Greek split from central malakh-yhwh-messenger is stated openly in the note; consistent with published 1:20, 1:24, 28:2 and with the Revelation wave ('angel' throughout)."
+        },
+        {
+          "refId": "MAT-WOH-2:14",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (ho de egertheis parelabe to paidion kai tēn mētera autou nyktos kai anechōrēsen eis ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-2:15",
+          "status": "approve",
+          "citations": [
+            "Davies and Allison, Matthew (ICC), vol. 1 (1988), ad loc.",
+            "Hos 11:1 MT vs LXX"
+          ],
+          "reasoning": "Ex Aigyptou ekalesa ton huion mou follows the Hebrew against LXX ta tekna autou; note accurate. 'the first of his formula quotations in this chapter' is correct for fulfilment formulas (2:5-6 uses gegraptai)."
+        },
+        {
+          "refId": "MAT-WOH-2:16",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. μάγος, ἐμπαίζω"
+          ],
+          "reasoning": "enepaichthē hypo tōn magōn 'mocked by the magi' (twice 'magi'); tous paidas 'male children' reflects the masculine; exact."
+        },
+        {
+          "refId": "MAT-WOH-2:17",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (tote eplērōthē to rhēthen dia ieremiou tou prophētou legontos·): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-2:18",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "Critical text klauthmos kai odyrmos polys; the Byzantine/KJV prefix thrēnos kai is correctly attributed (SBLGNT marker at ēkousthē confirms an RP difference) and kept out of the line."
+        },
+        {
+          "refId": "MAT-WOH-2:19",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄγγελος 2"
+          ],
+          "reasoning": "Teleutēsantos de tou Hērōdou idou angelos kyriou phainetai kat' onar: exact; reception note labelled and accurate to TBWTT ch. 4."
+        },
+        {
+          "refId": "MAT-WOH-2:20",
+          "status": "approve",
+          "citations": [
+            "Exod 4:19 LXX",
+            "BDAG s.v. ψυχή 1"
+          ],
+          "reasoning": "zētountes tēn psychēn tou paidiou 'sought the child's life': psychē = life (BDAG 1); Exod 4:19 LXX parallel correctly noted."
+        },
+        {
+          "refId": "MAT-WOH-2:21",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (ho de egertheis parelabe to paidion kai tēn mētera autou kai eisēlthen eis gēn israēl.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-2:22",
+          "status": "approve",
+          "citations": [
+            "Josephus, Ant. 17.317-344"
+          ],
+          "reasoning": "Archelaos basileuei tēs Ioudaias: 'was reigning over Judea' exact; ethnarch dates correct."
+        },
+        {
+          "refId": "MAT-WOH-2:23",
+          "status": "approve",
+          "citations": [
+            "Brown, The Birth of the Messiah (updated ed. 1993), ad loc.",
+            "Davies and Allison, Matthew (ICC), vol. 1 (1988), ad loc."
+          ],
+          "reasoning": "Nazōraios klēthēsetai 'he would be called a Nazarene': standard English form; nēṣer/nāzîr proposals fairly stated."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+          "status": "revise",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994)",
+            "SBLGNT (Holmes 2010) variant markers",
+            "NA28 text at Mt 19:9 and 19:29",
+            "KJV Mt 4:10; 15:4"
+          ],
+          "reasoning": "claim_type direct is right and the decision (translate SBLGNT; record TR/Byzantine readings in commentary; no paragraph for 23:14) is sound and matches the Revelation ruling C. Accuracy fixes to the rationale: (1) 'agree with NA28 in all but a handful of bracketed words' is not accurate for this wave: SBLGNT also differs from NA28 outside brackets at 19:9 (SBLGNT prints the final clause kai ho apolelymenēn gamēsas moichatai, which NA28 omits) and 19:29 (SBLGNT ē gynaika, which NA28 omits); the verse notes already say so, so the entry should list them. (2) Adopt the Revelation reviewer's TR-vs-Byzantine discipline: where the SBLGNT apparatus shows no Robinson-Pierpont difference, a KJV reading is a TR (minority) reading, not 'the Byzantine text' (15:4 sou; 27:35 is already handled correctly); where RP differs but the KJV agrees with SBLGNT, say 'Byzantine majority, not TR/KJV' (4:10 opisō mou; 10:8 is already handled correctly). (3) The 17:21/23:14 inconsistency is correctly flagged; see founder decision 3."
+        },
+        {
+          "glossary_id": "raelian-canon-citation-reception-note-convention-matthew",
+          "status": "approve",
+          "citations": [
+            "matthew-canon-citations.md (TBWTT ch. 4, 5; ETTMTTP ch. 2; LWTE ch. 2, 3)",
+            "Kings wave precedent (1 Kgs 19:5, 11, 12)"
+          ],
+          "reasoning": "Direct is right for a presentation convention. Every one of the 26 reception notes was checked against the citation extract: quotations, chapter numbers and readings are accurate, and each sits in its own labelled paragraph. The two lexicon/canon coincidences (2:2, 9; 26:53) are disclosed as such and rest on BDAG and on versions that predate or are independent of the canon (NAB 1970; NASB)."
+        },
+        {
+          "glossary_id": "proper-names-and-realia-forms-matthew",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994) at 8:28, 10:3, 15:39, 27:16-17, 27:46, 27:56",
+            "BDAG s.vv. Καναναῖος, Βεελζεβούλ, Ναζωραῖος, ἀσσάριον"
+          ],
+          "reasoning": "Direct is right: names follow the SBLGNT form in standard English spelling; Cananaean/Canaanite, Thaddaeus/Lebbaeus, Magadan/Magdala, Jesus Barabbas and Joseph/Joses explanations are accurate (see the 8:28 witness fix)."
+        },
+        {
+          "glossary_id": "angelos-angel-matthew-convention",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄγγελος 2",
+            "Kittel/Grundmann, TDNT 1, s.v. ἄγγελος"
+          ],
+          "reasoning": "Direct is right. By the first century ἄγγελος in Jewish Greek is the technical term for a heavenly being, every Matthean site in the program has that referent, and 'angel' is the published Matthew (1, 13, 25, 28), Acts 12 and Revelation-wave rendering. The Hebrew-side malakh-yhwh-messenger is stated in the 2:13 note, so the split is transparent. Supports promotion to central as a Greek-NT convention jointly with Revelation."
+        },
+        {
+          "glossary_id": "psyche-soul-life-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ψυχή 1, 2",
+            "E. Schweizer, TDNT 9"
+          ],
+          "reasoning": "Direct is right; the context split (10:28 vs 10:39) is what every major version does and is explained at both sites."
+        },
+        {
+          "glossary_id": "magoi-magi-mt-2",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. μάγος 1",
+            "Brown, The Birth of the Messiah (1993), ad loc.",
+            "M. A. Powell, NTS 46 (2000) 1-20"
+          ],
+          "reasoning": "Direct is right: 'magi' is the standard scholarly and NIV/NAB rendering; Herodotus references accurate."
+        },
+        {
+          "glossary_id": "en-te-anatole-at-its-rising-mt-2-2-9",
+          "status": "revise",
+          "citations": [
+            "BDAG s.v. ἀνατολή 1 (cites Mt 2:2, 9)",
+            "Brown, The Birth of the Messiah (1993), ad loc.",
+            "NAB (1970), NRSV, ESV at Mt 2:2, 9"
+          ],
+          "reasoning": "Decision and claim_type direct APPROVED; the lexical ground is real and independent of the canon (BDAG sense 1 cites both verses; the NAB's 'at its rising' of 1970 predates TBWTT). Two factual fixes: (1) remove the RSV from standardEnglish and rationale: the RSV reads 'in the East' at 2:2 and 2:9 (the change to 'at its rising' is the NRSV's); cite NAB/NRSV, and ESV 'when it rose'. (2) 'the technical term for a star's rising (heliacal rising)' overstates: BDAG gives 'rising' of a heavenly body; heliacal rising is one proposed astronomical specification (some commentators), so write 'the term for the rising of a star (BDAG 1); some commentators specify a heliacal rising'."
+        },
+        {
+          "glossary_id": "proskyneo-worship-kneel-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. προσκυνέω",
+            "H. Greeven, TDNT 6",
+            "M. A. Powell, JSNT 57 (1995) 3-17"
+          ],
+          "reasoning": "Direct is right; homage vs petition split follows NRSV practice and is consistent with published 28:9, 17."
+        }
+      ],
+      "centralDiffReview": [
+        {
+          "op": "version",
+          "from": "2.80.0",
+          "to": "2.81.0",
+          "status": "approve",
+          "reasoning": "Minor bump 2.80.0 to 2.81.0 is right for appliesTo-only changes; the union-merge sequencing note for the parallel Revelation/Ezekiel diffs is correct and necessary."
+        },
+        {
+          "op": "modify",
+          "id": "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic",
+          "status": "approve",
+          "reasoning": "Verified: base preserved; additions are the titular sites (2:4; 23:10; 26:63, 68; 27:17, 22)."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "lensLeakageCheck": "Every English line of the chapter was read against the Greek. No line adds interpretive content, uses Raëlian-canon vocabulary (no Elohim, Yahweh, craft, creators, ray, planet, Eternals), or resolves an ambiguity in the canon's direction. Each Wheel of Heaven reading sits in its own paragraph headed 'reception note, not a translation claim'. The two lines that coincide with the canon's French were tested specifically: 2:2/2:9 'at its rising' (BDAG ἀνατολή 1 cites both verses; NAB 1970, NRSV, ESV) and 26:53 'put at my disposal' (BDAG παρίστημι 1a cites the verse; NASB identical wording). In both the lexical ground is real and independent of the canon, so neither is lens leakage.",
+      "escalationReportAdjustments": "Initial verdicts were formed from the Greek, the chapter JSON, the overlay and the central diff before the escalation report (wave-m2-editor-report.md) was opened. The report added no information that changes a verdict. It repeats the RSV attribution for 2:2/9 ('RSV, NRSV, NAB'), which this review corrects. Its ten founder-preference points are answered in founderDecisionRecommendations, and its follow-ups (17:21; 17:22; comma/colon in 25 and 28; the 6:13 'testing' wording in central) are endorsed as later-pass items.",
+      "founderDecisionRecommendations": {
+        "1-angelos-angel": "Endorse. ἄγγελος is the technical term for a heavenly envoy in first-century Jewish Greek (BDAG s.v. 2); published Mt 1, 13, 25, 28, Acts 12 and the Revelation wave all print 'angel', so the Greek NT is already harmonized in practice. Promote jointly with Revelation as a central Greek-NT convention; keep 'messenger of YHWH' for Hebrew malʾāḵ.",
+        "2-naos-sanctuary": "Endorse for Matthew. The naos/hieron distinction is lexical (BDAG; Josephus) and NRSV marks it in 23:16-35. 27:5 keeps Matthew's crux honestly (and, to my reading, restores the ASV's own 'sanctuary'). If promoted, scope it to books with both terms; Revelation's 'temple' for ναός is defensible because it has no ἱερόν.",
+        "3-23:14-no-paragraph": "Endorse. SBLGNT has no 23:14; the Byzantine text is quoted in full at 23:13 with witnesses, as the 6:13b precedent and the Revelation ruling C require. Recommend a later pass bring the stable 17:21 into line: its bracketed Greek is not SBLGNT text, so drop the paragraph and move the Byzantine wording into the 17:20 commentary.",
+        "4-colon-convention": "Endorse (punctuation only; applied without exception in the wave). Harmonize published 25 and 28 in a later pass.",
+        "5-magi": "Endorse. 'magi' is the standard scholarly rendering (BDAG; Brown; Powell) and NIV/NAB usage; 'wise men' is noted.",
+        "6-faithfulness-23:23": "Endorse. BDAG lists Mt 23:23 under πίστις 1a 'faithfulness, reliability'; NIV and ESV render so; the Mic 6:8 triad is conduct.",
+        "7-put-at-my-disposal-26:53": "Endorse. BDAG παρίστημι 1a cites this verse for 'put at someone's disposal', and the NASB prints exactly 'put at My disposal'; the ground is independent of the canon's French, and the coincidence is disclosed.",
+        "8-at-its-rising-2:2,9": "Endorse. BDAG ἀνατολή 1 cites both verses; NAB (1970, before TBWTT) and NRSV read 'at its rising', ESV 'when it rose'. Correct the RSV attribution (the RSV reads 'in the East').",
+        "9-defiles-a-person": "Endorse. The article with ἄνθρωπος is generic; the canon's own French « l'homme » is generic too, so the line follows the sense the canon intends rather than the English edition's 'the man'.",
+        "10-tempted-4:1": "Endorse. Agent-driven 'tempted'/'the tempter' is BDAG's and the versions' reading with the devil as agent, and agrees with published 6:13; the test reading (Gerhardsson; canon « mis à l'épreuve ») is properly in commentary. Optionally align the chapter 4 title ('The testing in the wilderness') with the line."
+      },
+      "summary": {
+        "approve": 22,
+        "revise": 1,
+        "flag-for-human": 0,
+        "statusSetTo": "awaiting-human"
+      }
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "MAT-WOH-2:1",
+      "text": "Τοῦ δὲ Ἰησοῦ γεννηθέντος ἐν Βηθλέεμ τῆς Ἰουδαίας ἐν ἡμέραις Ἡρῴδου τοῦ βασιλέως, ἰδοὺ μάγοι ἀπὸ ἀνατολῶν παρεγένοντο εἰς Ἱεροσόλυμα",
+      "translit": "tou de iēsou gennēthentos en bēthleem tēs ioudaias en hēmerais hērōdou tou basileōs, idou magoi apo anatolōn paregenonto eis hierosolyma",
+      "i18n": {
+        "en": "Now when Jesus had been born in Bethlehem of Judea in the days of Herod the king, behold, magi from the east arrived in Jerusalem,"
+      },
+      "notes": {
+        "official": "*magoi* 'magi': members of the Persian priestly class, experts in astrology and dreams (Herodotus 1.101, 132; BDAG s.v. μάγος). The traditional English 'wise men' (KJV, ASV, RSV, NRSV) softens the specific identity the story presupposes (a star observed, a dream received in 2:12); 'magi' keeps the Greek word (`magoi-magi-mt-2`).\n\n*apo anatolōn* 'from the east' is the plural without the article, the ordinary idiom for the east (cf. 8:11, *apo anatolōn kai dysmōn*). Contrast the singular with the article in 2:2 and 2:9 (`en-te-anatole-at-its-rising-mt-2-2-9`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "magoi-magi-mt-2",
+        "en-te-anatole-at-its-rising-mt-2-2-9"
+      ]
+    },
+    {
+      "n": 2,
+      "refId": "MAT-WOH-2:2",
+      "text": "λέγοντες· Ποῦ ἐστιν ὁ τεχθεὶς βασιλεὺς τῶν Ἰουδαίων; εἴδομεν γὰρ αὐτοῦ τὸν ἀστέρα ἐν τῇ ἀνατολῇ καὶ ἤλθομεν προσκυνῆσαι αὐτῷ.",
+      "translit": "legontes· pou estin ho techtheis basileus tōn ioudaiōn; eidomen gar autou ton astera en tē anatolē kai ēlthomen proskynēsai autō.",
+      "i18n": {
+        "en": "saying: \"Where is he who has been born King of the Jews? For we saw his star at its rising and have come to worship him.\""
+      },
+      "notes": {
+        "official": "*en tē anatolē* 'at its rising': the singular with the article denotes the rising of a star (BDAG s.v. ἀνατολή 1, listing this verse and 2:9; some commentators specify a heliacal rising), and differs from the plural idiom *apo anatolōn* 'from the east' of 2:1. The ASV, KJV and RSV read 'in the east' (RSV 'in the East'); the NRSV and the NAB (1970) read 'at its rising', the ESV 'when it rose', as do Brown (The Birth of the Messiah) and Davies and Allison (`en-te-anatole-at-its-rising-mt-2-2-9`).\n\n*proskynēsai autō* 'to worship him': *proskyneō* is the gesture of prostration before a king or a god, from homage to worship. 'Worship' is kept here, as in the published 28:9 and 28:17 and in 4:9-10, where the same verb is applied to God (`proskyneo-worship-kneel-matthew`). The NRSV's 'pay him homage' is the main alternative.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 4) quotes 2:2 as « nous avons vu son étoile se lever, et nous sommes venus nous prosterner devant lui » (EN 'we have seen his star rise, and are come to worship him') and reads the star as one of the creators' flying craft guiding the 'prophets' to the child. The line keeps *astēr* 'star'. Its 'at its rising' rests on BDAG and agrees with the canon's French on this point.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "en-te-anatole-at-its-rising-mt-2-2-9",
+        "proskyneo-worship-kneel-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew",
+        "proper-names-and-realia-forms-matthew"
+      ]
+    },
+    {
+      "n": 3,
+      "refId": "MAT-WOH-2:3",
+      "text": "ἀκούσας δὲ ὁ βασιλεὺς Ἡρῴδης ἐταράχθη καὶ πᾶσα Ἱεροσόλυμα μετʼ αὐτοῦ,",
+      "translit": "akousas de ho basileus hērōdēs etarachthē kai pasa hierosolyma metʼ autou,",
+      "i18n": {
+        "en": "And when Herod the king heard it, he was troubled, and all Jerusalem with him;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 4,
+      "refId": "MAT-WOH-2:4",
+      "text": "καὶ συναγαγὼν πάντας τοὺς ἀρχιερεῖς καὶ γραμματεῖς τοῦ λαοῦ ἐπυνθάνετο παρʼ αὐτῶν ποῦ ὁ χριστὸς γεννᾶται.",
+      "translit": "kai synagagōn pantas tous archiereis kai grammateis tou laou epynthaneto parʼ autōn pou ho christos gennatai.",
+      "i18n": {
+        "en": "and gathering together all the chief priests and scribes of the people, he inquired of them where the Christ was to be born."
+      },
+      "notes": {
+        "official": "*ho christos* with the article is the title 'the Christ', i.e. the expected Messiah, not yet a personal name (`christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "MAT-WOH-2:5",
+      "text": "οἱ δὲ εἶπαν αὐτῷ· Ἐν Βηθλέεμ τῆς Ἰουδαίας· οὕτως γὰρ γέγραπται διὰ τοῦ προφήτου·",
+      "translit": "hoi de eipan autō· en bēthleem tēs ioudaias· houtōs gar gegraptai dia tou prophētou·",
+      "i18n": {
+        "en": "And they said to him: \"In Bethlehem of Judea; for thus it is written through the prophet:"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 6,
+      "refId": "MAT-WOH-2:6",
+      "text": "Καὶ σύ, Βηθλέεμ γῆ Ἰούδα, οὐδαμῶς ἐλαχίστη εἶ ἐν τοῖς ἡγεμόσιν Ἰούδα· ἐκ σοῦ γὰρ ἐξελεύσεται ἡγούμενος, ὅστις ποιμανεῖ τὸν λαόν μου τὸν Ἰσραήλ.",
+      "translit": "kai sy, bēthleem gē iouda, oudamōs elachistē ei en tois hēgemosin iouda· ek sou gar exeleusetai hēgoumenos, hostis poimanei ton laon mou ton israēl.",
+      "i18n": {
+        "en": "'And you, Bethlehem, land of Judah, are by no means least among the rulers of Judah; for out of you shall come forth a ruler who will shepherd my people Israel.'\""
+      },
+      "notes": {
+        "official": "The quotation combines Mic 5:1 (EV 5:2) with 2 Sam 5:2 ('you shall shepherd my people Israel') and agrees with neither the MT nor the LXX. Where Micah calls Bethlehem 'little among the clans of Judah', Matthew writes *oudamōs elachistē* 'by no means least', reversing the sense to fit the fulfilment. *en tois hēgemosin* 'among the rulers' presupposes Hebrew *ʾallûpê* 'chiefs' for the MT's *ʾalp̄ê* 'thousands, clans'. Davies and Allison (ICC), ad loc.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 7,
+      "refId": "MAT-WOH-2:7",
+      "text": "Τότε Ἡρῴδης λάθρᾳ καλέσας τοὺς μάγους ἠκρίβωσεν παρʼ αὐτῶν τὸν χρόνον τοῦ φαινομένου ἀστέρος,",
+      "translit": "tote hērōdēs lathra kalesas tous magous ēkribōsen parʼ autōn ton chronon tou phainomenou asteros,",
+      "i18n": {
+        "en": "Then Herod secretly called the magi and learned from them exactly the time of the star's appearing."
+      },
+      "notes": {
+        "official": "'the magi' (`magoi-magi-mt-2`). *ton chronon tou phainomenou asteros* 'the time of the star's appearing': Herod's question about the timing explains the 'two years old and under' of 2:16.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "magoi-magi-mt-2"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "MAT-WOH-2:8",
+      "text": "καὶ πέμψας αὐτοὺς εἰς Βηθλέεμ εἶπεν· Πορευθέντες ἐξετάσατε ἀκριβῶς περὶ τοῦ παιδίου· ἐπὰν δὲ εὕρητε, ἀπαγγείλατέ μοι, ὅπως κἀγὼ ἐλθὼν προσκυνήσω αὐτῷ.",
+      "translit": "kai pempsas autous eis bēthleem eipen· poreuthentes exetasate akribōs peri tou paidiou· epan de heurēte, apangeilate moi, hopōs kagō elthōn proskynēsō autō.",
+      "i18n": {
+        "en": "And he sent them to Bethlehem and said: \"Go and search carefully for the child; and when you have found him, bring me word, so that I too may come and worship him.\""
+      },
+      "notes": {
+        "official": "*proskynēsō* 'worship', the same verb as 2:2 and 2:11 (`proskyneo-worship-kneel-matthew`). Herod's words are ironic: his intention is revealed in 2:13 and 2:16.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "proskyneo-worship-kneel-matthew"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "MAT-WOH-2:9",
+      "text": "οἱ δὲ ἀκούσαντες τοῦ βασιλέως ἐπορεύθησαν, καὶ ἰδοὺ ὁ ἀστὴρ ὃν εἶδον ἐν τῇ ἀνατολῇ προῆγεν αὐτούς, ἕως ἐλθὼν ἐστάθη ἐπάνω οὗ ἦν τὸ παιδίον.",
+      "translit": "hoi de akousantes tou basileōs eporeuthēsan, kai idou ho astēr hon eidon en tē anatolē proēgen autous, heōs elthōn estathē epanō hou ēn to paidion.",
+      "i18n": {
+        "en": "And having heard the king, they went their way; and behold, the star which they had seen at its rising went before them, until it came and stood over where the child was."
+      },
+      "notes": {
+        "official": "*ho astēr hon eidon en tē anatolē* 'the star which they had seen at its rising': the singular with the article, as in 2:2 (`en-te-anatole-at-its-rising-mt-2-2-9`). *proēgen autous, heōs elthōn estathē epanō hou ēn to paidion* 'went before them, until it came and stood over where the child was': the verbs are ordinary verbs of motion and rest, and the line renders them literally.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 4) quotes 2:9 (« l'étoile qu'ils avaient vue se lever les précédait, et elle vint se placer au-dessus de l'enfant ») as the description of a guiding flying craft that comes to a stop above the child. The line keeps 'star' and the plain verbs of motion, and adds no technical terms.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "en-te-anatole-at-its-rising-mt-2-2-9",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "MAT-WOH-2:10",
+      "text": "ἰδόντες δὲ τὸν ἀστέρα ἐχάρησαν χαρὰν μεγάλην σφόδρα.",
+      "translit": "idontes de ton astera echarēsan charan megalēn sphodra.",
+      "i18n": {
+        "en": "And when they saw the star, they rejoiced with exceedingly great joy."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 11,
+      "refId": "MAT-WOH-2:11",
+      "text": "καὶ ἐλθόντες εἰς τὴν οἰκίαν εἶδον τὸ παιδίον μετὰ Μαρίας τῆς μητρὸς αὐτοῦ, καὶ πεσόντες προσεκύνησαν αὐτῷ, καὶ ἀνοίξαντες τοὺς θησαυροὺς αὐτῶν προσήνεγκαν αὐτῷ δῶρα, χρυσὸν καὶ λίβανον καὶ σμύρναν.",
+      "translit": "kai elthontes eis tēn oikian eidon to paidion meta marias tēs mētros autou, kai pesontes prosekynēsan autō, kai anoixantes tous thēsaurous autōn prosēnenkan autō dōra, chryson kai libanon kai smyrnan.",
+      "i18n": {
+        "en": "And coming into the house, they saw the child with Mary his mother, and they fell down and worshipped him; and opening their treasures, they offered him gifts: gold and frankincense and myrrh."
+      },
+      "notes": {
+        "official": "*eis tēn oikian* 'into the house': Matthew has a house in Bethlehem, not a stable. *pesontes prosekynēsan autō* 'they fell down and worshipped him' names the prostration explicitly (`proskyneo-worship-kneel-matthew`). The gifts of gold and frankincense recall Isa 60:6 and Ps 72:10-11, where nations bring tribute to Zion's king.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "proskyneo-worship-kneel-matthew"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "MAT-WOH-2:12",
+      "text": "καὶ χρηματισθέντες κατʼ ὄναρ μὴ ἀνακάμψαι πρὸς Ἡρῴδην διʼ ἄλλης ὁδοῦ ἀνεχώρησαν εἰς τὴν χώραν αὐτῶν.",
+      "translit": "kai chrēmatisthentes katʼ onar mē anakampsai pros hērōdēn diʼ allēs hodou anechōrēsan eis tēn chōran autōn.",
+      "i18n": {
+        "en": "And having been warned in a dream not to return to Herod, they departed into their own country by another way."
+      },
+      "notes": {
+        "official": "*chrēmatisthentes kat' onar* 'having been warned in a dream': *chrēmatizō* in the passive is the technical verb for receiving a divine instruction or oracle (BDAG s.v. 1b; again at 2:22).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 13,
+      "refId": "MAT-WOH-2:13",
+      "text": "Ἀναχωρησάντων δὲ αὐτῶν ἰδοὺ ἄγγελος κυρίου φαίνεται κατʼ ὄναρ τῷ Ἰωσὴφ λέγων· Ἐγερθεὶς παράλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ καὶ φεῦγε εἰς Αἴγυπτον, καὶ ἴσθι ἐκεῖ ἕως ἂν εἴπω σοι· μέλλει γὰρ Ἡρῴδης ζητεῖν τὸ παιδίον τοῦ ἀπολέσαι αὐτό.",
+      "translit": "anachōrēsantōn de autōn idou angelos kyriou phainetai katʼ onar tō iōsēph legōn· egertheis paralabe to paidion kai tēn mētera autou kai pheuge eis aigypton, kai isthi ekei heōs an eipō soi· mellei gar hērōdēs zētein to paidion tou apolesai auto.",
+      "i18n": {
+        "en": "Now when they had departed, behold, an angel of the Lord appears to Joseph in a dream, saying: \"Rise, take the child and his mother, and flee into Egypt, and remain there until I tell you; for Herod is about to seek the child to destroy him.\""
+      },
+      "notes": {
+        "official": "*angelos kyriou* 'an angel of the Lord', as in the published 1:20, 1:24 and 28:2. The noun's basic sense is 'messenger', and in the Hebrew Bible the program renders *malʾaḵ YHWH* 'messenger of YHWH' (central `malakh-yhwh-messenger`), because Hebrew *malʾāḵ* is the ordinary word for a human envoy. Greek *angelos* in Jewish usage of this period (LXX, Tobit, Philo, Josephus) is the established term for a heavenly being, and Matthew's figure is one: he appears in dreams and speaks for God. The New Testament convention is therefore 'angel' (`angelos-angel-matthew-convention`). *phainetai* is a historic present ('appears'), kept as in the Greek.\n\n*apolesai auto* 'to destroy it' (the child): the same verb as *apollymi* 'perish' (8:25; 10:28).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 4) quotes 2:13 (« un ange du Seigneur apparut en songe à Joseph … ») as an instance of the creators watching over the child. The line keeps 'angel of the Lord'.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "angelos-angel-matthew-convention",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 14,
+      "refId": "MAT-WOH-2:14",
+      "text": "ὁ δὲ ἐγερθεὶς παρέλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ νυκτὸς καὶ ἀνεχώρησεν εἰς Αἴγυπτον,",
+      "translit": "ho de egertheis parelabe to paidion kai tēn mētera autou nyktos kai anechōrēsen eis aigypton,",
+      "i18n": {
+        "en": "And he rose and took the child and his mother by night and withdrew into Egypt,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 15,
+      "refId": "MAT-WOH-2:15",
+      "text": "καὶ ἦν ἐκεῖ ἕως τῆς τελευτῆς Ἡρῴδου· ἵνα πληρωθῇ τὸ ῥηθὲν ὑπὸ κυρίου διὰ τοῦ προφήτου λέγοντος· Ἐξ Αἰγύπτου ἐκάλεσα τὸν υἱόν μου.",
+      "translit": "kai ēn ekei heōs tēs teleutēs hērōdou· hina plērōthē to rhēthen hypo kyriou dia tou prophētou legontos· ex aigyptou ekalesa ton huion mou.",
+      "i18n": {
+        "en": "and he was there until the death of Herod, so that what was spoken by the Lord through the prophet might be fulfilled, saying: \"Out of Egypt I called my son.\""
+      },
+      "notes": {
+        "official": "*ex Aigyptou ekalesa ton huion mou* 'Out of Egypt I called my son' quotes Hos 11:1 from the Hebrew (*mimmiṣrayim qārāʾṯî liḇnî*); the LXX reads 'I called his children' (*ta tekna autou*). Matthew applies to Jesus a verse that in Hosea refers to Israel, the first of his formula quotations in this chapter. *hypo kyriou dia tou prophētou* 'by the Lord through the prophet' repeats the formula of the published 1:22.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 16,
+      "refId": "MAT-WOH-2:16",
+      "text": "Τότε Ἡρῴδης ἰδὼν ὅτι ἐνεπαίχθη ὑπὸ τῶν μάγων ἐθυμώθη λίαν, καὶ ἀποστείλας ἀνεῖλεν πάντας τοὺς παῖδας τοὺς ἐν Βηθλέεμ καὶ ἐν πᾶσι τοῖς ὁρίοις αὐτῆς ἀπὸ διετοῦς καὶ κατωτέρω, κατὰ τὸν χρόνον ὃν ἠκρίβωσεν παρὰ τῶν μάγων.",
+      "translit": "tote hērōdēs idōn hoti enepaichthē hypo tōn magōn ethymōthē lian, kai aposteilas aneilen pantas tous paidas tous en bēthleem kai en pasi tois horiois autēs apo dietous kai katōterō, kata ton chronon hon ēkribōsen para tōn magōn.",
+      "i18n": {
+        "en": "Then Herod, seeing that he had been mocked by the magi, was exceedingly angry, and he sent and killed all the male children who were in Bethlehem and in all its borders, from two years old and under, according to the time that he had learned exactly from the magi."
+      },
+      "notes": {
+        "official": "'the magi' twice (`magoi-magi-mt-2`). *enepaichthē* 'he had been mocked' (or 'tricked'); the same verb describes the soldiers mocking Jesus at 27:29, 31.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "magoi-magi-mt-2"
+      ]
+    },
+    {
+      "n": 17,
+      "refId": "MAT-WOH-2:17",
+      "text": "τότε ἐπληρώθη τὸ ῥηθὲν διὰ Ἰερεμίου τοῦ προφήτου λέγοντος·",
+      "translit": "tote eplērōthē to rhēthen dia ieremiou tou prophētou legontos·",
+      "i18n": {
+        "en": "Then was fulfilled what was spoken through Jeremiah the prophet, saying:"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 18,
+      "refId": "MAT-WOH-2:18",
+      "text": "Φωνὴ ἐν Ῥαμὰ ἠκούσθη, κλαυθμὸς καὶ ὀδυρμὸς πολύς· Ῥαχὴλ κλαίουσα τὰ τέκνα αὐτῆς, καὶ οὐκ ἤθελεν παρακληθῆναι ὅτι οὐκ εἰσίν.",
+      "translit": "phōnē en rhama ēkousthē, klauthmos kai odyrmos polys· rhachēl klaiousa ta tekna autēs, kai ouk ēthelen paraklēthēnai hoti ouk eisin.",
+      "i18n": {
+        "en": "\"A voice was heard in Ramah, weeping and great mourning: Rachel weeping for her children; and she would not be comforted, because they are no more.\""
+      },
+      "notes": {
+        "official": "Jer 31:15 (38:15 LXX). The critical text reads *klauthmos kai odyrmos polys* 'weeping and great mourning'. The Byzantine text and the KJV prefix *thrēnos kai* ('lamentation, and weeping, and great mourning'), assimilating to the LXX of Jeremiah; Vaticanus, Sinaiticus and the critical editions lack it (Metzger, Textual Commentary, ad loc.; `critical-text-baseline-and-byzantine-variant-recording-matthew`). Ramah lies on the road from Jerusalem by which the exiles were taken north (Jer 40:1); Gen 35:19 places Rachel's tomb near Bethlehem.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 19,
+      "refId": "MAT-WOH-2:19",
+      "text": "Τελευτήσαντος δὲ τοῦ Ἡρῴδου ἰδοὺ ἄγγελος κυρίου φαίνεται κατʼ ὄναρ τῷ Ἰωσὴφ ἐν Αἰγύπτῳ",
+      "translit": "teleutēsantos de tou hērōdou idou angelos kyriou phainetai katʼ onar tō iōsēph en aigyptō",
+      "i18n": {
+        "en": "But when Herod had died, behold, an angel of the Lord appears in a dream to Joseph in Egypt,"
+      },
+      "notes": {
+        "official": "'an angel of the Lord' (`angelos-angel-matthew-convention`), the third of the four dream revelations to Joseph (1:20; 2:13; 2:19; 2:22).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 4) quotes 2:19-20 (« À la mort d'Hérode, voilà qu'un Ange du Seigneur apparut en songe à Joseph, en Égypte … ») as the creators telling Joseph he can return to Israel. The line keeps the dream vocabulary as written.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "angelos-angel-matthew-convention",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 20,
+      "refId": "MAT-WOH-2:20",
+      "text": "λέγων· Ἐγερθεὶς παράλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ καὶ πορεύου εἰς γῆν Ἰσραήλ, τεθνήκασιν γὰρ οἱ ζητοῦντες τὴν ψυχὴν τοῦ παιδίου.",
+      "translit": "legōn· egertheis paralabe to paidion kai tēn mētera autou kai poreuou eis gēn israēl, tethnēkasin gar hoi zētountes tēn psychēn tou paidiou.",
+      "i18n": {
+        "en": "saying: \"Rise, take the child and his mother, and go into the land of Israel; for those who sought the child's life are dead.\""
+      },
+      "notes": {
+        "official": "*tethnēkasin gar hoi zētountes tēn psychēn tou paidiou* 'for those who sought the child's life are dead' reproduces almost word for word Exod 4:19 LXX, said to Moses ('all those who sought your life are dead'), one of the clearest pieces of Moses typology in Matthew's infancy narrative. The plural is generalizing; only Herod has died. *psychē* is 'life' here (`psyche-soul-life-matthew`).\n\nThis verse is quoted in the canon; see the reception note at 2:19.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "psyche-soul-life-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 21,
+      "refId": "MAT-WOH-2:21",
+      "text": "ὁ δὲ ἐγερθεὶς παρέλαβε τὸ παιδίον καὶ τὴν μητέρα αὐτοῦ καὶ εἰσῆλθεν εἰς γῆν Ἰσραήλ.",
+      "translit": "ho de egertheis parelabe to paidion kai tēn mētera autou kai eisēlthen eis gēn israēl.",
+      "i18n": {
+        "en": "And he rose and took the child and his mother and went into the land of Israel."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 22,
+      "refId": "MAT-WOH-2:22",
+      "text": "ἀκούσας δὲ ὅτι Ἀρχέλαος βασιλεύει τῆς Ἰουδαίας ἀντὶ τοῦ πατρὸς αὐτοῦ Ἡρῴδου ἐφοβήθη ἐκεῖ ἀπελθεῖν· χρηματισθεὶς δὲ κατʼ ὄναρ ἀνεχώρησεν εἰς τὰ μέρη τῆς Γαλιλαίας,",
+      "translit": "akousas de hoti archelaos basileuei tēs ioudaias anti tou patros autou hērōdou ephobēthē ekei apelthein· chrēmatistheis de katʼ onar anechōrēsen eis ta merē tēs galilaias,",
+      "i18n": {
+        "en": "But when he heard that Archelaus was reigning over Judea in place of his father Herod, he was afraid to go there; and having been warned in a dream, he withdrew into the region of Galilee,"
+      },
+      "notes": {
+        "official": "Archelaus ruled Judea, Samaria and Idumea as ethnarch from 4 BCE until Rome deposed him in 6 CE (Josephus, Ant. 17.317-344). *chrēmatistheis* 'having been warned' as in 2:12.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 23,
+      "refId": "MAT-WOH-2:23",
+      "text": "καὶ ἐλθὼν κατῴκησεν εἰς πόλιν λεγομένην Ναζαρέτ, ὅπως πληρωθῇ τὸ ῥηθὲν διὰ τῶν προφητῶν ὅτι Ναζωραῖος κληθήσεται.",
+      "translit": "kai elthōn katōkēsen eis polin legomenēn nazaret, hopōs plērōthē to rhēthen dia tōn prophētōn hoti nazōraios klēthēsetai.",
+      "i18n": {
+        "en": "and he came and dwelt in a city called Nazareth, so that what was spoken through the prophets might be fulfilled, that he would be called a Nazarene."
+      },
+      "notes": {
+        "official": "*Nazōraios* 'Nazarene': no prophetic text says this, and the plural 'through the prophets' signals a general appeal. The two main proposals are a wordplay on Hebrew *nēṣer* 'branch' (Isa 11:1, a messianic text) and on *nāzîr* 'one consecrated' (Judg 13:5, 7, of Samson). Matthew's form is *Nazōraios* (also 26:71), Mark's *Nazarēnos*; English 'Nazarene' is the standard form for both, and 'Nazorean' is used in some scholarship (`proper-names-and-realia-forms-matthew`; Brown, The Birth of the Messiah, ad loc.).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "proper-names-and-realia-forms-matthew"
+      ]
+    }
+  ],
+  "editorial_questions": [],
+  "editorial_questions_resolved": [
+    {
+      "refId": "MAT-WOH-2:1",
+      "issue": "μάγοι (magoi): the class of the visitors is unglossed. Persian priestly/astrological specialists vs. the English-tradition 'wise men'; recurs at 2:7, 2:16 (x2).",
+      "default_taken": "wise men",
+      "resolution": "Rendered 'magi' (draft 'wise men' changed at 2:1, 7, 16 x2).",
+      "glossaryEntry": "magoi-magi-mt-2",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-2:2",
+      "issue": "ἐν τῇ ἀνατολῇ (en tē anatolē; singular with article, also at 2:9) can mean 'in the east' (ASV/KJV) or 'at its rising' (RSV/NRSV; the canon at TBWTT ch. 4 quotes 2:2 and 2:9 as « son étoile se lever » / « l'étoile qu'ils avaient vue se lever »). Contrast the plural ἀπὸ ἀνατολῶν 'from the east' in 2:1, which is unambiguous.",
+      "default_taken": "in the east",
+      "resolution": "Rendered 'at its rising' at 2:2 and 2:9 (BDAG s.v. ἀνατολή 1); 'from the east' kept for the plural at 2:1. Agrees with the canon's French.",
+      "glossaryEntry": "en-te-anatole-at-its-rising-mt-2-2-9",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-2:2",
+      "issue": "προσκυνέω (proskyneō; also 2:8, 2:11, 4:9-10, 8:2, 9:18, 14:33, 15:25): 'worship' vs. 'pay homage' / 'prostrate oneself'. The canon quotes 2:2 as « nous prosterner devant lui » (prostrate ourselves before him).",
+      "default_taken": "worship",
+      "resolution": "'worship' kept for homage/acclamation (2:2, 8, 11; 4:9-10; 14:33; published 28:9, 17); 'knelt before' kept for petitioners (8:2; 9:18; 15:25). Canon's « nous prosterner » in reception note.",
+      "glossaryEntry": "proskyneo-worship-kneel-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-2:13",
+      "issue": "ἄγγελος (angelos; also 2:19, 4:6, 4:11, 13:39-49 precedent, 26:53): this program renders 'angel' (precedent ch. 1, 13, 25, 28), while the central Hebrew entry malakh-yhwh-messenger renders the Hebrew counterpart 'messenger of YHWH'. The canon reads the angels of Mt 4:11 as « les messagers des Elohim ». No Greek-side entry exists; confirm the NT convention.",
+      "default_taken": "an angel of the Lord",
+      "resolution": "'angel' / 'an angel of the Lord' kept for Greek ἄγγελος throughout Matthew, consistent with the published 1:20, 1:24, 13:39-49, 25:31-41, 28:2-5 and with Acts 12; Hebrew-side 'messenger of YHWH' not applied to the Greek; difference stated in commentary at 2:13. Program-wide harmonization with the Revelation pass flagged for the founder.",
+      "glossaryEntry": "angelos-angel-matthew-convention",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-2:18",
+      "issue": "Textual variant: the critical text reads κλαυθμὸς καὶ ὀδυρμὸς πολύς ('weeping and great mourning'); the Byzantine/TR text (KJV) prefixes θρῆνος καὶ ('lamentation, and weeping, and great mourning'), assimilating to Jer 31:15 LXX. Draft follows SBLGNT.",
+      "default_taken": "weeping and great mourning (critical text)",
+      "resolution": "Critical text followed; Byzantine 'lamentation' recorded in commentary.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-2:23",
+      "issue": "Ναζωραῖος (Nazōraios): unidentified 'prophets' citation; candidate wordplays on Hebrew נֵצֶר netser 'branch' (Isa 11:1) or נָזִיר nazir. English form unglossed.",
+      "default_taken": "Nazarene",
+      "resolution": "'Nazarene' kept; Nazōraios vs Nazarēnos and the netser/nazir proposals in commentary.",
+      "glossaryEntry": "proper-names-and-realia-forms-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    }
+  ]
+}

@@ -1,0 +1,731 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "REV-WOH",
+  "bookSlug": "revelation-woh",
+  "n": 21,
+  "title": "Revelation 21 — The new heaven and new earth + the new Jerusalem descending",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Koine Greek New Testament — SBL Greek New Testament (SBLGNT), ed. Michael W. Holmes (Society of Biblical Literature and Logos Bible Software, 2010), printed text with the variant-marker sigla removed. Primary uncial witnesses for Revelation: Codex Sinaiticus (א/01) and Codex Alexandrinus (A/02), with Ephraemi Rescriptus (C/04) and P47/P115 where extant; Codex Vaticanus (B/03) does not contain Revelation in its original hand. Variants against NA28 and the Byzantine/Textus Receptus tradition are reported in the verse commentary (overlay convention sblgnt-base-text-variant-reporting-convention-revelation).",
+    "sourceLicense": "CC BY 4.0 (SBLGNT, Society of Biblical Literature and Logos Bible Software)",
+    "sourceUrl": "https://github.com/LogosBible/SBLGNT (data/sblgnt/text/Rev.txt)",
+    "sourceAccessedVia": "SBLGNT GitHub repository (LogosBible/SBLGNT), fetched 2026-11-01 into source-grc-21.json; reference translation ASV 1901 (hosted edition data-library/revelation/chapter-21.json), KJV for Textus Receptus comparison",
+    "verificationStatus": "editor pass complete (2026-11-01); Reviewer pass complete 2026-11-01 (awaiting-human); pending founder sign-off; central glossary 2.81.0 pending application of wave-r2-central-diff.json",
+    "glossaryVersion": "2.81.0",
+    "overlayGlossaryVersion": "1.2.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-01T14:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-01T12:25:02Z",
+      "verdicts": [
+        {
+          "refId": "REV-WOH-21:1",
+          "status": "approve",
+          "citations": [
+            "LWTE ch. 2 (LWTE-2:220-222)"
+          ],
+          "reasoning": "eidon ouranon kainon kai gēn kainēn; ho gar prōtos ouranos kai hē prōtē gē apēlthan, kai hē thalassa ouk estin eti. Exact; 'is no more' keeps the present. Reception note (view from a departing craft) verified and confined to the labelled paragraph."
+        },
+        {
+          "refId": "REV-WOH-21:2",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (no variant marker: Robinson-Pierpont also lacks egō Iōannēs)",
+            "KJV Rev 21:2",
+            "LWTE ch. 2 (LWTE-2:223-224)"
+          ],
+          "reasoning": "tēn polin tēn hagian Ierousalēm kainēn eidon katabainousan ek tou ouranou apo tou theou ... Exact. TR egō Iōannēs correctly attributed; 'God' against the canon's English 'Yahweh' (French 'Dieu') is correct for theos. Reception note verified; no leakage."
+        },
+        {
+          "refId": "REV-WOH-21:3",
+          "status": "revise",
+          "citations": [
+            "SBLGNT (variant markers at thronou, laoi and met' autōn estai)",
+            "KJV Rev 21:3 ('a great voice out of heaven')",
+            "LWTE ch. 2 (LWTE-2:225: EN 'I heard a great voice out of heaven')",
+            "Lev 26:11-12"
+          ],
+          "reasoning": "English line approved: ēkousa phōnēs megalēs ek tou thronou ... Idou hē skēnē tou theou meta tōn anthrōpōn, kai skēnōsei met' autōn, kai autoi laoi autou esontai is exactly rendered; laoi and the NA28 [autōn theos] are correctly reported. Commentary fix: the SBLGNT's ek tou thronou 'from the throne' against the Textus Receptus ek tou ouranou (KJV 'out of heaven') is not reported, although the canon's English edition quotes that KJV wording here; the overlay convention requires that such variants be named. Add: 'ek tou thronou from the throne (SBLGNT, NA28) against ek tou ouranou out of heaven (Textus Receptus, KJV)', and add 'out of heaven' to the list of English-edition readings in the reception note. Reception note otherwise verified; no leakage."
+        },
+        {
+          "refId": "REV-WOH-21:4",
+          "status": "approve",
+          "citations": [
+            "SBLGNT",
+            "KJV Rev 21:4"
+          ],
+          "reasoning": "exaleipsei pan dakryon ... kai ho thanatos ouk estai eti; oute penthos oute kraugē oute ponos ouk estai eti. ta prōta apēlthan. Exact; the TR's ho theos as subject is correctly reported. Non-blocking: the SBLGNT also marks variants at ek tōn ophthalmōn (TR apo) and before ta prōta (TR hoti, KJV 'for the former things'); the second could be named since the canon's English quotes it."
+        },
+        {
+          "refId": "REV-WOH-21:5",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "eipen ho kathēmenos epi tō thronō: Idou kaina poiō panta. kai legei: Grapson ... Speaker of kai legei left open, noted. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:6",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (Gegonan)",
+            "ASV Rev 21:6 ('They are come to pass')"
+          ],
+          "reasoning": "kai eipen moi: Gegonan. 'They have come to pass' renders the third plural perfect (SBLGNT, ASV); TR Gegone correctly reported. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:7",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ho nikōn klēronomēsei tauta, kai esomai autō theos kai autos estai moi huios. Exact; 2 Sam 7:14 noted."
+        },
+        {
+          "refId": "REV-WOH-21:8",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. theion",
+            "LXX Gen 19:24"
+          ],
+          "reasoning": "tois de deilois ... pornois kai pharmakois ... en tē limnē tē kaiomenē pyri kai theiō, ho estin ho thanatos ho deuteros. 'sulfur' per gophrit extension; 'fornicators' consistent with 9:21. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:9",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ēlthen heis ek tōn hepta angelōn tōn echontōn tas hepta phialas, tōn gemontōn ... Deuro, deixō soi tēn nymphēn tēn gynaika tou arniou. Exact; gemontōn attraction noted."
+        },
+        {
+          "refId": "REV-WOH-21:10",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "apēnenken me en pneumati epi oros mega kai hypsēlon ... tēn polin tēn hagian Ierousalēm katabainousan. 'in the Spirit' capitalized as in 1:10 and 4:2. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:11",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. iaspis"
+          ],
+          "reasoning": "echousan tēn doxan tou theou; ho phōstēr autēs homoios lithō timiōtatō, hōs lithō iaspidi krystallizonti. 'radiance' for phōstēr is standard. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:12",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "echousa teichos mega kai hypsēlon, echousa pylōnas dōdeka ... onomata ... tōn dōdeka phylōn huiōn Israēl. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:13",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "apo anatolēs ... apo borra ... apo notou ... apo dysmōn pylōnes treis. Order kept. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:14",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "to teichos tēs poleōs echōn themelious dōdeka ... dōdeka onomata tōn dōdeka apostolōn tou arniou. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:15",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ho lalōn met' emou eichen metron kalamon chrysoun, hina metrēsē. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:16",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "hē polis tetragōnos keitai ... epi stadious dōdeka chiliadōn ... isa estin. 'furlongs' (ASV, KJV) keeps the symbolic 12,000, conversion in commentary. Defensible."
+        },
+        {
+          "refId": "REV-WOH-21:17",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "emetrēsen to teichos autēs hekaton tesserakonta tessarōn pēchōn, metron anthrōpou, ho estin angelou. Literal ASV wording kept. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:18",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. endōmēsis"
+          ],
+          "reasoning": "hē endōmēsis tou teichous autēs iaspis, kai hē polis chrysion katharon homoion hyalō katharō. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:19",
+          "status": "approve",
+          "citations": [
+            "Pliny, NH 37.120",
+            "Aune, WBC 52C, ad loc."
+          ],
+          "reasoning": "hoi themelioi ... panti lithō timiō kekosmēmenoi; iaspis, sappheiros, chalkēdōn, smaragdos. Traditional names in the line, identifications in commentary. Defensible."
+        },
+        {
+          "refId": "REV-WOH-21:20",
+          "status": "approve",
+          "citations": [
+            "BDAG s.vv. sardion, topazion, hyakinthos"
+          ],
+          "reasoning": "sardonyx, sardion, chrysolithos, bēryllos, topazion, chrysoprasos, hyakinthos, amethystos: ASV names with 'carnelian' for sardion (4:3 precedent). Charles' zodiac proposal correctly labelled disputed. Defensible."
+        },
+        {
+          "refId": "REV-WOH-21:21",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "hoi dōdeka pylōnes dōdeka margaritai, ana heis hekastos ... ex henos margaritou; hē plateia ... hōs hyalos diaugēs. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:22",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "naon ouk eidon en autē, ho gar kyrios, ho theos, ho pantokratōr, naos autēs estin, kai to arnion. 'Lord God the Almighty' per 4:8. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:23",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ou chreian echei tou hēliou oude tēs selēnēs, hina phainōsin autē, hē gar doxa tou theou ephōtisen autēn. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:24",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (no variant marker at ta ethnē; marker at tēn doxan autōn)",
+            "KJV Rev 21:24"
+          ],
+          "reasoning": "peripatēsousin ta ethnē dia tou phōtos autēs; kai hoi basileis tēs gēs pherousin tēn doxan autōn eis autēn. Exact; TR additions correctly reported."
+        },
+        {
+          "refId": "REV-WOH-21:25",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "hoi pylōnes autēs ou mē kleisthōsin hēmeras, nyx gar ouk estai ekei. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:26",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "oisousin tēn doxan kai tēn timēn tōn ethnōn eis autēn. Exact."
+        },
+        {
+          "refId": "REV-WOH-21:27",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ou mē eiselthē eis autēn pan koinon kai poiōn bdelygma kai pseudos, ei mē hoi gegrammenoi. 'nothing unclean ... nor anyone who practices' resolves the neuter/masculine shift. Exact."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "sblgnt-base-text-variant-reporting-convention-revelation",
+          "status": "revise",
+          "citations": [
+            "SBLGNT (Holmes 2010) variant markers at Rev 16:18 and 21:3, and their absence at 8:7, 10:4, 12:17, 16:7, 21:2",
+            "Metzger, A Textual Commentary on the Greek New Testament (2nd ed. 1994)",
+            "KJV Rev 8:7; 16:18; 21:3"
+          ],
+          "reasoning": "claim_type direct is right: the entry declares which text is translated and how variants are reported. Three accuracy fixes. (1) The 8:7 omission is a Textus Receptus (minority) reading, not that of the Byzantine majority text, which the SBLGNT apparatus shows agreeing with SBLGNT; rephrase wherever 'Byzantine' is said there. (2) Add 21:3 'out of heaven' (TR ek tou ouranou, quoted by the canon's English) to the wohChoice list of KJV-wording variants, and 16:18 (NA28 singular anthrōpos egeneto; TR order 'voices, thunders, lightnings'). (3) Add REV-WOH-16:18's NA28 divergence to the 'NA28 bracketed or divergent readings reported' sentence. The decision itself stands."
+        },
+        {
+          "glossary_id": "theos-god-rendering-against-canon-english-yahweh-revelation",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. theos",
+            "LXX usage: kyrios for the Tetragrammaton, theos for ʾĕlōhîm",
+            "LWTE ch. 2 (FR 'Dieu' at 9:13, 21:2-4)"
+          ],
+          "reasoning": "Direct is correct: theos never renders the Tetragrammaton in the LXX or NT, the canon's French reads 'Dieu' at every site, and published chapters 1, 4, 6 use 'God'. The canon's English 'Yahweh'/'Elohim' is recorded in reception notes without entering the line."
+        },
+        {
+          "glossary_id": "greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation",
+          "status": "approve",
+          "citations": [
+            "BDAG s.vv. diabolos, Satanas, Abaddōn, Harmagedōn",
+            "Aune, WBC 52B, ad loc. 12:9"
+          ],
+          "reasoning": "Direct is correct for a presentation and scope convention. Recommendation (non-blocking): state the scope criterion explicitly. Hebrew-text central entries are applied to a Greek line when their English choice is also a correct rendering of the Greek lexeme (chayyot 'living creatures' at 7:11; gophrit 'sulfur' for theion). They are background only where applying them would import a Hebrew-specific form or sense (Yisra'el, 'the adversary', 'the deep'). Without that sentence the 7:11 chayyot ref and the gophrit extension look like exceptions to rule (4)."
+        },
+        {
+          "glossary_id": "skene-skenoo-tabernacle-dwell-rendering-revelation",
+          "status": "approve",
+          "citations": [
+            "BDAG s.vv. skēnē, skēnoō",
+            "Lev 26:11-12; Ezek 37:27"
+          ],
+          "reasoning": "Direct is defensible: 'tabernacle' keeps the Lev 26/Ezek 37 allusion at 21:3, 'dwell' is universal for the verb, and the 7:15 ASV exception is grammatically motivated by epi + accusative."
+        },
+        {
+          "glossary_id": "foundation-stones-gem-names-rev-21-19-20",
+          "status": "approve",
+          "citations": [
+            "BDAG s.vv.",
+            "Pliny, NH 37.120",
+            "Aune, WBC 52C, ad loc. 21:19-20"
+          ],
+          "reasoning": "Direct is defensible: traditional names in the line, uncertain mineral identifications in commentary, and 'carnelian' continues the published 4:3."
+        },
+        {
+          "glossary_id": "central-diff:version-2.80.0-to-2.81.0",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "2.80.0 to 2.81.0 minor bump is correct: 12 appliesTo extensions, no wohChoice change. Every op was checked against 2.80.0: each changes.appliesTo is a complete superset of the base array, and the computed additions equal the declared appliesToAdded. The concurrency instruction (union-merge with the ezekiel-woh diff, renumber if it lands first) is sound."
+        },
+        {
+          "glossary_id": "central-diff:gophrit-va-esh-destruction-formula",
+          "status": "approve",
+          "citations": [
+            "LXX Gen 19:24 (theion kai pyr)",
+            "BDAG s.v. theion",
+            "NRSV Rev 9:17-18; 21:8 ('sulfur')"
+          ],
+          "reasoning": "The base rationale already renders the Revelation 'lake of fire and sulfur' passages (14:10; 19:20; 20:10; 21:8) with 'sulfur'. Extending appliesTo to 9:17, 9:18 and 21:8, and adding G2303/G2306 to strongs, records an existing decision; it does not make a new one. Under the reviewer's proposed scope criterion this is a legitimate application to Greek, not background."
+        },
+        {
+          "glossary_id": "central-diff:paradise-by-negation-no-predation-no-illness-no-aging-cross-corpus",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "+REV-WOH-21:4; each negation rendered literally, as the entry prescribes."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "lensLeakageCheck": "Every English line was checked: all 146 lines, and specifically the 21 reception-note sites (7:3, 8:1, 8:7, 8:8, 8:10, 8:12, 9:1, 9:5, 9:9, 9:13, 9:18, 10:4, 10:7, 12:12, 13:18, 16:18, 16:20, 16:21, 21:1, 21:2, 21:3). A script found no Elohim, Yahweh, YHWH, craft, missile, atomic, nuclear, planet, Eternals, loudspeaker or similar lens vocabulary in any line. The only hits were 'ship(s)' (8:9 ploia; worship) and 'Israel' (substring 'rael'), both benign. Each Wheel of Heaven reading sits in its own headed paragraph labelled 'reception note, not a translation claim'. Each was verified against LWTE ch. 2 (LWTE-2:155-228), FR and EN. No line resolves an ambiguity in the canon's direction: the visionary hōs/homoios markers are kept (8:8; 9:7-10), 'the number of a man' stays open (13:18), 'breastplates' is used rather than the canon's French 'thorax' (9:9), 'pit of the abyss' is kept (9:1), and theos is 'God' where the canon's English has 'Yahweh'/'Elohim' (9:13; 21:2-4). Where the line and the canon's English diverge, the line follows the Greek critical text, and at 8:7 that text agrees with the canon's French.",
+      "escalationReportAdjustments": "Initial verdicts on all 146 verses, the 10 overlay entries touched and the 13 diff ops were formed from the chapters, the SBLGNT sources (including the sigla-bearing Rev.txt in the scratchpad), the overlay, the diff and the 2.80.0 base before opening wave-r2-editor-report.md. After reading the report, no verdict changed. The report's Founder point C lists the KJV-wording variants named in commentary (8:7, 9:13, 10:4, 21:2, 21:3 'his people ... their God', 21:4). It omits 21:3 'out of heaven', which confirms the reviewer's 21:3 revise. Its 9:13 request ('the Reviewer should verify this against the NA28 apparatus') was met as far as possible: the SBLGNT marker confirms a collated edition reads tessarōn, and the corrected attribution agrees with the reviewer's reading of Metzger. The printed NA28 apparatus was not available, so this is recorded as unverified at the sigla level, not as a defect. The report's 'All other lines are the Translator's draft, unchanged' was confirmed by diffing against the rev_r2 backup: only 16:3 and 16:9 differ.",
+      "founderDecisionRecommendations": {
+        "A-theion-sulfur": "Endorse. LXX theion = gophrit (Gen 19:24), BDAG 'sulfur', NRSV 'sulfur' at all four sites; the central entry already renders the Revelation lake passages 'sulfur'. The canon's English 'brimstone' (9:18) is recorded.",
+        "B-theos-God-not-Yahweh-Elohim": "Endorse firmly. theos does not render the Tetragrammaton, the canon's own French has 'Dieu', and chapters 1, 4, 6 are signed off with 'God'. Writing 'Yahweh' would translate the canon's English edition, not the Greek.",
+        "C-critical-text-over-KJV-wording": "Endorse. Complete the inventory: add 21:3 'out of heaven' (TR ek tou ouranou) and 16:18 (NA28 singular; TR order 'voices, thunders, lightnings'); correct 8:7 to say the omission is a TR reading, not the Byzantine majority's. Optionally name 16:3 zōsa and 21:4 hoti.",
+        "D-names-and-scope-rule": "Endorse, and support promotion to a central Greek-NT convention. Add the explicit criterion (apply where the central English is also a correct rendering of the Greek lexeme; background where it imports a Hebrew-specific form), which explains chayyot at 7:11 and gophrit for theion.",
+        "E-exousia": "Endorse. The context rule follows BDAG's sense division and RSV/NRSV practice; 16:9 'authority over' aligns with 6:8 and 13:7. Uniform 'authority' would read badly at 9:10, 19.",
+        "F-16:3-living-being": "Endorse. 'soul' for sea creatures imports a personal sense; 'living being' keeps the noun and the nep̄eš ḥayyâ echo.",
+        "G-doulos-servants": "Endorse. Keeps the signed-off 1:1/6:11 and the canon's English 'servants'; the French 'esclaves' is recorded.",
+        "H-pit-of-the-abyss": "Endorse. ASV structure; matches the canon's French 'le puits de l'abîme'.",
+        "I-Har-magedon": "Endorse. ASV form, follows the SBLGNT/NA28 rough breathing, keeps har visible without deciding the etymology.",
+        "J-12:18-versification": "Endorse. P47, Sinaiticus and Alexandrinus read estathē, and SBLGNT/NA28 number it 12:18 (Metzger on 12:18). The ASV 13:1a alignment is a tooling task (orchestrator follow-up 2), not a translation issue."
+      },
+      "summary": "27 verdicts: 26 approve, 1 revise (21:3 commentary: add the throne/heaven variant, ek tou thronou vs TR ek tou ouranou, quoted by the canon's English; the English line is approved)."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "REV-WOH-21:1",
+      "text": "Καὶ εἶδον οὐρανὸν καινὸν καὶ γῆν καινήν· ὁ γὰρ πρῶτος οὐρανὸς καὶ ἡ πρώτη γῆ ἀπῆλθαν, καὶ ἡ θάλασσα οὐκ ἔστιν ἔτι.",
+      "translit": "kai eidon ouranon kainon kai gēn kainēn· ho gar prōtos ouranos kai hē prōtē gē apēlthan, kai hē thalassa ouk estin eti.",
+      "i18n": {
+        "en": "And I saw a new heaven and a new earth; for the first heaven and the first earth had passed away, and the sea is no more."
+      },
+      "notes": {
+        "official": "*ouranon kainon kai gēn kainēn* 'a new heaven and a new earth': Isa 65:17; 66:22. *kainos* is new in kind as well as in time. *ho gar prōtos ouranos kai hē prōtē gē apēlthan* 'for the first heaven and the first earth had passed away': the aorist is rendered as an English pluperfect (cf. 20:11). *kai hē thalassa ouk estin eti* 'and the sea is no more': the sea is the origin of the beast (13:1) and an image of chaos (Isa 27:1; 57:20; Ps 74:13), and its absence is the first of the 'no more' sayings of vv 1-4.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *Let's Welcome the Extra-Terrestrials* (ch. 2) quotes this verse and reads it as what John saw from a craft leaving the Earth: the Earth seeming to recede, then a sky of stars unfamiliar to an inhabitant of Earth (a 'new heaven'), and the approach to another planet (a 'new earth'). The line renders *ouranos* 'heaven' and *gē* 'earth' and adds nothing.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 2,
+      "refId": "REV-WOH-21:2",
+      "text": "καὶ τὴν πόλιν τὴν ἁγίαν Ἰερουσαλὴμ καινὴν εἶδον καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ, ἡτοιμασμένην ὡς νύμφην κεκοσμημένην τῷ ἀνδρὶ αὐτῆς.",
+      "translit": "kai tēn polin tēn hagian ierousalēm kainēn eidon katabainousan ek tou ouranou apo tou theou, hētoimasmenēn hōs nymphēn kekosmēmenēn tō andri autēs.",
+      "i18n": {
+        "en": "And I saw the holy city, new Jerusalem, coming down out of heaven from God, prepared as a bride adorned for her husband."
+      },
+      "notes": {
+        "official": "*tēn polin tēn hagian Ierousalēm kainēn* 'the holy city, new Jerusalem' (3:12; Isa 52:1; Gal 4:26). *katabainousan ek tou ouranou apo tou theou* 'coming down out of heaven from God'. *hētoimasmenēn hōs nymphēn kekosmēmenēn tō andri autēs* 'prepared as a bride adorned for her husband': Isa 61:10; 62:5; cf. 19:7. The Textus Receptus adds *egō Iōannēs* (KJV 'And I John saw'); the SBLGNT and NA28 lack it, and the line follows them (`sblgnt-base-text-variant-reporting-convention-revelation`). *theos* is 'God' (`theos-god-rendering-against-canon-english-yahweh-revelation`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *Let's Welcome the Extra-Terrestrials* (ch. 2) quotes this verse. Its English edition reads 'And I John saw' (KJV) and 'from Yahweh', its French 'd'auprès de Dieu'. It reads the city 'coming down out of heaven' as the city towards which a spacecraft is about to land, as seen from the craft. The line translates the SBLGNT, renders *theos* 'God' and adds nothing.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sblgnt-base-text-variant-reporting-convention-revelation",
+        "theos-god-rendering-against-canon-english-yahweh-revelation",
+        "greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation"
+      ]
+    },
+    {
+      "n": 3,
+      "refId": "REV-WOH-21:3",
+      "text": "καὶ ἤκουσα φωνῆς μεγάλης ἐκ τοῦ θρόνου λεγούσης· Ἰδοὺ ἡ σκηνὴ τοῦ θεοῦ μετὰ τῶν ἀνθρώπων, καὶ σκηνώσει μετʼ αὐτῶν, καὶ αὐτοὶ λαοὶ αὐτοῦ ἔσονται, καὶ αὐτὸς ὁ θεὸς μετʼ αὐτῶν ἔσται,",
+      "translit": "kai ēkousa phōnēs megalēs ek tou thronou legousēs· idou hē skēnē tou theou meta tōn anthrōpōn, kai skēnōsei metʼ autōn, kai autoi laoi autou esontai, kai autos ho theos metʼ autōn estai,",
+      "i18n": {
+        "en": "And I heard a loud voice from the throne saying: \"Behold, the tabernacle of God is with mankind, and he will dwell with them, and they will be his peoples, and God himself will be with them,"
+      },
+      "notes": {
+        "official": "*Idou hē skēnē tou theou meta tōn anthrōpōn, kai skēnōsei met' autōn* 'Behold, the tabernacle of God is with mankind, and he will dwell with them': the covenant promise of Lev 26:11-12 ('I will set my tabernacle among you ... and you shall be my people'), Ezek 37:27 and Zech 2:10-11. *skēnē* 'tabernacle' and *skēnoō* 'dwell' (`skene-skenoo-tabernacle-dwell-rendering-revelation`); the Hebrew pair *miškān* / *šāḵan* (central `brit-shalom-mishkan`, `shakhan-dwell-divine-presence-verb-cross-corpus`) is background. Three variants: (1) *ek tou thronou* 'from the throne' (SBLGNT, NA28) against *ek tou ouranou* 'out of heaven' (Textus Receptus, KJV 'a great voice out of heaven'). (2) *laoi* 'peoples' (SBLGNT, NA28; Sinaiticus, Alexandrinus) against *laos* 'people' (Textus Receptus, KJV); the plural extends the covenant formula to the nations (cf. Zech 2:11, 'many nations ... shall be my people'). (3) NA28 adds *[autōn theos]* in brackets, giving 'and God himself will be with them [as their God]' (ASV 'and be their God'); the SBLGNT omits it. The line follows the SBLGNT (`sblgnt-base-text-variant-reporting-convention-revelation`). The speech runs to v 4.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *Let's Welcome the Extra-Terrestrials* (ch. 2) quotes vv 3-4. Its English edition reads 'a great voice out of heaven', 'the tabernacle of Yahweh', 'his people', 'and be their Elohim' and 'Yahweh shall wipe away'; its French reads 'l'abri de Dieu avec les hommes. Il s'abritera avec eux et eux seront ses peuples'. It reads the passage as the description of the planet of the Eternals, where those saved from the final cataclysm will live with the Elohim until they can be re-implanted on Earth. The line translates the SBLGNT, renders *theos* 'God' (`theos-god-rendering-against-canon-english-yahweh-revelation`) and adds nothing.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sblgnt-base-text-variant-reporting-convention-revelation",
+        "theos-god-rendering-against-canon-english-yahweh-revelation",
+        "skene-skenoo-tabernacle-dwell-rendering-revelation"
+      ]
+    },
+    {
+      "n": 4,
+      "refId": "REV-WOH-21:4",
+      "text": "καὶ ἐξαλείψει πᾶν δάκρυον ἐκ τῶν ὀφθαλμῶν αὐτῶν, καὶ ὁ θάνατος οὐκ ἔσται ἔτι· οὔτε πένθος οὔτε κραυγὴ οὔτε πόνος οὐκ ἔσται ἔτι. τὰ πρῶτα ἀπῆλθαν.",
+      "translit": "kai exaleipsei pan dakryon ek tōn ophthalmōn autōn, kai ho thanatos ouk estai eti· oute penthos oute kraugē oute ponos ouk estai eti. ta prōta apēlthan.",
+      "i18n": {
+        "en": "and he will wipe away every tear from their eyes, and death will be no more; neither mourning nor crying nor pain will be any more. The first things have passed away.\""
+      },
+      "notes": {
+        "official": "*exaleipsei pan dakryon ek tōn ophthalmōn autōn* 'he will wipe away every tear from their eyes': Isa 25:8, as at 7:17. The Textus Receptus supplies *ho theos* as subject (KJV 'God shall wipe away'); the SBLGNT and NA28 do not (`sblgnt-base-text-variant-reporting-convention-revelation`). *ho thanatos ouk estai eti; oute penthos oute kraugē oute ponos* 'death will be no more; neither mourning nor crying nor pain': each negation is rendered literally (central `paradise-by-negation-no-predation-no-illness-no-aging-cross-corpus`; cf. Isa 35:10; 65:19). *ta prōta apēlthan* 'The first things have passed away' (ASV; cf. Isa 43:18; 65:17); the Textus Receptus has *hoti* 'for' before *ta prōta* (KJV 'for the former things are passed away'); the canon's French has 'le premier univers'.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "paradise-by-negation-no-predation-no-illness-no-aging-cross-corpus",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "REV-WOH-21:5",
+      "text": "Καὶ εἶπεν ὁ καθήμενος ἐπὶ τῷ θρόνῳ· Ἰδοὺ καινὰ ποιῶ πάντα. καὶ λέγει· Γράψον, ὅτι οὗτοι οἱ λόγοι πιστοὶ καὶ ἀληθινοί εἰσιν.",
+      "translit": "kai eipen ho kathēmenos epi tō thronō· idou kaina poiō panta. kai legei· grapson, hoti houtoi hoi logoi pistoi kai alēthinoi eisin.",
+      "i18n": {
+        "en": "And the one seated on the throne said: \"Behold, I am making all things new.\" And he says: \"Write, for these words are faithful and true.\""
+      },
+      "notes": {
+        "official": "*ho kathēmenos epi tō thronō* 'the one seated on the throne': God speaks directly, for the first time since 1:8. *Idou kaina poiō panta* 'Behold, I am making all things new': Isa 43:19. *kai legei* 'And he says': the speaker may be the same or an angel (cf. 19:9), and the line leaves it open. *houtoi hoi logoi pistoi kai alēthinoi eisin* 'these words are faithful and true' (19:11; 22:6).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 6,
+      "refId": "REV-WOH-21:6",
+      "text": "καὶ εἶπέν μοι· Γέγοναν. ἐγὼ τὸ Ἄλφα καὶ τὸ Ὦ, ἡ ἀρχὴ καὶ τὸ τέλος. ἐγὼ τῷ διψῶντι δώσω ἐκ τῆς πηγῆς τοῦ ὕδατος τῆς ζωῆς δωρεάν.",
+      "translit": "kai eipen moi· gegonan. egō to alpha kai to ō, hē archē kai to telos. egō tō dipsōnti dōsō ek tēs pēgēs tou hydatos tēs zōēs dōrean.",
+      "i18n": {
+        "en": "And he said to me: \"They have come to pass. I am the Alpha and the Omega, the beginning and the end. To the one who is thirsty I will give from the spring of the water of life freely."
+      },
+      "notes": {
+        "official": "*Gegonan* 'They have come to pass' is a third person plural perfect with the Koine ending *-an* (SBLGNT, NA28): 'these words' of v 5 are fulfilled. The Textus Receptus reads *Gegone* 'It is done' (KJV), the form of 16:17. The line translates the SBLGNT, with the ASV (`sblgnt-base-text-variant-reporting-convention-revelation`). *egō to Alpha kai to Ō, hē archē kai to telos* 'I am the Alpha and the Omega, the beginning and the end' (1:8; 22:13). *ek tēs pēgēs tou hydatos tēs zōēs dōrean* 'from the spring of the water of life freely': Isa 55:1. The speech runs to v 8.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 7,
+      "refId": "REV-WOH-21:7",
+      "text": "ὁ νικῶν κληρονομήσει ταῦτα, καὶ ἔσομαι αὐτῷ θεὸς καὶ αὐτὸς ἔσται μοι υἱός.",
+      "translit": "ho nikōn klēronomēsei tauta, kai esomai autō theos kai autos estai moi huios.",
+      "i18n": {
+        "en": "The one who conquers will inherit these things, and I will be his God and he will be my son."
+      },
+      "notes": {
+        "official": "*ho nikōn* 'The one who conquers': the promise formula of the seven letters (2:7 etc.). *esomai autō theos kai autos estai moi huios* 'I will be his God and he will be my son': the Davidic promise of 2 Sam 7:14 ('I will be his father, and he shall be my son'), extended to every faithful one and combined with the covenant formula (Gen 17:7-8).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-against-canon-english-yahweh-revelation"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "REV-WOH-21:8",
+      "text": "τοῖς δὲ δειλοῖς καὶ ἀπίστοις καὶ ἐβδελυγμένοις καὶ φονεῦσι καὶ πόρνοις καὶ φαρμάκοις καὶ εἰδωλολάτραις καὶ πᾶσι τοῖς ψευδέσιν τὸ μέρος αὐτῶν ἐν τῇ λίμνῃ τῇ καιομένῃ πυρὶ καὶ θείῳ, ὅ ἐστιν ὁ θάνατος ὁ δεύτερος.",
+      "translit": "tois de deilois kai apistois kai ebdelygmenois kai phoneusi kai pornois kai pharmakois kai eidōlolatrais kai pasi tois pseudesin to meros autōn en tē limnē tē kaiomenē pyri kai theiō, ho estin ho thanatos ho deuteros.",
+      "i18n": {
+        "en": "But as for the cowardly and unbelieving and abominable and murderers and fornicators and sorcerers and idolaters and all liars, their portion will be in the lake that burns with fire and sulfur, which is the second death.\""
+      },
+      "notes": {
+        "official": "*tois de deilois kai apistois kai ebdelygmenois* 'But as for the cowardly and unbelieving and abominable': the reverse of 'the one who conquers' (v 7). *pornois* 'fornicators' (ASV; cf. 9:21), *pharmakois* 'sorcerers', *eidōlolatrais* 'idolaters'. *en tē limnē tē kaiomenē pyri kai theiō* 'in the lake that burns with fire and sulfur': the formula traced from Gen 19:24 through the Septuagint and Luke 17:29 in the central `gophrit-va-esh-destruction-formula`, which renders *theion* here 'sulfur' (KJV, ASV 'brimstone'). *ho thanatos ho deuteros* 'the second death' (2:11; 20:6, 14); the expression is also found in the Targums (e.g. Tg. Isa 65:6, 15).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "gophrit-va-esh-destruction-formula"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "REV-WOH-21:9",
+      "text": "Καὶ ἦλθεν εἷς ἐκ τῶν ἑπτὰ ἀγγέλων τῶν ἐχόντων τὰς ἑπτὰ φιάλας, τῶν γεμόντων τῶν ἑπτὰ πληγῶν τῶν ἐσχάτων, καὶ ἐλάλησεν μετʼ ἐμοῦ λέγων· Δεῦρο, δείξω σοι τὴν νύμφην τὴν γυναῖκα τοῦ ἀρνίου.",
+      "translit": "kai ēlthen heis ek tōn hepta angelōn tōn echontōn tas hepta phialas, tōn gemontōn tōn hepta plēgōn tōn eschatōn, kai elalēsen metʼ emou legōn· deuro, deixō soi tēn nymphēn tēn gynaika tou arniou.",
+      "i18n": {
+        "en": "And one of the seven angels who had the seven bowls full of the seven last plagues came and spoke with me, saying: \"Come, I will show you the bride, the wife of the Lamb.\""
+      },
+      "notes": {
+        "official": "One of the seven bowl angels speaks, with the same words that open the parallel vision of Babylon the harlot (17:1). *Deuro, deixō soi* 'Come, I will show you'. *tēn nymphēn tēn gynaika tou arniou* 'the bride, the wife of the Lamb' (19:7). *tōn gemontōn* 'full of' agrees with *phialas* 'bowls' by attraction to the genitive.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 10,
+      "refId": "REV-WOH-21:10",
+      "text": "καὶ ἀπήνεγκέν με ἐν πνεύματι ἐπὶ ὄρος μέγα καὶ ὑψηλόν, καὶ ἔδειξέν μοι τὴν πόλιν τὴν ἁγίαν Ἰερουσαλὴμ καταβαίνουσαν ἐκ τοῦ οὐρανοῦ ἀπὸ τοῦ θεοῦ,",
+      "translit": "kai apēnenken me en pneumati epi oros mega kai hypsēlon, kai edeixen moi tēn polin tēn hagian ierousalēm katabainousan ek tou ouranou apo tou theou,",
+      "i18n": {
+        "en": "And he carried me away in the Spirit to a great and high mountain, and showed me the holy city Jerusalem coming down out of heaven from God,"
+      },
+      "notes": {
+        "official": "*apēnenken me en pneumati* 'he carried me away in the Spirit' (1:10; 4:2; 17:3); 'Spirit' is capitalized as in chapters 1 and 4. *epi oros mega kai hypsēlon* 'to a great and high mountain': Ezek 40:2, where the prophet is set on 'a very high mountain' to see the new temple city. Ezek 40-48 is the model for vv 10-27.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-against-canon-english-yahweh-revelation",
+        "greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation"
+      ]
+    },
+    {
+      "n": 11,
+      "refId": "REV-WOH-21:11",
+      "text": "ἔχουσαν τὴν δόξαν τοῦ θεοῦ· ὁ φωστὴρ αὐτῆς ὅμοιος λίθῳ τιμιωτάτῳ, ὡς λίθῳ ἰάσπιδι κρυσταλλίζοντι·",
+      "translit": "echousan tēn doxan tou theou· ho phōstēr autēs homoios lithō timiōtatō, hōs lithō iaspidi krystallizonti·",
+      "i18n": {
+        "en": "having the glory of God; its radiance was like a most precious stone, like a jasper stone, clear as crystal;"
+      },
+      "notes": {
+        "official": "*echousan tēn doxan tou theou* 'having the glory of God': the glory returning to the temple (Ezek 43:2-5; Isa 60:1-2). *ho phōstēr autēs* 'its radiance' (literally 'its luminary'). *hōs lithō iaspidi krystallizonti* 'like a jasper stone, clear as crystal': ancient *iaspis* covered several stones, including translucent ones, and is the stone of the one on the throne at 4:3 (`foundation-stones-gem-names-rev-21-19-20`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-against-canon-english-yahweh-revelation",
+        "foundation-stones-gem-names-rev-21-19-20"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "REV-WOH-21:12",
+      "text": "ἔχουσα τεῖχος μέγα καὶ ὑψηλόν, ἔχουσα πυλῶνας δώδεκα, καὶ ἐπὶ τοῖς πυλῶσιν ἀγγέλους δώδεκα, καὶ ὀνόματα ἐπιγεγραμμένα ἅ ἐστιν τῶν δώδεκα φυλῶν υἱῶν Ἰσραήλ·",
+      "translit": "echousa teichos mega kai hypsēlon, echousa pylōnas dōdeka, kai epi tois pylōsin angelous dōdeka, kai onomata epigegrammena ha estin tōn dōdeka phylōn huiōn israēl·",
+      "i18n": {
+        "en": "having a great and high wall, having twelve gates, and at the gates twelve angels, and names inscribed, which are the names of the twelve tribes of the sons of Israel:"
+      },
+      "notes": {
+        "official": "*teichos mega kai hypsēlon* 'a great and high wall'. *pylōnas dōdeka* 'twelve gates' bearing the names of the twelve tribes: Ezek 48:30-35, where the city's gates are named after the tribes, three on each side. *tōn dōdeka phylōn huiōn Israēl* 'of the twelve tribes of the sons of Israel': standard English names (`greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation`); the central `shivtei-yisrael-shenim-asar-twelve-tribes-institutional-political-formula-cross-corpus` names this verse as a reception site and is background.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation"
+      ]
+    },
+    {
+      "n": 13,
+      "refId": "REV-WOH-21:13",
+      "text": "ἀπὸ ἀνατολῆς πυλῶνες τρεῖς, καὶ ἀπὸ βορρᾶ πυλῶνες τρεῖς, καὶ ἀπὸ νότου πυλῶνες τρεῖς, καὶ ἀπὸ δυσμῶν πυλῶνες τρεῖς·",
+      "translit": "apo anatolēs pylōnes treis, kai apo borra pylōnes treis, kai apo notou pylōnes treis, kai apo dysmōn pylōnes treis·",
+      "i18n": {
+        "en": "on the east three gates, and on the north three gates, and on the south three gates, and on the west three gates."
+      },
+      "notes": {
+        "official": "Three gates on each side, listed east, north, south, west. The order differs from Ezek 48:30-34 (north, east, south, west) and from the camp of Num 2. The twelve gates of heaven in 1 En 33-36 and 72-76 are a further comparison (background).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 14,
+      "refId": "REV-WOH-21:14",
+      "text": "καὶ τὸ τεῖχος τῆς πόλεως ἔχων θεμελίους δώδεκα, καὶ ἐπʼ αὐτῶν δώδεκα ὀνόματα τῶν δώδεκα ἀποστόλων τοῦ ἀρνίου.",
+      "translit": "kai to teichos tēs poleōs echōn themelious dōdeka, kai epʼ autōn dōdeka onomata tōn dōdeka apostolōn tou arniou.",
+      "i18n": {
+        "en": "And the wall of the city had twelve foundations, and on them twelve names of the twelve apostles of the Lamb."
+      },
+      "notes": {
+        "official": "*themelious dōdeka* 'twelve foundations' bearing 'the twelve names of the twelve apostles of the Lamb': the tribes on the gates and the apostles on the foundations together make up the one people of God (cf. the twenty-four elders of 4:4; Eph 2:20).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 15,
+      "refId": "REV-WOH-21:15",
+      "text": "Καὶ ὁ λαλῶν μετʼ ἐμοῦ εἶχεν μέτρον κάλαμον χρυσοῦν, ἵνα μετρήσῃ τὴν πόλιν καὶ τοὺς πυλῶνας αὐτῆς καὶ τὸ τεῖχος αὐτῆς.",
+      "translit": "kai ho lalōn metʼ emou eichen metron kalamon chrysoun, hina metrēsē tēn polin kai tous pylōnas autēs kai to teichos autēs.",
+      "i18n": {
+        "en": "And the one who spoke with me had a golden reed as a measure, to measure the city and its gates and its wall."
+      },
+      "notes": {
+        "official": "*metron kalamon chrysoun* 'a golden reed as a measure': the man with the measuring reed of Ezek 40:3, 5 who measures the temple; cf. Rev 11:1 and Zech 2:1-5.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 16,
+      "refId": "REV-WOH-21:16",
+      "text": "καὶ ἡ πόλις τετράγωνος κεῖται, καὶ τὸ μῆκος αὐτῆς ὅσον τὸ πλάτος. καὶ ἐμέτρησεν τὴν πόλιν τῷ καλάμῳ ἐπὶ σταδίους δώδεκα χιλιάδων· τὸ μῆκος καὶ τὸ πλάτος καὶ τὸ ὕψος αὐτῆς ἴσα ἐστίν.",
+      "translit": "kai hē polis tetragōnos keitai, kai to mēkos autēs hoson to platos. kai emetrēsen tēn polin tō kalamō epi stadious dōdeka chiliadōn· to mēkos kai to platos kai to hypsos autēs isa estin.",
+      "i18n": {
+        "en": "And the city lies foursquare, and its length is as great as its breadth. And he measured the city with the reed, twelve thousand furlongs; its length and breadth and height are equal."
+      },
+      "notes": {
+        "official": "*hē polis tetragōnos keitai* 'the city lies foursquare'; *to mēkos kai to platos kai to hypsos autēs isa estin* 'its length and breadth and height are equal': a cube, like the inner sanctuary of Solomon's temple, twenty cubits each way (1 Kgs 6:20), so that the whole city is the holy of holies. *epi stadious dōdeka chiliadōn* 'twelve thousand furlongs': a *stadion* is about 185 m, so the figure is about 2,200 km. 'Furlong' (ASV, KJV) is the traditional English equivalent. The ancient unit is kept because the number is symbolic (12 × 1,000, after the tribal twelve), and a modern conversion would hide it.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 17,
+      "refId": "REV-WOH-21:17",
+      "text": "καὶ ἐμέτρησεν τὸ τεῖχος αὐτῆς ἑκατὸν τεσσεράκοντα τεσσάρων πηχῶν, μέτρον ἀνθρώπου, ὅ ἐστιν ἀγγέλου.",
+      "translit": "kai emetrēsen to teichos autēs hekaton tesserakonta tessarōn pēchōn, metron anthrōpou, ho estin angelou.",
+      "i18n": {
+        "en": "And he measured its wall, a hundred and forty-four cubits, by the measure of a man, that is, of an angel."
+      },
+      "notes": {
+        "official": "*hekaton tesserakonta tessarōn pēchōn* 'a hundred and forty-four cubits' is 12 × 12, about 65 m, presumably the wall's thickness or height. *metron anthrōpou, ho estin angelou* 'by the measure of a man, that is, of an angel': the angel uses the ordinary human cubit. The literal ASV wording is kept (RSV 'by a man's measure, that is, an angel's'; NRSV 'by human measurement, which the angel was using'); cf. 13:18 *arithmos anthrōpou* 'the number of a man'.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 18,
+      "refId": "REV-WOH-21:18",
+      "text": "καὶ ἡ ἐνδώμησις τοῦ τείχους αὐτῆς ἴασπις, καὶ ἡ πόλις χρυσίον καθαρὸν ὅμοιον ὑάλῳ καθαρῷ·",
+      "translit": "kai hē endōmēsis tou teichous autēs iaspis, kai hē polis chrysion katharon homoion hyalō katharō·",
+      "i18n": {
+        "en": "And the building material of its wall was jasper, and the city was pure gold, like pure glass."
+      },
+      "notes": {
+        "official": "*hē endōmēsis tou teichous autēs* 'the building material of its wall' (ASV 'the building of the wall'): *endōmēsis* is a rare word for a structure or what it is built of (BDAG). *chrysion katharon homoion hyalō katharō* 'pure gold, like pure glass'. For *iaspis* 'jasper' see v 11 (`foundation-stones-gem-names-rev-21-19-20`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "foundation-stones-gem-names-rev-21-19-20"
+      ]
+    },
+    {
+      "n": 19,
+      "refId": "REV-WOH-21:19",
+      "text": "οἱ θεμέλιοι τοῦ τείχους τῆς πόλεως παντὶ λίθῳ τιμίῳ κεκοσμημένοι· ὁ θεμέλιος ὁ πρῶτος ἴασπις, ὁ δεύτερος σάπφιρος, ὁ τρίτος χαλκηδών, ὁ τέταρτος σμάραγδος,",
+      "translit": "hoi themelioi tou teichous tēs poleōs panti lithō timiō kekosmēmenoi· ho themelios ho prōtos iaspis, ho deuteros sapphiros, ho tritos chalkēdōn, ho tetartos smaragdos,",
+      "i18n": {
+        "en": "The foundations of the wall of the city were adorned with every kind of precious stone: the first foundation was jasper, the second sapphire, the third chalcedony, the fourth emerald,"
+      },
+      "notes": {
+        "official": "*hoi themelioi ... panti lithō timiō kekosmēmenoi* 'adorned with every kind of precious stone': Isa 54:11-12 ('I will lay your foundations with sapphires'); cf. Tob 13:16-17. The twelve stones of vv 19-20 recall the twelve stones of the high priest's breastpiece, each engraved with the name of a tribe (Ex 28:17-20; 39:10-13), eight of which recur in the Septuagint list. Several identifications are uncertain: *sappheiros* in antiquity was most likely lapis lazuli (Pliny, *NH* 37.120), and *smaragdos* is a green stone, emerald or another. The line keeps the ASV names except at *sardion* (`foundation-stones-gem-names-rev-21-19-20`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "foundation-stones-gem-names-rev-21-19-20"
+      ]
+    },
+    {
+      "n": 20,
+      "refId": "REV-WOH-21:20",
+      "text": "ὁ πέμπτος σαρδόνυξ, ὁ ἕκτος σάρδιον, ὁ ἕβδομος χρυσόλιθος, ὁ ὄγδοος βήρυλλος, ὁ ἔνατος τοπάζιον, ὁ δέκατος χρυσόπρασος, ὁ ἑνδέκατος ὑάκινθος, ὁ δωδέκατος ἀμέθυστος·",
+      "translit": "ho pemptos sardonyx, ho hektos sardion, ho hebdomos chrysolithos, ho ogdoos bēryllos, ho enatos topazion, ho dekatos chrysoprasos, ho hendekatos hyakinthos, ho dōdekatos amethystos·",
+      "i18n": {
+        "en": "the fifth sardonyx, the sixth carnelian, the seventh chrysolite, the eighth beryl, the ninth topaz, the tenth chrysoprase, the eleventh jacinth, the twelfth amethyst."
+      },
+      "notes": {
+        "official": "*sardion* 'carnelian' (ASV 'sardius'), as at 4:3; *sardonyx* 'sardonyx'; *chrysolithos* 'chrysolite', a yellow stone; *bēryllos* 'beryl'; *topazion* 'topaz', in antiquity perhaps peridot; *chrysoprasos* 'chrysoprase'; *hyakinthos* 'jacinth', a blue stone (cf. 9:17); *amethystos* 'amethyst' (BDAG s.vv.). The names follow the ASV with the precedent of 4:3 (`foundation-stones-gem-names-rev-21-19-20`). R. H. Charles (ICC, 1920) proposed that the list reverses the order of the stones assigned to the signs of the zodiac; the proposal is disputed (Aune, WBC 52C).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "foundation-stones-gem-names-rev-21-19-20"
+      ]
+    },
+    {
+      "n": 21,
+      "refId": "REV-WOH-21:21",
+      "text": "καὶ οἱ δώδεκα πυλῶνες δώδεκα μαργαρῖται, ἀνὰ εἷς ἕκαστος τῶν πυλώνων ἦν ἐξ ἑνὸς μαργαρίτου· καὶ ἡ πλατεῖα τῆς πόλεως χρυσίον καθαρὸν ὡς ὕαλος διαυγής.",
+      "translit": "kai hoi dōdeka pylōnes dōdeka margaritai, ana heis hekastos tōn pylōnōn ēn ex henos margaritou· kai hē plateia tēs poleōs chrysion katharon hōs hyalos diaugēs.",
+      "i18n": {
+        "en": "And the twelve gates were twelve pearls, each one of the gates made of a single pearl; and the street of the city was pure gold, like transparent glass."
+      },
+      "notes": {
+        "official": "*dōdeka margaritai* 'twelve pearls'; *ana heis hekastos tōn pylōnōn* 'each one of the gates' (distributive *ana*). A later rabbinic tradition, on Isa 54:12, speaks of gates of Jerusalem cut from huge pearls and gems (b. B. Bat. 75a). *hē plateia tēs poleōs* 'the street of the city' (collective, or the main square). *hōs hyalos diaugēs* 'like transparent glass'.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 22,
+      "refId": "REV-WOH-21:22",
+      "text": "Καὶ ναὸν οὐκ εἶδον ἐν αὐτῇ, ὁ γὰρ κύριος, ὁ θεός, ὁ παντοκράτωρ, ναὸς αὐτῆς ἐστιν, καὶ τὸ ἀρνίον.",
+      "translit": "kai naon ouk eidon en autē, ho gar kyrios, ho theos, ho pantokratōr, naos autēs estin, kai to arnion.",
+      "i18n": {
+        "en": "And I saw no temple in it, for its temple is the Lord God the Almighty, and the Lamb."
+      },
+      "notes": {
+        "official": "*naon ouk eidon en autē* 'I saw no temple in it': unlike the city of Ezek 40-48, this city has no temple, because God and the Lamb are its temple. *kyrios ho theos ho pantokratōr* 'the Lord God the Almighty' (4:8). The central `palace-temple-building-typology-cross-corpus-ugaritic-mesopotamian-hebrew-bible` names this verse (background).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-against-canon-english-yahweh-revelation"
+      ]
+    },
+    {
+      "n": 23,
+      "refId": "REV-WOH-21:23",
+      "text": "καὶ ἡ πόλις οὐ χρείαν ἔχει τοῦ ἡλίου οὐδὲ τῆς σελήνης, ἵνα φαίνωσιν αὐτῇ, ἡ γὰρ δόξα τοῦ θεοῦ ἐφώτισεν αὐτήν, καὶ ὁ λύχνος αὐτῆς τὸ ἀρνίον.",
+      "translit": "kai hē polis ou chreian echei tou hēliou oude tēs selēnēs, hina phainōsin autē, hē gar doxa tou theou ephōtisen autēn, kai ho lychnos autēs to arnion.",
+      "i18n": {
+        "en": "And the city has no need of the sun or of the moon to shine on it, for the glory of God gave it light, and its lamp is the Lamb."
+      },
+      "notes": {
+        "official": "*ou chreian echei tou hēliou oude tēs selēnēs* 'has no need of the sun or of the moon': Isa 60:19-20 ('the sun shall be no more your light by day ... YHWH will be your everlasting light'). *ephōtisen* 'gave it light'; *ho lychnos autēs to arnion* 'its lamp is the Lamb'.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-against-canon-english-yahweh-revelation"
+      ]
+    },
+    {
+      "n": 24,
+      "refId": "REV-WOH-21:24",
+      "text": "καὶ περιπατήσουσιν τὰ ἔθνη διὰ τοῦ φωτὸς αὐτῆς· καὶ οἱ βασιλεῖς τῆς γῆς φέρουσιν τὴν δόξαν αὐτῶν εἰς αὐτήν·",
+      "translit": "kai peripatēsousin ta ethnē dia tou phōtos autēs· kai hoi basileis tēs gēs pherousin tēn doxan autōn eis autēn·",
+      "i18n": {
+        "en": "And the nations will walk by its light, and the kings of the earth bring their glory into it;"
+      },
+      "notes": {
+        "official": "*peripatēsousin ta ethnē dia tou phōtos autēs* 'the nations will walk by its light' and *hoi basileis tēs gēs pherousin tēn doxan autōn eis autēn* 'the kings of the earth bring their glory into it': Isa 60:3, 5, 11. The Textus Receptus reads 'the nations of them which are saved' (*tōn sōzomenōn*) and 'their glory and honour' (KJV); the SBLGNT and NA28 lack both additions, and the line follows them (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 25,
+      "refId": "REV-WOH-21:25",
+      "text": "καὶ οἱ πυλῶνες αὐτῆς οὐ μὴ κλεισθῶσιν ἡμέρας, νὺξ γὰρ οὐκ ἔσται ἐκεῖ,",
+      "translit": "kai hoi pylōnes autēs ou mē kleisthōsin hēmeras, nyx gar ouk estai ekei,",
+      "i18n": {
+        "en": "and its gates will never be shut by day, for there will be no night there;"
+      },
+      "notes": {
+        "official": "*hoi pylōnes autēs ou mē kleisthōsin hēmeras* 'its gates will never be shut by day': Isa 60:11 ('your gates shall be open continually; they shall not be shut day nor night'). *nyx gar ouk estai ekei* 'for there will be no night there' (22:5).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 26,
+      "refId": "REV-WOH-21:26",
+      "text": "καὶ οἴσουσιν τὴν δόξαν καὶ τὴν τιμὴν τῶν ἐθνῶν εἰς αὐτήν.",
+      "translit": "kai oisousin tēn doxan kai tēn timēn tōn ethnōn eis autēn.",
+      "i18n": {
+        "en": "and they will bring the glory and the honor of the nations into it."
+      },
+      "notes": {
+        "official": "*oisousin* 'they will bring' has an indefinite subject; Isa 60:5, 11.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 27,
+      "refId": "REV-WOH-21:27",
+      "text": "καὶ οὐ μὴ εἰσέλθῃ εἰς αὐτὴν πᾶν κοινὸν καὶ ποιῶν βδέλυγμα καὶ ψεῦδος, εἰ μὴ οἱ γεγραμμένοι ἐν τῷ βιβλίῳ τῆς ζωῆς τοῦ ἀρνίου.",
+      "translit": "kai ou mē eiselthē eis autēn pan koinon kai poiōn bdelygma kai pseudos, ei mē hoi gegrammenoi en tō bibliō tēs zōēs tou arniou.",
+      "i18n": {
+        "en": "And nothing unclean will ever enter it, nor anyone who practices abomination and falsehood, but only those who are written in the book of life of the Lamb."
+      },
+      "notes": {
+        "official": "*ou mē eiselthē eis autēn pan koinon* 'nothing unclean will ever enter it': Isa 52:1 ('there shall no more come into you the uncircumcised and the unclean'). *koinos* is 'common, profane'. *ho poiōn bdelygma kai pseudos* 'anyone who practices abomination and falsehood' (22:15). *ei mē hoi gegrammenoi en tō bibliō tēs zōēs tou arniou* 'but only those who are written in the book of life of the Lamb' (13:8; 20:12, 15).",
+        "community": []
+      },
+      "glossaryRefs": []
+    }
+  ],
+  "editorial_questions": []
+}

@@ -1,0 +1,1092 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "MAT-WOH",
+  "bookSlug": "matthew-woh",
+  "n": 23,
+  "title": "Matthew 23 — Against the scribes and Pharisees: one teacher, one Father, the woes, and the lament over Jerusalem",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Koine Greek New Testament — SBL Greek New Testament (SBLGNT), ed. Michael W. Holmes (2010); critical text with Codex Vaticanus (B/03) and Codex Sinaiticus (א/01) as principal witnesses",
+    "sourceLicense": "CC BY 4.0 (SBLGNT, Society of Biblical Literature and Logos Bible Software)",
+    "sourceUrl": "https://github.com/LogosBible/SBLGNT",
+    "sourceAccessedVia": "SBLGNT data/sblgnt/text/Matt.txt via source-grc-23.json (fetched 2026-11-01; variant sigla stripped); reference PD translation ASV 1901",
+    "verificationStatus": "editor pass complete 2026-11-01 (wave M2); glossaryVersion 2.81.0 is pending application of matthew-woh/wave-m2-central-diff.json (base 2.80.0; the orchestrator may renumber when sequencing the parallel Revelation and Ezekiel diffs); overlay 1.2.0 applied; pending Reviewer and founder sign-off",
+    "glossaryVersion": "2.83.0",
+    "overlayGlossaryVersion": "1.2.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-01T14:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-01T12:57:01Z",
+      "scope": "Matthew wave M2, chapter 23 (38 verses); overlay 1.2.0 entries applying to this chapter; central diff 2.80.0→2.81.0 ops touching this chapter.",
+      "method": "Each verse re-parsed from the SBLGNT Greek in source-grc-23.json (verified identical to the unstripped SBLGNT text with variant sigla). Every Byzantine/TR/KJV attribution was checked against the SBLGNT variant markers (WH/Treg/NIV/RP) and Metzger. Escalation report read only after initial verdicts.",
+      "verdicts": [
+        {
+          "refId": "MAT-WOH-23:1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (tote ho iēsous elalēsen tois ochlois kai tois mathētais autou): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:2",
+          "status": "approve",
+          "citations": [
+            "Davies and Allison, Matthew (ICC), vol. 3 (1997), ad loc."
+          ],
+          "reasoning": "Epi tēs Mōyseōs kathedras ekathisan: 'have sat down on the seat of Moses' (aorist rendered as perfect state). Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:3",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "panta oun hosa ean eipōsin hymin poiēsate kai tēreite ... legousin gar kai ou poiousin. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:4",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)",
+            "BDAG s.v. ἄνθρωπος 1"
+          ],
+          "reasoning": "phortia barea (SBLGNT, without kai dysbastakta; NA28 brackets; Byzantine/KJV include) correctly reported; 'on people's shoulders' generic. Reception note labelled."
+        },
+        {
+          "refId": "MAT-WOH-23:5",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. φυλακτήριον"
+          ],
+          "reasoning": "platynousi gar ta phylaktēria ... megalynousi ta kraspeda 'broaden ... lengthen'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:6",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (philousi de tēn prōtoklisian en tois deipnois kai tas prōtokathedrias en tais synagōgais): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:7",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "kaleisthai hypo tōn anthrōpōn: Rhabbi 'to be called Rabbi by people'; Byzantine doubling correctly reported."
+        },
+        {
+          "refId": "MAT-WOH-23:8",
+          "status": "approve",
+          "citations": [
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)",
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc."
+          ],
+          "reasoning": "heis gar estin hymōn ho didaskalos 'for one is your teacher'; Byzantine/KJV kathēgētēs reading reported. The canon's « maître » is handled in the labelled note."
+        },
+        {
+          "refId": "MAT-WOH-23:9",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "patera mē kalesēte hymōn epi tēs gēs: 'call no one on earth your father' renders the double-accusative sense. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:10",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. καθηγητής",
+            "B. W. Winter, TynBul 42 (1991) 152-157",
+            "Davies and Allison, Matthew (ICC), vol. 3 (1997), ad loc."
+          ],
+          "reasoning": "Disputed against ASV 'master': kathēgētēs 'instructor' (NRSV) keeps three distinct titles; the canon's « directeur » is reported, not adopted. Defensible."
+        },
+        {
+          "refId": "MAT-WOH-23:11",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ho de meizōn hymōn estai hymōn diakonos 'your servant'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:12",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (hostis de hypsōsei heauton tapeinōthēsetai, kai hostis tapeinōsei heauton hypsōthēsetai.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:13",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "Robinson-Pierpont (Byzantine) 23:14; KJV 23:14"
+          ],
+          "reasoning": "kleiete tēn basileian tōn ouranōn emprosthen tōn anthrōpōn 'shut ... in people's faces'. 23:14 handling verified: SBLGNT has no 23:14, so no paragraph; the Byzantine/KJV text is quoted in full in the commentary with the witness evidence (א B D L Θ omit; placement varies). This is the correct application of the critical-text baseline and the 6:13b precedent. The inconsistency with the stable 17:21 (a bracketed paragraph whose Greek is not SBLGNT text) is correctly flagged; see founder decision 3."
+        },
+        {
+          "refId": "MAT-WOH-23:15",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "periagete tēn thalassan kai tēn xēran ... huion geennēs diploteron hymōn. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:16",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a, ἱερόν",
+            "NRSV 23:16-17, 21, 35",
+            "Davies and Allison, Matthew (ICC), vol. 3 (1997), ad loc."
+          ],
+          "reasoning": "Disputed against ASV 'temple': en tō naō ... en tō chrysō tou naou 'sanctuary' marks naos vs hieron, as the NRSV does in this passage; opheilei 'is bound by his oath'. Defensible; colon convention applied."
+        },
+        {
+          "refId": "MAT-WOH-23:17",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a"
+          ],
+          "reasoning": "ho naos ho hagiasas ton chryson 'the sanctuary that has made the gold holy'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:18",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Hos an omosē en tō thysiastēriō ... opheilei. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:19",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "typhloi, ti gar meizon ... to thysiastērion to hagiazon to dōron. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:20",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (ho oun omosas en tō thysiastēriō omnyei en autō kai en pasi tois epanō autou·): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:21",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a"
+          ],
+          "reasoning": "en tō naō ... kai en tō katoikounti auton 'him who dwells in it'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:22",
+          "status": "approve",
+          "citations": [
+            "Isa 66:1"
+          ],
+          "reasoning": "en tō thronō tou theou kai en tō kathēmenō epanō autou. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:23",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πίστις 1a (cites Mt 23:23), κρίσις 4",
+            "Davies and Allison, Matthew (ICC), vol. 3 (1997), ad loc.",
+            "France, The Gospel of Matthew (NICNT 2007), ad loc.",
+            "NIV, ESV 23:23"
+          ],
+          "reasoning": "Disputed against ASV 'faith': tēn krisin kai to eleos kai tēn pistin 'justice and mercy and faithfulness'; BDAG places this verse under pistis = faithfulness/reliability and the Mic 6:8 echo is conduct. The change is lexical, not lens-driven. Defensible."
+        },
+        {
+          "refId": "MAT-WOH-23:24",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "hoi diylizontes ton kōnōpa tēn de kamēlon katapinontes. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:25",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἀκρασία"
+          ],
+          "reasoning": "gemousin ex harpagēs kai akrasias 'extortion and self-indulgence'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:26",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (pharisaie typhle, katharison prōton to entos tou potēriou kai tēs paropsidos, hina ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:27",
+          "status": "approve",
+          "citations": [
+            "Num 19:16"
+          ],
+          "reasoning": "taphois kekoniamenois ... osteōn nekrōn 'dead men's bones' (traditional; generic acceptable). Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:28",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "phainesthe tois anthrōpois dikaioi 'appear righteous to people'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:29",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (ouai hymin, grammateis kai pharisaioi hypokritai, hoti oikodomeite tous taphous tōn ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:30",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Ei ēmetha en tais hēmerais tōn paterōn hēmōn ... koinōnoi: exact; colon per convention."
+        },
+        {
+          "refId": "MAT-WOH-23:31",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (hōste martyreite heautois hoti huioi este tōn phoneusantōn tous prophētas.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:32",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai hymeis plērōsate to metron tōn paterōn hymōn.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:33",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Opheis, gennēmata echidnōn, pōs phygēte apo tēs kriseōs tēs geennēs. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:34",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "prophētas kai sophous kai grammateis 'prophets and wise men and scribes'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:35",
+          "status": "approve",
+          "citations": [
+            "2 Chr 24:20-22; Zech 1:1",
+            "Davies and Allison, Matthew (ICC), vol. 3 (1997), ad loc."
+          ],
+          "reasoning": "Zachariou huiou Barachiou ... metaxy tou naou kai tou thysiastēriou 'between the sanctuary and the altar' (ASV already 'sanctuary'); א* omission of the patronym correctly reported. Exact."
+        },
+        {
+          "refId": "MAT-WOH-23:36",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (amēn legō hymin, hēxei tauta panta epi tēn genean tautēn.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-23:37",
+          "status": "approve",
+          "citations": [
+            "Deut 32:11; Ps 91:4"
+          ],
+          "reasoning": "Ierousalēm Ierousalēm ... kai ouk ēthelēsate: Greek question rendered as exclamation, acceptable; exact otherwise."
+        },
+        {
+          "refId": "MAT-WOH-23:38",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)"
+          ],
+          "reasoning": "aphietai hymin ho oikos hymōn erēmos: SBLGNT/NA28 include erēmos; B L omission correctly reported."
+        },
+        {
+          "refId": "MAT-WOH-23:39",
+          "status": "approve",
+          "citations": [
+            "Ps 118:26"
+          ],
+          "reasoning": "heōs an eipēte: Eulogēmenos ho erchomenos en onomati kyriou. Exact; closes the discourse quotation."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+          "status": "revise",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994)",
+            "SBLGNT (Holmes 2010) variant markers",
+            "NA28 text at Mt 19:9 and 19:29",
+            "KJV Mt 4:10; 15:4"
+          ],
+          "reasoning": "claim_type direct is right and the decision (translate SBLGNT; record TR/Byzantine readings in commentary; no paragraph for 23:14) is sound and matches the Revelation ruling C. Accuracy fixes to the rationale: (1) 'agree with NA28 in all but a handful of bracketed words' is not accurate for this wave: SBLGNT also differs from NA28 outside brackets at 19:9 (SBLGNT prints the final clause kai ho apolelymenēn gamēsas moichatai, which NA28 omits) and 19:29 (SBLGNT ē gynaika, which NA28 omits); the verse notes already say so, so the entry should list them. (2) Adopt the Revelation reviewer's TR-vs-Byzantine discipline: where the SBLGNT apparatus shows no Robinson-Pierpont difference, a KJV reading is a TR (minority) reading, not 'the Byzantine text' (15:4 sou; 27:35 is already handled correctly); where RP differs but the KJV agrees with SBLGNT, say 'Byzantine majority, not TR/KJV' (4:10 opisō mou; 10:8 is already handled correctly). (3) The 17:21/23:14 inconsistency is correctly flagged; see founder decision 3."
+        },
+        {
+          "glossary_id": "raelian-canon-citation-reception-note-convention-matthew",
+          "status": "approve",
+          "citations": [
+            "matthew-canon-citations.md (TBWTT ch. 4, 5; ETTMTTP ch. 2; LWTE ch. 2, 3)",
+            "Kings wave precedent (1 Kgs 19:5, 11, 12)"
+          ],
+          "reasoning": "Direct is right for a presentation convention. Every one of the 26 reception notes was checked against the citation extract: quotations, chapter numbers and readings are accurate, and each sits in its own labelled paragraph. The two lexicon/canon coincidences (2:2, 9; 26:53) are disclosed as such and rest on BDAG and on versions that predate or are independent of the canon (NAB 1970; NASB)."
+        },
+        {
+          "glossary_id": "speech-introduction-colon-convention-matthew",
+          "status": "approve",
+          "citations": [
+            "published Mt 1:20, 13:24, 17:22 (colon precedent)"
+          ],
+          "reasoning": "Punctuation only; applied consistently in all 12 chapters (script check found no comma before a speech-verb quotation except the stated embedded-word exception at 9:5, 8:9, 23:7). Double quotes balance in every chapter. Harmonizing published 25 and 28 is a sensible later task."
+        },
+        {
+          "glossary_id": "anthropos-generic-people-convention-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄνθρωπος 1, ἀνήρ 1",
+            "NRSV preface (1989)",
+            "D. A. Carson, The Inclusive Language Debate (1998)"
+          ],
+          "reasoning": "Direct is right: the lexical distinction anthrōpos/anēr is standard and the rule follows the published Sermon chapters. Every application in the wave was checked (4:19; 8:27; 9:8; 10:17, 32-33; 15:9, 11, 18, 20; 19:6, 12, 26; 23:4-5, 7, 13, 28), with individuals (8:9; 9:9; 27:32, 57) and every anēr (14:21, 35; 15:38) kept as 'man/men'. Optional: add the anēr sites to appliesTo, since the wohChoice names them; 17:22 legacy inconsistency correctly flagged."
+        },
+        {
+          "glossary_id": "proper-names-and-realia-forms-matthew",
+          "status": "approve",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994) at 8:28, 10:3, 15:39, 27:16-17, 27:46, 27:56",
+            "BDAG s.vv. Καναναῖος, Βεελζεβούλ, Ναζωραῖος, ἀσσάριον"
+          ],
+          "reasoning": "Direct is right: names follow the SBLGNT form in standard English spelling; Cananaean/Canaanite, Thaddaeus/Lebbaeus, Magadan/Magdala, Jesus Barabbas and Joseph/Joses explanations are accurate (see the 8:28 witness fix)."
+        },
+        {
+          "glossary_id": "naos-sanctuary-hieron-temple-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a, ἱερόν",
+            "O. Michel, TDNT 4",
+            "Josephus, War 5.184-247",
+            "NRSV Mt 23:16-35"
+          ],
+          "reasoning": "Direct is right: the naos/hieron distinction is lexical and Matthew observes it. Two notes. (1) Factual: to my reading the ASV has 'sanctuary' at 27:5 as well as 23:35, so standardEnglish should say 'ASV except 23:35 and 27:5'; verify. (2) Cross-book: the Revelation wave renders ναός 'temple' (Revelation has no ἱερόν to contrast); that is defensible, but if this entry is promoted, scope it to books where both words occur (Gospels, Acts) and say why Revelation differs."
+        },
+        {
+          "glossary_id": "kathegetes-instructor-mt-23-10",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. καθηγητής",
+            "B. W. Winter, TynBul 42 (1991) 152-157"
+          ],
+          "reasoning": "Direct is right. Minor: 'master' is also used for οἰκοδεσπότης ('master of the house', 10:25), so 'master reserved for κύριος' should read 'master (alone) for κύριος'."
+        },
+        {
+          "glossary_id": "krisis-eleos-pistis-justice-mercy-faithfulness-mt-23-23",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πίστις 1a (cites Mt 23:23), κρίσις 4",
+            "NIV, ESV at Mt 23:23",
+            "Mic 6:8"
+          ],
+          "reasoning": "Direct is right: BDAG places this verse under 'faithfulness, reliability', and NIV/ESV render so."
+        }
+      ],
+      "centralDiffReview": [
+        {
+          "op": "version",
+          "from": "2.80.0",
+          "to": "2.81.0",
+          "status": "approve",
+          "reasoning": "Minor bump 2.80.0 to 2.81.0 is right for appliesTo-only changes; the union-merge sequencing note for the parallel Revelation/Ezekiel diffs is correct and necessary."
+        },
+        {
+          "op": "modify",
+          "id": "kingdom-of-heaven-basileia-tōn-ouranōn-mt-distinctive-cross-corpus-hebrew-malkhut-shamayim",
+          "status": "approve",
+          "reasoning": "Verified: base preserved; additions are every 'kingdom of the heavens' line in the wave; 19:24 'kingdom of God' correctly excluded."
+        },
+        {
+          "op": "modify",
+          "id": "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic",
+          "status": "approve",
+          "reasoning": "Verified: base preserved; additions are the titular sites (2:4; 23:10; 26:63, 68; 27:17, 22)."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "lensLeakageCheck": "Every English line of the chapter was read against the Greek. No line adds interpretive content, uses Raëlian-canon vocabulary (no Elohim, Yahweh, craft, creators, ray, planet, Eternals), or resolves an ambiguity in the canon's direction. Each Wheel of Heaven reading sits in its own paragraph headed 'reception note, not a translation claim'. The two lines that coincide with the canon's French were tested specifically: 2:2/2:9 'at its rising' (BDAG ἀνατολή 1 cites both verses; NAB 1970, NRSV, ESV) and 26:53 'put at my disposal' (BDAG παρίστημι 1a cites the verse; NASB identical wording). In both the lexical ground is real and independent of the canon, so neither is lens leakage.",
+      "escalationReportAdjustments": "Initial verdicts were formed from the Greek, the chapter JSON, the overlay and the central diff before the escalation report (wave-m2-editor-report.md) was opened. The report added no information that changes a verdict. It repeats the RSV attribution for 2:2/9 ('RSV, NRSV, NAB'), which this review corrects. Its ten founder-preference points are answered in founderDecisionRecommendations, and its follow-ups (17:21; 17:22; comma/colon in 25 and 28; the 6:13 'testing' wording in central) are endorsed as later-pass items.",
+      "founderDecisionRecommendations": {
+        "1-angelos-angel": "Endorse. ἄγγελος is the technical term for a heavenly envoy in first-century Jewish Greek (BDAG s.v. 2); published Mt 1, 13, 25, 28, Acts 12 and the Revelation wave all print 'angel', so the Greek NT is already harmonized in practice. Promote jointly with Revelation as a central Greek-NT convention; keep 'messenger of YHWH' for Hebrew malʾāḵ.",
+        "2-naos-sanctuary": "Endorse for Matthew. The naos/hieron distinction is lexical (BDAG; Josephus) and NRSV marks it in 23:16-35. 27:5 keeps Matthew's crux honestly (and, to my reading, restores the ASV's own 'sanctuary'). If promoted, scope it to books with both terms; Revelation's 'temple' for ναός is defensible because it has no ἱερόν.",
+        "3-23:14-no-paragraph": "Endorse. SBLGNT has no 23:14; the Byzantine text is quoted in full at 23:13 with witnesses, as the 6:13b precedent and the Revelation ruling C require. Recommend a later pass bring the stable 17:21 into line: its bracketed Greek is not SBLGNT text, so drop the paragraph and move the Byzantine wording into the 17:20 commentary.",
+        "4-colon-convention": "Endorse (punctuation only; applied without exception in the wave). Harmonize published 25 and 28 in a later pass.",
+        "5-magi": "Endorse. 'magi' is the standard scholarly rendering (BDAG; Brown; Powell) and NIV/NAB usage; 'wise men' is noted.",
+        "6-faithfulness-23:23": "Endorse. BDAG lists Mt 23:23 under πίστις 1a 'faithfulness, reliability'; NIV and ESV render so; the Mic 6:8 triad is conduct.",
+        "7-put-at-my-disposal-26:53": "Endorse. BDAG παρίστημι 1a cites this verse for 'put at someone's disposal', and the NASB prints exactly 'put at My disposal'; the ground is independent of the canon's French, and the coincidence is disclosed.",
+        "8-at-its-rising-2:2,9": "Endorse. BDAG ἀνατολή 1 cites both verses; NAB (1970, before TBWTT) and NRSV read 'at its rising', ESV 'when it rose'. Correct the RSV attribution (the RSV reads 'in the East').",
+        "9-defiles-a-person": "Endorse. The article with ἄνθρωπος is generic; the canon's own French « l'homme » is generic too, so the line follows the sense the canon intends rather than the English edition's 'the man'.",
+        "10-tempted-4:1": "Endorse. Agent-driven 'tempted'/'the tempter' is BDAG's and the versions' reading with the devil as agent, and agrees with published 6:13; the test reading (Gerhardsson; canon « mis à l'épreuve ») is properly in commentary. Optionally align the chapter 4 title ('The testing in the wilderness') with the line."
+      },
+      "summary": {
+        "approve": 38,
+        "revise": 0,
+        "flag-for-human": 0,
+        "statusSetTo": "reviewer-approved"
+      }
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "MAT-WOH-23:1",
+      "text": "Τότε ὁ Ἰησοῦς ἐλάλησεν τοῖς ὄχλοις καὶ τοῖς μαθηταῖς αὐτοῦ",
+      "translit": "tote ho iēsous elalēsen tois ochlois kai tois mathētais autou",
+      "i18n": {
+        "en": "Then Jesus spoke to the crowds and to his disciples,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 2,
+      "refId": "MAT-WOH-23:2",
+      "text": "λέγων· Ἐπὶ τῆς Μωϋσέως καθέδρας ἐκάθισαν οἱ γραμματεῖς καὶ οἱ Φαρισαῖοι.",
+      "translit": "legōn· epi tēs mōyseōs kathedras ekathisan hoi grammateis kai hoi pharisaioi.",
+      "i18n": {
+        "en": "saying: \"The scribes and the Pharisees have sat down on the seat of Moses."
+      },
+      "notes": {
+        "official": "*epi tēs Mōyseōs kathedras* 'on the seat of Moses': possibly a literal seat of honour in the synagogue (stone seats survive at Chorazin and Delos), or a figure for authoritative teaching of the Law.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 3,
+      "refId": "MAT-WOH-23:3",
+      "text": "πάντα οὖν ὅσα ἐὰν εἴπωσιν ὑμῖν ποιήσατε καὶ τηρεῖτε, κατὰ δὲ τὰ ἔργα αὐτῶν μὴ ποιεῖτε, λέγουσιν γὰρ καὶ οὐ ποιοῦσιν.",
+      "translit": "panta oun hosa ean eipōsin hymin poiēsate kai tēreite, kata de ta erga autōn mē poieite, legousin gar kai ou poiousin.",
+      "i18n": {
+        "en": "So do and keep whatever they tell you, but do not do according to their works; for they say, and do not do."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 4,
+      "refId": "MAT-WOH-23:4",
+      "text": "δεσμεύουσιν δὲ φορτία βαρέα καὶ ἐπιτιθέασιν ἐπὶ τοὺς ὤμους τῶν ἀνθρώπων, αὐτοὶ δὲ τῷ δακτύλῳ αὐτῶν οὐ θέλουσιν κινῆσαι αὐτά.",
+      "translit": "desmeuousin de phortia barea kai epititheasin epi tous ōmous tōn anthrōpōn, autoi de tō daktylō autōn ou thelousin kinēsai auta.",
+      "i18n": {
+        "en": "And they bind heavy burdens and lay them on people's shoulders, but they themselves are not willing to move them with their finger."
+      },
+      "notes": {
+        "official": "*phortia barea* 'heavy burdens' (SBLGNT). NA28 adds [*kai dysbastakta*] 'and hard to bear' in brackets, and the Byzantine text and the KJV include it ('heavy burdens and grievous to be borne'), probably from Luke 11:46 (`critical-text-baseline-and-byzantine-variant-recording-matthew`). *epi tous ōmous tōn anthrōpōn* 'on people's shoulders' (`anthropos-generic-people-convention-matthew`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 5) quotes 23:4-11 (« Ils lient de lourdes charges et les posent sur les épaules des hommes … vous n'avez qu'un maître et vous êtes tous frères … vous n'avez qu'un père, le céleste … vous n'avez qu'un directeur, le Christ … le plus grand d'entre vous sera votre serviteur ») against the honours and titles of the Church hierarchy ('my father, eminence, your holiness'). The canon's text has the shorter 'heavy burdens', as SBLGNT does. Its other wording differences are noted at 23:8 and 23:10, and the line follows the Greek throughout.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "anthropos-generic-people-convention-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "MAT-WOH-23:5",
+      "text": "πάντα δὲ τὰ ἔργα αὐτῶν ποιοῦσιν πρὸς τὸ θεαθῆναι τοῖς ἀνθρώποις· πλατύνουσι γὰρ τὰ φυλακτήρια αὐτῶν καὶ μεγαλύνουσι τὰ κράσπεδα,",
+      "translit": "panta de ta erga autōn poiousin pros to theathēnai tois anthrōpois· platynousi gar ta phylaktēria autōn kai megalynousi ta kraspeda,",
+      "i18n": {
+        "en": "And they do all their works to be seen by people; for they broaden their phylacteries and lengthen their fringes,"
+      },
+      "notes": {
+        "official": "*phylaktēria* 'phylacteries': the *təp̄illîn*, leather cases containing Torah passages worn on the arm and forehead (Deut 6:8). *ta kraspeda* 'their fringes', the tassels of 9:20 (Num 15:38-39). *pros to theathēnai tois anthrōpois* 'to be seen by people'.\n\nThis verse is quoted in the canon; see the reception note at 23:4.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "anthropos-generic-people-convention-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "MAT-WOH-23:6",
+      "text": "φιλοῦσι δὲ τὴν πρωτοκλισίαν ἐν τοῖς δείπνοις καὶ τὰς πρωτοκαθεδρίας ἐν ταῖς συναγωγαῖς",
+      "translit": "philousi de tēn prōtoklisian en tois deipnois kai tas prōtokathedrias en tais synagōgais",
+      "i18n": {
+        "en": "and they love the place of honor at the dinners and the chief seats in the synagogues"
+      },
+      "notes": {
+        "official": "*tēn prōtoklisian* 'the place of honor' at meals; *tas prōtokathedrias* 'the chief seats' in the synagogues.\n\nThis verse is quoted in the canon; see the reception note at 23:4.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 7,
+      "refId": "MAT-WOH-23:7",
+      "text": "καὶ τοὺς ἀσπασμοὺς ἐν ταῖς ἀγοραῖς καὶ καλεῖσθαι ὑπὸ τῶν ἀνθρώπων· Ῥαββί.",
+      "translit": "kai tous aspasmous en tais agorais kai kaleisthai hypo tōn anthrōpōn· rhabbi.",
+      "i18n": {
+        "en": "and the greetings in the marketplaces, and to be called 'Rabbi' by people."
+      },
+      "notes": {
+        "official": "*Rhabbi* 'Rabbi' once (critical text); the Byzantine text and the KJV double it ('Rabbi, Rabbi'). Quoted titles embedded in the sentence keep no colon (`speech-introduction-colon-convention-matthew`; `critical-text-baseline-and-byzantine-variant-recording-matthew`).\n\nThis verse is quoted in the canon; see the reception note at 23:4.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "anthropos-generic-people-convention-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "MAT-WOH-23:8",
+      "text": "ὑμεῖς δὲ μὴ κληθῆτε· Ῥαββί, εἷς γάρ ἐστιν ὑμῶν ὁ διδάσκαλος, πάντες δὲ ὑμεῖς ἀδελφοί ἐστε·",
+      "translit": "hymeis de mē klēthēte· rhabbi, heis gar estin hymōn ho didaskalos, pantes de hymeis adelphoi este·",
+      "i18n": {
+        "en": "But you, do not be called 'Rabbi'; for one is your teacher, and you are all brothers."
+      },
+      "notes": {
+        "official": "*heis gar estin hymōn ho didaskalos* 'for one is your teacher' (critical text). The Byzantine text and the KJV read *ho kathēgētēs, ho Christos* ('for one is your Master, even Christ'), importing the wording of 23:10 (`critical-text-baseline-and-byzantine-variant-recording-matthew`). *didaskalos* is 'teacher' throughout (`kathegetes-instructor-mt-23-10`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 5) quotes the verse as « vous n'avez qu'un maître et vous êtes tous frères » (EN 'you have but one master'). French *maître* covers 'teacher'; the line keeps 'teacher' for *didaskalos*. See the reception note at 23:4.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "kathegetes-instructor-mt-23-10",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "MAT-WOH-23:9",
+      "text": "καὶ πατέρα μὴ καλέσητε ὑμῶν ἐπὶ τῆς γῆς, εἷς γάρ ἐστιν ὑμῶν ὁ πατὴρ ὁ οὐράνιος·",
+      "translit": "kai patera mē kalesēte hymōn epi tēs gēs, heis gar estin hymōn ho patēr ho ouranios·",
+      "i18n": {
+        "en": "And call no one on earth your father; for one is your Father, the heavenly one."
+      },
+      "notes": {
+        "official": "*heis gar estin hymōn ho patēr ho ouranios* 'for one is your Father, the heavenly one': *ouranios* 'heavenly' is the adjective Matthew uses beside 'who is in the heavens' (5:48; 6:14, 26, 32; 15:13). See the reception note at 23:4.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "MAT-WOH-23:10",
+      "text": "μηδὲ κληθῆτε καθηγηταί, ὅτι καθηγητὴς ὑμῶν ἐστιν εἷς ὁ χριστός·",
+      "translit": "mēde klēthēte kathēgētai, hoti kathēgētēs hymōn estin heis ho christos·",
+      "i18n": {
+        "en": "Neither be called instructors; for one is your instructor, the Christ."
+      },
+      "notes": {
+        "official": "*kathēgētai … kathēgētēs* 'instructors … instructor': a NT hapax, the private teacher or tutor in contemporary papyri (B. W. Winter, Tyndale Bulletin 42 [1991] 152-157). The ASV and KJV render 'master', which in this passage would blur the title with *kyrios* 'lord, master' (cf. 10:24-25); 'teacher' renders *didaskalos* (23:8), and 'instructor' (NRSV) keeps the titles of 23:8-10 distinct (`kathegetes-instructor-mt-23-10`). *ho christos* 'the Christ' (`christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 5) quotes this verse as « Ne vous faites pas non plus appeler directeur car vous n'avez qu'un directeur, le Christ » (EN 'director'). 'Director' is a possible sense of the guide/leader word; the line keeps 'instructor', the papyrus sense. See the reception note at 23:4.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic",
+        "kathegetes-instructor-mt-23-10",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 11,
+      "refId": "MAT-WOH-23:11",
+      "text": "ὁ δὲ μείζων ὑμῶν ἔσται ὑμῶν διάκονος.",
+      "translit": "ho de meizōn hymōn estai hymōn diakonos.",
+      "i18n": {
+        "en": "But the greatest among you shall be your servant."
+      },
+      "notes": {
+        "official": "*ho de meizōn hymōn estai hymōn diakonos* 'But the greatest among you shall be your servant' (cf. 20:26-27). See the reception note at 23:4.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "MAT-WOH-23:12",
+      "text": "ὅστις δὲ ὑψώσει ἑαυτὸν ταπεινωθήσεται, καὶ ὅστις ταπεινώσει ἑαυτὸν ὑψωθήσεται.",
+      "translit": "hostis de hypsōsei heauton tapeinōthēsetai, kai hostis tapeinōsei heauton hypsōthēsetai.",
+      "i18n": {
+        "en": "And whoever will exalt himself will be humbled, and whoever will humble himself will be exalted."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 13,
+      "refId": "MAT-WOH-23:13",
+      "text": "Οὐαὶ δὲ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι ὑποκριταί, ὅτι κλείετε τὴν βασιλείαν τῶν οὐρανῶν ἔμπροσθεν τῶν ἀνθρώπων· ὑμεῖς γὰρ οὐκ εἰσέρχεσθε, οὐδὲ τοὺς εἰσερχομένους ἀφίετε εἰσελθεῖν.",
+      "translit": "ouai de hymin, grammateis kai pharisaioi hypokritai, hoti kleiete tēn basileian tōn ouranōn emprosthen tōn anthrōpōn· hymeis gar ouk eiserchesthe, oude tous eiserchomenous aphiete eiselthein.",
+      "i18n": {
+        "en": "But woe to you, scribes and Pharisees, hypocrites! For you shut the kingdom of the heavens in people's faces; for you do not enter yourselves, nor do you allow those who are entering to go in."
+      },
+      "notes": {
+        "official": "*kleiete tēn basileian tōn ouranōn emprosthen tōn anthrōpōn* 'you shut the kingdom of the heavens in people's faces' (`kingdom-of-heaven-basileia-tōn-ouranōn-mt-distinctive-cross-corpus-hebrew-malkhut-shamayim`; `anthropos-generic-people-convention-matthew`).\n\n**Verse 23:14 is absent from the critical text** and has no paragraph here; the numbering passes from 23:13 to 23:15. The Byzantine text and the KJV read: *Ouai hymin, grammateis kai Pharisaioi hypokritai, hoti katesthiete tas oikias tōn chērōn kai prophasei makra proseuchomenoi; dia touto lēmpsesthe perissoteron krima* ('Woe unto you, scribes and Pharisees, hypocrites! for ye devour widows' houses, and for a pretence make long prayer: therefore ye shall receive the greater damnation'). The verse is taken from Mark 12:40 and Luke 20:47. It is absent from Sinaiticus, Vaticanus, Bezae, L, Θ and early versions, and the Byzantine manuscripts that have it place it either before or after 23:13, a sign of interpolation (Metzger, Textual Commentary, ad loc.; `critical-text-baseline-and-byzantine-variant-recording-matthew`). The stable chapter 17 prints 17:21, likewise absent from the critical text, as a bracketed paragraph; that inconsistency is flagged for a later pass.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "kingdom-of-heaven-basileia-tōn-ouranōn-mt-distinctive-cross-corpus-hebrew-malkhut-shamayim",
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "anthropos-generic-people-convention-matthew"
+      ]
+    },
+    {
+      "n": 15,
+      "refId": "MAT-WOH-23:15",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι ὑποκριταί, ὅτι περιάγετε τὴν θάλασσαν καὶ τὴν ξηρὰν ποιῆσαι ἕνα προσήλυτον, καὶ ὅταν γένηται ποιεῖτε αὐτὸν υἱὸν γεέννης διπλότερον ὑμῶν.",
+      "translit": "ouai hymin, grammateis kai pharisaioi hypokritai, hoti periagete tēn thalassan kai tēn xēran poiēsai hena prosēlyton, kai hotan genētai poieite auton huion geennēs diploteron hymōn.",
+      "i18n": {
+        "en": "Woe to you, scribes and Pharisees, hypocrites! For you travel around sea and dry land to make a single proselyte, and when he becomes one, you make him a son of gehenna twice as much as yourselves."
+      },
+      "notes": {
+        "official": "*periagete tēn thalassan kai tēn xēran* 'you travel around sea and dry land'. *huion geennēs* 'a son of gehenna', a Semitic idiom for one destined to it (cf. 8:12; 9:15). In the KJV this woe follows the interpolated 23:14 (see 23:13).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 16,
+      "refId": "MAT-WOH-23:16",
+      "text": "Οὐαὶ ὑμῖν, ὁδηγοὶ τυφλοὶ οἱ λέγοντες· Ὃς ἂν ὀμόσῃ ἐν τῷ ναῷ, οὐδέν ἐστιν, ὃς δʼ ἂν ὀμόσῃ ἐν τῷ χρυσῷ τοῦ ναοῦ ὀφείλει.",
+      "translit": "ouai hymin, hodēgoi typhloi hoi legontes· hos an omosē en tō naō, ouden estin, hos dʼ an omosē en tō chrysō tou naou opheilei.",
+      "i18n": {
+        "en": "Woe to you, blind guides, who say: 'Whoever swears by the sanctuary, it is nothing; but whoever swears by the gold of the sanctuary is bound by his oath.'"
+      },
+      "notes": {
+        "official": "*hos an omosē en tō naō … en tō chrysō tou naou* 'Whoever swears by the sanctuary … by the gold of the sanctuary': *ho naos* is the sanctuary building, distinct from *to hieron*, the whole temple precinct (4:5; 26:55). The line marks the distinction consistently, with 'sanctuary' for *naos* (23:16, 17, 21, 35; 26:61; 27:5, 40, 51), as the NRSV does in this passage; the draft had 'temple' (`naos-sanctuary-hieron-temple-matthew`). *opheilei* 'is bound by his oath', literally 'owes'. The colon follows this wave's convention (`speech-introduction-colon-convention-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "naos-sanctuary-hieron-temple-matthew",
+        "speech-introduction-colon-convention-matthew"
+      ]
+    },
+    {
+      "n": 17,
+      "refId": "MAT-WOH-23:17",
+      "text": "μωροὶ καὶ τυφλοί, τίς γὰρ μείζων ἐστίν, ὁ χρυσὸς ἢ ὁ ναὸς ὁ ἁγιάσας τὸν χρυσόν;",
+      "translit": "mōroi kai typhloi, tis gar meizōn estin, ho chrysos ē ho naos ho hagiasas ton chryson;",
+      "i18n": {
+        "en": "Fools and blind! For which is greater, the gold, or the sanctuary that has made the gold holy?"
+      },
+      "notes": {
+        "official": "*ho naos ho hagiasas ton chryson* 'the sanctuary that has made the gold holy' (`naos-sanctuary-hieron-temple-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "naos-sanctuary-hieron-temple-matthew"
+      ]
+    },
+    {
+      "n": 18,
+      "refId": "MAT-WOH-23:18",
+      "text": "καί· Ὃς ἂν ὀμόσῃ ἐν τῷ θυσιαστηρίῳ, οὐδέν ἐστιν, ὃς δʼ ἂν ὀμόσῃ ἐν τῷ δώρῳ τῷ ἐπάνω αὐτοῦ ὀφείλει.",
+      "translit": "kai· hos an omosē en tō thysiastēriō, ouden estin, hos dʼ an omosē en tō dōrō tō epanō autou opheilei.",
+      "i18n": {
+        "en": "And, 'Whoever swears by the altar, it is nothing; but whoever swears by the gift that is upon it is bound by his oath.'"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 19,
+      "refId": "MAT-WOH-23:19",
+      "text": "τυφλοί, τί γὰρ μεῖζον, τὸ δῶρον ἢ τὸ θυσιαστήριον τὸ ἁγιάζον τὸ δῶρον;",
+      "translit": "typhloi, ti gar meizon, to dōron ē to thysiastērion to hagiazon to dōron;",
+      "i18n": {
+        "en": "Blind! For which is greater, the gift, or the altar that makes the gift holy?"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 20,
+      "refId": "MAT-WOH-23:20",
+      "text": "ὁ οὖν ὀμόσας ἐν τῷ θυσιαστηρίῳ ὀμνύει ἐν αὐτῷ καὶ ἐν πᾶσι τοῖς ἐπάνω αὐτοῦ·",
+      "translit": "ho oun omosas en tō thysiastēriō omnyei en autō kai en pasi tois epanō autou·",
+      "i18n": {
+        "en": "So the one who swears by the altar swears by it and by everything upon it;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 21,
+      "refId": "MAT-WOH-23:21",
+      "text": "καὶ ὁ ὀμόσας ἐν τῷ ναῷ ὀμνύει ἐν αὐτῷ καὶ ἐν τῷ κατοικοῦντι αὐτόν·",
+      "translit": "kai ho omosas en tō naō omnyei en autō kai en tō katoikounti auton·",
+      "i18n": {
+        "en": "and the one who swears by the sanctuary swears by it and by him who dwells in it;"
+      },
+      "notes": {
+        "official": "*en tō naō … kai en tō katoikounti auton* 'by the sanctuary … and by him who dwells in it': the sanctuary as God's dwelling (cf. 1 Kgs 8:13; Ps 135:21) (`naos-sanctuary-hieron-temple-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "naos-sanctuary-hieron-temple-matthew"
+      ]
+    },
+    {
+      "n": 22,
+      "refId": "MAT-WOH-23:22",
+      "text": "καὶ ὁ ὀμόσας ἐν τῷ οὐρανῷ ὀμνύει ἐν τῷ θρόνῳ τοῦ θεοῦ καὶ ἐν τῷ καθημένῳ ἐπάνω αὐτοῦ.",
+      "translit": "kai ho omosas en tō ouranō omnyei en tō thronō tou theou kai en tō kathēmenō epanō autou.",
+      "i18n": {
+        "en": "and the one who swears by heaven swears by the throne of God and by him who sits upon it."
+      },
+      "notes": {
+        "official": "'the one who swears by heaven swears by the throne of God': cf. the published 5:34 ('neither by heaven, for it is the throne of God') and Isa 66:1.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 23,
+      "refId": "MAT-WOH-23:23",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι ὑποκριταί, ὅτι ἀποδεκατοῦτε τὸ ἡδύοσμον καὶ τὸ ἄνηθον καὶ τὸ κύμινον, καὶ ἀφήκατε τὰ βαρύτερα τοῦ νόμου, τὴν κρίσιν καὶ τὸ ἔλεος καὶ τὴν πίστιν· ταῦτα ἔδει ποιῆσαι κἀκεῖνα μὴ ἀφιέναι.",
+      "translit": "ouai hymin, grammateis kai pharisaioi hypokritai, hoti apodekatoute to hēdyosmon kai to anēthon kai to kyminon, kai aphēkate ta barytera tou nomou, tēn krisin kai to eleos kai tēn pistin· tauta edei poiēsai kakeina mē aphienai.",
+      "i18n": {
+        "en": "Woe to you, scribes and Pharisees, hypocrites! For you tithe mint and dill and cumin, and have neglected the weightier matters of the Law: justice and mercy and faithfulness. These you ought to have done, without neglecting the others."
+      },
+      "notes": {
+        "official": "*tēn krisin kai to eleos kai tēn pistin* 'justice and mercy and faithfulness'. The triad echoes Mic 6:8, where all three items are conduct. *krisis* here is *mišpāṭ* 'justice' (BDAG s.v. 4), and BDAG lists this verse under *pistis* in the sense 'faithfulness, reliability' (s.v. 1a). 'Faith' (ASV, KJV, RSV) would be read as belief; the line follows the NIV and ESV with 'faithfulness' (`krisis-eleos-pistis-justice-mercy-faithfulness-mt-23-23`). Mint, dill and cumin are garden herbs whose tithing the Pharisees extended beyond the produce named in the Law (Deut 14:22-23).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "krisis-eleos-pistis-justice-mercy-faithfulness-mt-23-23"
+      ]
+    },
+    {
+      "n": 24,
+      "refId": "MAT-WOH-23:24",
+      "text": "ὁδηγοὶ τυφλοί, οἱ διϋλίζοντες τὸν κώνωπα τὴν δὲ κάμηλον καταπίνοντες.",
+      "translit": "hodēgoi typhloi, hoi diylizontes ton kōnōpa tēn de kamēlon katapinontes.",
+      "i18n": {
+        "en": "Blind guides, who strain out the gnat and swallow the camel!"
+      },
+      "notes": {
+        "official": "'who strain out the gnat and swallow the camel': an Aramaic wordplay has been suggested between *qalmāʾ* 'gnat' and *gamlāʾ* 'camel'.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 25,
+      "refId": "MAT-WOH-23:25",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι ὑποκριταί, ὅτι καθαρίζετε τὸ ἔξωθεν τοῦ ποτηρίου καὶ τῆς παροψίδος, ἔσωθεν δὲ γέμουσιν ἐξ ἁρπαγῆς καὶ ἀκρασίας.",
+      "translit": "ouai hymin, grammateis kai pharisaioi hypokritai, hoti katharizete to exōthen tou potēriou kai tēs paropsidos, esōthen de gemousin ex harpagēs kai akrasias.",
+      "i18n": {
+        "en": "Woe to you, scribes and Pharisees, hypocrites! For you clean the outside of the cup and of the dish, but inside they are full of extortion and self-indulgence."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 26,
+      "refId": "MAT-WOH-23:26",
+      "text": "Φαρισαῖε τυφλέ, καθάρισον πρῶτον τὸ ἐντὸς τοῦ ποτηρίου καὶ τῆς παροψίδος, ἵνα γένηται καὶ τὸ ἐκτὸς αὐτοῦ καθαρόν.",
+      "translit": "pharisaie typhle, katharison prōton to entos tou potēriou kai tēs paropsidos, hina genētai kai to ektos autou katharon.",
+      "i18n": {
+        "en": "Blind Pharisee! First clean the inside of the cup and of the dish, so that the outside of it may also become clean."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 27,
+      "refId": "MAT-WOH-23:27",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι ὑποκριταί, ὅτι παρομοιάζετε τάφοις κεκονιαμένοις, οἵτινες ἔξωθεν μὲν φαίνονται ὡραῖοι ἔσωθεν δὲ γέμουσιν ὀστέων νεκρῶν καὶ πάσης ἀκαθαρσίας·",
+      "translit": "ouai hymin, grammateis kai pharisaioi hypokritai, hoti paromoiazete taphois kekoniamenois, hoitines exōthen men phainontai hōraioi esōthen de gemousin osteōn nekrōn kai pasēs akatharsias·",
+      "i18n": {
+        "en": "Woe to you, scribes and Pharisees, hypocrites! For you are like whitewashed tombs, which outwardly appear beautiful, but inwardly are full of dead men's bones and of all uncleanness."
+      },
+      "notes": {
+        "official": "*taphois kekoniamenois* 'whitewashed tombs': graves were whitewashed so that passers-by would avoid the corpse impurity of Num 19:16.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 28,
+      "refId": "MAT-WOH-23:28",
+      "text": "οὕτως καὶ ὑμεῖς ἔξωθεν μὲν φαίνεσθε τοῖς ἀνθρώποις δίκαιοι, ἔσωθεν δέ ἐστε μεστοὶ ὑποκρίσεως καὶ ἀνομίας.",
+      "translit": "houtōs kai hymeis exōthen men phainesthe tois anthrōpois dikaioi, esōthen de este mestoi hypokriseōs kai anomias.",
+      "i18n": {
+        "en": "So you also outwardly appear righteous to people, but inwardly you are full of hypocrisy and lawlessness."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "anthropos-generic-people-convention-matthew"
+      ]
+    },
+    {
+      "n": 29,
+      "refId": "MAT-WOH-23:29",
+      "text": "Οὐαὶ ὑμῖν, γραμματεῖς καὶ Φαρισαῖοι ὑποκριταί, ὅτι οἰκοδομεῖτε τοὺς τάφους τῶν προφητῶν καὶ κοσμεῖτε τὰ μνημεῖα τῶν δικαίων,",
+      "translit": "ouai hymin, grammateis kai pharisaioi hypokritai, hoti oikodomeite tous taphous tōn prophētōn kai kosmeite ta mnēmeia tōn dikaiōn,",
+      "i18n": {
+        "en": "Woe to you, scribes and Pharisees, hypocrites! For you build the tombs of the prophets and adorn the monuments of the righteous,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 30,
+      "refId": "MAT-WOH-23:30",
+      "text": "καὶ λέγετε· Εἰ ἤμεθα ἐν ταῖς ἡμέραις τῶν πατέρων ἡμῶν, οὐκ ἂν ἤμεθα αὐτῶν κοινωνοὶ ἐν τῷ αἵματι τῶν προφητῶν·",
+      "translit": "kai legete· ei ēmetha en tais hēmerais tōn paterōn hēmōn, ouk an ēmetha autōn koinōnoi en tō haimati tōn prophētōn·",
+      "i18n": {
+        "en": "and you say: 'If we had been in the days of our fathers, we would not have been partners with them in the blood of the prophets.'"
+      },
+      "notes": {
+        "official": "The colon follows this wave's convention (`speech-introduction-colon-convention-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "speech-introduction-colon-convention-matthew"
+      ]
+    },
+    {
+      "n": 31,
+      "refId": "MAT-WOH-23:31",
+      "text": "ὥστε μαρτυρεῖτε ἑαυτοῖς ὅτι υἱοί ἐστε τῶν φονευσάντων τοὺς προφήτας.",
+      "translit": "hōste martyreite heautois hoti huioi este tōn phoneusantōn tous prophētas.",
+      "i18n": {
+        "en": "So you testify against yourselves that you are sons of those who murdered the prophets."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 32,
+      "refId": "MAT-WOH-23:32",
+      "text": "καὶ ὑμεῖς πληρώσατε τὸ μέτρον τῶν πατέρων ὑμῶν.",
+      "translit": "kai hymeis plērōsate to metron tōn paterōn hymōn.",
+      "i18n": {
+        "en": "Fill up, then, the measure of your fathers."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 33,
+      "refId": "MAT-WOH-23:33",
+      "text": "ὄφεις γεννήματα ἐχιδνῶν, πῶς φύγητε ἀπὸ τῆς κρίσεως τῆς γεέννης;",
+      "translit": "opheis gennēmata echidnōn, pōs phygēte apo tēs kriseōs tēs geennēs;",
+      "i18n": {
+        "en": "Serpents, offspring of vipers, how are you to escape the judgment of gehenna?"
+      },
+      "notes": {
+        "official": "*Opheis, gennēmata echidnōn* 'Serpents, offspring of vipers', John's words at 3:7. *tēs kriseōs tēs geennēs* 'the judgment of gehenna'.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 34,
+      "refId": "MAT-WOH-23:34",
+      "text": "διὰ τοῦτο ἰδοὺ ἐγὼ ἀποστέλλω πρὸς ὑμᾶς προφήτας καὶ σοφοὺς καὶ γραμματεῖς· ἐξ αὐτῶν ἀποκτενεῖτε καὶ σταυρώσετε, καὶ ἐξ αὐτῶν μαστιγώσετε ἐν ταῖς συναγωγαῖς ὑμῶν καὶ διώξετε ἀπὸ πόλεως εἰς πόλιν·",
+      "translit": "dia touto idou egō apostellō pros hymas prophētas kai sophous kai grammateis· ex autōn apokteneite kai staurōsete, kai ex autōn mastigōsete en tais synagōgais hymōn kai diōxete apo poleōs eis polin·",
+      "i18n": {
+        "en": "Therefore, behold, I send to you prophets and wise men and scribes; some of them you will kill and crucify, and some of them you will flog in your synagogues and persecute from city to city;"
+      },
+      "notes": {
+        "official": "*prophētas kai sophous kai grammateis* 'prophets and wise men and scribes': *sophoi*, the ordinary word for wise people, distinct from the *magoi* of chapter 2. The flogging in synagogues and the pursuit 'from city to city' repeat 10:17, 23.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 35,
+      "refId": "MAT-WOH-23:35",
+      "text": "ὅπως ἔλθῃ ἐφʼ ὑμᾶς πᾶν αἷμα δίκαιον ἐκχυννόμενον ἐπὶ τῆς γῆς ἀπὸ τοῦ αἵματος Ἅβελ τοῦ δικαίου ἕως τοῦ αἵματος Ζαχαρίου υἱοῦ Βαραχίου, ὃν ἐφονεύσατε μεταξὺ τοῦ ναοῦ καὶ τοῦ θυσιαστηρίου.",
+      "translit": "hopōs elthē ephʼ hymas pan haima dikaion ekchynnomenon epi tēs gēs apo tou haimatos habel tou dikaiou heōs tou haimatos zachariou huiou barachiou, hon ephoneusate metaxy tou naou kai tou thysiastēriou.",
+      "i18n": {
+        "en": "so that upon you may come all the righteous blood shed on the earth, from the blood of righteous Abel to the blood of Zechariah the son of Barachiah, whom you murdered between the sanctuary and the altar."
+      },
+      "notes": {
+        "official": "*Zachariou huiou Barachiou* 'Zechariah the son of Barachiah': the murdered Zechariah of 2 Chr 24:20-22, the last murder in the Hebrew canon's order (Abel being the first), was the son of Jehoiada; Zechariah son of Berechiah is the prophet of Zech 1:1. Matthew's patronym conflates the two (Luke 11:51 has none), and the first hand of Sinaiticus omits *huiou Barachiou*; the line follows SBLGNT (`proper-names-and-realia-forms-matthew`; `critical-text-baseline-and-byzantine-variant-recording-matthew`). *metaxy tou naou kai tou thysiastēriou* 'between the sanctuary and the altar', the inner court where the altar of burnt offering stood before the sanctuary building (`naos-sanctuary-hieron-temple-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "naos-sanctuary-hieron-temple-matthew",
+        "proper-names-and-realia-forms-matthew"
+      ]
+    },
+    {
+      "n": 36,
+      "refId": "MAT-WOH-23:36",
+      "text": "ἀμὴν λέγω ὑμῖν, ἥξει ταῦτα πάντα ἐπὶ τὴν γενεὰν ταύτην.",
+      "translit": "amēn legō hymin, hēxei tauta panta epi tēn genean tautēn.",
+      "i18n": {
+        "en": "Amen I say to you, all these things will come upon this generation."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 37,
+      "refId": "MAT-WOH-23:37",
+      "text": "Ἰερουσαλὴμ Ἰερουσαλήμ, ἡ ἀποκτείνουσα τοὺς προφήτας καὶ λιθοβολοῦσα τοὺς ἀπεσταλμένους πρὸς αὐτήν— ποσάκις ἠθέλησα ἐπισυναγαγεῖν τὰ τέκνα σου, ὃν τρόπον ὄρνις ἐπισυνάγει τὰ νοσσία αὐτῆς ὑπὸ τὰς πτέρυγας, καὶ οὐκ ἠθελήσατε;",
+      "translit": "ierousalēm ierousalēm, hē apokteinousa tous prophētas kai lithobolousa tous apestalmenous pros autēn— posakis ēthelēsa episynagagein ta tekna sou, hon tropon ornis episynagei ta nossia autēs hypo tas pterygas, kai ouk ēthelēsate;",
+      "i18n": {
+        "en": "Jerusalem, Jerusalem, who kills the prophets and stones those who are sent to her! How often I wished to gather your children together, as a hen gathers her brood under her wings, and you were not willing!"
+      },
+      "notes": {
+        "official": "'as a hen gathers her brood under her wings': cf. the wings of God's protection (Deut 32:11; Ps 91:4).",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 38,
+      "refId": "MAT-WOH-23:38",
+      "text": "ἰδοὺ ἀφίεται ὑμῖν ὁ οἶκος ὑμῶν ἔρημος.",
+      "translit": "idou aphietai hymin ho oikos hymōn erēmos.",
+      "i18n": {
+        "en": "Behold, your house is left to you desolate."
+      },
+      "notes": {
+        "official": "*aphietai hymin ho oikos hymōn erēmos* 'your house is left to you desolate': SBLGNT and NA28 include *erēmos*; Vaticanus, L and some versions omit it ('your house is left to you'), perhaps assimilating to Luke 13:35 (`critical-text-baseline-and-byzantine-variant-recording-matthew`). Cf. Jer 12:7; 22:5.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew"
+      ]
+    },
+    {
+      "n": 39,
+      "refId": "MAT-WOH-23:39",
+      "text": "λέγω γὰρ ὑμῖν, οὐ μή με ἴδητε ἀπʼ ἄρτι ἕως ἂν εἴπητε· Εὐλογημένος ὁ ἐρχόμενος ἐν ὀνόματι κυρίου.",
+      "translit": "legō gar hymin, ou mē me idēte apʼ arti heōs an eipēte· eulogēmenos ho erchomenos en onomati kyriou.",
+      "i18n": {
+        "en": "For I say to you, you will not see me from now on until you say: 'Blessed is he who comes in the name of the Lord.'\""
+      },
+      "notes": {
+        "official": "Ps 118:26 (117:26 LXX), the acclamation of 21:9. The colon follows this wave's convention (`speech-introduction-colon-convention-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "speech-introduction-colon-convention-matthew"
+      ]
+    }
+  ],
+  "editorial_questions": [],
+  "editorial_questions_resolved": [
+    {
+      "refId": "MAT-WOH-23:4",
+      "issue": "Textual variant: SBLGNT reads φορτία βαρέα ('heavy burdens'); NA28 prints [καὶ δυσβάστακτα] in brackets, and the Byzantine/TR text (KJV 'heavy burdens and grievous to be borne') includes it. The canon (TBWTT ch. 5) quotes « de lourdes charges » without the addition.",
+      "default_taken": "heavy burdens (SBLGNT)",
+      "resolution": "SBLGNT 'heavy burdens' followed; NA28 bracket / Byzantine addition recorded; canon agrees with the shorter text.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-23:7",
+      "issue": "Textual variant: the critical text reads a single Ῥαββί; the Byzantine/TR text (KJV 'Rabbi, Rabbi') doubles it.",
+      "default_taken": "'Rabbi' (critical text)",
+      "resolution": "Single 'Rabbi' (critical text); Byzantine doubling recorded.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-23:8",
+      "issue": "Textual variant: the critical text reads εἷς γάρ ἐστιν ὑμῶν ὁ διδάσκαλος ('one is your teacher'); the Byzantine/TR text (KJV 'for one is your Master, even Christ') reads ὁ καθηγητής ὁ Χριστός, importing 23:10. The canon (TBWTT ch. 5) quotes « vous n'avez qu'un maître ».",
+      "default_taken": "for one is your teacher (critical text)",
+      "resolution": "'one is your teacher' (critical text); Byzantine 'Master, even Christ' recorded; canon 'one master' in reception note.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-23:10",
+      "issue": "καθηγητής (kathēgētēs, NT hapax, twice in this verse): 'master' (ASV/KJV) vs. 'instructor' (RSV/NRSV) vs. 'leader' / 'guide'; the canon (TBWTT ch. 5) quotes « Ne vous faites pas non plus appeler directeur car vous n'avez qu'un directeur, le Christ ». Draft uses 'instructor' because 'master' is already the program's rendering of κύριος (10:24-25) and 'teacher' of διδάσκαλος (23:8); the ASV reading is 'master'.",
+      "default_taken": "instructors … instructor",
+      "resolution": "'instructor' kept ('teacher' = διδάσκαλος, 'master' = κύριος); ASV 'master' and canon 'director' recorded.",
+      "glossaryEntry": "kathegetes-instructor-mt-23-10",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-23:14",
+      "issue": "Verse absent: SBLGNT/NA28 have no 23:14. The Byzantine/TR text (KJV) reads Οὐαὶ ὑμῖν … ὅτι κατεσθίετε τὰς οἰκίας τῶν χηρῶν καὶ προφάσει μακρὰ προσευχόμενοι· διὰ τοῦτο λήψεσθε περισσότερον κρίμα ('Woe unto you … for ye devour widows' houses, and for a pretence make long prayer: therefore ye shall receive the greater damnation'), imported from Mk 12:40 / Lk 20:47; absent from Vaticanus, Sinaiticus, D, L, Θ; placed before 23:13 in many Byzantine witnesses. The draft has no paragraph for 23:14 (verse numbering preserved, 23:13 → 23:15).",
+      "default_taken": "omit (critical text; no paragraph)",
+      "resolution": "Omitted (no paragraph, numbering skips), per the critical text and the 6:13 doxology precedent; the Byzantine verse is quoted in the commentary at 23:13. Published 17:21 (bracketed paragraph) flagged as inconsistent for a later pass.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-23:23",
+      "issue": "τὴν κρίσιν καὶ τὸ ἔλεος καὶ τὴν πίστιν: κρίσις 'justice' (ASV) vs. 'judgment' (KJV); πίστις 'faith' (ASV/KJV) vs. 'faithfulness' (RSV/NRSV).",
+      "default_taken": "justice and mercy and faith",
+      "resolution": "Changed 'faith' to 'faithfulness' (BDAG s.v. πίστις 1a lists Mt 23:23; Mic 6:8 background); 'justice' kept.",
+      "glossaryEntry": "krisis-eleos-pistis-justice-mercy-faithfulness-mt-23-23",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-23:35",
+      "issue": "Textual note: υἱοῦ Βαραχίου ('son of Barachiah') is omitted by Sinaiticus (first hand); the identification of this Zechariah (2 Chr 24:20-22, son of Jehoiada, vs. Zech 1:1, son of Berechiah) is a known crux. Draft follows SBLGNT.",
+      "default_taken": "Zechariah the son of Barachiah (SBLGNT)",
+      "resolution": "SBLGNT 'Zechariah the son of Barachiah' followed; the 2 Chr 24 / Zech 1:1 crux in commentary.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-23:38",
+      "issue": "Textual variant: SBLGNT includes ἔρημος ('desolate'); Vaticanus, L and some versions omit it ('your house is left to you'). NA28 includes it.",
+      "default_taken": "your house is left to you desolate (SBLGNT)",
+      "resolution": "SBLGNT 'desolate' followed; B L omission recorded.",
+      "glossaryEntry": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    }
+  ]
+}

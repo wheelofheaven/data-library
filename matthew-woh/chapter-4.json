@@ -1,0 +1,828 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "MAT-WOH",
+  "bookSlug": "matthew-woh",
+  "n": 4,
+  "title": "Matthew 4 — The temptation in the wilderness, the move to Capernaum, the first disciples",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Koine Greek New Testament — SBL Greek New Testament (SBLGNT), ed. Michael W. Holmes (2010); critical text with Codex Vaticanus (B/03) and Codex Sinaiticus (א/01) as principal witnesses",
+    "sourceLicense": "CC BY 4.0 (SBLGNT, Society of Biblical Literature and Logos Bible Software)",
+    "sourceUrl": "https://github.com/LogosBible/SBLGNT",
+    "sourceAccessedVia": "SBLGNT data/sblgnt/text/Matt.txt via source-grc-4.json (fetched 2026-11-01; variant sigla stripped); reference PD translation ASV 1901",
+    "verificationStatus": "editor pass complete 2026-11-01 (wave M2); glossaryVersion 2.81.0 is pending application of matthew-woh/wave-m2-central-diff.json (base 2.80.0; the orchestrator may renumber when sequencing the parallel Revelation and Ezekiel diffs); overlay 1.2.0 applied; pending Reviewer and founder sign-off",
+    "glossaryVersion": "2.83.0",
+    "overlayGlossaryVersion": "1.2.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-01T14:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-01T12:57:01Z",
+      "scope": "Matthew wave M2, chapter 4 (25 verses); overlay 1.2.0 entries applying to this chapter; central diff 2.80.0→2.81.0 ops touching this chapter.",
+      "method": "Each verse re-parsed from the SBLGNT Greek in source-grc-4.json (verified identical to the unstripped SBLGNT text with variant sigla). Every Byzantine/TR/KJV attribution was checked against the SBLGNT variant markers (WH/Treg/NIV/RP) and Metzger. Escalation report read only after initial verdicts.",
+      "verdicts": [
+        {
+          "refId": "MAT-WOH-4:1",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πειράζω 2, 4",
+            "B. Gerhardsson, The Testing of God's Son (1966)",
+            "Davies and Allison, Matthew (ICC), vol. 1 (1988), ad loc."
+          ],
+          "reasoning": "anēchthē ... hypo tou pneumatos, peirasthēnai hypo tou diabolou: 'to be tempted by the devil' is the agent-driven sense and ASV/NRSV wording; the test reading (Gerhardsson) and the 'slanderer' etymology are in commentary, and the canon's « mis à l'épreuve » / « calomniateur » stay in the reception note. Not lens leakage. Non-blocking: the chapter title says 'The testing in the wilderness' while the line says 'tempted'; defensible from Gerhardsson, but the founder may prefer 'temptation' in the title for agreement with the line."
+        },
+        {
+          "refId": "MAT-WOH-4:2",
+          "status": "approve",
+          "citations": [
+            "Exod 34:28; Deut 9:9"
+          ],
+          "reasoning": "nēsteusas hēmeras tesserakonta kai nyktas tesserakonta hysteron epeinasen. Exact."
+        },
+        {
+          "refId": "MAT-WOH-4:3",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πειράζω; Wallace, Greek Grammar Beyond the Basics (1996) on first-class conditions"
+          ],
+          "reasoning": "ho peirazōn 'the tempter'; Ei huios ei tou theou 'If you are the Son of God'; artoi genōntai 'become loaves of bread'. Exact."
+        },
+        {
+          "refId": "MAT-WOH-4:4",
+          "status": "approve",
+          "citations": [
+            "Deut 8:3 LXX",
+            "BDAG s.v. ἄνθρωπος"
+          ],
+          "reasoning": "Ouk ep' artō monō zēsetai ho anthrōpos: collective 'Man' kept in the LXX quotation, a stated exception to the generic-people rule; acceptable."
+        },
+        {
+          "refId": "MAT-WOH-4:5",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἱερόν, πτερύγιον"
+          ],
+          "reasoning": "to pterygion tou hierou 'the pinnacle of the temple': hieron = 'temple' per the naos/hieron entry. Historic present/aorist mix mirrors the Greek."
+        },
+        {
+          "refId": "MAT-WOH-4:6",
+          "status": "approve",
+          "citations": [
+            "Ps 91:11-12 (90 LXX)"
+          ],
+          "reasoning": "Tois angelois autou enteleitai ... kai epi cheirōn arousin se: the two Psalm clauses joined by kai are shown as two quoted segments; exact."
+        },
+        {
+          "refId": "MAT-WOH-4:7",
+          "status": "approve",
+          "citations": [
+            "Deut 6:16 LXX"
+          ],
+          "reasoning": "Ouk ekpeiraseis kyrion ton theon sou 'You shall not make trial of the Lord your God' (ASV wording). Exact."
+        },
+        {
+          "refId": "MAT-WOH-4:8",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "eis oros hypsēlon lian ... pasas tas basileias tou kosmou kai tēn doxan autōn. Exact; anarthrous 'a very high mountain' respected."
+        },
+        {
+          "refId": "MAT-WOH-4:9",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. προσκυνέω"
+          ],
+          "reasoning": "Tauta soi panta dōsō, ean pesōn proskynēsēs moi. Exact."
+        },
+        {
+          "refId": "MAT-WOH-4:10",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. Σατανᾶς",
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994), ad loc.",
+            "SBLGNT (Holmes 2010) variant markers at this verse (WH/Treg/NIV/RP)",
+            "Deut 6:13 LXX (A vs B)"
+          ],
+          "reasoning": "Hypage, Satana 'Go away, Satan!' as a name; central ha-satan correctly not applied (Revelation wave rules likewise). Non-blocking note fixes: (1) the SBLGNT marker at Hypage shows that Robinson-Pierpont reads opisō mou, so it is the Byzantine majority reading, absent from the TR/KJV: say 'The Byzantine majority text adds opisō mou ...; the TR and the KJV lack it' rather than 'some Byzantine witnesses'. (2) Codex Alexandrinus of Deut 6:13 LXX has monō as well as proskynēseis, so 'and adds monō' should read 'and, with A, monō'."
+        },
+        {
+          "refId": "MAT-WOH-4:11",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄγγελος 2, διακονέω"
+          ],
+          "reasoning": "angeloi prosēlthon kai diēkonoun autō: 'angels ... were ministering' (imperfect). The canon's 'messengers of the Elohim' stays in the reception note; the line uses the NT convention. Not lens leakage."
+        },
+        {
+          "refId": "MAT-WOH-4:12",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. παραδίδωμι 1b"
+          ],
+          "reasoning": "paredothē 'had been handed over': the uniform 'hand over' for paradidōmi was verified across the wave (no 'betray' anywhere)."
+        },
+        {
+          "refId": "MAT-WOH-4:13",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai katalipōn tēn nazara elthōn katōkēsen eis kapharnaoum tēn parathalassian en horiois ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-4:14",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (hina plērōthē to rhēthen dia ēsaiou tou prophētou legontos·): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-4:15",
+          "status": "approve",
+          "citations": [
+            "Isa 8:23-9:1"
+          ],
+          "reasoning": "Gē Zaboulōn ... Galilaia tōn ethnōn: exact; 'of the Gentiles' for ethnōn."
+        },
+        {
+          "refId": "MAT-WOH-4:16",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "ho laos ho kathēmenos en skotia phōs eiden mega ... phōs aneteilen autois (resumptive pronoun kept). Exact."
+        },
+        {
+          "refId": "MAT-WOH-4:17",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "identical proclamation to 3:2, rendered identically. Exact."
+        },
+        {
+          "refId": "MAT-WOH-4:18",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (peripatōn de para tēn thalassan tēs galilaias eiden dyo adelphous, simōna ton legomenon ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-4:19",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄνθρωπος 1",
+            "NRSV 4:19 ('fish for people')"
+          ],
+          "reasoning": "Disputed against ASV 'fishers of men': halieis anthrōpōn is a generic plural; 'people' follows the published Sermon chapters and NRSV practice. Defensible."
+        },
+        {
+          "refId": "MAT-WOH-4:20",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (hoi de eutheōs aphentes ta diktya ēkolouthēsan autō.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-4:21",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai probas ekeithen eiden allous dyo adelphous, iakōbon ton tou zebedaiou kai iōannēn ton ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-4:22",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (hoi de eutheōs aphentes to ploion kai ton patera autōn ēkolouthēsan autō.): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        },
+        {
+          "refId": "MAT-WOH-4:23",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. εὐαγγέλιον 1"
+          ],
+          "reasoning": "kēryssōn to euangelion tēs basileias 'proclaiming the gospel of the kingdom', consistent with published Mk 16:15/Acts 15:7; literal sense in the note."
+        },
+        {
+          "refId": "MAT-WOH-4:24",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. σεληνιάζομαι",
+            "Mt 17:15 (published 'moon-struck')"
+          ],
+          "reasoning": "Disputed against ASV 'epileptic': selēniazomenous 'moon-struck' is the literal sense (BDAG) and matches published 17:15. Reception note labelled; the line keeps the Greek diagnostic vocabulary."
+        },
+        {
+          "refId": "MAT-WOH-4:25",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Re-read the Greek (kai ēkolouthēsan autō ochloi polloi apo tēs galilaias kai dekapoleōs kai hierosolymōn kai ...): rendered formally and completely, nothing added or omitted; plain narrative with no divergence from the ASV beyond modern English, and no lens content in the line."
+        }
+      ],
+      "glossaryReview": [
+        {
+          "glossary_id": "critical-text-baseline-and-byzantine-variant-recording-matthew",
+          "status": "revise",
+          "citations": [
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994)",
+            "SBLGNT (Holmes 2010) variant markers",
+            "NA28 text at Mt 19:9 and 19:29",
+            "KJV Mt 4:10; 15:4"
+          ],
+          "reasoning": "claim_type direct is right and the decision (translate SBLGNT; record TR/Byzantine readings in commentary; no paragraph for 23:14) is sound and matches the Revelation ruling C. Accuracy fixes to the rationale: (1) 'agree with NA28 in all but a handful of bracketed words' is not accurate for this wave: SBLGNT also differs from NA28 outside brackets at 19:9 (SBLGNT prints the final clause kai ho apolelymenēn gamēsas moichatai, which NA28 omits) and 19:29 (SBLGNT ē gynaika, which NA28 omits); the verse notes already say so, so the entry should list them. (2) Adopt the Revelation reviewer's TR-vs-Byzantine discipline: where the SBLGNT apparatus shows no Robinson-Pierpont difference, a KJV reading is a TR (minority) reading, not 'the Byzantine text' (15:4 sou; 27:35 is already handled correctly); where RP differs but the KJV agrees with SBLGNT, say 'Byzantine majority, not TR/KJV' (4:10 opisō mou; 10:8 is already handled correctly). (3) The 17:21/23:14 inconsistency is correctly flagged; see founder decision 3."
+        },
+        {
+          "glossary_id": "raelian-canon-citation-reception-note-convention-matthew",
+          "status": "approve",
+          "citations": [
+            "matthew-canon-citations.md (TBWTT ch. 4, 5; ETTMTTP ch. 2; LWTE ch. 2, 3)",
+            "Kings wave precedent (1 Kgs 19:5, 11, 12)"
+          ],
+          "reasoning": "Direct is right for a presentation convention. Every one of the 26 reception notes was checked against the citation extract: quotations, chapter numbers and readings are accurate, and each sits in its own labelled paragraph. The two lexicon/canon coincidences (2:2, 9; 26:53) are disclosed as such and rest on BDAG and on versions that predate or are independent of the canon (NAB 1970; NASB)."
+        },
+        {
+          "glossary_id": "anthropos-generic-people-convention-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄνθρωπος 1, ἀνήρ 1",
+            "NRSV preface (1989)",
+            "D. A. Carson, The Inclusive Language Debate (1998)"
+          ],
+          "reasoning": "Direct is right: the lexical distinction anthrōpos/anēr is standard and the rule follows the published Sermon chapters. Every application in the wave was checked (4:19; 8:27; 9:8; 10:17, 32-33; 15:9, 11, 18, 20; 19:6, 12, 26; 23:4-5, 7, 13, 28), with individuals (8:9; 9:9; 27:32, 57) and every anēr (14:21, 35; 15:38) kept as 'man/men'. Optional: add the anēr sites to appliesTo, since the wohChoice names them; 17:22 legacy inconsistency correctly flagged."
+        },
+        {
+          "glossary_id": "angelos-angel-matthew-convention",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ἄγγελος 2",
+            "Kittel/Grundmann, TDNT 1, s.v. ἄγγελος"
+          ],
+          "reasoning": "Direct is right. By the first century ἄγγελος in Jewish Greek is the technical term for a heavenly being, every Matthean site in the program has that referent, and 'angel' is the published Matthew (1, 13, 25, 28), Acts 12 and Revelation-wave rendering. The Hebrew-side malakh-yhwh-messenger is stated in the 2:13 note, so the split is transparent. Supports promotion to central as a Greek-NT convention jointly with Revelation."
+        },
+        {
+          "glossary_id": "pneuma-spirit-capitalization-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πνεῦμα 2, 5",
+            "Colwell, JBL 52 (1933) 12-21",
+            "Davies and Allison, ICC vol. 1, on 3:16"
+          ],
+          "reasoning": "Direct is right: the capitalization split (divine agent vs human/unclean spirits) is grammatically and contextually grounded; 3:16 anarthrous πνεῦμα θεοῦ as definite is the standard reading. Revelation wave uses the same capitalization ('Spirit' 3x, 'spirit' 4x)."
+        },
+        {
+          "glossary_id": "peirazo-peirasmos-tempt-test-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. πειράζω 2, 4; πειρασμός 2",
+            "B. Gerhardsson, The Testing of God's Son (1966)"
+          ],
+          "reasoning": "Direct is right: agent-driven split matches BDAG and the major versions; the test sense and the canon's « mis à l'épreuve » are documented. Non-blocking: the chapter 4 title uses 'testing' while the line says 'tempted'; acceptable (Gerhardsson), but the founder may prefer agreement."
+        },
+        {
+          "glossary_id": "diabolos-the-devil-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. διάβολος 2",
+            "W. Foerster, TDNT 2",
+            "E. Pagels, The Origin of Satan (1995)"
+          ],
+          "reasoning": "Direct is right; the etymology is accurately stated and confined to commentary. Harmonization note: the Revelation wave prints 'the Devil' with a capital at Rev 12:9 (in a list of names) and 'the devil' at 12:12; state the rule (lower case as a title, capital only in name lists) when the two books are harmonized."
+        },
+        {
+          "glossary_id": "satanas-satan-name-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. Σατανᾶς",
+            "Metzger, A Textual Commentary on the Greek New Testament, 2nd ed. (1994) on 4:10",
+            "SBLGNT marker at Mt 4:10"
+          ],
+          "reasoning": "Direct is right and agrees with Revelation ruling D. Accuracy fix: the rationale calls ὀπίσω μου 'the minor Byzantine addition'; the SBLGNT marker shows Robinson-Pierpont reads it, so it is the Byzantine majority reading, absent from the TR/KJV."
+        },
+        {
+          "glossary_id": "euangelion-gospel-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. εὐαγγέλιον 1",
+            "G. N. Stanton, Jesus and Gospel (2004)"
+          ],
+          "reasoning": "Direct is right; program-wide consistency with Mk 16:15 and Acts 15:7; literal sense in commentary."
+        },
+        {
+          "glossary_id": "huios-theou-son-of-god-rendering-matthew",
+          "status": "approve",
+          "citations": [
+            "Colwell, JBL 52 (1933) 12-21",
+            "BDAG s.v. υἱός 2d",
+            "Brown, The Death of the Messiah (1994), on 27:54"
+          ],
+          "reasoning": "Direct is right; Colwell is correctly invoked as 'not necessarily indefinite', with context deciding. Non-blocking wording fix: 27:54 does not repeat 14:33 'word for word' (ei vs ēn houtos); say 'closely echoes' in the entry and in the 14:33 and 27:54 notes."
+        },
+        {
+          "glossary_id": "naos-sanctuary-hieron-temple-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. ναός 1a, ἱερόν",
+            "O. Michel, TDNT 4",
+            "Josephus, War 5.184-247",
+            "NRSV Mt 23:16-35"
+          ],
+          "reasoning": "Direct is right: the naos/hieron distinction is lexical and Matthew observes it. Two notes. (1) Factual: to my reading the ASV has 'sanctuary' at 27:5 as well as 23:35, so standardEnglish should say 'ASV except 23:35 and 27:5'; verify. (2) Cross-book: the Revelation wave renders ναός 'temple' (Revelation has no ἱερόν to contrast); that is defensible, but if this entry is promoted, scope it to books where both words occur (Gospels, Acts) and say why Revelation differs."
+        },
+        {
+          "glossary_id": "proskyneo-worship-kneel-matthew",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. προσκυνέω",
+            "H. Greeven, TDNT 6",
+            "M. A. Powell, JSNT 57 (1995) 3-17"
+          ],
+          "reasoning": "Direct is right; homage vs petition split follows NRSV practice and is consistent with published 28:9, 17."
+        }
+      ],
+      "centralDiffReview": [
+        {
+          "op": "version",
+          "from": "2.80.0",
+          "to": "2.81.0",
+          "status": "approve",
+          "reasoning": "Minor bump 2.80.0 to 2.81.0 is right for appliesTo-only changes; the union-merge sequencing note for the parallel Revelation/Ezekiel diffs is correct and necessary."
+        },
+        {
+          "op": "modify",
+          "id": "kingdom-of-heaven-basileia-tōn-ouranōn-mt-distinctive-cross-corpus-hebrew-malkhut-shamayim",
+          "status": "approve",
+          "reasoning": "Verified: base preserved; additions are every 'kingdom of the heavens' line in the wave; 19:24 'kingdom of God' correctly excluded."
+        },
+        {
+          "op": "modify",
+          "id": "mountain-as-revelation-site-mt-cross-corpus-har-sinai-mount-sapunu",
+          "status": "approve",
+          "reasoning": "Verified: base preserved; additions 4:8, 8:1, 14:23, 15:29, 26:30. Lines render the Greek article as the entry prescribes. Non-blocking: 8:1 (descent) and 26:30 (Mount of Olives, a toponym) are thin as 'revelation sites'; acceptable as tagging (the Mount of Olives is the setting of 24:3), but the founder may drop 26:30."
+        }
+      ],
+      "lens-leakage-flags": [],
+      "lensLeakageCheck": "Every English line of the chapter was read against the Greek. No line adds interpretive content, uses Raëlian-canon vocabulary (no Elohim, Yahweh, craft, creators, ray, planet, Eternals), or resolves an ambiguity in the canon's direction. Each Wheel of Heaven reading sits in its own paragraph headed 'reception note, not a translation claim'. The two lines that coincide with the canon's French were tested specifically: 2:2/2:9 'at its rising' (BDAG ἀνατολή 1 cites both verses; NAB 1970, NRSV, ESV) and 26:53 'put at my disposal' (BDAG παρίστημι 1a cites the verse; NASB identical wording). In both the lexical ground is real and independent of the canon, so neither is lens leakage.",
+      "escalationReportAdjustments": "Initial verdicts were formed from the Greek, the chapter JSON, the overlay and the central diff before the escalation report (wave-m2-editor-report.md) was opened. The report added no information that changes a verdict. It repeats the RSV attribution for 2:2/9 ('RSV, NRSV, NAB'), which this review corrects. Its ten founder-preference points are answered in founderDecisionRecommendations, and its follow-ups (17:21; 17:22; comma/colon in 25 and 28; the 6:13 'testing' wording in central) are endorsed as later-pass items.",
+      "founderDecisionRecommendations": {
+        "1-angelos-angel": "Endorse. ἄγγελος is the technical term for a heavenly envoy in first-century Jewish Greek (BDAG s.v. 2); published Mt 1, 13, 25, 28, Acts 12 and the Revelation wave all print 'angel', so the Greek NT is already harmonized in practice. Promote jointly with Revelation as a central Greek-NT convention; keep 'messenger of YHWH' for Hebrew malʾāḵ.",
+        "2-naos-sanctuary": "Endorse for Matthew. The naos/hieron distinction is lexical (BDAG; Josephus) and NRSV marks it in 23:16-35. 27:5 keeps Matthew's crux honestly (and, to my reading, restores the ASV's own 'sanctuary'). If promoted, scope it to books with both terms; Revelation's 'temple' for ναός is defensible because it has no ἱερόν.",
+        "3-23:14-no-paragraph": "Endorse. SBLGNT has no 23:14; the Byzantine text is quoted in full at 23:13 with witnesses, as the 6:13b precedent and the Revelation ruling C require. Recommend a later pass bring the stable 17:21 into line: its bracketed Greek is not SBLGNT text, so drop the paragraph and move the Byzantine wording into the 17:20 commentary.",
+        "4-colon-convention": "Endorse (punctuation only; applied without exception in the wave). Harmonize published 25 and 28 in a later pass.",
+        "5-magi": "Endorse. 'magi' is the standard scholarly rendering (BDAG; Brown; Powell) and NIV/NAB usage; 'wise men' is noted.",
+        "6-faithfulness-23:23": "Endorse. BDAG lists Mt 23:23 under πίστις 1a 'faithfulness, reliability'; NIV and ESV render so; the Mic 6:8 triad is conduct.",
+        "7-put-at-my-disposal-26:53": "Endorse. BDAG παρίστημι 1a cites this verse for 'put at someone's disposal', and the NASB prints exactly 'put at My disposal'; the ground is independent of the canon's French, and the coincidence is disclosed.",
+        "8-at-its-rising-2:2,9": "Endorse. BDAG ἀνατολή 1 cites both verses; NAB (1970, before TBWTT) and NRSV read 'at its rising', ESV 'when it rose'. Correct the RSV attribution (the RSV reads 'in the East').",
+        "9-defiles-a-person": "Endorse. The article with ἄνθρωπος is generic; the canon's own French « l'homme » is generic too, so the line follows the sense the canon intends rather than the English edition's 'the man'.",
+        "10-tempted-4:1": "Endorse. Agent-driven 'tempted'/'the tempter' is BDAG's and the versions' reading with the devil as agent, and agrees with published 6:13; the test reading (Gerhardsson; canon « mis à l'épreuve ») is properly in commentary. Optionally align the chapter 4 title ('The testing in the wilderness') with the line."
+      },
+      "summary": {
+        "approve": 25,
+        "revise": 0,
+        "flag-for-human": 0,
+        "statusSetTo": "reviewer-approved"
+      }
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "MAT-WOH-4:1",
+      "text": "Τότε ὁ Ἰησοῦς ἀνήχθη εἰς τὴν ἔρημον ὑπὸ τοῦ πνεύματος, πειρασθῆναι ὑπὸ τοῦ διαβόλου.",
+      "translit": "tote ho iēsous anēchthē eis tēn erēmon hypo tou pneumatos, peirasthēnai hypo tou diabolou.",
+      "i18n": {
+        "en": "Then Jesus was led up into the wilderness by the Spirit to be tempted by the devil."
+      },
+      "notes": {
+        "official": "*peirasthēnai hypo tou diabolou* 'to be tempted by the devil'. *peirazō* means both 'put to the test' and 'entice to do wrong' (BDAG s.v. 2, 4). With the devil as agent, and with *ho peirazōn* 'the tempter' in 4:3, the major versions render 'tempted'. The episode is also a test of the Son: Gerhardsson (The Testing of God's Son, 1966) reads it against Israel's forty years, during which God 'tested' Israel (Deut 8:2), and every reply of Jesus quotes Deut 6-8. The line keeps 'tempted' for agreement with 4:3 and with the published 6:13 ('temptation') (`peirazo-peirasmos-tempt-test-matthew`).\n\n*ho diabolos* 'the devil': etymologically 'the slanderer' (from *diaballō* 'to slander, accuse'), the LXX word for the Hebrew *haśśāṭān* of Job 1-2 and Zech 3. In the Gospels it is a title, used interchangeably with the name 'Satan' (4:10) (`diabolos-the-devil-matthew`). *hypo tou pneumatos* 'by the Spirit' (`pneuma-spirit-capitalization-matthew`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 4) quotes 4:1 as « Alors Jésus fut emmené au désert (…) pour être mis à l'épreuve du diable » and reads the devil as Satan, one of the creators, opposed to the creation of humanity, who tests whether Jesus can be trusted. Let's Welcome the Extraterrestrials (ch. 2) quotes 4:1-11 in full as a test of Jesus' fidelity to the Elohim, and glosses *diabolos* as « calomniateur » ('slanderer'), which is the accurate etymology. This note covers the canon's citations of 4:1-11. The line keeps the standard renderings 'tempted' and 'the devil', and the 'test' and 'slanderer' senses are given above.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "pneuma-spirit-capitalization-matthew",
+        "peirazo-peirasmos-tempt-test-matthew",
+        "diabolos-the-devil-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 2,
+      "refId": "MAT-WOH-4:2",
+      "text": "καὶ νηστεύσας ἡμέρας τεσσεράκοντα καὶ νύκτας τεσσεράκοντα ὕστερον ἐπείνασεν.",
+      "translit": "kai nēsteusas hēmeras tesserakonta kai nyktas tesserakonta hysteron epeinasen.",
+      "i18n": {
+        "en": "And when he had fasted forty days and forty nights, afterward he was hungry."
+      },
+      "notes": {
+        "official": "'forty days and forty nights': Moses' fast on the mountain (Exod 34:28; Deut 9:9) and Elijah's journey to Horeb (1 Kgs 19:8). Matthew alone adds 'and forty nights', which matches the Moses texts.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 3,
+      "refId": "MAT-WOH-4:3",
+      "text": "καὶ προσελθὼν ὁ πειράζων εἶπεν αὐτῷ· Εἰ υἱὸς εἶ τοῦ θεοῦ, εἰπὲ ἵνα οἱ λίθοι οὗτοι ἄρτοι γένωνται.",
+      "translit": "kai proselthōn ho peirazōn eipen autō· ei huios ei tou theou, eipe hina hoi lithoi houtoi artoi genōntai.",
+      "i18n": {
+        "en": "And the tempter came and said to him: \"If you are the Son of God, command that these stones become loaves of bread.\""
+      },
+      "notes": {
+        "official": "*ho peirazōn* 'the tempter', the participle as a noun (`peirazo-peirasmos-tempt-test-matthew`). *Ei huios ei tou theou* 'If you are the Son of God': the condition assumes the truth of the voice of 3:17 and questions how the sonship will be used (`huios-theou-son-of-god-rendering-matthew`).\n\nThis verse is quoted in the canon; see the reception note at 4:1.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "peirazo-peirasmos-tempt-test-matthew",
+        "huios-theou-son-of-god-rendering-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 4,
+      "refId": "MAT-WOH-4:4",
+      "text": "ὁ δὲ ἀποκριθεὶς εἶπεν· Γέγραπται· Οὐκ ἐπʼ ἄρτῳ μόνῳ ζήσεται ὁ ἄνθρωπος, ἀλλʼ ἐπὶ παντὶ ῥήματι ἐκπορευομένῳ διὰ στόματος θεοῦ.",
+      "translit": "ho de apokritheis eipen· gegraptai· ouk epʼ artō monō zēsetai ho anthrōpos, allʼ epi panti rhēmati ekporeuomenō dia stomatos theou.",
+      "i18n": {
+        "en": "But he answered and said: \"It is written: 'Man shall not live by bread alone, but by every word that proceeds out of the mouth of God.'\""
+      },
+      "notes": {
+        "official": "Deut 8:3 LXX, verbatim. *ho anthrōpos* is collective and gnomic, so the English collective 'Man' (humankind) is kept (`anthropos-generic-people-convention-matthew`).\n\nThis verse is quoted in the canon; see the reception note at 4:1.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "anthropos-generic-people-convention-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "MAT-WOH-4:5",
+      "text": "Τότε παραλαμβάνει αὐτὸν ὁ διάβολος εἰς τὴν ἁγίαν πόλιν, καὶ ἔστησεν αὐτὸν ἐπὶ τὸ πτερύγιον τοῦ ἱεροῦ,",
+      "translit": "tote paralambanei auton ho diabolos eis tēn hagian polin, kai estēsen auton epi to pterygion tou hierou,",
+      "i18n": {
+        "en": "Then the devil takes him into the holy city, and he set him on the pinnacle of the temple,"
+      },
+      "notes": {
+        "official": "*epi to pterygion tou hierou* 'on the pinnacle of the temple': *pterygion* is literally 'little wing', a projecting part whose exact location is unknown. *to hieron* is the temple precinct as a whole, rendered 'temple'; *ho naos*, the sanctuary building, is rendered 'sanctuary' (23:16-21; 26:61; 27:5, 40, 51) (`naos-sanctuary-hieron-temple-matthew`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "diabolos-the-devil-matthew",
+        "naos-sanctuary-hieron-temple-matthew"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "MAT-WOH-4:6",
+      "text": "καὶ λέγει αὐτῷ· Εἰ υἱὸς εἶ τοῦ θεοῦ, βάλε σεαυτὸν κάτω· γέγραπται γὰρ ὅτι Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ καὶ ἐπὶ χειρῶν ἀροῦσίν σε, μήποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.",
+      "translit": "kai legei autō· ei huios ei tou theou, bale seauton katō· gegraptai gar hoti tois angelois autou enteleitai peri sou kai epi cheirōn arousin se, mēpote proskopsēs pros lithon ton poda sou.",
+      "i18n": {
+        "en": "and says to him: \"If you are the Son of God, throw yourself down; for it is written: 'He will give his angels charge concerning you,' and 'On their hands they will bear you up, lest you strike your foot against a stone.'\""
+      },
+      "notes": {
+        "official": "Ps 91:11-12 (90:11-12 LXX), quoted by the devil. 'his angels' (`angelos-angel-matthew-convention`).\n\nThis verse is quoted in the canon; see the reception note at 4:1.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "angelos-angel-matthew-convention",
+        "huios-theou-son-of-god-rendering-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 7,
+      "refId": "MAT-WOH-4:7",
+      "text": "ἔφη αὐτῷ ὁ Ἰησοῦς· Πάλιν γέγραπται· Οὐκ ἐκπειράσεις κύριον τὸν θεόν σου.",
+      "translit": "ephē autō ho iēsous· palin gegraptai· ouk ekpeiraseis kyrion ton theon sou.",
+      "i18n": {
+        "en": "Jesus said to him: \"Again it is written: 'You shall not make trial of the Lord your God.'\""
+      },
+      "notes": {
+        "official": "Deut 6:16 LXX. *ekpeirazō* 'make trial of', the compound of *peirazō*: the devil's 'test' is answered with the command not to 'test' God (`peirazo-peirasmos-tempt-test-matthew`). *kyrion ton theon sou* 'the Lord your God' renders the LXX for YHWH ʾĕlōhêḵā.\n\nThis verse is quoted in the canon; see the reception note at 4:1.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "peirazo-peirasmos-tempt-test-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "MAT-WOH-4:8",
+      "text": "Πάλιν παραλαμβάνει αὐτὸν ὁ διάβολος εἰς ὄρος ὑψηλὸν λίαν, καὶ δείκνυσιν αὐτῷ πάσας τὰς βασιλείας τοῦ κόσμου καὶ τὴν δόξαν αὐτῶν",
+      "translit": "palin paralambanei auton ho diabolos eis oros hypsēlon lian, kai deiknysin autō pasas tas basileias tou kosmou kai tēn doxan autōn",
+      "i18n": {
+        "en": "Again the devil takes him to a very high mountain and shows him all the kingdoms of the world and their glory,"
+      },
+      "notes": {
+        "official": "*eis oros hypsēlon lian* 'to a very high mountain': the third scene is set on a mountain, like the Sermon (5:1), the Transfiguration (17:1) and the final commission (28:16) (`mountain-as-revelation-site-mt-cross-corpus-har-sinai-mount-sapunu`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "mountain-as-revelation-site-mt-cross-corpus-har-sinai-mount-sapunu",
+        "diabolos-the-devil-matthew"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "MAT-WOH-4:9",
+      "text": "καὶ εἶπεν αὐτῷ· Ταῦτά σοι πάντα δώσω, ἐὰν πεσὼν προσκυνήσῃς μοι.",
+      "translit": "kai eipen autō· tauta soi panta dōsō, ean pesōn proskynēsēs moi.",
+      "i18n": {
+        "en": "and he said to him: \"All these things I will give you, if you will fall down and worship me.\""
+      },
+      "notes": {
+        "official": "*pesōn proskynēsēs moi* 'fall down and worship me': the verb that Jesus' reply in 4:10 reserves for God (`proskyneo-worship-kneel-matthew`).\n\nThis verse is quoted in the canon; see the reception note at 4:1.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "proskyneo-worship-kneel-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "MAT-WOH-4:10",
+      "text": "τότε λέγει αὐτῷ ὁ Ἰησοῦς· Ὕπαγε, Σατανᾶ· γέγραπται γάρ· Κύριον τὸν θεόν σου προσκυνήσεις καὶ αὐτῷ μόνῳ λατρεύσεις.",
+      "translit": "tote legei autō ho iēsous· hypage, satana· gegraptai gar· kyrion ton theon sou proskynēseis kai autō monō latreuseis.",
+      "i18n": {
+        "en": "Then Jesus says to him: \"Go away, Satan! For it is written: 'You shall worship the Lord your God, and him only shall you serve.'\""
+      },
+      "notes": {
+        "official": "*Hypage, Satana* 'Go away, Satan!': *Satanas* transliterates the Aramaic *sāṭānā* and is used as a personal name, here in the vocative without article (`satanas-satan-name-matthew`). The central `ha-satan` ('the adversary') governs the Hebrew word with the article in Job, a role title, and is not applied to the Greek name. The Byzantine majority text adds *opisō mou* 'behind me' (cf. 16:23); SBLGNT and the Textus Receptus (KJV 'Get thee hence, Satan') lack it.\n\nDeut 6:13: most LXX manuscripts read *phobēthēsē* 'you shall fear'; Matthew has *proskynēseis* 'you shall worship', which answers the devil's demand of 4:9, and adds *monō* 'only'; Codex Alexandrinus of the LXX has both *proskynēseis* and *monō* (`proskyneo-worship-kneel-matthew`).\n\nThis verse is quoted in the canon; see the reception note at 4:1.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "critical-text-baseline-and-byzantine-variant-recording-matthew",
+        "satanas-satan-name-matthew",
+        "proskyneo-worship-kneel-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 11,
+      "refId": "MAT-WOH-4:11",
+      "text": "τότε ἀφίησιν αὐτὸν ὁ διάβολος, καὶ ἰδοὺ ἄγγελοι προσῆλθον καὶ διηκόνουν αὐτῷ.",
+      "translit": "tote aphiēsin auton ho diabolos, kai idou angeloi prosēlthon kai diēkonoun autō.",
+      "i18n": {
+        "en": "Then the devil leaves him, and behold, angels came and were ministering to him."
+      },
+      "notes": {
+        "official": "*angeloi prosēlthon kai diēkonoun autō* 'angels came and were ministering to him': the imperfect describes ongoing service, perhaps food after the fast (cf. 1 Kgs 19:5-8, where a messenger feeds Elijah) (`angelos-angel-matthew-convention`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** Let's Welcome the Extraterrestrials (ch. 2) reads the angels of this verse as 'the Elohim's messengers' (« les messagers des Elohim ») who come to complete Jesus' initiation once the test has been passed. 'Messenger' is the etymological sense of *angelos*; the line keeps the New Testament convention 'angels'.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "angelos-angel-matthew-convention",
+        "diabolos-the-devil-matthew",
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "MAT-WOH-4:12",
+      "text": "Ἀκούσας δὲ ὅτι Ἰωάννης παρεδόθη ἀνεχώρησεν εἰς τὴν Γαλιλαίαν.",
+      "translit": "akousas de hoti iōannēs paredothē anechōrēsen eis tēn galilaian.",
+      "i18n": {
+        "en": "Now when he heard that John had been handed over, he withdrew into Galilee."
+      },
+      "notes": {
+        "official": "*paredothē* 'had been handed over': *paradidōmi* is the verb Matthew uses for John's arrest and for Jesus' betrayal and delivery (10:4; 26:2, 15-16; 27:2, 26). The program renders it 'hand over' throughout, rather than 'betray'.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 13,
+      "refId": "MAT-WOH-4:13",
+      "text": "καὶ καταλιπὼν τὴν Ναζαρὰ ἐλθὼν κατῴκησεν εἰς Καφαρναοὺμ τὴν παραθαλασσίαν ἐν ὁρίοις Ζαβουλὼν καὶ Νεφθαλίμ·",
+      "translit": "kai katalipōn tēn nazara elthōn katōkēsen eis kapharnaoum tēn parathalassian en horiois zaboulōn kai nephthalim·",
+      "i18n": {
+        "en": "And leaving Nazareth, he came and dwelt in Capernaum, which is beside the sea, in the region of Zebulun and Naphtali,"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 14,
+      "refId": "MAT-WOH-4:14",
+      "text": "ἵνα πληρωθῇ τὸ ῥηθὲν διὰ Ἠσαΐου τοῦ προφήτου λέγοντος·",
+      "translit": "hina plērōthē to rhēthen dia ēsaiou tou prophētou legontos·",
+      "i18n": {
+        "en": "so that what was spoken through Isaiah the prophet might be fulfilled, saying:"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 15,
+      "refId": "MAT-WOH-4:15",
+      "text": "Γῆ Ζαβουλὼν καὶ γῆ Νεφθαλίμ, ὁδὸν θαλάσσης, πέραν τοῦ Ἰορδάνου, Γαλιλαία τῶν ἐθνῶν,",
+      "translit": "gē zaboulōn kai gē nephthalim, hodon thalassēs, peran tou iordanou, galilaia tōn ethnōn,",
+      "i18n": {
+        "en": "\"Land of Zebulun and land of Naphtali, the way of the sea, beyond the Jordan, Galilee of the Gentiles —"
+      },
+      "notes": {
+        "official": "Isa 8:23-9:1 (EV 9:1-2), in a form close to neither the LXX nor the MT exactly. *Galilaia tōn ethnōn* 'Galilee of the Gentiles' anticipates the mission to 'all the nations' of 28:19.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 16,
+      "refId": "MAT-WOH-4:16",
+      "text": "ὁ λαὸς ὁ καθήμενος ἐν σκοτίᾳ φῶς εἶδεν μέγα, καὶ τοῖς καθημένοις ἐν χώρᾳ καὶ σκιᾷ θανάτου φῶς ἀνέτειλεν αὐτοῖς.",
+      "translit": "ho laos ho kathēmenos en skotia phōs eiden mega, kai tois kathēmenois en chōra kai skia thanatou phōs aneteilen autois.",
+      "i18n": {
+        "en": "the people who sat in darkness saw a great light, and to those who sat in the region and shadow of death, light dawned on them.\""
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 17,
+      "refId": "MAT-WOH-4:17",
+      "text": "Ἀπὸ τότε ἤρξατο ὁ Ἰησοῦς κηρύσσειν καὶ λέγειν· Μετανοεῖτε, ἤγγικεν γὰρ ἡ βασιλεία τῶν οὐρανῶν.",
+      "translit": "apo tote ērxato ho iēsous kēryssein kai legein· metanoeite, ēngiken gar hē basileia tōn ouranōn.",
+      "i18n": {
+        "en": "From that time Jesus began to preach and to say: \"Repent, for the kingdom of the heavens has come near.\""
+      },
+      "notes": {
+        "official": "'Repent, for the kingdom of the heavens has come near': identical to John's proclamation at 3:2 (`kingdom-of-heaven-basileia-tōn-ouranōn-mt-distinctive-cross-corpus-hebrew-malkhut-shamayim`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "kingdom-of-heaven-basileia-tōn-ouranōn-mt-distinctive-cross-corpus-hebrew-malkhut-shamayim"
+      ]
+    },
+    {
+      "n": 18,
+      "refId": "MAT-WOH-4:18",
+      "text": "Περιπατῶν δὲ παρὰ τὴν θάλασσαν τῆς Γαλιλαίας εἶδεν δύο ἀδελφούς, Σίμωνα τὸν λεγόμενον Πέτρον καὶ Ἀνδρέαν τὸν ἀδελφὸν αὐτοῦ, βάλλοντας ἀμφίβληστρον εἰς τὴν θάλασσαν, ἦσαν γὰρ ἁλιεῖς·",
+      "translit": "peripatōn de para tēn thalassan tēs galilaias eiden dyo adelphous, simōna ton legomenon petron kai andrean ton adelphon autou, ballontas amphiblēstron eis tēn thalassan, ēsan gar halieis·",
+      "i18n": {
+        "en": "And walking beside the Sea of Galilee, he saw two brothers, Simon who is called Peter and Andrew his brother, casting a net into the sea; for they were fishermen."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 19,
+      "refId": "MAT-WOH-4:19",
+      "text": "καὶ λέγει αὐτοῖς· Δεῦτε ὀπίσω μου, καὶ ποιήσω ὑμᾶς ἁλιεῖς ἀνθρώπων.",
+      "translit": "kai legei autois· deute opisō mou, kai poiēsō hymas halieis anthrōpōn.",
+      "i18n": {
+        "en": "And he says to them: \"Come after me, and I will make you fishers of people.\""
+      },
+      "notes": {
+        "official": "*halieis anthrōpōn* 'fishers of people': generic plural *anthrōpoi*, rendered 'people' as in the published 5:13, 16 and 6:1-18 (`anthropos-generic-people-convention-matthew`). The ASV and KJV have 'fishers of men'. The image recalls Jer 16:16, where YHWH sends 'many fishers' to gather the people.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "anthropos-generic-people-convention-matthew"
+      ]
+    },
+    {
+      "n": 20,
+      "refId": "MAT-WOH-4:20",
+      "text": "οἱ δὲ εὐθέως ἀφέντες τὰ δίκτυα ἠκολούθησαν αὐτῷ.",
+      "translit": "hoi de eutheōs aphentes ta diktya ēkolouthēsan autō.",
+      "i18n": {
+        "en": "And immediately they left the nets and followed him."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 21,
+      "refId": "MAT-WOH-4:21",
+      "text": "Καὶ προβὰς ἐκεῖθεν εἶδεν ἄλλους δύο ἀδελφούς, Ἰάκωβον τὸν τοῦ Ζεβεδαίου καὶ Ἰωάννην τὸν ἀδελφὸν αὐτοῦ, ἐν τῷ πλοίῳ μετὰ Ζεβεδαίου τοῦ πατρὸς αὐτῶν καταρτίζοντας τὰ δίκτυα αὐτῶν, καὶ ἐκάλεσεν αὐτούς.",
+      "translit": "kai probas ekeithen eiden allous dyo adelphous, iakōbon ton tou zebedaiou kai iōannēn ton adelphon autou, en tō ploiō meta zebedaiou tou patros autōn katartizontas ta diktya autōn, kai ekalesen autous.",
+      "i18n": {
+        "en": "And going on from there he saw two other brothers, James the son of Zebedee and John his brother, in the boat with Zebedee their father, mending their nets; and he called them."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 22,
+      "refId": "MAT-WOH-4:22",
+      "text": "οἱ δὲ εὐθέως ἀφέντες τὸ πλοῖον καὶ τὸν πατέρα αὐτῶν ἠκολούθησαν αὐτῷ.",
+      "translit": "hoi de eutheōs aphentes to ploion kai ton patera autōn ēkolouthēsan autō.",
+      "i18n": {
+        "en": "And immediately they left the boat and their father and followed him."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 23,
+      "refId": "MAT-WOH-4:23",
+      "text": "Καὶ περιῆγεν ἐν ὅλῃ τῇ Γαλιλαίᾳ, διδάσκων ἐν ταῖς συναγωγαῖς αὐτῶν καὶ κηρύσσων τὸ εὐαγγέλιον τῆς βασιλείας καὶ θεραπεύων πᾶσαν νόσον καὶ πᾶσαν μαλακίαν ἐν τῷ λαῷ.",
+      "translit": "kai periēgen en holē tē galilaia, didaskōn en tais synagōgais autōn kai kēryssōn to euangelion tēs basileias kai therapeuōn pasan noson kai pasan malakian en tō laō.",
+      "i18n": {
+        "en": "And he went about in all Galilee, teaching in their synagogues and proclaiming the gospel of the kingdom and healing every disease and every sickness among the people."
+      },
+      "notes": {
+        "official": "*kēryssōn to euangelion tēs basileias* 'proclaiming the gospel of the kingdom': *euangelion* means 'good news'. 'Gospel' is the English calque (Old English *gōdspel*) and the program's established rendering on the NT surface (Mk 16:15; Acts 15:7) (`euangelion-gospel-matthew`). The summary is repeated almost verbatim at 9:35, framing the Sermon (5-7) and the deeds (8-9).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "euangelion-gospel-matthew"
+      ]
+    },
+    {
+      "n": 24,
+      "refId": "MAT-WOH-4:24",
+      "text": "καὶ ἀπῆλθεν ἡ ἀκοὴ αὐτοῦ εἰς ὅλην τὴν Συρίαν· καὶ προσήνεγκαν αὐτῷ πάντας τοὺς κακῶς ἔχοντας ποικίλαις νόσοις καὶ βασάνοις συνεχομένους, δαιμονιζομένους καὶ σεληνιαζομένους καὶ παραλυτικούς, καὶ ἐθεράπευσεν αὐτούς.",
+      "translit": "kai apēlthen hē akoē autou eis holēn tēn syrian· kai prosēnenkan autō pantas tous kakōs echontas poikilais nosois kai basanois synechomenous, daimonizomenous kai selēniazomenous kai paralytikous, kai etherapeusen autous.",
+      "i18n": {
+        "en": "And the report of him went out into all Syria; and they brought to him all who were ill, afflicted with various diseases and torments, the demon-possessed and the moon-struck and paralytics; and he healed them."
+      },
+      "notes": {
+        "official": "*selēniazomenous* 'moon-struck', literally 'affected by the moon': ancient medicine linked seizures to the moon, and 'epileptic' (ASV, RSV) is an interpretation of the symptom. The literal rendering keeps the ancient diagnosis visible; the term recurs at 17:15, where the published line also reads 'moon-struck'. *daimonizomenous* 'demon-possessed'.\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The Book Which Tells the Truth (ch. 4) quotes 4:24 (« on lui présenta tous les mal-portants… et il les soigna ») and reads Jesus' healings as the application of scientific teaching received from the creators, so that the people would rally to him. The line renders the Greek medical and possession vocabulary as written.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raelian-canon-citation-reception-note-convention-matthew"
+      ]
+    },
+    {
+      "n": 25,
+      "refId": "MAT-WOH-4:25",
+      "text": "καὶ ἠκολούθησαν αὐτῷ ὄχλοι πολλοὶ ἀπὸ τῆς Γαλιλαίας καὶ Δεκαπόλεως καὶ Ἱεροσολύμων καὶ Ἰουδαίας καὶ πέραν τοῦ Ἰορδάνου.",
+      "translit": "kai ēkolouthēsan autō ochloi polloi apo tēs galilaias kai dekapoleōs kai hierosolymōn kai ioudaias kai peran tou iordanou.",
+      "i18n": {
+        "en": "And great crowds followed him from Galilee and the Decapolis and Jerusalem and Judea and from beyond the Jordan."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    }
+  ],
+  "editorial_questions": [],
+  "editorial_questions_resolved": [
+    {
+      "refId": "MAT-WOH-4:1",
+      "issue": "πειράζω / πειρασθῆναι (peirazō; also ὁ πειράζων 'the tempter' 4:3; cf. 16:1, 19:3, 22:18, πειρασμός 26:41): 'tempt' vs. 'test'. The canon quotes 4:1 as « pour être mis à l'épreuve du diable » (to be put to the test) and LWTE ch. 2 reads the episode as a test of fidelity. The central Lord's-Prayer entry's wohChoice text says 'testing' for πειρασμός, but the stable precedent surface at 6:13 reads 'temptation'.",
+      "default_taken": "to be tempted by the devil",
+      "resolution": "'to be tempted' / 'the tempter' kept (agent = devil; BDAG s.v. πειράζω 4; consistent with published 6:13 'temptation'); 'testing him' for opponents' questions (19:3); test reading (Gerhardsson) and canon « mis à l'épreuve » in commentary. Central Lord's-Prayer entry text ('testing') vs published 6:13 surface ('temptation') flagged for a later pass.",
+      "glossaryEntry": "peirazo-peirasmos-tempt-test-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-4:1",
+      "issue": "διάβολος (diabolos; also 4:5, 4:8, 4:11; precedent 13:39, 25:41): 'the devil' vs. the etymological 'the slanderer' / 'the accuser'. LWTE ch. 2 explicitly glosses diabolos as « calomniateur » (slanderer). No Greek-side glossary entry.",
+      "default_taken": "the devil",
+      "resolution": "'the devil' kept as the title; etymology 'slanderer' and LWTE « calomniateur » in commentary.",
+      "glossaryEntry": "diabolos-the-devil-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-4:10",
+      "issue": "Σατανᾶ (Satana, vocative): the central entry ha-satan renders Hebrew הַשָּׂטָן in Job as 'the adversary', but is scoped to Job; here the Greek is an anarthrous name in direct address, and the canon (LWTE ch. 2) treats it as a personal name. Also a minor variant: some Byzantine witnesses add ὀπίσω μου ('Get behind me'), absent from SBLGNT and from the KJV.",
+      "default_taken": "Go away, Satan!",
+      "resolution": "'Satan' kept as a personal name; central ha-satan (Hebrew, article, Job) not applied; Byzantine 'Get behind me' noted.",
+      "glossaryEntry": "satanas-satan-name-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-4:19",
+      "issue": "ἁλιεῖς ἀνθρώπων (halieis anthrōpōn): the precedent chapters render generic ἄνθρωποι as 'people' (5:13, 5:16, 6:1); the traditional phrase is 'fishers of men' (ASV/KJV).",
+      "default_taken": "fishers of people",
+      "resolution": "'fishers of people' kept per the generic-anthrōpoi convention of the published chapters.",
+      "glossaryEntry": "anthropos-generic-people-convention-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    },
+    {
+      "refId": "MAT-WOH-4:23",
+      "issue": "εὐαγγέλιον (euangelion; also 9:35, 26:13): 'gospel' vs. 'good news'. Unglossed.",
+      "default_taken": "gospel",
+      "resolution": "'gospel' kept, consistent with published Mk 16:15 and Acts 15:7; 'good news' in commentary.",
+      "glossaryEntry": "euangelion-gospel-matthew",
+      "resolvedBy": "claude-opus-5-5 (editor)",
+      "escalated": false
+    }
+  ]
+}

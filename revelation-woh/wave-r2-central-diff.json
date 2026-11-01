@@ -1,0 +1,358 @@
+[
+  {
+    "op": "version",
+    "from": "2.80.0",
+    "to": "2.81.0",
+    "note": "Base: central glossary v2.80.0 (translation-glossary-2.80.0.json). Contents: 12 modify ops, all appliesTo extensions for revelation-woh wave R2 (Rev 7, 8, 9, 10, 12, 13, 16, 21); one of them (gophrit-va-esh-destruction-formula) also extends the strongs field with the Greek lexeme. No new central entry, no wohChoice changed, no decision reversed, so a minor bump is recommended. Apply semantics as in the Kings wave diffs: op=modify replaces each field in `changes`; appliesTo values are complete arrays preserving every refId of v2.80.0. CONCURRENCY: the ezekiel-woh Editor is producing a central diff from the same 2.80.0 base in parallel. If it is merged first, renumber this diff to the next minor and re-base each appliesTo array as the union of the then-current array and `appliesToAdded` (chayyot and cosmic-silence-... carry EZK refIds and are the likeliest overlaps).",
+    "scopeNoteAddendum": "**v2.81.0 (Revelation wave R2 — Rev 7, 8, 9, 10, 12, 13, 16, 21, the chapters read verse by verse in *Let's Welcome the Extra-Terrestrials* ch. 2):** no new central entries. `gophrit-va-esh-destruction-formula` now governs the Greek *theion* 'sulfur' (Rev 9:17, 18; 21:8; KJV/ASV 'brimstone'). appliesTo extensions for apo-ho-on (16:5), ehyeh-asher-ehyeh (16:5), four-living-creatures and chayyot (7:11), cosmic-silence (8:1), qarnot-ha-mizbeach (9:13, 'the horns of the golden altar'), sealed-book (10:4), michael (12:7), christos (12:10), iēsous (12:17) and paradise-by-negation (21:4). Revelation-specific decisions (base text and variants; theos 'God' against the canon's English 'Yahweh'; Greek proper names and the scope rule that a Hebrew-text central entry applies to a Greek line only where its English also correctly renders the Greek word (chayyot at 7:11; gophrit 'sulfur' for theion), while entries such as shivtei-yisrael, ha-satan and tehom remain background; doulos; exousia; psychē; skēnē; abyssos; gem names) live in the revelation-woh overlay v1.2.0."
+  },
+  {
+    "op": "modify",
+    "id": "gophrit-va-esh-destruction-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-19:24",
+        "DEUT-29:22",
+        "ISA-30:33",
+        "ISA-34:9",
+        "EZEK-38:22",
+        "JOB-18:15",
+        "PS-11:6",
+        "REV-WOH-9:17",
+        "REV-WOH-9:18",
+        "REV-WOH-21:8"
+      ],
+      "strongs": "H1614 (gophrit) + H784 (esh); Greek θεῖον theion G2303 (LXX Gen 19:24; Luke 17:29; Rev 9:17-18; 14:10; 19:20; 20:10; 21:8) and θειώδης theiōdēs G2306 (Rev 9:17)"
+    },
+    "appliesToAdded": [
+      "REV-WOH-9:17",
+      "REV-WOH-9:18",
+      "REV-WOH-21:8"
+    ],
+    "reason": "Extension to the Greek equivalent *theion* (LXX Gen 19:24; Luke 17:29): the entry's rationale already treats the Revelation 'lake of fire and sulfur' reception and renders Rev 21:8 'fire and sulfur'. 'sulfur' now governs Rev 9:17 (twice, with the colour adjective *theiōdeis* 'of sulfur'), 9:18 and 21:8 (KJV/ASV and the canon's English edition: 'brimstone'). No change of decision; strongs field extended with the Greek lexeme for auditability."
+  },
+  {
+    "op": "modify",
+    "id": "apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "REV-WOH-1:4",
+        "REV-WOH-1:8",
+        "REV-WOH-4:8",
+        "REV-WOH-16:5"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-16:5"
+    ],
+    "reason": "appliesTo extension only: the rationale names Rev 16:5, where the two-membered formula *ho ōn kai ho ēn* ('who are and who were') recurs without 'who is to come'."
+  },
+  {
+    "op": "modify",
+    "id": "ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-3:12",
+        "EXO-WOH-3:14",
+        "REV-WOH-1:4",
+        "REV-WOH-1:8",
+        "REV-WOH-4:8",
+        "REV-WOH-16:5"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-16:5"
+    ],
+    "reason": "appliesTo extension only, parallel to the `apo-ho-on-...` extension (the entry already lists Rev 1:4, 1:8, 4:8)."
+  },
+  {
+    "op": "modify",
+    "id": "four-living-creatures-rev-4-6-8-ezek-1-chayyot-shiur-qomah-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "REV-WOH-4:6",
+        "REV-WOH-4:7",
+        "REV-WOH-4:8",
+        "REV-WOH-6:1",
+        "REV-WOH-6:3",
+        "REV-WOH-6:5",
+        "REV-WOH-6:7",
+        "REV-WOH-7:11"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-7:11"
+    ],
+    "reason": "appliesTo extension only: 'the four living creatures' at Rev 7:11 (as at 6:1-7)."
+  },
+  {
+    "op": "modify",
+    "id": "chayyot",
+    "changes": {
+      "appliesTo": [
+        "EZK-1:5",
+        "EZK-1:13",
+        "EZK-1:14",
+        "EZK-1:15",
+        "EZK-1:19",
+        "EZK-1:20",
+        "EZK-1:21",
+        "EZK-1:22",
+        "EZK-10:15",
+        "EZK-10:17",
+        "EZK-10:20",
+        "SHQM-WOH-1:45",
+        "SHQM-WOH-1:46",
+        "SHQM-WOH-1:47",
+        "SHQM-WOH-1:49",
+        "SHQM-WOH-1:59",
+        "SHQM-WOH-1:60",
+        "REV-WOH-4:6",
+        "REV-WOH-4:7",
+        "REV-WOH-4:8",
+        "REV-WOH-6:1",
+        "REV-WOH-6:3",
+        "REV-WOH-6:5",
+        "REV-WOH-6:7",
+        "ENO-WOH-14:11",
+        "ENO-WOH-14:18",
+        "ENO-WOH-14:23",
+        "REV-WOH-7:11"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-7:11"
+    ],
+    "reason": "appliesTo extension only, parallel to `four-living-creatures-...` (the entry already lists Rev 4:6-8 and 6:1-7). Union-merge with any concurrent ezekiel-woh extension."
+  },
+  {
+    "op": "modify",
+    "id": "cosmic-silence-shem-ha-mephorash-revelation-tradition-cross-corpus-shiur-qomah-revelation-8-1",
+    "changes": {
+      "appliesTo": [
+        "EZK-1:24",
+        "EZK-1:25",
+        "SHQM-WOH-1:59",
+        "SHQM-WOH-1:60",
+        "REV-WOH-8:1"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-8:1"
+    ],
+    "reason": "appliesTo extension only: the entry is named for Rev 8:1 and prescribes the literal rendering ('there was silence in heaven for about half an hour'). Union-merge with any concurrent ezekiel-woh extension (the entry carries EZK refIds)."
+  },
+  {
+    "op": "modify",
+    "id": "qarnot-ha-mizbeach-horns-of-the-altar-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "1KI-WOH-1:50",
+        "1KI-WOH-1:51",
+        "1KI-WOH-2:28",
+        "REV-WOH-9:13"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-9:13"
+    ],
+    "reason": "appliesTo extension only: Rev 9:13 'the horns of the golden altar' (the incense altar of Ex 30:2-3) is rendered literally under this entry; the entry's reception-only clause (canon reads the horns as technical devices) applies equally at Rev 9:13 (the canon reads 'the four horns' as four loudspeakers)."
+  },
+  {
+    "op": "modify",
+    "id": "sealed-book-dan-12-4-9-revelation-jubilees-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "DAN-WOH-8:26",
+        "DAN-WOH-12:4",
+        "DAN-WOH-12:9",
+        "REV-WOH-10:4"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-10:4"
+    ],
+    "reason": "appliesTo extension only: the rationale names Rev 10:4 ('Seal up ... and do not write them')."
+  },
+  {
+    "op": "modify",
+    "id": "michael-as-israels-prince-angel-dan-10-13-21-12-1-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "DAN-WOH-10:13",
+        "DAN-WOH-10:21",
+        "DAN-WOH-12:1",
+        "REV-WOH-12:7"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-12:7"
+    ],
+    "reason": "appliesTo extension only: 'Michael' as proper noun at Rev 12:7 (rationale names Rev 12:7-9)."
+  },
+  {
+    "op": "modify",
+    "id": "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic",
+    "changes": {
+      "appliesTo": [
+        "MAT-WOH-1:1",
+        "MAT-WOH-1:16",
+        "MAT-WOH-1:17",
+        "MAT-WOH-1:18",
+        "REV-WOH-12:10"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-12:10"
+    ],
+    "reason": "appliesTo extension only: 'his Christ' (Ps 2:2 title) at Rev 12:10."
+  },
+  {
+    "op": "modify",
+    "id": "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "MAT-WOH-1:1",
+        "MAT-WOH-1:16",
+        "MAT-WOH-1:21",
+        "MAT-WOH-1:25",
+        "THOM-0",
+        "THOM-2",
+        "THOM-3",
+        "THOM-4",
+        "THOM-5",
+        "THOM-6",
+        "THOM-7",
+        "THOM-9",
+        "THOM-10",
+        "THOM-11",
+        "THOM-12",
+        "THOM-13",
+        "THOM-14",
+        "THOM-15",
+        "THOM-16",
+        "THOM-17",
+        "THOM-18",
+        "THOM-19",
+        "THOM-20",
+        "THOM-21",
+        "THOM-22",
+        "THOM-23",
+        "THOM-25",
+        "THOM-26",
+        "THOM-28",
+        "THOM-29",
+        "THOM-30",
+        "THOM-31",
+        "THOM-32",
+        "THOM-33",
+        "THOM-34",
+        "THOM-35",
+        "THOM-36",
+        "THOM-37",
+        "THOM-38",
+        "THOM-39",
+        "THOM-40",
+        "THOM-41",
+        "THOM-42",
+        "THOM-44",
+        "THOM-45",
+        "THOM-46",
+        "THOM-47",
+        "THOM-48",
+        "THOM-49",
+        "THOM-50",
+        "THOM-54",
+        "THOM-55",
+        "THOM-56",
+        "THOM-57",
+        "THOM-58",
+        "THOM-59",
+        "THOM-61",
+        "THOM-62",
+        "THOM-63",
+        "THOM-64",
+        "THOM-66",
+        "THOM-67",
+        "THOM-68",
+        "THOM-69",
+        "THOM-70",
+        "THOM-71",
+        "THOM-73",
+        "THOM-75",
+        "THOM-76",
+        "THOM-77",
+        "THOM-78",
+        "THOM-80",
+        "THOM-81",
+        "THOM-82",
+        "THOM-83",
+        "THOM-84",
+        "THOM-85",
+        "THOM-86",
+        "THOM-87",
+        "THOM-88",
+        "THOM-89",
+        "THOM-90",
+        "THOM-92",
+        "THOM-94",
+        "THOM-95",
+        "THOM-96",
+        "THOM-97",
+        "THOM-98",
+        "THOM-100",
+        "THOM-102",
+        "THOM-103",
+        "THOM-104",
+        "THOM-105",
+        "THOM-106",
+        "THOM-107",
+        "THOM-108",
+        "THOM-109",
+        "THOM-110",
+        "THOM-111",
+        "THOM-112",
+        "THOM-114",
+        "REV-WOH-12:17"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-12:17"
+    ],
+    "reason": "appliesTo extension only: 'the testimony of Jesus' at Rev 12:17."
+  },
+  {
+    "op": "modify",
+    "id": "paradise-by-negation-no-predation-no-illness-no-aging-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "ENH-WOH-1:11",
+        "ENH-WOH-1:12",
+        "ENH-WOH-1:13",
+        "ENH-WOH-1:14",
+        "ENH-WOH-1:15",
+        "ENH-WOH-1:16",
+        "ENH-WOH-1:17",
+        "ENH-WOH-1:18",
+        "ENH-WOH-1:19",
+        "ENH-WOH-1:20",
+        "ENH-WOH-1:21",
+        "ENH-WOH-1:22",
+        "ENH-WOH-1:23",
+        "ENH-WOH-1:24",
+        "ENH-WOH-1:25",
+        "ENH-WOH-1:26",
+        "ENH-WOH-1:27",
+        "ENH-WOH-1:28",
+        "VID-2:5",
+        "VID-2:29",
+        "VID-2:37",
+        "REV-WOH-21:4"
+      ]
+    },
+    "appliesToAdded": [
+      "REV-WOH-21:4"
+    ],
+    "reason": "appliesTo extension only: the rationale names Rev 21:4; each negation is rendered literally."
+  }
+]
