@@ -6,8 +6,8 @@
   "title": "The Gospel of Thomas 1 — The hidden sayings of the living Jesus",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
-    "status": "awaiting-human",
+    "version": "1.0.0",
+    "status": "stable",
     "block": "A (n=0–38)",
     "scope": "Block A only: incipit (n=0) and logia 1–38 (39 units). Blocks B (39–76) and C (77–114) to follow.",
     "sourceText": "Coptic Scriptorium thomas-gospel corpus, Dilley edition, v6.2.0 (2025-11-25) — diplomatic bound groups (orig_group); Nag Hammadi Codex II,2 (msName NHAM.02; Coptic Museum Cairo, NH 10544; codex pages 32-51; 4th century CE); Sahidic Coptic, with Lycopolitan features",
@@ -17,13 +17,13 @@
     "sourceUrl": "https://raw.githubusercontent.com/CopticScriptorium/corpora/master/thomas-gospel/thomas.gospel_TT/thomas_gospel.tt",
     "sourceAccessedVia": "https://github.com/CopticScriptorium/corpora (thomas-gospel corpus, fetched 2026-06-12); lemma/POS aid from the same corpus (CC BY 4.0) used for parsing only",
     "comparisonText": "Greek Oxyrhynchus fragments where they overlap (P.Oxy. 654 = incipit + logia 1–7; P.Oxy. 1 = 26–30 + 77b, 31–33; P.Oxy. 655 = 24, 36–39), cited from the Translator's knowledge of the Greek; Coptic followed throughout, material divergences raised in editorial_questions",
-    "glossaryVersion": "2.74.0",
+    "glossaryVersion": "2.75.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-10-31T20:20:46Z",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-01T09:00:00Z",
     "overlayGlossaryVersion": "1.0.0",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
@@ -778,6 +778,16 @@
       "sourceFindingsCheck": "All seven Translator/Editor source findings were confirmed against source-cop-1.json and the lemma aid: 3 (ⲉⲩϣⲁϫⲟⲟⲥ → ⲉⲩϣⲁⲛϫⲟⲟⲥ), 8 (one bracket against two supplied spans; ⲁⲩ- → ⲉⲩ-), 10 (ϯⲁⲣⲉϩ → ϯϩⲁⲣⲉϩ), 14 (stray U+0027 before ⲛ̄ⲧⲉⲧⲙ̄ⲙⲟⲟϣⲉ), 18 (ⲧⲛ̄ϩⲁⲏ → ⲧⲉⲛϩⲁⲏ; rasura in ⲥⲟⲩⲱⲛⲑϩⲁⲏ), 22 (two brackets against six spans; ⲙ̄ⲫⲟ·ⲟⲩⲧ), 32 (diplomatic ⲁⲛ, normalised ⲟⲛ). The chapter `text` is byte-identical to source-cop-1.json for n=0–38. Conventions verified: [ ] at 8, 16, 22, 29 and 37 only; nomina sacra expanded silently; sky/heaven rule applied consistently; 'sons' only in the filial formulas (3, 28, 37), 'little child(ren)' for ϣⲏⲣⲉ ϣⲏⲙ (4, 21, 37).",
       "escalationReportAdjustments": "Initial verdicts were formed before opening chapter-1-editor-report.md. After reading it, no per-unit verdict changed. The report added three things. (a) Its binding Blocks B/C list repeats \"'will not taste death' (85, 111)\", so the jitpe-mpmou revise now also asks for that list to be corrected (111 = 'will not see death'). (b) The 'sons' escalation looks ahead to Block B (logion 50), which exposed that the overlay's Greek-based criterion cannot decide sayings with no Greek; the shere-son-child revise now restates the criterion as the filial-formula pattern. (c) The text of the CENTRAL proposals: the lacuna-bracket extension was checked against the central rationale and found to conflict with its 'another witness' definition (revise: add an adoption sentence or keep the convention overlay-only); the other proposals and both deliberate non-extensions are approved.",
       "summary": "39 unit verdicts: 38 approve, 1 revise (THOM-3: the commentary should label Greek υἱοί as restored), 0 flag-for-human. 39 overlay entries: 35 approve, 3 revise (jitpe-mpmou: 111 is 'see death', not 'taste'; shere-son-child: Greek υἱοί claim overstated at 3 and 37, criterion restated for Blocks B/C; lion-and-man: Patterson–Meyer attribution appears wrong), 1 flag-for-human (the speculative WoH-reading entry, with a 'creating' → 'living' Father wording fix). Central proposals: add 'cop' approve; iēsous extension approve; kingdom-of-heaven → THOM-20 approve; lacuna-bracket extension revise (add Thomas adoption sentence or keep overlay-only); sower and beatitudes non-extensions approve. Escalated items: 7/30 manuscript readings approved; 'sons' approved (register question left open for the human); 33 'measure' approved; 21 unbracketed negative approved (supported by the same spelling at 22). Lens leakage: none in the English. Housekeeping (non-blocking): make the DeConick date consistent (2006 at THOM-0, 2007 at THOM-18 and two overlay entries). Translation quality is high: literal, unsmoothed, and faithful to the Coptic at every point checked. Status advanced to awaiting-human."
+    },
+    "humanRuling": {
+      "ratifiedAt": "2026-11-01T09:00:00Z",
+      "by": "zarazinsfuss",
+      "scope": "Block A (n=0–38)",
+      "rulings": [
+        "Speculative overlay entry woh-reading-kingdom-within-beginning-end-five-trees-thomas-woh kept (apparatus only, labelled paragraphs at THOM-3/18/19) with the wording fix: 'a child of the living Father', 'can become creators in turn' dropped.",
+        "'sons' kept for ϣⲏⲣⲉ in the filial formulas, binding the whole book.",
+        "All reviewer revise items applied (THOM-3 Greek restoration note; logion 111 'will not see death'; shere criterion restated; logion 7 emendation attribution; Thomas-specific sentence on the central lacuna-bracket extension); DeConick date unified to 2006."
+      ]
     }
   },
   "paragraphs": [
@@ -867,7 +877,7 @@
         "woh-reading-kingdom-within-beginning-end-five-trees-thomas-woh"
       ],
       "notes": {
-        "official": "**'In the sky', not 'in heaven'.** Coptic ⲧⲡⲉ means both 'sky' and 'heaven'. The saying's joke depends on the same word in both clauses (if the kingdom is in the sky, the birds of the sky will get there first), so the English uses 'sky' twice, as Lambdin does. See `tpe-sky-heaven-context-rule-thomas-woh`.\n\n**Greek differences** (P.Oxy. 654.9-21, much restored): the second location is 'under the earth', not 'in the sea'; 'the fish of the sea' enter ahead of you; the Greek adds 'whoever knows himself will find it' and lacks 'then you will be known'; the kingdom is usually restored as 'the kingdom [of God]'. Compare Lk 17:20-21. 'The sons of the living Father' keeps the υἱοί of the Greek (see `shere-son-child-thomas-woh`).\n\n**Source note.** The diplomatic text reads ⲉⲩϣⲁϫⲟⲟⲥ, which the corpus normalises to the conditional ⲉⲩϣⲁⲛϫⲟⲟⲥ 'if they say'. The lemma aid records a supplied letter here that `text` does not mark. The English follows the normalised reading.\n\n**Wheel of Heaven reading (interpretive; not part of the translation).** The saying denies that the kingdom is a place in the sky, so it gives no support to reading 'the kingdom' as a location among the stars. What a Wheel of Heaven reader may notice is the link it draws between self-knowledge and recognising oneself as a child of 'the living Father', which can be read alongside the canon's teaching that humans were made in the image of the Elohim. See `woh-reading-kingdom-within-beginning-end-five-trees-thomas-woh` (speculative).",
+        "official": "**'In the sky', not 'in heaven'.** Coptic ⲧⲡⲉ means both 'sky' and 'heaven'. The saying's joke depends on the same word in both clauses (if the kingdom is in the sky, the birds of the sky will get there first), so the English uses 'sky' twice, as Lambdin does. See `tpe-sky-heaven-context-rule-thomas-woh`.\n\n**Greek differences** (P.Oxy. 654.9-21, much restored): the second location is 'under the earth', not 'in the sea'; 'the fish of the sea' enter ahead of you; the Greek adds 'whoever knows himself will find it' and lacks 'then you will be known'; the kingdom is usually restored as 'the kingdom [of God]'. Compare Lk 17:20-21. 'The sons of the living Father' agrees with the Greek of P.Oxy. 654 as usually restored (υἱοί; Attridge in Layton ed. 1989) (see `shere-son-child-thomas-woh`).\n\n**Source note.** The diplomatic text reads ⲉⲩϣⲁϫⲟⲟⲥ, which the corpus normalises to the conditional ⲉⲩϣⲁⲛϫⲟⲟⲥ 'if they say'. The lemma aid records a supplied letter here that `text` does not mark. The English follows the normalised reading.\n\n**Wheel of Heaven reading (interpretive; not part of the translation).** The saying denies that the kingdom is a place in the sky, so it gives no support to reading 'the kingdom' as a location among the stars. What a Wheel of Heaven reader may notice is the link it draws between self-knowledge and recognising oneself as a child of 'the living Father', which can be read alongside the canon's teaching that humans were made in the image of the Elohim. See `woh-reading-kingdom-within-beginning-end-five-trees-thomas-woh` (speculative).",
         "community": []
       }
     },
@@ -1190,7 +1200,7 @@
         "woh-reading-kingdom-within-beginning-end-five-trees-thomas-woh"
       ],
       "notes": {
-        "official": "**Beginning and end.** ⲧⲁⲣⲭⲏ (Greek loan) and ⲑⲁϩⲏ (native ϩⲁⲏ) are rendered 'the beginning' and 'the end'. The saying answers a question about the end by pointing back to the beginning, a theme commentators connect with Thomas's interest in the primordial state (DeConick 2007; Gathercole 2014).\n\n**Source note.** In ⲥⲟⲩⲱⲛⲑϩⲁⲏ the scribe wrote and erased a ϩ (rasura, Dilley); the lemma aid records a supplied element that `text` does not mark. 'He will know the end' is unaffected. The disciples' 'our end' follows the corpus normalisation ⲧⲉⲛϩⲁⲏ.\n\n**Wheel of Heaven reading (interpretive; not part of the translation).** A Wheel of Heaven reader will hear in 'where the beginning is, there the end will be' an echo of the cyclical framework of precessional ages from which the project takes its name. The saying itself speaks of individual knowledge and of not tasting death, not of cosmic cycles. See `woh-reading-kingdom-within-beginning-end-five-trees-thomas-woh` (speculative).",
+        "official": "**Beginning and end.** ⲧⲁⲣⲭⲏ (Greek loan) and ⲑⲁϩⲏ (native ϩⲁⲏ) are rendered 'the beginning' and 'the end'. The saying answers a question about the end by pointing back to the beginning, a theme commentators connect with Thomas's interest in the primordial state (DeConick 2006; Gathercole 2014).\n\n**Source note.** In ⲥⲟⲩⲱⲛⲑϩⲁⲏ the scribe wrote and erased a ϩ (rasura, Dilley); the lemma aid records a supplied element that `text` does not mark. 'He will know the end' is unaffected. The disciples' 'our end' follows the corpus normalisation ⲧⲉⲛϩⲁⲏ.\n\n**Wheel of Heaven reading (interpretive; not part of the translation).** A Wheel of Heaven reader will hear in 'where the beginning is, there the end will be' an echo of the cyclical framework of precessional ages from which the project takes its name. The saying itself speaks of individual knowledge and of not tasting death, not of cosmic cycles. See `woh-reading-kingdom-within-beginning-end-five-trees-thomas-woh` (speculative).",
         "community": []
       }
     },

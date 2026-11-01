@@ -120,7 +120,7 @@ All overlay ids carry the suffix `-thomas-woh`; it is omitted in the table.
 7. **Fixed renderings carried forward:**
    - 'the kingdom'; 'the kingdom of the Father'; 'the kingdom of the heavens' (54, 114)
    - 'the All' (67, 77)
-   - 'will not taste death' (85, 111)
+   - 'will not taste death' (85); logion 111 has a different verb and reads 'will not see death' (corrected at sign-off)
    - 'solitary ones' (49, 75)
    - 'image(s)' (50, 83, 84)
    - 'the living one', lower case (52, 59, 111)
