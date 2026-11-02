@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "scope": "revelation-woh",
-  "description": "Per-translation glossary overlay for the WoH Translation of Revelation (canon-cited chapters 1, 4, 6, 7, 8, 9, 10, 12, 13, 16, 21). Greek source convention + Apocalypse-specific lexicon overlay. v1.2.0 (wave R2): base-text and variant-reporting convention, theos 'God' against the canon's English 'Yahweh', Greek proper names and the scope rule for Hebrew-text central entries, doulos, exousia, psychē, skēnē/skēnoō, abyssos, foundation-stone names; apo-ho-on convention extended to 16:5.",
+  "description": "Per-translation glossary overlay for the WoH Translation of Revelation (canon-cited chapters 1, 4, 5, 6, 7, 8, 9, 10, 12, 13, 16, 21). Greek source convention + Apocalypse-specific lexicon overlay. v1.2.0 (wave R2): base-text and variant-reporting convention, theos 'God' against the canon's English 'Yahweh', Greek proper names and the scope rule for Hebrew-text central entries, doulos, exousia, psychē, skēnē/skēnoō, abyssos, foundation-stone names; apo-ho-on convention extended to 16:5. v1.3.0 (wave MC, 2026-11-02, Rev 5): new entry `biblion-book-scroll-rendering-revelation` ('book' for biblion, 'scroll' only where the rolling is described, codifying the rule stated at 10:2); appliesTo extensions for the base-text and variant convention, theos 'God' and the Greek proper-names convention to Rev 5. Wave MC signed off at human review on 2026-11-02 (zarazinsfuss); its central proposals were applied as central glossary v2.91.0 (New Testament), v2.92.0 (Septuagint) and v2.93.0 (Hebrew).",
   "sourceLanguages": [
     "grc"
   ],
@@ -68,7 +68,17 @@
         "REV-WOH-21:3",
         "REV-WOH-21:4",
         "REV-WOH-21:6",
-        "REV-WOH-21:24"
+        "REV-WOH-21:24",
+        "REV-WOH-5:1",
+        "REV-WOH-5:3",
+        "REV-WOH-5:4",
+        "REV-WOH-5:5",
+        "REV-WOH-5:6",
+        "REV-WOH-5:7",
+        "REV-WOH-5:9",
+        "REV-WOH-5:10",
+        "REV-WOH-5:13",
+        "REV-WOH-5:14"
       ]
     },
     {
@@ -113,7 +123,10 @@
         "REV-WOH-21:10",
         "REV-WOH-21:11",
         "REV-WOH-21:22",
-        "REV-WOH-21:23"
+        "REV-WOH-21:23",
+        "REV-WOH-5:6",
+        "REV-WOH-5:9",
+        "REV-WOH-5:10"
       ]
     },
     {
@@ -143,7 +156,8 @@
         "REV-WOH-16:19",
         "REV-WOH-21:2",
         "REV-WOH-21:10",
-        "REV-WOH-21:12"
+        "REV-WOH-21:12",
+        "REV-WOH-5:5"
       ]
     },
     {
@@ -256,6 +270,35 @@
         "REV-WOH-21:18",
         "REV-WOH-21:19",
         "REV-WOH-21:20"
+      ]
+    },
+    {
+      "id": "biblion-book-scroll-rendering-revelation",
+      "source": "βιβλίον; βιβλαρίδιον",
+      "translit": "biblion; biblaridion",
+      "strongs": "G975 (biblion); G974 (biblaridion)",
+      "partOfSpeech": "noun, neuter (biblaridion diminutive)",
+      "literal": "a written roll, scroll; a document (biblaridion 'a little scroll')",
+      "standardEnglish": "'book' (KJV, ASV; 'a little book' at 10:2); 'scroll' (RSV, NRSV, ESV; 'a little scroll' at 10:2); 'scroll' at 6:14 in the KJV, ASV, RSV and NRSV",
+      "wohChoice": "'book' for *biblion* where it is a written object that is held, opened, sealed, taken, eaten or written in: 1:11 'write in a book'; 5:1-9 'a book written within and on the back, sealed with seven seals'; 10:2, 8-10 'the little book' / 'the book'; 'the book of life' (13:8; 21:27). 'scroll' only where the text describes the rolling itself (6:14 *hōs biblion helissomenon* 'like a scroll being rolled up', from Isa 34:4). The roll form is stated in the commentary at 5:1 and 10:2.",
+      "claim_type": "direct",
+      "rationale": "In the first century a *biblion* is ordinarily a roll (BDAG s.v. *biblion* 1; LSJ), and the object of 5:1, written on both sides and sealed with seven seals, fits a roll, so the RSV and NRSV 'scroll' is accurate in physical terms. 'book' is also an established and defensible rendering: the KJV and ASV use it, the word names a document by its contents as much as by its form ('the book of life', 'the book of Moses'), and biblical English 'book' does not imply a codex. The published Revelation chapters already use 'book' at 1:11 and 10:2-10 and 'scroll' at 6:14, where a simile of rolling cannot be rendered with 'book', and the commentary at 10:2 states that rule; applying it at 5:1-9 keeps the sealed book of chapter 5 and the opened book of chapter 10 in one English word, which matters because commentators relate the two (Bauckham, *The Climax of Prophecy*, 1993, 243-257; Aune, WBC 52B, on 10:2). The French of the Raëlian canon (« livre », *Let's Welcome the Extra-Terrestrials* ch. 4 on 5:1) agrees with this choice, but the decision rests on the Revelation precedent and the ASV, and the canon is recorded only in the reception note. The entry is direct: both renderings are standard, and the convention only fixes which English word each type of context receives.",
+      "appliesTo": [
+        "REV-WOH-1:11",
+        "REV-WOH-5:1",
+        "REV-WOH-5:2",
+        "REV-WOH-5:3",
+        "REV-WOH-5:4",
+        "REV-WOH-5:5",
+        "REV-WOH-5:8",
+        "REV-WOH-5:9",
+        "REV-WOH-6:14",
+        "REV-WOH-10:2",
+        "REV-WOH-10:8",
+        "REV-WOH-10:9",
+        "REV-WOH-10:10",
+        "REV-WOH-13:8",
+        "REV-WOH-21:27"
       ]
     }
   ]

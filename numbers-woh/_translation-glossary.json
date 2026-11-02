@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scope": "numbers-woh",
-  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of Numbers (canon-cited chapters: 18, 21, 33). v1.0.0 (2026-11-01, Torah wave T1 Editor pass) carries the shared Torah conventions, identical in substance to the exodus-woh and deuteronomy-woh overlays (proper names, quotation marks, MT baseline / Ketiv-Qere / accents, Elohim referent and article, nefesh scope, 'the Testimony'), and the Numbers-specific decisions: zār 'outsider', the ḥērem vocabulary, the fiery serpent of Num 21, the priestly-dues vocabulary of Num 18 and the cult objects of Num 33:52. Cross-corpus decisions of the wave (tərûmâ 'oblation' with hērîm 'set apart'; nəḥōšeṯ 'bronze'; tôrâ 'law'; taḇnîṯ 'pattern') are proposed for the central glossary in exodus-woh/wave-t1-central-diff.json. Sign-off corrections (2026-11-01): reviewer fixes applied (elohim-referent rationale at Deut 4:7; KJV attribution of the canon's English; ḥērem Hiphil 'devote ... to destruction' in numbers-woh; bārāʾ 'create' outside Genesis and the published Exodus name forms ratified). Signed off at human review on 2026-11-01 (zarazinsfuss); this wave's central proposals were applied as central glossary v2.84.0, and the sign-off merge is v2.90.0.",
+  "description": "Per-translation glossary overlay for the Wheel of Heaven Translation of Numbers (canon-cited chapters: 18, 21, 33). v1.0.0 (2026-11-01, Torah wave T1 Editor pass) carries the shared Torah conventions, identical in substance to the exodus-woh and deuteronomy-woh overlays (proper names, quotation marks, MT baseline / Ketiv-Qere / accents, Elohim referent and article, nefesh scope, 'the Testimony'), and the Numbers-specific decisions: zār 'outsider', the ḥērem vocabulary, the fiery serpent of Num 21, the priestly-dues vocabulary of Num 18 and the cult objects of Num 33:52. Cross-corpus decisions of the wave (tərûmâ 'oblation' with hērîm 'set apart'; nəḥōšeṯ 'bronze'; tôrâ 'law'; taḇnîṯ 'pattern') are proposed for the central glossary in exodus-woh/wave-t1-central-diff.json. Sign-off corrections (2026-11-01): reviewer fixes applied (elohim-referent rationale at Deut 4:7; KJV attribution of the canon's English; ḥērem Hiphil 'devote ... to destruction' in numbers-woh; bārāʾ 'create' outside Genesis and the published Exodus name forms ratified). Signed off at human review on 2026-11-01 (zarazinsfuss); this wave's central proposals were applied as central glossary v2.84.0, and the sign-off merge is v2.90.0. v1.1.0 (2026-11-02, Wave MC, Hebrew part (Num 11; Editor pass 2026-11-02, claude-opus-5-5)): Num 11 added. The shared Torah conventions keep their text and gain the Num 11 refIds in appliesTo; new Numbers-specific entries ruach-spirit-on-the-elders-numbers-11 (lower-case 'spirit' for the rûaḥ apportioned to the seventy elders; the Kings transliteration is not extended to the Torah) and lexical-cruxes-numbers-11 (11:28 'from his youth' with the MT vocalisation; 11:8 'fresh oil'; the tiqqun at 11:15; the new name Tav'erah, to be added to the Torah name table at its next extension). Central proposals in leviticus-woh/wave-mc-he-central-diff.json. Wave MC signed off at human review on 2026-11-02 (zarazinsfuss); its central proposals were applied as central glossary v2.91.0 (New Testament), v2.92.0 (Septuagint) and v2.93.0 (Hebrew).",
   "sourceLanguages": [
     "he"
   ],
@@ -111,7 +111,24 @@
         "NUM-WOH-33:48",
         "NUM-WOH-33:49",
         "NUM-WOH-33:50",
-        "NUM-WOH-33:51"
+        "NUM-WOH-33:51",
+        "NUM-WOH-11:2",
+        "NUM-WOH-11:3",
+        "NUM-WOH-11:4",
+        "NUM-WOH-11:5",
+        "NUM-WOH-11:10",
+        "NUM-WOH-11:11",
+        "NUM-WOH-11:16",
+        "NUM-WOH-11:21",
+        "NUM-WOH-11:23",
+        "NUM-WOH-11:24",
+        "NUM-WOH-11:26",
+        "NUM-WOH-11:27",
+        "NUM-WOH-11:28",
+        "NUM-WOH-11:29",
+        "NUM-WOH-11:30",
+        "NUM-WOH-11:34",
+        "NUM-WOH-11:35"
       ]
     },
     {
@@ -130,7 +147,11 @@
         "NUM-WOH-21:14",
         "NUM-WOH-21:17",
         "NUM-WOH-21:27",
-        "NUM-WOH-33:51"
+        "NUM-WOH-33:51",
+        "NUM-WOH-11:12",
+        "NUM-WOH-11:13",
+        "NUM-WOH-11:18",
+        "NUM-WOH-11:21"
       ]
     },
     {
@@ -153,7 +174,9 @@
         "NUM-WOH-21:28",
         "NUM-WOH-21:30",
         "NUM-WOH-21:32",
-        "NUM-WOH-33:8"
+        "NUM-WOH-33:8",
+        "NUM-WOH-11:15",
+        "NUM-WOH-11:25"
       ]
     },
     {
@@ -187,7 +210,8 @@
       "rationale": "nep̄eš ranges from 'throat' and 'appetite' to 'life', 'living being' and 'self' (BDB; HALOT nep̄eš 1-9; H. W. Wolff, Anthropology of the Old Testament, 1974), and the central glossary already rejects the Platonic 'soul' for it (nefesh-chayah 'living being'). The Kings and Ezekiel overlays render its idiomatic uses by 'life', 'being' or a reflexive, and the Torah volumes adopt the same rule so that one lexeme has one policy across the corpus. qṣr nep̄eš 'to be short of nep̄eš' is an idiom of impatience or exasperation (Num 21:4; Judg 16:16; Zech 11:8), rendered 'became impatient' as in the ASV's own verb, NRSV and NJPS; in Num 21:5 nap̄šēnû is the speakers themselves ('we loathe', NJPS 'we have come to loathe'). The Deuteronomic pair at 4:29 takes 'being', the whole living self, as in 1 Kgs 2:4 (Alter's rendering of Deut 6:5), and the reflexive uses at 4:9, 15 are rendered as reflexives. exodus-woh 16:16 (signed off) prints 'according to the number of your souls' for nep̄āšôṯ 'persons'; that rendering predates the rule and is flagged for the next Exodus pass, not retro-edited.",
       "appliesTo": [
         "NUM-WOH-21:4",
-        "NUM-WOH-21:5"
+        "NUM-WOH-21:5",
+        "NUM-WOH-11:6"
       ]
     },
     {
@@ -297,6 +321,51 @@
       "rationale": "maśkîṯ is a carved or figured object, and in cultic contexts specifically a carved stone, as the full phrase ʾeḇen maśkîṯ 'figured stone' shows (Lev 26:1; HALOT); the ASV supplies 'stones' in brackets and the line prints it as part of the rendering, as NRSV does. ṣalmê massēḵōṯām is literally 'the images of their castings', i.e. cast-metal images; 'molten images' (ASV) gives the sense. bāmâ is a raised cultic platform or shrine, and 'high places' is the established English term, kept by NRSV and used in the Kings chapters; NJPS 'cult places' is recorded. The decision is lexical. The Raëlian canon cites vv 52-53 as the destruction of the idols of the primitive tribes on the creators' advice (The Book Which Tells the Truth, ch. 3); that reading is recorded only in a labelled reception note.",
       "appliesTo": [
         "NUM-WOH-33:52"
+      ]
+    },
+    {
+      "id": "ruach-spirit-on-the-elders-numbers-11",
+      "source": "הָרוּחַ אֲשֶׁר עָלֶיךָ ; כְּנוֹחַ עֲלֵיהֶם הָרוּחַ ; אֶת־רוּחוֹ ; וְרוּחַ נָסַע מֵאֵת יְהוָה",
+      "translit": "hārûaḥ ʾăšer ʿāleyḵā ; kənôaḥ ʿălêhem hārûaḥ ; ʾeṯ-rûḥô ; wərûaḥ nāsaʿ mēʾēṯ YHWH",
+      "strongs": "H7307 (rûaḥ); H680 (ʾāṣal); H5117 (nûaḥ)",
+      "lemma": "rûaḥ 'wind, breath, spirit'",
+      "partOfSpeech": "noun, feminine (masculine at 11:31)",
+      "literal": "the spirit that is upon you; when the spirit rested upon them; his spirit; and a wind set out from YHWH",
+      "standardEnglish": "the Spirit (ASV, capitalised; 11:17, 25, 26, 29); a wind (ASV 11:31); the spirit (NRSV, NJPS, lower case)",
+      "wohChoice": "lower-case 'spirit' for the rûaḥ that rests on Moses and is apportioned to the seventy elders, and for YHWH's rûaḥ that Moses wishes on all the people ('some of the spirit that is upon you', 11:17; 'took some of the spirit that was upon him ... when the spirit rested upon them', 11:25; 11:26; 'that YHWH would put his spirit upon them', 11:29); 'wind' for the physical wind that brings the quail (11:31). No capital 'Spirit'; the Kings transliteration 'ruach' is not extended to the Torah.",
+      "claim_type": "direct",
+      "rationale": "Wave MC, Hebrew part (Editor pass 2026-11-02, claude-opus-5-5). rûaḥ covers wind, breath and spirit (BDB; HALOT rûaḥ). The ASV's capital 'Spirit' reads the later doctrine of a personal Holy Spirit into a text that does not specify it, and NRSV and NJPS print lower case. The Torah volumes have so far rendered rûaḥ in a person as lower-case 'spirit' (genesis-woh 41:38 'a man in whom the spirit of Elohim is'; 45:27), with the one transliteration 'breath of Elohim' reserved for the cosmic rûaḥ of Gen 1:2 (central ruach-elohim), and the Isaiah and Latter-Prophets overlays do the same; the Kings and Former Prophets overlays transliterate 'ruach' where the rûaḥ acts on a person (1 Kgs 22:21-24; 2 Kgs 2:9, 15-16; Judg 6:34; 13:25). Num 11 is the Torah's chief text for a rûaḥ that is transferred from one bearer to others (ʾāṣal 'withdraw, set aside a portion', 11:17, 25) and produces prophetic behaviour, and 2 Kgs 2:9, 15 ('the ruach of Eliyahu rests on Elisha') is its closest parallel; the Torah rendering is kept so that the Torah volumes read alike, and the divergence from Kings is recorded for the founder in the wave report. The physical wind of 11:31 is the same noun and is rendered 'wind' (ASV, NRSV, NJPS); the commentary points out the link the Hebrew makes between the rûaḥ on the elders and the rûaḥ that brings the quail (Milgrom, JPS Numbers, 1990; Levine, Numbers 1-20, AB 4, 1993). The entry is direct: lower-case 'spirit' and 'wind' are the renderings of the major modern versions.",
+      "appliesTo": [
+        "NUM-WOH-11:17",
+        "NUM-WOH-11:25",
+        "NUM-WOH-11:26",
+        "NUM-WOH-11:29",
+        "NUM-WOH-11:31"
+      ]
+    },
+    {
+      "id": "lexical-cruxes-numbers-11",
+      "source": "תַּבְעֵרָה (11:3) ; נַפְשֵׁנוּ יְבֵשָׁה (11:6) ; לְשַׁד הַשָּׁמֶן (11:8) ; הָאֹמֵן (11:12) ; בְּרָעָתִי (11:15) ; וְלֹא יָסָפוּ (11:25) ; מִבְּחֻרָיו (11:28) ; כְּאַמָּתַיִם עַל־פְּנֵי הָאָרֶץ (11:31) ; טֶרֶם יִכָּרֵת (11:33)",
+      "translit": "taḇʿērâ ; nap̄šēnû yəḇēšâ ; ləšaḏ haššāmen ; hāʾōmēn ; bərāʿāṯî ; wəlōʾ yāsāp̄û ; mibbəḥurāyw ; kəʾammāṯayim ʿal-pənê hāʾāreṣ ; ṭerem yikkārēṯ",
+      "strongs": "H8404 (taḇʿērâ); H5315 (nep̄eš); H3955 (ləšaḏ); H539 (ʾāman); H7451 (raʿ); H3254 (yāsap̄); H979 (bəḥurîm); H520 (ʾammâ); H3772 (kāraṯ)",
+      "lemma": "single-site decisions of Num 11",
+      "partOfSpeech": "names, nouns and clauses (see wohChoice)",
+      "literal": "Burning; our nefesh is dry; the moisture/cake of the oil; the nurse (masc.); my evil; and they did not add; from his youth; about two cubits on the face of the ground; before it was cut off",
+      "standardEnglish": "Taberah; our soul is dried away; fresh oil; a nursing-father; my wretchedness; but they did so no more; one of his chosen men; about two cubits above the face of the earth; ere it was chewed (ASV)",
+      "wohChoice": "11:3 'Tav'erah (Burning)' (new name, glossed under the Torah causal-clause rule; ASV 'Taberah'); 11:6 'our appetite is dried up' (nefesh-scope-torah; ASV 'soul'); 11:8 'the taste of fresh oil' (ASV; LXX 'a cake made with oil' and NJPS 'rich cream' in commentary); 11:12 'a nursing father' (masculine ʾōmēn); 11:15 'my wretchedness' (MT; the tiqqun soferim 'your evil' in commentary); 11:25 'but they did not do so again' (MT yāsāp̄û; versions 'they did not cease'); 11:28 'the attendant of Moses from his youth' (mibbəḥurāyw, from bəḥurîm 'youth'; ASV 'one of his chosen men'); 11:31 'about two cubits above the face of the ground' (central eretz, ground clause); 11:33 'before it was chewed' (ASV).",
+      "claim_type": "direct",
+      "rationale": "Wave MC, Hebrew part (Editor pass 2026-11-02, claude-opus-5-5). Most of these sites keep the ASV and record the alternatives. Two need a ruling. (1) 11:28 mibbəḥurāyw: the vocalisation (shewa under the bet, qibbuts in the second syllable) is that of the abstract plural bəḥurîm 'youth, young manhood' (BDB s.v. bəḥurîm), not of baḥûrîm 'young men, chosen men', which would carry a full vowel under the bet; NJPS ('Moses' attendant from his youth') and ESV read it so, and the line follows the MT vocalisation against the ASV's 'one of his chosen men', which is reported in commentary. Ex 33:11 calls Yehoshua a naʿar 'young man' and Moses' attendant, which fits the MT. (2) 11:8 ləšaḏ haššāmen is uncertain (ləšaḏ elsewhere only Ps 32:4 'my vigour/moisture'); the ASV 'fresh oil' takes it as 'the juice/moisture of oil', the LXX enkris ex elaiou as a cake made with oil (cf. Ex 16:31 'wafers with honey'), NJPS as 'rich cream'; the ASV is kept, since no reading is certain and the canon's 'a delicacy made with oil', which follows the LXX tradition through the French Bible, is reported in commentary (Milgrom, JPS Numbers, 1990; Levine, Numbers 1-20, AB 4, 1993; Ashley, The Book of Numbers, NICOT, 1993). The tiqqun at 11:15 is listed among the tiqqunê sôp̄ᵊrîm (Mekhilta on Ex 15:7; Masorah), and the MT is translated as at Gen 18:22 (central tiqun-soferim-yhwh-stood-before-abraham). Tav'erah is a new form for the Torah name table (to be added when the shared Torah entry is next extended); it is glossed because v 3 states its etymology in a causal clause (kî-ḇāʿărâ), as Qivrot-haTa'avah at v 34. The entry is direct.",
+      "appliesTo": [
+        "NUM-WOH-11:3",
+        "NUM-WOH-11:6",
+        "NUM-WOH-11:8",
+        "NUM-WOH-11:12",
+        "NUM-WOH-11:15",
+        "NUM-WOH-11:25",
+        "NUM-WOH-11:28",
+        "NUM-WOH-11:31",
+        "NUM-WOH-11:33",
+        "NUM-WOH-11:34"
       ]
     }
   ]

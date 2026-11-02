@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.0",
+  "scope": "tobit-woh",
+  "description": "Per-translation glossary overlay for the WoH Translation of Tobit (canon-cited chapter 12: Tob 12:19-20 quoted at TBWTT-3:264, with the framing paraphrase at TBWTT-3:263). The corpus's first Septuagint narrative book and its second Septuagint-only text after the Wisdom of Solomon. v1.0.0 (wave MC, 2026-11-02): base recension GI (Swete's B text of Vaticanus, Alexandrinus in the apparatus; GII readings of Sinaiticus reported in commentary from scan OCR) — a founder decision pending sign-off; divine designations (theos 'God', kyrios 'the Lord', ho hagios 'the Holy One'); angelos 'angel'; transliteration, English names and the scope rule for Hebrew-text central entries; canon reception-note convention; Tobit 12 lexicon (thanksgiving and almsgiving; Raphael's self-disclosure; family and burial). All entries claim_type direct. Central proposals of the wave are in wave-mc-lxx-central-diff.json. Wave MC signed off at human review on 2026-11-02 (zarazinsfuss); its central proposals were applied as central glossary v2.91.0 (New Testament), v2.92.0 (Septuagint) and v2.93.0 (Hebrew).",
+  "sourceLanguages": [
+    "grc"
+  ],
+  "entries": [
+    {
+      "id": "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+      "source": "H. B. Swete, The Old Testament in Greek according to the Septuagint, vol. 2 (1896), pp. 840-842 (Tob 12): the B text (Codex Vaticanus, recension GI) with Codex Alexandrinus (A) in the apparatus, and Swete's parallel ℵ text (Codex Sinaiticus, recension GII); digital transcription First1KGreek tlg0527.tlg021 (B text only)",
+      "translit": "n/a (text-critical convention)",
+      "strongs": "n/a (text-critical convention; variant units identified by verse)",
+      "partOfSpeech": "Overlay convention for base recension, orthography, OCR correction and variant reporting in the Greek of Tobit",
+      "literal": "Translate Swete's printed B text (GI); report A and B-corrector readings and the GII (ℵ) readings that change the sense in commentary.",
+      "standardEnglish": "KJV 1611 and Brenton translate the GI type (Vaticanus/Alexandrinus); NRSV, NAB and NJB translate GII (Sinaiticus), supplemented where ℵ has gaps; R. Hanhart's Göttingen edition (Septuaginta VIII/5, 1983) prints GI and GII in parallel.",
+      "wohChoice": "Base recension GI: the line translates Swete's printed B text, corrected only for transcription (OCR) errors listed in source-grc-12.json `corrections`. Swete's B orthography is kept in the Greek (Τωβείτ; 12:3 ἀγίοχεν B*). Readings of A and of the B correctors are taken from Swete's apparatus as it survives, OCR-degraded, in the First1KGreek XML, and marked as read from the OCR transcription; where the KJV follows A (12:18 + ἦλθον 'I came'; 12:21 οὐκέτι; 12:22 τοῦ θεοῦ καί), commentary names it. GII readings that change the sense are reported in commentary from Swete's ℵ text, read from the Internet Archive scan OCR (oldtestamentingr02swetuoft) and checked against its page images (pp. 840-842) at review (Tob 12: 1-5, 6, 8, 12, 13-14, 15, 17, 19, 20). No GII reading enters the line. FOUNDER DECISION (wave MC): base recension pending explicit sign-off.",
+      "claim_type": "direct",
+      "rationale": "Tobit survives in two Greek recensions, the shorter GI of Vaticanus and Alexandrinus and the longer GII of Sinaiticus, and most modern scholars judge GII closer to the Semitic original attested by the Qumran fragments 4Q196-199 (Aramaic) and 4Q200 (Hebrew) (J. A. Fitzmyer, Tobit, CEJL, 2003; C. A. Moore, Tobit, AB 40A, 1996). The program translates the text the canon quotes, and The Book Which Tells the Truth quotes Tob 12:19-20 (TBWTT-3:264) in the GI form word for word: 'tous les jours' is πάσας τὰς ἡμέρας, 'je me rendais visible' is ὠπτανόμην, and 'dans un livre' is εἰς βιβλίον, all absent from GII; its English edition quotes the KJV, which also translates the GI type. GI is also Swete's main text and the only Tobit recension available in a CC BY-SA digital transcription, while GII is accessible here only through uncorrected scan OCR, so a GII line could not be audited against a clean source file. Choosing GI keeps the Septuagint books on one base-text rule (Swete's Vaticanus, as for the Wisdom of Solomon) and still shows the reader GII wherever it changes the sense, including the clause 'then I was sent to you to test you' (GII 12:13-14), the nearest wording to the canon's paraphrase at TBWTT-3:263. The convention is direct: it states which text is translated and reports the other recension without adjudicating between them in the line. If a GII track is wanted later, it needs a fresh transcription of Swete's ℵ text from the page images and would be a parallel track, not a replacement.",
+      "appliesTo": [
+        "TOB-WOH-12:1",
+        "TOB-WOH-12:3",
+        "TOB-WOH-12:5",
+        "TOB-WOH-12:6",
+        "TOB-WOH-12:7",
+        "TOB-WOH-12:8",
+        "TOB-WOH-12:9",
+        "TOB-WOH-12:13",
+        "TOB-WOH-12:14",
+        "TOB-WOH-12:15",
+        "TOB-WOH-12:17",
+        "TOB-WOH-12:18",
+        "TOB-WOH-12:19",
+        "TOB-WOH-12:20",
+        "TOB-WOH-12:21",
+        "TOB-WOH-12:22"
+      ]
+    },
+    {
+      "id": "divine-designations-theos-kyrios-ho-hagios-tobit",
+      "source": "θεός; κύριος; ὁ ἅγιος",
+      "translit": "theos; kyrios; ho hagios",
+      "strongs": "G2316 (theos), G2962 (kyrios), G40 (hagios)",
+      "partOfSpeech": "nouns and substantival adjective used as divine designations",
+      "literal": "god; lord; the holy (one)",
+      "standardEnglish": "God; the Lord; the Holy One (KJV, Brenton, NRSV)",
+      "wohChoice": "'God' for *theos* (12:6, 7, 11, 14, 17, 18, 20); 'your God' for *tou theou hymōn* (12:18, B; KJV 'our God'); 'the Lord' for *kyrios* (12:22 *angelos Kyriou* 'an angel of the Lord'); 'the Holy One' for *ho hagios* (12:12, 15). 'Elohim', 'YHWH' and the small-capital 'LORD' are not written. Same rule as the wisdom-of-solomon-woh `theos-god-rendering-wisdom` and `kyrios-the-lord-rendering-wisdom`.",
+      "claim_type": "direct",
+      "rationale": "The founder's ratified Greek conventions for the Septuagint books are *theos* 'God' and *kyrios* 'the Lord', as in the Greek New Testament books of the corpus. Tobit was composed in Aramaic or Hebrew, but the program translates its Greek, and the Septuagint's *theos* and *kyrios* do not show which word stood behind them in a lost original, so restoring 'Elohim' or 'YHWH' would be conjecture presented as translation. *Ho hagios* 'the Holy One' is a Second-Temple divine title (Sir 4:14; Bar 4:22; 1 En 1:3 Greek), rendered as in the KJV and NRSV. At 12:18 the line keeps B's 'your God' against the KJV's 'our God', under the base-text convention (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+      "appliesTo": [
+        "TOB-WOH-12:6",
+        "TOB-WOH-12:7",
+        "TOB-WOH-12:11",
+        "TOB-WOH-12:12",
+        "TOB-WOH-12:14",
+        "TOB-WOH-12:15",
+        "TOB-WOH-12:17",
+        "TOB-WOH-12:18",
+        "TOB-WOH-12:20",
+        "TOB-WOH-12:22"
+      ]
+    },
+    {
+      "id": "angelos-angel-rendering-tobit",
+      "source": "ἄγγελος; ἄγγελος Κυρίου",
+      "translit": "angelos; angelos Kyriou",
+      "strongs": "G32",
+      "partOfSpeech": "noun, masculine",
+      "literal": "messenger; messenger of the Lord",
+      "standardEnglish": "angel; the angel of the Lord (KJV, NRSV)",
+      "wohChoice": "'angel' for *angelos* (12:5, 15, 22) and 'an angel of the Lord' for anarthrous *angelos Kyriou* (12:22, B; A and KJV 'the angel'). The Hebrew-text central `malakh-yhwh-messenger` ('messenger of YHWH') is not applied, as in matthew-woh (`angelos-angel-matthew-convention`).",
+      "claim_type": "direct",
+      "rationale": "In Tobit the *angelos* is explicitly a heavenly figure: Raphael names himself 'one of the seven holy angels' who go in before the glory of the Holy One (12:15), so the class sense 'angel' is what the text asserts, not a later theological import. The central `malakh-yhwh-messenger` renders Hebrew *malʾak YHWH* 'messenger of YHWH' to keep the earlier stratum of the Hebrew Bible distinct, and its own rationale places Tobit's Raphael in the later, developed angelology; applying it here would reverse that distinction and print a Hebrew divine name the Greek does not contain. The founder's ratified Greek convention is *angelos* 'angel', as in Matthew and Revelation. The indefinite article at 12:22 follows the anarthrous B text.",
+      "appliesTo": [
+        "TOB-WOH-12:5",
+        "TOB-WOH-12:15",
+        "TOB-WOH-12:22"
+      ]
+    },
+    {
+      "id": "greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit",
+      "source": "(convention entry: transliteration, personal names, and the scope of Hebrew-text central entries in the Greek of Tobit)",
+      "translit": "(see wohChoice)",
+      "strongs": null,
+      "partOfSpeech": "Overlay convention: translit field, English name forms, scope rule for Hebrew-text central entries",
+      "literal": "(N/A; convention entry)",
+      "standardEnglish": "(N/A)",
+      "wohChoice": "(1) The `translit` field follows the matthew-woh `sbl-polytonic-greek-transliteration-convention` (η ē, ω ō, rough breathing h, no accents). (2) Names in their standard English forms: Tobit (Swete B Τωβείτ, ℵ Τωβείθ), Tobias (Τωβείας), Sarah (Σάρρα; KJV 'Sara'), Raphael (Ῥαφαήλ). (3) Scope rule, as in the wisdom-of-solomon-woh and revelation-woh overlays: a central entry written for the Hebrew text governs a Greek line only where the Greek word is its Septuagint equivalent and the entry's English also renders the Greek. Background only: `malakh-yhwh-messenger` (12:22); the *ṣədāqâ* entries `tzedakah-u-mishpat-justice-pair` and `aman-tzedakah-counted-as-righteousness` for *eleēmosynē* and *dikaiosynē* (12:8-9). Cross-corpus central entries cited at the verses their rationales already discuss: `seven-archangels-list-1-enoch-20-tob-12-rev-8-cross-corpus` (12:15) and `divine-eating-anthropomorphism` (12:19); appliesTo extensions proposed in wave MC.",
+      "claim_type": "direct",
+      "rationale": "Tobit is the corpus's first Septuagint narrative book, and it sits between the Hebrew-book conventions (transliterated Hebrew names, 'YHWH', 'messenger') and the Greek-book conventions (English names, 'the Lord', 'angel'). The program translates the Greek, and the founder's ratified Greek conventions call for English names, so 'Tobit', 'Tobias', 'Sarah' and 'Raphael' are used, with 'Sarah' (NRSV) rather than the KJV's 'Sara' as the common modern form. The scope test is lexical: the Greek word must be the attested Septuagint equivalent and the central English a correct rendering of it; where the central English encodes the Hebrew (the divine name in 'messenger of YHWH'; the *ṣədāqâ* pair formulas), the entry is cited only as background. The two cross-corpus central entries already quote Tob 12:15 and 12:19 in their rationales, in the GI wording, so listing the Tobit refIds in their appliesTo records an existing documented link and decides nothing new.",
+      "appliesTo": [
+        "TOB-WOH-12:1",
+        "TOB-WOH-12:8",
+        "TOB-WOH-12:15",
+        "TOB-WOH-12:19",
+        "TOB-WOH-12:22"
+      ]
+    },
+    {
+      "id": "raelian-canon-citation-reception-note-convention-tobit",
+      "source": "(convention entry: Tobit verses quoted in The Book Which Tells the Truth, ch. 3)",
+      "translit": "(N/A)",
+      "strongs": null,
+      "partOfSpeech": "apparatus convention",
+      "literal": "(N/A; convention entry)",
+      "standardEnglish": "(N/A)",
+      "wohChoice": "At each verse quoted in the canon (12:19-20, quoted together in *The Book Which Tells the Truth*, ch. 3, TBWTT-3:264, after the framing paraphrase at TBWTT-3:263), the commentary ends with a separately headed paragraph, '**Wheel of Heaven reading (reception note, not a translation claim).**', giving the French original, the English edition's wording (KJV) and the reading the book attaches. The line translates the Greek; agreements (« je me rendais visible », « tout ce qui s'est accompli ») and differences (« je remonte »; 'robots', 'creators'; the paraphrase « éprouver ») are stated.",
+      "claim_type": "direct",
+      "rationale": "This is the acknowledgment-without-endorsement framework of the Matthew, Revelation, Kings and Wisdom waves, applied under the same heading. A separate, labelled paragraph lets a reader audit exactly where the Wheel of Heaven reading enters the apparatus and guarantees that it never enters the English line. The canon's quotation follows the GI recension word for word, so the note also documents why the base-text decision matters for this book, and the canon's paraphrase ('comes to test the reactions of humans') is set against the GII clause it most resembles without being allowed to alter the GI line. The citations were checked against the program's TBWTT chapter 3 file (TBWTT-3:263-264).",
+      "appliesTo": [
+        "TOB-WOH-12:19",
+        "TOB-WOH-12:20"
+      ]
+    },
+    {
+      "id": "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+      "source": "εὐλογέω; ἐξομολογέομαι; μεγαλωσύνη; οἱ λόγοι τῶν ἔργων τοῦ θεοῦ; μυστήριον βασιλέως; ἐνδόξως; ἐλεημοσύνη; δικαιοσύνη",
+      "translit": "eulogeō; exomologeomai; megalōsynē; hoi logoi tōn ergōn tou theou; mystērion basileōs; endoxōs; eleēmosynē; dikaiosynē",
+      "strongs": "G2127 (eulogeō), G1843 (exomologeō), G3172 (megalōsynē), G3056 (logos), G3466 (mystērion), G1741 (endoxos), G1654 (eleēmosynē), G1343 (dikaiosynē)",
+      "partOfSpeech": "verbs and nouns of Raphael's exhortation (Tob 12:6-11, 20, 22)",
+      "literal": "bless; give thanks, acknowledge; greatness; the words of the works of God; a king's secret; gloriously, honorably; mercy, alms; righteousness",
+      "standardEnglish": "bless / praise; praise, give thanks, confessed (KJV) / acknowledge (NRSV); magnify; the works of God (KJV); the secret of a king; honourable; alms (KJV) / almsgiving (NRSV); righteousness",
+      "wohChoice": "*eulogeō* 'bless' throughout (12:6, 17, 18); *exomologeomai* with the dative 'give thanks to' (12:6 three times, 12:20; draft and KJV 'praise' at 12:6) and with a direct object 'acknowledge' (12:22; draft and KJV 'confessed'); *megalōsynēn didote* 'magnify'; *tous logous tōn ergōn tou theou* 'the words of the works of God' (literal; the KJV condenses); *mystērion basileōs* 'the secret of a king' (12:7, 11); *endoxōs* 'honorably'; *eleēmosynē* 'alms' (12:8-9, KJV); *dikaiosynē* 'righteousness'.",
+      "claim_type": "direct",
+      "rationale": "*Exomologeomai* is the Septuagint's equivalent of Hebrew *hôdâ*; with the dative it means 'give thanks to, praise', and with a direct object 'acknowledge, declare' (Muraoka s.v.; BDAG s.v. ἐξομολογέω). The KJV renders it 'praise', 'give thanks' and 'confessed' within one chapter; one rendering for each construction lets the reader follow Raphael's repeated command, and 'confessed' is avoided because a current reader takes it as confession of sin. Keeping *eulogeō* always 'bless' keeps the two verbs apart, which the KJV blurs by using 'praise' for both. *Mystērion basileōs* is a king's confidential counsel, so 'secret' is the right English here, unlike the religious 'mysteries' of Wis 6:22. 'Alms' is the KJV's accurate word for charitable giving; the Septuagint overlap of *eleēmosynē* with *ṣədāqâ* is reported in commentary and not resolved in the line.",
+      "appliesTo": [
+        "TOB-WOH-12:6",
+        "TOB-WOH-12:7",
+        "TOB-WOH-12:8",
+        "TOB-WOH-12:9",
+        "TOB-WOH-12:10",
+        "TOB-WOH-12:11",
+        "TOB-WOH-12:20",
+        "TOB-WOH-12:22"
+      ]
+    },
+    {
+      "id": "raphael-self-disclosure-vocabulary-tob-12-12-22",
+      "source": "μνημόσυνον; προσάγω; οἱ ἅγιοι; εἰσπορεύομαι ἐνώπιον; ὀπτάνομαι; ὅρασις; ἀναβαίνω; τὰ συντελεσθέντα; εἰρήνη ὑμῖν ἔσται",
+      "translit": "mnēmosynon; prosagō; hoi hagioi; eisporeuomai enōpion; optanomai; horasis; anabainō; ta syntelesthenta; eirēnē hymin estai",
+      "strongs": "G3422 (mnēmosynon), G4317 (prosagō), G40 (hagios), G1531 (eisporeuomai), G3700 (optanomai), G3706 (horasis), G305 (anabainō), G4931 (synteleō), G1515 (eirēnē)",
+      "partOfSpeech": "nouns, verbs and formula of Raphael's self-disclosure (Tob 12:12-22)",
+      "literal": "memorial; bring near (offer); the holy ones; go in before; appear, be seen; sight, vision; go up; the things brought to completion; peace will be to you",
+      "standardEnglish": "remembrance; the saints; go in and out before; I did appear; a vision; I go up; all things which are done; it shall go well with you (KJV)",
+      "wohChoice": "'the memorial of your prayer' (12:12; draft and KJV 'remembrance'); 'I brought … before the Holy One'; 'the prayers of the saints' (12:15, KJV, as at Rev 5:8; 8:3-4); 'go in before' (without the KJV's 'and out'); 'I appeared to you' for *ōptanomēn* (12:19); 'a vision' for *horasis* (12:19); 'I am going up' (12:20); 'all the things that have been accomplished' (12:20; draft and KJV 'that have been done'); 'it will go well with you' (12:17, KJV).",
+      "claim_type": "direct",
+      "rationale": "*Mnēmosynon* is the Septuagint's technical term for the memorial portion of an offering (Lev 2:2; Muraoka s.v.), and it stands here with *prosagō*, the Septuagint verb for bringing an offering near, so 'memorial' keeps the picture of prayer presented before God that the KJV's 'remembrance' loses (cf. Acts 10:4). *Synteleō* means 'bring to completion, accomplish' (LSJ s.v.; Muraoka s.v.), so 'accomplished' renders the aorist passive participle more exactly than 'done'. *Optanomai* is 'appear, let oneself be seen' (BDAG s.v.; cf. Acts 1:3) and *horasis* 'sight, vision' (LSJ s.v.); the KJV's 'appear' and 'vision' are accurate and kept, and the middle sense is explained in commentary. 'The saints' is kept for *hoi hagioi* because the corpus renders the same phrase 'the prayers of the saints' in Revelation, where an angel likewise brings them before God, and because here the holy ones are the people who pray. *Eirēnē hymin estai* keeps the KJV's sense rendering, with the literal 'peace will be to you' in commentary.",
+      "appliesTo": [
+        "TOB-WOH-12:12",
+        "TOB-WOH-12:15",
+        "TOB-WOH-12:17",
+        "TOB-WOH-12:19",
+        "TOB-WOH-12:20"
+      ]
+    },
+    {
+      "id": "household-and-burial-vocabulary-tob-12-1-13",
+      "source": "τέκνον; μισθός; ὁ πρεσβύτης; νύμφη; περιστέλλω τὸν νεκρόν; τὸ ἄριστον",
+      "translit": "teknon; misthos; ho presbytēs; nymphē; peristellō ton nekron; to ariston",
+      "strongs": "G5043 (teknon), G3408 (misthos), G4246 (presbytēs), G3565 (nymphē), G712 (ariston); peristellō is not in the NT (LSJ s.v.)",
+      "partOfSpeech": "nouns and verb of the family and burial narrative (Tob 12:1-14)",
+      "literal": "child; wages; the old man; bride, daughter-in-law; wrap, lay out the dead; the (main) meal",
+      "standardEnglish": "My son, wages, the old man, daughter in law, cover the dead, dinner (KJV); My child, daughter-in-law (NRSV)",
+      "wohChoice": "'My child' for vocative *teknon* (12:1; draft and KJV 'My son'), the narrative's *huios* being 'son'; 'wages'; 'the old man' (12:4); 'daughter-in-law' for *nymphē* (12:12, 14); 'lay out the dead' for *peristellō ton nekron* (12:13; draft and KJV 'cover'); 'dinner' for *ariston* (12:13).",
+      "claim_type": "direct",
+      "rationale": "*Teknon* is 'child' and *huios* 'son' (BDAG s.vv.), and Tob 12:1 uses both, the second as the father's affectionate address; 'My child' (NRSV) keeps the distinction that the KJV's 'My son' erases. *Peristellō* used of the dead is 'wrap, dress, lay out' for burial (LSJ s.v.), the specific act of care for the dead that defines Tobit's piety (1:17-19; 2:3-8), and the KJV's 'cover' is too vague to show it. *Nymphē* means both 'bride' and 'daughter-in-law' (LSJ s.v.), and the second is right when Tobit is told about his son's wife. The remaining renderings follow the KJV and are accurate.",
+      "appliesTo": [
+        "TOB-WOH-12:1",
+        "TOB-WOH-12:3",
+        "TOB-WOH-12:4",
+        "TOB-WOH-12:12",
+        "TOB-WOH-12:13",
+        "TOB-WOH-12:14"
+      ]
+    }
+  ]
+}

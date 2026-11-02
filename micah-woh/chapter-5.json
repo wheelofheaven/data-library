@@ -1,0 +1,411 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "MIC-WOH",
+  "bookSlug": "micah-woh",
+  "n": 5,
+  "title": "Micah 5 — The ruler from Bethlehem and the remnant of Jacob",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Hebrew Masoretic text (Westminster Leningrad Codex base, Public Domain) — Tanach with Ta'amei Hamikra",
+    "sourceLicense": "Public Domain",
+    "sourceUrl": "https://www.sefaria.org/api/v3/texts/Micah.5",
+    "sourceAccessedVia": "Sefaria v3 API",
+    "glossaryVersion": "2.93.0",
+    "overlayGlossaryVersion": "1.0.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-02T12:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "verdict": "approve",
+      "summary": "All 14 verses approved. MT numbering clearly signposted; 'this one shall be peace' adds nothing to the three Hebrew words; 'the sons of human' matches proverbs-woh 8; LP conventions identical to the five sibling copies.",
+      "verses": [
+        {
+          "refId": "MIC-WOH-5:1",
+          "verdict": "approve",
+          "issue": "MT numbering stated; 'thousands' and 'from everlasting' (ASV) kept; canon French « depuis les jours d'antan » verified. See founder note on 'from everlasting'.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:2",
+          "verdict": "approve",
+          "issue": "Re-parsed against the MT; English line renders the Hebrew without addition; refs and note checked.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:3",
+          "verdict": "approve",
+          "issue": "'shepherd' (NJPS) for ra'a avoids English 'feed' = eat; canon French « fera paître » also supports 'shepherd'.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:4",
+          "verdict": "approve",
+          "issue": "wəhāyâ zeh šālôm closes at athnach (verified in source); 'this one shall be peace' adds nothing; NRSV/NJPS/ASV renderings quoted accurately; Waltke 2007 real. Canon 'the Peace' in labelled reception note only.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:5",
+          "verdict": "approve",
+          "issue": "MT vocalisation of ra'a followed (NRSV 'rule'); repointing bappətiha reported; 'us' in 'deliver us' is implicit and ASV-supported.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:6",
+          "verdict": "approve",
+          "issue": "Anarthrous bənê 'adam 'the sons of human' matches proverbs-woh 8:4, 31 (verified) and central ben-adam.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:7",
+          "verdict": "approve",
+          "issue": "Re-parsed against the MT; English line renders the Hebrew without addition; refs and note checked.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:8",
+          "verdict": "approve",
+          "issue": "Re-parsed against the MT; English line renders the Hebrew without addition; refs and note checked.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:9",
+          "verdict": "approve",
+          "issue": "'declares YHWH' inside the clause, no quotation marks (LP convention).",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:10",
+          "verdict": "approve",
+          "issue": "Re-parsed against the MT; English line renders the Hebrew without addition; refs and note checked.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:11",
+          "verdict": "approve",
+          "issue": "Re-parsed against the MT; English line renders the Hebrew without addition; refs and note checked.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:12",
+          "verdict": "approve",
+          "issue": "'carved images' (central pesel), 'pillars' (central matzevah), 'bow down' (hishtachavah).",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:13",
+          "verdict": "approve",
+          "issue": "MT 'cities' kept; emendation 'your idols' reported.",
+          "fix": ""
+        },
+        {
+          "refId": "MIC-WOH-5:14",
+          "verdict": "approve",
+          "issue": "Re-parsed against the MT; English line renders the Hebrew without addition; refs and note checked.",
+          "fix": ""
+        }
+      ],
+      "glossary": [
+        {
+          "glossary_id": "mt-versification-micah-5",
+          "status": "approve",
+          "citations": [
+            "BHS / NJPS Micah numbering"
+          ],
+          "reasoning": "Corpus keys to MT numbering; English equivalence clearly signposted."
+        },
+        {
+          "glossary_id": "zeh-shalom-this-one-shall-be-peace-micah-5-4",
+          "status": "approve",
+          "citations": [
+            "Waltke, A Commentary on Micah (2007)",
+            "NJPS, NRSV, ASV Mic 5:4/5"
+          ],
+          "reasoning": "Adds nothing to the Hebrew; keeps masculine demonstrative open; canon title confined to reception note."
+        },
+        {
+          "glossary_id": "lexical-cruxes-micah-5",
+          "status": "approve",
+          "citations": [
+            "NJPS Mic 5:3, 5 'shepherd'",
+            "NRSV Mic 5:6 'rule'",
+            "proverbs-woh 8:4, 31 (verified)"
+          ],
+          "reasoning": "Follows MT vocalisation; corpus precedent for anarthrous bənê ʾāḏām."
+        },
+        {
+          "glossary_id": "twelve Latter-Prophets shared conventions",
+          "status": "approve",
+          "citations": [
+            "amos/jeremiah/jonah/zephaniah/zechariah overlays (identity verified by script)"
+          ],
+          "reasoning": "Text identical to all five copies; only MIC refIds added (orchestrator must add them to the other five)."
+        }
+      ],
+      "speculativeEntries": [],
+      "lens-leakage-flags": [],
+      "founderDecisionRecommendations": {
+        "Mic 5:4 'this one shall be peace'": "Ship. Minimal and faithful to the three-word clause; the canon's 'the Peace' title stays in the reception note.",
+        "Mic 5:6 'the sons of human'": "Ship: matches proverbs-woh 8:4, 31 for anarthrous bənê ʾāḏām (articular bĕnê hāʾādām stays 'the sons of the human').",
+        "Mic 5:1 'from everlasting' (optional)": "Acceptable as ASV wording, but the note argues ʿôlām here means remote antiquity; founder may prefer 'from days of old' (NRSV 'from ancient days'; canon French 'depuis les jours d'antan'). Not required."
+      },
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-02T07:48:02+00:00",
+      "centralDiff": {
+        "verdict": "revise",
+        "appliesToCheck": "All 38 appliesTo-only extensions plus eretz and shofar verified by script against 2.90.0: each new array is the full 2.90.0 array in original order plus exactly appliesToAdded; no duplicates; no lost refIds; no added refId already present. Every glossaryRef in the seven chapters resolves and is listed in the relevant appliesTo, and every appliesTo refId in these chapters is cited by its verse.",
+        "goel-geullah-redeemer-redemption-cross-corpus": {
+          "status": "revise",
+          "claim_type": "direct (approved)",
+          "citations": [
+            "Ringgren, gāʾal, TDOT II (1975)",
+            "Hubbard, 'The Go'el in Ancient Israel', BBR 1 (1991)",
+            "ASV Lev 25:25-26 (hosted text)",
+            "NJPS Lev 25:25"
+          ],
+          "reasoning": "Sound and well cited; published Isaiah/Ps/Ezek renderings verified ('Redeemer', 'redeemed', 'my redeemer', 'the men of your kindred'). One factual fix: the ASV has 'kinsman' only at v 25 (v 26 'no one to redeem it').",
+          "fix": [
+            "In entry.standardEnglish replace \"kinsman / near kinsman (ASV Lev 25:25-26)\" with \"kinsman (ASV Lev 25:25)\".",
+            "In entry.rationale replace \"('kinsman' for gōʾēl at vv 25-26, 'redeem' for the verb)\" with \"('kinsman' for gōʾēl at v 25, 'no one to redeem it' at v 26, 'redeem' for the verb)\"."
+          ],
+          "note": "appliesTo lists ISA-43:1 ... EZK-WOH-11:15 whose chapters do not cite the id; at sign-off either add the glossaryRef to those six published chapters (preferred) or accept the one-way audit as stated."
+        },
+        "eretz universal-formula clause": {
+          "status": "approve",
+          "reasoning": "Defensible ('Lord of all the earth', Josh 3:11, 13). Non-blocking wording note: Zech 4:14 prints 'the Lord of the whole earth' while Josh 3 prints 'the Lord of all the earth' (both ASV), so 'as the Latter-Prophets overlays print it' should read 'with \"earth\" as the Latter-Prophets overlays print it at Zech 4:14 (\"the Lord of the whole earth\")' or the wording be harmonised later."
+        },
+        "shofar jubilee clause": {
+          "status": "approve",
+          "reasoning": "Appended text only; existing text preserved; consistent with the leviticus overlay."
+        },
+        "versioning": "2.93.0 target depends on merge order with the NT (2.91.0) and deuterocanonical diffs; re-base rule (union with appliesToAdded) is stated and correct."
+      },
+      "statusRecommendation": "awaiting-human. No English line needs changing; 9 note-level fixes (Lev 17:2, 12, 14, 16; Lev 25:2, 35; Num 11:25; Judg 7:3, 4), 1 overlay standardEnglish fix (judges-woh lexical-cruxes-judges-7) and 2 central-entry text fixes (goel standardEnglish and rationale). No speculative entries; no lens leakage in any English line. After the fixes are applied, all seven chapters can go to sign-off."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "MIC-WOH-5:1",
+      "text": "וְאַתָּ֞ה בֵּֽית־לֶ֣חֶם אֶפְרָ֗תָה צָעִיר֙ לִֽהְיוֹת֙ בְּאַלְפֵ֣י יְהוּדָ֔ה מִמְּךָ֙ לִ֣י יֵצֵ֔א לִֽהְי֥וֹת מוֹשֵׁ֖ל בְּיִשְׂרָאֵ֑ל וּמוֹצָאֹתָ֥יו מִקֶּ֖דֶם מִימֵ֥י עוֹלָֽם׃",
+      "i18n": {
+        "en": "But you, Bethlehem Ephrathah, little to be among the thousands of Judah, out of you shall one come forth for me who is to be ruler in Israel, whose goings forth are from of old, from everlasting."
+      },
+      "glossaryRefs": [
+        "house-conventions-latter-prophets",
+        "mt-versification-micah-5",
+        "lexical-cruxes-micah-5"
+      ],
+      "notes": {
+        "official": "This translation keeps the Hebrew numbering. The verse is 5:2 in English Bibles, and MIC-WOH-5:1-14 correspond to English 5:2-15. The Hebrew 4:14 ('Now gather yourself in troops ... they strike the judge of Israel with a rod upon the cheek') is English 5:1 and belongs to chapter 4 (overlay `mt-versification-micah-5`). The canon cites the passage as 'Micah, V, 1-4' in the Hebrew numbering, so its reference matches these refIds directly.\n\n*wəʾattâ bêṯ-leḥem ʾep̄rāṯâ ṣāʿîr lihyôṯ bəʾalp̄ê yəhûḏâ* 'But you, Bethlehem Ephrathah, little to be among the thousands of Judah': Ephrathah is the clan district of Bethlehem (Ruth 1:2; 1 Sam 17:12), and the oracle returns the Davidic line to its origin. *ʾelep̄* is both 'thousand' and a clan unit (Judg 6:15; 1 Sam 10:19; NRSV 'the clans of Judah'), and 'thousands' (ASV) keeps both senses. *mimməḵā lî yēṣēʾ lihyôṯ môšēl bəyiśrāʾēl* 'out of you shall one come forth for me who is to be ruler in Israel': the subject of *yēṣēʾ* is unexpressed, and 'one' supplies the English subject. *ûmôṣāʾōṯāyw miqqeḏem mîmê ʿôlām* 'whose goings forth are from of old, from everlasting' (ASV): literally 'from before, from days of old'. *ʿôlām* here denotes remote antiquity, the time of David, rather than timelessness (cf. Amos 9:11; Mic 7:14), as NRSV's 'from ancient days' and the canon's French « depuis les jours d'antan » render it. The ASV wording is kept (overlay `lexical-cruxes-micah-5`). English names follow the Latter-Prophets house style (`house-conventions-latter-prophets`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *The Book Which Tells the Truth* (ch. 3) quotes vv 1-4 ('(…) Bethlehem (…) out of thee shall... come forth he that is to be ruler in Israel; whose goings forth have been from of old, from everlasting! (…). And he shall stand and feed by the strength of Yahweh (…) unto the ends of the earth, and this man shall be the Peace', 'Micah, V, 1-4'). The book reads the passage as the creators' announcement of a Messiah, sent so that what only Israel knew would spread over the whole earth. The line renders the oracle as the Hebrew states it and does not encode that reading. Vv 3-4 are discussed in their own notes.",
+        "community": []
+      }
+    },
+    {
+      "n": 2,
+      "refId": "MIC-WOH-5:2",
+      "text": "לָכֵ֣ן יִתְּנֵ֔ם עַד־עֵ֥ת יוֹלֵדָ֖ה יָלָ֑דָה וְיֶ֣תֶר אֶחָ֔יו יְשׁוּב֖וּן עַל־בְּנֵ֥י יִשְׂרָאֵֽל׃",
+      "i18n": {
+        "en": "Therefore he will give them up until the time when she who is in labor has given birth; then the rest of his brothers shall return to the children of Israel."
+      },
+      "glossaryRefs": [
+        "mt-versification-micah-5"
+      ],
+      "notes": {
+        "official": "*lāḵēn yittənēm ʿaḏ-ʿēṯ yôlēḏâ yālāḏâ* 'Therefore he will give them up until the time when she who is in labor has given birth': YHWH abandons Israel to its enemies until the birth of the ruler. The woman in labour recalls Zion's birth-pangs in 4:9-10 and the sign of Isa 7:14. *wəyeṯer ʾeḥāyw yəšûḇûn ʿal-bənê yiśrāʾēl* 'then the rest of his brothers shall return to the children of Israel': the dispersed return and rejoin the people. This verse lies inside the canon's elided '(…)' (see the reception note at v 1).",
+        "community": []
+      }
+    },
+    {
+      "n": 3,
+      "refId": "MIC-WOH-5:3",
+      "text": "וְעָמַ֗ד וְרָעָה֙ בְּעֹ֣ז יְהוָ֔ה בִּגְא֕וֹן שֵׁ֖ם יְהוָ֣ה אֱלֹהָ֑יו וְיָשָׁ֕בוּ כִּֽי־עַתָּ֥ה יִגְדַּ֖ל עַד־אַפְסֵי־אָֽרֶץ׃",
+      "i18n": {
+        "en": "And he shall stand and shepherd in the strength of YHWH, in the majesty of the name of YHWH his God; and they shall abide, for now he shall be great to the ends of the earth."
+      },
+      "glossaryRefs": [
+        "elohim-god-latter-prophets",
+        "eretz-earth-or-land-latter-prophets",
+        "lexical-cruxes-micah-5"
+      ],
+      "notes": {
+        "official": "*wəʿāmaḏ wərāʿâ bəʿōz YHWH* 'And he shall stand and shepherd in the strength of YHWH': *rāʿâ* is the shepherd's verb, the image of the Davidic king (2 Sam 5:2; Ezek 34:23). The ASV supplies an object, 'feed [his flock]'; without it, English 'feed' would read as 'eat'. The line has 'shepherd' (NJPS) and keeps the link with the 'shepherds' of v 4 (overlay `lexical-cruxes-micah-5`). The canon's English 'stand and feed' follows the older wording. *bigʾôn šēm YHWH ʾĕlōhāyw* 'in the majesty of the name of YHWH his God' ('God' for *ʾĕlōhîm*, `elohim-god-latter-prophets`). *wəyāšāḇû* 'and they shall abide' (ASV; NRSV 'live secure'). *kî-ʿattâ yiḡdal ʿaḏ-ʾap̄sê-ʾāreṣ* 'for now he shall be great to the ends of the earth': the universal formula of Ps 72:8 and Zech 9:10 takes 'earth' (`eretz-earth-or-land-latter-prophets`). The canon quotes this verse; see the reception note at v 1.",
+        "community": []
+      }
+    },
+    {
+      "n": 4,
+      "refId": "MIC-WOH-5:4",
+      "text": "וְהָיָ֥ה זֶ֖ה שָׁל֑וֹם אַשּׁ֣וּר ׀ כִּֽי־יָב֣וֹא בְאַרְצֵ֗נוּ וְכִ֤י יִדְרֹךְ֙ בְּאַרְמְנֹתֵ֔ינוּ וַהֲקֵמֹ֤נוּ עָלָיו֙ שִׁבְעָ֣ה רֹעִ֔ים וּשְׁמֹנָ֖ה נְסִיכֵ֥י אָדָֽם׃",
+      "i18n": {
+        "en": "And this one shall be peace. When Assyria comes into our land, and when he treads in our palaces, then we will raise against him seven shepherds and eight princes of men."
+      },
+      "glossaryRefs": [
+        "eretz",
+        "mt-versification-micah-5",
+        "zeh-shalom-this-one-shall-be-peace-micah-5-4"
+      ],
+      "notes": {
+        "official": "*wəhāyâ zeh šālôm* 'And this one shall be peace' (overlay `zeh-shalom-this-one-shall-be-peace-micah-5-4`). The clause has three words. *zeh* is the masculine demonstrative, and after vv 1-3 it most naturally refers to the ruler. Some take it as neuter and as pointing forward ('and that shall afford safety', NJPS). The ASV fills the gaps, 'this [man] shall be [our] peace', and NRSV paraphrases, 'and he shall be the one of peace'. The line adds nothing to the Hebrew: 'this one' keeps the masculine demonstrative without deciding between a person and a situation. The athnach on *šālôm* closes the clause, and *ʾaššûr kî-yāḇôʾ* opens the next sentence.\n\n*ʾaššûr kî-yāḇôʾ ḇəʾarṣēnû* 'When Assyria comes into our land' ('land', central `eretz`). *wahăqēmōnû ʿālāyw šiḇʿâ rōʿîm ûšəmōnâ nəsîḵê ʾāḏām* 'then we will raise against him seven shepherds and eight princes of men': the numerical pattern 'seven ... eight' means 'enough and more' (Amos 1:3; Prov 30:15-31; Eccl 11:2). *nəsîḵê ʾāḏām* 'princes of men' (ASV 'principal men').\n\n**Wheel of Heaven reading (reception note, not a translation claim).** The canon's English ends the quotation with 'and this man shall be the Peace' (French « c'est lui qui sera la Paix »), with a capital, as a title of the Messiah (*The Book Which Tells the Truth*, ch. 3; see the reception note at v 1). The line renders the three Hebrew words without supplement and does not adopt the title.",
+        "community": []
+      }
+    },
+    {
+      "n": 5,
+      "refId": "MIC-WOH-5:5",
+      "text": "וְרָע֞וּ אֶת־אֶ֤רֶץ אַשּׁוּר֙ בַּחֶ֔רֶב וְאֶת־אֶ֥רֶץ נִמְרֹ֖ד בִּפְתָחֶ֑יהָ וְהִצִּיל֙ מֵֽאַשּׁ֔וּר כִּֽי־יָב֣וֹא בְאַרְצֵ֔נוּ וְכִ֥י יִדְרֹ֖ךְ בִּגְבוּלֵֽנוּ׃ (ס)",
+      "i18n": {
+        "en": "And they shall shepherd the land of Assyria with the sword, and the land of Nimrod in its entrances; and he shall deliver us from Assyria, when he comes into our land and when he treads within our border."
+      },
+      "glossaryRefs": [
+        "eretz",
+        "nimrod-gibbor",
+        "mt-qere-textual-policy-latter-prophets",
+        "lexical-cruxes-micah-5"
+      ],
+      "notes": {
+        "official": "*wərāʿû ʾeṯ-ʾereṣ ʾaššûr baḥereḇ* 'And they shall shepherd the land of Assyria with the sword': the MT vocalisation is that of *rāʿâ* 'shepherd', the verb of v 3 and the noun of v 4, and NJPS 'shepherd' and NRSV 'rule' read it so. The ASV's 'waste' derives it from the Aramaising *rāʿaʿ* 'break'. The line follows the MT vocalisation, which makes the irony of the Hebrew visible: the shepherds 'shepherd' Assyria with the sword (overlay `lexical-cruxes-micah-5`). *wəʾeṯ-ʾereṣ nimrōḏ biptāḥeyhā* 'and the land of Nimrod in its entrances': Nimrod is the founder of the Mesopotamian kingdoms (Gen 10:8-12; central `nimrod-gibbor`). *biptāḥeyhā* 'in its entrances' (ASV) may be repointed *bappəṯîḥâ* 'with the drawn sword' (cf. Ps 55:22), parallel to *baḥereḇ* (NRSV 'with the drawn sword'). The line translates the MT (`mt-qere-textual-policy-latter-prophets`). *wəhiṣṣîl mēʾaššûr* 'and he shall deliver us from Assyria': the subject returns to the ruler.",
+        "community": []
+      }
+    },
+    {
+      "n": 6,
+      "refId": "MIC-WOH-5:6",
+      "text": "וְהָיָ֣ה ׀ שְׁאֵרִ֣ית יַעֲקֹ֗ב בְּקֶ֙רֶב֙ עַמִּ֣ים רַבִּ֔ים כְּטַל֙ מֵאֵ֣ת יְהוָ֔ה כִּרְבִיבִ֖ים עֲלֵי־עֵ֑שֶׂב אֲשֶׁ֤ר לֹֽא־יְקַוֶּה֙ לְאִ֔ישׁ וְלֹ֥א יְיַחֵ֖ל לִבְנֵ֥י אָדָֽם׃",
+      "i18n": {
+        "en": "And the remnant of Jacob shall be in the midst of many peoples like dew from YHWH, like showers upon the grass, which do not wait for man, nor tarry for the sons of human."
+      },
+      "glossaryRefs": [
+        "she-erit-remnant-cross-corpus-theological-keyword",
+        "ben-adam",
+        "lexical-cruxes-micah-5"
+      ],
+      "notes": {
+        "official": "*wəhāyâ šəʾērîṯ yaʿăqōḇ* 'And the remnant of Jacob shall be' (central `she-erit-remnant-cross-corpus-theological-keyword`). *kəṭal mēʾēṯ YHWH kirḇîḇîm ʿălê-ʿēśeḇ* 'like dew from YHWH, like showers upon the grass': dew and rain come from YHWH alone. *ʾăšer lōʾ-yəqawweh ləʾîš wəlōʾ yəyaḥēl liḇnê ʾāḏām* 'which do not wait for man, nor tarry for the sons of human': the anarthrous *bənê ʾāḏām* takes the corpus rendering 'the sons of human' (central `ben-adam`, as proverbs-woh 8:4, 31; ASV 'the sons of men') (overlay `lexical-cruxes-micah-5`). Vv 6-7 set two similes side by side: the remnant among the nations is a blessing like dew (v 6) and a terror like a lion (v 7).",
+        "community": []
+      }
+    },
+    {
+      "n": 7,
+      "refId": "MIC-WOH-5:7",
+      "text": "וְהָיָה֩ שְׁאֵרִ֨ית יַעֲקֹ֜ב בַּגּוֹיִ֗ם בְּקֶ֙רֶב֙ עַמִּ֣ים רַבִּ֔ים כְּאַרְיֵה֙ בְּבַהֲמ֣וֹת יַ֔עַר כִּכְפִ֖יר בְּעֶדְרֵי צֹ֑אן אֲשֶׁ֧ר אִם עָבַ֛ר וְרָמַ֥ס וְטָרַ֖ף וְאֵ֥ין מַצִּֽיל׃",
+      "i18n": {
+        "en": "And the remnant of Jacob shall be among the nations, in the midst of many peoples, like a lion among the beasts of the forest, like a young lion among the flocks of sheep, which, if he passes through, treads down and tears in pieces, and there is none to deliver."
+      },
+      "glossaryRefs": [
+        "she-erit-remnant-cross-corpus-theological-keyword"
+      ],
+      "notes": {
+        "official": "*kəʾaryēh bəḇahămôṯ yaʿar kiḵp̄îr bəʿeḏrê ṣōʾn* 'like a lion among the beasts of the forest, like a young lion among the flocks of sheep' (central `she-erit-remnant-cross-corpus-theological-keyword`). *ʾăšer ʾim ʿāḇar wərāmas wəṭārap̄ wəʾên maṣṣîl* 'which, if he passes through, treads down and tears in pieces, and there is none to deliver'.",
+        "community": []
+      }
+    },
+    {
+      "n": 8,
+      "refId": "MIC-WOH-5:8",
+      "text": "תָּרֹ֥ם יָדְךָ֖ עַל־צָרֶ֑יךָ וְכָל־אֹיְבֶ֖יךָ יִכָּרֵֽתוּ׃ (פ)",
+      "i18n": {
+        "en": "Let your hand be lifted up above your adversaries, and let all your enemies be cut off."
+      },
+      "glossaryRefs": [],
+      "notes": {
+        "official": "*tārōm yāḏəḵā ʿal-ṣāreyḵā* 'Let your hand be lifted up above your adversaries': the jussive may be a wish addressed to the remnant (ASV, NRSV) or a promise ('your hand shall be lifted up').",
+        "community": []
+      }
+    },
+    {
+      "n": 9,
+      "refId": "MIC-WOH-5:9",
+      "text": "וְהָיָ֤ה בַיּוֹם־הַהוּא֙ נְאֻם־יְהוָ֔ה וְהִכְרַתִּ֥י סוּסֶ֖יךָ מִקִּרְבֶּ֑ךָ וְהַאֲבַדְתִּ֖י מַרְכְּבֹתֶֽיךָ׃",
+      "i18n": {
+        "en": "And it shall come to pass in that day, declares YHWH, that I will cut off your horses from the midst of you, and will destroy your chariots;"
+      },
+      "glossaryRefs": [
+        "house-conventions-latter-prophets"
+      ],
+      "notes": {
+        "official": "*wəhāyâ ḇayyôm-hahûʾ nəʾum-YHWH* 'And it shall come to pass in that day, declares YHWH': *nəʾum YHWH* is 'declares YHWH', kept distinct from *ʾāmar YHWH* 'says YHWH' and placed inside the clause it interrupts, without quotation marks for the oracle (`house-conventions-latter-prophets`; ASV 'saith Jehovah'). Vv 9-13 list what YHWH will 'cut off' (*hiḵrattî*, four times): horses and chariots, fortified cities, sorcery, images. The weapons and cults Israel relies on are removed, as in Isa 2:6-8 and Hos 14:4.",
+        "community": []
+      }
+    },
+    {
+      "n": 10,
+      "refId": "MIC-WOH-5:10",
+      "text": "וְהִכְרַתִּ֖י עָרֵ֣י אַרְצֶ֑ךָ וְהָרַסְתִּ֖י כָּל־מִבְצָרֶֽיךָ׃",
+      "i18n": {
+        "en": "and I will cut off the cities of your land, and throw down all your strongholds;"
+      },
+      "glossaryRefs": [
+        "eretz"
+      ],
+      "notes": {
+        "official": "*ʿārê ʾarṣeḵā* 'the cities of your land' ('land', central `eretz`). *mibṣāreyḵā* 'your strongholds'.",
+        "community": []
+      }
+    },
+    {
+      "n": 11,
+      "refId": "MIC-WOH-5:11",
+      "text": "וְהִכְרַתִּ֥י כְשָׁפִ֖ים מִיָּדֶ֑ךָ וּֽמְעוֹנְנִ֖ים לֹ֥א יִֽהְיוּ־לָֽךְ׃",
+      "i18n": {
+        "en": "and I will cut off sorceries from your hand, and you shall have no soothsayers;"
+      },
+      "glossaryRefs": [],
+      "notes": {
+        "official": "*kəšāp̄îm* 'sorceries' and *məʿônənîm* 'soothsayers', two of the forbidden practices of Deut 18:10-11.",
+        "community": []
+      }
+    },
+    {
+      "n": 12,
+      "refId": "MIC-WOH-5:12",
+      "text": "וְהִכְרַתִּ֧י פְסִילֶ֛יךָ וּמַצֵּבוֹתֶ֖יךָ מִקִּרְבֶּ֑ךָ וְלֹֽא־תִשְׁתַּחֲוֶ֥ה ע֖וֹד לְמַעֲשֵׂ֥ה יָדֶֽיךָ׃",
+      "i18n": {
+        "en": "and I will cut off your carved images and your pillars from the midst of you, and you shall no more bow down to the work of your hands;"
+      },
+      "glossaryRefs": [
+        "pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus",
+        "matzevah-sacred-pillar-patriarchal-religion",
+        "hishtachavah-bow-down-obeisance-worship"
+      ],
+      "notes": {
+        "official": "*pəsîleyḵā ûmaṣṣēḇôṯeyḵā* 'your carved images and your pillars' (central `pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus`; `matzevah-sacred-pillar-patriarchal-religion`; ASV 'graven images'). *wəlōʾ-ṯištaḥăweh ʿôḏ ləmaʿăśēh yāḏeyḵā* 'and you shall no more bow down to the work of your hands' (central `hishtachavah-bow-down-obeisance-worship`, as isaiah-woh 44:15, 17 'bows down'; ASV 'worship').",
+        "community": []
+      }
+    },
+    {
+      "n": 13,
+      "refId": "MIC-WOH-5:13",
+      "text": "וְנָתַשְׁתִּ֥י אֲשֵׁירֶ֖יךָ מִקִּרְבֶּ֑ךָ וְהִשְׁמַדְתִּ֖י עָרֶֽיךָ׃",
+      "i18n": {
+        "en": "and I will uproot your Asherim from the midst of you, and I will destroy your cities."
+      },
+      "glossaryRefs": [
+        "mt-qere-textual-policy-latter-prophets",
+        "lexical-cruxes-micah-5"
+      ],
+      "notes": {
+        "official": "*wənāṯaštî ʾăšêreyḵā* 'and I will uproot your Asherim': the wooden cult poles of the goddess Asherah (Deut 16:21; ASV 'Asherim'; the goddess is treated under central athirat-asherah-mother-goddess-cross-corpus-ugaritic-hebrew-bible). *wəhišmaḏtî ʿāreyḵā* 'and I will destroy your cities': the MT repeats the 'cities' of v 10, and many emend to *ʿăṣabbeyḵā* 'your idols', which fits the cultic list. The line keeps the MT (`mt-qere-textual-policy-latter-prophets`; overlay `lexical-cruxes-micah-5`).",
+        "community": []
+      }
+    },
+    {
+      "n": 14,
+      "refId": "MIC-WOH-5:14",
+      "text": "וְעָשִׂ֜יתִי בְּאַ֧ף וּבְחֵמָ֛ה נָקָ֖ם אֶת־הַגּוֹיִ֑ם אֲשֶׁ֖ר לֹ֥א שָׁמֵֽעוּ׃ (ס)",
+      "i18n": {
+        "en": "And I will execute vengeance in anger and in wrath on the nations that did not listen."
+      },
+      "glossaryRefs": [],
+      "notes": {
+        "official": "*wəʿāśîṯî bəʾap̄ ûḇəḥēmâ nāqām ʾeṯ-haggôyim ʾăšer lōʾ šāmēʿû* 'And I will execute vengeance in anger and in wrath on the nations that did not listen': the purge of Israel (vv 9-13) is matched by judgment on the nations, which closes the chapter (English 5:15).",
+        "community": []
+      }
+    }
+  ],
+  "editorial_questions": []
+}

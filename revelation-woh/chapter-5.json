@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "REV-WOH",
+  "bookSlug": "revelation-woh",
+  "n": 5,
+  "title": "Revelation 5 — The book sealed with seven seals + the Lamb who is worthy",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Koine Greek New Testament — SBL Greek New Testament (SBLGNT), ed. Michael W. Holmes (Society of Biblical Literature and Logos Bible Software, 2010), printed text with the variant-marker sigla removed. Primary uncial witnesses for Revelation: Codex Sinaiticus (א/01) and Codex Alexandrinus (A/02), with Ephraemi Rescriptus (C/04); P47 does not preserve Rev 5; Codex Vaticanus (B/03) does not contain Revelation in its original hand. Variants against NA28 and the Byzantine/Textus Receptus tradition are reported in the verse commentary (overlay convention sblgnt-base-text-variant-reporting-convention-revelation).",
+    "sourceLicense": "CC BY 4.0 (SBLGNT, Society of Biblical Literature and Logos Bible Software)",
+    "sourceUrl": "https://github.com/LogosBible/SBLGNT (data/sblgnt/text/Rev.txt)",
+    "sourceAccessedVia": "SBLGNT GitHub repository (LogosBible/SBLGNT), fetched 2026-11-02 into source-grc-5.json; reference translation ASV 1901 (hosted edition data-library/revelation/chapter-5.json), KJV for Textus Receptus comparison",
+    "glossaryVersion": "2.93.0",
+    "overlayGlossaryVersion": "1.3.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-02T12:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "verdict": "revise",
+      "summary": "14 verses: 12 approve, 2 revise (5:4, 5:13; both note-only, no English-line change). The Greek is translated accurately; every apparatus claim checks against the SBLGNT apparatus; renderings are consistent with published chapters (book/scroll, conquer, seven spirits, living creatures, bowls, one seated on the throne, ten thousand times ten thousand, dominion). No lens leakage in any English line; the single reception note (5:1) is correctly headed, accurately quoted and explicitly disclaims the canon as the ground of 'book'.",
+      "verses": [
+        {
+          "refId": "REV-WOH-5:1",
+          "verdict": "approve",
+          "issue": "Re-parsed: epi tēn dexian, opisthen (SBLGNT=WH/Treg/NA28; RP exōthen) all verified against SBLGNT apparatus; KJV 'backside' = TR opisthen. 'book' is KJV/ASV-standard and follows published 1:11/10:2 rule (overlay biblion entry, direct). Reception note correctly headed, LWTE-4:88 French and English quoted accurately; note states the line does not rest on the canon. No lens leakage.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:2",
+          "verdict": "approve",
+          "issue": "RP + estin verified. 'loose' (ASV) for lysai is literal; BDAG sense given. Advisory only: none.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:3",
+          "verdict": "approve",
+          "issue": "RP + anō and oute...oute verified; KJV lacks 'above' (TR) correct.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:4",
+          "verdict": "revise",
+          "issue": "egō variant (NA28 omits; SBLGNT with WH/Treg/RP) verified. But the note omits the one Textus Receptus plus in this verse that changes the English: KJV 'to open and to read the book, neither to look thereon' reflects TR kai anagnōnai. Every other TR plus in Rev 5 that surfaces in the KJV (5:5 lysai, 5:6 kai idou, 5:7 to biblion, 5:9-10, 5:14) is reported, and the overlay convention requires it; the note's 'The English is the same either way' could mislead a KJV reader.",
+          "fix": "Append to the Text sentence of the 5:4 note: \" The KJV 'to open and to read the book' reflects the Textus Receptus, which adds *kai anagnōnai* 'and to read'; the SBLGNT, NA28 and the Byzantine text do not have it.\""
+        },
+        {
+          "refId": "REV-WOH-5:5",
+          "verdict": "approve",
+          "issue": "RP ho anoigōn and TR lysai (KJV 'to loose the seven seals thereof') verified. 'has conquered' matches nikaō at 6:2, 12:11, 13:7, 21:7 (checked). Gen 49:9-10, Isa 11:1,10, 4 Ezra 12:31-32 references sound; Bauckham citation acceptable.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:6",
+          "verdict": "approve",
+          "issue": "RP echon/ha/apostellomena verified; TR kai idou absent from RP verified (no RP entry). Treg hestēkōs not reported but has no English effect. 'seven spirits' lower case matches 1:4, 4:5. Zech 4:10, 1 En 90:9 references sound.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:7",
+          "verdict": "approve",
+          "issue": "eilēphen perfect, object supplied as ASV '[it]'; TR to biblion vs RP verified (no RP entry).",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:8",
+          "verdict": "approve",
+          "issue": "RP omits second hai verified. 'harp', 'bowls' (16:1 precedent checked). Advisory (not required): KJV 'harps' may reflect TR kitharas; could be noted if verified.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:9",
+          "verdict": "approve",
+          "issue": "'people' supplied for the objectless partitive (ASV '[men]'). WH/NA28/SBLGNT vs Treg+RP hēmas verified; Alexandrinus attribution matches Metzger. Third-person argument from v 10 is Metzger's.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:10",
+          "verdict": "approve",
+          "issue": "basileuousin WH/Treg vs basileusousin NA28/RP and RP basileis verified; TR hēmas...basileusomen correctly distinguished from RP. segullah entry correctly kept as background (construct chain vs two coordinated nouns).",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:11",
+          "verdict": "approve",
+          "issue": "RP + hōs verified. Dan 7:10 order reversal correct; 'as at 8:13' and 9:16 precedents checked in published chapters.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:12",
+          "verdict": "approve",
+          "issue": "Single article over seven nouns correct; 7:12 comparison (thanksgiving for riches) checked against published 7:12. RP + ton verified.",
+          "fix": ""
+        },
+        {
+          "refId": "REV-WOH-5:13",
+          "verdict": "revise",
+          "issue": "Variant claims verified (RP Amēn; estin, pantas, tou thronou). But the note paraphrases the four regions as '... under the earth and in the sea', while the Greek (epi tēs thalassēs) and the line say 'on the sea'. Apparatus and line should agree. (Minor accuracy point, not a revise trigger: estin is also WH and tou thronou also WH/Treg, so SBLGNT follows NA28 alone at tou thronou; the note's attribution to the Byzantine text is true but incomplete.)",
+          "fix": "In the 5:13 note change 'in heaven, on earth, under the earth and in the sea' to 'in heaven, on earth, under the earth and on the sea'. Optional: change 'Its other differences (*estin* after 'sea', *pantas*, *tou thronou*)' to 'Its other differences (*estin* after 'sea', also in Westcott-Hort; *pantas*; *tou thronou*, also in Westcott-Hort and Tregelles)'."
+        },
+        {
+          "refId": "REV-WOH-5:14",
+          "verdict": "approve",
+          "issue": "RP legonta to verified; TR eikositessares and zōnti eis tous aiōnas tōn aiōnōn correctly reported as TR-only.",
+          "fix": ""
+        }
+      ],
+      "glossary": [
+        {
+          "glossary_id": "biblion-book-scroll-rendering-revelation",
+          "status": "approve",
+          "claim_type": "direct",
+          "citations": [
+            "BDAG s.v. biblion",
+            "KJV/ASV 'book'; RSV/NRSV 'scroll'",
+            "published REV-WOH-10:2 note stating the rule"
+          ],
+          "reasoning": "Both renderings are standard; the entry codifies an already-published rule and states the roll form honestly. Direct is correct. Follow-up (orchestrator): add glossaryRefs back-links at 1:11, 6:14, 10:2, 10:8-10, 13:8, 21:27 or narrow appliesTo."
+        },
+        {
+          "glossary_id": "sblgnt-base-text-variant-reporting-convention-revelation",
+          "status": "approve",
+          "citations": [
+            "SBLGNT apparatus (Holmes 2010)",
+            "Metzger, Textual Commentary"
+          ],
+          "reasoning": "appliesTo extension to 5:1,3,4,5,6,7,9,10,13,14 matches the verses whose notes report variants."
+        },
+        {
+          "glossary_id": "theos-god-rendering-against-canon-english-yahweh-revelation",
+          "status": "approve",
+          "citations": [
+            "BDAG s.v. theos"
+          ],
+          "reasoning": "Ratified convention; extension to 5:6, 9, 10 correct."
+        },
+        {
+          "glossary_id": "greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation",
+          "status": "approve",
+          "citations": [
+            "ASV Rev 5:5"
+          ],
+          "reasoning": "Judah, David in standard English form; yehudah-aryeh entry correctly kept as background."
+        }
+      ],
+      "speculativeEntries": "none",
+      "lens-leakage-flags": [],
+      "founderDecisionRecommendations": {
+        "Rev 5 'book'": "Confirm. KJV/ASV standard, required for consistency with published 1:11 and 10:2-10; roll form stated in the 5:1 note. A switch to 'scroll' would be a book-wide decision."
+      },
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-02T00:00:00Z",
+      "centralDiff": {
+        "verdict": "approve",
+        "summary": "Five appliesTo-only modify ops verified programmatically against translation-glossary-2.90.0.json: each new array equals the 2.90.0 array plus appliesToAdded, no duplicates, no already-present additions. The sealed-book entry's rationale already names Rev 5:1; chayyot's English 'living creatures' correctly renders zōa under the scope rule. Background-only entries (heavenly-tablets, yehudah-aryeh, segullah, daniel-7, jude-14-15, as-saa, iqtaraba) exist in 2.90.0 and each names the cited verse, so citing them as background is accurate. Minor bump 2.90.0 -> 2.91.0 appropriate; concurrency re-base note is correct.",
+        "ops": [
+          {
+            "id": "chayyot",
+            "verdict": "approve"
+          },
+          {
+            "id": "four-living-creatures-rev-4-6-8-ezek-1-chayyot-shiur-qomah-cross-corpus",
+            "verdict": "approve"
+          },
+          {
+            "id": "sealed-book-dan-12-4-9-revelation-jubilees-cross-corpus",
+            "verdict": "approve"
+          },
+          {
+            "id": "christos-māšîaḥ-anointed-one-cross-corpus-greek-hebrew-aramaic",
+            "verdict": "approve"
+          },
+          {
+            "id": "iēsous-yehoshua-yhwh-saves-folk-etymology-cross-corpus",
+            "verdict": "approve"
+          }
+        ]
+      },
+      "statusRecommendation": "Both chapters -> awaiting-human (revise verdicts are note-only and trivial; after the three note fixes all 42 verses are approvable)."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "REV-WOH-5:1",
+      "text": "Καὶ εἶδον ἐπὶ τὴν δεξιὰν τοῦ καθημένου ἐπὶ τοῦ θρόνου βιβλίον γεγραμμένον ἔσωθεν καὶ ὄπισθεν, κατεσφραγισμένον σφραγῖσιν ἑπτά.",
+      "translit": "kai eidon epi tēn dexian tou kathēmenou epi tou thronou biblion gegrammenon esōthen kai opisthen, katesphragismenon sphragisin hepta.",
+      "i18n": {
+        "en": "And I saw in the right hand of the one seated on the throne a book written within and on the back, sealed with seven seals."
+      },
+      "notes": {
+        "official": "*biblion gegrammenon esōthen kai opisthen, katesphragismenon sphragisin hepta* 'a book written within and on the back, sealed with seven seals'. A *biblion* of this period is a roll, and one written on both sides is an opisthograph, like the scroll handed to Ezekiel, 'written within and without' (Ezek 2:9-10; LXX *ta emprosthen kai ta opisō*). The line keeps 'book', as at 1:11 and 10:2-10 and in 'the book of life' (13:8; 21:27); 'scroll' is kept for 6:14, where the text describes the rolling up (`biblion-book-scroll-rendering-revelation`). *epi tēn dexian* is literally 'upon the right hand' (ASV 'in'): the book may lie on the open palm. Seven seals mean the book cannot be read until every seal is broken; commentators compare Roman wills and deeds, which were sealed by seven witnesses (Aune, WBC 52A, ad loc.; Beale, NIGTC, ad loc.).\n\nThe sealed book recalls Dan 12:4, 9, 'shut up the words and seal the book until the time of the end' (central `sealed-book-dan-12-4-9-revelation-jubilees-cross-corpus`). The 'heavenly tablets' of 1 En 81:1-3 and Jubilees (central `heavenly-tablets-1-enoch-81-jubilees-daniel-revelation-cross-corpus`) are background and are not applied to the Greek line.\n\nText: *opisthen* 'on the back' is the reading of the SBLGNT, NA28, Westcott-Hort and Tregelles, and the KJV 'on the backside' agrees with it; the Byzantine text (Robinson-Pierpont) reads *exōthen* 'outside' (`sblgnt-base-text-variant-reporting-convention-revelation`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *Let's Welcome the Extra-Terrestrials* (ch. 4) cites this verse by reference, without quoting it, as one of the places where the title of the first message is announced: « Le titre du premier message qui se trouve annoncé en Ezéchiel, II, 9-10, dans l'Apocalypse, V, 1 ; dans Daniel, X, 21: «Mais je te révélerai ce qui est inscrit dans le livre de vérité» , et XII, 4: «Et toi Daniel, garde secrètes ces paroles et scelle le livre jusqu'au temps de la fin. Beaucoup chercheront çà et là et la connaissance s'accroîtra» » (English edition: 'The title of the first message was announced in Ezekiel 2:9-10, in Revelation 5:1 and in Daniel 10:21, ‘But I will reveal to you that which is written in the book of truth’.'). The first message is *The Book Which Tells the Truth* (*Le Livre qui dit la vérité*). The line's 'book' follows the Revelation precedent and the ASV, not the canon; the Greek does not give the book's title or contents.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sealed-book-dan-12-4-9-revelation-jubilees-cross-corpus",
+        "biblion-book-scroll-rendering-revelation",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 2,
+      "refId": "REV-WOH-5:2",
+      "text": "καὶ εἶδον ἄγγελον ἰσχυρὸν κηρύσσοντα ἐν φωνῇ μεγάλῃ· Τίς ἄξιος ἀνοῖξαι τὸ βιβλίον καὶ λῦσαι τὰς σφραγῖδας αὐτοῦ;",
+      "translit": "kai eidon angelon ischyron kēryssonta en phōnē megalē· tis axios anoixai to biblion kai lysai tas sphragidas autou;",
+      "i18n": {
+        "en": "And I saw a mighty angel proclaiming with a loud voice: \"Who is worthy to open the book and to loose its seals?\""
+      },
+      "notes": {
+        "official": "*angelon ischyron* 'a mighty angel' (ASV 'strong'), as at 10:1 'another mighty angel'. *lysai tas sphragidas autou* 'to loose its seals' (ASV): *lyō* is 'loose, untie' (BDAG), and the seals are the fastenings of the roll; the RSV 'break' gives the sense. The Byzantine text adds *estin* ('Who is worthy'), with no change in English.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "biblion-book-scroll-rendering-revelation"
+      ]
+    },
+    {
+      "n": 3,
+      "refId": "REV-WOH-5:3",
+      "text": "καὶ οὐδεὶς ἐδύνατο ἐν τῷ οὐρανῷ οὐδὲ ἐπὶ τῆς γῆς οὐδὲ ὑποκάτω τῆς γῆς ἀνοῖξαι τὸ βιβλίον οὔτε βλέπειν αὐτό.",
+      "translit": "kai oudeis edynato en tō ouranō oude epi tēs gēs oude hypokatō tēs gēs anoixai to biblion oute blepein auto.",
+      "i18n": {
+        "en": "And no one in heaven or on the earth or under the earth was able to open the book or to look at it."
+      },
+      "notes": {
+        "official": "*en tō ouranō oude epi tēs gēs oude hypokatō tēs gēs* 'in heaven or on the earth or under the earth': the three regions of the cosmos (cf. Phil 2:10; Ex 20:4). *blepein auto* 'to look at it', that is, to read it. Text: the Byzantine text adds *anō* 'above' after 'heaven' and reads *oute ... oute*; the KJV ('in heaven, nor in earth, neither under the earth') does not have 'above' (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "biblion-book-scroll-rendering-revelation",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 4,
+      "refId": "REV-WOH-5:4",
+      "text": "καὶ ἐγὼ ἔκλαιον πολὺ ὅτι οὐδεὶς ἄξιος εὑρέθη ἀνοῖξαι τὸ βιβλίον οὔτε βλέπειν αὐτό·",
+      "translit": "kai egō eklaion poly hoti oudeis axios heurethē anoixai to biblion oute blepein auto·",
+      "i18n": {
+        "en": "And I wept much, because no one was found worthy to open the book or to look at it."
+      },
+      "notes": {
+        "official": "*eklaion poly* 'I wept much': the imperfect suggests continued weeping. Text: the SBLGNT prints the emphatic *egō* 'I' with Westcott-Hort, Tregelles and the Byzantine text; NA28 omits it; the English 'I' is the same either way. The KJV 'to open and to read the book' reflects the Textus Receptus, which adds *kai anagnōnai* 'and to read'; the SBLGNT, NA28 and the Byzantine text do not have it (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "biblion-book-scroll-rendering-revelation",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "REV-WOH-5:5",
+      "text": "καὶ εἷς ἐκ τῶν πρεσβυτέρων λέγει μοι· Μὴ κλαῖε· ἰδοὺ ἐνίκησεν ὁ λέων ὁ ἐκ τῆς φυλῆς Ἰούδα, ἡ ῥίζα Δαυίδ, ἀνοῖξαι τὸ βιβλίον καὶ τὰς ἑπτὰ σφραγῖδας αὐτοῦ.",
+      "translit": "kai heis ek tōn presbyterōn legei moi· mē klaie· idou enikēsen ho leōn ho ek tēs phylēs iouda, hē rhiza dauid, anoixai to biblion kai tas hepta sphragidas autou.",
+      "i18n": {
+        "en": "And one of the elders says to me: \"Do not weep; behold, the Lion of the tribe of Judah, the Root of David, has conquered, so as to open the book and its seven seals.\""
+      },
+      "notes": {
+        "official": "*ho leōn ho ek tēs phylēs Iouda, hē rhiza Dauid* 'the Lion of the tribe of Judah, the Root of David': two messianic titles, from Jacob's blessing of Judah (Gen 49:9-10) and from Isa 11:1, 10 ('the root of Jesse', LXX *hē rhiza tou Iessai*); cf. 22:16 and the lion of 4 Ezra 12:31-32. Capitals mark them as titles (ASV). The names are in standard English form (`greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation`); the central `yehudah-aryeh-lion-tribal-emblem-cross-corpus-and-reception-history`, written for the Hebrew of Gen 49:9 ('Yehudah'), is background here.\n\n*enikēsen* 'has conquered', as *nikaō* is rendered throughout the book (6:2; 12:11; 13:7; 21:7; ASV 'hath overcome', KJV 'hath prevailed'). The aorist states a completed victory, and the infinitive *anoixai* gives its result, 'so as to open'. John hears of a lion and then sees a lamb (v 6), a juxtaposition commentators treat as deliberate (Bauckham, *The Theology of the Book of Revelation*, 1993).\n\nText: the Byzantine text reads *ho anoigōn* 'he who opens'. The KJV 'to open the book, and to loose the seven seals thereof' reflects the Textus Receptus, which adds *lysai* 'to loose'; the SBLGNT and NA28 have the single infinitive *anoixai* (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "biblion-book-scroll-rendering-revelation",
+        "greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "REV-WOH-5:6",
+      "text": "Καὶ εἶδον ἐν μέσῳ τοῦ θρόνου καὶ τῶν τεσσάρων ζῴων καὶ ἐν μέσῳ τῶν πρεσβυτέρων ἀρνίον ἑστηκὸς ὡς ἐσφαγμένον, ἔχων κέρατα ἑπτὰ καὶ ὀφθαλμοὺς ἑπτά, οἵ εἰσιν τὰ ἑπτὰ πνεύματα τοῦ θεοῦ, ἀπεσταλμένοι εἰς πᾶσαν τὴν γῆν.",
+      "translit": "kai eidon en mesō tou thronou kai tōn tessarōn zōōn kai en mesō tōn presbyterōn arnion hestēkos hōs esphagmenon, echōn kerata hepta kai ophthalmous hepta, hoi eisin ta hepta pneumata tou theou, apestalmenoi eis pasan tēn gēn.",
+      "i18n": {
+        "en": "And I saw in the midst of the throne and of the four living creatures, and in the midst of the elders, a Lamb standing as though it had been slain, having seven horns and seven eyes, which are the seven spirits of God sent out into all the earth."
+      },
+      "notes": {
+        "official": "*arnion* 'Lamb', the book's title for Christ, capitalized as at 6:1, 16; 7:9-17; 13:8. *hestēkos hōs esphagmenon* 'standing as though it had been slain': *sphazō* 'slaughter' is a sacrificial word, and the Lamb stands alive with the marks of slaughter (cf. Isa 53:7; the Passover lamb of Ex 12). *kerata hepta kai ophthalmous hepta* 'seven horns and seven eyes': horns signify power (Deut 33:17; Dan 7:7-8; the horned lamb of 1 En 90:9), and the seven eyes are those of Zech 4:10, 'the eyes of YHWH, which run to and fro through the whole earth'. *ta hepta pneumata tou theou* 'the seven spirits of God', lower case as at 1:4 and 4:5 (ASV 'Spirits'); 'God' per `theos-god-rendering-against-canon-english-yahweh-revelation`. The four living creatures: `chayyot`, `four-living-creatures-rev-4-6-8-ezek-1-chayyot-shiur-qomah-cross-corpus`. *en mesō tou thronou ... kai en mesō tōn presbyterōn* 'in the midst of the throne ... and in the midst of the elders' may reproduce the Hebrew idiom *bên ... ûḇên* 'between ... and' (RSV, NRSV 'between'); the ASV wording is kept.\n\nGrammar and text: the participles do not agree with their nouns. *echōn* 'having' is masculine with the neuter *arnion*, and *hoi ... apestalmenoi* 'which are ... sent' is masculine with the neuter *pneumata*. The Byzantine text regularizes (*echon*, *ha*) and reads the present *apostellomena* 'being sent'; none of this changes the English. The KJV 'and, lo,' reflects *kai idou* in the Textus Receptus, which the Byzantine text does not have (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "four-living-creatures-rev-4-6-8-ezek-1-chayyot-shiur-qomah-cross-corpus",
+        "chayyot",
+        "theos-god-rendering-against-canon-english-yahweh-revelation",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 7,
+      "refId": "REV-WOH-5:7",
+      "text": "καὶ ἦλθεν καὶ εἴληφεν ἐκ τῆς δεξιᾶς τοῦ καθημένου ἐπὶ τοῦ θρόνου.",
+      "translit": "kai ēlthen kai eilēphen ek tēs dexias tou kathēmenou epi tou thronou.",
+      "i18n": {
+        "en": "And he came and took it out of the right hand of the one seated on the throne."
+      },
+      "notes": {
+        "official": "*ēlthen kai eilēphen* 'he came and took it': *eilēphen* is a perfect used in vivid narration (ASV 'taketh'), rendered as a past. The object is unexpressed in the SBLGNT, NA28 and the Byzantine text, and the line supplies 'it' (ASV '[it]'). The KJV 'took the book' reflects the Textus Receptus, which adds *to biblion* (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "REV-WOH-5:8",
+      "text": "καὶ ὅτε ἔλαβεν τὸ βιβλίον, τὰ τέσσαρα ζῷα καὶ οἱ εἴκοσι τέσσαρες πρεσβύτεροι ἔπεσαν ἐνώπιον τοῦ ἀρνίου, ἔχοντες ἕκαστος κιθάραν καὶ φιάλας χρυσᾶς γεμούσας θυμιαμάτων, αἵ εἰσιν αἱ προσευχαὶ τῶν ἁγίων·",
+      "translit": "kai hote elaben to biblion, ta tessara zōa kai hoi eikosi tessares presbyteroi epesan enōpion tou arniou, echontes hekastos kitharan kai phialas chrysas gemousas thymiamatōn, hai eisin hai proseuchai tōn hagiōn·",
+      "i18n": {
+        "en": "And when he took the book, the four living creatures and the twenty-four elders fell down before the Lamb, each having a harp and golden bowls full of incense, which are the prayers of the saints."
+      },
+      "notes": {
+        "official": "The living creatures and the elders fall before the Lamb as before the one seated on the throne (4:10). *kitharan* 'a harp': the *kithara* was a lyre, and 'harp' is the conventional English (ASV, KJV, RSV, NRSV; cf. 14:2; 15:2). *phialas chrysas gemousas thymiamatōn* 'golden bowls full of incense' (KJV 'golden vials full of odours'); 'bowls' as at 16:1. *hai eisin hai proseuchai tōn hagiōn* 'which are the prayers of the saints': the feminine relative agrees with *phialai* or, by attraction, with *proseuchai*; for incense as prayer see Ps 141:2 and Rev 8:3-4. The Byzantine text omits the second article *hai*, with no change in English.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "biblion-book-scroll-rendering-revelation",
+        "four-living-creatures-rev-4-6-8-ezek-1-chayyot-shiur-qomah-cross-corpus",
+        "chayyot"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "REV-WOH-5:9",
+      "text": "καὶ ᾄδουσιν ᾠδὴν καινὴν λέγοντες· Ἄξιος εἶ λαβεῖν τὸ βιβλίον καὶ ἀνοῖξαι τὰς σφραγῖδας αὐτοῦ, ὅτι ἐσφάγης καὶ ἠγόρασας τῷ θεῷ ἐν τῷ αἵματί σου ἐκ πάσης φυλῆς καὶ γλώσσης καὶ λαοῦ καὶ ἔθνους,",
+      "translit": "kai adousin ōdēn kainēn legontes· axios ei labein to biblion kai anoixai tas sphragidas autou, hoti esphagēs kai ēgorasas tō theō en tō haimati sou ek pasēs phylēs kai glōssēs kai laou kai ethnous,",
+      "i18n": {
+        "en": "And they sing a new song, saying: \"Worthy are you to take the book and to open its seals, for you were slain, and by your blood you purchased for God people from every tribe and tongue and people and nation,"
+      },
+      "notes": {
+        "official": "*ōdēn kainēn* 'a new song': the song for a new act of deliverance (Ps 33:3; 96:1; 98:1; Isa 42:10). *ēgorasas tō theō en tō haimati sou ek pasēs phylēs* 'by your blood you purchased for God people from every tribe': *agorazō* is 'buy' (ASV 'didst purchase'; KJV 'hast redeemed'; RSV 'didst ransom'), as at 14:3-4, and *en* is instrumental. The SBLGNT has no direct object; the partitive *ek* 'from' implies one, and the line supplies 'people' (ASV '[men]'). The fourfold 'tribe and tongue and people and nation' recurs at 7:9; 10:11; 13:7 (cf. Dan 3:4; 7:14). 'God' per `theos-god-rendering-against-canon-english-yahweh-revelation`.\n\nText: the reading without an object is that of Codex Alexandrinus (Metzger, *Textual Commentary*, ad loc.) and is printed by Westcott-Hort, NA28 and the SBLGNT. The Byzantine text, Tregelles and the Textus Receptus add *hēmas* 'us' (KJV 'and hast redeemed us to God by thy blood'), which makes the singers themselves the redeemed; the third person of v 10 ('you made them') fits the shorter reading (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "biblion-book-scroll-rendering-revelation",
+        "theos-god-rendering-against-canon-english-yahweh-revelation",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "REV-WOH-5:10",
+      "text": "καὶ ἐποίησας αὐτοὺς τῷ θεῷ ἡμῶν βασιλείαν καὶ ἱερεῖς, καὶ βασιλεύουσιν ἐπὶ τῆς γῆς.",
+      "translit": "kai epoiēsas autous tō theō hēmōn basileian kai hiereis, kai basileuousin epi tēs gēs.",
+      "i18n": {
+        "en": "and you made them a kingdom and priests to our God, and they reign on the earth.\""
+      },
+      "notes": {
+        "official": "*epoiēsas autous tō theō hēmōn basileian kai hiereis* 'you made them a kingdom and priests to our God': Ex 19:6 ('a kingdom of priests'; LXX *basileion hierateuma*), applied as at 1:6 ('a kingdom, priests'). The central `segullah-mamleḵet-kohanim-vegoy-qadosh-covenantal-formula-ex-19-5-6-cross-corpus` names this verse as a reception site; its English 'a kingdom of priests' renders the Hebrew construct chain and is not applied to the two coordinated Greek nouns. *epi tēs gēs* 'on the earth' (ASV 'upon earth'); with the genitive *epi* can also mean 'over'. 'God' per `theos-god-rendering-against-canon-english-yahweh-revelation`.\n\nText: the SBLGNT prints the present *basileuousin* 'they reign' with Westcott-Hort and Tregelles, and here departs from NA28, which with the Byzantine text reads the future *basileusousin* 'they will reign' (RSV, NRSV). The Byzantine text also reads *basileis* 'kings' for *basileian*. The KJV 'And hast made us unto our God kings and priests: and we shall reign on the earth' reflects the Textus Receptus (*hēmas ... basileusomen*); its first-person forms are not the Byzantine reading, which keeps 'them' and 'they' (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-against-canon-english-yahweh-revelation",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 11,
+      "refId": "REV-WOH-5:11",
+      "text": "Καὶ εἶδον, καὶ ἤκουσα φωνὴν ἀγγέλων πολλῶν κύκλῳ τοῦ θρόνου καὶ τῶν ζῴων καὶ τῶν πρεσβυτέρων, καὶ ἦν ὁ ἀριθμὸς αὐτῶν μυριάδες μυριάδων καὶ χιλιάδες χιλιάδων,",
+      "translit": "kai eidon, kai ēkousa phōnēn angelōn pollōn kyklō tou thronou kai tōn zōōn kai tōn presbyterōn, kai ēn ho arithmos autōn myriades myriadōn kai chiliades chiliadōn,",
+      "i18n": {
+        "en": "And I looked, and I heard the voice of many angels around the throne and the living creatures and the elders, and their number was ten thousand times ten thousand, and thousands of thousands,"
+      },
+      "notes": {
+        "official": "*kai eidon, kai ēkousa* 'And I looked, and I heard', as at 8:13. *myriades myriadōn kai chiliades chiliadōn* 'ten thousand times ten thousand, and thousands of thousands' (ASV, KJV; literally 'myriads of myriads and thousands of thousands'): Dan 7:10, with the two numbers in reverse order (cf. 1 En 14:22; 40:1); 'ten thousand times ten thousand' as at 9:16. The central `daniel-7-throne-vision-completes-four-tradition-wire-cross-corpus` and `jude-14-15-quote-1-enoch-1-9-nt-citation-cross-corpus` name this verse as a reception site and are background. The living creatures: `chayyot`, `four-living-creatures-rev-4-6-8-ezek-1-chayyot-shiur-qomah-cross-corpus`. The Byzantine text adds *hōs* 'as it were' before 'the voice'.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "four-living-creatures-rev-4-6-8-ezek-1-chayyot-shiur-qomah-cross-corpus",
+        "chayyot"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "REV-WOH-5:12",
+      "text": "λέγοντες φωνῇ μεγάλῃ· Ἄξιόν ἐστιν τὸ ἀρνίον τὸ ἐσφαγμένον λαβεῖν τὴν δύναμιν καὶ πλοῦτον καὶ σοφίαν καὶ ἰσχὺν καὶ τιμὴν καὶ δόξαν καὶ εὐλογίαν.",
+      "translit": "legontes phōnē megalē· axion estin to arnion to esphagmenon labein tēn dynamin kai plouton kai sophian kai ischyn kai timēn kai doxan kai eulogian.",
+      "i18n": {
+        "en": "saying with a loud voice: \"Worthy is the Lamb who was slain to receive the power and riches and wisdom and might and honor and glory and blessing!\""
+      },
+      "notes": {
+        "official": "*Axion estin to arnion to esphagmenon labein* 'Worthy is the Lamb who was slain to receive': the acclamation answers the one addressed to the one seated on the throne at 4:11. A single article (*tēn dynamin*) governs all seven nouns, which form one sevenfold ascription; 7:12 has the same seven with 'thanksgiving' in place of 'riches'. The Byzantine text adds a second article before *plouton*, with no change in English.",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 13,
+      "refId": "REV-WOH-5:13",
+      "text": "καὶ πᾶν κτίσμα ὃ ἐν τῷ οὐρανῷ καὶ ἐπὶ τῆς γῆς καὶ ὑποκάτω τῆς γῆς καὶ ἐπὶ τῆς θαλάσσης, καὶ τὰ ἐν αὐτοῖς πάντα, ἤκουσα λέγοντας· Τῷ καθημένῳ ἐπὶ τῷ θρόνῳ καὶ τῷ ἀρνίῳ ἡ εὐλογία καὶ ἡ τιμὴ καὶ ἡ δόξα καὶ τὸ κράτος εἰς τοὺς αἰῶνας τῶν αἰώνων.",
+      "translit": "kai pan ktisma ho en tō ouranō kai epi tēs gēs kai hypokatō tēs gēs kai epi tēs thalassēs, kai ta en autois panta, ēkousa legontas· tō kathēmenō epi tō thronō kai tō arniō hē eulogia kai hē timē kai hē doxa kai to kratos eis tous aiōnas tōn aiōnōn.",
+      "i18n": {
+        "en": "And every created thing that is in heaven and on the earth and under the earth and on the sea, and all that is in them, I heard saying: \"To the one seated on the throne and to the Lamb be the blessing and the honor and the glory and the dominion forever and ever!\""
+      },
+      "notes": {
+        "official": "*pan ktisma* 'every created thing': the whole creation, in heaven, on earth, under the earth and on the sea (cf. v 3; Ps 146:6; Phil 2:10). The doxology is addressed jointly to the one seated on the throne and to the Lamb. *to kratos* 'the dominion', as at 1:6. Text: the Byzantine text adds *Amēn* at the end of the verse; the Textus Receptus (KJV '... for ever and ever.'), NA28 and the SBLGNT do not. Its other differences (*estin* after 'sea', also in Westcott-Hort; *pantas*; *tou thronou*, also in Westcott-Hort and Tregelles) do not change the English (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    },
+    {
+      "n": 14,
+      "refId": "REV-WOH-5:14",
+      "text": "καὶ τὰ τέσσαρα ζῷα ἔλεγον· Ἀμήν. καὶ οἱ πρεσβύτεροι ἔπεσαν καὶ προσεκύνησαν.",
+      "translit": "kai ta tessara zōa elegon· amēn. kai hoi presbyteroi epesan kai prosekynēsan.",
+      "i18n": {
+        "en": "And the four living creatures said: \"Amen.\" And the elders fell down and worshiped."
+      },
+      "notes": {
+        "official": "*ta tessara zōa elegon, Amēn* 'the four living creatures said: \"Amen.\"' (Byzantine *legonta to Amēn*, same sense). The KJV 'And the four and twenty elders fell down and worshipped him that liveth for ever and ever' reflects two additions in the Textus Receptus, *eikositessares* 'four and twenty' and *zōnti eis tous aiōnas tōn aiōnōn* (from 4:10). Neither is in the Byzantine text as edited by Robinson-Pierpont, nor in NA28 or the SBLGNT (`sblgnt-base-text-variant-reporting-convention-revelation`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "four-living-creatures-rev-4-6-8-ezek-1-chayyot-shiur-qomah-cross-corpus",
+        "chayyot",
+        "sblgnt-base-text-variant-reporting-convention-revelation"
+      ]
+    }
+  ],
+  "editorial_questions": []
+}

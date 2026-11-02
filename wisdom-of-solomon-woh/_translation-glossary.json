@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scope": "wisdom-of-solomon-woh",
-  "description": "Per-translation glossary overlay for the WoH Translation of the Wisdom of Solomon (canon-cited chapter 13; TBWTT ch. 3 also cites 6:22). The corpus's first Septuagint-only text. v1.0.0 (wave WIS1): Swete/Vaticanus base-text and variant-reporting convention; theos 'God' and generic anthrōpos 'people' (adopted from the revelation-woh and matthew-woh Greek conventions); transliteration and the scope rule for Hebrew-text central entries; canon reception-note convention; Wisdom 13 lexicon (ton onta, technitēs, creator vocabulary, despotēs, prytaneis kosmou, the list of elements, analogōs, stochasasthai ton aiōna, the knowing-God vocabulary of 13:1-9 and the idol satire of 13:10-19). Signed off at human review on 2026-11-01 (zarazinsfuss); this wave's central proposals were applied as central glossary v2.89.0, and the sign-off merge is v2.90.0.",
+  "description": "Per-translation glossary overlay for the WoH Translation of the Wisdom of Solomon (canon-cited chapter 13; TBWTT ch. 3 also cites 6:22). The corpus's first Septuagint-only text. v1.0.0 (wave WIS1): Swete/Vaticanus base-text and variant-reporting convention; theos 'God' and generic anthrōpos 'people' (adopted from the revelation-woh and matthew-woh Greek conventions); transliteration and the scope rule for Hebrew-text central entries; canon reception-note convention; Wisdom 13 lexicon (ton onta, technitēs, creator vocabulary, despotēs, prytaneis kosmou, the list of elements, analogōs, stochasasthai ton aiōna, the knowing-God vocabulary of 13:1-9 and the idol satire of 13:10-19). Signed off at human review on 2026-11-01 (zarazinsfuss); this wave's central proposals were applied as central glossary v2.89.0, and the sign-off merge is v2.90.0. v1.1.0 (wave MC, 2026-11-02): Wisdom 6 (canon-cited at 6:22, TBWTT-3:266). New entries: kyrios 'the Lord'; Hypsistos 'the Most High'; the address-to-rulers and judgment vocabulary of 6:1-21 (tyrannoi 'monarchs'; the examination chain); the description of wisdom and the sorites of 6:11-25 (paideia 'instruction'; phronēsis 'prudence'; lampra 'radiant'; aphtharsia 'incorruption'); the vocabulary of 6:22-24 ('how she came to be'; 'her origin'; 'stability'). Existing conventions (Swete base text, theos, despotēs, scope rule, reception note) extended to Wis 6 sites; no earlier decision changed. Pending human sign-off. Wave MC signed off at human review on 2026-11-02 (zarazinsfuss); its central proposals were applied as central glossary v2.91.0 (New Testament), v2.92.0 (Septuagint) and v2.93.0 (Hebrew).",
   "sourceLanguages": [
     "grc"
   ],
@@ -15,7 +15,7 @@
       "partOfSpeech": "Overlay convention for base text, orthography, OCR correction and variant reporting in the Greek of the Wisdom of Solomon",
       "literal": "Translate Swete's printed text of Vaticanus; report readings presupposed by the KJV, with the witnesses Swete's apparatus gives, (and by Brenton, which the canon's English edition and older English readers know) in commentary.",
       "standardEnglish": "KJV 1611 translates the Apocrypha from a printed Greek text of the Complutensian/Aldine/Sixtine type, not from Vaticanus alone; Brenton 1844/1851 translates the Sixtine (Vaticanus-based) text; NRSV follows the Göttingen critical edition (Ziegler 1962, 2nd ed. 1980).",
-      "wohChoice": "The line translates Swete's printed text, as corrected only for transcription (OCR) errors listed in source-grc-13.json `corrections`. Swete's Vaticanus orthography is kept and not normalized (13:7 διεραυνῶσιν B*, 13:8 συνγνωστοί B*, 13:13 οὐθέν; the B* attributions are confirmed by the apparatus). Where the KJV wording presupposes a different Greek reading (13:13 'the skill of his understanding', i.e. συνέσεως, against Swete's ἀνέσεως 'leisure'), the commentary names the difference and the witnesses Swete's apparatus gives for it (13:13 συνέσεως ℵ^c.a). Swete's apparatus survives, OCR-degraded, as footnotes in the First1KGreek XML (it is not carried into source-grc-13.json); witnesses are named where that apparatus gives them and are marked as read from the OCR transcription; where it gives none, none are asserted. Punctuation follows Swete as printed; a transcription stop that is not Swete's (13:10 ἄχρηστον. χειρός, taken as a transcription error pending a check of Swete's page image, vol. 2 p. 628) is corrected and the correction recorded. Swete's section capitals (Μάταιοι 13:1; Ταλαίπωροι 13:10) are kept in the Greek and noted in commentary, since the paragraph schema has no section field.",
+      "wohChoice": "The line translates Swete's printed text, as corrected only for transcription (OCR) errors listed in source-grc-13.json and source-grc-6.json `corrections`. Swete's Vaticanus orthography is kept and not normalized (13:7 διεραυνῶσιν B*, 13:8 συνγνωστοί B*, 13:13 οὐθέν; the B* attributions are confirmed by the apparatus). Where the KJV wording presupposes a different Greek reading (13:13 'the skill of his understanding', i.e. συνέσεως, against Swete's ἀνέσεως 'leisure'), the commentary names the difference and the witnesses Swete's apparatus gives for it (13:13 συνέσεως ℵ^c.a). Swete's apparatus survives, OCR-degraded, as footnotes in the First1KGreek XML (it is not carried into source-grc-13.json); witnesses are named where that apparatus gives them and are marked as read from the OCR transcription; where it gives none, none are asserted. Punctuation follows Swete as printed; a transcription stop that is not Swete's (13:10 ἄχρηστον. χειρός, taken as a transcription error pending a check of Swete's page image, vol. 2 p. 628) is corrected and the correction recorded. Swete's section capitals (Μάταιοι 13:1; Ταλαίπωροι 13:10) are kept in the Greek and noted in commentary, since the paragraph schema has no section field. Wave MC (Wis 6): where Swete's printed B* text lacks words that other witnesses and the standard English versions have, the line still translates Swete and the commentary reports the longer text with its witnesses, without brackets in the line (6:12, where the clause 'and she is found by those who seek her' stands in a B corrector's margin, ℵ and A, and in Rahlfs, the KJV, Brenton and NRSV). B* spellings kept: 6:3 διεραυνήσει, 6:8 ἔραυνα; B spelling kept: 6:24 εὐσταθία (A εὐστάθεια). Transcription verse-boundary errors are corrected to Swete's printed numbering and logged (6:19/20). Swete's section capital at Λαμπρά (6:12) is noted in commentary; his parenthesised alternative verse numbers are not recorded.",
       "claim_type": "direct",
       "rationale": "This is the corpus's first Septuagint-only text, and the source file is a CC BY-SA transcription of Swete's diplomatic edition of Vaticanus; the English must translate that text and no other, or the line would represent no single Greek witness. Vaticanus is one of the three great uncials for Wisdom (with Sinaiticus and Alexandrinus), and Swete prints it with an apparatus; the standard critical edition is J. Ziegler, Sapientia Salomonis (Göttingen Septuaginta XII/1, 1962; 2nd ed. 1980), with A. Rahlfs, Septuaginta (1935) as the common manual text. Swete's apparatus is not carried into the source JSON but survives as OCR footnotes in the First1KGreek XML, so manuscript attributions are taken from it and marked as read from an OCR transcription (13:13: συνέσεως ℵ^c.a, ἐργασίας ℵ^c.a A); no witness is named that the apparatus does not give. Correcting only demonstrable OCR errors, and listing each one, keeps the source file auditable against Swete's printed page. The convention is direct: it states which text is translated and reports alternatives without adjudicating them in the line.",
       "appliesTo": [
@@ -23,7 +23,21 @@
         "WIS-WOH-13:7",
         "WIS-WOH-13:8",
         "WIS-WOH-13:10",
-        "WIS-WOH-13:13"
+        "WIS-WOH-13:13",
+        "WIS-WOH-6:1",
+        "WIS-WOH-6:3",
+        "WIS-WOH-6:6",
+        "WIS-WOH-6:8",
+        "WIS-WOH-6:10",
+        "WIS-WOH-6:12",
+        "WIS-WOH-6:13",
+        "WIS-WOH-6:14",
+        "WIS-WOH-6:18",
+        "WIS-WOH-6:19",
+        "WIS-WOH-6:20",
+        "WIS-WOH-6:22",
+        "WIS-WOH-6:23",
+        "WIS-WOH-6:24"
       ]
     },
     {
@@ -34,7 +48,7 @@
       "partOfSpeech": "noun, masculine (singular with and without the article; plural predicate)",
       "literal": "god; God; gods",
       "standardEnglish": "God; gods (KJV, Brenton, RSV, NRSV)",
-      "wohChoice": "'God' for the singular *theos* (13:1 *theou agnōsia* 'ignorance of God'; 13:6 anarthrous *theon zētountes* 'seeking God'), 'gods' for the plural predicate (13:2, 3, 10 *theous*). The convention of the revelation-woh overlay (`theos-god-rendering-against-canon-english-yahweh-revelation`) is adopted for the Septuagint: the Hebrew-book renderings 'Elohim' and 'YHWH' are not written for Greek *theos*.",
+      "wohChoice": "'God' for the singular *theos* (13:1 *theou agnōsia* 'ignorance of God'; 13:6 anarthrous *theon zētountes* 'seeking God'; 6:4 *tou theou*; 6:19 anarthrous *theou* 'near to God'), 'gods' for the plural predicate (13:2, 3, 10 *theous*). The convention of the revelation-woh overlay (`theos-god-rendering-against-canon-english-yahweh-revelation`) is adopted for the Septuagint: the Hebrew-book renderings 'Elohim' and 'YHWH' are not written for Greek *theos*.",
       "claim_type": "direct",
       "rationale": "Greek *theos* is the Septuagint's ordinary equivalent of Hebrew *ʾĕlōhîm* and *ʾēl*, and the Septuagint uses *kyrios*, not *theos*, for the Tetragrammaton (BDAG s.v. θεός; Muraoka, A Greek-English Lexicon of the Septuagint, 2009, s.v.). The Wisdom of Solomon was composed in Greek, so there is no Hebrew *ʾĕlōhîm* behind the word at all, and writing 'Elohim' would translate a text that does not exist. The Greek books of the corpus (Matthew, Mark, Luke, Acts, Revelation) render *theos* 'God' throughout, and the Septuagint should follow the same Greek rule. At 13:6 the anarthrous *theon* is read as 'God' because the verse continues the argument of 13:1-5 about the one maker known from his works; 'a god' would suggest any deity and break that continuity (Winston, AB 43, ad loc.). The plural *theoi* is the predicate the nature-worshippers and idol-makers assign, and is lower-case 'gods'.",
       "appliesTo": [
@@ -42,7 +56,9 @@
         "WIS-WOH-13:2",
         "WIS-WOH-13:3",
         "WIS-WOH-13:6",
-        "WIS-WOH-13:10"
+        "WIS-WOH-13:10",
+        "WIS-WOH-6:4",
+        "WIS-WOH-6:19"
       ]
     },
     {
@@ -53,14 +69,16 @@
       "partOfSpeech": "Overlay convention: translit field and the scope rule for Hebrew-text central entries in a Greek book",
       "literal": "(N/A; convention entry)",
       "standardEnglish": "(N/A)",
-      "wohChoice": "(1) The `translit` field follows the matthew-woh `sbl-polytonic-greek-transliteration-convention` (η ē, ω ō, rough breathing h, no accents). (2) Scope rule, as in the revelation-woh `greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation`: a central entry written for the Hebrew text governs a Greek line only where the Greek word is that Hebrew word's Septuagint equivalent and the entry's English also correctly renders the Greek. Applied: `meorot` 'luminaries' for *phōstēres* (13:2; LXX Gen 1:14-16 renders *mᵊʾōrōt* by *phōstēres*); `ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus` for *ton onta* (13:1) as a reception site of the Septuagint *ho ōn* stratum that entry documents, exactly as at Rev 1:4, 1:8, 4:8 and 16:5. Background only: `bara` 'shape' (13:3 *ektisen* is *ktizō*, not the Septuagint's equivalent for *bārāʾ* in Gen 1, and 'shape' does not render *ktizō*); `pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus` (13:13-16; no *glypton*/*pesel* noun stands in the Greek); `tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus` (astral worship, 13:2); `apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus` (13:1 has the regular accusative *ton onta*, no solecism).",
+      "wohChoice": "(1) The `translit` field follows the matthew-woh `sbl-polytonic-greek-transliteration-convention` (η ē, ω ō, rough breathing h, no accents). (2) Scope rule, as in the revelation-woh `greek-nt-proper-names-and-hebrew-scoped-entries-convention-revelation`: a central entry written for the Hebrew text governs a Greek line only where the Greek word is that Hebrew word's Septuagint equivalent and the entry's English also correctly renders the Greek. Applied: `meorot` 'luminaries' for *phōstēres* (13:2; LXX Gen 1:14-16 renders *mᵊʾōrōt* by *phōstēres*); `ehyeh-asher-ehyeh-divine-name-revelation-ex-3-14-cross-corpus` for *ton onta* (13:1) as a reception site of the Septuagint *ho ōn* stratum that entry documents, exactly as at Rev 1:4, 1:8, 4:8 and 16:5. Background only: `bara` 'shape' (13:3 *ektisen* is *ktizō*, not the Septuagint's equivalent for *bārāʾ* in Gen 1, and 'shape' does not render *ktizō*); `pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus` (13:13-16; no *glypton*/*pesel* noun stands in the Greek); `tzeva-ha-shamayim-host-of-the-heavens-divine-council-cross-corpus` (astral worship, 13:2); `apo-ho-on-rev-1-4-greek-grammatical-solecism-divine-name-cross-corpus` (13:1 has the regular accusative *ton onta*, no solecism). Wave MC (Wis 6), background only: `el-elyon` for *Hypsistos* (6:3; its English transliterates the Hebrew compound with *ʾēl*; the Greek title is 'the Most High', `hypsistos-the-most-high-wisdom`); `torah-law-instruction-rendering-cross-corpus` for anarthrous *nomos* (6:4).",
       "claim_type": "direct",
       "rationale": "A Septuagint book written in Greek stands at the meeting point of the corpus's Hebrew and Greek conventions, so the rule for when a Hebrew-text decision crosses into a Greek line has to be stated, not improvised verse by verse. The test is lexical: the Greek word must be the attested Septuagint equivalent of the Hebrew lemma, and the central entry's English must be a correct rendering of the Greek word (LSJ and BDAG s.v. φωστήρ 'luminary'; Muraoka s.v.). Where the central English encodes something specific to the Hebrew (the verb *bārāʾ* and its rendering 'shape'; the noun *pesel*), applying it would translate a word the Greek does not contain, so the entry is cited in commentary as background. The *ho ōn* extension follows the precedent already in the central glossary, where the Exodus entry lists the Revelation *ho ōn* sites as reception of the Septuagint rendering it documents. The transliteration convention keeps the Greek apparatus uniform across the Greek books.",
       "appliesTo": [
         "WIS-WOH-13:1",
         "WIS-WOH-13:2",
         "WIS-WOH-13:3",
-        "WIS-WOH-13:13"
+        "WIS-WOH-13:13",
+        "WIS-WOH-6:3",
+        "WIS-WOH-6:4"
       ]
     },
     {
@@ -88,12 +106,13 @@
       "partOfSpeech": "apparatus convention",
       "literal": "(N/A; convention entry)",
       "standardEnglish": "(N/A)",
-      "wohChoice": "At each verse quoted in the canon (13:1 and 13:5, quoted in that reverse order in *The Book Which Tells the Truth*, ch. 3), the commentary ends with a separately headed paragraph, '**Wheel of Heaven reading (reception note, not a translation claim).**', giving the book and chapter, the French original and the English edition's wording (the English edition quotes the KJV) and the reading the book attaches. The line translates the Greek; where the canon's words differ ('workmaster', 'proportionably') or agree ('par analogie'), this is stated, and the Greek is followed.",
+      "wohChoice": "At each verse quoted in the canon (13:1 and 13:5, quoted in that reverse order in *The Book Which Tells the Truth*, ch. 3; 6:22, quoted at TBWTT-3:266 as « VI-22 »), the commentary ends with a separately headed paragraph, '**Wheel of Heaven reading (reception note, not a translation claim).**', giving the book and chapter, the French original and the English edition's wording (the English edition quotes the KJV) and the reading the book attaches. The line translates the Greek; where the canon's words differ ('workmaster', 'proportionably') or agree ('par analogie'), this is stated, and the Greek is followed.",
       "claim_type": "direct",
-      "rationale": "This is the acknowledgment-without-endorsement framework applied in the Matthew, Revelation and Kings waves under the same heading. A separate, labelled paragraph lets a reader audit exactly where the Wheel of Heaven reading enters the apparatus and guarantees that it never enters the English line. The canon's English edition quotes the KJV, so recording its wording also makes visible where the KJV's choices ('workmaster', 'proportionably') differ from the line's lexicon-based ones ('craftsman', 'by analogy'). The citations were checked against the program's citation extract (TBWTT-3:268-270); the book also quotes Wis 6:22 (TBWTT-3:266), which lies outside this chapter.",
+      "rationale": "This is the acknowledgment-without-endorsement framework applied in the Matthew, Revelation and Kings waves under the same heading. A separate, labelled paragraph lets a reader audit exactly where the Wheel of Heaven reading enters the apparatus and guarantees that it never enters the English line. The canon's English edition quotes the KJV, so recording its wording also makes visible where the KJV's choices ('workmaster', 'proportionably') differ from the line's lexicon-based ones ('craftsman', 'by analogy'). The citations were checked against the program's citation extract (TBWTT-3:266-270): Wis 6:22 is quoted at TBWTT-3:266, with the book's reading at TBWTT-3:267, and Wis 13:5 and 13:1 at TBWTT-3:268-270.",
       "appliesTo": [
         "WIS-WOH-13:1",
-        "WIS-WOH-13:5"
+        "WIS-WOH-13:5",
+        "WIS-WOH-6:22"
       ]
     },
     {
@@ -152,12 +171,13 @@
       "partOfSpeech": "noun, masculine",
       "literal": "master, owner, lord",
       "standardEnglish": "the Lord of them; the Lord thereof (KJV); their Lord; the Lord of these things (NRSV)",
-      "wohChoice": "'Lord' (13:3 'their Lord'; 13:9 'the Lord of these things'). The vocative *despota* in an address to God is rendered 'Sovereign Lord' in Revelation (6:10) by the vocative-address practice of RSV/NRSV; the non-vocative, owner-of-the-elements sense here keeps the plain 'Lord'. The difference from *kyrios* is noted in commentary.",
+      "wohChoice": "'Lord' (13:3 'their Lord'; 13:9 'the Lord of these things'; 6:7 *ho pantōn despotēs* 'the Lord of all'). The vocative *despota* in an address to God is rendered 'Sovereign Lord' in Revelation (6:10) by the vocative-address practice of RSV/NRSV; the non-vocative, owner-of-the-elements sense here keeps the plain 'Lord'. The difference from *kyrios* is noted in commentary.",
       "claim_type": "direct",
       "rationale": "*Despotēs* denotes the master or owner of a household or of slaves, and of God as master of all (BDAG s.v.; LSJ s.v.); in the Septuagint it renders *ʾādôn* and the vocative *ʾădōnāy* (Gen 15:2, 8 *Despota*), so 'Lord' is its long-established English equivalent and is used here by KJV, Brenton and NRSV. The argument at 13:3 and 13:9 is one of ownership: the elements people deified have a master who is greater than they, and 'Lord of these things' carries that relation. 'Master' would sharpen the ownership sense but loses the divine register the context requires, and 'Sovereign' would assimilate a non-vocative noun to a liturgical address formula. Since *kyrios* is also 'Lord' in the corpus, the Greek word is named in commentary at each site so that the two lemmas remain distinguishable for the reader.",
       "appliesTo": [
         "WIS-WOH-13:3",
-        "WIS-WOH-13:9"
+        "WIS-WOH-13:9",
+        "WIS-WOH-6:7"
       ]
     },
     {
@@ -260,6 +280,103 @@
         "WIS-WOH-13:17",
         "WIS-WOH-13:18",
         "WIS-WOH-13:19"
+      ]
+    },
+    {
+      "id": "kyrios-the-lord-rendering-wisdom",
+      "source": "κύριος (παρὰ τοῦ κυρίου)",
+      "translit": "kyrios (para tou kyriou)",
+      "strongs": "G2962",
+      "partOfSpeech": "noun, masculine (articular, of God)",
+      "literal": "lord, master",
+      "standardEnglish": "the Lord (KJV, Brenton, RSV, NRSV)",
+      "wohChoice": "'the Lord' for *kyrios* referring to God (6:3 *para tou kyriou* 'from the Lord'). Not the small-capital 'LORD' and not 'YHWH', which signal the Tetragrammaton of a Hebrew original. Same rendering as the Greek books of the corpus (Matthew, Revelation). *Despotēs*, also 'Lord' (6:7; 13:3, 9), is distinguished by naming the Greek word in commentary.",
+      "claim_type": "direct",
+      "rationale": "In the Septuagint *kyrios* is the standard surrogate for the Tetragrammaton and for *ʾădōnāy* (Muraoka, A Greek-English Lexicon of the Septuagint, 2009, s.v.; BDAG s.v. κύριος 2.b), and English translations of the Greek books render it 'the Lord'. The Wisdom of Solomon was composed in Greek, so no Hebrew divine name lies behind the word; printing 'YHWH' or the small-capital 'LORD', which in English Bibles marks the Tetragrammaton of a Hebrew text, would translate a text that does not exist, by the same reasoning as `theos-god-rendering-wisdom`. The founder's ratified Greek conventions for Wisdom set *kyrios* 'the Lord', as in the Greek New Testament books of the corpus. Because *despotēs* is also 'Lord' in this book, commentary names the Greek word at each site so that the two lemmas stay distinguishable.",
+      "appliesTo": [
+        "WIS-WOH-6:3"
+      ]
+    },
+    {
+      "id": "hypsistos-the-most-high-wisdom",
+      "source": "Ὕψιστος (παρὰ Ὑψίστου)",
+      "translit": "Hypsistos (para Hypsistou)",
+      "strongs": "G5310",
+      "partOfSpeech": "adjective (superlative) used absolutely as a divine title",
+      "literal": "the highest",
+      "standardEnglish": "the Highest (KJV, Brenton); the Most High (RSV, NRSV)",
+      "wohChoice": "'the Most High' (6:3; draft 'the Highest'), the rendering the corpus already gives the title in 1 Enoch (Greek *Hypsistos*, e.g. 1 En 10:1) and Daniel (Aramaic *ʿillāyā*, Dan 4). The central `el-elyon` 'El Elyon' is background only. Wis 5:15 (*para Hypsistō*), outside the program so far, will follow the same rule.",
+      "claim_type": "direct",
+      "rationale": "*Hypsistos* used absolutely is the Septuagint's equivalent of Hebrew *ʿelyôn* and Aramaic *ʿillāy* (Muraoka s.v.; BDAG s.v. ὕψιστος 2), and 'the Most High' is its standard English rendering in RSV, NRSV and the lexica. The corpus already prints 'the Most High' for the title in 1 Enoch and Daniel, so the KJV's 'the Highest' would give one title two English names across the corpus. The central `el-elyon` transliterates the Hebrew compound with *ʾēl*; the Greek here is the bare title, so under the overlay's scope rule (`greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom`) that entry's English does not render the Greek word and it is cited as background only.",
+      "appliesTo": [
+        "WIS-WOH-6:3"
+      ]
+    },
+    {
+      "id": "royal-address-and-judgment-vocabulary-wis-6-1-21",
+      "source": "βασιλεῖς; τύραννοι; ὑπηρέται; νόμος; ἐξετάζω, διερευνάω, ἐτάζω, ἔρευνα; συγγνωστὸς ἐλέους; ὁσιόω",
+      "translit": "basileis; tyrannoi; hypēretai; nomos; exetazō, diereunaō, etazō, ereuna; syngnōstos eleous; hosioō",
+      "strongs": "G935 (basileus), G5257 (hypēretēs), G3551 (nomos), G1833 (exetazō); tyrannos as a common noun (the name Tyrannus, Acts 19:9, is G5181), diereunaō, etazō, ereuna, syngnōstos and hosioō are not in the NT (LSJ s.vv.)",
+      "partOfSpeech": "nouns and verbs of the address to rulers (Wis 6:1-11, 21)",
+      "literal": "kings; absolute rulers; attendants, officers; law; examine, search out, examine (test), search; pardonable of mercy; make or hold holy",
+      "standardEnglish": "kings; kings (KJV) / monarchs (NRSV); ministers (KJV) / servants (NRSV); the law; examine, search out, tormented (KJV) / tested (NRSV), a sore trial (KJV) / a strict inquiry (NRSV); judged holy (KJV) / made holy (NRSV)",
+      "wohChoice": "'kings' for *basileis* (6:1) and 'monarchs' for *tyrannoi* (6:9, 21; draft 'kings'); 'ministers' for *hypēretai* in the political sense (6:4); lower-case 'the law' for anarthrous *nomos* (6:4); the inquiry chain *exetasei* 'will examine' and *diereunēsei* 'will search out' (6:3), *etasthēsontai* 'will be … examined' (6:6; draft and KJV 'tormented'), *ischyra ereuna* 'a strict inquiry' (6:8; draft 'a severe trial'); *syngnōstos eleous* 'pardonable out of mercy' (6:6); *hosiōthēsontai* 'will be judged holy' (6:10).",
+      "claim_type": "direct",
+      "rationale": "Wis 6:1-11 addresses rulers in the language of a tribunal: God examines and searches out their works (6:3), the mighty are examined (6:6), and a strict inquiry stands over them (6:8). The draft and the KJV vary the English ('examine', 'tormented', 'trial') and so hide that *exetazō*, *etazō* and *ereuna*/*diereunaō* form one forensic word-family; LSJ gives 'examine, test' for *etazō* and 'search, inquiry' for *ereuna*, and NRSV has 'tested' and 'a strict inquiry'. The KJV's 'tormented' reflects the judicial use of *etazō* for examination under torture (cf. Acts 22:24), which commentary reports while the line keeps the general sense the verse needs. *Tyrannos* in Hellenistic Greek names an absolute ruler without necessary pejorative sense (LSJ s.v.); the author changes from *basileis* to *tyrannoi* at 6:9, and 'monarchs' (NRSV) keeps that change visible, where 'kings' (KJV) merges the two words and 'tyrants' would misread the second. 'Ministers', 'the law' and 'judged holy' follow the KJV and are accurate; commentary states their sense.",
+      "appliesTo": [
+        "WIS-WOH-6:1",
+        "WIS-WOH-6:2",
+        "WIS-WOH-6:3",
+        "WIS-WOH-6:4",
+        "WIS-WOH-6:5",
+        "WIS-WOH-6:6",
+        "WIS-WOH-6:8",
+        "WIS-WOH-6:9",
+        "WIS-WOH-6:10",
+        "WIS-WOH-6:21"
+      ]
+    },
+    {
+      "id": "wisdom-and-sorites-vocabulary-wis-6-11-25",
+      "source": "σοφία; λαμπρά; πάρεδρος; παιδεία / παιδεύω; νόμοι αὐτῆς; ἀφθαρσία; φρόνησις / φρόνιμος; βασιλεία",
+      "translit": "sophia; lampra; paredros; paideia / paideuō; nomoi autēs; aphtharsia; phronēsis / phronimos; basileia",
+      "strongs": "G4678 (sophia), G2986 (lampros), G3809 (paideia), G3811 (paideuō), G861 (aphtharsia), G5428 (phronēsis), G5429 (phronimos), G932 (basileia); paredros is not in the NT (LSJ s.v.)",
+      "partOfSpeech": "nouns and adjectives of the description of wisdom and the sorites (Wis 6:11-20, 24-25)",
+      "literal": "wisdom; bright; sitting beside, assessor; instruction, education / instruct; her laws; imperishability; practical wisdom / practically wise; kingdom, kingship",
+      "standardEnglish": "wisdom; glorious (KJV) / radiant (NRSV); sitting; discipline (KJV) / instruction (NRSV); incorruption (KJV) / immortality (NRSV); wisdom, wise (KJV) / understanding, sensible (NRSV); a kingdom",
+      "wohChoice": "lower-case 'wisdom' for the personified *sophia* (6:12 onward); *lampra* 'radiant' (6:12; draft and KJV 'glorious'); *paredros* 'sitting', with the sense 'assessor' in commentary (6:14); *paideia* 'instruction' (6:17-18; draft and KJV 'discipline'), with *paideuō* 'instruct' (6:11, 25); *nomoi autēs* 'her laws' (6:18); *aphtharsia* 'incorruption' (6:18-19); *phronēsis* 'prudence' (6:15; draft and KJV 'wisdom') and *phronimos* 'prudent' (6:24; draft and KJV 'wise'); *basileia* 'a kingdom' (6:20). 6:17 *archē … autēs hē alēthestatē paideias epithymia* 'her beginning is the truest desire for instruction': the superlative stands inside the article-noun bracket and qualifies *epithymia* (NRSV 'the most sincere desire'), not *archē* (KJV 'the very true beginning').",
+      "claim_type": "direct",
+      "rationale": "Wis 6:12-20 describes wisdom and then argues by a sorites (6:17-20), a chain in which each term becomes the subject of the next, from the desire for instruction to a kingdom (Winston, The Wisdom of Solomon, AB 43, 1979, ad loc.). One English word-family for *paideia* and *paideuō* ('instruction', 'instruct', as in NRSV) lets the chain answer the promise to the kings at 6:11 and the closing charge at 6:25, which the KJV's alternation of 'discipline' and 'instruction' hides. The author keeps *phronēsis* and *sophia* apart, and at 8:7 lists *phronēsis* among the four cardinal virtues, where the KJV itself renders it 'prudence'; rendering it 'wisdom' at 6:15 and 6:24 would merge two lemmas the book distinguishes. *Lampros* is 'bright, shining' (LSJ s.v.), and 'glorious' is the KJV's figurative extension; 'radiant' (NRSV) keeps the language of light that the book develops at 7:26. 'Incorruption' keeps *aphtharsia* distinct from *athanasia* 'immortality' (3:4; 8:13) and preserves its link with 2:23. A capital 'Wisdom' would decide in the line how far the personification goes, which is a question for commentary; the KJV and NRSV print lower case.",
+      "appliesTo": [
+        "WIS-WOH-6:11",
+        "WIS-WOH-6:12",
+        "WIS-WOH-6:13",
+        "WIS-WOH-6:14",
+        "WIS-WOH-6:15",
+        "WIS-WOH-6:16",
+        "WIS-WOH-6:17",
+        "WIS-WOH-6:18",
+        "WIS-WOH-6:19",
+        "WIS-WOH-6:20",
+        "WIS-WOH-6:24",
+        "WIS-WOH-6:25"
+      ]
+    },
+    {
+      "id": "what-wisdom-is-vocabulary-wis-6-22-24",
+      "source": "πῶς ἐγένετο; ἀπʼ ἀρχῆς γενέσεως; μυστήρια; εἰς τὸ ἐμφανές; οὗτος (6:23); σωτηρία κόσμου; εὐσταθία δήμου",
+      "translit": "pōs egeneto; ap' archēs geneseōs; mystēria; eis to emphanes; houtos; sōtēria kosmou; eustathia dēmou",
+      "strongs": "G1096 (ginomai), G746 (archē), G1078 (genesis), G3466 (mystērion), G1717 (emphanēs), G3778 (houtos), G4991 (sōtēria); eustatheia is not in the NT (LSJ s.v.)",
+      "partOfSpeech": "verb, nouns and pronoun of Wis 6:22-24",
+      "literal": "how she came into being; from the beginning of origin; mysteries; into the visible; this one; safety of the world; stability of the people",
+      "standardEnglish": "how she came up, from the beginning of her nativity, mysteries, into light, such a man, the welfare of the world, the upholding of the people (KJV); how she came to be, from the beginning of creation, mysteries, envy, salvation, stability (NRSV)",
+      "wohChoice": "'how she came to be' (6:22; draft and KJV 'how she came up'); 'from the beginning of her origin' (draft and KJV 'of her nativity'; 'her' supplied from context, as in the KJV); 'mysteries' (KJV, NRSV); 'into the light' for *eis to emphanes* (KJV); 'it' for *houtos*, referring to envy (6:23; draft and KJV 'such a man'); 'the welfare of the world' (6:24, KJV); 'the stability of the people' (6:24; draft and KJV 'the upholding').",
+      "claim_type": "direct",
+      "rationale": "*Ginomai* in the aorist means 'come into being, arise' (LSJ s.v.), and the KJV's 'came up' is an archaism for 'arose' that a current reader takes in a spatial or conversational sense; 'came to be' (NRSV) is the plain equivalent. *Genesis* is the noun of the same verb, 'origin, coming into being'; 'nativity' now means a birth and especially the birth of Christ, so 'origin' replaces it, the possessive the Greek lacks is supplied as the KJV supplies it, and NRSV's 'from the beginning of creation' is reported as the other reading. At 6:23 the only masculine noun available as the antecedent of *houtos* is *phthonos* 'envy', and the KJV's 'such a man' supplies a person the Greek does not name; NRSV likewise refers the clause to envy. *Eustatheia* is 'stability, steadiness' (LSJ s.v.), a term of Hellenistic political writing that 'upholding' only approximates. 'Mysteries', 'into the light' and 'welfare' are the KJV's renderings and remain accurate, so they are kept. The canon's reading of this verse is recorded only in the reception note at 6:22 (`raelian-canon-citation-reception-note-convention-wisdom`).",
+      "appliesTo": [
+        "WIS-WOH-6:22",
+        "WIS-WOH-6:23",
+        "WIS-WOH-6:24"
       ]
     }
   ]

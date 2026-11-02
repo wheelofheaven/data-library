@@ -1,0 +1,1462 @@
+[
+  {
+    "op": "version",
+    "from": "2.90.0",
+    "to": "2.93.0",
+    "note": "Base: central glossary v2.90.0 (scratchpad/gloss/translation-glossary-2.90.0.json), read-only. Wave MC, Hebrew part (Lev 17, 25; Num 11; Josh 3; Judg 7; 2 Sam 6; Mic 5; Editor pass 2026-11-02, claude-opus-5-5). Contents: 1 new central entry (goel-geullah-redeemer-redemption-cross-corpus, direct; the gʾl family recurs in Leviticus, Isaiah, Psalms and Ezekiel); 2 modify ops that append a clause to wohChoice (eretz: universal-formula clause for ʾăḏôn kol-hāʾāreṣ; shofar-rams-horn-signal-instrument-cross-corpus: jubilee clause) without reversing a shipped decision; and appliesTo-only extensions for every other central id the seven chapters cite. Minor bump by house practice for appended clauses. The target 2.93.0 assumes the parallel wave-MC diffs (revelation-woh/wave-mc-nt-central-diff.json targets 2.91.0, and a deuterocanonical diff may take 2.92.0) are merged first; if the order differs, renumber and re-base each appliesTo array as the union of the then-current array and `appliesToAdded`. Likely overlaps with other wave-MC diffs: elohim-as-translation, eretz, shofar, hishtachavah, aron. Apply semantics as in earlier waves: op=add inserts `entry`; op=modify replaces each field in `changes` (appliesTo values are complete arrays preserving every refId of v2.90.0; `appliesToAdded` lists the additions). Chapters stay pinned at glossaryVersion 2.90.0 as instructed; bump them at sign-off if house practice requires.",
+    "scopeNoteAddendum": "**v2.93.0 (wave MC, Hebrew part: Leviticus 17 and 25, Numbers 11, Joshua 3, Judges 7, 2 Samuel 6, Micah 5, the Hebrew-Bible chapters the first canon-cited program missed):** one new central entry, `goel-geullah-redeemer-redemption-cross-corpus` (gʾl 'redeem / redeemer / redemption' across Leviticus, Isaiah, Psalms and Ezekiel; 'kinsman' of the ASV in Lev 25 replaced). `eretz` gains a universal-formula clause ('the Lord of all the earth', Josh 3:11, 13); `shofar-rams-horn-signal-instrument-cross-corpus` gains a jubilee clause (yôḇēl 'jubilee' for the fiftieth year, Lev 25; 'a shofar blast', Lev 25:9) and the Judges 7 and 2 Samuel 6 sites. appliesTo extensions for the sacrificial, karet, blood-life, sojourner, possession, ark, Elohim, bow-down and other ids the chapters cite. Book-level decisions live in the new leviticus-woh, 2-samuel-woh and micah-woh overlays (v1.0.0) and in the extended numbers-woh, joshua-woh, judges-woh and 1-samuel-woh overlays (v1.1.0)."
+  },
+  {
+    "op": "add",
+    "id": "goel-geullah-redeemer-redemption-cross-corpus",
+    "entry": {
+      "id": "goel-geullah-redeemer-redemption-cross-corpus",
+      "source": "גָּאַל ; גֹּאֵל ; גְּאֻלָּה",
+      "translit": "gāʾal ; gōʾēl ; gəʾullâ",
+      "strongs": "H1350 (gāʾal); H1353 (gəʾullâ)",
+      "lemma": "gāʾal 'redeem, buy back, act as kinsman'; gōʾēl (Qal participle) 'redeemer, next of kin with the duty of redemption'; gəʾullâ 'redemption, right of redemption'",
+      "partOfSpeech": "verb (Qal, Niphal); participle used as noun; noun, feminine",
+      "literal": "to reclaim (what belongs to the family); the reclaimer; the reclaiming",
+      "standardEnglish": "redeem; kinsman (ASV Lev 25:25), redeemer (ASV Isaiah, Ps 19:14); redemption / right of redemption; next of kin (NRSV Lev 25:25); nearest redeemer (NJPS Lev 25:25)",
+      "wohChoice": "One English root for the gʾl family: 'redeem' (verb), 'redeemer' (gōʾēl; capitalised 'Redeemer' as a divine title in Isaiah: 'your Redeemer', Isa 43:14; 44:6, 24; 48:17; 54:5, 8), 'redemption' (gəʾullâ). Lev 25: 'his redeemer who is nearest to him' (25:25; ASV 'his kinsman that is next unto him'), 'a redemption for the land' (25:24), 'redeem' (25:25-54 passim). Where gəʾullâ denotes the kin group that holds the right of redemption, it is rendered by its referent: 'the men of your kindred' (Ezek 11:15, ʾanšê ḡəʾullāṯeḵā). The verb pāḏâ 'ransom, redeem' (Ex 13:13-15; Num 18:15-17; 1 Kgs 1:29; Isa 29:22) also takes 'redeem' in the corpus and is distinguished in commentary; the formula of Gen 48:16 is governed by ha-mal-akh-ha-go-el-mi-kol-ra-unified-theophanic-redeemer-formula.",
+      "claim_type": "direct",
+      "rationale": "Wave MC, Hebrew part (Leviticus 25; Editor pass 2026-11-02, claude-opus-5-5). gāʾal belongs to family law: the gōʾēl is the nearest male kinsman, obliged to buy back family land sold under debt (Lev 25:25-34; Jer 32:6-15; Ruth 3-4), to redeem a kinsman sold into slavery (Lev 25:47-55), and to avenge a kinsman's blood (gōʾēl haddām, Num 35:12-27) (Ringgren, TDOT II, gāʾal, 1975; Hubbard, 'The Goʾel in Ancient Israel', BBR 1, 1991; Milgrom, Leviticus 23-27, AB 3B, 2001). Second Isaiah transfers the institution to YHWH, who is Israel's gōʾēl (Isa 41:14; 43:14; 44:6, 24; 48:17; 49:7, 26; 54:5, 8) and 'redeems' Jacob from exile (43:1; 44:22-23; 48:20), so the theological title presupposes the legal practice of Lev 25. The ASV breaks the family apart in Lev 25 ('kinsman' for gōʾēl at v 25, 'no one to redeem it' at v 26, 'redeem' for the verb), while it prints 'redeemer' in Isaiah and the Psalms, so an English reader cannot see that the Isaiah title is the Leviticus kinsman. The corpus renders the whole family with one root, as NJPS does in Lev 25:25 ('his nearest redeemer'), and states the kinship sense in commentary; NRSV's 'next of kin' is accurate for the person but loses the verb. The published isaiah-woh chapters (43:1, 14; 44:6, 22-24; 48:17, 20; 54:5, 8) and psalms-woh 19:15 already print 'redeem' / 'Redeemer', and their refIds are listed in appliesTo for audit; their chapter files do not yet cite this id. Ezek 11:15 uses gəʾullâ for the kin group itself ('the men of your kindred', ezekiel-woh, published), which shows the social meaning of the noun and is kept. The verb pāḏâ, which the ASV and the corpus also render 'redeem' (Ex 13:13-15; Num 18:15-17; 1 Kgs 1:29; Isa 29:22), is the commercial and cultic 'ransom by payment' and is not governed by this entry; commentary distinguishes the two where they meet. The entry is direct: the renderings are those of the major English versions, applied consistently.",
+      "appliesTo": [
+        "LEV-WOH-25:24",
+        "LEV-WOH-25:25",
+        "LEV-WOH-25:26",
+        "LEV-WOH-25:29",
+        "LEV-WOH-25:31",
+        "LEV-WOH-25:32",
+        "LEV-WOH-25:33",
+        "LEV-WOH-25:48",
+        "LEV-WOH-25:49",
+        "LEV-WOH-25:51",
+        "LEV-WOH-25:52",
+        "LEV-WOH-25:54",
+        "ISA-43:1",
+        "ISA-43:14",
+        "ISA-44:6",
+        "ISA-44:22",
+        "ISA-44:23",
+        "ISA-44:24",
+        "ISA-48:17",
+        "ISA-48:20",
+        "ISA-54:5",
+        "ISA-54:8",
+        "PSA-WOH-19:15",
+        "EZK-WOH-11:15"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "achuzzah-patriarchal-possession-holding-keyword",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:11",
+        "GEN-WOH-47:27",
+        "GEN-WOH-48:4",
+        "GEN-WOH-49:30",
+        "GEN-WOH-50:13",
+        "LEV-WOH-25:10",
+        "LEV-WOH-25:13",
+        "LEV-WOH-25:24",
+        "LEV-WOH-25:25",
+        "LEV-WOH-25:27",
+        "LEV-WOH-25:28",
+        "LEV-WOH-25:32",
+        "LEV-WOH-25:33",
+        "LEV-WOH-25:34",
+        "LEV-WOH-25:41",
+        "LEV-WOH-25:45",
+        "LEV-WOH-25:46"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-25:10",
+        "LEV-WOH-25:13",
+        "LEV-WOH-25:24",
+        "LEV-WOH-25:25",
+        "LEV-WOH-25:27",
+        "LEV-WOH-25:28",
+        "LEV-WOH-25:32",
+        "LEV-WOH-25:33",
+        "LEV-WOH-25:34",
+        "LEV-WOH-25:41",
+        "LEV-WOH-25:45",
+        "LEV-WOH-25:46"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-25:10, LEV-WOH-25:13, LEV-WOH-25:24, LEV-WOH-25:25, LEV-WOH-25:27, LEV-WOH-25:28, LEV-WOH-25:32, LEV-WOH-25:33, LEV-WOH-25:34, LEV-WOH-25:41, LEV-WOH-25:45, LEV-WOH-25:46)."
+  },
+  {
+    "op": "modify",
+    "id": "ad-ha-yom-ha-zeh-aetiological-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:26",
+        "GEN-WOH-48:15",
+        "2KI-WOH-2:22",
+        "1KI-WOH-8:8",
+        "2KI-WOH-17:23",
+        "2KI-WOH-17:34",
+        "2KI-WOH-17:41",
+        "JOS-WOH-5:9",
+        "JOS-WOH-6:25",
+        "JOS-WOH-10:27",
+        "JDG-WOH-6:24",
+        "1SA-WOH-5:5",
+        "1SA-WOH-6:18",
+        "2SA-WOH-6:8"
+      ],
+      "appliesToAdded": [
+        "2SA-WOH-6:8"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (2SA-WOH-6:8)."
+  },
+  {
+    "op": "modify",
+    "id": "al-ken-qara-shemah-aetiological-naming-formula-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-50:11",
+        "JOS-WOH-5:9",
+        "JDG-WOH-6:24",
+        "JDG-WOH-6:32",
+        "NUM-WOH-11:3",
+        "NUM-WOH-11:34",
+        "2SA-WOH-6:8"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:3",
+        "NUM-WOH-11:34",
+        "2SA-WOH-6:8"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:3, NUM-WOH-11:34, 2SA-WOH-6:8)."
+  },
+  {
+    "op": "modify",
+    "id": "amalek-perennial-enemy-ex-17-deut-25-1-sam-15-esther-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-17:8",
+        "EXO-WOH-17:9",
+        "EXO-WOH-17:10",
+        "EXO-WOH-17:11",
+        "EXO-WOH-17:13",
+        "EXO-WOH-17:14",
+        "EXO-WOH-17:16",
+        "JDG-WOH-7:12"
+      ],
+      "appliesToAdded": [
+        "JDG-WOH-7:12"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (JDG-WOH-7:12)."
+  },
+  {
+    "op": "modify",
+    "id": "aron-ark-of-the-covenant-ark-of-the-elohim-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-25:10",
+        "EXO-WOH-25:14",
+        "EXO-WOH-25:15",
+        "EXO-WOH-25:16",
+        "EXO-WOH-25:21",
+        "EXO-WOH-25:22",
+        "JOS-WOH-6:4",
+        "JOS-WOH-6:6",
+        "JOS-WOH-6:7",
+        "JOS-WOH-6:8",
+        "JOS-WOH-6:9",
+        "JOS-WOH-6:11",
+        "JOS-WOH-6:12",
+        "JOS-WOH-6:13",
+        "1SA-WOH-3:3",
+        "1SA-WOH-5:1",
+        "1SA-WOH-5:2",
+        "1SA-WOH-5:3",
+        "1SA-WOH-5:4",
+        "1SA-WOH-5:7",
+        "1SA-WOH-5:8",
+        "1SA-WOH-5:10",
+        "1SA-WOH-5:11",
+        "1SA-WOH-6:1",
+        "1SA-WOH-6:2",
+        "1SA-WOH-6:3",
+        "1SA-WOH-6:8",
+        "1SA-WOH-6:11",
+        "1SA-WOH-6:13",
+        "1SA-WOH-6:15",
+        "1SA-WOH-6:18",
+        "1SA-WOH-6:19",
+        "1SA-WOH-6:21",
+        "JOS-WOH-3:3",
+        "JOS-WOH-3:6",
+        "JOS-WOH-3:8",
+        "JOS-WOH-3:11",
+        "JOS-WOH-3:13",
+        "JOS-WOH-3:14",
+        "JOS-WOH-3:15",
+        "JOS-WOH-3:17",
+        "2SA-WOH-6:2",
+        "2SA-WOH-6:3",
+        "2SA-WOH-6:4",
+        "2SA-WOH-6:6",
+        "2SA-WOH-6:7",
+        "2SA-WOH-6:9",
+        "2SA-WOH-6:10",
+        "2SA-WOH-6:11",
+        "2SA-WOH-6:12",
+        "2SA-WOH-6:13",
+        "2SA-WOH-6:15",
+        "2SA-WOH-6:16",
+        "2SA-WOH-6:17"
+      ],
+      "appliesToAdded": [
+        "JOS-WOH-3:3",
+        "JOS-WOH-3:6",
+        "JOS-WOH-3:8",
+        "JOS-WOH-3:11",
+        "JOS-WOH-3:13",
+        "JOS-WOH-3:14",
+        "JOS-WOH-3:15",
+        "JOS-WOH-3:17",
+        "2SA-WOH-6:2",
+        "2SA-WOH-6:3",
+        "2SA-WOH-6:4",
+        "2SA-WOH-6:6",
+        "2SA-WOH-6:7",
+        "2SA-WOH-6:9",
+        "2SA-WOH-6:10",
+        "2SA-WOH-6:11",
+        "2SA-WOH-6:12",
+        "2SA-WOH-6:13",
+        "2SA-WOH-6:15",
+        "2SA-WOH-6:16",
+        "2SA-WOH-6:17"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (JOS-WOH-3:3, JOS-WOH-3:6, JOS-WOH-3:8, JOS-WOH-3:11, JOS-WOH-3:13, JOS-WOH-3:14, JOS-WOH-3:15, JOS-WOH-3:17, 2SA-WOH-6:2, 2SA-WOH-6:3, 2SA-WOH-6:4, 2SA-WOH-6:6, 2SA-WOH-6:7, 2SA-WOH-6:9, 2SA-WOH-6:10, 2SA-WOH-6:11, 2SA-WOH-6:12, 2SA-WOH-6:13, 2SA-WOH-6:15, 2SA-WOH-6:16, 2SA-WOH-6:17)."
+  },
+  {
+    "op": "modify",
+    "id": "avon-iniquity-cross-corpus-keyword",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-44:16",
+        "ISA-53:5",
+        "ISA-53:6",
+        "ISA-53:11",
+        "ISA-26:21",
+        "ISA-27:9",
+        "ISA-13:11",
+        "ISA-14:21",
+        "ISA-40:2",
+        "ISA-43:24",
+        "ISA-65:7",
+        "1SA-WOH-3:13",
+        "1SA-WOH-3:14",
+        "LEV-WOH-17:16"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-17:16"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-17:16)."
+  },
+  {
+    "op": "modify",
+    "id": "basar-b-nafsho-damo",
+    "changes": {
+      "appliesTo": [
+        "GEN-9:4",
+        "LEV-WOH-17:11",
+        "LEV-WOH-17:14"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-17:11",
+        "LEV-WOH-17:14"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-17:11, LEV-WOH-17:14)."
+  },
+  {
+    "op": "modify",
+    "id": "be-yedkhem-nittanu",
+    "changes": {
+      "appliesTo": [
+        "GEN-9:2",
+        "JOS-WOH-6:2",
+        "JOS-WOH-10:8",
+        "JOS-WOH-10:19",
+        "JOS-WOH-10:30",
+        "JOS-WOH-10:32",
+        "JDG-WOH-6:1",
+        "JDG-WOH-13:1",
+        "1SA-WOH-17:46",
+        "1SA-WOH-17:47",
+        "JDG-WOH-7:2",
+        "JDG-WOH-7:7",
+        "JDG-WOH-7:9",
+        "JDG-WOH-7:14",
+        "JDG-WOH-7:15"
+      ],
+      "appliesToAdded": [
+        "JDG-WOH-7:2",
+        "JDG-WOH-7:7",
+        "JDG-WOH-7:9",
+        "JDG-WOH-7:14",
+        "JDG-WOH-7:15"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (JDG-WOH-7:2, JDG-WOH-7:7, JDG-WOH-7:9, JDG-WOH-7:14, JDG-WOH-7:15)."
+  },
+  {
+    "op": "modify",
+    "id": "ben-adam",
+    "changes": {
+      "appliesTo": [
+        "EZK-37:3",
+        "EZK-37:9",
+        "EZK-37:11",
+        "EZK-37:16",
+        "EZK-WOH-2:1",
+        "EZK-WOH-2:3",
+        "EZK-WOH-2:6",
+        "EZK-WOH-2:8",
+        "EZK-WOH-3:1",
+        "EZK-WOH-3:3",
+        "EZK-WOH-3:4",
+        "EZK-WOH-3:10",
+        "EZK-WOH-3:17",
+        "EZK-WOH-3:25",
+        "EZK-WOH-8:5",
+        "EZK-WOH-8:6",
+        "EZK-WOH-8:8",
+        "EZK-WOH-8:12",
+        "EZK-WOH-8:15",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:2",
+        "EZK-WOH-11:4",
+        "EZK-WOH-11:15",
+        "EZK-WOH-40:4",
+        "EZK-WOH-43:7",
+        "EZK-WOH-43:10",
+        "EZK-WOH-43:18",
+        "EZK-WOH-44:5",
+        "PSA-WOH-8:5",
+        "PRO-WOH-8:4",
+        "PRO-WOH-8:31",
+        "MIC-WOH-5:6"
+      ],
+      "appliesToAdded": [
+        "MIC-WOH-5:6"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (MIC-WOH-5:6)."
+  },
+  {
+    "op": "modify",
+    "id": "cherubim-ezek",
+    "changes": {
+      "appliesTo": [
+        "EZK-10:1",
+        "EZK-10:2",
+        "EZK-10:3",
+        "EZK-10:5",
+        "EZK-10:6",
+        "EZK-10:7",
+        "EZK-10:8",
+        "EZK-10:9",
+        "EZK-10:12",
+        "EZK-10:14",
+        "EZK-10:15",
+        "EZK-10:16",
+        "EZK-10:17",
+        "EZK-10:18",
+        "EZK-10:19",
+        "EZK-10:20",
+        "EZK-10:21",
+        "1KI-WOH-6:23",
+        "1KI-WOH-6:24",
+        "1KI-WOH-6:25",
+        "1KI-WOH-6:26",
+        "1KI-WOH-6:27",
+        "1KI-WOH-6:28",
+        "1KI-WOH-6:29",
+        "1KI-WOH-6:32",
+        "1KI-WOH-6:35",
+        "1KI-WOH-8:6",
+        "1KI-WOH-8:7",
+        "EZK-WOH-11:22",
+        "EXO-WOH-25:18",
+        "EXO-WOH-25:19",
+        "EXO-WOH-25:20",
+        "EXO-WOH-25:22",
+        "2SA-WOH-6:2"
+      ],
+      "appliesToAdded": [
+        "2SA-WOH-6:2"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (2SA-WOH-6:2)."
+  },
+  {
+    "op": "modify",
+    "id": "chinnam",
+    "changes": {
+      "appliesTo": [
+        "JOB-1:9",
+        "JOB-2:3",
+        "NUM-WOH-11:5"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:5"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:5)."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-as-translation",
+    "changes": {
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:3",
+        "GEN-1:4",
+        "GEN-1:5",
+        "GEN-1:6",
+        "GEN-1:7",
+        "GEN-1:8",
+        "GEN-1:9",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:14",
+        "GEN-1:16",
+        "GEN-1:17",
+        "GEN-1:18",
+        "GEN-1:20",
+        "GEN-1:21",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:27",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:31",
+        "EZK-WOH-11:20",
+        "EXO-WOH-24:10",
+        "EXO-WOH-24:11",
+        "EXO-WOH-24:13",
+        "NUM-WOH-21:5",
+        "NUM-WOH-33:4",
+        "DEU-WOH-4:1",
+        "DEU-WOH-4:2",
+        "DEU-WOH-4:3",
+        "DEU-WOH-4:4",
+        "DEU-WOH-4:5",
+        "DEU-WOH-4:7",
+        "DEU-WOH-4:10",
+        "DEU-WOH-4:19",
+        "DEU-WOH-4:21",
+        "DEU-WOH-4:23",
+        "DEU-WOH-4:24",
+        "DEU-WOH-4:25",
+        "DEU-WOH-4:28",
+        "DEU-WOH-4:29",
+        "DEU-WOH-4:30",
+        "DEU-WOH-4:31",
+        "DEU-WOH-4:32",
+        "DEU-WOH-4:33",
+        "DEU-WOH-4:34",
+        "DEU-WOH-4:35",
+        "DEU-WOH-4:39",
+        "DEU-WOH-4:40",
+        "JOS-WOH-10:19",
+        "JOS-WOH-10:40",
+        "JOS-WOH-10:42",
+        "JDG-WOH-6:8",
+        "JDG-WOH-6:10",
+        "JDG-WOH-6:20",
+        "JDG-WOH-6:26",
+        "JDG-WOH-6:31",
+        "JDG-WOH-6:36",
+        "JDG-WOH-6:39",
+        "JDG-WOH-6:40",
+        "JDG-WOH-13:5",
+        "JDG-WOH-13:6",
+        "JDG-WOH-13:7",
+        "JDG-WOH-13:8",
+        "JDG-WOH-13:9",
+        "JDG-WOH-13:22",
+        "1SA-WOH-3:3",
+        "1SA-WOH-3:17",
+        "1SA-WOH-5:1",
+        "1SA-WOH-5:2",
+        "1SA-WOH-5:7",
+        "1SA-WOH-5:8",
+        "1SA-WOH-5:10",
+        "1SA-WOH-5:11",
+        "1SA-WOH-6:3",
+        "1SA-WOH-6:5",
+        "1SA-WOH-6:20",
+        "1SA-WOH-17:26",
+        "1SA-WOH-17:36",
+        "1SA-WOH-17:43",
+        "1SA-WOH-17:45",
+        "1SA-WOH-17:46",
+        "PSA-WOH-8:6",
+        "PSA-WOH-33:12",
+        "PSA-WOH-147:1",
+        "PSA-WOH-147:7",
+        "PSA-WOH-147:12",
+        "ECC-WOH-3:10",
+        "ECC-WOH-3:11",
+        "ECC-WOH-3:13",
+        "ECC-WOH-3:14",
+        "ECC-WOH-3:15",
+        "ECC-WOH-3:17",
+        "ECC-WOH-3:18",
+        "LEV-WOH-25:17",
+        "LEV-WOH-25:36",
+        "LEV-WOH-25:38",
+        "LEV-WOH-25:43",
+        "LEV-WOH-25:55",
+        "JOS-WOH-3:3",
+        "JOS-WOH-3:9",
+        "JDG-WOH-7:14",
+        "2SA-WOH-6:2",
+        "2SA-WOH-6:3",
+        "2SA-WOH-6:4",
+        "2SA-WOH-6:6",
+        "2SA-WOH-6:7",
+        "2SA-WOH-6:12"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-25:17",
+        "LEV-WOH-25:36",
+        "LEV-WOH-25:38",
+        "LEV-WOH-25:43",
+        "LEV-WOH-25:55",
+        "JOS-WOH-3:3",
+        "JOS-WOH-3:9",
+        "JDG-WOH-7:14",
+        "2SA-WOH-6:2",
+        "2SA-WOH-6:3",
+        "2SA-WOH-6:4",
+        "2SA-WOH-6:6",
+        "2SA-WOH-6:7",
+        "2SA-WOH-6:12"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-25:17, LEV-WOH-25:36, LEV-WOH-25:38, LEV-WOH-25:43, LEV-WOH-25:55, JOS-WOH-3:3, JOS-WOH-3:9, JDG-WOH-7:14, 2SA-WOH-6:2, 2SA-WOH-6:3, 2SA-WOH-6:4, 2SA-WOH-6:6, 2SA-WOH-6:7, 2SA-WOH-6:12)."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-imkha-divine-presence-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-21:22",
+        "GEN-WOH-26:28",
+        "GEN-WOH-28:15",
+        "GEN-WOH-31:3",
+        "1KI-WOH-1:37",
+        "1KI-WOH-8:57",
+        "JOS-WOH-6:27",
+        "JDG-WOH-6:12",
+        "JDG-WOH-6:13",
+        "JDG-WOH-6:16",
+        "1SA-WOH-3:19",
+        "1SA-WOH-17:37",
+        "JOS-WOH-3:7"
+      ],
+      "appliesToAdded": [
+        "JOS-WOH-3:7"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (JOS-WOH-3:7)."
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "changes": {
+      "wohChoice": "land. Context clause (ezekiel-woh wave E2): 'ground' where ʾereṣ is the ground level of a structure from which a height is measured (Ezek 42:6 mēhāʾāreṣ 'from the ground'; 43:14 mēḥêq hāʾāreṣ 'from the bottom on the ground'). Cosmic context clause (Torah wave T1): 'earth' where ʾereṣ is the cosmic level of the world, paired with šāmayim or with the waters below (Deut 4:17, 18, 26, 32, 36, 39; exodus-woh 20:4, 11), with 'land' kept for territory (Deut 4:1, 5, 14, 21-22, 25, 38, 43, 46-47; Num 21, 33 passim). Universal-formula clause (wave MC): 'earth' in the divine title ʾăḏôn kol-hāʾāreṣ 'the Lord of all the earth' (Josh 3:11, 13), with 'earth' as the Latter-Prophets overlays print it at Zech 4:14 ('the Lord of the whole earth', eretz-earth-or-land-latter-prophets); 'land' for territory (Lev 25 passim; Mic 5:4, 5, 10) and 'ground' for the level from which a height is measured (Num 11:31, two cubits above the ground).",
+      "appliesTo": [
+        "GEN-1:1",
+        "GEN-1:2",
+        "GEN-1:10",
+        "GEN-1:11",
+        "GEN-1:12",
+        "GEN-1:15",
+        "GEN-1:17",
+        "GEN-1:20",
+        "GEN-1:22",
+        "GEN-1:24",
+        "GEN-1:25",
+        "GEN-1:26",
+        "GEN-1:28",
+        "GEN-1:29",
+        "GEN-1:30",
+        "1KI-WOH-22:36",
+        "1KI-WOH-22:47",
+        "1KI-WOH-6:1",
+        "1KI-WOH-8:9",
+        "1KI-WOH-8:21",
+        "1KI-WOH-8:36",
+        "1KI-WOH-8:37",
+        "1KI-WOH-8:41",
+        "1KI-WOH-8:46",
+        "1KI-WOH-8:47",
+        "1KI-WOH-8:48",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:5",
+        "2KI-WOH-17:7",
+        "2KI-WOH-17:26",
+        "2KI-WOH-17:27",
+        "2KI-WOH-17:36",
+        "EZK-WOH-8:3",
+        "EZK-WOH-8:12",
+        "EZK-WOH-8:17",
+        "EZK-WOH-11:15",
+        "EZK-WOH-40:2",
+        "EZK-WOH-42:6",
+        "EZK-WOH-43:2",
+        "EZK-WOH-43:14",
+        "EXO-WOH-33:1",
+        "EXO-WOH-33:3",
+        "NUM-WOH-18:13",
+        "NUM-WOH-18:20",
+        "NUM-WOH-21:4",
+        "NUM-WOH-21:22",
+        "NUM-WOH-21:24",
+        "NUM-WOH-21:26",
+        "NUM-WOH-21:31",
+        "NUM-WOH-21:34",
+        "NUM-WOH-21:35",
+        "NUM-WOH-33:1",
+        "NUM-WOH-33:37",
+        "NUM-WOH-33:38",
+        "NUM-WOH-33:40",
+        "NUM-WOH-33:51",
+        "NUM-WOH-33:52",
+        "NUM-WOH-33:53",
+        "NUM-WOH-33:54",
+        "NUM-WOH-33:55",
+        "DEU-WOH-4:1",
+        "DEU-WOH-4:5",
+        "DEU-WOH-4:14",
+        "DEU-WOH-4:17",
+        "DEU-WOH-4:18",
+        "DEU-WOH-4:21",
+        "DEU-WOH-4:22",
+        "DEU-WOH-4:25",
+        "DEU-WOH-4:26",
+        "DEU-WOH-4:32",
+        "DEU-WOH-4:36",
+        "DEU-WOH-4:38",
+        "DEU-WOH-4:39",
+        "DEU-WOH-4:43",
+        "DEU-WOH-4:46",
+        "DEU-WOH-4:47",
+        "ISA-13:5",
+        "ISA-14:20",
+        "ISA-14:25",
+        "JOS-WOH-5:6",
+        "JOS-WOH-5:11",
+        "JOS-WOH-5:12",
+        "JOS-WOH-6:22",
+        "JOS-WOH-6:27",
+        "JOS-WOH-10:40",
+        "JOS-WOH-10:41",
+        "JOS-WOH-10:42",
+        "JDG-WOH-6:4",
+        "JDG-WOH-6:5",
+        "JDG-WOH-6:9",
+        "JDG-WOH-6:10",
+        "1SA-WOH-6:5",
+        "JOB-WOH-37:3",
+        "JOB-WOH-37:13",
+        "PRO-WOH-10:30",
+        "JER-WOH-10:17",
+        "JER-WOH-10:18",
+        "JER-WOH-10:22",
+        "ZEC-WOH-5:3",
+        "ZEC-WOH-5:6",
+        "ZEC-WOH-9:1",
+        "LEV-WOH-25:2",
+        "LEV-WOH-25:4",
+        "LEV-WOH-25:5",
+        "LEV-WOH-25:6",
+        "LEV-WOH-25:7",
+        "LEV-WOH-25:9",
+        "LEV-WOH-25:10",
+        "LEV-WOH-25:18",
+        "LEV-WOH-25:19",
+        "LEV-WOH-25:23",
+        "LEV-WOH-25:24",
+        "LEV-WOH-25:31",
+        "LEV-WOH-25:38",
+        "LEV-WOH-25:42",
+        "LEV-WOH-25:45",
+        "LEV-WOH-25:55",
+        "NUM-WOH-11:31",
+        "JOS-WOH-3:11",
+        "JOS-WOH-3:13",
+        "MIC-WOH-5:4",
+        "MIC-WOH-5:5",
+        "MIC-WOH-5:10"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-25:2",
+        "LEV-WOH-25:4",
+        "LEV-WOH-25:5",
+        "LEV-WOH-25:6",
+        "LEV-WOH-25:7",
+        "LEV-WOH-25:9",
+        "LEV-WOH-25:10",
+        "LEV-WOH-25:18",
+        "LEV-WOH-25:19",
+        "LEV-WOH-25:23",
+        "LEV-WOH-25:24",
+        "LEV-WOH-25:31",
+        "LEV-WOH-25:38",
+        "LEV-WOH-25:42",
+        "LEV-WOH-25:45",
+        "LEV-WOH-25:55",
+        "NUM-WOH-11:31",
+        "JOS-WOH-3:11",
+        "JOS-WOH-3:13",
+        "MIC-WOH-5:4",
+        "MIC-WOH-5:5",
+        "MIC-WOH-5:10"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-25:2, LEV-WOH-25:4, LEV-WOH-25:5, LEV-WOH-25:6, LEV-WOH-25:7, LEV-WOH-25:9, LEV-WOH-25:10, LEV-WOH-25:18, LEV-WOH-25:19, LEV-WOH-25:23, LEV-WOH-25:24, LEV-WOH-25:31, LEV-WOH-25:38, LEV-WOH-25:42, LEV-WOH-25:45, LEV-WOH-25:55, NUM-WOH-11:31, JOS-WOH-3:11, JOS-WOH-3:13, MIC-WOH-5:4, MIC-WOH-5:5, MIC-WOH-5:10). wohChoice: clause appended, existing text unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "esh-yhwh-fire-of-yhwh",
+    "changes": {
+      "appliesTo": [
+        "1KI-WOH-18:38",
+        "NUM-WOH-11:1",
+        "NUM-WOH-11:3"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:1",
+        "NUM-WOH-11:3"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:1, NUM-WOH-11:3)."
+  },
+  {
+    "op": "modify",
+    "id": "har-sinai-horev-the-mountain-of-Elohim-divine-mountain-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-3:1",
+        "EXO-WOH-3:12",
+        "EXO-WOH-17:6",
+        "EXO-WOH-19:1",
+        "EXO-WOH-19:2",
+        "EXO-WOH-19:3",
+        "EXO-WOH-19:11",
+        "EXO-WOH-19:18",
+        "EXO-WOH-19:20",
+        "EXO-WOH-19:23",
+        "GILG-WOH-11:138",
+        "GILG-WOH-11:139",
+        "GILG-WOH-11:154",
+        "ENO-WOH-1:4",
+        "ENO-WOH-18:6",
+        "ENO-WOH-24:3",
+        "ENO-WOH-25:3",
+        "JUB-WOH-1:1",
+        "JUB-WOH-1:2",
+        "JUB-WOH-1:3",
+        "JUB-WOH-1:4",
+        "JUB-WOH-8:19",
+        "1KI-WOH-19:8",
+        "1KI-WOH-8:9",
+        "EXO-WOH-24:13",
+        "EXO-WOH-24:16",
+        "EXO-WOH-33:6",
+        "DEU-WOH-4:10",
+        "DEU-WOH-4:15",
+        "LEV-WOH-25:1"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-25:1"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-25:1)."
+  },
+  {
+    "op": "modify",
+    "id": "hishtachavah-bow-down-obeisance-worship",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-37:7",
+        "GEN-WOH-37:9",
+        "GEN-WOH-37:10",
+        "GEN-WOH-42:6",
+        "GEN-WOH-43:26",
+        "GEN-WOH-43:28",
+        "GEN-WOH-44:14",
+        "GEN-WOH-47:31",
+        "GEN-WOH-48:12",
+        "GEN-WOH-49:8",
+        "GEN-WOH-50:18",
+        "EXO-WOH-24:1",
+        "EXO-WOH-33:10",
+        "DEU-WOH-4:19",
+        "JOS-WOH-5:14",
+        "1KI-WOH-22:54",
+        "2KI-WOH-2:15",
+        "2KI-WOH-17:35",
+        "2KI-WOH-17:36",
+        "JDG-WOH-7:15",
+        "MIC-WOH-5:12"
+      ],
+      "appliesToAdded": [
+        "JDG-WOH-7:15",
+        "MIC-WOH-5:12"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (JDG-WOH-7:15, MIC-WOH-5:12)."
+  },
+  {
+    "op": "modify",
+    "id": "hithpallel-first-prayer-occurrence",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-20:17",
+        "NUM-WOH-11:2"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:2"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:2)."
+  },
+  {
+    "op": "modify",
+    "id": "karet-penalty-cut-off-from-people",
+    "changes": {
+      "appliesTo": [
+        "GEN-17:14",
+        "LEV-WOH-17:4",
+        "LEV-WOH-17:9",
+        "LEV-WOH-17:10",
+        "LEV-WOH-17:14"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-17:4",
+        "LEV-WOH-17:9",
+        "LEV-WOH-17:10",
+        "LEV-WOH-17:14"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-17:4, LEV-WOH-17:9, LEV-WOH-17:10, LEV-WOH-17:14)."
+  },
+  {
+    "op": "modify",
+    "id": "mannah-bread-from-heaven-ex-16-quranic-and-nt-cross-corpus-with-disavowals",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-16:4",
+        "EXO-WOH-16:13",
+        "EXO-WOH-16:14",
+        "EXO-WOH-16:15",
+        "EXO-WOH-16:16",
+        "EXO-WOH-16:31",
+        "EXO-WOH-16:32",
+        "EXO-WOH-16:33",
+        "EXO-WOH-16:35",
+        "JOS-WOH-5:12",
+        "NUM-WOH-11:6",
+        "NUM-WOH-11:7",
+        "NUM-WOH-11:8",
+        "NUM-WOH-11:9"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:6",
+        "NUM-WOH-11:7",
+        "NUM-WOH-11:8",
+        "NUM-WOH-11:9"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:6, NUM-WOH-11:7, NUM-WOH-11:8, NUM-WOH-11:9)."
+  },
+  {
+    "op": "modify",
+    "id": "matza-chen-be-einei-x-favor-formula",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:25",
+        "GEN-WOH-47:29",
+        "EXO-WOH-33:12",
+        "EXO-WOH-33:13",
+        "EXO-WOH-33:16",
+        "EXO-WOH-33:17",
+        "JDG-WOH-6:17",
+        "NUM-WOH-11:11",
+        "NUM-WOH-11:15"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:11",
+        "NUM-WOH-11:15"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:11, NUM-WOH-11:15)."
+  },
+  {
+    "op": "modify",
+    "id": "matzevah-sacred-pillar-patriarchal-religion",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-28:18",
+        "GEN-WOH-28:22",
+        "GEN-WOH-31:13",
+        "GEN-WOH-31:45",
+        "GEN-WOH-31:51",
+        "GEN-WOH-31:52",
+        "GEN-WOH-35:14",
+        "GEN-WOH-35:20",
+        "2KI-WOH-17:10",
+        "EXO-WOH-24:4",
+        "MIC-WOH-5:12"
+      ],
+      "appliesToAdded": [
+        "MIC-WOH-5:12"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (MIC-WOH-5:12)."
+  },
+  {
+    "op": "modify",
+    "id": "megurim-patriarchal-sojourner-self-identity-gur-root",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-47:4",
+        "GEN-WOH-47:9",
+        "LEV-WOH-17:8",
+        "LEV-WOH-17:10",
+        "LEV-WOH-17:12",
+        "LEV-WOH-17:13",
+        "LEV-WOH-17:15",
+        "LEV-WOH-25:6",
+        "LEV-WOH-25:23",
+        "LEV-WOH-25:35",
+        "LEV-WOH-25:45",
+        "LEV-WOH-25:47"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-17:8",
+        "LEV-WOH-17:10",
+        "LEV-WOH-17:12",
+        "LEV-WOH-17:13",
+        "LEV-WOH-17:15",
+        "LEV-WOH-25:6",
+        "LEV-WOH-25:23",
+        "LEV-WOH-25:35",
+        "LEV-WOH-25:45",
+        "LEV-WOH-25:47"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-17:8, LEV-WOH-17:10, LEV-WOH-17:12, LEV-WOH-17:13, LEV-WOH-17:15, LEV-WOH-25:6, LEV-WOH-25:23, LEV-WOH-25:35, LEV-WOH-25:45, LEV-WOH-25:47)."
+  },
+  {
+    "op": "modify",
+    "id": "mit'yatzev-al-YHWH",
+    "changes": {
+      "appliesTo": [
+        "JOB-1:6",
+        "JOB-2:1",
+        "NUM-WOH-11:16"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:16"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:16)."
+  },
+  {
+    "op": "modify",
+    "id": "mitsrayim",
+    "changes": {
+      "appliesTo": [
+        "GEN-10:6",
+        "GEN-10:13",
+        "GEN-WOH-50:3",
+        "GEN-WOH-50:7",
+        "GEN-WOH-50:11",
+        "GEN-WOH-50:14",
+        "GEN-WOH-50:22",
+        "GEN-WOH-50:26",
+        "EXO-WOH-33:1",
+        "NUM-WOH-21:5",
+        "NUM-WOH-33:1",
+        "NUM-WOH-33:3",
+        "NUM-WOH-33:4",
+        "NUM-WOH-33:38",
+        "DEU-WOH-4:20",
+        "DEU-WOH-4:34",
+        "DEU-WOH-4:37",
+        "DEU-WOH-4:45",
+        "DEU-WOH-4:46",
+        "LEV-WOH-25:38",
+        "LEV-WOH-25:42",
+        "LEV-WOH-25:55",
+        "NUM-WOH-11:5",
+        "NUM-WOH-11:18",
+        "NUM-WOH-11:20"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-25:38",
+        "LEV-WOH-25:42",
+        "LEV-WOH-25:55",
+        "NUM-WOH-11:5",
+        "NUM-WOH-11:18",
+        "NUM-WOH-11:20"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-25:38, LEV-WOH-25:42, LEV-WOH-25:55, NUM-WOH-11:5, NUM-WOH-11:18, NUM-WOH-11:20)."
+  },
+  {
+    "op": "modify",
+    "id": "navi-first-occurrence-abraham",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-20:7",
+        "1KI-WOH-18:4",
+        "1KI-WOH-18:13",
+        "1KI-WOH-18:19",
+        "1KI-WOH-18:20",
+        "1KI-WOH-18:22",
+        "1KI-WOH-18:25",
+        "1KI-WOH-18:36",
+        "1KI-WOH-18:40",
+        "1KI-WOH-19:1",
+        "1KI-WOH-19:10",
+        "1KI-WOH-19:14",
+        "1KI-WOH-19:16",
+        "2KI-WOH-2:3",
+        "2KI-WOH-2:5",
+        "2KI-WOH-2:7",
+        "2KI-WOH-2:15",
+        "1KI-WOH-1:8",
+        "1KI-WOH-1:10",
+        "1KI-WOH-1:22",
+        "1KI-WOH-1:23",
+        "1KI-WOH-1:32",
+        "1KI-WOH-1:34",
+        "1KI-WOH-1:38",
+        "1KI-WOH-1:44",
+        "1KI-WOH-1:45",
+        "1KI-WOH-13:11",
+        "1KI-WOH-13:18",
+        "1KI-WOH-13:20",
+        "1KI-WOH-13:23",
+        "1KI-WOH-13:25",
+        "1KI-WOH-13:26",
+        "1KI-WOH-13:29",
+        "1KI-WOH-22:6",
+        "1KI-WOH-22:7",
+        "1KI-WOH-22:10",
+        "1KI-WOH-22:12",
+        "1KI-WOH-22:13",
+        "1KI-WOH-22:22",
+        "1KI-WOH-22:23",
+        "2KI-WOH-4:1",
+        "2KI-WOH-4:38",
+        "2KI-WOH-17:13",
+        "2KI-WOH-17:23",
+        "EZK-WOH-2:5",
+        "JDG-WOH-6:8",
+        "1SA-WOH-3:20",
+        "NUM-WOH-11:29"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:29"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:29)."
+  },
+  {
+    "op": "modify",
+    "id": "nimrod-gibbor",
+    "changes": {
+      "appliesTo": [
+        "GEN-10:8",
+        "GEN-10:9",
+        "MIC-WOH-5:5"
+      ],
+      "appliesToAdded": [
+        "MIC-WOH-5:5"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (MIC-WOH-5:5)."
+  },
+  {
+    "op": "modify",
+    "id": "olah-burnt-offering",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-22:2",
+        "GEN-WOH-22:3",
+        "GEN-WOH-22:6",
+        "GEN-WOH-22:7",
+        "GEN-WOH-22:8",
+        "GEN-WOH-22:13",
+        "1KI-WOH-18:34",
+        "1KI-WOH-18:38",
+        "1KI-WOH-8:64",
+        "EZK-WOH-40:38",
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:24",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "EXO-WOH-24:5",
+        "ISA-40:16",
+        "ISA-43:23",
+        "JDG-WOH-6:26",
+        "JDG-WOH-13:16",
+        "JDG-WOH-13:23",
+        "1SA-WOH-6:14",
+        "1SA-WOH-6:15",
+        "LEV-WOH-17:8",
+        "2SA-WOH-6:17",
+        "2SA-WOH-6:18"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-17:8",
+        "2SA-WOH-6:17",
+        "2SA-WOH-6:18"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-17:8, 2SA-WOH-6:17, 2SA-WOH-6:18)."
+  },
+  {
+    "op": "modify",
+    "id": "peretz-breach-davidic-ancestor-etymology",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-38:29",
+        "2SA-WOH-6:8"
+      ],
+      "appliesToAdded": [
+        "2SA-WOH-6:8"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (2SA-WOH-6:8)."
+  },
+  {
+    "op": "modify",
+    "id": "pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-20:4",
+        "EXO-WOH-20:5",
+        "EXO-WOH-20:6",
+        "EXO-WOH-20:23",
+        "2KI-WOH-17:41",
+        "DEU-WOH-4:12",
+        "DEU-WOH-4:15",
+        "DEU-WOH-4:16",
+        "DEU-WOH-4:23",
+        "DEU-WOH-4:25",
+        "ISA-40:19",
+        "ISA-40:20",
+        "ISA-42:8",
+        "ISA-42:17",
+        "ISA-44:9",
+        "ISA-44:10",
+        "ISA-44:15",
+        "ISA-44:17",
+        "ISA-45:20",
+        "ISA-48:5",
+        "JER-WOH-10:14",
+        "MIC-WOH-5:12"
+      ],
+      "appliesToAdded": [
+        "MIC-WOH-5:12"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (MIC-WOH-5:12)."
+  },
+  {
+    "op": "modify",
+    "id": "piska-b-emtza-pasuq-masoretic-paragraph-break",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-35:22",
+        "2KI-WOH-1:17",
+        "1KI-WOH-13:20",
+        "JDG-WOH-6:22",
+        "1SA-WOH-17:37",
+        "JDG-WOH-7:5"
+      ],
+      "appliesToAdded": [
+        "JDG-WOH-7:5"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (JDG-WOH-7:5)."
+  },
+  {
+    "op": "modify",
+    "id": "qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "EZK-WOH-40:39",
+        "EZK-WOH-40:42",
+        "EZK-WOH-40:43",
+        "EZK-WOH-42:13",
+        "EZK-WOH-43:18",
+        "EZK-WOH-43:19",
+        "EZK-WOH-43:20",
+        "EZK-WOH-43:21",
+        "EZK-WOH-43:22",
+        "EZK-WOH-43:23",
+        "EZK-WOH-43:25",
+        "EZK-WOH-43:26",
+        "EZK-WOH-43:27",
+        "EZK-WOH-44:11",
+        "EZK-WOH-44:27",
+        "EZK-WOH-44:29",
+        "EZK-WOH-44:30",
+        "EXO-WOH-20:21",
+        "1KI-WOH-8:63",
+        "1KI-WOH-8:64",
+        "EXO-WOH-24:5",
+        "EXO-WOH-24:6",
+        "EXO-WOH-24:8",
+        "EXO-WOH-25:2",
+        "EXO-WOH-25:3",
+        "NUM-WOH-18:8",
+        "NUM-WOH-18:9",
+        "NUM-WOH-18:11",
+        "NUM-WOH-18:17",
+        "NUM-WOH-18:19",
+        "NUM-WOH-18:24",
+        "NUM-WOH-18:26",
+        "NUM-WOH-18:27",
+        "NUM-WOH-18:28",
+        "NUM-WOH-18:29",
+        "NUM-WOH-18:30",
+        "NUM-WOH-18:32",
+        "ISA-40:20",
+        "ISA-43:23",
+        "ISA-43:24",
+        "JDG-WOH-13:19",
+        "JDG-WOH-13:23",
+        "1SA-WOH-3:14",
+        "1SA-WOH-6:3",
+        "1SA-WOH-6:4",
+        "1SA-WOH-6:8",
+        "1SA-WOH-6:15",
+        "1SA-WOH-6:17",
+        "AMO-WOH-4:4",
+        "ZEP-WOH-1:7",
+        "ZEP-WOH-1:8",
+        "LEV-WOH-17:4",
+        "LEV-WOH-17:5",
+        "LEV-WOH-17:6",
+        "LEV-WOH-17:7",
+        "LEV-WOH-17:8",
+        "LEV-WOH-17:11",
+        "LEV-WOH-25:9",
+        "2SA-WOH-6:13",
+        "2SA-WOH-6:17",
+        "2SA-WOH-6:18"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-17:4",
+        "LEV-WOH-17:5",
+        "LEV-WOH-17:6",
+        "LEV-WOH-17:7",
+        "LEV-WOH-17:8",
+        "LEV-WOH-17:11",
+        "LEV-WOH-25:9",
+        "2SA-WOH-6:13",
+        "2SA-WOH-6:17",
+        "2SA-WOH-6:18"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-17:4, LEV-WOH-17:5, LEV-WOH-17:6, LEV-WOH-17:7, LEV-WOH-17:8, LEV-WOH-17:11, LEV-WOH-25:9, 2SA-WOH-6:13, 2SA-WOH-6:17, 2SA-WOH-6:18)."
+  },
+  {
+    "op": "modify",
+    "id": "reach-hannichoach",
+    "changes": {
+      "appliesTo": [
+        "GEN-8:21",
+        "NUM-WOH-18:17",
+        "LEV-WOH-17:6"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-17:6"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-17:6)."
+  },
+  {
+    "op": "modify",
+    "id": "she-erit-remnant-cross-corpus-theological-keyword",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-45:7",
+        "MIC-WOH-5:6",
+        "MIC-WOH-5:7"
+      ],
+      "appliesToAdded": [
+        "MIC-WOH-5:6",
+        "MIC-WOH-5:7"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (MIC-WOH-5:6, MIC-WOH-5:7)."
+  },
+  {
+    "op": "modify",
+    "id": "shofar-rams-horn-signal-instrument-cross-corpus",
+    "changes": {
+      "wohChoice": "'shofar' (transliterated; plural 'shofars') for šôp̄ār in every context: Sinai ('the sound of a shofar', Ex 19:16, 19; 20:18 in the exodus-woh numbering); the Jericho rite ('seven shofars of rams' horns', Josh 6:4, 6, 8, 13; 'the sound of the shofar', 6:5, 20; 'blow the shofars', 6:4, 8, 9, 13, 16, 20); mustering ('he blew the shofar', Judg 6:34); royal acclamation ('blow the shofar', 1 Kgs 1:34, 39, 41). 'ram's horn' / 'rams' horns' for yôḇēl and qeren hayyôḇēl (Josh 6:4-8, 13; exodus-woh Ex 19:13). 'trumpet' is reserved for the metal ḥăṣōṣərâ (Num 10:2-10; 2 Kgs 11:14). Jubilee clause (wave MC): where yôḇēl names the fiftieth year (Lev 25:10-54), the established English 'jubilee' is kept, and the horn etymology is given in commentary (leviticus-woh shofar-teruah-yovel-deror-jubilee-leviticus-25); šôp̄ar tərûʿâ (Lev 25:9) is 'a shofar blast'. Further wave MC sites: Judg 7:8, 16, 18-20, 22 ('shofars', the 300 horns; ASV and the canon's English 'trumpets'); 2 Sam 6:15 ('the sound of the shofar').",
+      "appliesTo": [
+        "EXO-WOH-19:16",
+        "EXO-WOH-19:19",
+        "EXO-WOH-20:15",
+        "1KI-WOH-1:34",
+        "1KI-WOH-1:39",
+        "1KI-WOH-1:41",
+        "JOS-WOH-6:4",
+        "JOS-WOH-6:5",
+        "JOS-WOH-6:6",
+        "JOS-WOH-6:8",
+        "JOS-WOH-6:9",
+        "JOS-WOH-6:13",
+        "JOS-WOH-6:16",
+        "JOS-WOH-6:20",
+        "JDG-WOH-6:34",
+        "LEV-WOH-25:9",
+        "JDG-WOH-7:8",
+        "JDG-WOH-7:16",
+        "JDG-WOH-7:18",
+        "JDG-WOH-7:19",
+        "JDG-WOH-7:20",
+        "JDG-WOH-7:22",
+        "2SA-WOH-6:15"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-25:9",
+        "JDG-WOH-7:8",
+        "JDG-WOH-7:16",
+        "JDG-WOH-7:18",
+        "JDG-WOH-7:19",
+        "JDG-WOH-7:20",
+        "JDG-WOH-7:22",
+        "2SA-WOH-6:15"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-25:9, JDG-WOH-7:8, JDG-WOH-7:16, JDG-WOH-7:18, JDG-WOH-7:19, JDG-WOH-7:20, JDG-WOH-7:22, 2SA-WOH-6:15). wohChoice: clause appended, existing text unchanged."
+  },
+  {
+    "op": "modify",
+    "id": "tiqun-soferim-yhwh-stood-before-abraham",
+    "changes": {
+      "appliesTo": [
+        "GEN-18:22",
+        "NUM-WOH-11:15"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:15"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:15)."
+  },
+  {
+    "op": "modify",
+    "id": "vayered-yhwh",
+    "changes": {
+      "appliesTo": [
+        "GEN-11:5",
+        "NUM-WOH-11:17",
+        "NUM-WOH-11:25"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:17",
+        "NUM-WOH-11:25"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:17, NUM-WOH-11:25)."
+  },
+  {
+    "op": "modify",
+    "id": "yad-yhwh",
+    "changes": {
+      "appliesTo": [
+        "EZK-1:3",
+        "1KI-WOH-18:46",
+        "EZK-WOH-3:14",
+        "EZK-WOH-3:22",
+        "EZK-WOH-8:1",
+        "EZK-WOH-40:1",
+        "1SA-WOH-5:6",
+        "1SA-WOH-5:9",
+        "NUM-WOH-11:23"
+      ],
+      "appliesToAdded": [
+        "NUM-WOH-11:23"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (NUM-WOH-11:23)."
+  },
+  {
+    "op": "modify",
+    "id": "yirat-elohim-moral-restraint-motif",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-20:11",
+        "GEN-WOH-22:12",
+        "GEN-WOH-42:18",
+        "LEV-WOH-25:17",
+        "LEV-WOH-25:36",
+        "LEV-WOH-25:43"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-25:17",
+        "LEV-WOH-25:36",
+        "LEV-WOH-25:43"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-25:17, LEV-WOH-25:36, LEV-WOH-25:43)."
+  },
+  {
+    "op": "modify",
+    "id": "zonah-prostitute-status-vocabulary-cross-corpus",
+    "changes": {
+      "appliesTo": [
+        "GEN-WOH-34:31",
+        "GEN-WOH-38:15",
+        "GEN-WOH-38:24",
+        "1KI-WOH-22:38",
+        "JOS-WOH-6:17",
+        "JOS-WOH-6:22",
+        "JOS-WOH-6:25",
+        "LEV-WOH-17:7"
+      ],
+      "appliesToAdded": [
+        "LEV-WOH-17:7"
+      ]
+    },
+    "reason": "Wave MC (Hebrew part): appliesTo extended with the wave's sites that cite this entry (LEV-WOH-17:7)."
+  }
+]

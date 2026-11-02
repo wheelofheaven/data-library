@@ -1,0 +1,723 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "WIS-WOH",
+  "bookSlug": "wisdom-of-solomon-woh",
+  "n": 6,
+  "title": "Wisdom of Solomon 6 — An address to kings: what wisdom is, and how she is found",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Septuagint Greek — H. B. Swete, The Old Testament in Greek according to the Septuagint, vol. 2 (Cambridge University Press, 1896), the text of Codex Vaticanus (B/03); Swete's apparatus (Sinaiticus ℵ, Alexandrinus A, B correctors) survives in the transcription only as OCR-garbled footnotes; witnesses named in the editorial questions are read from it. OCR corrections listed in source-grc-6.json `corrections`.",
+    "sourceLicense": "Swete 1896 (Public Domain); digital transcription First1KGreek, CC BY-SA 4.0",
+    "sourceUrl": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0527/tlg033/tlg0527.tlg033.1st1K-grc1.xml",
+    "sourceAccessedVia": "First1KGreek (Open Greek and Latin) tlg0527.tlg033.1st1K-grc1, fetched 2026-11-02 into source-grc-6.json; corrections cross-checked against the Internet Archive scan OCR of Swete vol. 2 (oldtestamentingr02swetuoft); reference translation Brenton 1844/1851 (PD; KJV-based Apocrypha text), consulted from the translator's knowledge only (no hosted edition)",
+    "glossaryVersion": "2.93.0",
+    "overlayGlossaryVersion": "1.1.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-02T12:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "verdict": "revise",
+      "summary": "21 approve / 4 revise. One English-line fix (6:17 superlative attachment); three note fixes (6:8 apparatus now legible, 6:12 transliteration typo, 6:18 corrector siglum). All 15 OCR corrections in source-grc-6.json confirmed against the printed pages. All witness attributions in the notes confirmed, including the 6:12 clause (B^ab mg ℵ A). No lens leakage in any English line.",
+      "verses": [
+        {
+          "refId": "WIS-WOH-6:1",
+          "verdict": "approve",
+          "issue": "Re-parsed Ἀκούσατε οὖν … σύνετε· μάθετε, δικασταὶ περάτων γῆς; line exact. Apparatus claim βασιλευς ℵ* (‑λεις ℵ^c.a(vid)) checked on Swete p. 613 page image: correct. Versification note (primary = KJV/NRSV; Swete's (2)-style alternative numbers) matches the printed page.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:2",
+          "verdict": "approve",
+          "issue": "ἐνωτίσασθε … γεγαυρωμένοι ἐπὶ ὄχλοις ἐθνῶν; 'take pride in throngs of nations' accurate (perfect middle participle of γαυρόομαι). No note needed.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:3",
+          "verdict": "approve",
+          "issue": "Line accurate; κύριος 'the Lord' and Ὕψιστος 'the Most High' follow ratified/corpus renderings (Muraoka s.v. ὕψιστος; ENO-WOH-10:1 'the Most High'). Comma after ὑμῖν (OCR correction) confirmed on p. 613; apparatus διερευν. B^ab A confirmed, so B* -αυ- spelling claim holds.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:4",
+          "verdict": "approve",
+          "issue": "ὑπηρέται 'ministers' in political sense (LSJ s.v. ὑπηρέτης) defensible; anarthrous νόμον 'the law' lower case per KJV/NRSV; closing stop correction confirmed on p. 613.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:5",
+          "verdict": "approve",
+          "issue": "ἐπιστήσεται without expressed subject; 'he' with KJV/NRSV, alternative 'it' noted. κρίσις ἀπότομος 'a sharp judgment' (LSJ s.v. ἀπότομος).",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:6",
+          "verdict": "approve",
+          "issue": "'examined' for ἐτασθήσονται defensible (LSJ s.v. ἐτάζω 'examine, test'; NRSV 'tested'); KJV 'tormented' reported. Apparatus εὐγνωστος ℵ*, ἐλέου A confirmed on p. 613.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:7",
+          "verdict": "approve",
+          "issue": "ὑποστελεῖται πρόσωπον 'shrink before any face' (LSJ s.v. ὑποστέλλω mid.); δεσπότης 'Lord of all' per ratified convention; Greek word named in note.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:8",
+          "verdict": "revise",
+          "issue": "Line approved ('a strict inquiry', LSJ s.v. ἔρευνα; NRSV 'a strict inquiry'). But the note states 'An apparatus entry on ephistatai is illegible in both OCR layers and is not reported.' The Swete page image (vol. 2 p. 613, leaf 631 of oldtestamentingr02swetuoft) reads clearly '8 επισταται B | ερευνα B^ab ℵA'. The ereuna attribution is confirmed; the illegibility statement is now false.",
+          "fix": "In the 6:8 note replace 'An apparatus entry on *ephistatai* is illegible in both OCR layers and is not reported' with 'Swete's apparatus records the unaspirated spelling *epistatai* for B, which his text prints as *ephistatai*; the difference is orthographic and does not affect the English'."
+        },
+        {
+          "refId": "WIS-WOH-6:9",
+          "verdict": "approve",
+          "issue": "τύραννοι 'monarchs' (NRSV) keeps the basileis/tyrannoi switch visible; LSJ s.v. τύραννος supports non-pejorative sense. ἵνα breathing correction confirmed.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:10",
+          "verdict": "approve",
+          "issue": "ὁσιωθήσονται 'will be judged holy' (KJV) is defensible in the forensic frame of ἀπολογία; NRSV 'made holy' reported. Apparatus τα οσια οσιως ℵ* (οσιως τα οσια ℵ^c.a) confirmed on p. 613.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:11",
+          "verdict": "approve",
+          "issue": "Line accurate; παιδευθήσεσθε 'you will be instructed' aligned with παιδεία 'instruction' (6:17-18).",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:12",
+          "verdict": "revise",
+          "issue": "Line approved (translates Swete/B* ending at αὐτήν; 'radiant' for λαμπρά, LSJ s.v.). Apparatus checked on p. 613 page image: '12 αυτην] + και ευρισκεται υπο των ζητουντων αυτην B^ab mg ℵA' — witnesses as the Editor gives them. Note has a transliteration error: 'kai heuriskatai' (εὑρίσκεται is -etai).",
+          "fix": "In the 6:12 note change '*kai heuriskatai hypo tōn zētountōn autēn*' to '*kai heurisketai hypo tōn zētountōn autēn*'. Optional: replace '(read from the OCR transcription)' with '(checked against Swete's page image, vol. 2 p. 613)'."
+        },
+        {
+          "refId": "WIS-WOH-6:13",
+          "verdict": "approve",
+          "issue": "φθάνει … προγνωσθῆναι 'goes before … to make herself known first' acceptable; + αὐτήν ℵ confirmed on p. 614.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:14",
+          "verdict": "approve",
+          "issue": "πάρεδρον 'sitting at his gates' with assessor sense in note (LSJ s.v. πάρεδρος); apparatus πλουτων ℵ* (πυλ. ℵ^c.a), προς A confirmed on p. 614.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:15",
+          "verdict": "approve",
+          "issue": "φρονήσεως τελειότης 'perfection of prudence' keeps φρόνησις distinct from σοφία (cf. 8:7); defensible.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:16",
+          "verdict": "approve",
+          "issue": "Line accurate; ὑπαντᾷ correction confirmed on p. 614 (ℵA ἀπαντα, sense-neutral, unreported acceptably).",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:17",
+          "verdict": "revise",
+          "issue": "Re-parse: ἀρχὴ γὰρ αὐτῆς ἡ ἀληθεστάτη παιδείας ἐπιθυμία. ἀρχή is anarthrous predicate; ἡ ἀληθεστάτη παιδείας ἐπιθυμία is the articular subject with the superlative in attributive position inside the article-noun bracket, so the superlative qualifies the desire, not the beginning (NRSV 'the most sincere desire for instruction'; Smyth, Greek Grammar §1154, attributive position). The line 'the truest beginning of her is the desire for instruction' follows the KJV/Brenton 'very true beginning' misattachment, and the overlay entry does not discuss it.",
+          "fix": "Line: 'For her beginning is the truest desire for instruction,'. Add to the 6:17 note: '*Archē … autēs* is the predicate and *hē alēthestatē paideias epithymia* the articular subject, so the superlative *alēthestatē* qualifies the desire (NRSV \"the most sincere desire\"); the KJV and Brenton attach it to the beginning (\"the very true beginning\").' Add the same sentence's decision to the wohChoice of `wisdom-and-sorites-vocabulary-wis-6-11-25`."
+        },
+        {
+          "refId": "WIS-WOH-6:18",
+          "verdict": "revise",
+          "issue": "Line approved ('incorruption', 'her laws', sorites chain). Apparatus checked on p. 614: '18 αγαπη 1°] επιθυμια ℵ* (αγ. ℵ¹)'. The note says 'corrected by a later hand'; Swete's siglum is ℵ¹, the first corrector, not a later one.",
+          "fix": "In the 6:18 note change 'Swete's apparatus gives *epithymia* for the first *agapē* in ℵ*, corrected by a later hand' to 'Swete's apparatus gives *epithymia* for the first *agapē* in ℵ*, corrected by the first corrector (ℵ¹)'."
+        },
+        {
+          "refId": "WIS-WOH-6:19",
+          "verdict": "approve",
+          "issue": "Verse-boundary correction confirmed: p. 614 prints θεοῦ· at the line numbered 19 (20) and ἐπιθυμία ἄρα at 20 (21). 'makes one be near to God' acceptable; supplied 'one' noted.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:20",
+          "verdict": "approve",
+          "issue": "'leads up to a kingdom' accurate; ἀναιρεῖ ℵ* (ἀναγ. ℵ^c.a) confirmed on p. 614 (also γάρ ℵ for ἄρα, om σοφίας ℵ*, covered by 'several first-hand slips').",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:21",
+          "verdict": "approve",
+          "issue": "ἥδεσθε ἐπὶ θρόνοις … τύραννοι λαῶν 'monarchs of peoples' consistent with 6:9.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:22",
+          "verdict": "approve",
+          "issue": "Line is a rendering, not exegesis: 'how she came to be' (LSJ s.v. γίγνομαι), 'her origin' with supplied possessive (KJV supplies it; NRSV alternative reported), 'mysteries' kept. Reception note correctly headed, French and English quotations checked against TBWTT-3:266-267; no canon term ('Sagesse', 'science') in the line. τις ℵ* (τι ℵ^c.a) and alt. number (24) confirmed on p. 614.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:23",
+          "verdict": "approve",
+          "issue": "οὗτος referred to φθόνος ('it') is the grammatically nearest masculine antecedent and NRSV's reading; KJV 'such a man' reported. συνοδεύσω, κοινωνήσει corrections and κοινωνει A confirmed on p. 614.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:24",
+          "verdict": "approve",
+          "issue": "'prudent king', 'stability' (LSJ s.v. εὐστάθεια), 'welfare' defensible. σωτηρία and εὐσταθία corrections and εὐστάθεια A confirmed on p. 614.",
+          "fix": null
+        },
+        {
+          "refId": "WIS-WOH-6:25",
+          "verdict": "approve",
+          "issue": "Line accurate; ὥστε 'Therefore' acceptable.",
+          "fix": null
+        }
+      ],
+      "glossary": [
+        {
+          "id": "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom",
+          "verdict": "approve",
+          "citations": [
+            "Swete vol. 2 pp. 613-614 page images",
+            "Rahlfs, Septuaginta (1935) ad 6:12"
+          ],
+          "note": "Direct is correct. Optional: 'B* spellings kept: 6:3 διεραυνήσει, 6:8 ἔραυνα, 6:24 εὐσταθία' overstates 6:24, where the apparatus gives only A εὐστάθεια; write 'B spellings' or drop the asterisk for 6:24."
+        },
+        {
+          "id": "theos-god-rendering-wisdom",
+          "verdict": "approve",
+          "citations": [
+            "BDAG s.v. θεός"
+          ],
+          "note": "Extension to 6:4, 6:19 is mechanical."
+        },
+        {
+          "id": "despotes-lord-wis-13-3-9",
+          "verdict": "approve",
+          "citations": [
+            "BDAG s.v. δεσπότης"
+          ],
+          "note": "Extension to 6:7 is mechanical."
+        },
+        {
+          "id": "greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom",
+          "verdict": "approve",
+          "citations": [
+            "Muraoka, GELS s.v. ὕψιστος"
+          ],
+          "note": "el-elyon and torah entries correctly background only."
+        },
+        {
+          "id": "raelian-canon-citation-reception-note-convention-wisdom",
+          "verdict": "revise",
+          "citations": [
+            "TBWTT-3:266-267"
+          ],
+          "note": "wohChoice was extended to 6:22 but the rationale (unchanged from v1.0.0) still ends 'the book also quotes Wis 6:22 (TBWTT-3:266), which lies outside this chapter', which is no longer true.",
+          "fix": "Replace the last sentence of the rationale with: 'The citations were checked against the program's citation extract (TBWTT-3:266-270): Wis 6:22 is quoted at TBWTT-3:266, with the book's reading at TBWTT-3:267, and Wis 13:5 and 13:1 at TBWTT-3:268-270.'"
+        },
+        {
+          "id": "kyrios-the-lord-rendering-wisdom",
+          "verdict": "approve",
+          "citations": [
+            "Muraoka GELS s.v. κύριος",
+            "BDAG s.v. κύριος 2.b"
+          ],
+          "note": "Ratified convention, recorded faithfully."
+        },
+        {
+          "id": "hypsistos-the-most-high-wisdom",
+          "verdict": "approve",
+          "citations": [
+            "Muraoka GELS s.v. ὕψιστος",
+            "BDAG s.v. ὕψιστος 2",
+            "ENO-WOH-10:1 'the Most High'"
+          ],
+          "note": "Corpus consistency verified."
+        },
+        {
+          "id": "royal-address-and-judgment-vocabulary-wis-6-1-21",
+          "verdict": "approve",
+          "citations": [
+            "LSJ s.vv. ἐτάζω, ἔρευνα, τύραννος, ὑπηρέτης"
+          ],
+          "note": "Direct is fair: each choice matches KJV or NRSV. Minor: the strongs field says tyrannos is 'not in the NT'; Τύραννος occurs as a personal name at Acts 19:9 (G5181). Optional wording: 'tyrannos (as a common noun)'."
+        },
+        {
+          "id": "wisdom-and-sorites-vocabulary-wis-6-11-25",
+          "verdict": "revise",
+          "citations": [
+            "NRSV Wis 6:17",
+            "Smyth, Greek Grammar §1154"
+          ],
+          "note": "Entry governs 6:17 but does not record how ἀληθεστάτη is construed; with the 6:17 line fix it must.",
+          "fix": "Append to wohChoice: '6:17 *archē … autēs hē alēthestatē paideias epithymia* \"her beginning is the truest desire for instruction\": the superlative stands inside the article-noun bracket and qualifies *epithymia* (NRSV \"the most sincere desire\"), not *archē* (KJV \"the very true beginning\").'"
+        },
+        {
+          "id": "what-wisdom-is-vocabulary-wis-6-22-24",
+          "verdict": "approve",
+          "citations": [
+            "LSJ s.vv. γίγνομαι, γένεσις, εὐστάθεια"
+          ],
+          "note": "Choices are lexically grounded and the canon reading is confined to the reception note."
+        }
+      ],
+      "speculativeEntries": [],
+      "lens-leakage-flags": [],
+      "founderDecisionRecommendations": {
+        "wis-6-12b-omission": "Endorse the Editor's recommendation: keep the ratified Swete/B* convention (omit in the line, report in commentary). The witnesses are now verified on the printed page (B^ab in the margin, ℵ, A), and the note explains the omission as a scribal skip between two endings in αὐτήν, so a scholar reading cold can see the English is shorter on purpose. An exception would split the convention after its first application. A shorter English line than every standard Bible is a visible cost; if the founder wants it softer, the right tool is a note on reader display, not a bracketed line."
+      },
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-02T07:30:26Z",
+      "centralDiff": {
+        "verdict": "approve",
+        "summary": "Both ops checked against translation-glossary-2.90.0.json. Each appliesTo array keeps every v2.90.0 refId in order and adds only the Tobit site. The seven-archangels rationale differs from v2.90.0 in one place only: the citation 'per Fitzmyer 2003 AB 40A' becomes 'per Fitzmyer, *Tobit*, CEJL, 2003; AB 40A is C. A. Moore's *Tobit*, 1996', which is correct. Both entries stay claim_type direct, and neither wohChoice changes. The divine-eating extension follows the ehyeh-asher-ehyeh → Wis 13:1 precedent; its rationale already quotes Tob 12:19 in the GI wording.",
+        "ops": [
+          {
+            "op": "version 2.90.0→2.92.0",
+            "verdict": "approve",
+            "note": "Minor bump is right. The 2.91.0 gap is the concurrent NT diff, per the Editor; the orchestrator must re-base on the union rule at merge."
+          },
+          {
+            "op": "modify seven-archangels-list-1-enoch-20-tob-12-rev-8-cross-corpus",
+            "verdict": "approve",
+            "note": "Optional, since the rationale is replaced whole anyway: fix the pre-existing transliteration typo 'prosanaphrousin' → 'prosanapherousin' (προσαναφέρουσιν)."
+          },
+          {
+            "op": "modify divine-eating-anthropomorphism",
+            "verdict": "approve",
+            "note": "appliesTo-only; Hebrew wohChoice correctly not applied to the Greek line."
+          }
+        ]
+      },
+      "statusRecommendation": "awaiting-human. Both chapters have revise verdicts: Wis 6 has 4 (one line, three notes) and Tob 12 has 2 (one line plus its punctuation). Two founder decisions need explicit sign-off, and the reviewer endorses both. No speculative entries; no lens-leakage flags. When the listed fixes are applied, the package is ready for founder sign-off with no further review round needed."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "WIS-WOH-6:1",
+      "text": "Ἀκούσατε οὖν, βασιλεῖς, καὶ σύνετε· μάθετε, δικασταὶ περάτων γῆς·",
+      "translit": "akousate oun, basileis, kai synete· mathete, dikastai peratōn gēs·",
+      "i18n": {
+        "en": "Hear therefore, O kings, and understand; learn, you judges of the ends of the earth;"
+      },
+      "notes": {
+        "official": "*Basileis* 'kings' and *dikastai peratōn gēs* 'judges of the ends of the earth' open an address to rulers that runs to 6:21 and takes up the opening of the book, 'Love righteousness, you who judge the earth' (1:1) (`royal-address-and-judgment-vocabulary-wis-6-1-21`).\n\nSwete prints two verse numberings: the primary numbers used here, which are those of the KJV and NRSV and of the canon's citation 'VI-22', and in parentheses an alternative, Vulgate-type numbering in which 6:3 is (4) and 6:22 is (24). Only the primary numbers are recorded. The minor variants in Swete's apparatus for this chapter (read from the OCR-degraded footnotes of the First1KGreek transcription, e.g. *basileus* for *basileis* in the first hand of Sinaiticus, ℵ*) do not affect the English and are not reported verse by verse; the variants that change the sense are noted at 6:12, 6:14 and 6:20 (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom",
+        "royal-address-and-judgment-vocabulary-wis-6-1-21"
+      ]
+    },
+    {
+      "n": 2,
+      "refId": "WIS-WOH-6:2",
+      "text": "ἐνωτίσασθε, οἱ κρατοῦντες πλήθους καὶ γεγαυρωμένοι ἐπὶ ὄχλοις ἐθνῶν.",
+      "translit": "enōtisasthe, hoi kratountes plēthous kai gegaurōmenoi epi ochlois ethnōn.",
+      "i18n": {
+        "en": "give ear, you who rule over a multitude and take pride in throngs of nations."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "royal-address-and-judgment-vocabulary-wis-6-1-21"
+      ]
+    },
+    {
+      "n": 3,
+      "refId": "WIS-WOH-6:3",
+      "text": "ὅτι ἐδόθη παρὰ τοῦ κυρίου ἡ κράτησις ὑμῖν, καὶ ἡ δυναστεία παρὰ Ὑψίστου, ὃς ἐξετάσει ὑμῶν τὰ ἔργα καὶ τὰς βουλὰς διεραυνήσει·",
+      "translit": "hoti edothē para tou kyriou hē kratēsis hymin, kai hē dynasteia para Hypsistou, hos exetasei hymōn ta erga kai tas boulas dieraunēsei·",
+      "i18n": {
+        "en": "For the dominion was given to you from the Lord, and the sovereignty from the Most High, who will examine your works and search out your counsels;"
+      },
+      "notes": {
+        "official": "*Para tou kyriou* 'from the Lord': *kyrios* is the Septuagint's surrogate for the Tetragrammaton, and the Greek books of the corpus render it 'the Lord' (`kyrios-the-lord-rendering-wisdom`). Wisdom was composed in Greek, so 'YHWH' or the small-capital 'LORD', which in English Bibles mark the divine name of a Hebrew original, would translate a word the text does not contain. *Para Hypsistou* 'from the Most High' (draft, KJV and Brenton 'the Highest'; RSV and NRSV 'the Most High'): *Hypsistos* is the Septuagint equivalent of *ʿelyôn*, and the line uses the rendering the corpus already gives the title in 1 Enoch and Daniel (`hypsistos-the-most-high-wisdom`). The central `el-elyon` ('El Elyon') renders the Hebrew compound with *ʾēl* and is background only (`greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom`).\n\n*Exetasei* 'will examine' and *diereunēsei* 'will search out' begin a chain of words for judicial inquiry that continues with *etasthēsontai* (6:6) and *ereuna* (6:8) (`royal-address-and-judgment-vocabulary-wis-6-1-21`). Swete prints the Vaticanus spelling with -au- (B*; -eu- in the B correctors and A, per his apparatus), as at 13:7 (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "kyrios-the-lord-rendering-wisdom",
+        "hypsistos-the-most-high-wisdom",
+        "royal-address-and-judgment-vocabulary-wis-6-1-21",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom",
+        "greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom"
+      ]
+    },
+    {
+      "n": 4,
+      "refId": "WIS-WOH-6:4",
+      "text": "ὅτι ὑπηρέται ὄντες τῆς αὐτοῦ βασιλείας οὐκ ἐκρίνατε ὀρθῶς, οὐδὲ ἐφυλάξατε νόμον, οὐδὲ κατὰ τὴν βουλὴν τοῦ θεοῦ ἐπορεύθητε.",
+      "translit": "hoti hypēretai ontes tēs autou basileias ouk ekrinate orthōs, oude ephylaxate nomon, oude kata tēn boulēn tou theou eporeuthēte.",
+      "i18n": {
+        "en": "because, being ministers of his kingdom, you did not judge rightly, nor keep the law, nor walk according to the counsel of God."
+      },
+      "notes": {
+        "official": "*Hypēretai* 'ministers' (KJV and Brenton; NRSV 'servants') are a king's officers or attendants (LSJ s.v.). 'Ministers' is meant in its political sense, officers of the crown, as the genitive *tēs autou basileias* 'of his kingdom' shows: the human kings administer God's kingdom. *Nomon* is anarthrous, and the Greek does not say whether the law of Moses or law in general is meant; lower-case 'the law' (KJV, NRSV) leaves the question open. The central `torah-law-instruction-rendering-cross-corpus` decides Hebrew *tôrâ* and is background here (`royal-address-and-judgment-vocabulary-wis-6-1-21`; `greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom`). *Tou theou* 'God' (`theos-god-rendering-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-wisdom",
+        "royal-address-and-judgment-vocabulary-wis-6-1-21",
+        "greek-transliteration-and-hebrew-scoped-central-entries-convention-wisdom"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "WIS-WOH-6:5",
+      "text": "φρικτῶς καὶ ταχέως ἐπιστήσεται ὑμῖν, ὅτι κρίσις ἀπότομος ἐν τοῖς ὑπερέχουσιν γίνεται.",
+      "translit": "phriktōs kai tacheōs epistēsetai hymin, hoti krisis apotomos en tois hyperechousin ginetai.",
+      "i18n": {
+        "en": "Terribly and swiftly he will come upon you, for a sharp judgment befalls those who are in high places."
+      },
+      "notes": {
+        "official": "*Epistēsetai* has no expressed subject. 'He' takes it from 6:3, the Lord who examines the kings' works; 'it', the judgment of the second clause, is also possible. The line follows the KJV and NRSV. *Krisis apotomos* 'a sharp judgment': *apotomos* is 'abrupt, severe' (LSJ s.v.) (`royal-address-and-judgment-vocabulary-wis-6-1-21`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "royal-address-and-judgment-vocabulary-wis-6-1-21"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "WIS-WOH-6:6",
+      "text": "ὁ γὰρ ἐλάχιστος συγγνωστός ἐστιν ἐλέους, δυνατοὶ δὲ δυνατῶς ἐτασθήσονται·",
+      "translit": "ho gar elachistos syngnōstos estin eleous, dynatoi de dynatōs etasthēsontai·",
+      "i18n": {
+        "en": "For the least is pardonable out of mercy, but the mighty will be mightily examined;"
+      },
+      "notes": {
+        "official": "*Etasthēsontai* 'will be … examined' (draft and KJV 'tormented'; NRSV 'tested'): *etazō* means 'examine, test' (LSJ s.v.), and in judicial use it can mean examination under torture (cf. the compound in Acts 22:24, 'examined by flogging'), which the KJV's 'tormented' makes explicit. 'Examined' keeps the verb in the chain begun by its compound *exetasei* 'will examine' at 6:3, and 'the mighty will be mightily' keeps the wordplay *dynatoi dynatōs*. *Syngnōstos estin eleous* is compressed, literally 'is pardonable of mercy', that is, the least is pardoned out of mercy (NRSV 'may be pardoned in mercy') (`royal-address-and-judgment-vocabulary-wis-6-1-21`). Swete's apparatus gives *eugnōstos* for ℵ* and *eleou* for A (read from the OCR transcription; `swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "royal-address-and-judgment-vocabulary-wis-6-1-21",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 7,
+      "refId": "WIS-WOH-6:7",
+      "text": "οὐ γὰρ ὑποστελεῖται πρόσωπον ὁ πάντων δεσπότης, οὐδὲ ἐντραπήσεται μέγεθος· ὅτι μικρὸν καὶ μέγαν αὐτὸς ἐποίησεν, ὁμοίως τε προνοεῖ περὶ πάντων·",
+      "translit": "ou gar hyposteleitai prosōpon ho pantōn despotēs, oude entrapēsetai megethos· hoti mikron kai megan autos epoiēsen, homoiōs te pronoei peri pantōn·",
+      "i18n": {
+        "en": "for the Lord of all will not shrink before any face, nor will he stand in awe of greatness; because he himself made small and great, and he takes thought for all alike;"
+      },
+      "notes": {
+        "official": "*Ho pantōn despotēs* 'the Lord of all': *despotēs* is the master or owner, as at 13:3 and 13:9, and a different word from *kyrios* in 6:3 (`despotes-lord-wis-13-3-9`). *Ou … hypostaleitai prosōpon* 'will not shrink before any face': the middle *hypostellomai* is 'shrink from, cower before' (LSJ s.v.), so the clause says that no one's rank intimidates the judge (KJV 'shall fear no man's person'; NRSV 'will not stand in awe of anyone').",
+        "community": []
+      },
+      "glossaryRefs": [
+        "despotes-lord-wis-13-3-9"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "WIS-WOH-6:8",
+      "text": "τοῖς δὲ κραταιοῖς ἰσχυρὰ ἐφίσταται ἔραυνα.",
+      "translit": "tois de krataiois ischyra ephistatai erauna.",
+      "i18n": {
+        "en": "but over the mighty a strict inquiry impends."
+      },
+      "notes": {
+        "official": "*Ischyra … ereuna* 'a strict inquiry' (draft 'a severe trial', after the KJV's 'a sore trial'; NRSV 'a strict inquiry'): *ereuna* is 'search, inquiry' (LSJ s.v.), the noun of the verb rendered 'search out' at 6:3, and the line keeps its forensic sense instead of the KJV's more general 'trial' (`royal-address-and-judgment-vocabulary-wis-6-1-21`). Swete prints the Vaticanus spelling *erauna* (B*; *ereuna* in B^ab, ℵ and A, per his apparatus). Swete's apparatus records the unaspirated spelling *epistatai* for B, which his text prints as *ephistatai*; the difference is orthographic and does not affect the English (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "royal-address-and-judgment-vocabulary-wis-6-1-21",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "WIS-WOH-6:9",
+      "text": "πρὸς ὑμᾶς οὖν, ὦ τύραννοι, οἱ λόγοι μου, ἵνα μάθητε σοφίαν καὶ μὴ παραπέσητε.",
+      "translit": "pros hymas oun, ō tyrannoi, hoi logoi mou, hina mathēte sophian kai mē parapesēte.",
+      "i18n": {
+        "en": "To you therefore, O monarchs, are my words, that you may learn wisdom and not fall away."
+      },
+      "notes": {
+        "official": "*Ō tyrannoi* 'O monarchs' (draft, KJV and Brenton 'O kings'; NRSV 'O monarchs'): the address changes from *basileis* (6:1) to *tyrannoi*, which in Hellenistic Greek names an absolute ruler without the pejorative sense of English 'tyrant' (LSJ s.v. τύραννος). A distinct English word keeps the change visible; the same rule gives 'monarchs of peoples' at 6:21 (`royal-address-and-judgment-vocabulary-wis-6-1-21`). *Parapesēte* 'fall away', literally 'fall aside'.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "royal-address-and-judgment-vocabulary-wis-6-1-21"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "WIS-WOH-6:10",
+      "text": "οἱ γὰρ φυλάξαντες ὁσίως τὰ ὅσια ὁσιωθήσονται, καὶ οἱ διδαχθέντες αὐτὰ εὑρήσουσιν ἀπολογίαν.",
+      "translit": "hoi gar phylaxantes hosiōs ta hosia hosiōthēsontai, kai hoi didachthentes auta heurēsousin apologian.",
+      "i18n": {
+        "en": "For those who keep holily the things that are holy will be judged holy, and those who have been taught them will find a defense."
+      },
+      "notes": {
+        "official": "*Hoi phylaxantes hosiōs ta hosia hosiōthēsontai* plays three times on *hosios* 'holy, devout'. The future passive *hosiōthēsontai* can mean 'will be made holy' (NRSV) or 'will be held holy'; in the forensic setting of the verse, where the second clause speaks of finding *apologia* 'a defense', the line keeps the KJV's 'will be judged holy' (`royal-address-and-judgment-vocabulary-wis-6-1-21`). Swete's apparatus gives the order *ta hosia hosiōs* for ℵ* (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "royal-address-and-judgment-vocabulary-wis-6-1-21",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 11,
+      "refId": "WIS-WOH-6:11",
+      "text": "ἐπιθυμήσατε οὖν τῶν λόγων μου, ποθήσατε καὶ παιδευθήσεσθε.",
+      "translit": "epithymēsate oun tōn logōn mou, pothēsate kai paideuthēsesthe.",
+      "i18n": {
+        "en": "Set your desire therefore on my words; long for them, and you will be instructed."
+      },
+      "notes": {
+        "official": "*Paideuthēsesthe* 'you will be instructed' is the verb of *paideia*, which the line renders 'instruction' at 6:17-18, so that the chain of 6:17-20 visibly answers this promise (`wisdom-and-sorites-vocabulary-wis-6-11-25`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "WIS-WOH-6:12",
+      "text": "Λαμπρὰ καὶ ἀμάραντός ἐστιν ἡ σοφία, καὶ εὐχερῶς θεωρεῖται ὑπὸ τῶν ἀγαπώντων αὐτήν·",
+      "translit": "lampra kai amarantos estin hē sophia, kai eucherōs theōreitai hypo tōn agapōntōn autēn·",
+      "i18n": {
+        "en": "Radiant and unfading is wisdom, and she is easily seen by those who love her;"
+      },
+      "notes": {
+        "official": "Textual note. Swete prints the text of the first hand of Vaticanus (B*), which ends the verse at *autēn*. His apparatus (checked against Swete's page image, vol. 2 p. 613) gives a further clause, *kai heurisketai hypo tōn zētountōn autēn* 'and she is found by those who seek her', for a corrector of B in the margin, for Sinaiticus (ℵ) and for Alexandrinus (A). Rahlfs prints the clause, and the KJV, Brenton and NRSV translate it. Under the base-text convention the line translates Swete's printed text and the clause is reported here, not supplied (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`). The omission is easily explained as a scribal skip from the first *autēn* to the second.\n\nSwete marks a new section with a capital at *Lampra*: the address to the kings turns to a description of wisdom (6:12-20). *Lampra* 'radiant' (draft and KJV 'glorious'; NRSV 'radiant'): *lampros* is 'bright, shining' (LSJ s.v.), and the book develops the image at 7:26, where wisdom is the radiance (*apaugasma*) of eternal light. *Amarantos* 'unfading' is used of a flower that does not wither. Wisdom is personified from here on (she is seen, she seeks, she sits at the gates), but the line keeps lower-case 'wisdom' with the KJV and NRSV, so that a capital does not decide in the line how far the personification goes (`wisdom-and-sorites-vocabulary-wis-6-11-25`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 13,
+      "refId": "WIS-WOH-6:13",
+      "text": "φθάνει τοὺς ἐπιθυμοῦντας προγνωσθῆναι.",
+      "translit": "phthanei tous epithymountas prognōsthēnai.",
+      "i18n": {
+        "en": "she goes before those who desire her, to make herself known first."
+      },
+      "notes": {
+        "official": "*Phthanei tous epithymountas* 'she goes before those who desire her': *phthanō* is 'come first, anticipate', and *prognōsthēnai* 'to be known beforehand'. The object 'her' is understood from 6:12; Swete's apparatus gives *autēn* written out for ℵ (`wisdom-and-sorites-vocabulary-wis-6-11-25`; `swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 14,
+      "refId": "WIS-WOH-6:14",
+      "text": "ὁ ὀρθρίσας ἐπʼ αὐτὴν οὐ κοπιάσει, πάρεδρον γὰρ εὑρήσει τῶν πυλῶν αὐτοῦ.",
+      "translit": "ho orthrisas epʼ autēn ou kopiasei, paredron gar heurēsei tōn pylōn autou.",
+      "i18n": {
+        "en": "He who rises early for her will not grow weary, for he will find her sitting at his gates."
+      },
+      "notes": {
+        "official": "*Paredron* 'sitting' (KJV 'sitting at his doors'): *paredros* is one who sits beside, and also the technical term for an assessor who sits beside a magistrate (LSJ s.v.). That sense suits the address to rulers and anticipates 9:4, where wisdom is the *paredros* of God's throne; the line keeps the plain 'sitting at his gates' and leaves the technical sense to this note (`wisdom-and-sorites-vocabulary-wis-6-11-25`). Swete's apparatus gives *ploutōn* 'riches' for *pylōn* 'gates' in ℵ* (corrected in ℵ^c.a) and *pros* for *ep'* in A (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 15,
+      "refId": "WIS-WOH-6:15",
+      "text": "τὸ γὰρ ἐνθυμηθῆναι περὶ αὐτῆς φρονήσεως τελειότης, καὶ ὁ ἀγρυπνήσας διʼ αὐτὴν ταχέως ἀμέριμνος ἔσται·",
+      "translit": "to gar enthymēthēnai peri autēs phronēseōs teleiotēs, kai ho agrypnēsas diʼ autēn tacheōs amerimnos estai·",
+      "i18n": {
+        "en": "For to think upon her is the perfection of prudence, and he who keeps watch for her sake will quickly be free from care;"
+      },
+      "notes": {
+        "official": "*Phronēseōs teleiotēs* 'the perfection of prudence' (draft and KJV 'perfection of wisdom'; NRSV 'perfect understanding'): the author keeps *phronēsis* and *sophia* apart, and the KJV's 'wisdom' merges them. 'Prudence' is the classical rendering of *phronēsis* as practical wisdom, and the KJV itself uses it at 8:7, where *phronēsis* stands among the four cardinal virtues. The same rule gives 'a prudent king' for *basileus phronimos* at 6:24 (`wisdom-and-sorites-vocabulary-wis-6-11-25`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25"
+      ]
+    },
+    {
+      "n": 16,
+      "refId": "WIS-WOH-6:16",
+      "text": "ὅτι τοὺς ἀξίους αὐτῆς αὕτη περιέρχεται ζητοῦσα, καὶ ἐν ταῖς τρίβοις φαντάζεται αὐτοῖς εὐμενῶς, καὶ ἐν πάσῃ ἐπινοίᾳ ὑπαντᾷ αὐτοῖς.",
+      "translit": "hoti tous axious autēs hautē perierchetai zētousa, kai en tais tribois phantazetai autois eumenōs, kai en pasē epinoia hypanta autois.",
+      "i18n": {
+        "en": "because she herself goes about seeking those who are worthy of her, and in the paths she shows herself to them graciously, and in every thought she meets them."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25"
+      ]
+    },
+    {
+      "n": 17,
+      "refId": "WIS-WOH-6:17",
+      "text": "ἀρχὴ γὰρ αὐτῆς ἡ ἀληθεστάτη παιδείας ἐπιθυμία,",
+      "translit": "archē gar autēs hē alēthestatē paideias epithymia,",
+      "i18n": {
+        "en": "For her beginning is the truest desire for instruction,"
+      },
+      "notes": {
+        "official": "Verses 17-20 form a sorites, a chain argument in which each term becomes the subject of the next: desire for instruction, care for instruction, love, keeping her laws, assurance of incorruption, nearness to God, a kingdom (Winston, *The Wisdom of Solomon*, AB 43, 1979, ad loc.; cf. Rom 5:3-5). *Archē … autēs* is the predicate and *hē alēthestatē paideias epithymia* the articular subject, so the superlative *alēthestatē* qualifies the desire (NRSV 'the most sincere desire'); the KJV and Brenton attach it to the beginning ('the very true beginning'). *Paideia* is 'instruction' (draft and KJV 'discipline'; NRSV 'instruction'). It is the noun of *paideuō*, which the line renders 'instruct' at 6:11 and 6:25, and one English word-family lets the chain answer the promise made to the kings (`wisdom-and-sorites-vocabulary-wis-6-11-25`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25"
+      ]
+    },
+    {
+      "n": 18,
+      "refId": "WIS-WOH-6:18",
+      "text": "φροντὶς δὲ παιδείας ἀγάπη, ἀγάπη δὲ τήρησις νόμων αὐτῆς, προσοχὴ δὲ νόμων βεβαίωσις ἀφθαρσίας,",
+      "translit": "phrontis de paideias agapē, agapē de tērēsis nomōn autēs, prosochē de nomōn bebaiōsis aphtharsias,",
+      "i18n": {
+        "en": "and care for instruction is love, and love is the keeping of her laws, and giving heed to the laws is the assurance of incorruption,"
+      },
+      "notes": {
+        "official": "*Aphtharsia* 'incorruption' (KJV; NRSV 'immortality'), literally 'imperishability', the state of not decaying. The word recurs at 2:23, where God created humanity for incorruption; 'incorruption' keeps the literal sense and that link, while 'immortality' would merge it with *athanasia* (3:4; 8:13), a different word in the same book. *Nomōn autēs* 'her laws' are wisdom's laws. Swete's apparatus gives *epithymia* for the first *agapē* in ℵ*, corrected by the first corrector (ℵ¹) (`wisdom-and-sorites-vocabulary-wis-6-11-25`; `swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 19,
+      "refId": "WIS-WOH-6:19",
+      "text": "ἀφθαρσία δὲ ἐγγὺς εἶναι ποιεῖ θεοῦ·",
+      "translit": "aphtharsia de engys einai poiei theou·",
+      "i18n": {
+        "en": "and incorruption makes one be near to God;"
+      },
+      "notes": {
+        "official": "The transcription ran 6:19 and 6:20 together; the division is restored to Swete's printed numbering, and the correction is logged in the source file (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`). *Engys einai poiei theou* 'makes one be near to God': the Greek has no object, which the KJV supplies as 'us'; the line supplies only the indefinite 'one' (`theos-god-rendering-wisdom`; `wisdom-and-sorites-vocabulary-wis-6-11-25`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "theos-god-rendering-wisdom",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom",
+        "wisdom-and-sorites-vocabulary-wis-6-11-25"
+      ]
+    },
+    {
+      "n": 20,
+      "refId": "WIS-WOH-6:20",
+      "text": "ἐπιθυμία ἄρα σοφίας ἀνάγει ἐπὶ βασιλείαν.",
+      "translit": "epithymia ara sophias anagei epi basileian.",
+      "i18n": {
+        "en": "therefore the desire of wisdom leads up to a kingdom."
+      },
+      "notes": {
+        "official": "*Anagei epi basileian* 'leads up to a kingdom' (KJV, NRSV): the sorites ends in rule, which turns the argument back on the kings addressed in 6:21; the same noun is 'his kingdom' at 6:4. Swete's apparatus records several first-hand slips in ℵ here, among them *anairei* 'destroys' for *anagei* 'leads up' (corrected in ℵ^c.a), which no edition adopts (`wisdom-and-sorites-vocabulary-wis-6-11-25`; `swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 21,
+      "refId": "WIS-WOH-6:21",
+      "text": "εἰ οὖν ἥδεσθε ἐπὶ θρόνοις καὶ σκήπτροις, τύραννοι λαῶν, τιμήσατε σοφίαν, ἵνα εἰς τὸν αἰῶνα βασιλεύσητε.",
+      "translit": "ei oun hēdesthe epi thronois kai skēptrois, tyrannoi laōn, timēsate sophian, hina eis ton aiōna basileusēte.",
+      "i18n": {
+        "en": "If then you delight in thrones and scepters, O monarchs of peoples, honor wisdom, that you may reign for ever."
+      },
+      "notes": {
+        "official": "*Tyrannoi laōn* 'monarchs of peoples' (draft 'kings of peoples'; KJV 'O ye kings of the people'), as at 6:9 (`royal-address-and-judgment-vocabulary-wis-6-1-21`). The promise that they may reign for ever answers the threat of 6:5.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "royal-address-and-judgment-vocabulary-wis-6-1-21"
+      ]
+    },
+    {
+      "n": 22,
+      "refId": "WIS-WOH-6:22",
+      "text": "τί δέ ἐστιν σοφία καὶ πῶς ἐγένετο ἀπαγγελῶ, καὶ οὐκ ἀποκρύψω ὑμῖν μυστήρια, ἀλλὰ ἀπʼ ἀρχῆς γενέσεως ἐξιχνιάσω καὶ θήσω εἰς τὸ ἐμφανὲς τὴν γνῶσιν αὐτῆς, καὶ οὐ μὴ παροδεύσω τὴν ἀλήθειαν·",
+      "translit": "ti de estin sophia kai pōs egeneto apangelō, kai ouk apokrypsō hymin mystēria, alla apʼ archēs geneseōs exichniasō kai thēsō eis to emphanes tēn gnōsin autēs, kai ou mē parodeusō tēn alētheian·",
+      "i18n": {
+        "en": "Now what wisdom is, and how she came to be, I will declare, and I will not hide mysteries from you; but I will seek her out from the beginning of her origin, and bring the knowledge of her into the light, and I will not pass by the truth;"
+      },
+      "notes": {
+        "official": "*Pōs egeneto* 'how she came to be' (draft and KJV 'how she came up'; NRSV 'how she came to be'): *ginomai* in the aorist is 'come into being, arise' (LSJ s.v.), and the KJV's 'came up' is an archaism for 'arose'. *Ap' archēs geneseōs* has no possessive. 'From the beginning of her origin' (draft and KJV 'from the beginning of her nativity') takes *genesis*, the noun of the same verb, as wisdom's own coming-to-be and supplies 'her' from the parallel clause, as the KJV does; NRSV takes it as the world's beginning ('from the beginning of creation'). 'Nativity' is replaced because in current English it means a birth, and especially the birth of Christ, while *genesis* is the broader 'origin' (`what-wisdom-is-vocabulary-wis-6-22-24`).\n\n*Mystēria* 'mysteries' (KJV, NRSV) are, in Hellenistic Greek, secret rites or doctrines; the author promises the opposite of a mystery cult, to set wisdom's knowledge *eis to emphanes* 'in plain view' (KJV 'into light', kept as 'into the light'). The promise is carried out in 7:22-8:1. Swete's apparatus gives *tis* for *ti* in ℵ*, and Swete's alternative (parenthesised) number for this verse is 24 (`swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *The Book Which Tells the Truth* (ch. 3) quotes this verse as « VI-22 », which is the primary numbering of Swete and the KJV. The French: « Ce qu'est la Sagesse et comment elle est née, je le ferai savoir ; je ne vous cacherai aucun secret, mais je remonterai jusqu'au début de sa genèse et mettrai en lumière sa connaissance sans passer à côté de la vérité ». The English edition follows the KJV, without its opening 'As for wisdom' and with 'secrets' for the KJV's 'mysteries': 'What wisdom is, and how she came up, I will tell you, and will not hide secrets from you: but will seek her out from the beginning of her nativity, and bring the knowledge of her into light, and will not pass over the truth.' The book then reads wisdom as 'the science that allowed all this to exist', which 'will be known to man in due time' (TBWTT-3:267). The French 'sa genèse' agrees with the Greek *genesis*, and 'mettrai en lumière' with the line's 'into the light'. 'Comment elle est née' ('how she was born') narrows *egeneto*, which the line renders 'how she came to be', and 'aucun secret' renders *mystēria*, which the line keeps as 'mysteries'. The capital in 'Sagesse' and the reading 'science' belong to the book; the line renders *sophia* 'wisdom' (`raelian-canon-citation-reception-note-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "what-wisdom-is-vocabulary-wis-6-22-24",
+        "raelian-canon-citation-reception-note-convention-wisdom",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 23,
+      "refId": "WIS-WOH-6:23",
+      "text": "οὔτε μὴν φθόνῳ τετηκότι συνοδεύσω, ὅτι οὗτος οὐ κοινωνήσει σοφίᾳ.",
+      "translit": "oute mēn phthonō tetēkoti synodeusō, hoti houtos ou koinōnēsei sophia.",
+      "i18n": {
+        "en": "nor will I go along with consuming envy, for it will have no fellowship with wisdom."
+      },
+      "notes": {
+        "official": "*Houtos* 'this one' has no expressed noun, and the only masculine noun in the verse is *phthonos* 'envy', so the line takes the clause as 'for it will have no fellowship with wisdom' (draft and KJV 'such a man', which supplies a person the Greek does not name; NRSV refers the clause to envy). *Phthonō tetēkoti* 'consuming envy', literally 'wasted envy', envy that wastes away the one who has it; *synodeusō* 'go along with, travel with'. Swete's apparatus gives the present *koinōnei* for A (`what-wisdom-is-vocabulary-wis-6-22-24`; `swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "what-wisdom-is-vocabulary-wis-6-22-24",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 24,
+      "refId": "WIS-WOH-6:24",
+      "text": "πλῆθος δὲ σοφῶν σωτηρία κόσμου, καὶ βασιλεὺς φρόνιμος εὐσταθία δήμου.",
+      "translit": "plēthos de sophōn sōtēria kosmou, kai basileus phronimos eustathia dēmou.",
+      "i18n": {
+        "en": "But the multitude of the wise is the welfare of the world, and a prudent king is the stability of the people."
+      },
+      "notes": {
+        "official": "*Basileus phronimos* 'a prudent king' (draft and KJV 'a wise king'; NRSV 'a sensible king') keeps *phronimos* distinct from *sophōn* 'the wise' in the first clause, as at 6:15 (`wisdom-and-sorites-vocabulary-wis-6-11-25`). *Eustathia dēmou* 'the stability of the people' (draft and KJV 'the upholding'; NRSV 'stability'): *eustatheia* is 'steadiness, stability, tranquillity' (LSJ s.v.), a term of Hellenistic political writing; Swete prints the B spelling *eustathia* (A *eustatheia*). *Sōtēria kosmou* 'the welfare of the world' (KJV; NRSV 'salvation'): *sōtēria* here is safety and preservation in the civic sense, which 'welfare' gives without the theological weight of 'salvation' (`what-wisdom-is-vocabulary-wis-6-22-24`; `swete-vaticanus-base-text-and-variant-reporting-convention-wisdom`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "what-wisdom-is-vocabulary-wis-6-22-24",
+        "wisdom-and-sorites-vocabulary-wis-6-11-25",
+        "swete-vaticanus-base-text-and-variant-reporting-convention-wisdom"
+      ]
+    },
+    {
+      "n": 25,
+      "refId": "WIS-WOH-6:25",
+      "text": "ὥστε παιδεύεσθε τοῖς ῥήμασίν μου, καὶ ὠφεληθήσεσθε.",
+      "translit": "hōste paideuesthe tois rhēmasin mou, kai ōphelēthēsesthe.",
+      "i18n": {
+        "en": "Therefore be instructed by my words, and you will profit."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "wisdom-and-sorites-vocabulary-wis-6-11-25"
+      ]
+    }
+  ],
+  "editorial_questions": []
+}

@@ -1,0 +1,654 @@
+{
+  "schemaVersion": 2,
+  "bookCode": "TOB-WOH",
+  "bookSlug": "tobit-woh",
+  "n": 12,
+  "title": "Tobit 12 — Raphael makes himself known",
+  "translation": {
+    "track": "translation",
+    "version": "1.0.0",
+    "sourceText": "Septuagint Greek — H. B. Swete, The Old Testament in Greek according to the Septuagint, vol. 2 (Cambridge University Press, 1896), the B text of Tobit (Codex Vaticanus, recension GI), with Swete's apparatus for Alexandrinus (A) surviving in the transcription only as OCR-garbled footnotes; Swete's parallel ℵ text (recension GII) read from the Internet Archive scan OCR for the editorial questions only. OCR corrections listed in source-grc-12.json `corrections`.",
+    "sourceLicense": "Swete 1896 (Public Domain); digital transcription First1KGreek, CC BY-SA 4.0",
+    "sourceUrl": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0527/tlg021/tlg0527.tlg021.1st1K-grc1.xml",
+    "sourceAccessedVia": "First1KGreek (Open Greek and Latin) tlg0527.tlg021.1st1K-grc1, fetched 2026-11-02 into source-grc-12.json; B text checked and ℵ text read from the Internet Archive scan OCR of Swete vol. 2 (oldtestamentingr02swetuoft, pp. 840-842); reference translation Brenton 1844/1851 (PD; KJV-based Apocrypha text), consulted from the translator's knowledge only (no hosted edition)",
+    "glossaryVersion": "2.93.0",
+    "overlayGlossaryVersion": "1.0.0",
+    "modelDrafts": [
+      "claude-opus-5-5 (translator)",
+      "claude-opus-5-5 (editor)"
+    ],
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-02T12:00:00Z",
+    "status": "stable",
+    "reviewerReport": {
+      "verdict": "revise",
+      "summary": "20 approve / 2 revise. One required English-line fix: 12:9 drops the A-text 'for' (γάρ), with the matching punctuation change at 12:8. All OCR corrections and the two 'not corrected' calls (ἀγίοχεν B*, no verb at 12:18) confirmed on pp. 840-842; ὑψοῖν (12:6) is Swete's printed B spelling. All three flagged witness claims verified on the page images. No lens leakage.",
+      "verses": [
+        {
+          "refId": "TOB-WOH-12:1",
+          "verdict": "approve",
+          "issue": "Re-parsed; line accurate. Closing stop correction confirmed (Swete p. 840). GII description (opens 'when the wedding was ended', Tobias asks how much, 'go in health') checked against Swete's ℵ text on the p. 840-841 page images. Fitzmyer CEJL 2003 / Moore AB 40A 1996 citations correct.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:2",
+          "verdict": "approve",
+          "issue": "Line accurate (οὐ βλάπτομαι δοὺς … τὸ ἥμισυ ὧν ἐνήνοχα). εἶπεν] + αὐτῷ A not reported; sense-neutral.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:3",
+          "verdict": "approve",
+          "issue": "ἀγίοχεν B* kept and αγηοχε B^b confirmed in Swete's apparatus (p. 840 image); σὲ accent correction confirmed. 'brought me back to you in health' follows KJV and is fair for ἀγήοχέν σοι ὑγιῆ.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:4",
+          "verdict": "approve",
+          "issue": "Δικαιοῦται αὐτῷ 'It is due to him' (KJV) accurate.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:5",
+          "verdict": "approve",
+          "issue": "Ambiguous subject kept as 'he'; plural ἐνηνόχατε and ἐνηνοχας A confirmed (p. 841); GII ὕπαγε ὑγιαίνων confirmed on page image. Removal of apparatus block from inside verse is correct.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:6",
+          "verdict": "approve",
+          "issue": "Line accurate; exomologeomai 'give thanks' with dative (Muraoka s.v. ἐξομολογέομαι) defensible and consistent. ὑψοῖν is Swete's printed B spelling (A ὑψουν) — confirmed on p. 841 image; correctly left uncorrected. A omission 'εξομολογεισθε 1°…και 3°' confirmed.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:7",
+          "verdict": "approve",
+          "issue": "'the secret of a king' (KJV) accurate; κρυπτειν A and om ἀγαθόν…ὑμᾶς A confirmed on p. 841.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:8",
+          "verdict": "revise",
+          "issue": "Line wording approved ('better … than' for positive + ἤ, KJV practice; GII μετὰ ἀληθείας confirmed on p. 841). Punctuation must change once 12:9 loses its supplied 'for' (see 12:9).",
+          "fix": "End the line with a full stop: '… It is better to give alms than to lay up gold.'"
+        },
+        {
+          "refId": "TOB-WOH-12:9",
+          "verdict": "revise",
+          "issue": "B has no connective: ἐλεημοσύνη ἐκ θανάτου ῥύεται. The line's 'for alms delivers from death' supplies A's γάρ (apparatus '9 ελεημοσυνη] + γαρ A', confirmed on p. 841 image), which the KJV follows ('For alms doth deliver'). Under the B-text convention the line must not carry A's reading.",
+          "fix": "Line: 'Alms delivers from death, and it will purge away every sin. Those who practice alms and righteousness will be filled with life;'. Add to the note after the A gar sentence: 'the KJV's \"For\" follows A; B has no connective, and the line follows B.'"
+        },
+        {
+          "refId": "TOB-WOH-12:10",
+          "verdict": "approve",
+          "issue": "Line accurate.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:11",
+          "verdict": "approve",
+          "issue": "Line accurate; δὴ] δε A confirmed on p. 841.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:12",
+          "verdict": "approve",
+          "issue": "'memorial' for μνημόσυνον defensible (Muraoka s.v.; Lev 2:2 LXX); GII ἐνώπιον τῆς δόξης Κυρίου confirmed on p. 841 image; νύμφη 'daughter-in-law' correct in context (LSJ s.v.).",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:13",
+          "verdict": "approve",
+          "issue": "'lay out the dead' for περιστέλλω (LSJ s.v.) defensible. B text 'οὐκ ἔλαθές με ἀγαθοποιῶν' confirmed on p. 842 image (the djvu OCR drops με; source file is right). GII clause verified on p. 842 page image: 'περιέστειλες τὸν νεκρόν, 14 τότε ἀπέσταλμαι ἐπὶ σὲ πειράσαι σε, καὶ ἅμα ἀπέσταλκέν με ὁ θεὸς ἰάσασθαι καὶ Σάρραν τὴν νύμφην σου' — the note's 'then I was sent to you to test you' is accurate. Optional: change '(read from the scan OCR)' to '(checked against Swete's page image, p. 842)'.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:14",
+          "verdict": "approve",
+          "issue": "Line accurate; Raphael etymology (BDB s.v. רְפָאֵל, from רָפָא + אֵל) is correctly kept in the note, not the line.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:15",
+          "verdict": "approve",
+          "issue": "Line accurate; εἷς breathing correction and B text confirmed on p. 842. 'the saints' matches REV-WOH-5:8, 8:3-4 (checked). GII 'εἷς τῶν ἑπτὰ ἀγγέλων οἳ παρεστήκασιν … τῆς δόξης Κυρίου' confirmed on page image. 'and out' correctly excluded.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:16",
+          "verdict": "approve",
+          "issue": "Line accurate.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:17",
+          "verdict": "approve",
+          "issue": "εἰρήνη ὑμῖν ἔσται 'it will go well with you' (KJV sense rendering) defensible with literal in note; A pr ὅτι and GII 'εἰρήνη ὑμῖν' confirmed on p. 842.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:18",
+          "verdict": "approve",
+          "issue": "Verified on p. 842 page image: B text ends 'τοῦ θεοῦ ὑμῶν·' with no verb; apparatus '18 υμων] + ηλθον A'. Line translates B and supplies only the copula, as the note says. KJV 'our' correctly flagged as not shown by the apparatus (none shown on the printed page either).",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:19",
+          "verdict": "approve",
+          "issue": "Line is a translation: ὠπτανόμην 'I appeared' (BDAG s.v. ὀπτάνομαι), ὅρασιν 'a vision'. GII 'καὶ θεωρεῖτέ με ὅτι οὐκ ἔφαγον οὐθέν, ἀλλὰ ὅρασις ὑμῖν ἐθεωρεῖτο' confirmed on p. 842. Reception note correctly headed; French and English quotations match TBWTT-3:263-264; 'robots'/'creators'/'éprouver' confined to the note and honestly marked as not in the B text.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:20",
+          "verdict": "approve",
+          "issue": "'accomplished' for συντελεσθέντα lexically grounded (LSJ, Muraoka s.v. συντελέω) independent of the canon's « accompli »; ἀποστείλαντά correction confirmed; GII 'τὰ συμβάντα ὑμῖν … καὶ ἀνέβη' without εἰς βιβλίον confirmed. Reception note correctly separated.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:21",
+          "verdict": "approve",
+          "issue": "Line accurate; 'ανε sup ras B^ab' and 'ουκ] + ετι A' confirmed on p. 842.",
+          "fix": null
+        },
+        {
+          "refId": "TOB-WOH-12:22",
+          "verdict": "approve",
+          "issue": "'an angel of the Lord' (anarthrous B; A pr ὁ confirmed) under ratified angelos/kyrios conventions; malakh-yhwh-messenger correctly background only. 'acknowledged' for ἐξομολογέομαι + accusative (BDAG s.v.) defensible; του θεου και A confirmed.",
+          "fix": null
+        }
+      ],
+      "glossary": [
+        {
+          "id": "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+          "verdict": "approve",
+          "citations": [
+            "Fitzmyer, Tobit (CEJL, 2003)",
+            "Moore, Tobit (AB 40A, 1996)",
+            "Hanhart, Tobit (Göttingen VIII/5, 1983)",
+            "TBWTT-3:264",
+            "Swete vol. 2 pp. 840-842 page images"
+          ],
+          "note": "Direct is right for a base-text convention. Recommended (not blocking) update: replace 'read from the uncorrected Internet Archive scan OCR (oldtestamentingr02swetuoft) and marked as such' with 'read from the Internet Archive scan OCR (oldtestamentingr02swetuoft) and checked against its page images (pp. 840-842) at review'; the chapter notes' '(scan OCR)' tags can be updated to match. Applying the convention requires the 12:9 line fix."
+        },
+        {
+          "id": "divine-designations-theos-kyrios-ho-hagios-tobit",
+          "verdict": "approve",
+          "citations": [
+            "Muraoka GELS s.vv.",
+            "Sir 4:14; Bar 4:22"
+          ],
+          "note": "Ratified conventions applied."
+        },
+        {
+          "id": "angelos-angel-rendering-tobit",
+          "verdict": "approve",
+          "citations": [
+            "BDAG s.v. ἄγγελος"
+          ],
+          "note": "Ratified convention; malakh-yhwh-messenger background-only reasoning is sound."
+        },
+        {
+          "id": "greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit",
+          "verdict": "approve",
+          "citations": [
+            "LSJ s.v. ἐλεημοσύνη; Muraoka s.v."
+          ],
+          "note": "Sound."
+        },
+        {
+          "id": "raelian-canon-citation-reception-note-convention-tobit",
+          "verdict": "approve",
+          "citations": [
+            "TBWTT-3:263-264"
+          ],
+          "note": "Quotations verified against the TBWTT ch. 3 file; the 'éprouver' paraphrase is honestly tied to GII and kept out of the line."
+        },
+        {
+          "id": "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+          "verdict": "approve",
+          "citations": [
+            "Muraoka GELS s.v. ἐξομολογέομαι",
+            "BDAG s.v. ἐξομολογέω"
+          ],
+          "note": "Sound."
+        },
+        {
+          "id": "raphael-self-disclosure-vocabulary-tob-12-12-22",
+          "verdict": "approve",
+          "citations": [
+            "Muraoka s.v. μνημόσυνον",
+            "LSJ s.v. συντελέω",
+            "BDAG s.v. ὀπτάνομαι"
+          ],
+          "note": "Sound; 'the saints' consistency with REV-WOH-5:8, 8:3-4 verified."
+        },
+        {
+          "id": "household-and-burial-vocabulary-tob-12-1-13",
+          "verdict": "approve",
+          "citations": [
+            "LSJ s.vv. περιστέλλω, νύμφη",
+            "BDAG s.vv. τέκνον, υἱός"
+          ],
+          "note": "Sound."
+        }
+      ],
+      "speculativeEntries": [],
+      "lens-leakage-flags": [],
+      "founderDecisionRecommendations": {
+        "tobit-base-recension-GI": "Endorse GI. The canon quotes 12:19-20 in the GI form (πάσας τὰς ἡμέρας, ὠπτανόμην, εἰς βιβλίον are all absent from Swete's ℵ text, verified on p. 842). GI is the only recension with an auditable CC BY-SA transcription, and it keeps one Swete/B rule across the Septuagint books. The scholarly preference for GII (Fitzmyer, Moore, NRSV/NAB/NJB) is stated openly in the 12:1 note and the convention entry. The GII 'to test you' clause behind the canon's « éprouver » (TBWTT-3:263) is reported and now verified. A GII parallel track should only follow a fresh transcription from the page images."
+      },
+      "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+      "reviewedAt": "2026-11-02T07:30:26Z",
+      "centralDiff": {
+        "verdict": "approve",
+        "summary": "Both ops checked against translation-glossary-2.90.0.json. Each appliesTo array keeps every v2.90.0 refId in order and adds only the Tobit site. The seven-archangels rationale differs from v2.90.0 in one place only: the citation 'per Fitzmyer 2003 AB 40A' becomes 'per Fitzmyer, *Tobit*, CEJL, 2003; AB 40A is C. A. Moore's *Tobit*, 1996', which is correct. Both entries stay claim_type direct, and neither wohChoice changes. The divine-eating extension follows the ehyeh-asher-ehyeh → Wis 13:1 precedent; its rationale already quotes Tob 12:19 in the GI wording.",
+        "ops": [
+          {
+            "op": "version 2.90.0→2.92.0",
+            "verdict": "approve",
+            "note": "Minor bump is right. The 2.91.0 gap is the concurrent NT diff, per the Editor; the orchestrator must re-base on the union rule at merge."
+          },
+          {
+            "op": "modify seven-archangels-list-1-enoch-20-tob-12-rev-8-cross-corpus",
+            "verdict": "approve",
+            "note": "Optional, since the rationale is replaced whole anyway: fix the pre-existing transliteration typo 'prosanaphrousin' → 'prosanapherousin' (προσαναφέρουσιν)."
+          },
+          {
+            "op": "modify divine-eating-anthropomorphism",
+            "verdict": "approve",
+            "note": "appliesTo-only; Hebrew wohChoice correctly not applied to the Greek line."
+          }
+        ]
+      },
+      "statusRecommendation": "awaiting-human. Both chapters have revise verdicts: Wis 6 has 4 (one line, three notes) and Tob 12 has 2 (one line plus its punctuation). Two founder decisions need explicit sign-off, and the reviewer endorses both. No speculative entries; no lens-leakage flags. When the listed fixes are applied, the package is ready for founder sign-off with no further review round needed."
+    }
+  },
+  "paragraphs": [
+    {
+      "n": 1,
+      "refId": "TOB-WOH-12:1",
+      "text": "Καὶ ἐκάλεσεν Τωβεὶτ Τωβείαν τὸν υἱὸν αὐτοῦ καὶ εἶπεν αὐτῷ Ὅρα, τέκνον, μισθὸν τῷ ἀνθρώπῳ τῷ συνελθόντι σοι, καὶ προσθεῖναι αὐτῷ δεῖ.",
+      "translit": "kai ekalesen Tōbeit Tōbeian ton huion autou kai eipen autō Hora, teknon, misthon tō anthrōpō tō synelthonti soi, kai prostheinai autō dei.",
+      "i18n": {
+        "en": "And Tobit called Tobias his son and said to him, My child, see that the man who went with you has his wages; and more must be added for him."
+      },
+      "notes": {
+        "official": "Base text. The line translates Swete's B text of Tobit, the shorter Greek recension (GI) of Codex Vaticanus, with Codex Alexandrinus (A) in his apparatus. The longer recension (GII) of Codex Sinaiticus (ℵ), which Swete prints on the lower half of the same pages, is generally judged closer to the Semitic original attested by the Qumran fragments (4Q196-199 in Aramaic, 4Q200 in Hebrew) and underlies the NRSV, NAB and NJB; the KJV and Brenton translate the GI type (Fitzmyer, *Tobit*, CEJL, 2003; Moore, *Tobit*, AB 40A, 1996). GII readings that change the sense are given in these notes, read from the uncorrected scan OCR of Swete's ℵ text and marked as such (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`). In 12:1-5 GII is longer throughout: it opens 'And when the wedding was ended', Tobias asks how much he should pay, and the angel is told to take half 'and go in health'.\n\n*Teknon* 'My child' (draft and KJV 'My son'; NRSV 'My child'): the narrative calls Tobias Tobit's *huios* 'son', and the address uses the affectionate *teknon* 'child' (`household-and-burial-vocabulary-tob-12-1-13`). *Tō anthrōpō tō synelthonti soi* 'the man who went with you' is Raphael in disguise, so 'man' is right here. Names are given in their English forms: Tobit (Swete's B spelling *Tōbeit*; ℵ *Tōbeith*), Tobias, Sarah, Raphael (`greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+        "household-and-burial-vocabulary-tob-12-1-13",
+        "greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit"
+      ]
+    },
+    {
+      "n": 2,
+      "refId": "TOB-WOH-12:2",
+      "text": "καὶ εἶπεν Πάτερ, οὐ βλάπτομαι δοὺς αὐτῷ τὸ ἥμισυ ὧν ἐνήνοχα,",
+      "translit": "kai eipen Pater, ou blaptomai dous autō to hēmisy hōn enēnocha,",
+      "i18n": {
+        "en": "And he said, Father, it does me no harm to give him half of what I have brought;"
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 3,
+      "refId": "TOB-WOH-12:3",
+      "text": "ὅτι με ἀγίοχέν σοι ὑγιῆ, καὶ τὴν γυναῖκά μου ἐθεράπευσεν καὶ τὸ ἀργύριόν μου ἤνεγκεν, καὶ σὲ ὁμοίως ἐθεράπευσεν.",
+      "translit": "hoti me agiochen soi hygiē, kai tēn gynaika mou etherapeusen kai to argyrion mou ēnenken, kai se homoiōs etherapeusen.",
+      "i18n": {
+        "en": "for he has brought me back to you in health, and he healed my wife, and he brought my money, and he healed you likewise."
+      },
+      "notes": {
+        "official": "*Agiochen* 'he has brought' is Swete's printing of the first hand of Vaticanus (B*), a misspelling of *agēochen*, which his apparatus gives for the corrector B^b; it is kept in the Greek (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`). Tobias lists Raphael's services in order: his own safe return, Sarah's healing, the recovered money and the healing of Tobit's eyes.",
+        "community": []
+      },
+      "glossaryRefs": [
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+        "household-and-burial-vocabulary-tob-12-1-13"
+      ]
+    },
+    {
+      "n": 4,
+      "refId": "TOB-WOH-12:4",
+      "text": "καὶ εἶπεν ὁ πρεσβύτης Δικαιοῦται αὐτῷ.",
+      "translit": "kai eipen ho presbytēs Dikaioutai autō.",
+      "i18n": {
+        "en": "And the old man said, It is due to him."
+      },
+      "notes": {
+        "official": "*Ho presbytēs* 'the old man' is Tobit. *Dikaioutai autō* 'it is due to him' (KJV 'It is due unto him'), literally 'it is rightly his' (`household-and-burial-vocabulary-tob-12-1-13`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "household-and-burial-vocabulary-tob-12-1-13"
+      ]
+    },
+    {
+      "n": 5,
+      "refId": "TOB-WOH-12:5",
+      "text": "καὶ ἐκάλεσεν τὸν ἄγγελον καὶ εἶπεν αὐτῷ Λάβε τὸ ἥμισυ πάντων ὧν ἐνηνόχατε.",
+      "translit": "kai ekalesen ton angelon kai eipen autō Labe to hēmisy pantōn hōn enēnochate.",
+      "i18n": {
+        "en": "And he called the angel and said to him, Take half of all that you have brought."
+      },
+      "notes": {
+        "official": "The subject of *ekalesen* 'he called' is not expressed; it may be Tobit, who has just spoken, or Tobias, and the line keeps the ambiguous 'he' with the KJV. *Enēnochate* 'you have brought' is plural, the angel being addressed as one of the two travellers; A has the singular *enēnochas*. The KJV's closing 'and go away in safety' corresponds to the GII clause *kai hypage hygiainōn* 'and go in health', which the B text does not have (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`). *Angelos* is 'angel', as in the Greek books of the corpus (`angelos-angel-rendering-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+        "angelos-angel-rendering-tobit"
+      ]
+    },
+    {
+      "n": 6,
+      "refId": "TOB-WOH-12:6",
+      "text": "καὶ καλέσας τοὺς δύο κρυπτῶς εἶπεν αὐτοῖς Εὐλογεῖτε τὸν θεὸν καὶ αὐτῷ ἐξομολογεῖσθε, μεγαλωσύνην δίδοτε αὐτῷ, καὶ ἐξομολογεῖσθε αὐτῷ ἐνώπιον πάντων τῶν ζώντων περὶ ὧν ἐποίησεν μεθʼ ὑμῶν. ἀγαθὸν τὸ εὐλογεῖν τὸν θεὸν καὶ ὑψοῖν τὸ ὄνομα αὐτοῦ, τοὺς λόγους τῶν ἔργων τοῦ θεοῦ ἐντίμως ὑποδεικνύοντες· καὶ μὴ ὀκνεῖτε ἐξομολογεῖσθαι αὐτῷ.",
+      "translit": "kai kalesas tous dyo kryptōs eipen autois Eulogeite ton theon kai autō exomologeisthe, megalōsynēn didote autō, kai exomologeisthe autō enōpion pantōn tōn zōntōn peri hōn epoiēsen methʼ hymōn. agathon to eulogein ton theon kai hypsoin to onoma autou, tous logous tōn ergōn tou theou entimōs hypodeiknyontes· kai mē okneite exomologeisthai autō.",
+      "i18n": {
+        "en": "And calling the two aside privately, he said to them, Bless God and give thanks to him; magnify him, and give thanks to him before all the living for what he has done with you. It is good to bless God and to exalt his name, honorably showing forth the words of the works of God; and do not be slow to give thanks to him."
+      },
+      "notes": {
+        "official": "*Exomologeisthe autō* 'give thanks to him' (draft and KJV 'praise him'): *exomologeomai* with the dative is the Septuagint's equivalent of Hebrew *hôdâ* 'give thanks, praise, acknowledge' (Muraoka, *A Greek-English Lexicon of the Septuagint*, 2009, s.v.). The line gives it one rendering at every dative occurrence in the chapter (three times here and at 12:20) and 'acknowledge' where it takes a direct object (12:22); *eulogeō* is 'bless' throughout, so the two verbs stay distinct, which the KJV's 'praise' for both does not show (`thanksgiving-and-almsgiving-vocabulary-tob-12-6-11`). *Megalōsynēn didote autō* 'magnify him', literally 'give greatness to him'. *Tous logous tōn ergōn tou theou … hypodeiknyontes* 'showing forth the words of the works of God': *logoi* are the account of the works, which the KJV's 'the works of God' condenses. *Kryptōs* 'privately': Raphael takes the two aside (`divine-designations-theos-kyrios-ho-hagios-tobit`). Swete's apparatus (read from the OCR transcription) records for A the omission of the words from the first *exomologeisthe* to the third *kai* (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+        "divine-designations-theos-kyrios-ho-hagios-tobit",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    },
+    {
+      "n": 7,
+      "refId": "TOB-WOH-12:7",
+      "text": "μυστήριον βασιλέως καλὸν κρύψαι, τὰ δὲ ἔργα τοῦ θεοῦ ἀνακαλύπτειν ἐνδόξως. ἀγαθὸν ποιήσατε, καὶ κακὸν οὐχ εὑρήσει ὑμᾶς.",
+      "translit": "mystērion basileōs kalon krypsai, ta de erga tou theou anakalyptein endoxōs. agathon poiēsate, kai kakon ouch heurēsei hymas.",
+      "i18n": {
+        "en": "It is good to hide the secret of a king, but to reveal the works of God honorably. Do good, and evil will not find you."
+      },
+      "notes": {
+        "official": "*Mystērion basileōs* 'the secret of a king' (KJV): a king's confidential business, a matter of state that must be kept, set against the works of God, which must be made known. The same noun is 'mysteries' at Wis 6:22, where it has its religious sense. *Endoxōs* 'honorably' (`thanksgiving-and-almsgiving-vocabulary-tob-12-6-11`; `divine-designations-theos-kyrios-ho-hagios-tobit`). Swete's apparatus gives *kryptein* for *krypsai* in A, and A omits 'Do good, and evil will not find you' (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+        "divine-designations-theos-kyrios-ho-hagios-tobit",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    },
+    {
+      "n": 8,
+      "refId": "TOB-WOH-12:8",
+      "text": "ἀγαθὸν προσευχὴ μετὰ νηστείας καὶ ἐλεημοσύνης καὶ δικαιοσύνης· ἀγαθὸν τὸ ὀλίγον μετὰ δικαιοσύνης ἢ πολὺ μετὰ ἀδικίας· καλὸν ποιῆσαι ἐλεημοσύνην ἢ θησαυρίσαι χρυσίον.",
+      "translit": "agathon proseuchē meta nēsteias kai eleēmosynēs kai dikaiosynēs· agathon to oligon meta dikaiosynēs ē poly meta adikias· kalon poiēsai eleēmosynēn ē thēsaurisai chrysion.",
+      "i18n": {
+        "en": "Prayer is good with fasting and alms and righteousness. A little with righteousness is better than much with unrighteousness. It is better to give alms than to lay up gold."
+      },
+      "notes": {
+        "official": "*Eleēmosynē* 'alms' (KJV; NRSV 'almsgiving') is mercy shown in charitable giving, a theme that runs through Tobit (1:3, 16; 4:7-11; 14:10-11). In the Septuagint the word sometimes renders *ṣədāqâ* 'righteousness' (Deut 6:25; Dan 4:27 Theodotion), which is why the two words stand together here; the Hebrew-text central entries on *ṣədāqâ* are background only (`thanksgiving-and-almsgiving-vocabulary-tob-12-6-11`; `greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit`). The comparisons with *ē* 'than' after a positive adjective ('good … than') are rendered 'better … than', as in the KJV. GII (scan OCR) has 'prayer with truth' where B has 'with fasting' (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+        "greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    },
+    {
+      "n": 9,
+      "refId": "TOB-WOH-12:9",
+      "text": "ἐλεημοσύνη ἐκ θανάτου ῥύεται, καὶ αὕτη ἀποκαθαριεῖ πᾶσαν ἁμαρτίαν· οἱ ποιοῦντες ἐλεημοσύνας καὶ δικαιοσύνας πλησθήσονται ζωῆς·",
+      "translit": "eleēmosynē ek thanatou rhyetai, kai hautē apokathariei pasan hamartian· hoi poiountes eleēmosynas kai dikaiosynas plēsthēsontai zōēs·",
+      "i18n": {
+        "en": "Alms delivers from death, and it will purge away every sin. Those who practice alms and righteousness will be filled with life;"
+      },
+      "notes": {
+        "official": "*Ek thanatou rhyetai* 'delivers from death' and *apokathariei pasan hamartian* 'will purge away every sin' are the book's strongest claims for almsgiving (cf. 4:10; Sir 3:30), and the line translates them without softening. *Hoi poiountes eleēmosynas kai dikaiosynas* 'those who practice alms and righteousness' (KJV 'exercise') (`thanksgiving-and-almsgiving-vocabulary-tob-12-6-11`). Swete's apparatus gives *gar* after *eleēmosynē* in A; the KJV's 'For' follows A; B has no connective, and the line follows B (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    },
+    {
+      "n": 10,
+      "refId": "TOB-WOH-12:10",
+      "text": "οἱ δὲ ἁμαρτάνοντες πολέμιοί εἰσιν τῆς ἑαυτῶν ζωῆς.",
+      "translit": "hoi de hamartanontes polemioi eisin tēs heautōn zōēs.",
+      "i18n": {
+        "en": "but those who sin are enemies of their own life."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": [
+        "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11"
+      ]
+    },
+    {
+      "n": 11,
+      "refId": "TOB-WOH-12:11",
+      "text": "οὐ μὴ κρύψω ἀφʼ ὑμῶν πᾶν ῥῆμα· εἴρηκα δὴ μυστήριον βασιλέως κρύψαι καλόν, τὰ δὲ ἔργα τοῦ θεοῦ ἀνακαλύπτειν ἐνδόξως.",
+      "translit": "ou mē krypsō aphʼ hymōn pan rhēma· eirēka dē mystērion basileōs krypsai kalon, ta de erga tou theou anakalyptein endoxōs.",
+      "i18n": {
+        "en": "I will not hide any word from you. I have indeed said, It is good to hide the secret of a king, but to reveal the works of God honorably."
+      },
+      "notes": {
+        "official": "Raphael repeats the maxim of 12:7, introduced by *eirēka dē* 'I have indeed said' (A *de*). *Ou mē krypsō* is the emphatic negative future, 'I will not hide' (`thanksgiving-and-almsgiving-vocabulary-tob-12-6-11`; `divine-designations-theos-kyrios-ho-hagios-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+        "divine-designations-theos-kyrios-ho-hagios-tobit"
+      ]
+    },
+    {
+      "n": 12,
+      "refId": "TOB-WOH-12:12",
+      "text": "καὶ νῦν ὅτε προσηύξω σὺ καὶ ἡ νύμφη σου Σάρρα, ἐγὼ προσήγαγον τὸ μνημόσυνον τῆς προσευχῆς ὑμῶν ἐνώπιον τοῦ ἁγίου· καὶ ὅτε ἔθαπτες τοὺς νεκρούς, ὡσαύτως συμπαρήμην σοι·",
+      "translit": "kai nyn hote prosēuxō sy kai hē nymphē sou Sarra, egō prosēgagon to mnēmosynon tēs proseuchēs hymōn enōpion tou hagiou· kai hote ethaptes tous nekrous, hōsautōs symparēmēn soi·",
+      "i18n": {
+        "en": "And now, when you prayed, you and your daughter-in-law Sarah, I brought the memorial of your prayer before the Holy One; and when you buried the dead, I was likewise present with you;"
+      },
+      "notes": {
+        "official": "*To mnēmosynon tēs proseuchēs hymōn* 'the memorial of your prayer' (draft and KJV 'remembrance'): *mnēmosynon* is the Septuagint's term for the memorial portion of an offering, which brings the worshipper to remembrance before God (Lev 2:2; Muraoka s.v.). Here it stands with *prosēgagon* 'I brought', the Septuagint verb for bringing an offering near, so the prayer is presented like an offering (cf. Acts 10:4, Cornelius's prayers and alms 'have gone up as a memorial before God'). *Enōpion tou hagiou* 'before the Holy One'; GII (scan OCR) reads 'before the glory of the Lord' (`raphael-self-disclosure-vocabulary-tob-12-12-22`; `divine-designations-theos-kyrios-ho-hagios-tobit`). *Nymphē* 'daughter-in-law', a word that also means 'bride': Sarah is Tobias's wife (`household-and-burial-vocabulary-tob-12-1-13`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raphael-self-disclosure-vocabulary-tob-12-12-22",
+        "divine-designations-theos-kyrios-ho-hagios-tobit",
+        "household-and-burial-vocabulary-tob-12-1-13"
+      ]
+    },
+    {
+      "n": 13,
+      "refId": "TOB-WOH-12:13",
+      "text": "καὶ ὅτε οὐκ ὤκνησας ἀναστῆναι καὶ καταλιπεῖν τὸ ἄριστόν σου ὅπως ἀπελθὼν περιστείλῃς τὸν νεκρόν, οὐκ ἔλαθές με ἀγαθοποιῶν, ἀλλὰ σὺν σοὶ ἤμην.",
+      "translit": "kai hote ouk ōknēsas anastēnai kai katalipein to ariston sou hopōs apelthōn peristeilēs ton nekron, ouk elathes me agathopoiōn, alla syn soi ēmēn.",
+      "i18n": {
+        "en": "and when you did not hesitate to rise up and leave your dinner in order to go and lay out the dead, you did not escape my notice in doing good, but I was with you."
+      },
+      "notes": {
+        "official": "*Peristeilēs ton nekron* 'lay out the dead' (draft and KJV 'cover'): *peristellō* used of a corpse is 'wrap, dress, lay out' for burial (LSJ s.v.), the care for the dead for which Tobit left his meal at 2:1-4. *To ariston* 'dinner', the main meal (`household-and-burial-vocabulary-tob-12-1-13`). GII continues with a clause the B text lacks, checked against Swete's page image (p. 842) as *tote apestalmai epi se peirasai se* 'then I was sent to you to test you', before the sending to heal of 12:14; see the reception note at 12:19 (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "household-and-burial-vocabulary-tob-12-1-13",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    },
+    {
+      "n": 14,
+      "refId": "TOB-WOH-12:14",
+      "text": "καὶ νῦν ἀπέστειλέν με ὁ θεὸς ἰάσασθαί σε καὶ τὴν νύμφην σου Σάρραν.",
+      "translit": "kai nyn apesteilen me ho theos iasasthai se kai tēn nymphēn sou Sarran.",
+      "i18n": {
+        "en": "And now God has sent me to heal you and your daughter-in-law Sarah."
+      },
+      "notes": {
+        "official": "*Apesteilen me ho theos iasasthai se* 'God has sent me to heal you'. The name Raphael is Hebrew for 'God has healed' (from *rāp̄āʾ* 'heal', BDB s.v., and *ʾēl*), and the chapter's verbs of healing (*etherapeusen* 12:3, *iasasthai* here) echo it, though the Greek does not explain the name (`divine-designations-theos-kyrios-ho-hagios-tobit`; `household-and-burial-vocabulary-tob-12-1-13`). For the GII clause about testing that precedes this verse in Sinaiticus, see 12:13 (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "divine-designations-theos-kyrios-ho-hagios-tobit",
+        "household-and-burial-vocabulary-tob-12-1-13",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    },
+    {
+      "n": 15,
+      "refId": "TOB-WOH-12:15",
+      "text": "ἐγώ εἰμι Ῥαφαήλ, εἷς ἐκ τῶν ἑπτὰ ἁγίων ἀγγέλων οἳ προσαναφέρουσιν τὰς προσευχὰς τῶν ἁγίων καὶ εἰσπορεύονται ἐνώπιον τῆς δόξης τοῦ ἁγίου.",
+      "translit": "egō eimi Rhaphaēl, heis ek tōn hepta hagiōn angelōn hoi prosanapherousin tas proseuchas tōn hagiōn kai eisporeuontai enōpion tēs doxēs tou hagiou.",
+      "i18n": {
+        "en": "I am Raphael, one of the seven holy angels who present the prayers of the saints and go in before the glory of the Holy One."
+      },
+      "notes": {
+        "official": "*Heis ek tōn hepta hagiōn angelōn* 'one of the seven holy angels': Raphael's self-identification belongs with the seven-archangel list of 1 Enoch 20, where he is the second of the seven, and with the seven angels 'who stand before God' at Rev 8:2 (central `seven-archangels-list-1-enoch-20-tob-12-rev-8-cross-corpus`, whose rationale already quotes this verse; `angelos-angel-rendering-tobit`).\n\n*Hoi prosanapherousin tas proseuchas tōn hagiōn* 'who present the prayers of the saints': *hagioi* is literally 'holy ones'. The line keeps the KJV's 'the saints' because the corpus renders the same phrase 'the prayers of the saints' at Rev 5:8 and 8:3-4, where an angel likewise brings them before God, and because here the holy ones are the faithful who pray (Tobit and Sarah, 12:12), not angels. *Eisporeuontai enōpion tēs doxēs tou hagiou* 'go in before the glory of the Holy One'; the KJV's 'go in and out' adds 'and out', which the Greek does not have (`raphael-self-disclosure-vocabulary-tob-12-12-22`; `divine-designations-theos-kyrios-ho-hagios-tobit`). GII (scan OCR) has 'one of the seven angels who stand by (*hoi paresthēkasin*) and go in before the glory of the Lord', without 'holy' and without the presenting of prayers (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`; `greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "seven-archangels-list-1-enoch-20-tob-12-rev-8-cross-corpus",
+        "angelos-angel-rendering-tobit",
+        "raphael-self-disclosure-vocabulary-tob-12-12-22",
+        "divine-designations-theos-kyrios-ho-hagios-tobit",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+        "greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit"
+      ]
+    },
+    {
+      "n": 16,
+      "refId": "TOB-WOH-12:16",
+      "text": "Καὶ ἐταράχθησαν οἱ δύο καὶ ἔπεσον ἐπὶ πρόσωπον, ὅτι ἐφοβήθησαν.",
+      "translit": "kai etarachthēsan hoi dyo kai epeson epi prosōpon, hoti ephobēthēsan.",
+      "i18n": {
+        "en": "And the two were troubled and fell on their faces, for they were afraid."
+      },
+      "notes": {
+        "official": "",
+        "community": []
+      },
+      "glossaryRefs": []
+    },
+    {
+      "n": 17,
+      "refId": "TOB-WOH-12:17",
+      "text": "καὶ εἶπεν αὐτοῖς Μὴ φοβεῖσθε, εἰρήνη ὑμῖν ἔσται· τὸν δὲ θεὸν εὐλογεῖτε εἰς τὸν αἰῶνα,",
+      "translit": "kai eipen autois Mē phobeisthe, eirēnē hymin estai· ton de theon eulogeite eis ton aiōna,",
+      "i18n": {
+        "en": "And he said to them, Do not fear; it will go well with you. But bless God for ever;"
+      },
+      "notes": {
+        "official": "*Eirēnē hymin estai* 'it will go well with you' (KJV): literally 'peace will be to you'. *Eirēnē* here has the sense of Hebrew *šālôm*, welfare and safety, and the line follows the KJV in rendering that sense (`raphael-self-disclosure-vocabulary-tob-12-12-22`; `divine-designations-theos-kyrios-ho-hagios-tobit`). A has *hoti* before *eirēnē*; GII (scan OCR) has the greeting 'Peace to you' (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raphael-self-disclosure-vocabulary-tob-12-12-22",
+        "divine-designations-theos-kyrios-ho-hagios-tobit",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    },
+    {
+      "n": 18,
+      "refId": "TOB-WOH-12:18",
+      "text": "ὅτι οὐ τῇ ἐμαυτοῦ χάριτι ἀλλὰ τῇ θελήσει τοῦ θεοῦ ὑμῶν· ὅθεν εὐλογεῖτε αὐτὸν εἰς τὸν αἰῶνα.",
+      "translit": "hoti ou tē emautou chariti alla tē thelēsei tou theou hymōn· hothen eulogeite auton eis ton aiōna.",
+      "i18n": {
+        "en": "for it was not by any favor of my own, but by the will of your God; therefore bless him for ever."
+      },
+      "notes": {
+        "official": "Textual note. B has no verb after *tou theou hymōn* 'of your God'; 'it was … by the will of your God' supplies only the copula. Swete's apparatus (read from the OCR transcription) gives *ēlthon* 'I came' for A, which the KJV and Brenton follow ('by the will of our God I came'); the KJV's 'our' presupposes *hēmōn* for *hymōn*, a reading the OCR apparatus does not show. The line translates B (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`; `divine-designations-theos-kyrios-ho-hagios-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+        "divine-designations-theos-kyrios-ho-hagios-tobit"
+      ]
+    },
+    {
+      "n": 19,
+      "refId": "TOB-WOH-12:19",
+      "text": "πάσας τὰς ἡμέρας ὠπτανόμην ὑμῖν, καὶ οὐκ ἔφαγον οὐδὲ ἔπιον, ἀλλὰ ὅρασιν ὑμεῖς ἐθεωρεῖτε.",
+      "translit": "pasas tas hēmeras ōptanomēn hymin, kai ouk ephagon oude epion, alla horasin hymeis etheōreite.",
+      "i18n": {
+        "en": "All the days I appeared to you, and I neither ate nor drank, but you were seeing a vision."
+      },
+      "notes": {
+        "official": "*Ōptanomēn hymin* 'I appeared to you': *optanomai* 'appear, let oneself be seen' is a rare Hellenistic verb (BDAG s.v.; cf. Acts 1:3, of the risen Jesus 'appearing' over forty days), and the imperfect describes repeated appearing through 'all the days' of the journey. *Ouk ephagon oude epion* 'I neither ate nor drank'. *Horasin hymeis etheōreite* 'you were seeing a vision': *horasis* is 'sight, appearance, vision' (LSJ s.v.), so what the two saw at meals was an appearance, not a body eating (`raphael-self-disclosure-vocabulary-tob-12-12-22`). The central `divine-eating-anthropomorphism` cites this verse as the Second-Temple reinterpretation of the meals of Gen 18:8 and 19:3, where the visitors eat. GII (scan OCR) has 'and you see me, that I ate nothing; but a vision was being seen by you', without 'all the days' (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`; `greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** *The Book Which Tells the Truth* (ch. 3) introduces the passage: « Dans Tobit, l'un des robots des créateurs, nommé Raphaël, vient aussi éprouver les réactions des humains face à eux. Et il repart ensuite, après leur avoir prouvé qui il était » ('In Tobit, one of the creators' robots, named Raphael, also comes to test the reactions of humans toward them. And he then departs again, after having proved to them who he was'). It then quotes 12:19-20: « Tous les jours je me rendais visible pour vous ; je ne mangeais ni ne buvais (...) je remonte vers celui qui m'a envoyé, et écrivez dans un livre tout ce qui s'est accompli » (Tobit, XII, 19-20). The English edition has the KJV wording: 'All these days I did appear unto you; but I did neither eat nor drink (…) I go up to him that sent me; but write all things which are done in a book.' The quotation follows the GI text translated here word for word: 'tous les jours' is *pasas tas hēmeras*, which GII lacks, and the reflexive 'je me rendais visible' is the middle sense of *ōptanomēn*, 'I let myself be seen'. The ellipsis leaves out 'but you were seeing a vision' and 'give thanks to God'. 'Robots of the creators' is the book's identification of the figure the Greek calls an angel (12:15, 22) sent by God (12:14, 20); the line renders *angelos* 'angel' and *theos* 'God'. That Raphael came 'to test' people (« éprouver ») is not in the B text; the nearest wording is the GII clause 'then I was sent to you to test you', reported at 12:13 (`raelian-canon-citation-reception-note-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raphael-self-disclosure-vocabulary-tob-12-12-22",
+        "divine-eating-anthropomorphism",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+        "greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit",
+        "raelian-canon-citation-reception-note-convention-tobit"
+      ]
+    },
+    {
+      "n": 20,
+      "refId": "TOB-WOH-12:20",
+      "text": "καὶ νῦν ἐξομολογεῖσθε τῷ θεῷ, διότι ἀναβαίνω πρὸς τὸν ἀποστείλαντά με, καὶ γράψατε πάντα τὰ συντελεσθέντα εἰς βιβλίον.",
+      "translit": "kai nyn exomologeisthe tō theō, dioti anabainō pros ton aposteilanta me, kai grapsate panta ta syntelesthenta eis biblion.",
+      "i18n": {
+        "en": "And now give thanks to God, for I am going up to him who sent me; and write in a book all the things that have been accomplished."
+      },
+      "notes": {
+        "official": "*Ta syntelesthenta* 'the things that have been accomplished' (draft and KJV 'that have been done'): *synteleō* is 'bring to completion, accomplish' (LSJ s.v.; Muraoka s.v.), the verb of LXX Gen 2:1-2 for the completion of heaven and earth, and the aorist passive participle names what has been brought to its end: Tobias's safe return and the healing of Sarah and Tobit. *Anabainō pros ton aposteilanta me* 'I am going up to him who sent me'. *Exomologeisthe tō theō* 'give thanks to God' (`raphael-self-disclosure-vocabulary-tob-12-12-22`; `thanksgiving-and-almsgiving-vocabulary-tob-12-6-11`; `divine-designations-theos-kyrios-ho-hagios-tobit`). GII (scan OCR) has 'write all these things that have happened to you' (*ta symbanta hymin*), without 'in a book', and adds 'and he went up' (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).\n\n**Wheel of Heaven reading (reception note, not a translation claim).** This is the second half of the quotation at TBWTT-3:264 (see 12:19): « je remonte vers celui qui m'a envoyé, et écrivez dans un livre tout ce qui s'est accompli »; English edition 'I go up to him that sent me; but write all things which are done in a book' (KJV). The French 'tout ce qui s'est accompli' agrees with the line's 'accomplished', which follows the lexicon; 'done' is the KJV's word. The French 'je remonte' ('I go back up') adds a return that *anabainō* 'I go up' does not mark, and the line keeps 'I am going up'. 'In a book' (*eis biblion*) is in the B text the book quotes and absent from GII (`raelian-canon-citation-reception-note-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "raphael-self-disclosure-vocabulary-tob-12-12-22",
+        "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+        "divine-designations-theos-kyrios-ho-hagios-tobit",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit",
+        "raelian-canon-citation-reception-note-convention-tobit"
+      ]
+    },
+    {
+      "n": 21,
+      "refId": "TOB-WOH-12:21",
+      "text": "καὶ ἀνέστησαν, καὶ οὐκ εἶδον αὐτόν.",
+      "translit": "kai anestēsan, kai ouk eidon auton.",
+      "i18n": {
+        "en": "And they rose, and they did not see him."
+      },
+      "notes": {
+        "official": "*Ouk eidon auton* 'they did not see him'; A has *ouketi* 'no longer' (KJV 'saw him no more'), and Swete's apparatus records that *ane-* of *anestēsan* is written over an erasure in B (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    },
+    {
+      "n": 22,
+      "refId": "TOB-WOH-12:22",
+      "text": "καὶ ἐξομολογοῦντο τὰ ἔργα τὰ μεγάλα καὶ θαυμαστὰ αὐτοῦ, ὡς ὤφθη αὐτοῖς ἄγγελος Κυρίου.",
+      "translit": "kai exomologounto ta erga ta megala kai thaumasta autou, hōs ōphthē autois angelos Kyriou.",
+      "i18n": {
+        "en": "And they acknowledged his great and wonderful works, how an angel of the Lord had appeared to them."
+      },
+      "notes": {
+        "official": "*Angelos Kyriou* 'an angel of the Lord' is anarthrous in B (A *ho angelos*, KJV 'the angel'). The phrase is the Septuagint equivalent of Hebrew *malʾak YHWH*, but the Hebrew-text central `malakh-yhwh-messenger` ('messenger of YHWH') is not applied to the Greek, by the same rule as in Matthew: *angelos* is 'angel' and *kyrios* 'the Lord' (`angelos-angel-rendering-tobit`; `divine-designations-theos-kyrios-ho-hagios-tobit`; `greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit`). *Exōmologounto ta erga* with a direct object is 'they acknowledged … works' (draft and KJV 'confessed'), the sense 'acknowledge, declare publicly'; 'confessed' would suggest confession of sin to a current reader (`thanksgiving-and-almsgiving-vocabulary-tob-12-6-11`). Swete's apparatus gives *tou theou kai* for *autou* in A, the KJV's 'the great and wonderful works of God' (`swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit`).",
+        "community": []
+      },
+      "glossaryRefs": [
+        "angelos-angel-rendering-tobit",
+        "divine-designations-theos-kyrios-ho-hagios-tobit",
+        "greek-transliteration-english-names-and-hebrew-scoped-central-entries-convention-tobit",
+        "thanksgiving-and-almsgiving-vocabulary-tob-12-6-11",
+        "swete-vaticanus-gi-base-recension-and-variant-reporting-convention-tobit"
+      ]
+    }
+  ],
+  "editorial_questions": []
+}
