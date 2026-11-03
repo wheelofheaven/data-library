@@ -64,23 +64,33 @@ LANG_NAME = {"he": "Hebrew", "arc": "Aramaic", "grc": "Ancient Greek",
 # bundle as a whole cannot be CC0: the dataset is labelled with the source
 # licence and the card credits the edition. Detected from the source/chapter
 # files' licence strings; the first matching entry wins.
+#
+# `withhold` marks an edition with no open licence at all (ETCSL: (c) Oxford,
+# academic-use terms). Relabelling cannot help, so its text stays out of the
+# bundle: `original` and `transliteration` are blank and the rest stays CC0.
 SOURCE_LICENSES = [
+    {"match": ("ETCSL",), "withhold": True, "spdx": "cc0-1.0", "kaggle": "CC0-1.0",
+     "name": "ETCSL terms", "url": "https://etcsl.orinst.ox.ac.uk/",
+     "credit": "The Electronic Text Corpus of Sumerian Literature (ETCSL), "
+               "© The ETCSL Project, University of Oxford, https://etcsl.orinst.ox.ac.uk/"},
     {"match": ("SBLGNT", "CC BY 4.0"), "spdx": "cc-by-4.0",
      # Kaggle rejects its own documented id "CC-BY-4.0" on metadata update;
      # the display name is what it stores and accepts.
      "kaggle": "Attribution 4.0 International (CC BY 4.0)",
      "name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/",
+     "terms": "this attribution",
      "credit": "SBL Greek New Testament (SBLGNT), ed. Michael W. Holmes. "
                "© 2010 Society of Biblical Literature and Logos Bible Software. "
                "Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). "
                "Source: https://github.com/LogosBible/SBLGNT"},
     {"match": ("CC BY-SA 4.0",), "spdx": "cc-by-sa-4.0", "kaggle": "CC-BY-SA-4.0",
      "name": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "terms": "this attribution, and adaptations of it must be shared under the same licence",
      "credit": None},  # credit taken from the source file's own edition/licence text
 ]
 
 
-def source_text_license(book_dir):
+def source_text_license(book_dir, meta=None):
     """The licence of the source text in the `original` column, or None when it
     is public domain / CC0. Returns a SOURCE_LICENSES entry with `credit` filled."""
     texts = []
@@ -102,7 +112,8 @@ def source_text_license(book_dir):
             if all(m in text for m in lic["match"]):
                 out = dict(lic)
                 if not out["credit"]:
-                    out["credit"] = "; ".join(x for x in (edition, text) if x)
+                    out["credit"] = ((meta or {}).get("sourceCitation")
+                                     or "; ".join(x for x in (edition, text) if x))
                 return out
     return None
 
@@ -182,7 +193,7 @@ def load_reference(book_slug):
     return ref_map, ver, lic, "ok"
 
 
-def rows_for(book_dir, meta, ref=None, orig_lic=""):
+def rows_for(book_dir, meta, ref=None, orig_lic="", withhold=False):
     src = load_source_map(book_dir)
     ref_map, ref_ver, ref_lic = ref or ({}, "", "")
     orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
@@ -205,10 +216,10 @@ def rows_for(book_dir, meta, ref=None, orig_lic=""):
                 "ref": rid,
                 "chapter": cn,
                 "verse": p.get("n"),
-                "original": p.get("text") or "",
+                "original": "" if withhold else (p.get("text") or ""),
                 "original_license": orig_lic,
                 "original_lang": p.get("text_lang") or s.get("source_lang") or orig_lang,
-                "transliteration": p.get("translit") or s.get("transliteration") or "",
+                "transliteration": "" if withhold else (p.get("translit") or s.get("transliteration") or ""),
                 "english": (p.get("i18n") or {}).get("en") or "",
                 "reference_english": ref_text,
                 "reference_version": ref_ver if ref_text else "",
@@ -275,9 +286,10 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
     orig_name = LANG_NAME.get(orig_lang, orig_lang or "the source language")
     desc = clean_desc((meta.get("descriptions") or {}).get("en") or "")
     provenance = meta.get("sourceCitation") or meta.get("versionSource") or ""
-    if src_lic:
+    withheld = bool(src_lic and src_lic.get("withhold"))
+    if src_lic and not withheld:
         provenance = f"{orig_name} text: {src_lic['credit']}"
-    langs = "\n".join(f"- {c}" for c in dict.fromkeys(["en", orig_lang]) if c)
+    langs = "\n".join(f"- {c}" for c in dict.fromkeys(["en", "" if withheld else orig_lang]) if c)
     pretty = f"{en_title} — Wheel of Heaven Translation"
     has_ref = ref_status == "ok" and n_ref
     front = (
@@ -286,9 +298,9 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         f"pretty_name: \"{pretty}\"\n"
         "language:\n" + langs + "\n"
         "task_categories:\n- translation\n"
-        "tags:\n- translation\n- parallel-corpus\n- religious-text\n"
+        "tags:\n- translation\n" + ("" if withheld else "- parallel-corpus\n") + "- religious-text\n"
         f"- {orig_name.lower().replace(' ', '-')}\n- biblical-studies\n- digital-humanities\n"
-        + ("- public-domain\n" if has_ref and not src_lic else "")
+        + ("- public-domain\n" if has_ref and (not src_lic or withheld) else "")
         + "---\n\n"
     )
     if has_ref:
@@ -311,18 +323,26 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
             "The `reference_english` column is present but empty, so the schema is identical across the "
             "whole collection; a public-domain reference may be added in a later revision.\n\n"
         )
-    body = (
-        f"# {pretty}\n\n"
+    intro = (
+        f"The Wheel of Heaven English translation of **{en_title}**, verse by verse, with "
+        f"per-verse translator commentary and a translation glossary. The {orig_name} text is "
+        f"not included; see the licence section below. {desc}\n\n"
+        if withheld else
         f"A verse-aligned parallel corpus of **{en_title}** — the {orig_name} source text "
         f"alongside the Wheel of Heaven English translation, with transliteration, "
         f"manuscript-witness attribution, per-verse translator commentary, an aligned "
         f"public-domain reference translation, and a translation glossary. {desc}\n\n"
+    )
+    body = (
+        f"# {pretty}\n\n"
+        + intro +
         "## Files\n\n"
         f"- **`{slug}.jsonl`** — {n_rows} rows, one per verse.\n"
         f"- **`glossary.json`** — the {n_gloss}-entry translation glossary (the lexical "
         "decisions that make this a *Wheel of Heaven* translation rather than a generic one).\n\n"
         "## Columns\n\n"
-        "`ref`, `chapter`, `verse`, `original` (source script), `original_license` (licence of "
+        + ("`original` and `transliteration` are empty in this dataset. " if withheld else "")
+        + "`ref`, `chapter`, `verse`, `original` (source script), `original_license` (licence of "
         "the source text; empty where it is public domain), `original_lang`, "
         "`transliteration`, `english` (WoH translation), `reference_english` (aligned "
         "public-domain translation; empty where none is available), `reference_version`, "
@@ -334,10 +354,12 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         f"reviewer → human sign-off).\n- **Review status:** {review}.\n\n"
         + (f"**Source:** {provenance}\n\n" if provenance else "")
         + "## License & citation\n\n"
+        + (f"**The {orig_name} text is not included.** It comes from {src_lic['credit']}, which is "
+           "not openly licensed; read it there.\n\n" if withheld else "")
         + (f"**This dataset is licensed {src_lic['name']}** because the `original` column reproduces "
-           f"a {src_lic['name']} edition. Reuse of that column requires this attribution:\n\n"
+           f"a {src_lic['name']} edition. Reuse of that column requires {src_lic['terms']}:\n\n"
            f"> {src_lic['credit']}\n\n"
-           "Everything else is free of conditions. " if src_lic else "")
+           "The other columns carry no such condition. " if src_lic and not withheld else "")
         + "The Wheel of Heaven layer — source pointing, English translation, per-verse commentary, "
         "and glossary — is dedicated to the public domain under **CC0-1.0**. "
         + (f"The bundled `reference_english` column is *{ref_ver}*, itself in the **{ref_lic}** "
@@ -347,7 +369,7 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         "```\n"
         f"Wheel of Heaven Translation Program. {en_title} (Wheel of Heaven Translation). "
         f"Wheel of Heaven, {meta.get('publicationYear', 2026)}. "
-        f"{'CC0-1.0 (translation); source text ' + src_lic['name'] if src_lic else 'CC0-1.0'}. "
+        f"{'CC0-1.0 (translation); source text ' + src_lic['name'] if src_lic and not withheld else 'CC0-1.0'}. "
         f"{WWW}/library/{slug}/\n"
         "```\n"
     )
@@ -387,6 +409,7 @@ def kaggle_subtitle(orig_name):
 def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref,
                 src_lic=None):
     has_ref = ref_status == "ok" and n_ref
+    withheld = bool(src_lic and src_lic.get("withhold"))
     if has_ref:
         cov = "all verses" if n_ref >= n_rows else f"{round(100 * n_ref / n_rows)}% of verses"
         ref_line = (f"An aligned public-domain reference translation (**{ref_ver}**, {ref_lic}) is "
@@ -395,6 +418,15 @@ def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, re
     else:
         ref_line = ("No aligned public-domain English reference is bundled for this text; the "
                     "`reference_english` column is present but empty.")
+    if withheld:
+        return (
+            f"The Wheel of Heaven English translation of **{en_title}**, verse by verse, with per-verse "
+            f"translator commentary and a {n_gloss}-entry translation glossary.\n\n"
+            f"**The {orig_name} text is not included** (`original` and `transliteration` are empty). It "
+            f"comes from {src_lic['credit']}, which is not openly licensed; read it there.\n\n"
+            f"**Rows:** {n_rows} (one per verse).\n\n"
+            f"**License:** CC0-1.0. Reading edition: {WWW}/library/{slug}/\n"
+        )
     return (
         f"A verse-aligned parallel corpus of **{en_title}** — the {orig_name} source text alongside "
         f"the Wheel of Heaven English translation, with transliteration, manuscript-witness "
@@ -404,7 +436,7 @@ def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, re
         f"original_license, original_lang, transliteration, english (WoH), reference_english, reference_version, "
         f"reference_license, commentary, glossary_refs, witness_primary, witness_secondary.\n\n"
         + (f"**License: {src_lic['name']}.** The `original` column reproduces a {src_lic['name']} "
-           f"edition; reuse it with this attribution: {src_lic['credit']}\n\n" if src_lic else "")
+           f"edition; reusing it requires {src_lic['terms']}: {src_lic['credit']}\n\n" if src_lic else "")
         + f"**{'Other columns' if src_lic else 'License'}:** the Wheel of Heaven layer (translation, "
         f"commentary, glossary) is CC0-1.0; any "
         f"bundled reference translation is public domain. Documented reading edition + citation "
@@ -418,6 +450,8 @@ def kaggle_meta(slug, meta, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref
     orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
     orig_name = LANG_NAME.get(orig_lang, orig_lang or "the source language")
     subtitle = kaggle_subtitle(orig_name)
+    if src_lic and src_lic.get("withhold"):
+        subtitle = "Wheel of Heaven English translation, verse by verse, with commentary"
     if not (20 <= len(subtitle) <= 80):
         sys.exit(f"{slug}: kaggle subtitle must be 20–80 chars, got {len(subtitle)}: {subtitle!r}")
     return {
@@ -457,8 +491,10 @@ def build(slug, kaggle_owner=None):
     if meta.get("versionLicense") != "CC0-1.0":
         sys.exit(f"{slug}: versionLicense is {meta.get('versionLicense')!r}, not CC0 — refusing to package.")
     ref_map, ref_ver, ref_lic, ref_status = load_reference(slug)
-    src_lic = source_text_license(bd)
-    rows = rows_for(bd, meta, (ref_map, ref_ver, ref_lic), src_lic["name"] if src_lic else "")
+    src_lic = source_text_license(bd, meta)
+    withhold = bool(src_lic and src_lic.get("withhold"))
+    rows = rows_for(bd, meta, (ref_map, ref_ver, ref_lic),
+                    src_lic["name"] if src_lic and not withhold else "", withhold)
     if not any(r["english"].strip() for r in rows):
         print(f"  · {slug}: SKIPPED — 0 translated verses (stub or source-only)")
         return 0
@@ -486,7 +522,8 @@ def build(slug, kaggle_owner=None):
                 else f", no reference [{ref_status}]")
     dest = "dist-hf + dist-kaggle" if kaggle_owner else "dist-hf"
     if src_lic:
-        ref_note += f", source text {src_lic['name']}"
+        ref_note += (f", source text WITHHELD ({src_lic['name']})" if src_lic.get("withhold")
+                     else f", source text {src_lic['name']}")
     print(f"  ✓ {slug}: {len(rows)} verses ({filled} with English), {n_gloss} glossary entries"
           f"{ref_note} → {dest}/{slug}/")
     return len(rows)
