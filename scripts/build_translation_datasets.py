@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Package the CC0 Wheel of Heaven Translation Program books as HuggingFace datasets.
 
+A book whose source text is openly licensed but not public domain (SBLGNT,
+CC BY 4.0; OGL/Perseus, CC BY-SA 4.0) is labelled with that licence, with the
+edition credited in the card and an `original_license` column.
+
 For each `-woh` book, emits a HuggingFace-ready folder under scripts/dist-hf/<slug>/:
   <slug>.jsonl  — one row per verse: the aligned parallel corpus
   glossary.json — the per-book translation glossary
@@ -53,6 +57,54 @@ def discover_books():
 # ISO-639 code -> human name (for the card).
 LANG_NAME = {"he": "Hebrew", "arc": "Aramaic", "grc": "Ancient Greek",
              "akk": "Akkadian", "sux": "Sumerian", "ar": "Arabic"}
+
+
+# Source editions that are openly licensed but NOT public domain. When a book's
+# source text comes from one, the `original` column carries that licence, so the
+# bundle as a whole cannot be CC0: the dataset is labelled with the source
+# licence and the card credits the edition. Detected from the source/chapter
+# files' licence strings; the first matching entry wins.
+SOURCE_LICENSES = [
+    {"match": ("SBLGNT", "CC BY 4.0"), "spdx": "cc-by-4.0",
+     # Kaggle rejects its own documented id "CC-BY-4.0" on metadata update;
+     # the display name is what it stores and accepts.
+     "kaggle": "Attribution 4.0 International (CC BY 4.0)",
+     "name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/",
+     "credit": "SBL Greek New Testament (SBLGNT), ed. Michael W. Holmes. "
+               "© 2010 Society of Biblical Literature and Logos Bible Software. "
+               "Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). "
+               "Source: https://github.com/LogosBible/SBLGNT"},
+    {"match": ("CC BY-SA 4.0",), "spdx": "cc-by-sa-4.0", "kaggle": "CC-BY-SA-4.0",
+     "name": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+     "credit": None},  # credit taken from the source file's own edition/licence text
+]
+
+
+def source_text_license(book_dir):
+    """The licence of the source text in the `original` column, or None when it
+    is public domain / CC0. Returns a SOURCE_LICENSES entry with `credit` filled."""
+    texts = []
+    for f in glob.glob(str(book_dir / "source-*.json")):
+        try:
+            src = json.load(open(f, encoding="utf-8")).get("source")
+        except Exception:
+            continue
+        if isinstance(src, dict):
+            texts.append((src.get("license") or "", src.get("edition") or ""))
+    for f in glob.glob(str(book_dir / "chapter-*.json")):
+        try:
+            t = json.load(open(f, encoding="utf-8")).get("translation") or {}
+        except Exception:
+            continue
+        texts.append((t.get("sourceLicense") or "", ""))
+    for lic in SOURCE_LICENSES:
+        for text, edition in texts:
+            if all(m in text for m in lic["match"]):
+                out = dict(lic)
+                if not out["credit"]:
+                    out["credit"] = "; ".join(x for x in (edition, text) if x)
+                return out
+    return None
 
 
 def load_source_map(book_dir):
@@ -130,7 +182,7 @@ def load_reference(book_slug):
     return ref_map, ver, lic, "ok"
 
 
-def rows_for(book_dir, meta, ref=None):
+def rows_for(book_dir, meta, ref=None, orig_lic=""):
     src = load_source_map(book_dir)
     ref_map, ref_ver, ref_lic = ref or ({}, "", "")
     orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
@@ -154,6 +206,7 @@ def rows_for(book_dir, meta, ref=None):
                 "chapter": cn,
                 "verse": p.get("n"),
                 "original": p.get("text") or "",
+                "original_license": orig_lic,
                 "original_lang": p.get("text_lang") or s.get("source_lang") or orig_lang,
                 "transliteration": p.get("translit") or s.get("transliteration") or "",
                 "english": (p.get("i18n") or {}).get("en") or "",
@@ -191,6 +244,18 @@ def glossary_terms(gloss):
 
 def review_status(book_dir, meta):
     """An honest one-line review status for the card (never overclaims sign-off)."""
+    # Per-chapter sign-off outranks a book-level status that predates it.
+    chs = []
+    for f in glob.glob(str(book_dir / "chapter-*.json")):
+        try:
+            chs.append(json.load(open(f, encoding="utf-8")).get("translation") or {})
+        except Exception:
+            continue
+    if chs and all(t.get("status") == "stable" and t.get("reviewer") for t in chs):
+        last = max((t.get("reviewedAt") or "")[:10] for t in chs)
+        n = len(chs)
+        return (f"{'all ' + str(n) + ' chapters' if n > 1 else 'the chapter'} approved by editor and "
+                f"reviewer and human-signed-off (latest sign-off {last})")
     vs = meta.get("verificationStatus") or ""
     if vs.startswith("human-signed-off"):
         return f"editor + reviewer approved, human-signed-off ({vs.split('human-signed-off-')[-1]})"
@@ -202,25 +267,28 @@ def review_status(book_dir, meta):
     return "**draft** — machine translation + glossary applied, not yet editor/reviewer signed off"
 
 
-def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status="none", n_ref=0):
+def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status="none", n_ref=0,
+         src_lic=None):
     titles = meta.get("titles") or {}
     en_title = titles.get("en") or slug
     orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
     orig_name = LANG_NAME.get(orig_lang, orig_lang or "the source language")
     desc = clean_desc((meta.get("descriptions") or {}).get("en") or "")
     provenance = meta.get("sourceCitation") or meta.get("versionSource") or ""
+    if src_lic:
+        provenance = f"{orig_name} text: {src_lic['credit']}"
     langs = "\n".join(f"- {c}" for c in dict.fromkeys(["en", orig_lang]) if c)
     pretty = f"{en_title} — Wheel of Heaven Translation"
     has_ref = ref_status == "ok" and n_ref
     front = (
         "---\n"
-        "license: cc0-1.0\n"
+        f"license: {src_lic['spdx'] if src_lic else 'cc0-1.0'}\n"
         f"pretty_name: \"{pretty}\"\n"
         "language:\n" + langs + "\n"
         "task_categories:\n- translation\n"
         "tags:\n- translation\n- parallel-corpus\n- religious-text\n"
         f"- {orig_name.lower().replace(' ', '-')}\n- biblical-studies\n- digital-humanities\n"
-        + ("- public-domain\n" if has_ref else "")
+        + ("- public-domain\n" if has_ref and not src_lic else "")
         + "---\n\n"
     )
     if has_ref:
@@ -254,7 +322,8 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         f"- **`glossary.json`** — the {n_gloss}-entry translation glossary (the lexical "
         "decisions that make this a *Wheel of Heaven* translation rather than a generic one).\n\n"
         "## Columns\n\n"
-        "`ref`, `chapter`, `verse`, `original` (source script), `original_lang`, "
+        "`ref`, `chapter`, `verse`, `original` (source script), `original_license` (licence of "
+        "the source text; empty where it is public domain), `original_lang`, "
         "`transliteration`, `english` (WoH translation), `reference_english` (aligned "
         "public-domain translation; empty where none is available), `reference_version`, "
         "`reference_license`, `commentary` (translator's note; populated only for verses the "
@@ -265,7 +334,11 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         f"reviewer → human sign-off).\n- **Review status:** {review}.\n\n"
         + (f"**Source:** {provenance}\n\n" if provenance else "")
         + "## License & citation\n\n"
-        "The Wheel of Heaven layer — source pointing, English translation, per-verse commentary, "
+        + (f"**This dataset is licensed {src_lic['name']}** because the `original` column reproduces "
+           f"a {src_lic['name']} edition. Reuse of that column requires this attribution:\n\n"
+           f"> {src_lic['credit']}\n\n"
+           "Everything else is free of conditions. " if src_lic else "")
+        + "The Wheel of Heaven layer — source pointing, English translation, per-verse commentary, "
         "and glossary — is dedicated to the public domain under **CC0-1.0**. "
         + (f"The bundled `reference_english` column is *{ref_ver}*, itself in the **{ref_lic}** "
            "and carrying no additional restrictions. " if has_ref else "")
@@ -273,7 +346,9 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         f"[{WWW}/library/{slug}/]({WWW}/library/{slug}/).\n\n"
         "```\n"
         f"Wheel of Heaven Translation Program. {en_title} (Wheel of Heaven Translation). "
-        f"Wheel of Heaven, {meta.get('publicationYear', 2026)}. CC0-1.0. {WWW}/library/{slug}/\n"
+        f"Wheel of Heaven, {meta.get('publicationYear', 2026)}. "
+        f"{'CC0-1.0 (translation); source text ' + src_lic['name'] if src_lic else 'CC0-1.0'}. "
+        f"{WWW}/library/{slug}/\n"
         "```\n"
     )
     return front + body
@@ -309,7 +384,8 @@ def kaggle_subtitle(orig_name):
     return sub if len(sub) >= 20 else (sub + " — Wheel of Heaven")[:80]
 
 
-def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref):
+def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref,
+                src_lic=None):
     has_ref = ref_status == "ok" and n_ref
     if has_ref:
         cov = "all verses" if n_ref >= n_rows else f"{round(100 * n_ref / n_rows)}% of verses"
@@ -325,15 +401,18 @@ def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, re
         f"attribution, per-verse translator commentary, and a {n_gloss}-entry translation glossary.\n\n"
         f"{ref_line}\n\n"
         f"**Rows:** {n_rows} (one per verse). **Columns:** ref, chapter, verse, original, "
-        f"original_lang, transliteration, english (WoH), reference_english, reference_version, "
+        f"original_license, original_lang, transliteration, english (WoH), reference_english, reference_version, "
         f"reference_license, commentary, glossary_refs, witness_primary, witness_secondary.\n\n"
-        f"**License:** the Wheel of Heaven layer (translation, commentary, glossary) is CC0-1.0; any "
+        + (f"**License: {src_lic['name']}.** The `original` column reproduces a {src_lic['name']} "
+           f"edition; reuse it with this attribution: {src_lic['credit']}\n\n" if src_lic else "")
+        + f"**{'Other columns' if src_lic else 'License'}:** the Wheel of Heaven layer (translation, "
+        f"commentary, glossary) is CC0-1.0; any "
         f"bundled reference translation is public domain. Documented reading edition + citation "
         f"widget: {WWW}/library/{slug}/\n"
     )
 
 
-def kaggle_meta(slug, meta, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner):
+def kaggle_meta(slug, meta, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner, src_lic=None):
     titles = meta.get("titles") or {}
     en_title = titles.get("en") or slug
     orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
@@ -346,8 +425,8 @@ def kaggle_meta(slug, meta, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref
         "id": f"{owner}/{slug}",
         "subtitle": subtitle,
         "description": kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss,
-                                   ref_ver, ref_lic, ref_status, n_ref),
-        "licenses": [{"name": "CC0-1.0"}],
+                                   ref_ver, ref_lic, ref_status, n_ref, src_lic),
+        "licenses": [{"name": src_lic["kaggle"] if src_lic else "CC0-1.0"}],
         # Kaggle uses a CONTROLLED tag vocabulary AND caps the number of
         # category-tags per dataset ("exceeded the max category limit" if too
         # many valid ones). These three are confirmed-valid and within the cap.
@@ -359,7 +438,7 @@ def kaggle_meta(slug, meta, n_rows, n_gloss, ref_ver, ref_lic, ref_status, n_ref
     }
 
 
-def emit_kaggle(slug, meta, rows, gloss, n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner):
+def emit_kaggle(slug, meta, rows, gloss, n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner, src_lic=None):
     out = DIST_KG / slug
     out.mkdir(parents=True, exist_ok=True)
     with open(out / f"{slug}.jsonl", "w", encoding="utf-8") as fh:
@@ -368,7 +447,7 @@ def emit_kaggle(slug, meta, rows, gloss, n_gloss, ref_ver, ref_lic, ref_status, 
     with open(out / "glossary.json", "w", encoding="utf-8") as fh:
         json.dump(gloss, fh, ensure_ascii=False, indent=2)
     (out / "dataset-metadata.json").write_text(
-        json.dumps(kaggle_meta(slug, meta, len(rows), n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner),
+        json.dumps(kaggle_meta(slug, meta, len(rows), n_gloss, ref_ver, ref_lic, ref_status, n_ref, owner, src_lic),
                    ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -378,7 +457,8 @@ def build(slug, kaggle_owner=None):
     if meta.get("versionLicense") != "CC0-1.0":
         sys.exit(f"{slug}: versionLicense is {meta.get('versionLicense')!r}, not CC0 — refusing to package.")
     ref_map, ref_ver, ref_lic, ref_status = load_reference(slug)
-    rows = rows_for(bd, meta, (ref_map, ref_ver, ref_lic))
+    src_lic = source_text_license(bd)
+    rows = rows_for(bd, meta, (ref_map, ref_ver, ref_lic), src_lic["name"] if src_lic else "")
     if not any(r["english"].strip() for r in rows):
         print(f"  · {slug}: SKIPPED — 0 translated verses (stub or source-only)")
         return 0
@@ -398,13 +478,15 @@ def build(slug, kaggle_owner=None):
         json.dump(gloss, fh, ensure_ascii=False, indent=2)
     (out / "README.md").write_text(
         card(slug, meta, len(rows), n_gloss, review_status(bd, meta),
-             ref_ver, ref_lic, ref_status, n_ref), encoding="utf-8")
+             ref_ver, ref_lic, ref_status, n_ref, src_lic), encoding="utf-8")
     if kaggle_owner:
-        emit_kaggle(slug, meta, rows, gloss, n_gloss, ref_ver, ref_lic, ref_status, n_ref, kaggle_owner)
+        emit_kaggle(slug, meta, rows, gloss, n_gloss, ref_ver, ref_lic, ref_status, n_ref, kaggle_owner, src_lic)
     filled = sum(1 for r in rows if r["english"].strip())
     ref_note = (f", {n_ref} referenced ({ref_ver})" if n_ref
                 else f", no reference [{ref_status}]")
     dest = "dist-hf + dist-kaggle" if kaggle_owner else "dist-hf"
+    if src_lic:
+        ref_note += f", source text {src_lic['name']}"
     print(f"  ✓ {slug}: {len(rows)} verses ({filled} with English), {n_gloss} glossary entries"
           f"{ref_note} → {dest}/{slug}/")
     return len(rows)
