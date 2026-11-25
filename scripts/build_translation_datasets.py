@@ -39,14 +39,12 @@ WWW = "https://www.wheelofheaven.world"
 # the versionLicense != CC0-1.0 gate.)
 HELD = {"hidden-words-woh", "oomoto-shinyu-woh", "thanh-ngon-hiep-tuyen-woh"}
 
-# CC0 -woh books HELD pending a rights decision on their source layer: the
-# transliteration is a "best-effort reconstruction" resting on in-copyright
-# critical editions (Lambert & Millard / George & Al-Rawi for Atrahasis,
-# Izre'el for Adapa, Smith & Pitard / KTU for the Baal Cycle, George 2003 for
-# Gilgamesh), and Atrahasis is reopened (pending verification). The English
-# layer is ours; whether the transliteration and its back-rendered cuneiform
-# may go out under CC0 is the founder's call. Held since 2026-11-25.
-RIGHTS_REVIEW = {"atrahasis-woh", "adapa-woh", "baal-cycle-woh", "gilgamesh-woh"}
+# Books once held for a rights decision on their reconstructed source layer
+# (Atrahasis, Adapa, Baal Cycle, Gilgamesh). Founder ruling 2026-11-25:
+# publish under CC0 — the transliterations are the project's own
+# best-effort reconstructions, with the critical editions cited as
+# references. Add a slug here to hold a book again.
+RIGHTS_REVIEW = set()
 
 
 def discover_books():
