@@ -206,3 +206,50 @@ def greek(text):
                 s += c
         out.append(s)
     return ' '.join(out)
+
+
+# ---------------------------------------------------------------- Sanskrit
+_DEV_V = {'अ': 'a', 'आ': 'ā', 'इ': 'i', 'ई': 'ī', 'उ': 'u', 'ऊ': 'ū', 'ऋ': 'ṛ', 'ॠ': 'ṝ',
+          'ऌ': 'ḷ', 'ए': 'e', 'ऐ': 'ai', 'ओ': 'o', 'औ': 'au'}
+_DEV_M = {'ा': 'ā', 'ि': 'i', 'ी': 'ī', 'ु': 'u', 'ू': 'ū', 'ृ': 'ṛ', 'ॄ': 'ṝ', 'ॢ': 'ḷ',
+          'े': 'e', 'ै': 'ai', 'ो': 'o', 'ौ': 'au'}
+_DEV_C = {'क': 'k', 'ख': 'kh', 'ग': 'g', 'घ': 'gh', 'ङ': 'ṅ', 'च': 'c', 'छ': 'ch', 'ज': 'j',
+          'झ': 'jh', 'ञ': 'ñ', 'ट': 'ṭ', 'ठ': 'ṭh', 'ड': 'ḍ', 'ढ': 'ḍh', 'ण': 'ṇ', 'त': 't',
+          'थ': 'th', 'द': 'd', 'ध': 'dh', 'न': 'n', 'प': 'p', 'फ': 'ph', 'ब': 'b', 'भ': 'bh',
+          'म': 'm', 'य': 'y', 'र': 'r', 'ल': 'l', 'ळ': 'ḷ', 'व': 'v', 'श': 'ś', 'ष': 'ṣ',
+          'स': 's', 'ह': 'h'}
+_DEV_SIGN = {'ं': 'ṃ', 'ः': 'ḥ', 'ँ': 'm̐', 'ऽ': "'", 'ॐ': 'oṃ'}
+_DEV_DIG = {chr(0x0966 + i): str(i) for i in range(10)}
+_DEV_SKIP = {'॑', '॒', '᳚', '‌', '‍', 'ꣳ'}  # Vedic accents, joiners
+
+
+def sanskrit(text):
+    """Devanagari (incl. Vedic) → IAST; Vedic accent marks are dropped."""
+    out = []
+    for tok in text.split():
+        s = ''
+        chars = [c for c in unicodedata.normalize('NFC', tok) if c not in _DEV_SKIP and not (0x1CD0 <= ord(c) <= 0x1CFF)]
+        for i, c in enumerate(chars):
+            nxt = chars[i + 1] if i + 1 < len(chars) else ''
+            if c in _DEV_C:
+                s += _DEV_C[c]
+                if nxt not in _DEV_M and nxt != '्' and nxt != '़':
+                    s += 'a'
+            elif c in _DEV_M:
+                s += _DEV_M[c]
+            elif c == '्' or c == '़':
+                continue
+            elif c in _DEV_V:
+                s += _DEV_V[c]
+            elif c in _DEV_SIGN:
+                s += _DEV_SIGN[c]
+            elif c in _DEV_DIG:
+                s += _DEV_DIG[c]
+            elif c == '।':
+                s += '|'
+            elif c == '॥':
+                s += '||'
+            else:
+                s += c
+        out.append(s)
+    return ' '.join(out)
