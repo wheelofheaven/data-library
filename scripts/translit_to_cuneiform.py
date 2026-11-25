@@ -393,8 +393,8 @@ def process_chapter(chapter_path: Path, readings, sign_names, dry_run=False,
 
     if "lines" in data:
         process_lines(data["lines"])
-    elif "segments" in data:
-        for seg in data["segments"]:
+    elif "segments" in data or "tablets" in data:
+        for seg in data.get("segments") or data.get("tablets"):
             if "lines" in seg:
                 process_lines(seg["lines"])
     elif "paragraphs" in data:
@@ -434,7 +434,7 @@ def main():
             meta = d / "_meta.json"
             if not meta.exists():
                 continue
-            for ch in sorted(d.glob("chapter-*.json")):
+            for ch in sorted(list(d.glob("chapter-*.json")) + list(d.glob("tablet-*.json"))):
                 if "editor-report" in ch.name or "signoff" in ch.name:
                     continue
                 slugs.append((d.name, ch))
@@ -445,7 +445,7 @@ def main():
             if not book_dir.exists():
                 print(f"  WARN: {s} not found", file=sys.stderr)
                 continue
-            for ch in sorted(book_dir.glob("chapter-*.json")):
+            for ch in sorted(list(book_dir.glob("chapter-*.json")) + list(book_dir.glob("tablet-*.json"))):
                 if "editor-report" in ch.name or "signoff" in ch.name:
                     continue
                 slugs.append((s, ch))
