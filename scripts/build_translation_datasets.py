@@ -39,12 +39,21 @@ WWW = "https://www.wheelofheaven.world"
 # the versionLicense != CC0-1.0 gate.)
 HELD = {"hidden-words-woh", "oomoto-shinyu-woh", "thanh-ngon-hiep-tuyen-woh"}
 
+# CC0 -woh books HELD pending a rights decision on their source layer: the
+# transliteration is a "best-effort reconstruction" resting on in-copyright
+# critical editions (Lambert & Millard / George & Al-Rawi for Atrahasis,
+# Izre'el for Adapa, Smith & Pitard / KTU for the Baal Cycle, George 2003 for
+# Gilgamesh), and Atrahasis is reopened (pending verification). The English
+# layer is ours; whether the transliteration and its back-rendered cuneiform
+# may go out under CC0 is the founder's call. Held since 2026-11-25.
+RIGHTS_REVIEW = {"atrahasis-woh", "adapa-woh", "baal-cycle-woh", "gilgamesh-woh"}
+
 
 def discover_books():
     """Every *-woh book with versionLicense == CC0-1.0, minus HELD, sorted."""
     out = []
     for d in sorted(ROOT.glob("*-woh")):
-        if not d.is_dir() or d.name in HELD:
+        if not d.is_dir() or d.name in HELD or d.name in RIGHTS_REVIEW:
             continue
         m = d / "_meta.json"
         try:
@@ -83,6 +92,13 @@ SOURCE_LICENSES = [
                "© 2010 Society of Biblical Literature and Logos Bible Software. "
                "Licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). "
                "Source: https://github.com/LogosBible/SBLGNT"},
+    {"match": ("Coptic Scriptorium", "CC BY 4.0"), "spdx": "cc-by-4.0",
+     "kaggle": "Attribution 4.0 International (CC BY 4.0)",
+     "name": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/",
+     "terms": "this attribution",
+     "credit": "Gospel of Thomas, Sahidic Coptic text of Nag Hammadi Codex II,2, ed. Paul C. Dilley, "
+               "in the Coptic Scriptorium corpus (thomas-gospel). Licensed under CC BY 4.0 "
+               "(https://creativecommons.org/licenses/by/4.0/). Source: https://copticscriptorium.org/"},
     {"match": ("CC BY-SA 4.0",), "spdx": "cc-by-sa-4.0", "kaggle": "CC-BY-SA-4.0",
      "name": "CC BY-SA 4.0", "url": "https://creativecommons.org/licenses/by-sa/4.0/",
      "terms": "this attribution, and adaptations of it must be shared under the same licence",
@@ -205,8 +221,12 @@ def rows_for(book_dir, meta, ref=None, orig_lic="", withhold=False):
         ch = json.load(open(cf, encoding="utf-8"))
         cn = ch.get("n")
         # verse books use `paragraphs`; line-based poems (e.g. theogony-woh)
-        # use `lines` — same per-segment fields (n, refId, text, i18n, ...).
-        for p in ch.get("paragraphs") or ch.get("lines") or []:
+        # use `lines`; fragmentary tablets nest their lines under `segments`
+        # (Atrahasis, Baal Cycle, Adapa, Flood Story) or `tablets` (Gilgamesh).
+        units = list(ch.get("paragraphs") or ch.get("lines") or [])
+        for grp in (ch.get("segments") or []) + (ch.get("tablets") or []):
+            units.extend(grp.get("lines") or [])
+        for p in units:
             rid = p.get("refId")
             s = src.get(rid, {})
             notes = p.get("notes") or {}
@@ -216,10 +236,14 @@ def rows_for(book_dir, meta, ref=None, orig_lic="", withhold=False):
                 "ref": rid,
                 "chapter": cn,
                 "verse": p.get("n"),
-                "original": "" if withhold else (p.get("text") or ""),
+                "original": "" if withhold else (p.get("text") or p.get("he") or ""),
                 "original_license": orig_lic,
                 "original_lang": p.get("text_lang") or s.get("source_lang") or orig_lang,
                 "transliteration": "" if withhold else (p.get("translit") or s.get("transliteration") or ""),
+                # Unicode cuneiform back-rendered from the transliteration
+                # (OGSL sign list), not an attested tablet reading.
+                "cuneiform": "" if withhold else (p.get("cuneiform") or ""),
+                "cuneiform_confidence": "" if withhold else (p.get("cuneiform_confidence") or ""),
                 "english": (p.get("i18n") or {}).get("en") or "",
                 "reference_english": ref_text,
                 "reference_version": ref_ver if ref_text else "",
@@ -341,10 +365,13 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         f"- **`glossary.json`** — the {n_gloss}-entry translation glossary (the lexical "
         "decisions that make this a *Wheel of Heaven* translation rather than a generic one).\n\n"
         "## Columns\n\n"
-        + ("`original` and `transliteration` are empty in this dataset. " if withheld else "")
+        + ("`original`, `transliteration` and `cuneiform` are empty in this dataset. " if withheld else "")
         + "`ref`, `chapter`, `verse`, `original` (source script), `original_license` (licence of "
         "the source text; empty where it is public domain), `original_lang`, "
-        "`transliteration`, `english` (WoH translation), `reference_english` (aligned "
+        "`transliteration`, `cuneiform` (Unicode cuneiform back-rendered from the transliteration "
+        "with the OGSL sign list — a reading aid, not an attested tablet; cuneiform books only), "
+        "`cuneiform_confidence` (`full` / `partial` / `low`), "
+        "`english` (WoH translation), `reference_english` (aligned "
         "public-domain translation; empty where none is available), `reference_version`, "
         "`reference_license`, `commentary` (translator's note; populated only for verses the "
         "editor annotated), `glossary_refs`, `witness_primary`, `witness_secondary`.\n\n"
@@ -353,6 +380,7 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         f"Produced under the Wheel of Heaven Translation Program (translator → editor → "
         f"reviewer → human sign-off).\n- **Review status:** {review}.\n\n"
         + (f"**Source:** {provenance}\n\n" if provenance else "")
+        + (f"**Script and transliteration:** {meta['interlinearNote']}\n\n" if meta.get("interlinearNote") else "")
         + "## License & citation\n\n"
         + (f"**The {orig_name} text is not included.** It comes from {src_lic['credit']}, which is "
            "not openly licensed; read it there.\n\n" if withheld else "")
@@ -433,7 +461,7 @@ def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, re
         f"attribution, per-verse translator commentary, and a {n_gloss}-entry translation glossary.\n\n"
         f"{ref_line}\n\n"
         f"**Rows:** {n_rows} (one per verse). **Columns:** ref, chapter, verse, original, "
-        f"original_license, original_lang, transliteration, english (WoH), reference_english, reference_version, "
+        f"original_license, original_lang, transliteration, cuneiform, cuneiform_confidence, english (WoH), reference_english, reference_version, "
         f"reference_license, commentary, glossary_refs, witness_primary, witness_secondary.\n\n"
         + (f"**License: {src_lic['name']}.** The `original` column reproduces a {src_lic['name']} "
            f"edition; reusing it requires {src_lic['terms']}: {src_lic['credit']}\n\n" if src_lic else "")
