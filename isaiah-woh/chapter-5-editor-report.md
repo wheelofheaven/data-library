@@ -117,3 +117,11 @@ These are non-decision corrections only.
    - The `eretz-cosmic-scope-isaiah-24` modify op now also rewords `wohChoice`. It no longer says "throughout chapter 24"; it names ch. 24, 13:9–13, chs. 40–65 and the "end(s) of the earth" idiom (5:26; 40:28). The rendering and the existing sites are unchanged.
    - Version note: this strictly modifies a field of an existing entry. The Editor recommends a minor bump because no rendering changes; the orchestrator decides.
 
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder accepted every recommended default in `wave-i1-signoff-package.md` ("Sign-off ok", 2026-11-26). `translation.status` and the `reviewerReport` block are untouched; the orchestrator promotes the chapter.
+
+1. **Decision 2, ʾāḏām/ʾîš, option C1.** ISA-5:15 now reads "And humankind is bowed down, and everyone is brought low, and the eyes of the lofty are brought low."; commentary rewritten (no "under review"); glossaryRefs now `adam-humankind-ish-man-isaiah`. The central diff's non-extension note for `adam-adamah` now points at that overlay entry.

@@ -6,20 +6,20 @@
   "title": "Isaiah 10 — Woe to the makers of unjust decrees, Assyria the rod of anger, the returning remnant, and the march on Jerusalem",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.10",
-    "glossaryVersion": "2.93.0",
-    "overlayGlossaryVersion": "1.6.1",
+    "glossaryVersion": "3.0.0",
+    "overlayGlossaryVersion": "2.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T13:57:00Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T15:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T13:57:00Z",
@@ -531,7 +531,8 @@
       "lens-leakage-flags": [],
       "postEscalationAdjustments": "Verdicts were formed from the chapter, source, diffs and rulings before the editor report was opened. The report added no information that changed any verdict. It confirmed the Reviewer's checks at 10:18 (nss: confirmed by JPS 1917 and NJPS), 10:12, 10:23 and 10:16/33. Its decision 28 repeats the accent argument that is marked revise here.",
       "verificationNotes": "NJPS = 'Tanakh: The Holy Scriptures, published by JPS' (1985), not the Gender-Sensitive Edition. NJPS and JPS 1917 were fetched from Sefaria /api/v3/texts/Isaiah.10?version=english|all on 2026-11-26. ASV was checked against the corpus baseline data-library/isaiah. BDB/HALOT references and NRSV wordings are from memory and marked so. Source text in chapter-10.json is identical to source-he-10.json for all 34 verses."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -550,7 +551,8 @@
       "notes": {
         "official": "*hôy* opens a woe-oracle (10:1–4) against those who write unjust law; it is rendered \"Woe\" under the wave ruling (`hoy-woe-isaiah`), as in the woe-series of 5:8–22, and many commentators take 10:1–4 as the lost seventh woe of that series (Wildberger, *Isaiah 1–12*; Blenkinsopp, *Isaiah 1–39*, AB 19).\n\n*ḥiqqᵉqê-ʾāwen* \"decrees of iniquity\" is rendered adjectivally, \"iniquitous decrees\" (ASV \"unrighteous decrees\"); *ʾāwen* is \"iniquity\" at its other Isaiah sites. *ʿāmāl* is \"trouble, mischief\" (BDB), and the line gives \"mischief\" in place of ASV \"perverseness\", which is not a sense of the noun; NRSV paraphrases \"oppressive statutes\". The Piel participle *mᵉḵattᵉḇîm* with the Piel perfect *kittēḇû* describes scribes who keep producing such texts: the oracle is aimed at written law.",
         "community": []
-      }
+      },
+      "translit": "hōy haḥōqəqīm ḥiqqē-ʾāwen ūməkattəbīm ʿāmāl kittēbū"
     },
     {
       "n": 2,
@@ -566,7 +568,8 @@
       "notes": {
         "official": "*šᵉlālām* \"their spoil\" and *yāḇōzzû* \"they plunder\" are the two roots of the name Maher-shalal-hash-baz (8:1, 3), and they recur together at 10:6 (\"to take spoil and to seize plunder\"). The chapter keeps one English pair for them, \"spoil\" for *šālāl* and \"plunder\" for *bzz/baz*, so the echo of the sign-name stays visible.",
         "community": []
-      }
+      },
+      "translit": "ləhaṭṭōt middīn dallīm wəligzōl mišpaṭ ʿăniyyē ʿammī lihyōt ʾalmānōt šəlālām wəʾet-yətōmīm yābōzzū"
     },
     {
       "n": 3,
@@ -582,7 +585,8 @@
       "notes": {
         "official": "*yôm pᵉquddāh* is rendered \"the day of visitation\" (ASV). The root *pqd* means attention paid to someone for good or ill, and here the context makes it a day of reckoning (NRSV \"the day of punishment\"). At 10:12 the finite verb *ʾep̄qōḏ ʿal* takes its ordinary prepositional sense, \"I will punish\". *šôʾāh* is \"desolation\" (ASV); NRSV has \"calamity\".\n\n*kᵉḇôḏᵉḵem* \"your glory\" follows the wave's strict rule that *kāḇôḏ* is always \"glory\" (also 10:16, 18). Here the word means the weight of wealth and standing the oppressors have amassed, and NRSV renders it \"wealth\".",
         "community": []
-      }
+      },
+      "translit": "ūmah-taʿăśū ləyōm pəquddāh ūləšōʾāh mimmerḥāq tābōʾ ʿal-mī tānūsū ləʿezrāh wəʾānāh taʿazbū kəbōdəkem"
     },
     {
       "n": 4,
@@ -600,7 +604,8 @@
       "notes": {
         "official": "*biltî kāraʿ taḥaṯ ʾassîr wᵉṯaḥaṯ hărûḡîm yippōlû* is a crux. *biltî* is \"except, nothing but\" (BDB), so the first clause is \"nothing (remains) but …\". The verb *kāraʿ* \"crouch, bow down\" is singular and *yippōlû* \"they fall\" is plural, The line renders the first verb as an infinitive (\"Nothing remains but to crouch … and they shall fall\"), as JPS 1917 does (\"They can do nought except crouch\"). This smooths over the singular of *kāraʿ*, so the number shift is visible only in the Hebrew. NJPS instead continues the question of 10:3 into 10:4a (\"From collapsing under [fellow] prisoners\"). ASV has \"They shall only bow down …\". *taḥaṯ* is rendered \"under\", its basic sense, picturing bodies beneath the captives and the slain; \"among\" (NRSV) is the common alternative.\n\nA nineteenth-century conjecture associated with P. de Lagarde redivides the consonants as the divine names Beltis and Osiris (\"Beltis crouches, Osiris is shattered\"). It is reported in the critical commentaries but not verified here against Lagarde's text. It is not the Masoretic Text and is not adopted (`mt-qere-textual-policy-isaiah`).\n\nThe refrain that closes the verse is the fixed wording of `bekhol-zot-lo-shav-appo-refrain-isaiah` (5:25; Heb. 9:11, 16, 20). Its fourth occurrence here ties the woe-oracle to the poem of 9:7–20.",
         "community": []
-      }
+      },
+      "translit": "biltī kāraʿ taḥat ʾassīr wətaḥat hărūgīm yippōlū bəkol-zōʾt lōʾ-šāb ʾappō wəʿōd yādō nəṭūyāh (s)"
     },
     {
       "n": 5,
@@ -618,7 +623,8 @@
       "notes": {
         "official": "*hôy ʾaššûr* is a vocative, \"Woe, Assyria\" (`hoy-woe-isaiah`; compare \"Woe, Ariel\", 29:1). ASV has \"Ho Assyrian\". The line keeps the country name, as at 14:25. The masculine pronouns that follow refer to Assyria personified as its king.\n\n*šēḇeṭ* is rendered \"rod\" and *maṭṭeh* \"staff\" throughout the chapter (10:5, 15, 24, 26), as at 9:3. The second half, literally \"and a staff it (is) in their hand, my indignation\", is construed with ASV, \"the staff in whose hand is my indignation\". NRSV has \"the club in their hands is my fury\", and many commentators delete *hûʾ bᵉyāḏām* as a gloss. The line translates the Masoretic Text. The image is plain: Assyria is the instrument of YHWH's anger.",
         "community": []
-      }
+      },
+      "translit": "hōy ʾaššūr šēbeṭ ʾappī ūmaṭṭeh-hūʾ bəyādām zaʿmī"
     },
     {
       "n": 6,
@@ -635,7 +641,8 @@
       "notes": {
         "official": "*gôy ḥānēp̄* is \"a godless nation\" (NRSV) under the wave ruling for *ḥānēp̄* (9:16; 10:6), matching the stable 32:6 \"godlessness\". ASV has \"a profane nation\". The overlay entry `chanef-broken-everlasting-covenant-isaiah-24` governs the verb at 24:5 and is not extended here.\n\nThe ketiv reads ולשימו and the qere וּלְשׂוּמוֹ *ûlᵉśûmô* \"and to make him/it\". The qere is translated, and the difference does not change the sense. Literally the phrase is \"to make it a trampling (*mirmās*) like the mire of the streets\"; ASV's \"to tread them down\" is kept, with the people of the previous clause as the referent.",
         "community": []
-      }
+      },
+      "translit": "bəgōy ḥānēp ʾăšalləḥennū wəʿal-ʿam ʿebrātī ʾăṣawwennū lišlōl šālāl wəlābōz baz wlšymw [ūləśūmō] mirmās kəḥōmer ḥūṣōt"
     },
     {
       "n": 7,
@@ -649,7 +656,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "wəhūʾ lōʾ-kēn yədammeh ūləbābō lōʾ-kēn yaḥšōb kī ləhašmīd bilbābō ūləhakrīt gōyim lōʾ məʿāṭ"
     },
     {
       "n": 8,
@@ -663,7 +671,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "kī yōʾmar hălōʾ śāray yaḥdāw məlākīm"
     },
     {
       "n": 9,
@@ -679,7 +688,8 @@
       "notes": {
         "official": "The king's boast lists Syrian and Israelite cities taken by Assyria in the later eighth century BCE (Arpad about 740, Damascus 732, Samaria 722/720, Carchemish 717). The three pairs move south toward Judah: Calno and Carchemish, Hamath and Arpad, Samaria and Damascus. The names take their ASV spellings under `march-itinerary-toponyms-isaiah-10`. The verse identifies no site beyond the Hebrew names.",
         "community": []
-      }
+      },
+      "translit": "hălōʾ kəkarkəmīš kalnō ʾim-lōʾ kəʾarpad ḥămāt ʾim-lōʾ kədammeśeq šōmərōn"
     },
     {
       "n": 10,
@@ -696,7 +706,8 @@
       "notes": {
         "official": "*hāʾĕlîl* is singular with the article, a collective \"the idols\" (ASV, JPS 1917; central `elilim-idols-cross-corpus`, which fixes \"idols\" for *ʾĕlîlîm*). NJPS reads *ʾĕlîl* in its sense \"worthless\" and renders \"the insignificant kingdoms\". *pᵉsîlêhem* \"their carved images\" follows central `pesel-utemunah-…`. The comparative *mi-* (\"more than Jerusalem and Samaria\") is rendered \"exceeded those of\" with ASV.",
         "community": []
-      }
+      },
+      "translit": "kaʾăšer māṣəʾāh yādī ləmamləkōt hāʾĕlīl ūpəsīlēhem mīrūšālim ūmiššōmərōn"
     },
     {
       "n": 11,
@@ -713,7 +724,8 @@
       "notes": {
         "official": "Two different nouns stand in parallel: *ʾĕlîlêhā* \"her idols\" (`elilim-idols-cross-corpus`) and *ʿăṣabbêhā*, from *ʿāṣāḇ* \"idol, image\" (BDB). The draft and ASV render both \"idols\". The line now gives *ʿăṣabbîm* \"images\" (with NRSV), so that the two Hebrew words stay distinct in English. The noun *ʿōṣeḇ* of 48:5 (\"my idol\") is a separate form, and its rendering is unaffected.",
         "community": []
-      }
+      },
+      "translit": "hălōʾ kaʾăšer ʿāśītī ləšōmərōn wəleʾĕlīlēhā kēn ʾeʿĕśeh līrūšālim wəlaʿăṣabbēhā (s)"
     },
     {
       "n": 12,
@@ -731,7 +743,8 @@
       "notes": {
         "official": "*tip̄ʾereṯ rûm ʿênāyw* is rendered \"the boasting of his haughty looks\". This departs from the wave default \"honor\" for *tip̄ʾereṯ* (4:2), and the departure is recorded in `lexical-cruxes-isaiah-10` and the wave-i3-ch10 overlay diff. Here the noun is pejorative, \"vaunting, pomp\", the arrogance on display in the king's eyes. The Hithpael of the same root follows at 10:15, *hă-yiṯpāʾēr* \"shall the axe boast itself\", and \"boasting\" keeps the two words visibly related. ASV has \"the glory of his high looks\", NRSV \"his haughty pride\".\n\n*ʾep̄qōḏ* \"I will punish\" is first person in the Masoretic Text, although the clause's subject is \"the Lord\" (*ʾăḏōnāy*, `adonai-standalone-title-isaiah`). NRSV reads the third person, \"he will punish\", with the LXX and Syriac (versional evidence not verified here). The line translates MT, and the shift into divine speech is left as it stands (`mt-qere-textual-policy-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh kī-yəbaṣṣaʿ ʾădōnāy ʾet-kol-maʿăśēhū bəhar ṣiyyōn ūbīrūšālim ʾepqōd ʿal-pərī-gōdel ləbab melek-ʾaššūr wəʿal-tipʾeret rūm ʿēnāyw"
     },
     {
       "n": 13,
@@ -748,7 +761,8 @@
       "notes": {
         "official": "The ketiv reads ועתידתיהם (*ʿăṯîḏôṯêhem* \"their things to come\") and the qere וַעֲתוּדוֹתֵיהֶם (*waʿăṯûḏôṯêhem* \"their stores, treasures\"). The qere is translated.\n\n*kᵉʾabbîr* is rendered \"like a valiant man\" (ASV). *ʾabbîr* is \"mighty, valiant\" and is also used of bulls (Ps 22:13; 50:13), which gives NRSV's \"like a bull\". *yôšᵉḇîm* is the ordinary \"inhabitants\" or \"those who sit\". With ASV and NRSV, the line supplies \"on thrones\", reading *yšb* in its royal sense (\"to sit enthroned\"); \"I have brought down the inhabitants\" is the alternative.",
         "community": []
-      }
+      },
+      "translit": "kī ʾāmar bəkōaḥ yādī ʿāśītī ūbəḥokmātī kī nəbunōtī wəʾāsīr | gəbūlōt ʿammīm wʿtydtyhm [waʿătūdōtēhem] šōśētī wəʾōrīd kaʾbbīr yōšəbīm"
     },
     {
       "n": 14,
@@ -764,7 +778,8 @@
       "notes": {
         "official": "The king's boast uses a bird-nest image: his hand finds the wealth of the peoples as one finds a nest and gathers abandoned eggs, and no bird flaps a wing or chirps. *kol-hāʾāreṣ* \"all the earth\" is rendered in its universal scope under `eretz-cosmic-scope-isaiah-24` (as extended in wave I-1 to Isaiah's whole-world idiom). Here the scope is the king's own claim to world dominion, not territorial *ʾereṣ* \"land\".",
         "community": []
-      }
+      },
+      "translit": "wattimṣāʾ kaqqēn | yādī ləḥēl hāʿammīm wəkeʾĕsōp bēṣīm ʿăzubōt kol-hāʾāreṣ ʾănī ʾāsāpəttī wəlōʾ hāyāh nōdēd kānāp ūpōṣeh peh ūməṣapṣēp"
     },
     {
       "n": 15,
@@ -780,7 +795,8 @@
       "notes": {
         "official": "The axe-and-saw argument turns 10:5 against itself. The instrument cannot boast against the one who wields it (*yiṯpāʾēr*, Hithpael of *pʾr*, the root of 10:12 \"boasting\"). *šēḇeṭ* \"rod\" and *maṭṭeh* \"staff\" carry the chapter's fixed pair. *lōʾ-ʿēṣ* \"not wood\" is the one who wields the staff, a person, not timber. ASV has \"as if a staff should lift up him that is not wood\".",
         "community": []
-      }
+      },
+      "translit": "hăyitpāʾēr haggarzen ʿal haḥōṣēb bō ʾim-yitgaddēl hammaśśōr ʿal-mənīpō kəhānīp šēbeṭ wəʾet-mərīmāyw kəhārīm maṭṭeh lōʾ-ʿēṣ"
     },
     {
       "n": 16,
@@ -796,9 +812,10 @@
         "lexical-cruxes-isaiah-10"
       ],
       "notes": {
-        "official": "*hā-ʾāḏôn* with the article, before *YHWH ṣᵉḇāʾôṯ*, is rendered provisionally \"the Sovereign\", under `ha-adon-articular-title-isaiah` (wave I-1 decision 1, option B, pending founder ruling). The articular title is distinct from the bare *ʾăḏōnāy* \"the Lord\" of 10:12. If the founder rules option A, the line reverts to \"the Lord, YHWH of hosts\" (ASV).\n\n*bᵉmišmannāyw rāzôn* is \"leanness among his fat ones\" (ASV, literal). NRSV reads *mišmannîm* as \"stout warriors\" and *rāzôn* as \"wasting sickness\". *kᵉḇōḏô* \"his glory\" (the Assyrian king's) follows the strict \"glory\" rule. The image then shifts from wasting to fire: *yēqaḏ yᵉqōḏ kîqôḏ ʾēš*, \"a burning shall be kindled, like the burning of fire\".",
+        "official": "*hā-ʾāḏôn* with the article, before *YHWH ṣᵉḇāʾôṯ*, is rendered \"the Sovereign\", under `ha-adon-articular-title-isaiah`, as in NJPS (\"The Sovereign LORD of Hosts\"); ASV has \"the Lord\". The articular title is distinct from the bare *ʾăḏōnāy* \"the Lord\" of 10:12.\n\n*bᵉmišmannāyw rāzôn* is \"leanness among his fat ones\" (ASV, literal). NRSV reads *mišmannîm* as \"stout warriors\" and *rāzôn* as \"wasting sickness\". *kᵉḇōḏô* \"his glory\" (the Assyrian king's) follows the strict \"glory\" rule. The image then shifts from wasting to fire: *yēqaḏ yᵉqōḏ kîqôḏ ʾēš*, \"a burning shall be kindled, like the burning of fire\".",
         "community": []
-      }
+      },
+      "translit": "lākēn yəšallaḥ hāʾādōn YHWH ṣəbāʾōt bəmišmannāyw rāzōn wətaḥat kəbōdō yēqad yəqōd kīqōd ʾēš"
     },
     {
       "n": 17,
@@ -812,7 +829,8 @@
       "notes": {
         "official": "*ʾôr-yiśrāʾēl* \"the light of Israel\" stands in parallel with *qᵉḏôšô* \"his Holy One\". The line keeps ASV and NRSV typography: \"light\" lower case, and \"Holy One\" capitalised as the established epithet (as in \"the Holy One of Israel\", 10:20). Capitalising \"Light\" would turn the phrase into a title in English, which the Hebrew does not mark.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh ʾōr-yiśrāʾēl ləʾēš ūqədōšō ləlehābāh ūbāʿărāh wəʾākəlāh šītō ūšəmīrō bəyōm ʾeḥād"
     },
     {
       "n": 18,
@@ -828,7 +846,8 @@
       "notes": {
         "official": "*kimsōs nōsēs* is a hapax pair, and the line follows the modern lexical analysis: \"as when a sick man wastes away\". *mᵉsōs* is from *māsas* \"melt, dissolve\", and *nōsēs* is assigned by the lexicons to a root *nss* \"be sick, waste away\" (BDB; page not verified). NRSV has \"as when an invalid wastes away\". ASV \"as when a standard-bearer fainteth\" derives *nōsēs* from *nēs* \"banner\". That etymology is now rarely followed, and the line no longer uses it.\n\n*minnep̄eš wᵉʿaḏ-bāśār*, literally \"from life to flesh\", is a merism for the whole, rendered \"both soul and body\" with ASV and NRSV. The overlay `nefesh-throat-sheol-isaiah-5` (the physical \"throat\" of 5:14) does not govern this site.",
         "community": []
-      }
+      },
+      "translit": "ūkəbōd yaʿrō wəkarmillō minnepeš wəʿad-bāśār yəkalleh wəhāyāh kimsōs nōsēs"
     },
     {
       "n": 19,
@@ -842,7 +861,8 @@
       "notes": {
         "official": "*yiḵtᵉḇēm* \"may write them down\" uses the verb *kāṯaḇ* of 10:1. The scribes of the woe-oracle write unjust decrees, and here a child could write down the trees that remain. *šᵉʾār* \"remnant\" begins the chapter's remnant series (10:19–22).",
         "community": []
-      }
+      },
+      "translit": "ūšəʾār ʿēṣ yaʿrō mispār yihyū wənaʿar yiktəbēm (p)"
     },
     {
       "n": 20,
@@ -858,7 +878,8 @@
       "notes": {
         "official": "*pᵉlêṭaṯ bêṯ-yaʿăqōḇ* is rendered \"the survivors of the house of Jacob\", matching *pᵉlêṭaṯ yiśrāʾēl* \"the survivors of Israel\" at 4:2. ASV has \"they that are escaped\". Central `pleitah-deliverance-escape-remnant-tradition-cross-corpus` discusses this verse, but its wohChoice is the event sense \"a great deliverance\" (Gen 45:7), so it is cited and not extended. *mak-kēhû* \"the one who struck them\" is Assyria, the rod of 10:5. *bᵉʾĕmeṯ* is \"in truth\", leaning in faithfulness.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh | bayyōm hahūʾ lōʾ-yōsīp ʿōd šəʾār yiśrāʾēl ūpəlēṭat bēt-yaʿăqōb ləhiššāʿēn ʿal-makkēhū wənišʿan ʿal-YHWH qədōš yiśrāʾēl beʾĕmet"
     },
     {
       "n": 21,
@@ -876,7 +897,8 @@
       "notes": {
         "official": "*šᵉʾār yāšûḇ* is the name of Isaiah's son Shear-jashub (7:3). Here it is a clause, \"A remnant will return\", under `sign-names-isaiah-7-8`. The verse thus spells out the meaning of the name. *yāšûḇ* (Qal imperfect of *šûḇ*) means both \"return\" and \"turn back, repent\", and the following *ʾel-ʾēl gibbôr* \"to the Mighty God\" gives the direction of the turning.\n\n*ʾēl gibbôr* repeats the throne name of 9:5 (Eng. 9:6), and it is rendered \"Mighty God\" as there (`el-gibbor-mighty-god-isaiah`). Here the phrase plainly designates YHWH, as in *hāʾēl haggāḏōl haggibbōr* \"the great, the mighty God\" (Deut 10:17; Jer 32:18). The analyses \"God is a warrior\" and \"mighty hero\", which bear on the reading of 9:5, are recorded in that entry.",
         "community": []
-      }
+      },
+      "translit": "šəʾār yāšūb šəʾār yaʿăqōb ʾel-ʾēl gibbōr"
     },
     {
       "n": 22,
@@ -894,7 +916,8 @@
       "notes": {
         "official": "*šᵉʾār yāšûḇ bô* \"a remnant of them will return\" uses the sign-name again (`sign-names-isaiah-7-8`), now restrictively: Israel may be as numerous as \"the sand of the sea\", but only a remnant will return. The comparison is the patriarchal promise-image (Gen 22:17; 32:13), and *kᵉḥôl hayyām* lacks the \"seashore\" of the central triad entry, which is cited and not extended. Rom 9:27–28 quotes 10:22–23 from the LXX.\n\n*kiḷḷāyôn ḥārûṣ* is \"a destruction is determined\" (ASV), and *ḥārûṣ* belongs to the same root as *neḥĕrāṣāh* in 10:23 (central `kalah-venecheratzah-decreed-full-end-cross-corpus`). *šôṭēp̄ ṣᵉḏāqāh* \"overflowing with righteousness\" keeps *ṣᵉḏāqāh* \"righteousness\" (ASV, NRSV). Here the term names the just verdict that floods over the land. Some modern versions render it \"retribution\" or \"vindication\".",
         "community": []
-      }
+      },
+      "translit": "kī ʾim-yihyeh ʿamməkā yiśrāʾēl kəḥōl hayyām šəʾār yāšūb bō killāyōn ḥārūṣ šōṭēp ṣədāqāh"
     },
     {
       "n": 23,
@@ -913,7 +936,8 @@
       "notes": {
         "official": "*kālāh wᵉneḥĕrāṣāh* \"a full end, and that determined\" is a fixed pair, recurring at 28:22 and Dan 9:27 (compare 11:36). The line keeps ASV's wording, which the corpus Daniel already uses at 9:27, and central `kalah-venecheratzah-decreed-full-end-cross-corpus` fixes it across books. *ʾăḏōnāy YHWH ṣᵉḇāʾôṯ* is \"the Lord YHWH of hosts\" (`adonai-yhwh-compound-isaiah-25`).\n\n*bᵉqereḇ kol-hāʾāreṣ* is rendered \"in the midst of all the earth\" (ASV, NRSV) under `eretz-cosmic-scope-isaiah-24`. A territorial reading, \"in the midst of the whole land\", is also current, since the decree falls on Israel (10:22). The same phrase follows the same pair at 28:22, which is not yet drafted.",
         "community": []
-      }
+      },
+      "translit": "kī kālāh wəneḥĕrāṣāh ʾădōnāy YHWH ṣəbāʾōt ʿōśeh bəqereb kol-hāʾāreṣ (s)"
     },
     {
       "n": 24,
@@ -931,7 +955,8 @@
       "notes": {
         "official": "*ʾal-tîrāʾ* \"do not be afraid\" opens a salvation oracle to \"my people who dwell in Zion\". Central `al-tira-fear-not-divine-encouragement-formula` lists this verse, but it governs the fuller formula \"do not fear, for I am with you\", so it is cited and not extended.\n\n*bᵉḏereḵ miṣrāyim*, here and at 10:26, is rendered \"after the manner of Egypt\" (ASV; NRSV \"as the Egyptians did\"). The literal \"on the way of Egypt\" is possible, and at 10:26 it suggests the route of the Exodus. \"Egypt\" is printed in English form, as in the signed-off Isaiah chapters.",
         "community": []
-      }
+      },
+      "translit": "lākēn kōh-ʾāmar ʾădōnāy YHWH ṣəbāʾōt ʾal-tīrāʾ ʿammī yōšēb ṣiyyōn mēʾaššūr baššēbeṭ yakkekkāh ūmaṭṭēhū yiśśāʾ-ʿālēkā bəderek miṣrāyim"
     },
     {
       "n": 25,
@@ -948,7 +973,8 @@
       "notes": {
         "official": "*taḇlîṯām* is a hapax, \"their wearing out, destruction\". The line supplies \"directed\" with ASV and keeps the Masoretic plural \"their\", where ASV has \"his\". An emendation, *ʿal-tēḇēl yittōm* (\"my anger against the world will come to an end\"), is reported in the commentaries. It is not MT and is not adopted (`mt-qere-textual-policy-isaiah`). *zaʿam* \"indignation\" is the word of 10:5.",
         "community": []
-      }
+      },
+      "translit": "kī-ʿōd məʿaṭ mizʿār wəkālāh zaʿam wəʾappī ʿal-tablītām"
     },
     {
       "n": 26,
@@ -965,7 +991,8 @@
       "notes": {
         "official": "Two precedents are recalled. *makkaṯ midyān bᵉṣûr ʿôrēḇ* is the defeat of Midian at the rock of Oreb (Judg 7:25; compare 9:3 \"as on the day of Midian\"). *maṭṭēhû ʿal-hayyām* \"his staff over the sea\" is the staff stretched over the sea at the Exodus (Exod 14:16). *šôṭ* is \"a scourge\", and the staff is YHWH's own, answering Assyria's staff of 10:24.",
         "community": []
-      }
+      },
+      "translit": "wəʿōrēr ʿālāyw YHWH ṣəbāʾōt šōṭ kəmakkat midyān bəṣūr ʿōrēb ūmaṭṭēhū ʿal-hayyām ūnəśāʾō bəderek miṣrāyim"
     },
     {
       "n": 27,
@@ -982,7 +1009,8 @@
       "notes": {
         "official": "*wᵉḥubbal ʿōl mippᵉnê-šāmen* is the chapter's best-known crux. The Masoretic Text reads \"and the yoke shall be destroyed by reason of fatness\" (ASV), usually explained as the yoke bursting because the ox's neck has grown fat. KJV renders *šemen* as \"the anointing\", and a messianic reading of the phrase is attested in the Targum (reported in the commentaries; not verified here). NRSV follows an emendation that joins the last words to 10:28 and reads a place name, \"He has gone up from Rimmon\"; others conjecture \"from Samaria\" or \"from Jeshimon\".\n\nThe line translates MT and keeps the MT verse division (`mt-qere-textual-policy-isaiah`). *šemen* is \"fatness\", its sense in the vegetable and animal imagery of the context. \"Anointing\" would put a cultic reading into the English that the noun here does not require.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh | bayyōm hahūʾ yāsūr subbŏlō mēʿal šikmekā wəʿullō mēʿal ṣawwāʾrekā wəḥubbal ʿōl mippənē-šāmen"
     },
     {
       "n": 28,
@@ -998,7 +1026,8 @@
       "notes": {
         "official": "10:28–32 is an itinerary of an army advancing on Jerusalem from the north. Perfects mark the stages already passed, and imperfects the halts (10:28b, 32). Its historical occasion is debated: an Assyrian advance (often tied to 701 BCE), the Syro-Ephraimite march of about 734 BCE, or a literary itinerary. The line identifies no army beyond the \"he\" of the Hebrew.\n\n*ʿayyaṯ* \"Aiath\" is generally identified with Ai (Josh 7–8; compare *ʿayyāʾ*, Neh 11:31). A Migron is named near Gibeah at 1 Sam 14:2; whether it is the same site is uncertain. At Michmash the army leaves its baggage (*yap̄qîḏ kēlāyw* \"he deposits his equipment\") before the steep crossing. Names take their ASV spellings under `march-itinerary-toponyms-isaiah-10`.",
         "community": []
-      }
+      },
+      "translit": "bāʾ ʿal-ʿayyat ʿābar bəmigrōn ləmikmāś yapqīd kēlāyw"
     },
     {
       "n": 29,
@@ -1015,7 +1044,8 @@
       "notes": {
         "official": "*ʿāḇᵉrû maʿbārāh* \"they have gone over the pass\" refers to the defile of Michmash (*maʿăḇar mikmāś*, 1 Sam 13:23; 14:4). *geḇaʿ mālôn lānû* can be read two ways. As quoted speech, *lānû* means \"for us\": NJPS \"Geba is to be our night quarters!\". As narrative, it is the verb *lānû* \"they lodged\" (from *lyn/lûn*). The accentuation does not decide between them, since the suffixed preposition is also stressed on the first syllable (compare 9:5; 1:9). The line keeps the narrative reading of ASV and JPS 1917, \"they have taken up their lodging at Geba\"; NRSV reads the same way (\"at Geba they lodge for the night\", from memory, not verified).\n\nRamah trembles and \"Gibeah of Saul\" (Saul's town, 1 Sam 10:26; 11:4) has fled: the verbs register the panic of each town as the army passes.",
         "community": []
-      }
+      },
+      "translit": "ʿābərū maʿbārāh gebaʿ mālōn lānū ḥārədāh hārāmāh gibʿat šāʾūl nāsāh"
     },
     {
       "n": 30,
@@ -1032,7 +1062,8 @@
       "notes": {
         "official": "Three towns are addressed. *baṯ-gallîm* \"O daughter of Gallim\" personifies the town, as \"the daughter of Zion\" (1:8). Gallim is the home of Palti (1 Sam 25:44). *layᵉšāh* \"Laishah\" may be a town of that name, or Laish with directional *-āh*. The name is kept as written.\n\n*ʿăniyyāh ʿănāṯôṯ* is \"O poor Anathoth!\" in the Masoretic Text (ASV), with a sound-play on the name. Anathoth is the priestly town of Jer 1:1. A repointing *ʿănîhā* \"answer her, O Anathoth!\" (NRSV) keeps the run of imperatives and is favoured by many commentators. The line translates MT (`mt-qere-textual-policy-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "ṣahălī qōlēk bat-gallīm haqšībī layšāh ʿăniyyāh ʿănātōt"
     },
     {
       "n": 31,
@@ -1048,7 +1079,8 @@
       "notes": {
         "official": "Madmenah is a town on the northern approach. It is unrelated to the *madmēnāh* \"dung-pit\" of 25:10, whose ketiv/qere entry is not applied here. Gebim is otherwise unknown. *hēʿîzû* \"flee for safety\" is the Hiphil of *ʿwz* \"take refuge, bring to safety\" (ASV \"flee to save themselves\").",
         "community": []
-      }
+      },
+      "translit": "nādədāh madmēnāh yōšəbē haggēbīm hēʿīzū"
     },
     {
       "n": 32,
@@ -1065,7 +1097,8 @@
       "notes": {
         "official": "*ʿôḏ hayyôm bᵉnōḇ laʿămōḏ* is literally \"yet today at Nob to stand\", and ASV's \"This very day he shall halt at Nob\" is kept. Nob is the priestly town of 1 Sam 21–22, within sight of Jerusalem. The gesture *yᵉnōp̄ēp̄ yāḏô* \"he shakes his hand\" ends the march at the city's edge.\n\nThe ketiv reads בית *bêṯ* (\"the mountain of the house of Zion\") and the qere בַּת *baṯ* (\"the mount of the daughter of Zion\"). The qere is translated (`mt-qere-textual-policy-isaiah`), matching \"the daughter of Zion\" at 1:8.",
         "community": []
-      }
+      },
+      "translit": "ʿōd hayyōm bənōb laʿămōd yənōpēp yādō har byt-bat] ṣiyyōn gibʿat yərūšālim (s)"
     },
     {
       "n": 33,
@@ -1080,9 +1113,10 @@
         "yhwh-tzevaot-hosts-isaiah"
       ],
       "notes": {
-        "official": "*hā-ʾāḏôn YHWH ṣᵉḇāʾôṯ* is rendered \"the Sovereign, YHWH of hosts\" as at 10:16 (provisional; `ha-adon-articular-title-isaiah`, founder ruling pending). After the march of 10:28–32 the image turns to a forester felling trees. *mᵉsāʿēp̄ puʾrāh* is \"will lop the boughs\", and *bᵉmaʿărāṣāh* \"with terror\" (ASV) is from the root *ʿrṣ* \"terrify\". NRSV has \"with terrifying power\", and an \"axe\" sense has been proposed from context. The tall trees stand for the proud, as in 2:12–17.",
+        "official": "*hā-ʾāḏôn YHWH ṣᵉḇāʾôṯ* is rendered \"the Sovereign, YHWH of hosts\" as at 10:16 (`ha-adon-articular-title-isaiah`). After the march of 10:28–32 the image turns to a forester felling trees. *mᵉsāʿēp̄ puʾrāh* is \"will lop the boughs\", and *bᵉmaʿărāṣāh* \"with terror\" (ASV) is from the root *ʿrṣ* \"terrify\". NRSV has \"with terrifying power\", and an \"axe\" sense has been proposed from context. The tall trees stand for the proud, as in 2:12–17.",
         "community": []
-      }
+      },
+      "translit": "hinnēh hāʾādōn YHWH ṣəbāʾōt məsāʿēp puʾrāh bəmaʿărāṣāh wərāmē haqqōmāh gədūʿīm wəhaggəbōhīm yišpālū"
     },
     {
       "n": 34,
@@ -1099,7 +1133,8 @@
       "notes": {
         "official": "*wᵉhallᵉḇānôn bᵉʾaddîr yippôl* is rendered \"and Lebanon shall fall by a mighty one\" (ASV), with *ʾaddîr* as agent. The agent is left unspecified, as in the Hebrew; commentators refer it to YHWH or to Assyria's destroyer. NRSV reads *ʾaddîr* of the trees themselves, \"Lebanon with its majestic trees will fall\". The forest image of 10:33–34 leads directly into the shoot from the stump of Jesse at 11:1.",
         "community": []
-      }
+      },
+      "translit": "wəniqqap sibkē hayyaʿar babbarzel wəhalləbānōn bəʾaddīr yippōl (s)"
     }
   ],
   "editorial_questions": []

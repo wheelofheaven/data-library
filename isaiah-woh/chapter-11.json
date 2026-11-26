@@ -6,20 +6,20 @@
   "title": "Isaiah 11 — The shoot from the stock of Jesse, the peaceable creatures, and the second gathering of the remnant",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.11",
-    "glossaryVersion": "2.93.0",
-    "overlayGlossaryVersion": "1.6.1",
+    "glossaryVersion": "3.0.0",
+    "overlayGlossaryVersion": "2.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T13:46:39+00:00",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T15:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T13:46:39+00:00",
@@ -321,7 +321,8 @@
       "lensLeakageCheck": "Performed verse by verse on paragraphs[].i18n.en for ISA-11:1-16. No flags: no English line carries a project reading, the lower case is kept for 'a shoot', 'a twig' and 'the root of Jesse', vv 6-9 are rendered plainly, and the only speculative material (11:12 reception note) is in commentary and labelled. 11:15 'devote to destruction' is MT-literal, not interpretive, and is flagged on scope grounds, not as leakage.",
       "citationVerification": "JPS 1917 and NJPS (with footnotes) for all 16 verses and Targum Jonathan 11:1, 11:15 were fetched from the Sefaria API v3 on 2026-11-26 and compared with every claim in the notes and diffs; all JPS 1917 and NJPS claims are accurate. TBWTT 5:25 was read in data-library. LXX, Vulgate and NRSV readings cited by the Reviewer are from memory and marked so. BDB entries are cited from memory for standard glosses only.",
       "escalationReportAdjustments": "Escalation report read after all verdicts were formed. No verdict changed. The report confirms the Editor's own doubt about the 11:15 ḥērem extension (matching the Reviewer's flag) and recommends option B for nēṣer (the Reviewer concurs). On the report's point about 11:15 'men' (supplied, italic in ASV): the wave I-1 C1 recommendation concerns ʾāḏām/ʾîš pairs and does not directly govern a supplied word, so the Reviewer leaves it as an optional wording point for the human ('cause people to march over dryshod') rather than a revise."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -338,9 +339,10 @@
         "mt-qere-textual-policy-isaiah"
       ],
       "notes": {
-        "official": "*ḥōṭer … nēṣer* “a shoot … a twig”: two different words from the word *ṣemaḥ* of 4:2 (“the branch of YHWH”). *ḥōṭer* occurs elsewhere only at Prov 14:3, where it is a rod or switch; *nēṣer* is a sprout or offshoot (BDB; HALOT; Isa 14:19; 60:21; Dan 11:7). ASV has “a shoot … and a branch”; JPS 1917 and NJPS have “a twig.” The line keeps “twig” so that “branch” stays with *ṣemaḥ* in this book (overlay `choter-netser-geza-shoot-twig-stock-isaiah-11`). The stable 14:19 renders *nēṣer* “a loathed branch,” so the book does not yet give the word one English rendering; that question is escalated in the editor report. Lower case is kept: the Hebrew does not mark a title, and the royal reading is a matter for commentary.\n\n*gezaʿ* “stock” (ASV; JPS 1917) is the stem or stump left in the ground (Job 14:8; Isa 40:24, where the book already has “their stock”). NJPS has “stump.” The line keeps “stock,” which also keeps it apart from *maṣṣeḇeṯ* “stump” at 6:13 (overlay `levaer-massevet-stump-isaiah`). The image picks up the felled forest of 10:33–34: the Davidic house, named by its ancestor Jesse rather than by David, is cut down to the stock, and growth comes from the roots.\n\n*yip̄reh* “shall bear fruit” is the Masoretic reading (from *prh*), kept in the line with ASV (overlay `mt-qere-textual-policy-isaiah`). The LXX (*kai anthos ek tēs rhizēs anabēsetai*, “and a flower shall come up from the root”) and the Vulgate (*flos de radice eius ascendet*) read the verb as “come up / sprout,” as if from *prḥ*; NJPS “shall sprout” and NRSV “shall grow out” (not verified here) follow that sense.\n\nThe Targum reads the verse of the Messiah, and later Christian reception connected *nēṣer* with “Nazarene” (Matt 2:23). Neither reading is in the Hebrew line; both are part of the verse’s history.",
+        "official": "*ḥōṭer … nēṣer* “a shoot … a twig”: two different words from the word *ṣemaḥ* of 4:2 (“the branch of YHWH”). *ḥōṭer* occurs elsewhere only at Prov 14:3, where it is a rod or switch; *nēṣer* is a sprout or offshoot (BDB; HALOT; Isa 14:19; 60:21; Dan 11:7). ASV has “a shoot … and a branch”; JPS 1917 and NJPS have “a twig.” The line keeps “twig” so that “branch” stays with *ṣemaḥ* in this book (overlay `choter-netser-geza-shoot-twig-stock-isaiah-11`). The stable 14:19 still renders *nēṣer* “a loathed branch”; it is to read “a loathed shoot” at its next revision, and 60:21 follows the same rule, so that “branch” is not used for *nēṣer* in the book. Lower case is kept: the Hebrew does not mark a title, and the royal reading is a matter for commentary.\n\n*gezaʿ* “stock” (ASV; JPS 1917) is the stem or stump left in the ground (Job 14:8; Isa 40:24, where the book already has “their stock”). NJPS has “stump.” The line keeps “stock,” which also keeps it apart from *maṣṣeḇeṯ* “stump” at 6:13 (overlay `levaer-massevet-stump-isaiah`). The image picks up the felled forest of 10:33–34: the Davidic house, named by its ancestor Jesse rather than by David, is cut down to the stock, and growth comes from the roots.\n\n*yip̄reh* “shall bear fruit” is the Masoretic reading (from *prh*), kept in the line with ASV (overlay `mt-qere-textual-policy-isaiah`). The LXX (*kai anthos ek tēs rhizēs anabēsetai*, “and a flower shall come up from the root”) and the Vulgate (*flos de radice eius ascendet*) read the verb as “come up / sprout,” as if from *prḥ*; NJPS “shall sprout” and NRSV “shall grow out” (not verified here) follow that sense.\n\nThe Targum reads the verse of the Messiah, and later Christian reception connected *nēṣer* with “Nazarene” (Matt 2:23). Neither reading is in the Hebrew line; both are part of the verse’s history.",
         "community": []
-      }
+      },
+      "translit": "wəyāṣāʾ ḥōṭer miggēzaʿ yišāy wənēṣer miššārāšāyw yipreh"
     },
     {
       "n": 2,
@@ -357,7 +359,8 @@
       "notes": {
         "official": "*wᵉnāḥāh ʿālāyw rûaḥ YHWH* “and the spirit of YHWH shall rest upon him”: the verb *nwḥ* “rest, settle” is used of the spirit given to the elders (Num 11:25–26) and to Elisha (2 Kgs 2:15). Lower-case “spirit” follows NRSV and NJPS against ASV “the Spirit of Jehovah” (overlay `ruach-divine-spirit-lower-case-isaiah`, extended here). ASV capitalises only the first *rûaḥ* of the verse; the four occurrences are the same Hebrew word, and the line treats them alike.\n\nThe Masoretic list is six qualities in three pairs: wisdom and understanding, counsel and might, knowledge and the fear of YHWH. The LXX renders the last pair *gnōseōs kai eusebeias* “knowledge and piety” and then gives *pneuma phobou theou* “a spirit of the fear of God” for the opening words of v 3; the Vulgate follows (*scientiae et pietatis … timoris Domini*). This is the source of the later tradition of seven gifts of the spirit. The line translates the Hebrew. *ʿēṣāh* is “counsel” here, the king’s capacity to plan and advise (the same root as *yôʿēṣ* in the throne-name of 9:5); the plural *ʿēṣôṯ* at 25:1 is rendered “plans.” NJPS renders *gᵉḇûrāh* “valor” and *daʿaṯ wᵉyirʾaṯ YHWH* “devotion and reverence for the LORD”; the line keeps ASV “might” and “knowledge and … the fear of YHWH.” ",
         "community": []
-      }
+      },
+      "translit": "wənāḥāh ʿālāyw rūaḥ YHWH rūaḥ ḥokmāh ūbīnāh rūaḥ ʿēṣāh ūgəbūrāh rūaḥ daʿat wəyirʾat YHWH"
     },
     {
       "n": 3,
@@ -373,7 +376,8 @@
       "notes": {
         "official": "*wahăriḥô bᵉyirʾaṯ YHWH* is literally “and his smelling (shall be) in the fear of YHWH”: the Hiphil of *rwḥ* is “to smell, take in the scent,” used of God accepting or refusing the odour of offerings (Lev 26:31; Amos 5:21). ASV, JPS 1917 and the line take the idiom as “his delight shall be in the fear of YHWH.” NJPS gives “He shall sense the truth by his reverence for the LORD,” with the note “Lit. ‘His sensing [shall be]’; meaning of Heb. uncertain”; on that view the king “scents out” the truth of a case, which fits the next clauses. Some commentators delete the clause as a repetition of the last words of v 2; the line keeps it (overlay `lexical-cruxes-isaiah-11`).\n\nThe rest of the verse sets the king’s judgment against appearances: not by “the sight of his eyes” nor “the hearing of his ears.” *yôḵîaḥ* “decide” (ASV) is the legal sense of *ykḥ* “set right, arbitrate,” as at 2:4 and in v 4.",
         "community": []
-      }
+      },
+      "translit": "wahărīḥō bəyirʾat YHWH wəlōʾ-ləmarʾēh ʿēnāyw yišpōṭ wəlōʾ-ləmišmaʿ ʾoznāyw yōkīaḥ"
     },
     {
       "n": 4,
@@ -390,7 +394,8 @@
       "notes": {
         "official": "*ʿanwê-ʾāreṣ … wᵉhikkāh-ʾereṣ*: the line has “the meek of the earth … he shall strike the earth” with ASV. JPS 1917 has “the meek of the land … smite the land,” and NJPS “the lowly of the land … strike down a land.” Both readings are possible. The line follows ASV because the oracle widens in vv 9–10 to the whole earth and the nations (overlay `eretz-cosmic-scope-isaiah-24`, extended here, with the alternative recorded).\n\nThe second *ʾereṣ* stands in parallel with *rāšāʿ* “the wicked,” and many commentators emend it to *ʿārîṣ* “the ruthless”; NJPS notes “Emendation yields ‘the ruthless.’” The line keeps the Masoretic consonants (overlay `mt-qere-textual-policy-isaiah`).\n\n*šēḇeṭ pîw* “the rod of his mouth” and *rûaḥ śᵉp̄āṯāyw* “the breath of his lips” make the king’s word the instrument of judgment. This *rûaḥ* is the king’s own breath, not the endowing spirit of v 2, and it is rendered “breath” with ASV, JPS 1917 and NJPS; the lower-case spirit entry does not govern it. The phrase is taken up in 2 Thess 2:8.",
         "community": []
-      }
+      },
+      "translit": "wəšāpaṭ bəṣedeq dallīm wəhōkīaḥ bəmīšōr ləʿanwē-ʾāreṣ wəhikkāh-ʾereṣ bəšēbeṭ pīw ūbərūaḥ śəpātāyw yāmīt rāšāʿ"
     },
     {
       "n": 5,
@@ -404,7 +409,8 @@
       "notes": {
         "official": "*ʾēzôr* is the waist-cloth or belt bound on the hips (Jer 13:1–11). ASV puts “waist” for *moṯnāyw* and “loins” for *ḥălāṣāyw*; JPS 1917 has “loins … reins.” The line follows ASV; the two words are synonyms.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh ṣedeq ʾēzōr mātənāyw wəhāʾĕmūnāh ʾēzōr ḥălāṣāyw"
     },
     {
       "n": 6,
@@ -421,7 +427,8 @@
       "notes": {
         "official": "*ûmᵉrîʾ yaḥdāw* “and the fatling together” has no verb in the Masoretic Text. NJPS notes that 1QIsaᵃ reads “The calf and the beast of prey shall feed,” and that the Septuagint agrees; the verb is commonly reconstructed as *yimrᵉʾû*. The line keeps the Masoretic verbless clause with ASV and JPS 1917 (overlay `mt-qere-textual-policy-isaiah`). *gār* is from *gwr* “to dwell as a guest or sojourner”; “dwell” is ASV, and the “guest” sense is noted here.\n\nVerses 6–8 set five pairs of predator and prey side by side, ending with a child who leads them. The figure returns in shortened form at 65:25. Its interpretation (a restored paradise, the peace of the king’s reign, or a figure of political peace among nations) belongs to the commentary tradition and is not imposed on the line (overlay `lexical-cruxes-isaiah-11`).",
         "community": []
-      }
+      },
+      "translit": "wəgār zəʾēb ʿim-kebeś wənāmēr ʿim-gədī yirbāṣ wəʿēgel ūkəpīr ūmərīʾ yaḥdāw wənaʿar qāṭōn nōhēg bām"
     },
     {
       "n": 7,
@@ -435,7 +442,8 @@
       "notes": {
         "official": "*tirʿênāh* “shall graze” is the plain sense of *rʿh* (ASV “feed”). “The lion shall eat straw like the ox” is repeated verbatim at 65:25.",
         "community": []
-      }
+      },
+      "translit": "ūpārāh wādōb tirʿēnāh yaḥdāw yirbəṣū yaldēhen wəʾaryēh kabbāqār yōʾkal-teben"
     },
     {
       "n": 8,
@@ -451,7 +459,8 @@
       "notes": {
         "official": "*mᵉʾûraṯ* occurs only here. ASV and NJPS give “den”; some derive it from *ʾôr* “light,” the opening of a burrow, and others read “eye” (of the snake). *hāḏāh* “put / stretch out (the hand)” is also unique; NJPS notes “Meaning of Heb. uncertain.” *peṯen* and *ṣip̄ʿônî* are two kinds of venomous snake; the species cannot be fixed. The line keeps ASV “asp” and “adder” (NJPS “viper” and “adder”), and “nursing child” and “weaned child” for *yônēq* and *gāmûl* (overlay `lexical-cruxes-isaiah-11`).",
         "community": []
-      }
+      },
+      "translit": "wəšiʿăšaʿ yōnēq ʿal-ḥur pāten wəʿal məʾūrat ṣipʿōnī gāmūl yādō hādāh"
     },
     {
       "n": 9,
@@ -468,7 +477,8 @@
       "notes": {
         "official": "*lōʾ-yārēʿû wᵉlōʾ-yašḥîtû bᵉḵol-har qoḏšî* “They shall not hurt nor destroy in all my holy mountain” is rendered as at 65:25, where the same clause recurs. The negations are given literally (central `paradise-by-negation-no-predation-no-illness-no-aging-cross-corpus`, extended to this verse). That entry documents the figure of a peaceable world described by what it lacks, from the Sumerian *Enki and Ninhursag* to Rev 21:4. Only this verse carries the negations, so the entry is attached here and not to vv 6–8.\n\n*kî-mālʾāh hāʾāreṣ dēʿāh ʾeṯ-YHWH* “for the earth shall be full of the knowledge of YHWH”: ASV and JPS 1917 have “earth,” and the line follows them (overlay `eretz-cosmic-scope-isaiah-24`). NJPS reads “land,” with a note that the holy mountain is the Holy Land (Exod 15:17; Ps 78:54). Hab 2:14 repeats the simile with “the knowledge of the glory of YHWH.” ",
         "community": []
-      }
+      },
+      "translit": "lōʾ-yārēʿū wəlōʾ-yašḥītū bəkol-har qodšī kī-māləʾāh hāʾāreṣ dēʿāh ʾet-YHWH kammayim layyām məkassīm (p)"
     },
     {
       "n": 10,
@@ -485,7 +495,8 @@
       "notes": {
         "official": "*mᵉnuḥāṯô kāḇôḏ* is a verbless predicate, literally “his resting place (shall be) glory.” ASV and JPS 1917 have “glorious,” and NJPS “his abode shall be honored.” The line keeps the noun, “shall be glory,” so that *kāḇôḏ* is “glory” here as in the book’s other nominal clauses (6:3; 24:23). *mᵉnûḥāh* is a place of rest; in Ps 132:8, 14 it is YHWH’s resting place in Zion. Here the suffix refers to the root of Jesse, and the clause may mean his dwelling or the rest he brings (overlay `lexical-cruxes-isaiah-11`).\n\n*šōreš yišay* “the root of Jesse”: in v 1 the shoot grows from the roots; here the descendant himself is called “the root,” that is, the growth from it. *ʿōmēḏ lᵉnēs ʿammîm* “who stands as a signal for the peoples”: *nēs* is a pole or banner raised on a height to rally people, rendered “signal” wherever it is a raised pole or banner (5:26; 11:12; 13:2; overlay `nes-signal-isaiah`; at 33:23 it is a ship’s sail); ASV and JPS 1917 have “ensign,” NJPS “standard.” In 5:26 the signal calls a foreign army against Israel; here and in v 12 it gathers the nations and the dispersed.\n\n*ʾēlāyw gôyim yiḏrōšû* “him shall the nations seek”: *drš ʾel* is to resort to or consult (NJPS “Nations shall seek his counsel”). The line keeps ASV “seek” rather than the oracle-consultation formula of central `darash-yhwh-seeking-oracle`, which is not applied. Rom 15:12 quotes this verse in its LXX form (“the root of Jesse … in him shall the nations hope”).",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh bayyōm hahūʾ šōreš yišay ʾăšer ʿōmēd lənēs ʿammīm ʾēlāyw gōyim yidrōšū wəhāyətāh mənuḥātō kābōd (p)"
     },
     {
       "n": 11,
@@ -504,7 +515,8 @@
       "notes": {
         "official": "*yôsîp̄ ʾăḏōnāy šēnîṯ yāḏô liqnôṯ*: the Hebrew has no verb for *yāḏô* “his hand.” ASV supplies “set,” and the line keeps it; NJPS has “apply His hand.” An emendation to *lišʾēṯ* “to lift” has been proposed (not verified here); the line keeps the Masoretic Text (overlay `mt-qere-textual-policy-isaiah`). “A second time” assumes a first, the deliverance from Egypt, which v 16 names. *liqnôṯ* “to recover” (ASV) is from *qnh* “acquire, buy back,” used of the people YHWH “purchased” at the sea (Exod 15:16); NJPS has “redeeming.” *ʾăḏōnāy* stands alone and is “the Lord” (overlay `adonai-standalone-title-isaiah`).\n\nThe list covers the known world from the Judean point of view: Assyria; Egypt with *Paṯrôs*, Upper Egypt (Jer 44:1, 15); *Kûš* “Cush,” the Nile lands south of Egypt (NJPS “Nubia”; the book’s form at 43:3); Elam; *Šinʿār* “Shinar,” southern Mesopotamia (central `eretz-shinar`; here the bare name, without *ʾereṣ*); Hamath on the Orontes; and *ʾiyyê hayyām* “the coastlands of the sea,” the book’s rendering at 24:15 (ASV and JPS 1917 “the islands of the sea”). The names keep the ASV forms.\n\n*šᵉʾār ʿammô* “the remnant of his people” (also v 16) uses *šᵉʾār*, the word of the name Shear-jashub (7:3) and of 10:20–22. The central `she-erit-remnant-cross-corpus-theological-keyword` governs the related noun *šᵉʾērîṯ* and is not applied here.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh | bayyōm hahūʾ yōsīp ʾădōnāy | šēnīt yādō liqnōt ʾet-šəʾār ʿammō ʾăšer yiššāʾēr mēʾaššūr ūmimmiṣrayim ūmippatrōs ūmikkūš ūmēʿēlām ūmiššinʿār ūmēḥămāt ūmēʾiyyē hayyām"
     },
     {
       "n": 12,
@@ -521,7 +533,8 @@
       "notes": {
         "official": "*wᵉnāśāʾ nēs laggôyim* “and he will raise a signal for the nations” uses the same words as 5:26 and is rendered the same way (overlay `nes-signal-isaiah`). *niḏḥê yiśrāʾēl* “the outcasts of Israel” are those driven away (*ndḥ*); *nᵉp̄ûṣôṯ yᵉhûḏāh* “the dispersed of Judah” is a feminine plural participle, probably collective. *mēʾarbaʿ kanp̄ôṯ hāʾāreṣ* is literally “from the four wings / edges of the earth” (cf. Ezek 7:2; Job 37:3). The line keeps ASV “the four corners of the earth” (overlay `eretz-cosmic-scope-isaiah-24`). The central 1 Enoch four-corners entry is a cosmography of a different text and is not applied.\n\n**Wheel of Heaven reading (reception note, not a translation claim; claim type: speculative).** The canon does not cite Isa 11. *The Book Which Tells the Truth* (TBWTT 5:25) quotes the ingathering oracle of Isa 43:5–7 (“bring my sons from afar and my daughters from the end of the earth”) and reads it as the creation of the State of Israel. Reading the second gathering of Isa 11:11–12 the same way is a project extension of that reading, so it is labelled speculative. The line and the glossary carry only the Hebrew wording.",
         "community": []
-      }
+      },
+      "translit": "wənāśāʾ nēs laggōyim wəʾāsap nidḥē yiśrāʾēl ūnəpuṣōt yəhūdāh yəqabbēṣ mēʾarbaʿ kanpōt hāʾāreṣ"
     },
     {
       "n": 13,
@@ -537,7 +550,8 @@
       "notes": {
         "official": "*wᵉṣōrᵉrê yᵉhûḏāh yikkārēṯû* can be read two ways. Read objectively, it is “those who harass Judah shall be cut off” (ASV; JPS 1917), Judah’s enemies. Read subjectively, it is the hostile ones within Judah, which fits the second half of the verse, where Judah stops harassing Ephraim (NJPS “And Judah’s harassment shall end”). The line keeps the ASV construal and uses “harass” for both forms of *ṣrr* so that the repetition is visible (overlay `lexical-cruxes-isaiah-11`). *qinʾāh* is “envy” (ASV). The verse reverses the rivalry between the northern and southern kingdoms that underlies chs. 7–9.",
         "community": []
-      }
+      },
+      "translit": "wəsārāh qinʾat ʾeprayim wəṣōrərē yəhūdāh yikkārētū ʾeprayim lōʾ-yəqannēʾ ʾet-yəhūdāh wīhūdāh lōʾ-yāṣōr ʾet-ʾeprāyim"
     },
     {
       "n": 14,
@@ -553,7 +567,8 @@
       "notes": {
         "official": "*wᵉʿāp̄û bᵉḵāṯēp̄ pᵉlištîm yāmmāh*: *ʿwp* is “to fly,” used here of a bird of prey; the line has “swoop down” for ASV “fly down.” *kāṯēp̄* “shoulder” is also a term for a slope or flank of land (Josh 15:8, 10, 11), so the phrase may name the Philistine foothills toward the sea; NJPS has “the back of Philistia.” The line keeps “shoulder.” The last two clauses are nominal in Hebrew, literally “Edom and Moab, the stretching-out of their hand; and the children of Ammon, their obedience.” The line keeps ASV’s verbal rendering; NJPS has “Edom and Moab shall be subject to them” (overlay `lexical-cruxes-isaiah-11`). The list names the neighbours of David’s kingdom (2 Sam 8).",
         "community": []
-      }
+      },
+      "translit": "wəʿāpū bəkātēp pəlištīm yāmmāh yaḥdāw yābōzzū ʾet-bənē-qedem ʾĕdōm ūmōʾāb mišlōḥ yādām ūbənē ʿammōn mišmaʿtām"
     },
     {
       "n": 15,
@@ -571,7 +586,8 @@
       "notes": {
         "official": "*wᵉheḥĕrîm YHWH* is the Hiphil of *ḥrm* “devote to destruction,” the verb of the war ban. The line now has “will devote to destruction” in place of the draft’s “will utterly destroy” (ASV; JPS 1917), so that the root stays visible as elsewhere in the corpus (central `cherem-devote-to-destruction-cross-corpus`, extended here). Because the ban is not otherwise applied to a body of water, many read *heḥĕrîḇ* “will dry up” (*ḥrb*), the reading of NJPS (“will dry up the tongue of the Egyptian sea”) and probably of the LXX (*erēmōsei*, “will make desolate”). The line keeps the Masoretic consonants (overlay `mt-qere-textual-policy-isaiah`).\n\n*lᵉšôn yam-miṣrayim* “the tongue of the sea of Egypt” is an arm or gulf of the sea; it is not *yam-sûp̄*, and the central Exodus 14 sea-parting entry is not applied. *ban-nāhār* “the River” is the Euphrates, as at 27:12. *baʿyām rûḥô* has a word found only here: ASV “with his scorching wind,” NJPS “with the might of His wind,” noting “Meaning of Heb. uncertain.” This *rûaḥ* is wind; it lies outside the lower-case spirit entry.\n\n*wᵉhiḏrîḵ bannᵉʿālîm* is literally “and he will make (them) tread in sandals,” so that the river can be crossed on foot. The line keeps ASV “cause men to march over dryshod”; “men” is supplied (ASV prints it in italics), and NJPS has “so that it can be trodden dry-shod.” The drying of the waters recalls the crossing of the sea (Exod 14:21–22), which v 16 makes explicit (overlay `lexical-cruxes-isaiah-11`).",
         "community": []
-      }
+      },
+      "translit": "wəheḥĕrīm YHWH ʾēt ləšōn yom-miṣrayim wəhēnīp yādō ʿal-hannāhār baʿyām rūḥō wəhikkāhū ləšibʿāh nəḥālīm wəhidrīk bannəʿālīm"
     },
     {
       "n": 16,
@@ -587,7 +603,8 @@
       "notes": {
         "official": "*mᵉsillāh* “a highway” is a built-up road, as in 40:3 (“a highway for our God”). The verse makes the “second time” of v 11 explicit: the return from Assyria will be like Israel’s going up *mēʾereṣ miṣrāyim* “out of the land of Egypt,” where *ʾereṣ* is a territory and is “land” (central `eretz`). The singular “he came up” refers to Israel as a people, with ASV and JPS 1917.",
         "community": []
-      }
+      },
+      "translit": "wəhāyətāh məsillāh lišʾār ʿammō ʾăšer yiššāʾēr mēʾaššūr kaʾăšer hāyətāh ləyiśrāʾēl bəyōm ʿălōtō mēʾereṣ miṣrāyim"
     }
   ],
   "editorial_questions": []

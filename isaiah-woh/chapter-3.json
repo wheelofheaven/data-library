@@ -6,20 +6,20 @@
   "title": "Isaiah 3 — Jerusalem's leaders judged and the daughters of Zion stripped of their finery",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.3",
-    "glossaryVersion": "2.93.0",
-    "overlayGlossaryVersion": "1.6.1",
+    "glossaryVersion": "3.0.0",
+    "overlayGlossaryVersion": "2.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T12:01:43Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T15:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T12:01:43Z",
@@ -330,7 +330,8 @@
       "ancientVersionChecks": "All verified as stated: OG 3:10 (dēsōmen ton dikaion), OG 3:12 (kalamōntai; hoi apaitountes), OG + Syriac 3:13 (his people), OG 3:17 (tapeinōsei), OG 3:23 (diaphanē Lakōnika), Vulgate 3:23 (specula), 1QIsaᵃ 3:24 (בושת). None needs withdrawing.",
       "postEscalationAdjustments": "None. The escalation report added no information that changed a verdict. It confirmed that the ISA-3:1 flag is the escalated founder decision, and that the Strong's numbers were assigned from memory, which the Reviewer checked against recall (also not concordance-verified).",
       "summary": "26 verses: 23 approve, 2 revise (3:12 and 3:15, commentary only; no English line changes), 1 flag-for-human (3:1, the ha-adon title convention). Glossary: 8 approve, 2 revise (finery entry: source-field typo + Strong's note; lexical-cruxes: one rationale wording + Strong's note), 1 flag-for-human (ha-adon-definite-title-isaiah). No lens leakage. Status: awaiting-human."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -338,17 +339,18 @@
       "refId": "ISA-3:1",
       "text": "כִּי֩ הִנֵּ֨ה הָאָד֜וֹן יְהוָ֣ה צְבָא֗וֹת מֵסִ֤יר מִירוּשָׁלִַ֙ם֙ וּמִ֣יהוּדָ֔ה מַשְׁעֵ֖ן וּמַשְׁעֵנָ֑ה כֹּ֚ל מִשְׁעַן־לֶ֔חֶם וְכֹ֖ל מִשְׁעַן־מָֽיִם׃",
       "i18n": {
-        "en": "For behold, the Lord, YHWH of hosts, is taking away from Jerusalem and from Judah support and staff — all support of bread and all support of water;"
+        "en": "For behold, the Sovereign, YHWH of hosts, is taking away from Jerusalem and from Judah support and staff — all support of bread and all support of water;"
       },
       "notes": {
-        "official": "*hā-ʾāḏôn*, the singular noun *ʾāḏôn* \"lord, master\" with the definite article, stands before *YHWH ṣᵉḇāʾôṯ* here, as at 1:24, 10:16, 10:33 and 19:4 (cf. Exod 23:17; 34:23, *hā-ʾāḏōn YHWH*). It is a different word from the title *ʾăḏōnāy*, which the book's house style renders \"the Lord\" (3:17, 18; 6:1). The line gives \"the Lord\" for both until a book-level ruling decides whether English should distinguish them (for example \"the Sovereign\" or \"the Master\"); see the editorial report. This note records the difference so that the shared English does not hide it.\n\n*mašʿēn ûmašʿēnāh* sets the masculine and feminine forms of one noun, \"support\", side by side; the feminine form occurs only here. The pair is a merism for every kind of support, and the verse spells it out at once: \"all support of bread and all support of water.\" The supports then become persons: 3:2–3 names the pillars of the state one by one."
+        "official": "*hā-ʾāḏôn*, the singular noun *ʾāḏôn* \"lord, master\" with the definite article, stands before *YHWH ṣᵉḇāʾôṯ* here, as at 1:24, 10:16, 10:33 and 19:4 (cf. Exod 23:17; 34:23, *hā-ʾāḏōn YHWH*). It is a different word from the title *ʾăḏōnāy*, which the book's house style renders \"the Lord\" (3:17, 18; 6:1). The line renders *hā-ʾāḏôn* \"the Sovereign\" (NRSV, NJPS), so that the English keeps the two titles apart; ASV and KJV have \"the Lord\" for both (overlay `ha-adon-articular-title-isaiah`).\n\n*mašʿēn ûmašʿēnāh* sets the masculine and feminine forms of one noun, \"support\", side by side; the feminine form occurs only here. The pair is a merism for every kind of support, and the verse spells it out at once: \"all support of bread and all support of water.\" The supports then become persons: 3:2–3 names the pillars of the state one by one."
       },
       "glossaryRefs": [
         "title-and-meta-conventions-isaiah",
-        "ha-adon-definite-title-isaiah",
+        "ha-adon-articular-title-isaiah",
         "yhwh-tzevaot-hosts-isaiah",
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "kī hinnēh hāʾādōn YHWH ṣəbāʾōt mēsīr mīrūšālim ūmīhūdāh mašʿēn ūmašʿēnāh kōl mišʿan-leḥem wəkōl mišʿan-māyim"
     },
     {
       "n": 2,
@@ -360,7 +362,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "gibbōr wəʾīš milḥāmāh šōpēṭ wənābīʾ wəqōsēm wəzāqēn"
     },
     {
       "n": 3,
@@ -375,7 +378,8 @@
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3",
         "lachash-charm-amulet-isaiah"
-      ]
+      ],
+      "translit": "śar-ḥămiššīm ūnəśūʾ pānīm wəyōʿēṣ waḥăkam ḥărāšīm ūnəbōn lāḥaš"
     },
     {
       "n": 4,
@@ -389,7 +393,8 @@
       },
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "wənātattī nəʿārīm śārēhem wətaʿălūlīm yimšəlū-bām"
     },
     {
       "n": 5,
@@ -401,7 +406,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "wəniggaś hāʿām ʾīš bəʾīš wəʾīš bərēʿēhū yirhăbū hannaʿar bazzāqēn wəhanniqleh bannikbād"
     },
     {
       "n": 6,
@@ -413,7 +419,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "kī-yitpōś ʾīš bəʾāḥīw bēt ʾābīw śimlāh ləkāh qāṣīn tihyeh-lānū wəhammakšēlāh hazzōʾt taḥat yādekā"
     },
     {
       "n": 7,
@@ -427,7 +434,8 @@
       },
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "yiśśāʾ bayyōm hahūʾ | lēʾmōr lōʾ-ʾehyeh ḥōbēš ūbəbētī ʾēn leḥem wəʾēn śimlāh lōʾ təśīmunī qəṣīn ʿām"
     },
     {
       "n": 8,
@@ -442,7 +450,8 @@
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3",
         "kevodo-kavod-suffixed-isaiah"
-      ]
+      ],
+      "translit": "kī kāšəlāh yərūšālim wīhūdāh nāpāl kī-ləšōnām ūmaʿallēhem ʾel-YHWH lamrōt ʿēnē kəbōdō"
     },
     {
       "n": 9,
@@ -456,7 +465,8 @@
       },
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "hakkārat pənēhem ʿānətāh bām wəḥaṭṭāʾtām kisdōm higgīdū lōʾ kiḥēdū ʾōy lənapšām kī-gāməlū lāhem rāʿāh"
     },
     {
       "n": 10,
@@ -470,7 +480,8 @@
       },
       "glossaryRefs": [
         "mt-qere-textual-policy-isaiah"
-      ]
+      ],
+      "translit": "ʾimrū ṣaddīq kī-ṭōb kī-pərī maʿallēhem yōʾkēlū"
     },
     {
       "n": 11,
@@ -484,7 +495,8 @@
       },
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "ʾōy lərāšāʿ rāʿ kī-gəmūl yādāyw yēʿāśeh lō"
     },
     {
       "n": 12,
@@ -499,7 +511,8 @@
       "glossaryRefs": [
         "mt-qere-textual-policy-isaiah",
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "ʿammī nōgəśāyw məʿōlēl wənāšīm māšəlū bō ʿammī məʾaššərēkā matʿīm wəderek ʾōrəḥōtēkā billēʿū (s)"
     },
     {
       "n": 13,
@@ -513,7 +526,8 @@
       },
       "glossaryRefs": [
         "mt-qere-textual-policy-isaiah"
-      ]
+      ],
+      "translit": "niṣṣāb lārīb YHWH wəʿōmēd lādīn ʿammīm"
     },
     {
       "n": 14,
@@ -527,7 +541,8 @@
       },
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "YHWH bəmišpāṭ yābōʾ ʿim-ziqnē ʿammō wəśārāyw wəʾattem biʿartem hakkerem gəzēlat heʿānī bəbāttēkem"
     },
     {
       "n": 15,
@@ -543,7 +558,8 @@
         "mt-qere-textual-policy-isaiah",
         "adonai-yhwh-compound-isaiah-25",
         "yhwh-tzevaot-hosts-isaiah"
-      ]
+      ],
+      "translit": "mlkm [mah] [lākem] tədakkəʾū ʿammī ūpənē ʿăniyyīm tiṭḥānū nəʾum-ʾădōnāy YHWH ṣəbāʾōt (s)"
     },
     {
       "n": 16,
@@ -558,7 +574,8 @@
       "glossaryRefs": [
         "mt-qere-textual-policy-isaiah",
         "daughters-of-zion-finery-isaiah-3"
-      ]
+      ],
+      "translit": "wayyōʾmer YHWH yaʿan kī gābəhū bənōt ṣiyyōn wattēlaknāh nṭwwt [nəṭūyōt] gārōn ūməśaqqərōt ʿēnāyim hālōk wəṭāpōp tēlaknāh ūbəraglēhem təʿakkasnāh"
     },
     {
       "n": 17,
@@ -573,7 +590,8 @@
       "glossaryRefs": [
         "adonai-standalone-title-isaiah",
         "daughters-of-zion-finery-isaiah-3"
-      ]
+      ],
+      "translit": "wəśippaḥ ʾădōnāy qādəqōd bənōt ṣiyyōn waYHWH pātəhēn yəʿāreh (s)"
     },
     {
       "n": 18,
@@ -588,7 +606,8 @@
       "glossaryRefs": [
         "adonai-standalone-title-isaiah",
         "daughters-of-zion-finery-isaiah-3"
-      ]
+      ],
+      "translit": "bayyōm hahūʾ yāsīr ʾădōnāy ʾēt tipʾeret hāʿăkāsīm wəhaššəbīsīm wəhaśśahărōnīm"
     },
     {
       "n": 19,
@@ -602,7 +621,8 @@
       },
       "glossaryRefs": [
         "daughters-of-zion-finery-isaiah-3"
-      ]
+      ],
+      "translit": "hannəṭīpōt wəhaššērōt wəhārəʿālōt"
     },
     {
       "n": 20,
@@ -617,7 +637,8 @@
       "glossaryRefs": [
         "daughters-of-zion-finery-isaiah-3",
         "lachash-charm-amulet-isaiah"
-      ]
+      ],
+      "translit": "happəʾērīm wəhaṣṣəʿādōt wəhaqqiššurīm ūbāttē hannepeš wəhalləḥāšīm"
     },
     {
       "n": 21,
@@ -631,7 +652,8 @@
       },
       "glossaryRefs": [
         "daughters-of-zion-finery-isaiah-3"
-      ]
+      ],
+      "translit": "haṭṭabbāʿōt wənizmē hāʾāp"
     },
     {
       "n": 22,
@@ -645,7 +667,8 @@
       },
       "glossaryRefs": [
         "daughters-of-zion-finery-isaiah-3"
-      ]
+      ],
+      "translit": "hammaḥălāṣōt wəhammaʿăṭāpōt wəhammiṭpāḥōt wəhāḥărīṭīm"
     },
     {
       "n": 23,
@@ -659,7 +682,8 @@
       },
       "glossaryRefs": [
         "daughters-of-zion-finery-isaiah-3"
-      ]
+      ],
+      "translit": "wəhaggilyōnīm wəhassədīnīm wəhaṣṣənīpōt wəhārədīdīm"
     },
     {
       "n": 24,
@@ -675,7 +699,8 @@
         "tachat-substitution-formula",
         "mt-qere-textual-policy-isaiah",
         "daughters-of-zion-finery-isaiah-3"
-      ]
+      ],
+      "translit": "wəhāyāh taḥat bōśem maq yihyeh wətaḥat ḥăgōrāh niqpāh wətaḥat maʿăśeh miqšeh qārəḥāh wətaḥat pətīgīl maḥăgōret śāq kī-taḥat yōpī"
     },
     {
       "n": 25,
@@ -689,7 +714,8 @@
       },
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "mətayik baḥereb yippōlū ūgəbūrātēk bammilḥāmāh"
     },
     {
       "n": 26,
@@ -703,7 +729,8 @@
       },
       "glossaryRefs": [
         "lexical-cruxes-isaiah-3"
-      ]
+      ],
+      "translit": "wəʾānū wəʾābəlū pətāḥēhā wəniqqātāh lāʾāreṣ tēšēb"
     }
   ],
   "editorial_questions": []

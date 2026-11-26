@@ -6,20 +6,20 @@
   "title": "Isaiah 12 — The song of thanksgiving in that day: water drawn with joy from the wells of salvation",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.12",
-    "glossaryVersion": "2.93.0",
-    "overlayGlossaryVersion": "1.6.1",
+    "glossaryVersion": "3.0.0",
+    "overlayGlossaryVersion": "2.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T13:42:38Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T15:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T13:42:38Z",
@@ -174,7 +174,8 @@
       "versionOps": "Overlay 1.7.0->1.8.0 and central 2.94.0->2.95.0, minor bumps: approve as minor (adds plus appliesTo / addendum modifies only; no wohChoice changed).",
       "independentVerification": "I re-read the Hebrew (WLC with cantillation) of every verse before reading the English. I checked JPS 1917, NJPS 1985 and the JPS gender-sensitive edition of Isa 12, plus NJPS Exod 15:2, Ps 118:14, Isa 26:4, 26:10 and Ps 93:1, through the Sefaria API v3. I checked ASV Isa 12, Exod 15:2, Ps 118:14, Ps 105:1 and Ps 93:1 through bible-api.com (ASV 1901). I confirmed that the central glossary 2.93.0 has no zimrāh / Exod 15:2 entry, and that exodus-woh 15 and psalms-woh 118 are not drafted. Not verified by the Reviewer and cited from memory: BDB and HALOT article contents, GKC §109k, NRSV, the LXX, the Vulgate and 1QIsaᵃ.",
       "adjustmentsAfterEscalationReport": "No verdict was changed. The report explains the ISA-12:2 note error: the Editor read the JPS gender-sensitive edition, which prints 'GOD', and attributed its wording to NJPS. The revise stands as a labelling correction. The report itself lists the central cross-corpus forward scope as a founder item, which agrees with my flag-for-human. The report recommends accepting it, and I leave the binding-versus-default question to the founder."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -192,7 +193,8 @@
       "notes": {
         "official": "*Yāšōḇ ʾappᵉḵā ûṯᵉnaḥămēnî* “your anger has turned away, and you comfort me”: *yāšōḇ* is pointed as the short (jussive) form of *šûḇ*, and *ûṯᵉnaḥămēnî* is waw with the imperfect, not the waw-consecutive a past narrative would use. Taken strictly, the pointing gives a wish: “may your anger turn away, and may you comfort me.” The line follows ASV and JPS 1917 (“thine anger is turned away, and thou comfortest me”) and NJPS (“Your wrath has turned back and You comfort me”), which all read a statement. Short forms with an indicative sense occur in Hebrew poetry, and the opening *ʾôḏᵉḵā* “I will give thanks to you” assumes a deliverance already given. The Vulgate also has a past statement (*conversus est furor tuus, et consolatus es me*; recalled, not checked against an edition). The LXX reading was not verified. A repointing to the waw-consecutive has been proposed, but it is not needed and is not adopted.\n\n*Šûḇ* with *ʾap* as subject is the idiom for anger subsiding. The clause reverses the refrain of 5:25; 9:11, 16, 20; 10:4, “his anger has not turned away” (overlay `bekhol-zot-lo-shav-appo-refrain-isaiah`). The English keeps the same verb, “turn away,” so the reversal can be seen. *Kî ʾānap̄tā bî* is rendered as a concession, “for though you were angry with me,” as in ASV and JPS 1917. The first song is in quotation marks from “I will give thanks” to the end of 12:2, as JPS 1917 and NJPS mark it (overlay `title-and-meta-conventions-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wəʾāmartā bayyōm hahūʾ ʾōdəkā YHWH kī ʾānaptā bī yāšōb ʾappəkā ūtənaḥămēnī"
     },
     {
       "n": 2,
@@ -211,7 +213,8 @@
       "notes": {
         "official": "*Hinnēh ʾēl yᵉšûʿāṯî* “Behold, God is my salvation”: the absolute and construct forms of *ʾēl* are spelled and pointed alike. The words can therefore be a nominal clause (ASV, JPS 1917) or a construct phrase, as in NJPS “Behold the God who gives me triumph.” The line keeps the clause, which gives the verse its frame: *ʾēl* is my salvation … Yah … has become my salvation. *ʾēl* is “God” under the book's practice for the deity whom the formulas identify with YHWH (overlay `elohim-el-eloah-monotheistic-formula-isaiah`).\n\n*Kî-ʿozzî wᵉzimrāṯ Yāh YHWH wayᵉhî-lî lîšûʿāh* quotes the Song of the Sea (Exod 15:2), a line repeated at Ps 118:14; Isaiah adds YHWH after *Yāh*. *Zimrāṯ* has no suffix of its own. It is usually explained either as an archaic feminine ending or as the first-person *-î* lost before *Yāh*, and the English supplies “my” on both nouns. The lexica distinguish two words *zimrāh*: “song, music,” from *zmr* I “sing” (BDB), and “protection, strength,” connected with Ugaritic *ḏmr* (HALOT). ASV and JPS 1917 read “song.” NJPS reads “might,” with a note that other translations have “song.” NRSV is recalled as “might”; this was not verified. The line keeps “song,” the public-domain baseline reading, which in this chapter also answers *zammᵉrû* “sing praises” in 12:5. One English wording for the shared line in all three books is fixed in the central entry `ozzi-ve-zimrat-yah-strength-and-song-exod-15-2-parallel-cross-corpus`.\n\nThe short divine name *Yāh* is transliterated and kept distinct from YHWH, as with *bᵉ-Yāh YHWH* at 26:4 (overlay `yah-tzur-olamim-everlasting-rock-isaiah-26`). The other versions read ASV “Jehovah, even Jehovah,” JPS 1917 “GOD the LORD” and NJPS “Yah the LORD” (the JPS gender-sensitive edition prints “GOD” for the Tetragrammaton). The doubled name is the reading of the Masoretic text. It was not verified whether 1QIsaᵃ and the LXX have it, and the line follows MT.",
         "community": []
-      }
+      },
+      "translit": "hinnēh ʾēl yəšūʿātī ʾebṭaḥ wəlōʾ ʾepḥād kī-ʿāzzī wəzimrāt yāh YHWH wayhī-lī līšūʿāh"
     },
     {
       "n": 3,
@@ -227,7 +230,8 @@
       "notes": {
         "official": "*Mimmaʿaynê hayᵉšûʿāh* “from the wells of salvation”: *maʿyān* is a spring or fountain, a natural source of water (BDB; HALOT), not a dug well (*bᵉʾēr*). NJPS has “fountains,” and the central glossary renders the noun “fountains” at Gen 7:11 (`maayanot-tehom-rabbah`). The line keeps “wells” with ASV and JPS 1917. English “well” has long been used for a spring, and *šāʾaḇ* “draw (water)” is the verb used for drawing at a well or spring (Gen 24:11–20). The central entry is not extended, because it governs the cosmic “fountains of the great deep.” *Yᵉšûʿāh* stays “salvation,” as in 12:2 (NJPS “triumph”).\n\nThe address changes to the plural here (*ûšᵉʾaḇtem* “and you shall draw”). The verse stands between the two songs, outside the quotation marks.",
         "community": []
-      }
+      },
+      "translit": "ūšəʾabtem-mayim bəśāśōn mimmaʿaynē hayšūʿāh"
     },
     {
       "n": 4,
@@ -245,7 +249,8 @@
       "notes": {
         "official": "*Hôḏû la-YHWH qirʾû ḇišmô hôḏîʿû ḇāʿammîm ʿălîlôṯāyw* repeats the opening of Ps 105:1 (= 1 Chr 16:8) word for word. The line renders it as ASV renders that psalm (“Oh give thanks unto Jehovah, call upon his name; Make known among the peoples his doings”), so the parallel can be seen. *Qārāʾ bᵉšēm* is the formula of invocation (Gen 4:26; 12:8). The corpus renders it “call on the name” (central `qara-b-shem-yhwh`, extended here). JPS 1917 and NJPS read “proclaim his name,” the sense the phrase has at Exod 34:5, and that reading is noted here.\n\n*Hazkîrû* (Hiphil of *zkr*) is “make mention,” with ASV and JPS 1917; NJPS has “declare.” *Nisgāḇ šᵉmô* “his name is exalted” uses the Niphal participle of *śgb* “be high, out of reach.” The second song is in quotation marks from “Give thanks” to the end of 12:6. The feminine address to Zion in 12:6 is read as part of the song, as JPS 1917 and NJPS mark it.",
         "community": []
-      }
+      },
+      "translit": "waʾămartem bayyōm hahūʾ hōdū laYHWH qirʾū bišmō hōdīʿū bāʿammīm ʿălīlōtāyw hazkīrū kī niśgāb šəmō"
     },
     {
       "n": 5,
@@ -264,7 +269,8 @@
       "notes": {
         "official": "*Kî gēʾûṯ ʿāśāh* “for he has done majestic things”: *gēʾûṯ* comes from the root *gʾh* “rise, be high,” the root of *gāʾôn* “majesty.” The book already renders *gēʾûṯ* “majesty” at 26:10 (“the majesty of YHWH”), and *gēʾûṯ* is the majesty YHWH is clothed in at Ps 93:1. ASV has “excellent things,” and JPS 1917 and NJPS have “gloriously.” The line uses neither. “Excellent” no longer carries the sense “surpassing, eminent” it had in the older English versions. “Gloriously” would give *gēʾûṯ* the English reserved for *kāḇôḏ* (overlay `geut-majesty-isaiah`; cf. `hadar-splendor-isaiah`). The clause echoes *gāʾōh gāʾāh* in the opening line of the Song of the Sea (Exod 15:1, 21), the song quoted in 12:2.\n\n*Mûḏaʿaṯ zōʾṯ*: the ketiv מידעת has the consonants of a Pual participle, and the qere מוּדַעַת is a Hophal participle. Both mean “made known,” and the line translates the qere (overlay `mt-qere-textual-policy-isaiah`). A participle makes a statement, as in JPS 1917 “This is made known.” After the imperative *zammᵉrû*, ASV (“let this be known”) and NJPS (“Let this be made known”) read it as a wish, and the line follows them. *Bᵉḵol-hāʾāreṣ* “in all the earth” matches the “peoples” of 12:4 and is the song's universal horizon (overlay `eretz-cosmic-scope-isaiah-24`).",
         "community": []
-      }
+      },
+      "translit": "zammərū YHWH kī gēʾūt ʿāśāh mydʿt [mūdaʿat] zōʾt bəkol-hāʾāreṣ"
     },
     {
       "n": 6,
@@ -280,7 +286,8 @@
       "notes": {
         "official": "*Ṣahălî wārōnnî yôšeḇeṯ ṣiyyôn* “Cry out and shout for joy, O inhabitant of Zion”: the two imperatives and the participle are feminine singular. *Yôšeḇeṯ* followed by a place name is the ordinary idiom for a town's population (Mic 1:11–13; Jer 51:35). ASV and JPS 1917 render it “thou inhabitant of Zion,” and NJPS “You who dwell in Zion.” The participle of *yāšaḇ* can also mean “she who sits (enthroned).” That sense lies behind NRSV “royal Zion” (recalled, not verified). The line keeps the ASV collective.\n\n*Qᵉḏôš yiśrāʾēl* “the Holy One of Israel,” Isaiah's characteristic title (1:4; 5:19, 24), ends the song after the predicate *gāḏôl bᵉqirbēḵ* “great in your midst.” The English keeps the Hebrew order, as ASV does. The petuḥah (פ) closes the section before the oracles against the nations begin in chapter 13.",
         "community": []
-      }
+      },
+      "translit": "ṣahălī wārōnnī yōšebet ṣiyyōn kī-gādōl bəqirbēk qədōš yiśrāʾēl (p)"
     }
   ],
   "editorial_questions": []

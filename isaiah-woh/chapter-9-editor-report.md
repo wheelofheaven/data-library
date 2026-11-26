@@ -17,7 +17,7 @@ No glossary entry in this chapter is speculative.
 **Source:** כִּי־יֶלֶד יֻלַּד־לָנוּ … וַתְּהִי הַמִּשְׂרָה עַל־שִׁכְמוֹ
 **WoH choice:** none in the line or the glossary. The paragraph is in `notes.official` under the heading "Wheel of Heaven reading (reception note, not a translation claim; claim type: speculative)".
 **Why speculative:** The canon does not cite Isaiah 9. A search of TBWTT and ETTMTTP in data-library found Isaiah citations from chapters 6, 13–15, 26–27, 29, 32, 40, 42–45, 48, 54 and 65 only. The note quotes ETTMTTP 2:124 ("the last of the prophets, the one who was announced to you"), which was verified in data-library. It then says plainly that reading this birth oracle as that announcement would be a project synthesis beyond the canon.
-**Recommendation:** ship as written, or drop. The founder must choose by name. The paragraph exists because the brief asked for reception notes at this lens-salient site. It asserts nothing beyond the canon's own words.
+**Recommendation:** ship as written, or drop. Founder sign-off 2026-11-26: kept as written. The paragraph exists because the brief asked for reception notes at this lens-salient site. It asserts nothing beyond the canon's own words.
 
 ---
 
@@ -132,10 +132,17 @@ These corrections apply the Reviewer's non-decision items, using the NJPS text t
    - The central modify op (+ISA-9:1) is removed, and a central note records the non-extension.
    - New overlay entry `tzalmavet-deep-darkness-isaiah`: claim_type `direct` (HALOT derivation from *ṣlm*; NRSV; NJPS same sense), appliesTo ISA-9:1.
    - The glossaryRefs for 9:1 are now `eretz`, `tzalmavet-deep-darkness-isaiah`, and its note points to the new entry.
-8. **9:5 reception paragraph (optional item, applied).** It now says that ETTMTTP 2:124's "as Isaiah had written" refers to the ingathering of Isa 43:5–7 (cf. TBWTT 5:25), not to chapter 9. The paragraph is still labelled speculative and still awaits the founder's ship/drop decision.
+8. **9:5 reception paragraph (optional item, applied).** It now says that ETTMTTP 2:124's "as Isaiah had written" refers to the ingathering of Isa 43:5–7 (cf. TBWTT 5:25), not to chapter 9. The paragraph is still labelled speculative. It was kept at founder sign-off on 2026-11-26.
 
 **Revised op counts.**
 - Overlay: 13 ops (version, 5 add, 6 modify, 1 note). The new add is `tzalmavet-deep-darkness-isaiah` (direct).
 - Central: 4 ops (version, 2 modify, 1 note).
 
-**Still open, for the founder:** the 9:5 speculative reception paragraph (ship or drop). The four-pair names and the past-tense poem ruling are listed for review, but they are not blocking.
+**Still open, for the founder:** the 9:5 speculative reception paragraph (ship or drop). Resolved: kept (founder sign-off 2026-11-26). The four-pair names and the past-tense poem ruling are listed for review, but they are not blocking.
+
+## Founder rulings applied (2026-11-26)
+
+The founder signed off wave I-3 with every recommended default ("Sign-off ok", 2026-11-26; `wave-i3-signoff-package.md`), together with wave I-1 decisions 1 and 2. `translation.status` and the `reviewerReport` block are unchanged. Statements above marked pending or provisional are settled as follows.
+
+- **9:5 reception paragraph:** kept (founder sign-off 2026-11-26). No text change.
+- **`lexical-cruxes-isaiah-3` modify op:** its note now says the entry comes from wave I-1, signed off 2026-11-26, instead of "pending sign-off".

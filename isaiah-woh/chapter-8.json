@@ -6,19 +6,19 @@
   "title": "Isaiah 8 — Maher-shalal-hash-baz, the waters of Shiloah and the River, and the sealed testimony",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.8",
-    "glossaryVersion": "2.93.0",
-    "overlayGlossaryVersion": "1.6.1",
+    "glossaryVersion": "3.0.0",
+    "overlayGlossaryVersion": "2.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T13:53:54Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T15:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T13:53:54Z",
@@ -379,7 +379,8 @@
       "lensLeakageCheck": "Performed on all 23 English lines: none reads as exegesis; the lines are ASV/JPS 1917 in substance with house-style YHWH; no Raëlian terminology; 8:19 'their God' is, if anything, the reading least favourable to a lens.",
       "postEscalationAdjustments": "Escalation report read after initial verdicts. No verdict changed. The report repeats the JPS 1917 attribution for the 8:19 reply construal that the Reviewer found inaccurate (JPS 1917 prints 19b-20a inside the quotation); this is new information for the human and weakens the Editor's stated basis for option (A), which now rests on ASV/KJV alone. Reviewer concurs with the Editor's option (A) on 5:30 vs 8:22 and with the ariel-ob consolidation recommendation, subject to sign-off.",
       "verificationNotes": "Verified by Reviewer this session: ASV 1901 Isa 5:30, 8:1-23, 9:1 and KJV 8:7-8 (bible-api.com); JPS 1917 and NJPS 1985 ('Tanakh: The Holy Scriptures, published by JPS', not the Gender-Sensitive Edition) Isa 8:1-23 and 9:1 with footnotes (Sefaria api/v3, version=english|all); project deuteronomy-woh 4:34. From memory, not checked: BDB s.v. רעע II at 8:9; NRSV 8:19 continuation reading; LXX 8:8; Emerton JSS 14 (1969)."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -398,7 +399,8 @@
       "notes": {
         "official": "*lᵉmahēr šālāl ḥāš baz* is a sign-name, transliterated in the line as in ASV and NJPS. Its four words mean roughly “the spoil speeds, the prey hastens”: JPS 1917 translates the inscription in this verse (“The spoil speedeth, the prey hasteth”) and transliterates it at v 3, and NJPS glosses “Pillage hastens, looting speeds”. Verse 4 explains it: Damascus and Samaria will be plundered soon. The name belongs with Shear-jashub (7:3) and Immanuel (7:14; 8:8) under `sign-names-isaiah-7-8`. The preposition *lᵉ-* is rendered “For” with ASV and NJPS; “Belonging to”, the *lᵉ-* of ownership on seals and jar handles, is the main alternative (NRSV, not verified).\n\n*gillāyôn gāḏôl … bᵉḥereṭ ʾĕnôš*: *gillāyôn* is a smooth writing surface (its only other occurrence, 3:23, is a polished mirror), and *ḥereṭ* is an engraving tool (Exod 32:4). The line keeps ASV's literal “a large tablet … with the pen of a man”. JPS 1917 and NJPS read the phrase as an instruction to write in ordinary, legible letters (“in common script”; NJPS marks the Hebrew as uncertain), which is the usual explanation of *ʾĕnôš* “human, ordinary” here.",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer YHWH ʾēlay qaḥ-ləkā gillāyōn gādōl ūkətōb ʿālāyw bəḥereṭ ʾĕnōš ləmahēr šālāl ḥāš baz"
     },
     {
       "n": 2,
@@ -414,7 +416,8 @@
       "notes": {
         "official": "*wᵉʾāʿîḏāh* is pointed in the Masoretic Text as a first-person cohortative, “and I will take as witnesses”. The line keeps it with ASV (“and I will take unto me faithful witnesses to record”). The speaker is not marked: JPS 1917 keeps the verse inside YHWH's speech (“I will take unto Me”), whereas the line closes the speech at the end of v 1, so the prophet speaks. The Great Isaiah Scroll and the ancient versions are reported to read an imperative, “and take witnesses for me” (not verified against DJD 32), and NJPS renders in that sense (“and call reliable witnesses … to witness for Me”). The variant is reported, not adopted (`mt-qere-textual-policy-isaiah`). Uriah the priest is probably the Urijah of 2 Kgs 16:10–16, the priest of Ahaz's reign.",
         "community": []
-      }
+      },
+      "translit": "wəʾāʿīdāh lī ʿēdīm neʾĕmānīm ʾēt ʾūriyyāh hakkōhēn wəʾet-zəkaryāhū ben yəberekyāhū"
     },
     {
       "n": 3,
@@ -430,7 +433,8 @@
       "notes": {
         "official": "*wāʾeqraḇ ʾel-hannᵉḇîʾāh* “and I went to the prophetess” is a euphemism for sexual relations (NJPS “I was intimate with the prophetess”). The prophetess is usually taken to be Isaiah's wife; the text does not name her. The child receives the name written on the tablet in v 1, here without the preposition *lᵉ-* (see the note at v 1 and `sign-names-isaiah-7-8`).",
         "community": []
-      }
+      },
+      "translit": "wāʾeqrab ʾel-hannəbīʾāh wattahar wattēled bēn wayyōʾmer YHWH ʾēlay qərāʾ šəmō mahēr šālāl ḥāš baz"
     },
     {
       "n": 4,
@@ -444,7 +448,8 @@
       "notes": {
         "official": "The time-span repeats 7:15–16: before the child can say “My father” and “My mother”, within a year or two, Damascus and Samaria will be stripped. NJPS moves the end of v 6 into this verse (“and the delights of Rezin and of the son of Remaliah”), reading *mᵉśôś* as a noun; the line keeps the Hebrew verse order.",
         "community": []
-      }
+      },
+      "translit": "kī bəṭerem yēdaʿ hannaʿar qərōʾ ʾābī wəʾimmī yiśśāʾ | ʾet-ḥēl dammeśeq wəʾēt šəlal šōmərōn lipnē melek ʾaššūr (s)"
     },
     {
       "n": 5,
@@ -458,7 +463,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "wayyōsep YHWH dabbēr ʾēlay ʿōd lēʾmōr"
     },
     {
       "n": 6,
@@ -474,7 +480,8 @@
       "notes": {
         "official": "*ûmᵉśôś ʾeṯ-rᵉṣîn* reads literally “and joy with Rezin”. The line follows the Masoretic Text with ASV and JPS 1917 (“and rejoice in Rezin”; “rejoiceth with Rezin”). The construction is awkward, since Rezin is Judah's enemy, and many commentators emend to *ûmāsôs* “and melting (in fear)”, the reading behind NRSV “and melt in fear before Rezin” (not verified). NJPS keeps a noun (“the delights of Rezin”) and moves it into v 4. The emendation is reported and not adopted (`mt-qere-textual-policy-isaiah`).\n\n*mê haššilōaḥ* “the waters of Shiloah” (ASV spelling; NJPS “Siloam”) is the gently flowing channel that brought the Gihon spring into Jerusalem. Its quiet water stands against the flood of v 7, as the calm trust urged in 7:4, 9 stands against the alliance politics of the day.",
         "community": []
-      }
+      },
+      "translit": "yaʿan kī māʾas hāʿām hazzeh ʾēt mē haššilōaḥ hahōləkīm ləʾaṭ ūməśōś ʾet-rəṣīn ūben-rəmalyāhū"
     },
     {
       "n": 7,
@@ -491,7 +498,8 @@
       "notes": {
         "official": "*mê hannāhār* “the waters of the River”: *hannāhār* with the article is the Euphrates (NJPS “the waters of the Euphrates”), the river of Assyria's homeland, here identified with “the king of Assyria and all his glory”. *kᵉḇôḏô* is rendered “his glory” under the wave's concordance (“glory” for *kāḇôḏ*); it is the king's array and power, not the divine glory. *ʾăḏōnāy* is “the Lord” (`adonai-standalone-title-isaiah`).\n\nFrom “and he shall come up” the masculine subject can be the River or the king it represents. The line keeps “he … his”, with KJV and JPS 1917, which leaves both open. ASV renders “it … its”, and NJPS “It shall rise above all its channels”. The same question returns with the “wings” of v 8.",
         "community": []
-      }
+      },
+      "translit": "wəlākēn hinnēh ʾădōnāy maʿăleh ʿălēhem ʾet-mē hannāhār hāʿăṣūmīm wəhārabbīm ʾet-melek ʾaššūr wəʾet-kol-kəbōdō wəʿālāh ʿal-kol-ʾăpīqāyw wəhālak ʿal-kol-gədōtāyw"
     },
     {
       "n": 8,
@@ -509,7 +517,8 @@
       "notes": {
         "official": "*ʿimmānû ʾēl* closes the oracle of vv 5–8. With ASV, KJV and JPS 1917 the line reads it as the name of 7:14 in the vocative, “O Immanuel”: the land overrun by Assyria is Immanuel's land. The same two words form a clause at v 10, “for God is with us”, and the play between name and clause is part of the text (`sign-names-isaiah-7-8`). NJPS reads a clause here as well and changes the image: “But with us is God, whose wings are spread as wide as your land is broad!” On that reading the outspread wings are God's protection, not the reach of the flood. The Septuagint is also reported to have a clause (*meth' hēmōn ho theos*, not verified).\n\n*muṭṭôṯ kᵉnāp̄āyw* “the stretching out of his wings”: *kānāp̄* is “wing” and also “edge, extremity”, so the phrase can describe the spreading arms of the flood or a bird of prey standing for the king. “He shall reach even to the neck” keeps the flood rising to the head without covering it: Judah is endangered but not drowned. *ʾarṣᵉḵā* “your land” is territorial (central `eretz`).",
         "community": []
-      }
+      },
+      "translit": "wəḥālap bīhūdāh šāṭap wəʿābar ʿad-ṣawwāʾr yaggīaʿ wəhāyāh muṭṭōt kənāpāyw məlōʾ rōḥab-ʾarṣəkā ʿimmānū ʾēl (s)"
     },
     {
       "n": 9,
@@ -526,7 +535,8 @@
       "notes": {
         "official": "*rōʿû ʿammîm* is disputed. The line keeps ASV and JPS 1917 “Make an uproar, O peoples”, from *rwʿ* “shout, raise a war-cry”. Other readings are *rʿʿ* II “be broken”, anticipating the next verb; *rʿh* II “associate, band together”, which NJPS adopts (“Band together, O peoples”); and the Septuagint's *gnōte* “know”, which presupposes *dᵉʿû* (not verified). *wāḥōttû* is from *ḥtt* “be shattered, be dismayed”; the line has “be shattered” (ASV “be broken in pieces”; NJPS “you shall be broken”). The imperatives are ironic: the nations may arm, but each command ends in their defeat.\n\n*merḥaqqê-ʾāreṣ* “far places of the earth” is the universal-horizon idiom (NJPS “you remotest parts of the earth”), rendered “earth” as at 5:26 (`eretz-cosmic-scope-isaiah-24`).",
         "community": []
-      }
+      },
+      "translit": "rōʿū ʿammīm wāḥōttū wəhaʾăzīnū kōl merḥaqqē-ʾāreṣ hitʾazzərū wāḥōttū hitʾazzərū wāḥōttū"
     },
     {
       "n": 10,
@@ -543,7 +553,8 @@
       "notes": {
         "official": "*kî ʿimmānû ʾēl* “for God is with us” (ASV, JPS 1917; NJPS “For with us is God!”). The words are the name of 7:14 and 8:8, used here as a clause that gives the reason why the nations' plans fail. The line translates them as a clause so that the name and its meaning can both be seen across the three verses (`sign-names-isaiah-7-8`). *ʾēl* designates YHWH and is rendered “God” (`elohim-el-eloah-monotheistic-formula-isaiah`). In *ʿuṣû ʿēṣāh wᵉṯup̄ār* “take counsel together, but it shall come to nothing”, the verb *prr* “break, annul” is the word for frustrating a plan (cf. 14:27).",
         "community": []
-      }
+      },
+      "translit": "ʿuṣū ʿēṣāh wətupār dabbərū dābār wəlōʾ yāqūm kī ʿimmānū ʾēl (s)"
     },
     {
       "n": 11,
@@ -560,7 +571,8 @@
       "notes": {
         "official": "*kᵉḥezqaṯ hayyāḏ* is literally “as with the strength of the hand”. The line keeps ASV and JPS 1917 “with a strong hand”. “The hand” is the idiom for prophetic compulsion (2 Kgs 3:15; Ezek 1:3; 3:14), the sense NRSV gives (“while his hand was strong upon me”, not verified). NJPS reads “when He took me by the hand”, with a note that the idiom means “singled me out”.\n\n*wᵉyissᵉrēnî* is pointed as an unusual form of *ysr* “instruct, discipline” (ASV “and instructed me”; JPS 1917 “admonishing me”; NJPS “charged me”). The Great Isaiah Scroll is reported to read a form of *swr*, “and he turned me aside” (not verified against DJD 32). The line keeps the Masoretic Text (`mt-qere-textual-policy-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "kī kōh ʾāmar YHWH ʾēlay kəḥezqat hayyād wəyissərēnī milleket bəderek hāʿām-hazzeh lēʾmōr"
     },
     {
       "n": 12,
@@ -576,7 +588,8 @@
       "notes": {
         "official": "*qešer* “conspiracy” is kept twice with ASV, JPS 1917 and NJPS. It is the charge of treason (cf. Athaliah's cry *qešer qāšer*, 2 Kgs 11:14), here turned against those who oppose the policy of the day. A well-known conjecture reads *qōdeš* “holy” (“do not call holy what this people calls holy”), which would match *taqdîšû* “sanctify” in v 13 and *miqdāš* “sanctuary” in v 14; NJPS records it (“Emendation yields ‘holy’”). It has no manuscript support and is not adopted (`mt-qere-textual-policy-isaiah`).\n\nThe verbs are plural, as in vv 13 and 19: the prophet and his circle are addressed, not the prophet alone (so the NJPS note). In *wᵉʾeṯ-môrāʾô lōʾ-ṯîrʾû* “do not fear what they fear” the suffix is singular, referring to “this people”; the line uses “they” for the collective.",
         "community": []
-      }
+      },
+      "translit": "lōʾ-tōʾmərūn qešer ləkōl ʾăšer-yōʾmar hāʿām hazzeh qāšer wəʾet-mōrāʾō lōʾ-tīrəʾū wəlōʾ taʿărīṣū"
     },
     {
       "n": 13,
@@ -592,7 +605,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "ʾet-YHWH ṣəbāʾōt ʾōtō taqdīšū wəhūʾ mōraʾăkem wəhūʾ maʿăriṣkem"
     },
     {
       "n": 14,
@@ -608,7 +622,8 @@
       "notes": {
         "official": "*wᵉhāyāh lᵉmiqdāš* “and he shall be for a sanctuary” is the Masoretic Text, kept with ASV, JPS 1917 and NJPS. Because a sanctuary sits oddly in a list of obstacles, commentators propose *môqēš* “snare” or a form of *qdš* or *qšr* matching v 12 (NJPS note: “Emendation yields ‘…for His holy domain’”); none is adopted (`mt-qere-textual-policy-isaiah`). As the text stands, the same God is refuge and obstacle: for those who sanctify YHWH he is a sanctuary, and the rest stumble over him.\n\n*šᵉnê ḇāttê yiśrāʾēl* “both the houses of Israel” are the two kingdoms, Israel and Judah. *ʾeḇen negep̄ … ṣûr mikšôl* “a stone of stumbling … a rock of offense” is quoted with Isa 28:16 at Rom 9:33 and with Ps 118:22 at 1 Pet 2:8. The line renders the Hebrew of Isaiah and is not adjusted to those quotations.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh ləmiqdāš ūləʾeben negep ūləṣūr mikšōl lišnē bāttē yiśrāʾēl ləpaḥ ūləmōqēš ləyōšēb yərūšālim"
     },
     {
       "n": 15,
@@ -622,7 +637,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "wəkāšəlū bām rabbīm wənāpəlū wənišbārū wənōqəšū wənilkādū (s)"
     },
     {
       "n": 16,
@@ -639,7 +655,8 @@
       "notes": {
         "official": "*ṣôr tᵉʿûḏāh, ḥăṯôm tôrāh bᵉlimmuḏāy*. *tᵉʿûḏāh* occurs only here, in v 20 and at Ruth 4:7, where it is a legal attestation. The line keeps the standard “testimony” (ASV, JPS 1917) against NJPS “message”. *tôrāh* is the prophet's teaching, not a law-code (`torah-teaching-isaiah`; ASV “law”, JPS 1917 and NJPS “instruction”). Binding and sealing are what is done to a written document to keep it unaltered (Jer 32:10–14; cf. the sealed scroll of 29:11).\n\nThe speaker of the masculine singular imperatives is not marked. The line closes YHWH's speech at the end of v 15, so the imperatives are the prophet's own and “my disciples” are his (cf. the first person of v 17); house style lower-cases divine pronouns, so the pronoun itself does not decide the speaker. JPS 1917 and NJPS keep the verse inside YHWH's speech (“among My disciples”; “with My disciples”).",
         "community": []
-      }
+      },
+      "translit": "ṣōr təʿūdāh ḥătōm tōrāh bəlimmudāy"
     },
     {
       "n": 17,
@@ -653,7 +670,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "wəḥikkītī laYHWH hammastīr pānāyw mibbēt yaʿăqōb wəqiwwētī-lō"
     },
     {
       "n": 18,
@@ -671,7 +689,8 @@
       "notes": {
         "official": "*lᵉʾōṯôṯ ûlᵉmôp̄ᵉṯîm* “for signs and for wonders” keeps ASV and JPS 1917 and the project's rendering of the same pair at Deut 4:34. Here *môp̄ēṯ* is an ominous token, not a miracle: the prophet and his children, whose names announce what is coming (7:3; 8:1–4), are themselves the signs. NJPS renders “signs and portents”, and 20:3 uses the same pair for the prophet walking stripped. *haššōḵēn bᵉhar ṣiyyôn* “who dwells on Mount Zion” uses *šāḵan*, the verb of YHWH's presence among his people (central `shakhan-dwell-divine-presence-verb-cross-corpus`).",
         "community": []
-      }
+      },
+      "translit": "hinnēh ʾānōkī wəhaylādīm ʾăšer nātan-lī YHWH ləʾōtōt ūləmōpətīm bəyiśrāʾēl mēʿim YHWH ṣəbāʾōt haššōkēn bəhar ṣiyyōn (s)"
     },
     {
       "n": 19,
@@ -686,9 +705,10 @@
         "elohim-el-eloah-monotheistic-formula-isaiah"
       ],
       "notes": {
-        "official": "*hāʾōḇôṯ wᵉhayyiddᵉʿōnîm* are the pair named in the laws against necromancy (Lev 19:31; 20:6, 27; Deut 18:11) and in the story of the woman of En-dor (1 Sam 28:3, 9). *ʾôḇ* is the spirit of a dead person called up from the ground, or the medium who calls it; *yiddᵉʿōnî*, from *ydʿ* “know”, is the “knowing” spirit or the person who consults it (BDB; HALOT). The participles *hamᵉṣap̄ṣᵉp̄îm wᵉhammahgîm* “that chirp and mutter” describe the voices of the spirits (cf. 29:4, where the voice of the ghost from the dust *tᵉṣap̄ṣēp̄*), so the line renders the spirits, “the ghosts and the familiar spirits”, with JPS 1917 and NJPS (“the ghosts and familiar spirits that chirp and moan”). ASV's “them that have familiar spirits and … the wizards” renders the practitioners. “Ghost” matches 29:4 (`ob-yiddeoni-ghosts-familiar-spirits-isaiah`).\n\nThe second half of the verse is the main crux of the chapter. *hălôʾ-ʿam ʾel-ʾĕlōhāyw yiḏrōš, bᵉʿaḏ haḥayyîm ʾel-hammēṯîm* can be the prophet's reply: “should not a people seek their God? On behalf of the living, should they seek the dead?” (ASV and KJV, followed by the line). It can also continue the advisers' speech. JPS 1917 prints it so, opening the quotation before “Seek” and closing it only after “for instruction and for testimony?” in v 20, while still printing “their God”. NJPS also continues the quotation and takes *ʾĕlōhîm* as the spirits of the dead, as the woman of En-dor calls the shade of Samuel *ʾĕlōhîm* (1 Sam 28:13): “for a people may inquire of its divine beings — of the dead on behalf of the living —”, with the note “the shades of the dead”; NRSV is similar (“their gods”, not verified). On either form of this reading the quotation runs on into v 20a.\n\nThe Hebrew allows both. The line keeps the ASV construal, in which *ʾĕlōhāyw* is the God of Israel (`elohim-el-eloah-monotheistic-formula-isaiah`), and the choice is listed for review in the editor's report. On either construal the verse is one of the passages cited for the range of *ʾĕlōhîm*, which can denote the dead as well as the God of Israel.",
+        "official": "*hāʾōḇôṯ wᵉhayyiddᵉʿōnîm* are the pair named in the laws against necromancy (Lev 19:31; 20:6, 27; Deut 18:11) and in the story of the woman of En-dor (1 Sam 28:3, 9). *ʾôḇ* is the spirit of a dead person called up from the ground, or the medium who calls it; *yiddᵉʿōnî*, from *ydʿ* “know”, is the “knowing” spirit or the person who consults it (BDB; HALOT). The participles *hamᵉṣap̄ṣᵉp̄îm wᵉhammahgîm* “that chirp and mutter” describe the voices of the spirits (cf. 29:4, where the voice of the ghost from the dust *tᵉṣap̄ṣēp̄*), so the line renders the spirits, “the ghosts and the familiar spirits”, with JPS 1917 and NJPS (“the ghosts and familiar spirits that chirp and moan”). ASV's “them that have familiar spirits and … the wizards” renders the practitioners. “Ghost” matches 29:4 (`ob-yiddeoni-ghosts-familiar-spirits-isaiah`).\n\nThe second half of the verse is the main crux of the chapter. *hălôʾ-ʿam ʾel-ʾĕlōhāyw yiḏrōš, bᵉʿaḏ haḥayyîm ʾel-hammēṯîm* can be the prophet's reply: “should not a people seek their God? On behalf of the living, should they seek the dead?” (ASV and KJV, followed by the line). It can also continue the advisers' speech. JPS 1917 prints it so, opening the quotation before “Seek” and closing it only after “for instruction and for testimony?” in v 20, while still printing “their God”. NJPS also continues the quotation and takes *ʾĕlōhîm* as the spirits of the dead, as the woman of En-dor calls the shade of Samuel *ʾĕlōhîm* (1 Sam 28:13): “for a people may inquire of its divine beings — of the dead on behalf of the living —”, with the note “the shades of the dead”; NRSV is similar (“their gods”, not verified). On either form of this reading the quotation runs on into v 20a.\n\nThe Hebrew allows both. The line keeps the ASV construal, in which *ʾĕlōhāyw* is the God of Israel (`elohim-el-eloah-monotheistic-formula-isaiah`); the JPS 1917 and NJPS construal is the alternative reported above. On either construal the verse is one of the passages cited for the range of *ʾĕlōhîm*, which can denote the dead as well as the God of Israel.",
         "community": []
-      }
+      },
+      "translit": "wəkī-yōʾmərū ʾălēkem diršū ʾel-hāʾōbōt wəʾel-hayyiddəʿōnīm hamṣapṣəpīm wəhammahgīm hălōʾ-ʿam ʾel-ʾĕlōhāyw yidrōš bəʿad haḥayyīm ʾel-hammētīm"
     },
     {
       "n": 20,
@@ -705,7 +725,8 @@
       "notes": {
         "official": "*lᵉṯôrāh wᵉliṯʿûḏāh* repeats the pair of v 16. The line takes it with ASV as an exclamation, “To the teaching and to the testimony!”, so that the prophet's sealed teaching is set against the spirits. JPS 1917 and NJPS attach it to the end of the advisers' speech (NJPS “for instruction and message”), the construal that goes with their continued quotation in v 19.\n\nIn *ʾăšer ʾên-lô šāḥar*, *šaḥar* is “dawn” (NJPS “no dawn”; ASV “no morning”), the noun of 14:12. A second root *šḥr* “charm away”, as at 47:11, has been proposed here and would suit the magical context; the line keeps the common noun. The singular *lô* refers collectively to the speakers, and the line, with ASV, says “for them”.",
         "community": []
-      }
+      },
+      "translit": "lətōrāh wəlitʿūdāh ʾim-lōʾ yōʾmərū kaddābār hazzeh ʾăšer ʾēn-lō šāḥar"
     },
     {
       "n": 21,
@@ -722,7 +743,8 @@
       "notes": {
         "official": "The verse is singular in Hebrew (“he shall pass through it … his king and his God”), and the feminine *bāh* “through it” has no stated antecedent; it is usually taken as the land. With ASV the line uses the plural for the collective subject, the people of vv 19–20. NJPS keeps the singular (“And he shall go about in it wretched and hungry”) and notes that the sentence “would read well after v. 22”.\n\n*wᵉqillēl bᵉmalkô û-ḇēʾlōhāyw* “and curse by their king and by their God” keeps ASV and JPS 1917: *qillēl bᵉ-* can mean “curse by” (invoke in a curse) or “curse”, “revolt against” (NJPS “rage and revolt against his king and his divine beings”). Some commentators read *malkô* as a divine title (“his Melek”). *ʾĕlōhāyw* is rendered “God” for the same reason as in v 19; if the dead are meant there, the plural “his divine beings” of NJPS applies here too.",
         "community": []
-      }
+      },
+      "translit": "wəʿābar bāh niqšeh wərāʿēb wəhāyāh kī-yirʿab wəhitqaṣṣap wəqillēl bəmalkō ūbēʾlōhāyw ūpānāh ləmāʿəlāh"
     },
     {
       "n": 22,
@@ -739,7 +761,8 @@
       "notes": {
         "official": "*wᵉʾel-ʾereṣ yabbîṭ* “and they shall look to the earth” is the counterpart of *ûp̄ānāh lᵉmāʿᵉlāh* “and turn their faces upward” at the end of v 21: looking up to the sky and down to the ground, the people find only darkness. Because *ʾereṣ* is here the level below in a vertical contrast, the line renders “the earth” with ASV and JPS 1917 (NJPS “or he may look below”), under the cosmic context clause of the central `eretz` entry. Contrast 5:30 “the land”, where no upward/downward pairing is present.\n\n*ṣārāh waḥăšēḵāh mᵉʿûp̄ ṣûqāh, waʾăp̄ēlāh mᵉnuddāḥ* is difficult. The line keeps ASV, “distress and darkness, the gloom of anguish; and into thick darkness they shall be driven away”, taking *mᵉnuddāḥ* as a passive participle of *ndḥ* “drive away”. JPS 1917 reads “outspread thick darkness”, and NJPS marks both halves as uncertain (“with no daybreak … with no dawn”). *mᵉʿûp̄* “gloom” is picked up by *mûʿāp̄* in the next verse.",
         "community": []
-      }
+      },
+      "translit": "wəʾel-ʾereṣ yabbīṭ wəhinnēh ṣārāh waḥăšēkāh məʿūp ṣūqāh waʾăpēlāh mənuddāḥ"
     },
     {
       "n": 23,
@@ -757,7 +780,8 @@
       "notes": {
         "official": "Hebrew 8:23 is English 9:1 (ASV, NRSV). The project follows the Hebrew verse numbers, so chapter 9 opens with “The people who walked in darkness” (English 9:2).\n\n*kî lōʾ mûʿāp̄ laʾăšer mûṣāq lāh* turns the darkness of v 22 around. The line keeps ASV “But there shall be no gloom for her who was in anguish”, taking the hapax *mûʿāp̄* as “gloom” after *mᵉʿûp̄* in v 22. JPS 1917 makes it a question (“For is there no gloom to her that was stedfast?”). NJPS renders a conditional following the Great Isaiah Scroll (its note: “So 1QIsa; the others have ‘there is not’”); the line keeps the Masoretic negative (`mt-qere-textual-policy-isaiah`).\n\nThe second sentence sets two times and two verbs against each other: *hēqal* “brought into contempt” (literally “made light”) and *hiḵbîḏ* “made heavy”, which can mean “made glorious” or “dealt heavily with”. ASV, which the line follows, reads a reversal: “in the former time he brought into contempt … but in the latter time he has made it glorious”. JPS 1917 reads both clauses as judgment (“the former hath lightly afflicted … but the latter hath dealt a more grievous blow by the way of the sea”), a construal discussed in J. A. Emerton, “Some Linguistic and Historical Problems in Isaiah VIII. 23”, *JSS* 14 (1969) 151–175 (bibliographic details verified; his conclusion not checked). NJPS reads two kings instead of two times (“the former [king] … the later one”) and notes “Meaning of verse uncertain”. Matthew 4:15–16 quotes the verse, with 9:1, as a promise to Galilee. *gᵉlîl haggôyim* “Galilee of the nations” is the northern district along “the way of the sea”, annexed by Tiglath-pileser III in 733–732 BCE (2 Kgs 15:29).",
         "community": []
-      }
+      },
+      "translit": "kī lōʾ mūʿāp laʾăšer mūṣāq lāh kāʿēt hāriʾšōn hēqal ʾarṣāh zəbulūn wəʾarṣāh naptālī wəhāʾaḥărōn hikbīd derek hayyām ʿēber hayyardēn gəlīl haggōyim"
     }
   ],
   "editorial_questions": []

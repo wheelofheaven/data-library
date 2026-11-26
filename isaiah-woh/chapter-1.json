@@ -6,20 +6,20 @@
   "title": "Isaiah 1 — Hear, O skies: the rebellious children, the worthless offerings, and the faithful city",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.1",
-    "glossaryVersion": "2.93.0",
-    "overlayGlossaryVersion": "1.6.1",
+    "glossaryVersion": "3.0.0",
+    "overlayGlossaryVersion": "2.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T11:59:37Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T15:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T11:59:37Z",
@@ -342,7 +342,8 @@
       "lensLeakage": "Performed verse by verse on i18n.en for 1:1-31. No flags. Every line is a conventional scholarly rendering: ASV-baseline with NRSV/NJPS adjustments ('tinder', 'terebinths'). notes.community is empty at every verse, and no Wheel of Heaven reading appears in the text or the official notes. The book-wide house choices (YHWH, 'skies', 'Woe') are lexically grounded and recorded in the glossary.",
       "postEscalationAdjustments": "The escalation report was read after the initial verdicts were formed. No verdict changed. It confirmed that the Editor also suspected the participle at 1:31, which agrees with the revise. It also noted that the bakkûr conjecture was considered at 1:25, which is the source of the non-blocking suggestion to add it to the commentary.",
       "summary": "31 verses: 29 approve, 1 revise (1:31 'his work' -> 'its maker', following the MT participial pointing), 1 flag-for-human (1:29: the 1QIsaᵃ second-person claim in commentary is unverified). Glossary: 7 approve, 2 revise (lexical-cruxes-isaiah-1 sub-item 1:31; mt-qere addendum's 1:29 clause), 1 flag-for-human (ha-adon-articular-title-isaiah, a founder decision already escalated by the Editor; the reviewer finds 'the Lord' defensible). No speculative entries. No lens leakage."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -359,7 +360,8 @@
       "notes": {
         "official": "*ḥăzôn yᵉšaʿyāhû* “The vision of Isaiah” is the superscription of the whole book, not only of chapter 1. *ḥāzôn* names prophetic revelation as something “seen” (*ʾăšer ḥāzāh* “which he saw”), even where what follows is spoken oracle. The four kings date Isaiah’s activity to the second half of the eighth century BCE (Wildberger, *Isaiah 1–12*, Continental Commentary 1991; Blenkinsopp, *Isaiah 1–39*, AB 19, 2000).",
         "community": []
-      }
+      },
+      "translit": "ḥăzōn yəšaʿyāhū ben-ʾāmōṣ ʾăšer ḥāzāh ʿal-yəhūdāh wīrūšālim bīmē ʿuzziyyāhū yōtām ʾāḥāz yəḥizqiyyāhū malkē yəhūdāh"
     },
     {
       "n": 2,
@@ -377,7 +379,8 @@
       "notes": {
         "official": "*šimʿû šāmayim wᵉhaʾăzînî ʾereṣ* “Hear, O skies, and give ear, O earth”: the two halves of the cosmos are called as witnesses, as in Deut 32:1, and the chapter is commonly read as a covenant lawsuit (*rîḇ*) against Israel (Huffmon, “The Covenant Lawsuit in the Prophets,” *JBL* 78, 1959). *šāmayim* is “skies” under the central `shamayim` entry; *ʾereṣ*, paired with the skies, is “earth” under the cosmic clause of the central `eretz` entry. *pāšʿû bî* is “they have rebelled against me” (ASV, NRSV, NJPS). The same construction is “transgressed against me” at 43:27; here the parent-and-children frame of the verse makes “rebelled” the natural English (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "šimʿū šāmayim wəhaʾăzīnī ʾereṣ kī YHWH dibbēr bānīm giddaltī wərōmamtī wəhēm pāšəʿū bī"
     },
     {
       "n": 3,
@@ -391,7 +394,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "yādaʿ šōr qōnēhū waḥămōr ʾēbūs bəʿālāyw yiśrāʾēl lōʾ yādaʿ ʿammī lōʾ hitbōnān"
     },
     {
       "n": 4,
@@ -408,7 +412,8 @@
       "notes": {
         "official": "*hôy* is rendered “Woe” under the book-level ruling (overlay `hoy-woe-isaiah`), as at 29:1, 15 and 45:9, 10; ASV, NRSV and NJPS have “Ah” here. The cry is the opening of a funeral lament, turned against the living nation (Wildberger; Westermann, *Basic Forms of Prophetic Speech*, 1967). *qᵉḏôš yiśrāʾēl* “the Holy One of Israel” appears here for the first time: it is the characteristic divine title of the book, used in both its halves. *ʿăwōn* “iniquity” follows the central `avon-iniquity-cross-corpus-keyword` entry.",
         "community": []
-      }
+      },
+      "translit": "hōy | gōy ḥōṭēʾ ʿam kebed ʿāwn zeraʿ mərēʿīm bānīm mašḥītīm ʿāzəbū ʾet-YHWH niʾăṣū ʾet-qədōš yiśrāʾēl nāzōrū ʾāḥōr"
     },
     {
       "n": 5,
@@ -424,7 +429,8 @@
       "notes": {
         "official": "*ʿal meh tukkû ʿôḏ* “Why will you still be struck” follows ASV, NRSV and NJPS, and BDB, which gives *ʿal-meh* the sense “wherefore.” Some commentators take *ʿal meh* as “on what (part)?”, so that the question begins the image of the beaten body completed in v. 6 (“the whole head … from the sole of the foot even to the head”). The line keeps the usual sense; the body image is carried by the second half of the verse in either reading (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "ʿal meh tukkū ʿōd tōsīpū sārāh kol-rōʾš loḥŏlī wəkol-lēbāb dawwāy"
     },
     {
       "n": 6,
@@ -438,7 +444,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "mikkap-regel wəʿad-rōʾš ʾēn-bō mətōm peṣaʿ wəḥabbūrāh ūmakkāh ṭəriyyāh lōʾ-zōrū wəlōʾ ḥubbāšū wəlōʾ rukkəkāh baššāmen"
     },
     {
       "n": 7,
@@ -457,7 +464,8 @@
       "notes": {
         "official": "*kᵉmahpēḵaṯ zārîm* “like an overthrow by strangers” is the Masoretic Text, and the line keeps it (overlay `mt-qere-textual-policy-isaiah`). The noun *mahpēḵāh* is otherwise used only of the overthrow of Sodom and Gomorrah (Deut 29:22; Amos 4:11; Isa 13:19; Jer 49:18; 50:40), and Sodom and Gomorrah are named in vv. 9–10. For that reason many commentators, and the apparatus of BHS, emend the second *zārîm* to *sᵉḏōm*, “like the overthrow of Sodom” (Wildberger). No Hebrew manuscript or ancient version attests the emended text. The formula is recorded under the central `mahapekhah-overthrowing-formula` entry. *ʾaḏmaṯḵem* “your ground” follows the central `adam-adamah` entry, and *ʾarṣᵉḵem* “your land” the territorial sense of central `eretz`.",
         "community": []
-      }
+      },
+      "translit": "ʾarṣəkem šəmāmāh ʿārēkem śərupōt ʾēš ʾadmatkem lənegdəkem zārīm ʾōkəlīm ʾōtāh ūšəmāmāh kəmahpēkat zārīm"
     },
     {
       "n": 8,
@@ -473,7 +481,8 @@
       "notes": {
         "official": "*bat-ṣiyyôn* “the daughter of Zion” keeps the corpus wording (Micah, Zephaniah, Lamentations). The construction is appositional: the daughter who is Zion, the city personified as a young woman, which NRSV renders “daughter Zion.” *kᵉʿîr nᵉṣûrāh* “like a besieged city” (ASV, NRSV): the participle is from *nṣr* “watch, guard,” which can mean to watch a city in order to blockade it (Jer 4:16 *nōṣᵉrîm* “watchers,” that is, besiegers). The watchman’s booth and the hut of the preceding similes suggest the same root. NJPS “a city beleaguered” agrees (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "wənōtərāh bat-ṣiyyōn kəsukkāh bəkārem kimlūnāh bəmiqšāh kəʿīr nəṣūrāh"
     },
     {
       "n": 9,
@@ -490,7 +499,8 @@
       "notes": {
         "official": "*hôṯîr lānû śārîḏ kimʿāṭ* “left us a very small remnant”: the Masoretic accents (athnach on *kimʿāṭ*) join “a little” to the remnant, as ASV does. Several versions join it to the next clause: “we would almost have been like Sodom.” *śārîḏ* is the survivor of a disaster. It is not the remnant-keyword *šᵉʾār* / *šᵉʾērîṯ* of 10:20–22, so the central `she-erit-remnant-cross-corpus-theological-keyword` entry is not applied. The LXX has *sperma* “seed,” the form Paul quotes at Rom 9:29 (overlay `lexical-cruxes-isaiah-1`). “YHWH of hosts” follows overlay `yhwh-tzevaot-hosts-isaiah`.",
         "community": []
-      }
+      },
+      "translit": "lūlē YHWH ṣəbāʾōt hōtīr lānū śārīd kimʿāṭ kisdōm hāyīnū laʿămōrāh dāmīnū (s)"
     },
     {
       "n": 10,
@@ -507,7 +517,8 @@
       "notes": {
         "official": "*tôraṯ ʾĕlōhênû* “the teaching of our God” stands parallel to *dᵉḇar-YHWH* “the word of YHWH”: the prophet’s own instruction, not a written law-code. *tôrāh* is “teaching” under overlay `torah-teaching-isaiah` (ASV “law”; NJPS “instruction”), and “our God” follows overlay `elohai-elohenu-doxology-isaiah-25`. The leaders of Jerusalem are addressed as “rulers of Sodom” and “people of Gomorrah,” taking up the comparison of v. 9.",
         "community": []
-      }
+      },
+      "translit": "šimʿū dəbar-YHWH qəṣīnē sədōm haʾăzīnū tōrat ʾĕlōhēnū ʿam ʿămōrāh"
     },
     {
       "n": 11,
@@ -524,7 +535,8 @@
       "notes": {
         "official": "The verse opens the list of cultic acts in vv. 11–15: *zᵉḇāḥîm* “sacrifices,” *ʿōlôṯ* “burnt-offerings,” the fat and the blood. The terms follow the central `qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus` and `olah-burnt-offering` entries. The rejection of sacrifice offered without justice is shared with Amos 5:21–24, Hos 6:6 and Mic 6:6–8.",
         "community": []
-      }
+      },
+      "translit": "lāmmāh-lī rōb-zibḥēkem yōʾmar YHWH śābaʿtī ʿōlōt ʾēlīm wəḥēleb mərīʾīm wədam pārīm ūkəbāśīm wəʿattūdīm lōʾ ḥāpāṣəttī"
     },
     {
       "n": 12,
@@ -540,7 +552,8 @@
       "notes": {
         "official": "*lērāʾôṯ pānāy* “to appear before me” follows the Masoretic vowels, a Niphal infinitive with the *he* elided (GKC §51l). The same pointing occurs in the pilgrimage laws (Exod 23:15; 34:20, 24; Deut 16:16). Many scholars hold that the consonants were first read as the Qal, “to see my face,” and that the vowels were changed to avoid speaking of seeing God. The line keeps the pointed text (overlay `mt-qere-textual-policy-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "kī tābōʾū lērāʾōt pānāy mī-biqqēš zōʾt miyyedkem rəmōs ḥăṣērāy"
     },
     {
       "n": 13,
@@ -559,7 +572,8 @@
       "notes": {
         "official": "Three points. (1) *minḥaṯ-šāwʾ* “worthless meal-offerings”: *minḥāh* in this list of offerings is the grain offering, “meal-offering,” under the cultic-list clause of the central `qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus` entry (ASV “vain oblations”). (2) *qᵉṭōreṯ tôʿēḇāh hîʾ lî* “incense is an abomination to me” (ASV; central `toevah-abomination-cross-corpus-keyword`). The noun can also mean the smoke of a burnt sacrifice, and the line follows the usual sense. (3) *ʾāwen waʿăṣārāh* “iniquity with solemn assembly” is MT. The LXX, *nēsteian kai argian* “fasting and rest,” reflects *ṣôm* “fast” for *ʾāwen*, and some commentators adopt it. The line keeps MT (overlay `mt-qere-textual-policy-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "lōʾ tōsīpū hābīʾ minḥat-šāwəʾ qəṭōret tōʿēbāh hīʾ lī ḥōdeš wəšabbāt qərōʾ miqrāʾ lōʾ-ʾūkal ʾāwen waʿăṣārāh"
     },
     {
       "n": 14,
@@ -575,7 +589,8 @@
       "notes": {
         "official": "*môʿăḏêḵem* “your appointed feasts” (ASV; NRSV and NJPS “your festivals”). Paired with the new moons, *môʿăḏîm* here are the fixed festivals of the cultic year. The central `moadim` entry (“appointed times”) is scoped to the luminaries of Gen 1:14 and is not extended to this festival use (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "ḥādəšēkem ūmōʿădēkem śānəʾāh napšī hāyū ʿālay lāṭōraḥ nilʾētī nəśōʾ"
     },
     {
       "n": 15,
@@ -589,7 +604,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "ūbəpāriśkem kappēkem ʾaʿlīm ʿēnay mikkem gam kī-tarbū təpillāh ʾēnennī šōmēaʿ yədēkem dāmīm mālēʾū"
     },
     {
       "n": 16,
@@ -603,7 +619,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "raḥăṣū hizzakkū hāsīrū rōaʿ maʿallēkem minneged ʿēnāy ḥidlū hārēaʿ"
     },
     {
       "n": 17,
@@ -619,7 +636,8 @@
       "notes": {
         "official": "*ʾaššᵉrû ḥāmôṣ* “relieve the oppressed”: *ḥāmôṣ* occurs only here. The LXX (*rhysasthe adikoumenon* “rescue the wronged”) and the Vulgate (*subvenite oppresso*) take it as passive, as do ASV, NRSV and NJPS. The noun pattern can also be active, “the ruthless one” (BDB), and with *ʾiššēr* in the sense “set right” that gives “correct the oppressor,” a reading adopted by some modern versions (RSV “correct oppression”). The line follows the ancient versions (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "limdū hēṭēb diršū mišpāṭ ʾaššərū ḥāmōṣ šipṭū yātōm rībū ʾalmānāh (s)"
     },
     {
       "n": 18,
@@ -635,7 +653,8 @@
       "notes": {
         "official": "*lᵉḵû-nāʾ wᵉniwwāḵᵉḥāh* “Come now, and let us reason together” (ASV). The Niphal of *ykḥ* belongs to the language of the law court: to argue a case or settle a dispute (HALOT; NRSV “let us argue it out”; NJPS “let us reach an understanding”). It continues the lawsuit opened in v. 2. The two conditional clauses are read as promises, as in ASV and NJPS. Several commentators read them as rhetorical questions in the context of the indictment (“though your sins are like scarlet, shall they be white as snow?”). The Hebrew has no question marker, and the line keeps the statement form (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "ləkū-nāʾ wəniwwākəḥāh yōʾmar YHWH ʾim-yihyū ḥăṭāʾēkem kaššānīm kaššeleg yalbīnū ʾim-yaʾdīmū kattōlāʿ kaṣṣemer yihyū"
     },
     {
       "n": 19,
@@ -651,7 +670,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "ʾim-tōʾbū ūšəmaʿtem ṭūb hāʾāreṣ tōʾkēlū"
     },
     {
       "n": 20,
@@ -665,7 +685,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "wəʾim-təmāʾănū ūmərītem ḥereb təʾukkəlū kī pī YHWH dibbēr (s)"
     },
     {
       "n": 21,
@@ -681,7 +702,8 @@
       "notes": {
         "official": "*ʾêḵāh* “How” is the opening cry of the funeral lament (compare Lam 1:1). *zônāh* is “prostitute” under the central `zonah-prostitute-status-vocabulary-cross-corpus` entry; the image of the city as an unfaithful wife is used by Hosea, Jeremiah and Ezekiel as well. The *qiryāh neʾĕmānāh* “faithful city” returns at v. 26, framing the unit vv. 21–26.",
         "community": []
-      }
+      },
+      "translit": "ʾēkāh hāyətāh ləzōnāh qiryāh neʾĕmānāh məlēʾătī mišpāṭ ṣedeq yālīn bāh wəʿattāh məraṣṣəḥīm"
     },
     {
       "n": 22,
@@ -695,7 +717,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "kaspēk hāyāh ləsīgīm sābəʾēk māhūl bammāyim"
     },
     {
       "n": 23,
@@ -709,14 +732,15 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "śārayik sōrərīm wəḥabrē gannābīm kullō ʾōhēb šōḥad wərōdēp šalmōnīm yātōm lōʾ yišpōṭū wərīb ʾalmānāh lōʾ-yābōʾ ʾălēhem (p)"
     },
     {
       "n": 24,
       "refId": "ISA-1:24",
       "text": "לָכֵ֗ן נְאֻ֤ם הָֽאָדוֹן֙ יְהוָ֣ה צְבָא֔וֹת אֲבִ֖יר יִשְׂרָאֵ֑ל ה֚וֹי אֶנָּחֵ֣ם מִצָּרַ֔י וְאִנָּקְמָ֖ה מֵאוֹיְבָֽי׃",
       "i18n": {
-        "en": "Therefore says the Lord, YHWH of hosts, the Mighty One of Israel: Woe! I will ease myself of my adversaries, and avenge myself on my enemies.",
+        "en": "Therefore says the Sovereign, YHWH of hosts, the Mighty One of Israel: Woe! I will ease myself of my adversaries, and avenge myself on my enemies.",
         "he": "לָכֵ֗ן נְאֻ֤ם הָֽאָדוֹן֙ יְהוָ֣ה צְבָא֔וֹת אֲבִ֖יר יִשְׂרָאֵ֑ל ה֚וֹי אֶנָּחֵ֣ם מִצָּרַ֔י וְאִנָּקְמָ֖ה מֵאוֹיְבָֽי׃"
       },
       "glossaryRefs": [
@@ -727,9 +751,10 @@
         "lexical-cruxes-isaiah-1"
       ],
       "notes": {
-        "official": "*hā-ʾāḏôn* “the Lord” is the noun *ʾāḏôn* “lord, master” with the article, not the title *ʾăḏōnāy* rendered “the Lord” at 6:1 and elsewhere (overlay `adonai-standalone-title-isaiah`). The English line gives both forms as “the Lord” (ASV); NRSV and NJPS mark the articular form as “the Sovereign.” The decision is recorded in overlay `ha-adon-articular-title-isaiah`. *ʾăḇîr yiśrāʾēl* “the Mighty One of Israel” is the Isaiah form of the old title “the Mighty One of Jacob” (Gen 49:24; Ps 132:2, 5; central `avir-yaaqov-mighty-one-of-yaaqov-divine-title-cross-corpus`). *hôy* is “Woe” (overlay `hoy-woe-isaiah`); here it introduces a threat against YHWH’s adversaries. *ʾennāḥēm miṣṣāray* “I will ease myself of my adversaries” (ASV): the Niphal of *nḥm* with *min* means to get relief from, here by vengeance (BDB; NJPS “I will get satisfaction from my foes”) (overlay `lexical-cruxes-isaiah-1`).",
+        "official": "*hā-ʾāḏôn* “the Sovereign” is the noun *ʾāḏôn* “lord, master” with the article, not the title *ʾăḏōnāy* rendered “the Lord” at 6:1 and elsewhere (overlay `adonai-standalone-title-isaiah`). The line follows NRSV and NJPS “the Sovereign,” so that the two Hebrew forms keep distinct English; ASV has “the Lord” for both. The same articular title stands before “YHWH of hosts” at 3:1, 10:16, 10:33 and 19:4 (overlay `ha-adon-articular-title-isaiah`). *ʾăḇîr yiśrāʾēl* “the Mighty One of Israel” is the Isaiah form of the old title “the Mighty One of Jacob” (Gen 49:24; Ps 132:2, 5; central `avir-yaaqov-mighty-one-of-yaaqov-divine-title-cross-corpus`). *hôy* is “Woe” (overlay `hoy-woe-isaiah`); here it introduces a threat against YHWH’s adversaries. *ʾennāḥēm miṣṣāray* “I will ease myself of my adversaries” (ASV): the Niphal of *nḥm* with *min* means to get relief from, here by vengeance (BDB; NJPS “I will get satisfaction from my foes”) (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "lākēn nəʾum hāʾādōn YHWH ṣəbāʾōt ʾăbīr yiśrāʾēl hōy ʾennāḥēm miṣṣāray wəʾinnāqəmāh mēʾōyəbāy"
     },
     {
       "n": 25,
@@ -745,7 +770,8 @@
       "notes": {
         "official": "*wᵉʾeṣrōp̄ kabbōr sîḡāyiḵ* “and thoroughly smelt away your dross” follows ASV, which derives *bōr* from the noun “cleanness” (2 Sam 22:21, 25): “to purity,” hence “thoroughly.” NRSV and NJPS take *bōr* as “lye, potash” (Job 9:30; HALOT), a flux used in refining: “smelt away your dross as with lye.” The conjecture *bakkûr* “in the furnace” changes the text and is not adopted. *bᵉḏîlāyiḵ* is “your tin” (ASV; Num 31:22; Ezek 22:18, 20), the base metal mixed into silver; NRSV and NJPS have “alloy.” The refining image takes up v. 22, “your silver has become dross” (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "wəʾāšībāh yādī ʿālayik wəʾeṣrōp kabbōr sīgāyik wəʾāsīrāh kol-bədīlāyik"
     },
     {
       "n": 26,
@@ -759,7 +785,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "wəʾāšībāh šōpəṭayik kəbāriʾšōnāh wəyōʿăṣayik kəbattəḥillāh ʾaḥărē-kēn yiqqārēʾ lāk ʿīr haṣṣedeq qiryāh neʾĕmānāh"
     },
     {
       "n": 27,
@@ -775,7 +802,8 @@
       "notes": {
         "official": "*wᵉšāḇêhā* “and those of her who return” keeps the ambiguity of the Hebrew participle of *šûḇ*: those who turn back to YHWH (ASV “her converts”; NJPS “her repentant ones”) or those who come back to the city. The LXX, *hē aichmalōsia autēs* “her captivity,” reflects a different vocalisation, *šᵉḇyāh* (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "ṣiyyōn bəmišpāṭ tippādeh wəšābēhā biṣdāqāh"
     },
     {
       "n": 28,
@@ -791,7 +819,8 @@
       "notes": {
         "official": "*pōšʿîm* “transgressors” (ASV; NRSV and NJPS “rebels”). The chapter has three other words for rebellion, *mārāh* (v. 20), *sārar* (v. 23) and *sārāh* (v. 5). “Transgressors” keeps *pšʿ* distinct in English from *sôrᵉrîm* “rebels” in v. 23 (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "wəšeber pōšəʿīm wəḥaṭṭāʾīm yaḥdāw wəʿōzəbē YHWH yiklū"
     },
     {
       "n": 29,
@@ -808,7 +837,8 @@
       "notes": {
         "official": "Two points. (1) *yēḇōšû* “they shall be ashamed” is third person, and *ḥămaḏtem* “you desired” is second person. The person shift is MT and is kept, as in ASV (overlay `mt-qere-textual-policy-isaiah`). NRSV renders the second person throughout (“you shall be ashamed”). (2) *ʾêlîm* are large trees, terebinths. The line has “terebinths,” as in NJPS, to agree with *ʾēlāh* “terebinth” at 6:13, where the overlay keeps *ʾēlāh* distinct from *ʾallôn* “oak” (overlay `elah-terebinth-allon-oak-isaiah`; ASV “oaks”). The trees and *gannôṯ* “gardens” are sites of cult outside the Temple; compare 65:3, 66:17, and Hos 4:13.",
         "community": []
-      }
+      },
+      "translit": "kī yēbōšū mēʾēlīm ʾăšer ḥămadtem wətaḥpərū mēhaggannōt ʾăšer bəḥartem"
     },
     {
       "n": 30,
@@ -824,23 +854,26 @@
       "notes": {
         "official": "*kᵉʾēlāh nōḇeleṯ ʿālehā* “like a terebinth whose leaf withers”: *ʾēlāh* is “terebinth,” as at 6:13 (overlay `elah-terebinth-allon-oak-isaiah`; ASV “an oak”). The verse turns the trees and gardens of v. 29 into the image of the people’s own fate.",
         "community": []
-      }
+      },
+      "translit": "kī tihyū kəʾēlāh nōbelet ʿālehā ūkəgannāh ʾăšer-mayim ʾēn lāh"
     },
     {
       "n": 31,
       "refId": "ISA-1:31",
       "text": "וְהָיָ֤ה הֶחָסֹן֙ לִנְעֹ֔רֶת וּפֹעֲל֖וֹ לְנִיצ֑וֹץ וּבָעֲר֧וּ שְׁנֵיהֶ֛ם יַחְדָּ֖ו וְאֵ֥ין מְכַבֶּֽה׃ (ס)",
       "i18n": {
-        "en": "And the strong shall become tinder, and his work a spark; and both of them shall burn together, with none to quench them.",
+        "en": "And the strong shall become tinder, and its maker a spark; and both of them shall burn together, with none to quench them.",
         "he": "וְהָיָ֤ה הֶחָסֹן֙ לִנְעֹ֔רֶת וּפֹעֲל֖וֹ לְנִיצ֑וֹץ וּבָעֲר֧וּ שְׁנֵיהֶ֛ם יַחְדָּ֖ו וְאֵ֥ין מְכַבֶּֽה׃ (ס)"
       },
       "glossaryRefs": [
-        "lexical-cruxes-isaiah-1"
+        "lexical-cruxes-isaiah-1",
+        "mt-qere-textual-policy-isaiah"
       ],
       "notes": {
-        "official": "*hā-ḥāsōn* “the strong” occurs elsewhere only at Amos 2:9, “strong as the oaks.” *nᵉʿōreṯ* is the coarse fibre of flax, which catches fire at once (Judg 16:9); the line has “tinder” (NRSV, NJPS) for ASV “tow.” *ûp̄ōʿălô* “and his work” follows ASV and NRSV. The Masoretic vowels (holem on *pe*, hatef patah on *ʿayin*) are those of the Qal participle *pōʿēl* with suffix, “and its maker”: compare Job 36:3 *lᵉp̄ōʿălî* “to my Maker.” The noun *pōʿal* with the suffix is pointed *pāʿŏlô* (Jer 22:13; Prov 20:11). Read with the pointing, the verse is about the strong one and the one who made it, perhaps the idol and its maker. Because the book translates the pointed text (compare 1:12), the line may be revised to “and its maker a spark.” That decision is pending a founder ruling, and the line keeps “his work” until then (overlay `lexical-cruxes-isaiah-1`).",
+        "official": "*hā-ḥāsōn* “the strong” occurs elsewhere only at Amos 2:9, “strong as the oaks.” *nᵉʿōreṯ* is the coarse fibre of flax, which catches fire at once (Judg 16:9); the line has “tinder” (NRSV, NJPS) for ASV “tow.” *ûp̄ōʿălô* is “and its maker.” The Masoretic vowels (holem on *pe*, hatef patah on *ʿayin*) are those of the Qal participle *pōʿēl* with suffix: compare Job 36:3 *lᵉp̄ōʿălî* “to my Maker.” The noun *pōʿal* with the suffix is pointed *pāʿŏlô* (Jer 22:13; Prov 20:11). ASV and NRSV have “and his work,” which reads the noun and so presupposes that repointing. The line follows the pointed text, as at 1:12 (overlay `mt-qere-textual-policy-isaiah`). Read with the pointing, the verse is about the strong one and the one who made it, perhaps the idol and its maker (overlay `lexical-cruxes-isaiah-1`).",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh heḥāsōn linʿōret ūpōʿălō lənīṣōṣ ūbāʿărū šənēhem yaḥdāw wəʾēn məkabbeh (s)"
     }
   ],
   "editorial_questions": []

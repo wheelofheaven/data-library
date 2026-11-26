@@ -95,3 +95,12 @@ The shared glossaries were not touched.
 2. `isa-2-2-4-mic-4-1-3-zion-pilgrimage-parallel-cross-corpus` (central diff): ISA-2:5 is removed from appliesTo. Three Micah differences are added: Mic 4:1 *ʿālāyw* (Isa *ʾēlāyw*), the extra *hûʾ* in Mic 4:1, and Mic 4:2 *wᵉʾel-bêt*. There is also a note telling the micah-woh Editor not to carry Isaiah's wording across. To keep the chapter consistent, the ISA-2:5 paragraph no longer lists the entry in glossaryRefs, and its note says the entry does not extend to that verse.
 3. The suggested `mt-qere-textual-policy-isaiah` addendum (overlay diff version note) now reads "pending founder sign-off" instead of "signed off by name".
 4. 2:4 commentary: the unverified HALOT citation for *ʾittîm* is dropped. The note now says "ploughshare, mattock or hoe have all been proposed". The same softening is applied to the `lexical-cruxes-isaiah-2` rationale.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder accepted every recommended default in `wave-i1-signoff-package.md` ("Sign-off ok", 2026-11-26). `translation.status` and the `reviewerReport` block are untouched; the orchestrator promotes the chapter.
+
+1. **Decision 2, ʾāḏām/ʾîš, option C1.** 2:9 "So humankind is bowed down, and everyone is brought low — and do not forgive them!"; 2:11 and 2:17 "human loftiness" for *rûm ʾănāšîm* (chosen over "the loftiness of all people" because the Hebrew has no *kol*); 2:22 "Cease from humankind, who have breath in their nostrils; for of what account are they?". Commentary updated at 2:9, 2:11, 2:17, 2:20, 2:22. `adam-humankind-ish-man-isaiah` is rewritten to the C1 rule, with plural English pronouns for the collective at 2:20 and 2:22.
+2. **Decision 4, 2:20 "to the moles".** Every "pending founder sign-off" / "listed for sign-off" / "escalated" wording for 2:20 now reads "founder sign-off 2026-11-26". The suggested `mt-qere-textual-policy-isaiah` addendum, previously only in the version note, is now a `rationaleAppend` on the modify op, so the merge applies it.

@@ -33,7 +33,7 @@ No speculative glossary entry is proposed. One commentary item is labelled specu
 **Source:** וְנָשָׂא נֵס לַגּוֹיִם וְאָסַף נִדְחֵי יִשְׂרָאֵל וּנְפֻצוֹת יְהוּדָה יְקַבֵּץ מֵאַרְבַּע כַּנְפוֹת הָאָרֶץ
 **WoH reading (commentary only):** *The Book Which Tells the Truth* (TBWTT 5:25) reads the ingathering of Isa 43:5–7 as the creation of the State of Israel. The note says that reading the second gathering of 11:11–12 the same way is a project extension.
 **Why speculative:** the canon does not cite Isa 11. The extension goes beyond what any single source states.
-**Recommendation:** ship as worded. This follows the 4:5 precedent from wave I-1. If the founder prefers silence at verses the canon does not cite, drop the final paragraph of the 11:12 note. Nothing else depends on it.
+**Recommendation:** ship as worded (founder sign-off 2026-11-26: kept). This follows the 4:5 precedent from wave I-1. If the founder prefers silence at verses the canon does not cite, drop the final paragraph of the 11:12 note. Nothing else depends on it.
 
 ---
 
@@ -161,11 +161,20 @@ Only the non-decision corrections are applied here. `translation.status`, the `r
 4. **Central diff, `cherem-devote-to-destruction-cross-corpus`, follows from the Reviewer's flag.**
    - A `pendingFounderRuling` block, marked "PENDING FOUNDER RULING — do not apply unless ratified", stages the complete proposed wohChoice. It is the current text plus a non-war-object clause for 11:15, and can be applied verbatim if ratified.
    - The same block gives the rejection path: remove ISA-11:15 from appliesTo, drop the rationaleAppend, and restore ASV/JPS 1917 "utterly destroy" in the 11:15 line and note.
-   - The current appliesTo extension and the 11:15 line are left as drafted, pending the founder.
+   - The current appliesTo extension and the 11:15 line are left as drafted. Ratified 2026-11-26; see the final section.
 5. **Version notes.** Both diffs' version ops record the post-review changes. Overlay stays at 1.8.0, minor, because both amended entries are new in this diff. Central stays at 2.95.0. The bump effect of the two central wohChoice changes is stated for the orchestrator.
 
-**Still open for the founder:**
+**Still open for the founder** (the first three resolved 2026-11-26; see the final section):
 - The nēṣer split with 14:19 (Reviewer concurs with option B).
 - The 11:15 ḥērem scope (Reviewer recommends ratifying the non-war clause; the fallback is "utterly destroy").
 - The 11:12 speculative reception note.
 - An optional wording point, raised by the Reviewer: "cause people to march over dryshod" for the supplied "men" at 11:15.
+
+## Founder rulings applied (2026-11-26)
+
+The founder signed off wave I-3 with every recommended default ("Sign-off ok", 2026-11-26; `wave-i3-signoff-package.md`), together with wave I-1 decisions 1 and 2. `translation.status` and the `reviewerReport` block are unchanged. Statements above marked pending or provisional are settled as follows.
+
+- **11:15 ḥērem:** "devote to destruction" stands. In `wave-i3-ch11-central-diff.json` the staged wohChoice was moved verbatim into the cherem op's `changes.wohChoice`, the `pendingFounderRuling` block was deleted, one ratification sentence was appended to the rationaleAppend, and the version note was updated. This modifies an existing wohChoice, so the strict policy is a major bump.
+- **nēṣer:** "twig" at 11:1 stands. The book rule is written into `choter-netser-geza-shoot-twig-stock-isaiah-11` (wohChoice and rationale): the stable 14:19 is to be revised to "a loathed shoot" at its next revision, and 60:21 follows. Chapter 14 is not edited. The 11:1 note no longer says the question is escalated.
+- **11:12 reception note:** kept (founder sign-off 2026-11-26).
+- **11:15 "cause men to march over dryshod":** this optional point was not in the sign-off decisions. The line is unchanged, and it stays open for a later pass.

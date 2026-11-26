@@ -26,12 +26,12 @@ The Translator had already printed "the young woman" (7:14), "test" (7:12), "whi
 
 There are no speculative glossary entries. Of the six new overlay entries, five are `direct` and one is `inferred` (`qutz-dread-isaiah-7`).
 
-### Speculative commentary paragraph at ISA-7:14 (sign-off requested by name)
+### Speculative commentary paragraph at ISA-7:14 (founder sign-off 2026-11-26)
 
 **Location:** the final paragraph of `notes.official` at ISA-7:14, headed "Wheel of Heaven reading (speculative; commentary only)".
 **Content:** the canon reads the conception in Matt 1:18–20 as the birth of "a child issued from a woman and from one of their own" (TBWTT 4:3, wording checked in `the-book-which-tells-the-truth/chapter-4.json`). The canon does not cite Isa 7:14 there. Carrying that reading to this verse goes through Matthew's Greek, not the Hebrew. The Hebrew says nothing about how the child is conceived, and the line is unaffected.
 **Why speculative:** applying the canon's Matthew reading to Isaiah 7:14 is a project extension. No source makes that link: the canon does not cite Isaiah, and the Hebrew does not support it.
-**Recommendation:** ship it as written. Wave ruling 3 permits exactly this form, and the paragraph tells the reader where the lens stops. If the founder prefers that the most-scrutinised verse in the book carry no lens paragraph at all, drop it. Nothing else depends on it.
+**Recommendation:** ship it as written (founder sign-off 2026-11-26: kept). Wave ruling 3 permits exactly this form, and the paragraph tells the reader where the lens stops. If the founder prefers that the most-scrutinised verse in the book carry no lens paragraph at all, drop it. Nothing else depends on it.
 
 ---
 
@@ -173,7 +173,7 @@ The changes are in commentary, in the two wave diff files and in this report.
    - The same updates are made in `almah-young-woman-isaiah-7-14` (rationale, which now also quotes BDB's gloss "maid or newly married") and in the `mt-qere-textual-policy-isaiah` addendum.
 3. **`almah-young-woman-isaiah-7-14`.** "ASV here translates the Greek text" now reads "ASV here follows the rendering of the Greek text cited in Matt 1:23".
 4. **Central housekeeping note** (`isa-7-14-virgin-birth-…`).
-   - Still pending founder approval. The Reviewer endorses points (1) and (2) as accurate.
+   - Approved by the founder 2026-11-26 and applied through `wave-i3-orchestrator-ops.json` central.set. The Reviewer endorses points (1) and (2) as accurate.
    - Point (2) now names ETTMTTP 2:62 as the likely source of the "Mary-genome" confusion. That passage is about recreating Jesus from a preserved cell after the crucifixion, not about the conception.
    - Two further points are added, marked "to verify before applying". (3) RSV Matt 1:23 reads "a virgin shall conceive", so the entry is wrong to group RSV with ASV. (4) The entry uses Joel 1:8 as a plain "virgin" text, but it is the counter-case.
 5. **Optional items applied.** NJPS is now named in three notes:
@@ -184,8 +184,17 @@ The changes are in commentary, in the two wave diff files and in this report.
 **Superseded statements in this report:** the "readings not verified" escalation above is now partly out of date. The LXX *kaléseis*, Justin (Dial. 43, 67) and Irenaeus (AH 3.21.1) are verified by the Reviewer. Only 1QIsaᵃ *wqrʾ* remains unverified.
 The 7:6 escalation's offer to restore "vex it" is withdrawn, since the Reviewer keeps "terrify it".
 
-**Still for the founder:**
+**Still for the founder** (all resolved 2026-11-26; see the final section):
 - 7:13, "men" or "people" (wave I-1 decision 2)
 - the speculative paragraph at 7:14 (the Reviewer approved it as written)
 - the 7:14 departure from the ASV
 - the central housekeeping note
+
+## Founder rulings applied (2026-11-26)
+
+The founder signed off wave I-3 with every recommended default ("Sign-off ok", 2026-11-26; `wave-i3-signoff-package.md`), together with wave I-1 decisions 1 and 2. `translation.status` and the `reviewerReport` block are unchanged. Statements above marked pending or provisional are settled as follows.
+
+- **ISA-7:13** (wave I-1 decision 2, C1): line "to weary men" → "to weary people". Commentary rewritten to give ASV/NJPS "men" and NRSV "mortals". Recorded in `lexical-cruxes-isaiah-7` (wohChoice item and one rationale sentence). `adam-humankind-ish-man-isaiah` is not extended: its scope excludes ʾănāšîm outside the 2:9–22 / 5:15 refrain.
+- **ISA-7:14 speculative paragraph:** kept (founder sign-off 2026-11-26).
+- **ISA-7:14 "the young woman":** stands.
+- **Central Matt 1:23 housekeeping:** all four points approved. Full corrected `standardEnglish`, `wohChoice` and `rationale` are written in `wave-i3-orchestrator-ops.json` central.set, and the note op in `wave-i3-ch7-central-diff.json` is marked applied. Because existing text changes, the strict policy is a major bump.

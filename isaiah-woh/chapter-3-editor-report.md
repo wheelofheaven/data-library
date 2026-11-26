@@ -149,3 +149,11 @@ No English line, `translation.status` (still `awaiting-human`) or `reviewerRepor
 
 The escalation on ISA-3:1 (hā-ʾāḏôn) still awaits a founder ruling.
 The Reviewer adds that option B, "the Sovereign", has strong modern precedent, and confirms the five-site list (10:16 included).
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder accepted every recommended default in `wave-i1-signoff-package.md` ("Sign-off ok", 2026-11-26). `translation.status` and the `reviewerReport` block are untouched; the orchestrator promotes the chapter.
+
+1. **Decision 1, hā-ʾāḏôn, option B.** ISA-3:1 now reads "For behold, the Sovereign, YHWH of hosts, …"; commentary updated, and the verse's glossaryRef renamed to `ha-adon-articular-title-isaiah` (the merged id). The `ha-adon-definite-title-isaiah` add op records the ruling and is marked as superseded at merge; the two `rationaleAppend` texts that named it now point at the merged entry.

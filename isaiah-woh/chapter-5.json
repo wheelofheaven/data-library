@@ -6,19 +6,19 @@
   "title": "Isaiah 5 — The Song of the Vineyard and the six woes",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.5",
-    "glossaryVersion": "2.93.0",
-    "overlayGlossaryVersion": "1.6.1",
+    "glossaryVersion": "3.0.0",
+    "overlayGlossaryVersion": "2.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T12:00:50Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T15:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T12:00:50Z",
@@ -365,7 +365,8 @@
       "lensLeakageCheck": "All 30 English lines were checked against the re-parsed MT. None carries a project reading: YHWH of hosts, God the Holy One, She'ol and 'teaching' are the standard or glossary-ratified values, and every departure from ASV (5:7 'bloodshed', 5:14 'throat', 5:25 'turned away') is lexical and has mainstream support. The 5:15 question is a register/gender-language issue, not lens leakage. No flags.",
       "escalationReportAdjustments": "The escalation report was read after the initial verdicts. It added no new philological information; its item 10 repeats the JPS 1917 attribution for 5:14, which a direct check of JPS 1917 shows is wrong, so the 5:14 revise stands. Its 5:15 escalation matches the flag-for-human already given. No verdict was changed.",
       "summary": "Verse verdicts: 28 approve, 1 revise (5:14, commentary only: JPS 1917 misattributed for the 'her' suffixes; NRSV is the right citation), 1 flag-for-human (5:15 ʾāḏām/ʾîš, which needs one ruling for 2:9, 2:11, 2:17 and 5:15; reviewer leans to 'humankind ... everyone'). No English line is wrong. Glossary: 13 approve (4 new overlay entries, 5 overlay extensions, 4 central extensions), 0 downgrades, no speculative entries. No lens leakage. Specific checks: 5:7 'bloodshed' approved (BDB, NRSV); 5:14 'throat' approved (HALOT, Wolff, NJPS); 5:25 refrain wording approved and fit to fix for Heb. 9:11, 16, 20; 10:4."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -378,7 +379,8 @@
       "notes": {
         "official": "*šîraṯ dôḏî* — the prophet sings *lîḏîḏî* “for my beloved” a song *of* (or *about*) his beloved, and the friend's vineyard. The translation keeps ASV's “a song of my beloved concerning his vineyard”; NRSV's “my love-song” reads *dôḏî* as “my love,” often by emending to *dôḏîm*, and is not adopted. The love-song genre is the bait: the poem opens as a wedding-feast song and turns, at v 3, into a lawsuit in which the owner speaks for himself and the hearers are made judges of their own case — the juridical-parable form of Nathan's ewe-lamb story (2 Sam 12:1–7; Yee, *CBQ* 43 [1981] 30–40; Wildberger, *Isaiah 1–12*, 1991; Williamson, ICC *Isaiah 1–5*, 2006).\n\n*bᵉqeren ben-šāmen* is literally “on a horn, a son of oil”: a hilltop (“horn”) of rich soil (“son of oil” = fat, fertile). The line gives the sense with ASV, “on a very fruitful hill.”"
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "ʾāšīrāh nāʾ līdīdī šīrat dōdī ləkarmō kerem hāyāh līdīdī bəqeren ben-šāmen"
     },
     {
       "n": 2,
@@ -390,7 +392,8 @@
       "notes": {
         "official": "*bᵉʾušîm* (also v 4), from *bʾš* “to stink,” names the bad fruit. BDB glosses “stinking or worthless things, wild grapes”; the translation keeps the standard “wild grapes” (ASV, JPS 1917, NRSV), and the root's sense of rotten, foul-smelling fruit is noted here."
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "wayʿazzəqēhū waysaqqəlēhū wayyiṭṭāʿēhū śōrēq wayyiben migdāl bətōkō wəgam-yeqeb ḥāṣēb bō wayqaw laʿăśōt ʿănābīm wayyaʿaś bəʾušīm"
     },
     {
       "n": 3,
@@ -402,7 +405,8 @@
       "notes": {
         "official": "From this verse the owner speaks in the first person (“between me and my vineyard”) without any marked change of speaker; v 7 then names him as YHWH of hosts. The translation adds no quotation marks for vv 3–6, keeping the unmarked shift the Hebrew uses (as ASV)."
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "wəʿattāh yōšēb yərūšālim wəʾīš yəhūdāh šipṭū-nāʾ bēnī ūbēn karmī"
     },
     {
       "n": 4,
@@ -414,7 +418,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "mah-laʿăśōt ʿōd ləkarmī wəlōʾ ʿāśītī bō maddūaʿ qiwwētī laʿăśōt ʿănābīm wayyaʿaś bəʾušīm"
     },
     {
       "n": 5,
@@ -428,7 +433,8 @@
       },
       "glossaryRefs": [
         "baar-graze-vineyard-isaiah-5"
-      ]
+      ],
+      "translit": "wəʿattāh ʾōdīʿāh-nāʾ ʾetkem ʾēt ʾăšer-ʾănī ʿōśeh ləkarmī hāsēr məśūkkātō wəhāyāh ləbāʿēr pārōṣ gədērō wəhāyāh ləmirmās"
     },
     {
       "n": 6,
@@ -440,7 +446,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "waʾăšītēhū bātāh lōʾ yizzāmēr wəlōʾ yēʿādēr wəʿālāh šāmīr wāšāyit wəʿal heʿābīm ʾăṣawweh mēhamṭīr ʿālāyw māṭār"
     },
     {
       "n": 7,
@@ -456,7 +463,8 @@
         "yhwh-tzevaot-hosts-isaiah",
         "mishpach-tseaqah-wordplay-isaiah-5",
         "zaaqah-outcry-of-the-oppressed"
-      ]
+      ],
+      "translit": "kī kerem YHWH ṣəbāʾōt bēt yiśrāʾēl wəʾīš yəhūdāh nəṭaʿ šaʿăšūʿāyw wayqaw ləmišpāṭ wəhinnēh miśpāḥ liṣdāqāh wəhinnēh ṣəʿāqāh (s)"
     },
     {
       "n": 8,
@@ -469,8 +477,10 @@
         "official": "*hôy* opens the first of six woe-sayings (vv 8, 11, 18, 20, 21, 22), rendered “Woe” throughout. *ʾereṣ* here is the land of Israel, whose fields are being absorbed into great estates, and is rendered “land” (central `eretz`); contrast “the end of the earth” in v 26."
       },
       "glossaryRefs": [
-        "eretz"
-      ]
+        "eretz",
+        "hoy-woe-isaiah"
+      ],
+      "translit": "hōy maggīʿē bayit bəbayit śādeh bəśādeh yaqrībū ʿad ʾepes māqōm wəhūšabtem ləbaddəkem bəqereb hāʾāreṣ"
     },
     {
       "n": 9,
@@ -484,7 +494,8 @@
       },
       "glossaryRefs": [
         "yhwh-tzevaot-hosts-isaiah"
-      ]
+      ],
+      "translit": "bəʾoznāy YHWH ṣəbāʾōt ʾim-lōʾ bāttīm rabbīm ləšammāh yihyū gədōlīm wəṭōbīm mēʾēn yōšēb"
     },
     {
       "n": 10,
@@ -496,7 +507,8 @@
       "notes": {
         "official": "*ṣimdê-ḵerem* are “yokes” of vineyard, the area a yoke of oxen ploughs in a day (ASV “acres”). A *bath* is a liquid measure and a *homer* is ten *ephahs* (Ezek 45:11), so the sown field returns a tenth of its seed."
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "kī ʿăśeret ṣimdē-kerem yaʿăśū bat ʾeḥāt wəzeraʿ ḥōmer yaʿăśeh ʾēpāh (p)"
     },
     {
       "n": 11,
@@ -508,7 +520,10 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [
+        "hoy-woe-isaiah"
+      ],
+      "translit": "hōy maškīmē babbōqer šēkār yirdōpū məʾaḥărē bannešep yayin yadlīqēm"
     },
     {
       "n": 12,
@@ -520,7 +535,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "wəhāyāh kinnōr wānebel tōp wəḥālīl wāyayin mištēhem wəʾēt pōʿal YHWH lōʾ yabbīṭū ūmaʿăśēh yādāyw lōʾ rāʾū"
     },
     {
       "n": 13,
@@ -534,7 +550,8 @@
       },
       "glossaryRefs": [
         "mt-qere-textual-policy-isaiah"
-      ]
+      ],
+      "translit": "lākēn gālāh ʿammī mibbəlī-dāʿat ūkəbōdō mətē rāʿāb wahămōnō ṣiḥēh ṣāmāʾ"
     },
     {
       "n": 14,
@@ -549,19 +566,23 @@
       "glossaryRefs": [
         "sheol-underworld-realm-of-the-dead",
         "nefesh-throat-sheol-isaiah-5"
-      ]
+      ],
+      "translit": "lākēn hirḥībāh šəʾōl napšāh ūpāʿărāh pīhā liblī-ḥōq wəyārad hădārāh wahămōnāh ūšəʾōnāh wəʿālēz bāh"
     },
     {
       "n": 15,
       "refId": "ISA-5:15",
       "text": "וַיִּשַּׁ֥ח אָדָ֖ם וַיִּשְׁפַּל־אִ֑ישׁ וְעֵינֵ֥י גְבֹהִ֖ים תִּשְׁפַּֽלְנָה׃",
       "i18n": {
-        "en": "And humankind is bowed down, and man is brought low, and the eyes of the lofty are brought low."
+        "en": "And humankind is bowed down, and everyone is brought low, and the eyes of the lofty are brought low."
       },
       "notes": {
-        "official": "*wayyiššaḥ ʾāḏām wayyišpal-ʾîš* repeats 2:9 (cf. 2:11, 17). The translation reads the two nouns as synonyms, “humankind … man” (JPS 1917 “man … man”; NRSV “people … everyone”). ASV's “the mean man … the great man” reads a social merism the text does not mark; it is recorded here as the main alternative. The rendering of this pair across 2:9–17 and 5:15 is under review (see the editor report)."
+        "official": "*wayyiššaḥ ʾāḏām wayyišpal-ʾîš* repeats 2:9 (cf. 2:11, 17), and the line renders it as there, “humankind is bowed down, and everyone is brought low.” The two nouns are read as synonyms (JPS 1917 “man … man”; NRSV “people … everyone”), and *ʾîš* is “everyone” so that the pair is not split between a neutral and a gendered English word (overlay `adam-humankind-ish-man-isaiah`). ASV's “the mean man … the great man” reads a social merism the text does not mark; it is recorded here as the main alternative."
       },
-      "glossaryRefs": []
+      "glossaryRefs": [
+        "adam-humankind-ish-man-isaiah"
+      ],
+      "translit": "wayyiššaḥ ʾādām wayyišpal-ʾīš wəʿēnē gəbōhīm tišpalnāh"
     },
     {
       "n": 16,
@@ -576,7 +597,8 @@
       "glossaryRefs": [
         "yhwh-tzevaot-hosts-isaiah",
         "elohim-el-eloah-monotheistic-formula-isaiah"
-      ]
+      ],
+      "translit": "wayyigbah YHWH ṣəbāʾōt bammišpāṭ wəhāʾēl haqqādōš niqdāš biṣdāqāh"
     },
     {
       "n": 17,
@@ -590,7 +612,8 @@
       },
       "glossaryRefs": [
         "mt-qere-textual-policy-isaiah"
-      ]
+      ],
+      "translit": "wərāʿū kəbāśīm kədābərām wəḥārəbōt mēḥīm gārīm yōʾkēlū"
     },
     {
       "n": 18,
@@ -603,8 +626,10 @@
         "official": ""
       },
       "glossaryRefs": [
-        "avon-iniquity-cross-corpus-keyword"
-      ]
+        "avon-iniquity-cross-corpus-keyword",
+        "hoy-woe-isaiah"
+      ],
+      "translit": "hōy mōšəkē heʿāwn bəḥablē haššāwəʾ wəkaʿăbōt hāʿăgālāh ḥaṭṭāʾāh"
     },
     {
       "n": 19,
@@ -616,7 +641,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "hāʾōmərīm yəmahēr | yāḥīšāh maʿăśēhū ləmaʿan nirʾeh wətiqrab wətābōʾāh ʿăṣat qədōš yiśrāʾēl wənēdāʿāh (s)"
     },
     {
       "n": 20,
@@ -628,7 +654,10 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [
+        "hoy-woe-isaiah"
+      ],
+      "translit": "hōy hāʾōmərīm lāraʿ ṭōb wəlaṭṭōb rāʿ śāmīm ḥōšek ləʾōr wəʾōr ləḥōšek śāmīm mar ləmātōq ūmātōq ləmār (s)"
     },
     {
       "n": 21,
@@ -640,7 +669,10 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [
+        "hoy-woe-isaiah"
+      ],
+      "translit": "hōy ḥăkāmīm bəʿēnēhem wəneged pənēhem nəbōnīm"
     },
     {
       "n": 22,
@@ -652,7 +684,10 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [
+        "hoy-woe-isaiah"
+      ],
+      "translit": "hōy gibbōrīm lištōt yāyin wəʾanšē-ḥayil limsōk šēkār"
     },
     {
       "n": 23,
@@ -664,7 +699,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "maṣdīqē rāšāʿ ʿēqeb šōḥad wəṣidqat ṣaddīqīm yāsīrū mimmennū (s)"
     },
     {
       "n": 24,
@@ -679,7 +715,8 @@
       "glossaryRefs": [
         "torah-teaching-isaiah",
         "yhwh-tzevaot-hosts-isaiah"
-      ]
+      ],
+      "translit": "lākēn keʾĕkōl qaš ləšōn ʾēš waḥăšaš lehābāh yirpeh šoršām kammāq yihyeh ūpirḥām kāʾābāq yaʿăleh kī māʾăsū ʾēt tōrat YHWH ṣəbāʾōt wəʾēt ʾimrat qədōš-yiśrāʾēl niʾēṣū"
     },
     {
       "n": 25,
@@ -693,7 +730,8 @@
       },
       "glossaryRefs": [
         "bekhol-zot-lo-shav-appo-refrain-isaiah"
-      ]
+      ],
+      "translit": "ʿal-kēn ḥārāh ʾap-YHWH bəʿammō wayyēṭ yādō ʿālāyw wayyakkēhū wayyirgəzū hehārīm wattəhī niblātām kassūḥāh bəqereb ḥūṣōt bəkol-zōʾt lōʾ-šāb ʾappō wəʿōd yādō nəṭūyāh"
     },
     {
       "n": 26,
@@ -706,8 +744,11 @@
         "official": "After *laggôyim mērāḥôq* “for the nations from afar,” every pronoun and verb through v 30 is singular (*lô* “for it,” *yāḇôʾ* “it comes”), picturing one army. Many emend to *lᵉḡôy mimmerḥāq* “for a nation from afar” (cf. Jer 5:15; NRSV). The translation keeps MT “nations” and, with ASV and JPS 1917, renders the singulars as collective “them / they.” *miqqᵉṣēh hāʾāreṣ* is the horizon idiom, “from the end of the earth” (overlay `eretz-cosmic-scope-isaiah-24`)."
       },
       "glossaryRefs": [
-        "eretz-cosmic-scope-isaiah-24"
-      ]
+        "eretz-cosmic-scope-isaiah-24",
+        "sharaq-whistle-isaiah",
+        "nes-signal-isaiah"
+      ],
+      "translit": "wənāśāʾ-nēs laggōyim mērāḥōq wəšāraq lō miqṣēh hāʾāreṣ wəhinnēh məhērāh qal yābōʾ"
     },
     {
       "n": 27,
@@ -719,7 +760,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "ʾēn-ʿāyēp wəʾēn-kōšēl bō lōʾ yānūm wəlōʾ yīšān wəlōʾ niptaḥ ʾēzōr ḥălāṣāyw wəlōʾ nittaq śərōk nəʿālāyw"
     },
     {
       "n": 28,
@@ -731,7 +773,8 @@
       "notes": {
         "official": ""
       },
-      "glossaryRefs": []
+      "glossaryRefs": [],
+      "translit": "ʾăšer ḥiṣṣāyw šənūnīm wəkol-qaššətōtāyw dərukōt parsōt sūsāyw kaṣṣar neḥšābū wəgalgillāyw kassūpāh"
     },
     {
       "n": 29,
@@ -745,7 +788,8 @@
       },
       "glossaryRefs": [
         "mt-qere-textual-policy-isaiah"
-      ]
+      ],
+      "translit": "šəʾāgāh lō kallābīʾ wšʾg [yišʾag] kakkəpīrīm wəyinhōm wəyōʾḥēz ṭerep wəyaplīṭ wəʾēn maṣṣīl"
     },
     {
       "n": 30,
@@ -759,7 +803,8 @@
       },
       "glossaryRefs": [
         "eretz"
-      ]
+      ],
+      "translit": "wəyinhōm ʿālāyw bayyōm hahūʾ kənahămat-yām wənibbaṭ lāʾāreṣ wəhinnēh-ḥōšek ṣar wāʾōr ḥāšak baʿărīpēhā (p)"
     }
   ],
   "editorial_questions": []

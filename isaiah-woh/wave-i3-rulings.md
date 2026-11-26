@@ -16,7 +16,7 @@ These rulings span chapters and are fixed so that the six parallel Editors stay 
    - Other place names take the ASV spelling unless a glossary entry fixes another form.
 5. **ḥānēp̄.** "godless" at 9:16 and 10:6, matching the stable 32:6 "godlessness".
 6. **Concordance.** "glory" for kāḇôḏ is strict. "splendor" for hāḏār, "honor" for tip̄ʾereṯ and "majesty" for gāʾôn are the defaults. Where the idiom forbids one (for example 10:12 tip̄ʾereṯ rûm ʿênāyw), the Editor may depart, provided the departure is recorded in commentary and in the diff.
-7. **hā-ʾāḏôn (10:16, 33).** Provisionally "the Sovereign". Carry only `ha-adon-articular-title-isaiah`; the orchestrator merges `ha-adon-definite-title-isaiah` into it.
+7. **hā-ʾāḏôn (10:16, 33).** "the Sovereign". This was provisional and was confirmed by founder ruling 2026-11-26 (wave I-1 decision 1, option B). Carry only `ha-adon-articular-title-isaiah`; the orchestrator merges `ha-adon-definite-title-isaiah` into it.
 8. **Tense in the poem of 9:7–20.** The chapter 9 Editor decides. The chapter 10 oracle (10:1–4) is a separate woe-oracle and keeps its own tenses. Only its refrain is fixed.
 9. **Citations.** Cite NRSV, NJPS, LXX, 1QIsaᵃ or a lexicon only when confident. Otherwise write "not verified".
 10. **Diff files.** `wave-i3-ch<N>-overlay-diff.json` and `wave-i3-ch<N>-central-diff.json` take the list-of-ops format. Base versions: overlay 1.6.1 (to be 1.7.0 after wave I-1; propose 1.8.0) and central 2.93.0 (propose 2.95.0). Never edit a shared glossary, and never touch `wave-i1-*` or `wave-i2-*` files.

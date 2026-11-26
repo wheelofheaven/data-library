@@ -6,20 +6,20 @@
   "title": "Isaiah 9 — The great light, the child born to us, and the hand stretched out still",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.9",
-    "glossaryVersion": "2.93.0",
-    "overlayGlossaryVersion": "1.6.1",
+    "glossaryVersion": "3.0.0",
+    "overlayGlossaryVersion": "2.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T13:56:06Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T15:00:00Z",
+    "status": "stable",
     "editorDiffs": [
       "wave-i3-ch9-overlay-diff.json",
       "wave-i3-ch9-central-diff.json"
@@ -333,7 +333,8 @@
         "Sefaria's English JPS versions (NJPS 1985, JPS 1917, Gender-Sensitive Edition) are served for Isaiah 9 in HEBREW versification (v. 5 = 'For a child has been born to us'), not English; NJPS citations above use Hebrew numbers. NRSV is cited from memory in English numbering and is marked so.",
         "Lens-leakage check performed on all 20 English lines: none reads as exegesis; 'Mighty God' and 'YHWH' are standard; the WoH material at 9:5 is confined to a labelled commentary paragraph."
       ]
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -351,7 +352,8 @@
       "notes": {
         "official": "*ṣalmāwet* is rendered “deep darkness,” not ASV’s “the shadow of death.” The decision is recorded in the overlay entry `tzalmavet-deep-darkness-isaiah`, which takes up the lexeme ruling of the central `sha-arei-mavet` (Job 38:17). Most modern lexica derive the word from *ṣlm* “be dark” (HALOT), and NRSV has “deep darkness”; NJPS gives the same sense with “a land of gloom.” The Masoretic pointing, with *-māwet*, reflects the older analysis *ṣēl* “shadow” + *māwet* “death,” the source of the KJV and ASV phrase. In this verse the word stands in parallel with *ḥōšeḵ* “darkness,” which supports the sense “deep darkness.”\n\nThe verse numbering is Hebrew. English Bibles number it 9:2, because the Hebrew 8:23 is their 9:1. Matthew 4:15–16 quotes the Hebrew 8:23–9:1 for the Galilean ministry. That use is reception history and does not affect the rendering.",
         "community": []
-      }
+      },
+      "translit": "hāʿām hahōləkīm baḥōšek rāʾū ʾōr gādōl yōšəbē bəʾereṣ ṣalmāwet ʾōr nāgah ʿălēhem"
     },
     {
       "n": 2,
@@ -367,7 +369,8 @@
       "notes": {
         "official": "The verse has a ketiv/qere. The written text has *lōʾ* “not” (“you have not increased the joy,” KJV) and the qere reads *lô* “to it.” The line follows the qere, “you have increased its joy” (ASV), under `mt-qere-textual-policy-isaiah`. The ketiv makes poor sense beside the parallel “you have multiplied the nation.” Many commentators instead redivide *haggôy lōʾ* as *haggîlāh* “the exultation” (“you have multiplied the exultation, you have increased the joy”). That conjecture alters the consonants and is reported here, not adopted. The perfects of vv. 1–4 describe the deliverance as already done, and the line keeps the action verbs as English perfects (“have multiplied … have increased … have shattered”). The stative *śāmᵉḥû* is rendered present, “they rejoice,” as in NRSV.",
         "community": []
-      }
+      },
+      "translit": "hirbītā haggōy lʾ [lō] higdaltā haśśimḥāh śāməḥū ləpānēkā kəśimḥat baqqāṣīr kaʾăšer yāgīlū bəḥalləqām šālāl"
     },
     {
       "n": 3,
@@ -381,7 +384,8 @@
       "notes": {
         "official": "“The day of Midian” recalls Gideon’s rout of Midian (Judg 7). The “staff of his shoulder” (*maṭṭēh šiḵmô*) is the oppressor’s rod laid on the people’s shoulder. At 9:5 the same word *šᵉḵem* carries the government of the newborn king. The line uses “shoulder” in both verses so that the link stays visible.",
         "community": []
-      }
+      },
+      "translit": "kī | ʾet-ʿōl subbŏlō wəʾēt maṭṭēh šikmō šēbeṭ hannōgēś bō haḥittōtā kəyōm midyān"
     },
     {
       "n": 4,
@@ -397,7 +401,8 @@
       "notes": {
         "official": "*sᵉʾôn sōʾēn* is a hapax noun followed by its denominative participle. The line has “every boot of the one who tramps,” following BDB, which relates the noun to Akkadian *šēnu* “shoe, sandal.” NRSV has “all the boots of the tramping warriors.” ASV’s “the armor of the armed man” comes from an older guess and has no lexical support. The verse therefore departs from ASV (overlay `lexical-cruxes-isaiah-9`). *bᵉraʿaš* “in the tumult” is kept: *raʿaš* is the shaking and din of battle. The boots and the blood-soaked cloak are the gear of the beaten army, and they are burned.",
         "community": []
-      }
+      },
+      "translit": "kī kol-səʾōn sōʾēn bəraʿaš wəśimlāh məgōlālāh bədāmīm wəhāyətāh liśrēpāh maʾăkōlet ʾēš"
     },
     {
       "n": 5,
@@ -414,7 +419,8 @@
       "notes": {
         "official": "**The tense.** *yullaḏ* “has been born” and *nittan* “has been given” are perfects, and *wattᵉhî* and *wayyiqrāʾ* are past narrative forms. The line renders them as English perfects: “has been born … has been given … has come upon his shoulder … he has been named.” NRSV and NJPS render the verse the same way. ASV’s “is born … shall be … shall be called” reads the forms as prophetic perfects pointing to a future birth. That reading is an interpretation of the forms, and the English perfect leaves it open. *wayyiqrāʾ šᵉmô* is active with an indefinite subject (“one has called his name”), so English requires a passive. *miśrāh* “government” (ASV) occurs only here and in v. 6. It comes from *śrr* “rule,” the root of *śar* in the fourth name, and NRSV and NJPS render it “authority” (overlay `yeled-yullad-throne-names-isaiah-9-5`).\n\n**The names.** The line gives four paired titles: “Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace” (NRSV). The accents largely support this pairing. The zaqef on גִּבּוֹר divides the sequence into two halves. Within the first half, the pashta on יוֹעֵץ groups *peleʾ yôʿēṣ* against *ʾēl gibbôr*, and the tipcha likewise separates *ʾăḇîʿaḏ* from *śar-šālôm*. Only at the lowest level does the telisha gedolah on פֶּלֶא separate *peleʾ* from *yôʿēṣ*, and ASV and KJV follow that division with five names (“Wonderful, Counselor”). The other three names are each two words, and Isaiah 28:29 applies the same pair of roots to YHWH (*hip̄lîʾ ʿēṣāh* “wonderful in counsel”). Isaiah 25:1 joins the same roots again (*ʿāśîṯā peleʾ ʿēṣôṯ* “you have done a wonder, plans …”, overlay `pele-etzot-emunah-hymn-vocabulary-isaiah-25`). These parallels favour taking *peleʾ yôʿēṣ* as one name, “a wonder of a counselor.” *ʾēl gibbôr* is “Mighty God,” as at 10:21, where the same words name the God to whom the remnant returns (overlay `el-gibbor-mighty-god-isaiah`). ASV, NRSV and NJPS all have “Mighty God.” Some commentators propose instead a sentence-name, “God is a warrior,” or *ʾēl* as an adjective, “mighty hero” (cf. *ʾêlê gibbôrîm*, Ezek 32:21). *ʾăḇî-ʿaḏ* is “Father of perpetuity,” rendered “Everlasting Father”; a minority reads *ʿaḏ* II “booty” (as in 33:23). NJPS takes the sequence as one theophoric sentence-name in two halves, following the zaqef division, like Isaiah’s other sign-names (7:3; 7:14; 8:3): “He has been named ‘The Mighty God is planning grace; The Eternal Father, a peaceable ruler’,” with a footnote “As in 25.1.”\n\n**Setting.** Alt (1950) and von Rad (“The Royal Ritual in Judah,” 1947) read vv. 1–6 as an accession oracle. On this reading the names are throne names comparable to the Egyptian royal titulary, and “born” can refer to the king’s enthronement as YHWH’s son (Ps 2:7). Others take it as the birth of a royal heir (Wildberger, *Isaiah 1–12*, 1991; Roberts, *First Isaiah*, Hermeneia, 2015).\n\n**Reception (not a translation claim).** The Old Greek gives a single name, *megalēs boulēs angelos* “messenger of great counsel.” The Targum applies the verse to the Messiah. The Babylonian Talmud (Sanhedrin 94a) connects it with Hezekiah and with the closed *mem* of v. 6. Luke 1:32–33 echoes vv. 5–6 (“the throne of his father David … of his kingdom there will be no end”), and Christian liturgy and Handel’s *Messiah* use the verse in the KJV wording. None of these readings is imported into the line.\n\n**Wheel of Heaven reading (reception note, not a translation claim; claim type: speculative).** The canon does not cite Isaiah 9. *Extra-Terrestrials Took Me to Their Planet* speaks to Israel of “the last of the prophets, the one who was announced to you” (ETTMTTP 2:124), but it does not identify any biblical announcement. The same passage does cite Isaiah (“as Isaiah had written”), but for the ingathering of Israel from the North and the South (Isa 43:5–7; cf. TBWTT 5:25), not for chapter 9. Reading this royal birth oracle as such an announcement would be a project synthesis beyond what the canon states. It is recorded only so that readers can see where the lens would apply. The line and the glossary carry only the standard philology.",
         "community": []
-      }
+      },
+      "translit": "kī-yeled yullad-lānū bēn nittan-lānū wattəhī hammiśrāh ʿal-šikmō wayyiqrāʾ šəmō peleʾ yōʿēṣ ʾēl gibbōr ʾăbīʿad śar-šālōm"
     },
     {
       "n": 6,
@@ -433,7 +439,8 @@
       "notes": {
         "official": "*lᵉmarbēh* has a ketiv/qere of form only. The written text has a final (closed) *mem* inside the word (לםרבה), and the qere is the normal לְמַרְבֵּה. The line translates the qere (`mt-qere-textual-policy-isaiah`): “Of the increase of the government.” The article of *hammiśrāh* is kept (“the government”), where ASV supplies “his.” NRSV takes *marbēh* as “grow continually.” A frequent emendation divides the letters as *lāhem rabbāh* “to them; great is the government,” treating the closed *mem* as the end of a word. The Talmud reads the anomalous letter as a sign of a deliverance that was withheld (b. Sanh. 94a).\n\n*bᵉmišpāṭ ûḇiṣḏāqāh* is the justice pair in reversed order. It is placed under the central `tzedakah-u-mishpat-justice-pair` (extended here) and rendered in the Hebrew order, “with justice and with righteousness.” *qinʾat YHWH* “the zeal of YHWH” matches 26:11 and 42:13. *taʿăśeh-zōʾṯ* is future, “will do this”: vv. 1–5 report the deliverance as done, and v. 6 promises that the reign will last.",
         "community": []
-      }
+      },
+      "translit": "lmrbh [ləmarbēh] hammiśrāh ūləšālōm ʾēn-qēṣ ʿal-kissēʾ dāwid wəʿal-mamlaktō ləhākīn ʾōtāh ūləsaʿădāh bəmišpāṭ ūbiṣdāqāh mēʿattāh wəʿad-ʿōlām qinʾat YHWH ṣəbāʾōt taʿăśeh-zōʾt (s)"
     },
     {
       "n": 7,
@@ -451,7 +458,8 @@
       "notes": {
         "official": "The poem of the outstretched hand begins here (9:7–20, continued at 10:1–4; cf. 5:25). It is narrated in past tenses throughout (overlay `poem-tense-outstretched-hand-isaiah-9`); see the note at 9:10. *dāḇār* “a word” is the Masoretic reading. The Septuagint reads “pestilence” or “death,” as if the same consonants were vocalised *deḇer*. NJPS records this in a footnote (“Septuagint reads ‘Let loose pestilence’”), and the line keeps MT. *šālaḥ bᵉ-* is rendered “sent against” (NRSV) rather than ASV “into.” The preposition is hostile here, and in the parallel clause the word “fell on Israel” like a blow. *ʾăḏōnāy* is “the Lord” (`adonai-standalone-title-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "dābār šālaḥ ʾădōnāy bəyaʿăqōb wənāpal bəyiśrāʾēl"
     },
     {
       "n": 8,
@@ -467,7 +475,8 @@
       "notes": {
         "official": "*wᵉyāḏᵉʿû* is a weqatal form, which ASV reads as future (“shall know”). Following a perfect in a narrated sequence, it is rendered past, “knew it,” with NRSV, under the poem’s single tense ruling (`poem-tense-outstretched-hand-isaiah-9`). *lēʾmōr* is rendered “saying,” which introduces the boast of v. 9. *yôšēḇ šōmᵉrôn* is a collective singular, kept as “the inhabitant of Samaria” (ASV).",
         "community": []
-      }
+      },
+      "translit": "wəyādəʿū hāʿām kullō ʾeprayim wəyōšēb šōmərōn bəgaʾăwāh ūbəgōdel lēbāb lēʾmōr"
     },
     {
       "n": 9,
@@ -481,7 +490,8 @@
       "notes": {
         "official": "",
         "community": []
-      }
+      },
+      "translit": "ləbēnīm nāpālū wəgāzīt nibneh šiqmīm guddāʿū waʾărāzīm naḥălīp"
     },
     {
       "n": 10,
@@ -498,7 +508,8 @@
       "notes": {
         "official": "**Tense ruling for 9:7–20.** The strokes are told in past narrative forms (*wayyiqtol*): *wayśaggēḇ* (v. 10), *wayyōʾḵᵉlû* (v. 11), *wayyaḵrēṯ* (v. 13), *wayyihyû* (v. 15), *wattiṣṣaṯ*, *wayyiṯʾabbᵉḵû* (v. 17), *wayhî* (v. 18), *wayyiḡzōr*, *wayyōʾḵal* (v. 19). The line renders them past, as NRSV does. The imperfects and participles inside each stroke (*yᵉsaksēḵ*, v. 10; *lōʾ yiśmaḥ*, v. 16; *tōʾḵēl*, v. 17; *yaḥmōlû*, v. 18; *yōʾḵēlû*, v. 19) take the same time as their context. ASV’s mixture of futures and presents reads the poem as a forecast. The past rendering agrees with 5:25, whose narrative verbs the book renders past, and with the fixed refrain “his anger has not turned away”: the strokes have fallen, and the refrain says that more will follow. The boast quoted in v. 9 keeps its own tenses (overlay `poem-tense-outstretched-hand-isaiah-9`).\n\n*ṣārê rᵉṣîn* “the adversaries of Rezin” is the Masoretic reading and is kept. It is awkward, because Rezin of Aram was Ephraim’s ally (7:1–9). The usual emendations are *ṣārāyw* “his adversaries” (cf. NRSV “adversaries against them”) and *śārê* “the princes of Rezin.” Read as MT, the line may refer to Assyria, Rezin’s enemy, raised against Israel. The waw-consecutive is rendered “So,” not ASV’s “Therefore,” which the book reserves for *ʿal-kēn* (v. 16).",
         "community": []
-      }
+      },
+      "translit": "wayśaggēb YHWH ʾet-ṣārē rəṣīn ʿālāyw wəʾet-ʾōyəbāyw yəsaksēk"
     },
     {
       "n": 11,
@@ -511,12 +522,14 @@
       "glossaryRefs": [
         "poem-tense-outstretched-hand-isaiah-9",
         "lexical-cruxes-isaiah-9",
-        "bekhol-zot-lo-shav-appo-refrain-isaiah"
+        "bekhol-zot-lo-shav-appo-refrain-isaiah",
+        "aram-names-isaiah"
       ],
       "notes": {
         "official": "*miqqeḏem … mēʾāḥôr* means both “in front … behind” and, for a speaker facing east, “from the east … from the west.” The line uses the compass sense with NRSV, which matches the map: Aram lies north-east of Israel and Philistia south-west. It also matches the book’s rendering of *miqqeḏem* “from the east” at 2:6. The people is named “Aram,” not ASV “the Syrians” (wave ruling). *bᵉḵol-peh* is “with open mouth” (ASV). The refrain has its fixed wording (overlay `bekhol-zot-lo-shav-appo-refrain-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "ʾărām miqqedem ūpəlištīm mēʾāḥōr wayyōʾkəlū ʾet-yiśrāʾēl bəkol-peh bəkol-zōʾt lōʾ-šāb ʾappō wəʿōd yādō nəṭūyāh"
     },
     {
       "n": 12,
@@ -533,7 +546,8 @@
       "notes": {
         "official": "*lōʾ-šāḇ* and *lōʾ dārāšû* are perfects of a state that still holds, so the line keeps them as English perfects (“have not turned … have not sought”). That agrees with the refrain just before. *šûḇ ʿaḏ* “turn back to” plays against the refrain: the anger of YHWH has not turned away, and the people have not turned to him. *hammakkēhû* “the one who struck them” refers to YHWH.",
         "community": []
-      }
+      },
+      "translit": "wəhāʿām lōʾ-šāb ʿad-hammakkēhū wəʾet-YHWH ṣəbāʾōt lōʾ dārāšū (s)"
     },
     {
       "n": 13,
@@ -549,7 +563,8 @@
       "notes": {
         "official": "*kippāh wᵉʾaḡmôn* “palm branch and rush” is a merism, the top and the bottom of the plant, set in parallel with “head and tail.” *wayyaḵrēṯ* is narrative past, “cut off” (see the tense ruling at 9:10).",
         "community": []
-      }
+      },
+      "translit": "wayyakrēt YHWH miyyiśrāʾēl rōʾš wəzānāb kippāh wəʾagmōn yōm ʾeḥād"
     },
     {
       "n": 14,
@@ -565,7 +580,8 @@
       "notes": {
         "official": "Many commentators regard this verse as an early explanatory gloss on v. 13, because it turns the image of v. 13 into a list of classes. *nᵉśûʾ p̄ānîm* (literally “one whose face is lifted”) is rendered “the man of rank,” as at 3:3. The wave I-1 decision there (overlay `lexical-cruxes-isaiah-3`, extended here) gave “honored” to *nikbāḏ* only (3:5). ASV has “the honorable man.” *môreh-šeqer* is “who teaches lies.”",
         "community": []
-      }
+      },
+      "translit": "zāqēn ūnəśūʾ-pānīm hūʾ hārōʾš wənābīʾ mōreh-šeqer hūʾ hazzānāb"
     },
     {
       "n": 15,
@@ -582,7 +598,8 @@
       "notes": {
         "official": "The verse repeats the wording of 3:12 (*mᵉʾaššᵉreyḵā maṯʿîm … billēʿû*) and follows that verse’s decisions (overlay `lexical-cruxes-isaiah-3`). *mᵉʾaššᵉrîm* are “those who lead,” and *mᵉḇullāʿîm* is rendered “destroyed,” from *blʿ* I “swallow,” in the sense “be ruined.” *blʿ* II “confuse” lies behind NRSV’s “left in confusion.” That alternative is recorded here, as at 3:12. *wayyihyû* is narrative past (see 9:10). The line therefore reads “led them astray … were destroyed,” where 3:12 has the present.",
         "community": []
-      }
+      },
+      "translit": "wayyihyū məʾaššərē hāʿām-hazzeh matʿīm ūməʾuššārāyw məbullāʿīm"
     },
     {
       "n": 16,
@@ -601,7 +618,8 @@
       "notes": {
         "official": "*ḥānēp̄* is rendered “godless,” not ASV “profane.” The wave ruling keeps the book concordant with 32:6, where the cognate *ḥōnep̄* is “godlessness,” and reserves “profane” for *ḥll* (43:28; 48:11). NRSV also has “godless”; NJPS has “ungodly.” *nᵉḇālāh* is “folly” (ASV), as at 32:6. The central `nevalah-outrage-formula-communal-sexual-offense` is not applied: its subject is the *nᵉḇālāh bᵉyiśrāʾēl* outrage formula, and here the word describes speech (overlay `lexical-cruxes-isaiah-9`).\n\n*lōʾ-yiśmaḥ* “did not rejoice over” is the Masoretic reading. The Great Isaiah Scroll reads *yḥmw*, which is attested in the NJPS footnote (“1QIsa reads yḥmw”) and lies behind NRSV’s “did not have pity.” NJPS keeps MT but takes *yiśmaḥ* as “spare,” comparing Arabic *samuḥa* (“That is why my Lord / Will not spare their youths”). The line keeps the usual sense, “rejoice over.” NJPS also renders this *ʿal-kēn* + imperfect as future, and that makes 9:16, beside 9:8, a soft point of the poem’s tense ruling. The line gives the imperfects the past of the poem, “did not rejoice … did he have compassion” (see 9:10). The refrain has its fixed wording.",
         "community": []
-      }
+      },
+      "translit": "ʿal-kēn ʿal-baḥūrāyw lōʾ-yiśmaḥ | ʾădōnāy wəʾet-yətōmāyw wəʾet-ʾalmənōtāyw lōʾ yəraḥēm kī kullō ḥānēp ūmēraʿ wəkol-peh dōbēr nəbālāh bəkol-zōʾt lōʾ-šāb ʾappō wəʿōd yādō nəṭūyāh"
     },
     {
       "n": 17,
@@ -618,7 +636,8 @@
       "notes": {
         "official": "The fire of v. 17 is wickedness itself: *rišʿāh* “burned like fire.” *bāʿărāh*, *tōʾḵēl*, *wattiṣṣaṯ* and *wayyiṯʾabbᵉḵû* are rendered past (see 9:10). *gēʾûṯ ʿāšān* is “a column of smoke” (ASV “in the lifting up of smoke”). *gēʾûṯ* shares the root *gʾh* “rise, be high” with *gāʾôn* “majesty,” but it is a distinct noun, used here in its physical sense, the rising of the smoke. The concordance default for *gāʾôn* therefore does not apply. *šāmîr wāšayiṯ* “briers and thorns” is the pair of 5:6 and 27:4.",
         "community": []
-      }
+      },
+      "translit": "kī-bāʿărāh kāʾēš rišʿāh šāmīr wāšayit tōʾkēl wattiṣṣat bəsibkē hayyaʿar wayyitʾabbəkū gēʾūt ʿāšān"
     },
     {
       "n": 18,
@@ -637,7 +656,8 @@
       "notes": {
         "official": "*neʿtam* is a hapax, and its root is uncertain. The line keeps ASV’s “burnt up,” the sense the fire imagery of vv. 17–18 requires. Proposed cognates give “be scorched” or “be shaken.” The ancient versions vary, and they have not been verified here (overlay `lexical-cruxes-isaiah-9`). *ʾereṣ* is “the land,” the territory, not the cosmic earth (central `eretz`). *ʾîš ʾel-ʾāḥîw lōʾ yaḥmōlû* is rendered “no one spared his brother”: the plural verb is distributive, “they did not spare, a man his brother.”",
         "community": []
-      }
+      },
+      "translit": "bəʿebrat YHWH ṣəbāʾōt neʿtam ʾāreṣ wayhī hāʿām kəmaʾăkōlet ʾēš ʾīš ʾel-ʾāḥīw lōʾ yaḥmōlū"
     },
     {
       "n": 19,
@@ -654,7 +674,8 @@
       "notes": {
         "official": "*bᵉśar-zᵉrōʿô* “the flesh of his own arm” is the Masoretic reading and is kept. The common emendation *rēʿô* “his neighbor” lies behind NRSV’s “the flesh of their kindred.” That reading is attractive before v. 20, but it changes the consonants. *wayyiḡzōr* comes from *gzr* “cut off, slice.” “Snatched” (ASV) gives the sense of tearing at food; NRSV has “gorged.” The singulars and plurals of the Hebrew alternate, and the line follows them: “One snatched … they were not satisfied.” The verbs are past (see 9:10).",
         "community": []
-      }
+      },
+      "translit": "wayyigzōr ʿal-yāmīn wərāʿēb wayyōʾkal ʿal-śəmōʾwl wəlōʾ śābēʿū ʾīš bəśar-zərōʿō yōʾkēlū"
     },
     {
       "n": 20,
@@ -672,7 +693,8 @@
       "notes": {
         "official": "The verse has no verb. The object markers (*ʾeṯ-ʾep̄rayim … ʾeṯ-mᵉnaššeh*) show that the verb of v. 19, “eat, devour,” is understood. The line therefore supplies “devoured,” with NRSV; ASV keeps the ellipsis (“Manasseh, Ephraim; and Ephraim, Manasseh”), which reads like a list. The two Joseph tribes devour each other and unite only against Judah. The names take their English forms, “Manasseh” and “Ephraim” (wave ruling). The central `menasheh-name-aetiology-tribe` (“Menasheh,” scoped to Genesis) is not applied. The refrain has its fixed wording. The poem’s last strophe follows at 10:1–4.",
         "community": []
-      }
+      },
+      "translit": "mənaššeh ʾet-ʾeprayim wəʾeprayim ʾet-mənaššeh yaḥdāw hēmmāh ʿal-yəhūdāh bəkol-zōʾt lōʾ-šāb ʾappō wəʿōd yādō nəṭūyāh (s)"
     }
   ],
   "editorial_questions": []

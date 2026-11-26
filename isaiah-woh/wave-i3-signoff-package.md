@@ -2,6 +2,8 @@
 
 **Status:** all six chapters are at `awaiting-human`, version `1.0.0-rc1`.
 
+**Founder sign-off:** "Sign-off ok", 2026-11-26. Every recommended default is accepted, together with wave I-1 decisions 1 and 2. The Editor pass applying the rulings has updated the wave-i3 diffs, `wave-i3-orchestrator-ops.json`, the ch7–12 notes and lines, and the editor reports.
+
 - **Source:** Westminster Leningrad Codex via Sefaria ("Tanach with Ta'amei Hamikra", public domain), `source-he-7..12.json`, in Hebrew versification.
 - **Pipeline:** Translator → Editor → independent Reviewer → post-review corrections, 2026-11-26. The model was claude-opus-5-5 in every role.
 - **Cross-chapter rulings:** fixed in advance in `wave-i3-rulings.md`.

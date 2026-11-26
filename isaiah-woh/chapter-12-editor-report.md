@@ -90,5 +90,12 @@ Applied 2026-11-26 after the Reviewer's report. `translation.status`, the `revie
 1. **ISA-12:2 note, NJPS quotation.** "NJPS 'Yah—GOD—'" now reads "NJPS 'Yah the LORD' (the JPS gender-sensitive edition prints 'GOD' for the Tetragrammaton)". The 1985 NJPS has "Yah the LORD", and "GOD" is the gender-sensitive edition's rendering. Caveat: the other NJPS wordings quoted in the chapter-12 notes and entries were checked only in the gender-sensitive edition on Sefaria. These are "the God who gives me triumph", "might", "fountains of triumph", "proclaim", "declare", "Let this be made known" and "You who dwell in Zion". Their wording in the 1985 printing is not verified.
 2. **Central diff, `ozzi-ve-zimrat-yah-strength-and-song-exod-15-2-parallel-cross-corpus`.**
    - The zammᵉrû (12:5) echo is now marked as Isaiah-specific support that does not carry over to Exod 15:2 or Ps 118:14.
-   - The forward scope (EXO-15:2, PSA-118:14) is now stated as a DEFAULT. Those books' Editors confirm it, pending a founder ruling, before the refIds are added to appliesTo.
+   - The forward scope (EXO-15:2, PSA-118:14) is now stated as a DEFAULT. Those books' Editors confirm it before the refIds are added to appliesTo (founder ruling 2026-11-26: default, confirmed per book).
    - The wohChoice wording was adjusted to match.
+
+## Founder rulings applied (2026-11-26)
+
+The founder signed off wave I-3 with every recommended default ("Sign-off ok", 2026-11-26; `wave-i3-signoff-package.md`), together with wave I-1 decisions 1 and 2. `translation.status` and the `reviewerReport` block are unchanged. Statements above marked pending or provisional are settled as follows.
+
+- **Forward scope of `ozzi-ve-zimrat-yah-…`:** the wohChoice and rationale now read "founder ruling 2026-11-26: default, confirmed per book" in place of "pending founder ruling". EXO-15:2 and PSA-118:14 stay outside appliesTo until those books' Editors confirm the wording.
+- **12:5 "majestic things"** and the **12:4 deferral:** accepted as recommended. No change.

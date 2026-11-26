@@ -39,7 +39,7 @@ None. Both new overlay entries and the new central entry are `direct`.
 
 **Issue:** hā-ʾāḏôn YHWH ṣᵉḇāʾôṯ. Following ruling 7, the line gives "the Sovereign, YHWH of hosts", which is option B of wave I-1 decision 1, and carries only `ha-adon-articular-title-isaiah`.
 **Options considered:** A "the Lord, YHWH of hosts"; B "the Sovereign, YHWH of hosts"; "the Master".
-**Why escalating:** the founder ruling is still pending. If A is ruled, both lines revert, and the commentary sentence about the reversion can then be deleted.
+**Why escalating:** the founder ruling was pending. Resolved 2026-11-26: option B, "the Sovereign", stands, and the reversion sentences were deleted.
 
 ### `ISA-10:18`
 
@@ -78,7 +78,7 @@ None. Both new overlay entries and the new central entry are `direct`.
 13. **10:12, ʾep̄qōḏ.** MT "I will punish" is kept, and the third-person versions are reported. → policy entry, `adonai-standalone-title-isaiah`.
 14. **10:13, qere and lexical points.** The qere "treasures" is translated, and ASV "like a valiant man … those who sit on thrones" is kept. → policy entry, crux entry.
 15. **10:14, 10:23, ʾereṣ.** "Earth" is used at both sites (escalated above). → `eretz-cosmic-scope-isaiah-24` extended.
-16. **10:16, hā-ʾāḏôn and rāzôn.** "The Sovereign" is provisional (escalated above). ASV "leanness among his fat ones" is kept.
+16. **10:16, hā-ʾāḏôn and rāzôn.** "The Sovereign" (confirmed 2026-11-26). ASV "leanness among his fat ones" is kept.
 17. **10:17, "light".** Lower-case "light" and capitalised "Holy One" are kept, as in ASV.
 18. **10:18, nōsēs.** "A sick man wastes away" is used (escalated above).
 19. **10:18, nep̄eš/bāśār.** ASV "both soul and body" is kept as a merism. The nefesh-throat entry is not applied.
@@ -93,7 +93,7 @@ None. Both new overlay entries and the new central entry are `direct`.
 28. **10:29, mālôn lānû.** The narrative rendering of ASV and JPS 1917 is kept (NRSV likewise, from memory). The accentuation does not decide between the verb and the preposition, and NJPS's quoted-speech reading "Geba is to be our night quarters!" is reported in commentary. → crux entry. (Corrected after review; see below.)
 29. **10:30, ʿăniyyāh.** MT "O poor Anathoth!" is kept, and the repointing is reported. → policy entry.
 30. **10:32, ketiv/qere.** The qere "the daughter of Zion" is translated. → policy entry.
-31. **10:33, hā-ʾāḏôn and maʿărāṣāh.** "The Sovereign" is provisional, and ASV "with terror" is kept.
+31. **10:33, hā-ʾāḏôn and maʿărāṣāh.** "The Sovereign" (confirmed 2026-11-26), and ASV "with terror" is kept.
 32. **10:34, ʾaddîr.** ASV "by a mighty one" is kept, with the agent unspecified.
 
 ## Glossary changes for review
@@ -153,3 +153,9 @@ The Reviewer returned the chapter as `awaiting-human`. Only non-decision correct
 3. **Optional note improvements (advisory).**
    - The 10:4 note now says that "to crouch" (as in JPS 1917) hides the singular of kāraʿ. It also reports that NJPS continues the question of 10:3 into 10:4a.
    - The 10:10 note reports NJPS "the insignificant kingdoms" (ʾĕlîl in the sense "worthless").
+
+## Founder rulings applied (2026-11-26)
+
+The founder signed off wave I-3 with every recommended default ("Sign-off ok", 2026-11-26; `wave-i3-signoff-package.md`), together with wave I-1 decisions 1 and 2. `translation.status` and the `reviewerReport` block are unchanged. Statements above marked pending or provisional are settled as follows.
+
+- **10:16, 10:33, hā-ʾāḏôn:** "the Sovereign" stands (wave I-1 decision 1, option B). The 10:16 note drops "provisionally … pending founder ruling" and the option-A reversion sentence, and now cites NJPS "The Sovereign LORD of Hosts" and ASV "the Lord". The 10:33 note drops "provisional … founder ruling pending". The `ha-adon-articular-title-isaiah` rationaleAppend is rewritten without the proviso. Lines are unchanged.

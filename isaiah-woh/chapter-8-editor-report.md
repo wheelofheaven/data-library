@@ -60,7 +60,7 @@ Under (B) the following would change:
 **Issue:** *ʾôḇ* is rendered "ghost" under two entries: the new one (8:19) and `ariel-ob-isaiah-29` (29:4).
 
 **Recommendation:**
-- Move ISA-29:4 into the new entry and trim `ariel-ob-isaiah-29` to the Ariel sites. This modifies a ratified entry, so it needs sign-off.
+- Move ISA-29:4 into the new entry and trim `ariel-ob-isaiah-29` to the Ariel sites. This modifies a ratified entry, so it needed sign-off (given 2026-11-26).
 - Promote the new entry to central when Lev 19–20, Deut 18 or 1 Sam 28 is translated. Central v2.93.0 has no entry for *ʾôḇ* or *yiddᵉʿōnî*. I searched ids, sources, wohChoice, rationale and the appliesTo of the necromancy verses.
 
 ### Wave rulings followed, with the dissenting evidence on record
@@ -152,8 +152,16 @@ These follow the Reviewer's report (status `awaiting-human`). No English line wa
 
 1. **8:16, note revised.** The note no longer argues from the lower-case "my", since house style lower-cases all divine pronouns. It now says that v 16 is the prophet's because the line closes YHWH's speech at the end of v 15; this is the Reviewer's wording. The 8:16 item in `lexical-cruxes-isaiah-8` (overlay diff) is aligned.
 2. **8:19, JPS 1917 attribution corrected.** The change is made in the note, in this report and in the `elohim-el-eloah-monotheistic-formula-isaiah` rationaleAppend. JPS 1917 opens the quotation before "Seek" and closes it after "for instruction and for testimony?" (v 20), so it reads 19b–20a as the advisers' words while printing "God". Construal (A), kept in the line, rests on ASV and KJV. JPS 1917 and NJPS both continue the quotation. The 8:20 note now ties the JPS 1917 / NJPS attachment to that continued quotation.
-3. **8:19b–21, alternate (B) staged.** The (B) wording is staged in the wohChoice of `lexical-cruxes-isaiah-8`, marked "PENDING FOUNDER RULING". It continues the quotation to 8:20a, with "its divine beings" at 8:19 and "their divine beings" at 8:21. If (B) is ruled, the 8:20 exclamation item lapses and ISA-8:19 and 8:21 leave `elohim-el-eloah-monotheistic-formula-isaiah`. A sentence noting the contingency was appended to the entry's rationale.
+3. **8:19b–21, alternate (B) staged** (withdrawn 2026-11-26: the founder kept reading A; see the final section). The (B) wording was staged in the wohChoice of `lexical-cruxes-isaiah-8`, marked "PENDING FOUNDER RULING". It continues the quotation to 8:20a, with "its divine beings" at 8:19 and "their divine beings" at 8:21. If (B) is ruled, the 8:20 exclamation item lapses and ISA-8:19 and 8:21 leave `elohim-el-eloah-monotheistic-formula-isaiah`. A sentence noting the contingency was appended to the entry's rationale.
 4. **8:23, Emerton.** Crossref confirms the bibliographic record: J. A. Emerton, "Some Linguistic and Historical Problems in Isaiah VIII. 23", *JSS* 14 (1969) 151–175 (doi:10.1093/jss/14.2.151). His conclusion could not be checked. The note and the crux-entry rationale therefore no longer say he argued the JPS 1917 judgment reading; they say the construal is "discussed" there, conclusion not checked.
 5. **8:22, cross-reference added** (optional item): "Contrast 5:30 'the land', where no upward/downward pairing is present."
 
 Not acted on: the Reviewer's minor remark that 29:4 renders *ṣpṣp* "whisper" while 8:19 has "chirp". Changing either would mean changing an English line. It is left for the orchestrator or a later pass.
+
+## Founder rulings applied (2026-11-26)
+
+The founder signed off wave I-3 with every recommended default ("Sign-off ok", 2026-11-26; `wave-i3-signoff-package.md`), together with wave I-1 decisions 1 and 2. `translation.status` and the `reviewerReport` block are unchanged. Statements above marked pending or provisional are settled as follows.
+
+- **8:19b–21:** reading A, the prophet's reply, stands. The staged (B) wording was removed from the `lexical-cruxes-isaiah-8` wohChoice and replaced by one sentence recording A as kept and B as reported in commentary. The rationale's post-review sentence and the `elohim-el-eloah-monotheistic-formula-isaiah` rationaleAppend and note no longer describe the choice as escalated. The 8:19 note's "listed for review in the editor's report" now reads "the JPS 1917 and NJPS construal is the alternative reported above". Lines are unchanged.
+- **ʾôḇ consolidation:** ISA-29:4 is added to `ob-yiddeoni-ghosts-familiar-spirits-isaiah` (source, translit, wohChoice, rationale, appliesTo), which now notes that 29:4 renders ṣpṣp "whisper" against 8:19 "chirp". `ariel-ob-isaiah-29` is trimmed to 29:1, 2, 7 through `wave-i3-orchestrator-ops.json` overlay.set. The 29:4 glossaryRef is added through refsAdd, and chapter 29 is in extraChapters. The stale `ariel-ob-isaiah-29` ref at 29:4 is left for a chapter-29 Editor pass.
+- **8:22 against 5:30** (above) was not part of the sign-off decisions and stays as recommended option A.

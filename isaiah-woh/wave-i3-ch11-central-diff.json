@@ -4,7 +4,7 @@
     "from": "2.93.0",
     "to": "2.95.0",
     "marker": "CENTRAL — apply by orchestrator",
-    "note": "Isaiah wave I-3, chapter 11 Editor. Base: central v2.93.0 (read-only); wave I-1 (to 2.94.0) treated as in force; propose 2.95.0 for wave I-3. 4 modify ops (appliesTo extensions with one appended rationale sentence each); no new central entry and no wohChoice, claim_type or existing rationale text changed, so a minor bump. If the wave policy is appliesTo-only on central, drop the rationaleAppend fields. CONCURRENCY: eretz is the likeliest overlap with the chapter 7-10 and 12 diffs; merge as union. POST-REVIEW (2026-11-26): eretz-shinar op now carries a wohChoice change (bare-name clause; renderings unchanged); the cherem op carries a staged wohChoice under 'pendingFounderRuling', not to be applied unless ratified. If both are applied as wohChoice modifications, the strict reading is a major bump; the Editor recommends minor for eretz-shinar (no rendering changes) and leaves the cherem bump to the ruling."
+    "note": "Isaiah wave I-3, chapter 11 Editor. Base: central v2.93.0 (read-only); wave I-1 (to 2.94.0) treated as in force; propose 2.95.0 for wave I-3. 4 modify ops (appliesTo extensions with one appended rationale sentence each); no new central entry and no wohChoice, claim_type or existing rationale text changed, so a minor bump. If the wave policy is appliesTo-only on central, drop the rationaleAppend fields. CONCURRENCY: eretz is the likeliest overlap with the chapter 7-10 and 12 diffs; merge as union. POST-REVIEW (2026-11-26): eretz-shinar op now carries a wohChoice change (bare-name clause; renderings unchanged); the cherem op carries a wohChoice change (the non-war-object clause, ratified by founder ruling 2026-11-26; formerly staged under 'pendingFounderRuling'). Both are wohChoice modifications, so the strict reading is a major bump; the Editor recommends minor for eretz-shinar (no rendering changes), while the cherem clause is a scope clause and the bump is the orchestrator's call."
   },
   {
     "op": "modify",
@@ -32,25 +32,11 @@
     "appliesToAdded": [
       "ISA-11:15"
     ],
-    "rationaleAppend": "isaiah-woh wave I-3: at Isa 11:15 MT wᵉheḥĕrîm YHWH ʾēṯ lᵉšôn yam-miṣrayim is rendered 'YHWH will devote to destruction the tongue of the sea of Egypt', replacing the draft's ASV 'utterly destroy' so that the root stays visible. The object (an arm of the sea) is unusual for the ban, which is why many read heḥĕrîḇ 'dry up' (ḥrb; NJPS 'will dry up', checked; LXX erēmōsei); the line keeps MT under the isaiah-woh mt-qere-textual-policy-isaiah entry and the commentary reports the emendation.",
-    "pendingFounderRuling": {
-      "marker": "PENDING FOUNDER RULING — do not apply unless ratified",
-      "question": "Does the corpus ḥērem rule (root 'devote' visible) extend to a non-war, non-property object, the arm of the sea at Isa 11:15?",
-      "ifRatified": {
-        "changes": {
-          "wohChoice": "'devote(d) to destruction' for the war sense across the corpus: the Hiphil 'devote ... to destruction' (Num 21:2-3; Josh 6:21; 10:1-40), the noun of the war ban 'to be devoted to destruction' (Isa 43:28 laḥ-ḥērem); the noun as consecrated property or the object of the ban 'devoted' / 'the devoted thing' (Num 18:14; Josh 6:17-18). Non-war object clause: where the Hiphil takes an object that is neither a war-ban enemy nor consecrated property, the same 'devote ... to destruction' is kept, and the common emendation is reported in commentary (Isa 11:15 'YHWH will devote to destruction the tongue of the sea of Egypt'; heḥĕrîḇ 'dry up', NJPS, Targum, probably LXX). The root 'devote' stays visible in every English rendering."
-        },
-        "versionEffect": "wohChoice modification: major bump of the central glossary (or minor at the orchestrator's call if treated as a scope clause)."
-      },
-      "ifRejected": {
-        "appliesToRemoved": [
-          "ISA-11:15"
-        ],
-        "dropRationaleAppend": true,
-        "line": "restore ASV/JPS 1917 'And YHWH will utterly destroy the tongue of the sea of Egypt' at ISA-11:15 and remove the cherem glossaryRef and the first sentences of the 11:15 note",
-        "versionEffect": "none for this entry"
-      }
-    }
+    "changes": {
+      "wohChoice": "'devote(d) to destruction' for the war sense across the corpus: the Hiphil 'devote ... to destruction' (Num 21:2-3; Josh 6:21; 10:1-40), the noun of the war ban 'to be devoted to destruction' (Isa 43:28 laḥ-ḥērem); the noun as consecrated property or the object of the ban 'devoted' / 'the devoted thing' (Num 18:14; Josh 6:17-18). Non-war object clause: where the Hiphil takes an object that is neither a war-ban enemy nor consecrated property, the same 'devote ... to destruction' is kept, and the common emendation is reported in commentary (Isa 11:15 'YHWH will devote to destruction the tongue of the sea of Egypt'; heḥĕrîḇ 'dry up', NJPS, Targum, probably LXX). The root 'devote' stays visible in every English rendering."
+    },
+    "rationaleAppend": "isaiah-woh wave I-3: at Isa 11:15 MT wᵉheḥĕrîm YHWH ʾēṯ lᵉšôn yam-miṣrayim is rendered 'YHWH will devote to destruction the tongue of the sea of Egypt', replacing the draft's ASV 'utterly destroy' so that the root stays visible. The object (an arm of the sea) is unusual for the ban, which is why many read heḥĕrîḇ 'dry up' (ḥrb; NJPS 'will dry up', checked; LXX erēmōsei); the line keeps MT under the isaiah-woh mt-qere-textual-policy-isaiah entry and the commentary reports the emendation. The non-war-object clause of the wohChoice, which keeps 'devote ... to destruction' at 11:15, was ratified by founder ruling 2026-11-26.",
+    "note": "wohChoice change ratified (founder ruling 2026-11-26): the former pendingFounderRuling.ifRatified wording is now in changes.wohChoice, verbatim. Modifies an existing wohChoice, so strictly a major bump of the central glossary."
   },
   {
     "op": "modify",

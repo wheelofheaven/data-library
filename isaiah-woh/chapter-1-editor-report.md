@@ -186,3 +186,13 @@ These changes do not decide anything. `translation.status` (`awaiting-human`), t
 5. **ISA-1:25 commentary:** I added one sentence saying that the conjecture *bakkûr* "in the furnace" is not adopted.
 
 The escalation on ISA-1:31 now stands as a founder decision, and the Reviewer recommends "its maker". The escalation on ISA-1:24 hā-ʾāḏôn is unchanged.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder accepted every recommended default in `wave-i1-signoff-package.md` ("Sign-off ok", 2026-11-26). `translation.status` and the `reviewerReport` block are untouched; the orchestrator promotes the chapter.
+
+1. **Decision 1, hā-ʾāḏôn, option B.** ISA-1:24 now reads "Therefore says the Sovereign, YHWH of hosts, …"; commentary updated. `ha-adon-articular-title-isaiah` (overlay diff add op) is rewritten for "the Sovereign" and absorbs the chapter 3 entry `ha-adon-definite-title-isaiah` (orchestrator merge).
+2. **Decision 3, 1:31, "its maker".** Line: "And the strong shall become tinder, and its maker a spark; and both of them shall burn together, with none to quench them." The staged text in `lexical-cruxes-isaiah-1` replaced the old wohChoice clause and rationale item (6); the staged block is removed. ASV/NRSV "his work" is now in commentary. 1:31 is added to the `mt-qere-textual-policy-isaiah` addendum ("MT participial pointing followed") and to its appliesTo and the verse's glossaryRefs. The addendum key is now `rationaleAppend` (the key `merge_wave_diffs.py` applies), not `wohChoiceAddendum`.
+3. **Decision 6.** The central pillar entry's canon locus is corrected in `wave-i1-orchestrator-ops.json` `central.set`.

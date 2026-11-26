@@ -117,3 +117,12 @@ These were applied after the Reviewer pass. `translation.status` (`awaiting-huma
    - The unverified "Wildberger 'Baldachin'" is dropped from the `anan-chuppah-sukkah-zion-canopy-isaiah-4` rationale.
    - The NJPS footnote emendation "spread" (compare Ps 105:39) is added to the 4:5 commentary.
 6. **Not changed; for the human (raised by the Reviewer).** Disavowal (i) of the central pillar entry says the canon engages Exod 13:21–22 in *Extra-Terrestrials Took Me To Their Planet*. The verified site is TBWTT ch. 3 (3:10–14). That is existing central text, outside this diff.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder accepted every recommended default in `wave-i1-signoff-package.md` ("Sign-off ok", 2026-11-26). `translation.status` and the `reviewerReport` block are untouched; the orchestrator promotes the chapter.
+
+1. **Decision 5.** The 4:5 reception paragraph is kept as written.
+2. **Decision 6.** The central `pillar-of-cloud-…` rationale, disavowal (i), now names TBWTT ch. 3 (3:10–14) as the canon site instead of *Extra-Terrestrials Took Me To Their Planet*. The full corrected rationale, with this chapter's `rationaleAppend` for 4:5 at the end, is in `wave-i1-orchestrator-ops.json` `central.set` (applied after the diff ops).
