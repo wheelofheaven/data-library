@@ -1,0 +1,267 @@
+[
+  {
+    "op": "version",
+    "from": "3.0.0",
+    "to": "3.1.0",
+    "readBase": "3.0.0",
+    "note": "Isaiah wave I-5, chapter 30 Editor. Read base: overlay v3.0.0 (read-only, not edited). Contents: 4 add ops (hod-grandeur-isaiah, roeh-chozeh-seer-visionary-isaiah, rahab-sea-monster-name-isaiah, lexical-cruxes-isaiah-30; all direct) and 18 modify ops (appliesTo extensions with rationale addenda; no wohChoice, claim_type or existing rationale text rewritten), so a minor bump. Two ops ask the orchestrator to add scope clauses to wohChoice on merge (mt-qere-textual-policy-isaiah: qere sites 30:5, 32, 33; sefer-sealed-scroll-isaiah-29: 30:8). CONCURRENCY: the Editors for Isa 28, 31, 33-35 work from the same base; merge appliesTo as a union. Known overlaps: sefer-sealed-scroll-isaiah-29 (chapter 34 Editor adds 34:4, 34:16; the 30:8 decision 'scroll' was made consistently with it), mt-qere-textual-policy-isaiah, title-and-meta-conventions-isaiah, hoy-woe-isaiah, nes-signal-isaiah, aram-names-isaiah. FOUNDER DECISIONS: hod-grandeur-isaiah (30:30 'grandeur' vs NJPS 'majesty') and roeh-chozeh-seer-visionary-isaiah (30:10 'visionaries' vs ASV 'prophets') are escalated in chapter-30-editor-report.md."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "hod-grandeur-isaiah",
+      "source": "הוֹד (30:30 אֶת־הוֹד קוֹלוֹ)",
+      "translit": "hôḏ; hôḏ qôlô",
+      "strongs": "H1935 (hôḏ); H6963 (qôl). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "hôḏ 'splendour, majesty, vigour'",
+      "partOfSpeech": "noun, masculine singular, in construct",
+      "literal": "the splendour / majesty of his voice",
+      "standardEnglish": "ASV and JPS 1917 'his glorious voice'; NJPS 'His majestic voice' (all checked 2026-11-26: ASV via bible-api.com, JPS 1917 and NJPS via Sefaria API v3)",
+      "wohChoice": "'grandeur' is the proposed book-wide rendering of hôḏ in Isaiah (founder decision pending): 30:30 'And YHWH will cause the grandeur of his voice to be heard'. The construct noun is kept and not turned into an adjective. The choice keeps each of the book's reserved words to its own noun: 'glory' for kāḇôḏ (kavod-nondivine-glory-isaiah), 'splendor' for hāḏār (hadar-splendor-isaiah), 'majesty' for gāʾôn and gēʾûṯ of God (geut-majesty-isaiah), 'honor' for tip̄ʾereṯ (tiferet-honor-isaiah), 'beauty' for ṣᵉḇî (tsevi-beauty-isaiah). Alternative held for the founder: NJPS 'majesty' ('the majesty of his voice'), with the overlap with gāʾôn/gēʾûṯ recorded as a departure. ASV 'glorious' is not used, because 'glory/glorious' is reserved for kāḇôḏ.",
+      "claim_type": "direct",
+      "rationale": "hôḏ is 'splendour, majesty, vigour' (BDB; HALOT; recalled), the visible weight of a king or of God (Ps 21:6; 45:4; 104:1), and also the authority Moses passes to Joshua (Num 27:20). It occurs in Isaiah only at 30:30 (not concordance-verified). Every standard English gloss for it is already reserved by this book for another noun: 'glory' strictly for kāḇôḏ (wave I-4 ruling 2), 'splendor' for hāḏār, 'majesty' for gāʾôn/gēʾûṯ of God, 'honor' for tip̄ʾereṯ and 'beauty' for ṣᵉḇî. ASV and JPS 1917 'his glorious voice' would put the kāḇôḏ word on hôḏ, and NJPS 'His majestic voice' would put the gāʾôn word on it. 'Grandeur' is a plain English synonym of 'majesty' in the lexical range of the noun, and it lets the frequent pair hôḏ wᵉhāḏār (Ps 96:6; 104:1; 111:3; Job 40:10; 1 Chr 16:27) read 'grandeur and splendor' if the pair occurs in a later Isaiah-governed text or if the entry is promoted. The corpus outside Isaiah is not settled and is not reopened here: psalms-woh Ps 8:2 prints hôḏ 'your splendor', job-woh Job 37:22 'fearsome majesty' and Job 40:10 'honor and splendor' (hôḏ wᵉhāḏār), daniel-woh Dan 11:21 'the honor of the kingdom'. A later central entry could unify them; for now the decision is Isaiah-only and goes to the overlay. The noun is kept in construct ('the grandeur of his voice'), as the book keeps kāḇôḏ as a noun where ASV makes it an adjective (kavod-nondivine-glory-isaiah at 4:2, 11:10). The word is a lexical gloss chosen for concordance and carries no lens, so the claim is direct; because it departs from all three checked versions, it is escalated for the founder's decision.",
+      "appliesTo": [
+        "ISA-30:30"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "roeh-chozeh-seer-visionary-isaiah",
+      "source": "רֹאֶה · חֹזֶה (30:10 לָרֹאִים … וְלַחֹזִים); verbs רָאָה (תִרְאוּ) · חָזָה (תֶחֱזוּ · חֲזוּ)",
+      "translit": "rōʾeh; ḥōzeh; lārōʾîm … wᵉlaḥōzîm; lōʾ tirʾû; lōʾ teḥĕzû-lānû; ḥăzû",
+      "strongs": "H7203 (rōʾeh); H2374 (ḥōzeh); H7200 (rāʾāh); H2372 (ḥāzāh); H5030 (nāḇîʾ, contrast). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "the two 'seer' nouns of Isaiah and their verbs",
+      "partOfSpeech": "nouns (participles used as titles) and finite verbs",
+      "literal": "to the seers (ones who see) … and to the ones who see visions: 'Do not see' … 'Do not see visions for us of right things … see visions of deceptions'",
+      "standardEnglish": "ASV, JPS 1917 and NJPS: 'to the seers … to the prophets', with the ḥzh verbs rendered 'prophesy' (all checked 2026-11-26)",
+      "wohChoice": "rōʾeh 'seer'; ḥōzeh 'seer' where it stands alone or beside nāḇîʾ (29:10, stable: 'the prophets … the seers'), and 'visionary' where rōʾeh stands beside it (30:10); the verb rʾh 'see'; the verb ḥzh 'see visions' only where it stands beside rʾh with these titles (30:10), and elsewhere 'see' / 'saw' as in the stable 1:1, 2:1, 13:1 ('which he saw') and 26:11 ('they do not see') and the wave I-5 33:17, 20. nāḇîʾ is always 'prophet', and 'prophesy' is kept for the verb nbʾ. 30:10: 'who say to the seers, “Do not see,” and to the visionaries, “Do not see for us visions of what is right; speak to us smooth things, see visions of deceptions;”'. Outside the entry: the noun rōʾeh 'vision' at 28:7 (chapter 28 Editor) and the participle rōʾîm 'those who see' at 32:3 (stable).",
+      "claim_type": "direct",
+      "rationale": "Isa 30:10 sets two titles side by side, rōʾîm and ḥōzîm, both meaning 'one who sees' (BDB; HALOT 'seer, visionary'; recalled), and the verse contains no nāḇîʾ. The English versions print 'the seers … the prophets' and render the ḥzh verbs 'prophesy', which gives the reader a word the Hebrew does not use. In this book that matters: the stable 29:10 prints nᵉḇîʾîm 'the prophets' and ḥōzîm 'the seers', so the ASV wording at 30:10 would give 'the prophets' to two different nouns, and 'seers' to two different nouns, in neighbouring chapters. Keeping 'seer' for rōʾeh (the older title of 1 Sam 9:9) and using 'visionary' for ḥōzeh only where both stand together keeps 29:10 intact and keeps each root visible in 30:10; the verbs follow ('Do not see' / 'see visions') at this pairing only; elsewhere the book renders ḥzh plainly 'see' / 'saw' (post-review scope correction). 'Visionary' is a standard lexical gloss of ḥōzeh and carries no lens, so the claim is direct. The change departs from all three checked versions in the line, and it is reported to the founder with the ASV wording as the alternative.",
+      "appliesTo": [
+        "ISA-30:10"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "rahab-sea-monster-name-isaiah",
+      "source": "רַהַב (30:7 רַהַב הֵם שָׁבֶת; 51:9)",
+      "translit": "rahaḇ; rahaḇ hēm šāḇeṯ",
+      "strongs": "H7294 (Rahab, the monster; also a name for Egypt); H7293 (rahaḇ 'storm, arrogance'); H7674 (šeḇeṯ / šāḇeṯ). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "Rahab, the name of the sea monster, applied to Egypt",
+      "partOfSpeech": "proper noun; at 30:7 followed by the pronoun hēm and a noun or infinitive of šbt",
+      "literal": "Rahab, they (are) sitting-still / cessation",
+      "standardEnglish": "ASV 'Rahab that sitteth still'; JPS 1917 'arrogancy that sitteth still'; NJPS 'They are a threat that has ceased' (note: meaning uncertain; emendation 'Disgrace and chagrin') (all checked 2026-11-26)",
+      "wohChoice": "'Rahab' transliterated as the proper name of the sea monster in Isaiah: 30:7 'therefore I have called her Rahab who sits still' (MT; ASV), with hēm 'they' left unrendered as in ASV; the same name at 51:9 when that chapter is drafted. Not JPS 1917's common noun 'arrogancy', and not an emended text. The myth (Ps 89:11; Job 26:12; Ps 87:4 Rahab = Egypt) and the emendations are given in commentary only.",
+      "claim_type": "direct",
+      "rationale": "Rahab is the name of the chaos monster subdued by YHWH (Isa 51:9; Ps 89:11 [Eng. 89:10]; Job 9:13; 26:12) and, at Ps 87:4, a poetic name for Egypt (BDB; HALOT; recalled), so a taunt that names Egypt 'Rahab' is lexically expected, and ASV and NRSV-type versions print the name. JPS 1917 reads the common noun rahaḇ 'arrogance' instead, and NJPS gives up the name and marks the line as uncertain. The line keeps MT and the name because the consonants and pointing are those of the name, and because 51:9 needs the same English word if the book's two Rahab sites are to be seen together. hēm šāḇeṯ is difficult (literally 'they, a sitting still'); ASV's 'who sits still' gives the sense without the pronoun, and the line follows it, recording the literal shape and the proposed redivisions in commentary. The cross-corpus chaoskampf cluster is documented centrally (chaoskampf-sea-conflict-cross-corpus-ugaritic-akkadian-hebrew-bible, extended to ISA-30:7) and stays out of the line. A transliterated name carries no lens, so the claim is direct.",
+      "appliesTo": [
+        "ISA-30:7"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-30",
+      "source": "וְלִנְסֹךְ מַסֵּכָה (30:1) · לָעוֹז בְּמָעוֹז · וּפִי לֹא שָׁאָלוּ (30:2) · שָׂרָיו · מַלְאָכָיו · צֹעַן · חָנֵס (30:4) · מַשָּׂא בַּהֲמוֹת נֶגֶב (30:6) · הֶבֶל וָרִיק (30:7) · לְיוֹם אַחֲרוֹן לָעַד (30:8) · נְכֹחוֹת · מַהֲתַלּוֹת (30:10) · בְּעֹשֶׁק וְנָלוֹז (30:12) · נֵבֶל יוֹצְרִים · גֶּבֶא (30:14) · כֹּה אָמַר · בְּשׁוּבָה וָנַחַת (30:15) · אֶלֶף אֶחָד … גַּעֲרַת · כַּתֹּרֶן (30:17) · יָרוּם · אַשְׁרֵי (30:18) · יֵשֵׁב (30:19) · מוֹרֶיךָ · יִכָּנֵף · לֶחֶם צָר וּמַיִם לָחַץ (30:20) · כְּמוֹ דָוָה · מַסֵּכַת (30:22) · בְּלִיל חָמִיץ (30:24) · כְּאוֹר שִׁבְעַת הַיָּמִים · מַחַץ מַכָּתוֹ (30:26) · שֵׁם־יְהוָה · וְכֹבֶד מַשָּׂאָה (30:27) · בְּנָפַת שָׁוְא · רֶסֶן מַתְעֶה (30:28) · נַחַת זְרוֹעוֹ · נֶפֶץ וָזֶרֶם (30:30) · יֵחַת · בַּשֵּׁבֶט יַכֶּה (30:31) · מַעֲבַר מַטֵּה מוּסָדָה · תְּנוּפָה (30:32) · תָּפְתֶּה · לַמֶּלֶךְ · הֶעְמִיק הִרְחִב מְדֻרָתָהּ (30:33)",
+      "translit": "wᵉlinsōḵ massēḵāh; lāʿôz bᵉmāʿôz; ûp̄î lōʾ šāʾālû; śārāyw; malʾāḵāyw; ṣōʿan; ḥānēs; maśśāʾ bahămôṯ negeḇ; heḇel wārîq; lᵉyôm ʾaḥărôn lāʿaḏ; nᵉḵōḥôṯ; mahăṯallôṯ; bᵉʿōšeq wᵉnālôz; nēḇel yôṣᵉrîm; gebeʾ; kōh ʾāmar; bᵉšûḇāh wānaḥaṯ; ʾelep̄ ʾeḥāḏ … gaʿăraṯ; kattōren; yārûm; ʾašrê; yēšēḇ; môreyḵā; yikkānēp̄; leḥem ṣar ûmayim lāḥaṣ; kᵉmô dāwāh; massēḵaṯ; bᵉlîl ḥāmîṣ; kᵉʾôr šiḇʿaṯ hayyāmîm; maḥaṣ makkāṯô; šēm-YHWH; wᵉḵōḇeḏ maśśāʾāh; bᵉnāp̄aṯ šāwᵉʾ; resen maṯʿeh; naḥaṯ zᵉrôʿô; nep̄eṣ wāzerem; yēḥaṯ; baššēḇeṭ yakkeh; maʿăḇar maṭṭēh mûsāḏāh; tᵉnûp̄āh; tāp̄teh; lammeleḵ; heʿmîq hirḥiḇ mᵉḏurāṯāh",
+      "strongs": "H5258/H5259 (nsk I 'pour' / II 'weave'); H4541 (massēḵāh); H5756 (ʿwz); H4581 (māʿôz); H6310 (peh); H8269 (śar); H4397 (malʾāḵ); H6814 (Ṣōʿan); H2609 (Ḥānēs); H4853 (maśśāʾ); H929 (bᵉhēmāh); H5045 (negeḇ); H1892 (heḇel); H7385 (rîq); H319 (ʾaḥărôn); H5703 (ʿaḏ) / H5707 (ʿēḏ); H5229 (nᵉḵōḥāh); H4123 (mahăṯallāh); H6233 (ʿōšeq); H3868 (lûz); H5035 (nēḇel); H3335 (yāṣar); H1360 (gebeʾ); H7729 (šûḇāh); H5183 (naḥaṯ); H1606 (gᵉʿārāh); H8650 (tōren); H7311 (rûm); H835 (ʾešer); H3427 (yāšaḇ); H3384 (yārāh, participle môreh); H3670 (kānap̄); H6862 (ṣar); H3906 (laḥaṣ); H1739 (dāweh); H1098 (bᵉlîl); H2548 (ḥāmîṣ); H7659 (šiḇʿāṯayim); H4273 (maḥaṣ); H4347 (makkāh); H8034 (šēm); H4858 (maśśāʾāh); H5299 (nāp̄āh); H7723 (šāwᵉʾ); H7448 (resen); H8582 (tʿh); H5183 (naḥaṯ II 'descent'); H2220 (zᵉrôaʿ); H5311 (nep̄eṣ); H2230 (zerem); H2865 (ḥāṯaṯ); H7626 (šēḇeṭ); H4569 (maʿăḇār); H4294 (maṭṭeh); H4145 (mûsāḏāh); H8573 (tᵉnûp̄āh); H8613 (tāp̄teh); H4428 (meleḵ) / H4432 (Mōleḵ); H4071 (mᵉḏûrāh). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "single-site lexical, syntactic and textual decisions of Isaiah 30 not covered by a dedicated entry",
+      "partOfSpeech": "mixed (verbs, nouns, construct phrases, place names, particles)",
+      "literal": "to pour a libation / weave a web; to take refuge in the stronghold; my mouth they did not ask; his princes; his messengers; Zoan; Hanes; oracle of the beasts of the Negeb; breath and emptiness; for a later day, for ever / as a witness; straight things; deceptions; in oppression and the devious; jar of potters; pool; in returning/sitting still and rest; a thousand … rebuke; like the pole; he will be high; happy/blessed; he will dwell; your teacher(s); be cornered/hidden; bread of distress and water of oppression; like a menstruant / sick; cast image; seasoned fodder; like the light of the seven days; the wound of its blow; the name of YHWH; heaviness of uprising; with a sieve of worthlessness; a bridle that misleads; the descent of his arm; shattering and downpour; be shattered; with the rod he will strike; passing of the staff of foundation; waving; Topheth; for the king / for Molech; he made deep, made wide its pyre",
+      "standardEnglish": "ASV throughout (checked via bible-api.com 2026-11-26): 'make a league', 'to strengthen themselves in the strength of Pharaoh', 'asked at my mouth', 'their princes … their ambassadors', 'Zoan … Hanes', 'The burden of the beasts of the South', 'helpeth in vain', 'for the time to come for ever and ever', 'right things … deceits', 'oppression and perverseness', 'potter's vessel', 'In returning and rest', 'One thousand [shall flee] at the threat of one … a beacon', 'be exalted', 'blessed', 'For the people shall dwell', 'thy teachers', 'the bread of adversity and the water of affliction', 'as an unclean thing', 'savory provender', 'as the light of seven days … the stroke of their wound', 'in thick rising smoke', 'the sieve of destruction', 'the lighting down of his arm … a blast, and tempest', 'with his rod will he smite [him]', 'every stroke of the appointed staff … brandishing', 'a Topheth … for the king'. JPS 1917 and NJPS (Sefaria API v3, checked 2026-11-26) as cited in the commentary.",
+      "wohChoice": "30:1 'make a league' (nsk I, treaty libation; ASV), with NJPS 'weaving schemes' and JPS 1917 'form projects' in commentary. 30:2 'to take refuge in the stronghold of Pharaoh' (JPS 1917; ʿwz); 'have not asked of my mouth' (idiom kept). 30:4 'his princes … his messengers' (Hebrew suffix; JPS 1917); 'Zoan', 'Hanes' (ASV spellings; Tanis and Heracleopolis in commentary). 30:6 heading 'The oracle concerning the beasts of the South' (MT; emendation in commentary). 30:7 heḇel wārîq adverbial 'in vain and to no purpose'. 30:8 lāʿaḏ 'for ever' (MT; NJPS/Targum 'witness' in commentary); yôm ʾaḥărôn 'the time to come', not 'the last day'. 30:10 nᵉḵōḥôṯ 'what is right', mahăṯallôṯ 'deceptions'. 30:12 ʿōšeq 'oppression' (MT). 30:14 nēḇel yôṣᵉrîm 'a potters' jar'; gebeʾ 'the cistern'. 30:15 kōh ʾāmar 'thus says' (as v. 12 and every other kōh ʾāmar line in the book; ASV and JPS 1917 'thus said'); šûḇāh 'returning' (ASV), neither 'sitting still' nor 'repentance' in the line. 30:17 the verbless first colon kept elliptical; gᵉʿārāh 'rebuke'; tōren 'beacon' (ASV, JPS 1917). 30:18 yārûm 'he will be exalted'; ʾašrê 'blessed' (as stable 32:20). 30:19 yēšēḇ finite 'a people shall dwell' (MT; the vocative in commentary). 30:20 môreyḵā singular, lower case, 'your teacher' (twice); yikkānēp̄ 'be hidden'; 'the bread of adversity and the water of affliction' (construct, ASV). 30:22 kᵉmô dāwāh 'as an unclean thing' (ASV); massēḵaṯ singular 'molten image'; tizrēm 'cast away' (MT vocalization). 30:24 ḥāmîṣ 'seasoned'. 30:26 'like the light of the seven days' (article rendered; the checked readings are Ibn Ezra's combined light, Radak's week or Solomon's dedication, the Talmud's messianic days, and the 343 of Targum and Rashi, and none of them is the creation week); maḥaṣ makkāṯô 'the wound of its blow' (singular suffix). 30:27 šēm-YHWH 'the name of YHWH' (literal); maśśāʾāh 'rising smoke'. 30:28 'the sieve of destruction'; 'a bridle that leads astray'. 30:30 naḥaṯ 'descent'; nep̄eṣ 'cloudburst', zerem 'tempest'. 30:31 yēḥaṯ 'be dismayed'; baššēḇeṭ yakkeh 'with the rod he will strike' (subject unmarked). 30:32 'every passing of the appointed staff'; tᵉnûp̄āh 'brandishing'. 30:33 tāp̄teh 'a Topheth' (ASV); lammeleḵ 'for the king' (MT pointing; NJPS 'Melech' / Molech in commentary); ASV's clause division 'he has made it deep and wide; its pyre is fire and wood in abundance'.",
+      "claim_type": "direct",
+      "rationale": "Each item is a single-site decision that keeps a standard rendering of the Masoretic Text, chosen from ASV, JPS 1917 or NJPS (all checked), with the rejected options and emendations reported in the verse commentary; none of the choices carries the project's lens. Two items change the Translator's draft. At 30:20 the plural 'your teachers' (ASV) becomes the singular 'your teacher', because the verb yikkānēp̄ is singular and the yod-before-suffix form occurs with singular III-he nouns, as miqneyḵā 'your livestock' with a singular verb in 30:23 shows (GKC §93ss, recalled, not verified); JPS 1917 and NJPS read the singular, and Rashi (checked) identifies the teacher as God. The line keeps lower case so that the identification stays in the commentary, consistent with the book's lower-case divine epithets (yah-tzur-olamim-everlasting-rock-isaiah-26). The central elon-moreh entry cites Isa 30:20 for the common noun môreh, but its wohChoice governs the toponym of Gen 12:6, so it is not extended. At 30:26 the line renders the article of šiḇʿaṯ hayyāmîm with JPS 1917 and NJPS and no more; Targum Jonathan and Rashi read a multiplier of 343, Ibn Ezra the seven days' light combined, Radak the week's days combined or Solomon's dedication, b. Pesachim 68a and b. Sanhedrin 91b the days of the Messiah (checked by Editor and Reviewer), and none reads the creation week. At 30:15 the messenger formula kōh ʾāmar takes 'thus says', the book's rendering everywhere else (post-review concordance fix; ASV and JPS 1917 'thus said'). At 30:33 MT's lammeleḵ 'for the king' is kept against NJPS 'Melech', and JPS 1917's common noun 'a hearth' is not adopted, because the name tāp̄teh (a form of tōp̄eṯ) is the point of the oracle. The remaining items follow ASV wording where it is accurate, and modern English where ASV is archaic ('seasoned fodder' for 'savory provender', 'deceptions' for 'deceits'). The renderings are standard glosses, so the claim is direct.",
+      "appliesTo": [
+        "ISA-30:1",
+        "ISA-30:2",
+        "ISA-30:4",
+        "ISA-30:6",
+        "ISA-30:7",
+        "ISA-30:8",
+        "ISA-30:10",
+        "ISA-30:12",
+        "ISA-30:14",
+        "ISA-30:15",
+        "ISA-30:17",
+        "ISA-30:18",
+        "ISA-30:19",
+        "ISA-30:20",
+        "ISA-30:22",
+        "ISA-30:24",
+        "ISA-30:26",
+        "ISA-30:27",
+        "ISA-30:28",
+        "ISA-30:30",
+        "ISA-30:31",
+        "ISA-30:32",
+        "ISA-30:33"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-30:1",
+      "ISA-30:12",
+      "ISA-30:15"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): the Translator's title is kept with one change, 'the written witness' → 'the tablet and the scroll', because the line keeps MT lāʿaḏ 'for ever' at 30:8 and does not print 'witness' (the NJPS/Targum repointing is in commentary). Messenger formulas at 30:12 and 30:15 are unquoted; the embedded speech of 30:10-11, 16, 21, 22 is quoted."
+  },
+  {
+    "op": "modify",
+    "id": "hoy-woe-isaiah",
+    "appliesToAdded": [
+      "ISA-30:1"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:1 hôy bānîm sôrᵉrîm 'Woe, rebellious children' under the vocative rule (as 1:4; 29:1); ASV and JPS 1917 'Woe to the rebellious children' (checked) recorded in commentary."
+  },
+  {
+    "op": "modify",
+    "id": "ruach-divine-spirit-lower-case-isaiah",
+    "appliesToAdded": [
+      "ISA-30:1",
+      "ISA-30:28"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:1 wᵉlōʾ rûḥî 'but not of my spirit' (lower case; ASV 'my Spirit'); 30:28 wᵉrûḥô kᵉnaḥal šôṭēp̄ 'and his breath is like an overflowing stream' under the 'breath' clause (40:7). nišmaṯ YHWH at 30:33 is nᵉšāmāh, 'the breath of YHWH', and is outside the entry."
+  },
+  {
+    "op": "modify",
+    "id": "maoz-shalom-refuge-peace-isaiah-27",
+    "appliesToAdded": [
+      "ISA-30:2",
+      "ISA-30:3"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): māʿôz parʿōh 'the stronghold of Pharaoh' at 30:2 and 30:3 (JPS 1917 'stronghold', checked; ASV 'strength'). The infinitive lāʿôz is from ʿwz 'take refuge' (JPS 1917), not ʿzz (ASV 'strengthen themselves'). The refuge/peace clause of 27:5 does not apply in chapter 30."
+  },
+  {
+    "op": "modify",
+    "id": "aram-names-isaiah",
+    "appliesToAdded": [
+      "ISA-30:2",
+      "ISA-30:3",
+      "ISA-30:4",
+      "ISA-30:7",
+      "ISA-30:31"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 'Egypt', 'Pharaoh' and 'Assyria' (30:2, 3, 7, 31) under ruling 4; 'Zoan' and 'Hanes' (30:4) in the ASV spelling (identifications Tanis and Heracleopolis in commentary)."
+  },
+  {
+    "op": "modify",
+    "id": "massa-oracle-superscription-isaiah",
+    "appliesToAdded": [
+      "ISA-30:6"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:6 maśśāʾ bahămôṯ negeḇ 'The oracle concerning the beasts of the South', as the rationale anticipated (ASV and JPS 1917 'The burden of the beasts of the South'; NJPS 'The \"Beasts of the Negeb\" Pronouncement'; checked)."
+  },
+  {
+    "op": "modify",
+    "id": "oracle-names-isaiah-21",
+    "appliesToAdded": [
+      "ISA-30:6"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): negeḇ 'the South' also in the heading of 30:6 (ASV, JPS 1917), as at 21:1; 'the Negeb' in commentary."
+  },
+  {
+    "op": "modify",
+    "id": "seraphim-burning-ones-isaiah",
+    "appliesToAdded": [
+      "ISA-30:6"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): śārāp̄ mᵉʿôp̄ēp̄ at 30:6 is 'the fiery flying serpent' in a list of desert animals, as at 14:29 (ASV 'fiery flying serpent'; JPS 1917 'flying serpent'; NJPS 'flying seraph'; checked)."
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-30:5",
+      "ISA-30:6",
+      "ISA-30:7",
+      "ISA-30:8",
+      "ISA-30:12",
+      "ISA-30:19",
+      "ISA-30:22",
+      "ISA-30:32",
+      "ISA-30:33"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): the qere is translated at 30:5 (ketiv הבאיש 'made to stink', qere הֹבִישׁ 'put to shame'), 30:32 (ketiv בה 'against her', qere בָּם 'against them') and 30:33 (ketiv הוא, qere הִיא 'it too', agreeing with tāp̄teh). Orchestrator: add '30:5', '30:32' and '30:33' to the qere list in wohChoice on merge (scope-only; the field is not rewritten here to avoid conflicts with the parallel Editors). MT is kept, and alternatives are reported in commentary, at 30:6 (NJPS-noted emendation 'Through the wasteland of the Negeb'), 30:7 (NJPS-noted emendation 'Disgrace and chagrin'; redivisions of rahaḇ hēm šāḇeṯ, not verified), 30:8 (lᵉʿēḏ 'a witness', NJPS with Targum Jonathan, both checked), 30:12 (emendation ʿiqqēš, not verified), 30:19 (vocative yōšēḇ, JPS 1917 and NJPS), 30:22 (NJPS-noted revocalization 'keep' for tizrēm) and 30:33 (NJPS 'Melech' for lammeleḵ). The LXX and 1QIsaᵃ were not checked for chapter 30."
+  },
+  {
+    "op": "modify",
+    "id": "sefer-sealed-scroll-isaiah-29",
+    "appliesToAdded": [
+      "ISA-30:8"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:8 wᵉʿal-sēp̄er ḥuqqāh 'and inscribe it on a scroll' (draft 'in a book'; ASV and JPS 1917 'in a book', NJPS 'in a record', checked). sēp̄er is a written document beside the lûaḥ 'tablet' (as 8:1), and the reasons of the 29:11 decision apply: 'book' suggests a codex and a particular book. The decision is made consistently with the chapter 34 Editor's extension of this entry to 34:4 and 34:16 (coordinator note), so that sēp̄er is 'scroll' at 29:11-18, 30:8 and 34:4, 16. Orchestrator: add the clause \"30:8 'inscribe it on a scroll'\" to wohChoice on merge (scope-only; merge as a union with the chapter 34 op)."
+  },
+  {
+    "op": "modify",
+    "id": "torah-teaching-isaiah",
+    "appliesToAdded": [
+      "ISA-30:9"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:9 tôraṯ YHWH 'the teaching of YHWH' (JPS 1917 'the teaching', NJPS 'The instruction', ASV 'the law'; checked)."
+  },
+  {
+    "op": "modify",
+    "id": "yotser-potter-clay-image-isaiah",
+    "appliesToAdded": [
+      "ISA-30:14"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): the plural yôṣᵉrîm in nēḇel yôṣᵉrîm 'a potters' jar' (30:14) names the craftsmen and takes 'potters'."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh-compound-isaiah-25",
+    "appliesToAdded": [
+      "ISA-30:15"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:15 ʾăḏōnāy YHWH qᵉḏôš yiśrāʾēl 'the Lord YHWH, the Holy One of Israel'."
+  },
+  {
+    "op": "modify",
+    "id": "nes-signal-isaiah",
+    "appliesToAdded": [
+      "ISA-30:17"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:17 kannēs ʿal-haggiḇʿāh 'like a signal on a hill', as the entry anticipated (ASV and JPS 1917 'an ensign')."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-el-eloah-monotheistic-formula-isaiah",
+    "appliesToAdded": [
+      "ISA-30:18"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:18 ʾĕlōhê mišpāṭ YHWH 'YHWH is a God of justice'."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-standalone-title-isaiah",
+    "appliesToAdded": [
+      "ISA-30:20"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:20 wᵉnāṯan lāḵem ʾăḏōnāy 'though the Lord gives you'."
+  },
+  {
+    "op": "modify",
+    "id": "kavod-labanah-chammah-isaiah-24",
+    "appliesToAdded": [
+      "ISA-30:26"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): the poetic pair lᵉḇānāh / ḥammāh is 'the moon' / 'the sun' at 30:26 ('the light of the moon shall be like the light of the sun'), as at 24:23; the kāḇôḏ clause does not apply there."
+  },
+  {
+    "op": "modify",
+    "id": "yah-tzur-olamim-everlasting-rock-isaiah-26",
+    "appliesToAdded": [
+      "ISA-30:29"
+    ],
+    "rationaleAppend": "Wave I-5 (Isa 30): 30:29 ʾel-ṣûr yiśrāʾēl 'to the rock of Israel', lower case, at the site the rationale already names (ASV, JPS 1917, NJPS 'the Rock of Israel', checked)."
+  }
+]

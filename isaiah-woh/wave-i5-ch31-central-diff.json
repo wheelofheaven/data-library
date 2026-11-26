@@ -1,0 +1,25 @@
+[
+  {
+    "op": "version",
+    "from": "4.0.0",
+    "to": "4.1.0",
+    "readBase": "4.0.0",
+    "note": "Isaiah wave I-5, chapter 31 Editor. Read base: central v4.0.0 (read-only). Contents: 2 modify ops (one appliesTo extension with a rationale addendum on elilim-idols-cross-corpus; one rationale-only cross-reference on mas-oved-corvee-labor-institutional-vocabulary-cross-corpus, REQUIRES FOUNDER APPROVAL before merge). No wohChoice, claim_type or appliesTo field is changed beyond elilim's appliesToAdded, so a minor bump. CONCURRENCY: merge as a union with the other wave I-5 Editors."
+  },
+  {
+    "op": "modify",
+    "id": "elilim-idols-cross-corpus",
+    "appliesToAdded": [
+      "ISA-31:7"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-5: applied at Isa 31:7 ('their idols of silver and their idols of gold'), a site the wohChoice already names. The verb there is mʾs 'reject' (NJPS 'reject'), not hišlîḵ 'cast away' as at 2:20 (isaiah-woh overlay lexical-cruxes-isaiah-31)."
+  },
+  {
+    "op": "modify",
+    "id": "mas-oved-corvee-labor-institutional-vocabulary-cross-corpus",
+    "appliesToAdded": [],
+    "requiresFounderApproval": true,
+    "note": "FOUNDER APPROVAL REQUIRED (Reviewer glossaryReview flag-for-human, Isaiah 31, 2026-11-26). Rationale-only cross-reference; no appliesTo or wohChoice change. If the founder rules instead for 'taskwork' concordance, drop this op and change the Isa 31:8 line through lexical-cruxes-isaiah-31.",
+    "rationaleAppend": "Cross-reference (isaiah-woh wave I-5, pending founder approval): at Isa 31:8 the bare noun mas (ûḇaḥûrāyw lāmas yihyû) is rendered 'his young men shall become forced labor' (isaiah-woh overlay lexical-cruxes-isaiah-31). 'Forced labor' is the standard modern lexical sense of collective mas (BDB 'body of forced labourers'; HALOT 'forced labour, corvée'; recalled, not verified), where ASV has 'subject to taskwork', JPS 1917 'tributary' and NJPS, deriving the word from mss, 'pine away'. This entry keeps ASV 'taskwork' for the compound mas ʿōḇēḏ at Gen 49:15 and its wohChoice is unchanged. The corpus therefore has two English words for mas: 'taskwork' in the compound and 'forced labor' for mas alone. A corpus-wide decision on bare mas is recommended before Kings (1 Kgs 5:27; 9:15, 21) reaches the library."
+  }
+]

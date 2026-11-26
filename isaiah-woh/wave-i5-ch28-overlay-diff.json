@@ -1,0 +1,195 @@
+[
+  {
+    "op": "version",
+    "from": "3.0.0",
+    "to": "3.1.0",
+    "readBase": "3.0.0",
+    "note": "Isaiah wave I-5, chapter 28 Editor. Read base: overlay v3.0.0 (read-only). Contents: 3 add ops (lag-stammering-isaiah, per wave I-5 rule 7, which the chapter 33 Editor extends to ISA-33:19; even-bochan-tested-cornerstone-isaiah-28; lexical-cruxes-isaiah-28) and 13 modify ops (appliesTo extensions). One modify op (qav-qav-line-isaiah) carries `changes.wohChoice` = the v3.0.0 string with one sentence APPENDED (the 28:10, 13, 17 settlement the entry deferred to this chapter); the existing text is unchanged and `wohChoiceAppend` repeats the sentence for append-merging. No wohChoice is rewritten and no claim_type changes, so a minor bump is proposed; if the orchestrator counts a wohChoice append as a modification, bump to 4.0.0 instead. CONCURRENCY: the chapter 30, 31, 33, 34, 35 Editors work from the same base. Merge as a union and re-base each appliesTo as (merged array + appliesToAdded). Likely overlaps: hoy-woe-isaiah (30:1; 31:1; 33:1), yhwh-tzevaot-hosts-isaiah, adonai-yhwh-compound-isaiah-25, mt-qere-textual-policy-isaiah, eretz-cosmic-scope-isaiah-24, tsevi/tiferet, lag-stammering-isaiah (33:19 appended by the chapter 33 Editor to the entry added here)."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lag-stammering-isaiah",
+      "source": "בְּלַעֲגֵי שָׂפָה (28:11) · נִלְעַג לָשׁוֹן (33:19)",
+      "translit": "bᵉlaʿăḡê śāp̄āh; nilʿaḡ lāšôn",
+      "strongs": "H3933 (laʿaḡ 'mocking; stammering'); H3932 (lāʿaḡ 'mock', Niphal 'stammer'); H3934 (lāʿēḡ). Numbers from recall, not concordance-verified.",
+      "lemma": "lʿg: laʿaḡ 'mocking, derision; (barbarous) stammering' (pl. cstr. laʿăḡê, 28:11; some lexica refer the form to the adjective lāʿēḡ); Niphal participle nilʿaḡ 'stammering' (33:19)",
+      "partOfSpeech": "noun (plural construct) with śāp̄āh 'lip' (28:11); Niphal participle with lāšôn 'tongue' (33:19)",
+      "literal": "with stammerings of lip (28:11); stammering of tongue (33:19)",
+      "standardEnglish": "28:11: ASV 'by men of strange lips'; KJV, JPS 1917, Koren 'with stammering lips'; NJPS 'in a stammering jargon'; LXX διὰ φαυλισμὸν χειλέων 'through contempt of lips'; 1 Cor 14:21 (ASV) 'by men of strange tongues and by the lips of strangers'. 33:19: JPS 1917 'of a stammering tongue' (per wave I-5 rule 7; to be re-checked by the chapter 33 Editor)",
+      "wohChoice": "One English root for lʿg as the speech of foreigners: 28:11 kî bᵉlaʿăḡê śāp̄āh ûḇᵉlāšôn ʾaḥereṯ 'For with stammering lips and with another tongue'; 33:19 nilʿaḡ lāšôn, 'stammering' (wording of the whole phrase left to the chapter 33 Editor, who appends ISA-33:19). ASV's supplied 'men of' is not printed. The 'mocking' sense of the root (28:14, 22 use the different root lṣ for 'scoff') is given in commentary, not in the line. Other occurrences of lʿg meaning 'mock, deride' (e.g. 37:22 lāʿăḡāh lāḵ 'she has mocked you', when drafted) are outside this entry and take 'mock'.",
+      "claim_type": "direct",
+      "rationale": "BDB s.v. laʿaḡ gives two senses, 'mocking, derision' and '(barbarous) stammering', and lists ל׳ שָׂפָה Isa 28:11 under the second, parallel to lāšôn ʾaḥereṯ 'another tongue'. The same article records Gesenius, Delitzsch, Cheyne and Duhm referring the form to the adjective lāʿēḡ, and Graetz's emendation to the root ʿlg (BDB checked via Sefaria's lexicon, 2026-11-26). For 33:19 BDB gives the Niphal participle as 'a people stammering of tongue (i.e. barbarians)', with cognates in Syriac and Targumic Aramaic meaning 'stutter'. The two Isaiah passages describe the same thing, the unintelligible language of a foreign invader, and so the entry gives them one English root, as wave I-5 rule 7 rules. 'Stammering' is the reading of KJV, JPS 1917, Koren and NJPS at 28:11 (all checked 2026-11-26); ASV's 'strange lips' renders the sense but supplies 'men of' and loses the sound-word, which 28:10, 13 make prominent. The choice is the lexical sense and the majority English rendering, so the claim is direct. The play on the scoffers' own mocking is real in the Hebrew but belongs to commentary, since 'mocking lips' would lose the contrast with 'another tongue'. Paul's free quotation at 1 Cor 14:21 is reception, noted in commentary only.",
+      "appliesTo": [
+        "ISA-28:11"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "even-bochan-tested-cornerstone-isaiah-28",
+      "source": "הִנְנִי יִסַּד בְּצִיּוֹן אָבֶן אֶבֶן בֹּחַן פִּנַּת יִקְרַת מוּסָד מוּסָּד הַמַּאֲמִין לֹא יָחִישׁ",
+      "translit": "hinᵉnî yissaḏ bᵉṣiyyôn ʾāḇen ʾeḇen bōḥan pinnaṯ yiqraṯ mûsāḏ mûssāḏ hammaʾămîn lōʾ yāḥîš",
+      "strongs": "H3245 (yāsaḏ); H68 (ʾeḇen); H976 (bōḥan); H6438 (pinnāh); H3368 (yāqār); H4143 (mûsāḏ); H539 (ʾmn Hiphil); H2363 (ḥûš). Numbers from recall, not concordance-verified.",
+      "lemma": "yāsaḏ 'found' (Piel); ʾeḇen bōḥan 'tested stone'; pinnaṯ yiqraṯ 'precious cornerstone'; mûsāḏ mûssāḏ 'a foundation founded'; ḥûš 'make haste'",
+      "partOfSpeech": "verbal clause (hinᵉnî + Piel perfect 3ms) with appositional noun phrases; Hiphil participle + negated Qal imperfect",
+      "literal": "behold me, (he) has founded in Zion a stone, a stone of testing, a corner of preciousness, a foundation founded; the one who trusts will not hurry",
+      "standardEnglish": "ASV 'Behold, I lay in Zion for a foundation a stone, a tried stone, a precious corner-stone of sure foundation: he that believeth shall not be in haste'; JPS 1917 '… a costly corner-stone of sure foundation; He that believeth shall not make haste'; NJPS 'Behold, I will found in Zion, Stone by stone, A tower of precious cornerstones, Exceedingly firm; He who trusts need not fear' ('Meaning of Heb. uncertain'); LXX 'the one who believes in him will not be put to shame' (οὐ μὴ καταισχυνθῇ), quoted at Rom 9:33; 10:11; 1 Pet 2:6",
+      "wohChoice": "28:16 'Behold, I lay in Zion for a foundation a stone, a tested stone, a precious cornerstone of sure foundation; the one who believes will not be in haste.' MT is translated: ASV's present 'I lay' renders hinᵉnî yissaḏ (the 3ms perfect pointing and the participle proposal are reported in commentary); bōḥan 'tested' (BDB) for ASV 'tried'; yāḥîš 'will not be in haste' (ḥûš 'make haste', BDB), not the LXX 'will not be put to shame'. The New Testament reception (Rom 9:33, joined to 8:14; Rom 10:11; 1 Pet 2:6, joined to Ps 118:22; Eph 2:20) is reported in commentary only (wave I-5 rule 2). Neither the line nor the entry identifies the stone.",
+      "claim_type": "direct",
+      "rationale": "The verse is one of the most quoted in Isaiah, and the wave rulings bind its handling in advance: NT reception in commentary only. MT points yissaḏ as a Piel perfect third person after the first-person hinᵉnî. BDB (s.v. yāsaḏ) records Cheyne's reading of the participle yōsēḏ, and the English versions all render a first-person present or future ('I lay', ASV, JPS 1917, Koren; 'I will found', NJPS; checked 2026-11-26). The line takes that consensus sense; the morphology is reported. BDB s.v. bōḥan glosses ʾeḇen bōḥan 'a tested, tried stone, i.e. approved for use as a foundation-stone' (checked via Sefaria's lexicon), so 'tested' is the lexical rendering and avoids the archaic 'tried'. BDB s.v. ḥûš gives 'haste, make haste'; ASV's 'shall not be in haste' is exact, and NJPS 'need not fear' paraphrases the sense (panic flight). The LXX 'shall not be put to shame' (getbible.net LXX, checked) reflects a different reading or interpretation and reached the NT through Paul and 1 Peter (ASV NT checked). Translating MT and reporting the LXX and its reception follows mt-qere-textual-policy-isaiah. The rendering is the standard one, so the claim is direct. The entry exists so that the stone verse has an auditable record: the line carries no Christological or other identification of the stone, and any lens reading is confined to a labelled speculative paragraph. Reviewer correction (2026-11-26): the source has the long form הִנְנִי, transliterated hinᵉnî.",
+      "appliesTo": [
+        "ISA-28:16"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-28",
+      "source": "גֵּיא־שְׁמָנִים (28:1, 4) · הִנִּיחַ לָאָרֶץ בְּיָד (28:2) · הָרֹאֶה … בְּכַפּוֹ (28:4) · נִבְלְעוּ · שָׁגוּ בָּרֹאֶה (28:7) · בְּלִי מָקוֹם (28:8) · אֶת־מִי יוֹרֶה דֵעָה (28:9) · מֹשְׁלֵי הָעָם (28:14) · מָוֶת · חֹזֶה (28:15) · וְכֻפַּר (28:18) · כְהַר־פְּרָצִים … כְּעֵמֶק בְּגִבְעוֹן · יִרְגָּז · זָר … נָכְרִיָּה (28:21) · הַחֹרֵשׁ (28:24) · קֶצַח · שׂוֹרָה · נִסְמָן · כֻסֶּמֶת (28:25) · לַמִּשְׁפָּט (28:26) · חָרוּץ (28:27) · לֶחֶם יוּדָק · וְהָמַם … וּפָרָשָׁיו (28:28) · הִפְלִיא עֵצָה הִגְדִּיל תּוּשִׁיָּה (28:29)",
+      "translit": "gêʾ-šᵉmānîm; hinnîaḥ lāʾāreṣ bᵉyāḏ; hārōʾeh … bᵉḵappô; niḇlᵉʿû; šāḡû bārōʾeh; bᵉlî māqôm; ʾeṯ-mî yôreh ḏēʿāh; mōšᵉlê hāʿām; māweṯ; ḥōzeh; wᵉḵuppar; kᵉhar-pᵉrāṣîm … kᵉʿēmeq bᵉḡiḇʿôn; yirgāz; zār … nāḵrîyāh; haḥōrēš; qeṣaḥ; śôrāh; nisman; kussemeṯ; lammišpāṭ; ḥārûṣ; leḥem yûḏāq; wᵉhāmam … ûp̄ārāšāyw; hip̄lîʾ ʿēṣāh hiḡdîl tûšîyāh",
+      "strongs": "H1516 (gayʾ); H8082 (šāmēn); H5117 (nûaḥ Hiphil); H776 (ʾereṣ); H7200 (rʾh); H1104 (blʿ); H7686 (šgh); H4725 (māqôm); H4910 (mšl I); H4912 (mšl II); H4194 (māweṯ); H2374 (ḥōzeh); H3722 (kpr); H6559 (pᵉrāṣîm); H1391 (giḇʿôn); H7264 (rgz); H2114 (zûr); H5237 (nāḵrî); H2790 (ḥrš); H7100 (qeṣaḥ); H7795 (śôrāh); H5567 (smn); H3698 (kussemeṯ); H4941 (mišpāṭ); H2742 (ḥārûṣ); H1854 (dqq); H2000 (hmm); H6571 (pārāš); H6381 (plʾ); H8454 (tûšîyāh). Numbers from recall, not concordance-verified.",
+      "lemma": "single-site lexical and syntactic decisions of Isaiah 28",
+      "partOfSpeech": "various (see source)",
+      "literal": "see wohChoice",
+      "standardEnglish": "ASV, KJV (getbible.net), JPS 1917, NJPS 1985 and Koren (Sefaria) checked 2026-11-26 for every verse; readings given per item in the chapter commentary",
+      "wohChoice": "28:1, 4 gêʾ-šᵉmānîm 'the rich valley' (Koren; ASV 'the fat valley'; NJPS's gēʾê 'men bloated with rich food' in commentary). 28:2 lāʾāreṣ 'to the ground' in the idiom of casting down, as the book prints 14:12; 21:9; 25:12; 26:5 (governed by no ʾereṣ entry; the draft's 'to the earth' changed); bᵉyāḏ 'with the hand' (ASV). 28:4 and 28:24-28: the generic participle is rendered neutrally ('the one who looks upon it'; 'the one who plows'), and the Hebrew 3ms pronouns resuming it are kept ('his hand … he swallows it'; 'his ground', 'his cart'), as ASV and NJPS; qayiṣ 'summer' (ASV). 28:7 ASV: 'they are swallowed up by wine' (blʿ 'swallow', echoing 28:4, not the 'confuse' homonym of JPS 1917 / NJPS); 'they err in vision, they stumble in judgment'. 28:8 'so that there is no place clean' (ASV). 28:9-10 no quotation marks (ASV; NJPS's attribution to the drunkards in commentary). 28:14 mōšᵉlê 'who rule' (mšl I, ASV; mšl II 'ballad-mongers' JPS 1917 / 'composers of taunt-verses' NJPS note in commentary); ʾanšê lāṣôn 'you scoffers'. 28:15, 18 māweṯ lower-case 'death' (as 25:8, billa-hamavet-death-swallowed-isaiah-25; NJPS 'Death' and the Mot comparison in commentary); ḥōzeh / ḥāzûṯ 'agreement' (ASV; BDB's 'vision' proposal in commentary). 28:18 wᵉḵuppar 'annulled' (kpr in its legal sense; kupar-atonement-isaiah deliberately not applied). 28:21 'Mount Perazim', 'the valley of Gibeon' (ASV); yirgāz 'he will rage' (BDB 'be agitated'; ASV 'be wroth'; NJPS 'rouse Himself'); appositive syntax with maʿăśeh 'deed' / ʿăḇōḏāh 'work' and zār 'strange' / nāḵrîyāh 'alien' distinguished. 28:25, 27 qeṣaḥ 'black cumin' (BDB Nigella sativa; JPS 1917, NJPS), replacing ASV's archaic and botanically wrong 'fitches' in the draft; śôrāh 'in rows' (ASV; BDB's dittography view in commentary); nisman 'in the appointed place' (no suffix; draft 'its' corrected); kussemeṯ 'spelt' (ASV, JPS 1917; NJPS 'emmer' in commentary); gᵉḇulāṯô 'in its border'. 28:26 accent-based division 'For he instructs him aright; his God teaches him' (MT ṭip̄ḥā on lammišpāṭ, conjunctive mērᵊḵā on ʾĕlōhāyw; JPS 1917, NJPS, Koren), replacing the draft's ASV construal 'For his God instructs him aright; he teaches him' (the sense is unchanged, God being the subject of both verbs). 28:27 ḥārûṣ 'threshing sledge' (BDB adj. 'sharp' used as noun; homonym of the ḥārûṣ 'determined' of 10:22, central kalah-venecheratzah entry not applied); maṭṭeh 'staff', šēḇeṭ 'rod' (as 10:5). 28:28 dqq 'crush' at both sites; ASV construal 'for he will not go on threshing it forever … and though the wheel of his cart and his horses scatter it'. 28:29 ASV relative clause 'who is wonderful in counsel and excellent in sound wisdom'; tûšîyāh 'sound wisdom'; the 9:5 / 25:1 echo noted, pele-etzot-emunah-hymn-vocabulary-isaiah-25 not applied. PENDING FOUNDER RULING (pronouns resuming a generic participle; the lines keep option A, 'he/his', meanwhile). Staged singular-'they' alternative (option B), to be applied only if the founder so rules: 28:4 '… which the one who looks upon it sees, and while it is still in their hand, they swallow it.'; 28:24 'Does the one who plows to sow plow all day long? Do they open and harrow their ground?'; 28:25 'When they have leveled its surface, do they not cast abroad black cumin and scatter cumin, and put wheat in rows, and barley in the appointed place, and spelt in its border?'; 28:26 'For he instructs them aright; their God teaches them.'; 28:27 no change (no pronoun resumes the farmer); 28:28 'Bread grain is crushed; for they will not go on threshing it forever; and though the wheel of their cart and their horses scatter it, they do not crush it.'",
+      "claim_type": "direct",
+      "rationale": "Each item is a single-site decision with no lens content, collected in one entry as the book does for every chapter (compare lexical-cruxes-isaiah-18). Most items keep the Translator's ASV-based line and record the alternatives, so the auditor can see what was weighed. Three line changes are made by this entry. First, 28:2 'to the ground': the book already prints lāʾāreṣ in the idiom of throwing or falling down as 'to the ground' (stable 14:12; 21:9; 25:12; 26:5), and the central eretz rationale records that the idiom is governed by no ʾereṣ entry (wave I-4, at 21:9); NJPS has 'to the ground'. Second, 28:25, 27 'black cumin': BDB s.v. qeṣaḥ identifies the plant as Nigella sativa, with LXX μελάνθιον and Vulgate gith (checked via Sefaria's lexicon, 2026-11-26), and JPS 1917 and NJPS print 'black cummin / black cumin'; ASV's 'fitches' is an English plant-name for vetch, which misidentifies the crop for a modern reader. Third, 28:25 'the appointed place': nisman has no suffix. The pronoun practice at 28:4 and 28:24-28 extends wave I-4 rule 13 (generic nouns neutral) only as far as the noun: the resuming 3ms pronouns are kept, because the figures are single individuals in a simile and a parable and singular 'they' would obscure the Hebrew agreement; the chapter report flags this for founder confirmation. The 28:18 kpr item records why the atonement rendering of kupar-atonement-isaiah is not used: the subject is a covenant, and every English version consulted has 'annulled / disannulled'. The 28:27 ḥārûṣ item records a homonym so that the central kalah-venecheratzah entry is not wrongly extended. Sources: BDB (Sefaria lexicon) for laʿaḡ, ṣaw, qaw, ḥārûṣ, ḥûš, yāsaḏ, bōḥan, ḥōzeh, ḥāzûṯ, rāḡaz, qeṣaḥ, śôrāh; ASV, KJV and LXX on getbible.net; JPS 1917, NJPS and Koren on Sefaria; all checked 2026-11-26. All renderings are standard, so the claim is direct. Post-review (2026-11-26): the 28:26 item follows the cantillation, on the Reviewer's revise verdict; the draft and the first Editor pass had followed ASV against the accents and against JPS 1917, NJPS and Koren. The pronoun item stands as option A pending the founder ruling; the option B lines are staged in wohChoice and marked PENDING FOUNDER RULING.",
+      "appliesTo": [
+        "ISA-28:1",
+        "ISA-28:2",
+        "ISA-28:4",
+        "ISA-28:7",
+        "ISA-28:8",
+        "ISA-28:9",
+        "ISA-28:10",
+        "ISA-28:14",
+        "ISA-28:15",
+        "ISA-28:18",
+        "ISA-28:21",
+        "ISA-28:24",
+        "ISA-28:25",
+        "ISA-28:26",
+        "ISA-28:27",
+        "ISA-28:28",
+        "ISA-28:29"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "hoy-woe-isaiah",
+    "appliesToAdded": [
+      "ISA-28:1"
+    ],
+    "rationaleAppend": "Wave I-5: 28:1 hôy ʿăṭereṯ gēʾûṯ 'Woe, the crown of pride …', the vocative pattern of 1:4 and 29:1 (ASV, JPS 1917 'Woe to the crown'; NJPS 'Ah, the proud crowns')."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-28:1"
+    ]
+  },
+  {
+    "op": "modify",
+    "id": "geut-majesty-isaiah",
+    "appliesToAdded": [
+      "ISA-28:1",
+      "ISA-28:3"
+    ],
+    "rationaleAppend": "Wave I-5: the context clause for human arrogance is applied as forecast: 28:1, 3 ʿăṭereṯ gēʾûṯ 'the crown of pride' (ASV, JPS 1917, Koren; NJPS 'the proud crowns')."
+  },
+  {
+    "op": "modify",
+    "id": "tsevi-beauty-isaiah",
+    "appliesToAdded": [
+      "ISA-28:1",
+      "ISA-28:4",
+      "ISA-28:5"
+    ],
+    "rationaleAppend": "Wave I-5: 28:1, 4 ṣᵉḇî tip̄ʾartô 'the beauty of its honor' (literal construct; ASV, JPS 1917 'his glorious beauty' would need 'glory'); 28:5 ʿăṭereṯ ṣᵉḇî 'a crown of beauty' (NJPS 'a crown of beauty'; ASV and JPS 1917 assign 'beauty' to the other noun). No departure recorded."
+  },
+  {
+    "op": "modify",
+    "id": "tiferet-honor-isaiah",
+    "appliesToAdded": [
+      "ISA-28:1",
+      "ISA-28:4",
+      "ISA-28:5"
+    ],
+    "rationaleAppend": "Wave I-5: 28:1, 4 'the beauty of its honor'; 28:5 liṣp̄îraṯ tip̄ʾārāh 'a diadem of honor' (NJPS 'a diadem of glory'; ASV 'a diadem of beauty'). The default holds; no departure recorded."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-standalone-title-isaiah",
+    "appliesToAdded": [
+      "ISA-28:2"
+    ]
+  },
+  {
+    "op": "modify",
+    "id": "yhwh-tzevaot-hosts-isaiah",
+    "appliesToAdded": [
+      "ISA-28:5",
+      "ISA-28:22",
+      "ISA-28:29"
+    ]
+  },
+  {
+    "op": "modify",
+    "id": "ruach-divine-spirit-lower-case-isaiah",
+    "appliesToAdded": [
+      "ISA-28:6"
+    ],
+    "rationaleAppend": "Wave I-5: 28:6 rûaḥ mišpāṭ 'a spirit of justice', the endowment YHWH gives the judge (ASV 'a spirit of justice'; JPS 1917, NJPS 'a spirit of judgment'); lower-case."
+  },
+  {
+    "op": "modify",
+    "id": "qav-qav-line-isaiah",
+    "appliesToAdded": [
+      "ISA-28:10",
+      "ISA-28:13",
+      "ISA-28:17"
+    ],
+    "changes": {
+      "wohChoice": "18:2, 7: 'a nation that measures out and treads down' (ASV, modernized). The 'line' reading is kept, and the epithet is rendered the same way at both sites. 28:10, 13 (when drafted): default 'line upon line', with the same 'line' derivation, so that the two passages stay consistent. If the chapter 28 Editor adopts a different construal there (unintelligible speech with NJPS, or 'hope' with the LXX), that Editor must revisit 18:2, 7 in the same pass or escalate the split. Other occurrences of qaw as the measuring line (28:17; 34:11, 17; 44:13) take 'line'. Settled by the chapter 28 Editor (wave I-5): 28:10, 13 'precept upon precept, precept upon precept, line upon line, line upon line, here a little, there a little' (ASV, Koren; JPS 1917 'precept by precept … line by line'), with ṣaw taken from ṣwh 'command' ('precept') and qaw from 'line'; 28:17 'I will make justice the line'. 18:2, 7 therefore stand unchanged. The NJPS sound-imitation reading ('mutter upon mutter, murmur upon murmur') and the LXX 'hope' derivation are given in commentary at 28:10, 13."
+    },
+    "wohChoiceAppend": "Settled by the chapter 28 Editor (wave I-5): 28:10, 13 'precept upon precept, precept upon precept, line upon line, line upon line, here a little, there a little' (ASV, Koren; JPS 1917 'precept by precept … line by line'), with ṣaw taken from ṣwh 'command' ('precept') and qaw from 'line'; 28:17 'I will make justice the line'. 18:2, 7 therefore stand unchanged. The NJPS sound-imitation reading ('mutter upon mutter, murmur upon murmur') and the LXX 'hope' derivation are given in commentary at 28:10, 13.",
+    "rationaleAppend": "Wave I-5 (chapter 28 Editor): the forward commitment is kept, so 18:2, 7 need no revisit and nothing is escalated. ṣaw: BDB s.v. ṣaw (checked via Sefaria's lexicon, 2026-11-26) calls the word dubious and records three views: 'command upon command' (Gesenius, Cheyne; AV, RV), the carpenter's 'rule' paired with the 'line' (Ewald, Dillmann), and 'mocking sounds without sense' (Duhm, Cheyne); BDB s.v. qaw refers 28:10, 13 to the same discussion and lists 28:17 under the measuring line. 'Precept' (ASV, KJV, Koren; JPS 1917 'precept by precept') keeps the lexical-noun construal on which this entry rests. NJPS 'mutter upon mutter, murmur upon murmur' (checked) represents the sound-imitation view, which many modern scholars hold; it is given full weight in the 28:10 commentary, with the LXX θλῖψιν ἐπὶ θλῖψιν … ἐλπίδα ἐπ’ ἐλπίδι (checked). The claim stays inferred."
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-28:15"
+    ],
+    "rationaleAppend": "Wave I-5: 28:15 two ketiv/qere sites read with the qere: ketiv שיט, qere šôṭ 'scourge'; ketiv עבר (perfect), qere yaʿăḇōr 'passes through' (the same form stands unmarked at 28:18). 28:16 MT yissaḏ (Piel perfect 3ms) is translated with the versions' first-person sense; the participle proposal (BDB, after Cheyne) and the LXX 'will not be put to shame' are reported in commentary and not adopted."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh-compound-isaiah-25",
+    "appliesToAdded": [
+      "ISA-28:16",
+      "ISA-28:22"
+    ]
+  },
+  {
+    "op": "modify",
+    "id": "eretz-cosmic-scope-isaiah-24",
+    "appliesToAdded": [
+      "ISA-28:22"
+    ],
+    "rationaleAppend": "Wave I-5: 28:22 ʿal-kol-hāʾāreṣ 'upon the whole earth' (ASV), the second site of the kālāh wᵉneḥĕrāṣāh formula, rendered with the same scope as 10:23 bᵉqereḇ kol-hāʾāreṣ 'in the midst of all the earth'. JPS 1917 'upon the whole land' and NJPS 'against all the land' (checked 2026-11-26) take ʾereṣ as Judah; that reading is reported in commentary. ASV's wording 'the whole earth' is kept rather than harmonized to 10:23's 'all the earth', since English idiom differs with the preposition. Post-review (2026-11-26): at 28:22, as at 10:23, the worldwide reading is a consistency choice, made to agree with ASV and with the 'full end' wording of the kālāh formula. It is not the consensus reading: JPS 1917 and Koren ('the whole land') and NJPS ('all the land') take the scope territorially (checked 2026-11-26), and the addressees are Jerusalem's scoffers. At these two sites the scope therefore has inferred strength, and the territorial reading is given in the commentary."
+  },
+  {
+    "op": "modify",
+    "id": "elohai-elohenu-doxology-isaiah-25",
+    "appliesToAdded": [
+      "ISA-28:26"
+    ]
+  }
+]
