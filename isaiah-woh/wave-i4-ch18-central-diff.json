@@ -1,0 +1,35 @@
+[
+  {
+    "op": "version",
+    "from": "3.0.0",
+    "to": "3.1.0",
+    "readBase": "3.0.0",
+    "marker": "CENTRAL — apply by orchestrator",
+    "note": "Isaiah wave I-4, chapter 18 Editor. Read base: central v3.0.0 (read-only, grep only). Contents: 2 modify ops. (1) eretz: appliesTo extension plus ONE appended context clause in wohChoice (the carrion formula, 'the beasts of the earth'). The existing wohChoice text is unchanged and the clause is appended verbatim at the end. This is the same kind of addition as the earlier E2, T1 and MC context clauses, so a minor bump is proposed. If the orchestrator counts a wohChoice extension as a modification, bump to 4.0.0 instead. MERGE NOTE: 'changes.wohChoice' gives the full v3.0.0 string plus the clause. If a parallel Editor also extends eretz, apply the clause as an append (the 'wohChoiceAppend' field repeats it) rather than overwriting. (2) shofar-rams-horn-signal-instrument-cross-corpus: appliesTo + ISA-18:3 with a rationale addendum. DELIBERATE NON-EXTENSIONS: no central Cush/Kush entry. Cush is governed by the overlay cush-names-isaiah, and the Torah 'Kush' vs Isaiah 'Cush' split is recorded there. behemoth is not applied at 18:6, because bᵉhemaṯ hāʾāreṣ is the plain plural sense 'beasts', not the Job 40 creature."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "eretz",
+    "appliesToAdded": [
+      "ISA-18:1",
+      "ISA-18:2",
+      "ISA-18:6",
+      "ISA-18:7"
+    ],
+    "changes": {
+      "wohChoice": "land. Context clause (ezekiel-woh wave E2): 'ground' where ʾereṣ is the ground level of a structure from which a height is measured (Ezek 42:6 mēhāʾāreṣ 'from the ground'; 43:14 mēḥêq hāʾāreṣ 'from the bottom on the ground'). Cosmic context clause (Torah wave T1): 'earth' where ʾereṣ is the cosmic level of the world, paired with šāmayim or with the waters below (Deut 4:17, 18, 26, 32, 36, 39; exodus-woh 20:4, 11), with 'land' kept for territory (Deut 4:1, 5, 14, 21-22, 25, 38, 43, 46-47; Num 21, 33 passim). Universal-formula clause (wave MC): 'earth' in the divine title ʾăḏôn kol-hāʾāreṣ 'the Lord of all the earth' (Josh 3:11, 13), with 'earth' as the Latter-Prophets overlays print it at Zech 4:14 ('the Lord of the whole earth', eretz-earth-or-land-latter-prophets); 'land' for territory (Lev 25 passim; Mic 5:4, 5, 10) and 'ground' for the level from which a height is measured (Num 11:31, two cubits above the ground). Carrion-formula clause (isaiah-woh wave I-4): 'the beasts of the earth' where ʾereṣ stands in the fixed curse formula that gives the bodies of the slain to the birds and to bᵉhemaṯ / ḥayyaṯ hāʾāreṣ (Isa 18:6 bᵉhemaṯ hāʾāreṣ, twice; cf. Deut 28:26; Jer 7:33; 1 Sam 17:46, which 1-samuel-woh already prints 'the wild beasts of the earth'). The clause does not reach the creation and covenant lists of Gen 1:24-30 and 9:2-10, which keep 'land' under the Gen 1 decision."
+    },
+    "wohChoiceAppend": "Carrion-formula clause (isaiah-woh wave I-4): 'the beasts of the earth' where ʾereṣ stands in the fixed curse formula that gives the bodies of the slain to the birds and to bᵉhemaṯ / ḥayyaṯ hāʾāreṣ (Isa 18:6 bᵉhemaṯ hāʾāreṣ, twice; cf. Deut 28:26; Jer 7:33; 1 Sam 17:46, which 1-samuel-woh already prints 'the wild beasts of the earth'). The clause does not reach the creation and covenant lists of Gen 1:24-30 and 9:2-10, which keep 'land' under the Gen 1 decision.",
+    "rationaleAppend": "isaiah-woh wave I-4: territorial 'land' at Isa 18:1 ('land of the rustling of wings'), 18:2 and 18:7 ('whose land the rivers divide'). Carrion-formula clause at 18:6. The curse formula gives the bodies of the slain to the birds and to bᵉhemaṯ hāʾāreṣ / ḥayyaṯ hāʾāreṣ. There ʾereṣ is the open ground the wild animals range over, not a territory, and the English versions all print 'the beasts of the earth' (ASV Deut 28:26; Jer 7:33; Isa 18:6; JPS 1917 and NJPS Isa 18:6, checked 2026-11-26). The corpus already prints 'the wild beasts of the earth' at 1-samuel-woh 17:46, which is not in this entry's appliesTo. The orchestrator may add 1SA-WOH-17:46 at merge. 'Beasts of the land' would suggest the animals of one country, which the formula does not mean. The clause deliberately does not reach the Gen 1:24-30 and 9:2-10 lists, where 'land' is the decision of those chapters. It records an idiom and carries no lens."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "shofar-rams-horn-signal-instrument-cross-corpus",
+    "appliesToAdded": [
+      "ISA-18:3"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-4: Isa 18:3 wᵉḵiṯqōaʿ šôp̄ār tišmāʿû is rendered 'and when a shofar is blown, hear!'. The Translator's draft had ASV 'a trumpet'. JPS 1917 has 'the horn', NJPS 'a ram's horn' and Koren 'a shofar' (checked 2026-11-26). The Latter Prophets already print 'shofar' (Zeph 1:16; Zech 9:14). The signed-off Isa 27:13 still prints 'a great trumpet' under the verse-scoped overlay entry shofar-gadol-ingathering-isaiah-27, which predates this entry's promotion. Harmonizing it is escalated for founder decision in the chapter 18 editor report."
+  }
+]

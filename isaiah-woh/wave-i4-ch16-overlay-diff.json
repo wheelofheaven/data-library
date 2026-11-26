@@ -1,0 +1,163 @@
+[
+  {
+    "op": "version",
+    "from": "2.0.0",
+    "to": "2.1.0",
+    "readBase": "2.0.0",
+    "note": "Isaiah wave I-4, chapter 16 Editor. Read base: overlay v2.0.0. Contents: 6 add ops and 2 modify ops (appliesTo extensions with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. CONCURRENCY: Editors for Isa 17-23 produce overlay diffs from the same base; merge as a union and re-base each appliesTo as (merged array + appliesToAdded). Known overlaps: shnei-sakhir-years-of-hireling-isaiah is created here and extended by the chapter 21 Editor (ISA-21:16); gaon-pride-human-arrogance-isaiah may be extended by the chapter 23 Editor (23:9 gᵉʾôn kol-ṣᵉḇî); mt-qere-textual-policy-isaiah and title-and-meta-conventions-isaiah are extended by most chapters of the wave. Orchestrator: add '16:3' to the qere list in mt-qere-textual-policy-isaiah's wohChoice on merge (scope-only; the field is not rewritten here)."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "shnei-sakhir-years-of-hireling-isaiah",
+      "source": "כִּשְׁנֵי שָׂכִיר",
+      "translit": "kišnê śāḵîr",
+      "strongs": "H8141 (šānāh); H7916 (śāḵîr). Numbers from recall, not concordance-verified.",
+      "lemma": "śāḵîr 'hired worker, day-labourer' in the time-formula kišnê śāḵîr 'as the years of a hireling'",
+      "partOfSpeech": "prepositional phrase (kᵉ + construct plural noun + noun)",
+      "literal": "like the years of a hired one",
+      "standardEnglish": "ASV 'as the years of a hireling' (16:14), 'according to the years of a hireling' (21:16); JPS 1917 'as the years of a hireling' (16:14); NJPS 'fixed like the years of a hired laborer' (16:14)",
+      "wohChoice": "'as the years of a hireling' at every site of the formula: 16:14 'Within three years, as the years of a hireling'; 21:16 (forward scope within wave I-4, to be added by the chapter 21 Editor). ASV's 'according to' at 21:16 is not followed, so that the one Hebrew phrase has one English rendering in the book. 'Hireling' is a gender-neutral noun and stays (wave I-4 ruling 13 does not apply).",
+      "claim_type": "direct",
+      "rationale": "The phrase kišnê śāḵîr occurs twice in Isaiah, at 16:14 (Moab's three years) and 21:16 (Kedar's one year), and wave I-4 ruling 14 fixes one rendering for both. The śāḵîr is a worker hired for a fixed term, whose time is counted exactly and not exceeded (Lev 25:50 kîmê śāḵîr; Job 7:1 kîmê śāḵîr yāmāyw 'his days are like the days of a hireling'), so the simile means that the term is exact and will not be extended (Wildberger, Isaiah 13-27, ad loc.; NJPS supplies 'fixed' to make the point). 'As the years of a hireling' is the reading of ASV and JPS 1917 at 16:14 (checked: ASV in the data-library copy, JPS 1917 on Sefaria). ASV's 'according to' at 21:16 varies the English for no Hebrew reason, and is therefore not followed. The rendering is the standard one and carries no lens, so the claim is direct.",
+      "appliesTo": [
+        "ISA-16:14"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "gaon-pride-human-arrogance-isaiah",
+      "source": "גְּאוֹן · גֵּא · גַּאֲוָה · עֶבְרָה (16:6)",
+      "translit": "gᵉʾôn; gēʾ; gaʾăwāh; ʿeḇrāh",
+      "strongs": "H1347 (gāʾôn); H1341 (gēʾ); H1346 (gaʾăwāh); H5678 (ʿeḇrāh); H907 (bad 'idle talk'). Numbers from recall, not concordance-verified.",
+      "lemma": "nouns of the root gʾh 'rise, be high' used of human arrogance, with ʿeḇrāh 'overflowing, excess'",
+      "partOfSpeech": "nouns (masculine and feminine) and adjective",
+      "literal": "height / loftiness; lofty; haughtiness; overflowing (of anger or arrogance)",
+      "standardEnglish": "ASV 'the pride of Moab … very proud … his arrogancy, and his pride, and his wrath; his boastings are nought'; JPS 1917 'his haughtiness, and his pride, and his arrogancy'; NJPS 'Moab's pride — Most haughty is he — Of his pride and haughtiness and arrogance, And of the iniquity in him'",
+      "wohChoice": "16:6 (recorded departure from the wave I-4 ruling 2 default 'majesty', which stays in force for the majesty of YHWH and of things he gives: 24:14; 2:10, 19, 21 under hadar-splendor-isaiah): gāʾôn of Moab's arrogance is 'pride', gaʾăwāh 'haughtiness' (as stable 13:11), gēʾ 'proud': 'the pride of Moab, that he is very proud, of his haughtiness and his pride and his wrath; his boasts are nothing'. ʿeḇrāh keeps ASV 'wrath' (the 'insolence / arrogance' sense in commentary); lōʾ-ḵēn baddāyw keeps ASV's sense 'his boasts are nothing' (NJPS's prepositional reading in commentary). Further sites of gāʾôn as human arrogance take 'pride' only by their Editor's recorded decision (the chapter 23 Editor extends the entry to 23:9). Never 'glory', which is reserved for kāḇôḏ. Context clause for the planned concordance pass (stable lines, not reopened): gāʾôn of human arrogance is rendered otherwise at 13:11 'the arrogance of the proud' (gᵉʾôn zēḏîm) and 14:11 'Your pomp' (gᵉʾônᵉḵā); gāʾôn in the positive sense is 'pride' at 4:2 and 13:19; gaʾăwāh is 'pride' at 9:8 and 25:11.",
+      "claim_type": "direct",
+      "rationale": "Isa 16:6 packs four words of the root gʾh into one line, gᵉʾôn-môʾāḇ gēʾ mᵉʾōḏ gaʾăwāṯô ûḡᵉʾônô, and each needs its own English so the reader can see the repetition. Ruling 2 makes 'majesty' the default for gāʾôn but allows a recorded departure where the idiom forbids it; 'the majesty of Moab' would turn an indictment into praise, so the departure 'pride' is taken, with ASV, JPS 1917 and NJPS (all checked) and with the stable 13:19 'the pride of the Chaldeans'. gaʾăwāh then takes 'haughtiness', which is how the stable 13:11 renders it ('the haughtiness of the ruthless'); the draft's 'arrogance' is not kept because 13:11 uses 'arrogance' for gāʾôn, and the swap would cross the two words between neighbouring chapters. The stable chapters are not fully concordant: 9:8 and 25:11 (also of Moab) render gaʾăwāh 'pride'. Those lines are not reopened here, and the inconsistency is reported for a later concordance pass. ʿeḇrāh is 'overflowing', used of fury and of arrogant excess (BDB; Prov 21:24 bᵉʿeḇraṯ zāḏôn); ASV's 'wrath' is kept, and NJPS's list ends in 'arrogance'. In lōʾ-ḵēn baddāyw the line takes bad as 'idle talk, boasting' (BDB bad III) with ASV, while NJPS reads the suffixed preposition bᵉḏê, 'And of the iniquity in him' (its note cites Nah 2:13; Hab 2:13; Job 39:25). The parallel Jer 48:29-30 has six terms (adding gobhô and rum libbô) and the same ʿeḇrāṯô wᵉlōʾ-ḵēn baddāyw (Hebrew checked on Sefaria). Post-review (wave I-4 Reviewer): the wohChoice is scoped to the recorded departures and does not state a book-wide rule, because the stable lines render gāʾôn of human arrogance as 'arrogance' (13:11) and 'pomp' (14:11); those sites are listed as a context clause for the planned concordance pass. The renderings are standard lexical glosses and carry no lens, so the claim is direct.",
+      "appliesTo": [
+        "ISA-16:6"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "moab-lament-present-tense-isaiah-16",
+      "source": "יְיֵלִיל … תֶּהְגּוּ (16:7) · אֶבְכֶּה … אֲרַיָּוֶךְ (16:9) · לֹא־יְרֻנָּן … לֹא יְרֹעָע … לֹא־יִדְרֹךְ (16:10) · יֶהֱמוּ (16:11)",
+      "translit": "yᵉyêlîl … tehgû; ʾeḇkeh … ʾărayyāweḵ; lōʾ-yᵉrunnān … lōʾ yᵉrōʿāʿ … lōʾ-yiḏrōḵ; yehĕmû",
+      "strongs": "n/a (grammatical ruling; verbs H3213 yll, H1897 hgh, H1058 bkh, H7301 rwh, H7442 rnn, H7321 rwʿ, H1869 drk, H1993 hmh). Numbers from recall, not concordance-verified.",
+      "lemma": "tense of the imperfects in the Moab lament, Isa 16:7, 9-11, aligned with the stable chapter 15",
+      "partOfSpeech": "verbal system (yiqtol in poetic lament)",
+      "literal": "wails … you moan; I weep … I drench you; is not sung … is not shouted … does not tread; sound",
+      "standardEnglish": "ASV and JPS 1917 future ('shall Moab wail … shall ye mourn … I will weep … there shall be no singing'); NJPS jussive at 16:7 ('let Moab howl'), present at 16:9 ('I weep') and 16:10-11",
+      "wohChoice": "English present for the lament's imperfects at 16:7, 9, 10 and 11 ('Moab wails for Moab; everyone wails … you moan'; 'I weep … I drench you'; 'there is no singing … no treader treads'; 'my inner parts sound'), matching the stable chapter 15 (15:2 'Moab wails'; 15:3 'everyone wails'; 15:5 'My heart cries out'). Perfects keep their own English (16:8 'languish', 'have struck down'; 16:9 'has fallen'; 16:10 'I have made the shout cease'). The frame formulas keep the future: 16:12 wᵉhāyāh 'And it shall come to pass', 16:14 'shall be brought into contempt'. Does not govern the plea of 16:1-5.",
+      "claim_type": "inferred",
+      "rationale": "The Hebrew imperfect in poetry does not mark time by itself: it can express present, future or repeated action, and in a lament the present is the natural English (Joüon-Muraoka §113; Waltke-O'Connor §31). Isa 15 and 16:7-11 are one lament, and 16:7 repeats 15:3's kullōh yᵉyêlîl word for word, so wave I-4 ruling 3 requires the same English tense in both chapters; chapter 15 is stable and prints the present throughout. ASV and JPS 1917 read the imperfects as futures, taking the lament as prediction, and NJPS reads 16:7 as a jussive ('let Moab howl'), which the short form yᵉyêlîl permits but does not require (all three checked). The claim is inferred, not direct, because the choice among present, future and jussive is a reading of the verbal system in context, not something the forms decide. The rulings that bind the frame verses (16:12, 14) are left future, because there the weqatal and the dated prediction mark the future explicitly. This entry follows the method of poem-tense-outstretched-hand-isaiah-9: one tense policy for one poem, with its soft points disclosed in commentary (here 16:7, where NJPS's jussive is a real alternative).",
+      "appliesTo": [
+        "ISA-16:7",
+        "ISA-16:9",
+        "ISA-16:10",
+        "ISA-16:11"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "meim-inner-parts-isaiah",
+      "source": "מֵעַי … וְקִרְבִּי (16:11)",
+      "translit": "mēʿay … wᵉqirbî",
+      "strongs": "H4578 (mēʿeh, plural mēʿîm); H7130 (qereḇ); cf. H3820 (lēḇ). Numbers from recall, not concordance-verified.",
+      "lemma": "mēʿîm 'internal organs, innards' as the seat of feeling; qereḇ 'inward part, midst'",
+      "partOfSpeech": "nouns with 1cs suffix",
+      "literal": "my innards … and my inward part",
+      "standardEnglish": "ASV 'my heart … mine inward parts'; JPS 1917 'my heart … mine inward parts'; NJPS 'my heart … my very soul'; KJV 'my bowels … mine inward parts'",
+      "wohChoice": "mēʿîm as the seat of feeling is 'inner parts': 16:11 'my inner parts sound like a lyre for Moab'; with qereḇ beside it, qereḇ is 'inmost being' ('and my inmost being for Kir-heres'). 'Heart' is kept for lēḇ (stable 15:5 'My heart cries out for Moab'). Context clause: where mēʿîm is the body as the source of offspring the stable line has 'body' (48:19 'the offspring of your body') and is not reopened; future sites of the emotional sense (e.g. 63:15 hᵃmôn mēʿeyḵā) should take 'inner parts' unless their Editor records a departure.",
+      "claim_type": "direct",
+      "rationale": "mēʿîm are the internal organs (BDB; HALOT), felt in Hebrew as the place where grief and longing stir (Jer 4:19 mēʿay mēʿay; Song 5:4; Isa 63:15). ASV, JPS 1917 and NJPS render the word 'my heart' at 16:11 (all checked), a fair idiomatic equivalent, but the stable 15:5, in the same lament over Moab, already gives 'heart' to lēḇ, and a reader of the English would take the two as one word. The book's practice is to keep distinct Hebrew nouns apart where English allows it (cf. hadar-splendor-isaiah, geut-majesty-isaiah), so 'inner parts' is chosen as a plain lexical gloss that avoids both 'heart' and the comic modern sense of KJV's 'bowels'. qirbî, ASV's 'inward parts', then needs a different English, and 'inmost being' gives the sense of qereḇ 'the inside' without importing 'soul' (NJPS), which in this corpus belongs to nep̄eš. The parallel Jer 48:36 has libbî 'my heart' twice where Isaiah has mēʿay … qirbî (Hebrew checked on Sefaria), which shows the words are interchangeable in the lament formula; the commentary reports it, and the Isaiah line still translates Isaiah's nouns. The choice is a standard gloss and carries no lens, so the claim is direct.",
+      "appliesTo": [
+        "ISA-16:11"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "moab-lament-jer-48-parallel-isaiah-16",
+      "source": "Isa 16:6-12 // Jer 48:29-36 (with Isa 15:2-6 // Jer 48:34, 37-38)",
+      "translit": "(parallel-passage record)",
+      "strongs": "n/a (parallel-passage record)",
+      "lemma": "the Moab lament shared by Isa 15-16 and Jer 48",
+      "partOfSpeech": "convention: parallel passage",
+      "literal": "(not applicable)",
+      "standardEnglish": "ASV, JPS 1917 and NJPS translate each book on its own text; NJPS footnotes the Jeremiah readings at Isa 16:7 ('men') and 16:9 ('A ravager has come down')",
+      "wohChoice": "The Isaiah line translates Isaiah's Masoretic text and is not harmonized with Jeremiah; the Jeremiah differences are reported in commentary at each verse. Verse map with the differences that affect the English (Hebrew of Jer 48 checked on Sefaria): Isa 16:6 // Jer 48:29-30 (pride list; Jer adds gobhô, rum libbô, and has gēʾeh for gēʾ); 16:7 // Jer 48:31 (Jer is in the first person, ʾêlîl … ʾezʿāq 'I wail … I cry out', with 3ms yehgeh, against Isaiah's yᵉyêlîl 'Moab wails' and 2mp tehgû 'you moan'; Isa ʾăšîšê 'raisin-cakes' / Jer ʾanšê 'men'; Kir-hareseth / Kir-heres); 16:8-9 // Jer 48:32 (Jer mibbᵉḵî yaʿzēr ʾeḇkeh-lāḵ 'more than the weeping of Jazer I weep for you' against Isa ʾeḇkeh biḇḵî yaʿzēr 'I weep with the weeping of Jazer'; Isa hêḏāḏ / Jer šōḏēḏ 'destroyer'; Isa qᵉṣîrēḵ 'harvest' / Jer bᵉṣîrēḵ 'vintage'); 16:10 // Jer 48:33 (Jer adds ûmēʾereṣ môʾāḇ 'and from the land of Moab' and ends hêḏāḏ lōʾ hêḏāḏ 'the shout is no shout'); 16:11 // Jer 48:36 (Isa mēʿay … qirbî, kakkinnôr / Jer libbî twice, kaḥălilîm 'like flutes'; Isa lᵉqîr ḥāreś 'for Kir-heres' / Jer ʾel-ʾanšê qîr-ḥereś 'for the men of Kir-heres'); 16:12 // Jer 48:35 (the high place). Isa 15:4-6 // Jer 48:34 and 15:2-3 // Jer 48:37-38 complete the overlap.",
+      "claim_type": "direct",
+      "rationale": "Isa 15:2-16:12 and Jer 48:29-38 share a lament over Moab, often word for word but in a different order, and wave I-4 ruling 3 requires the parallel to be flagged. The relation between the two (whether Jeremiah reuses Isaiah, or both draw on an older Moab oracle; cf. Isa 16:13 'the word that YHWH spoke concerning Moab in time past') is debated in the commentaries and is not decided here (Wildberger, Isaiah 13-27; Blenkinsopp, Isaiah 1-39, AB 19, ad loc.). The Isaiah line translates Isaiah's own text under mt-qere-textual-policy-isaiah, because harmonizing with Jeremiah would make the base text eclectic. The verse map records the differences that affect the English (completed after the wave I-4 review, which found four omitted), so that a later jeremiah-woh Editor can match the shared wording or record a departure. The jeremiah-woh translation does not yet exist, so the entry stays in the overlay; when Jer 48 is drafted, the orchestrator should promote it to a central parallel entry on the model of isa-2-2-4-mic-4-1-3-zion-pilgrimage-parallel-cross-corpus. The record is a textual fact and carries no lens, so the claim is direct.",
+      "appliesTo": [
+        "ISA-16:6",
+        "ISA-16:7",
+        "ISA-16:8",
+        "ISA-16:9",
+        "ISA-16:10",
+        "ISA-16:11",
+        "ISA-16:12"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-16",
+      "source": "שִׁלְחוּ־כַר מֹשֵׁל־אֶרֶץ מִסֶּלַע מִדְבָּרָה (16:1) · כְעוֹף־נוֹדֵד קֵן מְשֻׁלָּח · בְּנוֹת מוֹאָב (16:2) · פְלִילָה (16:3) · הַמֵּץ · תַּמּוּ רֹמֵס (16:4) · מְהִר צֶדֶק (16:5) · בַּעֲלֵי גוֹיִם הָלְמוּ שְׂרוּקֶּיהָ (16:8) · הֵידָד (16:9, 10) · נִרְאָה … נִלְאָה (16:12) · וְנִקְלָה כְּבוֹד · הֶהָמוֹן הָרָב (16:14)",
+      "translit": "šilḥû-ḵar mōšēl-ʾereṣ missela‘ miḏbārāh; kᵉʿôp̄-nôḏēḏ qēn mᵉšullāḥ; bᵉnôṯ môʾāḇ; pᵉlîlāh; hammēṣ; tammû rōmēs; mᵉhîr ṣeḏeq; baʿălê ḡôyim hālᵉmû śᵉrûqqehā; hêḏāḏ; nirʾāh … nilʾāh; wᵉniqlāh kᵉḇôḏ; hehāmôn hārāḇ",
+      "strongs": "H3733 (kar); H4910 (mōšēl); H5554 (Selaʿ); H5775 (ʿôp̄); H1323 (baṯ); H6415 (pᵉlîlāh); H4160 (mēṣ); H7429 (rāmas); H4106 (māhîr); H1167 (baʿal); H1986 (hālam); H8291 (śārûq); H1959 (hêḏāḏ); H7200 (rʾh); H3811 (lʾh); H7034 (qlh); H1995 (hāmôn). Numbers from recall, not concordance-verified.",
+      "lemma": "single-site lexical and syntactic decisions of Isaiah 16",
+      "partOfSpeech": "mixed (imperatives, nouns, participles, verb pairs)",
+      "literal": "send a lamb of the ruler of the land from Sela toward the wilderness; like a wandering bird, a nest sent away; daughters of Moab; decision; the presser; the trampler are finished; quick of righteousness; the lords of nations struck its choice vines; the shout; he appears … he wearies; and it is made light, the weight/glory; the multitude the great",
+      "standardEnglish": "ASV throughout; JPS 1917 'the lambs', 'From the crags', 'execute justice', 'Whose choice plants did overcome The lords of nations', 'when it is seen that Moab hath wearied himself'; NJPS 'Dispatch as messenger the ruler of the land', 'Moab's villagers', 'Offer counsel', 'violence', 'zealous for equity', 'To Baale-goiim', 'when it has become apparent that Moab has gained nothing'",
+      "wohChoice": "16:1 'Send the lamb for the ruler of the land, from Sela toward the wilderness' (kar singular; tribute reading as ASV; Sela a place name, as 42:11; directional -āh). 16:2 singular simile 'like a wandering bird, a scattered nest' and 'the daughters of Moab' (ASV, JPS 1917), ASV's supplied 'so' dropped. 16:3 pᵉlîlāh 'execute justice' (ASV, JPS 1917), with the note that it is not mišpāṭ. 16:4 hammēṣ 'the extortioner' (ASV); tammû rōmēs 'those who trample'. 16:5 mᵉhîr ṣeḏeq 'swift in righteousness' (ASV's supplied 'to do' dropped). 16:8 'the lords of the nations have struck down its choice branches' (ASV). 16:9-10 hêḏāḏ 'the shout' at both sites, without ASV's supplied '[battle]' / '[vintage]'. 16:12 both verbs kept, 'when Moab presents himself, when he wearies himself' (ASV, MT). 16:14 'the glory of Moab shall be brought into contempt, with all the great multitude' (article, no suffix; ASV 'his').",
+      "claim_type": "direct",
+      "rationale": "Each item is a site where the Translator flagged a choice among standard renderings, and the Editor keeps the Masoretic text and the ASV baseline unless the book's concordance rules or the Hebrew grammar require a change; the alternatives are recorded in commentary. (1) kar 'lamb' is singular and may be collective; the tribute reading fits Moab's lamb tribute under Mesha (2 Kgs 3:4), while NJPS's 'Dispatch as messenger' is marked uncertain in its own note. Sela keeps the place-name reading of the stable 42:11 and NJPS; JPS 1917's 'crags' is noted. (2) The simile is singular in Hebrew, and bᵉnôṯ môʾāḇ may mean the women or the dependent towns of Moab (cf. Num 21:25 'Heshbon and all its daughters'); NJPS's 'villagers' is recorded. (3) pᵉlîlāh is a rare noun for decision or arbitration (from pll); 'execute justice' is kept as the established English, and the commentary warns that 'justice' in 16:5 is mišpāṭ. (4) mēṣ occurs only here and is usually derived from mîṣ 'press' (Prov 30:33); 'extortioner' is ASV. (5) māhîr is 'quick' and also 'skilled' (Ps 45:2 Heb.; Ezra 7:6), so 'swift in righteousness' keeps the adjective without ASV's supplied verb. (6) At 16:8 the subject of hālᵉmû is ambiguous; ASV's reading is kept, and JPS 1917's (the vines overpower their drinkers) and NJPS's (a place name Baale-goiim, marked uncertain) are recorded. (7) hêḏāḏ is the treaders' shout and also a war cry (Jer 25:30; 51:14); one English word keeps the repetition visible. (8) The near-identical nirʾāh … nilʾāh at 16:12 are kept as MT; deletion as dittography is reported only. (9) At 16:14 the article in hehāmôn hārāḇ is translated as such. JPS 1917 and NJPS were checked on Sefaria and ASV in the data-library copy; NRSV and LXX readings are not used. None of these choices carries a lens.",
+      "appliesTo": [
+        "ISA-16:1",
+        "ISA-16:2",
+        "ISA-16:3",
+        "ISA-16:4",
+        "ISA-16:5",
+        "ISA-16:8",
+        "ISA-16:9",
+        "ISA-16:10",
+        "ISA-16:12",
+        "ISA-16:14"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-16:3",
+      "ISA-16:4",
+      "ISA-16:12"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 16): the qere is translated at 16:3, where the ketiv הביאו is a masculine plural imperative 'bring' and the qere הָבִיאִי is feminine singular, in line with the feminine singular imperatives that follow (šîṯî, sattᵉrî, tᵉḡallî). Orchestrator: add '16:3' to the qere list in wohChoice on merge (scope-only). MT is kept, with the alternatives reported in commentary, at 16:4 niddāḥay môʾāḇ 'my outcasts; as for Moab' (MT pointing and accents; the construct niddᵉḥê môʾāḇ 'the outcasts of Moab' of NJPS, whose note gives the Hebrew as 'my outcasts, Moab') and 16:12 kî-nirʾāh kî-nilʾāh (both verbs kept; deletion of nirʾāh as dittography reported only). The readings of the parallel Jer 48:29-36 are not adopted; they are recorded in moab-lament-jer-48-parallel-isaiah-16."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-16:1",
+      "ISA-16:3",
+      "ISA-16:6",
+      "ISA-16:13",
+      "ISA-16:14"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 16): the Translator's descriptive title 'Isaiah 16 — The oracle concerning Moab continued: the plea for refuge, the throne established in kindness, and the lament for the vine of Sibmah' is ratified; 'kindness' in it follows the 16:5 line (central chesed-solitary-covenant-kindness). Quotation marks: none at 16:3-4a or 16:6. JPS 1917 marks 16:3-4a as speech and NJPS marks 16:2-4a and 16:6 (checked on Sefaria), but neither speech has an introduction or a named speaker (the plea of Moab's fugitives; the reply 'We have heard'), so the line follows ASV and the commentary reports the alternative. 'YHWH' at 16:13 and 16:14, under the book's divine-name convention; the prose formula 'But now YHWH has spoken, saying:' introduces the dated prediction without quotation marks, like the messenger formula."
+  }
+]

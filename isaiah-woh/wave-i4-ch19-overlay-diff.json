@@ -1,0 +1,144 @@
+[
+  {
+    "op": "version",
+    "from": "2.0.0",
+    "to": "2.1.0",
+    "note": "Isaiah wave I-4, chapter 19 Editor. Base: overlay v2.0.0 (read-only). Contents: 3 add ops (all claim_type direct) and 7 modify ops (appliesTo extensions, two with appended rationale sentences; no wohChoice, claim_type or existing rationale text changed), so a minor bump. CONCURRENCY: the chapter 16, 17, 18, 20, 21, 22 and 23 Editors write from the same base. Merge appliesTo as the union of the merged array and each appliesToAdded, and concatenate the rationaleAppend sentences. Likeliest overlaps: massa-oracle-superscription-isaiah (17:1, 21:1, 21:11, 21:13, 22:1, 23:1), yhwh-tzevaot-hosts-isaiah, mt-qere-textual-policy-isaiah, eretz-cosmic-scope-isaiah-24, title-and-meta-conventions-isaiah. The new entry translit fields follow the op schema; if the orchestrator generates translit itself, drop them."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "rokhev-al-av-qal-swift-cloud-isaiah-19",
+      "source": "הִנֵּה יְהוָה רֹכֵב עַל־עָב קַל",
+      "translit": "hinnēh YHWH rōḵēḇ ʿal-ʿāḇ qal",
+      "strongs": "H7392 (rāḵaḇ 'ride'); H5645 (ʿāḇ 'cloud, cloud-mass'); H7031 (qal 'light, swift'). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "rōḵēḇ, Qal participle of rāḵaḇ 'ride, be mounted'; ʿāḇ 'dense cloud, cloud-mass'; qal 'light, swift'",
+      "partOfSpeech": "predicate participle with prepositional phrase (noun + adjective)",
+      "literal": "behold, YHWH riding upon a light cloud",
+      "standardEnglish": "Behold, Jehovah rideth upon a swift cloud (ASV); the LORD rideth upon a swift cloud (JPS 1917); Mounted on a swift cloud, the LORD will come (NJPS); super nubem levem (Vulgate); epi nephelēs kouphēs (LXX; recalled)",
+      "wohChoice": "'Behold, YHWH rides on a swift cloud and comes to Egypt' (19:1): present tense for the predicate participle; lower-case 'cloud'; 'swift' for qal (ASV, JPS 1917, NJPS), with the 'light' of the Vulgate and LXX in commentary. No epithet ('Rider of the Clouds') in the line. The Ugaritic and Hebrew storm-theophany background is given in commentary under the central rider-of-the-clouds entry. Any Wheel of Heaven reading appears only in a final commentary paragraph labelled speculative (wave I-4 ruling 9). ʿāḇ is 'cloud' like ʿānān (4:5), and commentary names the Hebrew noun where the distinction matters.",
+      "claim_type": "direct",
+      "rationale": "Isa 19:1 is the book's one use of the cloud-riding image, and it is lens-salient, so the rendering is fixed in its own entry for audit. The participle rōḵēḇ after hinnēh is predicative, and the standard English versions render it in the present ('rideth', 'mounted'), as the line does. ʿāḇ is the thick cloud-mass (BDB), as in Ps 104:3 ('who makes the clouds his chariot'), and qal is 'light', hence 'swift' (BDB). ASV, JPS 1917 and NJPS all print 'swift cloud' (checked on Sefaria and bible-api.com, 2026-11-26). The image belongs to the West Semitic storm-theophany idiom: Ugaritic rkb ʿrpt 'Rider of the Clouds', the epithet of Baʿlu (project edition, KTU 1.2 iv 6; 1.3 ii 40; 1.3 iv 23; 1.4 vi 10), and the Hebrew rōḵēḇ bāʿărāḇôṯ (Ps 68:5) and rōḵēḇ šāmayim (Deut 33:26). Isaiah uses a clause with a singular noun and an adjective, not the title. The line therefore translates the clause and does not print an epithet. The canon does not cite Isa 19 (checked against the data-library texts of The Book Which Tells the Truth and Extraterrestrials Took Me to Their Planet, 2026-11-26). Its readings of the cloud at 1 Kgs 8:12 and Job 37:18 as craft (TBWTT 3:107; 3:259-260) are reported in a labelled speculative paragraph only. The rendering is the consensus one, so the claim is direct.",
+      "appliesTo": [
+        "ISA-19:1"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "ir-haheres-city-of-destruction-isaiah-19",
+      "source": "עִיר הַהֶרֶס יֵאָמֵר לְאֶחָת",
+      "translit": "ʿîr haheres yēʾāmēr lᵉʾeḥāṯ",
+      "strongs": "H5892 (ʿîr); H2041 (heres 'destruction'); cf. H2775 (ḥeres 'sun'), the variant. Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "heres 'destruction' (from hāras 'tear down'), found only here; variant ḥeres 'sun'",
+      "partOfSpeech": "construct noun phrase used as a place-name",
+      "literal": "city of the destruction; it shall be said to one",
+      "standardEnglish": "The city of destruction (ASV, JPS 1917); Town of Heres (NJPS, with the note 'Many Heb. mss. read ḥeres, \"sun\"'); civitas Solis (Vulgate; recalled); polis asedek (LXX, as if ʿîr haṣṣedeq; recalled)",
+      "wohChoice": "'one shall be called the City of Destruction' (19:18): MT in the line (wave I-4 ruling 5; overlay mt-qere-textual-policy-isaiah). Commentary gives the variant ḥeres 'sun' (many Hebrew manuscripts; reported for 1QIsaᵃ), its link to Heliopolis/On and Jer 43:13 bêṯ šemeš, the Targum's 'Beth Shemesh' as reported by NJPS, the Vulgate and LXX readings, and the proposal that MT is a deliberate alteration, without deciding it. Capitalised as a name.",
+      "claim_type": "direct",
+      "rationale": "The Masoretic Text reads ʿîr haheres, and ASV and JPS 1917 render it 'The city of destruction' (checked). The book's textual policy translates MT and reports the variants of the Great Isaiah Scroll and the ancient versions in commentary (overlay mt-qere-textual-policy-isaiah), and wave I-4 ruling 5 applies that policy to this verse by name. The variant ḥeres 'sun' differs by one letter (ḥ for h) and is attested in many Hebrew manuscripts, according to the NJPS note (checked). It is also reported for 1QIsaᵃ (not checked against DJD 32). It would identify the city as Heliopolis, the Hebrew On (central on-heliopolis-egyptian-toponym), called bêṯ šemeš at Jer 43:13. The Vulgate (civitas Solis) and the LXX (polis asedek, 'city of righteousness') are recalled, not checked against an edition. Commentators often explain MT as a polemical alteration connected with the Jewish temple at Leontopolis (Josephus, Antiquities 13.62-73; recalled). Others defend MT as original. The entry records the evidence without ruling on it. The line renders MT literally, so the claim is direct, although the meaning of heres, a word found only here, remains uncertain (NJPS 'Meaning uncertain').",
+      "appliesTo": [
+        "ISA-19:18"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-19",
+      "source": "מִצְרַיִם בְּמִצְרָיִם … אִישׁ בְּאָחִיו (19:2) · וְנָבְקָה · אֲבַלֵּעַ · הָאִטִּים (19:3) · אֲדֹנִים קָשֶׁה (19:4) · הַיָּם / נָהָר (19:5) · יְאֹרֵי מָצוֹר · הֶאֶזְנִיחוּ · קָנֶה וָסוּף (19:6) · עָרוֹת · עַל־פִּי יְאוֹר (19:7) · חוֹרָי (19:9) · שָׁתֹתֶיהָ · שֶׂכֶר · אַגְמֵי־נָפֶשׁ (19:10) · עֵצָה / יָעַץ (19:3, 11, 12, 17) · חֲכָמֶיךָ (19:12) · נֹף · פִּנַּת שְׁבָטֶיהָ (19:13) · רוּחַ עִוְעִים · תעה (19:14) · תְּנוּפַת יָד / מֵנִיף (19:16) · לְחָגָּא (19:17) · מוֹשִׁיעַ וָרָב (19:20) · וְנוֹדַע · וְעָבְדוּ זֶבַח וּמִנְחָה (19:21) · וְעָבְדוּ … אֶת־אַשּׁוּר (19:23) · שְׁלִישִׁיָּה (19:24) · אֲשֶׁר בֵּרֲכוֹ · בָּרוּךְ עַמִּי מִצְרַיִם (19:25)",
+      "translit": "miṣrayim bᵉmiṣrāyim … ʾîš bᵉʾāḥîw; wᵉnāḇᵉqāh; ʾăḇallēaʿ; hāʾiṭṭîm; ʾăḏōnîm qāšeh; hayyām / nāhār; yᵉʾōrê māṣôr; heʾeznîḥû; qāneh wāsûp̄; ʿārôṯ; ʿal-pî yᵉʾôr; ḥôrāy; šāṯōṯêhā; śeḵer; ʾaḡmê-nāp̄eš; ʿēṣāh / yāʿaṣ; ḥăḵāmêḵā; nōp̄; pinnaṯ šᵉḇāṭêhā; rûaḥ ʿiwʿîm; tʿh; tᵉnûp̄aṯ yāḏ / mēnîp̄; lᵉḥāggāʾ; mōšîaʿ wārāḇ; wᵉnôḏaʿ; wᵉʿāḇᵉḏû zeḇaḥ ûminḥāh; wᵉʿāḇᵉḏû … ʾeṯ-ʾaššûr; šᵉlîšiyyāh; ʾăšer bērăḵô; bārûḵ ʿammî miṣrayim",
+      "strongs": "H4714 (miṣrayim); H376 (ʾîš); H1238 (bāqaq); H1104 (bālaʿ); H328 (ʾiṭṭîm); H113 (ʾāḏôn); H7186 (qāšeh); H3220 (yām); H5104 (nāhār); H2975 (yᵉʾôr); H4693 (māṣôr); H2186 (zānaḥ); H7070 (qāneh); H5488 (sûp̄); H6169 (ʿārāh); H2355 (ḥôr); H8356 (šāṯ); H7938 (śeḵer); H99 (ʾāḡēm); H6098 (ʿēṣāh); H3289 (yāʿaṣ); H2450 (ḥāḵām); H5297 (nōp̄); H6438 (pinnāh); H5773 (ʿiwʿîm); H8582 (tāʿāh); H8573 (tᵉnûp̄āh); H5130 (nûp̄); H2283 (ḥāggāʾ); H3467 (yāšaʿ); H7378 (rîḇ); H3045 (yāḏaʿ); H5647 (ʿāḇaḏ); H2077 (zeḇaḥ); H4503 (minḥāh); H854 (ʾeṯ 'with'); H7992 (šᵉlîšî); H1288 (bārak). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "single-site lexical decisions of Isaiah 19",
+      "partOfSpeech": "nouns, verbs, participles, particles and construct phrases",
+      "literal": "Egypt against Egypt … a man against his brother; be emptied; I will swallow; the soft-speakers (?); hard lords; the sea / a river; Nile-channels of Mazor; stink; reed and rush; bare places (?); at the mouth of the Nile; white stuff; her foundations; hire; sad of soul; counsel / to counsel; your wise ones; Noph; the corner of her tribes; a spirit of twistings; go astray / stagger; the waving of the hand / waving; terror; a savior and one who contends; be known; serve sacrifice and offering; serve … with Assyria; a third; which he blessed him; blessed my people Egypt",
+      "standardEnglish": "ASV: the Egyptians against the Egyptians … every one against his brother; shall fail; I will destroy the counsel thereof; the charmers; a cruel lord; the sea / the river; the streams of Egypt; become foul; the reeds and flags; the meadows; by the brink of the Nile; white cloth; the pillars [of Egypt]; work for hire; grieved in soul; counsel / purposed, purpose; thy wise men; Memphis; that are the corner-stone of her tribes; a spirit of perverseness; go astray / staggereth; the shaking of the hand / shaketh; a terror; a saviour, and a defender; shall be known; worship with sacrifice and oblation; worship with the Assyrians; the third; for that … hath blessed them; Blessed be Egypt my people. NJPS (checked): Egyptian against Egyptian; drained of spirit; confound its plans; the shades; a harsh master; the seas / rivers; Egypt's canals; turn foul; the Nile papyrus; chagrined; her foundations / all who make dams; your sages; Tanis / Memphis; the chiefs of her tribes; a spirit of distortion; will raise His hand; the dread; a savior and champion; will make Himself known; serve [Him] with sacrifice and oblation; together with the Assyrians shall serve [the LORD]; a third partner; will bless them; Blessed be My people Egypt",
+      "wohChoice": "19:2 'Egyptians against Egyptians' (ASV), the one place where miṣrayim is rendered as the people, because the reciprocal fighting needs persons; elsewhere in the chapter 'Egypt' wherever the Hebrew has the name, with the pronoun the Hebrew gives (vv. 4, 16, 21, 23 keep 'Egypt' where ASV has 'the Egyptians'); distributive ʾîš 'everyone … his'. 19:3 'shall be emptied' for the Niphal of bqq (JPS 1917; as 24:3), with 'fail' kept for nšt in v5; ʾăḇallēaʿ 'I will destroy' (blʿ I, as 3:12; 9:15); hāʾiṭṭîm 'the charmers' (ASV), not 'the shades' (reserved for rᵉp̄āʾîm) and not 'ghosts' (ʾōḇôṯ in the same list). 19:4 ʾăḏōnîm qāšeh 'a cruel lord' (ASV, JPS 1917). 19:5 hayyām 'the sea' and nāhār 'the river' (the Nile), with the capital 'the River' kept for hannāhār = Euphrates (8:7; 11:15). 19:6 yᵉʾōrê māṣôr 'the streams of Egypt' (ASV; māṣôr as a poetic name of Egypt); heʾeznîḥû 'become foul'; qāneh wāsûp̄ 'reed and rush'. 19:7 ʿārôṯ 'the meadows' (ASV); ʿal-pî yᵉʾôr 'by the brink of the Nile'. 19:9 ḥôrāy 'white cloth' (ASV; MT vowels). 19:10 MT kept: 'her pillars … all who work for hire shall be grieved in soul'; ASV's supplied '[of Egypt]' dropped. 19:3, 11, 12, 17 ʿēṣāh / yāʿaṣ: 'counsel' for human advice (vv. 3, 11), 'purpose / purposed / purposes' for YHWH's plan (vv. 12, 17), following ASV and the stable 14:24-27. 19:11-12 ḥăḵāmîm 'the wise' where generic (v11), 'your wise men' for Pharaoh's court sages (v12; scope ruling 13; as stable 29:14). 19:13 nōp̄ 'Memphis' (ASV; ruling 4); pinnaṯ šᵉḇāṭêhā in apposition to the subject: 'those who are the cornerstone of her tribes have led Egypt astray' (ASV construal). 19:14 rûaḥ ʿiwʿîm 'a spirit of perverseness' (ASV), lower case; tʿh 'lead astray' (Hiphil) / 'stagger' (Hithpael). 19:16 tᵉnûp̄aṯ yāḏ … mēnîp̄ 'the waving of the hand … which he waves', as 11:15 'wave his hand'; kannāšîm 'like women' literal. 19:17 lᵉḥāggāʾ 'a terror'. 19:20 mōšîaʿ wārāḇ 'a savior and a defender' (ASV; rāḇ from rîḇ), lower case. 19:21 wᵉnôḏaʿ 'shall be known' (passive, ASV); ʿāḇaḏ + offering 'worship with'. 19:23 ʾeṯ = 'with': 'Egypt shall worship with Assyria'. 19:24 šᵉlîšiyyāh 'the third' (ASV). 19:25 ʾăšer bērăḵô 'whom … has blessed' (relative; singular suffix); 'Blessed be Egypt my people, and Assyria the work of my hands, and Israel my inheritance' (ASV order; Hebrew order in commentary).",
+      "claim_type": "direct",
+      "rationale": "Each item is a single-site decision that keeps a standard rendering. The choice between ASV, JPS 1917 and NJPS (all checked on Sefaria and bible-api.com, 2026-11-26) is made on lexical grounds, and the alternative is recorded in commentary, so one entry governs the chapter's cruxes, as lexical-cruxes-isaiah-10 does for chapter 10. Three items change the draft line, and the entry records why. (1) 19:3 'shall be emptied' replaces ASV 'shall fail' because the verb is bqq 'empty out' (BDB; JPS 1917 'made empty'), the stem and root of 24:3, and because 'fail' renders a different verb, nšt, two verses later. (2) 19:13 follows the ASV construal of pinnaṯ šᵉḇāṭêhā as apposition to the subject (cf. pinnôṯ kol-hāʿām 'the chiefs of all the people', Judg 20:2); the draft's order made the phrase appear to describe Egypt, the very entity whose tribes it names. (3) 19:7-8 'the Nile' for singular yᵉʾôr follows wave I-4 ruling 15 (the context clause on central yeor-nile-egyptian-loanword is carried by the chapter 23 Editor). This entry records only the companion decision for nāhār at 19:5 ('the river', lower case, distinct from the capitalised Euphrates 'the River' of 8:7 and 11:15). The remaining items keep the draft. The concordance rules of the book are applied: ʾăḏāmāh 'ground' (central adam-adamah) at 19:17; the hiphil of nûp̄ 'wave' as at 11:15; blʿ I 'destroy' as at 3:12 and 9:15; YHWH's ʿēṣāh 'purpose' as in the stable 14:24-27; 'shades' reserved for rᵉp̄āʾîm (overlay rephaim-shades-dead-isaiah-26). The gender-neutral rule for generic human nouns (overlay adam-humankind-ish-man-isaiah) is applied within its scope ruling (wave I-4 ruling 13). The distributive ʾîš of 19:2 is 'everyone', the generic sense. ḥăḵāmêḵā at 19:12 names a specific body, Pharaoh's court sages, and keeps 'wise men', as the stable 29:14 does. Hapaxes and uncertain words (ʾiṭṭîm, heʾeznîḥû, ʿārôṯ, ḥôrāy, šāṯōṯêhā, ʿiwʿîm, ḥāggāʾ) keep ASV, and the lexical alternatives are recorded (HALOT's comparison of ʾiṭṭîm with Akkadian eṭemmu 'spirit of the dead' is recalled; NJPS 'the shades' checked). None of the items carries a lens, and every rendering is that of at least one standard version, so the claim is direct.",
+      "appliesTo": [
+        "ISA-19:2",
+        "ISA-19:3",
+        "ISA-19:4",
+        "ISA-19:5",
+        "ISA-19:6",
+        "ISA-19:7",
+        "ISA-19:9",
+        "ISA-19:10",
+        "ISA-19:11",
+        "ISA-19:12",
+        "ISA-19:13",
+        "ISA-19:14",
+        "ISA-19:16",
+        "ISA-19:17",
+        "ISA-19:20",
+        "ISA-19:21",
+        "ISA-19:23",
+        "ISA-19:24",
+        "ISA-19:25"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "massa-oracle-superscription-isaiah",
+    "appliesToAdded": [
+      "ISA-19:1"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-4 (Isa 19): 'The oracle concerning Egypt' (19:1), as at 13:1 and 15:1."
+  },
+  {
+    "op": "modify",
+    "id": "ha-adon-articular-title-isaiah",
+    "appliesToAdded": [
+      "ISA-19:4"
+    ]
+  },
+  {
+    "op": "modify",
+    "id": "ob-yiddeoni-ghosts-familiar-spirits-isaiah",
+    "appliesToAdded": [
+      "ISA-19:3"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-4: at 19:3 (wᵉḏārᵉšû … ʾel-hāʾōḇôṯ wᵉʾel-hayyiddᵉʿōnîm) the pair is the object of 'seek', in a list with 'the idols', so the consulted spirits are meant and the line has 'the ghosts and the familiar spirits', as do JPS 1917 and NJPS (checked). ASV renders practitioners ('them that have familiar spirits, and … the wizards'). The preceding hapax hāʾiṭṭîm keeps ASV 'the charmers' (overlay lexical-cruxes-isaiah-19), so 'ghosts' is not used twice in one list."
+  },
+  {
+    "op": "modify",
+    "id": "yhwh-tzevaot-hosts-isaiah",
+    "appliesToAdded": [
+      "ISA-19:4",
+      "ISA-19:12",
+      "ISA-19:16",
+      "ISA-19:17",
+      "ISA-19:18",
+      "ISA-19:20",
+      "ISA-19:25"
+    ]
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-19:9",
+      "ISA-19:10",
+      "ISA-19:18"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-4 (Isa 19): MT kept at 19:9 (ḥôrāy as a noun, against the NJPS repointing as a verb), 19:10 (against the emendation reported by NJPS, 'Her drinkers … her brewers') and 19:18 (ʿîr haheres 'the City of Destruction', against ḥeres 'sun', attested in many Hebrew manuscripts and reported for 1QIsaᵃ; overlay ir-haheres-city-of-destruction-isaiah-19)."
+  },
+  {
+    "op": "modify",
+    "id": "eretz-cosmic-scope-isaiah-24",
+    "appliesToAdded": [
+      "ISA-19:24"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 19): 'in the midst of the earth' at 19:24 (bᵉqereḇ hāʾāreṣ; ASV, JPS 1917; NJPS 'on earth'), because the blessing that joins Egypt, Assyria and Israel has a universal horizon. The territorial reading 'in the midst of the land' (Koren) is recorded in commentary. ʾereṣ miṣrāyim in 19:18-20 stays 'the land of Egypt' under central eretz."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-19:1"
+    ]
+  }
+]

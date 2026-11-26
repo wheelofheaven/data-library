@@ -1,0 +1,154 @@
+[
+  {
+    "op": "version",
+    "from": "2.0.0",
+    "to": "2.1.0",
+    "readBase": "2.0.0",
+    "note": "Isaiah wave I-4, chapter 18 Editor. Read base: overlay v2.0.0 (read-only). Contents: 4 add ops (cush-names-isaiah, tziltzal-kenafayim-whirring-wings-isaiah-18, qav-qav-line-isaiah, lexical-cruxes-isaiah-18) and 7 modify ops (appliesTo extensions, some with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. cush-names-isaiah is the book-level names entry owned by this chapter (coordinator instruction). Its appliesTo already lists ISA-20:3, 20:4 and 20:5, which the chapter 20 Editor cites, and the signed-off ISA-11:11, 43:3 and 45:14. The glossaryRefs of those stable chapters are left to the orchestrator. CONCURRENCY: the chapter 16-23 Editors work from the same base. Merge as a union and re-base each appliesTo as (merged array + appliesToAdded). Likely overlaps: title-and-meta-conventions-isaiah, hoy-woe-isaiah (17:12), mt-qere-textual-policy-isaiah, eretz-cosmic-scope-isaiah-24, yhwh-tzevaot-hosts-isaiah."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "cush-names-isaiah",
+      "source": "כּוּשׁ",
+      "translit": "kûš",
+      "strongs": "H3568 (Kûš). Number from recall, not concordance-verified.",
+      "lemma": "kûš, the land and people of the Nile valley south of Egypt (Nubia; the kingdom of Kush)",
+      "partOfSpeech": "proper noun (land / people)",
+      "literal": "Cush",
+      "standardEnglish": "ASV 'Cush' (11:11) but 'Ethiopia' elsewhere (18:1; 20:3-5; 43:3; 45:14); JPS 1917 'Cush' (11:11), 'Ethiopia' elsewhere; NJPS 'Nubia' throughout Isaiah (but 'Cush' at Gen 10:6); Koren 'Kush'; LXX Αἰθιοπία",
+      "wohChoice": "'Cush' for kûš throughout Isaiah, for the land and for the people as a collective: 11:11 'from Pathros and from Cush'; 18:1 'beyond the rivers of Cush'; 20:3 'upon Egypt and upon Cush'; 20:4 'the exiles of Cush'; 20:5 'Cush their expectation'; 43:3 'Cush and Seba'; 45:14 'the merchandise of Cush'. Expected site: 37:9 'Tirhakah king of Cush' (the same name in 2 Kgs 19:9); add ISA-37:9 to appliesTo once chapter 37 is drafted. Never 'Ethiopia'. ASV/JPS 1917 'Ethiopia' and NJPS 'Nubia' are given in commentary. The phrase mēʿēḇer lᵉnahărê-ḵûš (18:1; cf. Zeph 3:10) is 'beyond the rivers of Cush'.",
+      "claim_type": "direct",
+      "rationale": "Kûš is the Hebrew name of the Nile lands south of the first cataract, the kingdom Egyptian texts call Kush. In Isaiah's lifetime its kings ruled Egypt as the Twenty-fifth Dynasty, and they are the background most commentators assume for chapters 18 and 20. The English 'Ethiopia' comes through the LXX Αἰθιοπία and the Vulgate. Today it names a different country on the Ethiopian highlands, so it misplaces the referent for most readers. ASV is not consistent here: it prints 'Cush' at 11:11 and 'Ethiopia' at 18:1, 20:3-5, 43:3 and 45:14, and JPS 1917 has the same split (all checked 2026-11-26). NJPS uses the geographical 'Nubia' in Isaiah but the name 'Cush' at Gen 10:6 (Sefaria, checked). The book already prints 'Cush' at the signed-off 11:11, 43:3 and 45:14, and wave I-4 ruling 12 fixes the form for chapters 18 and 20. One entry therefore anchors the name book-wide, as aram-names-isaiah does for Aram. The choice is the Hebrew name in its standard English spelling. It carries no interpretation, so the claim is direct. Cross-corpus note: the Torah translations print the transliterated 'Kush' (genesis-woh 2:13; 10:6-8, beside 'Mitsrayim'). That follows the Torah transliteration convention, while Isaiah follows the wave rulings on English names. A central entry is recommended only if the founder wants one form across the corpus. The gentilic kûšî 'Cushite' (e.g. Jer 13:23), if it occurs in a later chapter, should take 'Cushite' under this entry.",
+      "appliesTo": [
+        "ISA-11:11",
+        "ISA-18:1",
+        "ISA-20:3",
+        "ISA-20:4",
+        "ISA-20:5",
+        "ISA-43:3",
+        "ISA-45:14"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "tziltzal-kenafayim-whirring-wings-isaiah-18",
+      "source": "אֶרֶץ צִלְצַל כְּנָפָיִם",
+      "translit": "ʾereṣ ṣilṣal kᵉnāp̄āyim",
+      "strongs": "H6767 (ṣᵉlāṣal / ṣilṣal); H3671 (kānāp̄); H776 (ʾereṣ). Numbers from recall, not concordance-verified.",
+      "lemma": "ṣilṣal 'whirring, buzzing' (reduplicated noun of the sound-imitating root ṣll) in construct with the dual kᵉnāp̄āyim 'wings'",
+      "partOfSpeech": "construct phrase (noun + dual noun) in apposition to the vocative 'land'",
+      "literal": "land of the whirring of two wings / of wings",
+      "standardEnglish": "ASV 'the land of the rustling of wings'; JPS 1917 'land of the buzzing of wings'; KJV 'the land shadowing with wings'; NJPS 'land in the deep shadow of wings' (note: 'Or \"Most sheltered land\"'); Koren 'land of buzzing wings'; LXX γῆς πλοίων πτέρυγες 'wings of ships'; NRSV 'whirring wings' (not verified)",
+      "wohChoice": "'land of the rustling of wings' (ASV) at 18:1. The dual is rendered simply as 'wings', and the line names no referent: not insects, armies, ships or anything else. The options (insect wings, the noise of an army, shadow, sails) and their sources are given in commentary. Any Wheel of Heaven reading is confined to a final commentary paragraph labelled speculative (wave I-4 ruling 9).",
+      "claim_type": "direct",
+      "rationale": "The phrase is the lens-salient crux of Isaiah 18, so it gets its own entry. The entry fixes a line that is philological and free of any referent. Ṣilṣal is a reduplicated noun of the root ṣll 'to tingle, quiver, whir'. The same consonants name a whirring locust at Deut 28:42 and a fish-spear at Job 40:31, and the related ṣelṣᵉlîm are cymbals (2 Sam 6:5; Ps 150:5). BDB s.v. ṣilṣāl gives 'land of buzzing of (insects') wings (so prob.)'. BDB s.v. kānāp̄ refers the phrase to the swarms of flies of the Nile lands (after Duhm and Cheyne) and records three other views: Knobel and Dillmann on the tropical shadow falling both ways, Gesenius's Thesaurus on the noise of an army's wings, and the sails of the boats of 18:2. BDB judges that the sails view 'would be suitable, but ṣilṣal does not favour this' (BDB checked via Sefaria's lexicon, 2026-11-26). The shadow reading (KJV; NJPS, with its note 'Or \"Most sheltered land\"') derives the word from ṣēl 'shade'. The sails reading is the LXX's πλοίων πτέρυγες (LXX text checked on getbible.net). ASV 'rustling of wings' renders the sound-word and the noun and adds no referent. It is the public-domain baseline, close to JPS 1917 'buzzing' and to the lexical gloss, so it is kept. Rendering the dual as plain 'wings' follows all the English versions, since the dual of paired body parts does not mean 'two' in English. The choice is the standard rendering, so the claim is direct. The interpretive options belong to commentary, and a reading that makes the wings mechanical belongs only in a labelled speculative note. The canon does not cite the verse (TBWTT and the other canon books in data-library checked 2026-11-26).",
+      "appliesTo": [
+        "ISA-18:1"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "qav-qav-line-isaiah",
+      "source": "גּוֹי קַו־קָו וּמְבוּסָה (18:2, 7) · צַו לָצָו צַו לָצָו קַו לָקָו קַו לָקָו (28:10, 13)",
+      "translit": "gôy qaw-qāw ûmᵉḇûsāh; ṣaw lāṣāw … qaw lāqāw",
+      "strongs": "H6957 (qaw 'line'); H6978 (qaw-qāw, listed separately in Strong's); H4001 (mᵉḇûsāh); H6673 (ṣaw). Numbers from recall, not concordance-verified.",
+      "lemma": "qaw 'cord, measuring line', reduplicated in the epithet qaw-qāw (18:2, 7) and in the taunt qaw lāqāw (28:10, 13)",
+      "partOfSpeech": "noun (masculine), reduplicated; with mᵉḇûsāh 'trampling' (noun of bws)",
+      "literal": "a nation of line-line and trampling",
+      "standardEnglish": "ASV 'a nation that meteth out and treadeth down' (18:2, 7), 'line upon line' (28:10, 13); KJV 'a nation meted out and trodden down'; JPS 1917 'a nation that is sturdy and treadeth down', 'line by line'; Koren 'a nation mighty and conquering'; NJPS 'a nation of gibber and chatter' (note 'Meaning of Heb. uncertain; cf. 28.10'), 'mutter upon mutter, murmur upon murmur' (28:10); BDB 'a mighty nation' (qawqāw 'might (?)', 'so read (according to most)', Arabic quwwa); LXX ἔθνος ἀνέλπιστον (18:2), ἐλπίδα ἐπ’ ἐλπίδι (28:10)",
+      "wohChoice": "18:2, 7: 'a nation that measures out and treads down' (ASV, modernized). The 'line' reading is kept, and the epithet is rendered the same way at both sites. 28:10, 13 (when drafted): default 'line upon line', with the same 'line' derivation, so that the two passages stay consistent. If the chapter 28 Editor adopts a different construal there (unintelligible speech with NJPS, or 'hope' with the LXX), that Editor must revisit 18:2, 7 in the same pass or escalate the split. Other occurrences of qaw as the measuring line (28:17; 34:11, 17; 44:13) take 'line'.",
+      "claim_type": "inferred",
+      "rationale": "Qaw is the builder's or surveyor's line (BDB: 2 Kgs 21:13; Isa 34:11, 17; 44:13; Job 38:5). The reduplicated qaw-qāw occurs only in the epithet of the distant nation at 18:2, 7 and, as qaw lāqāw, in the drunkards' taunt at 28:10, 13. Three construals compete. (1) From 'line': the nation 'measures out' (KJV, ASV), that is, it marks off conquered land with the line, as the line is stretched over a city for destruction (2 Kgs 21:13; Isa 34:11). (2) From a homonym 'strength', compared with Arabic quwwa: 'mighty' (BDB, which says most interpreters read so; JPS 1917 'sturdy'; Koren 'mighty'). (3) A sound-word for foreign speech: NJPS 'gibber and chatter', which ties the epithet explicitly to 28:10, where NJPS has 'mutter upon mutter', and to the motif of the nation of unintelligible speech (33:19; Deut 28:49; Jer 5:15). The LXX shows a fourth, older construal: it derives both passages from qwh 'to hope' (ἀνέλπιστον; ἐλπίδα ἐπ’ ἐλπίδι, checked on getbible.net). The line keeps construal (1). It is the reading of the public-domain baseline, it rests on the attested noun rather than on a postulated homonym, and it matches the ASV wording of 28:10. It is not the lexical majority, though, and BDB's 'might' is a serious alternative, so the claim is inferred rather than direct. The entry exists so that 18:2, 7 and 28:10, 13 are decided together: whatever the chapter 28 Editor rules, the two passages share a reduplicated form and should share a derivation. Mᵉḇûsāh 'trampling' (bws, Isa 22:5 'treading down') is rendered verbally, 'treads down', with ASV.",
+      "appliesTo": [
+        "ISA-18:2",
+        "ISA-18:7"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-18",
+      "source": "הַשֹּׁלֵחַ בַּיָּם צִירִים · כְלֵי־גֹמֶא · לְכוּ מַלְאָכִים (18:2) · מְמֻשָּׁךְ וּמוֹרָט · נוֹרָא מִן־הוּא וָהָלְאָה · בָּזְאוּ (18:2, 7) · תִּרְאוּ … תִּשְׁמָעוּ (18:3) · כְּחֹם צַח עֲלֵי־אוֹר · כְּעָב טַל (18:4) · הֵסִיר הֵתַז (18:5) · עֵיט · עָלָיו (18:6) · יוּבַל־שַׁי … עַם (18:7)",
+      "translit": "haššōlēaḥ bayyām ṣîrîm; kᵉlê-ḡōmeʾ; lᵉḵû malʾāḵîm; mᵉmuššāḵ ûmôrāṭ; nôrāʾ min-hûʾ wāhālᵊʾāh; bāzᵉʾû; tirʾû … tišmāʿû; kᵉḥōm ṣaḥ ʿălê-ʾôr; kᵉʿāḇ ṭal; hēsîr hēṯaz; ʿêṭ; ʿālāyw; yûḇal-šay … ʿam",
+      "strongs": "H6735 (ṣîr); H1573 (gōmeʾ); H4397 (malʾāḵ); H4900 (mšk); H4803 (mrṭ); H3372 (yrʾ); H958 (bāzāʾ); H2527 (ḥōm); H6703 (ṣaḥ); H216 (ʾôr); H5645 (ʿāḇ); H2919 (ṭal); H5493 (sûr); H8456 (tzz); H5861 (ʿayiṭ); H7862 (šay). Numbers from recall, not concordance-verified.",
+      "lemma": "single-site lexical and syntactic decisions of Isaiah 18",
+      "partOfSpeech": "mixed (participles, nouns, verb forms, syntax)",
+      "literal": "the one sending envoys in the sea; vessels of papyrus; go, messengers; drawn out and made smooth; feared from it and onward; (rivers) divide; you will see … you will hear; like dazzling heat upon light; like a cloud of dew; he removed, he cut down; bird of prey; upon it; a gift will be brought … a people",
+      "standardEnglish": "ASV throughout; alternatives from JPS 1917, NJPS (1985), KJV, Koren and the LXX recorded in commentary",
+      "wohChoice": "18:2 'which sends envoys by the sea, and in vessels of papyrus upon the face of the waters!' (ASV 'ambassadors'; the water is not identified as the Nile); no supplied '[saying]' before 'Go, you swift messengers'; 'a nation tall and smooth' (ASV); 'a people feared from their beginning onward' (ASV temporal construal, 'feared' for ASV 'terrible'); 'whose land the rivers divide' (ASV). 18:3 imperfects as imperatives, 'see … hear!' (ASV, NJPS); impersonal infinitives without a supplied subject. 18:4 ASV similes 'like clear heat in sunshine, like a cloud of dew'; 'I will look on in my dwelling place'. 18:5 MT 'harvest' (not the emended 'vintage'); asyndeton kept, 'he will take away, he will cut down'; the subject 'he' left unnamed. 18:6 ʿêṭ 'the ravenous birds' (ASV, JPS 1917); singular ʿālāyw rendered 'upon them' (ASV). 18:7 'a gift' for šay; MT without a preposition before the first ʿam, so 'a people tall and smooth' stands in apposition to the gift; 'to the place of the name of YHWH of hosts, Mount Zion' (literal). Epithets repeated from 18:2 are rendered identically.",
+      "claim_type": "direct",
+      "rationale": "Each item is a site where the Translator flagged a choice among standard renderings. The Editor keeps the Masoretic text and the ASV baseline unless a concordance rule requires otherwise, and records the alternatives in commentary. The renderings rest on the lexica: ṣîr 'envoy' (BDB: 'envoy, from Cush Is 18:2'); gōmeʾ 'papyrus, paper-reed' (BDB: 'vessels of paper-reed', as in the basket of Exod 2:3); mᵉmuššāḵ, the Pual of mšk, 'of persons, = tall' (BDB); bāzāʾ 'divide, cut through', compared with Aramaic bᵉzaʿ (BDB); šay 'gift offered as homage' (BDB; Ps 68:30; 76:12). All were checked via Sefaria's BDB, 2026-11-26. Three choices depart from ASV wording, and none changes the sense. (a) 'feared' for nôrāʾ, the Niphal participle of yrʾ 'fear', because ASV 'terrible' now usually means 'very bad'. The chapter 21 draft keeps 'terrible' for the feminine nôrāʾāh of a land (21:1); the orchestrator may harmonize. (b) 'and in vessels' for ASV 'even in vessels'. (c) no supplied '[saying]', so that the unintroduced imperative stands as in the Hebrew. NJPS's reordering of 18:2 and its '[Say this:]' at 18:3 are recorded, and NJPS's note that haššōlēaḥ agrees with 'nation', not with the feminine 'land', is reported. At 18:4 the NJPS readings ('rest calm and confident' from hibbîṭ 'rely'; 'scorching heat upon sprouts' with ʾôr as 'herb', as KJV 'upon herbs'; 'rain-cloud') and the LXX's 'day of harvest' (which presupposes bᵉyôm) are reported and not adopted. At 18:5 NJPS's 'Emendation yields \"vintage\"' is reported and MT is kept. At 18:7 ASV, JPS 1917 and NJPS supply 'from' or 'of' before the first ʿam, and the LXX has ἐκ λαοῦ. MT has no preposition there, and the line keeps MT under mt-qere-textual-policy-isaiah. None of these choices carries a lens.",
+      "appliesTo": [
+        "ISA-18:1",
+        "ISA-18:2",
+        "ISA-18:3",
+        "ISA-18:4",
+        "ISA-18:5",
+        "ISA-18:6",
+        "ISA-18:7"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "hoy-woe-isaiah",
+    "appliesToAdded": [
+      "ISA-18:1"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 18): vocative 'Woe, land of the rustling of wings' at 18:1, as 'Woe, Assyria' (10:5). ASV, JPS 1917 and NJPS have 'Ah', and KJV has 'Woe' (all checked 2026-11-26)."
+  },
+  {
+    "op": "modify",
+    "id": "nes-signal-isaiah",
+    "appliesToAdded": [
+      "ISA-18:3"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 18): 'when a signal is raised on the mountains' at 18:3, one of the expected banner sites named in wohChoice. ASV and JPS 1917 have 'ensign' and NJPS 'flag' (checked 2026-11-26)."
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-18:4",
+      "ISA-18:7"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 18). At 18:4 the qere ʾešqᵒṭāh 'I will be quiet' is read. The ketiv אשקוטה is the same cohortative written with the full vowel letter, so the sense does not change. The LXX's ἡμέρας ἀμήτου 'of the day of harvest' (presupposing bᵉyôm for bᵉḥōm) is reported in commentary, and whether 1QIsaᵃ has it was not verified. At 18:7 MT has no preposition before the first ʿam. The LXX (ἐκ λαοῦ) and ASV, JPS 1917 and NJPS supply one, and 1QIsaᵃ was not verified. The line keeps MT. Orchestrator: add '18:4' to the qere list in wohChoice, and '18:7 ʿam' and '18:4 bᵉyôm' to the list of variants reported in commentary, on merge. This is a scope-only change, and the Editor does not rewrite the field here, to avoid a conflict with the parallel Editors."
+  },
+  {
+    "op": "modify",
+    "id": "eretz-cosmic-scope-isaiah-24",
+    "appliesToAdded": [
+      "ISA-18:3"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 18): 'all you inhabitants of the world and dwellers on the earth' at 18:3. Here ʾereṣ is parallel to tēḇēl 'the world', the same pairing as 24:4. The territorial ʾereṣ of 18:1, 2 and 7 ('land') stays under central eretz."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-18:1",
+      "ISA-18:4"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 18): the chapter title 'Isaiah 18 — The land of rustling wings beyond the rivers of Cush, and the gift brought to Mount Zion' (the Translator's descriptive title, ratified; it repeats the wording of the line and names no referent). At 18:4 the messenger formula 'For thus YHWH has said to me' introduces divine speech without quotation marks. No quotation marks are added in 18:2 (the unintroduced imperative) or at 18:3, where NJPS supplies '[Say this:]' and quotation marks."
+  },
+  {
+    "op": "modify",
+    "id": "yhwh-tzevaot-hosts-isaiah",
+    "appliesToAdded": [
+      "ISA-18:7"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 18): 'YHWH of hosts' twice at 18:7, in 'a gift shall be brought to YHWH of hosts' and 'the place of the name of YHWH of hosts'."
+  },
+  {
+    "op": "modify",
+    "id": "shofar-gadol-ingathering-isaiah-27",
+    "appliesToAdded": [],
+    "rationaleAppend": "Cross-reference (wave I-4, Isa 18): šôp̄ār at 18:3 is rendered 'a shofar' under the central shofar-rams-horn-signal-instrument-cross-corpus, which transliterates the word in every context and reserves 'trumpet' for ḥăṣōṣᵉrāh. Other books already print 'shofar' at Zeph 1:16 and Zech 9:14. This entry's 'a great trumpet' at 27:13 is the one place in the corpus where šôp̄ār is printed 'trumpet'. Harmonizing 27:13 to 'a great shofar' is escalated in the chapter 18 editor report, because 27:13 is signed off. No change is made here."
+  }
+]

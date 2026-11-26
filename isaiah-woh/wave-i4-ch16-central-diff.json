@@ -1,0 +1,38 @@
+[
+  {
+    "op": "version",
+    "from": "3.0.0",
+    "to": "3.1.0",
+    "readBase": "3.0.0",
+    "marker": "CENTRAL — apply by orchestrator",
+    "note": "Isaiah wave I-4, chapter 16 Editor. Read base: central v3.0.0. Contents: 3 modify ops (appliesTo extensions with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. CONCURRENCY: merge with the Isa 17-23 central diffs into one 3.1.0, re-basing each appliesTo as (merged array + appliesToAdded); eretz is likely extended by several chapters. DELIBERATE NON-EXTENSIONS (recorded, not applied): chesed-v-emet-steadfast-love-and-truth at 16:5 (ḥeseḏ and ʾĕmeṯ in separate cola, not the bound formula; solitary entry applied instead); tzedakah-u-mishpat-justice-pair at 16:5 (mišpāṭ and ṣeḏeq split across cola, as at Isa 5:7 and 32:16). No central parallel entry for Isa 16 // Jer 48 yet: jeremiah-woh 48 does not exist; the overlay moab-lament-jer-48-parallel-isaiah-16 recommends promotion when it is drafted."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "chesed-solitary-covenant-kindness",
+    "appliesToAdded": [
+      "ISA-16:5"
+    ],
+    "rationaleAppend": "Split-pair extension (isaiah-woh wave I-4): at Isa 16:5, wᵉhûḵan baḥeseḏ kissēʾ wᵉyāšaḇ ʿālāyw beʾĕmeṯ, ḥeseḏ and ʾĕmeṯ stand in parallel cola and are not the bound formula ḥeseḏ wᵉʾĕmeṯ. The solitary entry governs such split pairs: ḥeseḏ is 'kindness' ('a throne shall be established in kindness') and ʾĕmeṯ 'truth' ('in truth'), and chesed-v-emet-steadfast-love-and-truth (which keeps chesed untranslated) is reserved for the bound formula. This follows the split-pair precedent recorded in tzedakah-u-mishpat-justice-pair. ASV 'lovingkindness', JPS 1917 'mercy' and NJPS 'goodness … faithfulness' (checked) are reported in the Isaiah commentary."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "eretz",
+    "appliesToAdded": [
+      "ISA-16:1",
+      "ISA-16:4"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-4: territorial 'land' at Isa 16:1 (mōšēl-ʾereṣ 'the ruler of the land') and 16:4 (min-hāʾāreṣ 'out of the land', of Moab's territory)."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "kerem-vineyard",
+    "appliesToAdded": [
+      "ISA-16:10"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-4: 'vineyards' at Isa 16:10 (ûḇakkᵉrāmîm 'and in the vineyards'), in the lament for the vine of Sibmah; karmel in the same verse is 'the fruitful field', as elsewhere in the Isaiah overlay chapters (10:18; 29:17; 32:15-16), and is not governed by this entry."
+  }
+]

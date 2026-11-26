@@ -143,6 +143,11 @@ def main():
         alt = f'{a.chapters_from}/{os.path.basename(path)}' if a.chapters_from else None
         src_path = alt if alt and os.path.exists(alt) and os.path.dirname(path) == book else path
         raw = open(src_path, encoding='utf-8').read(); ch = json.loads(raw)
+        # a chapter of another book also resolves against that book's own overlay
+        own_ov = os.path.join(os.path.dirname(path), '_translation-glossary.json')
+        own_ids = set()
+        if os.path.dirname(path) != book and os.path.exists(own_ov):
+            own_ids = {e['id'] for e in json.load(open(own_ov, encoding='utf-8')).get('entries', [])}
         for p in ch['paragraphs']:
             refs = [renames.get(r, r) for r in p.get('glossaryRefs', [])]
             for i, targets in refs_add.items():
@@ -152,7 +157,7 @@ def main():
             if refs != p.get('glossaryRefs', []):
                 p['glossaryRefs'] = refs
             for r in refs:
-                if r not in ids:
+                if r not in ids and r not in own_ids:
                     problems.append(f'{c} {p["refId"]}: unresolved glossaryRef {r}')
         new = json.dumps(ch, ensure_ascii=False, indent=2) + '\n'
         if new != raw:

@@ -1,0 +1,80 @@
+[
+  {
+    "op": "version",
+    "from": "2.0.0",
+    "to": "2.1.0",
+    "readBase": "2.0.0",
+    "note": "Isaiah wave I-4, chapter 20 Editor. Read base: overlay v2.0.0 (read-only). Contents: 1 add op (lexical-cruxes-isaiah-20, direct) and 5 modify ops (appliesTo extensions with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. DEPENDENCY: chapter-20 glossaryRefs cite cush-names-isaiah at 20:3-5. That entry is added by the chapter 18 Editor's overlay diff (coordinator instruction), and this diff deliberately does not create or modify it. If its appliesTo does not already list ISA-20:3, ISA-20:4 and ISA-20:5, add them at merge. CONCURRENCY: the chapter 16-23 Editors work from the same base. Merge as a union and re-base each appliesTo as (merged array + appliesToAdded). aram-names-isaiah and title-and-meta-conventions-isaiah are the likeliest overlaps."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-20",
+      "source": "תַרְתָּן (20:1) · בְּיַד יְשַׁעְיָהוּ · וְנַעַלְךָ … רַגְלֶיךָ · עָרוֹם וְיָחֵף (20:2) · שָׁלֹשׁ שָׁנִים · עַל־מִצְרַיִם וְעַל־כּוּשׁ (20:3) · וַחֲשׂוּפַי שֵׁת · עֶרְוַת מִצְרָיִם (20:4) · מַבָּט · וְחַתּוּ וָבֹשׁוּ (20:5) · הִנֵּה־כֹה (20:6)",
+      "translit": "tartān; bᵉyaḏ yᵉšaʿyāhû; wᵉnaʿalᵉḵā … raḡlêḵā; ʿārôm wᵉyāḥēp̄; šālōš šānîm; ʿal-miṣrayim wᵉʿal-kûš; waḥăśûp̄ay šēṯ; ʿerwaṯ miṣrāyim; mabbāṭ; wᵉḥattû wāḇōšû; hinnēh-ḵōh",
+      "strongs": "H8661 (tartān); H3027 (yāḏ); H5275 (naʿal); H7272 (reḡel); H2502 (ḥlṣ); H6174 (ʿārôm); H3182 (yāḥēp̄); H8141 (šānāh); H5921 (ʿal); H3568 (kûš); H2834 (ḥśp); H8357 (šēṯ); H6172 (ʿerwāh); H4007 (mabbāṭ); H2865 (ḥtt); H954 (bwš). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "single-site lexical and syntactic decisions of Isaiah 20 not covered by a dedicated entry",
+      "partOfSpeech": "mixed (loan title, idioms, adjectives, participle, nouns, verbs)",
+      "literal": "tartan (commander-in-chief); by the hand of Isaiah; your sandal … your feet; naked/stripped and barefoot; three years; upon/concerning Egypt and upon/concerning Cush; bared of buttock(s); the nakedness of Egypt; that to which one looks; and they shall be shattered and be ashamed; behold, thus",
+      "standardEnglish": "ASV 'Tartan', 'spake by Isaiah', 'put thy shoe from off thy foot', 'naked and barefoot', 'three years for a sign and a wonder concerning Egypt and concerning Ethiopia', 'with buttocks uncovered, to the shame of Egypt', 'expectation', 'dismayed and confounded'; JPS 1917 the same except 'came into Ashdod' (20:1), 'Like as My servant Isaiah' (20:3), 'upon Egypt and upon Ethiopia', 'to be for three years a sign and a wonder', 'ashamed', and 'and how shall we escape?' without ASV's 'and we' (20:6); NJPS 'the Tartan' (note: 'An Assyrian title meaning \"General\"'), 'Previously … had spoken to Isaiah', 'take your sandals off your feet', 'a sign and a portent for Egypt and Nubia', 'with bared buttocks', 'hope', 'chagrined', 'their boast' (ASV via bible-api.com, JPS 1917 and NJPS via Sefaria API v3, all checked 2026-11-26)",
+      "wohChoice": "20:1 'the Tartan' (NJPS), the Assyrian title turtānu with the English article supplied, not ASV/JPS 1917 'Tartan' as a personal name. 20:2 'spoke by Isaiah' (ASV, JPS 1917), with NJPS 'had spoken to Isaiah' and its pluperfect 'Previously' in commentary; 'take off your sandals from your feet' (collective plural, NJPS; 'sandals' as 5:27); ʿārôm wᵉyāḥēp̄ 'naked and barefoot' at 20:2, 3 and 4 alike (ASV, JPS 1917, NJPS), with the 'stripped of the outer garment' sense in commentary. 20:3 ASV word order for šālōš šānîm, with the accent-following construal (JPS 1917) in commentary; ʿal 'concerning Egypt and concerning Cush' (ASV), not 'upon' (JPS 1917). 20:4 'with buttocks uncovered, to the shame of Egypt' (ASV, JPS 1917), with the literal 'the nakedness of Egypt' and the anomalous form ḥăśûp̄ay in commentary. 20:5-6 mabbāṭ 'expectation' in both verses (ASV, JPS 1917); wᵉḥattû wāḇōšû 'they shall be dismayed and ashamed' (JPS 1917), the subject left unexpressed as in the Hebrew. 20:6 'Behold, such is our expectation … and we, how shall we escape?' (ASV).",
+      "claim_type": "direct",
+      "rationale": "Each item is a site where the Translator flagged a choice among standard renderings. The Editor keeps the Masoretic Text and the public-domain baseline unless accuracy or the book's concordance requires a change, and records the alternatives in commentary. No item adopts an emendation or carries a project reading. Two English lines change. (1) At 20:1 tartān is the Assyrian military title turtānu 'commander-in-chief' (CAD T s.v. turtānu, recalled; also 2 Kgs 18:17). This is the scholarly consensus, and NJPS prints 'the Tartan' with an explanatory note. ASV's bare 'Tartan' reads in modern English as a personal name and misinforms the reader, so the line supplies the article. The Hebrew omits it, as it does with other foreign titles used like names (rab-šāqēh, 2 Kgs 18:17). When 2 Kgs 18:17 is drafted it should follow the same rule. (2) At 20:3 the draft's 'upon Egypt and upon Cush' was reported as ASV but is the wording of JPS 1917. ASV reads 'concerning', which states the sense of ʿal here (the referent of the sign) in current English, so the line takes ASV. Other attributions in the draft were also corrected after checking: 'ashamed' at 20:5 is JPS 1917 (ASV 'confounded'), and the quotation extent 20:3-6, with an inner quotation at 20:6, matches both JPS 1917 and NJPS. The remaining items keep the Translator's line. 'Sandals' treats the singular naʿal as a collective (cf. Josh 5:15) and keeps the book's word at 5:27. ʿārôm is kept as 'naked' in all three occurrences, the rendering of all three references, and the 'scantily clad' sense (1 Sam 19:24; Mic 1:8) is reported. The ʾaṯnāḥ on wᵉyāḥēp̄ makes 'three years' grammatically part of the sign clause. The ambiguous ASV order is kept and the JPS 1917 accent-following rendering is reported. ʿerwaṯ miṣrāyim is rendered by its sense, 'to the shame of Egypt', in all three references, so the central ervat-aviv entry (Gen 9 idiom) is not extended. mabbāṭ is rendered concordantly in 20:5 and 20:6 so that the repetition stays visible.",
+      "appliesTo": [
+        "ISA-20:1",
+        "ISA-20:2",
+        "ISA-20:3",
+        "ISA-20:4",
+        "ISA-20:5",
+        "ISA-20:6"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "aram-names-isaiah",
+    "appliesToAdded": [
+      "ISA-20:1",
+      "ISA-20:3",
+      "ISA-20:4",
+      "ISA-20:5",
+      "ISA-20:6"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 20): Egypt (miṣrayim) and Assyria (ʾaššûr) take the English forms fixed by the wave rulings. The central `mitsrayim` entry ('Mitsrayim', Torah convention) is not applied in Isaiah. Ashdod and Sargon take the ASV spelling. kûš is governed by the dedicated overlay entry cush-names-isaiah, not by this entry."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-20:1",
+      "ISA-20:2",
+      "ISA-20:3",
+      "ISA-20:6"
+    ],
+    "rationaleAppend": "Wave I-4 (Isa 20): the Translator's descriptive title is kept, with one word changed: 'a sign concerning Egypt and Cush' (draft 'against'), to match the line at 20:3 (lexical-cruxes-isaiah-20). Quotation marks: the instruction to Isaiah in 20:2 is a short quotation; YHWH's speech runs from 20:3 to the end of 20:6, with the coastland's words in 20:6 as an inner quotation. JPS 1917 and NJPS mark the same extent (checked on Sefaria)."
+  },
+  {
+    "op": "modify",
+    "id": "lexical-cruxes-isaiah-8",
+    "appliesToAdded": [
+      "ISA-20:3"
+    ],
+    "rationaleAppend": "Wave I-4 extension, limited to the ʾôṯ / môp̄ēṯ item: the singular pair ʾôṯ ûmôp̄ēṯ at 20:3 is 'a sign and a wonder' (ASV, JPS 1917; NJPS 'a sign and a portent', checked on Sefaria), concordant with 'for signs and for wonders' at 8:18. The preposition 'for' is supplied, as in ASV. The prophet's own body as the môp̄ēṯ (cf. Ezek 12:6, 11; 24:24, 27) is explained in commentary. When the wave cruxes are consolidated, this item is a candidate for a dedicated book-wide ʾôṯ / môp̄ēṯ entry."
+  },
+  {
+    "op": "modify",
+    "id": "tsemach-yhwh-branch-isaiah-4",
+    "appliesToAdded": [
+      "ISA-20:5"
+    ],
+    "rationaleAppend": "Wave I-4 extension, limited to the tip̄ʾereṯ item: tip̄ʾartām at 20:5 is 'their honor', the book default under wave I-4 ruling 2. ASV and JPS 1917 have 'their glory', which is reserved for kāḇôḏ, and NJPS has 'their boast' (checked on Sefaria). The sense is what the people boasted in, Egypt as the power they relied on. The idiom permits 'honor', so the default stands. The 10:12 departure ('boasting', lexical-cruxes-isaiah-10) is not extended, because there the noun is pejorative. Orchestrator: the tip̄ʾereṯ default now governs 4:2 and 20:5 from inside a ṣemaḥ entry, and 13:19 ('splendor') is still unreconciled. A dedicated book-wide tip̄ʾereṯ entry is recommended at merge."
+  },
+  {
+    "op": "modify",
+    "id": "lexical-cruxes-isaiah-11",
+    "appliesToAdded": [
+      "ISA-20:6"
+    ],
+    "rationaleAppend": "Wave I-4 extension, limited to the ʾî item: the singular hāʾî hazzeh at 20:6 is 'this coastland', concordant with 'the coastlands of the sea' at 11:11 and the stable 24:15 and 42:4 (ASV and JPS 1917 'coast-land', NJPS 'coastland', checked). Here it is the Philistine coast of Ashdod (20:1)."
+  }
+]

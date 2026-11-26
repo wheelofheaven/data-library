@@ -1,0 +1,55 @@
+[
+  {
+    "op": "version",
+    "from": "3.0.0",
+    "to": "3.1.0",
+    "readBase": "3.0.0",
+    "marker": "CENTRAL — apply by orchestrator",
+    "note": "Isaiah wave I-4, chapter 23 Editor. Read base: central v3.0.0 (read-only, read with Python, not edited). Contents: 4 modify ops. Three are appliesTo extensions, two of them with rationale addenda. The fourth, on yeor-nile-egyptian-loanword, is a `changes.wohChoice` that appends an Isaiah context clause; the corpus default 'the river' is unchanged. The Editor proposes treating it as minor, like the context clauses earlier waves added to `eretz`. If the orchestrator counts a wohChoice edit as a modification, it is a major bump. CONCURRENCY: the chapter 19 Editor's diff adds appliesTo only on yeor-nile-egyptian-loanword and does not change its wohChoice, so the merge has no field conflict (corrected after review). DELIBERATE NON-EXTENSIONS: eretz-kasdim at 23:13 (Ezekiel-scoped 'the land of the Kasdim'; Isaiah prints 'Chaldeans'); paqod-yiphqod-divine-visitation-exodus-formula-cross-corpus at 23:17 (Gen 50 / Exodus formula); the seventy-related entries (Gen 46, Deut 32:8, Dan 9) at 23:15-17."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "yeor-nile-egyptian-loanword",
+    "appliesToAdded": [
+      "ISA-23:3",
+      "ISA-23:10"
+    ],
+    "changes": {
+      "wohChoice": "the river (ASV-baseline; the Egyptian-loanword Nile-identification documented in commentary). Isaiah context clause (isaiah-woh wave I-4): 'the Nile' for singular yᵉʾôr in the Isaiah oracles (23:3 'the harvest of the Nile'; 23:10 'like the Nile'; proposed for 19:7-8 when that chapter is edited), where ASV itself prints 'the Nile' and where 'the river' would collide with the book's nāhār 'the River' (the Euphrates: 7:20; 8:7; 11:15; 27:12) and with nāhār 'a river' (48:18); the plural yᵉʾōrîm is 'rivers' (7:18 'the rivers of Egypt') or 'streams' where nᵉhārôt 'rivers' stands beside it (19:6)."
+    },
+    "rationaleAppend": "Isaiah context clause (wave I-4, chapter 23 Editor). The default 'the river' rests on the ASV baseline of Genesis 41. That baseline does not hold in Isaiah. ASV prints 'the Nile' for singular yᵉʾôr at Isa 19:7, 8 and 23:3, 10, and 'the river' at 19:5, where the noun is nāhār (ASV via bible-api.com, checked 2026-11-26). JPS 1917 and NJPS also have 'the Nile' at 23:3 and 23:10 (Sefaria API v3, checked 2026-11-26). Isaiah also uses nāhār for the Euphrates, printed 'the River' in the stable chapters. Rendering yᵉʾôr 'the river' would therefore give one English word to two Hebrew nouns that the book keeps apart. At 23:3 the parallel zeraʿ šiḥōr makes the Egyptian referent explicit, and at 23:10 'like the river' leaves the reader without the image of the Nile flood. The clause is lexical, since the identification is settled (see above), and the claim stays direct. The Genesis and Exodus sites are not affected."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "zonah-prostitute-status-vocabulary-cross-corpus",
+    "appliesToAdded": [
+      "ISA-23:15",
+      "ISA-23:16",
+      "ISA-23:17",
+      "ISA-23:18"
+    ],
+    "rationaleAppend": "Isaiah extension (wave I-4, Isa 23:15-18, the Tyre-as-prostitute appendix). The participle zônāh is 'prostitute' at 23:15 (šîraṯ hazzônāh 'the song of the prostitute') and 23:16 (zônāh nišḵāḥāh 'O forgotten prostitute'), as at Isa 1:21. Two forms are added to the entry. The finite verb of the same root, wᵉzānᵉṯāh at 23:17, is 'prostitute herself' (ASV 'play the harlot'; JPS 1917 'have commerce'; NJPS 'play the harlot' in quotation marks). The fee noun ʾeṯnan at 23:17-18 is 'hire' (ASV, JPS 1917; NJPS '\"fee-taking\"', '\"hire\"'; cf. Deut 23:19 Heb. ʾeṯnan zônāh; Hos 9:1; Mic 1:7). The register is the entry's modern 'prostitute', not ASV 'harlot'. NJPS notes that the figure means trading ('I.e., \"trading…trade\"'), and the commentary records the commercial sense without changing the line. Sefaria and bible-api.com checked 2026-11-26."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "eretz",
+    "appliesToAdded": [
+      "ISA-23:1",
+      "ISA-23:10",
+      "ISA-23:13"
+    ],
+    "note": "Territorial 'land': mēʾereṣ kittîm 'from the land of Kittim' (23:1), ʿiḇrî ʾarṣēḵ 'pass through your land' (23:10), ʾereṣ kaśdîm 'the land of the Chaldeans' (23:13). The universal sites 23:8, 9, 17 go to the overlay eretz-cosmic-scope-isaiah-24."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "adam-adamah",
+    "appliesToAdded": [
+      "ISA-23:17"
+    ],
+    "note": "ʿal-pᵉnê hāʾăḏāmāh 'on the face of the ground' (23:17), the entry's 'the ground'."
+  }
+]
