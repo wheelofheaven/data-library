@@ -119,3 +119,30 @@ All 8 central changes add `appliesTo` sites, and most append one rationale sente
 - `glossaryRefs` at 19:24 now point to `eretz-cosmic-scope-isaiah-24` instead of central `eretz`.
 - 19:1 now also references `rokhev-al-av-qal-swift-cloud-isaiah-19`.
 - Reception at 19:18–25 appears only in labelled "Reception" paragraphs (19:19, 19:25) and in the variant discussion of 19:18. It covers Josephus on the Onias temple, m. Menaḥ. 13:10, and the LXX of 19:25, all marked as recalled. None of it touches the lines.
+
+---
+
+## Post-review corrections
+
+These follow the Reviewer's report of 2026-11-26.
+`translation.status` stays `awaiting-human`, and the `reviewerReport` block is untouched.
+No English line changed, and no shared glossary was edited.
+
+1. **19:18 commentary.** The sentence now reads "Others hold that MT is original (not verified)."
+   I removed the names of Wildberger and Blenkinsopp because I could not check either commentary in this pass.
+2. **`lexical-cruxes-isaiah-19` rationale (overlay diff).** The closing claim now has an exception: "except 19:16 'waving … waves', which follows the book's concordance with 11:15 (Hiphil nûp̄, BDB 'wave, brandish')."
+3. **19:9 commentary and the `mt-qere-textual-policy-isaiah` rationaleAppend.** "NJPS reads/repoints as a verb" is softened.
+   NJPS prints "chagrined" and notes only "Meaning of Heb. uncertain". Its rendering appears to take the word as a verb.
+4. **19:12.** The line keeps "your wise men".
+   `lexical-cruxes-isaiah-19` wohChoice now stages "your sages" (NJPS) under the marker "PENDING FOUNDER RULING". The founder needs to decide whether ruling 13 extends to a professional class.
+5. **Central housekeeping (founder-gated, staged only).** I checked every KTU site of `rider-of-the-clouds-rkb-arpt-cross-corpus-ugaritic-hebrew-bible-storm-theophany` against the `baal-cycle-woh` edition, which covers KTU 1.1–1.4.
+   - *rkb ʿrpt* is printed only at 1.2-iv:6, 1.3-ii:40, 1.3-iv:23 and 1.4-vi:10.
+   - 1.3-iv:4 reads "She enters to Baʿlu on the heights of Ṣapunu".
+   - 1.4-iii:11 reads "[…] Baʿlu, the noble ones confront".
+   - 1.4-v:7 reads "[Eight, or fi]ve years".
+   - 1.5-ii:7 lies outside the edition and is not verified.
+   - 1.4-vii:32 has *b ʿrpt* "in the clouds". It is not an epithet site, but the Baal Cycle line cites the entry.
+
+   The corrected full values for `partOfSpeech`, `rationale` and `appliesTo` are in `wave-i4-orchestrator-ops.json` under `central.set`.
+   `appliesTo` drops 1.4-iii:11 and 1.4-v:7. It keeps 1.4-vii:32, and the rationale now explains why.
+   A `_pendingFounder` note in that file names the change, which is a modification of existing fields (major if strictly applied). The central glossary itself was not edited.
