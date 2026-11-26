@@ -144,3 +144,11 @@ These were applied on 2026-11-26 after the Reviewer's verdicts (`translation.rev
    If the founder rules for B, apply those lines and drop the staging text.
 
 Both JSON files still validate, and every glossaryRef is still governed.
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-5 on 2026-11-26 through an interactive form and chose every recommended option. No English line changes as a result; only notes and glossary-diff wording were updated. The wave merges as overlay 4.0.0 and central 5.0.0.
+
+- **ISA-28:4, 28:24–28 pronouns:** option A stands, with "he/his". The ruling is *neutral noun, Hebrew pronoun*: the generic participle takes a neutral noun phrase, and the resuming 3ms pronouns follow the Hebrew. The staged singular-"they" lines (option B) are **rejected**. The PENDING block has been removed from `lexical-cruxes-isaiah-28`, and the entry's wohChoice and rationale now record the ruling.
+- **ISA-28:10, 13** "precept upon precept … line upon line" stands (binding commitment; 18:2, 7 unchanged).
+- **ISA-28:16 speculative reception paragraph:** kept as labelled (founder sign-off 2026-11-26).

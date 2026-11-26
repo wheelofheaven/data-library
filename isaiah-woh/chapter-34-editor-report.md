@@ -168,3 +168,12 @@ Items for the founder:
 - *śāʿîr* at 34:14 and 13:21: "wild goat(s)" (current) or "goat-demon(s)" (staged).
 
 The other escalations above (the skies/heavens register at 34:4–5, *qippōḏ*, and MT "my mouth") were approved by the Reviewer and need no ruling.
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-5 on 2026-11-26 through an interactive form and chose every recommended option. No English line changes as a result; only notes and glossary-diff wording were updated. The wave merges as overlay 4.0.0 and central 5.0.0.
+
+- **34:14 lîlîṯ "the night-monster":** stands. The staged NJPS "the lilith" is **rejected**, and the PENDING block has been removed from `lilit-night-monster-isaiah-34`. "The lilith" stays reported as the alternative in the entry and in the 34:14 note.
+- **śāʿîr "wild goat(s)" at 13:21 and 34:14:** stands. The staged "goat-demon" is **rejected**, and the PENDING block has been removed from the `lexical-cruxes-wave-i2-isaiah` op; its wohChoice is unchanged. "Goat-demons" (NJPS; LEV-WOH-17:7) stays reported in the rationaleAppend and the 34:14 note. Chapter 13 is not touched.
+- **34:4–5 skies / host of the heavens, 34:11 qippōḏ, 34:16 MT "my mouth", 34:16 "the scroll of YHWH":** the current lines stand.
+- **34:4 and 34:14 speculative reception paragraphs:** kept as labelled (founder sign-off 2026-11-26).

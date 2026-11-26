@@ -143,3 +143,11 @@ The Reviewer's verdicts (`translation.reviewerReport`, 2026-11-26T19:09:14Z) wer
 5. **Provisional id resolved.** The Reviewer confirmed that `lag-stammering-isaiah` matches the add in `wave-i5-ch28-overlay-diff.json`. The version-op note and the modify op's rationaleAppend now say so; the 33:19 glossaryRef is unchanged.
 
 Still for the human: whether to keep the 33:14 speculative paragraph; the shared "beauty" (yōp̄î / ṣᵉḇî); the "mighty" overlaps (gibbôr, ʾăḇîr); and "cords" for the ship's rigging at 33:23, which the Reviewer accepted.
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-5 on 2026-11-26 through an interactive form and chose every recommended option. No English line changes as a result; only notes and glossary-diff wording were updated. The wave merges as overlay 4.0.0 and central 5.0.0.
+
+- **33:14 speculative reception paragraph:** kept as labelled (founder sign-off 2026-11-26).
+- **33:17 yōp̄î "beauty"**, **33:21 ʾaddîr "mighty"**, **33:23 "cords"** and **33:2/33:6 MT over ASV:** the current lines stand, as recommended.
+- **33:19 `lag-stammering-isaiah`:** the id is created by the chapter-28 add op (ruling 7). The "pending add" wording has been removed from the overlay-diff version note.

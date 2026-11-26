@@ -6,20 +6,20 @@
   "title": "Isaiah 31 — Woe to those who go down to Egypt: YHWH like a lion and like hovering birds over Jerusalem",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.31",
-    "glossaryVersion": "4.0.0",
-    "overlayGlossaryVersion": "3.0.0",
+    "glossaryVersion": "5.0.0",
+    "overlayGlossaryVersion": "4.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T19:03:04Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T22:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T19:03:04Z",
@@ -236,7 +236,8 @@
       "lensLeakageCheck": "All 9 lines were checked against the WLC source. The English carries no Wheel of Heaven reading: 'come down' (31:4), 'birds hovering' (31:5) and 'fire … furnace' (31:9) are ASV/JPS 1917 wording, and the only lens reading is the labelled speculative paragraph in the 31:5 commentary.",
       "escalationReportAdjustments": "The escalation report was read after the initial verdicts and none were changed. It confirmed that ASV was checked via bible-api.com and that ETTMTTP cites only Isa 43:6 and LWTE no Isaiah verse, which agrees with the Reviewer's own grep. It does not mention the 31:6 ASV/JPS 1917 misattribution or the 'every rendering is attested' overstatement.",
       "citedFromMemory": "BDB and HALOT glosses for ṣbʾ, mʾs and mas, and the NRSV wording at 31:4, are recalled and not verified, and are marked so. The Editor's Wildberger, Blenkinsopp and Childs references and its BDB psḥ II note are also marked 'recalled, not verified' in the commentary; the Reviewer did not verify them."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -255,7 +256,8 @@
       "notes": {
         "official": "*Hôy hayyōrᵉḏîm miṣrayim* is “Woe to those who go down to Egypt,” the woe-formula before a participle, as at 5:8–22 and 29:15 (overlay `hoy-woe-isaiah`, extended here). ASV and JPS 1917 have “Woe to them that go down”; NJPS has “Ha! Those who go down” (checked on Sefaria 2026-11-26). The verse opens one of the six *hôy*-oracles of chs. 28–33 (28:1; 29:1, 15; 30:1; 31:1; 33:1).\n\n*Pārāšîm* is “horsemen,” with ASV and JPS 1917 and as the book prints the noun at 21:7 and 22:6–7; NJPS has “riders.” The noun can also denote chariot horses (HALOT; recalled, not verified), and the parallel with *sûsîm* and *reḵeḇ* allows either sense. The line keeps the gloss the book already uses (overlay `lexical-cruxes-isaiah-31`). *Yiššāʿēnû* “lean on” (ASV “rely on”), *šāʿû ʿal* “look to” and *dārāšû* “seek” are ordinary renderings.",
         "community": []
-      }
+      },
+      "translit": "hōy hayyōrədīm miṣrayim ləʿezrāh ʿal-sūsīm yiššāʿēnū wayyibṭəḥū ʿal-rekeb kī rāb wəʿal pārāšīm kī-ʿāṣəmū məʾōd wəlōʾ šāʿū ʿal-qədōš yiśrāʾēl wəʾet-YHWH lōʾ dārāšū"
     },
     {
       "n": 2,
@@ -271,7 +273,8 @@
       "notes": {
         "official": "*Wᵉḡam-hûʾ ḥāḵām* “Yet he too is wise” answers the planners who act without YHWH (29:14–15; 30:1). *Wayyāḇēʾ rāʿ* is a wayyiqtol, which in narrative is normally past. ASV reads it as future, “and will bring evil,” in step with the weqatal *wᵉqām* “and he will rise up” later in the verse. JPS 1917 reads it as present (“And bringeth evil”) and NJPS as past (“He has brought on misfortune”) (both checked on Sefaria 2026-11-26). The line keeps ASV's future, which reads the verse as one announcement; the past reading is a recognised alternative (overlay `lexical-cruxes-isaiah-31`).\n\n*Rāʿ* is “evil” with ASV and JPS 1917 (NJPS “misfortune”). Here the noun is the harm YHWH brings, not moral wickedness. The overlay prints “calamity” only at 45:7, where *rāʿ* stands in a merism with *šālôm* (`ra-calamity-shalom-well-being-isaiah-45-7`), and that entry is not extended. *ʿEzraṯ pōʿălê ʾāwen* is literally “the help of the workers of iniquity”; NJPS has “allies” with the note “Lit. ‘help.’” The noun picks up *lᵉʿezrāh* “for help” in v. 1, and the line keeps “help” so that the repetition stays visible.",
         "community": []
-      }
+      },
+      "translit": "wəgam-hūʾ ḥākām wayyābēʾ rāʿ wəʾet-dəbārāyw lōʾ hēsīr wəqām ʿal-bēt mərēʿīm wəʿal-ʿezrat pōʿălē ʾāwen"
     },
     {
       "n": 3,
@@ -290,7 +293,8 @@
       "notes": {
         "official": "The verse turns on two antitheses: *ʾāḏām wᵉlōʾ-ʾēl* “human, and not God” and *bāśār wᵉlōʾ-rûaḥ* “flesh, and not spirit.” ASV and JPS 1917 have “the Egyptians are men, and not God; and their horses flesh, and not spirit”; NJPS has “the Egyptians are man, not God, / And their horses are flesh, not spirit” (checked on Sefaria 2026-11-26). The line keeps that structure. *ʾĀḏām* is a predicate of kind and is rendered “human,” the adjectival form of the book's generic rule (overlay `adam-humankind-ish-man-isaiah`, extended here). *Miṣrayim* is resumed by the plural suffix of *sûsêhem* “their horses,” so the line has “the Egyptians,” with all three versions; elsewhere the book prints the name as “Egypt” (19:1–25).\n\n*ʾĒl* is “God,” capitalised, because it names the category the denial rules out; ASV, JPS 1917 and NJPS agree (overlay `elohim-el-eloah-monotheistic-formula-isaiah`, extended here). *Rûaḥ* is lower-case “spirit” (overlay `ruach-divine-spirit-lower-case-isaiah`, extended here). “Breath” was considered and not adopted: horses have breath, and the colon contrasts two orders of being, not breathing and not breathing. The second pair matches the first. Humans and horses belong to the order of flesh, God to the order of spirit (compare Gen 6:3; Jer 17:5, where *bāśār* is likewise the frail human sphere).\n\n*Wᵉḵāšal ʿôzēr wᵉnāp̄al ʿāzur* “the helper shall stumble, and the one helped shall fall” plays on *ʿzr* “help” (vv. 1, 2): Egypt is the helper and Judah the one helped. *Yiḵlāyûn* “they shall be consumed” follows ASV (NJPS “perish”).",
         "community": []
-      }
+      },
+      "translit": "ūmiṣrayim ʾādām wəlōʾ-ʾēl wəsūsēhem bāśār wəlōʾ-rūaḥ waYHWH yaṭṭeh yādō wəkāšal ʿōzēr wənāpal ʿāzur wəyaḥdāw kullām yiklāyūn (s)"
     },
     {
       "n": 4,
@@ -308,7 +312,8 @@
       "notes": {
         "official": "*Liṣbōʾ ʿal-har-ṣiyyôn* is the crux of the chapter. Elsewhere the verb *ṣbʾ* with *ʿal* means “wage war against,” and the same phrase stands two chapters earlier: “all the nations that fight against Mount Zion” (*haṣṣōḇᵉʾîm ʿal-har ṣiyyôn*, the stable 29:8; compare 29:7). Read the same way here, the lion of the simile is YHWH holding Zion as his prey, and the verse announces an attack on the city. NJPS reads it so: “So the LORD of Hosts will descend to make war / Against the mount and the hill of Zion.” ASV and JPS 1917 have “to fight upon mount Zion” (all checked 2026-11-26), which allows a war fought on Zion in its defence. That is the sense v. 5 gives with “protect … deliver.” Commentators divide between a deliberate reversal from threat (v. 4) to rescue (v. 5) and a spatial reading of *ʿal* as “on, over”; the lion in the same verse growls *ʿal-ṭarpô* “over his prey” (Wildberger, *Isaiah 28–39*; Blenkinsopp, *Isaiah 1–39*; Childs, *Isaiah*; all recalled, not verified).\n\nThe line keeps ASV's “to fight upon,” which renders *ʿal* by its basic spatial sense and leaves both readings open. “Against” would match the stable 29:8 but would settle the crux. “For” would settle it the other way and has no lexical support for *ṣbʾ ʿal*. The decision and the 29:7–8 concordance are recorded in overlay `lexical-cruxes-isaiah-31`.\n\nThe simile follows ASV and JPS 1917: *yehgeh* “growls,” *hakkᵉp̄îr* “the young lion,” *mᵉlōʾ rōʿîm* “a multitude of shepherds” (literally “the fullness of shepherds”; NJPS “gather in force”), and *lōʾ yaʿăneh* “nor does he abase himself” (*ʿnh* II “be bowed down”; NJPS “Nor cowed”). *Yērēḏ* “will come down” is the ordinary verb of a divine descent (Exod 19:18, 20; Mic 1:3). *Kōh ʾāmar-YHWH ʾēlay* introduces divine speech without quotation marks (overlay `title-and-meta-conventions-isaiah`), and *YHWH ṣᵉḇāʾôṯ* is “YHWH of hosts” (`yhwh-tzevaot-hosts-isaiah`, extended here).",
         "community": []
-      }
+      },
+      "translit": "kī kōh ʾāmar-YHWH | ʾēlay kaʾăšer yehgeh hāʾaryēh wəhakkəpīr ʿal-ṭarpō ʾăšer yiqqārēʾ ʿālāyw məlōʾ rōʿīm miqqōlām lōʾ yēḥāt ūmēhămōnām lōʾ yaʿăneh kēn yērēd YHWH ṣəbāʾōt liṣbōʾ ʿal-har-ṣiyyōn wəʿal-gibʿātāh"
     },
     {
       "n": 5,
@@ -325,7 +330,8 @@
       "notes": {
         "official": "*Pāsōaḥ* is the verb of the Passover night: *ûp̄āsaḥtî ʿălēḵem* “and I will pass over you” (Exod 12:13; compare 12:23, 27). The line keeps ASV's “he will pass over.” The echo of the Exodus night, when YHWH spared the houses of Israel while striking Egypt, is noted here and is not marked in the line. Outside Exod 12 the verb in this sense is rare (BDB lists a separate *psḥ* “limp” at 1 Kgs 18:21, 26; recalled, not verified). JPS 1917 has “He will rescue it as He passeth over.” NJPS renders the four verbs as a series of protecting actions, “shielding and saving, protecting and rescuing,” without the Passover verb (both checked 2026-11-26). The chapter opened with those who “go down to Egypt” for help (v. 1); with the Passover verb, the protection Judah sought from Egypt is described in the terms of the deliverance from Egypt.\n\n*Gānôn wᵉhiṣṣîl pāsōaḥ wᵉhimlîṭ* is two pairs of infinitive absolute and perfect, rendered “he will protect and deliver it, he will pass over and preserve it” with ASV. The object “it” is supplied, as ASV marks with “[it]”; Jerusalem is the object of *yāḡēn ʿal* in the first half. *Kᵉṣippŏrîm ʿāp̄ôṯ* is “Like birds hovering” (ASV, JPS 1917; NJPS “Like the birds that fly”). *ʿwp* is the ordinary verb “fly,” and “hovering” renders the participle in a simile of birds over their nest (overlay `lexical-cruxes-isaiah-31`). *YHWH ṣᵉḇāʾôṯ* is “YHWH of hosts” (`yhwh-tzevaot-hosts-isaiah`, extended here).\n\n**Wheel of Heaven reading (reception note, not a translation claim; claim type: speculative).** The canon does not cite Isa 31; *The Book Which Tells the Truth* cites Isaiah only in its chapters 3 and 5, and never this chapter. On Exod 19:18 (“because Yahweh descended upon it in fire: and the smoke thereof ascended as the smoke of a furnace”) it says of the creators: “They came down in a flying craft” (TBWTT 3:24, 26). Reading YHWH's “coming down” on Zion (v. 4), the birds hovering over Jerusalem (v. 5), and the fire and furnace of v. 9 in the same way carries that reading to a passage the canon does not discuss, so it is labelled speculative. The verb of flight stands inside an explicit simile (*kᵉ-* “like”); the verb of descent completes the lion simile of v. 4 and is the ordinary verb of a divine descent (Exod 19:20; Mic 1:3); and the furnace of v. 9 (*tannûr*) is a different word from the *kiḇšān* of Exod 19:18. The line and the glossary carry only that vocabulary.",
         "community": []
-      }
+      },
+      "translit": "kəṣippŏrīm ʿāpōt kēn yāgēn YHWH ṣəbāʾōt ʿal-yərūšālim gānōn wəhiṣṣīl pāsōaḥ wəhimlīṭ"
     },
     {
       "n": 6,
@@ -341,7 +347,8 @@
       "notes": {
         "official": "The verse shifts person. The imperative *šûḇû* “Turn” addresses the hearers, but the relative clause *heʿmîqû sārāh* “they have deeply revolted” is third person plural and is followed by *bᵉnê yiśrāʾēl*. ASV and JPS 1917 bring the clause into the second person: “Turn ye unto him from whom ye have deeply revolted, O children of Israel” (ASV; JPS 1917 “Against whom ye have deeply rebelled”). NJPS keeps the third person and reads *bᵉnê yiśrāʾēl* as a vocative: “Return, O children of Israel, to Him to whom they have been so shamefully false” (both checked 2026-11-26). The line now follows the NJPS construal and keeps MT's “they”: “Turn, O children of Israel, to him from whom they have deeply revolted.” The vocative is moved forward so that “they” does not appear to refer to some third group. The change from the draft is recorded in overlay `lexical-cruxes-isaiah-31`.\n\nTwo other analyses are possible. *Bᵉnê yiśrāʾēl* can be the subject of *heʿmîqû* (“to him from whom the children of Israel have deeply revolted”), which leaves the addressees of the imperative unnamed. NJPS also records an emendation, “Then the children of Israel shall return,” which reads a perfect for the imperative. The line keeps MT and the vocative reading of all three versions. *Heʿmîqû sārāh* is literally “they made the revolt deep”; *sārāh* is the noun of 1:5 (“that you continue in revolt”).",
         "community": []
-      }
+      },
+      "translit": "šūbū laʾăšer heʿmīqū sārāh bənē yiśrāʾēl"
     },
     {
       "n": 7,
@@ -359,7 +366,8 @@
       "notes": {
         "official": "*Yimʾāsûn* is from *mʾs* “reject, refuse,” and the line now has “reject,” with NJPS (“everyone will reject his idols”; checked 2026-11-26). ASV and JPS 1917 have “cast away,” the wording of the parallel 2:20, but there the verb is *yašlîḵ* “throw.” The book prints *mʾs* as “rejected” at 5:24 and keeps “cast away” for *hišlîḵ* at 2:20, so the change keeps the two verbs apart in English (overlay `lexical-cruxes-isaiah-31`).\n\n*ʾÎš* is distributive and is rendered “everyone … their idols,” with the plural pronoun of the generic rule as at 2:20 (“their idols of silver”; overlay `adam-humankind-ish-man-isaiah`, extended here). ASV and JPS 1917 have “every man his idols.” *ʾĔlîlê ḵaspô wᵉʾĕlîlê zᵉhāḇô* is “their idols of silver and their idols of gold” (central `elilim-idols-cross-corpus`, whose wording already names 31:7). The verse moves to the second person at *yᵉḏêḵem* “your own hands”; the line keeps MT's shift, as all three versions do. *Ḥēṭʾ* at the end of the clause is an adverbial accusative, “as a sin” (ASV “for a sin”; NJPS “for your guilt”).",
         "community": []
-      }
+      },
+      "translit": "kī bayyōm hahūʾ yimʾāsūn ʾīš ʾĕlīlē kaspō weʾĕlīlē zəhābō ʾăšer ʿāśū lākem yədēkem ḥēṭəʾ"
     },
     {
       "n": 8,
@@ -376,7 +384,8 @@
       "notes": {
         "official": "*Bᵉḥereḇ lōʾ-ʾîš wᵉḥereḇ lōʾ-ʾāḏām* is “by a sword not of a human, and a sword not of humankind.” The synonymous pair *ʾîš* / *ʾāḏām* of the refrain in 2:9 and 5:15 is negated, so the sword that destroys Assyria is wielded by no human being. The line keeps the gender-neutral wording of the generic rule (overlay `adam-humankind-ish-man-isaiah`, extended here). ASV and JPS 1917 have “not of man … not of men,” and NJPS has “Not by the sword of man; / A sword not of humans” (checked 2026-11-26). The narrative of 37:36, where the angel of YHWH strikes the Assyrian camp, is the usual cross-reference.\n\n*ʾAššûr* is “Assyria” with a masculine pronoun, as at 10:5, 24 (ASV “the Assyrian”). *Wᵉnās lô* “and he shall flee” follows ASV and JPS 1917, with the dative *lô* not rendered. NJPS derives the verb from *nss* “shrivel” (note: “cf. 10.18; others ‘flee’”) and the last noun from *mss* “melt,” giving “his young men pine away.” The line keeps the usual derivations, *nûs* “flee” and *mas* “forced labor” (ASV “taskwork,” JPS 1917 “tributary”). The central `mas-oved-corvee-labor-institutional-vocabulary-cross-corpus` entry keeps ASV's “taskwork” for the compound *mas ʿōḇēḏ* at Gen 49:15; the bare *lāmas* here is rendered with the modern English term for the same institution, and the difference is flagged in the editor report (overlay `lexical-cruxes-isaiah-31`).",
         "community": []
-      }
+      },
+      "translit": "wənāpal ʾaššūr bəḥereb lōʾ-ʾīš wəḥereb lōʾ-ʾādām tōʾkălennū wənās lō mippənē-ḥereb ūbaḥūrāyw lāmas yihyū"
     },
     {
       "n": 9,
@@ -394,7 +403,8 @@
       "notes": {
         "official": "*Wᵉsalʿô mimmāḡôr yaʿăḇôr* is “And his rock shall pass away by reason of terror” (ASV, JPS 1917; NJPS “His rock shall melt with terror”; checked 2026-11-26). The draft's “for terror” is changed to the ASV wording, because “for” could be read as purpose (overlay `lexical-cruxes-isaiah-31`). *Salʿô* “his rock” is often taken as the Assyrian king or the stronghold Assyria trusts in, set against YHWH as the rock of Israel (*ṣûr*, a different noun, at 17:10; 30:29); the line keeps the image without deciding.\n\n*Wᵉḥattû minnēs śārāyw* is “and his princes shall be dismayed at the signal” (overlay `nes-signal-isaiah`, whose wording already anticipates 31:9, extended here). ASV and JPS 1917 have “at the ensign.” NJPS again derives *minnēs* from *nss* (“shall collapse from weakness,” “meaning of Heb. uncertain”); see 31:8.\n\n*Nᵉʾum-YHWH* “says YHWH” closes the oracle, as at 14:22 and 17:6 (overlay `title-and-meta-conventions-isaiah`). *ʾÛr* is “fire” (ASV, JPS 1917, NJPS), not “light”: the parallel *tannûr* “furnace” (ASV, JPS 1917; NJPS “oven”) fixes the sense. The book reads *ʾûrîm* as “regions of light” at 24:15 (`ba-urim-regions-of-light-isaiah-24`), a different context, and that entry is not extended. NJPS cross-refers 30:33, the burning place prepared for the king of Assyria.",
         "community": []
-      }
+      },
+      "translit": "wəsalʿō mimmāgōr yaʿăbōr wəḥattū minnēs śārāyw nəʾum-YHWH ʾăšer-ʾūr lō bəṣiyyōn wətannūr lō bīrūšālim (s)"
     }
   ],
   "editorial_questions": []

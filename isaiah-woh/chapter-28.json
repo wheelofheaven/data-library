@@ -6,20 +6,20 @@
   "title": "Isaiah 28 — Woe, the crown of pride of Ephraim: line upon line, the covenant with death, and the tested cornerstone",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.28",
-    "glossaryVersion": "4.0.0",
-    "overlayGlossaryVersion": "3.0.0",
+    "glossaryVersion": "5.0.0",
+    "overlayGlossaryVersion": "4.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T19:10:50Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T22:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T19:10:50Z",
@@ -595,7 +595,8 @@
       "lensLeakageCheck": "Performed on all 29 English lines against the re-read MT: no line carries project content. The stone of 28:16 is unidentified, 'death' is lower-case at 28:15, 18, and 'the whole earth' at 28:22 is ASV's wording with the territorial reading disclosed in commentary. The Wheel of Heaven reading is confined to one labelled speculative paragraph at 28:16.",
       "escalationReportAdjustments": "Escalation report read after the initial verdicts. No verdict changed. It confirms the Editor flagged the 28:4 / 24-28 pronoun question for the founder (matches the Reviewer's flags), records the 18:1 precedent for a speculative paragraph at a verse the canon does not cite (consistent with wave rule 4), and notes the chapter-title / 28:1 mismatch (carried into the title-and-meta glossaryReview item). It does not address the 28:26 accent division, so that revise stands.",
       "citationNotes": "Verified by the Reviewer on 2026-11-26: MT from source-he-28.json; ASV from getbible.net; NJPS (Tanakh: The Holy Scriptures, published by JPS), JPS 1917 and Koren from Sefaria API v3; BDB articles ṣaw, laʿaḡ, lāʿēḡ, qeṣaḥ, bōḥan, yāsaḏ, ḥārûṣ, ḥōzeh, śôrāh from Sefaria's lexicon; TBWTT 3:100-105 and 6:19-24 and an Isaiah search of TBWTT, ETMTTP and LWTE in data-library. Cited from memory (not re-fetched): LXX Isa 28:10, 11, 16, 25 wording (Rahlfs), which agrees with the Editor's getbible.net check. No NRSV, HALOT or commentator is cited."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -617,7 +618,8 @@
       "notes": {
         "official": "*hôy ʿăṭereṯ gēʾûṯ* is a vocative, “Woe, the crown of pride,” in the pattern the book uses at 1:4 (“Woe, sinful nation”) and 29:1 (“Woe, Ariel”) (overlay `hoy-woe-isaiah`). ASV and JPS 1917 have “Woe to the crown of pride”; NJPS has “Ah, the proud crowns.” *Gēʾûṯ* here is human arrogance, so it is “pride,” as the overlay `geut-majesty-isaiah` already specifies for 28:1, 3. The singular *ʿăṭereṯ* “crown” is kept with ASV and JPS 1917, although 28:3 construes it with a plural verb and NJPS makes it plural.\n\n*ṣᵉḇî tip̄ʾartô* is rendered as a literal construct, “the beauty of its honor,” under the book defaults *ṣᵉḇî* “beauty” and *tip̄ʾereṯ* “honor” (overlays `tsevi-beauty-isaiah`, `tiferet-honor-isaiah`). ASV, JPS 1917 and Koren turn the second noun into an adjective, “his glorious beauty,” but “glory” is reserved for *kāḇôḏ* in this translation. The literal phrase also keeps the link with 28:5, where YHWH himself becomes “a crown of beauty and a diadem of honor” with the same two nouns. The suffix *-ô* is taken as “its” (the flower’s); ASV reads “his” (Ephraim’s).\n\n*gêʾ-šᵉmānîm* is “the rich valley” (Koren “the rich valley”; ASV, JPS 1917 “the fat valley”), the fertile valley at whose head Samaria stood. NJPS reads *gēʾ* as a contraction of *gēʾê* “proud ones,” following Ibn Ezra, and renders “men bloated with rich food.” *hălûmê yāyin* is “those overcome with wine” (ASV “them that are overcome with wine”; JPS 1917 “smitten down with wine”).",
         "community": []
-      }
+      },
+      "translit": "hōy ʿăṭeret gēʾūt šikkōrē ʾeprayim wəṣīṣ nōbēl ṣəbī tipʾartō ʾăšer ʿal-rōʾš gēʾ-šəmānīm hălūmē yāyin"
     },
     {
       "n": 2,
@@ -634,7 +636,8 @@
       "notes": {
         "official": "*hinnîaḥ lāʾāreṣ bᵉyāḏ*: the line has “cast down to the ground,” the book’s rendering of *lāʾāreṣ* in the idiom of throwing or falling down (14:12; 21:9; 25:12; 26:5), with NJPS “hurled … to the ground.” ASV, JPS 1917 and Koren have “to the earth.” The draft’s “to the earth” has been changed for consistency; no *ʾereṣ* entry governs the idiom (overlay `lexical-cruxes-isaiah-28`). *Bᵉyāḏ* “with the hand” keeps ASV; JPS 1917 “with violence” and NJPS “with force” give the idiomatic sense. The perfect *hinnîaḥ* is rendered as future with ASV, the prophetic perfect of a judgment that is certain.\n\n*laʾḏōnāy* is “the Lord,” the standalone title (overlay `adonai-standalone-title-isaiah`). The “one who is mighty and strong” is not named. Most commentators take it to be Assyria. *šaʿar qāṭeḇ* is “a destroying tempest” (ASV “a destroying storm”); NJPS “a shower of pestilence” reads *qeṭeḇ* as plague.",
         "community": []
-      }
+      },
+      "translit": "hinnēh ḥāzāq wəʾammiṣ laʾdōnāy kəzerem bārād śaʿar qāṭeb kəzerem mayim kabbīrīm šōṭəpīm hinnīaḥ lāʾāreṣ bəyād"
     },
     {
       "n": 3,
@@ -650,7 +653,8 @@
       "notes": {
         "official": "The plural verb *tērāmasnāh* “shall be trampled” has the singular *ʿăṭereṯ* “crown” as its subject. ASV, JPS 1917 and Koren keep the singular noun, and NJPS makes both plural (“the proud crowns”). *gēʾûṯ* is “pride,” as at 28:1 (overlay `geut-majesty-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "bəraglayim tērāmasnāh ʿăṭeret gēʾūt šikkōrē ʾeprāyim"
     },
     {
       "n": 4,
@@ -668,7 +672,8 @@
       "notes": {
         "official": "“The beauty of its honor” and “the rich valley” repeat 28:1 (see there). *bikkûrāh* is the first-ripe fig, eaten as soon as it is seen. *bᵉṭerem qāyiṣ* is “before the summer” with ASV and JPS 1917; NJPS has “before the fruit harvest,” since *qayiṣ* is also the summer fruit (Amos 8:1–2). *yiḇlāʿennāh* “he swallows it” (ASV “he eateth it up”) uses the verb *blʿ* that returns at 28:7, where the priests and prophets are “swallowed up by wine.”\n\n*hārōʾeh* is rendered without a gendered noun, “the one who looks upon it.” The Hebrew 3ms suffix and verb that resume it are kept as “his hand … he swallows it,” as in ASV and NJPS (“Whoever sees it devours it while it is still in his hand”). The same practice applies to the farmer of 28:24–28 (overlay `lexical-cruxes-isaiah-28`).",
         "community": []
-      }
+      },
+      "translit": "wəhāyətāh ṣīṣat nōbēl ṣəbī tipʾartō ʾăšer ʿal-rōʾš gēʾ šəmānīm kəbikkūrāh bəṭerem qayiṣ ʾăšer yirʾeh hārōʾeh ʾōtāh bəʿōdāh bəkappō yiblāʿennāh (s)"
     },
     {
       "n": 5,
@@ -686,7 +691,8 @@
       "notes": {
         "official": "*ʿăṭereṯ ṣᵉḇî wᵉliṣp̄îraṯ tip̄ʾārāh* is “a crown of beauty and a diadem of honor” (overlays `tsevi-beauty-isaiah`, `tiferet-honor-isaiah`). NJPS has “a crown of beauty and a diadem of glory.” ASV and JPS 1917 have “a crown of glory, and … a diadem of beauty,” which assigns “beauty” to the other noun. The book defaults keep the two nouns of 28:1, 4 recognisable: the fading “beauty of its honor” of Ephraim gives way to YHWH of hosts as the remnant’s “beauty” and “honor.”",
         "community": []
-      }
+      },
+      "translit": "bayyōm hahūʾ yihyeh YHWH ṣəbāʾōt laʿăṭeret ṣəbī wəliṣpīrat tipʾārāh lišʾār ʿammō"
     },
     {
       "n": 6,
@@ -702,7 +708,8 @@
       "notes": {
         "official": "*rûaḥ mišpāṭ* is “a spirit of justice,” with lower-case “spirit” (overlay `ruach-divine-spirit-lower-case-isaiah`; ASV “a spirit of justice”; NJPS and JPS 1917 “a spirit of judgment”). *mᵉšîḇê milḥāmāh šāʿᵉrāh* is “those who turn back the battle at the gate” (ASV). The directional ending *-āh* can also mean that they drive the battle back “to the gate” of the enemy (KJV, Koren).",
         "community": []
-      }
+      },
+      "translit": "ūlərūaḥ mišpāṭ layyōšēb ʿal-hammišpāṭ wəligbūrāh məšībē milḥāmāh šāʿərāh (s)"
     },
     {
       "n": 7,
@@ -718,7 +725,8 @@
       "notes": {
         "official": "The verse uses two verbs of drunkenness, *šāḡû* “reel” and *tāʿû* “stagger,” three times each, and ends with *šāḡû bārōʾeh* “they err in vision.” The line keeps ASV, which renders the third *šāḡû* as “err” because the drunkenness has now become professional error: the priests and prophets go wrong in *rōʾeh* “vision” and in *pᵉlîlîyāh* “judgment.” JPS 1917 keeps one verb for all three (“They reel in vision”), and NJPS has “muddled in their visions.”\n\n*niḇlᵉʿû min-hayyayin* is “they are swallowed up by wine” (ASV “swallowed up of wine”). The verb *blʿ* repeats 28:4 (“he swallows it”). NJPS (“confused by wine”) and JPS 1917 (“confused because of wine”) take a homonym meaning “confuse.” The line keeps the attested sense “swallow” and the echo of 28:4 (overlay `lexical-cruxes-isaiah-28`).",
         "community": []
-      }
+      },
+      "translit": "wəgam-ʾēlleh bayyayin šāgū ūbaššēkār tāʿū kōhēn wənābīʾ šāgū baššēkār nibləʿū min-hayyayin tāʿū min-haššēkār šāgū bārōʾeh pāqū pəlīliyyāh"
     },
     {
       "n": 8,
@@ -734,7 +742,8 @@
       "notes": {
         "official": "*bᵉlî māqôm* is literally “without place.” The line keeps ASV “so that there is no place clean,” which supplies “clean.” NJPS has “so that no space is left” and does not supply it.",
         "community": []
-      }
+      },
+      "translit": "kī kol-šulḥānōt māləʾū qīʾ ṣōʾāh bəlī māqōm (s)"
     },
     {
       "n": 9,
@@ -750,7 +759,8 @@
       "notes": {
         "official": "The verse has no marker of speech, and its speaker is disputed. ASV prints no quotation marks, and the line follows it. NJPS puts 28:9–10 in quotation marks and notes “This is the drunkards’ reaction to Isaiah’s reproof”: they mock the prophet for teaching them as if they were infants just weaned. *šᵉmûʿāh* “the message” (ASV) returns at 28:19, where understanding “the message” becomes “sheer terror.”",
         "community": []
-      }
+      },
+      "translit": "ʾet-mī yōreh dēʿāh wəʾet-mī yābīn šəmūʿāh gəmūlē mēḥālāb ʿattīqē miššādāyim"
     },
     {
       "n": 10,
@@ -767,7 +777,8 @@
       "notes": {
         "official": "*ṣaw lāṣāw ṣaw lāṣāw qaw lāqāw qaw lāqāw zᵉʿêr šām zᵉʿêr šām* is rendered with ASV and Koren: “precept upon precept, precept upon precept, line upon line, line upon line, here a little, there a little.” JPS 1917 has “precept by precept … line by line.” The rendering is binding for the book. *qaw* is the measuring line of 28:17 and 18:2, 7, and the overlay `qav-qav-line-isaiah` decides 18:2, 7 and 28:10, 13 together. *ṣaw* is taken from *ṣwh* “command,” hence “precept.”\n\nThe derivation is disputed. BDB (s.v. *ṣaw*) calls the word dubious and lists three views: “command upon command” (Gesenius, Cheyne; AV, RV); “rule” and “line,” the carpenter’s tools (Ewald, Dillmann); and “mocking sounds without sense” (Duhm, Cheyne). NJPS takes the last view: “mutter upon mutter, murmur upon murmur, now here, now there.” In that view the drunkards are imitating the prophet’s speech as baby-talk, and 28:11, 13 turn the same syllables against them as the foreign speech of the invader. Others have noted that *ṣ* and *q* are consecutive letters of the alphabet and have seen a school recitation here (not verified). The LXX has “affliction upon affliction, … hope upon hope” (θλῖψιν ἐπὶ θλῖψιν … ἐλπίδα ἐπ’ ἐλπίδι), deriving *qaw* from *qwh* “to hope.”\n\nThe line keeps the lexical nouns. That is the public-domain baseline, and it keeps 18:2, 7 and 28:10, 13 on one derivation. Readers should know that the sound-play is the point of the verse and that many modern scholars regard the syllables as meaningless. The transliteration *ṣaw lāṣāw … qaw lāqāw* is given here so that the sound can be heard.",
         "community": []
-      }
+      },
+      "translit": "kī ṣaw lāṣāw ṣaw lāṣāw qaw lāqāw qaw lāqāw zəʿēr šām zəʿēr šām"
     },
     {
       "n": 11,
@@ -783,7 +794,8 @@
       "notes": {
         "official": "*bᵉlaʿăḡê śāp̄āh* is “with stammering lips” (overlay `lag-stammering-isaiah`; KJV, JPS 1917, Koren “stammering lips”; NJPS “in a stammering jargon”). BDB s.v. *laʿaḡ* gives the sense “stammerings (of barbarous language)” for this phrase. The noun more often means “mocking, derision,” and the word fits both senses here: the people who mocked the prophet will hear the stammering speech of a foreign army. ASV has “by men of strange lips,” supplying “men of.” The line supplies nothing. The same root returns at 33:19, *nilʿaḡ lāšôn* “stammering of tongue,” of a foreign people whose speech cannot be understood (BDB, Niphal), and it is rendered with the same English root there.\n\n*ûḇᵉlāšôn ʾaḥereṯ* is “and with another tongue” (ASV). The opening *kî* is “For” (KJV, JPS 1917); ASV has “Nay, but,” and NJPS “Truly.” Paul quotes 28:11–12 freely at 1 Cor 14:21 (ASV “By men of strange tongues and by the lips of strangers will I speak unto this people”). The reception is noted here and does not affect the line.",
         "community": []
-      }
+      },
+      "translit": "kī bəlaʿăgē śāpāh ūbəlāšōn ʾaḥeret yədabbēr ʾel-hāʿām hazzeh"
     },
     {
       "n": 12,
@@ -797,7 +809,8 @@
       "notes": {
         "official": "*zōʾṯ hammᵉnûḥāh … zōʾṯ hammargēʿāh*, “This is the rest … this is the refreshing,” is the message the people refused: rest for the weary, which NJPS glosses as a warning against political adventure. *hānîḥû leʿāyēp̄* is a plural imperative, “give rest to the weary” (ASV). *lōʾ ʾāḇûʾ šᵉmôaʿ* “they would not listen” has an unusual spelling with final *ʾaleph*. It is the familiar refusal formula, “they were not willing” (compare 30:9, 15).",
         "community": []
-      }
+      },
+      "translit": "ʾăšer | ʾāmar ʾălēhem zōʾt hammənūḥāh hānīḥū leʿāyēp wəzōʾt hammargēʿāh wəlōʾ ʾābūʾ šəmōaʿ"
     },
     {
       "n": 13,
@@ -813,7 +826,8 @@
       "notes": {
         "official": "The syllables of 28:10 return as the word of YHWH to the scoffers. They are rendered exactly as in 28:10 (overlay `qav-qav-line-isaiah`). NJPS again has “Mutter upon mutter, murmur upon murmur.” The purpose clause takes up four of the five verbs of 8:15 (*wᵉḵāšᵉlû … wᵉnišbārû wᵉnôqᵉšû wᵉnilkāḏû*), and the line renders them as 8:15 does: “stumble … be broken … be snared … be taken.” *kšl* is “stumble” there, so *wᵉḵāšᵉlû ʾāḥôr* is “stumble backward” here, where ASV, JPS 1917 and NJPS have “fall backward.” The citation of the earlier oracle stays visible.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh lāhem dəbar-YHWH ṣaw lāṣāw ṣaw lāṣāw qaw lāqāw qaw lāqāw zəʿēr šām zəʿēr šām ləmaʿan yēləkū wəkāšəlū ʾāḥōr wənišbārū wənōqəšū wənilkādū (p)"
     },
     {
       "n": 14,
@@ -829,7 +843,8 @@
       "notes": {
         "official": "*ʾanšê lāṣôn* is “you scoffers” (ASV, JPS 1917; NJPS “You men of mockery”). The root *lṣ* returns at 28:22, “do not scoff.” *mōšᵉlê hāʿām hazzeh* is taken from *mšl* I “rule”: “who rule this people” (ASV, Koren; NJPS “Who govern that people”). It can also come from *mšl* II “speak in proverbs”: JPS 1917 has “the ballad-mongers of this people,” and NJPS gives “composers of taunt-verses for that people” as an alternative in its note. The pun on scoffing and taunt-verses is probably intended. The line keeps ASV and leaves the second sense to this note (overlay `lexical-cruxes-isaiah-28`).",
         "community": []
-      }
+      },
+      "translit": "lākēn šimʿū dəbar-YHWH ʾanšē lāṣōn mōšəlē hāʿām hazzeh ʾăšer bīrūšālim"
     },
     {
       "n": 15,
@@ -849,7 +864,8 @@
       "notes": {
         "official": "*kāraṯnû ḇᵉrîṯ ʾeṯ-māweṯ* is “We have cut a covenant with death.” The central entry `karat-brit-cut-covenant` keeps the verb *kāraṯ* “cut” in the covenant idiom throughout the corpus, and it names this verse. ASV, JPS 1917, Koren and NJPS have “made a covenant.” The draft’s “made” has been changed to follow the entry. The parallel *ʿāśînû ḥōzeh* “we have made an agreement” has the ordinary verb *ʿśh* “make,” which keeps “made.”\n\n*māweṯ* is lower-case “death,” as at 25:8 (overlay `billa-hamavet-death-swallowed-isaiah-25`; ASV, JPS 1917). NJPS personifies it as “Death.” The image is of a treaty partner, and behind it many commentators see Mot, the Canaanite god of death known from the Ugaritic texts (central `mot-mavet-death-personified-cross-corpus-ugaritic-hebrew-bible`, cited for the comparison only). Others take the “covenant with death” as Isaiah’s sarcastic name for the Judean alliance with Egypt (30:1–7; 31:1–3). *šᵉʾôl* is transliterated “She'ol” (central `sheol-underworld-realm-of-the-dead`; ASV “Sheol”; JPS 1917 “the nether-world”).\n\n*ḥōzeh* is “agreement” (ASV, JPS 1917; NJPS “pact”). The word is normally “seer,” and *ḥāzûṯ* in 28:18 is normally “vision.” BDB records both the sense “agreement,” which follows the ancient versions, and a proposal (Duhm) that the word means a necromantic “vision” obtained from She'ol (s.v. *ḥōzeh* 2). The line keeps the contextual sense.\n\nTwo ketiv/qere sites: the ketiv שיט is read as the qere *šôṭ* “scourge,” and the ketiv עבר (perfect) as the qere *yaʿăḇōr* “passes through” (overlay `mt-qere-textual-policy-isaiah`). *šôṭ šôṭēp̄* “the overflowing scourge” mixes two images, a whip and a flood. The mixture is in the Hebrew, and the line keeps it with ASV.",
         "community": []
-      }
+      },
+      "translit": "kī ʾămartem kāratnū bərīt ʾet-māwet wəʿim-šəʾōl ʿāśīnū ḥōzeh šyṭ [šōṭ] šōṭēp kī-ʿbr [yaʿăbōr] lōʾ yəbōʾēnū kī śamnū kāzāb maḥsēnū ūbaššeqer nistārənū (s)"
     },
     {
       "n": 16,
@@ -866,7 +882,8 @@
       "notes": {
         "official": "*hinᵉnî yissaḏ bᵉṣiyyôn ʾāḇen* is rendered “Behold, I lay in Zion for a foundation a stone” (ASV; JPS 1917, Koren). MT points *yissaḏ* as a Piel perfect, third person (“behold me, who has founded”), which does not agree with the first-person *hinᵉnî*. BDB notes Cheyne’s reading of the participle *yōsēḏ* “founding” (s.v. *yāsaḏ*). Whether 1QIsaᵃ has a participle here was not verified. ASV’s present tense renders the sense on which the versions agree, and NJPS has “I will found” (overlay `even-bochan-tested-cornerstone-isaiah-28`).\n\n*ʾeḇen bōḥan* is “a tested stone” (BDB s.v. *bōḥan*: “a tested, tried stone, i.e. approved for use as a foundation-stone”; ASV “a tried stone”). *pinnaṯ yiqraṯ* is “a precious cornerstone,” and *mûsāḏ mûssāḏ* “of sure foundation” (ASV) is literally “a foundation founded.” NJPS renders differently and marks the phrase “Meaning of Heb. uncertain”: “Stone by stone, a tower of precious cornerstones, exceedingly firm.”\n\n*hammaʾămîn lōʾ yāḥîš* is “the one who believes will not be in haste” (ASV “shall not be in haste”; JPS 1917 “shall not make haste”). *ḥûš* is “make haste” (BDB). NJPS has “need not fear,” giving the sense: whoever trusts will not run in panic. The LXX reads “the one who believes in him will not be put to shame” (ὁ πιστεύων ἐπ’ αὐτῷ οὐ μὴ καταισχυνθῇ). The New Testament quotes the verse in that form: Rom 9:33, which combines it with the “stone of stumbling” of 8:14; Rom 10:11; and 1 Pet 2:6, which joins it to Ps 118:22. Eph 2:20 also uses the cornerstone image. This reception history is reported here and does not affect the line, which translates MT. The divine speech opened here is closed at the end of 28:19, as in NJPS. ASV uses no quotation marks.\n\n*Speculative (Wheel of Heaven reading).* The canon books in data-library (*The Book Which Tells the Truth*, *Extraterrestrials Took Me to Their Planet*, *Let’s Welcome the Extraterrestrials*) do not cite Isa 28. The canon says that Solomon built “on Earth” a residence to receive the creators and heads the passage “The first residence for the reception of the Elohim” (TBWTT 3:102–103). That this residence is the Temple on Zion is the Editor’s identification, the standard one, and not the canon’s wording. The canon also asks for a new residence, an embassy, to be built (TBWTT 6:21–22). A Wheel of Heaven reader may set the foundation stone that YHWH lays in Zion beside that theme. The connection is the project’s own synthesis. Neither the verse nor the canon makes it, and in its context the stone is the opposite of the scoffers’ “refuge of lies” (28:15, 17).",
         "community": []
-      }
+      },
+      "translit": "lākēn kōh ʾāmar ʾădōnāy YHWH hinnī yissad bəṣiyyōn ʾāben ʾeben bōḥan pinnat yiqrat mūsād mūssād hammaʾămīn lōʾ yāḥīš"
     },
     {
       "n": 17,
@@ -882,7 +899,8 @@
       "notes": {
         "official": "*wᵉśamtî mišpāṭ lᵉqāw ûṣᵉḏāqāh lᵉmišqāleṯ* is “I will make justice the line, and righteousness the plummet” (ASV, JPS 1917). *qaw* is the builder’s measuring line, rendered “line” as at 28:10, 13 (overlay `qav-qav-line-isaiah`; BDB cites this verse under *qaw*). The image continues the foundation of 28:16. The same line and plummet measure Jerusalem for destruction at 2 Kgs 21:13, which NJPS cites here. NJPS has “retribution” for *ṣᵉḏāqāh*; the line keeps “righteousness,” as at 10:22. “The refuge of lies” and “the hiding place” answer the boast of 28:15.",
         "community": []
-      }
+      },
+      "translit": "wəśamtī mišpāṭ ləqāw ūṣədāqāh ləmišqālet wəyāʿāh bārād maḥsēh kāzāb wəsēter mayim yišṭōpū"
     },
     {
       "n": 18,
@@ -900,7 +918,8 @@
       "notes": {
         "official": "*wᵉḵuppar bᵉrîṯᵉḵem ʾeṯ-māweṯ* is “your covenant with death will be annulled” (ASV, Koren, NJPS; JPS 1917 “disannulled”). The verb is *kpr*, which in 6:7, 22:14 and 27:9 is rendered “atone” (overlay `kupar-atonement-isaiah`). Here it has a legal sense, the cancelling of an agreement, and the atonement entry is deliberately not applied (overlay `lexical-cruxes-isaiah-28`). An emendation to a form of *prr*, the usual verb for breaking a covenant, has been proposed (not verified); MT is translated.\n\n*ḥāzûṯᵉḵem* “your agreement” matches *ḥōzeh* in 28:15 (BDB s.v. *ḥāzûṯ*, where Ewald’s “oracle” is also recorded). “Death” and “She'ol” are rendered as in 28:15. *wihyîṯem lô lᵉmirmās*, literally “you will be to it for a trampling,” is “you will be trampled down by it” (ASV).",
         "community": []
-      }
+      },
+      "translit": "wəkuppar bərītəkem ʾet-māwet wəḥāzūtəkem ʾet-šəʾōl lōʾ tāqūm šōṭ šōṭēp kī yaʿăbōr wihyītem lō ləmirmās"
     },
     {
       "n": 19,
@@ -914,7 +933,8 @@
       "notes": {
         "official": "*wᵉhāyāh raq-zᵉwāʿāh hāḇîn šᵉmûʿāh* is “it will be sheer terror to understand the message” (JPS 1917, NJPS “sheer terror / sheer horror”; ASV “nought but terror”). *šᵉmûʿāh* “the message” is the word of 28:9. The scoffers asked to whom the prophet would explain “the message,” and now understanding it is terror. The divine speech that began in 28:16 closes here.",
         "community": []
-      }
+      },
+      "translit": "middē ʿābərō yiqqaḥ ʾetkem kī-babbōqer babbōqer yaʿăbōr bayyōm ūballāyəlāh wəhāyāh raq-zəwāʿāh hābīn šəmūʿāh"
     },
     {
       "n": 20,
@@ -928,7 +948,8 @@
       "notes": {
         "official": "A proverb: the bed is too short and the covering too narrow, so the refuge the scoffers made for themselves (28:15) will not serve. *mēhiśtārēaʿ* and *kᵉhiṯkannēs* are reflexive infinitives, “to stretch oneself out” and “to wrap oneself.” The line renders them without the “man” that ASV and JPS 1917 supply.",
         "community": []
-      }
+      },
+      "translit": "kī-qāṣar hammaṣṣāʿ mēhiśtārēaʿ wəhammassēkāh ṣārāh kəhitkannēs"
     },
     {
       "n": 21,
@@ -944,7 +965,8 @@
       "notes": {
         "official": "*kᵉhar-pᵉrāṣîm … kᵉʿēmeq bᵉḡiḇʿôn* recalls two victories in which YHWH fought for Israel. At Baal-perazim, David said that YHWH had broken through his enemies (2 Sam 5:20). The sequel in the valley near Gibeon is told at 1 Chr 14:16 (2 Sam 5:25 has Geba). Joshua’s battle at Gibeon, where the sun stood still, is also often adduced (Josh 10:10–14). NJPS notes that the reference is to 2 Sam 5:19–25 and 1 Chr 14:9–16. The names are given in their standard English form: “Mount Perazim” (ASV) and “the valley of Gibeon” (ASV; literally “the valley in Gibeon”).\n\n*yirgāz* is “he will rage.” BDB gives the root sense “be agitated, quiver, be excited.” ASV and JPS 1917 have “be wroth,” and NJPS “rouse Himself.” The ironic point is that the same divine action that once defeated the Philistines will now be turned against Jerusalem.\n\n*zār maʿăśēhû … nāḵrîyāh ʿăḇōḏāṯô* is rendered in apposition, “his deed, his strange deed … his work, his alien work.” ASV has “his strange work … his strange act,” and NJPS treats each phrase as an exclamation: “Strange is His work! … Astounding is His task!” The line keeps ASV’s syntax but distinguishes the two pairs of words, *maʿăśeh* “deed” and *ʿăḇōḏāh* “work,” *zār* “strange” and *nāḵrî* “alien,” where ASV uses “strange” twice (overlay `lexical-cruxes-isaiah-28`).",
         "community": []
-      }
+      },
+      "translit": "kī kəhar-pərāṣīm yāqūm YHWH kəʿēmeq bəgibʿōn yirgāz laʿăśōt maʿăśēhū zār maʿăśēhū wəlaʿăbōd ʿăbōdātō nākəriyyāh ʿăbōdātō"
     },
     {
       "n": 22,
@@ -963,7 +985,8 @@
       "notes": {
         "official": "*kālāh wᵉneḥĕrāṣāh* is “a full end, and that determined,” the formula of 10:23, which recurs at Dan 9:27 (central `kalah-venecheratzah-decreed-full-end-cross-corpus`). Here the line departs from ASV “a decree of destruction,” as the entry specified, so that the formula is recognisable at all three sites. JPS 1917 has “an extermination wholly determined” and NJPS “a decree of destruction.” *ʾăḏōnāy YHWH ṣᵉḇāʾôṯ* is “the Lord YHWH of hosts,” as at 10:23.\n\n*ʿal-kol-hāʾāreṣ* is “upon the whole earth” (ASV), under the same entry as *bᵉqereḇ kol-hāʾāreṣ* “in the midst of all the earth” at 10:23 (overlay `eretz-cosmic-scope-isaiah-24`). Isaiah uses the phrase in the same way at both sites. JPS 1917 (“upon the whole land”) and NJPS (“against all the land”) take *ʾereṣ* territorially, as the land of Judah. That reading is defensible, since the oracle is addressed to Jerusalem, and it is noted here so that readers can weigh it.\n\n*ʾal-tiṯlôṣāṣû* “do not scoff” takes up “you scoffers” of 28:14. *pen-yeḥzᵉqû môsᵉrêḵem* is “lest your bonds be made strong” (ASV).",
         "community": []
-      }
+      },
+      "translit": "wəʿattāh ʾal-titlōṣāṣū pen-yeḥzəqū mōsərēkem kī-kālāh wəneḥĕrāṣāh šāmaʿtī mēʾēt ʾădōnāy YHWH ṣəbāʾōt ʿal-kol-hāʾāreṣ"
     },
     {
       "n": 23,
@@ -977,7 +1000,8 @@
       "notes": {
         "official": "The summons to hear, in the style of the wisdom teachers, opens a parable of the farmer (28:23–29). Its argument is that a farmer does each task in its season and in its proper measure, because God has taught him. YHWH’s judgment likewise has its time and measure.",
         "community": []
-      }
+      },
+      "translit": "haʾăzīnū wəšimʿū qōlī haqšībū wəšimʿū ʾimrātī"
     },
     {
       "n": 24,
@@ -994,7 +1018,8 @@
       "notes": {
         "official": "*hăḵōl hayyôm yaḥărōš haḥōrēš lizrōaʿ* is “Does the one who plows to sow plow all day long?” ASV has “plow continually,” and NJPS “all the time.” *yᵉp̄attaḥ wîśaddēḏ ʾaḏmāṯô* is “open and harrow his ground” (ASV), the breaking and levelling of clods; *ʾăḏāmāh* is “ground” (central `adam-adamah`). The farmer keeps the 3ms pronouns of the Hebrew (see 28:4).",
         "community": []
-      }
+      },
+      "translit": "hăkōl hayyōm yaḥărōš haḥōrēš lizrōaʿ yəpattaḥ wīśaddēd ʾadmātō"
     },
     {
       "n": 25,
@@ -1010,7 +1035,8 @@
       "notes": {
         "official": "*qeṣaḥ* is “black cumin” (BDB: *Nigella sativa*, LXX μελάνθιον; JPS 1917 “black cummin”; NJPS “black cumin”). ASV’s “fitches” is an archaic name for vetch and identifies the wrong plant. The draft followed ASV and has been changed (overlay `lexical-cruxes-isaiah-28`). *kammōn* is “cumin.”\n\n*śôrāh* “in rows” occurs only here. BDB records the Vulgate and Gesenius’s “in rows,” but judges the word probably a dittography of the following *śᵉʿōrāh* “barley” and notes that the LXX lacks it. *nisman* is a Niphal participle of *smn* “mark off” and also occurs only here: “in the appointed place.” It has no suffix, so the line has “the appointed place” (ASV), where the draft had “its.” NJPS has “in a row … in a strip … in a patch.” *kussemeṯ* is “spelt” (ASV, JPS 1917). NJPS has “emmer,” a hulled wheat. *gᵉḇulāṯô* “in its border” is the edge of the field (ASV “in the border thereof”). The point of the list is that each crop is sown in its own way and place.",
         "community": []
-      }
+      },
+      "translit": "hălōʾ ʾim-šiwwāh pānēhā wəhēpīṣ qeṣaḥ wəkammōn yizrōq wəśām ḥiṭṭāh śōrāh ūśəʿōrāh nismān wəkussemet gəbulātō"
     },
     {
       "n": 26,
@@ -1027,7 +1053,8 @@
       "notes": {
         "official": "*wᵉyissᵉrô lammišpāṭ ʾĕlōhāyw yôrennû* is divided as the accents divide it: the disjunctive *ṭip̄ḥā* on *lammišpāṭ* closes the first clause, and the conjunctive *mērᵊḵā* joins *ʾĕlōhāyw* to *yôrennû*. Hence “For he instructs him aright; his God teaches him,” with JPS 1917 (“For He doth instruct him aright; His God doth teach him”), NJPS (“For He teaches him the right manner, His God instructs him”) and Koren (“his God instructs him”). ASV takes *ʾĕlōhāyw* as the subject of both verbs (“For his God doth instruct him aright, and doth teach him”). The sense is the same either way: God is the subject of both verbs. The Translator's draft followed ASV, and the line has been changed to follow the accents (overlay `lexical-cruxes-isaiah-28`).\n\n*lammišpāṭ* is “aright,” the proper way or order. *mišpāṭ* is the “justice” of 28:6, 17, and the parable plays on that. The suffixed *ʾĕlōhāyw* is “his God” (overlay `elohai-elohenu-doxology-isaiah-25`). Farming knowledge as divine instruction has a parallel in the Mesopotamian *Farmer’s Instructions* (not verified).",
         "community": []
-      }
+      },
+      "translit": "wəyissərō lammišpāṭ ʾĕlōhāyw yōrennū"
     },
     {
       "n": 27,
@@ -1043,7 +1070,8 @@
       "notes": {
         "official": "*qeṣaḥ* is “black cumin,” as in 28:25 (ASV “fitches”). *ḥārûṣ* is a “threshing sledge.” BDB lists it as the adjective “sharp,” used as a noun for the threshing instrument, as in *môraḡ ḥārûṣ* at 41:15 (ASV “a sharp threshing instrument”; NJPS “a threshing board”; JPS 1917 “a threshing-sledge”). It is a homonym of the participle *ḥārûṣ* “determined” of 10:22, and the central `kalah-venecheratzah-decreed-full-end-cross-corpus` entry does not apply here. Small seeds are beaten out with a staff (*maṭṭeh*) and a rod (*šēḇeṭ*), the pair that names the instruments of punishment at 10:5, 24 and is rendered “rod … staff” there. The parable reverses the image: the staff and rod here are gentle tools.",
         "community": []
-      }
+      },
+      "translit": "kī lōʾ beḥārūṣ yūdaš qeṣaḥ wəʾōpan ʿăgālāh ʿal-kammōn yūssāb kī bammaṭṭeh yēḥābeṭ qeṣaḥ wəkammōn baššābeṭ"
     },
     {
       "n": 28,
@@ -1059,7 +1087,8 @@
       "notes": {
         "official": "*leḥem yûḏāq* is “Bread grain is crushed” (ASV “Bread grain is ground”). The line has “crush” for *dqq* at both ends of the verse. *kî lōʾ lāneṣaḥ ʾāḏôš yᵉḏûšennû* is construed with ASV: “for he will not go on threshing it forever.” NJPS reads *lōʾ* as *lû* “even if” and renders “even if he threshes it thoroughly.” JPS 1917 and Koren make the first clause a question (“Is bread corn crushed? Nay”).\n\n*wᵉhāmam gilgal ʿeḡlāṯô ûp̄ārāšāyw* is “and though the wheel of his cart and his horses scatter it” (ASV). *hāmam* means “drive, discomfit,” here the driving of cart and animals over the grain, and NJPS has “overwhelm.” *pārāšāyw* can be “his horses” (ASV, NJPS) or “his horsemen” (KJV). NJPS marks the clause “Meaning of Heb. uncertain.” The farmer threshes the grain, but not so hard that he crushes it, and so judgment has a limit.",
         "community": []
-      }
+      },
+      "translit": "leḥem yūdāq kī lōʾ lāneṣaḥ ʾādōš yədūšennū wəhāmam gilgal ʿeglātō ūpārāšāyw lōʾ-yəduqqennū"
     },
     {
       "n": 29,
@@ -1076,7 +1105,8 @@
       "notes": {
         "official": "*hip̄lîʾ ʿēṣāh hiḡdîl tûšîyāh* are two Hiphil perfects, literally “he has made counsel wonderful, he has made sound wisdom great.” The line keeps ASV’s relative clause: “who is wonderful in counsel and excellent in sound wisdom.” JPS 1917 has “Wonderful is His counsel, and great His wisdom,” and NJPS “His counsel is unfathomable, His wisdom marvelous.” *tûšîyāh* is “sound wisdom,” practical success (ASV “wisdom”; KJV “working”). *peleʾ* and *ʿēṣāh* are the words of the throne-name “Wonderful Counselor” at 9:5 and of the hymn at 25:1. The echo is noted, and the hymn entry is not applied.",
         "community": []
-      }
+      },
+      "translit": "gam-zōʾt mēʿim YHWH ṣəbāʾōt yāṣāʾāh hiplīʾ ʿēṣāh higdīl tūšiyyāh (s)"
     }
   ],
   "editorial_questions": []

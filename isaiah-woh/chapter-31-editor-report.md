@@ -105,3 +105,12 @@ No English line, `translation.status` (`awaiting-human`) or `reviewerReport` was
 4. **Central diff: new modify op on `mas-oved-corvee-labor-institutional-vocabulary-cross-corpus` (Reviewer: flag-for-human).** This op only appends to the rationale. It cross-refers Isa 31:8 "forced labor" (*mas* alone) to the entry's "taskwork" for the Gen 49:15 compound *mas ʿōḇēḏ*. appliesTo and wohChoice are unchanged (`appliesToAdded: []`).
    - The op is marked `requiresFounderApproval: true`, and the central version note says so.
    - **Founder decision needed:** approve the cross-reference, which keeps "forced labor" at Isa 31:8. Alternatively, rule for "taskwork" concordance: drop the op and change the 31:8 line through `lexical-cruxes-isaiah-31`.
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-5 on 2026-11-26 through an interactive form and chose every recommended option. No English line changes as a result; only notes and glossary-diff wording were updated. The wave merges as overlay 4.0.0 and central 5.0.0.
+
+- **31:8 "forced labor":** accepted. The central `mas-oved-corvee-labor-institutional-vocabulary-cross-corpus` cross-reference op no longer carries `requiresFounderApproval`, and its note and rationaleAppend now record the approval. The rationaleAppend is kept. The corpus-wide question about bare *mas* is still open for Kings.
+- **31:4 "to fight upon"** stands (option A).
+- **31:6, 31:3:** the current lines stand.
+- **31:5 speculative reception paragraph:** kept as labelled (founder sign-off 2026-11-26).

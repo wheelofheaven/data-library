@@ -136,3 +136,11 @@ The Reviewer returned the chapter as `awaiting-human` (reviewerReport in `chapte
    - Ps 69:19 (ASV 69:18) and Lev 27:27 are added as further paired sites, in the wohChoice parenthesis and the rationaleAppend.
    - The 35:10 note carries the same sites and the same KJV caveat.
 5. **35:2 speculative note** (optional item, applied). The note now adds that the same verse uses kāḇôḏ for the glory of Lebanon, and that the reader should weigh this against the transfer.
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-5 on 2026-11-26 through an interactive form and chose every recommended option. No English line changes as a result; only notes and glossary-diff wording were updated. The wave merges as overlay 4.0.0 and central 5.0.0.
+
+- **35:10 "the ransomed of YHWH":** the central `goel-geullah-redeemer-redemption-cross-corpus` context clause is **accepted**. The op is now a normal modify with `changes.wohChoice` kept, and the "awaiting/pending founder ruling" wording has been removed from the version note, the rationaleAppend, the overlay `lexical-cruxes-isaiah-35` wohChoice and the 35:10 note. The clause will govern 51:10–11.
+- **35:7 "grass shall become reeds and rushes"**, **35:10 / 22:13 joy vocabulary** (left as is), **35:7 tannîm:** the recommended defaults stand.
+- **35:2 and 35:10 speculative reception notes:** kept as labelled (founder sign-off 2026-11-26).

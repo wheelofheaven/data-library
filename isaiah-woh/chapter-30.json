@@ -6,20 +6,20 @@
   "title": "Isaiah 30 — Woe to the rebellious children: Egypt's shadow, the tablet and the scroll, and the name of YHWH from afar",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.30",
-    "glossaryVersion": "4.0.0",
-    "overlayGlossaryVersion": "3.0.0",
+    "glossaryVersion": "5.0.0",
+    "overlayGlossaryVersion": "4.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T19:14:54Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T22:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T19:14:54Z",
@@ -563,7 +563,8 @@
       "lensLeakageCheck": "Performed on all 33 lines; no English line reads as exegesis. The Wheel of Heaven reading appears only in the labelled speculative commentary paragraph at 30:26; 'the seven days', 'your teacher', 'visionaries', 'Rahab' and 'a Topheth' are literal renderings.",
       "escalationReportAdjustments": "Initial verdicts were formed before reading chapter-30-editor-report.md. The report added no new information that changed any verdict; it confirms that 30:10, 30:20 and 30:30 are escalated for founder decision.",
       "verificationNotes": "Independently fetched on 2026-11-26: Sefaria v3 Isaiah.30 (NJPS 'Tanakh: The Holy Scriptures, published by JPS' and JPS 1917, not the Gender-Sensitive Edition); Rashi 30:20, 26; Targum Jonathan 30:7, 8, 20, 26, 33; Ibn Ezra and Radak 30:26; b. Pesachim 68a and b. Sanhedrin 91b; ASV via bible-api.com. Canon checked in data-library: TBWTT-2:10 quotation verbatim; TBWTT Isaiah citations only in chs. 3 and 5; ETTMTTP ch. 2 alludes to Isa 43:5-6. Not verified by the reviewer: LXX, 1QIsaᵃ, BDB, HALOT, GKC (the Editor labels these recalled). Non-blocking: 43:27 already prints 'your teachers' for mᵉlîṣeyḵā, so 'teacher' now renders two Hebrew nouns in the book."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -583,7 +584,8 @@
       "notes": {
         "official": "*Wᵉlinsōḵ massēḵāh* is the crux of the verse. The verb *nsk* I means “pour out,” and a poured libation sealed a treaty. That is the sense behind ASV “make a league” (checked), which the line keeps because the verse concerns the embassy to Egypt (vv. 2–4). A second root, *nsk* II “weave,” gives a woven covering, the sense of *massēḵāh* at 25:7 (“the veil”). NJPS follows it with “Weaving schemes,” and JPS 1917 has “form projects” (both checked). The same consonants return at v. 22 as *massēḵāh* “molten image,” from *nsk* “pour (metal).” The alternatives are recorded under overlay `lexical-cruxes-isaiah-30`.\n\n*Hôy bānîm sôrᵉrîm* “Woe, rebellious children”: before a vocative noun phrase the book prints “Woe, …” (overlay `hoy-woe-isaiah`), as at 1:4 “Woe, sinful nation” and 29:1 “Woe, Ariel.” ASV and JPS 1917 have “Woe to the rebellious children” (checked). *Wᵉlōʾ rûḥî* “but not of my spirit” keeps YHWH's *rûaḥ* in lower case (overlay `ruach-divine-spirit-lower-case-isaiah`; ASV “my Spirit”).",
         "community": []
-      }
+      },
+      "translit": "hōy bānīm sōrərīm nəʾum-YHWH laʿăśōt ʿēṣāh wəlōʾ minnī wəlinsōk massēkāh wəlōʾ rūḥī ləmaʿan səpōt ḥaṭṭāʾt ʿal-ḥaṭṭāʾt"
     },
     {
       "n": 2,
@@ -601,7 +603,8 @@
       "notes": {
         "official": "*Lāʿôz bᵉmāʿôz parʿōh* “to take refuge in the stronghold of Pharaoh”: the infinitive is from *ʿwz* “take refuge,” and *māʿôz* is “stronghold,” as at 17:10 and 27:5 (overlay `maoz-shalom-refuge-peace-isaiah-27`). This is the wording of JPS 1917 (checked). ASV derives both words from *ʿzz* “be strong”: “to strengthen themselves in the strength of Pharaoh” (checked). NJPS has “To seek refuge with Pharaoh.”\n\n*Ûp̄î lōʾ šāʾālû* “and have not asked of my mouth” keeps the idiom for consulting an oracle (ASV and JPS 1917 “asked at my mouth”; NJPS “Without asking Me”; all checked). *Bᵉṣēl miṣrayim* “in the shadow of Egypt”: shade is protection, the image that v. 3 turns against them (overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "hahōləkīm lāredet miṣrayim ūpī lōʾ šāʾālū lāʿōz bəmāʿōz parʿōh wəlaḥsōt bəṣēl miṣrāyim"
     },
     {
       "n": 3,
@@ -618,7 +621,8 @@
       "notes": {
         "official": "The stronghold and the shade of v. 2 return as *bōšeṯ* “shame” and *kᵉlimmāh* “humiliation” (ASV and JPS 1917 “confusion”; NJPS “chagrin”; checked). *Māʿôz* is “stronghold” (overlay `maoz-shalom-refuge-peace-isaiah-27`); that entry's clause on refuge and peace offered by YHWH does not apply here.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh lākem māʿōz parʿōh ləbōšet wəheḥāsūt bəṣēl-miṣrayim liklimmāh"
     },
     {
       "n": 4,
@@ -635,7 +639,8 @@
       "notes": {
         "official": "*Śārāyw … malʾāḵāyw* “his princes … his messengers”: the singular suffix has no named antecedent. It may refer to Pharaoh's officials or to the envoys of Judah's king. ASV smooths it to “their,” and JPS 1917 and NJPS keep “his” (all checked). NJPS notes an emendation that yields “kings” for *malʾāḵāyw* (checked); MT is kept.\n\nZoan is Tanis in the eastern Delta (NJPS note “Or ‘Tanis,’” checked), as at 19:11, 13. Hanes (*ḥānēs*) is usually identified with Heracleopolis, south of Memphis (recalled, not verified). Both names keep the ASV spelling (overlay `aram-names-isaiah`; overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "kī-hāyū bəṣōʿan śārāyw ūmalʾākāyw ḥānēs yaggīʿū"
     },
     {
       "n": 5,
@@ -651,7 +656,8 @@
       "notes": {
         "official": "Ketiv/Qere. The consonantal text has הבאיש (*hiḇʾîš*, “made to stink,” that is, became odious), and the Masoretes read הֹבִישׁ (*hōḇîš*, “put to shame”). The line follows the qere (overlay `mt-qere-textual-policy-isaiah`), as do ASV and JPS 1917 “ashamed” and NJPS “shall come to shame” (checked). The two words differ by one letter. The ketiv uses the idiom of Gen 34:30 and Exod 5:21, where “make to stink” means “make hateful.”\n\n*Lōʾ-yôʿîlû* “cannot profit” and its echoes recur three times in vv. 5–6. They form the refrain of the oracle.",
         "community": []
-      }
+      },
+      "translit": "kōl hbʾyš [hōbīš] ʿal-ʿam lōʾ-yōʿīlū lāmō lōʾ ləʿēzer wəlōʾ ləhōʿīl kī ləbōšet wəgam-ləḥerpāh (s)"
     },
     {
       "n": 6,
@@ -672,7 +678,8 @@
       "notes": {
         "official": "*Maśśāʾ bahămôṯ negeḇ* “The oracle concerning the beasts of the South”: the heading follows ASV and JPS 1917 (“The burden of the beasts of the South,” checked), with “oracle” for *maśśāʾ* (overlay `massa-oracle-superscription-isaiah`) and “the South” for *negeḇ*, as at 21:1 (overlay `oracle-names-isaiah-21`). The heading is obscure. NJPS prints “The ‘Beasts of the Negeb’ Pronouncement” and notes that the meaning is uncertain and that an emendation yields “Through the wasteland of the Negeb” (checked). MT is kept (overlay `mt-qere-textual-policy-isaiah`). The heading may be a catchword taken from the first line of the poem, like other headings in chs. 21–22 (recalled, not verified).\n\nThe setting is the caravan route through the southern desert to Egypt, *ʾereṣ ṣārāh wᵉṣûqāh* “a land of trouble and anguish” (central `eretz`). *Śārāp̄ mᵉʿôp̄ēp̄* is “a fiery flying serpent,” the venomous snake of 14:29 and Num 21:6, not the throne attendants of ch. 6 (overlay `seraphim-burning-ones-isaiah`). NJPS marks its “roaring king-beast” for *layiš* as uncertain (checked); ASV has “the lioness and the lion” (overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "maśśāʾ bahămōt negeb bəʾereṣ ṣārāh wəṣūqāh lābīʾ wālayiš mēhem ʾepʿeh wəśārāp məʿōpēp yiśʾū ʿal-ketep ʿăyārīm ḥēlēhem wəʿal-dabbešet gəmallīm ʾōṣərōtām ʿal-ʿam lōʾ yōʿīlū"
     },
     {
       "n": 7,
@@ -692,7 +699,8 @@
       "notes": {
         "official": "*Rahaḇ hēm šāḇeṯ*: Rahab is the name of the sea monster subdued by YHWH (51:9; Ps 89:11 [Eng. 89:10]; Job 26:12), and at Ps 87:4 it is a name for Egypt. The line keeps MT and the proper name with ASV, “Rahab who sits still” (checked; overlay `rahab-sea-monster-name-isaiah`). JPS 1917 takes *rahaḇ* as a common noun, “arrogancy that sitteth still” (checked); the noun means “storm, arrogance” (BDB, recalled). NJPS renders “They are a threat that has ceased” and notes that the meaning is uncertain and that an emendation yields “Disgrace and chagrin” (checked). Other proposals redivide the words, for example *rahaḇ hammošbāt* “Rahab brought to a standstill” (not verified). MT is kept (overlay `mt-qere-textual-policy-isaiah`).\n\nThe line omits *hēm* “they,” as ASV does. Literally the phrase reads “Rahab, they — a sitting still.” The name of a power from the old combat poems is applied to an ally that will do nothing. That combat cluster is documented under central `chaoskampf-sea-conflict-cross-corpus-ugaritic-akkadian-hebrew-bible`, and the line names the monster without adding anything from the myth.\n\n*Heḇel wārîq yaʿzōrû* “they help in vain and to no purpose”: *heḇel*, “breath, vapor,” is used adverbially (ASV and JPS 1917 “helpeth in vain”; NJPS “the help of Egypt shall be vain and empty”; checked). Targum Jonathan paraphrases the second half quite differently (checked; overlay `lexical-cruxes-isaiah-30`). “Egypt” follows overlay `aram-names-isaiah`.",
         "community": []
-      }
+      },
+      "translit": "ūmiṣrayim hebel wārīq yaʿzōrū lākēn qārāʾtī lāzōʾt rahab hēm šābet"
     },
     {
       "n": 8,
@@ -710,7 +718,8 @@
       "notes": {
         "official": "*Wᵉʿal-sēp̄er ḥuqqāh* “and inscribe it on a scroll” is a change from the draft's “in a book.” *Sēp̄er* is any written document, and the book renders it “scroll” at 29:11–18 (overlay `sefer-sealed-scroll-isaiah-29`, extended here). ASV and JPS 1917 have “in a book,” NJPS “in a record” (all checked). The tablet (*lûaḥ*, as at 8:1) and the scroll are two surfaces for one text, which is to outlast its hearers. *ʿAl* is rendered “on.”\n\n*Lᵉyôm ʾaḥărôn lāʿaḏ ʿaḏ-ʿôlām* “for the time to come, for ever and ever”: MT points *lāʿaḏ* “for ever,” and ASV and JPS 1917 follow it. NJPS repoints *lᵉʿēḏ* “a witness,” citing the Targum (its note, checked), and Targum Jonathan reads “for a witness before me in the day of judgment for ever” (checked on Sefaria). The line keeps MT (overlay `mt-qere-textual-policy-isaiah`). *Yôm ʾaḥărôn* is “a later day,” the future; the line does not turn it into an end-time “last day” (overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "ʿattāh bōʾ kātəbāh ʿal-lūaḥ ʾittām wəʿal-sēper ḥuqqāh ūtəhī ləyōm ʾaḥărōn lāʿad ʿad-ʿōlām"
     },
     {
       "n": 9,
@@ -726,7 +735,8 @@
       "notes": {
         "official": "*Tôraṯ YHWH* “the teaching of YHWH” (overlay `torah-teaching-isaiah`): JPS 1917 has “the teaching,” NJPS “The instruction,” and ASV “the law” (all checked). In context the *tôrāh* is the word that the seers of v. 10 are told not to give. *Bānîm kᵉḥāšîm* “lying children” follows ASV and JPS 1917; NJPS has “Faithless children.”",
         "community": []
-      }
+      },
+      "translit": "kī ʿam mərī hūʾ bānīm keḥāšīm bānīm lōʾ-ʾābū šəmōaʿ tōrat YHWH"
     },
     {
       "n": 10,
@@ -743,7 +753,8 @@
       "notes": {
         "official": "*Lārōʾîm … wᵉlaḥōzîm*: both nouns mean “one who sees,” the first from *rʾh* “see,” the second from *ḥzh* “see (in vision).” The verse has no *nāḇîʾ* “prophet.” ASV, JPS 1917 and NJPS print “to the seers … to the prophets” and render the verbs *teḥĕzû* and *ḥăzû* as “prophesy” (all checked). The line changes the draft so that both roots stay visible: “the seers … ‘Do not see,’” and “the visionaries … ‘Do not see for us visions …’” (overlay `roeh-chozeh-seer-visionary-isaiah`). At 29:10 the book prints *nᵉḇîʾîm* “the prophets” and *ḥōzîm* “the seers.” Printing “the prophets” here for *ḥōzîm* would give that English word to two Hebrew nouns in neighbouring chapters. *Rōʾeh* is the older title explained at 1 Sam 9:9.\n\n*Nᵉḵōḥôṯ* “what is right” means straightforward things (ASV and JPS 1917 “right things”; NJPS “truth”). *Ḥălāqôṯ* “smooth things” are flatteries. *Mahăṯallôṯ* “deceptions” occurs only here, from *tll* “mock, deceive” (ASV “deceits”; JPS 1917 and NJPS “delusions”; all checked; overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "ʾăšer ʾāmərū lārōʾīm lōʾ tirʾū wəlaḥōzīm lōʾ teḥĕzū-lānū nəkōḥōt dabbərū-lānū ḥălāqōt ḥăzū mahătallōt"
     },
     {
       "n": 11,
@@ -757,7 +768,8 @@
       "notes": {
         "official": "*Minnê* is a poetic form of *min* “from.” *Hašbîṯû mippānênû ʾeṯ-qᵉḏôš yiśrāʾēl* “make the Holy One of Israel cease from before us” follows ASV and JPS 1917: the hearers want the prophet to stop speaking in that name (NJPS “Let us hear no more / About the Holy One of Israel!”; checked). The quotation that began in v. 10 closes here.",
         "community": []
-      }
+      },
+      "translit": "sūrū minnē-derek haṭṭū minnē-ʾōraḥ hašbītū mippānēnū ʾet-qədōš yiśrāʾēl (s)"
     },
     {
       "n": 12,
@@ -775,7 +787,8 @@
       "notes": {
         "official": "*Bᵉʿōšeq wᵉnālôz* “in oppression and perverseness” follows ASV and JPS 1917; NJPS has “that which is fraudulent and tortuous” (checked). An emendation of *ʿōšeq* to *ʿiqqēš* “crooked,” to pair with *nālôz* “devious,” has been proposed (not verified). MT is kept (overlay `mt-qere-textual-policy-isaiah`; overlay `lexical-cruxes-isaiah-30`). The messenger formula is not set in quotation marks (overlay `title-and-meta-conventions-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "lākēn kōh ʾāmar qədōš yiśrāʾēl yaʿan māʾāsəkem baddābār hazzeh wattibṭəḥū bəʿōšeq wənālōz wattiššāʿănū ʿālāyw"
     },
     {
       "n": 13,
@@ -791,7 +804,8 @@
       "notes": {
         "official": "*Heʿāwōn hazzeh* “this iniquity” (central `avon-iniquity-cross-corpus-keyword`). The image is of a bulging wall: *pereṣ nōp̄ēl* “a breach ready to fall,” *niḇʿeh* “bulging out” (ASV and JPS 1917 “swelling out”), whose collapse comes *piṯʾōm lᵉp̄eṯaʿ* “suddenly, in an instant.”",
         "community": []
-      }
+      },
+      "translit": "lākēn yihyeh lākem heʿāwn hazzeh kəpereṣ nōpēl nibʿeh bəḥōmāh niśgābāh ʾăšer-pitʾōm ləpetaʿ yābōʾ šibrāh"
     },
     {
       "n": 14,
@@ -808,7 +822,8 @@
       "notes": {
         "official": "*Kᵉšēḇer nēḇel yôṣᵉrîm* “as a potters' jar is broken”: *nēḇel* is a storage jar (ASV “potter's vessel”; NJPS “an earthen jug”; checked), and *yôṣᵉrîm* is plural, “potters” (overlay `yotser-potter-clay-image-isaiah`). The subject of *ûšᵉḇārāh* is not expressed; ASV and JPS 1917 supply “he.” *Ḥereś* is the shard that is too small *laḥtôṯ ʾēš miyyāqûḏ* “to take fire from the hearth” or *laḥśōp̄ mayim miggebeʾ* “to scoop water from the cistern” (NJPS “from a puddle”; overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "ūšəbārāh kəšēber nēbel yōṣərīm kātūt lōʾ yaḥmōl wəlōʾ-yimmāṣēʾ bimkittātō ḥereś laḥtōt ʾēš miyyāqūd wəlaḥśōp mayim miggebeʾ (p)"
     },
     {
       "n": 15,
@@ -826,7 +841,8 @@
       "notes": {
         "official": "*Bᵉšûḇāh wānaḥaṯ tiwwāšēʿûn* “In returning and rest you shall be saved”: *šûḇāh* occurs only here. ASV takes it from *šûḇ* “return,” and the line follows it. JPS 1917 has “In sitting still” and NJPS “by stillness” (both checked). These relate the noun to *yšḇ* “sit” or to a separate root meaning “be still” (recalled, not verified), which would pair well with *naḥaṯ* “rest” and *hašqēṭ* “quietness.” The line does not decide whether the return is political (from the alliance with Egypt) or religious (repentance), just as the book leaves *šûḇ* open at 10:21 (overlay `lexical-cruxes-isaiah-30`).\n\n*Bᵉḇiṭḥāh* is “in trust” (ASV and JPS 1917 “confidence”). *Kî kōh ʾāmar* “For thus says”: the messenger formula is the same as in v. 12, and the line prints “thus says,” as the book does at every other *kōh ʾāmar* (7:7; 10:24; 22:15; 29:22; 42:5 and elsewhere). ASV and JPS 1917 have “thus said” here (checked; overlay `lexical-cruxes-isaiah-30`). *ʾĂḏōnāy YHWH* is “the Lord YHWH” (overlay `adonai-yhwh-compound-isaiah-25`), and the formula is unquoted (overlay `title-and-meta-conventions-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "kī kōh-ʾāmar ʾădōnāy YHWH qədōš yiśrāʾēl bəšūbāh wānaḥat tiwwāšēʿūn bəhašqēṭ ūbəbiṭḥāh tihyeh gəbūratkem wəlōʾ ʾăbītem"
     },
     {
       "n": 16,
@@ -840,7 +856,8 @@
       "notes": {
         "official": "The verse is built on two echoes. *ʿAl-sûs nānûs* “we will flee upon horses” is answered by *ʿal-kēn tᵉnûsûn* “therefore you shall flee.” *ʿAl-qal nirkāḇ* “we will ride upon the swift” is answered by *ʿal-kēn yiqqallû rōḏᵉp̄êḵem* “those who pursue you shall be swift.” ASV, JPS 1917 and NJPS agree on the sense (checked).",
         "community": []
-      }
+      },
+      "translit": "wattōʾmərū lōʾ-kī ʿal-sūs nānūs ʿal-kēn tənūsūn wəʿal-qal nirkāb ʿal-kēn yiqqallū rōdəpēkem"
     },
     {
       "n": 17,
@@ -857,7 +874,8 @@
       "notes": {
         "official": "*ʾElep̄ ʾeḥāḏ mippᵉnê gaʿăraṯ ʾeḥāḏ* “A thousand at the rebuke of one”: the first line has no verb. ASV supplies “[shall flee],” JPS 1917 prints “shall flee,” and NJPS keeps the ellipsis, “One thousand before the shout of one” (all checked). The line keeps it too. *Gᵉʿārāh* is “rebuke” (JPS 1917; ASV “threat”; NJPS “shout”). The verse reverses the promise that one would chase a thousand (Deut 32:30; Lev 26:8).\n\n*Kattōren* “like a beacon”: *tōren* is a pole or mast (33:23 “mast”; Ezek 27:5). ASV and JPS 1917 have “beacon” and NJPS “mast” (checked); the line keeps “beacon” (overlay `lexical-cruxes-isaiah-30`). *Kannēs* “like a signal” (overlay `nes-signal-isaiah`; ASV and JPS 1917 “ensign”).",
         "community": []
-      }
+      },
+      "translit": "ʾelep ʾeḥād mippənē gaʿărat ʾeḥād mippənē gaʿărat ḥămiššāh tānusū ʿad ʾim-nōtartem kattōren ʿal-rōʾš hāhār wəkannēs ʿal-haggibʿāh"
     },
     {
       "n": 18,
@@ -874,7 +892,8 @@
       "notes": {
         "official": "*Yārûm lᵉraḥemḵem* “he will be exalted to have compassion on you” follows ASV and JPS 1917. NJPS has “He will arise to pardon you,” taking *rûm* as rising to act (checked). The verse turns on *ḥkh* “wait”: YHWH *yᵉḥakkeh* “waits,” and those who wait (*ḥôḵê*) for him are blessed. *ʾĔlōhê mišpāṭ* is “a God of justice” (overlay `elohim-el-eloah-monotheistic-formula-isaiah`).\n\n*ʾAšrê kol-ḥôḵê lô* “blessed are all who wait for him”: ASV has “blessed,” JPS 1917 and NJPS “Happy” (checked). The book prints “Blessed” for *ʾašrê* at 32:20, and the line matches it (overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "wəlākēn yəḥakkeh YHWH laḥănankem wəlākēn yārūm ləraḥemkem kī-ʾĕlōhē mišpāṭ YHWH ʾašrē kol-ḥōkē lō (s)"
     },
     {
       "n": 19,
@@ -892,7 +911,8 @@
       "notes": {
         "official": "*Kî-ʿam bᵉṣiyyôn yēšēḇ bîrûšālāim* “For a people shall dwell in Zion, at Jerusalem”: MT points *yēšēḇ* as a finite verb, and ASV follows it (“For the people shall dwell,” checked). JPS 1917 (“O people that dwellest in Zion at Jerusalem”) and NJPS (“O people in Zion, dwellers of Jerusalem”) read a vocative, as with the participle *yōšēḇ* (checked). MT is kept (overlay `mt-qere-textual-policy-isaiah`; overlay `lexical-cruxes-isaiah-30`).\n\n*Lᵉqôl zaʿăqeḵā* “at the sound of your outcry” (central `zaaqah-outcry-of-the-oppressed`; ASV “at the voice of thy cry”). From here on the people are addressed as a singular “you.”",
         "community": []
-      }
+      },
+      "translit": "kī-ʿam bəṣiyyōn yēšēb bīrūšālim bākō lōʾ-tibkeh ḥānōn yāḥənkā ləqōl zaʿăqekā kəšāməʿātō ʿānāk"
     },
     {
       "n": 20,
@@ -909,7 +929,8 @@
       "notes": {
         "official": "*Môreyḵā* (twice) is the crux, and the line changes the draft's “your teachers” to the singular “your teacher.” ASV reads a plural, “thy teachers” (checked). The verb *yikkānēp̄*, however, is singular. The form itself can be singular, because nouns ending in *-eh* sometimes keep a *yod* before the suffix (GKC §93ss; recalled, not verified). This chapter has a case three verses later: *miqneyḵā* “your livestock” takes the singular verb *yirʿeh* (v. 23). JPS 1917 “thy Teacher” and NJPS “your Guide” read the singular (checked). So does Rashi, who explains “your Teacher” as “the Holy One, blessed be He” (checked on Sefaria). Targum Jonathan paraphrases the clause as YHWH's Shekhinah, no longer withdrawn from the sanctuary (checked).\n\nThe line prints the singular in lower case. The grammar is followed, and the referent stays open: God, or a human teacher such as the prophet. The book also prints divine epithets in lower case (“the rock of Israel,” v. 29). *Yikkānēp̄* occurs only here and is linked with *kānāp̄* “wing, edge”: hidden in a corner, or behind the edge of a garment, as Rashi has it (overlay `lexical-cruxes-isaiah-30`).\n\n*Leḥem ṣar ûmayim lāḥaṣ* “the bread of adversity and the water of affliction” is ASV's construct reading (checked). JPS 1917 (“sparing bread and scant water”) and NJPS (“meager bread and scant water”) take the nouns as describing a short ration, as at 1 Kgs 22:27 (checked). *ʾĂḏōnāy* is “the Lord” (overlay `adonai-standalone-title-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wənātan lākem ʾădōnāy leḥem ṣār ūmayim lāḥaṣ wəlōʾ-yikkānēp ʿōd mōrēkā wəhāyū ʿēnēkā rōʾōt ʾet-mōrēkā"
     },
     {
       "n": 21,
@@ -923,7 +944,8 @@
       "notes": {
         "official": "The voice of the teacher of v. 20 now speaks from behind the hearer and keeps them on the road. *Kî ṯaʾămînû wᵉḵî ṯaśmᵉʾîlû* are verbs formed from “right hand” and “left hand.” *Zeh hadderek lᵉḵû ḇô* “This is the way, walk in it” follows ASV and JPS 1917.",
         "community": []
-      }
+      },
+      "translit": "wəʾoznēkā tišmaʿnāh dābār mēʾaḥărēkā lēʾmōr zeh hadderek ləkū bō kī taʾămīnū wəkī taśməʾīlū"
     },
     {
       "n": 22,
@@ -941,7 +963,8 @@
       "notes": {
         "official": "*Ṣippuy pᵉsîlê ḵaspeḵā* “the overlay of your carved images of silver” (central `pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus`, “carved image”). *ʾĂp̄uddaṯ massēḵaṯ zᵉhāḇeḵā* “the plating of your molten image of gold” keeps the Hebrew singular (ASV “molten images”). *Massēḵāh* here is the cast image, from *nsk* “pour (metal)”; compare v. 1.\n\n*Tizrēm kᵉmô dāwāh* “you shall cast them away as an unclean thing”: *zrh* is “scatter, winnow” (as in v. 24), and *dāwāh* is “sick, unwell,” used of the menstruant (Lev 15:33; 20:18). ASV has “as an unclean thing,” JPS 1917 “as one unclean,” and NJPS “like a menstruous woman” (all checked). NJPS notes that a change of vocalization yields “keep” for *tizrēm* (checked). MT is kept (overlay `mt-qere-textual-policy-isaiah`; overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "wəṭimmēʾtem ʾet-ṣippūy pəsīlē kaspekā wəʾet-ʾăpuddat massēkat zəhābekā tizrēm kəmō dāwāh ṣēʾ tōʾmar lō"
     },
     {
       "n": 23,
@@ -957,7 +980,8 @@
       "notes": {
         "official": "*ʾĂḏāmāh* is “the ground” in both clauses (central `adam-adamah`). *Wᵉhāyāh ḏāšēn wᵉšāmēn* “and it shall be rich and plentiful” (ASV “fat and plenteous”). *Miqneyḵā* “your livestock” has the *yod* form with a singular verb, the evidence used at v. 20.",
         "community": []
-      }
+      },
+      "translit": "wənātan məṭar zarʿăkā ʾăšer-tizraʿ ʾet-hāʾădāmāh wəleḥem təbūʾat hāʾădāmāh wəhāyāh dāšēn wəšāmēn yirʿeh miqnēkā bayyōm hahūʾ kar nirḥāb"
     },
     {
       "n": 24,
@@ -974,7 +998,8 @@
       "notes": {
         "official": "*Hāʾălāp̄îm wᵉhāʿăyārîm ʿōḇᵉḏê hāʾăḏāmāh* “the oxen and the young donkeys that work the ground” (central `adam-adamah`). *Bᵉlîl ḥāmîṣ* “seasoned fodder”: *ḥāmîṣ* occurs only here. ASV has “savory provender,” JPS 1917 “savoury provender,” and NJPS “salted fodder” (checked). Even the animals eat grain winnowed *bāraḥaṯ ûḇammizreh* “with the shovel and with the fork” (ASV; JPS 1917 and NJPS “fan”; overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "wəhāʾălāpīm wəhāʿăyārīm ʿōbədē hāʾădāmāh bəlīl ḥāmīṣ yōʾkēlū ʾăšer-zōreh bāraḥat ūbammizreh"
     },
     {
       "n": 25,
@@ -988,7 +1013,8 @@
       "notes": {
         "official": "*Pᵉlāḡîm yiḇlê-māyim* “brooks, streams of water” run on the heights. *Bᵉyôm hereḡ rāḇ binp̄ōl miḡdālîm* “in the day of the great slaughter, when the towers fall” follows ASV and JPS 1917. The plenty comes on the day the towers fall, the same day as in v. 26.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh | ʿal-kol-har gābōha wəʿal kol-gibʿāh niśśāʾāh pəlāgīm yiblē-māyim bəyōm hereg rāb binpōl migdālīm"
     },
     {
       "n": 26,
@@ -1005,7 +1031,8 @@
       "notes": {
         "official": "*Kᵉʾôr šiḇʿaṯ hayyāmîm* has the article: “like the light of the seven days” (JPS 1917 and NJPS, checked). ASV drops it, “as the light of seven days” (checked). The line renders the article and no more (overlay `lexical-cruxes-isaiah-30`). The phrase is often taken as an explanatory gloss on *šiḇʿāṯayim* “sevenfold”: the light of seven days gathered into one. Whether the LXX lacks it was not verified. The classical readings checked on Sefaria do not agree on what the seven days are. Ibn Ezra reads “as the light of seven days joined together” (checked). Radak reads it figuratively, as if the light of the seven days of the week were one (checked); the Reviewer also found his alternative, the seven days of Solomon's dedication. b. Pesachim 68a and b. Sanhedrin 91b read the verse of the brightness of the days of the Messiah (checked by the Reviewer). Targum Jonathan and Rashi multiply: “three hundred and forty-three times,” “seven sevens” (both checked). None of these sources takes “the seven days” as the week of creation.\n\n*ʾÔr-hallᵉḇānāh kᵉʾôr haḥammāh* “the light of the moon shall be like the light of the sun” uses the poetic names *lᵉḇānāh* “the white one” and *ḥammāh* “the hot one.” The same pair is shamed before YHWH's glory at 24:23 (overlay `kavod-labanah-chammah-isaiah-24`). *Bᵉyôm ḥăḇōš YHWH ʾeṯ-šeḇer ʿammô ûmaḥaṣ makkāṯô yirpāʾ* “in the day that YHWH binds up the fracture of his people and heals the wound of its blow”: the suffix is singular and refers to the people (ASV “their wound”). The healing answers the unbound wounds of 1:5–6.",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh ʾōr-halləbānāh kəʾōr haḥammāh wəʾōr haḥammāh yihyeh šibʿātayim kəʾōr šibʿat hayyāmīm bəyōm ḥăbōš YHWH ʾet-šeber ʿammō ūmaḥaṣ makkātō yirpāʾ (s)"
     },
     {
       "n": 27,
@@ -1021,7 +1048,8 @@
       "notes": {
         "official": "*Hinnēh šēm-YHWH bāʾ mimmerḥāq* “Behold, the name of YHWH comes from afar”: the name stands for YHWH himself. NJPS prints “the LORD Himself,” with the note “Lit. ‘The name of the Lord’” (checked); the line keeps the literal phrase. *Bōʿēr ʾappô* is “burning with his anger” (literally, “his nose burning”).\n\n*Wᵉḵōḇeḏ maśśāʾāh* “and in thick rising smoke”: *maśśāʾāh* occurs only here, from *nśʾ* “lift.” ASV (“thick rising smoke”) and JPS 1917 (“thick uplifting of smoke”) take it as the rising column of smoke, as *maśʾaṯ* is the smoke signal of Judg 20:38, 40. NJPS reads “With a heavy burden” and notes that the meaning is uncertain (all checked; overlay `lexical-cruxes-isaiah-30`). Verses 27–33 describe a storm theophany: fire, smoke, flood, cloudburst and hail.",
         "community": []
-      }
+      },
+      "translit": "hinnēh šēm-YHWH bāʾ mimmerḥāq bōʿēr ʾappō wəkōbed maśśāʾāh śəpātāyw māləʾū zaʿam ūləšōnō kəʾēš ʾōkālet"
     },
     {
       "n": 28,
@@ -1038,7 +1066,8 @@
       "notes": {
         "official": "*Wᵉrûḥô kᵉnaḥal šôṭēp̄* “and his breath is like an overflowing stream”: “breath” under the clause of overlay `ruach-divine-spirit-lower-case-isaiah` used at 40:7. *ʿAḏ-ṣawwāʾr yeḥĕṣeh* “that reaches up to the neck” recalls the Assyrian flood of 8:8.\n\n*Lahănāp̄āh gôyim bᵉnāp̄aṯ šāwᵉʾ* “to sift the nations with the sieve of destruction”: *nāp̄āh* is a sieve, from *nwp* “shake,” and *šāwᵉʾ* is “emptiness, worthlessness.” ASV and JPS 1917 have “the sieve of destruction” (checked), a sieve that keeps nothing back. NJPS reads “a misguiding yoke,” comparing an Arabic word, and notes that the meaning of the line is uncertain (checked; overlay `lexical-cruxes-isaiah-30`). *Resen maṯʿeh* “a bridle that leads astray” (ASV “a bridle that causeth to err”) is put on the jaws of the peoples.",
         "community": []
-      }
+      },
+      "translit": "wərūḥō kənaḥal šōṭēp ʿad-ṣawwāʾr yeḥĕṣeh lahănāpāh gōyim bənāpat šāwəʾ wəresen matʿeh ʿal ləḥāyē ʿammīm"
     },
     {
       "n": 29,
@@ -1054,7 +1083,8 @@
       "notes": {
         "official": "*ʾEl-ṣûr yiśrāʾēl* “to the rock of Israel”: the divine epithet *ṣûr* is printed in lower case (overlay `yah-tzur-olamim-everlasting-rock-isaiah-26`, whose rationale already names this verse). ASV, JPS 1917 and NJPS print “the Rock of Israel” (checked). *Kᵉlêl hiṯqaddeš-ḥāḡ* “as in the night when a feast is hallowed”: a festival begun at night. *Bᵉḥālîl* is “with the flute,” as at 5:12. NJPS moves “with timbrels, and with lyres” here from v. 32 (its note, checked); the line keeps the Hebrew order.",
         "community": []
-      }
+      },
+      "translit": "haššīr yihyeh lākem kəlēl hitqaddeš-ḥāg wəśimḥat lēbāb kahōlēk beḥālīl lābōʾ bəhar-YHWH ʾel-ṣūr yiśrāʾēl"
     },
     {
       "n": 30,
@@ -1069,9 +1099,10 @@
         "lexical-cruxes-isaiah-30"
       ],
       "notes": {
-        "official": "*Hôḏ qôlô* “the grandeur of his voice” is a change from the draft and from ASV and JPS 1917 “his glorious voice”; NJPS has “His majestic voice” (all checked). *Hôḏ* means “splendour, majesty, vigour” (BDB; HALOT; recalled) and occurs in Isaiah only here (not concordance-verified). Every usual English word for it is already reserved in this book for another noun: “glory” for *kāḇôḏ*, “splendor” for *hāḏār*, “majesty” for *gāʾôn* and *gēʾûṯ* of God, “honor” for *tip̄ʾereṯ*, and “beauty” for *ṣᵉḇî*. “Grandeur” gives *hôḏ* its own word, and the noun is kept rather than made into an adjective (overlay `hod-grandeur-isaiah`). The choice awaits the founder's decision; the alternative is NJPS's “majesty,” with the overlap recorded.\n\n*Naḥaṯ zᵉrôʿô* “the descent of his arm” (ASV and JPS 1917 “the lighting down of his arm”; NJPS “the sweep of His arm”; checked). *Nep̄eṣ wāzerem wᵉʾeḇen bārāḏ* “with cloudburst and tempest and hailstones”: *nep̄eṣ*, from *npṣ* “shatter,” is the bursting storm. JPS 1917 has “a bursting of clouds,” ASV “a blast,” and NJPS “tempest” for *nep̄eṣ*, “rainstorm” for *zerem* (all checked; overlay `lexical-cruxes-isaiah-30`).",
+        "official": "*Hôḏ qôlô* “the grandeur of his voice” is a change from the draft and from ASV and JPS 1917 “his glorious voice”; NJPS has “His majestic voice” (all checked). *Hôḏ* means “splendour, majesty, vigour” (BDB; HALOT; recalled) and occurs in Isaiah only here (not concordance-verified). Every usual English word for it is already reserved in this book for another noun: “glory” for *kāḇôḏ*, “splendor” for *hāḏār*, “majesty” for *gāʾôn* and *gēʾûṯ* of God, “honor” for *tip̄ʾereṯ*, and “beauty” for *ṣᵉḇî*. “Grandeur” gives *hôḏ* its own word, and the noun is kept rather than made into an adjective (overlay `hod-grandeur-isaiah`). The founder accepted the choice (sign-off 2026-11-26); NJPS's “majesty” is the alternative, with the overlap recorded.\n\n*Naḥaṯ zᵉrôʿô* “the descent of his arm” (ASV and JPS 1917 “the lighting down of his arm”; NJPS “the sweep of His arm”; checked). *Nep̄eṣ wāzerem wᵉʾeḇen bārāḏ* “with cloudburst and tempest and hailstones”: *nep̄eṣ*, from *npṣ* “shatter,” is the bursting storm. JPS 1917 has “a bursting of clouds,” ASV “a blast,” and NJPS “tempest” for *nep̄eṣ*, “rainstorm” for *zerem* (all checked; overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "wəhišmīaʿ YHWH ʾet-hōd qōlō wənaḥat zərōʿō yarʾeh bəzaʿap ʾap wəlahab ʾēš ʾōkēlāh nepeṣ wāzerem wəʾeben bārād"
     },
     {
       "n": 31,
@@ -1088,7 +1119,8 @@
       "notes": {
         "official": "*Kî-miqqôl YHWH yēḥaṯ ʾaššûr* “For at the voice of YHWH Assyria shall be dismayed”: *ḥtt* means “be shattered” or “be dismayed.” ASV and JPS 1917 have “dismayed,” NJPS “cowed” (checked).\n\n*Baššēḇeṭ yakkeh* “with the rod he will strike”: the subject is not named. ASV makes it YHWH: “with his rod will he smite [him].” JPS 1917 calls Assyria “The rod with which He smote,” and NJPS has “Assyria, who beats with the rod” (all checked), recalling the rod of 10:5, 24. The line keeps the Hebrew's unmarked “he” (overlay `lexical-cruxes-isaiah-30`). “Assyria” follows overlay `aram-names-isaiah`.",
         "community": []
-      }
+      },
+      "translit": "kī-miqqōl YHWH yēḥat ʾaššūr baššēbeṭ yakkeh"
     },
     {
       "n": 32,
@@ -1105,7 +1137,8 @@
       "notes": {
         "official": "Ketiv/Qere. In *nilḥam-bāh* / *bām* the consonantal text has בה “against her/it,” and the Masoretes read בָּם “against them.” The line follows the qere (overlay `mt-qere-textual-policy-isaiah`), with ASV and JPS 1917 “with them” (checked). NJPS has “with him” and marks the verse as uncertain (checked).\n\n*Maṭṭēh mûsāḏāh* “the appointed staff” (ASV, JPS 1917) is literally a “staff of foundation,” the staff YHWH has destined. An emendation to *mûsārô* “of his chastisement” has been proposed (not verified). *Kōl maʿăḇar* “every passing” (ASV “every stroke”; JPS 1917 “every place where … shall pass”). *Bᵉṯuppîm ûḇᵉḵinnōrôṯ* “with timbrels and lyres” are the instruments of 5:12 and 24:8 (ASV “tabrets and harps”): each blow falls to the music of the festival of v. 29. In *bᵉmilḥămôṯ tᵉnûp̄āh* “in battles of brandishing,” *tᵉnûp̄āh* is the waving, the word used for the wave offering (Exod 29:24), here the brandished arm or weapon (ASV “battles with the brandishing [of his arm]”; JPS 1917 “battles of wielding”; overlay `lexical-cruxes-isaiah-30`).",
         "community": []
-      }
+      },
+      "translit": "wəhāyāh kōl maʿăbar maṭṭēh mūsādāh ʾăšer yānīaḥ YHWH ʿālāyw bətuppīm ūbəkinnōrōt ūbəmilḥămōt tənūpāh nilḥam-bh [bām]"
     },
     {
       "n": 33,
@@ -1124,7 +1157,8 @@
       "notes": {
         "official": "*Kî-ʿārûḵ mēʾeṯmûl tāp̄teh* “For a Topheth has been prepared from of old”: *tāp̄teh* occurs only here and is a form of *tōp̄eṯ*, the burning place in the Valley of Hinnom where children were burned (2 Kgs 23:10; Jer 7:31–32; 19:6). ASV prints “a Topheth” and NJPS “The Topheth,” with a note on the site; JPS 1917 renders a common noun, “a hearth” (all checked). Targum Jonathan renders “Gehinnom” (checked), the later name of the valley. The chain from Hinnom to Gehenna is documented under central `gehenna-valley-of-hinnom-1-enoch-27-nt-cross-corpus`; the line keeps the place name.\n\nKetiv/Qere. In *gam-hûʾ* / *hîʾ* the consonantal text has the masculine הוא, and the Masoretes read the feminine הִיא, which agrees with *tāp̄teh*. The line follows the qere, “it too” (overlay `mt-qere-textual-policy-isaiah`).\n\n*Lammeleḵ hûḵān* “is made ready for the king”: MT points *meleḵ* “king,” and ASV and JPS 1917 have “for the king” (checked). NJPS reads “He too is destined for Melech” and refers to Molech (Lev 18:21; 20:2–5; checked). The consonants allow the allusion, because Topheth was the site of the *mōleḵ* rite (2 Kgs 23:10; Jer 32:35 names the Hinnom valley and Molech), and the king of Assyria is the victim on either reading. Targum Jonathan reads “the eternal King hath prepared it” (checked). The line keeps MT's pointing (overlay `lexical-cruxes-isaiah-30`).\n\n*Heʿmîq hirḥiḇ mᵉḏurāṯāh ʾēš wᵉʿēṣîm harbēh* “he has made it deep and wide; its pyre is fire and wood in abundance” follows ASV's division. NJPS takes *mᵉḏurāṯāh* as the subject of a passive, “His firepit has been made both wide and deep” (checked). *Nišmaṯ YHWH kᵉnaḥal gāp̄rîṯ* “the breath of YHWH, like a stream of sulfur, kindles it” (central `gophrit-va-esh-destruction-formula`, “sulfur”; ASV “brimstone”).",
         "community": []
-      }
+      },
+      "translit": "kī-ʿārūk mēʾetmūl tāpətteh gam-hwʾ [hīʾ] lammelek hūkān heʿmīq hirḥib mədurātāh ʾēš wəʿēṣīm harbēh nišmat YHWH kənaḥal gāpərīt bōʿărāh bāh (s)"
     }
   ],
   "editorial_questions": []

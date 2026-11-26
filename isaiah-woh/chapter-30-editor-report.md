@@ -213,3 +213,13 @@ These were applied after the Reviewer's pass, at the coordinator's instruction. 
 4. **ISA-30:33 (Reviewer: non-blocking).** The Topheth–Molech link now cites 2 Kgs 23:10, with the note that Jer 32:35 names the Hinnom valley and Molech but not Topheth.
 
 The founder decisions above are unchanged: 30:30 *hôḏ* "grandeur", 30:10 "visionaries", and 30:20 "your teacher".
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-5 on 2026-11-26 through an interactive form and chose every recommended option. No English line changes as a result; only notes and glossary-diff wording were updated. The wave merges as overlay 4.0.0 and central 5.0.0.
+
+- **`hod-grandeur-isaiah`** (30:30 "the grandeur of his voice"): accepted. NJPS "majesty" stays recorded as the alternative.
+- **`roeh-chozeh-seer-visionary-isaiah`** (30:10 "seers … visionaries"): accepted. ASV "prophets" stays recorded as the alternative.
+- **30:20 "your teacher"** (`lexical-cruxes-isaiah-30`): accepted.
+- The "pending" and "escalated" wording has been removed from the overlay diff (version note, hod wohChoice and rationale, roeh-chozeh rationale) and from the 30:30 note.
+- Ch. 30 has no speculative paragraph (the 30:26 paragraph was dropped after review).

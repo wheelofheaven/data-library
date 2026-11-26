@@ -9,5 +9,6 @@ NJPS/JPS notes (33:8, 35:4), a false cross-reference (35:1), an unsupported crea
 note dropped), KJV and Talmud slips (34:14), a wrong Strong's number, a non-concordant "thus said" (30:15), an
 accent-misdivided line (28:26).
 
-Decisions are put to the founder as an interactive form; this file is the audit record. Staged alternatives are marked
-"PENDING FOUNDER RULING" in the diffs.
+**Founder sign-off 2026-11-26** (interactive form, every recommended option): 35:10 "the ransomed of YHWH" (central goel
+clause); 30:30 "grandeur"; 30:10 "seers / visionaries"; 30:20 "your teacher"; 34:14 "the night-monster", "the wild goat";
+28:4, 24–28 he/his after neutral nouns; 31:8 "forced labor"; 31:4 "upon"; all seven labelled reception notes kept.
