@@ -6,20 +6,20 @@
   "title": "Isaiah 17 — The oracle concerning Damascus: the thinning of Jacob's glory, the pleasant plants, and the roaring of the peoples",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.17",
-    "glossaryVersion": "3.0.0",
-    "overlayGlossaryVersion": "2.0.0",
+    "glossaryVersion": "4.0.0",
+    "overlayGlossaryVersion": "3.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T15:11:19Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T20:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T15:11:19Z",
@@ -341,7 +341,8 @@
         "Citations marked [memory] (BDB, HALOT, Joüon-Muraoka, Wildberger, Plato) are the reviewer's recall and were not verified against the editions. Every ASV, KJV, JPS 1917 and NJPS quotation was checked against a live fetch on 2026-11-26.",
         "For the human: (1) the 17:10 revise, which softens 'a Phoenician epithet of Adonis' in the comparative paragraph and verifies the paragraph against one commentary; (2) 17:11, where the Editor offers a fallback to option B (keep ASV 'fleeth away') if the founder prefers the majority modern sense to the strict MT pointing. The reviewer approves C (MT 'heap'). (3) Optional commentary refinements, none blocking: 17:3 casus-pendens nuance; 17:7 name the 2:8/2:20 echo and the narrower 'people' option; 17:9 'mountain' is ASV's contextual supply; 17:11 NJPS 'see it grow' is not causative. One optional line refinement: 17:2 'which shall lie down'."
       ]
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -380,7 +381,7 @@
         "official": "*ʿĂzuḇôṯ ʿārê ʿărōʿēr* “The cities of Aroer are forsaken” follows MT, as do ASV, JPS 1917 and NJPS. Aroer is otherwise a town on the Arnon (Deut 2:36; Josh 13:9) or a town of Gad near Rabbah (Josh 13:25), so the name is unexpected in an oracle on Damascus. NJPS notes that an emendation, with support from the Septuagint, yields “Its towns shall be deserted forevermore,” reading *ʿăḏê ʿaḏ* “for ever” for *ʿārê ʿărōʿēr*. The Septuagint wording itself was not checked against an edition. The line keeps MT under the book's textual policy (overlay `mt-qere-textual-policy-isaiah`).\n\nThe Hebrew separates the feminine *tihyeynāh* “they (the cities) shall be” from the masculine *wᵉrāḇᵉṣû* “and they (the flocks) shall lie down.” The line therefore renders the second verb as a relative clause, “which shall lie down,” with ASV and JPS 1917, so that the flocks, not the cities, lie down (overlay `lexical-cruxes-isaiah-17`). *Wᵉʾên maḥărîḏ* “and none shall make them afraid” is a stock phrase of secure rest (Lev 26:6; Mic 4:4). Here it describes flocks grazing where the towns stood.",
         "community": []
       },
-      "translit": "ʿăzubōt ʿārê ʿărōʿēr laʿădārīm tihyeynāh wərābəṣū wəʾên maḥărīd"
+      "translit": "ʿăzubōt ʿārē ʿărōʿēr laʿădārīm tihyēnāh wərābəṣū wəʾēn maḥărīd"
     },
     {
       "n": 3,
@@ -394,13 +395,14 @@
         "aram-names-isaiah",
         "yhwh-tzevaot-hosts-isaiah",
         "mt-qere-textual-policy-isaiah",
-        "lexical-cruxes-isaiah-17"
+        "lexical-cruxes-isaiah-17",
+        "kavod-nondivine-glory-isaiah"
       ],
       "notes": {
         "official": "The athnach falls on *ʾărām*, so the first half-verse closes with *ûšᵉʾār ʾărām* “and the remnant of Aram.” Read with the accents, the phrase either joins the list of what ceases, or stands fronted as the subject of what follows (“and the remnant of Aram: they shall be …”), since a disjunctive accent can also close a fronted subject. *Kiḵḇôḏ bᵉnê-yiśrāʾēl yihyû* “they shall be like the glory of the children of Israel” then follows as its own clause. The line follows ASV, and its semicolon allows both readings. JPS 1917 (“and the remnant of Aram shall be as the glory of the children of Israel”) and NJPS (“The remnant of Aram shall become like the mass of Israelites”) make the remnant of Aram the subject of the plural verb. On either construal, Aram's remnant will fare as Israel's glory fares in 17:4.\n\n*Kāḇôḏ* is “glory” under the strict wave concordance, in this verse and the next. The comparison turns on the word's basic sense of weight and substance: NJPS renders it “mass” in both verses, and 17:4 develops it with the image of flesh growing lean. NJPS also records an emendation of “Ephraim” to “Aram” in the first clause; MT is kept (overlay `mt-qere-textual-policy-isaiah`). *Nᵉʾum YHWH ṣᵉḇāʾôṯ* is “says YHWH of hosts” (overlay `yhwh-tzevaot-hosts-isaiah`).",
         "community": []
       },
-      "translit": "wənišbat mibṣār mēʾeprayim ūmamlākāh middammeśeq ūšəʾār ʾărām kikbōd bənê-yiśrāʾēl yihyū nəʾum YHWH ṣəbāʾōt"
+      "translit": "wənišbat mibṣār mēʾeprayim ūmamlākāh middammeśeq ūšəʾār ʾărām kikbōd bənē-yiśrāʾēl yihyū nəʾum YHWH ṣəbāʾōt (s)"
     },
     {
       "n": 4,
@@ -411,7 +413,8 @@
         "he": "וְהָיָה֙ בַּיּ֣וֹם הַה֔וּא יִדַּ֖ל כְּב֣וֹד יַעֲקֹ֑ב וּמִשְׁמַ֥ן בְּשָׂר֖וֹ יֵרָזֶֽה׃"
       },
       "glossaryRefs": [
-        "lexical-cruxes-isaiah-17"
+        "lexical-cruxes-isaiah-17",
+        "kavod-nondivine-glory-isaiah"
       ],
       "notes": {
         "official": "*Yiddal kᵉḇôḏ yaʿăqōḇ* “the glory of Jacob shall be made thin”: *dll* “be low, thin” and *rzh* “grow lean” describe a body losing its fat, so *kāḇôḏ* here carries its physical sense of weight. The line keeps “glory” under the wave concordance, with ASV and JPS 1917. NJPS reads “The mass of Jacob shall dwindle.”",
@@ -434,7 +437,7 @@
         "official": "*Keʾĕsōp̄ qāṣîr qāmāh* “as when the harvester gathers the standing grain”: MT *qāṣîr* normally means “harvest,” and here it stands for the one who harvests. ASV and JPS 1917 have “the harvestman,” and NJPS has “the reaper.” Repointing to *qōṣēr* “reaper” gives the same sense and is not needed. *Ûzᵉrōʿô šibbŏlîm yiqṣôr* “and his arm reaps the ears” follows ASV (NJPS “who reaps ears by the armful”).\n\n*ʿĒmeq rᵉp̄āʾîm* “the valley of Rephaim” is the place name near Jerusalem (Josh 15:8; 2 Sam 5:18, 22), and it is transliterated. The overlay `rephaim-shades-dead-isaiah-26` (“the shades”) and the central `refaim-giant-peoples` govern the common noun. Both are deliberately not applied to the place name (overlay `lexical-cruxes-isaiah-17`).",
         "community": []
       },
-      "translit": "wəhāyāh keʾĕsōp qāṣīr qāmāh ūzərōʿō šibbŏlīm yiqṣōr wəhāyāh kiməlaqqēṭ šibbŏlīm bəʿēmeq rəpāʾīm"
+      "translit": "wəhāyāh keʾĕsōp qāṣīr qāmāh ūzərōʿō šibbŏlīm yiqṣōr wəhāyāh kimlaqqēṭ šibbŏlīm bəʿēmeq rəpāʾīm"
     },
     {
       "n": 6,
@@ -452,7 +455,7 @@
         "official": "*Bisʿip̄ehā pōriyyāh* “in the branches of the fruitful tree”: literally “in its branches, the fruitful one.” A feminine suffix is followed by a feminine participle of *prh* “bear fruit” in apposition. NJPS gives the literal sense in a note (“on her boughs, the many-branched one”) and renders “on the boughs of the crown.” ASV adds “outmost” (“in the outmost branches of a fruitful tree”). The line follows JPS 1917, “in the branches of the fruitful tree.” *ʾĀmîr* “uppermost bough” recurs in 17:9.\n\n*Kᵉnōqep̄ zayiṯ* “like the beating of an olive tree” and *ʿôlēlōṯ* “gleanings” are the harvest images of the stable 24:13, and the English follows that verse. *Nᵉʾum YHWH ʾĕlōhê yiśrāʾēl* is “says YHWH, the God of Israel” (overlay `elohei-yisrael-god-of-israel-isaiah-24`).",
         "community": []
       },
-      "translit": "wənišʾar-bō ʿōlēlōt kənōqep zayit šənayim šəlōšāh gargərīm bərōʾš ʾāmīr ʾarbāʿāh ḥămiššāh bisʿipehā pōriyyāh nəʾum-YHWH ʾĕlōhê yiśrāʾēl"
+      "translit": "wənišʾar-bō ʿōlēlōt kənōqep zayit šənayim šəlōšāh gargərīm bərōʾš ʾāmīr ʾarbāʿāh ḥămiššāh bisʿipēhā pōriyyāh nəʾum-YHWH ʾĕlōhē yiśrāʾēl (s)"
     },
     {
       "n": 7,
@@ -470,7 +473,7 @@
         "official": "*Yišʿeh hāʾāḏām ʿal-ʿōśēhû* “humankind shall look to their Maker”: the articular *hāʾāḏām* is generic. Under the book's rule it is “humankind,” and its singular suffixes take English plural pronouns (overlay `adam-humankind-ish-man-isaiah`). ASV has “men … their Maker,” JPS 1917 “a man … his Maker,” and NJPS “men … their Maker.” The choice of “humankind” also follows the book's own echo: 17:7–8 reuses the idol vocabulary of 2:8 and 2:20 (“the work of their hands … what their fingers have made”; “In that day humankind shall cast away their idols”), where the book already prints “humankind.” The English word leans more universal than the Hebrew. The Hebrew does not say whether humanity at large is meant or the survivors of 17:4–6, and a narrower rendering, “people,” is possible.\n\n*ʿŌśeh* “Maker” is the participle of *ʿśh* “make” (central `asah`; compare “your Maker” at 54:5). The next verse uses the same verb for the altars, “the work (*maʿăśēh*) of their hands,” and for what their fingers “have made” (*ʿāśû*). The English keeps “make” in both verses so that the contrast between the Maker and the things made stays visible. The two verbs are also kept distinct in both verses: *šʿh ʿal / ʾel* “look to” and *rʾh ʾel* “regard” (ASV “look unto … have respect to”; NJPS “turn to … look to”).",
         "community": []
       },
-      "translit": "bayyōm hahūʾ yišʿeh hāʾādām ʿal-ʿōśēhū wəʿênāyw ʾel-qədōš yiśrāʾēl tirʾeynāh"
+      "translit": "bayyōm hahūʾ yišʿeh hāʾādām ʿal-ʿōśēhū wəʿēnāyw ʾel-qədōš yiśrāʾēl tirʾēnāh"
     },
     {
       "n": 8,
@@ -508,7 +511,7 @@
         "official": "*Kaʿăzûḇaṯ haḥōreš wᵉhāʾāmîr* “like the forsaken places of the wood and of the mountain top” follows MT, with ASV. The phrase is obscure. JPS 1917 has “after the manner of woods and lofty forests,” and NJPS transliterates the nouns as names, “the Horesh and the Amir.” NJPS notes that the Septuagint reads “the Amorites and the Hivites.” That reading suits the clause that follows, about those who left “before the children of Israel.” NRSV is recalled as adopting it (not verified). The line keeps MT (overlay `mt-qere-textual-policy-isaiah`).\n\n*ʾĀmîr* was “uppermost bough” in 17:6, and the line takes ASV's “mountain top” here, where the image moves from a tree to the landscape. The noun itself means only “top, summit”; “mountain” is ASV's addition from the context. KJV keeps the tree (“an uppermost branch”). The departure from concordance is recorded in the overlay `lexical-cruxes-isaiah-17`.\n\n*ʿĀrê māʿuzzô* “their strong cities”: the suffix is singular (“his,” JPS 1917), probably referring to Jacob of 17:4. ASV and NJPS have “their.” The noun *māʿôz* returns in *ṣûr māʿuzzēḵ* “the rock of your stronghold” in 17:10, and the two verses are linked by it (overlay `maoz-shalom-refuge-peace-isaiah-27`). *ʾĂšer ʿāzᵉḇû* is active, “which they forsook” (NJPS “abandoned”; ASV passive “which were forsaken”).",
         "community": []
       },
-      "translit": "bayyōm hahūʾ yihyū ʿārê māʿuzzō kaʿăzūbat haḥōreš wəhāʾāmīr ʾăšer ʿāzəbū mippənê bənê yiśrāʾēl wəhāyətāh šəmāmāh"
+      "translit": "bayyōm hahūʾ yihyū | ʿārē māʿuzzō kaʿăzūbat haḥōreš wəhāʾāmīr ʾăšer ʿāzəbū mippənē bənē yiśrāʾēl wəhāyətāh šəmāmāh"
     },
     {
       "n": 10,
@@ -529,7 +532,7 @@
         "official": "*Niṭʿê naʿămānîm* “pleasant plants” follows ASV (JPS 1917 “plants of pleasantness”; NJPS “a delightful sapling”). The adjective *naʿămān* is from *nʿm* “be pleasant.” In *ûzᵉmōraṯ zār tizrāʿennû* “and sow it with strange slips,” *zᵉmōrāh* is a vine shoot or cutting and *zār* is “strange, foreign.” ASV has “strange slips” and JPS 1917 “slips of a stranger.” NJPS has “What you sow proves a disappointing slip,” and NRSV is recalled as “slips of an alien god” (not verified). NJPS notes that an emendation, followed by the Vulgate, yields “true” for “delightful” (cf. Jer 2:21); MT is kept (overlay `mt-qere-textual-policy-isaiah`). The verb *zrʿ* is rendered literally, “sow” (ASV “settest”).\n\n*ʾĔlōhê yišʿēḵ* “the God of your salvation” and *ṣûr māʿuzzēḵ* “the rock of your stronghold” are construct epithets (overlay `elohei-yisrael-god-of-israel-isaiah-24`). “Rock” is lower-case as a divine epithet, as at 26:4 and 44:8 (overlay `yah-tzur-olamim-everlasting-rock-isaiah-26`). ASV has “the rock of thy strength,” JPS 1917 “the Rock of thy stronghold,” and NJPS “the Rock who shelters you.” *Māʿôz* is “stronghold,” as at 27:5 (overlay `maoz-shalom-refuge-peace-isaiah-27`). The address is feminine singular, as often for a city or people, and is rendered “you.”\n\n**Comparative note (history-of-religions reading, not adopted in the line).** Several modern commentators read *niṭʿê naʿămānîm* as “plantings of the Pleasant One.” They take *Naʿămān* as an epithet of Adonis, an inference from Ugaritic *nʿmn* “gracious” and the Arabic name of the anemone, and see here the “gardens of Adonis”: plantings forced into quick growth and left to wither in a rite of mourning for the god. This account of the scholarship is recalled from memory, and the editions (for example Wildberger or Blenkinsopp on 17:10) were not checked. The reading draws on 17:11, where the planting sprouts in a day and fails, and on the cult of Tammuz denounced at Ezek 8:14 (NJPS “bewailing Tammuz”). The Hebrew names no deity, and ASV, JPS 1917 and NJPS all render the word as an adjective. The comparative material is collected in the central `dumuzi-tammuz-adonis-dying-and-rising-vegetation-god-cross-corpus`, which is not applied here because the line names no god. Compare “the gardens that you have chosen” at 1:29.",
         "community": []
       },
-      "translit": "kī šākaḥat ʾĕlōhê yišʿēk wəṣūr māʿuzzēk lōʾ zākārt ʿal-kēn tiṭṭəʿī niṭʿê naʿămānīm ūzəmōrat zār tizrāʿennū"
+      "translit": "kī šākaḥatt ʾĕlōhē yišʿēk wəṣūr māʿuzzēk lōʾ zākārətt ʿal-kēn tiṭṭəʿī niṭʿē naʿămānīm ūzəmōrat zār tizrāʿennū"
     },
     {
       "n": 11,
@@ -547,7 +550,7 @@
         "official": "*Tᵉśaḡśēḡî* “you make it grow”: the form occurs only here. It stands parallel to *taprîḥî* “you make (your seed) blossom,” and JPS 1917 (“thou didst make it to grow”) and KJV (“make thy plant to grow”) read it as “make grow.” NJPS (“you see it grow”) also takes the word as growth, though not as causative. ASV's “thou hedgest it in” derives the form from *śûḡ* “fence about.” The Translator's draft followed ASV. The line now follows the parallelism, JPS 1917 and KJV, and the sense of growth that NJPS shares (overlay `lexical-cruxes-isaiah-17`).\n\n*Nēḏ qāṣîr* “the harvest shall be a heap”: as pointed, *nēḏ* is the noun “heap,” as in the waters that stood “as a heap” (Exod 15:8; Josh 3:13, 16; Ps 33:7; 78:13). KJV (“the harvest shall be a heap”) and JPS 1917 (“A heap of boughs”) follow the pointing. ASV (“the harvest fleeth away”) and NJPS (“the branches wither away”) take the word from the verb *nwd* “wander, flee,” whose perfect would normally be pointed *nāḏ*. The line keeps the Masoretic pointing (overlay `mt-qere-textual-policy-isaiah`). JPS 1917 and NJPS take *qāṣîr* in its second sense, “bough” (cf. Ps 80:12; Job 14:9; recalled, not verified). The line keeps “harvest,” the sense the word has in 17:5.\n\n*Bᵉyôm naḥălāh* “in the day of grief”: *naḥălāh* is spelled like the noun “inheritance,” but here it is read as the Niphal participle of *ḥlh* “be sick,” as in *makkāh naḥlāh* “a grievous wound” (Jer 14:17; Nah 3:19). This agrees with ASV and JPS 1917 “grief” and NJPS “sickness,” and it pairs with *kᵉʾēḇ ʾānûš* “desperate sorrow” (ASV; JPS 1917 “desperate pain”; NJPS “mortal agony”).",
         "community": []
       },
-      "translit": "bəyōm niṭʿēk təśagśēgī ūbabbōqer zarʿēk tapriḥī nēd qāṣīr bəyōm naḥălāh ūkəʾēb ʾānūš"
+      "translit": "bəyōm niṭʿēk təśagśēgī ūbabbōqer zarʿēk taprīḥī nēd qāṣīr bəyōm naḥălāh ūkəʾēb ʾānūš (s)"
     },
     {
       "n": 12,
@@ -582,7 +585,7 @@
         "official": "*Ûḵᵉḡalgal lip̄nê sûp̄āh* “and like whirling dust before the storm” follows ASV and JPS 1917. *Galgal* is a wheel or anything that whirls; here it is the dry plant-head that rolls before the wind (NJPS “tumbleweed”; KJV “a rolling thing”). *Sûp̄āh* is printed “whirlwind” at 5:28 and 29:6. The line keeps ASV's “storm” here, to avoid “whirling … whirlwind” in one phrase, and records the departure in the overlay `lexical-cruxes-isaiah-17`. NJPS has “gale.”\n\n*Wᵉḡāʿar bô* “but he shall rebuke them”: the suffix is singular, treating the nations as a collective, and is rendered “them” with ASV. The Hebrew does not name the subject. KJV supplies “God” in italics, and NJPS has “He.”",
         "community": []
       },
-      "translit": "ləʾummīm kišʾōn mayim rabbīm yiššāʾūn wəgāʿar bō wənās mimmerḥāq wəruddap kəmōṣ hārīm lipnê-rūaḥ ūkəgalgal lipnê sūpāh"
+      "translit": "ləʾummīm kišʾōn mayim rabbīm yiššāʾūn wəgāʿar bō wənās mimmerḥāq wəruddap kəmōṣ hārīm lipnē-rūaḥ ūkəgalgal lipnē sūpāh"
     },
     {
       "n": 14,
@@ -599,7 +602,7 @@
         "official": "*Bᵉṭerem bōqer ʾênennû* “before morning they are no more”: *ʾênennû* is singular (“he is not”), with the attacking host as a collective. ASV and JPS 1917 have “they are not,” and NJPS “it is no more.” *Šōsênû* “those who despoil us” follows ASV. *Ḇōzᵉzênû* “those who plunder us” keeps the book's “plunder” for *bzz* (10:2, 6; 13:16; 24:3), against ASV and JPS 1917 “rob.” *Ḥēleq* “portion” and *gôrāl* “lot” are the words for an allotted share.",
         "community": []
       },
-      "translit": "ləʿēt ʿereb wəhinnēh ballāhāh bəṭerem bōqer ʾênennū zeh ḥēleq šōsênū wəgōrāl ləbōzəzênū"
+      "translit": "ləʿēt ʿereb wəhinnēh ballāhāh bəṭerem bōqer ʾēnennū zeh ḥēleq šōsēnū wəgōrāl ləbōzəzēnū (s)"
     }
   ],
   "editorial_questions": []

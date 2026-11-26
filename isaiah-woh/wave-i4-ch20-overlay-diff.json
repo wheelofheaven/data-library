@@ -4,7 +4,7 @@
     "from": "2.0.0",
     "to": "2.1.0",
     "readBase": "2.0.0",
-    "note": "Isaiah wave I-4, chapter 20 Editor. Read base: overlay v2.0.0 (read-only). Contents: 1 add op (lexical-cruxes-isaiah-20, direct) and 5 modify ops (appliesTo extensions with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. DEPENDENCY: chapter-20 glossaryRefs cite cush-names-isaiah at 20:3-5. That entry is added by the chapter 18 Editor's overlay diff (coordinator instruction), and this diff deliberately does not create or modify it. If its appliesTo does not already list ISA-20:3, ISA-20:4 and ISA-20:5, add them at merge. CONCURRENCY: the chapter 16-23 Editors work from the same base. Merge as a union and re-base each appliesTo as (merged array + appliesToAdded). aram-names-isaiah and title-and-meta-conventions-isaiah are the likeliest overlaps."
+    "note": "Isaiah wave I-4, chapter 20 Editor. Read base: overlay v2.0.0 (read-only). Contents: 1 add op (lexical-cruxes-isaiah-20, direct) and 5 modify ops (appliesTo extensions with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. DEPENDENCY: chapter-20 glossaryRefs cite cush-names-isaiah at 20:3-5. That entry is added by the chapter 18 Editor's overlay diff (coordinator instruction), and this diff deliberately does not create or modify it. If its appliesTo does not already list ISA-20:3, ISA-20:4 and ISA-20:5, add them at merge. CONCURRENCY: the chapter 16-23 Editors work from the same base. Merge as a union and re-base each appliesTo as (merged array + appliesToAdded). aram-names-isaiah and title-and-meta-conventions-isaiah are the likeliest overlaps. Founder ruling 2026-11-26 (wave I-4 sign-off, decision 9): the modify op extending tsemach-yhwh-branch-isaiah-4 to ISA-20:5 (tip̄ʾereṯ item) is withdrawn. 20:5 is governed by the new book-wide tiferet-honor-isaiah (orchestrator ops add), which carries this Editor's 20:5 reasoning, and the 20:5 glossaryRef is changed to that id."
   },
   {
     "op": "add",
@@ -60,14 +60,6 @@
       "ISA-20:3"
     ],
     "rationaleAppend": "Wave I-4 extension, limited to the ʾôṯ / môp̄ēṯ item: the singular pair ʾôṯ ûmôp̄ēṯ at 20:3 is 'a sign and a wonder' (ASV, JPS 1917; NJPS 'a sign and a portent', checked on Sefaria), concordant with 'for signs and for wonders' at 8:18. The preposition 'for' is supplied, as in ASV. The prophet's own body as the môp̄ēṯ (cf. Ezek 12:6, 11; 24:24, 27) is explained in commentary. When the wave cruxes are consolidated, this item is a candidate for a dedicated book-wide ʾôṯ / môp̄ēṯ entry."
-  },
-  {
-    "op": "modify",
-    "id": "tsemach-yhwh-branch-isaiah-4",
-    "appliesToAdded": [
-      "ISA-20:5"
-    ],
-    "rationaleAppend": "Wave I-4 extension, limited to the tip̄ʾereṯ item: tip̄ʾartām at 20:5 is 'their honor', the book default under wave I-4 ruling 2. ASV and JPS 1917 have 'their glory', which is reserved for kāḇôḏ, and NJPS has 'their boast' (checked on Sefaria). The sense is what the people boasted in, Egypt as the power they relied on. The idiom permits 'honor', so the default stands. The 10:12 departure ('boasting', lexical-cruxes-isaiah-10) is not extended, because there the noun is pejorative. Orchestrator: the tip̄ʾereṯ default now governs 4:2 and 20:5 from inside a ṣemaḥ entry, and 13:19 ('splendor') is still unreconciled. A dedicated book-wide tip̄ʾereṯ entry is recommended at merge."
   },
   {
     "op": "modify",

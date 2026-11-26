@@ -141,3 +141,13 @@ Changes are confined to `notes.official` in `chapter-16.json` and two entries in
 
    Jer's gēʾeh for gēʾ at 48:29 was also noted. The rationale sentence now reads "records the differences that affect the English (completed after the wave I-4 review, which found four omitted)".
 5. **ISA-16:2 note (Reviewer nit).** The note no longer implies that the Arnon appears in chapter 15. It now reads: "The Arnon is not named in chapter 15; the verse adds it to the Moabite places of that lament." Ruling 3 has the same slip; that is for the orchestrator to note.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-4 on 2026-11-26, choosing every recommended option in `wave-i4-signoff-package.md`. `translation.status` and the `reviewerReport` block are unchanged; the orchestrator promotes the chapter. Statements above marked pending, staged or escalated are settled as follows.
+
+- **Decision 9, non-divine kāḇôḏ:** the book-wide overlay entry `kavod-nondivine-glory-isaiah` (direct) is created at merge through `wave-i4-orchestrator-ops.json` (`overlay.add`). This chapter's site 16:14 ("the glory of Moab") carries it in glossaryRefs.
+- **Decision 6, 16:11:** "my inner parts … my inmost being" stands (`meim-inner-parts-isaiah`); "heart" stays with lēḇ.
+- **16:6 gāʾôn "pride" and the chapter-16 adds** (`shnei-sakhir-years-of-hireling-isaiah`, `gaon-pride-human-arrogance-isaiah` and the rest) are ratified with the recommended defaults. The chapter 21 and 23 extensions of those entries apply after this chapter's adds.

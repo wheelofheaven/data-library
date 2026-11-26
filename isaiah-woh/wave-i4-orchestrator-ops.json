@@ -1,10 +1,95 @@
 {
-  "_note": "Wave I-4 (Isaiah 16-23). Orchestrator-assigned refs in chapters outside the wave; extended as Editors report merge items.",
+  "_note": "Wave I-4 (Isaiah 16-23). Orchestrator-assigned refs in chapters outside the wave; extended as Editors report merge items. Founder sign-off 2026-11-26 (wave-i4-signoff-package.md, every recommended option): central.set on rider-of-the-clouds-rkb-arpt-cross-corpus-ugaritic-hebrew-bible-storm-theophany is ratified (decision 10); overlay adds tiferet-honor-isaiah, kavod-nondivine-glory-isaiah and tsevi-beauty-isaiah (decisions 8-9); overlay.set rewrites tsemach-yhwh-branch-isaiah-4 and choter-netser-geza-shoot-twig-stock-isaiah-11 for the stable patches 13:19 and 14:19 (decisions 8, 11). Existing wohChoice/rationale fields change, so the bumps are major: overlay 3.0.0, central 4.0.0.",
   "overlay": {
     "appliesToAdd": {
       "bgd-shdd-treachery-destroyer-isaiah": [
         "ISA-24:16"
+      ],
+      "choter-netser-geza-shoot-twig-stock-isaiah-11": [
+        "ISA-14:19"
       ]
+    },
+    "add": [
+      {
+        "id": "tiferet-honor-isaiah",
+        "source": "תִּפְאֶרֶת",
+        "translit": "tip̄ʾereṯ",
+        "strongs": "H8597 (tip̄ʾereṯ / tip̄ʾārāh 'beauty, glory, honour, boasting'); cf. H6286 (pāʾar, Hithpael 'glorify oneself, boast', 10:15; 44:23). Strong's numbers from model recall, not concordance-verified.",
+        "lemma": "tip̄ʾereṯ 'ornament, beauty, glory, honour; boasting' (root pʾr)",
+        "partOfSpeech": "noun (feminine), absolute and construct, with and without suffixes",
+        "literal": "adornment, beauty; that in which one glories or takes pride",
+        "standardEnglish": "ASV 'the beauty of their anklets' (3:18), 'excellent and comely' (4:2, adjectival), 'the glory of his high looks' (10:12), 'the beauty of the Chaldeans' pride' (13:19), 'their glory' (20:5), 'according to the beauty of a man' (44:13); JPS 1917 'the bravery of their anklets' (3:18), 'the glory of his haughty looks' (10:12), 'the beauty of the Chaldeans' pride' (13:19), 'their glory' (20:5), 'according to the beauty of a man' (44:13); NJPS 'the finery' (3:18), 'majestic pride' (10:12), 'Proud splendor of the Chaldeans' (13:19), 'their boast' (20:5), 'The beauty of a man' (44:13) (Sefaria, checked 2026-11-26)",
+        "wohChoice": "'honor' is the book default for tip̄ʾereṯ (wave I-4 ruling 2; founder ruling 2026-11-26): 4:2 'pride and honor'; 20:5 'Egypt their honor'. The default keeps 'glory' for kāḇôḏ (kavod-nondivine-glory-isaiah), 'splendor' for hāḏār (hadar-splendor-isaiah), 'beauty' for ṣᵉḇî (tsevi-beauty-isaiah) and 'majesty' for gāʾôn. Recorded departures, where the idiom does not allow 'honor': 3:18 'the finery of the anklets' (ornament; daughters-of-zion-finery-isaiah-3); 10:12 'the boasting of his haughty looks' (pejorative, tied to the Hithpael 'boast itself' of 10:15; lexical-cruxes-isaiah-10); 13:19 'the splendor of the pride of the Chaldeans' (Babylon as the Chaldeans' ornament; NJPS 'Proud splendor'; 'beauty' is taken by ṣᵉḇî in the same verse); 44:13 'with the beauty of a human being' (the physical form of the idol; ASV, JPS 1917, NJPS 'beauty'). The stable departures are recorded, not reopened. Future sites take 'honor' unless their Editor records a departure here.",
+        "claim_type": "direct",
+        "rationale": "tip̄ʾereṯ is the ornament or beauty in which someone takes pride, and so also that pride itself, honour or boasting (BDB; HALOT; recalled). The English versions render it by context, 'beauty', 'glory', 'bravery', 'finery', 'boast' and 'splendor', and ASV's commonest choice, 'glory', would merge it with kāḇôḏ, which wave I-4 ruling 2 keeps strict. 'Honor' is the sense of the word in the triad 'for praise, for fame and for honor' (Deut 26:19; Jer 13:11), and the stable 4:2 and the wave I-4 20:5 already print it. At 20:5 the noun is what the people boasted in, Egypt as the power they relied on (NJPS 'their boast'), and 'their honor' gives that sense without 'glory'. Where 'honor' would invert or obscure the sense, the book has departed and the departures are listed in wohChoice so that a reader can audit them: an item of jewellery (3:18), the Assyrian king's arrogance (10:12), Babylon as ornament (13:19, where 'beauty' now renders ṣᵉḇî after the founder's ruling) and the beauty of the human form (44:13, which shares 'beauty' with ṣᵉḇî as a recorded collision). The entry was created at the wave I-4 sign-off (founder ruling 2026-11-26), as the chapter 20 Editor and Reviewer recommended, to take the tip̄ʾereṯ item out of the verse-scoped tsemach-yhwh-branch-isaiah-4. The renderings are standard glosses and carry no lens, so the claim is direct.",
+        "appliesTo": [
+          "ISA-3:18",
+          "ISA-4:2",
+          "ISA-10:12",
+          "ISA-13:19",
+          "ISA-20:5",
+          "ISA-44:13"
+        ]
+      },
+      {
+        "id": "kavod-nondivine-glory-isaiah",
+        "source": "כָּבוֹד (of persons, peoples and their possessions)",
+        "translit": "kāḇôḏ",
+        "strongs": "H3519 (kāḇôḏ 'weight, abundance, honour, glory'); cf. H3513 (kāḇēḏ 'be heavy, be honoured'). Strong's numbers from model recall, not concordance-verified.",
+        "lemma": "kāḇôḏ 'weight; wealth, abundance; dignity, honour; glory', here of human beings, nations, cities and their goods",
+        "partOfSpeech": "noun (masculine), absolute and construct, with and without suffixes",
+        "literal": "weight, heaviness; hence substance, dignity, glory",
+        "standardEnglish": "ASV 'glory' at 8:7; 10:3, 16, 18; 14:18; 16:14; 17:3, 4; 21:16; 22:18, 23, 24, 'glorious' at 4:2 and 11:10, and 'their honorable men' at 5:13; JPS 1917 'glory' at most of these sites, 'their honourable men' (5:13), 'a throne of honour' (22:23); NJPS by context: 'all his multitude' (8:7), 'your carcasses' (10:3), 'its body' (10:16), 'the mass' (10:18; 17:4), 'shall be honored' (11:10), 'in honor' (14:18), 'Moab's population' (16:14), 'the mass of Israelites' (17:3), 'all the multitude of Kedar' (21:16), 'chariots bearing your body' (22:18), 'a seat of honor' (22:23), 'all the substance' (22:24) (Sefaria, checked 2026-11-26)",
+        "wohChoice": "'glory' for the noun kāḇôḏ also where it is the glory of persons, peoples and their possessions (wave I-4 ruling 2: 'glory' for kāḇôḏ is strict; founder ruling 2026-11-26): 4:2 'beauty and glory' (predicated of the growth of the land); 8:7 'the king of Assyria and all his glory'; 10:3 'where will you leave your glory?'; 10:16 'under his glory'; 10:18 'the glory of his forest'; 11:10 'his resting place shall be glory'; 14:18 'lie in glory'; 16:14 'the glory of Moab'; 17:3 'the glory of the children of Israel'; 17:4 'the glory of Jacob'; 21:16 'all the glory of Kedar'; 22:18 'the chariots of your glory'; 22:23 'a throne of glory'; 22:24 'all the glory of his father's house'. The senses of wealth, multitude, body and rank are given in commentary, not in the line, and the noun is kept where ASV turns it into an adjective (4:2; 11:10 'glorious'). One recorded departure: 5:13 kᵉḇôḏô 'their honored men' (stable; ASV, JPS 1917), where the noun is a collective for the nobility set against hămônô 'its multitude'. Outside this entry: the divine kāḇôḏ (central kavod-yhwh; overlay kevodo-kavod-suffixed-isaiah, kavod-labanah-chammah-isaiah-24); 4:5 'over all the glory', whose referent (Zion's glory or the divine presence) is disputed; and the verb and participles of kbd ('honor', 'the honored', 23:8-9).",
+        "claim_type": "direct",
+        "rationale": "kāḇôḏ comes from kbd 'be heavy', and of human beings it is their weight in the world: wealth (Gen 31:1), multitude, rank and splendour (BDB; HALOT; recalled). NJPS renders it by that contextual sense ('multitude', 'mass', 'body', 'substance', 'honor'), which interprets each site, while ASV and JPS 1917 print 'glory' at nearly every one of them. Wave I-4 ruling 2 makes 'glory' strict for kāḇôḏ so that one Hebrew noun keeps one English word across the book, and the stable chapters already apply it at 8:7, 10:3, 10:16, 10:18, 11:10 and 14:18. One English word also lets the reader see that the book uses the same noun for the glory of Assyria, Moab, Kedar, Jacob and Shebna (10:16-18; 16:14; 17:3-4; 21:16; 22:18) and for the glory of YHWH (6:3; 40:5). The one departure, 5:13 'their honored men', is ASV's and JPS 1917's rendering of a collective that names persons, where 'their glory are famished' is not English; it is recorded so that the concordance can be audited. The entry was created at the wave I-4 sign-off (founder ruling 2026-11-26) to gather the non-divine sites that earlier sat only in chapter-scoped entries (lexical-cruxes-isaiah-10, lexical-cruxes-isaiah-22). The rendering is the standard English of the PD versions and carries no lens, so the claim is direct.",
+        "appliesTo": [
+          "ISA-4:2",
+          "ISA-5:13",
+          "ISA-8:7",
+          "ISA-10:3",
+          "ISA-10:16",
+          "ISA-10:18",
+          "ISA-11:10",
+          "ISA-14:18",
+          "ISA-16:14",
+          "ISA-17:3",
+          "ISA-17:4",
+          "ISA-21:16",
+          "ISA-22:18",
+          "ISA-22:23",
+          "ISA-22:24"
+        ]
+      },
+      {
+        "id": "tsevi-beauty-isaiah",
+        "source": "צְבִי",
+        "translit": "ṣᵉḇî",
+        "strongs": "H6643 (ṣᵉḇî; the entry covers ṣᵉḇî I 'beauty, ornament, splendour', not the homonym ṣᵉḇî II 'gazelle'). Strong's number from model recall, not concordance-verified.",
+        "lemma": "ṣᵉḇî I 'beauty, ornament, splendour'",
+        "partOfSpeech": "noun (masculine), absolute and construct",
+        "literal": "ornament, beauty, a thing of splendour",
+        "standardEnglish": "ASV 'beautiful' (4:2, adjectival), 'the glory of kingdoms' (13:19), 'the pride of all glory' (23:9), 'Glory to the righteous' (24:16); JPS 1917 'beautiful' (4:2), 'the glory of kingdoms' (13:19), 'the pride of all glory' (23:9), 'Glory to the righteous' (24:16); NJPS 'beauty' (4:2), 'glory of kingdoms' (13:19), 'all glorious beauty' (23:9), 'Glory to the righteous!' (24:16) (Sefaria, checked 2026-11-26)",
+        "wohChoice": "'beauty' is the book default for ṣᵉḇî I, so that 'glory' stays reserved for kāḇôḏ (wave I-4 ruling 2; founder ruling 2026-11-26): 4:2 'beauty and glory'; 13:19 'Babylon, the beauty of kingdoms' (stable line revised 2026-11-26, chapter 13 version 1.0.1); 23:9 'to profane the pride of all beauty'. Recorded idiomatic departure: 24:16 ṣᵉḇî laṣṣaddîq 'Glory to the righteous one!' (stable; ASV, JPS 1917, NJPS 'Glory'), where the noun is the content of an acclamation and 'Beauty to the righteous one!' would not be English. The homonym ṣᵉḇî II 'gazelle' (13:14 'like a hunted gazelle') is outside the entry. Future sites (28:1, 4, 5 and later) take 'beauty' unless their Editor records a departure here.",
+        "claim_type": "direct",
+        "rationale": "ṣᵉḇî I is 'beauty, ornament, splendour' (BDB; HALOT; recalled), the land or city as a jewel (Ezek 20:6, 15; Dan 11:16 'the beautiful land'). ASV and JPS 1917 often render it 'glory', which in this book would merge it with kāḇôḏ, and the stable 4:2 already prints ṣᵉḇî 'beauty' beside kāḇôḏ 'glory' in the same verse. The chapter 23 Editor extended that choice to 23:9 ('the pride of all beauty'; NJPS 'all glorious beauty') and reported that the stable 13:19 and 24:16 printed 'glory'. The founder ruled on 2026-11-26 (wave I-4 sign-off, decision 8) to revise 13:19 to 'the beauty of kingdoms', a phrase where 'beauty' reads naturally and keeps Babylon's description in the ornament register of the verse, and to keep 24:16 'Glory to the righteous one!' as a recorded departure, because in an acclamation English uses 'Glory to …' and the line would otherwise become unidiomatic. The entry takes over the ṣᵉḇî item from the verse-scoped tsemach-yhwh-branch-isaiah-4, which keeps the ṣemaḥ decision. The renderings are standard glosses and carry no lens, so the claim is direct.",
+        "appliesTo": [
+          "ISA-4:2",
+          "ISA-13:19",
+          "ISA-23:9",
+          "ISA-24:16"
+        ]
+      }
+    ],
+    "set": {
+      "tsemach-yhwh-branch-isaiah-4": {
+        "wohChoice": "'the branch of YHWH' in lower case, 'the fruit of the land'; the four lᵉ-predicates kept as nouns ('beauty and glory … pride and honor'), with tip̄ʾereṯ 'honor' so that 'splendor' stays reserved for hāḏār (overlay `hadar-splendor-isaiah`) and 'glory' for kāḇôḏ. The ṣᵉḇî, kāḇôḏ and tip̄ʾereṯ items are governed book-wide by tsevi-beauty-isaiah, kavod-nondivine-glory-isaiah and tiferet-honor-isaiah (founder ruling 2026-11-26). The royal ṣemaḥ of Jer 23:5; 33:15 and the name 'Branch' of Zech 3:8; 6:12 and the Targum's 'the Messiah of YHWH' are reported in commentary, not imposed by capitalisation.",
+        "rationale": "ṣemaḥ is 'sprout, growth', what springs from the ground (BDB 855; HALOT 1034; Gen 19:25; Ezek 16:7; Ps 65:11), and in 4:2 it stands in synonymous parallel with pᵉrî hāʾāreṣ 'the fruit of the land', which favours the vegetation reading: the restored growth of the land as YHWH's gift to the survivors (Wildberger, Isaiah 1-12, 1991; Williamson, Isaiah 1-5, ICC 2006; Blenkinsopp, Isaiah 1-39, AB 19, 2000). The messianic reading rests on the Targum ('the Messiah of YHWH'; defended by Oswalt, The Book of Isaiah 1-39, NICOT 1986) and on the later royal usage: in Jer 23:5; 33:15 the title is ṣemaḥ ṣaddîq lᵉḏāwiḏ 'a righteous branch for David', with David as the genitive, and in Zech 3:8; 6:12 'Branch' is a name ('my servant the Branch', 'a man whose name is Branch'); none of these has the construct ṣemaḥ YHWH, so the title cannot simply be read back into Isa 4:2. Capitalising 'Branch' would decide between the two readings in the English, which the Hebrew does not do; the lower case keeps ASV and NRSV and leaves the question to the commentary. ʾereṣ in pᵉrî hāʾāreṣ is the land of Israel (Num 13:20, 26; Deut 1:25), not the cosmic earth of overlay `eretz-cosmic-scope-isaiah-24`, which stays scoped to ch. 24. The lᵉ-predicates (li-ṣḇî û-lᵉḵāḇôḏ … lᵉḡāʾôn û-lᵉṯip̄ʾereṯ) are rendered as nouns, the literal grammar, where ASV smooths them into adjectives; bare kāḇôḏ is the standard 'glory'. tip̄ʾereṯ ('beauty, glory, honour', BDB 802; HALOT) is rendered 'honor', its sense in the triad 'for praise, for fame and for honor' (Deut 26:19; Jer 13:11), because the wave I-1 overlay entry `hadar-splendor-isaiah` reserves 'splendor' for hāḏār (2:10, 19, 21; 53:2) and 'beauty' is ṣᵉḇî in the same verse; the change is a concordance fix. The signed-off 13:19 renders tip̄ʾereṯ 'splendor' ('the splendor of the pride of the Chaldeans'). By founder ruling 2026-11-26 (wave I-4 sign-off) that is recorded as a departure in the book-wide tiferet-honor-isaiah, and the ṣᵉḇî and kāḇôḏ items of this verse are carried book-wide by tsevi-beauty-isaiah and kavod-nondivine-glory-isaiah. This entry keeps the ṣemaḥ decision and the construction of 4:2."
+      },
+      "choter-netser-geza-shoot-twig-stock-isaiah-11": {
+        "wohChoice": "'a shoot out of the stock of Jesse, and a twig out of his roots shall bear fruit' (11:1): ḥōṭer 'shoot', gezaʿ 'stock' (as at 40:24), nēṣer 'twig' (JPS 1917, NJPS). 'branch' is reserved for ṣemaḥ (4:2, overlay tsemach-yhwh-branch-isaiah-4) and 'stump' for maṣṣeḇeṯ (6:13). Lower case; the royal and messianic reception (Targum; Matt 2:23 'Nazarene') is reported in commentary only. MT yip̄reh 'shall bear fruit' kept (mt-qere-textual-policy-isaiah). Book rule for nēṣer (founder ruling 2026-11-26): never 'branch'; 'twig' at 11:1, where ḥōṭer already has 'shoot'; the stable 14:19 nēṣer nitʿāḇ reads 'a loathed shoot' (revised 2026-11-26, chapter 14 version 1.0.1), and 60:21 nēṣer maṭṭāʿay follows ('shoot'); ISA-60:21 is added to appliesTo when that line is made.",
+        "rationale": "Isa 11:1 uses two growth words, ḥōṭer and nēṣer, and neither is the ṣemaḥ of 4:2. ḥōṭer occurs elsewhere only at Prov 14:3, where it is a rod or switch; nēṣer is a sprout or offshoot (BDB; HALOT; Isa 14:19; 60:21; Dan 11:7). ASV renders nēṣer 'branch', but JPS 1917 and NJPS render it 'twig', so the line follows a standard Jewish translation and keeps 'branch' for ṣemaḥ, the word that becomes the royal title in Jer 23:5; 33:15 and Zech 3:8; 6:12. Keeping the two lemmas apart in English lets a reader see that Isa 11:1 does not use the title-word, which is a fact about the Hebrew, not a reading of it. gezaʿ 'stock' follows ASV and JPS 1917 and matches the stable 40:24 'their stock'; NJPS 'stump' is recorded, and 'stump' stays with maṣṣeḇeṯ at 6:13. The stable 14:19 rendered nēṣer nitʿāḇ 'a loathed branch' (ASV 'an abominable branch'; JPS 1917 'an abhorred offshoot'). By founder ruling 2026-11-26 (wave I-3), applied with the wave I-4 sign-off, 14:19 now reads 'a loathed shoot' (chapter 14 version 1.0.1) and is in appliesTo; 60:21 nēṣer maṭṭāʿay follows when chapter 60 is drafted, so that 'branch' stays with ṣemaḥ throughout the book. The verb yip̄reh is MT (prh 'bear fruit'); LXX anabēsetai and Vulgate ascendet presuppose 'come up / sprout' and are reported in commentary."
+      }
     }
   },
   "central": {
@@ -41,6 +126,26 @@
     ],
     "eretz": [
       "1SA-WOH-17:46"
+    ],
+    "tiferet-honor-isaiah": [
+      "ISA-3:18",
+      "ISA-4:2",
+      "ISA-10:12",
+      "ISA-44:13"
+    ],
+    "kavod-nondivine-glory-isaiah": [
+      "ISA-4:2",
+      "ISA-5:13",
+      "ISA-8:7",
+      "ISA-10:3",
+      "ISA-10:16",
+      "ISA-10:18",
+      "ISA-11:10",
+      "ISA-14:18"
+    ],
+    "tsevi-beauty-isaiah": [
+      "ISA-4:2",
+      "ISA-24:16"
     ]
   },
   "extraChapters": [
@@ -49,9 +154,15 @@
     "isaiah-woh/chapter-43.json",
     "isaiah-woh/chapter-45.json",
     "isaiah-woh/chapter-54.json",
-    "1-samuel-woh/chapter-17.json"
-  ],
-  "_pendingFounder": [
-    "central.set.rider-of-the-clouds-rkb-arpt-cross-corpus-ugaritic-hebrew-bible-storm-theophany (from the chapter 19 Editor, after the reviewer's housekeeping note). It corrects the KTU site lists against the project's baal-cycle-woh edition, verified 2026-11-26; the epithet rkb ʿrpt is printed only at 1.2-iv:6, 1.3-ii:40, 1.3-iv:23 and 1.4-vi:10. partOfSpeech: '1.3-iv:4, 1.4-iii:11, 1.4-v:7, 1.5-ii:7' is replaced by '1.3-iv:23, 1.4-vi:10'. rationale: same change, and 1.5-ii:7 is marked as outside the edition and not verified. appliesTo: BCY-WOH-1.4-iii:11 ('[…] Baʿlu, the noble ones confront') and BCY-WOH-1.4-v:7 ('[Eight, or fi]ve years') are removed. BCY-WOH-1.4-vii:32 is kept because the Baal Cycle line cites the entry, and the rationale now says it is context, not an epithet site. 1.3-iv:4 reads 'She enters to Baʿlu on the heights of Ṣapunu'. These are modifications of an existing entry's fields, so the bump is major if strictly applied and needs founder sign-off; no rendering changes."
+    "1-samuel-woh/chapter-17.json",
+    "isaiah-woh/chapter-3.json",
+    "isaiah-woh/chapter-4.json",
+    "isaiah-woh/chapter-5.json",
+    "isaiah-woh/chapter-8.json",
+    "isaiah-woh/chapter-10.json",
+    "isaiah-woh/chapter-13.json",
+    "isaiah-woh/chapter-14.json",
+    "isaiah-woh/chapter-27.json",
+    "isaiah-woh/chapter-44.json"
   ]
 }

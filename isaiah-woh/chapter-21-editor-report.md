@@ -52,7 +52,7 @@ None are blocked. These decisions are flagged for the Reviewer and the founder.
 ### `ISA-21:14`: hêṯāyû, imperative or perfect
 
 **Decision:** ASV's perfect "they brought" is kept. The following *qiddᵉmû* is pointed as a perfect, and the accents make the inhabitants of Tema its subject. The imperative of JPS 1917 ("bring ye water") and NJPS is in commentary.
-**Why flagged:** two of the three references read an imperative. A Reviewer who prefers JPS 1917 would print "To meet the thirsty bring water!" and leave the second colon as it is.
+**Why flagged:** two of the three references read an imperative. A Reviewer who prefers JPS 1917 would print "To meet the thirsty bring water!" and leave the second colon as it is. **Ruled 2026-11-26: the imperative** (see the final section).
 
 ### `ISA-21:16`: dependency on chapter 16
 
@@ -126,7 +126,7 @@ None are blocked. These decisions are flagged for the Reviewer and the founder.
   - `elohei-yisrael-god-of-israel-isaiah-24` (21:10, 17)
   - `elohim-el-eloah-monotheistic-formula-isaiah` (21:9)
   - `mt-qere-textual-policy-isaiah` (21:1, 2, 5, 8, 16; the orchestrator updates the wohChoice variant list on merge)
-  - `shnei-sakhir-years-of-hireling-isaiah` (21:16; pending add by chapter 16)
+  - `shnei-sakhir-years-of-hireling-isaiah` (21:16; added by chapter 16, applied first at merge)
 - Deliberate non-application: `adam-humankind-ish-man-isaiah` at 21:9 and 21:17 (ruling 13).
 
 Strong's numbers in the new entries come from memory and are marked as not checked against a concordance.
@@ -139,10 +139,20 @@ The Reviewer's verdicts (`translation.reviewerReport`, 2026-11-26T15:12:28Z) wer
 
 1. **21:1 (revise).** The Sea-Land attribution to Wildberger and Blenkinsopp is now marked "recalled, not verified" in the 21:1 note and in the `oracle-names-isaiah-21` rationale.
 2. **21:8 (revise).** The 21:8 note and the `mt-qere-textual-policy-isaiah` rationaleAppend now say that NJPS gives only the English "The watcher". The Hebrew *hārōʾeh* is marked as the Editor's reconstruction, and the scroll was not checked. The orchestrator instruction for the wohChoice variant list now reads "21:8 the watcher" in place of "hārōʾeh".
-3. **21:14 (revise).** The 21:14 note and the `lexical-cruxes-isaiah-21` rationale now cite Jer 12:9. There the identical form *hêṯāyû* follows the imperatives *lᵉḵû ʾispû* and is itself an imperative. The Reviewer checked it in WLC, and the Editor re-checked it on Sefaria. This is the strongest support for the command reading. The entry's wohChoice stages the alternative line, marked **PENDING FOUNDER RULING**: "To meet the thirsty bring water! The inhabitants of the land of Tema met the fugitive with his bread." The printed line keeps ASV's "they brought" until the founder rules.
+3. **21:14 (revise).** The 21:14 note and the `lexical-cruxes-isaiah-21` rationale now cite Jer 12:9. There the identical form *hêṯāyû* follows the imperatives *lᵉḵû ʾispû* and is itself an imperative. The Reviewer checked it in WLC, and the Editor re-checked it on Sefaria. This is the strongest support for the command reading. The entry's wohChoice staged the alternative line for the founder: "To meet the thirsty bring water! The inhabitants of the land of Tema met the fugitive with his bread." (Adopted 2026-11-26; see the final section.)
 4. **21:9 (non-blocking suggestion, applied).** "taken up word for word" is now "taken up in Rev 14:8 and 18:2, which keep the doubled verb and add 'the great'". The unsourced "the dirge form" is dropped; the sentence now reads "The doubled perfect speaks of the fall as already complete."
 5. **21:16.** The report's statement that 16:14 still read "like" is corrected above: 16:14 now reads "as the years of a hireling".
 
 Not acted on, because it is not a correction: the Reviewer recalls NRSV 21:6 as "post a lookout" rather than the "sentinel" listed in `watch-lookout-vocabulary-isaiah-21` standardEnglish. Neither form is verified, and the field is left as it was until someone checks NRSV.
 
-Items for the human: the lookout/watchman split (21:6); the perfect or imperative at 21:14, with the staged line above; and the 1QIsaᵃ reading at 21:8, still confirmed only through the NJPS note.
+Items for the human: the lookout/watchman split (21:6); the perfect or imperative at 21:14, with the staged line above; and the 1QIsaᵃ reading at 21:8, still confirmed only through the NJPS note. (The first two were ruled 2026-11-26; see the final section.)
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-4 on 2026-11-26, choosing every recommended option in `wave-i4-signoff-package.md`. `translation.status` and the `reviewerReport` block are unchanged; the orchestrator promotes the chapter. Statements above marked pending, staged or escalated are settled as follows.
+
+- **Decision 3, 21:14:** the line is now "To meet the thirsty bring water! The inhabitants of the land of Tema met the fugitive with his bread." (the staged wording, unchanged). The 21:14 note gives the imperative as the line's reading and reports ASV's perfect; the `lexical-cruxes-isaiah-21` wohChoice and rationale record the ruling, and the PENDING marker is gone.
+- **Decision 4, 21:6:** "the lookout" stands, distinct from "Watchman" at 21:11–12 (`watch-lookout-vocabulary-isaiah-21`).
+- **Decision 9, non-divine kāḇôḏ:** the book-wide overlay entry `kavod-nondivine-glory-isaiah` (direct) is created at merge through `wave-i4-orchestrator-ops.json` (`overlay.add`). This chapter's site 21:16 ("all the glory of Kedar") carries it in glossaryRefs.

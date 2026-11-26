@@ -33,7 +33,7 @@ No speculative glossary entry is proposed. One commentary item is labelled specu
 **Source:** הוֹי אֶרֶץ צִלְצַל כְּנָפָיִם
 **WoH reading (commentary only):** The note says three things. The canon does not cite Isa 18. TBWTT 3:144–145 reads the seraphim's wings of Isa 6:2 as "an autonomous suit fitted with six small thrusters". Reading the "whirring of wings" of 18:1 as flying craft would extend that reading to a verse the canon does not discuss. The note also states the counter-evidence: BDB connects *ṣilṣal* with insects, and the envoys of 18:2 travel in papyrus boats.
 **Why speculative:** it applies a canon reading of a different verse to one the canon does not cite. That goes beyond any single source.
-**Recommendation:** ship as worded. This follows the 4:5, 7:14, 9:5 and 11:12 precedent (ruling 9). If the founder prefers silence at verses the canon does not cite, delete the final paragraph of the 18:1 note. Nothing else depends on it.
+**Recommendation:** ship as worded (founder sign-off 2026-11-26: kept). This follows the 4:5, 7:14, 9:5 and 11:12 precedent (ruling 9). If the founder prefers silence at verses the canon does not cite, delete the final paragraph of the 18:1 note. Nothing else depends on it.
 
 ---
 
@@ -46,7 +46,7 @@ No speculative glossary entry is proposed. One commentary item is labelled specu
 - A. Keep 18:3 "shofar" and revise 27:13 to "a great shofar" at its next stable revision. This is the recommendation.
 - B. Revert 18:3 to "a trumpet" and record an Isaiah exception in the central entry.
 - C. Accept the split.
-**Why escalating:** option A touches a signed-off chapter, and option B would carve an exception into a cross-corpus convention. Both need the founder.
+**Why escalating:** option A touches a signed-off chapter, and option B would carve an exception into a cross-corpus convention. Both need the founder. **Ruled 2026-11-26: option A, applied now as a stable patch** (see the final section).
 
 ---
 
@@ -108,3 +108,14 @@ These were applied after the Reviewer's report (2026-11-26). Out of scope and no
 
 1. **ISA-18:1 commentary (Reviewer verdict: revise, commentary only).** One sentence has been added to the speculative reception paragraph. It names the closest canon parallel outside Isaiah, LWTE 2:187–190. That passage quotes the locusts of Rev 9:7–10 ("the sound of their wings was as the sound of chariots") and reads them as metal aircraft: "the noise comes from the jet engines", with missiles "tucked under their wings". I checked the wording against `data-library/lets-welcome-the-extraterrestrials/chapter-2.json`. The sentence also says that the passage concerns human aircraft dropping atomic bombs in a future war (LWTE 2:184) and does not concern Isa 18. The finding that the canon does not cite Isa 18 still stands.
 2. **`cush-names-isaiah` (overlay diff).** Isa 37:9, "Tirhakah king of Cush" (= 2 Kgs 19:9), is now named in wohChoice as an expected site. ISA-37:9 is to be added to appliesTo once chapter 37 is drafted. appliesTo itself is unchanged.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-4 on 2026-11-26, choosing every recommended option in `wave-i4-signoff-package.md`. `translation.status` and the `reviewerReport` block are unchanged; the orchestrator promotes the chapter. Statements above marked pending, staged or escalated are settled as follows.
+
+- **Decision 1, 18:1 reception note:** kept as worded (founder sign-off 2026-11-26).
+- **Decision 2, shofar:** 18:3 "a shofar" stands. The stable 27:13 is patched from "a great trumpet" to "a great shofar" (`chapter-27.json`, translation version 1.0.1 with a `revisions` entry; the note and the chapter title follow; glossaryRefs gain the central shofar id). The 18:3 note now records the harmonization instead of the escalation.
+- **Glossary:** in `wave-i4-ch18-central-diff.json` the central `shofar-rams-horn-signal-instrument-cross-corpus` op now adds ISA-18:3 and ISA-27:13 and its rationaleAppend records the ruling. In `wave-i4-ch18-overlay-diff.json` the `shofar-gadol-ingathering-isaiah-27` op no longer appends a cross-reference caveat; it carries `changes` (lemma, partOfSpeech, literal, standardEnglish, wohChoice, rationale) that bring the entry into line with "a great shofar". This changes existing fields, so the overlay bump is major (3.0.0).
+- **Decision 10, `eretz` carrion clause:** applied as proposed (central 4.0.0).

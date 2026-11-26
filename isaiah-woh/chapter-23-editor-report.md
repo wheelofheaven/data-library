@@ -54,7 +54,7 @@ None. Every new or extended entry is `claim_type: direct`.
 - NJPS has "all glorious beauty" here.
 - It is the lexical sense.
 
-**Open:** the stable 13:19 "the glory of kingdoms" and 24:16 "Glory to the righteous one!" print "glory" for ṣᵉḇî. These two verses are not added to appliesTo.
+**Open (ruled 2026-11-26, see the final section):** the stable 13:19 "the glory of kingdoms" and 24:16 "Glory to the righteous one!" print "glory" for ṣᵉḇî. These two verses are not added to appliesTo.
 
 **Options:**
 - (A) Revise 13:19 and 24:16 to "beauty". At 24:16 that gives "Beauty to the righteous one!", which is awkward.
@@ -144,3 +144,12 @@ These corrections were applied after the Reviewer's report (chapter status `awai
 4. **ISA-23:1, note.** The quotation "without house or haven" is recalled RSV rather than NRSV and could not be verified, so the attribution is removed. The note now says only that some modern versions make the harbor sense explicit.
 5. **Central `yeor-nile-egyptian-loanword`, `changes.wohChoice`.** The plural rule now reads: "the plural yᵉʾōrîm is 'rivers' (7:18 'the rivers of Egypt') or 'streams' where nᵉhārôt 'rivers' stands beside it (19:6)."
 6. **This report.** The concurrency warning about chapter 19 is corrected. The chapter 19 diff only adds appliesTo on the yeor entry, so the merge has no `changes.wohChoice` conflict.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-4 on 2026-11-26, choosing every recommended option in `wave-i4-signoff-package.md`. `translation.status` and the `reviewerReport` block are unchanged; the orchestrator promotes the chapter. Statements above marked pending, staged or escalated are settled as follows.
+
+- **Decision 8, ṣᵉḇî:** the book-wide overlay entry `tsevi-beauty-isaiah` (direct) is created at merge through `wave-i4-orchestrator-ops.json` (`overlay.add`). It governs 4:2, 13:19 and 23:9 ("beauty") and records 24:16 "Glory to the righteous one!" as an idiomatic departure. The stable 13:19 is patched from "the glory of kingdoms" to "the beauty of kingdoms" (`chapter-13.json`, translation version 1.0.1 with a `revisions` entry; note and glossaryRefs updated). The tsemach-yhwh-branch-isaiah-4 extension to 23:9 is withdrawn from `wave-i4-ch23-overlay-diff.json` (its reasoning is carried by the new entry), the 23:9 glossaryRef is changed to `tsevi-beauty-isaiah`, and the 23:9 note records the ruling.
+- **Decision 10, `yeor` "the Nile":** the Isaiah context clause is applied as proposed (central 4.0.0).

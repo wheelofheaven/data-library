@@ -6,20 +6,20 @@
   "title": "Isaiah 21 — The oracle concerning the wilderness of the sea: the watchman, fallen Babylon, Dumah and Arabia",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.21",
-    "glossaryVersion": "3.0.0",
-    "overlayGlossaryVersion": "2.0.0",
+    "glossaryVersion": "4.0.0",
+    "overlayGlossaryVersion": "3.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T15:12:28Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T20:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T15:12:28Z",
@@ -353,7 +353,8 @@
       "lens-leakage-flags": [],
       "lensLeakageCheck": "Performed on all 17 English lines. None reads as interpretation: names kept as in Hebrew (Sea-Land, Edom, Ishmaelite identifications only in commentary), YHWH / the Lord / the God of Israel per house style, no Raëlian terminology, no Wheel of Heaven commentary paragraph (the Editor reports the canon cites no verse of Isaiah 21).",
       "independenceNote": "Initial verdicts were formed from the source (WLC, re-parsed), the chapter, the diffs and the Reviewer's own fetches of NJPS 1985, JPS 1917 (Sefaria) and ASV (bible-api.com) before the escalation report was opened. Adjustments after reading it: (1) ISA-21:1 revise confirmed, since the report lists the commentaries among sources not checked; (2) ISA-21:16 reasoning records that the report's statement about the 16:14 draft is out of date; (3) ISA-21:8 unchanged (the report confirms second-hand verification only). Cited from Reviewer memory and not verified: BDB glosses, Ps 38:7 form, NRSV 21:6 'post a lookout'."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -374,7 +375,8 @@
       "notes": {
         "official": "*maśśāʾ midbar-yām* is “The oracle concerning the wilderness of the sea” (wave ruling 6; overlay `massa-oracle-superscription-isaiah`). The heading is cryptic. 21:9 shows the oracle is about Babylon, and many commentators connect “the sea” with southern Mesopotamia, the marsh country at the head of the Persian Gulf that Akkadian texts call the Sea-Land (Wildberger, *Isaiah 13–27*; Blenkinsopp, *Isaiah 1–39*, AB 19; recalled, not verified). The line keeps the Hebrew phrase and does not name the region (overlay `oracle-names-isaiah-21`).\n\nThe NJPS note reports an emendation, “The ‘From the Desert’ Pronouncement,” which matches *mimmiḏbār* later in the verse. LXX has only “the vision of the desert,” with no “sea” (checked in Brenton’s 1851 English, not in the Greek). MT stays in the line (`mt-qere-textual-policy-isaiah`).\n\n*bannegeḇ* is “in the South,” with ASV and JPS 1917. NJPS has “the Negeb.” The noun with the article can be a compass point or the region south of Judah. Either way the image is the desert storm out of the south (compare Zech 9:14).",
         "community": []
-      }
+      },
+      "translit": "maśśāʾ midbar-yām kəsūpōt bannegeb laḥălōp mimmidbār bāʾ mēʾereṣ nōrāʾāh"
     },
     {
       "n": 2,
@@ -393,7 +395,8 @@
       "notes": {
         "official": "*ḥāzûṯ qāšāh* is “a harsh vision” (NJPS “A harsh prophecy”). *qāšeh* means “hard, severe” (BDB). The line departs from ASV and JPS 1917 “grievous” so that “grievous” stays free for *kōḇeḏ* in 21:15 (overlay `lexical-cruxes-isaiah-21`).\n\n*hab-bôḡēḏ bôḡēḏ wᵉhaš-šôḏēḏ šôḏēḏ* is “the treacherous one deals treacherously, and the destroyer destroys.” These are two participle pairs, so the line uses the present tense. The *bgd* root keeps the “treacherous … deal treacherously” family of the stable 24:16, and the 16:4 draft also has “the destroyer” for *šôḏēḏ* (overlay `bgd-shdd-treachery-destroyer-isaiah`). NJPS has “The betrayer is betraying, the ravager ravaging,” and its note reports an emendation to passives, “betrayed … ravaged,” comparing 33:1. MT is kept.\n\n*ʿălî ʿêlām ṣûrî māḏay* is “Go up, O Elam! Besiege, O Media!” (ASV, JPS 1917, NJPS). The stable 13:17 prints *māḏay* as “the Medes” because it is the object there and governs plural verbs. Here it is a vocative beside the country name Elam, so all three references read “Media” (`oracle-names-isaiah-21`).\n\n*kol-ʾanḥāṯāh hišbattî* is “All its sighing I have brought to an end.” The final *-āh* has no mappiq. It may be a feminine suffix, meaning the sighing Babylon caused or the sighing over her, or a paragogic ending. ASV and JPS 1917 have “thereof” and NJPS has “her.” The NJPS note reports an emendation, “Put an end to all her merrymaking.”",
         "community": []
-      }
+      },
+      "translit": "ḥāzūt qāšāh huggad-lī habbōgēd | bōgēd wəhaššōdēd | šōdēd ʿălī ʿēlām ṣūrī māday kol-ʾanḥātāh hišbattī"
     },
     {
       "n": 3,
@@ -409,7 +412,8 @@
       "notes": {
         "official": "*naʿăwêṯî miššᵉmōaʿ nibhaltî mērᵉʾôṯ* is “I am bowed down so that I cannot hear, I am dismayed so that I cannot see.” The Niphal of *ʿwh* means “be bent, bowed” (BDB), so the line takes JPS 1917 “bent” in place of ASV “pained.” *min* is taken as privative, “so that I cannot,” with ASV, JPS 1917 and NJPS (“Too anguished to hear, Too frightened to see”). A causal reading, “at what I hear,” is possible but no reference version adopts it. *ṣîrîm … kᵉṣîrê yôlēḏāh* is the stock image of labour pains (compare 13:8).",
         "community": []
-      }
+      },
+      "translit": "ʿal-kēn māləʾū mātənay ḥalḥālāh ṣīrīm ʾăḥāzūnī kəṣīrē yōlēdāh naʿăwētī miššəmōaʿ nibhaltī mērəʾōt"
     },
     {
       "n": 4,
@@ -426,7 +430,8 @@
       "notes": {
         "official": "*tāʿāh lᵉḇāḇî* is “My heart reels.” *tʿh* means “wander, stagger,” the verb used of drunkards at 28:7. ASV has “fluttereth,” JPS 1917 “is bewildered” and NJPS “My mind is confused.” “Reels” keeps the staggering image, and *lēḇāḇ* stays “heart.”\n\n*ʾēṯ nešep̄ ḥišqî śām lî la-ḥărāḏāh* is “the twilight I longed for has been turned into trembling for me.” *śām* is active, third masculine singular, with no subject expressed. NJPS supplies one (“He has turned to terror”). ASV and JPS 1917 use the passive, the usual English for a Hebrew verb with an indefinite subject, and the line follows them. *ḥărāḏāh* “trembling” belongs to the cluster of the central `va-yecherad-charadah-trembling-formula`, whose rationale already names Isa 21:4.",
         "community": []
-      }
+      },
+      "translit": "tāʿāh ləbābī pallāṣūt biʿătātənī ʾēt nešep ḥišqī śām lī laḥărādāh"
     },
     {
       "n": 5,
@@ -444,7 +449,8 @@
       "notes": {
         "official": "The verse opens with a run of infinitives absolute: *ʿārōḵ … ṣāp̄ōh … ʾāḵôl šāṯōh*. ASV and JPS 1917 read them as description (“They prepare the table … they eat, they drink”). NJPS reads them as quoted orders (“Set the table!” … “Eat and drink!”). The line follows ASV. The clear imperatives *qûmû … mišḥû* (“Rise up, you princes, anoint the shield!”) then mark the sudden call to arms.\n\n*ṣāp̄ōh haṣ-ṣāp̄îṯ* has a noun found only here. ASV reads “they set the watch,” from *ṣph* “keep watch.” NJPS likewise has “Let the watchman watch!” JPS 1917 has “they light the lamps.” Many lexicons and NRSV read “spread the rugs” (BDB s.v. *ṣāp̄îṯ*, recalled; NRSV not verified). The line keeps ASV, and the commentary records that the root link to *mᵉṣappeh* in 21:6 is uncertain (overlay `watch-lookout-vocabulary-isaiah-21`). The NJPS note reports an emendation of *mišḥû* “anoint” to “grasp” the shields. MT is kept.",
         "community": []
-      }
+      },
+      "translit": "ʿārōk haššulḥān ṣāpōh haṣṣāpīt ʾākōl šātōh qūmū haśśārīm mišḥū māgēn (p)"
     },
     {
       "n": 6,
@@ -461,7 +467,8 @@
       "notes": {
         "official": "*ham-mᵉṣappeh* is “the lookout,” a Piel participle of *ṣph* “look out, keep watch” (BDB). ASV and JPS 1917 have “watchman,” NJPS “sentry.” The chapter uses two nouns for the figure. *mᵉṣappeh* (21:6) is the one who looks out and reports what he sees. *šōmēr* (21:11–12) is the one who guards through the night. ASV gives “watchman” for both. The line separates them, “lookout” and “watchman,” so that the reader can see two Hebrew words, as wave ruling 6 asks for a consistent watch vocabulary. The places follow the same split: *miṣpeh* (21:8) is “watchtower” and *mišmeret* (21:8) is “post” (overlay `watch-lookout-vocabulary-isaiah-21`). *ʾăḏōnāy* is “the Lord” (`adonai-standalone-title-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "kī kōh ʾāmar ʾēlay ʾădōnāy lēk haʿămēd hamṣappeh ʾăšer yirʾeh yaggīd"
     },
     {
       "n": 7,
@@ -477,7 +484,8 @@
       "notes": {
         "official": "*reḵeḇ* (three times here and again in 21:9) can mean chariotry or a column of riders (BDB). ASV and JPS 1917 have “a troop,” NJPS “mounted men … Riders on asses, Riders on camels.” The line keeps ASV “troop.” *ṣemeḏ pārāšîm* is “horsemen in pairs” (ASV; JPS 1917 “by pairs”; NJPS “Horsemen in pairs”); *pārāš* can also mean the horse, giving “a span of horses.” *wᵉhiqšîḇ qešeḇ rab-qāšeḇ* is a figura etymologica, “he shall listen diligently, with great attention” (JPS 1917 “He shall hearken diligently with much heed”; NJPS “he will listen closely, Most attentively”). LXX divides 21:7–8 differently and has “call Urias to the watch-tower” (Brenton’s English, Greek not checked).",
         "community": []
-      }
+      },
+      "translit": "wərāʾāh rekeb ṣemed pārāšīm rekeb ḥămōr rekeb gāmāl wəhiqšīb qešeb rab-qāšeb"
     },
     {
       "n": 8,
@@ -496,7 +504,8 @@
       "notes": {
         "official": "*wayyiqrāʾ ʾaryēh* has no comparative particle in MT, so it says “and he called out, a lion.” ASV and JPS 1917 supply “as,” and NJPS prints “[like] a lion” in brackets. The line follows them with “like a lion.” The NJPS note reports that the Great Isaiah Scroll (1QIsaᵃ) reads “The watcher.” The note gives only the English. The Hebrew behind it is presumably *hārōʾeh*, whose consonants are close to *ʾryh*, but that form is this Editor’s reconstruction. The attribution was checked in the NJPS note only and not against the scroll. NRSV is reported to adopt it (“the watcher called out,” not verified). MT stays in the line (`mt-qere-textual-policy-isaiah`).\n\n*ʿal-miṣpeh ʾăḏōnāy* is “O Lord, I stand … on the watchtower.” MT points the divine title, and ASV and JPS 1917 read a vocative to God (`adonai-standalone-title-isaiah`). NJPS reads a construct, “On my Lord’s lookout,” with the note “Or ‘On a lookout, my lord.’” That note reads it as the lookout addressing the prophet (*ʾăḏōnî*). *mišmartî* is “my post” (ASV “my ward”). *kol-hallêlôṯ* is “whole nights” (ASV); JPS 1917 has “all the nights,” NJPS “Every night.”",
         "community": []
-      }
+      },
+      "translit": "wayyiqrāʾ ʾaryēh ʿal-miṣpeh | ʾădōnāy ʾānōkī ʿōmēd tāmīd yōmām wəʿal-mišmartī ʾānōkī niṣṣāb kol-hallēlōt"
     },
     {
       "n": 9,
@@ -515,7 +524,8 @@
       "notes": {
         "official": "*nāp̄ᵉlāh nāp̄ᵉlāh bāḇel*, “Fallen, fallen is Babylon,” is taken up in Rev 14:8 and 18:2, which keep the doubled verb and add “the great”, *Epesen, epesen Babylōn hē megalē*, “Fallen, fallen is Babylon the great.” Jer 51:8 has a parallel, *pitʾōm nāp̄ᵉlāh bāḇel*, “Babylon is suddenly fallen.” LXX doubles the verb too (Brenton’s English “Babylon is fallen, is fallen”; Greek not checked). The doubled perfect speaks of the fall as already complete.\n\n*reḵeḇ ʾîš* is “a troop of men” (ASV, JPS 1917; NJPS “mounted men”). The riders are a specific group of warriors, so “men” is kept under wave ruling 13, and the gender-neutral `adam-humankind-ish-man-isaiah` does not apply. *šibbar lā-ʾāreṣ* is an active Piel with no subject expressed (“he has shattered”). ASV and JPS 1917 have the passive “are broken unto the ground,” NJPS the intransitive “Have crashed to the ground,” and the line keeps the passive. *pᵉsîlê ʾĕlōhêhā* is “the carved images of her gods,” with lower-case “gods” for idols (`elohim-el-eloah-monotheistic-formula-isaiah`; central `pesel-utemunah-…`).",
         "community": []
-      }
+      },
+      "translit": "wəhinnēh-zeh bāʾ rekeb ʾīš ṣemed pārāšīm wayyaʿan wayyōʾmer nāpəlāh nāpəlāh bābel wəkol-pəsīlē ʾĕlōhēhā šibbar lāʾāreṣ"
     },
     {
       "n": 10,
@@ -534,7 +544,8 @@
       "notes": {
         "official": "*mᵉḏušāṯî û-ḇen-gornî* means literally “my threshed one and son of my threshing floor,” Israel addressed as grain beaten on the floor. ASV has “O thou my threshing, and the grain of my floor,” and JPS 1917 has “the winnowing of my floor.” NJPS notes “Connection of Heb. uncertain.” The line keeps ASV and spells out “threshing floor” for *gōren*. “YHWH of hosts, the God of Israel” follows the house style (`yhwh-tzevaot-hosts-isaiah`; `elohei-yisrael-god-of-israel-isaiah-24`).",
         "community": []
-      }
+      },
+      "translit": "mədušātī ūben-gārənī ʾăšer šāmaʿtī mēʾēt YHWH ṣəbāʾōt ʾĕlōhē yiśrāʾēl higgadtī lākem (s)"
     },
     {
       "n": 11,
@@ -552,7 +563,8 @@
       "notes": {
         "official": "*maśśāʾ dûmāh* is “The oracle concerning Dumah” (wave ruling 6). NJPS notes “Name of a people; cf. Gen. 25.14,” where Dumah is a son of Ishmael, and an oasis of that name in north Arabia is often proposed. The call comes “from Seir,” the hill country of Edom. LXX reads “Idumea” (Brenton’s English; Greek not checked). Because *dûmāh* also means “silence” (Ps 94:17; 115:17), many hear a play on the watchman’s near-silent answer. The play is noted here and kept out of the line (`oracle-names-isaiah-21`).\n\n*šōmēr mah-millaylāh* is “Watchman, what of the night?” (ASV, JPS 1917, NJPS; wave ruling 6). *šōmēr* is the guard of the night watches. It is kept distinct from the *mᵉṣappeh* “lookout” of 21:6 (`watch-lookout-vocabulary-isaiah-21`). The two spellings *millaylāh* and *millêl* are both rendered “of the night.”",
         "community": []
-      }
+      },
+      "translit": "maśśāʾ dūmāh ʾēlay qōrēʾ miśśēʿīr šōmēr mah-millaylāh šōmēr mah-millēl"
     },
     {
       "n": 12,
@@ -569,7 +581,8 @@
       "notes": {
         "official": "*ʾāṯāh ḇōqer wᵉḡam-lāylāh* is “Morning comes, and also the night” (ASV, JPS 1917; NJPS past “came”). The answer is notoriously opaque. *ʾāṯāh* “come,” *tiḇʿāyûn* and *bᵉʿāyû* “inquire” (from *bʿh*), and *ʾēṯāyû* are Aramaic in form, which suits a voice from Edom. *šuḇû ʾēṯāyû* is “turn back, come” (ASV “turn ye, come”; JPS 1917 “return, come”). NJPS takes *šûḇ* as an auxiliary, “Come back again.”",
         "community": []
-      }
+      },
+      "translit": "ʾāmar šōmēr ʾātāh bōqer wəgam-lāyəlāh ʾim-tibʿāyūn bəʿāyū šubū ʾētāyū (s)"
     },
     {
       "n": 13,
@@ -587,14 +600,15 @@
       "notes": {
         "official": "*maśśāʾ baʿrāḇ* is “The oracle concerning Arabia” (`massa-oracle-superscription-isaiah`). The preposition here is *bᵉ-* and not a construct (ASV and JPS 1917 “upon Arabia”). As with Dumah and the wilderness of the sea, the heading takes a catchword from the oracle, *baʿraḇ* in the next colon. NJPS reads *ʿărāḇ* as “the steppe” (“The ‘In the Steppe’ Pronouncement … In the scrub, in the steppe”). LXX has “in the evening” in the verse, which presupposes the vowels *bāʿereḇ* (Brenton’s English; Greek not checked).\n\n*bayyaʿar* is “in the thicket.” *yaʿar* covers forest and scrubland (BDB), and the setting is the Arabian steppe. The line takes JPS 1917 “thickets” (NJPS “scrub”) in place of ASV “forest.” Elsewhere in Isaiah, as at 10:18 and 10:34, it stays “forest” (overlay `lexical-cruxes-isaiah-21`). *ʾōrᵉḥôṯ dᵉḏānîm* is “O caravans of Dedanites,” the trading people of the Hejaz.",
         "community": []
-      }
+      },
+      "translit": "maśśāʾ baʿrāb bayyaʿar baʿrab tālīnū ʾōrəḥōt dədānīm"
     },
     {
       "n": 14,
       "refId": "ISA-21:14",
       "text": "לִקְרַ֥את צָמֵ֖א הֵתָ֣יוּ מָ֑יִם יֹשְׁבֵי֙ אֶ֣רֶץ תֵּימָ֔א בְּלַחְמ֖וֹ קִדְּמ֥וּ נֹדֵֽד׃",
       "i18n": {
-        "en": "To meet the thirsty they brought water; the inhabitants of the land of Tema met the fugitive with his bread.",
+        "en": "To meet the thirsty bring water! The inhabitants of the land of Tema met the fugitive with his bread.",
         "he": "לִקְרַ֥את צָמֵ֖א הֵתָ֣יוּ מָ֑יִם יֹשְׁבֵי֙ אֶ֣רֶץ תֵּימָ֔א בְּלַחְמ֖וֹ קִדְּמ֥וּ נֹדֵֽד׃"
       },
       "glossaryRefs": [
@@ -603,9 +617,10 @@
         "eretz"
       ],
       "notes": {
-        "official": "*hêṯāyû* is from the Aramaic-type verb *ʾṯh* “come,” Hiphil “bring.” It is read as an imperative by JPS 1917 (“bring ye water”) and NJPS (“Meet the thirsty with water”), and as a perfect by ASV (“they brought”). The line keeps ASV’s perfect, which agrees with the plain perfect *qiddᵉmû* “they met” that follows, and records the imperative reading here. The strongest evidence for the imperative is Jer 12:9, where the identical form *hêṯāyû* follows the imperatives *lᵉḵû ʾispû* and is itself a command, “bring them to devour” (WLC, checked). The choice between perfect and imperative is left to the founder. The alternative line would be “To meet the thirsty bring water!” NJPS attaches “You who dwell in the land of Tema” to the imperative. The accents (*atnach* at *māyim*) make *yōšᵉḇê ʾereṣ têmāʾ* the subject of *qiddᵉmû*, as in ASV and JPS 1917.\n\n*bᵉlaḥmô* has a singular suffix, “with his bread,” bread for the fugitive. The line takes JPS 1917 “with his bread” over ASV “their bread,” and *nōḏēḏ* stays singular, “the fugitive.” Tema is the oasis of north-west Arabia (`oracle-names-isaiah-21`; central `eretz`, “land”).",
+        "official": "*Hêṯāyû* is from the Aramaic-type verb *ʾṯh* “come,” Hiphil “bring.” The line reads it as an imperative, “bring water!”, with JPS 1917 (“bring ye water”) and NJPS (“Meet the thirsty with water”); ASV reads a perfect, “they brought.” The strongest evidence for the imperative is Jer 12:9, where the identical form *hêṯāyû* follows the imperatives *lᵉḵû ʾispû* and is itself a command, “bring them to devour” (WLC, checked). The main pause (*atnach*) falls at *māyim* “water,” so the command closes the first half of the verse (overlay `lexical-cruxes-isaiah-21`). The second half has the perfect *qiddᵉmû* “they met,” and the accents make *yōšᵉḇê ʾereṣ têmāʾ* its subject, as in ASV and JPS 1917. NJPS instead attaches “You who dwell in the land of Tema” to the imperative and renders the second verb as a command too (“Greet the fugitive with bread”).\n\n*bᵉlaḥmô* has a singular suffix, “with his bread,” bread for the fugitive. The line takes JPS 1917 “with his bread” over ASV “their bread,” and *nōḏēḏ* stays singular, “the fugitive.” Tema is the oasis of north-west Arabia (`oracle-names-isaiah-21`; central `eretz`, “land”).",
         "community": []
-      }
+      },
+      "translit": "liqraʾt ṣāmēʾ hētāyū māyim yōšəbē ʾereṣ tēmāʾ bəlaḥmō qiddəmū nōdēd"
     },
     {
       "n": 15,
@@ -621,7 +636,8 @@
       "notes": {
         "official": "*kōḇeḏ milḥāmāh* is “the grievousness of war” (ASV, JPS 1917; NJPS “the stress of war”). *kōḇeḏ* means “heaviness, weight,” from *kbd*, the root of *kāḇôḏ*. The strict “glory” concordance of wave ruling 2 covers the noun *kāḇôḏ* only and does not reach *kōḇeḏ*. “Grievous” is now used only here in the chapter, since 21:2 has “harsh.” *ḥereḇ nᵉṭûšāh* is “the drawn sword” and *qešeṯ dᵉrûḵāh* is “the bent bow.”",
         "community": []
-      }
+      },
+      "translit": "kī-mippənē ḥărābōt nādādū mippənē | ḥereb nəṭūšāh ūmippənē qešet dərūkāh ūmippənē kōbed milḥāmāh (s)"
     },
     {
       "n": 16,
@@ -635,12 +651,14 @@
         "adonai-standalone-title-isaiah",
         "shnei-sakhir-years-of-hireling-isaiah",
         "oracle-names-isaiah-21",
-        "mt-qere-textual-policy-isaiah"
+        "mt-qere-textual-policy-isaiah",
+        "kavod-nondivine-glory-isaiah"
       ],
       "notes": {
         "official": "*kišnê śāḵîr* is “as the years of a hireling,” the same wording as 16:14 under wave ruling 14 (overlay `shnei-sakhir-years-of-hireling-isaiah`). A hired worker counts his term exactly, so the time will not be extended. ASV and JPS 1917 have “according to the years of a hireling,” NJPS “fixed like the years of a hired laborer.” MT has *bᵉʿôḏ šānāh* “Within a year,” where 16:14 has three years. The Great Isaiah Scroll is reported to read “three years” here, like 16:14 (not verified). MT is kept (`mt-qere-textual-policy-isaiah`).\n\n*kol-kᵉḇôḏ qēḏār* is “all the glory of Kedar,” with *kāḇôḏ* strictly “glory” (wave ruling 2; NJPS has “multitude”). Kedar is the north Arabian tribal confederation named among the sons of Ishmael (Gen 25:13). *ʾăḏōnāy* is “the Lord.”",
         "community": []
-      }
+      },
+      "translit": "kī-kōh ʾāmar ʾădōnāy ʾēlāy bəʿōd šānāh kišnē śākīr wəkālāh kol-kəbōd qēdār"
     },
     {
       "n": 17,
@@ -659,7 +677,8 @@
       "notes": {
         "official": "*šᵉʾār mispar-qešeṯ gibbôrê bᵉnê-qēḏār* is “the remainder of the number of the archers, the mighty men of the children of Kedar” (ASV, JPS 1917). *mispar-qešeṯ* is literally “the number of the bow,” and NJPS has “the remaining bows of Kedar’s warriors.” *gibbôrê* “the mighty men” is kept as at the stable 13:3 “my mighty men,” under wave ruling 13, because it names a specific body of warriors. *bᵉnê-qēḏār* “the children of Kedar” is gender-neutral as it stands.",
         "community": []
-      }
+      },
+      "translit": "ūšəʾār mispar-qešet gibbōrē bənē-qēdār yimʿāṭū kī YHWH ʾĕlōhē-yiśrāʾēl dibbēr (s)"
     }
   ],
   "editorial_questions": []

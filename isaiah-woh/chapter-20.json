@@ -6,20 +6,20 @@
   "title": "Isaiah 20 — The prophet naked and barefoot for three years, a sign concerning Egypt and Cush",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.20",
-    "glossaryVersion": "3.0.0",
-    "overlayGlossaryVersion": "2.0.0",
+    "glossaryVersion": "4.0.0",
+    "overlayGlossaryVersion": "3.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-26T16:20:00Z",
-    "status": "reviewer-approved",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-26T20:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-26T16:20:00Z",
@@ -159,7 +159,8 @@
       "lens-leakage-flags": [],
       "lensLeakageCheck": "Performed verse by verse (20:1–6). Every English line is either verbatim ASV/JPS 1917 or an attested NJPS/concordance adjustment. No interpretive content was added, no ambiguity was smoothed without commentary, and there is no Raëlian terminology. The canon does not cite Isa 20, so there is no speculative paragraph.",
       "processNote": "Initial verdicts were formed from the source, the chapter, the diffs and the overlay, with my own fetches of ASV (bible-api.com) and of JPS 1917 and NJPS 1985 (Sefaria API v3, not the Gender-Sensitive Edition). I read the escalation report afterwards. It added only the coordinator addendum, which assigns cush-names-isaiah to the chapter 18 Editor; that is recorded as a merge gate in glossaryReview. No verdict changed. Items cited from memory rather than checked: CAD T s.v. turtānu, BDB s.v. tipʾeret sub-senses, and Strong's numbers."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -179,7 +180,7 @@
         "official": "*Tartān* is not a personal name but the Assyrian title *turtānu* (also *tartānu*), the highest military office below the king, roughly “commander-in-chief” (CAD T s.v. *turtānu*; recalled, the article was not checked). The same title heads the list of Assyrian officers at 2 Kgs 18:17. ASV and JPS 1917 print “Tartan” as a name. The line follows NJPS, “the Tartan,” whose note explains the word as “an Assyrian title meaning ‘General’” (checked on Sefaria). The Hebrew has no article, as is usual with foreign titles used like names (*rab-šāqēh*, 2 Kgs 18:17). The English article is supplied so that the word reads as the title it is (overlay `lexical-cruxes-isaiah-20`).\n\n*Sargôn* is Sargon II of Assyria (722–705 BCE), named only here in the Hebrew Bible. His inscriptions record the capture of Ashdod after the revolt of its ruler Yamani, an event usually dated 712 or 711 BCE. They also record that Yamani fled toward Egypt and was handed back by the king of Meluḫḫa, the Assyrian name for Kush (recalled from the standard editions; the wording was not checked). The date, and the help Philistia expected from the Nile, are the background of the sign in 20:2–6. The names take the English and ASV forms (Assyria, Ashdod, Sargon) under overlay `aram-names-isaiah`. The verse is a temporal clause, and the sentence continues into 20:2, as in ASV and JPS 1917.",
         "community": []
       },
-      "translit": "bišnat bōʾ tartān ʾašdōdāh bišlōaḥ ʾōtō sargōn melek ʾaššūr wayyillāḥem bəʾašdōd wayyilkədāh"
+      "translit": "bišnat bōʾ tartān ʾašdōdāh bišlōḥ ʾōtō sargōn melek ʾaššūr wayyillāḥem bəʾašdōd wayyilkədāh"
     },
     {
       "n": 2,
@@ -197,7 +198,7 @@
         "official": "*Dibber YHWH bᵉyaḏ yᵉšaʿyāhû*, literally “YHWH spoke by the hand of Isaiah”: *bᵉyaḏ* is the idiom for speaking through a messenger or prophet (e.g. Exod 9:35; 1 Kgs 16:7). The line keeps “spoke by Isaiah” with ASV and JPS 1917. The command that follows is addressed to Isaiah himself, so NJPS renders “had spoken to Isaiah.” NJPS also reads *bāʿēṯ hahîʾ* “at that time” as a pluperfect, “Previously,” with the note “Lit. ‘At that time’” (checked on Sefaria): the act began before the year of 20:1, and 20:3 interprets it. The English keeps the literal “at that time,” which allows either sequence.\n\n*Wᵉnaʿalᵉḵā taḥălōṣ mēʿal raḡlêḵā*: the Hebrew has a singular noun, “your sandal,” with the plural “your feet.” The same singular stands in Josh 5:15. It is taken as a collective, and the line has “your sandals,” the book’s word for *naʿal* (5:27), with NJPS. ASV and JPS 1917 put both nouns in the singular (“put thy shoe from off thy foot”). The *śaq* is the coarse garment of mourning and of the prophet. Removing only this garment leaves Isaiah *ʿārôm wᵉyāḥēp̄*, “naked and barefoot,” with ASV, JPS 1917 and NJPS. The adjective can describe a person stripped of the outer garment rather than wholly unclothed (cf. 1 Sam 19:24; Mic 1:8, the prophet going “stripped and naked” in lament; the sense is recognised in the lexica, recalled from BDB and not re-checked). The pair is rendered the same way all three times (20:2, 3, 4), and the choice between the two senses is left to the reader, as in the Hebrew.",
         "community": []
       },
-      "translit": "bāʿēt hahīʾ dibber YHWH bəyad yəšaʿyāhū ben-ʾāmōṣ lēʾmōr lēk ūpittaḥtā haśśaq mēʿal motnêkā wənaʿalkā taḥălōṣ mēʿal raglêkā wayyaʿaś kēn hālōk ʿārōm wəyāḥēp"
+      "translit": "bāʿēt hahīʾ dibber YHWH bəyad yəšaʿyāhū ben-ʾāmōṣ lēʾmōr lēk ūpittaḥtā haśśaq mēʿal mātənēkā wənaʿalkā taḥălōṣ mēʿal raglēkā wayyaʿaś kēn hālōk ʿārōm wəyāḥēp (s)"
     },
     {
       "n": 3,
@@ -250,11 +251,11 @@
       "glossaryRefs": [
         "aram-names-isaiah",
         "cush-names-isaiah",
-        "tsemach-yhwh-branch-isaiah-4",
+        "tiferet-honor-isaiah",
         "lexical-cruxes-isaiah-20"
       ],
       "notes": {
-        "official": "*Tip̄ʾartām* is “their honor,” the book’s default for *tip̄ʾereṯ* (overlay `tsemach-yhwh-branch-isaiah-4`, extended here). That default keeps “glory” for *kāḇôḏ* under wave I-4 ruling 2. ASV and JPS 1917 have “their glory” and NJPS has “their boast.” Here the noun is what the people prided themselves on, the power they leaned on. 10:12 records the departure “boasting” for *tip̄ʾereṯ*, where the noun is the Assyrian king’s arrogance and “honor” would not fit. At 20:5 the idiom allows “honor,” so the default stands, and NJPS’s “boast” is given here as the nearest English sense.\n\n*Mabbāṭ*, “that to which one looks,” is “expectation” with ASV and JPS 1917 (NJPS “hope”). It is rendered the same way here and at 20:6, so that the repetition shows. The pairing is chiastic: Cush the hope and Egypt the boast, reversing the order of 20:4. *Wᵉḥattû wāḇōšû* is “they shall be dismayed and ashamed” (JPS 1917; ASV “confounded”). The subject is not expressed. It is most naturally the people of “this coastland” in 20:6, the Philistine cities, and perhaps Judah, which looked to the same help. The English leaves it as “they,” as in the Hebrew.",
+        "official": "*Tip̄ʾartām* is “their honor,” the book’s default for *tip̄ʾereṯ* (overlay `tiferet-honor-isaiah`, the book-wide entry created at the wave I-4 sign-off). That default keeps “glory” for *kāḇôḏ* under wave I-4 ruling 2. ASV and JPS 1917 have “their glory” and NJPS has “their boast.” Here the noun is what the people prided themselves on, the power they leaned on. 10:12 records the departure “boasting” for *tip̄ʾereṯ*, where the noun is the Assyrian king’s arrogance and “honor” would not fit. At 20:5 the idiom allows “honor,” so the default stands, and NJPS’s “boast” is given here as the nearest English sense.\n\n*Mabbāṭ*, “that to which one looks,” is “expectation” with ASV and JPS 1917 (NJPS “hope”). It is rendered the same way here and at 20:6, so that the repetition shows. The pairing is chiastic: Cush the hope and Egypt the boast, reversing the order of 20:4. *Wᵉḥattû wāḇōšû* is “they shall be dismayed and ashamed” (JPS 1917; ASV “confounded”). The subject is not expressed. It is most naturally the people of “this coastland” in 20:6, the Philistine cities, and perhaps Judah, which looked to the same help. The English leaves it as “they,” as in the Hebrew.",
         "community": []
       },
       "translit": "wəḥattū wābōšū mikkūš mabbāṭām ūmin-miṣrayim tipʾartām"
@@ -277,7 +278,7 @@
         "official": "*Yōšēḇ hāʾî hazzeh* “the inhabitant of this coastland”: *ʾî* covers both coast and island (BDB). The book renders *ʾî / ʾiyyîm* “coastland(s)” (11:11; 24:15; 42:4), and the extension of overlay `lexical-cruxes-isaiah-11` records the concordance here. ASV and JPS 1917 have “coast-land” and NJPS “coastland.” In context it is the Philistine coast, where Ashdod stands (20:1). The singular *yōšēḇ* is a collective. The line keeps “the inhabitant” with ASV and JPS 1917, and NJPS renders “the dwellers.”\n\n*Hinnēh-ḵōh mabbāṭēnû* “Behold, such is our expectation” is ASV’s literal rendering. NJPS paraphrases it: “If this could happen to those we looked to.” The closing *wᵉʾêḵ nimmālēṭ ʾănāḥnû* places the pronoun last for emphasis, “and we, how shall we escape?” (ASV). The inner quotation ends YHWH’s speech, which opened at 20:3.",
         "community": []
       },
-      "translit": "wəʾāmar yōšēb hāʾī hazzeh bayyōm hahūʾ hinnēh-kōh mabbāṭēnū ʾăšer-nasnū šām ləʿezrāh ləhinnāṣēl mippənê melek ʾaššūr wəʾêk nimmālēṭ ʾănāḥnū"
+      "translit": "wəʾāmar yōšēb hāʾī hazzeh bayyōm hahūʾ hinnēh-kōh mabbāṭēnū ʾăšer-nasnū šām ləʿezrāh ləhinnāṣēl mippənē melek ʾaššūr wəʾēk nimmālēṭ ʾănāḥənū (s)"
     }
   ],
   "editorial_questions": []

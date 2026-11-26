@@ -32,7 +32,7 @@ The paragraph quotes two places where TBWTT reads a cloud as a craft:
 
 Applying those readings to Isa 19:1 is a project extension.
 The paragraph also says that the central rider-of-the-clouds entry rejects the vehicle reading of the Ugaritic epithet.
-**Recommendation:** Ship as labelled, following the founder's practice at 4:5, 7:14, 9:5 and 11:12. The founder must confirm it by name.
+**Recommendation:** Ship as labelled, following the founder's practice at 4:5, 7:14, 9:5 and 11:12. Confirmed by name: founder sign-off 2026-11-26 (kept).
 
 ---
 
@@ -49,7 +49,7 @@ The noun names a specific body, Pharaoh's court sages, which are the "counselors
 Under ruling 13 that body keeps "men", and the stable 29:14 has "its wise men".
 The generic plural of v11, *ben-ḥăḵāmîm*, stays neutral as "a son of the wise".
 **Why flagged:** This applies ruling 13 to a professional class rather than a military group.
-If the founder reads ruling 13 narrowly, the alternative is "your sages".
+If the founder reads ruling 13 narrowly, the alternative is "your sages". **Ruled 2026-11-26: "your wise men" stands.**
 
 ### `ISA-19:3` (*hāʾiṭṭîm*)
 
@@ -134,7 +134,7 @@ No English line changed, and no shared glossary was edited.
 3. **19:9 commentary and the `mt-qere-textual-policy-isaiah` rationaleAppend.** "NJPS reads/repoints as a verb" is softened.
    NJPS prints "chagrined" and notes only "Meaning of Heb. uncertain". Its rendering appears to take the word as a verb.
 4. **19:12.** The line keeps "your wise men".
-   `lexical-cruxes-isaiah-19` wohChoice now stages "your sages" (NJPS) under the marker "PENDING FOUNDER RULING". The founder needs to decide whether ruling 13 extends to a professional class.
+   `lexical-cruxes-isaiah-19` wohChoice staged "your sages" (NJPS) for the founder (withdrawn 2026-11-26: the founder kept "your wise men"; see the final section).
 5. **Central housekeeping (founder-gated, staged only).** I checked every KTU site of `rider-of-the-clouds-rkb-arpt-cross-corpus-ugaritic-hebrew-bible-storm-theophany` against the `baal-cycle-woh` edition, which covers KTU 1.1–1.4.
    - *rkb ʿrpt* is printed only at 1.2-iv:6, 1.3-ii:40, 1.3-iv:23 and 1.4-vi:10.
    - 1.3-iv:4 reads "She enters to Baʿlu on the heights of Ṣapunu".
@@ -145,4 +145,14 @@ No English line changed, and no shared glossary was edited.
 
    The corrected full values for `partOfSpeech`, `rationale` and `appliesTo` are in `wave-i4-orchestrator-ops.json` under `central.set`.
    `appliesTo` drops 1.4-iii:11 and 1.4-v:7. It keeps 1.4-vii:32, and the rationale now explains why.
-   A `_pendingFounder` note in that file names the change, which is a modification of existing fields (major if strictly applied). The central glossary itself was not edited.
+   A note in that file named the change, which is a modification of existing fields (major if strictly applied). The central glossary itself was not edited. Ratified 2026-11-26; see the final section.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-4 on 2026-11-26, choosing every recommended option in `wave-i4-signoff-package.md`. `translation.status` and the `reviewerReport` block are unchanged; the orchestrator promotes the chapter. Statements above marked pending, staged or escalated are settled as follows.
+
+- **Decision 1, 19:1 reception note:** kept as labelled (founder sign-off 2026-11-26).
+- **Decision 7, 19:12:** "your wise men" stands; ruling 13 covers this professional class. The staged "your sages" is removed from the `lexical-cruxes-isaiah-19` wohChoice, which now records the ruling; the rationale names NJPS "your sages" as the alternative reported in commentary. The 19:12 note already reports NJPS "your sages" and is unchanged.
+- **Decision 10, rider of the clouds:** the `central.set` in `wave-i4-orchestrator-ops.json` is ratified and kept; its `_pendingFounder` note is dropped. Central bump 4.0.0.

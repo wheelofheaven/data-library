@@ -5,7 +5,7 @@
     "to": "3.1.0",
     "readBase": "3.0.0",
     "marker": "CENTRAL — apply by orchestrator",
-    "note": "Isaiah wave I-4, chapter 18 Editor. Read base: central v3.0.0 (read-only, grep only). Contents: 2 modify ops. (1) eretz: appliesTo extension plus ONE appended context clause in wohChoice (the carrion formula, 'the beasts of the earth'). The existing wohChoice text is unchanged and the clause is appended verbatim at the end. This is the same kind of addition as the earlier E2, T1 and MC context clauses, so a minor bump is proposed. If the orchestrator counts a wohChoice extension as a modification, bump to 4.0.0 instead. MERGE NOTE: 'changes.wohChoice' gives the full v3.0.0 string plus the clause. If a parallel Editor also extends eretz, apply the clause as an append (the 'wohChoiceAppend' field repeats it) rather than overwriting. (2) shofar-rams-horn-signal-instrument-cross-corpus: appliesTo + ISA-18:3 with a rationale addendum. DELIBERATE NON-EXTENSIONS: no central Cush/Kush entry. Cush is governed by the overlay cush-names-isaiah, and the Torah 'Kush' vs Isaiah 'Cush' split is recorded there. behemoth is not applied at 18:6, because bᵉhemaṯ hāʾāreṣ is the plain plural sense 'beasts', not the Job 40 creature."
+    "note": "Isaiah wave I-4, chapter 18 Editor. Read base: central v3.0.0 (read-only, grep only). Contents: 2 modify ops. (1) eretz: appliesTo extension plus ONE appended context clause in wohChoice (the carrion formula, 'the beasts of the earth'). The existing wohChoice text is unchanged and the clause is appended verbatim at the end. This is the same kind of addition as the earlier E2, T1 and MC context clauses, so a minor bump is proposed. If the orchestrator counts a wohChoice extension as a modification, bump to 4.0.0 instead. MERGE NOTE: 'changes.wohChoice' gives the full v3.0.0 string plus the clause. If a parallel Editor also extends eretz, apply the clause as an append (the 'wohChoiceAppend' field repeats it) rather than overwriting. (2) shofar-rams-horn-signal-instrument-cross-corpus: appliesTo + ISA-18:3 and ISA-27:13 (27:13 by founder ruling 2026-11-26, the stable patch to \"a great shofar\") with a rationale addendum. DELIBERATE NON-EXTENSIONS: no central Cush/Kush entry. Cush is governed by the overlay cush-names-isaiah, and the Torah 'Kush' vs Isaiah 'Cush' split is recorded there. behemoth is not applied at 18:6, because bᵉhemaṯ hāʾāreṣ is the plain plural sense 'beasts', not the Job 40 creature."
   },
   {
     "op": "modify",
@@ -28,8 +28,9 @@
     "marker": "CENTRAL — apply by orchestrator",
     "id": "shofar-rams-horn-signal-instrument-cross-corpus",
     "appliesToAdded": [
-      "ISA-18:3"
+      "ISA-18:3",
+      "ISA-27:13"
     ],
-    "rationaleAppend": "isaiah-woh wave I-4: Isa 18:3 wᵉḵiṯqōaʿ šôp̄ār tišmāʿû is rendered 'and when a shofar is blown, hear!'. The Translator's draft had ASV 'a trumpet'. JPS 1917 has 'the horn', NJPS 'a ram's horn' and Koren 'a shofar' (checked 2026-11-26). The Latter Prophets already print 'shofar' (Zeph 1:16; Zech 9:14). The signed-off Isa 27:13 still prints 'a great trumpet' under the verse-scoped overlay entry shofar-gadol-ingathering-isaiah-27, which predates this entry's promotion. Harmonizing it is escalated for founder decision in the chapter 18 editor report."
+    "rationaleAppend": "isaiah-woh wave I-4: Isa 18:3 wᵉḵiṯqōaʿ šôp̄ār tišmāʿû is rendered 'and when a shofar is blown, hear!'. The Translator's draft had ASV 'a trumpet'. JPS 1917 has 'the horn', NJPS 'a ram's horn' and Koren 'a shofar' (checked 2026-11-26). The Latter Prophets already print 'shofar' (Zeph 1:16; Zech 9:14). Isa 27:13 šôp̄ār gāḏôl, signed off earlier as 'a great trumpet' under the verse-scoped overlay shofar-gadol-ingathering-isaiah-27, is revised to 'a great shofar' by founder ruling 2026-11-26 (chapter 27 version 1.0.1; Koren 'a great shofar', JPS 1917 'a great horn', NJPS 'a great ram's horn', checked 2026-11-26), and the site is added here."
   }
 ]

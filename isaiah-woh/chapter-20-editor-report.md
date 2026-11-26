@@ -53,7 +53,7 @@ None open. Two items are flagged for the orchestrator or founder. Neither blocks
 ### `ISA-20:5` — the *tip̄ʾereṯ* default sits inside a ṣemaḥ entry
 
 **Issue:** The book default "honor" for *tip̄ʾereṯ* (ruling 2) is recorded only in `tsemach-yhwh-branch-isaiah-4`. This diff extends that entry to 20:5. The stable 13:19 still prints "splendor", which remains unreconciled.
-**Recommendation:** at merge, split out a dedicated book-wide *tip̄ʾereṯ* entry covering 4:2, 10:12 (the departure "boasting"), 13:19 (reconcile) and 20:5.
+**Recommendation:** at merge, split out a dedicated book-wide *tip̄ʾereṯ* entry covering 4:2, 10:12 (the departure "boasting"), 13:19 (reconcile) and 20:5. **Ruled 2026-11-26: adopted** (see the final section).
 
 ---
 
@@ -100,3 +100,12 @@ None open. Two items are flagged for the orchestrator or founder. Neither blocks
 ## Post-review corrections
 
 - 2026-11-26: the `standardEnglish` of `lexical-cruxes-isaiah-20` (overlay diff) now lists three more JPS 1917 differences: "came into Ashdod" (20:1), "Like as My servant Isaiah" (20:3), and 20:6 "and how shall we escape?" without "and we". This is a documentation fix only: no line, decision, status or reviewerReport changed.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-4 on 2026-11-26, choosing every recommended option in `wave-i4-signoff-package.md`. `translation.status` and the `reviewerReport` block are unchanged; the orchestrator promotes the chapter. Statements above marked pending, staged or escalated are settled as follows.
+
+- **Decision 9, tip̄ʾereṯ:** the book-wide overlay entry `tiferet-honor-isaiah` (direct) is created at merge through `wave-i4-orchestrator-ops.json` (`overlay.add`). It governs 4:2 and 20:5 ("honor") and records the departures 3:18 "finery", 10:12 "boasting", 13:19 "splendor" and 44:13 "beauty". The tsemach-yhwh-branch-isaiah-4 extension to 20:5 is withdrawn from `wave-i4-ch20-overlay-diff.json` (its reasoning is carried by the new entry), the 20:5 glossaryRef is changed to `tiferet-honor-isaiah`, and the 20:5 note cites it. No English line changes.
+- **20:1 "the Tartan":** the recommended default stands.

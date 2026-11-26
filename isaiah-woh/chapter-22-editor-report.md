@@ -63,7 +63,7 @@ ASV "nail" is retired.
 - The strict "glory" rule (ruling 2) for non-divine *kāḇôḏ* is recorded chapter by chapter in the `lexical-cruxes-isaiah-N` entries (10, 11, 17, and now 22).
 - `kevodo-kavod-suffixed-isaiah` covers only the divine 3:8 and 6:3.
 
-**Recommendation:** at merge, consider one book-wide *kāḇôḏ* concordance entry, parallel to the *tip̄ʾereṯ* split the chapter 20 Editor recommended.
+**Recommendation:** at merge, consider one book-wide *kāḇôḏ* concordance entry, parallel to the *tip̄ʾereṯ* split the chapter 20 Editor recommended. **Ruled 2026-11-26: adopted** (`kavod-nondivine-glory-isaiah`).
 
 ### `ISA-22:15` — *sōḵēn* "treasurer" against "steward"
 
@@ -71,7 +71,7 @@ ASV "nail" is retired.
 - ASV "treasurer" is kept as the public-domain baseline.
 - JPS 1917, NJPS and the cognates (Ugaritic and Phoenician *skn* "prefect"; recalled) favour "steward".
 
-**Recommendation:** keep the line. If the founder prefers "steward", change the line and the wohChoice clause together.
+**Recommendation:** keep the line. If the founder prefers "steward", change the line and the wohChoice clause together. **Ruled 2026-11-26: "steward"** (see the final section).
 
 ---
 
@@ -143,8 +143,16 @@ The Reviewer returned the chapter as `awaiting-human`. These corrections need no
      - the 22:16 `notes.official`;
      - the `lexical-cruxes-isaiah-22` wohChoice clause and rationale sentence in `wave-i4-ch22-overlay-diff.json`;
      - row 12 of the decisions table above.
-2. **22:15, "treasurer" or "steward" (staged, PENDING FOUNDER RULING).**
+2. **22:15, "treasurer" or "steward" (staged for the founder; ruled "steward" 2026-11-26, see the final section).**
    - The line stays "treasurer".
-   - The alternative line "Go, get you to this steward, to Shebna, who is over the house:" is staged in the `lexical-cruxes-isaiah-22` wohChoice, marked PENDING FOUNDER RULING. If it is adopted, the line and that clause change together.
+   - The alternative line "Go, get you to this steward, to Shebna, who is over the house:" was staged in the `lexical-cruxes-isaiah-22` wohChoice for the founder. If it is adopted, the line and that clause change together.
    - The rationale now records the Reviewer's recommendation of "steward" and the probable LXX origin of "treasurer" (recalled, not verified).
 
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-4 on 2026-11-26, choosing every recommended option in `wave-i4-signoff-package.md`. `translation.status` and the `reviewerReport` block are unchanged; the orchestrator promotes the chapter. Statements above marked pending, staged or escalated are settled as follows.
+
+- **Decision 5, 22:15:** the line is now "Thus says the Lord YHWH of hosts: Go, get you to this steward, to Shebna, who is over the house:". The 22:15 note gives "steward" (JPS 1917, NJPS) and reports ASV "treasurer"; the `lexical-cruxes-isaiah-22` wohChoice and rationale record the ruling (two items now depart from ASV: 22:5 and 22:15), and the PENDING marker is gone.
+- **Decision 9, non-divine kāḇôḏ:** the book-wide overlay entry `kavod-nondivine-glory-isaiah` (direct) is created at merge through `wave-i4-orchestrator-ops.json` (`overlay.add`). This chapter's sites 22:18, 22:23 and 22:24 carry it in glossaryRefs, and the `lexical-cruxes-isaiah-22` wohChoice points to it.

@@ -16,7 +16,7 @@ the same base versions. This script applies all of them at once:
 
 The orchestrator ops file holds the wave-wide rulings the Editors left to
 the orchestrator: {"merge": {"drop-id": "keep-id"}, "appliesToAdd": {"id":
-[...]}, "set": {"id": {"field": value}}}, per glossary
+[...]}, "set": {"id": {"field": value}}, "add": [full entries]}, per glossary
 ("overlay" / "central"), plus a top-level "refsAdd": {"id": [refId, ...]}
 that adds glossaryRefs to the chapters, and "extraChapters": [paths relative to
 the repo root] for chapters outside the wave that refsAdd touches. Merged ids are renamed in the
@@ -91,6 +91,10 @@ def apply(entries, diffs, ops_file, label, problems):
                 if o.get('rationaleAppend'):
                     e['rationale'] = (e.get('rationale', '').rstrip() + ' ' + o['rationaleAppend'].strip()).strip()
                 log['modified'].append(o['id'])
+    for e in ops_file.get('add') or []:
+        if e['id'] in by_id:
+            problems.append(f"{label}: orchestrator add {e['id']} already exists"); continue
+        entries.append(dict(e)); by_id[e['id']] = entries[-1]; log['added'].append(e['id'])
     for drop, keep in (ops_file.get('merge') or {}).items():
         if drop in by_id and keep in by_id:
             by_id[keep]['appliesTo'] = union(by_id[keep].get('appliesTo', []), by_id[drop].get('appliesTo', []))

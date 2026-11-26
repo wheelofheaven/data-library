@@ -112,3 +112,12 @@ The Reviewer returned the chapter on 2026-11-26 with status `awaiting-human`. Th
    - 17:11: NJPS "you see it grow" is now described as taking the word as growth but not as causative. The support is restated as JPS 1917 and KJV.
 
 Line changes after review: one (17:2). The chapter total is now two verses, 17:2 and 17:11.
+
+---
+
+## Founder rulings applied (sign-off 2026-11-26)
+
+The founder (zarazinsfuss) signed off wave I-4 on 2026-11-26, choosing every recommended option in `wave-i4-signoff-package.md`. `translation.status` and the `reviewerReport` block are unchanged; the orchestrator promotes the chapter. Statements above marked pending, staged or escalated are settled as follows.
+
+- **Decision 9, non-divine kāḇôḏ:** the book-wide overlay entry `kavod-nondivine-glory-isaiah` (direct) is created at merge through `wave-i4-orchestrator-ops.json` (`overlay.add`). This chapter's sites 17:3 and 17:4 ("the glory of the children of Israel", "the glory of Jacob") carry it in glossaryRefs.
+- **17:11 and 17:10:** the recommended options stand (C at 17:11; the 17:10 comparative paragraph as revised after review). No English line changes.
