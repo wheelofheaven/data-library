@@ -207,6 +207,24 @@ def load_reference(book_slug):
     return ref_map, ver, lic, "ok"
 
 
+COMPOSITE_BOOKS = {"atrahasis-woh", "gilgamesh-woh", "adapa-woh", "baal-cycle-woh"}
+FRAGMENT_BOOKS = {"book-of-enoch-woh", "jubilees-woh"}
+
+
+def attestation(slug, lang, witness, original):
+    """How the `original` of a row is attested (documented on the card)."""
+    if not original:
+        return ""
+    if slug in COMPOSITE_BOOKS:
+        return "composite-reconstruction"
+    if slug in FRAGMENT_BOOKS and lang in ("he", "arc"):
+        w = (witness or "").lower()
+        if re.search(r"not preserved|reconstruct|retrovers", w):
+            return "reconstruction"
+        return "fragment-with-reconstruction"
+    return "complete-witness"
+
+
 def rows_for(book_dir, meta, ref=None, orig_lic="", withhold=False):
     src = load_source_map(book_dir)
     ref_map, ref_ver, ref_lic = ref or ({}, "", "")
@@ -233,10 +251,14 @@ def rows_for(book_dir, meta, ref=None, orig_lic="", withhold=False):
             rows.append({
                 "ref": rid,
                 "chapter": cn,
-                "verse": p.get("n"),
+                "verse": str(p.get("n")) if p.get("n") is not None else "",
                 "original": "" if withhold else (p.get("text") or p.get("he") or ""),
                 "original_license": orig_lic,
                 "original_lang": p.get("text_lang") or s.get("source_lang") or orig_lang,
+                "original_attestation": "" if withhold else attestation(
+                    book_dir.name, p.get("text_lang") or s.get("source_lang") or orig_lang,
+                    s.get("witness_primary", ""),
+                    p.get("text") or p.get("he") or p.get("translit") or p.get("cuneiform") or ""),
                 "transliteration": "" if withhold else (p.get("translit") or s.get("transliteration") or ""),
                 # Unicode cuneiform back-rendered from the transliteration
                 # (OGSL sign list), not an attested tablet reading.
@@ -301,7 +323,7 @@ def review_status(book_dir, meta):
 
 
 def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status="none", n_ref=0,
-         src_lic=None):
+         src_lic=None, row_langs=()):
     titles = meta.get("titles") or {}
     en_title = titles.get("en") or slug
     orig_lang = meta.get("originalLang") or meta.get("primaryLang") or ""
@@ -311,7 +333,7 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
     withheld = bool(src_lic and src_lic.get("withhold"))
     if src_lic and not withheld:
         provenance = f"{orig_name} text: {src_lic['credit']}"
-    langs = "\n".join(f"- {c}" for c in dict.fromkeys(["en", "" if withheld else orig_lang]) if c)
+    langs = "\n".join(f"- {c}" for c in dict.fromkeys(["en"] + ([] if withheld else [orig_lang, *row_langs])) if c)
     pretty = f"{en_title} — Wheel of Heaven Translation"
     has_ref = ref_status == "ok" and n_ref
     front = (
@@ -366,6 +388,10 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         + ("`original`, `transliteration` and `cuneiform` are empty in this dataset. " if withheld else "")
         + "`ref`, `chapter`, `verse`, `original` (source script), `original_license` (licence of "
         "the source text; empty where it is public domain), `original_lang`, "
+        "`original_attestation` (`complete-witness`: a full manuscript tradition; "
+        "`fragment-with-reconstruction`: a Dead Sea Scrolls fragment whose gaps the editor filled; "
+        "`reconstruction`: not preserved in this language, reconstructed; "
+        "`composite-reconstruction`: a composite text assembled from several tablets with restorations), "
         "`transliteration`, `cuneiform` (Unicode cuneiform back-rendered from the transliteration "
         "with the OGSL sign list — a reading aid, not an attested tablet; cuneiform books only), "
         "`cuneiform_confidence` (`full` / `partial` / `low`), "
@@ -459,7 +485,7 @@ def kaggle_desc(slug, en_title, orig_name, n_rows, n_gloss, ref_ver, ref_lic, re
         f"attribution, per-verse translator commentary, and a {n_gloss}-entry translation glossary.\n\n"
         f"{ref_line}\n\n"
         f"**Rows:** {n_rows} (one per verse). **Columns:** ref, chapter, verse, original, "
-        f"original_license, original_lang, transliteration, cuneiform, cuneiform_confidence, english (WoH), reference_english, reference_version, "
+        f"original_license, original_lang, original_attestation, transliteration, cuneiform, cuneiform_confidence, english (WoH), reference_english, reference_version, "
         f"reference_license, commentary, glossary_refs, witness_primary, witness_secondary.\n\n"
         + (f"**License: {src_lic['name']}.** The `original` column reproduces a {src_lic['name']} "
            f"edition; reusing it requires {src_lic['terms']}: {src_lic['credit']}\n\n" if src_lic else "")
@@ -540,7 +566,8 @@ def build(slug, kaggle_owner=None):
         json.dump(gloss, fh, ensure_ascii=False, indent=2)
     (out / "README.md").write_text(
         card(slug, meta, len(rows), n_gloss, review_status(bd, meta),
-             ref_ver, ref_lic, ref_status, n_ref, src_lic), encoding="utf-8")
+             ref_ver, ref_lic, ref_status, n_ref, src_lic,
+             sorted({r["original_lang"] for r in rows if r["original"]})), encoding="utf-8")
     if kaggle_owner:
         emit_kaggle(slug, meta, rows, gloss, n_gloss, ref_ver, ref_lic, ref_status, n_ref, kaggle_owner, src_lic)
     filled = sum(1 for r in rows if r["english"].strip())
@@ -553,6 +580,83 @@ def build(slug, kaggle_owner=None):
     print(f"  ✓ {slug}: {len(rows)} verses ({filled} with English), {n_gloss} glossary entries"
           f"{ref_note} → {dest}/{slug}/")
     return len(rows)
+
+
+CORPUS = "woh-parallel-corpus"
+
+
+def build_corpus(kaggle_owner=None):
+    """One dataset over every packaged book: a config per book plus `all`."""
+    books = sorted(d.name for d in DIST.iterdir() if d.is_dir() and d.name != CORPUS and (d / f"{d.name}.jsonl").exists())
+    out = DIST / CORPUS
+    shutil.rmtree(out, ignore_errors=True)
+    (out / "data").mkdir(parents=True)
+    table, langs, total = [], set(), 0
+    for slug in books:
+        rows = [json.loads(l) for l in open(DIST / slug / f"{slug}.jsonl", encoding="utf-8")]
+        with open(out / "data" / f"{slug}.jsonl", "w", encoding="utf-8") as fh:
+            for r in rows:
+                fh.write(json.dumps({"book": slug, **r}, ensure_ascii=False) + "\n")
+        meta = json.load(open(ROOT / slug / "_meta.json", encoding="utf-8"))
+        bl = sorted({r["original_lang"] for r in rows if r["original"] or r["transliteration"]})
+        langs.update(bl)
+        lic = sorted({r["original_license"] for r in rows if r["original_license"]}) or ["public domain / CC0"]
+        title = (meta.get("titles") or {}).get("en") or slug
+        table.append(f"| [{title}](https://huggingface.co/datasets/wheelofheaven/{slug}) | `{slug}` | {len(rows)} | {', '.join(bl) or '—'} | {', '.join(lic)} |")
+        total += len(rows)
+    configs = "configs:\n- config_name: all\n  data_files: data/*.jsonl\n  default: true\n" + "".join(
+        f"- config_name: {s}\n  data_files: data/{s}.jsonl\n" for s in books)
+    readme = (
+        "---\nlicense: cc-by-sa-4.0\npretty_name: \"Wheel of Heaven Parallel Corpus\"\n"
+        "language:\n" + "".join(f"- {c}" + "\n" for c in ["en", *sorted(langs)]) +
+        "task_categories:\n- translation\ntags:\n- parallel-corpus\n- religious-text\n- ancient-languages\n"
+        "- transliteration\n- cuneiform\nsize_categories:\n- 10K<n<100K\n" + configs + "---\n\n"
+        "# Wheel of Heaven Parallel Corpus\n\n"
+        f"**{total:,} verse-aligned rows across {len(books)} books**: ancient source texts (Hebrew, Aramaic, "
+        "Greek, Geʿez, Coptic, Akkadian, Sumerian, Ugaritic, Avestan, Arabic and more) beside a new English "
+        "translation made under the Wheel of Heaven Translation Program, with transliteration, Unicode "
+        "cuneiform where relevant, manuscript witnesses, translator commentary and a public-domain reference "
+        "translation where one is available.\n\n"
+        "Load everything with `load_dataset(\"wheelofheaven/woh-parallel-corpus\")`, or one book with "
+        "`load_dataset(\"wheelofheaven/woh-parallel-corpus\", \"genesis-woh\")`. Each book also has its own "
+        "dataset (linked below) with its glossary and a book-specific card.\n\n"
+        "## Books\n\n| Book | Config | Rows | Original languages | Source-text licence |\n|---|---|---:|---|---|\n"
+        + "\n".join(table) + "\n\n"
+        "## Columns\n\n`book` plus the per-book schema: `ref`, `chapter`, `verse`, `original`, "
+        "`original_license`, `original_lang`, `original_attestation` (`complete-witness`, "
+        "`fragment-with-reconstruction`, `reconstruction`, `composite-reconstruction`), `transliteration`, "
+        "`cuneiform`, `cuneiform_confidence`, `english`, `reference_english`, `reference_version`, "
+        "`reference_license`, `commentary`, `glossary_refs`, `witness_primary`, `witness_secondary`.\n\n"
+        "Transliterations are partly machine-generated (each book card says which); cuneiform is "
+        "back-rendered from the transliteration with the OGSL sign list, a reading aid rather than an "
+        "attested tablet. Where a source edition is not openly licensed (ETCSL) the `original`, "
+        "`transliteration` and `cuneiform` columns are empty.\n\n"
+        "## Licence\n\nThe Wheel of Heaven layer (English translation, commentary, glossary references, "
+        "transliteration we generated) is CC0. Some source texts are not: SBLGNT and the Coptic Scriptorium "
+        "Gospel of Thomas are CC BY 4.0; Perseus/First1KGreek texts are CC BY-SA 4.0. Every row names its "
+        "source licence in `original_license` (empty = public domain or CC0), so the collection as a whole "
+        "is offered under **CC BY-SA 4.0**, and individual rows can be reused under their own, more "
+        "permissive terms.\n\n"
+        "## Citation\n\n```bibtex\n@misc{wheelofheaven_parallel_corpus,\n"
+        "  title  = {Wheel of Heaven Parallel Corpus},\n  author = {{Wheel of Heaven}},\n"
+        "  year   = {2026},\n  url    = {https://huggingface.co/datasets/wheelofheaven/woh-parallel-corpus},\n"
+        "  note   = {Verse-aligned ancient source texts with new English translations}\n}\n```\n\n"
+        f"Read the books at {WWW}/library/.\n")
+    (out / "README.md").write_text(readme, encoding="utf-8")
+    if kaggle_owner:
+        kd = DIST_KG / CORPUS
+        shutil.rmtree(kd, ignore_errors=True)
+        kd.mkdir(parents=True)
+        for f in (out / "data").iterdir():
+            shutil.copy(f, kd / f.name)
+        (kd / "dataset-metadata.json").write_text(json.dumps({
+            "title": "Wheel of Heaven Parallel Corpus",
+            "subtitle": f"{total:,} verse-aligned ancient source texts with English",
+            "id": f"{kaggle_owner}/{CORPUS}",
+            "licenses": [{"name": "CC-BY-SA-4.0"}],
+            "description": readme.split("---\n", 2)[2],
+        }, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"  ✓ {CORPUS}: {total} rows across {len(books)} books, languages {sorted(langs)}")
 
 
 def main():
@@ -573,6 +677,8 @@ def main():
           + (f" + {DIST_KG.name}/ (owner: {args.kaggle_owner})" if args.kaggle_owner else "") + "\n")
     for b in books:
         total += build(b, args.kaggle_owner)
+    if not args.only:
+        build_corpus(args.kaggle_owner)
     print(f"\n{total} verses across {len(books)} books.")
     print("Upload (HF):     hf upload wheelofheaven/<slug> scripts/dist-hf/<slug> --repo-type=dataset")
     if args.kaggle_owner:
