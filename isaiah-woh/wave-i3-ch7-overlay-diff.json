@@ -1,0 +1,209 @@
+[
+  {
+    "op": "version",
+    "from": "1.7.0",
+    "to": "1.8.0",
+    "readBase": "1.6.1",
+    "note": "Isaiah wave I-3, chapter 7 Editor. Read base: overlay v1.6.1, with the wave I-1 diffs treated as in force (merge target 1.7.0). Contents: 6 add ops, 5 modify ops (appliesTo extensions, two with rationale addenda) and 1 note op; no existing wohChoice, claim_type or rationale text changed), so a minor bump. CONCURRENCY: the Isa 8-12 Editors work from the same base. Merge as a union and re-base each appliesTo as (merged array + appliesToAdded). sign-names-isaiah-7-8 is added here (wave ruling 1) with the 8:1, 8:3, 8:8, 8:10 and 10:21 sites pre-listed; the chapter 8 Editor's modify op on the same id is therefore redundant in scope but its rationaleAppend should be kept. aram-names-isaiah pre-lists ISA-9:11, where the chapter 9 Editor printed 'Aram' under the wave ruling without an entry. sharaq-whistle-isaiah lists ISA-5:26 (wave I-1 line 'whistle', which had no entry); it complements the chapter 11 Editor's nes-signal-isaiah at the same verse."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "sign-names-isaiah-7-8",
+      "source": "שְׁאָר יָשׁוּב (7:3; as a clause 10:21); עִמָּנוּ אֵל (7:14; 8:8; as a clause כִּי עִמָּנוּ אֵל 8:10); מַהֵר שָׁלָל חָשׁ בַּז (8:1, 3)",
+      "translit": "šᵉʾār yāšûḇ; ʿimmānû ʾēl; mahēr šālāl ḥāš baz",
+      "strongs": "H7610 (Šᵉʾār Yāšûḇ); H6005 (ʿImmānûʾēl); H4122 (Mahēr Šālāl Ḥāš Baz); components H7605 (šᵉʾār), H7725 (šûḇ), H5973 (ʿim), H410 (ʾēl). Strong's numbers from recall, not concordance-verified.",
+      "lemma": "the sentence-names of Isaiah 7-8, given to children as signs (8:18)",
+      "partOfSpeech": "personal names formed from clauses; at 8:10 and 10:21 the same words used as clauses",
+      "literal": "'a remnant will return'; 'with us (is) God'; 'the spoil hastens, the plunder speeds' (or imperative 'hasten the spoil, hurry the plunder')",
+      "standardEnglish": "ASV, NRSV and NJPS transliterate Shear-jashub (7:3), Immanuel (7:14; 8:8) and Maher-shalal-hash-baz (8:1, 3); ASV 8:8 'O Immanuel'; ASV 8:10 'for God is with us'; ASV 10:21 'A remnant shall return'",
+      "wohChoice": "Transliterated names in the line, with the meaning given in commentary: 'Shear-jashub' (7:3), 'Immanuel' (7:14), 'Maher-shalal-hash-baz' (8:1, 3); at 8:8 the vocative 'O Immanuel'. Where the same words function as a clause they are translated: 8:10 kî ʿimmānû ʾēl 'for God is with us' (commentary links 7:14 and 8:8); 10:21 šᵉʾār yāšûḇ 'A remnant will return' (commentary notes the echo of 7:3). The name-meaning is never inserted into the line in brackets, and the line does not decide whether šûḇ is 'come back' or 'turn back' (repent).",
+      "claim_type": "direct",
+      "rationale": "Isaiah 7-8 gives three children names that are whole sentences, and 8:18 says that the prophet and his children are 'signs and portents in Israel', so the names carry the message of the chapters. English translations agree in transliterating them as names (ASV, NRSV, NJPS), and the Editor follows that practice because a translated name ('A-remnant-will-return your son') reads as a clause and hides the fact that the Hebrew is a personal name. Where the same words are not a name but a clause, the Hebrew syntax changes and the translation must change with it: kî ʿimmānû ʾēl at 8:10 is the reason clause closing an oracle against the nations, and šᵉʾār yāšûḇ at 10:21 is the subject and verb of a sentence followed by an apposition ('the remnant of Jacob'). Rendering them as clauses there, while the commentary draws the links back to 7:3 and 7:14, lets the reader see both the name and its meaning without importing a translation into the name sites. The meanings themselves are not in doubt, but their force is: šᵉʾār yāšûḇ can be threat ('only a remnant') or promise, and šûḇ can be return or repentance, so the commentary sets out both and the line stays neutral. ʾēl in the clause at 8:10 is 'God' under elohim-el-eloah-monotheistic-formula-isaiah; that entry is not applied to the name sites because the name is transliterated. The noun šᵉʾār is distinct from šᵉʾērîṯ, so the central she-erit-remnant-cross-corpus-theological-keyword (whose rationale cites the name) is not applied to the line.",
+      "appliesTo": [
+        "ISA-7:3",
+        "ISA-7:14",
+        "ISA-8:1",
+        "ISA-8:3",
+        "ISA-8:8",
+        "ISA-8:10",
+        "ISA-10:21"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "almah-young-woman-isaiah-7-14",
+      "source": "הָעַלְמָה",
+      "translit": "hā-ʿalmâ",
+      "strongs": "H5959 (ʿalmâ); contrast H1330 (bᵉṯûlâ). Strong's numbers from recall, not concordance-verified.",
+      "lemma": "ʿalmâ 'young woman (of marriageable age)', feminine of ʿelem 'young man'",
+      "partOfSpeech": "noun (feminine singular) with the definite article",
+      "literal": "the young woman",
+      "standardEnglish": "ASV and KJV 'a virgin' (following the Greek hē parthenos as cited in Matt 1:23); RSV 'a young woman'; NRSV and NJPS 'the young woman'",
+      "wohChoice": "'Behold, the young woman is with child and shall bear a son, and shall call his name Immanuel' (ISA-7:14). ʿalmâ 'young woman', with the article kept ('the'); hārâ as the adjective 'is with child'; yōleḏeṯ as a participle 'shall bear'; wᵉqārāʾṯ as 'and shall call', subject the young woman. The identity of the woman is not decided in the line. The Septuagint's parthenos and its reception in Matt 1:23 are given in commentary and are governed for the Matthew line by the central isa-7-14-virgin-birth-mt-1-22-23-parthenos-vs-almah-philological-dispute-cross-corpus, which is NOT applied to the Hebrew line. Any Wheel of Heaven reading appears only in a labelled speculative paragraph of the commentary.",
+      "claim_type": "direct",
+      "rationale": "ʿalmâ is the feminine of ʿelem 'young man' (1 Sam 17:56; 20:22) and denotes a young woman of marriageable age; the standard lexica (BDB, HALOT) do not give it the specific sense 'virgin', which is the sense bᵉṯûlâ usually carries (Lev 21:13-14; Deut 22:23-29); BDB's gloss for ʿalmâ is 'young woman (ripe sexually; maid or newly married)'. The other occurrences (Gen 24:43; Exod 2:8; Ps 68:26 Heb.; Prov 30:19; Song 1:3; 6:8) are consistent with that sense, and the Editor's rendering matches the modern scholarly translations (RSV, NRSV, NJPS); the claim is therefore direct. The Hebrew has the definite article, so the line says 'the young woman' rather than RSV's 'a young woman'. The departure from ASV's 'a virgin' is the most visible in the book, and it is made because ASV here follows the rendering of the Greek text cited in Matt 1:23 rather than the Hebrew, which the project's accuracy-above-lens rule does not allow for a Hebrew line. Two points are recorded so the decision is auditable rather than polemical: bᵉṯûlâ itself is sometimes qualified (Gen 24:16; Joel 1:8), and it is often observed that no biblical ʿalmâ is clearly a married woman; the line renders what the word denotes and does not claim what it excludes. The tense pattern follows the grammar of the annunciation formula shared with Gen 16:11 and Judg 13:5, and the subject of qārāʾṯ follows the 3fs reading because no woman is addressed in the verse; the Septuagint's second-person kaléseis 'you shall call' is verified and reported, and the 1QIsaᵃ reading reported as wqrʾ is disclosed as not verified. The project's Matthew 1:23 line follows the Septuagint that Matthew cites, under the central entry, so the two lines differ by design: each translates its own source.",
+      "appliesTo": [
+        "ISA-7:14"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "aram-names-isaiah",
+      "source": "אֲרָם",
+      "translit": "ʾărām",
+      "strongs": "H758 (ʾĂrām). Strong's numbers from recall, not concordance-verified.",
+      "lemma": "ʾărām, the Aramean kingdom of Damascus and its people",
+      "partOfSpeech": "proper noun (land / people)",
+      "literal": "Aram",
+      "standardEnglish": "ASV 'Syria', 'the Syrians' (after the Greek and Latin tradition); NRSV and NJPS 'Aram', 'the Arameans'",
+      "wohChoice": "'Aram' for the state or land and for the people as a collective subject (7:1, 2, 4, 5, 8; 9:11); 'the Arameans' where the Hebrew uses a gentilic or plural form. Never 'Syria' or 'the Syrians'. Wave I-3 ruling 4 also fixes the English forms Ephraim, Manasseh, Egypt and Assyria; other place names take the ASV spelling unless a glossary entry fixes another form.",
+      "claim_type": "direct",
+      "rationale": "The Hebrew name of the kingdom ruled from Damascus is ʾărām, and the modern scholarly translations (NRSV, NJPS) print 'Aram'. ASV's 'Syria' comes from the Greek and Latin versions, which used the later geographical name, and it now suggests the modern state to most readers. The 1 Kings translation in the corpus already prints 'Aram' (e.g. 1 Kgs 22), so this entry brings Isaiah into line with the corpus and with the Hebrew. In Isaiah 7 the name stands both for the kingdom (7:1, 8) and for its people or army as a collective subject (7:2, 5), and the line uses 'Aram' for both, as NRSV does. The ruling is book-wide (also 17:3 when drafted) and carries no interpretive weight beyond the name.",
+      "appliesTo": [
+        "ISA-7:1",
+        "ISA-7:2",
+        "ISA-7:4",
+        "ISA-7:5",
+        "ISA-7:8",
+        "ISA-9:11"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "qutz-dread-isaiah-7",
+      "source": "וּנְקִיצֶנָּה (7:6); אַתָּה קָץ מִפְּנֵי (7:16)",
+      "translit": "ûnᵉqîṣennāh; ʾattāh qāṣ mippᵉnê",
+      "strongs": "H6973 (qûṣ I 'feel loathing, dread'). Strong's numbers from recall, not concordance-verified.",
+      "lemma": "qûṣ I 'feel a loathing or dread'; Hiphil 'cause dread'",
+      "partOfSpeech": "verb: Hiphil imperfect cohortative 1cp with 3fs suffix (7:6); Qal participle or perfect 2ms (7:16)",
+      "literal": "7:6 'and let us cause it dread'; 7:16 'you feel dread before'",
+      "standardEnglish": "ASV 'vex it' (7:6), 'whom thou abhorrest' (7:16); NRSV 'cut off Judah' (7:6), 'dread' (7:16)",
+      "wohChoice": "7:6 'and terrify it'; 7:16 'whose two kings you dread'. The two sites are rendered with the vocabulary of dread so that the reader can see the root recur: the coalition plans to put Judah in dread, and Ahaz is in dread of the coalition.",
+      "claim_type": "inferred",
+      "rationale": "At 7:16 the sense is secure: qûṣ with mippᵉnê means 'be in dread of', as in Exod 1:12 (the Egyptians in dread of the Israelites) and Num 22:3 (Moab in dread of Israel), so ASV's 'abhor' gives the wrong emotion and is replaced by 'dread'. At 7:6 the form nᵉqîṣennāh is disputed. BDB gives the Hiphil of the same root, 'let us cause her sickening dread', but calls that parse weak and recommends reading nᵉṣîqennāh, from ṣûq 'distress, press hard'; others derive the form from a root meaning 'cut, tear apart' (NRSV 'cut off Judah'). The Editor keeps the qûṣ parse, which both the parse and the ṣûq emendation support in sense (pressure and terror), because the same root is then used in the same chapter for the two sides of the crisis, and because the following verb (nabqiʿennāh 'let us break into it') supplies the military action without needing a second verb of violence. Because the 7:6 derivation is not certain, the entry is marked inferred; the 7:16 rendering on its own would be direct.",
+      "appliesTo": [
+        "ISA-7:6",
+        "ISA-7:16"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "sharaq-whistle-isaiah",
+      "source": "וְשָׁרַק (5:26); יִשְׁרֹק (7:18)",
+      "translit": "wᵉšāraq; yišrōq",
+      "strongs": "H8319 (šāraq). Strong's numbers from recall, not concordance-verified.",
+      "lemma": "šāraq 'whistle, hiss'",
+      "partOfSpeech": "verb (Qal)",
+      "literal": "to whistle / to hiss",
+      "standardEnglish": "ASV 'hiss' (5:26; 7:18); NRSV and NJPS 'whistle'",
+      "wohChoice": "Context decides. 'whistle (for)' where šāraq + lᵉ- is a signal that summons (5:26 'and whistle for them'; 7:18 'YHWH will whistle for the fly … and for the bee'). 'hiss' where it expresses scorn or horror at a ruin (e.g. Jer 19:8; Lam 2:15; 1 Kgs 9:8), when those texts are drafted.",
+      "claim_type": "direct",
+      "rationale": "šāraq names the sound made through pursed lips, and English needs two words for its two uses. With lᵉ- 'for' it is a call that brings someone, as a beekeeper or herdsman calls; the image in 7:18, of YHWH calling the fly and the bee, depends on that sense, and NRSV and NJPS render 'whistle'. In the ruin formulas (Jer 19:8; Lam 2:15) the same verb is the sound of scorn, where 'hiss' is right. ASV uses 'hiss' at 5:26 and 7:18 as well, which in modern English suggests contempt and misreports a summons. The wave I-1 line at 5:26 already prints 'whistle', and this entry records the decision for both Isaiah sites so they stay concordant.",
+      "appliesTo": [
+        "ISA-5:26",
+        "ISA-7:18"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-7",
+      "source": "Isaiah 7 (various): וְלֹא יָכֹל (7:1); נָחָה … עַל (7:2); זַנְבוֹת הָאוּדִים (7:4); טָבְאַל (7:6); תַאֲמִינוּ / תֵאָמֵנוּ (7:9); שְׁאָלָה (7:11); אֲנָשִׁים (7:13); הָרָה וְיֹלֶדֶת … וְקָרָאת; אוֹת (7:14); חֶמְאָה (7:15, 22); לְדַעְתּוֹ (7:15); בַּתּוֹת, נַעֲצוּצִים, נַהֲלֹלִים (7:19); תַּעַר הַשְּׂכִירָה, שַׂעַר הָרַגְלָיִם (7:20); לֹא־תָבוֹא … יִרְאַת; מַעְדֵּר (7:25)",
+      "translit": "various",
+      "strongs": "H3201 (yāḵōl); H5117 (nûaḥ); H2180 (zānāḇ); H181 (ʾûḏ); H2870 (Ṭāḇᵉʾēl); H539 (ʾāman); H7592 (šāʾal); H582 (ʾĕnôš); H2030 (hārâ); H3205 (yālaḏ); H7121 (qārāʾ); H226 (ʾôṯ); H2529 (ḥemʾâ); H1327 (battâ); H5285 (naʿăṣûṣ); H5097 (nahălōl); H8593 (taʿar); H7917 (śᵉḵîrâ); H4576 (maʿdēr). Strong's numbers from recall, not concordance-verified.",
+      "lemma": "the smaller lexical and syntactic decisions of Isaiah 7 not given their own entry",
+      "partOfSpeech": "various",
+      "literal": "see wohChoice",
+      "standardEnglish": "ASV throughout, except where stated",
+      "wohChoice": "7:1 'but could not prevail against it' (ASV; MT singular yāḵōl vs 2 Kgs 16:5 plural, in commentary). 7:2 'Aram is confederate with Ephraim' (ASV sense; literal 'has settled upon' in commentary). 7:4 'these two tails of smoking firebrands' (ASV). 7:6 'the son of Tabeel' (conventional name; MT ṭāḇᵉʾal explained in commentary as a pausal form or as a 'good-for-nothing' pun, the two alternatives BDB gives). 7:9 'If you will not believe, surely you shall not be established' (ASV; kî asseverative; the ʾmn root-play explained, not imitated). 7:11 MT pointing šᵉʾālāh 'ask it' (ASV); the Sheol repointing in commentary. 7:13 'to weary men' (ASV; see the editor report for the link to the wave I-1 gender-generic decision). 7:14 'a sign' for ʾôṯ; the tense and subject of the annunciation formula as in almah-young-woman-isaiah-7-14. 7:15, 22 ḥemʾâ 'curds' (replacing ASV 'butter'); 7:15 lᵉḏaʿtô 'when he knows' (ASV). 7:19 'desolate valleys … thorn-hedges … pastures' (ASV); nāḥû 'settle' (ASV 'rest'). 7:20 'a razor that is hired … the hair of the feet … consume' (ASV; the euphemism kept, not explained, in the line). 7:25 'you shall not come there for fear of briers and thorns' (ASV, 2ms construal; the NJPS 3fs construal in commentary); bammaʿdēr yēʿāḏērûn 'hoed with the hoe' (as 5:6 'hoed').",
+      "claim_type": "direct",
+      "rationale": "These decisions are collected in one entry, following the per-chapter practice of wave I-1, because each governs a single site or a single pair of sites and would bloat the overlay as separate entries. Most ratify the Translator's ASV default and are recorded only so that the commentary's alternatives are auditable. The one lexical change is ḥemʾâ: the word denotes curdled or soured milk (BDB 'curd'; NRSV, NJPS 'curds'), and ASV's 'butter' gives a modern product in place of the biblical one, so 'curds' is printed at 7:15 and twice at 7:22. Two decisions are made for concordance with wave I-1 lines: 'hoed' at 7:25 matches yēʿāḏēr at 5:6, and 'settle' at 7:19 keeps the verb of 7:2 recognisable in English. Where the Masoretic Text is kept against an emendation or a repointing (7:8, 7:11, 7:17, 7:20) the policy is mt-qere-textual-policy-isaiah, not this entry.",
+      "appliesTo": [
+        "ISA-7:1",
+        "ISA-7:2",
+        "ISA-7:4",
+        "ISA-7:6",
+        "ISA-7:9",
+        "ISA-7:11",
+        "ISA-7:13",
+        "ISA-7:14",
+        "ISA-7:15",
+        "ISA-7:16",
+        "ISA-7:19",
+        "ISA-7:20",
+        "ISA-7:22",
+        "ISA-7:25"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-7:8",
+      "ISA-7:11",
+      "ISA-7:14",
+      "ISA-7:17",
+      "ISA-7:20"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 7): chapter 7 has no ketiv/qere pair. Kept in the line against literary-critical proposals, which are reported in commentary: 7:8b the sixty-five-year clause (often taken as a gloss and sometimes transposed after 7:9a, as NJPS prints it); 7:17 ʾēṯ meleḵ ʾaššûr and 7:20 bᵉmeleḵ ʾaššûr (often taken as explanatory glosses). Kept against a repointing: 7:11 šᵉʾālāh 'ask' (repointed šᵉʾōlāh 'to Sheol' by NRSV and NJPS and reflected in the Vulgate). Reported: 7:14 the Septuagint's second-person kaléseis 'you shall call' (verified); 1QIsaᵃ wqrʾ for MT wᵉqārāʾṯ (not verified). Orchestrator: add these sites to the variant list in wohChoice on merge; the Editor does not rewrite the field here, to avoid a conflict with the parallel Editors."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-7:1",
+      "ISA-7:3",
+      "ISA-7:7",
+      "ISA-7:10",
+      "ISA-7:11",
+      "ISA-7:12",
+      "ISA-7:14",
+      "ISA-7:17",
+      "ISA-7:18",
+      "ISA-7:20"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 7): the Translator's chapter title is ratified ('Isaiah 7 — The sign given to Ahaz: the two smoking firebrands, the young woman's son Immanuel, and the hired razor'). Quotation marks: the divine instruction 7:3-9 is one quotation, with the message to Ahaz (7:4-9) unmarked inside it; 7:11 and 7:12 are separate short speeches; the prophet's reply runs from 7:13 to the end of 7:17. 'YHWH' and 'the Lord' are kept distinct as elsewhere in the book."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-standalone-title-isaiah",
+    "appliesToAdded": [
+      "ISA-7:14",
+      "ISA-7:20"
+    ],
+    "note": "7:14 ʾăḏōnāy hûʾ 'the Lord himself'; 7:20 'the Lord will shave'."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh-compound-isaiah-25",
+    "appliesToAdded": [
+      "ISA-7:7"
+    ],
+    "note": "7:7 kōh ʾāmar ʾăḏōnāy YHWH 'thus says the Lord YHWH'."
+  },
+  {
+    "op": "modify",
+    "id": "elohai-elohenu-doxology-isaiah-25",
+    "appliesToAdded": [
+      "ISA-7:11",
+      "ISA-7:13"
+    ],
+    "note": "7:11 'YHWH your God' (to Ahaz); 7:13 'my God' (the prophet). The change of suffix is noted in commentary."
+  },
+  {
+    "op": "note",
+    "id": "deliberate-non-applications",
+    "note": "Overlay entries considered and not applied in Isa 7: elohim-el-eloah-monotheistic-formula-isaiah at 7:14 (ʾēl is inside the transliterated name 'Immanuel'; the entry applies at the clause 8:10, chapter 8 Editor); chemah-shamir-shayit-briers-isaiah-27 at 7:23-25 (a 27:4 verse entry; šāmîr wāšayiṯ is 'briers and thorns' as in the ASV and at 5:6, with no entry needed); eretz-cosmic-scope-isaiah-24 (every ʾereṣ in ch. 7 is territorial: 7:18, 22, 24, under the central eretz)."
+  }
+]

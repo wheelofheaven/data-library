@@ -1,0 +1,69 @@
+[
+  {
+    "op": "version",
+    "from": "2.93.0",
+    "to": "2.95.0",
+    "marker": "CENTRAL — apply by orchestrator",
+    "note": "Isaiah wave I-3, chapter 11 Editor. Base: central v2.93.0 (read-only); wave I-1 (to 2.94.0) treated as in force; propose 2.95.0 for wave I-3. 4 modify ops (appliesTo extensions with one appended rationale sentence each); no new central entry and no wohChoice, claim_type or existing rationale text changed, so a minor bump. If the wave policy is appliesTo-only on central, drop the rationaleAppend fields. CONCURRENCY: eretz is the likeliest overlap with the chapter 7-10 and 12 diffs; merge as union. POST-REVIEW (2026-11-26): eretz-shinar op now carries a wohChoice change (bare-name clause; renderings unchanged); the cherem op carries a staged wohChoice under 'pendingFounderRuling', not to be applied unless ratified. If both are applied as wohChoice modifications, the strict reading is a major bump; the Editor recommends minor for eretz-shinar (no rendering changes) and leaves the cherem bump to the ruling."
+  },
+  {
+    "op": "modify",
+    "id": "paradise-by-negation-no-predation-no-illness-no-aging-cross-corpus",
+    "appliesToAdded": [
+      "ISA-11:9"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-3: applied at Isa 11:9, the verse that carries the negations ('They shall not hurt nor destroy in all my holy mountain'), rendered literally and identically to the stable 65:25. Isa 11:6-8 describe the coexistence of predator and prey positively, without negation, so the entry is not attached to those verses; the commentary at 11:6 and 11:9 links them to the figure."
+  },
+  {
+    "op": "modify",
+    "id": "eretz-shinar",
+    "appliesToAdded": [
+      "ISA-11:11"
+    ],
+    "rationaleAppend": "Conditional form (isaiah-woh wave I-3): at Isa 11:11 MT has the bare name ûmiš-šinʿār 'and from Shinar' without ʾereṣ, so the line gives 'Shinar' only; the entry governs the preservation of the Hebrew name over 'Babylonia' / 'Sumer', and 'the land of Shinar' surfaces only where ʾereṣ šinʿār stands in the text.",
+    "changes": {
+      "wohChoice": "the land of Shinar, where ʾereṣ šinʿār stands in the text (Gen 10:10; 11:2; Zech 5:11; Dan 1:2); bare 'Shinar' where the text has the name without ʾereṣ (Gen 14:1, 9 'king of Shinar'; Isa 11:11 'and from Shinar'). In both forms the Hebrew name is kept, not 'Sumer' or 'Babylonia'."
+    },
+    "note": "POST-REVIEW: the bare-name clause is now in the wohChoice (Reviewer suggestion), not only in the rationale. The rendering at every existing site is unchanged; the clause states the existing practice. Strictly a wohChoice modification (major under the Editor rules); recommended as minor, at the orchestrator's call, as with the wave-I1 eretz-cosmic scope rewording."
+  },
+  {
+    "op": "modify",
+    "id": "cherem-devote-to-destruction-cross-corpus",
+    "appliesToAdded": [
+      "ISA-11:15"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-3: at Isa 11:15 MT wᵉheḥĕrîm YHWH ʾēṯ lᵉšôn yam-miṣrayim is rendered 'YHWH will devote to destruction the tongue of the sea of Egypt', replacing the draft's ASV 'utterly destroy' so that the root stays visible. The object (an arm of the sea) is unusual for the ban, which is why many read heḥĕrîḇ 'dry up' (ḥrb; NJPS 'will dry up', checked; LXX erēmōsei); the line keeps MT under the isaiah-woh mt-qere-textual-policy-isaiah entry and the commentary reports the emendation.",
+    "pendingFounderRuling": {
+      "marker": "PENDING FOUNDER RULING — do not apply unless ratified",
+      "question": "Does the corpus ḥērem rule (root 'devote' visible) extend to a non-war, non-property object, the arm of the sea at Isa 11:15?",
+      "ifRatified": {
+        "changes": {
+          "wohChoice": "'devote(d) to destruction' for the war sense across the corpus: the Hiphil 'devote ... to destruction' (Num 21:2-3; Josh 6:21; 10:1-40), the noun of the war ban 'to be devoted to destruction' (Isa 43:28 laḥ-ḥērem); the noun as consecrated property or the object of the ban 'devoted' / 'the devoted thing' (Num 18:14; Josh 6:17-18). Non-war object clause: where the Hiphil takes an object that is neither a war-ban enemy nor consecrated property, the same 'devote ... to destruction' is kept, and the common emendation is reported in commentary (Isa 11:15 'YHWH will devote to destruction the tongue of the sea of Egypt'; heḥĕrîḇ 'dry up', NJPS, Targum, probably LXX). The root 'devote' stays visible in every English rendering."
+        },
+        "versionEffect": "wohChoice modification: major bump of the central glossary (or minor at the orchestrator's call if treated as a scope clause)."
+      },
+      "ifRejected": {
+        "appliesToRemoved": [
+          "ISA-11:15"
+        ],
+        "dropRationaleAppend": true,
+        "line": "restore ASV/JPS 1917 'And YHWH will utterly destroy the tongue of the sea of Egypt' at ISA-11:15 and remove the cherem glossaryRef and the first sentences of the 11:15 note",
+        "versionEffect": "none for this entry"
+      }
+    }
+  },
+  {
+    "op": "modify",
+    "id": "eretz",
+    "appliesToAdded": [
+      "ISA-11:16"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-3: 'the land of Egypt' at Isa 11:16 (territorial default)."
+  },
+  {
+    "op": "note",
+    "marker": "CENTRAL — no action",
+    "id": "deliberate-non-extensions",
+    "note": "Recorded, not applied, in Isa 11: she-erit-remnant-cross-corpus-theological-keyword at ISA-11:11 and 11:16 (the text has šᵉʾār, not šᵉʾērîṯ; 'the remnant' is ASV and needs no entry; if the chapter 7/10 Editors create a šᵉʾār entry for 7:3 / 10:20-22, 11:11 and 11:16 may be added to it at merge); four-corners-gates-of-heaven-1-enoch-33-36-cosmic-geography-cross-corpus at ISA-11:12 (its wohChoice is the 1 Enoch cosmography; Isa 11:12 is the plain idiom 'the four corners of the earth' under the overlay eretz-cosmic-scope-isaiah-24); keriat-yam-suf-parting-of-the-sea-ex-14-divine-warrior-cross-corpus-with-disavowals at ISA-11:15-16 (lᵉšôn yam-miṣrayim is not yam-sûp̄ and the verse has no splitting verb; the Exodus echo is commentary); darash-yhwh-seeking-oracle at ISA-11:10 (the construction is drš ʾel with the nations as subject, and the wohChoice is the Gen 25:22 'inquire of YHWH' formula; ASV 'seek' kept); mitsrayim at ISA-11:11, 11:15, 11:16 (the book uses 'Egypt', wave I-3 ruling 4); kavod-yhwh at ISA-11:10 (bare predicate kāḇôḏ, not the construct; governed by the overlay lexical-cruxes-isaiah-11)."
+  }
+]

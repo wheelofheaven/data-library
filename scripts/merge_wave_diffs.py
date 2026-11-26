@@ -18,7 +18,8 @@ The orchestrator ops file holds the wave-wide rulings the Editors left to
 the orchestrator: {"merge": {"drop-id": "keep-id"}, "appliesToAdd": {"id":
 [...]}, "set": {"id": {"field": value}}}, per glossary
 ("overlay" / "central"), plus a top-level "refsAdd": {"id": [refId, ...]}
-that adds glossaryRefs to the chapters. Merged ids are renamed in the
+that adds glossaryRefs to the chapters, and "extraChapters": [paths relative to
+the repo root] for chapters outside the wave that refsAdd touches. Merged ids are renamed in the
 chapters' glossaryRefs.
 
 Two diff shapes are accepted: a list of ops, or an object with `ops`, or
@@ -109,6 +110,8 @@ def main():
     ap.add_argument('--central', required=True)
     ap.add_argument('--overlay-version', required=True); ap.add_argument('--central-version', required=True)
     ap.add_argument('--ops'); ap.add_argument('--out-dir')
+    ap.add_argument('--overlay', help='overlay input (default: <book>/_translation-glossary.json); lets waves chain in a dry run')
+    ap.add_argument('--chapters-from', help='read chapter files from this dir (default: the book dir)')
     a = ap.parse_args()
     book = f'{ROOT}/{a.book}'
     ops_file = json.load(open(a.ops)) if a.ops else {}
@@ -121,7 +124,7 @@ def main():
 
     problems = []
     ov_path = f'{book}/_translation-glossary.json'
-    ov = json.load(open(ov_path, encoding='utf-8'))
+    ov = json.load(open(a.overlay or ov_path, encoding='utf-8'))
     ov_log = apply(ov['entries'], diffs('overlay'), ops_file.get('overlay', {}), 'overlay', problems)
     ce = json.load(open(a.central, encoding='utf-8'))
     ce_log = apply(ce['terms'], diffs('central'), ops_file.get('central', {}), 'central', problems)
@@ -133,9 +136,13 @@ def main():
     ids = {e['id'] for e in ov['entries']} | {e['id'] for e in ce['terms']}
     chapters = sorted({c for c, _ in diffs('overlay')} | {c for c, _ in diffs('central')})
     changed_chapters = {}
-    for c in chapters:
-        path = f'{book}/chapter-{c}.json'
-        raw = open(path, encoding='utf-8').read(); ch = json.loads(raw)
+    paths = [f'{book}/chapter-{c}.json' for c in chapters]
+    paths += [f'{ROOT}/{x}' for x in ops_file.get('extraChapters', [])]
+    for path in paths:
+        c = os.path.relpath(path, ROOT)
+        alt = f'{a.chapters_from}/{os.path.basename(path)}' if a.chapters_from else None
+        src_path = alt if alt and os.path.exists(alt) and os.path.dirname(path) == book else path
+        raw = open(src_path, encoding='utf-8').read(); ch = json.loads(raw)
         for p in ch['paragraphs']:
             refs = [renames.get(r, r) for r in p.get('glossaryRefs', [])]
             for i, targets in refs_add.items():
@@ -146,7 +153,7 @@ def main():
                 p['glossaryRefs'] = refs
             for r in refs:
                 if r not in ids:
-                    problems.append(f'ch{c} {p["refId"]}: unresolved glossaryRef {r}')
+                    problems.append(f'{c} {p["refId"]}: unresolved glossaryRef {r}')
         new = json.dumps(ch, ensure_ascii=False, indent=2) + '\n'
         if new != raw:
             changed_chapters[path] = new
@@ -163,7 +170,7 @@ def main():
             json.dump(data, fh, ensure_ascii=False, indent=2); fh.write('\n')
     for path, new in changed_chapters.items():
         if a.out_dir:
-            path = f'{a.out_dir}/{os.path.basename(path)}'
+            path = f'{a.out_dir}/' + os.path.relpath(path, ROOT).replace('/', '__') if os.path.dirname(path) != book else f'{a.out_dir}/{os.path.basename(path)}'
         with open(path, 'w', encoding='utf-8') as fh:
             fh.write(new)
     print('chapters with glossaryRef changes:', sorted(os.path.basename(p) for p in changed_chapters))

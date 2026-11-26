@@ -1,0 +1,94 @@
+[
+  {
+    "op": "version",
+    "from": "1.7.0",
+    "to": "1.8.0",
+    "readBase": "1.6.1",
+    "note": "Isaiah wave I-3, chapter 12 Editor. Read base: overlay v1.6.1, with the wave I-1 diffs treated as in force (merge target 1.7.0). Contents: 2 add ops and 5 modify ops (appliesTo extensions, three with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. CONCURRENCY: Editors for Isa 7-11 produce overlay diffs from the same base. Merge as a union and re-base each appliesTo as (merged array + appliesToAdded). Likely overlaps: mt-qere-textual-policy-isaiah, elohim-el-eloah-monotheistic-formula-isaiah, title-and-meta-conventions-isaiah, eretz-cosmic-scope-isaiah-24. geut-majesty-isaiah names ISA-9:17 (Heb.) as a context clause. The chapter 9 Editor may extend it to that verse; it is not listed in appliesTo here."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "geut-majesty-isaiah",
+      "source": "גֵּאוּת",
+      "translit": "gēʾûṯ",
+      "strongs": "H1348 (gēʾûṯ); cf. H1347 (gāʾôn), H1342 (gāʾāh). Numbers from recall, not concordance-verified.",
+      "lemma": "gēʾûṯ 'a rising up; majesty; pride', noun of the root gʾh 'rise, be high'",
+      "partOfSpeech": "noun (feminine)",
+      "literal": "a rising, loftiness",
+      "standardEnglish": "ASV 'he hath done excellent things' (12:5); JPS 1917 and NJPS 'gloriously' (12:5); 'majesty' (Ps 93:1); 'pride' (Isa 28:1, 3)",
+      "wohChoice": "'majesty / majestic' where gēʾûṯ is the majesty of YHWH or of his acts: 12:5 'he has done majestic things'; 26:10 'the majesty of YHWH' (stable, already so printed). Context clauses: 'pride' where gēʾûṯ is human arrogance (Isa 28:1, 3 'the crown of pride', when drafted); the physical sense 'rising, column' where it is the upward movement of smoke or sea (Isa 9:17 Heb. gēʾûṯ ʿāšān 'a column of smoke', as the chapter 9 draft prints it; cf. Ps 89:10). Never 'glory' or 'gloriously', which are reserved for kāḇôḏ.",
+      "claim_type": "direct",
+      "rationale": "Gēʾûṯ belongs to the root gʾh 'rise, be high', the root of gāʾôn, which the book renders 'majesty' (24:14; 2:10, 19, 21 under hadar-splendor-isaiah). The lexica give it a physical sense 'rising' and the evaluative senses 'majesty' and 'pride' (BDB; HALOT). Of YHWH it is the majesty he wears (Ps 93:1), and the stable chapter 26:10 already prints 'the majesty of YHWH', so 'majestic' at 12:5 keeps the root concordant within the book. The usual renderings of 12:5 are ASV 'excellent things', in an older sense of 'excellent' ('surpassing') that modern English has lost, and JPS 1917 / NJPS 'gloriously' (both checked on Sefaria). 'Gloriously' would put on a gʾh-noun the English that wave rule 6 reserves strictly for kāḇôḏ. The clause also echoes gāʾōh gāʾāh, the cognate verb that opens the Song of the Sea (Exod 15:1, 21), the song quoted at Isa 12:2. 'Majesty' is a standard lexical gloss and carries no interpretive load, so the claim is direct. The pejorative and physical senses are recorded as context clauses so that one entry governs the lemma book-wide.",
+      "appliesTo": [
+        "ISA-12:5",
+        "ISA-26:10"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-12",
+      "source": "יָשֹׁב אַפְּךָ וּתְנַחֲמֵנִי (12:1) · אֵל יְשׁוּעָתִי (12:2) · מַעַיְנֵי הַיְשׁוּעָה (12:3) · קִרְאוּ בִשְׁמוֹ · הַזְכִּירוּ (12:4) · מוּדַעַת (12:5) · יוֹשֶׁבֶת צִיּוֹן (12:6)",
+      "translit": "yāšōḇ ʾappᵉḵā ûṯᵉnaḥămēnî; ʾēl yᵉšûʿāṯî; maʿyᵉnê hayᵉšûʿāh; qirʾû ḇišmô; hazkîrû; mûḏaʿaṯ; yôšeḇeṯ ṣiyyôn",
+      "strongs": "H7725 (šûḇ); H639 (ʾap); H5162 (nḥm); H410 (ʾēl); H3444 (yᵉšûʿāh); H4599 (maʿyān); H7579 (šʾb); H7121 (qārāʾ); H2142 (zkr); H3045 (ydʿ); H3427 (yšḇ); H6726 (ṣiyyôn). Numbers from recall, not concordance-verified.",
+      "lemma": "single-site lexical and syntactic decisions of Isaiah 12",
+      "partOfSpeech": "mixed (verb forms, nominal clause, nouns, participles)",
+      "literal": "let your anger turn and you comfort me; God (is) my salvation / the God of my salvation; springs of the salvation; call on his name; cause to remember; made known; she who dwells (in) Zion",
+      "standardEnglish": "ASV throughout; JPS 1917 'proclaim his name', 'This is made known'; NJPS 'Your wrath has turned back', 'the God who gives me triumph', 'fountains of triumph', 'proclaim', 'declare', 'You who dwell in Zion'; NRSV 'royal Zion' (recalled, not verified)",
+      "wohChoice": "12:1 a statement, 'your anger has turned away, and you comfort me' (ASV, JPS 1917, NJPS), against the strict jussive wish; the verb 'turn away' as in the refrain bekhol-zot-lo-shav-appo-refrain-isaiah, whose reversal the clause is. 12:2 nominal clause 'Behold, God is my salvation' (ASV, JPS 1917), with the NJPS construct noted. 12:3 'the wells of salvation' (ASV, JPS 1917), with the lexical sense 'springs / fountains' in commentary. 12:4 'call on his name' (central qara-b-shem-yhwh), 'make known his deeds among the peoples' (as in ASV Ps 105:1), 'make mention' (ASV, JPS 1917). 12:5 qere participle as a wish, 'let this be known' (ASV, NJPS). 12:6 'O inhabitant of Zion' (ASV collective). Quotation marks: the first song runs 12:1b-2 and the second 12:4b-6, with 12:3 as narration between them (JPS 1917 and NJPS mark the same extents).",
+      "claim_type": "direct",
+      "rationale": "Each item is a site where the Translator flagged a choice among standard renderings. The Editor keeps the Masoretic text and the ASV baseline unless the corpus's concordance rules require a change, and records the alternatives. (1) The short form yāšōḇ and the non-consecutive ûṯᵉnaḥămēnî, if pressed, give a wish. ASV, JPS 1917 and NJPS read a statement, which suits a thanksgiving (ʾôḏᵉḵā), and the Vulgate also has a past statement (recalled; the LXX was not verified). The Translator's report that the versions read a wish is therefore not followed. (2) ʾēl has the same form in the absolute and the construct. The nominal clause (ASV, JPS 1917) is kept, and NJPS's construct is noted. (3) maʿyān is a spring or fountain (BDB; HALOT), but 'wells' is the established English of the verse and matches šāʾaḇ 'draw water'. The central maʿyān entry (Gen 7:11 'fountains of the great deep') is cosmic in scope and is not extended. (4) 12:4a repeats Ps 105:1 = 1 Chr 16:8 word for word, and the line follows ASV's wording of the psalm. qārāʾ bᵉšēm is the invocation formula governed by central qara-b-shem-yhwh. The 'proclaim' sense (JPS 1917, NJPS; cf. Exod 34:5) is recorded. When psalms-woh 105 or a Chronicles translation is drafted, a central parallel entry on the model of isa-2-2-4-mic-4-1-3-zion-pilgrimage-parallel-cross-corpus is recommended. (5) mûḏaʿaṯ is a participle (the qere; the ketiv is the Pual form). It is read as a wish after the imperative, with ASV and NJPS, and JPS 1917's statement is noted. (6) yôšeḇeṯ + place name is the idiom for a town's population (Mic 1:11-13), so the ASV collective is kept, and the enthroned-city reading is noted. None of these choices carries a lens.",
+      "appliesTo": [
+        "ISA-12:1",
+        "ISA-12:2",
+        "ISA-12:3",
+        "ISA-12:4",
+        "ISA-12:5",
+        "ISA-12:6"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "yah-tzur-olamim-everlasting-rock-isaiah-26",
+    "appliesToAdded": [
+      "ISA-12:2"
+    ],
+    "rationaleAppend": "Wave I-3 extension: 'Yah YHWH' at 12:2 (kî-ʿozzî wᵉzimrāṯ Yāh YHWH), with the same transliteration and no comma, as at 26:4. The doubled name is MT. The parallels Exod 15:2 and Ps 118:14 have Yāh alone, and whether 1QIsaᵃ and the LXX have the doubled name was not verified. The wording of the shared line is governed by the central ozzi-ve-zimrat-yah-strength-and-song-exod-15-2-parallel-cross-corpus."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-el-eloah-monotheistic-formula-isaiah",
+    "appliesToAdded": [
+      "ISA-12:2"
+    ],
+    "note": "ʾēl yᵉšûʿāṯî 'God is my salvation'. The entry fixes 'God'; the syntax (clause vs construct) is recorded in lexical-cruxes-isaiah-12."
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-12:5"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 12): at 12:5 the qere mûḏaʿaṯ (Hophal participle) is translated. The ketiv מידעת has the consonants of the Pual participle, and the sense 'made known' is the same. Orchestrator: add '12:5' to the qere list in wohChoice on merge. This is a scope-only change, and the Editor does not rewrite the field here, to avoid a conflict with the parallel Editors."
+  },
+  {
+    "op": "modify",
+    "id": "eretz-cosmic-scope-isaiah-24",
+    "appliesToAdded": [
+      "ISA-12:5"
+    ],
+    "note": "bᵉḵol-hāʾāreṣ 'in all the earth', the universal horizon of the song (with bāʿammîm 'among the peoples', 12:4), covered by the wave I-1 scope wording 'wherever Isaiah speaks of the whole world'. The Translator's draft cited the central eretz entry, and that ref is replaced by this overlay entry."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-12:1",
+      "ISA-12:4"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 12): the chapter title is the Translator's, ratified. The two embedded songs introduced by 'you shall say in that day' are in quotation marks, 12:1b-2 (2ms address) and 12:4b-6 (2mp, then the feminine singular address to Zion inside the song). 12:3 is narration between them. JPS 1917 and NJPS mark the same extents (checked on Sefaria)."
+  }
+]

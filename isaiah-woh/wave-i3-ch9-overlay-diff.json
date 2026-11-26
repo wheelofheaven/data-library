@@ -1,0 +1,184 @@
+[
+  {
+    "op": "version",
+    "from": "1.6.1",
+    "to": "1.8.0",
+    "note": "Isaiah wave I-3, chapter 9 Editor. Base: overlay v1.6.1 (read-only); wave I-1 diffs (to 1.7.0) treated as in force, including lexical-cruxes-isaiah-3 and bekhol-zot-lo-shav-appo-refrain-isaiah, which exist only in wave-i1-ch3/ch5 diffs. Contents: 5 add ops (3 direct, 2 inferred, none speculative) and 6 modify ops (appliesTo extensions, three with appended rationale sentences; no wohChoice, claim_type or existing rationale text changed), so a minor bump. CONCURRENCY: the chapter 7, 8, 10, 11 and 12 Editors write from the same base; merge appliesTo as the union of the merged array and each appliesToAdded, and concatenate rationaleAppend sentences. el-gibbor-mighty-god-isaiah is added here and is to be extended to ISA-10:21 by the chapter 10 Editor's modify op; apply this add first. Post-review (2026-11-26): orchestrator ruling — the ṣalmāwet decision is split out of central sha-arei-mavet into overlay tzalmavet-deep-darkness-isaiah; Reviewer corrections applied to el-gibbor, throne-names and poem-tense entries."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "el-gibbor-mighty-god-isaiah",
+      "source": "אֵל גִּבּוֹר",
+      "translit": "ʾēl gibbôr",
+      "strongs": "H410 (ʾēl); H1368 (gibbôr)",
+      "lemma": "אֵל + גִּבּוֹר",
+      "partOfSpeech": "noun + adjective/noun (divine epithet; one of the throne names at 9:5)",
+      "literal": "God, a mighty one / a warrior",
+      "standardEnglish": "Mighty God (ASV, NRSV; NJPS within its sentence-name 'The Mighty God is planning grace'); alternatives proposed by some commentators (not verified): 'God is a warrior' (sentence-name), 'mighty hero' (ʾēl as adjective)",
+      "wohChoice": "'Mighty God' at 9:5 (third throne name) and 10:21 ('to the Mighty God'); capitalised 'God' as for ʾēl designating the deity. The alternatives 'God is a warrior' and 'mighty hero' are recorded in commentary only.",
+      "claim_type": "direct",
+      "rationale": "ʾēl gibbôr is rendered 'Mighty God' by ASV, NRSV and NJPS, and the rendering is the standard one; NJPS keeps 'The Mighty God' as the subject of its sentence-name ('The Mighty God is planning grace'). The decisive in-book evidence is 10:21, where the same two words name the God to whom the remnant of Jacob returns (šᵉʾār yāšûḇ … ʾel-ʾēl gibbôr), so there ʾēl can only be the deity; the book should render the phrase the same way at both sites. The same epithet stands in the Deuteronomic formula hāʾēl haggāḏōl haggibbōr (Deut 10:17; cf. Jer 32:18; Neh 9:32). Two alternatives are serious and are recorded in commentary: a theophoric sentence-name, 'God is a warrior', on the model of Isaiah's other sign-names (7:3; 7:14; 8:3), proposed by some commentators (not verified by the Reviewer); and ʾēl as an adjective 'mighty', 'mighty hero', supported by ʾêlê gibbôrîm 'the mighty among the warriors' (Ezek 32:21). Neither is preferred to the standard reading, and 10:21 tells against the adjectival one. The overlay entry elohim-el-eloah-monotheistic-formula-isaiah is not applied: its scope is the incomparability and denial formulas of Isaiah 13 and 40-48. The capital follows the same practice, 'God' for ʾēl denoting the deity. Whether the title, given to a Davidic king, makes a claim about the king's nature is a question for commentary and reception, not for the line. Strong's numbers from recall; not concordance-verified.",
+      "appliesTo": [
+        "ISA-9:5"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "yeled-yullad-throne-names-isaiah-9-5",
+      "source": "כִּי־יֶלֶד יֻלַּד־לָנוּ בֵּן נִתַּן־לָנוּ וַתְּהִי הַמִּשְׂרָה עַל־שִׁכְמוֹ וַיִּקְרָא שְׁמוֹ פֶּלֶא יוֹעֵץ אֵל גִּבּוֹר אֲבִיעַד שַׂר־שָׁלוֹם",
+      "translit": "kî-yeleḏ yullaḏ-lānû, bēn nittan-lānû, wattᵉhî hammiśrāh ʿal-šiḵmô, wayyiqrāʾ šᵉmô peleʾ yôʿēṣ ʾēl gibbôr ʾăḇîʿaḏ śar-šālôm",
+      "strongs": "H3206 (yeleḏ); H3205 (yālaḏ, Pual); H5414 (nāṯan, Niphal); H4951 (miśrāh); H7926 (šᵉḵem); H7121 (qārāʾ); H6382 (peleʾ); H3289 (yāʿaṣ, participle); H1 (ʾāḇ); H5703 (ʿaḏ); H8269 (śar); H7965 (šālôm). Strong's numbers from recall; not concordance-verified",
+      "lemma": "the birth announcement and throne names of Isa 9:5, with miśrāh at 9:5-6",
+      "partOfSpeech": "verbal clauses (Pual and Niphal perfects; wayyiqtol forms) + a sequence of nominal names",
+      "literal": "for a child has been born to us, a son has been given to us, and the rule has come to be upon his shoulder, and one has called his name wonder-counselor, God-warrior, father-of-perpetuity, prince-of-peace",
+      "standardEnglish": "For unto us a child is born, unto us a son is given; and the government shall be upon his shoulder; and his name shall be called Wonderful, Counsellor, Mighty God, Everlasting Father, Prince of Peace (ASV); For a child has been born for us, a son given to us; authority rests upon his shoulders; and he is named Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace (NRSV); He has been named 'The Mighty God is planning grace; The Eternal Father, a peaceable ruler' (NJPS, footnote 'As in 25.1')",
+      "wohChoice": "'For a child has been born to us, a son has been given to us; and the government has come upon his shoulder; and he has been named Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.' Tense: perfects and wayyiqtol forms as English perfects. Names: four paired titles, 'Wonderful Counselor', following the pashta/zaqef grouping of the accents (the lowest-level telisha division, which ASV follows, is recorded in commentary). miśrāh 'the government' at 9:5 and 9:6 (ASV; 'authority' NRSV/NJPS in commentary).",
+      "claim_type": "inferred",
+      "rationale": "Two decisions depart from ASV, and both rest on the Hebrew. First, tense: yullaḏ and nittan are perfects and wattᵉhî and wayyiqrāʾ are wayyiqtol forms. ASV's 'is born … shall be … shall be called' reads them as prophetic perfects of a future birth. NRSV ('has been born … rests … is named') and NJPS render them as completed events, as does the accession-oracle analysis (Alt 1950; von Rad 1947). The English perfect reports the forms without settling whether the event is the birth of an heir or an enthronement, and v. 6's taʿăśeh 'will do' carries the future. wayyiqrāʾ is active with an indefinite subject, rendered by the English passive 'he has been named'. Second, the names: in the accent hierarchy the zaqef on gibbôr splits the sequence into two halves, the pashta on yôʿēṣ groups peleʾ yôʿēṣ against ʾēl gibbôr, and the tipcha separates ʾăḇîʿaḏ from śar-šālôm; only at the lowest level does the telisha gedolah separate peleʾ from yôʿēṣ, and ASV and KJV follow that division with five names. The line pairs them as 'Wonderful Counselor' (NRSV), because the other three names are two-word units, because peleʾ yôʿēṣ reads naturally as 'a wonder of a counselor', and because 28:29 applies the same roots to YHWH (hip̄lîʾ ʿēṣāh). Isaiah 25:1 joins the same roots again (peleʾ ʿēṣôṯ), and NJPS cross-references it here. The pairing agrees with the higher-level accent grouping and is held by many modern commentators (Wildberger, Isaiah 1-12, 1991; Roberts, First Isaiah, Hermeneia, 2015; both cited from memory). It departs from the traditional English, so the entry is inferred. miśrāh occurs only at 9:5-6 and comes from śrr 'rule', the root of śar in 'Prince of Peace'. ASV 'government' is kept and 'authority' is recorded in commentary. NJPS reads a sentence-name in two halves that follow the zaqef division: 'The Mighty God is planning grace; The Eternal Father, a peaceable ruler' (footnote 'As in 25.1'); it is reported in commentary. Reception readings (LXX 'messenger of great counsel', the Targum's messianic gloss, b. Sanh. 94a on Hezekiah, Luke 1:32-33, and a labelled speculative Wheel of Heaven note) stay in commentary.",
+      "appliesTo": [
+        "ISA-9:5",
+        "ISA-9:6"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "poem-tense-outstretched-hand-isaiah-9",
+      "source": "וַיְשַׂגֵּב … וַיֹּאכְלוּ … וַיַּכְרֵת … וַיִּהְיוּ … וַתִּצַּת … וַיִּתְאַבְּכוּ … וַיְהִי … וַיִּגְזֹר … וַיֹּאכַל",
+      "translit": "wayśaggēḇ (9:10); wayyōʾḵᵉlû (9:11); wayyaḵrēṯ (9:13); wayyihyû (9:15); wattiṣṣaṯ, wayyiṯʾabbᵉḵû (9:17); wayhî (9:18); wayyiḡzōr, wayyōʾḵal (9:19)",
+      "strongs": "n/a (grammatical ruling; verbs H7682, H398, H3772, H1961, H3341, H55, H1504)",
+      "lemma": "tense of the narrated strokes in the poem of the outstretched hand, Isa 9:7-20",
+      "partOfSpeech": "verbal system (wayyiqtol, weqatal, yiqtol and participles in narrative sequence)",
+      "literal": "and he raised high … and they devoured … and he cut off … and they were … and it kindled … and they rolled up … and it was … and he cut … and he ate",
+      "standardEnglish": "ASV mixed futures and presents ('will set up … shall devour … will cut off … are destroyed … is the land burnt'); NRSV past throughout ('raised … devoured … cut off … led them astray … was burned'); NJPS mixed (past at 9:8 'noted', 9:10 'let … triumph', 9:17-19; future at 9:13 'will cut off' and 9:16 'Will not spare'); JPS 1917 future/present throughout",
+      "wohChoice": "Past throughout the strokes of 9:7-20: wayyiqtol forms as English simple past; the imperfects and participles inside each stroke (9:10 yᵉsaksēḵ; 9:16 lōʾ yiśmaḥ, lōʾ yᵉraḥēm, dōḇēr; 9:17 tōʾḵēl; 9:18 yaḥmōlû; 9:19 yōʾḵēlû) and the weqatal frame verbs of 9:7-8 (wᵉnāp̄al, wᵉyāḏᵉʿû) take the past of their context; the negated perfects of a continuing state (9:12) and the fixed refrain (9:11, 16, 20) as English perfects; the quoted boast of 9:9 keeps its own tenses; the nominal clauses of 9:14 as present. Waw-consecutive 'So' (9:10, 13); ʿal-kēn 'Therefore' (9:16). Does not bind the separate woe-oracle 10:1-4 beyond its refrain.",
+      "claim_type": "inferred",
+      "rationale": "The poem narrates each stroke with wayyiqtol forms, the Hebrew past narrative, and a single tense policy is needed so that the four strophes read as one review of judgments already suffered. The grammatical default for these forms is past, and NRSV renders the strokes so. The book has already rendered the narrative verbs of 5:25, which most commentators assign to this poem (Wildberger; Blenkinsopp, AB 19, 2000; Williamson), as past, and the wave I-1 refrain entry renders lōʾ-šāḇ 'has not turned away' on the ground that the strokes have already fallen. ASV's futures follow the older reading of the poem as forecast. That reading treats the waw-consecutive as converted to the future, which the forms do not support in this context. The ruling is inferred rather than direct because it extends the past to the imperfects, participles and weqatal forms inside each stroke. In a past narrative chain those forms can express past circumstance or repetition, but they do not require it. Two sites are soft points: 9:8 wᵉyāḏᵉʿû, where a future ('shall know', ASV, JPS 1917) remains possible, and 9:16, where ʿal-kēn + yiqtol is rendered future by NJPS ('Will not spare'). NJPS is itself mixed, with past at 9:8, 9:10 and 9:17-19 and future at 9:13 and 9:16, which confirms that the ruling is a reading, not a grammatical necessity. Both soft points are reported in commentary. The quoted speech of 9:9 and the explanatory nominal clauses of 9:14 are outside the narrative and keep their own tenses. The chapter 10 oracle (10:1-4) is a separate woe-oracle and is not governed by this entry except for the refrain at 10:4.",
+      "appliesTo": [
+        "ISA-9:7",
+        "ISA-9:8",
+        "ISA-9:10",
+        "ISA-9:11",
+        "ISA-9:12",
+        "ISA-9:13",
+        "ISA-9:15",
+        "ISA-9:16",
+        "ISA-9:17",
+        "ISA-9:18",
+        "ISA-9:19",
+        "ISA-9:20"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-9",
+      "source": "סְאוֹן סֹאֵן (9:4) · דָּבָר … בְּיַעֲקֹב (9:7) · צָרֵי רְצִין (9:10) · מִקֶּדֶם … מֵאָחוֹר (9:11) · חָנֵף · נְבָלָה · לֹא־יִשְׂמַח (9:16) · גֵּאוּת עָשָׁן (9:17) · נֶעְתַּם (9:18) · וַיִּגְזֹר · בְּשַׂר־זְרֹעוֹ (9:19) · מְנַשֶּׁה אֶת־אֶפְרַיִם (9:20)",
+      "translit": "sᵉʾôn sōʾēn; dāḇār … bᵉyaʿăqōḇ; ṣārê rᵉṣîn; miqqeḏem … mēʾāḥôr; ḥānēp̄; nᵉḇālāh; lōʾ-yiśmaḥ; gēʾûṯ ʿāšān; neʿtam; wayyiḡzōr; bᵉśar-zᵉrōʿô; mᵉnaššeh ʾeṯ-ʾep̄rayim",
+      "strongs": "H5430, H5431; H1697; H6862 + H7526; H6924, H268; H2611; H5039; H8055; H1348 + H6227; H6272; H1504; H1320 + H2220; H4519 + H669. Strong's numbers from recall; not concordance-verified",
+      "lemma": "single-site lexical and textual decisions of Isaiah 9",
+      "partOfSpeech": "nouns, verbs, participles and prepositional phrases",
+      "literal": "boot of the booted one; a word … in Jacob; adversaries of Rezin; from before … from behind; godless; folly; he does not rejoice; rising of smoke; [hapax]; he cut; the flesh of his arm; Manasseh [object] Ephraim",
+      "standardEnglish": "ASV: armor of the armed man; sent a word into Jacob; the adversaries of Rezin; before … behind; profane; folly; shall have no joy; mount up in the lifting up of smoke; is the land burnt up; snatch; the flesh of his own arm; Manasseh, Ephraim (no verb). NRSV: boots of the tramping warriors; against Jacob; adversaries against them; east … west; godless; folly; did not have pity; column of smoke; was burned; gorged; flesh of their kindred; Manasseh devoured Ephraim",
+      "wohChoice": "9:4 'every boot of the one who tramps in the tumult' (BDB; NRSV); 9:7 MT dāḇār 'a word', 'sent … against Jacob'; 9:10 MT 'the adversaries of Rezin' kept (emendations ṣārāyw / śārê in commentary); 9:11 'Aram from the east and the Philistines from the west' (NRSV sense; 'Aram' per wave ruling; cf. 2:6 miqqeḏem 'from the east'); 9:16 ḥānēp̄ 'godless' (wave ruling; 32:6), nᵉḇālāh 'folly' (ASV; 32:6), MT lōʾ-yiśmaḥ 'did not rejoice' (1QIsaᵃ variant in commentary); 9:17 gēʾûṯ ʿāšān 'a column of smoke'; 9:18 neʿtam 'was burnt up' (ASV; hapax); 9:19 wayyiḡzōr 'snatched' (ASV), MT 'the flesh of his own arm' (emendation rēʿô in commentary); 9:20 verb 'devoured' supplied from 9:19, English forms 'Manasseh', 'Ephraim'.",
+      "claim_type": "direct",
+      "rationale": "Each item is a site where the Translator flagged a choice between standard renderings. The Editor keeps the Masoretic text throughout and departs from ASV only where a lexicon or the context requires it. (1) sᵉʾôn and its denominative participle are related by BDB to Akkadian šēnu 'shoe, sandal', so 'boot' (NRSV) replaces ASV's lexically unsupported 'armor'. (2) At 9:7 MT dāḇār is kept against the reported Old Greek 'death' (deḇer); that reading was not verified against Ziegler and is given only in commentary. šālaḥ bᵉ- is hostile in this context ('against', NRSV), as the parallel 'fell on Israel' shows. (3) At 9:10 the difficult ṣārê rᵉṣîn is kept and the emendations are reported. (4) miqqeḏem / mēʾāḥôr has both the 'front/back' and the 'east/west' sense, and the compass reading fits the geography of Aram and Philistia and the book's own 2:6. (5) ḥānēp̄ 'godless' and nᵉḇālāh 'folly' follow the stable 32:6 (wave ruling 5). The central nevalah entry is not applied, because its subject is the communal-outrage formula, not speech. The 1QIsaᵃ variant behind NRSV 'did not have pity' is reported without verification (DJD 32 not held). (6) gēʾûṯ is the rising of smoke (gʾh), distinct from gāʾôn 'majesty' in the book's concordance. (7) neʿtam is a hapax with no secure etymology; ASV's 'burnt up' fits the fire imagery and is kept, with the alternatives in commentary. (8) gzr 'cut' is rendered by its contextual sense 'snatched' (ASV). MT zᵉrōʿô is kept against the emendation rēʿô (NRSV). (9) At 9:20 the object markers require the verb of 9:19. NRSV supplies it, and the line supplies 'devoured' so that the verse does not read as a list. The proper names take English forms (wave ruling 4), and the Genesis-scoped central menasheh-name-aetiology-tribe ('Menasheh') is not applied. All the choices are standard renderings in at least one major version or lexicon, so the entry is direct; the uncertain items are disclosed in commentary.",
+      "appliesTo": [
+        "ISA-9:4",
+        "ISA-9:7",
+        "ISA-9:10",
+        "ISA-9:11",
+        "ISA-9:16",
+        "ISA-9:17",
+        "ISA-9:18",
+        "ISA-9:19",
+        "ISA-9:20"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "tzalmavet-deep-darkness-isaiah",
+      "source": "צַלְמָוֶת",
+      "translit": "ṣalmāwet",
+      "strongs": "H6757 (from recall; not concordance-verified)",
+      "lemma": "צַלְמָוֶת",
+      "partOfSpeech": "noun (feminine/abstract form; Masoretic pointing as a compound)",
+      "literal": "deep darkness (ṣlm 'be dark' + abstract ending); by the Masoretic analysis 'shadow of death' (ṣēl + māwet)",
+      "standardEnglish": "the shadow of death (ASV, KJV); deep darkness (NRSV); gloom (NJPS, 'a land of gloom')",
+      "wohChoice": "'deep darkness' ('in the land of deep darkness', 9:1); the compound analysis 'shadow of death' and its reception (Ps 23:4 KJV; Matt 4:16) in commentary.",
+      "claim_type": "direct",
+      "rationale": "This entry splits out the lexeme decision that the central sha-arei-mavet records in its rationale for Job 38:17, where it is attached to the 'gates' phrase (orchestrator ruling, wave I-3). Most modern lexica derive ṣalmāwet from ṣlm 'be dark', cognate with Akkadian ṣalāmu 'be black', with an abstract ending (HALOT; BDB records both analyses). The Masoretic vocalisation with -māwet reflects the older compound ṣēl 'shadow' + māwet 'death', which the ancient versions and the KJV/ASV tradition follow. At Isa 9:1 the word stands in parallel with ḥōšeḵ 'darkness', and nothing in the verse concerns death, so 'deep darkness' (NRSV) gives the sense that the context and the lexica support; NJPS 'gloom' has the same sense. Because the rendering matches the modern lexical consensus and a major version, the claim is direct. The traditional rendering is kept visible in commentary. If later Isaiah sites or other books adopt the same decision, the orchestrator may promote the entry to a central lexeme entry.",
+      "appliesTo": [
+        "ISA-9:1"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-9:2",
+      "ISA-9:6"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 9): two ketiv/qere sites follow the qere. At 9:2 the qere lô 'to it' replaces the ketiv lōʾ 'not', giving 'you have increased its joy' (ASV) against KJV's ketiv reading; the conjectural redivision haggîlāh 'the exultation' alters the consonants and is reported only. At 9:6 the ketiv writes a final mem inside lᵉmarbēh (לםרבה), and the qere is the normal form; this changes the spelling only, and the emendation lāhem rabbāh and the Talmud's reading of the closed mem (b. Sanh. 94a) are given in commentary."
+  },
+  {
+    "op": "modify",
+    "id": "bekhol-zot-lo-shav-appo-refrain-isaiah",
+    "appliesToAdded": [
+      "ISA-9:11",
+      "ISA-9:16",
+      "ISA-9:20"
+    ],
+    "note": "Forward scope named in the entry's own rationale; wording identical at all three sites (checked against the fixed wohChoice). ISA-10:4 is the chapter 10 Editor's."
+  },
+  {
+    "op": "modify",
+    "id": "lexical-cruxes-isaiah-3",
+    "appliesToAdded": [
+      "ISA-9:14",
+      "ISA-9:15"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 9): the same lexical decisions govern two later sites, so they are extended here rather than duplicated (one entry per lexical decision). At 9:14 nᵉśûʾ p̄ānîm is 'the man of rank', as at 3:3 (ASV 'the honorable man'). At 9:15 the wording of 3:12 recurs (mᵉʾaššᵉrê … maṯʿîm ûmᵉʾuššārāyw mᵉḇullāʿîm), and the line again takes 'those who lead' and blʿ 'destroyed', with blʿ II 'confused' (NRSV) in commentary. The tense differs from 3:12 ('led them astray … were destroyed') because of the poem's tense ruling (poem-tense-outstretched-hand-isaiah-9). If the orchestrator folds the per-chapter lexical-cruxes-isaiah-N entries into one book-level entry, as the wave I-1 sign-off package contemplates, these two refIds go with the 3:3 and 3:12 items.",
+    "note": "Entry exists only in wave-i1-ch3-overlay-diff.json (pending sign-off); apply after it."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-standalone-title-isaiah",
+    "appliesToAdded": [
+      "ISA-9:7",
+      "ISA-9:16"
+    ],
+    "note": "Bare ʾăḏōnāy 'the Lord' at both sites."
+  },
+  {
+    "op": "modify",
+    "id": "yhwh-tzevaot-hosts-isaiah",
+    "appliesToAdded": [
+      "ISA-9:6",
+      "ISA-9:12",
+      "ISA-9:18"
+    ],
+    "note": "'YHWH of hosts' at all three sites; no commentary on ṣᵉḇāʾôṯ needed in this chapter."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-9:1"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 9): the Translator's descriptive title 'Isaiah 9 — The great light, the child born to us, and the hand stretched out still' is kept. Verse numbering is Hebrew throughout (9:1 = English 9:2; 9:20 = English 9:21), and the commentary gives English numbers where the difference matters."
+  },
+  {
+    "op": "note",
+    "id": "deliberate-non-applications",
+    "note": "Not applied in Isa 9 (recorded, no op): elohim-el-eloah-monotheistic-formula-isaiah at 9:5 (scope is the incomparability/denial formulas; ʾēl gibbôr has its own entry); eretz-cosmic-scope-isaiah-24 at 9:1 and 9:18 (territorial 'land', under central eretz); hadar-splendor-isaiah / concordance ruling 6 at 9:17 (gēʾûṯ 'rising' is not gāʾôn; recorded in lexical-cruxes-isaiah-9); pele-etzot-emunah-hymn-vocabulary-isaiah-25 at 9:5 (25:1 phrase entry; peleʾ yôʿēṣ is a throne name). The 25:1 cross-reference, which NJPS itself makes, is given in the 9:5 commentary and in the yeled-yullad-throne-names-isaiah-9-5 rationale, not as an appliesTo extension."
+  }
+]

@@ -1,0 +1,348 @@
+[
+  {
+    "op": "version",
+    "from": "1.6.1",
+    "to": "1.8.0",
+    "note": "Isaiah wave I-3, chapter 10 Editor. Base: overlay v1.6.1 (read-only); the wave I-1 diffs (to 1.7.0) are treated as in force; propose 1.8.0 for wave I-3. Contents: 2 add ops (both direct) and 13 modify ops. The modifies are appliesTo extensions with appended rationale sentences. No wohChoice, claim_type or existing rationale text is changed, so the bump is minor. Five modify ops target entries that exist only in pending diffs: hoy-woe-isaiah and ha-adon-articular-title-isaiah (wave-i1-ch1), bekhol-zot-lo-shav-appo-refrain-isaiah (wave-i1-ch5), sign-names-isaiah-7-8 (wave-i3-ch7) and el-gibbor-mighty-god-isaiah (wave-i3-ch9). These carry appliesToAdded without a full changes.appliesTo array; the orchestrator applies them after the adds. For existing 1.6.1 entries, changes.appliesTo is the 1.6.1 array plus this chapter's sites; merge as the union with the other chapters' appliesToAdded. ha-adon-definite-title-isaiah is deliberately not carried at 10:16 or 10:33 (wave I-3 ruling 7)."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-10",
+      "source": "חִקְקֵי־אָוֶן … עָמָל (10:1) · יוֹם פְּקֻדָּה · שׁוֹאָה · כְּבוֹדְכֶם (10:3) · בִּלְתִּי כָרַע תַּחַת (10:4) · שֵׁבֶט / מַטֶּה (10:5, 15, 24, 26) · גּוֹי חָנֵף · שָׁלָל / בַּז (10:2, 6) · עֲצַבֶּיהָ (10:11) · תִּפְאֶרֶת רוּם עֵינָיו (10:12) · כְּאַבִּיר יוֹשְׁבִים (10:13) · רָזוֹן (10:16) · כִּמְסֹס נֹסֵס (10:18) · פְּלֵיטַת (10:20) · צְדָקָה (10:22) · תַּבְלִיתָם (10:25) · מִפְּנֵי־שָׁמֶן (10:27) · מָלוֹן לָנוּ (10:29) · בְּאַדִּיר (10:34)",
+      "translit": "ḥiqqᵉqê-ʾāwen … ʿāmāl; yôm pᵉquddāh; šôʾāh; kᵉḇôḏᵉḵem; biltî kāraʿ taḥaṯ; šēḇeṭ / maṭṭeh; gôy ḥānēp̄; šālāl / baz; ʿăṣabbêhā; tip̄ʾereṯ rûm ʿênāyw; kᵉʾabbîr yôšᵉḇîm; rāzôn; kimsōs nōsēs; pᵉlêṭaṯ; ṣᵉḏāqāh; taḇlîṯām; mippᵉnê-šāmen; mālôn lānû; bᵉʾaddîr",
+      "strongs": "H205 (ʾāwen); H5999 (ʿāmāl); H6486 (pᵉquddāh); H7722 (šôʾāh); H3519 (kāḇôḏ); H1115 (biltî); H3766 (kāraʿ); H7626 (šēḇeṭ); H4294 (maṭṭeh); H2611 (ḥānēp̄); H7998 (šālāl); H957 (baz); H6091 (ʿāṣāḇ); H8597 (tip̄ʾereṯ); H47 (ʾabbîr); H7332 (rāzôn); H4549 (māsas); H5263 (nāsas); H6413 (pᵉlêṭāh); H6666 (ṣᵉḏāqāh); H8399 (taḇlîṯ); H8081 (šemen); H3885 (lûn/lîn); H117 (ʾaddîr). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "single-site lexical decisions of Isaiah 10",
+      "partOfSpeech": "nouns, construct phrases, participles, particle",
+      "literal": "decrees of iniquity … trouble; day of visitation; desolation; your weight/glory; except crouch under; rod / staff; a godless nation; spoil / plunder; her images; the boasting of the height of his eyes; like a mighty one, the sitting ones; leanness; as the melting of a sick one; escaped remnant; righteousness; their wearing-out; because of fat; a lodging they lodged; by a mighty one",
+      "standardEnglish": "unrighteous decrees … perverseness (ASV) / oppressive statutes (NRSV); the day of visitation (ASV) / punishment (NRSV); desolation (ASV) / calamity (NRSV); your glory (ASV) / wealth (NRSV); they shall only bow down under the prisoners (ASV); rod / staff; a profane nation (ASV); spoil / prey (ASV); her idols (ASV) / images (NRSV); the glory of his high looks (ASV); like a valiant man … them that sit on thrones (ASV); leanness (ASV); as when a standard-bearer fainteth (ASV) / as when an invalid wastes away (NRSV); they that are escaped (ASV); righteousness; their destruction; by reason of fatness (ASV) / because of the anointing (KJV); they have taken up their lodging (ASV); by a mighty one (ASV)",
+      "wohChoice": "10:1 'iniquitous decrees … the writers who write mischief' (ʿāmāl 'mischief', over ASV 'perverseness'). 10:3 'the day of visitation … the desolation'; kāḇôḏ 'glory' at 10:3, 16, 18 under the strict wave rule, with the 'wealth' sense in commentary. 10:4 'Nothing remains but to crouch under the prisoners, and they shall fall under the slain' (biltî 'nothing but'; taḥaṯ 'under'; the sg./pl. shift kept). šēḇeṭ 'rod', maṭṭeh 'staff' throughout the chapter (10:5, 15, 24, 26; as 9:3); 10:5 construed with ASV. 10:6 gôy ḥānēp̄ 'a godless nation' (wave ruling 5). šālāl 'spoil' and baz/bzz 'plunder' (10:2, 6), one pair so that the echo of Maher-shalal-hash-baz (8:1, 3) stays visible. 10:11 ʿăṣabbîm 'images', distinct from ʾĕlîlîm 'idols' in the same verse. 10:12 tip̄ʾereṯ 'boasting' (recorded departure from the 'honor' default). 10:13 'like a valiant man … those who sit on thrones' (ASV). 10:16 rāzôn 'leanness among his fat ones' (ASV). 10:18 kimsōs nōsēs 'as when a sick man wastes away'. 10:20 pᵉlêṭaṯ 'the survivors' (as 4:2). 10:22 ṣᵉḏāqāh 'righteousness'. 10:25 'their destruction' (MT plural suffix). 10:27 šemen 'fatness' (MT). 10:29 'they have taken up their lodging at Geba' (narrative reading, ASV and JPS 1917; NJPS's quoted speech 'Geba is to be our night quarters!' in commentary). 10:34 'by a mighty one' (agent unspecified).",
+      "claim_type": "direct",
+      "rationale": "Each item is a single-site decision that keeps a standard rendering, chosen between ASV and NRSV on lexical grounds, and records the alternative in commentary. None carries a project reading. (1) ʿāmāl is 'trouble, mischief, toil' (BDB), and 'perverseness' (ASV) is not a sense of the noun. 'Mischief' keeps the word's own meaning, whereas NRSV's 'oppressive statutes' paraphrases the clause. (2) biltî is the particle 'except, nothing but' (BDB). The line gives its sense in the modern idiom ('Nothing remains but …'), keeps the Masoretic shift from singular kāraʿ to plural yippōlû, and renders taḥaṯ by its basic 'under'. Lagarde's Beltis/Osiris redivision is reported and not adopted, under `mt-qere-textual-policy-isaiah`. (3) šēḇeṭ 'rod' and maṭṭeh 'staff' are fixed for the chapter so that the instrument imagery of 10:5, 15, 24 and 26 stays traceable, as at 9:3. (4) ḥānēp̄ follows wave I-3 ruling 5 ('godless'; NRSV), so that it matches the stable 32:6 'godlessness'. (5) Two different idol-nouns stand in parallel at 10:11, and the line now distinguishes them ('idols … images', with NRSV); ʾĕlîlîm stays under central `elilim-idols-cross-corpus`. (6) At 10:12 tip̄ʾereṯ is pejorative, 'vaunting, pomp', and the wave default 'honor' (4:2) would invert its sense in this idiom. Wave I-3 ruling 6 allows a recorded departure, and 'boasting' ties the noun to the Hithpael yiṯpāʾēr 'boast itself' of the same root at 10:15. (7) At 10:18 the pair mᵉsōs nōsēs is derived from māsas 'melt' and a root nss 'be sick, waste away', as the lexicons give it, with NRSV. ASV's 'standard-bearer' rests on a derivation from nēs 'banner' that is now rarely followed, so accuracy decides against the ASV wording. (8) At 10:29 lānû may be the verb 'they lodged' (lyn/lûn) or the preposition 'for us' introducing quoted speech. The accentuation does not decide between them, because the suffixed preposition is also stressed on the first syllable (WLC 9:5; 1:9). The line keeps the narrative reading of ASV and JPS 1917 (NRSV likewise, from memory), and the commentary reports NJPS's quoted-speech reading 'Geba is to be our night quarters!'. (9) At 10:27 šemen is rendered 'fatness' (MT; ASV). KJV 'the anointing' and the NRSV emendation 'from Rimmon' are reported in commentary. Putting 'anointing' in the line would read a cultic sense into a noun that the context of animal imagery does not require. (10) The remaining items (10:3, 13, 16, 20, 22, 25, 34) keep ASV or the corpus wording already fixed at 4:2, with the NRSV alternatives given in commentary.",
+      "appliesTo": [
+        "ISA-10:1",
+        "ISA-10:2",
+        "ISA-10:3",
+        "ISA-10:4",
+        "ISA-10:5",
+        "ISA-10:6",
+        "ISA-10:11",
+        "ISA-10:12",
+        "ISA-10:13",
+        "ISA-10:15",
+        "ISA-10:16",
+        "ISA-10:18",
+        "ISA-10:20",
+        "ISA-10:22",
+        "ISA-10:24",
+        "ISA-10:25",
+        "ISA-10:27",
+        "ISA-10:29",
+        "ISA-10:34"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "march-itinerary-toponyms-isaiah-10",
+      "source": "כַּלְנוֹ · כַּרְכְּמִישׁ · חֲמָת · אַרְפַּד (10:9) · עַיַּת · מִגְרוֹן · מִכְמָשׂ (10:28) · גֶּבַע · הָרָמָה · גִּבְעַת שָׁאוּל (10:29) · בַּת־גַּלִּים · לַיְשָׁה · עֲנָתוֹת (10:30) · מַדְמֵנָה · הַגֵּבִים (10:31) · נֹב (10:32) · צוּר עוֹרֵב (10:26) · הַלְּבָנוֹן (10:34)",
+      "translit": "kalnô; karkᵉmîš; ḥămāṯ; ʾarpaḏ; ʿayyaṯ; miḡrôn; miḵmāś; geḇaʿ; hā-rāmāh; giḇʿaṯ šāʾûl; baṯ-gallîm; layᵉšāh; ʿănāṯôṯ; maḏmēnāh; hag-gēḇîm; nōḇ; ṣûr ʿôrēḇ; hal-lᵉḇānôn",
+      "strongs": "H3641 (Calno); H3751 (Carchemish); H2574 (Hamath); H774 (Arpad); H5857 (Aiath/Ai); H4051 (Migron); H4363 (Michmash); H1387 (Geba); H7414 (Ramah); H1390 (Gibeah); H1554 (Gallim); H3919 (Laishah); H6068 (Anathoth); H4088 (Madmenah); H1374 (Gebim); H5011 (Nob); H6159 (Oreb); H3844 (Lebanon). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "place names of Isaiah 10:9 and the march itinerary 10:28-32",
+      "partOfSpeech": "proper nouns (toponyms)",
+      "literal": "the Hebrew place names; baṯ-gallîm 'daughter of Gallim'",
+      "standardEnglish": "ASV: Calno, Carchemish, Hamath, Arpad, Aiath, Migron, Michmash, Geba, Ramah, Gibeah of Saul, Gallim, Laishah, Anathoth, Madmenah, Gebim, Nob; NRSV largely the same; scholarly transliteration (Kalno, Karkemish, ʿAyyat, Mikmas) in some commentaries",
+      "wohChoice": "ASV spellings for every toponym of the chapter (wave I-3 ruling 4: place names take the ASV spelling unless an entry fixes another form), with English forms for Samaria, Damascus, Jerusalem, Zion, Egypt, Assyria, Midian and Lebanon. No site is identified in the line beyond the Hebrew name: identifications (Aiath with Ai; Laishah as Laish with directional -āh; the Michmash pass of 1 Sam 13:23; 14:4) and the debated historical occasion of the march stay in commentary. baṯ-gallîm 'O daughter of Gallim' keeps the personification, as 'the daughter of Zion' (1:8). madmēnāh at 10:31 is the town and is not governed by `madmenah-ketiv-qere-moab-isaiah-25`.",
+      "claim_type": "direct",
+      "rationale": "The glossary had no Isaiah toponym convention, and the itinerary of 10:28-32 depends on its names being recognisable to a reader who checks a map or a standard Bible. ASV spellings are those of the corpus baseline and differ from NRSV only marginally, so the choice is a house-style decision, not an interpretation. A scholarly transliteration was considered and rejected for the line because it would set this chapter apart from the rest of the corpus. The Hebrew form is given in commentary wherever the identification matters (ʿayyaṯ, layᵉšāh). The route the names trace (Ai, Michmash, Geba, Ramah, Gibeah, Anathoth, Nob) is a well-known approach to Jerusalem from the north, through Benjamin. Its historical occasion is disputed (an Assyrian advance often tied to 701 BCE, the Syro-Ephraimite campaign of about 734 BCE, or a literary itinerary; see Wildberger, Isaiah 1-12; Blenkinsopp, Isaiah 1-39, AB 19; Sweeney, Isaiah 1-39, FOTL 16). The line therefore names no army and decides nothing. Keeping the identification out of the line means a later archaeological or textual ruling changes only commentary.",
+      "appliesTo": [
+        "ISA-10:9",
+        "ISA-10:26",
+        "ISA-10:28",
+        "ISA-10:29",
+        "ISA-10:30",
+        "ISA-10:31",
+        "ISA-10:32",
+        "ISA-10:34"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "sign-names-isaiah-7-8",
+    "appliesToAdded": [
+      "ISA-10:21",
+      "ISA-10:22"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 10): at 10:21 and 10:22 šᵉʾār yāšûḇ is a clause, 'A remnant will return' (10:21) and 'only a remnant of them will return' (10:22, with bô), not the transliterated name. The commentary notes that the verses unfold the meaning of the name Shear-jashub (7:3), and that yāšûḇ can mean 'return' or 'turn back, repent'. The plain noun šᵉʾār 'remnant' (10:19, 20, 21b) is ASV and needs no entry."
+  },
+  {
+    "op": "modify",
+    "id": "el-gibbor-mighty-god-isaiah",
+    "appliesToAdded": [
+      "ISA-10:21"
+    ],
+    "rationaleAppend": "Wave I-3 extension (Isa 10): ʾel-ʾēl gibbôr at 10:21 is rendered 'to the Mighty God', capitalised as at 9:5 (Eng. 9:6), so that the repetition of the throne name is visible. At 10:21 the phrase unambiguously designates YHWH (compare hāʾēl haggāḏōl haggibbōr, Deut 10:17; Jer 32:18). The commentary refers the alternatives ('God is a warrior', 'mighty hero') to this entry."
+  },
+  {
+    "op": "modify",
+    "id": "ha-adon-articular-title-isaiah",
+    "appliesToAdded": [
+      "ISA-10:16",
+      "ISA-10:33"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 10): hā-ʾāḏôn YHWH ṣᵉḇāʾôṯ at 10:16 and 10:33 is rendered provisionally 'the Sovereign, YHWH of hosts' (wave I-1 decision 1, option B, pending founder ruling); if option A is ruled, both lines revert to 'the Lord, YHWH of hosts'. Only this id is carried at these sites; ha-adon-definite-title-isaiah is to be merged into it."
+  },
+  {
+    "op": "modify",
+    "id": "hoy-woe-isaiah",
+    "appliesToAdded": [
+      "ISA-10:1",
+      "ISA-10:5"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 10): 'Woe to …' before the participle at 10:1 (the woe-oracle 10:1-4, often counted with the series of 5:8-22) and the vocative 'Woe, Assyria' at 10:5 (as 'Woe, Ariel', 29:1)."
+  },
+  {
+    "op": "modify",
+    "id": "bekhol-zot-lo-shav-appo-refrain-isaiah",
+    "appliesToAdded": [
+      "ISA-10:4"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 10): the refrain at 10:4 is rendered in the fixed wording, unchanged from the draft. The first half of the verse (the biltî crux) is governed by lexical-cruxes-isaiah-10."
+  },
+  {
+    "op": "modify",
+    "id": "eretz-cosmic-scope-isaiah-24",
+    "changes": {
+      "appliesTo": [
+        "ISA-24:1",
+        "ISA-24:3",
+        "ISA-24:4",
+        "ISA-24:5",
+        "ISA-24:6",
+        "ISA-24:11",
+        "ISA-24:13",
+        "ISA-24:16",
+        "ISA-24:17",
+        "ISA-24:18",
+        "ISA-24:19",
+        "ISA-24:20",
+        "ISA-13:9",
+        "ISA-13:13",
+        "ISA-40:12",
+        "ISA-40:21",
+        "ISA-40:22",
+        "ISA-40:28",
+        "ISA-42:5",
+        "ISA-44:23",
+        "ISA-44:24",
+        "ISA-45:8",
+        "ISA-45:12",
+        "ISA-45:18",
+        "ISA-45:22",
+        "ISA-48:13",
+        "ISA-65:17",
+        "ISA-10:14",
+        "ISA-10:23"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-10:14",
+      "ISA-10:23"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 10): 'all the earth' at 10:14 (the Assyrian king's claim to world dominion, kol-hāʾāreṣ ʾănî ʾāsāp̄tî) and 'in the midst of all the earth' at 10:23 (ASV). At 10:23 a territorial reading ('the whole land', the decree on Israel of 10:22) is also current and is reported in commentary. The choice follows ASV and the decree's universal register (kālāh wᵉneḥĕrāṣāh, as Dan 9:27), and the Reviewer may revisit it."
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-13:16",
+        "ISA-14:4",
+        "ISA-14:30",
+        "ISA-15:9",
+        "ISA-29:11",
+        "ISA-32:7",
+        "ISA-32:15",
+        "ISA-40:6",
+        "ISA-42:20",
+        "ISA-42:24",
+        "ISA-43:19",
+        "ISA-44:9",
+        "ISA-44:17",
+        "ISA-44:24",
+        "ISA-45:2",
+        "ISA-45:8",
+        "ISA-48:1",
+        "ISA-48:10",
+        "ISA-48:11",
+        "ISA-54:9",
+        "ISA-54:13",
+        "ISA-54:16",
+        "ISA-65:4",
+        "ISA-65:7",
+        "ISA-10:4",
+        "ISA-10:5",
+        "ISA-10:6",
+        "ISA-10:12",
+        "ISA-10:13",
+        "ISA-10:25",
+        "ISA-10:27",
+        "ISA-10:30",
+        "ISA-10:32"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-10:4",
+      "ISA-10:5",
+      "ISA-10:6",
+      "ISA-10:12",
+      "ISA-10:13",
+      "ISA-10:25",
+      "ISA-10:27",
+      "ISA-10:30",
+      "ISA-10:32"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 10): the qere is translated at 10:6 (ûlᵉśûmô), 10:13 (waʿăṯûḏôṯêhem 'their treasures') and 10:32 (baṯ 'the daughter of Zion'). MT is kept, with the alternatives reported in commentary, at five sites: 10:4 (Lagarde's Beltis/Osiris redivision); 10:5 (hûʾ bᵉyāḏām, deleted by many as a gloss); 10:12 (MT ʾep̄qōḏ 'I will punish'; LXX, Syriac and NRSV third person); 10:25 (taḇlîṯām; emendation ʿal-tēḇēl yittōm); 10:27 (mippᵉnê-šāmen and the MT verse division; NRSV emendation 'He has gone up from Rimmon'). The MT pointing is also kept at 10:30 (ʿăniyyāh 'poor'; repointed ʿănîhā 'answer her', NRSV)."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-standalone-title-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:1",
+        "ISA-6:8",
+        "ISA-6:11",
+        "ISA-29:13",
+        "ISA-10:12"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-10:12"
+    ],
+    "rationaleAppend": "Wave I-3 extension: 'the Lord' for standalone ʾăḏōnāy at 10:12. The commentary notes the MT shift into first-person divine speech that follows ('I will punish')."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh-compound-isaiah-25",
+    "changes": {
+      "appliesTo": [
+        "ISA-25:8",
+        "ISA-40:10",
+        "ISA-48:16",
+        "ISA-65:13",
+        "ISA-65:15",
+        "ISA-10:23",
+        "ISA-10:24"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-10:23",
+      "ISA-10:24"
+    ],
+    "rationaleAppend": "Wave I-3 extension: 'the Lord YHWH of hosts' for ʾăḏōnāy YHWH ṣᵉḇāʾôṯ at 10:23 and 10:24, combining this entry with yhwh-tzevaot-hosts-isaiah."
+  },
+  {
+    "op": "modify",
+    "id": "yhwh-tzevaot-hosts-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:3",
+        "ISA-6:5",
+        "ISA-24:23",
+        "ISA-25:6",
+        "ISA-13:4",
+        "ISA-13:13",
+        "ISA-14:22",
+        "ISA-14:23",
+        "ISA-14:24",
+        "ISA-14:27",
+        "ISA-29:6",
+        "ISA-44:6",
+        "ISA-45:13",
+        "ISA-48:2",
+        "ISA-54:5",
+        "ISA-10:16",
+        "ISA-10:23",
+        "ISA-10:24",
+        "ISA-10:26",
+        "ISA-10:33"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-10:16",
+      "ISA-10:23",
+      "ISA-10:24",
+      "ISA-10:26",
+      "ISA-10:33"
+    ],
+    "rationaleAppend": "Wave I-3 extension: 'YHWH of hosts' at 10:16, 23, 24, 26 and 33, alone (10:26), after hā-ʾāḏôn (10:16, 33) and after ʾăḏōnāy (10:23, 24)."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-el-eloah-monotheistic-formula-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-13:19",
+        "ISA-40:18",
+        "ISA-42:5",
+        "ISA-42:17",
+        "ISA-43:10",
+        "ISA-43:12",
+        "ISA-44:6",
+        "ISA-44:8",
+        "ISA-44:10",
+        "ISA-44:15",
+        "ISA-44:17",
+        "ISA-45:5",
+        "ISA-45:14",
+        "ISA-45:15",
+        "ISA-45:18",
+        "ISA-45:20",
+        "ISA-45:21",
+        "ISA-45:22",
+        "ISA-10:21"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-10:21"
+    ],
+    "rationaleAppend": "Wave I-3 extension: ʾēl in ʾēl gibbôr at 10:21 is 'God' (YHWH), here inside the capitalised title 'the Mighty God' governed by el-gibbor-mighty-god-isaiah."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:1",
+        "ISA-13:1",
+        "ISA-14:1",
+        "ISA-15:1",
+        "ISA-29:1",
+        "ISA-32:1",
+        "ISA-40:1",
+        "ISA-40:10",
+        "ISA-42:1",
+        "ISA-43:1",
+        "ISA-44:1",
+        "ISA-45:1",
+        "ISA-48:1",
+        "ISA-48:16",
+        "ISA-54:1",
+        "ISA-65:1",
+        "ISA-65:13",
+        "ISA-10:1"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-10:1"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 10): the Translator's descriptive title 'Isaiah 10 — Woe to the makers of unjust decrees, Assyria the rod of anger, the returning remnant, and the march on Jerusalem' is kept."
+  },
+  {
+    "op": "note",
+    "id": "concordance-departures-and-non-applications-isaiah-10",
+    "note": "Concordance (wave I-3 ruling 6). First, kāḇôḏ is 'glory' at 10:3, 10:16 and 10:18 (strict; the 'wealth' sense at 10:3 is in commentary). Second, tip̄ʾereṯ at 10:12 departs from the default 'honor' and is rendered 'the boasting of his haughty looks'; the departure is recorded in lexical-cruxes-isaiah-10 and in the 10:12 commentary. Neither hāḏār nor gāʾôn occurs in the chapter. ḥānēp̄ at 10:6 is 'godless' (ruling 5). If the chapter 9 Editor creates a ḥānēp̄ entry for 9:16, add ISA-10:6 to it and remove that item from lexical-cruxes-isaiah-10. Deliberately not applied (recorded, no op): kevodo-kavod-suffixed-isaiah (YHWH's kāḇôḏ at 6:3; the chapter 10 sites are human or national glory); chanef-broken-everlasting-covenant-isaiah-24 (the verb at 24:5); yippaqedu-pqd-visitation-imprisonment-isaiah-24 (scoped to 24:21-22); nefesh-throat-sheol-isaiah-5 (the physical throat of 5:14; 10:18 is a merism); madmenah-ketiv-qere-moab-isaiah-25 (10:31 is a town); lexical-cruxes-isaiah-4 (10:20 pᵉlêṭāh matches 4:2 by wording only; the decision is restated in lexical-cruxes-isaiah-10)."
+  }
+]

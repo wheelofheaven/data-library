@@ -1,0 +1,295 @@
+[
+  {
+    "op": "version",
+    "from": "1.6.1",
+    "to": "1.8.0",
+    "note": "Isaiah wave I-3, chapter 8 Editor. Base: overlay v1.6.1 (read-only); wave I-1 diffs (to 1.7.0) treated as in force; propose 1.8.0 for wave I-3. Contents: 2 add ops (both direct) and 8 modify ops (appliesTo extensions, some with appended rationale sentences; no wohChoice, claim_type or existing rationale text changed), so a minor bump. sign-names-isaiah-7-8 is ADDED by the chapter 7 Editor; this diff only proposes appliesToAdded for it, so apply this op after the chapter 7 add. CONCURRENCY: the chapter 7, 9, 10, 11 and 12 Editors write from the same base; merge appliesTo as the union of the merged array and each appliesToAdded, and concatenate rationaleAppend sentences. Likeliest overlaps: mt-qere-textual-policy-isaiah, elohim-el-eloah-monotheistic-formula-isaiah, yhwh-tzevaot-hosts-isaiah, adonai-standalone-title-isaiah, torah-teaching-isaiah, eretz-cosmic-scope-isaiah-24. `changes.appliesTo` arrays are given against v1.6.1 only (wave I-1 additions not included); re-base on merge."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "ob-yiddeoni-ghosts-familiar-spirits-isaiah",
+      "source": "הָאֹבוֹת וְהַיִּדְּעֹנִים (8:19)",
+      "translit": "hāʾōḇôṯ wᵉhayyiddᵉʿōnîm (sg. ʾôḇ; yiddᵉʿōnî)",
+      "strongs": "H178 (ʾôḇ); H3049 (yiddᵉʿōnî). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "ʾôḇ 'spirit of the dead; one who calls it up'; yiddᵉʿōnî 'knowing (spirit); one who consults it' (from ydʿ 'know')",
+      "partOfSpeech": "nouns (fem. pl. ʾōḇôṯ, masc. pl. yiddᵉʿōnîm), articular, as objects of dāraš ʾel 'seek, consult'",
+      "literal": "the ʾôḇ-spirits and the knowing ones",
+      "standardEnglish": "them that have familiar spirits and … the wizards (ASV, KJV); the ghosts and the familiar spirits (JPS 1917; NJPS 'the ghosts and familiar spirits'); NRSV 'the ghosts and the familiar spirits' (not verified)",
+      "wohChoice": "'the ghosts and the familiar spirits' at 8:19 ('Seek the ghosts and the familiar spirits that chirp and mutter'): the pair rendered as the spirits consulted, not as the practitioners, because the following participles hamᵉṣap̄ṣᵉp̄îm wᵉhammahgîm describe their voices. Context rule for later sites of the pair in Isaiah (19:3): 'the ghosts' / 'the familiar spirits' where the consulted spirits are meant; 'mediums' / 'necromancers' only where the context requires persons, with a note. No etymological rendering ('the knowing ones') in the line. ʾôḇ at 29:4 ('a ghost') remains governed by ariel-ob-isaiah-29.",
+      "claim_type": "direct",
+      "rationale": "ʾôḇ and yiddᵉʿōnî are the paired terms of the Hebrew Bible's necromancy vocabulary (Lev 19:31; 20:6, 27; Deut 18:11; 1 Sam 28:3, 9; 2 Kgs 21:6; 23:24; Isa 19:3). Both can denote either the spirit of the dead that is consulted or the person who consults it: Lev 20:27 speaks of a man or woman 'in whom is' an ʾôḇ or yiddᵉʿōnî, while 1 Sam 28:3 has Saul remove them from the land (BDB; HALOT; Tropper, DDD s.v. 'Spirit of the dead'; not verified). At Isa 8:19 the spirits are meant: the articular participles 'that chirp and that mutter' describe the faint voices of the dead, as the voice of the ghost 'chirps' (tᵉṣap̄ṣēp̄) from the dust at 29:4. JPS 1917 and NJPS (both verified on Sefaria) render 'the ghosts and the familiar spirits', and NRSV is reported to do the same; ASV's 'them that have familiar spirits … the wizards' renders practitioners and loses the link between the nouns and the participles. 'Ghost' also keeps 8:19 consistent with 29:4, where the overlay already renders ʾôḇ 'a ghost'. 'Familiar spirit' is kept for yiddᵉʿōnî because it is the established English term for this word in all three versions; the objection recorded at 29:4 (that the phrase suggests a witch's animal companion) was made against using it for ʾôḇ, and the pairing with 'ghosts' makes the sense plain here. No central entry covers either term (central v2.93.0 searched by id, source, wohChoice, rationale and appliesTo for Lev 19:31, 20:6, 27, Deut 18:11, 1 Sam 28, 2 Kgs 21:6, 23:24); the entry is placed in the overlay and should be promoted to central when Leviticus 19-20, Deuteronomy 18 or 1 Samuel 28 is translated. The rendering is the standard modern one and carries no lens, so the claim is direct.",
+      "appliesTo": [
+        "ISA-8:19"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-8",
+      "source": "בְּחֶרֶט אֱנוֹשׁ (8:1) · וְעָלָה … כְּנָפָיו (8:7-8) · רֹעוּ … וָחֹתּוּ (8:9) · כְּחֶזְקַת הַיָּד (8:11) · תְּעוּדָה (8:16, 20) · לְאֹתוֹת וּלְמוֹפְתִים (8:18) · שָׁחַר (8:20) · וְעָבַר בָּהּ … וְקִלֵּל בְּמַלְכּוֹ (8:21) · מְנֻדָּח (8:22) · הֵקַל … הִכְבִּיד (8:23)",
+      "translit": "bᵉḥereṭ ʾĕnôš; wᵉʿālāh … kᵉnāp̄āyw; rōʿû … wāḥōttû; kᵉḥezqaṯ hayyāḏ; tᵉʿûḏāh; lᵉʾōṯôṯ ûlᵉmôp̄ᵉṯîm; šaḥar; wᵉʿāḇar bāh … wᵉqillēl bᵉmalkô; mᵉnuddāḥ; hēqal … hiḵbîḏ",
+      "strongs": "H2747 + H582; H5927 + H3671; H7321 + H2865; H2393 + H3027; H8584; H226 + H4159; H7837; H5674 + H7043; H5080; H7043 + H3513. Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "single-site and paired lexical decisions of Isaiah 8 not covered by a dedicated entry",
+      "partOfSpeech": "nouns, verbs and participles",
+      "literal": "with a stylus of a man; and he/it shall go up … his/its wings; shout (?) … be shattered; as with strength of the hand; attestation; for signs and for tokens; dawn; and he shall pass through it … and curse by his king; driven out; he made light … he made heavy",
+      "standardEnglish": "with the pen of a man / in common script; it … its (ASV) / he … his (KJV, JPS 1917); make an uproar (ASV) / band together (NJPS); with a strong hand (ASV) / took me by the hand (NJPS); testimony (ASV) / message (NJPS); signs and wonders (ASV) / signs and portents (NJPS); morning (ASV) / dawn (NJPS); they … their (ASV) / he … his (NJPS); driven away (ASV); made glorious (ASV) / dealt a more grievous blow (JPS 1917)",
+      "wohChoice": "8:1 'a large tablet … with the pen of a man' (ASV literal; 'in common script' in commentary); 8:7-8 masculine pronouns kept as 'he … his' (KJV, JPS 1917; River or king left open), kᵉḇôḏô 'his glory' under the wave concordance; 8:9 rōʿû 'Make an uproar' (rwʿ), wāḥōttû 'be shattered', merḥaqqê-ʾāreṣ under eretz-cosmic-scope-isaiah-24; 8:11 'with a strong hand, and instructed me' (MT ysr); 8:16, 20 tᵉʿûḏāh 'testimony' in both verses, tôrāh 'teaching' under torah-teaching-isaiah, 8:16 the imperatives are the prophet's, because the line closes YHWH's speech at the end of 8:15 (house style lower-cases divine pronouns, so 'my disciples' does not itself decide the speaker); 8:18 'for signs and for wonders' (as Deut 4:34 in the project's Torah; portent sense in commentary); 8:20 'To the teaching and to the testimony!' as exclamation, šaḥar 'dawn'; 8:21 plural 'they … their' for the singular collective, qillēl bᵉ- 'curse by'; 8:22 'into thick darkness they shall be driven away' (mᵉnuddāḥ Pual participle); 8:23 'In the former time he brought into contempt … but in the latter time he has made it glorious' (ASV reversal reading). PENDING FOUNDER RULING (staged, not in the line): alternate construal (B) of 8:19b-21, with the advisers' quotation continued to 8:20a as in JPS 1917 and NJPS and ʾĕlōhîm taken as the dead (NJPS): 8:19 'And when they say to you, “Seek the ghosts and the familiar spirits that chirp and mutter; should not a people seek its divine beings, the dead on behalf of the living, — 8:20 for teaching and for testimony?” Surely they will speak according to this word, for which there is no dawn.' 8:21 '… and curse by their king and by their divine beings, and turn their faces upward;'. If (B) is ruled, the 8:20 exclamation item above lapses and elohim-el-eloah-monotheistic-formula-isaiah drops ISA-8:19 and ISA-8:21.",
+      "claim_type": "direct",
+      "rationale": "Each item is a site where the Translator flagged a choice between the ASV rendering and a defensible alternative. The Editor keeps the established sense of the Masoretic Text in every case and records the alternatives in commentary; no item adopts an emendation and none carries a project reading. The checks are these: ASV 1901 was verified against its text (it has 'it … its' at 8:7-8, not 'he … his' as the draft reported, so the line's 'he … his' rests on KJV and JPS 1917, both verified, and leaves the River/king referent open as the Hebrew masculine does); JPS 1917 and NJPS were verified on Sefaria, including NJPS 'Band together' (8:9), 'took me by the hand' (8:11), 'message' (8:16), 'signs and portents' (8:18) and the persons reading of 8:23, and JPS 1917's judgment reading of hiḵbîḏ at 8:23 ('dealt a more grievous blow'), a construal discussed in Emerton, JSS 14 (1969) 151-175 (bibliographic details verified via Crossref; his conclusion not checked). 'Signs and wonders' is kept at 8:18, against NJPS 'portents', because the project renders the same pair 'signs … wonders' at Deut 4:34 and the pair should stay recognisable across the corpus; the sense of môp̄ēṯ as an ominous token is explained in commentary. 'Testimony' is kept for tᵉʿûḏāh at both 8:16 and 8:20 so that the repeated pair is visible. At 8:23 the reversal reading (contempt, then glory) is kept because it is the standard construal of hēqal/hiḵbîḏ in the major English versions and lexica (BDB kbd Hiphil 'make honourable'; not verified); its reuse at Matt 4:15-16 is noted in commentary and is not the reason for the choice. The kāḇôḏ of 8:7 is the Assyrian king's array, so the divine-glory entries are not applied; 'glory' follows the wave concordance. The entry may be folded into a wave-level crux entry at merge. Post-review (wave I-3 Reviewer): the 8:20 exclamation item is contingent on the 8:19 ruling; construal (A), kept in the line, rests on ASV and KJV, while JPS 1917 and NJPS both continue the quotation through 8:20a.",
+      "appliesTo": [
+        "ISA-8:1",
+        "ISA-8:7",
+        "ISA-8:8",
+        "ISA-8:9",
+        "ISA-8:11",
+        "ISA-8:16",
+        "ISA-8:18",
+        "ISA-8:20",
+        "ISA-8:21",
+        "ISA-8:22",
+        "ISA-8:23"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "sign-names-isaiah-7-8",
+    "appliesToAdded": [
+      "ISA-8:1",
+      "ISA-8:3",
+      "ISA-8:8",
+      "ISA-8:10"
+    ],
+    "rationaleAppend": "Chapter 8 sites (wave I-3 ruling 1): Maher-shalal-hash-baz transliterated at 8:1 (with lᵉ- 'For', ASV and NJPS; 'Belonging to' in commentary) and 8:3 (ASV hyphenation), its meaning ('the spoil speeds, the prey hastens'; JPS 1917 translates it at 8:1, verified) in commentary; 8:8 'O Immanuel', vocative, with ASV, KJV and JPS 1917, the clause reading of NJPS ('But with us is God, whose wings are spread', verified) and of the Septuagint (not verified) recorded in commentary; 8:10 kî ʿimmānû ʾēl as the clause 'for God is with us' (ASV, JPS 1917), with the link to 7:14 and 8:8 drawn in commentary.",
+    "note": "Propose after the chapter 7 Editor's add op; the orchestrator resolves the order at merge."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:1",
+        "ISA-13:1",
+        "ISA-14:1",
+        "ISA-15:1",
+        "ISA-29:1",
+        "ISA-32:1",
+        "ISA-40:1",
+        "ISA-40:10",
+        "ISA-42:1",
+        "ISA-43:1",
+        "ISA-44:1",
+        "ISA-45:1",
+        "ISA-48:1",
+        "ISA-48:16",
+        "ISA-54:1",
+        "ISA-65:1",
+        "ISA-65:13",
+        "ISA-8:1"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-8:1"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 8): the Translator's descriptive title 'Isaiah 8 — Maher-shalal-hash-baz, the waters of Shiloah and the River, and the sealed testimony' is kept; Hebrew versification is followed, so 8:23 = English 9:1.",
+    "note": "Chapter-title and divine-name house style governs Isa 8."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-standalone-title-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:1",
+        "ISA-6:8",
+        "ISA-6:11",
+        "ISA-29:13",
+        "ISA-8:7"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-8:7"
+    ],
+    "rationaleAppend": "Wave I-3 extension: 'the Lord' for standalone ʾăḏōnāy at 8:7.",
+    "note": "Standalone ʾăḏōnāy at 8:7."
+  },
+  {
+    "op": "modify",
+    "id": "yhwh-tzevaot-hosts-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:3",
+        "ISA-6:5",
+        "ISA-24:23",
+        "ISA-25:6",
+        "ISA-13:4",
+        "ISA-13:13",
+        "ISA-14:22",
+        "ISA-14:23",
+        "ISA-14:24",
+        "ISA-14:27",
+        "ISA-29:6",
+        "ISA-44:6",
+        "ISA-45:13",
+        "ISA-48:2",
+        "ISA-54:5",
+        "ISA-8:13",
+        "ISA-8:18"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-8:13",
+      "ISA-8:18"
+    ],
+    "note": "'YHWH of hosts' at 8:13 and 8:18; no change to wohChoice."
+  },
+  {
+    "op": "modify",
+    "id": "elohim-el-eloah-monotheistic-formula-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-13:19",
+        "ISA-40:18",
+        "ISA-42:5",
+        "ISA-42:17",
+        "ISA-43:10",
+        "ISA-43:12",
+        "ISA-44:6",
+        "ISA-44:8",
+        "ISA-44:10",
+        "ISA-44:15",
+        "ISA-44:17",
+        "ISA-45:5",
+        "ISA-45:14",
+        "ISA-45:15",
+        "ISA-45:18",
+        "ISA-45:20",
+        "ISA-45:21",
+        "ISA-45:22",
+        "ISA-8:10",
+        "ISA-8:19",
+        "ISA-8:21"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-8:10",
+      "ISA-8:19",
+      "ISA-8:21"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 8): 'God' for ʾēl in the clause kî ʿimmānû ʾēl (8:10) and for suffixed ʾĕlōhāyw at 8:19 and 8:21 on the construal of ASV and KJV, in which the prophet replies and the word designates the God of Israel. JPS 1917 prints 'their God' but keeps 8:19b-20a inside the advisers' quotation, so it does not support that punctuation. The alternative construal of 8:19, the continued quotation (JPS 1917, NJPS) with ʾĕlōhîm as the dead (NJPS 'its divine beings', with the note 'the shades of the dead', cf. 1 Sam 28:13), would make 8:19 and 8:21 lower-case instances under the entry's own rule for non-YHWH referents; the choice is escalated in chapter-8-editor-report.md.",
+    "note": "8:10 ʾēl = YHWH; 8:19, 8:21 conditional on the escalated construal."
+  },
+  {
+    "op": "modify",
+    "id": "torah-teaching-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-42:4",
+        "ISA-42:21",
+        "ISA-42:24",
+        "ISA-8:16",
+        "ISA-8:20"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-8:16",
+      "ISA-8:20"
+    ],
+    "note": "The rationale already cites 8:16 and 8:20 ('the prophet's disciples hold it sealed'); appliesTo brought into line. Paired with tᵉʿûḏāh 'testimony' (lexical-cruxes-isaiah-8)."
+  },
+  {
+    "op": "modify",
+    "id": "eretz-cosmic-scope-isaiah-24",
+    "changes": {
+      "appliesTo": [
+        "ISA-24:1",
+        "ISA-24:3",
+        "ISA-24:4",
+        "ISA-24:5",
+        "ISA-24:6",
+        "ISA-24:11",
+        "ISA-24:13",
+        "ISA-24:16",
+        "ISA-24:17",
+        "ISA-24:18",
+        "ISA-24:19",
+        "ISA-24:20",
+        "ISA-13:9",
+        "ISA-13:13",
+        "ISA-40:12",
+        "ISA-40:21",
+        "ISA-40:22",
+        "ISA-40:28",
+        "ISA-42:5",
+        "ISA-44:23",
+        "ISA-44:24",
+        "ISA-45:8",
+        "ISA-45:12",
+        "ISA-45:18",
+        "ISA-45:22",
+        "ISA-48:13",
+        "ISA-65:17",
+        "ISA-8:9"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-8:9"
+    ],
+    "rationaleAppend": "Wave I-3: merḥaqqê-ʾāreṣ 'far places of the earth' (8:9), the universal-horizon idiom, as at 5:26.",
+    "note": "Universal-horizon idiom at 8:9."
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-13:16",
+        "ISA-14:4",
+        "ISA-14:30",
+        "ISA-15:9",
+        "ISA-29:11",
+        "ISA-32:7",
+        "ISA-32:15",
+        "ISA-40:6",
+        "ISA-42:20",
+        "ISA-42:24",
+        "ISA-43:19",
+        "ISA-44:9",
+        "ISA-44:17",
+        "ISA-44:24",
+        "ISA-45:2",
+        "ISA-45:8",
+        "ISA-48:1",
+        "ISA-48:10",
+        "ISA-48:11",
+        "ISA-54:9",
+        "ISA-54:13",
+        "ISA-54:16",
+        "ISA-65:4",
+        "ISA-65:7",
+        "ISA-8:2",
+        "ISA-8:6",
+        "ISA-8:11",
+        "ISA-8:12",
+        "ISA-8:14",
+        "ISA-8:23"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-8:2",
+      "ISA-8:6",
+      "ISA-8:11",
+      "ISA-8:12",
+      "ISA-8:14",
+      "ISA-8:23"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 8): MT kept and variants reported, not adopted: 8:2 imperative 'and take witnesses' of 1QIsaᵃ and the versions (not verified; NJPS renders in that sense) for the MT cohortative wᵉʾāʿîḏāh; 8:6 conjectural ûmāsôs 'and melting' for ûmᵉśôś; 8:11 1QIsaᵃ swr 'turned me aside' for wᵉyissᵉrēnî (not verified); 8:12 conjectural qōdeš 'holy' for qešer; 8:14 conjectural môqēš / forms of qdš for miqdāš; 8:23 1QIsaᵃ reading behind NJPS 'if there were to be' for lōʾ (attested by the NJPS footnote, verified on Sefaria). No ketiv/qere site in chapter 8.",
+    "note": "Suggest appending these six sites to the wohChoice site lists on merge."
+  },
+  {
+    "op": "note",
+    "id": "deliberate-non-applications",
+    "note": "Not applied in ch. 8 (recorded, no op): kevodo-kavod-suffixed-isaiah at 8:7 (kᵉḇôḏô is the Assyrian king's glory, not the divine glory; 'glory' follows the wave concordance); sefer-sealed-scroll-isaiah-29 at 8:16 (different noun; the binding/sealing of tᵉʿûḏāh is linked to 29:11 in commentary only); ariel-ob-isaiah-29 not extended to 8:19 (phrase entry scoped to 29:1-7). CONSOLIDATION SUGGESTION: ʾôḇ is now governed by two overlay entries (ariel-ob-isaiah-29 at 29:4 and ob-yiddeoni-ghosts-familiar-spirits-isaiah at 8:19), with the same rendering 'ghost'. Recommend moving ISA-29:4 into the new entry's appliesTo and trimming ariel-ob-isaiah-29 to the Ariel sites (a modification of a ratified entry, so it needs sign-off; escalated in the editor report)."
+  }
+]

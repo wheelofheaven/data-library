@@ -1,0 +1,122 @@
+[
+  {
+    "op": "version",
+    "from": "1.6.1",
+    "to": "1.8.0",
+    "note": "Isaiah wave I-3, chapter 11 Editor. Base: overlay v1.6.1 (read-only); wave I-1 diffs (to 1.7.0) treated as in force; propose 1.8.0 for wave I-3. Contents: 3 add ops (all direct) and 5 modify ops (appliesTo extensions with appended rationale sentences; no wohChoice, claim_type or existing rationale text changed), so a minor bump. CONCURRENCY: the chapter 7, 8, 9, 10 and 12 Editors write from the same base; merge appliesTo as the union of the merged array and each appliesToAdded, and concatenate rationaleAppend sentences. Likeliest overlaps: mt-qere-textual-policy-isaiah, ruach-divine-spirit-lower-case-isaiah, eretz-cosmic-scope-isaiah-24, adonai-standalone-title-isaiah, title-and-meta-conventions-isaiah. nes-signal-isaiah lists stable ISA-13:2 and wave-I-1 ISA-5:26 in appliesTo; those chapters' glossaryRefs are left to the orchestrator (this Editor touches no other chapter). POST-REVIEW (2026-11-26): nes-signal-isaiah wohChoice and rationale amended (33:23 'sail' exception) and lexical-cruxes-isaiah-11 rationale corrected (three ASV departures). Both are new entries in this diff, so the bump stays minor."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "choter-netser-geza-shoot-twig-stock-isaiah-11",
+      "source": "חֹטֶר מִגֵּזַע יִשָׁי וְנֵצֶר מִשָּׁרָשָׁיו יִפְרֶה",
+      "translit": "ḥōṭer mig-gezaʿ yišāy wᵉnēṣer miš-šārāšāyw yip̄reh",
+      "strongs": "H2415 (ḥōṭer); H1503 (gezaʿ); H5342 (nēṣer); H8328 (šōreš); H6509 (pārāh 'bear fruit'). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "ḥōṭer 'shoot, rod'; gezaʿ 'stock, stem, stump'; nēṣer 'sprout, offshoot'",
+      "partOfSpeech": "nouns (with the Qal imperfect yip̄reh)",
+      "literal": "a shoot from the stock of Jesse, and an offshoot from his roots shall bear fruit",
+      "standardEnglish": "a shoot out of the stock of Jesse, and a branch out of his roots shall bear fruit (ASV); a twig shall grow forth out of his roots (JPS 1917); a shoot … out of the stump of Jesse, a twig shall sprout from his stock (NJPS)",
+      "wohChoice": "'a shoot out of the stock of Jesse, and a twig out of his roots shall bear fruit' (11:1): ḥōṭer 'shoot', gezaʿ 'stock' (as at 40:24), nēṣer 'twig' (JPS 1917, NJPS). 'branch' is reserved for ṣemaḥ (4:2, overlay tsemach-yhwh-branch-isaiah-4) and 'stump' for maṣṣeḇeṯ (6:13). Lower case; the royal and messianic reception (Targum; Matt 2:23 'Nazarene') is reported in commentary only. MT yip̄reh 'shall bear fruit' kept (mt-qere-textual-policy-isaiah).",
+      "claim_type": "direct",
+      "rationale": "Isa 11:1 uses two growth words, ḥōṭer and nēṣer, and neither is the ṣemaḥ of 4:2. ḥōṭer occurs elsewhere only at Prov 14:3, where it is a rod or switch; nēṣer is a sprout or offshoot (BDB; HALOT; Isa 14:19; 60:21; Dan 11:7). ASV renders nēṣer 'branch', but JPS 1917 and NJPS render it 'twig', so the line follows a standard Jewish translation and keeps 'branch' for ṣemaḥ, the word that becomes the royal title in Jer 23:5; 33:15 and Zech 3:8; 6:12. Keeping the two lemmas apart in English lets a reader see that Isa 11:1 does not use the title-word, which is a fact about the Hebrew, not a reading of it. gezaʿ 'stock' follows ASV and JPS 1917 and matches the stable 40:24 'their stock'; NJPS 'stump' is recorded, and 'stump' stays with maṣṣeḇeṯ at 6:13. One inconsistency is known and escalated: the stable 14:19 renders nēṣer nitʿāḇ 'a loathed branch' (ASV 'an abominable branch'). That site is not in appliesTo. Whether 14:19 should be revised to match ('a loathed twig' / 'a loathed shoot') or the book should accept two renderings by context is a founder decision (chapter-11-editor-report.md); 60:21 nēṣer maṭṭāʿay will need the same decision when chapter 60 is drafted. The verb yip̄reh is MT (prh 'bear fruit'); LXX anabēsetai and Vulgate ascendet presuppose 'come up / sprout' and are reported in commentary.",
+      "appliesTo": [
+        "ISA-11:1"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "nes-signal-isaiah",
+      "source": "נֵס",
+      "translit": "nēs (nāśāʾ nēs 'raise a signal'; lᵉnēs ʿammîm 'as a signal for the peoples')",
+      "strongs": "H5251. Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "nēs 'pole, standard, banner, signal'",
+      "partOfSpeech": "noun (masculine)",
+      "literal": "a pole / banner raised as a sign",
+      "standardEnglish": "ensign (ASV, JPS 1917); signal (NRSV at 5:26, not verified; NJPS at 11:12); standard (NJPS at 11:10)",
+      "wohChoice": "'signal' for nēs as a raised pole or banner throughout Isaiah: 'raise a signal for the nations' (5:26; 11:12), 'On a bare mountain raise a signal' (13:2), 'who stands as a signal for the peoples' (11:10); the same rendering is expected at the later banner sites (18:3; 30:17; 31:9; 49:22; 62:10). Exception: at 33:23 nēs is a ship's sail ('they could not spread the sail'), as at Ezek 27:7, and is rendered 'sail' there. ASV 'ensign' is not used.",
+      "claim_type": "direct",
+      "rationale": "nēs is a pole or banner set up on a height to rally troops or people (BDB; HALOT; Num 21:8-9, where it is the pole of the bronze serpent; Jer 4:6; 51:12). ASV 'ensign' now suggests a naval flag or a rank to most readers, while 'signal' gives the function, which is what the Isaiah contexts turn on: in 5:26 YHWH raises it to summon a foreign army, in 13:2 it calls the host against Babylon, and in 11:10, 12 it gathers the nations and the dispersed of Israel. NJPS uses 'signal' at 11:12 and 'standard' at 11:10 (both checked against the NJPS text on Sefaria); the book already prints 'signal' at 5:26 (wave I-1) and in the signed-off 13:2, so the entry records an existing book practice rather than introducing a new one. One English word for the banner sense keeps the reversal between 5:26 and 11:10-12 visible to an English reader; the commentary notes it. The entry carries no project reading. The lemma also has a second, nautical sense: at Isa 33:23 and Ezek 27:7 nēs is the sail of a ship (BDB), and 'signal' would misreport it, so the entry excepts that site (added at the wave I-3 review).",
+      "appliesTo": [
+        "ISA-5:26",
+        "ISA-11:10",
+        "ISA-11:12",
+        "ISA-13:2"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-11",
+      "source": "וַהֲרִיחוֹ (11:3) · וּמְרִיא יַחְדָּו (11:6) · מְאוּרַת · הָדָה (11:8) · מְנֻחָתוֹ כָּבוֹד (11:10) · יָדוֹ לִקְנוֹת · אִיֵּי הַיָּם (11:11) · צֹרְרֵי יְהוּדָה (11:13) · בְכָתֵף · מִשְׁלוֹח יָדָם (11:14) · בַּעְיָם · בַּנְּעָלִים (11:15) · רוּחַ … עֵצָה וּגְבוּרָה (11:2)",
+      "translit": "wahăriḥô; ûmᵉrîʾ yaḥdāw; mᵉʾûraṯ; hāḏāh; mᵉnuḥāṯô kāḇôḏ; yāḏô liqnôṯ; ʾiyyê hayyām; ṣōrᵉrê yᵉhûḏāh; bᵉḵāṯēp̄; mišlôaḥ yāḏām; baʿyām; ban-nᵉʿālîm; ʿēṣāh û-ḡᵉḇûrāh",
+      "strongs": "H7306 (rwḥ Hiphil 'smell'); H4806 (mᵉrîʾ); H3975 (mᵉʾûrāh); H1911 (hāḏāh); H4496 (mᵉnûḥāh); H3519 (kāḇôḏ); H7069 (qnh); H339 (ʾî); H6887 (ṣrr); H3802 (kāṯēp̄); H4916 (mišlôaḥ); H5868 (ʿyām); H5275 (naʿal); H6098 (ʿēṣāh); H1369 (gᵉḇûrāh). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "single-site lexical decisions of Isaiah 11",
+      "partOfSpeech": "various",
+      "literal": "his smelling; and the fatling together; light-hole(?); stretched out(?); his resting place, glory; his hand, to acquire; the coastlands of the sea; the harassers of Judah; on the shoulder; the stretching-out of their hand; with the heat(?) of his wind; in sandals; counsel and might",
+      "standardEnglish": "ASV throughout; alternatives from JPS 1917 and NJPS recorded in commentary",
+      "wohChoice": "11:2 MT's six qualities in three pairs, ʿēṣāh 'counsel', gᵉḇûrāh 'might' (ASV; LXX 'piety' and the seven-gifts tradition in commentary). 11:3 'his delight shall be in the fear of YHWH' (ASV, JPS 1917; literal 'his smelling' and NJPS 'he shall sense the truth' in commentary). 11:6 the Masoretic verbless clause 'and the calf and the young lion and the fatling together' (1QIsaᵃ/LXX 'shall feed' in commentary); gār 'dwell'. 11:8 'the hole of the asp … the adder's den … put his hand' (ASV). 11:10 mᵉnuḥāṯô kāḇôḏ 'his resting place shall be glory' (predicate noun kept, kāḇôḏ = 'glory'). 11:11 supplied 'set' (ASV), liqnôṯ 'to recover', ʾiyyê hayyām 'the coastlands of the sea' (as 24:15). 11:13 'those who harass Judah' (ASV construal), 'harass' for both ṣrr forms. 11:14 'swoop down upon the shoulder of the Philistines', ASV verbal rendering of the closing nominal clauses. 11:15 baʿyām rûḥô 'with his scorching wind' (ASV), 'cause men to march over dryshod' (ASV, 'men' supplied).",
+      "claim_type": "direct",
+      "rationale": "Each item is a site where the Hebrew is rare, elliptical or ambiguous, and the line keeps a standard rendering (ASV, usually shared by JPS 1917) while the commentary reports the alternatives, and three items depart from ASV wording. (a) 11:10: ASV and JPS 1917 turn the predicate noun kāḇôḏ into the adjective 'glorious' and NJPS has 'honored'; the line keeps the noun, 'his resting place shall be glory', because wave ruling 6 makes 'glory' for kāḇôḏ strict, the book renders other verbless kāḇôḏ clauses literally (6:3; 24:23), and a predicate noun of quality is ordinary Hebrew syntax. (b) 11:11: ʾiyyê hayyām is 'the coastlands of the sea', not ASV and JPS 1917 'the islands of the sea', for concordance with the stable 24:15 ('in the coastlands of the sea') and 42:4 ('the coastlands'); ʾî denotes coast and island alike (BDB), and the places meant are the Mediterranean shores and islands, which 'coastlands' covers. (c) 11:14: ʿwp is 'swoop down' for ASV and JPS 1917 'fly down'; the verb is 'to fly', and in context it is the descent of a bird of prey on its victim (NJPS 'pounce'), which 'swoop down' states without adding anything to the verb's sense. At 11:3 the Hiphil of rwḥ is 'smell, take in the scent' (Lev 26:31; Amos 5:21), and NJPS notes that the meaning is uncertain; the idiomatic 'delight' is the reading of ASV and JPS 1917 and is kept, with NJPS's 'sense the truth' and the proposed deletion as a dittography reported. At 11:6 MT has no verb for the third pair; NJPS records that 1QIsaᵃ and the LXX read 'shall feed', and the line keeps MT under mt-qere-textual-policy-isaiah. At 11:8 mᵉʾûraṯ and hāḏāh occur only here (NJPS: 'Meaning of Heb. uncertain'), so ASV's contextual 'den' and 'put' are kept. At 11:11 MT has no verb governing yāḏô; ASV's supplied 'set' is kept, and ʾiyyê hayyām follows the stable 24:15 'the coastlands of the sea' rather than ASV 'islands'. At 11:13 ṣōrᵉrê yᵉhûḏāh may be objective (Judah's enemies; ASV, JPS 1917) or subjective (NJPS 'Judah's harassment'); the ASV construal is kept and the subjective reading, which fits the verse's second half, is reported. At 11:14 kāṯēp̄ may be the topographic 'slope' (Josh 15:8-11; NJPS 'the back of Philistia'), and the closing clauses are nominal in Hebrew; ASV's rendering is kept. At 11:15 baʿyām is a hapax (NJPS 'might', 'Meaning of Heb. uncertain'), and ASV 'scorching' is kept; wᵉhiḏrîḵ ban-nᵉʿālîm is literally 'make (them) tread in sandals', and ASV's supplied object 'men' is kept and identified as supplied in commentary.",
+      "appliesTo": [
+        "ISA-11:2",
+        "ISA-11:3",
+        "ISA-11:6",
+        "ISA-11:8",
+        "ISA-11:10",
+        "ISA-11:11",
+        "ISA-11:13",
+        "ISA-11:14",
+        "ISA-11:15"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "appliesToAdded": [
+      "ISA-11:1"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 11): the Translator's descriptive title 'Isaiah 11 — The shoot from the stock of Jesse, the peaceable creatures, and the second gathering of the remnant' is kept; 'shoot' is lower case, as in the line."
+  },
+  {
+    "op": "modify",
+    "id": "ruach-divine-spirit-lower-case-isaiah",
+    "appliesToAdded": [
+      "ISA-11:2"
+    ],
+    "rationaleAppend": "Wave I-3 extension: at 11:2 the four occurrences of rûaḥ ('the spirit of YHWH shall rest upon him, the spirit of wisdom and understanding …') are all lower case, with NJPS (checked) against ASV, which capitalises only the first. Two other rûaḥ sites in the chapter lie outside this entry and take the standard English without an entry: 11:4 rûaḥ śᵉp̄āṯāyw 'the breath of his lips' (the king's own breath; ASV, JPS 1917, NJPS) and 11:15 baʿyām rûḥô 'with his scorching wind' (YHWH's wind over the River; ASV, NJPS 'wind'). No wohChoice change is proposed; if a later wave wants the entry to govern every rûaḥ of YHWH, a 'wind' clause for 11:15 would be a wohChoice modification (major bump)."
+  },
+  {
+    "op": "modify",
+    "id": "eretz-cosmic-scope-isaiah-24",
+    "appliesToAdded": [
+      "ISA-11:4",
+      "ISA-11:9",
+      "ISA-11:12"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 11): 'the earth' at 11:9 ('the earth shall be full of the knowledge of YHWH, as the waters cover the sea'; ASV, JPS 1917) and in the universal-horizon idiom 'the four corners of the earth' at 11:12 (ASV, JPS 1917, NJPS). At 11:4 ('the meek of the earth … he shall strike the earth') the line follows ASV, but JPS 1917 ('the land') and NJPS ('the lowly of the land … a land') read it territorially, and NJPS also reads 11:9 as 'land'; the choice rests on the widening of the oracle to the whole earth and the nations in vv 9-10 and is recorded in commentary as a defensible alternative. 11:16 'the land of Egypt' stays under the central eretz entry."
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "appliesToAdded": [
+      "ISA-11:1",
+      "ISA-11:4",
+      "ISA-11:6",
+      "ISA-11:11",
+      "ISA-11:15"
+    ],
+    "rationaleAppend": "Wave I-3 (Isa 11): MT kept and alternatives reported in commentary at 11:1 yip̄reh 'shall bear fruit' (LXX, Vulgate 'come up / sprout'); 11:4 the second ʾereṣ (emendation ʿārîṣ 'the ruthless', NJPS note); 11:6 the verbless ûmᵉrîʾ yaḥdāw (1QIsaᵃ and LXX 'shall feed', NJPS note); 11:11 yāḏô without a governing verb (proposed lišʾēṯ, not verified); 11:15 wᵉheḥĕrîm 'devote to destruction' (heḥĕrîḇ 'dry up', NJPS, probably LXX)."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-standalone-title-isaiah",
+    "appliesToAdded": [
+      "ISA-11:11"
+    ],
+    "rationaleAppend": "Wave I-3 extension: 'the Lord' for standalone ʾăḏōnāy at 11:11."
+  }
+]

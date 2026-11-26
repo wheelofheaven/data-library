@@ -1,0 +1,56 @@
+[
+  {
+    "op": "version",
+    "from": "2.93.0",
+    "to": "2.95.0",
+    "marker": "CENTRAL — apply by orchestrator",
+    "note": "Isaiah wave I-3, chapter 10 Editor. Base: central v2.93.0 (read-only); wave I-1 (to 2.94.0) is treated as in force; propose 2.95.0 for wave I-3. Contents: 1 add op (direct, cross-corpus: Isaiah plus Daniel) and 2 modify ops (appliesTo extensions with one appended rationale sentence each). No wohChoice, claim_type or existing rationale text is changed, so the bump is minor. elilim-idols-cross-corpus is a pending add from wave-i1-ch2-central-diff; apply after it. If the wave policy is appliesTo-only on central, drop the rationaleAppend fields."
+  },
+  {
+    "op": "add",
+    "marker": "CENTRAL — apply by orchestrator",
+    "entry": {
+      "id": "kalah-venecheratzah-decreed-full-end-cross-corpus",
+      "source": "כָּלָה וְנֶחֱרָצָה · כִּלָּיוֹן חָרוּץ",
+      "translit": "kālāh wᵉneḥĕrāṣāh; kiḷḷāyôn ḥārûṣ",
+      "strongs": "H3617 (kālāh 'full end, destruction'); H2782 (ḥāraṣ 'cut, decide'; Niphal participle neḥĕrāṣāh, Qal passive participle ḥārûṣ); H3631 (kiḷḷāyôn). Strong's numbers from model recall, not concordance-verified.",
+      "lemma": "kālāh + Niphal participle of ḥāraṣ (the 'decreed end' formula)",
+      "partOfSpeech": "noun + Niphal participle (hendiadys); noun + Qal passive participle",
+      "literal": "a completion/annihilation, and a thing cut (decided)",
+      "standardEnglish": "a full end, and that determined (ASV at Isa 10:23); the full end, and that determined (ASV at Dan 9:27); a decree of destruction … upon the whole earth (ASV at Isa 28:22, which does not keep the pair); that which is determined (ASV at Dan 11:36, participle alone); full end, as decreed (NRSV-type, from memory)",
+      "wohChoice": "'a full end, and that determined' or 'the full end, and that determined' (the article as the context requires: Isa 10:23 'a full end'; Dan 9:27 'even unto the full end') for kālāh wᵉneḥĕrāṣāh wherever the formula occurs (Isa 10:23; 28:22; Dan 9:27). At Isa 28:22, when drafted, the line will depart from ASV's 'a decree of destruction' under this entry. 'Determined' is used for the related participles in the same context: ḥārûṣ at Isa 10:22 ('a destruction is determined') and neḥĕrāṣāh at Dan 11:36 ('that which is determined', the corpus Daniel's existing wording).",
+      "claim_type": "direct",
+      "rationale": "The pair kālāh wᵉneḥĕrāṣāh is a fixed formula of a destruction both complete (kālāh, from klh 'be finished') and irrevocably decided (ḥāraṣ 'cut', hence 'decide, determine', BDB). It occurs in Isa 10:23 and 28:22 and is taken up in Dan 9:27, and Dan 11:36 uses the participle alone. Commentators widely recognise the later passages as dependent on the Isaiah wording. The corpus Daniel already renders Dan 9:27 'the full end, and that determined' and Dan 11:36 'that which is determined' (ASV). The Isaiah wording is fixed to match, with the article following English idiom at each site, and keep the literary dependence visible across books. That is why the entry is central rather than overlay. The ASV phrasing is archaic but exact: it renders both members of the pair, where modern paraphrases ('full end, as decreed') turn the participle into an adverb. The related kiḷḷāyôn ḥārûṣ at Isa 10:22 shares the root ḥrṣ and is rendered 'a destruction is determined' for the same reason. Rom 9:27-28 quotes Isa 10:22-23 from the LXX, so the cross-corpus scope will extend to the NT when Romans is drafted. The rendering is standard and carries no lens. ASV itself is not consistent: at Isa 28:22 it renders the pair as 'a decree of destruction … upon the whole earth', so the corpus line there will depart from ASV under this entry, to keep the formula recognisable across the three sites. DAN-WOH-9:27 is in appliesTo with no change to its line, and the orchestrator adds the glossaryRef there at merge. DAN-WOH-11:36 is noted as the participle-only echo but is not in appliesTo, since it lacks the pair.",
+      "appliesTo": [
+        "ISA-10:22",
+        "ISA-10:23",
+        "DAN-WOH-9:27"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "elilim-idols-cross-corpus",
+    "appliesToAdded": [
+      "ISA-10:10",
+      "ISA-10:11"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-3: applied at Isa 10:10 (singular collective hāʾĕlîl 'the idols', 'the kingdoms of the idols') and 10:11 ('Samaria and her idols'). At 10:11 the parallel noun ʿăṣabbîm is rendered 'images', so that the two Hebrew words stay distinct in one verse (isaiah-woh overlay lexical-cruxes-isaiah-10)."
+  },
+  {
+    "op": "modify",
+    "marker": "CENTRAL — apply by orchestrator",
+    "id": "pesel-utemunah-graven-image-iconographic-prohibition-cross-corpus",
+    "appliesToAdded": [
+      "ISA-10:10"
+    ],
+    "rationaleAppend": "isaiah-woh wave I-3: pᵉsîlêhem 'their carved images' at Isa 10:10, the entry's 'carved image' in the plural, as elsewhere in Isaiah."
+  },
+  {
+    "op": "note",
+    "marker": "CENTRAL — no action",
+    "id": "deliberate-non-extensions",
+    "note": "Recorded, not applied, in Isa 10. she-erit-remnant-cross-corpus-theological-keyword: its rationale cites 10:20-22, but it governs šᵉʾērîṯ, and the text has šᵉʾār; šᵉʾār yāšûḇ is under the overlay sign-names-isaiah-7-8. pleitah-deliverance-escape-remnant-tradition-cross-corpus: it cites 10:20, but its wohChoice is the event sense 'a great deliverance'; 10:20 has the collective 'the survivors', as 4:2. al-tira-fear-not-divine-encouragement-formula: it cites 10:24, but it governs the fuller formula with 'for I am with you'. patriarchal-seed-comparison-triad: it cites 10:22, but its wohChoice is 'as the sand on the seashore', and 10:22 kᵉḥôl hayyām lacks śᵉp̄aṯ, so 'like the sand of the sea'. zub-sig-dusu-corvee-basket-cross-corpus: cites 10:27 as a comparandum only. vayisha-er-noach: cites 10:20-22 as remnant background. paqod-yiphqod-divine-visitation-exodus-formula-cross-corpus: scoped to the Genesis 50 visitation formula (10:3 pᵉquddāh and 10:12 ʾep̄qōḏ ʿal take the standard renderings). mitsrayim: 'Egypt' in English form, as in the signed-off Isaiah chapters. eretz: no central eretz extension; 10:14 and 10:23 are under the overlay eretz-cosmic-scope-isaiah-24."
+  }
+]
