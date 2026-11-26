@@ -1,0 +1,261 @@
+[
+  {
+    "op": "version",
+    "from": "1.6.1",
+    "to": "1.7.0",
+    "note": "Isaiah wave I-1, chapter 3 only. Base: overlay v1.6.1 (read-only in this wave). 4 new entries (all direct) and 6 appliesTo extensions. No shipped wohChoice changed. Minor bump recommended. CONCURRENCY: the chapter 1, 2, 4 and 5 Editors are writing diffs from the same 1.6.1 base and will probably extend the same entries (mt-qere-textual-policy-isaiah, yhwh-tzevaot-hosts-isaiah, adonai-standalone-title-isaiah, adonai-yhwh-compound-isaiah-25, title-and-meta-conventions-isaiah). Merge appliesTo as the union of the base array and every diff's appliesToAdded, and concatenate rationaleAppend sentences. The ha-adon-definite-title-isaiah entry must be merged with any parallel entry for hā-ʾāḏôn at 1:24 (one entry for the lemma)."
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "ha-adon-definite-title-isaiah",
+      "source": "הָאָדוֹן",
+      "translit": "hā-ʾāḏôn",
+      "strongs": "H113 (ʾāḏôn)",
+      "lemma": "ʾāḏôn 'lord, master', singular with the definite article, used as a divine title before YHWH ṣᵉḇāʾôṯ",
+      "partOfSpeech": "noun (masc. sg., definite), divine title in apposition",
+      "literal": "the lord / the master",
+      "standardEnglish": "the Lord (older English versions); the Sovereign (some modern versions)",
+      "wohChoice": "'the Lord' (PROVISIONAL, escalated for a book-level ruling): ISA-3:1 'the Lord, YHWH of hosts'. Commentary names the Hebrew hā-ʾāḏôn at every site and states that it differs from the title ʾăḏōnāy, which the book also renders 'the Lord'.",
+      "claim_type": "direct",
+      "rationale": "Isaiah uses hā-ʾāḏôn, the singular ʾāḏôn 'lord, master' with the article, as a title before YHWH ṣᵉḇāʾôṯ at 1:24; 3:1; 10:16, 33; and 19:4 (cf. Exod 23:17; 34:23 hā-ʾāḏōn YHWH). This is lexically distinct from ʾăḏōnāy, the plural-of-majesty title with a fossilised suffix that the overlay entry adonai-standalone-title-isaiah renders 'the Lord', and from the compound ʾăḏōnāy YHWH ('the Lord YHWH', adonai-yhwh-compound-isaiah-25); neither entry covers hā-ʾāḏôn. 'The Lord' is the established English rendering and is accurate, but it gives ʾāḏôn and ʾăḏōnāy the same English, which the book's divine-name house style otherwise avoids; 'the Sovereign' (used by some modern versions) or 'the Master' (the literal sense) would keep them apart at the cost of a less familiar title. The wave ruling is to keep 'the Lord' in the line, record the Hebrew in commentary, and escalate the choice of English to the founder; the entry is direct because every option is a standard rendering of the noun and no lens is involved. When the ruling is made it should be applied to all five sites at once (1:24 is in the same wave, edited in parallel).",
+      "appliesTo": [
+        "ISA-3:1"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lachash-charm-amulet-isaiah",
+      "source": "לַחַשׁ / לְחָשִׁים",
+      "translit": "laḥaš; plural lᵉḥāšîm",
+      "strongs": "H3908",
+      "lemma": "laḥaš 'whisper; whispered charm, incantation; amulet'",
+      "partOfSpeech": "noun (masc.)",
+      "literal": "a whisper",
+      "standardEnglish": "enchantment, charm (3:3); amulets (3:20); prayer (26:16)",
+      "wohChoice": "Context-sensitive, one lemma: (a) nᵉḇôn laḥaš 'the skilled enchanter' (ISA-3:3), laḥaš as a whispered spell; (b) plural lᵉḥāšîm 'the amulets' (ISA-3:20), objects carrying a charm; (c) the hushed-prayer sense at 26:16 remains governed by its phrase entry tzaqun-lachash-whispered-prayer-isaiah-26 and is not changed.",
+      "claim_type": "direct",
+      "rationale": "laḥaš is a whisper, and the Hebrew Bible uses it chiefly for the whispered spell of the snake-charmer or enchanter (Jer 8:17; Eccl 10:11; cf. the participle mᵉlaḥăšîm 'charmers', Ps 58:6) and once for a hushed prayer (Isa 26:16). At 3:3 nᵉḇôn laḥaš, 'one discerning in charms', closes a list of the state's leaders that also contains the qōsēm 'diviner' (3:2), so the enchanter sense is the natural one and 'the skilled enchanter' is the established rendering. At 3:20 the plural stands in a catalogue of jewellery and must be an object; the standard lexical identification is amulets, charms worn on the body, and the line says 'the amulets' (the 'earrings' of older English rests on a guessed connection between whispering and the ear and is not followed). One entry governs both Isaiah 3 sites so that the shared lemma is visible, while the 26:16 phrase ruling, a different context, is left as signed off. The renderings are standard and carry no lens, so the entry is direct (BDB, HALOT s.v.; Wildberger, Isaiah 1-12).",
+      "appliesTo": [
+        "ISA-3:3",
+        "ISA-3:20"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "daughters-of-zion-finery-isaiah-3",
+      "source": "מְשַׂקְּרוֹת · טָפֹף · תְּעַכַּסְנָה · שִׂפַּח · פֹּת · עֲכָסִים · שְׁבִיסִים · שַׂהֲרֹנִים · נְטִיפוֹת · שֵׁירוֹת · רְעָלוֹת · פְּאֵרִים · צְעָדוֹת · קִשֻּׁרִים · בָּתֵּי הַנֶּפֶשׁ · לְחָשִׁים · טַבָּעוֹת · נִזְמֵי הָאָף · מַחֲלָצוֹת · מַעֲטָפוֹת · מִטְפָּחוֹת · חֲרִיטִים · גִּלְיֹנִים · סְדִינִים · צְנִיפוֹת · רְדִידִים · חֲגוֹרָה · נִקְפָּה · מַעֲשֶׂה מִקְשֶׁה · פְּתִיגִיל · כִּי",
+      "translit": "mᵉśaqqᵉrôṯ; ṭāp̄ōp̄; tᵉʿakkasnāh; śippaḥ; pōṯ; ʿăḵāsîm; šᵉḇîsîm; śahărōnîm; nᵉṭîp̄ôṯ; šêrôṯ; rᵉʿālôṯ; pᵉʾērîm; ṣᵉʿāḏôṯ; qiššurîm; bāttê han-nep̄eš; lᵉḥāšîm; ṭabbāʿôṯ; nizmê hā-ʾap̄; maḥălāṣôṯ; maʿăṭāp̄ôṯ; miṭpāḥôṯ; ḥărîṭîm; gilyōnîm; sᵉḏînîm; ṣᵉnîp̄ôṯ; rᵉḏîḏîm; ḥăḡôrāh; nip̄qāh; maʿăśeh miqšeh; pᵉṯîḡîl; kî",
+      "strongs": "H8265; H2952; H5913; H5596; H6596; H5914; H7636; H7720; H5188; H8285; H7479; H6287; H6807; H7196; H1004 + H5315; H3908; H2885; H5141 + H639; H4254; H4594; H4304; H2754; H1549; H5466; H6797; H7289; H2290; H5364; H4639 + H4748; H6614; H3587 (checked from Reviewer recall 2026-11-26; not concordance-verified)",
+      "lemma": "the daughters-of-Zion oracle (Isa 3:16-24): conduct verbs, the punishment verbs and the catalogue of finery, many items hapax legomena",
+      "partOfSpeech": "verbs and nouns (garments, jewellery, cosmetics)",
+      "literal": "see wohChoice; literal senses recorded in commentary",
+      "standardEnglish": "older English versions: cauls, mufflers, tablets/perfume-boxes, earrings, crisping pins, stomacher; modern versions vary item by item (headbands, scarves, armlets, garments of gauze)",
+      "wohChoice": "One conventional rendering per item and a different English word for each Hebrew word. 3:16 mᵉśaqqᵉrôṯ ʿênāyim 'wanton eyes'; ṭāp̄ōp̄ 'mincing'; tᵉʿakkasnāh 'jingling (with their feet)'. 3:17 śippaḥ 'strike with scabs'; pōṯ 'secret parts'. 3:18 ʿăḵāsîm 'anklets'; šᵉḇîsîm 'headbands' (draft 'cauls' changed); śahărōnîm 'crescents'. 3:19 nᵉṭîp̄ôṯ 'pendants'; šêrôṯ 'bracelets'; rᵉʿālôṯ 'scarves' (draft 'mufflers' changed). 3:20 pᵉʾērîm 'headdresses'; ṣᵉʿāḏôṯ 'ankle chains'; qiššurîm 'sashes'; bāttê han-nep̄eš 'perfume boxes'; lᵉḥāšîm 'amulets' (lachash-charm-amulet-isaiah). 3:21 ṭabbāʿôṯ 'rings'; nizmê hā-ʾap̄ 'nose rings'. 3:22 maḥălāṣôṯ 'festal robes'; maʿăṭāp̄ôṯ 'mantles'; miṭpāḥôṯ 'shawls'; ḥărîṭîm 'purses'. 3:23 gilyōnîm 'hand mirrors'; sᵉḏînîm 'fine linen garments'; ṣᵉnîp̄ôṯ 'turbans'; rᵉḏîḏîm 'veils'. 3:24 ḥăḡôrāh 'girdle' (draft 'sash' changed); nip̄qāh 'rope'; maʿăśeh miqšeh 'well-set hair'; pᵉṯîḡîl 'robe'; MT kî (noun) 'branding'. Uncertain identifications and the alternatives (sun-discs, lunar amulets, amulet cases, armlets, garments of gauze, foreheads, 1QIsaᵃ 'shame') are reported in commentary only.",
+      "claim_type": "direct",
+      "rationale": "The catalogue of Isa 3:18-23 is the longest list of women's dress and jewellery in the Hebrew Bible, and many of its twenty-one items occur only here, so their identification depends on etymology, later Hebrew, cognate languages and the ancient versions, and remains uncertain for several (Wildberger, Isaiah 1-12; Williamson, ICC Isaiah 1-5, 2006; Platt, AUSS 17, 1979). The Editor's rule is to give each item the conventional rendering best supported by that evidence, to give each Hebrew word its own English word (so the three draft collisions are resolved: 'headbands' for šᵉḇîsîm replaces the opaque 'cauls'; 'scarves' for rᵉʿālôṯ replaces the archaic 'mufflers' and frees 'veils' for rᵉḏîḏîm; 'girdle' for ḥăḡôrāh in 3:24 avoids a clash with qiššurîm 'sashes' and keeps the root ḥgr audible in maḥăḡōreṯ 'girding'), and to say in commentary where the identification is open. Where two readings are both defensible the established one is kept in the line: 'hand mirrors' (Vulgate) over 'garments of gauze' (Old Greek) at 3:23, 'ankle chains' (from ṣʿd 'step') over 'armlets' at 3:20, 'perfume boxes' over 'amulet cases' at 3:20, 'secret parts' over 'foreheads' (Akkadian pūtu) at 3:17. Astral or magical identifications, the 'little suns' of šᵉḇîsîm and the protective lunar function of the śahărōnîm, are reported in commentary and labelled as interpretation; they are not carried in the line. At 3:24 the Masoretic noun kî 'branding' is kept and the 1QIsaᵃ plus 'shame' reported (mt-qere-textual-policy-isaiah). Every rendering is a standard one, so the entry is direct; the uncertainty is lexical, not a matter of the project lens.",
+      "appliesTo": [
+        "ISA-3:16",
+        "ISA-3:17",
+        "ISA-3:18",
+        "ISA-3:19",
+        "ISA-3:20",
+        "ISA-3:21",
+        "ISA-3:22",
+        "ISA-3:23",
+        "ISA-3:24"
+      ]
+    }
+  },
+  {
+    "op": "add",
+    "entry": {
+      "id": "lexical-cruxes-isaiah-3",
+      "source": "מַשְׁעֵן וּמַשְׁעֵנָה (3:1) · חֲכַם חֲרָשִׁים · נְשׂוּא פָנִים (3:3) · תַּעֲלוּלִים (3:4) · יִשָּׂא · חֹבֵשׁ (3:7) · כָשְׁלָה (3:8) · הַכָּרַת פְּנֵיהֶם · אוֹי לְנַפְשָׁם (3:9) · אוֹי (3:11) · מְעוֹלֵל · בִּלֵּעוּ (3:12) · בִּעַרְתֶּם (3:14) · גְּבוּרָתֵךְ (3:25) · וְנִקָּתָה (3:26)",
+      "translit": "mašʿēn ûmašʿēnāh; ḥăḵam ḥărāšîm; nᵉśûʾ p̄ānîm; taʿălûlîm; yiśśāʾ; ḥōḇēš; kāšᵉlāh; hakkāraṯ pᵉnêhem; ʾôy lᵉnap̄šām; ʾôy; mᵉʿôlēl; billēʿû; biʿartem; gᵉḇûrāṯēḵ; wᵉniqqāṯāh",
+      "strongs": "H4937, H4938; H2450 + H2796; H5375 + H6440; H8586; H5375; H2280; H3782; H1971 + H6440; H188 + H5315; H5953; H1104; H1197; H1369; H5352 (checked from Reviewer recall 2026-11-26; not concordance-verified)",
+      "lemma": "single-site lexical decisions of Isaiah 3 outside the finery oracle",
+      "partOfSpeech": "nouns, verbs and participles",
+      "literal": "support (m.) and support (f.); wise of crafts; lifted of face; caprices/babes; he lifts; binder; she stumbled; the recognising of their faces; woe to their soul; acting as child; they swallowed; you grazed; your might; she is emptied",
+      "standardEnglish": "stay and staff / support and staff; cunning artificer / skilful magician; honorable man / dignitary; babes; lift up (his voice) / cry out; healer; is ruined / has stumbled; the show of their countenance / their partiality; woe unto their soul; children; destroy / confuse; eaten up / devoured; thy mighty; desolate / ravaged",
+      "wohChoice": "3:1 'support and staff' (merism in commentary); 3:3 ḥăḵam ḥărāšîm 'the expert craftsman' ('magician' in commentary); nᵉśûʾ p̄ānîm 'the man of rank' (draft 'the honored man' changed, to keep it distinct from nikbāḏ 'the honored', 3:5); 3:4 'babes'; 3:7 'lift up his voice' (object supplied), ḥōḇēš 'a healer'; 3:8 'has stumbled' (pun on makšēlāh 3:6); 3:9 'the look of their faces' ('partiality' in commentary), 'Woe to their soul!' (nep̄eš 'soul', the Isaiah default; ʾôy 'Woe' as for hôy); 3:11 ʾôy 'Woe'; 3:12 mᵉʿôlēl 'children' (Masoretic reading; singular participle rendered as a collective), billēʿû 'have destroyed' ('confused' in commentary); 3:14 biʿartem 'have eaten up' (bʿr 'graze', not 'burn'); 3:25 'your mighty'; 3:26 'emptied'.",
+      "claim_type": "direct",
+      "rationale": "Each item is a site where the Translator flagged a choice between a standard rendering and a defensible alternative. The Editor keeps the draft wherever it gives the established sense of the Masoretic Text and records the alternative in commentary, so the text carries no reading that a Hebraist would contest: 'expert craftsman' follows the Masoretic vowels of ḥărāšîm (plural of ḥārāš, cf. 2 Kgs 24:14, 16) over the homonym ḥereš 'magic'; 'children' follows the Masoretic reading of mᵉʿôlēl (homonym ʿll II 'act as a child'; both homonyms fit the same Poel vowels) over the Old Greek's 'glean' (ʿll 'deal severely, glean', Lam 1:22; 2:20); 'has eaten up' takes bʿr in its grazing sense (Exod 22:4; Isa 5:5), which distinguishes it from bʿr 'burn' at 6:13 (levaer-massevet-stump-isaiah). Only one line changes: nᵉśûʾ p̄ānîm becomes 'the man of rank' (2 Kgs 5:1; Isa 9:14), because the draft gave 'honored' to two different Hebrew words in 3:3 and 3:5. The nep̄eš rendering 'soul' follows the signed-off Isaiah chapters (15:4; 26:9; 29:8; 44:20) and is not applied where nep̄eš is part of an object name (3:20, under daughters-of-zion-finery-isaiah-3). The interjection ʾôy is rendered 'Woe', consistent with the wave ruling for hôy. All choices are standard renderings, so the entry is direct.",
+      "appliesTo": [
+        "ISA-3:1",
+        "ISA-3:3",
+        "ISA-3:4",
+        "ISA-3:7",
+        "ISA-3:8",
+        "ISA-3:9",
+        "ISA-3:11",
+        "ISA-3:12",
+        "ISA-3:14",
+        "ISA-3:25",
+        "ISA-3:26"
+      ]
+    }
+  },
+  {
+    "op": "modify",
+    "id": "mt-qere-textual-policy-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-13:16",
+        "ISA-14:4",
+        "ISA-14:30",
+        "ISA-15:9",
+        "ISA-29:11",
+        "ISA-32:7",
+        "ISA-32:15",
+        "ISA-40:6",
+        "ISA-42:20",
+        "ISA-42:24",
+        "ISA-43:19",
+        "ISA-44:9",
+        "ISA-44:17",
+        "ISA-44:24",
+        "ISA-45:2",
+        "ISA-45:8",
+        "ISA-48:1",
+        "ISA-48:10",
+        "ISA-48:11",
+        "ISA-54:9",
+        "ISA-54:13",
+        "ISA-54:16",
+        "ISA-65:4",
+        "ISA-65:7",
+        "ISA-3:10",
+        "ISA-3:12",
+        "ISA-3:13",
+        "ISA-3:15",
+        "ISA-3:16",
+        "ISA-3:24"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-3:10",
+      "ISA-3:12",
+      "ISA-3:13",
+      "ISA-3:15",
+      "ISA-3:16",
+      "ISA-3:24"
+    ],
+    "rationaleAppend": "Wave I-1 (Isa 3): qere read at 3:15 (mah-lāḵem for the joined ketiv mlkm) and 3:16 (nᵉṭûyôṯ for nṭwwt); Masoretic readings kept, with the alternatives reported in commentary, at 3:10 (conjectural ʾašrê 'happy'; Old Greek 'let us bind the righteous'), 3:12 (Old Greek 'glean' for mᵉʿôlēl and 'creditors' for nāšîm), 3:13 (Old Greek and Syriac 'his people' for ʿammîm) and 3:24 (1QIsaᵃ adds bwšt 'shame', making kî a conjunction; MT noun kî 'branding' kept)."
+  },
+  {
+    "op": "modify",
+    "id": "yhwh-tzevaot-hosts-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:3",
+        "ISA-6:5",
+        "ISA-24:23",
+        "ISA-25:6",
+        "ISA-13:4",
+        "ISA-13:13",
+        "ISA-14:22",
+        "ISA-14:23",
+        "ISA-14:24",
+        "ISA-14:27",
+        "ISA-29:6",
+        "ISA-44:6",
+        "ISA-45:13",
+        "ISA-48:2",
+        "ISA-54:5",
+        "ISA-3:1",
+        "ISA-3:15"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-3:1",
+      "ISA-3:15"
+    ],
+    "rationaleAppend": "Wave I-1: 'YHWH of hosts' at 3:1 (after hā-ʾāḏôn, see ha-adon-definite-title-isaiah) and in the compound 'the Lord YHWH of hosts' at 3:15."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-standalone-title-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:1",
+        "ISA-6:8",
+        "ISA-6:11",
+        "ISA-29:13",
+        "ISA-3:17",
+        "ISA-3:18"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-3:17",
+      "ISA-3:18"
+    ],
+    "rationaleAppend": "Wave I-1: 'the Lord' for standalone ʾăḏōnāy at 3:17 (alternating with YHWH in the same verse) and 3:18. hā-ʾāḏôn at 3:1 is a different word and has its own entry."
+  },
+  {
+    "op": "modify",
+    "id": "adonai-yhwh-compound-isaiah-25",
+    "changes": {
+      "appliesTo": [
+        "ISA-25:8",
+        "ISA-40:10",
+        "ISA-48:16",
+        "ISA-65:13",
+        "ISA-65:15",
+        "ISA-3:15"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-3:15"
+    ],
+    "rationaleAppend": "Wave I-1: at 3:15 the compound carries ṣᵉḇāʾôṯ, nᵉʾum ʾăḏōnāy YHWH ṣᵉḇāʾôṯ, rendered 'says the Lord YHWH of hosts' by combining this entry with yhwh-tzevaot-hosts-isaiah; nᵉʾum 'says' as at 14:22-23."
+  },
+  {
+    "op": "modify",
+    "id": "kevodo-kavod-suffixed-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:3",
+        "ISA-3:8"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-3:8"
+    ],
+    "rationaleAppend": "Wave I-1: at 3:8 the suffixed kᵉḇôḏô stands in the construct phrase ʿênê kᵉḇôḏô (ʿênê spelled defectively), rendered literally 'the eyes of his glory'; the presence sense of kāḇôḏ is noted in commentary."
+  },
+  {
+    "op": "modify",
+    "id": "title-and-meta-conventions-isaiah",
+    "changes": {
+      "appliesTo": [
+        "ISA-6:1",
+        "ISA-13:1",
+        "ISA-14:1",
+        "ISA-15:1",
+        "ISA-29:1",
+        "ISA-32:1",
+        "ISA-40:1",
+        "ISA-40:10",
+        "ISA-42:1",
+        "ISA-43:1",
+        "ISA-44:1",
+        "ISA-45:1",
+        "ISA-48:1",
+        "ISA-48:16",
+        "ISA-54:1",
+        "ISA-65:1",
+        "ISA-65:13",
+        "ISA-3:1"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-3:1"
+    ],
+    "rationaleAppend": "Wave I-1: chapter title 'Isaiah 3 — Jerusalem's leaders judged and the daughters of Zion stripped of their finery' (Translator's title, ratified); the interjection ʾôy (3:9, 11) is rendered 'Woe', like hôy."
+  }
+]

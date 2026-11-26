@@ -1,0 +1,124 @@
+{
+  "diff": "wave-i1-ch1-central-diff",
+  "marker": "CENTRAL — apply by orchestrator",
+  "target": "data-content/i18n/translation-glossary.json",
+  "baseVersion": "2.93.0",
+  "recommendedVersion": "2.94.0 (minor: appliesTo extensions only; no new central entry, no wohChoice or rationale changed). Merge with the sibling wave I-1 central diffs (chapters 2-5) into one bump; re-base each appliesTo as union of the merged array + appliesToAdded.",
+  "ops": [
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "shamayim",
+      "appliesToAdded": [
+        "ISA-1:2"
+      ]
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "eretz",
+      "appliesToAdded": [
+        "ISA-1:2",
+        "ISA-1:7",
+        "ISA-1:19"
+      ],
+      "note": "1:2 under the cosmic clause ('earth', paired with šāmayim); 1:7 'your land' and 1:19 'the good of the land' under the territorial default."
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "adam-adamah",
+      "appliesToAdded": [
+        "ISA-1:7"
+      ],
+      "note": "ʾaḏmaṯḵem 'your ground'."
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "mahapekhah-overthrowing-formula",
+      "appliesToAdded": [
+        "ISA-1:7"
+      ],
+      "note": "The rationale already cites Wildberger on Isa 1:7. MT kᵉmahpēḵaṯ zārîm retained; the sᵉḏōm emendation is in commentary."
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "avon-iniquity-cross-corpus-keyword",
+      "appliesToAdded": [
+        "ISA-1:4"
+      ]
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "qorbanot-sacrificial-offering-vocabulary-cluster-cross-corpus",
+      "appliesToAdded": [
+        "ISA-1:11",
+        "ISA-1:13"
+      ],
+      "note": "1:11 zᵉḇāḥîm 'sacrifices'; 1:13 minḥāh in the cultic list 'meal-offerings'."
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "olah-burnt-offering",
+      "appliesToAdded": [
+        "ISA-1:11"
+      ]
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "toevah-abomination-cross-corpus-keyword",
+      "appliesToAdded": [
+        "ISA-1:13"
+      ]
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "zonah-prostitute-status-vocabulary-cross-corpus",
+      "appliesToAdded": [
+        "ISA-1:21"
+      ]
+    },
+    {
+      "op": "modify",
+      "marker": "CENTRAL — apply by orchestrator",
+      "id": "avir-yaaqov-mighty-one-of-yaaqov-divine-title-cross-corpus",
+      "appliesToAdded": [
+        "ISA-1:24"
+      ],
+      "note": "ʾăḇîr yiśrāʾēl, the Isaiah variant the rationale already names (Isa 1)."
+    }
+  ],
+  "deliberateNonExtensions": [
+    {
+      "id": "moadim",
+      "site": "ISA-1:14",
+      "reason": "Scoped to the luminaries of Gen 1:14 ('appointed times'); môʿăḏêḵem paired with new moons is the festival calendar, rendered 'your appointed feasts' (ASV). Recorded in overlay lexical-cruxes-isaiah-1."
+    },
+    {
+      "id": "she-erit-remnant-cross-corpus-theological-keyword",
+      "site": "ISA-1:9",
+      "reason": "Governs šᵉʾērîṯ; 1:9 has śārîḏ 'survivor'. Recorded in overlay lexical-cruxes-isaiah-1."
+    },
+    {
+      "id": "minchah-shaah",
+      "site": "ISA-1:13",
+      "reason": "Generic 'offering' clause not applied; the cultic-list clause of qorbanot governs."
+    },
+    {
+      "id": "vayinnachem-yhwh",
+      "site": "ISA-1:24",
+      "reason": "Genesis-specific; ʾennāḥēm miṣṣāray is 'ease myself of', recorded in overlay lexical-cruxes-isaiah-1."
+    },
+    {
+      "id": "adonai-yhwh / adonai-yhwh-divine-name",
+      "site": "ISA-1:24",
+      "reason": "Compound ʾăḏōnāy YHWH only; hā-ʾāḏôn YHWH ṣᵉḇāʾôṯ is handled by overlay ha-adon-articular-title-isaiah."
+    }
+  ]
+}

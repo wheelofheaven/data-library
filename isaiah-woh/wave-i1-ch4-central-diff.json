@@ -1,0 +1,31 @@
+[
+  {
+    "op": "version",
+    "from": "2.93.0",
+    "to": "2.94.0",
+    "marker": "CENTRAL — apply by orchestrator",
+    "note": "Base: central glossary v2.93.0. One modify op (appliesTo extension plus one appended rationale sentence; no wohChoice changed, no decision reversed), so a minor bump is recommended. CONCURRENCY: parallel wave I-1 Editors (Isa 1, 2, 3, 5) may produce central diffs from the same base; renumber to the next free minor and merge appliesTo as the union of the merged array and appliesToAdded. If the orchestrator's policy for this wave is appliesTo-only on central, drop `rationaleAppend`: the existing rationale already discusses Isa 4:5. DELIBERATE NON-EXTENSIONS (recorded, not applied): pleitah-deliverance-escape-remnant-tradition-cross-corpus (rationale names Isa 4:2 and the collective sense, but wohChoice is the Gen 45:7 event sense 'a great deliverance'); she-erit-remnant-cross-corpus-theological-keyword (quotes Isa 4:3, but governs the noun, not the participles); yosef-double-name-aetiology (cites Isa 4:1 ʾĕsōp̄ ḥerpāṯēnû, but governs the Joseph naming speeches); sukkot-toponym-and-festival-etymology (toponym and plural only); kavod-yhwh (construct only; 4:2 and 4:5 have bare kāḇôḏ); he-anan-cloud-fills-the-sanctuary-cross-corpus and tanur-ashan-lappid-esh-theophany (different constructions). Possible future central item: make the pleitah entry conditional (event sense vs collective 'survivors'), which would be a wohChoice modification and a major bump; not proposed in this wave."
+  },
+  {
+    "op": "modify",
+    "id": "pillar-of-cloud-and-fire-ammud-ha-anan-ve-esh-divine-presence-marker-cross-corpus",
+    "marker": "CENTRAL — apply by orchestrator",
+    "changes": {
+      "appliesTo": [
+        "EXO-WOH-13:21",
+        "EXO-WOH-13:22",
+        "EXO-WOH-14:19",
+        "EXO-WOH-14:20",
+        "EXO-WOH-14:24",
+        "EXO-WOH-33:9",
+        "EXO-WOH-33:10",
+        "ISA-4:5"
+      ]
+    },
+    "appliesToAdded": [
+      "ISA-4:5"
+    ],
+    "rationaleAppend": "**Conditional scope at Isa 4:5 (isaiah-woh, wave I-1).** The verse has no ʿammûd, so the wohChoice 'pillar of cloud / pillar of fire' does not surface: the line renders ʿānān yômām wᵉʿāšān wᵉnōḡah ʾēš lehāḇāh lāylāh 'a cloud by day and smoke, and the shining of a flaming fire by night … for over all the glory there shall be a canopy' (overlay `anan-chuppah-sukkah-zion-canopy-isaiah-4`; the paraphrase above, with 'site', is superseded by that wording). The entry governs the verse for its Exodus relation, the Zion redeployment of the wilderness cloud-and-fire sign, and its four operational disavowals apply there unchanged; the canon does not cite Isa 4:5, and the project's extension of the canon's reading of Exod 13:21 and 14:19 (TBWTT 3:10-14, 'we guided them'; the smoke as a curtain) to this verse is carried only in commentary, labelled speculative.",
+    "reason": "The Editor brief asked whether this entry should govern Isa 4:5. Decision: yes, as an appliesTo extension with a conditional-scope sentence. Its rationale already treats Isa 4:5 as the eschatological redeployment of the Exodus pillar (Wildberger, Blenkinsopp and Williamson read the verse the same way), and governing the verse through this entry puts its disavowal apparatus at the WoH-salient site. The appended sentence prevents the wohChoice 'pillar' from being read into a verse that lacks ʿammûd (rule 10: one entry, conditional logic in the rationale). Base array is the v2.93.0 array."
+  }
+]
