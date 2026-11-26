@@ -81,7 +81,7 @@
   "versionLicense": "CC0-1.0",
   "priority": 5,
   "wohCurated": true,
-  "verificationStatus": "human-signed-off-2026-06-06",
+  "verificationStatus": "provisional-source-layer-unverified-2026-11-26",
   "updated": "2026-06-06T00:00:00+00:00",
   "versionSource": "Best-effort reconstruction with per-verse layered witness attribution: Hebrew DSS fragments (4Q216/4Q218/4Q219/4Q220/4Q221/4Q222/4Q223-224/4Q225-227 + Masada Jubilees + 1Q17/1Q18/2Q19/2Q20/3Q5/11Q12; 4Q216 dated late 2nd c. BCE per Milik-VanderKam DJD XIII 1994 — among the oldest Jubilees witnesses) as PRIMARY where preserved; Greek fragments (Epiphanius, Syncellus, Cedrenus) SECONDARY where they exist (limited coverage); Ge'ez (Charles 1902 PD + VanderKam 1989 modern critical) TERTIARY and fallback. Ge'ez is the only complete witness; Hebrew is the original composition language; Greek translation existed but survives only in patristic citations.",
   "code": "JUB-WOH",
@@ -176,5 +176,6 @@
   },
   "lastUpdated": "2026-06-06",
   "reviewer": "zarazinsfuss",
-  "interlinearNote": "Ge'ez transliteration for lines that lacked one machine-generated from the fidel (scripts/script_translit.py, 2026-11-25); gemination is not marked and proclitics are not hyphenated. Greek transliteration for lines that lacked one machine-generated (scripts/script_translit.py, 2026-11-25), SBL style."
+  "interlinearNote": "Ge'ez transliteration for lines that lacked one machine-generated from the fidel (scripts/script_translit.py, 2026-11-25); gemination is not marked and proclitics are not hyphenated. Greek transliteration for lines that lacked one machine-generated (scripts/script_translit.py, 2026-11-25), SBL style.",
+  "sourceIntegrityNote": "Source-layer check 2026-11-26: the Ge'ez in this book does not reproduce VanderKam's critical edition (CSCO 510), which it cites — median letter similarity 0.28 against Ran HaCohen's transcription of VanderKam (Beta maṣāḥǝft LIT1697Jubilees, CC BY-SA 4.0); an OCR of Charles 1895 confirms the edition side. Treat the original-language layer as an unverified reconstruction until it is re-sourced from VanderKam; the English will be re-checked against it."
 }

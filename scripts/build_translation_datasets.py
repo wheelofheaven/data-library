@@ -209,6 +209,10 @@ def load_reference(book_slug):
 
 COMPOSITE_BOOKS = {"atrahasis-woh", "gilgamesh-woh", "adapa-woh", "baal-cycle-woh"}
 FRAGMENT_BOOKS = {"book-of-enoch-woh", "jubilees-woh"}
+# Source layer failed verification against the edition it cites (2026-11-26);
+# every original line counts as reconstruction until re-sourced. See the
+# book's _meta.sourceIntegrityNote.
+UNVERIFIED_BOOKS = {"book-of-enoch-woh", "jubilees-woh"}
 
 
 def attestation(slug, lang, witness, original):
@@ -217,6 +221,8 @@ def attestation(slug, lang, witness, original):
         return ""
     if slug in COMPOSITE_BOOKS:
         return "composite-reconstruction"
+    if slug in UNVERIFIED_BOOKS:
+        return "reconstruction"
     if slug in FRAGMENT_BOOKS and lang in ("he", "arc"):
         w = (witness or "").lower()
         if re.search(r"not preserved|reconstruct|retrovers", w):
@@ -405,6 +411,7 @@ def card(slug, meta, n_rows, n_gloss, review, ref_ver="", ref_lic="", ref_status
         f"reviewer → human sign-off).\n- **Review status:** {review}.\n\n"
         + (f"**Source:** {provenance}\n\n" if provenance else "")
         + (f"**Script and transliteration:** {meta['interlinearNote']}\n\n" if meta.get("interlinearNote") else "")
+        + (f"**Source-layer warning:** {meta['sourceIntegrityNote']}\n\n" if meta.get("sourceIntegrityNote") else "")
         + "## License & citation\n\n"
         + (f"**The {orig_name} text is not included.** It comes from {src_lic['credit']}, which is "
            "not openly licensed; read it there.\n\n" if withheld else "")
