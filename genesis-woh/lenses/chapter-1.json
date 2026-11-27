@@ -1,0 +1,1799 @@
+{
+  "schemaVersion": 1,
+  "bookSlug": "genesis-woh",
+  "chapter": 1,
+  "basedOn": {
+    "translationVersion": "1.1.0",
+    "layer2Digest": "sha256:367935c864d96f6489b6d4b00f7f069ecf4ffb821a6ea333d3d0bbe9f739ca7a",
+    "canonMapVersion": "1.1.0"
+  },
+  "lens": {
+    "track": "lens",
+    "version": "1.0.0",
+    "status": "stable",
+    "modelDrafts": [
+      "claude-opus-5-5 (lens writer)",
+      "claude-opus-5-5 (lens editor)"
+    ],
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as lens reviewer",
+      "reviewedAt": "2026-11-27T12:52:02Z",
+      "reviewedVersion": "0.2.0",
+      "method": "Every canon citation re-derived from the-book-which-tells-the-truth/chapter-2.json and chapter-5.json (French text and project English); every quotation matched verbatim; every Hebrew claim checked against the pointed text in genesis-woh/chapter-1.json; labels checked against .claude/rules/content.md and the governing core records (0001, 0009, 0039, 0059, 0071, 0073 as pinned). Initial verdicts formed before opening chapter-1-editor-report.md.",
+      "counts": {
+        "approve": 73,
+        "revise": 9,
+        "flag-for-human": 2
+      },
+      "verdicts": [
+        {
+          "unit": "gen-1-day-1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:4",
+            "TBWTT-2:10"
+          ],
+          "reasoning": "Passage boundary, title and canonCoverage 'quotes' match canon-map entries 1:1-1:5 (TBWTT-2:4-2:10). One explanation segment needs a human ruling only in day 3, not here; day-1 items below are wording revisions."
+        },
+        {
+          "unit": "gen-1-day-1/R 1:1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:5",
+            "woh-claim-0001@0.2.0"
+          ],
+          "reasoning": "TBWTT-2:5 says the scientists first sought the most suitable planet and 'created', in reality discovered, the Earth; the gloss 'those who came from the sky' is verbatim. Framework via woh-claim-0001 is correct."
+        },
+        {
+          "unit": "gen-1-day-1/R 1:2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:6",
+            "TBWTT-2:7"
+          ],
+          "reasoning": "Content is TBWTT-2:7 (reconnaissance trips, 'what you might call artificial satellites', Earth covered by water and thick mists). Placing the trips 'above the waters' is the inference the inferred label already declares."
+        },
+        {
+          "unit": "gen-1-day-1/R 1:3-4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:7",
+            "TBWTT-2:8"
+          ],
+          "reasoning": "Faithful to TBWTT-2:8 (harmful rays studied; sun warmed the Earth correctly). Note for sign-off: the canon quotes only 1:4a, so reading the fiat of 1:3 as pre-existing sunlight is the canon's reading of 1:4 carried back to 1:3; acceptable at paragraph level."
+        },
+        {
+          "unit": "gen-1-day-1/R 1:5",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10"
+          ],
+          "reasoning": "Definition of the 'day' and 'about two thousand Earth years' are TBWTT-2:10 verbatim in substance (FR 'deux mille ans terrestres environ'); no 2,160 figure leaks into the reading."
+        },
+        {
+          "unit": "gen-1-day-1/E p1s1",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. אֱלֹהִים",
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "Hebrew re-read: bārāʾ is Qal perfect 3ms with ʾĕlōhîm as subject; 'plural in form' follows the house rule (not 'grammatically plural')."
+        },
+        {
+          "unit": "gen-1-day-1/E p1s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:2",
+            "TBWTT-2:5"
+          ],
+          "reasoning": "Every clause traced to TBWTT-2:2 and 2:5; quoted gloss verbatim; compression (omitting the small strange animals and the escape) does not change meaning."
+        },
+        {
+          "unit": "gen-1-day-1/E p1s3",
+          "status": "approve",
+          "citations": [
+            "HALOT s.v. אֱלֹהִים",
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "Exactly the disclaimer woh-claim-0009 requires; consensus derivation via Eloah/El is the lexicon position."
+        },
+        {
+          "unit": "gen-1-day-1/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:5"
+          ],
+          "reasoning": "'in reality discovered' is verbatim TBWTT-2:5 ('découvert en réalité')."
+        },
+        {
+          "unit": "gen-1-day-1/E p2s2",
+          "status": "revise",
+          "citations": [
+            "Rashi on Gen 1:1",
+            "Wenham, Genesis 1-15 (WBC), on 1:1",
+            "Westermann, Genesis 1-11, on 1:1",
+            "NJPS Gen 1:1"
+          ],
+          "reasoning": "Labelled direct but states as fact a disputed analysis. בְּרֵאשִׁית lacks the article and can be read as construct (Rashi; NJPS, NRSV), but rēʾšît also occurs absolute without article (Isa 46:10) and LXX, Wenham, Westermann and Cassuto keep the absolute 'In the beginning'. Proposed: \"The first word, *bereshit*, has no article and can be read as a construct, 'in the beginning of …'; many modern translations follow this with 'When … began to create', while others keep 'In the beginning'. The Wheel of Heaven translation reads 'When the Elohim began to shape'.\" (direct)"
+        },
+        {
+          "unit": "gen-1-day-1/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:5"
+          ],
+          "reasoning": "Inferred label is honest: the fit between a temporal clause and a pre-existing planet is a reading, not a canon statement."
+        },
+        {
+          "unit": "gen-1-day-1/E p3s1",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:7",
+            "Gen 1:2 MT"
+          ],
+          "reasoning": "Opening clause attributes the canon's 'thick mists' to the verse ('The second verse finds the Earth covered entirely by water and thick mists'); 1:2 has tehom and the waters but no mists (lens-leakage the other way). Rest verified verbatim against TBWTT-2:6-7. Proposed first sentence: \"In the Messages' account, the Earth at this point was covered entirely by water and thick mists.\""
+        },
+        {
+          "unit": "gen-1-day-1/E p3s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:6",
+            "TBWTT-2:7"
+          ],
+          "reasoning": "Correctly discloses that the canon juxtaposes rather than equates; inferred is the right label."
+        },
+        {
+          "unit": "gen-1-day-1/E p3s3",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. רחף",
+            "HALOT s.v. רוּחַ"
+          ],
+          "reasoning": "Hebrew re-read: rûaḥ (wind/breath/spirit) and Piel participle mĕraḥepet; the same root in Deut 32:11 (yĕraḥēp) of the eagle; layer-2 English confirmed as 'the breath of the Elohim hovering'."
+        },
+        {
+          "unit": "gen-1-day-1/E p3s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:8"
+          ],
+          "reasoning": "Verbatim in substance from TBWTT-2:8."
+        },
+        {
+          "unit": "gen-1-day-1/E p4s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10",
+            "woh-claim-0039@0.1.0"
+          ],
+          "reasoning": "Day definition is TBWTT-2:10; 'evening and morning closes each stage' is the woh-claim-0039 staged reading, within its scope (no day-length arithmetic beyond the canon's own figure)."
+        },
+        {
+          "unit": "gen-1-day-1/E p4s2",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:10",
+            "woh-claim-0059@0.1.0"
+          ],
+          "reasoning": "Canon fidelity: 'goes one step further and identifies each creation day with one precessional age' under-credits the canon. TBWTT-2:10 itself defines the day as the period the spring-equinox sun rises under one sign, i.e. a precessional age by definition. The step beyond the canon is the 2,160-year model figure and the assignment of days to named ages (woh-claim-0059). Proposed: \"The canon's definition is that of a precessional age. The Wheel of Heaven timeline goes one step further: it gives each day the model length of about 2,160 years and assigns the days to named ages in sequence. The canon's own round figure, about two thousand years, is the one this reading follows.\" (framework, coreClaim woh-claim-0059; optionally canon TBWTT-2:10 on the first sentence)"
+        },
+        {
+          "unit": "gen-1-day-1/visual",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10"
+          ],
+          "reasoning": "Alt text uses the canon's ~2,000-year figure and the stages as narrated in TBWTT-2:4-2:27."
+        },
+        {
+          "unit": "gen-1-day-2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:11",
+            "TBWTT-2:12"
+          ],
+          "reasoning": "Range and canonCoverage match the canon map (TBWTT-2:11-12, 2:10)."
+        },
+        {
+          "unit": "gen-1-day-2/R 1:6",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:12"
+          ],
+          "reasoning": "TBWTT-2:12 locates the work between the waters above (clouds) and below (ocean); 'layer of air' is a minimal gloss of that location."
+        },
+        {
+          "unit": "gen-1-day-2/R 1:7",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:12"
+          ],
+          "reasoning": "Verbatim in substance from TBWTT-2:12."
+        },
+        {
+          "unit": "gen-1-day-2/R 1:8",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:11",
+            "TBWTT-2:12"
+          ],
+          "reasoning": "The canon quotes 1:7 only and does not comment on the naming of the raqia as 'skies'; equating the named raqia with the space beneath the clouds is an inference from 2:12. For consistency with R 1:16 (likewise uncommented, labelled inferred), propose claim framework -> inferred; text may stand."
+        },
+        {
+          "unit": "gen-1-day-2/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:11",
+            "TBWTT-2:12"
+          ],
+          "reasoning": "Quotation verbatim from TBWTT-2:11; paraphrase of 2:12 exact."
+        },
+        {
+          "unit": "gen-1-day-2/E p2s1",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. רקע",
+            "Westermann, Genesis 1-11, on 1:6"
+          ],
+          "reasoning": "rāqîaʿ < rqʿ 'beat out, hammer out' (Exod 39:3; Num 17:3 [16:38]); solid-vault ANE cosmology is the mainstream commentary position; layer 2 confirmed 'dome'."
+        },
+        {
+          "unit": "gen-1-day-2/E p2s2",
+          "status": "approve",
+          "citations": [
+            "woh-claim-0039@0.1.0"
+          ],
+          "reasoning": "Within woh-claim-0039's 'vocabulary as observational' scope; framework label per the record."
+        },
+        {
+          "unit": "gen-1-day-2/E p3s1",
+          "status": "approve",
+          "citations": [
+            "Gen 1:6-8 MT",
+            "LXX Gen 1:8",
+            "Wenham, Genesis 1-15, on 1:8"
+          ],
+          "reasoning": "Verified in the Hebrew: 1:6-8 lack כִּי־טוֹב; LXX adds καὶ εἶδεν ὁ θεὸς ὅτι καλόν at 1:8."
+        },
+        {
+          "unit": "gen-1-day-2/E p3s2",
+          "status": "approve",
+          "citations": [
+            "Rashi on Gen 1:7",
+            "TBWTT-2:14"
+          ],
+          "reasoning": "Honestly inferred ('suggests'); Rashi on 1:7 does give the unfinished-waters explanation."
+        },
+        {
+          "unit": "gen-1-day-3",
+          "status": "flag-for-human",
+          "citations": [
+            "TBWTT-2:14",
+            "TBWTT-2:58",
+            "TBWTT-2:76"
+          ],
+          "reasoning": "Readings and most segments verified; one explanation segment (p1s4, continental breakup at the Flood) needs a founder ruling under ADR 0018. See canonFidelityFlags[0]."
+        },
+        {
+          "unit": "gen-1-day-3/R 1:9",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:14"
+          ],
+          "reasoning": "TBWTT-2:14: seabed studied, shallow and roughly level, explosions 'like bulldozers', matter gathered in one place forming a continent."
+        },
+        {
+          "unit": "gen-1-day-3/R 1:10",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:14"
+          ],
+          "reasoning": "Single continent is TBWTT-2:14; 'surrounded by the gathered seas' is the verse's own geometry."
+        },
+        {
+          "unit": "gen-1-day-3/R 1:11",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:16",
+            "woh-claim-0001@0.2.0"
+          ],
+          "reasoning": "TBWTT-2:16 (plant cells from chemical products; all efforts on reproduction); framework via 0001."
+        },
+        {
+          "unit": "gen-1-day-3/R 1:12",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:16"
+          ],
+          "reasoning": "TBWTT-2:16 verbatim in substance (research groups, climate and inspiration, artists)."
+        },
+        {
+          "unit": "gen-1-day-3/R 1:13",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10"
+          ],
+          "reasoning": "Canon figure (~2,000 years)."
+        },
+        {
+          "unit": "gen-1-day-3/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:14"
+          ],
+          "reasoning": "Accurate paraphrase of TBWTT-2:14 including the 'bulldozers' simile and the scientists' recent realisation."
+        },
+        {
+          "unit": "gen-1-day-3/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Dietz & Holden 1970 (J. Geophys. Res. 75)",
+            "woh-claim-0071@0.3.1"
+          ],
+          "reasoning": "Mainstream: Pangaea breakup begins in the Early Jurassic, c. 200-175 Ma; consistent with woh-claim-0071's ~195 Ma."
+        },
+        {
+          "unit": "gen-1-day-3/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:58",
+            "TBWTT-2:28"
+          ],
+          "reasoning": "TBWTT-2:58 verbatim fragments ('an immense tidal wave', 'the continent'); TBWTT-2:28 also has 'the single continent'. 'Strike' paraphrases the canon's nuclear missiles/explosion."
+        },
+        {
+          "unit": "gen-1-day-3/E p1s4",
+          "status": "flag-for-human",
+          "citations": [
+            "TBWTT-2:14",
+            "TBWTT-2:58",
+            "TBWTT-2:76",
+            "woh-claim-0071@0.3.1 scope + revision_triggers[0]",
+            "ADR 0018"
+          ],
+          "reasoning": "Framework label rests in substance on non-dictated text. The cited dictated paragraphs say only that the continents later drifted (2:14) and that the continent was submerged by a tidal wave (2:58); neither dates the breakup. woh-claim-0071's own scope says the breakup, the fragments sent outward and the burial are supplied 'alone' by Terrusse's essay (LWTE ch. 4), and its revision trigger 1 states that a no-canonical-weight ruling 'moves the breakup reading to the corpus layer'; ADR 0018 (2026-11-22) is that ruling. Strongest refutation: the dictated text still speaks of 'the whole continent' after the Flood, at Babel (TBWTT-2:76, FR 'sur tout le continent'). Citing 2:14 + 2:58 makes the segment look canon-grounded when it is not. Proposed (label speculative, coreClaim woh-claim-0071 kept as pointer, canon refs dropped or kept only for the drift): \"The Messages say the continents later drifted apart but do not say when. The Wheel of Heaven reading dates the breakup to the Flood strike (see Genesis 7); that dating comes from a Raëlian guide's essay printed with the third book, not from the dictated Messages, which still speak of 'the whole continent' at Babel.\" Founder decision required (conflicts with the 2026-09-10 ruling that the Flood rewrote the geology)."
+        },
+        {
+          "unit": "gen-1-day-3/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:16"
+          ],
+          "reasoning": "'magnificent and gigantic laboratory' verbatim (FR 'magnifique et gigantesque laboratoire'); rest exact to TBWTT-2:16."
+        },
+        {
+          "unit": "gen-1-day-3/E p2s2",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. מִין",
+            "TBWTT-2:16"
+          ],
+          "reasoning": "Hebrew re-read: lĕmînô / lĕmînēhû and ʾăšer zarʿô-bô in 1:11-12; inferred link to the canon's reproduction concern is honest."
+        },
+        {
+          "unit": "gen-1-day-3/E p3s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:16"
+          ],
+          "reasoning": "Exact to TBWTT-2:16."
+        },
+        {
+          "unit": "gen-1-day-4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:17",
+            "TBWTT-2:18"
+          ],
+          "reasoning": "Range and coverage match the map; all readings verified against TBWTT-2:17-18. One wording revision below."
+        },
+        {
+          "unit": "gen-1-day-4/R 1:14",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:18"
+          ],
+          "reasoning": "TBWTT-2:18 (sun and stars observed to measure days, months, years)."
+        },
+        {
+          "unit": "gen-1-day-4/R 1:15",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:18"
+          ],
+          "reasoning": "TBWTT-2:18 'locate themselves perfectly' rendered as 'bearings'."
+        },
+        {
+          "unit": "gen-1-day-4/R 1:16",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:8",
+            "TBWTT-2:18"
+          ],
+          "reasoning": "Canon does not comment on 'made'; 'charted' is labelled inferred and explained in E p2s1."
+        },
+        {
+          "unit": "gen-1-day-4/R 1:17-18",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:18"
+          ],
+          "reasoning": "TBWTT-2:18 in substance (lengths unlike the home planet's; regulate their lives)."
+        },
+        {
+          "unit": "gen-1-day-4/R 1:19",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10"
+          ],
+          "reasoning": "Day close; canon unit."
+        },
+        {
+          "unit": "gen-1-day-4/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:18"
+          ],
+          "reasoning": "Exact to TBWTT-2:18."
+        },
+        {
+          "unit": "gen-1-day-4/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:8",
+            "TBWTT-2:18"
+          ],
+          "reasoning": "Honest inference from TBWTT-2:8 (sun already warming) against the Hebrew wayyaʿaś / wayyittēn; labelled inferred."
+        },
+        {
+          "unit": "gen-1-day-4/E p3s1",
+          "status": "approve",
+          "citations": [
+            "Hasel, 'The Polemic Nature of the Genesis Cosmology', EvQ 46 (1974)",
+            "Wenham, Genesis 1-15, on 1:14-16"
+          ],
+          "reasoning": "Hebrew re-read: mĕʾōrōt, hammāʾôr haggādōl / haqqāṭōn, lĕʾōtōt ûlĕmôʿădîm; absence of šemeš/yārēaḥ is a textual fact, its functional reading the mainstream one."
+        },
+        {
+          "unit": "gen-1-day-4/E p3s2",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:2",
+            "woh-claim-0039@0.1.0"
+          ],
+          "reasoning": "'a report written by people measuring time on a new world' implies the Elohim wrote Genesis; the canon says the text carries 'traces of the truth' deformed by copyists (TBWTT-2:2) and woh-claim-0039 speaks of a report 'transmitted and compressed'. Proposed: \"That functional, calendrical vocabulary suits a compressed report of people measuring time on a new world.\" (framework, 0039, TBWTT-2:18)"
+        },
+        {
+          "unit": "gen-1-day-4/E p3s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10",
+            "TBWTT-2:17",
+            "BDB s.v. אוֹת"
+          ],
+          "reasoning": "Speculative label correct and the segment discloses that the echo exists only in translation (FR 'signes' 2:17 / 'sous le même signe' 2:10; Heb ʾôtōt = signs, marks in general). Thin but honest."
+        },
+        {
+          "unit": "gen-1-day-5",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:19",
+            "TBWTT-2:22"
+          ],
+          "reasoning": "Range and coverage match the map; quotations verbatim."
+        },
+        {
+          "unit": "gen-1-day-5/R 1:20",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:20"
+          ],
+          "reasoning": "TBWTT-2:20 (plankton, small fish, very large fish; ecological balance)."
+        },
+        {
+          "unit": "gen-1-day-5/R 1:21",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:22",
+            "woh-claim-0073@0.1.0"
+          ],
+          "reasoning": "Content is canon-explicit (TBWTT-2:22: birds under the artists' pressure; 'other teams' made appalling animals; quote 'or what you have named Dinosaurs' is a verbatim substring). Note for sign-off: aligning the canon's dragons with this verse's tanninim is the corpus/Dhorme alignment (woh-claim-0073 is speculative); the reading does not claim the canon makes the link, so framework on the content is acceptable."
+        },
+        {
+          "unit": "gen-1-day-5/R 1:22",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:22"
+          ],
+          "reasoning": "Inferred label honest; courtship dances are TBWTT-2:22, the link to the blessing is not canon."
+        },
+        {
+          "unit": "gen-1-day-5/R 1:23",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10"
+          ],
+          "reasoning": "Day close."
+        },
+        {
+          "unit": "gen-1-day-5/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:20"
+          ],
+          "reasoning": "Exact to TBWTT-2:20 including 'what you now call ecology, in a way'."
+        },
+        {
+          "unit": "gen-1-day-5/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:21",
+            "TBWTT-2:22"
+          ],
+          "reasoning": "Exact to TBWTT-2:21-22."
+        },
+        {
+          "unit": "gen-1-day-5/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:22"
+          ],
+          "reasoning": "Canon-silent disclosure correct; inferred."
+        },
+        {
+          "unit": "gen-1-day-5/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-5:63"
+          ],
+          "reasoning": "'amorous demonstrations' and 'artists' verbatim from TBWTT-5:63; dictated (speaker Yahweh)."
+        },
+        {
+          "unit": "gen-1-day-5/E p3s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:22"
+          ],
+          "reasoning": "Final quotation verbatim, ', and so on.' included."
+        },
+        {
+          "unit": "gen-1-day-5/E p3s2",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. תַּנִּין",
+            "HALOT s.v. תַּנִּין"
+          ],
+          "reasoning": "Hebrew re-read: hattannînim haggĕdōlîm; tannîn in Isa 27:1 and Ps 74:13 as sea-monster/dragon; layer 2 confirmed 'great dragons'."
+        },
+        {
+          "unit": "gen-1-day-5/E p3s3",
+          "status": "approve",
+          "citations": [
+            "woh-claim-0073@0.1.0"
+          ],
+          "reasoning": "Label matches woh-claim-0073's public_label (speculative) and the deflationary account is carried at full force, as the record requires."
+        },
+        {
+          "unit": "gen-1-day-6",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:23",
+            "TBWTT-2:27"
+          ],
+          "reasoning": "Range and coverage correct; canon-silent marker present at the head of the 1:28-30 paragraph as the brief requires. Several wording revisions below."
+        },
+        {
+          "unit": "gen-1-day-6/R 1:24",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:24"
+          ],
+          "reasoning": "Exact to TBWTT-2:24."
+        },
+        {
+          "unit": "gen-1-day-6/R 1:25",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:24"
+          ],
+          "reasoning": "Second sentence imports the canon's narrator into a reading of a verse in which YHWH does not appear (the name first occurs at Gen 2:4); in the reader 'who gives this account' can be taken as Yahweh authoring Genesis. The point is already in E p1s1. Proposed: \"They then made meat-eaters to keep the plant-eaters in balance, so that here too the species would keep one another in check.\""
+        },
+        {
+          "unit": "gen-1-day-6/R 1:26",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25",
+            "TBWTT-2:26"
+          ],
+          "reasoning": "Exact to TBWTT-2:25 ('the most skilled among us wanted to create a man like ourselves, artificially')."
+        },
+        {
+          "unit": "gen-1-day-6/R 1:27",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25",
+            "TBWTT-2:27"
+          ],
+          "reasoning": "'the resemblance is striking' verbatim (TBWTT-2:27); 'each human race corresponds to a team of creators' TBWTT-2:25."
+        },
+        {
+          "unit": "gen-1-day-6/R 1:28",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Canon silent; basis synthesis, inferred, no canon refs; adds meaning (parallel to day 5) rather than restating."
+        },
+        {
+          "unit": "gen-1-day-6/R 1:29-30",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:20",
+            "TBWTT-2:24"
+          ],
+          "reasoning": "Restates layer 2 and, in the lens voice, has the creators assign 'the animals of land and sky the green plants', which the canon contradicts (carnivores created on purpose, TBWTT-2:24; large fish eat small, 2:20) without signalling the tension E p2s3-5 discusses. Proposed: \"For food the creators assigned the first humans the seed-bearing plants and the fruit of the trees; the verse gives the green plants to the animals as well, a grant the Messages, which have the creators make meat-eaters, do not take up.\" (synthesis, inferred)"
+        },
+        {
+          "unit": "gen-1-day-6/R 1:31",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10"
+          ],
+          "reasoning": "Canon unit only; the verse itself is not quoted, as the map records."
+        },
+        {
+          "unit": "gen-1-day-6/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:24"
+          ],
+          "reasoning": "Exact to TBWTT-2:23-24 ('These men came from the planet I come from. I am one of those who created life on Earth')."
+        },
+        {
+          "unit": "gen-1-day-6/E p1s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25"
+          ],
+          "reasoning": "Exact to TBWTT-2:25; 'test-tube children' verbatim."
+        },
+        {
+          "unit": "gen-1-day-6/E p1s3",
+          "status": "revise",
+          "citations": [
+            "Gen 1:26-27 MT",
+            "GEN-WOH-1:27 layer-2 note",
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "Hebrew correct (naʿăśeh 1cp; bĕṣalmēnû kidmûtēnû 1cp suffixes; 1:27 wayyibrāʾ 3ms, bĕṣalmô 3ms). But a reader stepping to lens 2 sees 'in their image ... they shaped him' and the lens appears to contradict it. Proposed: \"*Na'aseh*, 'let us make', is a first-person plural, and 'our image' and 'our likeness' are plural as well. Verse 27 returns to a singular verb and a singular suffix (*betsalmo*, 'in his image'); the Wheel of Heaven translation renders that verse in the plural, in keeping with its plural Elohim.\" (direct, 0009)"
+        },
+        {
+          "unit": "gen-1-day-6/E p1s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:27",
+            "TBWTT-5:62"
+          ],
+          "reasoning": "TBWTT-2:25 ('like ourselves'), 2:27 and 5:62 ('we made him in our image as it is written') support the reading of the plural as self-reference."
+        },
+        {
+          "unit": "gen-1-day-6/E p1s5",
+          "status": "approve",
+          "citations": [
+            "TBWTT-5:62",
+            "TBWTT-5:64"
+          ],
+          "reasoning": "List quoted verbatim from TBWTT-5:62; prototypes and 'exact replica' from 5:64; both dictated."
+        },
+        {
+          "unit": "gen-1-day-6/E p1s6",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:22",
+            "TBWTT-2:24",
+            "TBWTT-5:62",
+            "Gen 2:19"
+          ],
+          "reasoning": "Accurate observation, but 'the account of chapter 2' will be read on a Genesis page as Genesis 2 (where the order is different again: 2:19 forms the animals after the man). Proposed: replace with \"the Messages' own creation account (TBWTT 2:22-24)\". Optionally soften to 'That list names the birds after the mammals', since 5:62 is a list and may not be meant as strict sequence."
+        },
+        {
+          "unit": "gen-1-day-6/E p2s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Canon-silent marker present, verbatim as specified in the brief, at 1:28-30 (canon map: silent)."
+        },
+        {
+          "unit": "gen-1-day-6/E p2s2",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Inferred, no canon attribution."
+        },
+        {
+          "unit": "gen-1-day-6/E p2s3",
+          "status": "approve",
+          "citations": [
+            "Gen 9:3 MT",
+            "Westermann, Genesis 1-11, on 1:29-30"
+          ],
+          "reasoning": "Hebrew re-read 1:29-30 (ʿēśeb, ʿēṣ, yereq ʿēśeb lĕʾoklâ); meat permitted at 9:3."
+        },
+        {
+          "unit": "gen-1-day-6/E p2s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:20",
+            "TBWTT-2:24"
+          ],
+          "reasoning": "Textual fact about the canon; refs correct."
+        },
+        {
+          "unit": "gen-1-day-6/E p2s5",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Speculative and says 'Nothing in the canon states this.'"
+        },
+        {
+          "unit": "gen-1-day-6/E p3s1",
+          "status": "approve",
+          "citations": [
+            "Gen 1:5, 1:31 MT",
+            "Hamilton, Genesis 1-17 (NICOT), on 1:31"
+          ],
+          "reasoning": "Hebrew re-read: yôm haššiššî is the only one of days 1-6 with the article (on the ordinal); day 1 yôm ʾeḥād cardinal."
+        },
+        {
+          "unit": "gen-1-day-6/E p3s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10"
+          ],
+          "reasoning": "Canon figure."
+        }
+      ],
+      "canonFidelityFlags": [
+        {
+          "unit": "gen-1-day-3/E p1s4",
+          "severity": "high",
+          "concern": "Breakup of the single continent at the Flood is labelled framework with dictated refs TBWTT-2:14 and 2:58, but neither paragraph says it; the content comes from Terrusse's essay (LWTE ch. 4) via woh-claim-0071, which ADR 0018 places outside the canon. 0071's own revision trigger 1 says such a ruling moves the breakup reading to the corpus layer. Counter-evidence in the dictated text: 'the whole continent' at Babel, after the Flood (TBWTT-2:76). The validator passes because refs are present; the rule's intent (no framework segment resting on non-dictated text) is not met."
+        },
+        {
+          "unit": "gen-1-day-1/E p4s2",
+          "severity": "medium",
+          "concern": "Presents the day = precessional age identification as a Wheel of Heaven step beyond the canon; TBWTT-2:10's definition already is a precessional age. The step beyond is the 2,160-year figure and the named-age assignments."
+        },
+        {
+          "unit": "gen-1-day-1/E p3s1",
+          "severity": "low",
+          "concern": "Attributes the canon's 'thick mists' to the verse (lens-leakage the other way: presents as what Genesis says something only the Messages say)."
+        },
+        {
+          "unit": "gen-1-day-6/R 1:25",
+          "severity": "low",
+          "concern": "Brings the canon narrator Yahweh into the reading of a verse with no divine name; can read as Yahweh authoring Genesis."
+        },
+        {
+          "unit": "gen-1-day-6/R 1:29-30",
+          "severity": "medium",
+          "concern": "Lens voice has the creators give all animals plants only, which contradicts the canon's deliberately created carnivores (TBWTT-2:24) without signalling it."
+        },
+        {
+          "unit": "gen-1-day-4/E p3s2",
+          "severity": "low",
+          "concern": "'report written by people measuring time' implies Elohim authorship of Genesis; canon and 0039 speak of transmitted, copyist-deformed traces."
+        }
+      ],
+      "labelFlags": [
+        {
+          "unit": "gen-1-day-3/E p1s4",
+          "current": "framework",
+          "proposed": "speculative (or inferred, founder's call)",
+          "reason": "Not explicit in the dictated canon after ADR 0018; see canonFidelityFlags[0]."
+        },
+        {
+          "unit": "gen-1-day-2/R 1:8",
+          "current": "framework",
+          "proposed": "inferred",
+          "reason": "Canon does not comment on the naming of the raqia; consistent with R 1:16."
+        },
+        {
+          "unit": "gen-1-day-1/E p2s2",
+          "current": "direct",
+          "proposed": "direct (after rewording)",
+          "reason": "Construct analysis of bereshit is one scholarly position, not a textual fact; keep direct only if both readings are named."
+        },
+        {
+          "unit": "gen-1-day-1/E p4s2",
+          "current": "framework",
+          "proposed": "framework (kept, per brief and 0059 public_label)",
+          "reason": "Note: under the content.md tree alone, the 2,160 figure and per-day ages are not canon-explicit and would be inferred/speculative; the binding brief and core record set framework, so no change proposed."
+        }
+      ],
+      "lensLeakageFlags": [
+        {
+          "unit": "gen-1-day-1/E p3s1",
+          "concern": "'The second verse finds the Earth covered entirely by water and thick mists' presents canon content as the verse's content."
+        }
+      ],
+      "voiceAndCoverage": "All 28 readings are in the third person; the only first-person material is quoted canon. The canon-silent marker opens the 1:28-30 paragraph. No LWTE or 'check'-standing ref is cited anywhere in the chapter. Layer 3 conveys meaning rather than restating layer 2 except R 1:16 (acceptable, labelled inferred) and R 1:29-30 (see revise).",
+      "outsideScopeNotes": [
+        "Layer 2 (read-only here): the GEN-WOH-1:1 note says 'In the beginning' 'would require בָּרֵאשִׁית'; an absolute rēʾšît without article is attested (Isa 46:10), so that note overstates. Worth a layer-2 errata check.",
+        "Layer 2 renders 1:27 bĕṣalmô and bārāʾ in the plural ('their image', 'they shaped') while its own note calls them singular; the lens should acknowledge this (see E p1s3 revise)."
+      ],
+      "adjustmentsAfterEditorReport": [
+        "Editor escalation 1 (0071) matches my day-3 flag. The editor report adds no information that changes it; it does not address TBWTT-2:76 or 0071's own revision trigger 1, both of which weigh against option A. Verdict stays flag-for-human; my recommendation is option C or a speculative label with the wording proposed in the verdict.",
+        "Editor escalation 2 (day-4 'signs' echo): agree, approve as speculative.",
+        "Editor's day-6 note that 2:2-3 also carry the article confirms 'Of the six days' is the right scope; no change.",
+        "No verdict changed after reading the report."
+      ],
+      "founderRulings": [
+        {
+          "date": "2026-11-27",
+          "unit": "gen-1-day-3/E p1s4",
+          "ruling": "Adopt the reviewer's alternative wording, labelled speculative (canon TBWTT-2:14, 2:76); no framework label; claim-0071 binding dropped from the segment. Preceding TBWTT-2:58 segment narrowed to a verbatim quotation of 2:58."
+        },
+        {
+          "date": "2026-11-27",
+          "unit": "canon-map",
+          "ruling": "ETTMTTP chapter 3 ('The Keys') is not canon: standing check -> author-opinion, relation opinion; canon map 1.1.0."
+        }
+      ]
+    },
+    "signedOffBy": "zarazinsfuss",
+    "signedOffAt": "2026-11-27T16:00:00Z",
+    "coreClaims": {
+      "woh-claim-0001": "0.2.0",
+      "woh-claim-0009": "0.1.1",
+      "woh-claim-0039": "0.1.0",
+      "woh-claim-0059": "0.1.0",
+      "woh-claim-0073": "0.1.0"
+    }
+  },
+  "passages": [
+    {
+      "id": "gen-1-day-1",
+      "range": [
+        "1:1",
+        "1:5"
+      ],
+      "title": {
+        "en": "The First Day: Finding the Planet"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "1:1"
+          ],
+          "text": {
+            "en": "The Elohim, “those who came from the sky”, began their work on a new world: searching space for the planet best suited to their project, they found the Earth."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:4",
+            "TBWTT-2:5"
+          ],
+          "coreClaim": "woh-claim-0001"
+        },
+        {
+          "refs": [
+            "1:2"
+          ],
+          "text": {
+            "en": "The Earth then lay entirely under water and thick mists. Above the waters the Elohim carried out reconnaissance trips and placed what might be called artificial satellites around the planet to study its makeup and its atmosphere."
+          },
+          "basis": "canon",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:6",
+            "TBWTT-2:7"
+          ]
+        },
+        {
+          "refs": [
+            "1:3-4"
+          ],
+          "text": {
+            "en": "The Elohim then studied the sunlight reaching the surface, since life could not be created there if the sun sent harmful rays. It warmed the Earth correctly without them, and the light was judged good."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:7",
+            "TBWTT-2:8"
+          ]
+        },
+        {
+          "refs": [
+            "1:5"
+          ],
+          "text": {
+            "en": "So ended the first “day” of the work: the period during which the sun rises under the same sign on the day of the spring equinox, about two thousand Earth years."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:9",
+            "TBWTT-2:10"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The subject of the first verse is *Elohim*, a Hebrew word plural in form. When it names the God of Israel it usually takes singular verbs, as it does with *bara* here."
+              },
+              "claim": "direct",
+              "coreClaim": "woh-claim-0009"
+            },
+            {
+              "text": {
+                "en": "The Messages say the word was unjustly translated in some Bibles as “God”: it means “those who came from the sky” and it is indeed plural. The Elohim are scientists from another planet who had learned to create primitive forms of life, living cells in test tubes, until public opinion and the government of their planet forbade the experiments. They left for a distant planet that met just about all their conditions, and chose the Earth."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:2",
+                "TBWTT-2:5"
+              ],
+              "coreClaim": "woh-claim-0009"
+            },
+            {
+              "text": {
+                "en": "The gloss “those who came from the sky” is the canon’s own rendering and is not the consensus etymology, which derives the word through *Eloah* and *El*."
+              },
+              "claim": "direct",
+              "coreClaim": "woh-claim-0009"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "In the Messages’ reading, the verse’s “created” means “in reality discovered”. The scientists looked for the planet most suitable for their projects and found that the Earth held every element needed to create artificial life, although its atmosphere was not quite identical to their own."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:4",
+                "TBWTT-2:5"
+              ],
+              "coreClaim": "woh-claim-0001"
+            },
+            {
+              "text": {
+                "en": "The first word, *bereshit*, has no article and can be read as a construct, “in the beginning of …”; many modern translations follow this with “When … began to create”, while others keep “In the beginning”. The Wheel of Heaven translation reads “When the Elohim began to shape”."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "That temporal reading suits the Messages’ account, in which the work begins on a planet that already exists."
+              },
+              "claim": "inferred"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "In the Messages’ account, the Earth at this point was covered entirely by water and thick mists. The Messages quote “the Spirit of Elohim moved upon the face of the waters” and follow the quotation at once with the Elohim’s reconnaissance: survey trips, and “what you might call artificial satellites” placed around the Earth to study its makeup and its atmosphere."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:6",
+                "TBWTT-2:7"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Messages do not equate the two in so many words; reading the hovering “breath” as the survey itself is an inference from where the comment stands."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:6",
+                "TBWTT-2:7"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Hebrew *ruach* means wind, breath or spirit, and *merachefet* describes a hovering or fluttering motion, used of an eagle over its young in Deuteronomy 32:11. The Wheel of Heaven translation renders the phrase “the breath of the Elohim hovering”."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The light that “was good” is sunlight. Before creating life, the Elohim had to know whether the sun sent harmful rays to the surface. Their study showed that it warmed the Earth correctly without them."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:7",
+                "TBWTT-2:8"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "These studies took a long time. The Messages define the “day” as the period during which the sun rises under the same sign on the day of the spring equinox: about two thousand Earth years. Each “day” of Genesis 1 is one long stage of the creation work, and “evening and morning” closes each stage."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:9",
+                "TBWTT-2:10"
+              ],
+              "coreClaim": "woh-claim-0039"
+            },
+            {
+              "text": {
+                "en": "The canon’s definition is that of a precessional age. The Wheel of Heaven timeline goes one step further: it gives each day the model length of about 2,160 years and assigns the days to named ages in sequence. The canon’s own round figure, about two thousand years, is the one this reading follows."
+              },
+              "claim": "framework",
+              "coreClaim": "woh-claim-0059",
+              "canon": [
+                "TBWTT-2:10"
+              ]
+            }
+          ]
+        ],
+        "visual": {
+          "kind": "diagram",
+          "ref": "creation-week",
+          "alt": {
+            "en": "Diagram of the six creation days as successive working stages of about two thousand years each: the survey of the planet and its light; the work beneath the clouds; the single continent and the first plants; the study of the sky; life in the seas and the air; land animals and humankind."
+          }
+        }
+      }
+    },
+    {
+      "id": "gen-1-day-2",
+      "range": [
+        "1:6",
+        "1:8"
+      ],
+      "title": {
+        "en": "The Second Day: Beneath the Clouds"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "1:6"
+          ],
+          "text": {
+            "en": "The Elohim turned to the layer of air between two bodies of water: the clouds above and the ocean below."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:11",
+            "TBWTT-2:12"
+          ]
+        },
+        {
+          "refs": [
+            "1:7"
+          ],
+          "text": {
+            "en": "After studying the cosmic radiation above the clouds, they came down beneath the cloud cover and worked there, between the waters above and the ocean that covered the whole Earth."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:11",
+            "TBWTT-2:12"
+          ]
+        },
+        {
+          "refs": [
+            "1:8"
+          ],
+          "text": {
+            "en": "That space beneath the clouds they called the skies, and a second period of work, again about two thousand years, came to an end."
+          },
+          "basis": "canon",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:10",
+            "TBWTT-2:12"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages quote the separation of “the waters which were under the firmament from the waters which were above the firmament” and read it as a description of where the Elohim were working. Having studied cosmic radiation above the clouds, they descended below the clouds while remaining above the water. The waters above are the clouds; the waters below are the ocean, which still covered the whole Earth."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:11",
+                "TBWTT-2:12"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Hebrew *raqia*, rendered “dome” in the Wheel of Heaven translation, comes from a verb meaning to hammer out a metal sheet. Ancient Near Eastern cosmology pictured a solid vault holding back the upper waters."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read as a working report, the same vocabulary describes what observers between cloud and sea would see: a band of air with water above it and water below it."
+              },
+              "claim": "framework",
+              "coreClaim": "woh-claim-0039"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "In the Hebrew text the second day is the only one without the formula “the Elohim saw that it was good”; the Greek Septuagint supplies it."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages’ sequence suggests a reason. The work beneath the clouds leads straight into the next stage, the study of the ocean floor and the raising of the land, so the verdict waits for the third day, where it comes twice (1:10, 1:12). Rashi gave a similar explanation: the work on the waters was not finished until the third day."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:12",
+                "TBWTT-2:14"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-1-day-3",
+      "range": [
+        "1:9",
+        "1:13"
+      ],
+      "title": {
+        "en": "The Third Day: One Continent and the First Plants"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "1:9"
+          ],
+          "text": {
+            "en": "The Elohim studied the sea floor, found it shallow and roughly level everywhere, and with powerful explosions piled material from the seabed into one place until dry land rose above the water."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:13",
+            "TBWTT-2:14"
+          ]
+        },
+        {
+          "refs": [
+            "1:10"
+          ],
+          "text": {
+            "en": "The land they raised formed a single continent, surrounded by the gathered seas, and the Elohim judged the work good."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:14"
+          ]
+        },
+        {
+          "refs": [
+            "1:11"
+          ],
+          "text": {
+            "en": "On this continent, now a vast laboratory, the Elohim created plant cells from chemical substances alone, and from them plants of every kind, each designed above all to reproduce itself."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:15",
+            "TBWTT-2:16"
+          ],
+          "coreClaim": "woh-claim-0001"
+        },
+        {
+          "refs": [
+            "1:12"
+          ],
+          "text": {
+            "en": "Research teams spread across the continent, each creating different plants according to its climate and its inspiration, and artists joined them to make some plants purely beautiful in shape or scent."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:16"
+          ]
+        },
+        {
+          "refs": [
+            "1:13"
+          ],
+          "text": {
+            "en": "So closed the third period of work, another span of about two thousand years."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:10"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "After studying the surface of the oceans, the Elohim studied the sea floor and found it shallow and roughly even everywhere. Using fairly powerful explosions, which did something like the work of bulldozers, they removed material from the bottom of the seas and gathered it in one place. This formed a continent. According to the Messages the Earth at first had only one continent, and scientists had recently realised that the continents, which later drifted apart, fit together into a single one."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:13",
+                "TBWTT-2:14"
+              ]
+            },
+            {
+              "text": {
+                "en": "Mainstream geology calls the former supercontinent Pangaea and dates the start of its breakup to about 200 million years ago."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages’ account of the Flood, “the continent was submerged by an immense tidal wave that destroyed all life on its surface”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:58"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Messages say the continents later drifted apart but do not say when. The Wheel of Heaven reading dates the breakup to the Flood strike (see Genesis 7); that dating comes from Marcel Terrusse’s essay printed in *Let’s Welcome the Extraterrestrials*, not from the dictated Messages, which still speak of “the whole continent” at Babel."
+              },
+              "claim": "speculative",
+              "canon": [
+                "TBWTT-2:14",
+                "TBWTT-2:76"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "On this “magnificent and gigantic laboratory” the Elohim created plant cells from nothing other than chemical products, and from them plants of all kinds. Their effort went above all into reproduction: the first blades of grass they brought into being had to be able to reproduce."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:15",
+                "TBWTT-2:16"
+              ],
+              "coreClaim": "woh-claim-0001"
+            },
+            {
+              "text": {
+                "en": "The verse’s repeated “according to its kind”, with the seed carried inside the plant, matches that concern: each design reproduces true to type."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:15"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The scientists spread over the continent in separate research groups, each creating different plants according to its climate and its inspiration, and they met at regular intervals to compare their work. Their home planet followed it with wonder, and its finest artists came to give some plants a purely decorative purpose, through their appearance or their fragrance."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:16"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-1-day-4",
+      "range": [
+        "1:14",
+        "1:19"
+      ],
+      "title": {
+        "en": "The Fourth Day: Reading the Sky"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "1:14"
+          ],
+          "text": {
+            "en": "The Elohim then studied the lights of the sky, the sun and the stars, as markers that divide day from night and count out the days and years of the Earth."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:17",
+            "TBWTT-2:18"
+          ]
+        },
+        {
+          "refs": [
+            "1:15"
+          ],
+          "text": {
+            "en": "These lights, shining on the land, gave them their bearings on the new planet."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:18"
+          ]
+        },
+        {
+          "refs": [
+            "1:16"
+          ],
+          "text": {
+            "en": "They charted the greater light that governs the day, the lesser light that governs the night, and the stars."
+          },
+          "basis": "canon",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:18"
+          ]
+        },
+        {
+          "refs": [
+            "1:17-18"
+          ],
+          "text": {
+            "en": "By these lights the Elohim measured the Earth’s days, months and years, quite unlike those of their home planet, and regulated their lives by them; the work was judged good."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:18"
+          ]
+        },
+        {
+          "refs": [
+            "1:19"
+          ],
+          "text": {
+            "en": "A fourth period of work came to an end."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:10"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "By observing the stars and the sun, the Elohim measured the length of days, months and years on Earth. These measures helped them regulate their lives on a planet so different from their own, where neither the days nor the years had the same length. Astronomical study also let them locate themselves exactly and come to know the Earth better."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:17",
+                "TBWTT-2:18"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages already have the sun warming the Earth on the first day, so the luminaries that the Elohim “make” and “set” in the sky here are best read as lights they charted and put to use as a calendar."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:8",
+                "TBWTT-2:18"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Genesis avoids the ordinary Hebrew words for sun and moon, *shemesh* and *yareach*, and names them only by function, the greater and the lesser luminary. It calls them *otot*, signs, and *moadim*, appointed times."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "That functional, calendrical vocabulary suits a compressed report of people measuring time on a new world."
+              },
+              "claim": "framework",
+              "coreClaim": "woh-claim-0039",
+              "canon": [
+                "TBWTT-2:18"
+              ]
+            },
+            {
+              "text": {
+                "en": "In English and French the “signs” of verse 14 echo the canon’s own unit for a creation day, the sign under which the sun rises at the spring equinox. The Hebrew *otot* means signs or marks in general, so the echo depends on the translation."
+              },
+              "claim": "speculative",
+              "canon": [
+                "TBWTT-2:10"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-1-day-5",
+      "range": [
+        "1:20",
+        "1:23"
+      ],
+      "title": {
+        "en": "The Fifth Day: Life in the Seas and the Air"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "1:20"
+          ],
+          "text": {
+            "en": "The Elohim created the first life in the waters, from plankton to small fish and then very large fish, and balanced it so that each species had food without wiping out another."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:19",
+            "TBWTT-2:20"
+          ],
+          "coreClaim": "woh-claim-0001"
+        },
+        {
+          "refs": [
+            "1:21"
+          ],
+          "text": {
+            "en": "After the fish came the birds, which the artists covered in wild colours and astonishing shapes, while other teams made appalling creatures: dragons, “or what you have named Dinosaurs”."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:22"
+          ]
+        },
+        {
+          "refs": [
+            "1:22"
+          ],
+          "text": {
+            "en": "The Elohim meant the sea creatures and the birds to breed and fill their domains, and the competing teams went as far as reshaping the birds’ behaviour before mating into ever more admirable courtship dances."
+          },
+          "basis": "canon",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:21",
+            "TBWTT-2:22"
+          ]
+        },
+        {
+          "refs": [
+            "1:23"
+          ],
+          "text": {
+            "en": "A fifth period of work came to an end."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:10"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Elohim next created the first aquatic animals: plankton, then small fish, then very large fish. So that this living world would stay in balance, they created algae for the small fish to feed on and large fish to eat the smaller ones, so that no species would completely destroy another it needed for food. The Messages call it, in a way, what is now called ecology, and the work succeeded."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:19",
+                "TBWTT-2:20"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The teams often met and held competitions to name the group that had created the most beautiful or most interesting animal. After the fish they created the birds, under pressure from the artists, who gave them the wildest colours and the most astonishing shapes, sometimes with decorative feathers so cumbersome that the birds could scarcely fly. The competitions went further still: the scientists modified the birds’ behaviour before mating so that their courtship dances became ever more admirable."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:21",
+                "TBWTT-2:22"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Messages do not comment on the blessing of verse 22, “be fruitful and multiply”. Setting it beside the courtship dances, which concern pairing and breeding, is a Wheel of Heaven reading."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:22"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Messages return to this point elsewhere: no natural need explains the birds’ blue or red feathers, their “amorous demonstrations” or the spiral horns of certain antelopes, which are the work of the creators’ “artists”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-5:63"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Other teams created appalling animals, monsters that proved right those at home who had opposed the experiments: “Dragons, or what you have named Dinosaurs or Brontosaurs, and so on.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:22"
+              ]
+            },
+            {
+              "text": {
+                "en": "Verse 21’s *tanninim*, “great sea creatures” in most English versions and “great dragons” in the Wheel of Heaven translation, after Dhorme’s *grands dragons*, is the Hebrew Bible’s word for sea monsters and serpent-dragons (Isaiah 27:1; Psalm 74:13)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages quote verses 20 and 24 and pass over verse 21, yet the narrative between those quotations supplies its dragons at this very stage. The corpus reads this as a report telling its own story without leaning on its best proof-text; the plainer explanation is that the Messages quote only the command that opens each stage."
+              },
+              "claim": "speculative",
+              "coreClaim": "woh-claim-0073"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-1-day-6",
+      "range": [
+        "1:24",
+        "1:31"
+      ],
+      "title": {
+        "en": "The Sixth Day: Land Animals and Humankind"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "1:24"
+          ],
+          "text": {
+            "en": "On a continent whose vegetation had grown magnificent, the Elohim created land animals, the plant-eaters first, since there was food for them."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:23",
+            "TBWTT-2:24"
+          ]
+        },
+        {
+          "refs": [
+            "1:25"
+          ],
+          "text": {
+            "en": "They then made meat-eaters to keep the plant-eaters in balance, so that here too the species would keep one another in check."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:24"
+          ],
+          "coreClaim": "woh-claim-0001"
+        },
+        {
+          "refs": [
+            "1:26"
+          ],
+          "text": {
+            "en": "Then the most skilled among the Elohim set out to create, artificially, human beings like themselves, in their own image, to have charge of the creatures of sea, sky and land."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:25",
+            "TBWTT-2:26"
+          ],
+          "coreClaim": "woh-claim-0001"
+        },
+        {
+          "refs": [
+            "1:27"
+          ],
+          "text": {
+            "en": "Each team made its humans in the Elohim’s likeness, male and female. The Messages note that “the resemblance is striking”, and each human race corresponds to a team of creators."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:25",
+            "TBWTT-2:27"
+          ]
+        },
+        {
+          "refs": [
+            "1:28"
+          ],
+          "text": {
+            "en": "The Elohim set their new humans the same course as the sea creatures and birds of the fifth day: to breed, spread across the land and hold sway over the creatures of sea, sky and land."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "1:29-30"
+          ],
+          "text": {
+            "en": "For food the creators assigned the first humans the seed-bearing plants and the fruit of the trees; the verse gives the green plants to the animals as well, a grant the Messages, which have the creators make meat-eaters, do not take up."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "1:31"
+          ],
+          "text": {
+            "en": "The Elohim looked over all their work and judged it very good. So closed the sixth period of work, about two thousand years like the others."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:10"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "After the seas and the air, the Elohim created land animals on a continent whose vegetation had become magnificent. The herbivores came first, since there was food for them; carnivores followed to balance the herbivore population, so that here too the species would keep one another in check. The speaker of the Messages, Yahweh, says that these men came from his planet and that he is one of those who created life on Earth."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:23",
+                "TBWTT-2:24"
+              ],
+              "coreClaim": "woh-claim-0001"
+            },
+            {
+              "text": {
+                "en": "Then the most skilled among the Elohim wanted to create, artificially, a human being like themselves. Each team set to work, and the results were soon compared. On their home planet these “test-tube children” caused a scandal: people feared that the new humans might become a danger if their abilities turned out to be greater than their creators’. The creators had to commit to letting them live primitively, revealing nothing scientific to them and mystifying their own actions. The number of teams can still be read in humanity: each human race corresponds to one team of creators."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:25"
+              ],
+              "coreClaim": "woh-claim-0001"
+            },
+            {
+              "text": {
+                "en": "*Na’aseh*, “let us make”, is a first-person plural, and “our image” and “our likeness” are plural as well. Verse 27 returns to a singular verb and a singular suffix (*betsalmo*, “in his image”); the Wheel of Heaven translation renders that verse in the plural, in keeping with its plural Elohim."
+              },
+              "claim": "direct",
+              "coreClaim": "woh-claim-0009"
+            },
+            {
+              "text": {
+                "en": "The Messages read the plural as the creators speaking of themselves, and comment on “in our image” that the resemblance is striking."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:26",
+                "TBWTT-2:27"
+              ],
+              "coreClaim": "woh-claim-0009"
+            },
+            {
+              "text": {
+                "en": "They also explain the sequence that evolutionary theory describes as the progress of the creators’ techniques: they began with very simple organisms and went on to make “the fish, the batrachians, the mammals, the birds, the primates, and finally man”, a model of improved monkey to which they added what made them human. The skulls of prehistoric humans are early prototypes, supplanted by more advanced types until the human became the exact replica of its creators."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-5:62",
+                "TBWTT-5:64"
+              ],
+              "coreClaim": "woh-claim-0001"
+            },
+            {
+              "text": {
+                "en": "That list names the birds after the mammals, while the Messages’ own creation account (TBWTT 2:22–24) has the birds made straight after the fish and before any land animal, the order Genesis 1 also follows. The Messages do not reconcile the two sequences."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:22",
+                "TBWTT-2:24",
+                "TBWTT-5:62"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The blessing of verse 28 repeats to humankind the charge given to the sea creatures and birds on the fifth day, to multiply and fill their domain. Read through the canon, it states the creators’ design for a new population meant to spread across the land."
+              },
+              "claim": "inferred"
+            },
+            {
+              "text": {
+                "en": "The food grant of verses 29–30 gives plants alone, to humans and animals alike. Permission to eat meat comes only after the Flood (Genesis 9:3)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "This sits uneasily with the Messages’ account, in which large fish eat smaller ones and carnivores were created to balance the herbivores."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:20",
+                "TBWTT-2:24"
+              ]
+            },
+            {
+              "text": {
+                "en": "One Wheel of Heaven reading takes the grant as the diet set for the first humans and the animals kept near them in the creators’ care, leaving the predators of the wider world outside its view. Nothing in the canon states this."
+              },
+              "claim": "speculative"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Verse 31 closes the creation work with “very good”. Of the six days, the Hebrew gives only this one the article, “the sixth day”, balancing the cardinal “day one” that opened the sequence."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages’ reckoning it ends the last of six working periods, each about two thousand Earth years long."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:10"
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

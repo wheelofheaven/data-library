@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "bookSlug": "genesis-woh",
+  "canonMapVersion": "1.1.0",
+  "chapterShape": {
+    "chapter": "integer 1-50; the lens file is lenses/chapter-N.json",
+    "file": "\"chapter-N.json\"",
+    "status": "copy of lens.status in the chapter file",
+    "version": "copy of lens.version",
+    "signedOffBy": "copy of lens.signedOffBy (null until sign-off)",
+    "signedOffAt": "copy of lens.signedOffAt (null until sign-off)"
+  },
+  "chapters": [
+    {
+      "chapter": 1,
+      "file": "chapter-1.json",
+      "status": "stable",
+      "version": "1.0.0",
+      "signedOffBy": "zarazinsfuss",
+      "signedOffAt": "2026-11-27T16:00:00Z"
+    },
+    {
+      "chapter": 2,
+      "file": "chapter-2.json",
+      "status": "stable",
+      "version": "1.0.0",
+      "signedOffBy": "zarazinsfuss",
+      "signedOffAt": "2026-11-27T18:00:00Z"
+    },
+    {
+      "chapter": 3,
+      "file": "chapter-3.json",
+      "status": "stable",
+      "version": "1.0.0",
+      "signedOffBy": "zarazinsfuss",
+      "signedOffAt": "2026-11-27T18:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,1615 @@
+{
+  "schemaVersion": 1,
+  "bookSlug": "genesis-woh",
+  "chapter": 2,
+  "basedOn": {
+    "translationVersion": "1.1.0",
+    "layer2Digest": "sha256:62f2a880a87cb40d31995cd2e69a97615e63b05ef0106172238f23c1f96c9d1e",
+    "canonMapVersion": "1.1.0"
+  },
+  "lens": {
+    "track": "lens",
+    "version": "1.0.0",
+    "status": "stable",
+    "modelDrafts": [
+      "claude-opus-5-5 (lens writer)",
+      "claude-opus-5-5 (lens editor)"
+    ],
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as lens reviewer",
+      "reviewedAt": "2026-11-27T13:36:46Z",
+      "reviewedVersion": "0.2.0",
+      "method": "Every canon citation re-derived from the-book-which-tells-the-truth/chapter-2.json, chapter-3.json and chapter-7.json, extraterrestrials-took-me-to-their-planet/chapter-2.json and chapter-3.json (French text and project English); every quotation matched verbatim; every Hebrew claim checked against the pointed text in genesis-woh/chapter-2.json; labels checked against .claude/rules/content.md and core records 0009@0.1.1, 0018@0.1.0, 0059@0.1.0; the seventh-day segment checked against www content/timeline/age-of-cancer.md. Initial verdicts formed before opening chapter-2-editor-report.md.",
+      "counts": {
+        "approve": 75,
+        "revise": 4
+      },
+      "verdicts": [
+        {
+          "unit": "gen-2-seventh-day",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:1-2:3 (silent)"
+          ],
+          "reasoning": "Range, title and canonCoverage 'silent' match the canon map; the canon-silent marker opens the explanation (E p1s1). One timeline segment needs rewording (E p2s3)."
+        },
+        {
+          "unit": "gen-2-seventh-day/R 2:1",
+          "status": "approve",
+          "citations": [
+            "Gen 2:1 MT"
+          ],
+          "reasoning": "Hebrew re-read (vaykhullu ... vekhol-tseva'am). 'everything set in order in them' conveys tseva'am as the ordered contents; inferred is right for a canon-silent verse."
+        },
+        {
+          "unit": "gen-2-seventh-day/R 2:2",
+          "status": "approve",
+          "citations": [
+            "Gen 2:2 MT",
+            "TBWTT-2:5",
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "vaykhal / vayishbot are 3ms with Elohim; the plural 'the Elohim ... their work' follows the canon's plural (TBWTT-2:5) and 0009, as in the Gen 1 lens. Scare quotes on 'day' signal the canon's day without asserting an age for the seventh; inferred is honest."
+        },
+        {
+          "unit": "gen-2-seventh-day/R 2:3",
+          "status": "approve",
+          "citations": [
+            "Gen 2:3 MT"
+          ],
+          "reasoning": "vayvarekh ... vayqaddesh 'blessed ... set apart' rendered; 'shaping and making' carries bara ... la'asot. Third person, inferred."
+        },
+        {
+          "unit": "gen-2-seventh-day/E p1s1",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:1-2:3"
+          ],
+          "reasoning": "Canon-silent marker in the standard wording. Re-checked: no TBWTT or ETTMTTP paragraph mentions a seventh day (FR 'septième jour' absent)."
+        },
+        {
+          "unit": "gen-2-seventh-day/E p1s2",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. צָבָא",
+            "Deut 4:19",
+            "Gen 2:1 MT"
+          ],
+          "reasoning": "'and all their array' matches layer 2; tseva ha-shamayim of sun, moon and stars at Deut 4:19, 17:3. Direct."
+        },
+        {
+          "unit": "gen-2-seventh-day/E p1s3",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. שָׁבַת",
+            "HALOT s.v. שׁבת",
+            "Exod 20:11"
+          ],
+          "reasoning": "shavat 'cease, desist' is the lexical core; 'rested' (KJV) is looser. Same root as shabbat; Exod 20:11 grounds the Sabbath in the creation seventh day. Direct and accurate."
+        },
+        {
+          "unit": "gen-2-seventh-day/E p1s4",
+          "status": "approve",
+          "citations": [
+            "Gen 2:2-3 MT",
+            "TBWTT-2:5",
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "All five verbs with Elohim in 2:2-3 are singular; layer 2 keeps 'he'. Second sentence is a description of the lens's own method (direct per content.md); 0009 as pointer follows the Gen 1 precedent (day-6 E p1s3)."
+        },
+        {
+          "unit": "gen-2-seventh-day/E p1s5",
+          "status": "approve",
+          "citations": [
+            "Gen 2:1-3 MT"
+          ],
+          "reasoning": "No wayehi-erev wayehi-voqer formula for the seventh day: accurate. Direct."
+        },
+        {
+          "unit": "gen-2-seventh-day/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:3"
+          ],
+          "reasoning": "Both sentences quoted verbatim from the printed English (FR 'Seules les parties ... bavardages poétiques ...'). The canon does move from 1:26-27 (TBWTT-2:25-27) to the garden (2:28) with 1:28-2:3 unquoted, per the map. Not overclaiming: it leaves open whether 2:1-3 count as 'poetic chatter'."
+        },
+        {
+          "unit": "gen-2-seventh-day/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "TBWTT-2:39"
+          ],
+          "reasoning": "Inferred, honest. Note for sign-off: in the canon the creators' experiments stop only after the disclosure, by government order (TBWTT-2:39); 'the making stops' here is the Genesis frame, not the canon's chronology (see E p2s3)."
+        },
+        {
+          "unit": "gen-2-seventh-day/E p2s3",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:10",
+            "TBWTT-2:39",
+            "woh-claim-0059@0.1.0",
+            "www timeline/age-of-cancer.md (sec. I)"
+          ],
+          "reasoning": "Label framework is kept per 0059's public_label (as in Gen 1). But 'the work of making is over, and the garden ... fall within it' contradicts the chapter it sits in: 2:7-22 narrate making (yatsar, nata', banah) inside the garden story, and the Cancer chapter itself has the creation program complete 'at the end of Leo' with 'the humans in the garden at the end of Leo'. Strongest refutation also includes TBWTT-2:39 (experiments halted only after the disclosure). Proposed: \"The Wheel of Heaven timeline counts the seventh day as an age as well, the Age of Cancer. In that timeline the creation program closes at the end of the sixth age, with the first humans already in the garden; the disclosure, the expulsion and the generations before the Flood fall within the seventh. The second account that begins at verse 4 goes back over the making of the human, the garden and the woman.\" (framework, canon TBWTT-2:10, coreClaim woh-claim-0059)"
+        },
+        {
+          "unit": "gen-2-seventh-day/E p2s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:10",
+            "woh-claim-0059@0.1.0 scope.excludes"
+          ],
+          "reasoning": "Canon figure given first ('about two thousand Earth years', FR 'deux mille ans terrestres environ'), no 2,160 leak; 'does not mention a seventh day' verified across TBWTT and ETTMTTP; Sabbath meaning left to the text matches 0059's exclusion."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:4-2:7 (alludes)"
+          ],
+          "reasoning": "Range, title and canonCoverage 'alludes' match the map (TBWTT-2:28; ETTMTTP-3:218 opinion only)."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/R 2:4",
+          "status": "approve",
+          "citations": [
+            "Gen 2:4 MT",
+            "TBWTT-2:25",
+            "TBWTT-2:28"
+          ],
+          "reasoning": "Narrowing to one team's territory anticipates 2:8 and is a reading, correctly labelled inferred. See founder question on YHWH-Elohim vs the canon's own name Yahweh (ETTMTTP-2:50, TBWTT-7:56)."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/R 2:5-6",
+          "status": "approve",
+          "citations": [
+            "Gen 2:5-6 MT",
+            "Cassuto, Genesis I, on 2:5"
+          ],
+          "reasoning": "'no cultivated plants' conveys siach/esev ha-sadeh with the verse's two stated causes; 'welled up from below' follows ed. Inferred; E p2s2 states the canon is silent here."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/R 2:7",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "Quote verbatim ('And the man created there was the most intelligent'). Framework via 0018 and canon 2:28 is correct; 'from the matter of the ground' conveys afar min-ha-adamah without importing a laboratory term into the reading."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p1s1",
+          "status": "approve",
+          "citations": [
+            "Gen 2:4; 5:1; 6:9; 10:1 MT",
+            "Wenham, Genesis 1-15 (WBC), on 2:4"
+          ],
+          "reasoning": "toledot formula, divine-name change and the inversion to erets ve-shamayim all verified. (5:1 reads zeh sefer toledot, a variant of the formula; acceptable.)"
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Westermann, Genesis 1-11, on 2:4",
+            "Speiser, Genesis (AB), on 2:4"
+          ],
+          "reasoning": "Fair, direct description of the mainstream source-critical view (P 1:1-2:4a; J from 2:4b) and the different order."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "TBWTT-2:32",
+            "ETTMTTP-2:50"
+          ],
+          "reasoning": "True: the canon speaks of 'the team' and 'the creators' and never explains the compound. Optional addition for fidelity: the speaker names himself Yahweh, president of the Council of the Eternals (ETTMTTP-2:50)."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p1s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25",
+            "TBWTT-2:28"
+          ],
+          "reasoning": "Inferred: 'each team set to work' (2:25) and 'the team that was in the country ...' (2:28) ground the narrowing; the step to YHWH-Elohim = one team is the project's, as labelled."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p2s1",
+          "status": "approve",
+          "citations": [
+            "HALOT s.v. אֵד",
+            "CAD E s.v. edû",
+            "Speiser, Genesis (AB), on 2:6"
+          ],
+          "reasoning": "edû link is the standard proposal; 'mist' (KJV, Targum) has weak support; LXX pege. The rain/tillage reading of the plants is grounded in the verse's own stated causes."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p2s2",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:4-2:7"
+          ],
+          "reasoning": "Canon-silent statement for 2:5-6 is accurate; the territory reading is inferred."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p3s1",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. יָצַר",
+            "Gen 1:20, 1:24 MT"
+          ],
+          "reasoning": "yatsar potter's verb (cf. Jer 18); afar min-ha-adamah, ha-adam with article, nishmat chayim, nefesh chayah (as of animals in 1:20-24): all verified."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p3s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25",
+            "TBWTT-2:28",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "'artificially', 'one of the most brilliant, if not the most brilliant' and 'And the man created there was the most intelligent' verbatim. Framework correct."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p3s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25"
+          ],
+          "reasoning": "Inferred and framed as a reading ('Read as a compressed report'); does not claim the Hebrew says it."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/E p3s4",
+          "status": "approve",
+          "citations": [
+            "ETTMTTP-3:218 (author-opinion)",
+            "ADR 0018"
+          ],
+          "reasoning": "Quote verbatim (FR 'Vous n'étiez que matière, poussière ...'); explicitly labelled as Raël's commentary outside the dictated Messages; not the basis of any framework claim. Inferred acceptable."
+        },
+        {
+          "unit": "gen-2-eden",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:8-2:15 (comments)"
+          ],
+          "reasoning": "Range, title and canonCoverage match the map. One direct segment overstates (E p1s3)."
+        },
+        {
+          "unit": "gen-2-eden/R 2:8",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "'earthly paradise', Israel, 'not very far from Greece and Turkey on the single continent' are canon-explicit (2:28); framework correct. Strongest refutation is geological (no single continent in the human era), but this is a canon premise and is labelled framework."
+        },
+        {
+          "unit": "gen-2-eden/R 2:9",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "TBWTT-2:30",
+            "TBWTT-2:37",
+            "TBWTT-2:42",
+            "TBWTT-2:43",
+            "TBWTT-2:49",
+            "TBWTT-3:169"
+          ],
+          "reasoning": "Strongest refutation: the canon never comments on 2:9 itself; it reads the trees at 2:16-17 and 3:22. But it names the same trees: 'do not touch the scientific books' (2:30, 2:37), and after quoting 3:22 'there is a scientific means' of prolonging life (2:43), confirmed by the 'tree of life' benefit (2:49). 'tie' is the right verb for 2:43. Framework stands; 'most fragrant' (2:28) blended with the Hebrew's 'pleasant to see' is acceptable at layer 3."
+        },
+        {
+          "unit": "gen-2-eden/R 2:10-14",
+          "status": "approve",
+          "citations": [
+            "Gen 2:10-14 MT"
+          ],
+          "reasoning": "Faithful paraphrase; Tigris/Euphrates for Hiddekel/Perat. Inferred; the rivers are canon-silent."
+        },
+        {
+          "unit": "gen-2-eden/R 2:15",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28"
+          ],
+          "reasoning": "Canon content near-verbatim; inferred correctly marks the pairing with verse 15 as the project's (E p4s3 says so)."
+        },
+        {
+          "unit": "gen-2-eden/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "All three quotations verbatim. Framework correct."
+        },
+        {
+          "unit": "gen-2-eden/E p1s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:44",
+            "TBWTT-2:45"
+          ],
+          "reasoning": "'at the entrance to the creators' residence' verbatim (FR 'à l'entrée de la résidence des créateurs'); does not over-equate."
+        },
+        {
+          "unit": "gen-2-eden/E p1s3",
+          "status": "revise",
+          "citations": [
+            "Gen 2:8, 2:15, 3:23-24 MT",
+            "Westermann, Genesis 1-11, on 2:8"
+          ],
+          "reasoning": "Accurate for verse 8 (gan-be'eden) but stated of 'the Hebrew' in general, while verse 15 of this passage reads be-gan-eden, 'in the garden of Eden' (layer 2 renders it so), as do 3:23-24. Proposed: \"In verse 8 the Hebrew says 'a garden in Eden': Eden is a region, and the garden lies within it. From verse 15 the text also says 'the garden of Eden' (*gan-eden*). *Miqedem* usually means 'in the east', but it can also mean 'of old'.\" (direct)"
+        },
+        {
+          "unit": "gen-2-eden/E p2s1",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. דַּעַת",
+            "Wenham, Genesis 1-15 (WBC), on 2:9"
+          ],
+          "reasoning": "da'at and the hedged merism ('often read as') are accurate; direct with hedge is right."
+        },
+        {
+          "unit": "gen-2-eden/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:30",
+            "TBWTT-2:37",
+            "TBWTT-2:42",
+            "TBWTT-2:43",
+            "TBWTT-2:49"
+          ],
+          "reasoning": "Every quoted phrase verified verbatim; locates the tree-of-life link where the canon makes it (3:22). Framework correct."
+        },
+        {
+          "unit": "gen-2-eden/E p3s1",
+          "status": "approve",
+          "citations": [
+            "HALOT s.v. גִּיחוֹן",
+            "1 Kgs 1:33"
+          ],
+          "reasoning": "Hiddekel = Tigris, Perat = Euphrates; Pishon unknown; Gihon spring of Jerusalem (1 Kgs 1:33, 38, 45). Accurate."
+        },
+        {
+          "unit": "gen-2-eden/E p3s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28"
+          ],
+          "reasoning": "Canon silent on rivers, verified; the Israel vs Mesopotamia tension is stated, not smoothed."
+        },
+        {
+          "unit": "gen-2-eden/E p3s3",
+          "status": "approve",
+          "citations": [
+            "woh-claim-0018@0.1.0 scope.excludes"
+          ],
+          "reasoning": "Method statement mirrors 0018's exclusions; direct + pointer consistent with Gen 1 practice."
+        },
+        {
+          "unit": "gen-2-eden/E p3s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28"
+          ],
+          "reasoning": "Speculative and honest: states that the canon does not draw the conclusion; 'the single continent' is verbatim canon. Does not date the breakup (consistent with the Gen 1 founder ruling)."
+        },
+        {
+          "unit": "gen-2-eden/E p4s1",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. עָבַד, שָׁמַר"
+          ],
+          "reasoning": "le-ovdah ul-shomrah verified. (The feminine suffix with masculine gan is a known anomaly; not needed here.)"
+        },
+        {
+          "unit": "gen-2-eden/E p4s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "Quotation verbatim; framework correct."
+        },
+        {
+          "unit": "gen-2-eden/E p4s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "TBWTT-2:29"
+          ],
+          "reasoning": "Accurately states that the pairing is the project's and that 2:28 leads straight to 2:29. Inferred."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:16-2:17 (quotes)"
+          ],
+          "reasoning": "Matches the map; the canon quotes both verses whole (TBWTT-2:29)."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree/R 2:16",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:30"
+          ],
+          "reasoning": "Faithful to 2:30 ('you may learn everything you want, read all the books we have here at your disposal'). Framework."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree/R 2:17",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:30",
+            "TBWTT-3:169"
+          ],
+          "reasoning": "Faithful to 2:30; death warning kept unspecified as the canon keeps it. Framework."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:29",
+            "TBWTT-2:30"
+          ],
+          "reasoning": "Quotation verbatim; framework."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree/E p1s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-3:168",
+            "TBWTT-3:169",
+            "TBWTT-3:170"
+          ],
+          "reasoning": "Quote verbatim. Strictly the canon calls Ezekiel's eating 'an image similar to' eating from the tree, which entails the tree-eating is figurative; 'they call eating from this tree an image' is a fair compression."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:29 (FR)",
+            "Vulgate Gen 2:9, 2:17"
+          ],
+          "reasoning": "FR « l'arbre de la science du bien et du mal » verified; Vulgate 'lignum scientiae boni et mali' (2:9; 'de ligno autem scientiae' 2:17) correct. Does not claim the Hebrew means 'science'."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree/E p2s1",
+          "status": "approve",
+          "citations": [
+            "GKC §113n",
+            "Gen 2:16-17 MT"
+          ],
+          "reasoning": "akhol tokhel / mot tamut: infinitive absolute + finite verb, emphatic. Accurate."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree/E p2s2",
+          "status": "approve",
+          "citations": [
+            "Gen 3; 5:5 MT"
+          ],
+          "reasoning": "Accurate; the human does not die that day."
+        },
+        {
+          "unit": "gen-2-the-forbidden-tree/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:30"
+          ],
+          "reasoning": "'or you will die' verbatim; canon does not specify the death. Direct."
+        },
+        {
+          "unit": "gen-2-naming-the-animals",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:18 (silent), 2:19-2:20 (quotes)"
+          ],
+          "reasoning": "canonCoverage 'quotes' is the strongest over the range; verse-level silent marker for 2:18 present (E p1s1)."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/R 2:18",
+          "status": "approve",
+          "citations": [
+            "Gen 2:18 MT",
+            "HALOT s.v. עֵזֶר"
+          ],
+          "reasoning": "'counterpart of matching standing' conveys ezer kenegdo; inferred, canon-silent."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/R 2:19",
+          "status": "revise",
+          "citations": [
+            "Gen 2:19 MT",
+            "TBWTT-2:31",
+            "TBWTT-2:32"
+          ],
+          "reasoning": "The reading drops 2:19b, 'whatever the human called each living being, that became its name', and substitutes the creators' teaching, so in the lens voice the canon silently replaces the verse's point (cf. Gen 1 R 1:29-30 standard). E p2s2 discusses the difference but the reading should not erase it. Proposed: \"Wild animals and birds, also shaped from the ground, were brought to the human to see what he would call them, and whatever he called each one became its name. The creators taught him the name and the powers of everything that lived around him.\" (canon, framework, TBWTT-2:31, 2:32)"
+        },
+        {
+          "unit": "gen-2-naming-the-animals/R 2:20",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:32",
+            "Gen 2:20 MT"
+          ],
+          "reasoning": "Canon 2:32 carried onto 2:20; keeps the lack of a counterpart. Framework acceptable."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/E p1s1",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:18"
+          ],
+          "reasoning": "Verse-level canon-silent marker, accurate."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/E p1s2",
+          "status": "approve",
+          "citations": [
+            "HALOT s.v. עֵזֶר, נֶגֶד",
+            "Ps 33:20; 121:1-2",
+            "Gen 2:18 MT (KJV)"
+          ],
+          "reasoning": "lo tov is the only negative verdict; ezer of divine help in Psalms; kenegdo; KJV 'an help meet for him'. All accurate."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:33"
+          ],
+          "reasoning": "Inferred; 'two children, male and female' verbatim."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:31",
+            "TBWTT-2:32"
+          ],
+          "reasoning": "Quote of 2:31 and second sentence of 2:32 verbatim; first sentence is a close unquoted paraphrase of 2:32. Framework."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/E p2s2",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:31 (FR « Il amena vers l'homme les animaux pour voir comment il les appellerait »)",
+            "Gen 2:19 MT"
+          ],
+          "reasoning": "'quote only the second half of the verse' is inaccurate: TBWTT-2:31 quotes the middle clause and omits both the forming (2:19a) and the closing clause (2:19b), and the closing clause is the very point where Genesis and the canon differ. Proposed last two sentences: \"The Messages also quote only the middle of the verse. They leave out the forming of the animals, which here follows the human's, while Genesis 1 and the Messages' own creation account (TBWTT 2:23–25) put the animals before humankind; and they leave out the closing clause, 'whatever the human called each living being, that became its name'.\" (direct)"
+        },
+        {
+          "unit": "gen-2-naming-the-animals/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "TBWTT-2:32"
+          ],
+          "reasoning": "Inferred harmonisation, labelled; 'measure his intelligence' is 2:28."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/E p2s4",
+          "status": "approve",
+          "citations": [
+            "Gen 2:20 MT"
+          ],
+          "reasoning": "Accurate. Direct."
+        },
+        {
+          "unit": "gen-2-the-woman",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:21-2:25 (alludes)"
+          ],
+          "reasoning": "Matches the map; partial canon-silent marker present (E p1s2)."
+        },
+        {
+          "unit": "gen-2-the-woman/R 2:21",
+          "status": "approve",
+          "citations": [
+            "Gen 2:21 MT",
+            "BDB s.v. תַּרְדֵּמָה"
+          ],
+          "reasoning": "wayyappel (hiphil) tardemah: 'induced' is lexically grounded; 'sides' follows layer 2. No surgical vocabulary leaks into the reading; inferred."
+        },
+        {
+          "unit": "gen-2-the-woman/R 2:22",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:33"
+          ],
+          "reasoning": "banah 'built'; 'two humans ... male and female' from 2:33. Inferred, canon basis valid per map."
+        },
+        {
+          "unit": "gen-2-the-woman/R 2:23",
+          "status": "approve",
+          "citations": [
+            "Gen 2:23 MT"
+          ],
+          "reasoning": "Faithful; inferred."
+        },
+        {
+          "unit": "gen-2-the-woman/R 2:24",
+          "status": "approve",
+          "citations": [
+            "Gen 2:24 MT",
+            "Wenham, Genesis 1-15 (WBC), on 2:24"
+          ],
+          "reasoning": "Narrator aside ('al-ken'); direct is right for the textual observation."
+        },
+        {
+          "unit": "gen-2-the-woman/R 2:25",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:33",
+            "TBWTT-2:35"
+          ],
+          "reasoning": "'children in the team's care' from 2:33; inferred."
+        },
+        {
+          "unit": "gen-2-the-woman/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:33",
+            "TBWTT-2:39",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "Quote verbatim; Adam and Eve named at 2:39. Framework."
+        },
+        {
+          "unit": "gen-2-the-woman/E p1s2",
+          "status": "approve",
+          "citations": [
+            "canon-map 2:21-2:25"
+          ],
+          "reasoning": "Partial silence marker accurate."
+        },
+        {
+          "unit": "gen-2-the-woman/E p2s1",
+          "status": "approve",
+          "citations": [
+            "Gen 15:12; Exod 25:12, 14; 1 Kgs 6:5 MT",
+            "HALOT s.v. צֵלָע"
+          ],
+          "reasoning": "tardemah (Gen 15:12), tsela as side of the ark and side chambers, banah: all verified; layer 2 renders 'side'."
+        },
+        {
+          "unit": "gen-2-the-woman/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:33"
+          ],
+          "reasoning": "Speculative and honest ('Nothing in the canon states this'); the lexical basis (tardemah, tsela, banah) is real. Ship per editor escalation 3."
+        },
+        {
+          "unit": "gen-2-the-woman/E p3s1",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. אִשָּׁה, אִישׁ"
+          ],
+          "reasoning": "Folk etymology by sound; different roots is the standard lexical view. Direct."
+        },
+        {
+          "unit": "gen-2-the-woman/E p3s2",
+          "status": "approve",
+          "citations": [
+            "Gen 2:24 MT"
+          ],
+          "reasoning": "Accurate. Direct."
+        },
+        {
+          "unit": "gen-2-the-woman/E p3s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:2",
+            "TBWTT-2:3",
+            "TBWTT-2:41"
+          ],
+          "reasoning": "Inferred, attributions accurate. Optional: TBWTT-2:3 ('laden with mystical and useless phrases over the millennia') supports an added aside better than 2:41, which speaks of a phrase preserved intact."
+        },
+        {
+          "unit": "gen-2-the-woman/E p4s1",
+          "status": "approve",
+          "citations": [
+            "Gen 2:25; 3:1 MT"
+          ],
+          "reasoning": "arummim / arum wordplay verified."
+        },
+        {
+          "unit": "gen-2-the-woman/E p4s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:33",
+            "TBWTT-2:35",
+            "TBWTT-2:36"
+          ],
+          "reasoning": "'almost adults' verbatim (2:35); 3:7 quoted at 2:36. Inferred."
+        }
+      ],
+      "canonFidelityFlags": [
+        {
+          "unit": "gen-2-seventh-day/E p2s3",
+          "severity": "medium",
+          "concern": "Places the garden inside the seventh day while saying 'the work of making is over'; chapter 2 narrates the forming of the human, the planting, the forming of the animals and the building of the woman in the garden story, and the Cancer timeline chapter puts the humans in the garden at the end of Leo. The canon itself halts the creators' experiments only after the disclosure (TBWTT-2:39)."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/R 2:19",
+          "severity": "low",
+          "concern": "The lens voice replaces the verse's human naming (2:19b) with the canon's teaching, without signalling the difference in the reading itself."
+        },
+        {
+          "unit": "gen-2-naming-the-animals/E p2s2",
+          "severity": "low",
+          "concern": "Describes TBWTT-2:31 as quoting 'the second half' of 2:19; it quotes the middle clause and omits the closing clause, which is where the two accounts differ."
+        },
+        {
+          "unit": "gen-2-human-from-the-ground/R 2:4 + E p1s3-4",
+          "severity": "low (founder question)",
+          "concern": "The lens renders YHWH-Elohim as 'the creators of one team'. Accurate that the canon never explains the compound, but the dictated canon does give the speaker's name, Yahweh, president of the Council of the Eternals (ETTMTTP-2:50), who 'directed the creation of life on the Earth' (TBWTT-7:56). The chapter 3 lens should handle the name the same way."
+        }
+      ],
+      "labelFlags": [
+        {
+          "unit": "gen-2-seventh-day/E p2s3",
+          "current": "framework",
+          "proposed": "framework (kept, per 0059 public_label)",
+          "reason": "As in Gen 1: under content.md alone the seventh-day-as-age assignment is not canon-explicit and would be inferred. 0059's statement covers 'the human synthesis and the rest', and the Cancer chapter itself carries page claim_type inferred with 0003/0076; founder may confirm that 0059 governs the seventh day."
+        },
+        {
+          "unit": "gen-2-eden/R 2:9",
+          "current": "framework",
+          "proposed": "framework (kept)",
+          "reason": "Editor offered inferred as an alternative; the canon explicitly interprets the same two named trees (2:30, 2:37, 2:42-43, 2:49), so framework is defensible."
+        }
+      ],
+      "lensLeakageFlags": [],
+      "voiceAndCoverage": "All 20 readings are in the third person; first-person material appears only in quoted canon in the explanations. Canon-silent markers are present for 2:1-3 (E p1s1), 2:5-6 (E p2s2), 2:10-14 (E p3s2), 2:18 (E p1s1) and the uncommented parts of 2:21-25 (E p1s2). No explanation presents canon content as what the Hebrew says. Only author-opinion ref (ETTMTTP-3:218) is labelled and supports an inferred segment only. canonCoverage matches the map on all six passages.",
+      "outsideScopeNotes": [
+        "Editor escalation 2 (TBWTT-2:43 election clause, woh-claim-0076): agree it does not belong in Genesis 2; decide once for the chapter 3 lens.",
+        "Layer 2 renders 2:15 'the garden of Eden' and 2:8 'a garden in Eden': consistent with the Hebrew; relevant to the E p1s3 revise."
+      ],
+      "adjustmentsAfterEditorReport": [
+        "Escalation 1 (seventh day = Age of Cancer): the editor's factual correction is right and I agree with option A, but the wording needs the revise proposed for E p2s3 so that the garden is not placed after 'the work of making is over'.",
+        "Escalation 3 (speculative segments): agree, approve both as speculative.",
+        "Flag 3 (R 2:9 framework vs inferred): agree with the editor's framework.",
+        "The editor report adds TBWTT-4:75 for the tree of life; not cited in the lens and not needed.",
+        "No verdict changed after reading the report."
+      ],
+      "founderRulings": [
+        {
+          "at": "2026-11-27T18:00:00Z",
+          "ruling": "Signed off (form 2026-11-27); YHWH-Elohim rendered 'the creators'; TBWTT 2:43 only at 3:22"
+        }
+      ]
+    },
+    "signedOffBy": "zarazinsfuss",
+    "signedOffAt": "2026-11-27T18:00:00Z",
+    "coreClaims": {
+      "woh-claim-0009": "0.1.1",
+      "woh-claim-0018": "0.1.0",
+      "woh-claim-0059": "0.1.0"
+    }
+  },
+  "passages": [
+    {
+      "id": "gen-2-seventh-day",
+      "range": [
+        "2:1",
+        "2:3"
+      ],
+      "title": {
+        "en": "The Seventh Day: The Work Completed"
+      },
+      "canonCoverage": "silent",
+      "readings": [
+        {
+          "refs": [
+            "2:1"
+          ],
+          "text": {
+            "en": "So the work on the skies and the land was finished, with everything set in order in them."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "2:2"
+          ],
+          "text": {
+            "en": "On the seventh “day” the Elohim brought the work they had been doing to its end, and stopped all their work of making."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "2:3"
+          ],
+          "text": {
+            "en": "They set the seventh day apart and blessed it, as the day on which the whole work of shaping and making came to an end."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Verse 1 closes the account that began in 1:1: the skies and the land begun there are now finished, “and all their array”. The Hebrew *tseva’am* is the word for a marshalled host, used elsewhere of the sun, moon and stars; here it covers the whole ordered contents of the world."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The verb of verse 2, *vayishbot*, means “he ceased” and marks the end of an activity; the familiar “he rested” is a looser rendering. It comes from the same root as *shabbat*, and Exodus 20:11 grounds the weekly Sabbath in this seventh day of creation."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "As in most of Genesis 1, *Elohim* takes singular verbs here, and the Wheel of Heaven translation keeps “he”. The Reading renders the creators in the plural, as the Messages read the word."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:5"
+              ],
+              "coreClaim": "woh-claim-0009"
+            },
+            {
+              "text": {
+                "en": "The seventh day is also the only day with no closing “evening and morning”."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages state their own rule of selection: “Only the parts of the Bible I am going to translate for you are important. The others, which are merely poetic chatter, I will not speak to you about.” They pass from the creation of humankind (1:26–27) to the garden without quoting the seventh day, and they do not say whether they count these verses among the others."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:3"
+              ]
+            },
+            {
+              "text": {
+                "en": "In the Wheel of Heaven reading, the seventh day marks the close of the creation work on Earth: the making stops, and the account seals the six stages it has described."
+              },
+              "claim": "inferred"
+            },
+            {
+              "text": {
+                "en": "The Wheel of Heaven timeline counts the seventh day as an age as well, the Age of Cancer. In that timeline the creation program closes at the end of the sixth age, with the first humans already in the garden; the disclosure, the expulsion and the generations before the Flood fall within the seventh. The second account that begins at verse 4 goes back over the making of the human, the garden and the woman."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:10"
+              ],
+              "coreClaim": "woh-claim-0059"
+            },
+            {
+              "text": {
+                "en": "The canon defines a creation “day” as about two thousand Earth years but does not mention a seventh day. The Sabbath meaning of the day is left to the text."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:10"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-2-human-from-the-ground",
+      "range": [
+        "2:4",
+        "2:7"
+      ],
+      "title": {
+        "en": "A Second Account: The Human from the Ground"
+      },
+      "canonCoverage": "alludes",
+      "readings": [
+        {
+          "refs": [
+            "2:4"
+          ],
+          "text": {
+            "en": "Here begins a second account of the skies and the land. It narrows from the whole planet to one territory and to the creators who worked there, whom it calls YHWH-Elohim."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "2:5-6"
+          ],
+          "text": {
+            "en": "Before the team’s work, the territory had no cultivated plants: no rain had fallen there and there was no human to work the ground, though water welled up from below and soaked the soil."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "2:7"
+          ],
+          "text": {
+            "en": "Then the creators made the human from the matter of the ground and brought him to life. He was the human of the team working in the country now called Israel, and the Messages say of him that “the man created there was the most intelligent”."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:28"
+          ],
+          "coreClaim": "woh-claim-0018"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "Verse 4 is a seam. *Eleh toledot*, “this is the tale” (literally “the begettings”), is the formula that later opens each new section of Genesis (5:1, 6:9, 10:1 and onward). In the same verse the divine name changes: chapter 1 spoke only of *Elohim*, and from here the account says *YHWH-Elohim*. The order of 1:1, “the skies and the land”, also turns into “land and skies” in the second clause."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Mainstream scholarship reads the change as the join between two originally separate creation accounts, the Priestly account of 1:1–2:4a and the account that begins in 2:4b, often called the Yahwist. The second tells the creation in a different order: the human comes first, then the garden, the animals and the woman."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages comment on these chapters in terms of “the team” and “the creators”, and they do not explain the compound name."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:28",
+                "TBWTT-2:32"
+              ]
+            },
+            {
+              "text": {
+                "en": "The dictated Messages do give their speaker’s name: “My name is Yahweh and I am the president of the council of the eternals” (ETTMTTP 2:50). The Reading still renders YHWH-Elohim as the creators, the team at work in this account."
+              },
+              "claim": "direct",
+              "canon": [
+                "ETTMTTP-2:50"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Reading follows them and renders YHWH-Elohim as the creators of one team. Read through the canon, the second account narrows from the work of all the teams across the planet (TBWTT 2:25) to the territory of one of them."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:25",
+                "TBWTT-2:28"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Verses 5 and 6 open on a dry land. The plants missing “of the field” are the kind that need rain and tillage, unlike the plants the land brought forth by itself in 1:11–12. The rare word *ed* in verse 6 is often linked with Akkadian *edû*, water that wells up from below; the older rendering “mist” has little support."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages do not comment on these two verses. In the Wheel of Heaven reading they describe the territory before the team began its work there: the plants that depend on tillage wait for the human who will work the ground."
+              },
+              "claim": "inferred"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Verse 7 uses a third creation verb, *yatsar*, the potter’s word for shaping clay. *Ha-adam*, “the human”, is formed from *afar*, dust, of *ha-adamah*, the ground; the article shows that *adam* is not yet a personal name. The breath blown into his nostrils is *nishmat chayim*, and the result is a *nefesh chayah*, “living being”, the same phrase that named the animals in chapter 1."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages’ account, each team created its humans “artificially”, and the team working in the country now called Israel was “one of the most brilliant, if not the most brilliant”: “And the man created there was the most intelligent.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:25",
+                "TBWTT-2:28"
+              ],
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "Read as a compressed report, the potter’s verb and the breath blown into a finished body describe in craft words what the Messages call creating a human artificially."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:25"
+              ]
+            },
+            {
+              "text": {
+                "en": "Raël’s own commentary, which is not part of the dictated Messages, reads the dust in the same way: “You were only matter, dust, and the Elohim made of you living beings capable of dominating matter, in their image”."
+              },
+              "claim": "inferred",
+              "canon": [
+                {
+                  "ref": "ETTMTTP-3:218",
+                  "standing": "author-opinion"
+                }
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-2-eden",
+      "range": [
+        "2:8",
+        "2:15"
+      ],
+      "title": {
+        "en": "The Garden in Eden"
+      },
+      "canonCoverage": "comments",
+      "readings": [
+        {
+          "refs": [
+            "2:8"
+          ],
+          "text": {
+            "en": "The team laid out a garden in Eden, in the east, and placed there the human it had formed. This was the place people call the earthly paradise: the team’s territory in the country now called Israel, which then lay not far from Greece and Turkey on the single continent."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:28"
+          ],
+          "coreClaim": "woh-claim-0018"
+        },
+        {
+          "refs": [
+            "2:9"
+          ],
+          "text": {
+            "en": "Its plants were the most fragrant, and every tree grew there that was pleasant to see and good to eat from. Within the garden stood the tree of life, which the Messages tie to “a scientific means” of prolonging life, and the tree of knowing good and bad, whose fruit they read as the scientific books the creators kept from the human."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:28",
+            "TBWTT-2:30",
+            "TBWTT-2:42",
+            "TBWTT-2:43",
+            "TBWTT-2:49"
+          ]
+        },
+        {
+          "refs": [
+            "2:10-14"
+          ],
+          "text": {
+            "en": "The territory was well watered. A single river rose in Eden, watered the garden and divided into four head-streams, which the account names together with the lands they surround: the Pishon and the gold of Havilah, the Gihon and the land of Kush, the Tigris east of Ashur, and the Euphrates."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "2:15"
+          ],
+          "text": {
+            "en": "The creators set the human in the garden to work it and look after it. There they educated him while keeping him in ignorance of the great scientific secrets, so that the created would not surpass the creator and his intelligence could be measured."
+          },
+          "basis": "canon",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:28"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages introduce the garden with the words “There, the problems began for us.” The team in the country now called Israel, which then lay “not very far from Greece and Turkey on the single continent”, was one of the most brilliant. Its animals were the most beautiful and its plants the most fragrant: “It was what you call the earthly paradise.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:28"
+              ],
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "When the Messages reach the expulsion (Genesis 3:24), the guards are placed “at the entrance to the creators’ residence”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:44",
+                "TBWTT-2:45"
+              ],
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "In verse 8 the Hebrew says “a garden in Eden”: Eden is a region, and the garden lies within it. From verse 15 the text also says “the garden of Eden” (*gan-eden*). *Miqedem* usually means “in the east”, but it can also mean “of old”."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The tree of knowing good and bad uses *da’at*, knowing by experience. The pair “good and bad” is often read as a merism, a Hebrew way of saying “everything in the range”."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages read eating from the tree of knowledge as touching “the scientific books” (see 2:16–17). Commenting on Genesis 3:22, they set beside the tree of life the statement that “there is a scientific means” of prolonging human lives “for a very long time”; later, they say, the chiefs of the first men were granted the benefit of the “tree of life”, which is why Adam, Seth and Enosh lived so long."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:30",
+                "TBWTT-2:37",
+                "TBWTT-2:42",
+                "TBWTT-2:43",
+                "TBWTT-2:49"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Two of the four rivers can be identified: *Hiddekel* is the Tigris and *Perat* the Euphrates. The Pishon and the Gihon are unknown, although Havilah and Kush are lands named elsewhere in the Bible, and Gihon is also the name of the spring of Jerusalem (1 Kings 1:33)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages do not comment on the rivers. They place the earthly paradise in the country now called Israel, while the Tigris and Euphrates point to Mesopotamia."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:28"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Wheel of Heaven reading does not try to solve the rivers as a map or to place Eden at a modern site."
+              },
+              "claim": "direct",
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "The canon places the territory on “the single continent” of that time. One Wheel of Heaven reading takes this to mean that the rivers of verses 10–14 need not match a modern map. The canon does not draw that conclusion."
+              },
+              "claim": "speculative",
+              "canon": [
+                "TBWTT-2:28"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "In verse 15 the human is set in the garden *le-ovdah ul-shomrah*, “to work it and to guard it”: he is the garden’s worker and watchman."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages, the team’s measures concern the man’s education: “So they had to take measures so that the created would not surpass the creator. He had to be confined in ignorance of the great scientific secrets while being educated, so that his intelligence could be measured.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:28"
+              ],
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "Setting these measures beside verse 15 is a Wheel of Heaven reading. The Messages state them of the garden as a whole and go on at once to the prohibition of 2:16–17."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:28",
+                "TBWTT-2:29"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-2-the-forbidden-tree",
+      "range": [
+        "2:16",
+        "2:17"
+      ],
+      "title": {
+        "en": "The Forbidden Tree"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "2:16"
+          ],
+          "text": {
+            "en": "The creators told the human that he could learn everything he wanted and read all the books they had placed at his disposal."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:29",
+            "TBWTT-2:30"
+          ]
+        },
+        {
+          "refs": [
+            "2:17"
+          ],
+          "text": {
+            "en": "Only the scientific books he was not to touch: if he did, he would die."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:29",
+            "TBWTT-2:30",
+            "TBWTT-3:169"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages quote these two verses whole and explain them at once: “Which means: you may learn everything you want, read all the books we have here at your disposal, but do not touch the scientific books or you will die.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:29",
+                "TBWTT-2:30"
+              ],
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "Elsewhere, commenting on Ezekiel’s eating of a scroll, they call eating from this tree an image: “It is in fact a matter of intellectual «food».”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-3:169"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Messages quote the two verses in French, where the tree is « l’arbre de la science du bien et du mal ». The rendering goes back through the Vulgate’s *lignum scientiae boni et mali* and uses *science* in its older sense of knowledge; the Hebrew *da’at* means knowing."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:29"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Permission and prohibition are framed in matching grammar: *akhol tokhel*, “you may freely eat”, and *mot tamut*, “you shall surely die”, both use the emphatic infinitive. Every tree is given, and one is withheld."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The construction makes the consequence certain but leaves its kind open. In the story that follows the human does not die that day."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages repeat the warning in its own terms, “or you will die”, and do not say what kind of death is meant. What followed the disclosure of the knowledge is told in Genesis 3."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:30"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-2-naming-the-animals",
+      "range": [
+        "2:18",
+        "2:20"
+      ],
+      "title": {
+        "en": "The Naming of the Animals"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "2:18"
+          ],
+          "text": {
+            "en": "The creators judged that it was not good for the human to be alone, and resolved to make him a counterpart of matching standing."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "2:19"
+          ],
+          "text": {
+            "en": "Wild animals and birds, also shaped from the ground, were brought to the human to see what he would call them, and whatever he called each one became its name. The creators taught him the name and the powers of everything that lived around him."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:31",
+            "TBWTT-2:32"
+          ]
+        },
+        {
+          "refs": [
+            "2:20"
+          ],
+          "text": {
+            "en": "He had to know the plants and animals around him well, their way of life and how to get food from them: botany and zoology, knowledge that was no danger to the creators. But among all the animals there was none that could stand beside him as his equal."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:32"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on verse 18; what follows on it is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "“Not good” is the only negative verdict in the creation accounts. The remedy is an *ezer kenegdo*: *ezer* is substantial help, the same word used of divine help in the Psalms, and *kenegdo* means “corresponding to him”, face to face. The phrase describes a counterpart of matching standing; the old English “helpmeet” fuses the King James Version’s “an help meet for him” into one word."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read through the canon, the remark is the creators’ own judgement on work still in progress: one human alone was not the finished result, and the Messages later speak of the team’s “two children, male and female”."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:33"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages quote verse 19, “And brought them unto the man to see what he would call them”, and explain: he had to know well the plants and animals around him, their way of life and the means of obtaining food through them. “The creators taught him the name and the powers of everything that lived around him: botany and zoology, because that was not dangerous for them.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:31",
+                "TBWTT-2:32"
+              ]
+            },
+            {
+              "text": {
+                "en": "The two accounts differ. In Genesis the human gives the names and they stand; in the Messages’ comment the creators teach him the names. The Messages also quote only the middle of the verse. They leave out the forming of the animals, which here follows the human’s, while Genesis 1 and the Messages’ own creation account (TBWTT 2:23–25) put the animals before humankind; and they leave out the closing clause, “whatever the human called each living being, that became its name”."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:23",
+                "TBWTT-2:25",
+                "TBWTT-2:31",
+                "TBWTT-2:32"
+              ]
+            },
+            {
+              "text": {
+                "en": "The two can be read together: the creators bring the animals so that the human learns them, and watching “what he would call them” is a way to measure his intelligence, as the Messages say the team intended."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:28",
+                "TBWTT-2:32"
+              ]
+            },
+            {
+              "text": {
+                "en": "Verse 20 completes the naming and records the lack: among cattle, birds and wild animals no counterpart fitting the human was found. The failed search leads into the making of the woman."
+              },
+              "claim": "direct"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-2-the-woman",
+      "range": [
+        "2:21",
+        "2:25"
+      ],
+      "title": {
+        "en": "The Woman and the Man"
+      },
+      "canonCoverage": "alludes",
+      "readings": [
+        {
+          "refs": [
+            "2:21"
+          ],
+          "text": {
+            "en": "The creators put the human into a deep, induced sleep, took one of his sides and closed the flesh over the place."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "2:22"
+          ],
+          "text": {
+            "en": "From what they had taken they built a woman and brought her to him. The team now had two humans in its care, male and female."
+          },
+          "basis": "canon",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:33"
+          ]
+        },
+        {
+          "refs": [
+            "2:23"
+          ],
+          "text": {
+            "en": "The human recognised her as his own kind, “bone of my bones and flesh of my flesh”, and named her woman, *ishah*, because she was taken from man, *ish*."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "2:24"
+          ],
+          "text": {
+            "en": "The account adds a saying of its own: this is why a man leaves his father and mother and clings to his wife, and the two become one flesh."
+          },
+          "basis": "synthesis",
+          "claim": "direct"
+        },
+        {
+          "refs": [
+            "2:25"
+          ],
+          "text": {
+            "en": "The two of them went naked and felt no shame: they were still children in the team’s care."
+          },
+          "basis": "canon",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:33"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages’ only counterpart to this passage is one image: “Imagine the joy of this team of scientists having two children, male and female, running about their legs, to whom they taught all sorts of things they were eager to learn.” Later they name the pair Adam and Eve."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:33",
+                "TBWTT-2:39"
+              ],
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "The Messages do not comment on the making of the woman, on the saying about marriage or on the pair’s nakedness; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:33"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "*Tardemah* is not ordinary sleep but a deep sleep brought on from outside; the same word falls on Abram in Genesis 15:12. *Tsela*, traditionally “rib”, names the side of a structure elsewhere in the Hebrew Bible, such as the sides of the ark of the covenant or the side chambers of the Temple; the Wheel of Heaven translation renders it “side”. The verb of verse 22 is *banah*, “to build”, the word used for cities, altars and houses."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read as a compressed report of the creators’ work, an induced sleep, an opened side closed again with flesh, and a woman “built” from what was taken describe an operation under anaesthesia, with the second human made from material of the first. Nothing in the canon states this. The Messages’ own image is of a pair, male and female, raised together."
+              },
+              "claim": "speculative"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The human’s words in verse 23 are a naming, like the namings of verses 19–20. The play on *ish* and *ishah* works by sound: the two words come from different roots."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Verse 24 steps outside the story. Neither YHWH-Elohim nor the human speaks; the narrator explains a custom, marriage, as the rejoining of what was divided: the two “become one flesh”."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read through the canon, which says the biblical text “became laden with mystical and useless phrases over the millennia” (TBWTT 2:3), the aside is the voice of those who handed the record down."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:3"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "*Arummim*, “naked”, in verse 25 sounds like *arum*, “shrewd”, the word that introduces the serpent in 3:1. The chapter ends with the two unashamed and the serpent not yet named."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read with the canon, the two are still children in the team’s care. The Messages quote Genesis 3:7, where their eyes are opened and they know they are naked, at the point where the pair, by then “almost adults”, are offered scientific knowledge."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:33",
+                "TBWTT-2:35",
+                "TBWTT-2:36"
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

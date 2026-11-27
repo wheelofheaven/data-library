@@ -1,0 +1,1700 @@
+{
+  "schemaVersion": 1,
+  "bookSlug": "genesis-woh",
+  "chapter": 3,
+  "basedOn": {
+    "translationVersion": "1.1.0",
+    "layer2Digest": "sha256:bc300de96403088279ba1404f5d8d90b0b41ce39e1dec5145248535609294f47",
+    "canonMapVersion": "1.1.0"
+  },
+  "lens": {
+    "track": "lens",
+    "version": "1.0.0",
+    "status": "stable",
+    "modelDrafts": [
+      "claude-opus-5-5 (lens writer)",
+      "claude-opus-5-5 (lens editor)"
+    ],
+    "signedOffBy": "zarazinsfuss",
+    "signedOffAt": "2026-11-27T18:00:00Z",
+    "coreClaims": {
+      "woh-claim-0008": "0.1.0",
+      "woh-claim-0009": "0.1.1",
+      "woh-claim-0018": "0.1.0",
+      "woh-claim-0022": "0.1.0",
+      "woh-claim-0076": "0.1.2"
+    },
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as lens reviewer",
+      "reviewedAt": "2026-11-27T13:40:51Z",
+      "reviewedVersion": "0.2.0",
+      "method": "Every canon citation re-derived from the-book-which-tells-the-truth/chapter-2/3/4/5/7.json (French text and project English), LWTE chapter 2 and ETTMTTP chapter 3; every quotation matched verbatim; TBWTT and ETTMTTP grepped for Lucifer/Satan/serpent/péché; every Hebrew claim checked against the pointed text in genesis-woh/chapter-3.json (and 2:7, 2:17, 2:25, 4:7 by reference); labels checked against .claude/rules/content.md, ADR 0018 standing rules and core records 0008, 0009, 0018, 0022, 0076 as pinned. Vulgate 3:15 and 3:20 verified online (BibleGateway); LXX readings could not be fetched (Sefaria carries none; academic-bible.com 403) and are marked reviewer's-knowledge; Barr 1992 and Meyers 1988 verified bibliographically (Open Library); Irenaeus, Gilgamesh XI, Adapa from reviewer's knowledge. Initial verdicts formed before opening chapter-3-editor-report.md; founder rulings of 2026-11-27 relayed by the coordinator applied.",
+      "counts": {
+        "approve": 63,
+        "revise": 11
+      },
+      "verdicts": [
+        {
+          "unit": "gen-3-serpent",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:34",
+            "TBWTT-2:37"
+          ],
+          "reasoning": "Boundary 3:1-7 and canonCoverage 'quotes' match canon-map entries 3:1-5 (2:34-35) and 3:6-7 (2:36-37). Title neutral."
+        },
+        {
+          "unit": "gen-3-serpent/R 3:1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:35",
+            "TBWTT-2:39",
+            "woh-claim-0022@0.1.0"
+          ],
+          "reasoning": "'A small group' = 'quelques-uns' (2:35) / 'ce petit groupe de créateurs' (2:39); the question tracks Hebrew 'af ki-amar elohim lo tochlu mikkol ets haggan'. 'The Elohim' renders bare elohim (not YHWH-Elohim), so the 2026-11-27 naming ruling does not apply here. Strongest refutation: the narrator calls the nachash one of the 'wild animals of the field that YHWH-Elohim had made' (3:1a), i.e. a creature, not a faction of makers; the framework answers only by the canon's identification (2:39), which the label declares."
+        },
+        {
+          "unit": "gen-3-serpent/R 3:2-3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:30",
+            "TBWTT-2:34"
+          ],
+          "reasoning": "'Scientific knowledge' is the canon's gloss of the tree (2:30 'ne touche pas aux livres scientifiques'); 'not even to touch it' tracks Hebrew 3:3 'velo tigge'u bo'. Refutation: 2:30 glosses the ban of 2:16-17, not the woman's words; the reading transfers the gloss, which a framework/canon reading may do."
+        },
+        {
+          "unit": "gen-3-serpent/R 3:4-5",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:34",
+            "TBWTT-2:35"
+          ],
+          "reasoning": "'Presque adultes', 'faire des études scientifiques', 'aussi forts que leurs créateurs' all verbatim in sense from 2:35; 'like the Elohim' agrees with layer-2 3:5. Refutation: mainstream reads ke-elohim yode'e tov wara' as godlike discernment, not scientific education; the framework label carries that."
+        },
+        {
+          "unit": "gen-3-serpent/R 3:6",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:37"
+          ],
+          "reasoning": "'Good, attractive, worth having for the understanding it gave' tracks tov lema'achal / ta'avah la'enayim / nechmad lehaskil. Label inferred is honest: the canon quotes and glosses 3:7, not 3:6. Note only: basis 'canon' is generous (passes validator rule 7 because the map lumps 3:6 with 3:7); 'synthesis' would describe it more exactly. Not a blocker."
+        },
+        {
+          "unit": "gen-3-serpent/R 3:7",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:36",
+            "TBWTT-2:37"
+          ],
+          "reasoning": "Second sentence is TBWTT-2:37 nearly verbatim; 'as if they were dangerous laboratory animals' keeps the French ambiguity of 'les considérant ainsi' acceptably (the humans are the ones regarded). 'In the verse's image' cleanly separates the fig leaves (Hebrew chagorot = belts, as layer 2). Refutation: the verse says they knew they were naked, nothing about becoming creators; the canon makes the substitution, the label declares it."
+        },
+        {
+          "unit": "gen-3-serpent/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:34",
+            "TBWTT-2:35"
+          ],
+          "reasoning": "Verified: 2:34 ends on 'ye shall be as gods' / 'comme des dieux'; 'deeply loved their little men, their “creatures”' verbatim from 2:35 EN. Framework correct. Refutation as R 3:1."
+        },
+        {
+          "unit": "gen-3-serpent/E p1s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:39",
+            "woh-claim-0022@0.1.0"
+          ],
+          "reasoning": "Quotation verbatim from TBWTT-2:39 EN ('that small group of creators who had wanted to teach Adam and Eve the truth'; FR 'ce petit groupe de créateurs qui avait voulu apprendre la vérité à Adam et Ève'). Note the canon places the identification at its gloss of 3:14, and the segment says so ('When the Messages come to the serpent's sentence')."
+        },
+        {
+          "unit": "gen-3-serpent/E p1s3",
+          "status": "approve",
+          "citations": [
+            "LWTE-2:21 (author-opinion)",
+            "LWTE-2:22 (author-opinion)"
+          ],
+          "reasoning": "ADR 0018 handled correctly: name and 'light bearer' verbatim in LWTE-2:21 ('porteur de lumière'), leadership in 2:22 ('A la tête d'un petit groupe de scientifiques'); cited with standing, labelled direct as a report of what the author wrote. I re-grepped TBWTT 1-7 and ETTMTTP 1-3: 'Lucifer' never occurs in the dictated text, so 'the dictated Messages give the group no leader and no name' is verified. Minor: the canon map attaches LWTE-2:22 (not 2:21) to 3:1-5; consider adding 2:21 there."
+        },
+        {
+          "unit": "gen-3-serpent/E p1s4",
+          "status": "approve",
+          "citations": [
+            "BDB s.v. עָרוּם (ʿrm II) vs עָרוֹם (ʿwr)",
+            "Wenham, Genesis 1-15 (WBC), on 3:1"
+          ],
+          "reasoning": "nachash = ordinary 'snake'; 'arum (3:1) / 'arummim (2:25) wordplay is standard, and the 'different roots' statement follows BDB and most commentators (HALOT's grouping is the minority complication; acceptable for direct)."
+        },
+        {
+          "unit": "gen-3-serpent/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:28",
+            "TBWTT-2:30",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "Both quotations verbatim (2:30 EN in full; 2:28 'in ignorance of the great scientific secrets while being educated, so that his intelligence could be measured'). 'So the creators confined him' paraphrases 'ils durent prendre des mesures ... Il fallait le confiner'. Refutation: Genesis 2:17 gives no motive at all for the ban; the motive (that the created not surpass the creator) is wholly the canon's."
+        },
+        {
+          "unit": "gen-3-serpent/E p2s2",
+          "status": "revise",
+          "citations": [
+            "Westermann, Genesis 1-11, excursus on 'good and evil'",
+            "Wenham, Genesis 1-15, on 2:9",
+            "TBWTT-2:30"
+          ],
+          "reasoning": "The scholarly survey is accurate and fairly balanced (merism / moral discernment / autonomy), but it carries canon ref TBWTT-2:30, which says nothing about merism; on a direct segment that ref implies canon support for a scholarly statement. The canon gloss already sits on the next segment (p2s3).",
+          "proposed": {
+            "canon": "remove ['TBWTT-2:30']; text unchanged"
+          }
+        },
+        {
+          "unit": "gen-3-serpent/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:30",
+            "TBWTT-2:57"
+          ],
+          "reasoning": "Accurate. Optional enrichment for the editor: TBWTT-2:57 gives the canon's own definition of the pair from the creators' side ('Evil—that is, the desire to become a people equal to its creators ... Good, for them, was that man should remain a primitive being'). It is the Messages' only explicit reading of 'good' and 'evil' in this arc and would sit naturally here (framework, canon TBWTT-2:57; 2:57 is mapped to Gen 6:5, so cite it as cross-reference, basis unaffected). Not required."
+        },
+        {
+          "unit": "gen-3-serpent/E p2s4",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 2:17 mot tamut; 3:3 pen temutun, velo tigge'u bo",
+            "TBWTT-2:30"
+          ],
+          "reasoning": "Verified against pointed text. The canon remark is correctly limited to the Messages' paraphrase (no Hebrew-level match implied)."
+        },
+        {
+          "unit": "gen-3-serpent/E p2s5",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:30",
+            "Avot de-Rabbi Natan A 1; Genesis Rabbah 19:3"
+          ],
+          "reasoning": "Speculative and honest: says the match exists only in the Messages' French/English and that the canon is silent on her words. Lexical evidence real (2:30 'ne touche pas'). Useful for the editor: rabbinic tradition also locates the 'touch' fence upstream of Eve (ARN A 1: Adam added it when relaying the ban), so the idea that she did not invent the fence has a non-WoH parallel; could be mentioned, not required."
+        },
+        {
+          "unit": "gen-3-serpent/E p3s1",
+          "status": "approve",
+          "citations": [
+            "LXX Gen 3:5 ὡς θεοί (Rahlfs; reviewer's knowledge, not fetched: Sefaria has no LXX, academic-bible.com 403)",
+            "KJV Gen 3:5",
+            "Vulgate 'sicut dii'",
+            "TBWTT-2:34",
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "Facts correct; the Messages' quotation has 'comme des dieux' / 'as gods' (verified). Direct segment carrying coreClaim 0009 follows the Gen 1 precedent (0009's philological layer is declared direct in its scope). LXX reading marked unverified-online."
+        },
+        {
+          "unit": "gen-3-serpent/E p3s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:35"
+          ],
+          "reasoning": "'aussi forts que leurs créateurs' verbatim. Refutation: in Genesis the promise is about knowing, not strength; the framework label carries it."
+        },
+        {
+          "unit": "gen-3-serpent/E p4s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:36",
+            "TBWTT-2:37"
+          ],
+          "reasoning": "Both quotations verbatim (2:36 KJV form as in the project English; 2:37 in full)."
+        },
+        {
+          "unit": "gen-3-serpent/E p4s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 3:5 וְנִפְקְחוּ, 3:7 וַתִּפָּקַחְנָה"
+          ],
+          "reasoning": "Verified: same root pqch, Niphal in both."
+        },
+        {
+          "unit": "gen-3-serpent/E p4s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:36",
+            "TBWTT-2:37"
+          ],
+          "reasoning": "Inferred from placement only, and says so. Honest."
+        },
+        {
+          "unit": "gen-3-serpent/E p4s4",
+          "status": "revise",
+          "citations": [
+            "Layer-2 Hebrew 4:7 חַטָּאת",
+            "4 Ezra 7:116-118",
+            "2 Baruch 54:15, 19",
+            "J. Levison, Portraits of Adam in Early Judaism (1988)"
+          ],
+          "reasoning": "chattat-first-at-4:7 and Augustine/Romans 5 are correct. 'Jewish interpretation did not make the episode a doctrine of inherited guilt' is right for rabbinic Judaism but too absolute as a direct claim: Second Temple texts lament Adam's legacy for all his descendants (4 Ezra 7:118 'the fall was not yours alone, but ours also'), while 2 Baruch 54:19 answers 'each of us has been the Adam of his own soul'. A specialist would flag the flat sentence.",
+          "proposed": {
+            "text": "The chapter never uses the word “sin”; in Genesis the word (*chattat*) first appears at 4:7. The doctrine of a “Fall” and of original sin was developed in Christian theology, above all by Augustine, building on Paul (Romans 5:12–21). Some Jewish writings of the late Second Temple period lament the consequences of Adam’s act for his descendants (4 Ezra 7:118), but rabbinic Judaism did not make the episode a doctrine of inherited guilt.",
+            "claim": "direct"
+          }
+        },
+        {
+          "unit": "gen-3-serpent/E p4s5",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:35",
+            "TBWTT-2:39"
+          ],
+          "reasoning": "Verified: no 'péché' anywhere in TBWTT 2:28-45 (grepped); 'deeply loved' verbatim. Non-moralising. Refutation: the absence of the word 'sin' in Genesis 3 does not mean the narrative lacks the notion of transgression (3:11, 3:17 'which I commanded you'); the segment claims only the canon's silence, which is accurate."
+        },
+        {
+          "unit": "gen-3-serpent/E p4s6",
+          "status": "approve",
+          "citations": [
+            "TBWTT-5:12"
+          ],
+          "reasoning": "Quotation verbatim ('ceux qui font croire au péché originel et font de l'homme un coupable'). Contextually 5:12 glosses Isaiah 29:20-21, and the segment says only that the Messages name the doctrine there; accurate."
+        },
+        {
+          "unit": "gen-3-inquiry",
+          "status": "approve",
+          "citations": [
+            "canon-map 3:8-3:13 silent"
+          ],
+          "reasoning": "Silent coverage correct; the silence marker opens layer 4 as required."
+        },
+        {
+          "unit": "gen-3-inquiry/R 3:8",
+          "status": "revise",
+          "citations": [
+            "Founder ruling 2026-11-27 (YHWH-Elohim = 'the creators' in layers 3-4)",
+            "Layer-2 3:8"
+          ],
+          "reasoning": "Content faithful to 3:8 (qol ... mithallech baggan le-ruach hayyom; mippene YHWH Elohim), but uses 'Yahweh Elohim', contrary to the founder ruling. Label inferred / basis synthesis correct.",
+          "proposed": {
+            "text": "When the creators were heard walking about in the garden in the evening breeze, the man and the woman hid from them among the trees."
+          }
+        },
+        {
+          "unit": "gen-3-inquiry/R 3:9-10",
+          "status": "revise",
+          "citations": [
+            "Founder ruling 2026-11-27",
+            "Layer-2 3:9-10"
+          ],
+          "reasoning": "Faithful (ayyekkah; 'I was afraid because I was naked'); naming must follow the ruling.",
+          "proposed": {
+            "text": "The creators called to the man. He answered that he had hidden out of fear because he was naked: the knowledge the two had gained made them see themselves differently in front of their makers."
+          }
+        },
+        {
+          "unit": "gen-3-inquiry/R 3:11-13",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:39",
+            "Layer-2 3:11-13"
+          ],
+          "reasoning": "Faithful to the chain of answers (ha-ishah asher natattah immadi; hannachash hishshi'ani); the canon link is flagged 'In the Messages' terms' and labelled inferred."
+        },
+        {
+          "unit": "gen-3-inquiry/E p1s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Required silence marker, verbatim house form."
+        },
+        {
+          "unit": "gen-3-inquiry/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 3:9, 3:11, 3:13"
+          ],
+          "reasoning": "ayyekkah / mi higgid lecha / mah zot asit verified."
+        },
+        {
+          "unit": "gen-3-inquiry/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:35",
+            "TBWTT-2:39"
+          ],
+          "reasoning": "Inferred, correctly: the canon does not comment on 3:11, but the answer it implies follows from 2:35."
+        },
+        {
+          "unit": "gen-3-inquiry/E p2s1",
+          "status": "revise",
+          "citations": [
+            "Founder ruling 2026-11-27",
+            "J. Barr, The Garden of Eden and the Hope of Immortality (SCM/Fortress 1992), verified bibliographically via Open Library",
+            "Layer-2 Hebrew 3:13 hishshi'ani; 5:5"
+          ],
+          "reasoning": "Textual observations and the Barr thesis are accurate. Two fixes: (1) 'Yahweh Elohim himself says' must follow the naming ruling; (2) Barr held the Oxford Regius chair 1978-1989 and was at Vanderbilt when the book appeared, so 'Regius Professor of Hebrew at Oxford' reads as current in 1992.",
+          "proposed": {
+            "text": "The woman says “the serpent deceived me” (*hishiani*). Within the story, however, what the serpent promised comes true: the eyes are opened (3:7), and the creators themselves say that the human has become “like one of us” (3:22). The death threatened “on the day” of eating does not follow; Adam lives on to 930 years (5:5). James Barr, Regius Professor of Hebrew at Oxford from 1978 to 1989, argued in *The Garden of Eden and the Hope of Immortality* (1992) that the story tells how humans lost the chance of immortality, not how sin entered the world.",
+            "claim": "direct"
+          }
+        },
+        {
+          "unit": "gen-3-inquiry/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:39",
+            "Layer-2 3:1 'arum"
+          ],
+          "reasoning": "Inferred, textual basis stated. Refutation: 'hishshi'ani' is the woman's word and the narrator does not contradict it either; the segment frames it as one reading ('On this reading'), so acceptable."
+        },
+        {
+          "unit": "gen-3-serpent-sentence",
+          "status": "approve",
+          "citations": [
+            "canon-map 3:14 quotes; 3:15 silent"
+          ],
+          "reasoning": "Keeping 3:14-15 together (one speech) with in-text silence markers for 3:15 is the right call; coverage 'quotes' is the map's strongest relation."
+        },
+        {
+          "unit": "gen-3-serpent-sentence/R 3:14",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:38",
+            "TBWTT-2:39"
+          ],
+          "reasoning": "First sentence is 2:39 verbatim in sense; 'In the verse's image' separates the Hebrew. Refutation: the curse is an etiology of snake locomotion in mainstream reading (stated in E p2s1); the framework reading rests on 2:39 alone."
+        },
+        {
+          "unit": "gen-3-serpent-sentence/R 3:15",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:48",
+            "TBWTT-2:51",
+            "Layer-2 3:15"
+          ],
+          "reasoning": "Canon-silence stated inside the reading; 'each striking at the other' matches the shared verb shuf. Inferred correct."
+        },
+        {
+          "unit": "gen-3-serpent-sentence/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:38",
+            "TBWTT-2:39"
+          ],
+          "reasoning": "Both quotations verbatim."
+        },
+        {
+          "unit": "gen-3-serpent-sentence/E p1s2",
+          "status": "revise",
+          "citations": [
+            "TBWTT-3:271",
+            "TBWTT-3:272",
+            "TBWTT-2:39",
+            "woh-claim-0022@0.1.0"
+          ],
+          "reasoning": "Canon under-cited, and the wording under-credits the canon: the Messages themselves make the Leviathan link. TBWTT-3:271 'Les créateurs bannis du début se cachaient sous les océans :' introduces the quotation of Isaiah 27:1 at 3:272 ('Léviathan, le serpent fuyard'), followed by 3:273 'Le gouvernement de la planète voulait à cette époque détruire les créateurs des hommes'. As written, the segment presents a canon link as a Wheel of Heaven extension, and 'the serpent imagery of the Hebrew Bible' over-generalises against 0022's exclusion of 'uniform reference across every serpent occurrence'. Note the project English of 3:272 gives KJV 'piercing serpent'; the French 'fuyard' supports the lens's 'fleeing'. Strongest refutation (keep in mind for the Isaiah lens): Isaiah 27:1 is an eschatological combat-myth image with an Ugaritic cognate (KTU 1.5 I 1-3, ltn btn brh), which mainstream reads as chaos-dragon imagery, not memory of a faction.",
+          "proposed": {
+            "text": "The Messages themselves make a second link. Speaking of “the creators banished at the beginning”, who hid in bases under the oceans, they quote Isaiah 27:1 on Leviathan, “the fleeing serpent”. The Wheel of Heaven reading takes this serpent vocabulary, the *nachash* of this chapter and the Leviathan of Isaiah, as the way the tradition remembered the exiled group, judged passage by passage rather than for every serpent in the Bible. The reading rests on the Messages’ identification, not on any etymology of the word.",
+            "claim": "framework",
+            "canon": [
+              "TBWTT-2:39",
+              "TBWTT-3:271",
+              "TBWTT-3:272"
+            ],
+            "coreClaim": "woh-claim-0022"
+          }
+        },
+        {
+          "unit": "gen-3-serpent-sentence/E p2s1",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 3:14 arur attah; 3:17 arurah ha-adamah ba'avurecha",
+            "Westermann, Genesis 1-11, on 3:14 (etiology)"
+          ],
+          "reasoning": "Verified; the etiological reading is mainstream and presented in its own voice."
+        },
+        {
+          "unit": "gen-3-serpent-sentence/E p3s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Silence marker for 3:15, accurate."
+        },
+        {
+          "unit": "gen-3-serpent-sentence/E p3s2",
+          "status": "revise",
+          "citations": [
+            "Vulgate Gen 3:15 'ipsa conteret caput tuum' (verified, BibleGateway VULGATE)",
+            "Irenaeus, Adv. Haer. III.23.7; V.21.1",
+            "Layer-2 Hebrew 3:15 הוּא יְשוּפְךָ"
+          ],
+          "reasoning": "History accurate (Irenaeus verified from knowledge; Vulgate verified online). One precision: in the Pentateuch the consonantal הוא also serves for the feminine (ketiv hu / qere hi), so the pronoun's spelling alone does not settle gender; the masculine verb yeshufcha and the masculine zera do. A Hebraist would object to the sentence as it stands.",
+          "proposed": {
+            "text_change": "Replace the last sentence with: “In the Hebrew the pronoun *hu* and its verb are masculine, agreeing with *zera*, “offspring”.”"
+          }
+        },
+        {
+          "unit": "gen-3-serpent-sentence/E p3s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:48",
+            "TBWTT-2:51"
+          ],
+          "reasoning": "Quoted fragments verbatim from 2:48 ('who remained under military surveillance', 'would never turn against their fathers'); the wives clause is an unquoted paraphrase of 2:51. Framework correct (editor's relabel from direct is right). Refutation: 2:48 glosses Genesis 4:3-4 and 2:51 Genesis 6:2, not 3:15; the segment presents them as 'sequel', which is accurate."
+        },
+        {
+          "unit": "gen-3-serpent-sentence/E p3s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:41",
+            "TBWTT-2:39"
+          ],
+          "reasoning": "Speculative, ends 'Nothing in the canon states this.' The supporting lexical/canon evidence it implicitly leans on (the canon's separation language, 'sans contact avec eux', 2:41) is real, though it concerns the departing creators, not the exiles. Honest; ship as labelled."
+        },
+        {
+          "unit": "gen-3-outside-the-garden",
+          "status": "approve",
+          "citations": [
+            "canon-map 3:15-3:18 silent; 3:19 opinion; 3:20 silent"
+          ],
+          "reasoning": "Coverage 'silent' correct (opinion counts as silent); marker present."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/R 3:16",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:41",
+            "Layer-2 3:16"
+          ],
+          "reasoning": "Reports the verse ('the verse announces') without moralising; the canon-derived frame is labelled inferred. 'Hardship and many pregnancies' matches layer 2 and Meyers."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/R 3:17-19",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:41",
+            "TBWTT-2:43"
+          ],
+          "reasoning": "Faithful; 'lives would stay short' grounded in 2:43, inferred."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/R 3:20",
+          "status": "approve",
+          "citations": [
+            "Layer-2 3:20 em kol chai"
+          ],
+          "reasoning": "Faithful; inferred tail is modest."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/E p1s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Silence marker."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 3:16 itsvonech, be'etsev; 3:17 be'itsavon",
+            "C. Meyers, Discovering Eve: Ancient Israelite Women in Context (OUP 1988), verified bibliographically via Open Library"
+          ],
+          "reasoning": "Root 'tsb verified; Meyers' agrarian 'toil and pregnancies' reading and her Duke affiliation correct."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:39",
+            "TBWTT-2:41"
+          ],
+          "reasoning": "Quotation verbatim; transfer of the 3:21 gloss to 3:16-19 is declared ('Read in that light') and labelled inferred."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/E p2s1",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 2:7 afar; 3:19 afar"
+          ],
+          "reasoning": "Verified."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:43"
+          ],
+          "reasoning": "Quotation verbatim; inference from 'if from the start they had been able to live so long' is fair and labelled."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/E p2s3",
+          "status": "approve",
+          "citations": [
+            "ETTMTTP-3:218 (author-opinion)"
+          ],
+          "reasoning": "Quotation verbatim (FR and EN). Labelled as Raël's writing, standing written out, direct as a report; does not ground any framework segment. ADR 0018 satisfied. Keep/drop is the founder's call (editor escalation 3); reviewer sees no fidelity reason to drop. Data note: ETTMTTP-3:218 carries speaker 'Yahweh' in the book file, contradicting the ruling (validator overrides via standingRules)."
+        },
+        {
+          "unit": "gen-3-outside-the-garden/E p3s1",
+          "status": "revise",
+          "citations": [
+            "LXX Gen 3:20 Ζωή; 4:1 and 4:25 Εὔαν (Rahlfs; reviewer's knowledge, not fetched online)",
+            "Vulgate Gen 3:20 'Heva' (Clementine; verified BibleGateway); Stuttgart Vulgate 'Hava'",
+            "TBWTT-2:39"
+          ],
+          "reasoning": "Two inaccuracies: the LXX transliterates the name first at 4:1 (in the accusative Εὔαν) and again at 4:25, so 'only at 4:1 (Εὔα)' is wrong; and the Vulgate of Genesis has Hava/Heva, Eva being the Old Latin and Latin NT form (the editor's own layer-2 errata note says the same, but the lens text was not aligned).",
+          "proposed": {
+            "text": "*Chavvah* is linked by the verse to *chai*, “living”. The Greek Septuagint translates the name here as *Zoe* (Ζωή), “Life”, and first transliterates it at 4:1 (Εὔα); the English “Eve” comes from that Greek form through the Latin *Eva*, the form of the Old Latin and of the New Testament (the Vulgate of Genesis has *Hava*). The Messages use the names Adam and Eve.",
+            "claim": "direct",
+            "canon": [
+              "TBWTT-2:39"
+            ]
+          }
+        },
+        {
+          "unit": "gen-3-garments",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:40",
+            "TBWTT-2:41"
+          ],
+          "reasoning": "Coverage 'quotes' correct."
+        },
+        {
+          "unit": "gen-3-garments/R 3:21",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:40",
+            "TBWTT-2:41"
+          ],
+          "reasoning": "2:41 nearly verbatim; 'The creators made' is already the ruling's form. Refutation: kotnot 'or is a divine act of care in the text, with no 'parting' in view until 3:23; the canon supplies the 'without contact' frame, the label declares it."
+        },
+        {
+          "unit": "gen-3-garments/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:40",
+            "TBWTT-2:41"
+          ],
+          "reasoning": "Both quotations verbatim, including 'The Bible has here preserved a phrase almost intact from the original document.'"
+        },
+        {
+          "unit": "gen-3-garments/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 3:7 chagorot; 3:21 kotnot 'or"
+          ],
+          "reasoning": "Verified."
+        },
+        {
+          "unit": "gen-3-garments/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:41"
+          ],
+          "reasoning": "Inferred, modest."
+        },
+        {
+          "unit": "gen-3-expulsion",
+          "status": "approve",
+          "citations": [
+            "canon-map 3:22 quotes; 3:23-24 quotes"
+          ],
+          "reasoning": "Coverage correct."
+        },
+        {
+          "unit": "gen-3-expulsion/R 3:22",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:42",
+            "TBWTT-2:43"
+          ],
+          "reasoning": "'Through science' follows the French original ('grâce à la science'), the text of record; rest follows 2:43. Refutation: Hebrew 3:22 says 'knowing good and bad', which the canon's quotation drops behind its ellipsis; disclosed in E p1s2."
+        },
+        {
+          "unit": "gen-3-expulsion/R 3:23",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:41",
+            "TBWTT-2:44",
+            "TBWTT-2:45",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "Faithful to 3:23 (vayshallechehu ... la'avod et ha-adamah); 'without contact' from 2:41. As the editor notes, the canon quotes 3:24 (2:44 begins 'Il chassa l'homme'), not 3:23; basis 'canon' passes rule 7 via the map's 3:23-24 entry. Acceptable."
+        },
+        {
+          "unit": "gen-3-expulsion/R 3:24",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:44",
+            "TBWTT-2:45"
+          ],
+          "reasoning": "2:45 nearly verbatim. Refutation: keruvim and lahat ha-cherev ha-mithappechet are standard ANE guardian imagery (E p3s2); the framework substitution rests on 2:45 alone."
+        },
+        {
+          "unit": "gen-3-expulsion/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:42"
+          ],
+          "reasoning": "Quotation verbatim from the project English."
+        },
+        {
+          "unit": "gen-3-expulsion/E p1s2",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:42 (FR and EN)",
+            "the-book-which-tells-the-truth/chapter-2.json translation: {method: ai-assisted, model: claude-opus-4-7, date: 2026-05-16}"
+          ],
+          "reasoning": "The French facts are right ('grâce à la - science (...)' inserted, its own ellipsis drops 'knowing good and bad'). But 'The English edition prints' misdescribes the source: the TBWTT English in data-library is the project's AI-assisted translation (chapter metadata), not a printed edition, and that translation itself drops the canon's words. Whether a printed English edition reads the same was not verifiable here.",
+          "proposed": {
+            "text": "The project’s English text of the Messages, which gives the quotation in King James wording, has only an ellipsis after “as one of us”. At that point the French original has the words *grâce à la science*, “thanks to science”, before its own ellipsis, which leaves out “knowing good and bad”. The phrase is the Messages’ gloss set inside the quotation; it is not in the Hebrew.",
+            "claim": "direct",
+            "canon": [
+              "TBWTT-2:42"
+            ]
+          }
+        },
+        {
+          "unit": "gen-3-expulsion/E p1s3",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 1:26 na'aseh; 3:22 ke'achad mimmennu; 11:7 havah nerdah",
+            "woh-claim-0009@0.1.1",
+            "Wenham, Genesis 1-15, on 1:26"
+          ],
+          "reasoning": "Verified; three standard explanations named. Direct with 0009 per its declared-direct philological layer and the Gen 1 precedent."
+        },
+        {
+          "unit": "gen-3-expulsion/E p1s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:37",
+            "TBWTT-2:42",
+            "TBWTT-2:43",
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "2:43 'nos égaux' confirms the 'us' are the speakers' own kind. Refutation: the plural of 3:22 is most often explained as address to a heavenly council (Westermann, Wenham), which also yields plural beings but subordinate ones; the framework label carries the canon's reading."
+        },
+        {
+          "unit": "gen-3-expulsion/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:43"
+          ],
+          "reasoning": "Both quoted sentences verbatim from the project English; paraphrase sentence faithful."
+        },
+        {
+          "unit": "gen-3-expulsion/NEW after E p2s1 (TBWTT-2:43 election clause)",
+          "status": "revise",
+          "citations": [
+            "Founder ruling 2026-11-27 (quote once at 3:22, in woh-claim-0076 scope wording, framework)",
+            "TBWTT-2:43 (FR 'élu par le jury scientifique comme le type humanoïde terrestre le plus réussi sur le plan intelligence et génie')",
+            "woh-claim-0076@0.1.2 scope.includes[0], scope.excludes[1], [4]"
+          ],
+          "reasoning": "Required by the founder ruling; the chapter currently omits the second half of 2:43 (editor escalation 2, option A, is superseded). Proposed as two segments: a framework segment in 0076's election-clause wording, and a direct segment recording 0076's own exclusions (no ranking endorsed; Jewish election theology in its own voice). Avoids the canon's 1970s word 'race' per 0076 excludes[1]. Add 'woh-claim-0076': '0.1.2' to lens.coreClaims.",
+          "proposed": {
+            "insert_after": "gen-3-expulsion explanation paragraph 2, segment 1",
+            "segments": [
+              {
+                "text": "The same paragraph of the Messages goes on to the people of Israel: at one of the competitions among the teams of creators, they were “chosen by the scientific jury as the most successful terrestrial humanoid type in terms of intelligence and genius”, and the Messages give this as the origin of Israel’s understanding of itself as the chosen people: “it was the people chosen by the teams of creators gathered to judge their works.”",
+                "claim": "framework",
+                "canon": [
+                  "TBWTT-2:43"
+                ],
+                "coreClaim": "woh-claim-0076"
+              },
+              {
+                "text": "Wheel of Heaven records this as the Messages’ account of a self-understanding, not as a ranking of peoples; the election of Israel in the Hebrew Bible (Deuteronomy 7:6–8) is a covenant theme in its own terms.",
+                "claim": "direct"
+              }
+            ]
+          }
+        },
+        {
+          "unit": "gen-3-expulsion/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-7:13",
+            "TBWTT-4:75"
+          ],
+          "reasoning": "Verified: 7:13 'grâce à une petite intervention chirurgicale, «l'arbre de vie» biblique, dix fois plus longtemps que vous'; 4:75 Moses and Elijah 'toujours en vie grâce à «l'arbre de vie»' and the immortality sentence verbatim."
+        },
+        {
+          "unit": "gen-3-expulsion/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49",
+            "TBWTT-2:53"
+          ],
+          "reasoning": "Verified: Adam 930, Seth 912; 'Longevity is not hereditary' verbatim; 'did not automatically benefit' verbatim."
+        },
+        {
+          "unit": "gen-3-expulsion/E p2s4",
+          "status": "approve",
+          "citations": [
+            "A. George, The Babylonian Gilgamesh Epic (2003), SB XI 287-307",
+            "Adapa fragment B (Amarna), Izre'el, Adapa and the South Wind (2001)"
+          ],
+          "reasoning": "Both comparanda correct, including Ea's advice."
+        },
+        {
+          "unit": "gen-3-expulsion/E p3s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:44",
+            "TBWTT-2:45",
+            "woh-claim-0018@0.1.0"
+          ],
+          "reasoning": "Both quotations verbatim."
+        },
+        {
+          "unit": "gen-3-expulsion/E p3s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 3:24 הַמִּתְהַפֶּכֶת",
+            "Wenham, Genesis 1-15, on 3:24"
+          ],
+          "reasoning": "Verified; ANE gateway-guardian comparison mainstream."
+        },
+        {
+          "unit": "gen-3-expulsion/E p3s3",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:39",
+            "TBWTT-2:48",
+            "TBWTT-2:51",
+            "TBWTT-2:55",
+            "TBWTT-2:57",
+            "TBWTT-3:273",
+            "woh-claim-0008@0.1.0"
+          ],
+          "reasoning": "Substance fine and within 0008's canon-articulated arc, but the Flood clause has no cited support: 2:39/2:48/2:51 cover exile, surveillance and marriages only. The decision to 'suppress their creation' is 2:55, motivated by 2:57; TBWTT-3:273 states the government 'wanted at that time to destroy the creators of men', which directly grounds 'conflict'. Refutation: Genesis 6:5-7 motivates the Flood by human wickedness, which the canon itself redefines (2:57); the label declares the canon reading.",
+          "proposed": {
+            "canon": [
+              "TBWTT-2:39",
+              "TBWTT-2:48",
+              "TBWTT-2:51",
+              "TBWTT-2:55",
+              "TBWTT-3:273"
+            ],
+            "text": "unchanged"
+          }
+        }
+      ],
+      "canonFidelityFlags": [
+        {
+          "unit": "gen-3-expulsion/NEW after E p2s1",
+          "severity": "high",
+          "concern": "Founder ruling 2026-11-27 requires the TBWTT-2:43 election clause (woh-claim-0076) to be quoted once at 3:22, labelled framework; the chapter omits it. Proposed wording in the verdict."
+        },
+        {
+          "unit": "gen-3-serpent-sentence/E p1s2",
+          "severity": "medium",
+          "concern": "Presents the Leviathan link as a Wheel of Heaven extension, but the canon makes it: TBWTT-3:271-272 quote Isaiah 27:1 about 'the creators banished at the beginning'. Canon refs 3:271, 3:272 missing; 'the serpent imagery of the Hebrew Bible' over-generalises against 0022's per-passage rule."
+        },
+        {
+          "unit": "gen-3-expulsion/E p1s2",
+          "severity": "medium",
+          "concern": "'The English edition' is the project's AI-assisted translation (claude-opus-4-7, 2026-05-16), not a printed edition; that translation drops the canon's 'grâce à la science' at TBWTT-2:42 (outside-scope errata for the TBWTT translation track)."
+        },
+        {
+          "unit": "gen-3-inquiry/R 3:8, R 3:9-10, E p2s1",
+          "severity": "medium",
+          "concern": "'Yahweh Elohim' in layers 3-4, contrary to the founder ruling (render YHWH-Elohim as 'the creators'). Editor escalation 4 is superseded."
+        },
+        {
+          "unit": "gen-3-expulsion/E p3s3",
+          "severity": "low",
+          "concern": "The Flood clause of the 0008 segment cites no paragraph that mentions the Flood decision (2:55, 2:57) or the government's hostility to the creators (3:273)."
+        },
+        {
+          "unit": "gen-3-serpent/E p2s3",
+          "severity": "low",
+          "concern": "Omission, not error: TBWTT-2:57, the canon's only explicit gloss of 'good' and 'evil' in this arc, is not used in the 'knowing good and bad' paragraph. Optional."
+        }
+      ],
+      "labelFlags": [
+        {
+          "unit": "gen-3-serpent/E p2s2",
+          "current": "direct + canon TBWTT-2:30",
+          "proposed": "direct, no canon ref",
+          "reason": "The canon ref implies canon support for a scholarly survey it does not contain."
+        },
+        {
+          "unit": "gen-3-serpent/E p4s4",
+          "current": "direct",
+          "proposed": "direct (after rewording)",
+          "reason": "'Jewish interpretation did not ...' is too absolute for direct; 4 Ezra 7:118 is a counter-example; narrow to rabbinic Judaism."
+        },
+        {
+          "unit": "gen-3-serpent/R 3:6",
+          "current": "basis canon",
+          "proposed": "basis synthesis (optional)",
+          "reason": "The canon neither quotes nor glosses 3:6; label inferred is already honest."
+        },
+        {
+          "unit": "gen-3-expulsion/NEW (0076)",
+          "current": "absent",
+          "proposed": "framework (canon TBWTT-2:43, coreClaim woh-claim-0076) + direct",
+          "reason": "Founder ruling."
+        }
+      ],
+      "lensLeakageFlags": [],
+      "voiceAndCoverage": "All 17 readings are in the third person; first person appears only inside canon quotations. Canon-silent markers present for 3:8-13 (E p1s1), 3:15 (in R 3:15 and E p3s1) and 3:16-20 (E p1s1). No layer-4 segment presents canon content as what the Hebrew says: canon content is consistently attributed ('The Messages ...', 'Read with the Messages', 'In the verse's image'), and the 'touch' and 'grâce à la science' segments explicitly separate the Messages' text from the Hebrew. Author-opinion segments (LWTE-2:21-22, ETTMTTP-3:218) are clearly marked and ground no framework segment. The 'Fall' is handled without moralising: textual fact, history of doctrine, and the canon's position side by side; nothing in layers 3-4 frames the humans as guilty. Speculative segments: 2 (touch echo; enmity as separation), both honest.",
+      "outsideScopeNotes": [
+        "TBWTT translation track: TBWTT-2:42 project English omits 'grâce à la science' (canon words) by substituting the KJV text with an ellipsis; errata candidate. Same paragraph family: 3:272 English gives KJV 'piercing serpent' for French 'serpent fuyard'.",
+        "extraterrestrials-took-me-to-their-planet/chapter-3.json: ETTMTTP-3:218 (and neighbours) carry speaker 'Yahweh', contradicting the 2026-11-27 ruling that 'The Keys' is author-written; the validator overrides via standingRules but other consumers may be misled.",
+        "canon-map: consider adding LWTE-2:21 (opinion) to the 3:1-5 entry, since the lens cites it; and TBWTT-3:271-272 could be noted as cross-references when the Isaiah 27 lens is built.",
+        "Layer-2 errata queue from the editor (3:20 Eve note; 3:1 'closing word of 2:25') confirmed: the Vulgate of Genesis 3:20 reads Heva (Clementine) / Hava (Stuttgart), and the last word of 2:25 is yitboshashu.",
+        "core: woh-claim-0008 scope lists Lucifer as exiled-creator leader; the name is LWTE-only (verified by grep). Agree with editor escalation 1, option B, at 0008's next revision."
+      ],
+      "adjustmentsAfterEditorReport": [
+        "Editor escalation 2 (TBWTT-2:43 chosen-people half, recommended omission) and escalation 4 ('Yahweh Elohim') are superseded by the founder rulings of 2026-11-27 relayed by the coordinator; my verdicts apply the rulings. No change to my other verdicts.",
+        "Editor escalation 3 ('The Keys' at 3:19): agree it is honest as written; verdict stays approve; keep/drop remains the founder's call.",
+        "Editor's own layer-2 errata note on the Vulgate (Hava/Heva) confirms my Chavvah revise; the lens text was not aligned with it, so the revise stands.",
+        "Editor's method describes the TBWTT English as 'as printed'; chapter metadata shows it is the project's AI-assisted translation, so my E p1s2 (expulsion) revise stands.",
+        "Editor's note that the canon quotes nothing from 3:23 matches my R 3:23 note; no change.",
+        "Editor did not identify TBWTT-3:271-272 as canon basis for the Leviathan segment; revise stands."
+      ],
+      "founderRulings": [
+        {
+          "date": "2026-11-27",
+          "unit": "chapter-3 layers 3-4",
+          "ruling": "YHWH-Elohim is rendered 'the creators' in layers 3-4 (layer 2 keeps 'YHWH-Elohim'). Applied as revise items R 3:8, R 3:9-10, inquiry E p2s1."
+        },
+        {
+          "date": "2026-11-27",
+          "unit": "gen-3-expulsion (3:22)",
+          "ruling": "TBWTT-2:43's election statement (woh-claim-0076) is quoted once at Genesis 3:22, in 0076's scope wording, labelled framework. Applied as a revise item with proposed segments."
+        },
+        {
+          "at": "2026-11-27T18:00:00Z",
+          "ruling": "Signed off (form 2026-11-27); YHWH-Elohim rendered 'the creators'; TBWTT 2:43 only at 3:22; The Keys at 3:19 kept, labelled author opinion; claim 0008 Lucifer to be marked LWTE usage at next revision"
+        }
+      ]
+    }
+  },
+  "passages": [
+    {
+      "id": "gen-3-serpent",
+      "range": [
+        "3:1",
+        "3:7"
+      ],
+      "title": {
+        "en": "The Serpent and the Forbidden Knowledge"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "3:1"
+          ],
+          "text": {
+            "en": "Within the team of creators, a small group, the “serpent” of the story, wanted the humans to know the truth. They came to the woman and questioned the ban: had the Elohim really said that nothing in the garden was to be eaten?"
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:34",
+            "TBWTT-2:39"
+          ],
+          "coreClaim": "woh-claim-0022"
+        },
+        {
+          "refs": [
+            "3:2-3"
+          ],
+          "text": {
+            "en": "The woman answered that they were free to learn from everything around them. Only the scientific knowledge kept at the centre of the garden was forbidden: the creators had said that they were not even to touch it, or they would die."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:30",
+            "TBWTT-2:34"
+          ],
+          "coreClaim": "woh-claim-0018"
+        },
+        {
+          "refs": [
+            "3:4-5"
+          ],
+          "text": {
+            "en": "The group told the two young people, almost adults by now, that they would not die. They could pursue scientific studies; their eyes would be opened, and they would be as strong as their creators, like the Elohim themselves."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:34",
+            "TBWTT-2:35"
+          ]
+        },
+        {
+          "refs": [
+            "3:6"
+          ],
+          "text": {
+            "en": "The woman judged this knowledge good, attractive, and worth having for the understanding it gave, and she took it up. The man was with her, and he took it up too."
+          },
+          "basis": "synthesis",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:35",
+            "TBWTT-2:37"
+          ]
+        },
+        {
+          "refs": [
+            "3:7"
+          ],
+          "text": {
+            "en": "Their eyes were opened. They understood that they too could become creators, and they resented their fathers for having forbidden them to touch the scientific books, as if they were dangerous laboratory animals. In the verse’s image, they saw that they were naked and made themselves belts of fig leaves."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:36",
+            "TBWTT-2:37"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages quote this dialogue in abridged form, ending on the promise “ye shall be as gods”, and explain it at once. Among the scientists of the team that created the first humans, a few who deeply loved their little men, their “creatures”, wanted to give them a complete education and make them scientists like themselves. They told these young people, who were almost adults, that they could pursue scientific studies and would be as strong as their creators."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:34",
+                "TBWTT-2:35"
+              ]
+            },
+            {
+              "text": {
+                "en": "When the Messages come to the serpent’s sentence they say who the serpent was: “that small group of creators who had wanted to teach Adam and Eve the truth”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:39"
+              ],
+              "coreClaim": "woh-claim-0022"
+            },
+            {
+              "text": {
+                "en": "In his own commentary, *Let’s Welcome the Extraterrestrials*, Raël names the leader of this group Lucifer, “light bearer”. The dictated Messages give the group no leader and no name; this is the author’s opinion, cited as such, not canon."
+              },
+              "claim": "direct",
+              "canon": [
+                {
+                  "ref": "LWTE-2:21",
+                  "standing": "author-opinion"
+                },
+                {
+                  "ref": "LWTE-2:22",
+                  "standing": "author-opinion"
+                }
+              ]
+            },
+            {
+              "text": {
+                "en": "*Nachash* is the ordinary Hebrew word for a snake. The serpent is called *arum*, “shrewd”, a sound-play on *arummim*, “naked”, in 2:25; the two words sound alike but come from different roots."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages explain the forbidden tree when they quote the ban of 2:16–17: “you may learn everything you want, read all the books we have here at your disposal, but do not touch the scientific books or you will die.” The man created in this team was the most intelligent, so the creators confined him “in ignorance of the great scientific secrets while being educated, so that his intelligence could be measured”, in order that the created would not surpass the creator."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:28",
+                "TBWTT-2:30"
+              ],
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "“Knowing good and bad” is read by many scholars as a merism, a pair of opposites standing for knowledge as a whole; others take it as moral discernment or as the capacity to decide for oneself."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages read the forbidden knowledge as science: their gloss of the ban turns the tree into “the scientific books”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:30"
+              ]
+            },
+            {
+              "text": {
+                "en": "Glossing the “wickedness” of Genesis 6:5, the Messages later define the pair from the side of the distant planet’s authorities: “Good, for them, was that man should remain a primitive being vegetating on Earth. Evil was that he should want to make progress, risking one day being in a position to rejoin his creators.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:57"
+              ]
+            },
+            {
+              "text": {
+                "en": "The woman’s answer differs from the ban of 2:17. She adds “you shall not touch it”, and she softens “you shall surely die” to “lest you die”. The Messages’ paraphrase of the ban, which glosses 2:17, also speaks of touching: “do not touch the scientific books”."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:30",
+                "TBWTT-2:37"
+              ]
+            },
+            {
+              "text": {
+                "en": "Rabbinic tradition also doubts that the fence was hers. In *Avot de-Rabbi Natan* (version A, chapter 1) it is Adam who adds “you shall not touch it” when he passes the command on to her, and the serpent then pushes her against the tree to show that touching it does not kill."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "One Wheel of Heaven reading therefore takes her “touch” as an echo of the creators’ own wording of the ban, so that she would not have added the fence herself. The match exists only in the Messages’ French and English; Genesis gives the ban of 2:17 without it, and the Messages do not comment on her words."
+              },
+              "claim": "speculative"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The serpent’s promise, *ke-elohim*, can be read “like God” or “like gods”. The Greek Septuagint and the King James Version have the plural, “as gods”, and so does the Messages’ quotation; the Wheel of Heaven translation reads “like the Elohim”."
+              },
+              "claim": "direct",
+              "coreClaim": "woh-claim-0009"
+            },
+            {
+              "text": {
+                "en": "In the Messages the promise is concrete: the humans could study the sciences and become “as strong as their creators”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:35"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages quote verse 7, “And the eyes of them both were opened, and they knew that they were naked”, and say what was understood: “Then they understood that they too could become creators, and they resented their fathers for having forbidden them to touch the scientific books, thus regarding them as dangerous laboratory animals.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:36",
+                "TBWTT-2:37"
+              ]
+            },
+            {
+              "text": {
+                "en": "Verse 7 repeats the verb of the serpent’s promise in verse 5, “your eyes will be opened” (*paqach*). Within the story, the first of the serpent’s predictions comes true in the same words."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages say nothing of the fig leaves. Their comment follows directly on the words “they knew that they were naked”, so in their reading the new awareness of nakedness stands for the discovery that the humans too could become creators."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:37"
+              ]
+            },
+            {
+              "text": {
+                "en": "The chapter never uses the word “sin”; in Genesis the word (*chattat*) first appears at 4:7. The doctrine of a “Fall” and of original sin was developed in Christian theology, above all by Augustine, building on Paul (Romans 5:12–21). Some Jewish writings of the late Second Temple period lament the consequences of Adam’s act for his descendants (4 Ezra 7:118), but rabbinic Judaism did not make the episode a doctrine of inherited guilt."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages tell the episode without any language of sin: in their account the humans learned the truth from a few creators who “deeply loved” them."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:35",
+                "TBWTT-2:39"
+              ]
+            },
+            {
+              "text": {
+                "en": "Elsewhere the Messages name the doctrine once, speaking of “those who make people believe in original sin and make a man a culprit”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-5:12"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-3-inquiry",
+      "range": [
+        "3:8",
+        "3:13"
+      ],
+      "title": {
+        "en": "Hiding and the Inquiry"
+      },
+      "canonCoverage": "silent",
+      "readings": [
+        {
+          "refs": [
+            "3:8"
+          ],
+          "text": {
+            "en": "When the creators were heard walking about in the garden in the evening breeze, the man and the woman hid from them among the trees."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "3:9-10"
+          ],
+          "text": {
+            "en": "The creators called to the man. He answered that he had hidden out of fear because he was naked: the knowledge the two had gained made them see themselves differently in front of their makers."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "3:11-13"
+          ],
+          "text": {
+            "en": "The questions traced the knowledge to its source. The man pointed to the woman, and beyond her to the one who had given her to him; the woman pointed to the serpent. In the Messages’ terms, the trail led to the small group of creators who had taught them."
+          },
+          "basis": "synthesis",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:39"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In this Reading the Hebrew *YHWH-Elohim* is rendered as the creators. The dictated Messages do give their speaker’s name, “My name is Yahweh and I am the president of the council of the eternals” (ETTMTTP 2:50), but they do not identify him with the *YHWH-Elohim* of this scene."
+              },
+              "claim": "direct",
+              "canon": [
+                "ETTMTTP-2:50"
+              ]
+            },
+            {
+              "text": {
+                "en": "The scene is a questioning in three steps: “Where are you?” (*ayekka*), “Who told you that you were naked?”, and “What is this you have done?”. Each answer passes the responsibility on: the man to the woman and to the one who gave her to him, the woman to the serpent."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read with the Messages, the question “Who told you?” has a literal answer. A small group of creators had told the humans that they could study the sciences and become like their makers."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:35",
+                "TBWTT-2:39"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The woman says “the serpent deceived me” (*hishiani*). Within the story, however, what the serpent promised comes true: the eyes are opened (3:7), and the creators themselves say that the human has become “like one of us” (3:22). The death threatened “on the day” of eating does not follow; Adam lives on to 930 years (5:5). James Barr, Regius Professor of Hebrew at Oxford from 1978 to 1989, argued in *The Garden of Eden and the Hope of Immortality* (1992) that the story tells how humans lost the chance of immortality, not how sin entered the world."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "This fits the Messages’ description of the serpent as creators “who had wanted to teach Adam and Eve the truth”. On this reading, the deception the woman names is her defence under questioning; the narrator calls the serpent shrewd but never calls its words a lie."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:39"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-3-serpent-sentence",
+      "range": [
+        "3:14",
+        "3:15"
+      ],
+      "title": {
+        "en": "The Sentence on the Serpent"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "3:14"
+          ],
+          "text": {
+            "en": "The small group of creators who had taught the humans was condemned by the government of the original planet to live on Earth in exile, while the other creators had to stop their experiments and leave the Earth. In the verse’s image, the serpent is to go on its belly and eat dust all its days."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:38",
+            "TBWTT-2:39"
+          ]
+        },
+        {
+          "refs": [
+            "3:15"
+          ],
+          "text": {
+            "en": "Enmity was decreed between the serpent and the woman, and between their offspring, each striking at the other. The Messages do not quote this verse, and in their sequel the exiles stay close to humankind: they take wives among the daughters of men."
+          },
+          "basis": "synthesis",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:48",
+            "TBWTT-2:51"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages quote the curse on the serpent, “upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life”, and explain it: the “serpent”, “that small group of creators who had wanted to teach Adam and Eve the truth”, “was condemned by the government of the original planet to live on Earth in exile, while the other creators had to stop their experiments and leave the Earth.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:38",
+                "TBWTT-2:39"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Messages themselves make a second link. Speaking of “the creators banished at the beginning”, who hid in bases under the oceans, they quote Isaiah 27:1 on Leviathan, “the fleeing serpent” (French « le serpent fuyard »). The Wheel of Heaven reading takes this serpent vocabulary, the *nachash* of this chapter and the Leviathan of Isaiah, as the way the tradition remembered the exiled group, judged passage by passage rather than for every serpent in the Bible. The reading rests on the Messages’ identification, not on any etymology of the word."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:39",
+                "TBWTT-3:271",
+                "TBWTT-3:272"
+              ],
+              "coreClaim": "woh-claim-0022"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Of the three addressed in verses 14–19, only the serpent hears “cursed are you” (*arur attah*). For the man it is the ground that is cursed “because of you” (3:17), and the woman is not cursed at all. Mainstream commentators also read verse 14 as an etiology, a story explaining why snakes move on their bellies."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages quote verse 14 but not verse 15; what follows on the enmity is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The verb of verse 15 (*shuf*, strike or crush) is used for both sides: the woman’s offspring strikes the serpent’s head, and the serpent strikes its heel. From Irenaeus in the second century, Christian tradition read the verse as the first announcement of a redeemer, later called the “protoevangelium”; in the Latin West the Vulgate’s *ipsa conteret*, “she shall crush”, turned that reading toward Mary. In the Hebrew the pronoun *hu* and its verb are masculine, agreeing with *zera*, “offspring”."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages’ sequel the exiled creators, “who remained under military surveillance”, urged the men to bring them food to show that the beings they had created “would never turn against their fathers”, and they took the most beautiful daughters of men as wives."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:48",
+                "TBWTT-2:51"
+              ]
+            },
+            {
+              "text": {
+                "en": "One Wheel of Heaven reading takes the enmity as the separation the authorities of the original planet wanted to impose between the exiles and the humans, not as a hostility that arose between them. Nothing in the canon states this."
+              },
+              "claim": "speculative"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-3-outside-the-garden",
+      "range": [
+        "3:16",
+        "3:20"
+      ],
+      "title": {
+        "en": "Life Outside the Garden"
+      },
+      "canonCoverage": "silent",
+      "readings": [
+        {
+          "refs": [
+            "3:16"
+          ],
+          "text": {
+            "en": "To the woman the verse announces hardship and many pregnancies, and a longing for her husband, who would rule over her. These are the terms of life for a humanity that would now raise its children without the creators’ help."
+          },
+          "basis": "synthesis",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:41"
+          ]
+        },
+        {
+          "refs": [
+            "3:17-19"
+          ],
+          "text": {
+            "en": "To the man it announces that the ground would give its food only to hard work, among thorns and thistles, until he returned to the dust he was made from. Outside the garden the humans would feed themselves by their own labour, and their lives would stay short."
+          },
+          "basis": "synthesis",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:41",
+            "TBWTT-2:43"
+          ]
+        },
+        {
+          "refs": [
+            "3:20"
+          ],
+          "text": {
+            "en": "The man named his woman Chavvah (Eve), “living”, for she was to be the mother of all who live: the first mother of a humanity that would now continue on its own."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The woman’s hardship in bearing children (*itsavon*, *etsev*) and the man’s hardship in working the ground (*itsavon*, 3:17) use the same Hebrew root. Carol Meyers, archaeologist and biblical scholar at Duke University, reads verse 16 in *Discovering Eve* (1988) against the demands of farming life in the Israelite highlands: more toil and more pregnancies."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "From this speech the Messages quote only the sentence on the serpent, and they describe the humans’ new condition in practical terms: the creators gave them “rudimentary means of survival, enough to manage on their own without contact with them”. Read in that light, verses 16–19 describe the conditions of life without the creators’ care."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:39",
+                "TBWTT-2:41"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "“You are dust, and to dust you shall return” uses *afar*, the dust of 2:7 from which the human was formed."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages, humans were not made long-lived: “Men’s lives are very short”, and the means of prolonging them, the “tree of life”, is what the creators withhold at 3:22. On this reading, verse 19 states a mortality the humans already had."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:43"
+              ]
+            },
+            {
+              "text": {
+                "en": "A passage in “The Keys”, the closing chapter of *Extraterrestrials Took Me to Their Planet*, echoes this verse: “You were only matter, dust, and the Elohim made of you living beings capable of dominating matter, in their image, and you will become matter again, dust, and they will make you live again, as they created you, scientifically.” “The Keys” is Raël’s own writing, not dictated text; the passage is cited as the author’s opinion, not as the Messages’ reading."
+              },
+              "claim": "direct",
+              "canon": [
+                {
+                  "ref": "ETTMTTP-3:218",
+                  "standing": "author-opinion"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "*Chavvah* is linked by the verse to *chai*, “living”. The Greek Septuagint translates the name here as *Zoe* (Ζωή), “Life”, and first transliterates it at 4:1 (Εὕα); the English “Eve” comes from that Greek form through the Latin *Eva*, the form of the Old Latin and of the New Testament (the Vulgate of Genesis has *Hava*, in the Clementine edition *Heva*). The Messages use the names Adam and Eve."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:39"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-3-garments",
+      "range": [
+        "3:21",
+        "3:21"
+      ],
+      "title": {
+        "en": "The Garments of Skin"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "3:21"
+          ],
+          "text": {
+            "en": "The creators made tunics of skin for the man and the woman and clothed them: part of the rudimentary means of survival they gave the two, enough to manage on their own without contact with them."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:40",
+            "TBWTT-2:41"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages quote the verse, “Unto the man also and to his wife did Elohim make coats of skins, and clothed them”, and explain: “The creators gave them rudimentary means of survival, enough to manage on their own without contact with them. The Bible has here preserved a phrase almost intact from the original document.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:40",
+                "TBWTT-2:41"
+              ]
+            },
+            {
+              "text": {
+                "en": "The tunics of hide replace the improvised fig-leaf belts of verse 7. The text does not say where the skins came from."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages’ account the gesture is provision before parting: the humans are equipped to live without their makers."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:41"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-3-expulsion",
+      "range": [
+        "3:22",
+        "3:24"
+      ],
+      "title": {
+        "en": "The Tree of Life and the Expulsion"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "3:22"
+          ],
+          "text": {
+            "en": "The human had become like one of the creators, through science. Now he had to be kept from the “tree of life”, the scientific means of prolonging life for a very long time: with lives that long, humans would very quickly become the creators’ equals."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:42",
+            "TBWTT-2:43"
+          ]
+        },
+        {
+          "refs": [
+            "3:23"
+          ],
+          "text": {
+            "en": "So the man was sent away from the garden to work the ground he had been taken from, and to live from then on without contact with his creators."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:41",
+            "TBWTT-2:44",
+            "TBWTT-2:45"
+          ],
+          "coreClaim": "woh-claim-0018"
+        },
+        {
+          "refs": [
+            "3:24"
+          ],
+          "text": {
+            "en": "At the entrance to the creators’ residence, on the east side of the garden, military personnel with disintegrating atomic weapons were posted to stop the humans from coming to steal further scientific knowledge."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:44",
+            "TBWTT-2:45"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages quote verse 22, “Behold, the man is become as one of us (…). And now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:42"
+              ]
+            },
+            {
+              "text": {
+                "en": "The project’s English text of the Messages, which gives the quotation in King James wording, has only an ellipsis after “as one of us”. At that point the French original has the words *grâce à la science*, “thanks to science”, before its own ellipsis, which leaves out “knowing good and bad”. The phrase is the Messages’ gloss set inside the quotation; it is not in the Hebrew."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:42"
+              ]
+            },
+            {
+              "text": {
+                "en": "“Like one of us” is the second time Genesis has the divine speaker use the plural, after 1:26 (and before 11:7). Commentators explain it as speech to a heavenly court, as a plural of majesty, or as deliberation."
+              },
+              "claim": "direct",
+              "coreClaim": "woh-claim-0009"
+            },
+            {
+              "text": {
+                "en": "Read with the Messages, the “us” are the Elohim themselves, and the man has become like one of them by acquiring their science."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:37",
+                "TBWTT-2:42"
+              ],
+              "coreClaim": "woh-claim-0009"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages explain the tree of life as longevity: “Men’s lives are very short, and there is a scientific means of prolonging them for a very long time.” A scientist who studies all his life has enough knowledge to make interesting discoveries only when he grows old, hence the slowness of human progress. “If men could live ten times longer, they would make a gigantic scientific leap. If from the start they had been able to live so long, they would very quickly have become our equals, because their faculties are slightly superior to ours.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:43"
+              ]
+            },
+            {
+              "text": {
+                "en": "The same paragraph goes on to the people of Israel. At one of the competitions among the teams of creators, they were “chosen by the scientific jury as the most successful terrestrial humanoid type in terms of intelligence and genius”, and the Messages give this as the origin of Israel’s understanding of itself as the chosen people: “it was the people chosen by the teams of creators gathered to judge their works.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:43"
+              ],
+              "coreClaim": "woh-claim-0076"
+            },
+            {
+              "text": {
+                "en": "Wheel of Heaven records this clause as the canon’s account of a self-understanding, not as a ranking the corpus endorses, and makes no claim of biological superiority or individual worth. The election of Israel in the Hebrew Bible is a covenant theme in its own terms: Deuteronomy 7:6–8 grounds it in divine love and in the oath sworn to the fathers, not in Israel’s numbers."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Elsewhere the Messages say that the Elohim themselves live ten times longer than humans “thanks to a small surgical intervention”, which they identify with the biblical “tree of life”. Moses and Elijah, seen at the Transfiguration, are still alive thanks to it, and “Immortality is a scientific reality, even if it does not correspond to the idea that man makes of it.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-7:13",
+                "TBWTT-4:75"
+              ]
+            },
+            {
+              "text": {
+                "en": "The tree was later granted to the chiefs of the first men, which the Messages give as the reason for the long lives of Genesis 5: Adam nine hundred and thirty years, Seth nine hundred and twelve. “Longevity is not hereditary”, and the children of men did not automatically benefit from it."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:49",
+                "TBWTT-2:53"
+              ]
+            },
+            {
+              "text": {
+                "en": "Other Near Eastern stories also tie lost immortality to a plant or a food. In the *Epic of Gilgamesh* (tablet XI) a snake steals the plant of rejuvenation; in the myth of Adapa, the hero, on the advice of the god Ea, refuses the bread and water of life offered by the god Anu."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages quote verse 24, “So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life”, and explain it: “Military personnel possessing disintegrating atomic weapons were placed at the entrance to the creators’ residence in order to prevent man from coming to steal further scientific knowledge.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:44",
+                "TBWTT-2:45"
+              ],
+              "coreClaim": "woh-claim-0018"
+            },
+            {
+              "text": {
+                "en": "In Hebrew the *keruvim* are winged composite guardians, comparable to the figures that flank palace and temple gateways in Mesopotamian art, and the “flaming blade” is one that “turns itself” (*mithappechet*)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The disclosure and the exile open a conflict between the government of the original planet and the exiled creators that the Messages follow through the next chapters: the exiles under military surveillance (Genesis 4), their marriages with the daughters of men (Genesis 6), and the Flood."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:39",
+                "TBWTT-2:48",
+                "TBWTT-2:51",
+                "TBWTT-2:55",
+                "TBWTT-3:273"
+              ],
+              "coreClaim": "woh-claim-0008"
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}
