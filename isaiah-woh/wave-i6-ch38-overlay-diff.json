@@ -1,0 +1,148 @@
+[
+ {
+  "op": "version",
+  "from": "4.0.0",
+  "to": "4.1.0",
+  "readBase": "4.0.0",
+  "note": "Isaiah wave I-6, chapter 38 Editor. Read base: overlay v4.0.0 (read-only). Contents: 3 add ops (lexical-cruxes-isaiah-38, maalot-steps-of-ahaz-isaiah-38, ydh-give-thanks-hll-praise-isaiah; all direct) and 6 modify ops (appliesTo extensions with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. CONCURRENCY: the Editors for Isa 36, 37, 39 and 41 work from the same base; merge as a union. Likely overlaps: title-and-meta-conventions-isaiah, mt-qere-textual-policy-isaiah, elohei-yisrael-god-of-israel-isaiah-24, adonai-standalone-title-isaiah. Cross-check for the chapter 37 Editor: 38:6 now prints gnn 'protect' (as stable 31:5 and the 37:35 draft). maalot-steps-of-ahaz-isaiah-38 should be promoted to central when 2 Kgs 20:9-11 enters the corpus (rule 3: Isaiah sets the shared wording)."
+ },
+ {
+  "op": "add",
+  "entry": {
+   "id": "maalot-steps-of-ahaz-isaiah-38",
+   "source": "צֵל הַמַּעֲלוֹת · מַעֲלוֹת אָחָז · עֶשֶׂר מַעֲלוֹת · וַתָּשָׁב הַשֶּׁמֶשׁ (Isa 38:8)",
+   "translit": "ṣēl hammaʿălôṯ; maʿălôṯ ʾāḥāz; ʿeśer maʿălôṯ; wattāšoḇ haššemeš",
+   "strongs": "H4609 (maʿălāh); H6738 (ṣēl); H271 (ʾāḥāz); H8121 (šemeš); H7725 (šûḇ). Strong's numbers from model recall, not concordance-verified.",
+   "lemma": "maʿălāh 'step, stair' (plural maʿălôṯ), from ʿlh 'go up'",
+   "partOfSpeech": "noun, feminine plural (five times in one verse, absolute and construct)",
+   "literal": "the shadow of the steps; the steps of Ahaz; ten steps; and the sun returned",
+   "standardEnglish": "ASV 'the shadow on the steps … on the dial of Ahaz … ten steps. So the sun returned ten steps on the dial whereon it was gone down'; KJV 'the shadow of the degrees … in the sun dial of Ahaz, ten degrees … ten degrees, by which degrees'; JPS 1917 'the shadow of the dial … on the sun-dial of Ahaz … ten degrees … ten degrees, by which degrees'; NJPS 'the shadow on the steps … on the dial of Ahaz … ten steps. And the sun[’s shadow] receded ten steps, the same steps' with the note 'Heb. \"steps.\" A model of a dial with steps has been discovered in Egypt' (ASV and KJV via bible-api.com; JPS 1917 and NJPS 1985, not the Gender-Sensitive Edition, via Sefaria API v3; checked 2026-11-27). NJPS prints the same note at 2 Kgs 20:11.",
+   "wohChoice": "'steps' at all five occurrences of maʿălôṯ in 38:8: 'the shadow on the steps, which has gone down on the steps of Ahaz with the sun, to return backward ten steps. So the sun returned ten steps on the steps down which it had gone.' No 'dial', 'sundial' or 'degrees' in the line; the instrument-or-stairway question in commentary. The subject of wattāšoḇ is kept literally, 'the sun returned' (no supplied '[shadow]'); baššemeš 'with the sun' (ASV).",
+   "claim_type": "direct",
+   "rationale": "The Hebrew of Isa 38:8 uses one noun, maʿălāh 'step, stair', five times, and the line gives it one English word so that the reader sees the repetition the verse is built on. ASV switches between 'steps' and 'dial', and JPS 1917 and KJV between 'dial' and 'degrees'; 'dial' and 'degrees' are interpretations of what the steps were, and NJPS, which also prints 'dial', notes that the Hebrew says 'steps'. Whether maʿălôṯ ʾāḥāz was a palace stairway on which a shadow fell or a stepped instrument for telling time is not settled by the word: Rashi describes 'a sort of steps made opposite the sun to determine the hours of the day', Metzudat David says that Ahaz built them and the shadow went down one step an hour (Sefaria, checked), and a reported 1QIsaᵃ reading 'the upper chamber of Ahaz' (not verified against DJD 32) would point to a stairway. 'Steps' is the lexical gloss and keeps both readings open, so the claim is direct. The literal subject 'the sun returned' is kept with ASV, KJV and JPS 1917; NJPS brackets its supplied '[’s shadow]', and 2 Kgs 20:11 instead has YHWH bring the shadow back (wayyāšeḇ ʾeṯ-haṣṣēl, MT checked) — the difference is recorded in commentary and not harmonised. The verse is lens-salient: the line names no mechanism, and the only project reading (TBWTT 3:69-71 on Josh 10:13, a different verse) appears in a separately labelled speculative reception note; the canon does not cite Isa 38 or 2 Kgs 20 (data-library TBWTT, ETTMTTP and LWTE searched 2026-11-27).",
+   "appliesTo": [
+    "ISA-38:8"
+   ]
+  }
+ },
+ {
+  "op": "add",
+  "entry": {
+   "id": "ydh-give-thanks-hll-praise-isaiah",
+   "source": "אוֹדְךָ (12:1) · הוֹדוּ (12:4) · תּוֹדֶךָּ … יְהַלְלֶךָּ (38:18) · יוֹדֶךָ (38:19)",
+   "translit": "ʾôḏᵉḵā; hôḏû; tôḏeḵḵā … yᵉhallᵉleḵḵā; yôḏeḵā",
+   "strongs": "H3034 (ydh); H1984 (hll). Strong's numbers from model recall, not concordance-verified.",
+   "lemma": "ydh Hiphil 'give thanks, acknowledge'; hll Piel 'praise'",
+   "partOfSpeech": "verbs (Hiphil imperfect and imperative of ydh; Piel imperfect of hll)",
+   "literal": "I will give thanks to you; give thanks!; (it) gives thanks to you … praises you; he gives thanks to you",
+   "standardEnglish": "ASV 12:1 'I will give thanks unto thee', 12:4 'Give thanks unto Jehovah', 38:18 'Sheol cannot praise thee, death cannot celebrate thee', 38:19 'he shall praise thee'; JPS 1917 38:18-19 the same as ASV; NJPS 12:1 'I give thanks to You', 38:18 'it is not Sheol that praises You, Not [the Land of] Death that extols You', 38:19 'Can give thanks to You' (bible-api.com and Sefaria API v3, checked 2026-11-27).",
+   "wohChoice": "ydh Hiphil 'give thanks' (12:1, 4, as printed; 38:18 'She'ol cannot give thanks to you'; 38:19 'he shall give thanks to you'); hll Piel 'praise' (38:18 'death cannot praise you'). Recorded exception, not governed: stable 25:1 ʾôḏeh šimḵā 'I will praise your name'.",
+   "claim_type": "direct",
+   "rationale": "Isa 38:18 sets ydh and hll in parallel, and ASV and JPS 1917 render them 'praise … celebrate', which uses for ydh the English that hll normally has. The book already renders ydh 'give thanks' in the songs of Isaiah 12 (12:1 ʾôḏᵉḵā, 12:4 hôḏû), and NJPS renders ydh 'give thanks' at 38:19 and 12:1 (checked); 'give thanks' for ydh and 'praise' for hll are the standard English glosses of the two roots. Giving each root one English word lets the reader see that Hezekiah's psalm, a thanksgiving, uses the same verb as the thanksgiving songs of chapter 12, and frees 'praise' for hll in 38:18. The theme that the dead cannot give thanks is shared with Pss 6:6 (bišʾôl mî yôḏeh-llāḵ), 30:10 (hăyôḏᵉḵā ʿāp̄ār, beside ʾămittekā) and 115:17 (lōʾ hammēṯîm yᵉhallᵉlû-yāh) (MT checked). The stable 25:1 has 'I will praise your name' for ʾôḏeh šimḵā; it is not changed in this wave and is recorded as an open concordance item for the next revision of that chapter. The renderings are standard lexical glosses, so the claim is direct.",
+   "appliesTo": [
+    "ISA-12:1",
+    "ISA-12:4",
+    "ISA-38:18",
+    "ISA-38:19"
+   ]
+  }
+ },
+ {
+  "op": "add",
+  "entry": {
+   "id": "lexical-cruxes-isaiah-38",
+   "source": "צַו לְבֵיתֶךָ (38:1) · וּבְלֵב שָׁלֵם · בְּכִי גָדוֹל · בֶּאֱמֶת (38:3) · וְגַנּוֹתִי (38:6) · מִכְתָּב (38:9) · בִּדְמִי יָמַי · פֻּקַּדְתִּי (38:10) · יוֹשְׁבֵי חָדֶל (38:11) · דּוֹרִי · קִפַּדְתִּי · מִדַּלָּה · תַּשְׁלִימֵנִי (38:12) · שִׁוִּיתִי (38:13) · כְּסוּס עָגוּר · אֲצַפְצֵף · עָשְׁקָה־לִּי עָרְבֵנִי (38:14) · אֶדַּדֶּה (38:15) · עֲלֵיהֶם יִחְיוּ · וְתַחֲלִימֵנִי וְהַחֲיֵנִי (38:16) · לְשָׁלוֹם מַר־לִי מָר · חָשַׁקְתָּ · שַׁחַת בְּלִי (38:17) · אֲמִתֶּךָ (38:18, 19) · יְהוָה לְהוֹשִׁיעֵנִי · נְגִנוֹתַי נְנַגֵּן (38:20) · וַיֹּאמֶר · דְּבֶלֶת תְּאֵנִים · וְיִמְרְחוּ עַל־הַשְּׁחִין (38:21) · וַיֹּאמֶר חִזְקִיָּהוּ (38:22)",
+   "translit": "ṣaw lᵉḇêṯeḵā; ûḇᵉlēḇ šālēm; bᵉḵî ḡāḏôl; beʾĕmeṯ; wᵉḡannôṯî; miḵtāḇ; biḏmî yāmay; puqqaḏtî; yôšᵉḇê ḥāḏel; dôrî; qippaḏtî; middallāh; tašlîmēnî; šiwwîṯî; kᵉsûs ʿāḡûr; ʾăṣap̄ṣēp̄; ʿāšqāh-llî ʿārᵉḇēnî; ʾeddaddeh; ʿălêhem yiḥyû; wᵉṯaḥălîmēnî wᵉhaḥăyēnî; lᵉšālôm mar-lî mār; ḥāšaqtā; šaḥaṯ bᵉlî; ʾămittekā; YHWH lᵉhôšîʿēnî; nᵉḡînôṯay nᵉnaggēn; wayyōʾmer; dᵉḇeleṯ tᵉʾēnîm; wᵉyimrᵉḥû ʿal-haššᵉḥîn; wayyōʾmer ḥizqiyyāhû",
+   "strongs": "H6680 (ṣwh); H8003 (šālēm); H1065 (bᵉḵî); H571 (ʾĕmeṯ); H1598 (gnn); H4385 (miḵtāḇ); H1824 (dᵒmî); H6485 (pqd); H2309 (ḥeḏel); H2465 (ḥeleḏ); H1755 (dôr); H7088 (qpd); H1803 (dallāh); H7999 (šlm); H7737 (šwh); H5483 (sûs); H5693 (ʿāḡûr); H6850 (ṣpṣp); H6234 (ʿāšqāh); H6148 (ʿrb); H1718 (ddh); H2492 (ḥlm); H2421 (ḥyh); H7965 (šālôm); H4751 (mar); H2836 (ḥšq); H7845 (šaḥaṯ); H1097 (bᵉlî); H3467 (yšʿ); H5058 (nᵉḡînāh); H5059 (ngn); H1690 (dᵉḇēlāh); H8384 (tᵉʾēnāh); H4799 (mrḥ); H7822 (šᵉḥîn). Strong's numbers from model recall, not concordance-verified.",
+   "lemma": "single-site lexical, syntactic and textual decisions of Isaiah 38 not covered by a dedicated entry",
+   "partOfSpeech": "mixed (verbs, nouns, construct phrases, clause syntax, tense)",
+   "literal": "command your house; with a whole heart; a great weeping; in truth; and I will shield; a writing; in the stillness/half of my days; I am mustered/deprived; inhabitants of cessation; my dwelling/generation; I rolled up; from the thrum; you make an end of me / keep me whole; I made level/composed; like a swift/swallow, a crane/thrush; I chirp; oppression to me, stand surety for me; I walk slowly; by them they live; and restore me and make me live; for peace bitter to me, bitter; you loved; pit of nothingness; your truth; YHWH to save me; my string-music we play; and he said; a cake of figs; and let them rub on the boil; and Hezekiah said",
+   "standardEnglish": "ASV: 'Set thy house in order', 'with a perfect heart', 'wept sore', 'in truth', 'I will defend this city', 'The writing of Hezekiah', 'In the noontide of my days … I am deprived of the residue of my years', 'with the inhabitants of the world', 'My dwelling is removed … I have rolled up, like a weaver, my life; he will cut me off from the loom', 'I quieted [myself] until morning', 'Like a swallow [or] a crane, so did I chatter … O Lord, I am oppressed, be thou my surety', 'I shall go softly all my years', 'by these things men live … Wherefore recover thou me, and make me to live', 'in love to my soul delivered it from the pit of corruption', 'thy truth', 'Jehovah is [ready] to save me … sing my songs with stringed instruments', 'Now Isaiah had said … lay it for a plaster upon the boil', 'Hezekiah also had said'. JPS 1917: 'with a whole heart', 'defend', 'the inhabitants of the world', 'from the thrum', 'The more I make myself like unto a lion', 'And Isaiah said'. NJPS: 'Set your affairs in order', 'wholeheartedly … wept profusely', 'protect this city', 'A poem by King Hezekiah', 'in the middle of my days; I have been consigned to the gates of Sheol', 'Among those who inhabit the earth', 'My life is rolled up like a web And cut from the thrum … Only from daybreak to nightfall Was I kept whole', 'I cried out until morning', 'I piped like a swift or a swallow … I am in straits', 'All my sleep had fled', 'You have restored me to health and revived me', 'You saved my life From the pit of destruction', 'Your grace', '[It has pleased] the LORD to deliver us', 'When Isaiah said … apply it to the rash'. KJV: 'Mine age is departed', 'with pining sickness', 'I reckoned till morning'. (ASV and KJV via bible-api.com; JPS 1917 and NJPS (Tanakh: The Holy Scriptures, published by JPS, 1985; not the Gender-Sensitive Edition) via Sefaria API v3; MT of 2 Kgs 20:1-11, Pss 6:6, 16:1, 30:10, 39:6, 42:5, 56:1, 60:1, 115:17, Jer 8:7, 2 Chr 32:24 and Josh 10:13 via Sefaria; Rashi, Ibn Ezra and Radak on Isa 38:11 and Rashi and Metzudat David on 38:8 via Sefaria; all checked 2026-11-27). NRSV, LXX, 1QIsaᵃ (DJD 32), BDB/HALOT and the commentators not verified.",
+   "wohChoice": "38:1 ṣaw lᵉḇêṯeḵā 'Set your house in order' (ASV, JPS 1917); kōh ʾāmar 'Thus says' (book concordance, against NJPS 'Thus said'); 'you shall die and not live'. 38:3 ûḇᵉlēḇ šālēm 'with a whole heart' (JPS 1917; replaces ASV/draft 'perfect'); bᵉḵî ḡāḏôl 'wept greatly' (replaces draft 'bitterly': in the book 'bitterly' renders mar/mrr, 22:4; 33:7, and mar is the psalm's word at 38:15, 17); beʾĕmeṯ 'in truth'. ʾĕmeṯ = 'truth' book-wide (10:20; 16:5; 42:3; 48:1; 38:3, 18, 19), not 'faithfulness'. 38:5-6, 38:7, 38:21-22: the differences from 2 Kgs 20:1-11 recorded in commentary, the Isaiah text not harmonised. 38:6 gnn 'protect' (as 31:5; NJPS; replaces ASV/draft 'defend'). 38:9 MT miḵtāḇ 'The writing' (miḵtām emendation in commentary). 38:10 biḏmî yāmay 'In the noontide of my days'; puqqaḏtî 'I am deprived of the rest of my years' (ASV, JPS 1917; NJPS 'consigned' in commentary). 38:11 ḥeḏel 'the world' (the Masoretic word read as ḥeleḏ by transposition, with Ibn Ezra, Radak, JPS 1917, NJPS; no consonant changed; Rashi's 'withdrawal', the dead, in commentary). 38:12 ASV construal: dôrî 'my dwelling', qippaḏtî 'I have rolled up', middallāh 'from the loom', tašlîmēnî 'you will make an end of me', future tenses. 38:13 šiwwîṯî 'I quieted myself' (ASV). 38:14 kᵉsûs ʿāḡûr 'Like a swallow or a crane' (ASV, 'or' supplied); ʾăṣap̄ṣēp̄ 'chirped' (as 10:14 and 8:19; replaces ASV/draft 'chattered'; the 29:4 'whisper' of speech from the dust is context-bound and unchanged); past tense for the imperfects (ASV, NJPS); 'O Lord, I am oppressed; be my surety'. 38:15 ʾeddaddeh 'I shall go softly' (ASV, JPS 1917). 38:16 unexpressed subject 'people' (ASV supplied 'men'); request reading 'so restore me to health and make me live' (imperative haḥăyēnî). 38:17 ASV 'you have in love to my soul delivered it from the pit of corruption'; lᵉšālôm 'for my peace'. 38:20 ASV supplied 'is ready'; 'sing my songs with stringed instruments'; 'in the house of YHWH'. 38:21-22 wayyōʾmer pluperfect 'had said' (ASV, KJV), verses not moved; dᵉḇeleṯ tᵉʾēnîm 'a cake of figs', 'lay it as a plaster on the boil'.",
+   "claim_type": "direct",
+   "rationale": "Each item is a site where the line keeps the Masoretic text and chooses among the renderings of the standard versions, with the rejected options and emendations given in the verse commentary; none carries a project reading. Four items change the Translator's draft, each to bring the line into line with the book's existing English or with current English. (1) At 38:3 ASV's 'with a perfect heart' becomes JPS 1917's 'with a whole heart', because šālēm means 'whole, undivided' and current English hears 'perfect' as 'flawless'; 'wept bitterly' becomes 'wept greatly' for bᵉḵî ḡāḏôl 'a great weeping', because the book uses 'bitterly' for mar/mrr (22:4; 33:7) and the psalm's own word is mar (38:15, 17). (2) At 38:6 gnn is 'protect', the book's verb at 31:5 and NJPS's here. (3) At 38:14 ṣpṣp is 'chirped', the book's bird verb at 10:14, also used at 8:19; ASV's 'chatter' is replaced and the 29:4 'whisper', where speech comes from the dust, stays. (The ydh/hll change at 38:18-19 is governed by ydh-give-thanks-hll-praise-isaiah and the 38:8 change by maalot-steps-of-ahaz-isaiah-38.) At 38:11 the Masoretic ḥeḏel 'cessation' is kept in the line as 'the world': Ibn Ezra and Radak (checked) explain it as ḥeleḏ 'world' with the letters transposed, as in keḇeś/keśeḇ, Ibn Ezra adds that this world may be called ḥeḏel because human life in it ceases, and ASV, JPS 1917 and NJPS all translate 'world/earth'; no consonant is changed, so the house text policy (mt-qere-textual-policy-isaiah) holds, and Rashi's reading, 'those who dwell in withdrawal', the dead, is given as the alternative. At 38:21-22 the pluperfect follows ASV and KJV so that the flashback is visible (2 Kgs 20:7-8 narrates the figs and the question before the sign); JPS 1917's simple past and NJPS's subordinate clause are recorded, and the verses are not moved. The remaining items keep ASV wording where it is accurate, with NJPS's different construals of the cruxes at 38:10, 12, 13, 15, 16, 17 and 20 reported in commentary. The renderings are standard glosses, so the claim is direct. Sources: ASV and KJV via bible-api.com; JPS 1917 and NJPS (Tanakh: The Holy Scriptures, published by JPS, 1985; not the Gender-Sensitive Edition) via Sefaria API v3; MT of 2 Kgs 20:1-11, Pss 6:6, 16:1, 30:10, 39:6, 42:5, 56:1, 60:1, 115:17, Jer 8:7, 2 Chr 32:24 and Josh 10:13 via Sefaria; Rashi, Ibn Ezra and Radak on Isa 38:11 and Rashi and Metzudat David on 38:8 via Sefaria; all checked 2026-11-27; NRSV, LXX, 1QIsaᵃ (DJD 32), lexica and commentators not verified.",
+   "appliesTo": [
+    "ISA-38:1",
+    "ISA-38:3",
+    "ISA-38:5",
+    "ISA-38:6",
+    "ISA-38:9",
+    "ISA-38:10",
+    "ISA-38:11",
+    "ISA-38:12",
+    "ISA-38:13",
+    "ISA-38:14",
+    "ISA-38:15",
+    "ISA-38:16",
+    "ISA-38:17",
+    "ISA-38:18",
+    "ISA-38:19",
+    "ISA-38:20",
+    "ISA-38:21",
+    "ISA-38:22"
+   ]
+  }
+ },
+ {
+  "op": "modify",
+  "id": "title-and-meta-conventions-isaiah",
+  "appliesToAdded": [
+   "ISA-38:1",
+   "ISA-38:2",
+   "ISA-38:3",
+   "ISA-38:4",
+   "ISA-38:5",
+   "ISA-38:7",
+   "ISA-38:20",
+   "ISA-38:22"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 38): the Translator's descriptive title 'Isaiah 38 — Hezekiah's illness, the sign of the shadow on the steps, and the writing of Hezekiah' is ratified; 'steps' matches the 38:8 line (maalot-steps-of-ahaz-isaiah-38). 'YHWH' at 38:1-5, 7, 20, 22. Quotation marks: Isaiah's message 38:1 (introduced by a narrative verb, so the messenger formula stands inside the quotation); Hezekiah's prayer 38:3; YHWH's instruction to Isaiah from 38:5 to the end of the promise in 38:8, with the message to Hezekiah unmarked inside it, as at 7:3-9; the remedy 38:21 and the question 38:22. The psalm 38:10-20 under the heading of 38:9 is not quoted. kōh ʾāmar is 'Thus says' (38:1, 5), the book's rendering (cf. 30:15), where NJPS has 'Thus said' (Sefaria, checked 2026-11-27)."
+ },
+ {
+  "op": "modify",
+  "id": "elohei-yisrael-god-of-israel-isaiah-24",
+  "appliesToAdded": [
+   "ISA-38:5"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 38): 38:5 YHWH ʾĕlōhê dāwiḏ ʾāḇîḵā 'YHWH, the God of David your father' — a construct epithet with a personal name, rendered 'the God of …' like the other construct epithets this entry governs (ASV 'the God of David thy father', NJPS 'the God of your father David', checked 2026-11-27; identical in 2 Kgs 20:5)."
+ },
+ {
+  "op": "modify",
+  "id": "adam-humankind-ish-man-isaiah",
+  "appliesToAdded": [
+   "ISA-38:11"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 38): 38:11 lōʾ-ʾabbîṭ ʾāḏām ʿôḏ 'I shall look upon humankind no more' — generic ʾāḏām (ASV and JPS 1917 'man', NJPS 'men', checked 2026-11-27). At 38:16 the bare plural verb yiḥyû takes the supplied subject 'people' for ASV's supplied 'men' under the same rule for generic reference; no noun is present there, so 38:16 is not added to this entry."
+ },
+ {
+  "op": "modify",
+  "id": "yah-tzur-olamim-everlasting-rock-isaiah-26",
+  "appliesToAdded": [
+   "ISA-38:11"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 38): 38:11 lōʾ-ʾerʾeh Yāh Yāh bᵉʾereṣ haḥayyîm 'I shall not see Yah, Yah in the land of the living' — the short name transliterated and repeated as in the Hebrew; NJPS also prints 'Yah' (note 'I.e., visit His Temple. For \"Yah\" see 12.2; 26.4'), where ASV has 'Jehovah, [even] Jehovah' and JPS 1917 'the LORD, even the LORD' (checked 2026-11-27)."
+ },
+ {
+  "op": "modify",
+  "id": "adonai-standalone-title-isaiah",
+  "appliesToAdded": [
+   "ISA-38:14",
+   "ISA-38:16"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 38): vocative ʾăḏōnāy 'O Lord' in the psalm of Hezekiah at 38:14 ('O Lord, I am oppressed') and 38:16 ('O Lord, by these things people live'), as ASV and JPS 1917; NJPS 'My Lord' at both (checked 2026-11-27)."
+ },
+ {
+  "op": "modify",
+  "id": "mt-qere-textual-policy-isaiah",
+  "appliesToAdded": [
+   "ISA-38:8",
+   "ISA-38:9",
+   "ISA-38:11",
+   "ISA-38:13",
+   "ISA-38:15",
+   "ISA-38:17",
+   "ISA-38:21"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 38): the line keeps the Masoretic text at every site; variants and emendations are in commentary, unverified ones labelled. 38:8 the reported 1QIsaᵃ 'upper chamber of Ahaz' (not verified). 38:9 MT miḵtāḇ against the emendation miḵtām. 38:11 MT ḥeḏel kept and translated 'the world' as Ibn Ezra and Radak read the same consonants (ḥeleḏ by transposition); the reported manuscript spelling ḥeleḏ is not verified and not needed. 38:13 MT šiwwîṯî against šiwwaʿtî (implied by NJPS 'I cried out'). 38:15 MT ʾeddaddeh against the text implied by NJPS 'All my sleep had fled'. 38:17 MT ḥāšaqtā against ḥāśaḵtā. 38:21-22 kept in place; the reported later-hand insertion in 1QIsaᵃ is not verified. (NJPS and the medieval commentators via Sefaria, checked 2026-11-27.)"
+ }
+]

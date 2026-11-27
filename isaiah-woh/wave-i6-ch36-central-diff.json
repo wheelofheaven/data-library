@@ -1,0 +1,61 @@
+[
+ {
+  "op": "version",
+  "from": "5.0.0",
+  "to": "5.1.0",
+  "readBase": "5.0.0",
+  "marker": "CENTRAL — apply by orchestrator",
+  "note": "Isaiah wave I-6, chapter 36 Editor. Read base: central v5.0.0 (read-only, read with Python, not edited). Contents: 5 modify ops. Four are appliesTo extensions with rationale addenda (eretz, hishtachavah-bow-down-obeisance-worship, mizbeach-olah, kerem-vineyard). One, on bor-pit-cistern-dry-water-shaft, adds ISA-36:16 and stages a `changes.wohChoice` that keeps the existing wohChoice text verbatim and appends a household-cistern context clause ('cistern' where bôr is a water cistern named with its water). No claim_type and no existing rationale text is changed. Semver: minor if the orchestrator treats an appended context clause like the earlier eretz / goel-geullah clauses; major if any wohChoice edit counts as a modification. CONCURRENCY: the Editors for Isa 37, 38, 39, 41 work from the same base; merge as a union."
+ },
+ {
+  "op": "modify",
+  "marker": "CENTRAL — apply by orchestrator",
+  "id": "bor-pit-cistern-dry-water-shaft",
+  "appliesToAdded": [
+   "ISA-36:16"
+  ],
+  "changes": {
+   "wohChoice": "pit (ASV-baseline; the specific dry-water-cistern sense — which v 24 makes explicit — surfaced in commentary). Household-cistern clause (isaiah-woh wave I-6): 'cistern' where bôr is a water cistern named with its water, Isa 36:16 ûšᵉṯû ʾîš mê-ḇôrô 'drink, everyone the waters of his own cistern' (= 2 Kgs 18:31; cf. Prov 5:15); the default 'pit' is unchanged at the sites already governed (Gen 37; 40:15; 41:14; Isa 14:15, 19; Zech 9:11)."
+  },
+  "rationaleAppend": "Household-cistern clause (isaiah-woh wave I-6, 2026-11). BDB divides bôr into (1) 'cistern, containing water', citing Isa 36:16 = 2 Kgs 18:31, Prov 5:15, Deut 6:11 and others; (2) 'well'; (3) 'pit', including the pit of Joseph (Gen 37) and the figurative pit (Sefaria BDB Dictionary, checked 2026-11-27). At Isa 36:16 the noun is a household water supply, 'the waters of his cistern', in the Rabshakeh's promise of peaceful life; 'pit' would misreport it. ASV prints 'cistern' here and at Prov 5:15 ('Drink waters out of thine own cistern'), and JPS 1917 and NJPS have 'cistern(s)' at Isa 36:16 (all checked 2026-11-27). The clause therefore takes the lexical sense that the context fixes, in the same way as the existing Gen 37 commentary already surfaces the cistern sense, and changes nothing at the sites already governed. claim_type stays inferred for the entry as a whole; the clause itself is lexically direct."
+ },
+ {
+  "op": "modify",
+  "marker": "CENTRAL — apply by orchestrator",
+  "id": "eretz",
+  "appliesToAdded": [
+   "ISA-36:10",
+   "ISA-36:17",
+   "ISA-36:18",
+   "ISA-36:20"
+  ],
+  "rationaleAppend": "Isaiah 36 (isaiah-woh wave I-6): 'land' for territory at 36:10 ('against this land … against this land'), 36:17 ('to a land like your own land, a land of grain and new wine, a land of bread and vineyards'), 36:18 ('his land') and 36:20 ('all the gods of these lands … their land'). At 36:20 the plural hāʾărāṣôṯ is 'lands' (ASV, JPS 1917, NJPS 'countries', checked 2026-11-27) so that it stays concordant with ʾarṣām 'their land' in the same verse. 2 Kgs 18:25 has hammāqôm 'this place' where Isa 36:10 has the first hāʾāreṣ (WLC on Sefaria, checked 2026-11-27)."
+ },
+ {
+  "op": "modify",
+  "marker": "CENTRAL — apply by orchestrator",
+  "id": "hishtachavah-bow-down-obeisance-worship",
+  "appliesToAdded": [
+   "ISA-36:7"
+  ],
+  "rationaleAppend": "Isaiah 36:7 (isaiah-woh wave I-6): lip̄nê hammizbēaḥ hazzeh tištaḥăwû 'You shall bow down before this altar', Hezekiah's order as quoted by the Rabshakeh; plain 'bow down' as at Isa 2:8, 20 and the Former Prophets clause (ASV and JPS 1917 'worship', NJPS 'You must worship only at this altar!', checked 2026-11-27). 2 Kgs 18:22 adds bîrûšālāim 'in Jerusalem'."
+ },
+ {
+  "op": "modify",
+  "marker": "CENTRAL — apply by orchestrator",
+  "id": "mizbeach-olah",
+  "appliesToAdded": [
+   "ISA-36:7"
+  ],
+  "rationaleAppend": "isaiah-woh wave I-6: 'altars' and 'this altar' at Isa 36:7 (mizbᵉḥōṯāyw … hammizbēaḥ hazzeh), the plain noun, in the Rabshakeh's account of Hezekiah's reform (2 Kgs 18:4, 22)."
+ },
+ {
+  "op": "modify",
+  "marker": "CENTRAL — apply by orchestrator",
+  "id": "kerem-vineyard",
+  "appliesToAdded": [
+   "ISA-36:17"
+  ],
+  "rationaleAppend": "isaiah-woh wave I-6: 'vineyards' at Isa 36:17 (ʾereṣ leḥem ûḵᵉrāmîm 'a land of bread and vineyards'; ASV, JPS 1917, NJPS 'vineyards', checked 2026-11-27); = 2 Kgs 18:32."
+ }
+]

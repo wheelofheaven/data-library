@@ -1,0 +1,156 @@
+[
+ {
+  "op": "version",
+  "from": "4.0.0",
+  "to": "4.1.0",
+  "readBase": "4.0.0",
+  "note": "Isaiah wave I-6, chapter 36 Editor. Read base: overlay v4.0.0 (read-only, not edited). Contents: 2 add ops (rabshakeh-title-isaiah, lexical-cruxes-isaiah-36; both direct) and 9 modify ops (appliesTo extensions with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. CONCURRENCY: the Editors for Isa 37, 38, 39, 41 work from the same base; merge as a union. Known overlap: the chapter 37 Editor extends rabshakeh-title-isaiah to ISA-37:4 and ISA-37:8 (wave I-6 rule 7); apply this add op first. Likely shared modify targets: aram-names-isaiah, lexical-cruxes-isaiah-22 (37:2), title-and-meta-conventions-isaiah, mt-qere-textual-policy-isaiah, elohim-el-eloah-monotheistic-formula-isaiah, adam-humankind-ish-man-isaiah."
+ },
+ {
+  "op": "add",
+  "entry": {
+   "id": "rabshakeh-title-isaiah",
+   "source": "רַב־שָׁקֵה",
+   "translit": "rab-šāqēh",
+   "strongs": "H7262 (Rabšāqēh). Strong's number from model recall, not concordance-verified.",
+   "lemma": "rab-šāqēh, the title of a senior Assyrian official (Akkadian loan), used in the narrative like a name",
+   "partOfSpeech": "noun (loan title), masculine; written with maqqef in WLC Isaiah and 2 Kings",
+   "literal": "chief of the šāqû (BDB: 'chief of the officers (?)'; usually explained as Akkadian rab šāqê 'chief cupbearer')",
+   "standardEnglish": "ASV 'Rabshakeh', JPS 1917 'Rab-shakeh' (as a personal name); NJPS 'the Rabshakeh', note 'An Assyrian title; cf. \"Tartan,\" 20.1' (ASV via bible-api.com, JPS 1917 and NJPS via Sefaria API v3, checked 2026-11-27)",
+   "wohChoice": "'the Rabshakeh', with the English article supplied, at every site: Isa 36:2, 4, 11, 12, 13, 22 (and 37:4, 8, to be added by the chapter 37 Editor). The title is not translated in the line ('the chief cupbearer'); its meaning and the explanations of the lexica stay in commentary. The same rule governs 2 Kgs 18:17, 19, 26, 27, 28, 37; 19:4, 8 when 2 Kings 18-19 is drafted, together with 'the Tartan' and 'the Rab-saris' at 2 Kgs 18:17.",
+   "claim_type": "direct",
+   "rationale": "rab-šāqēh is an Assyrian court title, not a personal name. BDB analyses it as Assyrian rab 'chief' with šaqû 'high one', glossing 'chief of the officers (?)', and lists the sites 2 Kgs 18:17, 19, 26, 27, 28, 37; 19:4, 8 = Isa 36:2, 4, 11, 12, 13, 22; 37:4, 8 (Sefaria BDB Dictionary, checked 2026-11-27); the explanation as Akkadian rab šāqê 'chief cupbearer' is the usual modern one (HALOT, CAD; recalled, not verified). The Hebrew never puts the article on it, as it does not on other foreign titles used like names, and ASV and JPS 1917 therefore print it as if it were a name. NJPS prints 'the Rabshakeh' with a note pointing to 'Tartan' at 20:1 (checked 2026-11-27), and the book has already ruled 'the Tartan' at 20:1 (overlay lexical-cruxes-isaiah-20), whose rationale named rab-šāqēh as the parallel case. The English article tells the reader that the word is a title without translating it, so the line stays a defensible rendering of the Hebrew and the Isaiah and Kings narratives can share one convention. Translating the title ('the chief cupbearer') was considered and not adopted, because its etymology is disputed (BDB's 'chief of the officers' against 'chief cupbearer') and the narrative uses it as a fixed designation. The ASV spelling 'Rabshakeh' is kept (wave I-6 rule 3), against JPS 1917's hyphenated form. 2 Kgs 18:17 sends the Tartan, the Rab-saris and the Rabshakeh; Isa 36:2 names only the Rabshakeh (BDB: Rab-saris 'not in ‖ Is 36:2'). The entry carries no interpretive weight beyond the title.",
+   "appliesTo": [
+    "ISA-36:2",
+    "ISA-36:4",
+    "ISA-36:11",
+    "ISA-36:12",
+    "ISA-36:13",
+    "ISA-36:22"
+   ]
+  }
+ },
+ {
+  "op": "add",
+  "entry": {
+   "id": "lexical-cruxes-isaiah-36",
+   "source": "רַב־שָׁקֵה … בִּתְעָלַת הַבְּרֵכָה הָעֶלְיוֹנָה בִּמְסִלַּת שְׂדֵה כוֹבֵס (36:2) · הַבִּטָּחוֹן · בָּטָחְתָּ (36:4-9, 15) · אָמַרְתִּי · דְּבַר־שְׂפָתַיִם (36:5) · הַקָּנֶה הָרָצוּץ (36:6) · בָּמֹתָיו (36:7) · הִתְעָרֶב נָא אֶת־אֲדֹנִי · נָא (36:8, 11) · אֲדֹנִי / אֲדֹנֶיךָ (36:8, 9, 12) · פַּחַת · תָּשִׁיב אֵת פְּנֵי (36:9) · אֲרָמִית · יְהוּדִית (36:11, 13) · עֲשׂוּ־אִתִּי בְרָכָה · אִישׁ־גַּפְנוֹ וְאִישׁ תְּאֵנָתוֹ … אִישׁ מֵי־בוֹרוֹ (36:16) · יַשִּׁא / יַסִּית (36:14, 18) · וְכִי־הִצִּילוּ (36:19) · הָאֲרָצוֹת (36:20) · וַיַּחֲרִישׁוּ (36:21)",
+   "translit": "bitʿālaṯ habbᵉrēḵāh hāʿelyônāh bimsillaṯ śᵉḏēh ḵôḇēs; habbiṭṭāḥôn; bāṭāḥtā; ʾāmartî; dᵉḇar-śᵉp̄āṯayim; haqqāneh hārāṣûṣ; bāmōṯāyw; hiṯʿāreḇ nāʾ ʾeṯ-ʾăḏōnî; nāʾ; ʾăḏōnî / ʾăḏōneyḵā; paḥaṯ; tāšîḇ ʾēṯ pᵉnê; ʾărāmîṯ; yᵉhûḏîṯ; ʿăśû-ʾittî ḇᵉrāḵāh; ʾîš-gap̄nô wᵉʾîš tᵉʾēnāṯô … ʾîš mê-ḇôrô; yaššîʾ / yassîṯ; wᵉḵî-hiṣṣîlû; hāʾărāṣôṯ; wayyaḥărîšû",
+   "strongs": "H8585 (tᵉʿālāh); H1295 (bᵉrēḵāh); H4546 (mᵉsillāh); H3526 (kbs); H986 (biṭṭāḥôn); H982 (bṭḥ); H559 (ʾmr); H1697 (dāḇār); H8193 (śāp̄āh); H7070 (qāneh); H7533 (rṣṣ); H1116 (bāmāh); H6148 (ʿrḇ); H4994 (nāʾ); H113 (ʾāḏôn); H6346 (peḥāh); H7725 (šûḇ); H762 (ʾărāmîṯ); H3066 (yᵉhûḏîṯ); H1293 (bᵉrāḵāh); H376 (ʾîš); H1612 (gep̄en); H8384 (tᵉʾēnāh); H953 (bôr); H5377 (nšʾ II); H5496 (swt); H5337 (nṣl); H776 (ʾereṣ); H2790 (ḥrš II). Strong's numbers from model recall, not concordance-verified.",
+   "lemma": "single-site lexical, syntactic and textual decisions of Isaiah 36 not covered by a dedicated entry, including the record of the 2 Kings 18 parallel",
+   "partOfSpeech": "mixed (construct phrases, verbs and verbal nouns, participle, loan nouns, adverbial gentilics, particles, clause syntax)",
+   "literal": "in the conduit of the upper pool, in the highway of the washer's field; the trust / you trusted; I said; a word of lips; the crushed reed; his high places; exchange pledges, pray, with my lord; pray; my lord / your lord; governor; turn back the face of; in Aramean; in Judean; make with me a blessing; each his vine and each his fig tree … each the water of his cistern; mislead / incite; and that/indeed they delivered; the lands; and they kept silent",
+   "standardEnglish": "ASV (bible-api.com), JPS 1917 and NJPS 1985 (Sefaria API v3), all checked 2026-11-27: 'by the conduit of the upper pool in the highway of the fuller's field' (ASV, JPS 1917; NJPS 'near the conduit of the Upper Pool, by the road of the Fuller's Field'); 'What confidence is this wherein thou trustest?' (ASV, JPS 1917; NJPS 'What makes you so confident?'); ASV 'I say, [thy] counsel and strength for the war are but vain words', JPS 1917 'I said: It is but vain words; for counsel and strength are for the war', NJPS 'I suppose mere talk makes counsel and valor for war!'; 'this bruised reed' (ASV, JPS 1917; NJPS 'that splintered reed of a staff'); 'high places' (ASV, JPS 1917; NJPS 'shrines'); ASV 'give pledges to my master', JPS 1917 'make a wager with my master', NJPS 'make this wager with my master'; 'I pray thee' (ASV, JPS 1917; NJPS 'Please'); 'my master … thy master' (all three); 'one captain' (ASV, JPS 1917; NJPS 'the deputy'); ASV 'the Syrian language … the Jews' language', JPS 1917 'the Aramean language … the Jews' language', NJPS 'Aramaic … Judean'; 'Make your peace with me' (all three); 'eat ye every one of his vine, and every one of his fig-tree, and drink ye every one the waters of his own cistern' (ASV, JPS 1917; NJPS 'so that you may all eat from your vines and your fig trees and drink water from your cisterns'); 'deceive' (ASV, NJPS; JPS 1917 'beguile') and 'persuade' (ASV, JPS 1917; NJPS 'mislead'); 'countries' (ASV, JPS 1917, NJPS) at 36:20",
+   "wohChoice": "36:2 'by the conduit of the upper pool, on the highway of the fuller's field', the English of the stable 7:3 with bᵉ 'by' (7:3 ʾel-qᵉṣēh 'at the end of'); the site is not identified in the line. 36:4-15 bṭḥ: the verb is 'trust (in)' at every site, with ʿal or ʾel (as 31:1; 42:17); the noun biṭṭāḥôn 'confidence' (ASV, JPS 1917; as beṭaḥ at 32:17). 36:5 MT 1cs ʾāmartî 'I say' (2 Kgs 18:20 ʾāmartā in commentary); dᵉḇar-śᵉp̄āṯayim kept literal, 'a word of the lips', in ASV's construal without its supplied '[thy]'. 36:6 hārāṣûṣ 'crushed', concordant with the stable 42:3 qāneh rāṣûṣ 'a crushed reed' (changed from the draft's ASV 'bruised'). 36:7 bāmôṯ 'high places' (ASV, JPS 1917). 36:8 hiṯʿāreḇ … ʾeṯ 'make a wager with' (JPS 1917, NJPS; changed from ASV 'give pledges to'). 36:8, 11 nāʾ 'please', as 5:3 and 29:11-12 (changed from the draft's 'I pray you'). 36:8, 9, 12 human ʾăḏōnî / ʾăḏōneyḵā 'my master / your master' (ASV, JPS 1917, NJPS; cf. 24:2 'master'; 22:18 'your lord' stays). 36:9 paḥaṯ 'captain' (ASV, JPS 1917; BDB 'as Assyrian captains'), construct chain as ASV. 36:11, 13 ʾărāmîṯ 'in Aramaic' (overlay aram-names-isaiah) and yᵉhûḏîṯ 'in Judean' (NJPS; changed from ASV 'in the Jews' language'). 36:16 ʿăśû-ʾittî ḇᵉrāḵāh 'Make your peace with me' (ASV, JPS 1917, NJPS); the three distributive ʾîš 'everyone … his', imperatives kept: 'and eat, everyone from his vine and everyone from his fig tree, and drink, everyone the waters of his own cistern' (changed from the draft's 'eat every one of his vine …'); bôr 'cistern' under the central bor entry's proposed context clause. 36:14 yaššîʾ 'deceive', 36:18 yassîṯ 'persuade' (ASV; BDB's pejorative sense and NJPS 'mislead' in commentary). 36:19 wᵉḵî-hiṣṣîlû 'And have they delivered …?' (ASV, JPS 1917). 36:20 hāʾărāṣôṯ 'lands' (plural of ʾereṣ 'land', central eretz; ASV 'countries' in commentary). 36:21 unexpressed subject kept (2 Kgs 18:36 hāʿām 'the people' in commentary). Every verse records in commentary the differences of wording of the 2 Kings 18:13-37 Hebrew (WLC), including small variants such as min-lāḵîš / millāḵîš and the position of yᵉrûšālāim (36:2), ʾălēhem / ʾēlāyw (36:3) and ʿattāh / wᵉʿattāh (36:10); purely orthographic differences of plene and defective spelling are not listed (wave I-6 rule 3). 36:12 PENDING FOUNDER RULING: the line keeps ASV 'to eat their own dung and to drink their own water with you'; the Reviewer's alternative 'to eat their dung and to drink the water of their feet with you' (the qere rendered literally, concordant with the stable 7:20 'the hair of the feet') is staged here for the founder; if adopted, the 36:12 line and note change and this clause is rewritten as the ruling.",
+   "claim_type": "direct",
+   "rationale": "Each item is a site where the Translator flagged a choice among standard renderings or where the Isaiah wording must be fixed for the 2 Kings parallel (wave I-6 rule 3). The line keeps the Masoretic Text of Isaiah and the public-domain baseline unless accuracy or the book's concordance requires a change, and no item adopts a reading of 2 Kings or carries a project reading. Six changes are made to the draft. (1) 36:6 rāṣûṣ is the Qal passive participle of rṣṣ 'crush', with the same noun as 42:3, and BDB lists 2 Kgs 18:21 = Isa 36:6 and Isa 42:3 together ('all metaph. of weak pers.', Sefaria, checked 2026-11-27); the stable 42:3 prints 'crushed', so the two sites now agree. (2) 36:8 the Hithpael of ʿrḇ is reciprocal, 'exchange pledges (make a bargain) with my lord' (BDB, citing this verse and 2 Kgs 18:23, checked 2026-11-27); ASV's 'give pledges to' misrenders ʾeṯ 'with', and JPS 1917 'make a wager with' is a public-domain rendering that keeps both the preposition and the sense of a bet. (3) 36:8, 11 nāʾ is 'please', the book's rendering at 5:3 and 29:11-12. (4) 36:11, 13 yᵉhûḏîṯ is the feminine gentilic of yᵉhûḏāh used as an adverb (BDB 'only as adv.', checked 2026-11-27), formed like ʾărāmîṯ in the same verse; NJPS 'Judean' gives the gentilic of Judah, while ASV's 'the Jews' language' brings in the later sense of yᵉhûḏî. (5) 36:16 the draft took over ASV's 'eat every one of his vine' without ASV's 'ye', so that current English reads 'every one of his vines'; the line now renders the three distributive ʾîš 'everyone … his', as the book does at 19:2, and keeps the imperatives. (6) 36:21 the king's order takes double quotation marks (title-and-meta-conventions-isaiah). The other items keep the draft. The noun biṭṭāḥôn stays 'confidence' (ASV, JPS 1917, and 32:17 beṭaḥ), and the root play is carried by the uniform verb 'trust (in)', as at 31:1. ʾāmartî is MT (mt-qere-textual-policy-isaiah); the idiom dᵉḇar-śᵉp̄āṯayim stays literal because the versions disagree on the construal. ʾăḏōnî of the Assyrian king is 'master' in all three references, matching the servant–master pair at 24:2; 22:18 'your lord' (lexical-cruxes-isaiah-22) is a different context and is not revised. paḥaṯ is a loan from Assyrian (bēl) paḫāti 'governor', but BDB itself places this verse under 'Assyrian captains', so ASV's 'captain' is kept and 'governor' / NJPS 'deputy' are reported. yassîṯ is pejorative ('instigate, in bad sense', BDB), and NJPS 'mislead' is reported, but ASV and JPS 1917 'persuade' is kept as a defensible rendering. 36:20 'lands' keeps the plural of ʾereṣ concordant with 'their land' in the same verse. 36:2 repeats the place name of 7:3, and the English is kept identical so that the reader sees the repetition; the site's location is debated and stays out of the line. Post-review (Reviewer, 2026-11-27): the Kings differences at 36:2 (min-lāḵîš; position of yᵉrûšālāim), 36:3 (ʾălēhem for ʾēlāyw, matching Kings' three envoys) and 36:10 (ʿattāh for wᵉʿattāh) were added to the commentary, so the record of the parallel is complete for wording. At 36:12 the Reviewer noted that 'their own water' is neither the qere's wording nor its plain sense and that ASV's 'own' may be misread as a water supply, and proposed the literal qere on the model of 7:20; the choice is left to the founder (PENDING FOUNDER RULING).",
+   "appliesTo": [
+    "ISA-36:1",
+    "ISA-36:2",
+    "ISA-36:3",
+    "ISA-36:4",
+    "ISA-36:5",
+    "ISA-36:6",
+    "ISA-36:7",
+    "ISA-36:8",
+    "ISA-36:9",
+    "ISA-36:10",
+    "ISA-36:11",
+    "ISA-36:12",
+    "ISA-36:13",
+    "ISA-36:14",
+    "ISA-36:15",
+    "ISA-36:16",
+    "ISA-36:17",
+    "ISA-36:18",
+    "ISA-36:19",
+    "ISA-36:20",
+    "ISA-36:21",
+    "ISA-36:22"
+   ]
+  }
+ },
+ {
+  "op": "modify",
+  "id": "lexical-cruxes-isaiah-22",
+  "appliesToAdded": [
+   "ISA-36:3",
+   "ISA-36:22"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 36): ʾăšer ʿal-habbāyiṯ 'who was over the house' at 36:3 and 36:22 (2 Kgs 18:18, 37), the 22:15 title in the past tense of the narrative. ASV and JPS 1917 have 'who was over the household', NJPS 'who was in charge of the palace' (checked 2026-11-27). Eliakim son of Hilkiah holds the office announced for him at 22:20-22, and Shebna is 'the scribe' (hassōp̄ēr); the line gives each title as the Hebrew states it. The chapter 37 Editor applies the same wording at 37:2."
+ },
+ {
+  "op": "modify",
+  "id": "aram-names-isaiah",
+  "appliesToAdded": [
+   "ISA-36:1",
+   "ISA-36:2",
+   "ISA-36:4",
+   "ISA-36:6",
+   "ISA-36:8",
+   "ISA-36:9",
+   "ISA-36:11",
+   "ISA-36:13",
+   "ISA-36:15",
+   "ISA-36:16",
+   "ISA-36:18"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 36): 'Assyria', 'Egypt' and 'Pharaoh' (36:1, 2, 4, 6, 8, 9, 13, 15, 16, 18) under the wave rulings; 'Lachish', 'Hezekiah', 'Sennacherib', 'Eliakim son of Hilkiah', 'Shebna', 'Joah son of Asaph' in the ASV forms (wave I-6 rule 3). The principle of this entry extends to the language name: the adverb ʾărāmîṯ (36:11) is 'in Aramaic', not ASV 'in the Syrian language' (JPS 1917 'in the Aramean language', NJPS 'in Aramaic', checked 2026-11-27). The paired yᵉhûḏîṯ 'in Judean' is recorded in lexical-cruxes-isaiah-36."
+ },
+ {
+  "op": "modify",
+  "id": "march-itinerary-toponyms-isaiah-10",
+  "appliesToAdded": [
+   "ISA-36:19"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 36): Hamath and Arpad, named together at 10:9, recur in the same ASV forms at 36:19, with 'Samaria' in the English form. Sepharvaim takes the ASV spelling and is not identified in the line; its location is disputed. 2 Kgs 18:34 adds Hena and Ivvah, which Isaiah does not have (WLC on Sefaria, checked 2026-11-27)."
+ },
+ {
+  "op": "modify",
+  "id": "mt-qere-textual-policy-isaiah",
+  "appliesToAdded": [
+   "ISA-36:5",
+   "ISA-36:12"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 36): qere read at 36:12 (ketiv ḥrʾyhm → qere ṣôʾāṯām 'their dung'; ketiv šynyhm → qere mêmê raḡlêhem 'the water of their feet'), rendered in ASV and JPS 1917's words 'their own dung … their own water'. The qere substitutes polite words for coarse ones, and the English keeps that register while the sense stays clear (NJPS 'their urine' reported, checked 2026-11-27). This differs from 13:16, where the literal English of the euphemism hid the violence and the line gave the sense. The closer precedent is the stable 7:20, where the same raḡlayim euphemism is kept literally ('the hair of the feet') and explained in commentary. The Editor kept ASV's idiomatic 'their own water' because it is the public-domain baseline (ASV, JPS 1917) and its meaning is clear beside 'dung'; the Reviewer's 7:20-type literal rendering, 'to drink the water of their feet', is staged in lexical-cruxes-isaiah-36, PENDING FOUNDER RULING. Whichever is chosen, 7:20 (literal euphemism) and 13:16 (sense) mark the two ends of the policy, and 36:12 sits with one of them. 2 Kgs 18:27 has the same pairs, with the ketiv spelled ḥryhm. At 36:5 MT ʾāmartî 'I say' is kept against 2 Kgs 18:20 ʾāmartā 'you say' (WLC on Sefaria; NJPS note, checked 2026-11-27). Isa 36-39 parallels 2 Kgs 18:13-20:19: the Isaiah line translates the Isaiah MT and reports the Kings differences in commentary, without harmonising (wave I-6 rule 3)."
+ },
+ {
+  "op": "modify",
+  "id": "adam-humankind-ish-man-isaiah",
+  "appliesToAdded": [
+   "ISA-36:6",
+   "ISA-36:12",
+   "ISA-36:16"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 36): generic ʾîš at 36:6 is 'anyone … his hand' (ASV and JPS 1917 'a man'; NJPS 'anyone', checked 2026-11-27), with 'his' kept after the gender-neutral noun (wave I-5 house rule). At 36:16 the three distributive ʾîš are 'everyone from his vine and everyone from his fig tree … everyone the waters of his own cistern', the pattern of 19:2. At 36:12 hāʾănāšîm hayyōšᵉḇîm ʿal-haḥômāh 'the men who sit on the wall' names the defenders, a specific body of men, and keeps 'men' under ruling 13 (NJPS 'the men', checked 2026-11-27)."
+ },
+ {
+  "op": "modify",
+  "id": "elohai-elohenu-doxology-isaiah-25",
+  "appliesToAdded": [
+   "ISA-36:7"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 36): 36:7 ʾel-YHWH ʾĕlōhênû bāṭāḥnû 'We trust in YHWH our God', in the Rabshakeh's quotation of the Judeans (ASV, JPS 1917, NJPS 'our God', checked 2026-11-27)."
+ },
+ {
+  "op": "modify",
+  "id": "elohim-el-eloah-monotheistic-formula-isaiah",
+  "appliesToAdded": [
+   "ISA-36:18",
+   "ISA-36:19",
+   "ISA-36:20"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 36): lower-case 'gods' for ʾĕlōhê haggôyim 'the gods of the nations' (36:18), the gods of Hamath, Arpad and Sepharvaim (36:19) and 'all the gods of these lands' (36:20), as for the gods of Babylon at 21:9. The Assyrian speaker sets YHWH among them; the line renders the speech as spoken and keeps 'YHWH' for the name."
+ },
+ {
+  "op": "modify",
+  "id": "title-and-meta-conventions-isaiah",
+  "appliesToAdded": [
+   "ISA-36:1",
+   "ISA-36:4",
+   "ISA-36:13",
+   "ISA-36:21"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 36): the Translator's descriptive title is ratified with the article of rabshakeh-title-isaiah: 'Isaiah 36 — Sennacherib invades Judah, and the Rabshakeh speaks before the wall of Jerusalem'. Quotation marks: the Rabshakeh's first speech runs 36:4-10 and his address to the people 36:13-20, each as one quotation, with the king's message ('Thus says the great king …') unmarked inside it, as at 7:3-9; quotations within them take single marks (36:7, 10, 15, 18). The king's order at 36:21 is a quotation in narrative and takes double marks, as in NJPS (checked 2026-11-27), changed from the draft's single marks."
+ }
+]

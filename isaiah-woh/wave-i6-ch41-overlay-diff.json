@@ -1,0 +1,185 @@
+[
+ {
+  "op": "version",
+  "from": "4.0.0",
+  "to": "4.1.0",
+  "readBase": "4.0.0",
+  "note": "Isaiah wave I-6, chapter 41 Editor. Read base: overlay v4.0.0 (read-only, not edited). Contents: 2 add ops (iy-coastlands-isaiah, direct; lexical-cruxes-isaiah-41, direct) and 13 modify ops (appliesTo extensions, some with rationale addenda; no wohChoice, claim_type or existing rationale text changed), so a minor bump. STABLE SITES: iy-coastlands-isaiah lists ten refs in stable chapters (ISA-11:11, 20:6, 23:2, 23:6, 24:15, 40:15, 42:4, 42:10, 42:12, 42:15); their English lines are unchanged, and the orchestrator adds 'iy-coastlands-isaiah' to those paragraphs' glossaryRefs on merge. OPTIONAL CLEAN-UP: ISA-20:6, 23:2, 23:6 were added to lexical-cruxes-isaiah-11 only for its ʾî item; the orchestrator may drop those three refs from that entry (the op format has no appliesToRemoved, so this diff does not do it). CONCURRENCY: the Editors for Isa 36-39 work from the same base; merge as a union. Likely overlaps: title-and-meta-conventions-isaiah, mt-qere-textual-policy-isaiah, adam-humankind-ish-man-isaiah, elohai-elohenu-doxology-isaiah-25, elohim-el-eloah-monotheistic-formula-isaiah, elohei-yisrael-god-of-israel-isaiah-24."
+ },
+ {
+  "op": "add",
+  "entry": {
+   "id": "iy-coastlands-isaiah",
+   "source": "אִי / אִיִּים / אִיֵּי",
+   "translit": "ʾî; ʾiyyîm; ʾiyyê (hayyām)",
+   "strongs": "H339 (ʾî I 'coast, island'); distinct from H338 (ʾî II 'jackal, howling creature', Isa 13:22; 34:14). Strong's numbers from model recall, not concordance-verified.",
+   "lemma": "ʾî I 'coast, island, shore, region' (BDB), singular and plural, in Isaiah",
+   "partOfSpeech": "noun (masculine; singular, plural and plural construct)",
+   "literal": "coast(s), island(s), shore region(s)",
+   "standardEnglish": "ASV 'coast-land' (20:6 'the inhabitant of this coast-land'), 'coast' (23:2, 6), 'islands' (11:11; 42:12, 15), 'isles' (24:15; 40:15; 41:5; 42:4, 10), 'O islands' (41:1) (bible-api.com, checked 2026-11-27; re-fetched by the Reviewer); JPS 1917 'islands' (41:1), 'isles' (41:5); NJPS 'coastlands' (41:1, 5). JPS 1917 and NJPS (Tanakh: The Holy Scriptures, published by JPS, 1985; not the Gender-Sensitive Edition) via Sefaria API v3; BDB via the Sefaria lexicon; all checked 2026-11-27.",
+   "wohChoice": "'coastland(s)' for ʾî I throughout Isaiah: plural 'the coastlands' (40:15; 41:1, 5; 42:4, 10, 12), plural construct 'the coastlands of the sea' (11:11; 24:15), singular 'this coastland' / 'the coastland' of a specific shore (20:6 Philistia; 23:2, 6 Phoenicia). Context clause: 'islands' where the noun denotes dry land emerging from water and not a shore region (42:15 'I will turn the rivers into islands'; stable). Not governed: ʾî II 'jackal / howling creature' (13:22; 34:14; overlay ruin-fauna-isaiah). Expected later sites of the rule (not yet in appliesTo; their Editors apply it or record a departure): 49:1; 51:5; 59:18; 60:9; 66:19.",
+   "claim_type": "direct",
+   "rationale": "BDB defines ʾî as 'coast, border region', used of Philistia and Phoenicia in the singular (Isa 20:6; 23:2, 6) and in the plural of the lands on and across the sea (Sefaria lexicon, checked 2026-11-27). The traditional English 'isles / islands' (ASV in the plural, JPS 1917, KJV) narrows the noun to islands, while the regions Isaiah names are mostly shores; ASV itself uses 'coast-land' (20:6) and 'coast' (23:2, 6) at the singular sites, where the referent is plainly the Philistine and Phoenician shore, which supports the shore sense the entry generalises; NJPS prints 'coastlands' at 41:1 and 41:5 (checked), and the corpus already uses 'coastlands' for the same noun at Gen 10:5 (central iyei-hagoyim-nifredu, 'the coastlands of the nations'). The stable Isaiah chapters already print 'coastland(s)' at every shore-region site (11:11; 20:6; 23:2, 6; 24:15; 40:15; 42:4, 10, 12), but the decision lived only as a single-chapter item of lexical-cruxes-isaiah-11, later stretched by appliesTo to 20:6 and 23:2, 6, and the chapter 40 and 42 sites carried no ref at all. This entry gathers the book-wide decision in one place, as rule 10 of the Editor charter requires ('one glossary entry per lexical decision'), and records the one context in which the stable text has 'islands' (42:15, where rivers are turned into dry land, which only 'islands' fits). The homonym ʾî II 'jackal' (BDB, checked: Isa 13:22; 34:14; Jer 50:39) is a different word and stays with ruin-fauna-isaiah. Every rendering is a standard lexical gloss with a printed precedent, so the claim is direct. The entry is kept in the overlay, although the lemma also occurs in Genesis, Jeremiah and Ezekiel, because its context clauses are Isaiah-specific; it is a candidate for promotion to the central glossary when another book needs the lemma.",
+   "appliesTo": [
+    "ISA-41:1",
+    "ISA-41:5",
+    "ISA-11:11",
+    "ISA-20:6",
+    "ISA-23:2",
+    "ISA-23:6",
+    "ISA-24:15",
+    "ISA-40:15",
+    "ISA-42:4",
+    "ISA-42:10",
+    "ISA-42:12",
+    "ISA-42:15"
+   ]
+  }
+ },
+ {
+  "op": "add",
+  "entry": {
+   "id": "lexical-cruxes-isaiah-41",
+   "source": "יַחֲלִיפוּ כֹחַ (41:1) · הֵעִיר · צֶדֶק יִקְרָאֵהוּ לְרַגְלוֹ · יַרְדְּ (41:2) · אֹרַח בְּרַגְלָיו לֹא יָבוֹא (41:3) · פָעַל · אֲנִי־הוּא (41:4) · חזק (41:6, 7, 9, 13) · חָרָשׁ · צֹרֵף · הוֹלֶם פָּעַם · דֶּבֶק · לֹא יִמּוֹט (41:7) · זֶרַע אַבְרָהָם אֹהֲבִי (41:8) · אֲצִילֶיהָ · מְאַסְתִּיךָ (41:9) · אִמַּצְתִּיךָ … עֲזַרְתִּיךָ … תְּמַכְתִּיךָ (41:10, 13, 14) · אַנְשֵׁי רִיבֶךָ / מַצֻּתֶךָ / מִלְחַמְתֶּךָ (41:11-12) · אַיִן · אֶפֶס · אָפַע · אָוֶן (41:11-12, 24, 29) · מַחֲזִיק יְמִינֶךָ (41:13) · מְתֵי יִשְׂרָאֵל · וְגֹאֲלֵךְ קְדוֹשׁ יִשְׂרָאֵל (41:14) · מוֹרַג חָרוּץ חָדָשׁ בַּעַל פִּיפִיּוֹת (41:15) · תִּתְהַלָּל (41:16) · נָשָׁתָּה (41:17) · אֶרֶץ צִיָּה · שְׁפָיִים (41:18) · עֵץ שֶׁמֶן · בְּרוֹשׁ · תִּדְהָר · תְּאַשּׁוּר (41:19) · קָרְבוּ רִיבְכֶם · עֲצֻמוֹתֵיכֶם (41:21) · הַבָּאוֹת · מָה הֵנָּה (41:22) · הָאֹתִיּוֹת לְאָחוֹר · וְנִשְׁתָּעָה (41:23) · מֵאָפַע (41:24) · יִקְרָא בִשְׁמִי · וְיָבֹא סְגָנִים כְּמוֹ־חֹמֶר · טִיט (41:25) · צַדִּיק · מַשְׁמִיעַ (41:26) · רִאשׁוֹן לְצִיּוֹן הִנֵּה הִנָּם (41:27) · נִסְכֵּיהֶם (41:29)",
+   "translit": "yaḥălîp̄û ḵōaḥ; hēʿîr; ṣeḏeq yiqrāʾēhû lᵉraḡlô; yard; ʾōraḥ bᵉraḡlāyw lōʾ yāḇôʾ; pāʿal; ʾănî-hûʾ; ḥzq; ḥārāš; ṣōrēp̄; hôlem pāʿam; deḇeq; lōʾ yimmôṭ; zeraʿ ʾaḇrāhām ʾōhăḇî; ʾăṣîleyhā; mᵉʾastîḵā; ʾimmaṣtîḵā … ʿăzartîḵā … tᵉmaḵtîḵā; ʾanšê rîḇeḵā / maṣṣuṯeḵā / milḥamtᵉḵā; ʾayin; ʾep̄es; ʾāp̄aʿ; ʾāwen; maḥăzîq yᵉmîneḵā; mᵉṯê yiśrāʾēl; wᵉgōʾălēḵ qᵉḏôš yiśrāʾēl; môraḡ ḥārûṣ ḥāḏāš baʿal pîp̄iyyôṯ; tiṯhallāl; nāšattāh; ʾereṣ ṣiyyāh; šᵉp̄āyîm; ʿēṣ šemen; bᵉrôš; tiḏhār; tᵉʾaššûr; qārᵉḇû rîḇᵉḵem; ʿăṣumôṯêḵem; habbāʾôṯ; mâ hēnnāh; hāʾōṯiyyôṯ lᵉʾāḥôr; wᵉništāʿāh; mēʾāp̄aʿ; yiqrāʾ ḇišmî; wᵉyāḇōʾ sᵉḡānîm kᵉmô-ḥōmer; ṭîṭ; ṣaddîq; mašmîaʿ; rišôn lᵉṣiyyôn hinnēh hinnām; nᵉsāḵêhem",
+   "strongs": "H2498 (ḥlp); H5782 (ʿwr); H6664 (ṣeḏeq); H7287 (rdh); H734 (ʾōraḥ); H6466 (pʿl); H2388 (ḥzq); H2796 (ḥārāš); H6884 (ṣrp); H1986 (hlm); H6471 (paʿam); H1694 (deḇeq); H4131 (mwṭ); H2233 (zeraʿ); H157 (ʾhb); H678 (ʾāṣîl); H3988 (mʾs); H553 (ʾmṣ); H5826 (ʿzr); H8551 (tmk); H582 (ʾĕnôš / ʾănāšîm); H369 (ʾayin); H657 (ʾep̄es); H659 (ʾāp̄aʿ); H205 (ʾāwen); H4962 (mat); H1350 (gʾl); H4173 (môraḡ); H2742 (ḥārûṣ); H6374 (pîp̄iyyāh); H1984 (hll); H5405 (nšt); H6723 (ṣiyyāh); H8205 (šᵉp̄î); H8081 (šemen); H1265 (bᵉrôš); H8410 (tiḏhār); H8391 (tᵉʾaššûr); H7379 (rîḇ); H6110 (ʿăṣumāh); H935 (bôʾ); H857 (ʾāṯāh); H8159 (štʿ); H5461 (sāḡān); H2563 (ḥōmer); H2916 (ṭîṭ); H6662 (ṣaddîq); H8085 (šmʿ); H7223 (rišôn); H1319 (bśr); H5262 (nesek). Strong's numbers from model recall, not concordance-verified.",
+   "lemma": "single-site lexical, syntactic and textual decisions of Isaiah 41 not covered by a dedicated entry",
+   "partOfSpeech": "mixed (verbs, participles, nouns, construct phrases, clause syntax)",
+   "literal": "they shall renew strength; he roused; righteousness calls him to his foot; he makes rule / treads down; a path with his feet he does not come; he acted; I (am) he; be strong / make firm / take hold; craftsman; refiner; striker of the anvil(?); joining; it shall not totter; seed of Abraham, the one who loves me; its corners; I rejected you; I have strengthened … helped … upheld you; men of your strife / contention / war; nothing; end, nought; ? (hapax); trouble, iniquity, idolatry; one holding your right hand; men of Israel; and your redeemer, the Holy One of Israel; threshing board, sharp, new, owner of edges; you shall boast; is dry; land of dryness; bare places; tree of oil; cypress(?); ?; ?; bring near your case; your strong (arguments); the coming (things); what (are) they; the coming things, hereafter; and let us be dismayed / look; of nought(?); he calls on my name; and he comes (upon) rulers as mortar; mud, clay; righteous / right; one making heard; first to Zion, behold, behold them; their cast (images)",
+   "standardEnglish": "ASV 'O islands … renew their strength', 'raised up one from the east, whom he calleth in righteousness to his foot', 'maketh him rule over kings', 'by a way that he had not gone with his feet', 'wrought', 'I, Jehovah, the first, and with the last, I am he', 'the carpenter … the goldsmith … the anvil … the soldering … should not be moved', 'the seed of Abraham my friend', 'the corners thereof … not cast thee away', 'I will strengthen thee; yea, I will help thee', 'they that strive with thee … contend with thee … war against thee', 'nothing … a thing of nought', 'will hold thy right hand', 'ye men of Israel … thy Redeemer is the Holy One of Israel', 'a new sharp threshing instrument having teeth', 'their tongue faileth for thirst', 'the dry land', 'the oil-tree … the fir-tree, the pine, and the box-tree', 'Produce your cause … your strong reasons', 'show us things to come', 'the things that are to come hereafter', 'of nothing … of nought', 'raised up one from the north … as upon mortar', '[He is] right … none that showeth', '[I am the] first [that saith] unto Zion, Behold, behold them', 'vanity [and] nought … molten images'. JPS 1917 'At whose steps victory attendeth', 'I strengthen thee, yea, I help thee', 'a new threshing-sledge Having sharp teeth', 'the cypress, the plane-tree, and the larch', 'A harbinger unto Zion will I give'. NJPS 'Connection of Heb. uncertain' (41:1), 'roused a victor', 'No shackle is placed on his feet', 'I strengthen you and I help you', 'Who grasped your right hand', 'O men of Israel' (note 'Emendation yields \"maggot\"'), 'a threshing board, A new thresher, with many spikes', 'oleasters … Box trees and elms', 'Let them approach' (intransitive, with note), 'awed and see' (note 'Change of vocalization yields \"fear\"; cf. v. 10'), 'less than nothing … less than nullity', 'he has trampled rulers like mud', 'The things once predicted to Zion' (note 'Meaning of Heb. uncertain'), 'nothingness … Their statues'. ASV via bible-api.com; JPS 1917 and NJPS (Tanakh: The Holy Scriptures, published by JPS, 1985; not the Gender-Sensitive Edition) via Sefaria API v3; BDB via the Sefaria lexicon; all checked 2026-11-27. 1QIsaᵃ and LXX readings mentioned in commentary are reported, not verified.",
+   "wohChoice": "41:1 MT kept ('let the peoples renew their strength', = 40:31); emendation in commentary. 41:2 hēʿîr 'roused' (stable 45:13; also 41:25), ṣeḏeq adverbial 'in righteousness' (ASV), yard 'makes him rule' (ASV), the figure unnamed and lower case (also 41:25). 41:3 ASV 'by a path that he has not gone with his feet'. 41:4 pāʿal 'acted' (43:13), supplied 'am' with 44:6 and 48:12, 'with the last I am he'. 41:6-13 ḥzq rendered by context ('Be strong', 'encourages', 'fastens', 'taken hold of', 'grasp'). 41:7 'craftsman … goldsmith … will not totter' (40:19-20), 'anvil', 'soldering' (ASV). 41:8 zeraʿ 'seed' (stable 43:5; 44:3; 45:19, 25; 48:19; 'offspring' stays for ṣeʾĕṣāʾîm), ʾōhăḇî 'my friend'. 41:9 'its corners', mʾs 'rejected'. 41:10, 13, 14 suffixed perfects of assurance as futures (ASV); bîmîn ṣiḏqî 'the right hand of my righteousness'. 41:11-12 ʾanšê + abstract noun rendered by relative clauses ('those who strive / contend / war'). Nothing-words: ʾayin 'nothing', ʾep̄es 'nought' (and the hapax ʾāp̄aʿ 'nought', 41:24), ʾāwen 'vanity' at 41:29 (context clause: the book's 'iniquity' elsewhere). 41:13 maḥăzîq 'grasp' (45:1). 41:14 mᵉṯê yiśrāʾēl 'you people of Israel' (generic poetic mᵉṯîm under the gender-neutral rule; ʾĕnôš keeps 'mortal'), predicate 'and your Redeemer is the Holy One of Israel' (ASV; 54:5). 41:15 môraḡ 'threshing board' (NJPS), so that 'threshing sledge' stays with ḥārûṣ as a noun (stable 28:27); ḥārûṣ here the adjective 'sharp' (BDB, ASV, JPS 1917); baʿal pîp̄iyyôṯ 'having teeth'. 41:16 hll Hithpael 'glory' (verb; stable 45:25), not kāḇôḏ. 41:17 nāšattāh 'is parched' (NJPS). 41:18 ʾereṣ ṣiyyāh 'the dry land' beside midbār (35:1 pair; 53:2 'parched ground' by context), šᵉp̄āyîm 'bare heights'. 41:19 ASV trees, bᵉrôš 'cypress' (14:8). 41:21 'Present your case … your strong reasons'. 41:22 habbāʾôṯ 'the things to come', mâ hēnnāh 'what they were', hišmîaʿ 'make us hear' (43:9). 41:23 hāʾōṯiyyôṯ 'the things that are coming' (stable 44:7; the stable 45:11 'the things to come' is not reopened), wᵉništāʿāh from štʿ 'be dismayed'. 41:24 MT mēʾāp̄aʿ 'of nought'. 41:25 yiqrāʾ ḇišmî 'one who calls on my name', MT wᵉyāḇōʾ 'come upon' (emendation 'trample' in commentary), ḥōmer 'mortar' (context clause: 'mire' 10:6, 'clay' 29:16; 45:9, 'mortar' where trodden, as genesis-woh 11:3), ṭîṭ 'clay'. 41:26 ṣaddîq 'He is right', mašmîaʿ 'makes it heard' (45:21; 48:3). 41:27 ASV's supplement '[I am the] first [to say] to Zion, “Behold, behold them!”'. 41:29 nᵉsāḵêhem 'molten images' (central nesekh-libation-drink-offering not applied).",
+   "claim_type": "direct",
+   "rationale": "Each item is a site where the Hebrew of Isaiah 41 is rare, elliptical or ambiguous, or where the chapter's English must be kept concordant with the stable chapters 40 and 42-45; the line keeps a standard rendering (ASV, usually with JPS 1917 or NJPS) and the commentary reports the alternatives. Four items change the Translator's draft. (a) 41:8 zeraʿ is 'seed', as in ASV, JPS 1917 and NJPS (checked) and in the stable 43:5; 44:3; 45:19, 25; 48:19, where 'offspring' renders ṣeʾĕṣāʾîm; the draft's 'offspring' would have given one English word to two Hebrew nouns that 44:3 sets in parallel. (b) 41:14 mᵉṯê yiśrāʾēl: BDB lists the verse among the poetic uses of mat where 'sex [is] usually not emph.' (Sefaria lexicon, checked), and the phrase addresses the whole people (grammatically feminine) in parallel with 'worm Jacob'; under the house rule that generic human nouns are gender-neutral (adam-humankind-ish-man-isaiah; wave I-4 rule 13) the line has 'people', and 'mortal' is not used because it is reserved for ʾĕnôš (enosh-mortal-isaiah). ASV, JPS 1917 and NJPS print 'men of Israel' (checked), and NJPS's note 'Emendation yields \"maggot\"' and the prose idiom mᵉṯê mispār 'few in number' (Gen 34:30; Deut 4:27) are reported in commentary. (c) 41:15 môraḡ is 'threshing board', NJPS's word here and at 2 Sam 24:22 (checked), because the stable 28:27 already uses 'threshing sledge' for ḥārûṣ as a noun; BDB treats ḥārûṣ at both sites as one adjective 'sharp', attributive here and substantival at 28:27 (checked), so the line keeps ASV's and JPS 1917's adjectival 'sharp' and gives each noun one English word. (d) 41:23 hāʾōṯiyyôṯ is 'the things that are coming', the rendering of the stable 44:7; the stable chapters differ (45:11 has 'the things to come'), and 44:7 is followed so that habbāʾôṯ 'the things to come' (41:22) and hāʾōṯiyyôṯ do not share English in adjacent verses. The other items keep the draft: 41:1 MT is translated although the clause repeats 40:31 (NJPS 'Connection of Heb. uncertain', checked); 41:2, 25 hēʿîr / haʿîrôṯî 'roused' follows the stable 45:13 and NJPS, and the figure, identified with Cyrus by most commentators, stays unnamed and in lower case because the Hebrew names no one; at 41:10, 13, 14 the suffixed perfects are futures with ASV, while JPS 1917 and NJPS have presents (checked); at 41:11-12 the constructs with ʾanšê name adversaries in general and take ASV's relative clauses. Three items record context clauses so that later Editors do not read them as inconsistencies: ʾāwen 'vanity' at 41:29 (BDB: 'abstr. for concr. = idols Is 41:29', checked; 'iniquity' at 1:13; 10:1; 29:20; 31:2; 32:6), ḥōmer 'mortar' at 41:25 (ASV, JPS 1917; 'mire' 10:6, 'clay' 29:16; 45:9), and ʾereṣ ṣiyyāh 'the dry land' at 41:18 (the 35:1 pair; 'parched ground' at 53:2). Two central entries are deliberately not applied: kalah-venecheratzah-decreed-full-end-cross-corpus at 41:15 (ḥārûṣ 'sharp' is a homonym of the ḥrṣ of decree) and nesekh-libation-drink-offering at 41:29 (nᵉsāḵîm 'molten images' is the casting sense of nsk). Every rendering is attested in a standard version or lexicon and no reading is added, so the claim is direct.",
+   "appliesTo": [
+    "ISA-41:1",
+    "ISA-41:2",
+    "ISA-41:3",
+    "ISA-41:4",
+    "ISA-41:6",
+    "ISA-41:7",
+    "ISA-41:8",
+    "ISA-41:9",
+    "ISA-41:10",
+    "ISA-41:11",
+    "ISA-41:12",
+    "ISA-41:13",
+    "ISA-41:14",
+    "ISA-41:15",
+    "ISA-41:16",
+    "ISA-41:17",
+    "ISA-41:18",
+    "ISA-41:19",
+    "ISA-41:21",
+    "ISA-41:22",
+    "ISA-41:23",
+    "ISA-41:24",
+    "ISA-41:25",
+    "ISA-41:26",
+    "ISA-41:27",
+    "ISA-41:29"
+   ]
+  }
+ },
+ {
+  "op": "modify",
+  "id": "lexical-cruxes-isaiah-11",
+  "appliesToAdded": [],
+  "rationaleAppend": "Wave I-6 (Isa 41 Editor): the ʾî item of this entry (11:11 ʾiyyê hayyām 'the coastlands of the sea') is now governed book-wide by iy-coastlands-isaiah, which lists ISA-11:11 together with the other ʾî sites (20:6; 23:2, 6; 24:15; 40:15; 41:1, 5; 42:4, 10, 12, 15). The 11:11 rendering is unchanged; this entry keeps 11:11 for its other items. The refs ISA-20:6, 23:2 and 23:6, which were added here only for ʾî, are superseded by the new entry."
+ },
+ {
+  "op": "modify",
+  "id": "title-and-meta-conventions-isaiah",
+  "appliesToAdded": [
+   "ISA-41:1"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 41): chapter title 'Isaiah 41 — The trial of the nations: the one roused from the east, Israel the chosen servant, and the emptiness of the idols' ratified; the figure of 41:2, 25 is described, not named, as in the lines. Quotation marks mark direct speech at 41:6, 7, 9, 13, 26 and 27 (41:9 with the extent JPS 1917 marks, checked 2026-11-27)."
+ },
+ {
+  "op": "modify",
+  "id": "mt-qere-textual-policy-isaiah",
+  "appliesToAdded": [
+   "ISA-41:1",
+   "ISA-41:2",
+   "ISA-41:14",
+   "ISA-41:23",
+   "ISA-41:24",
+   "ISA-41:25",
+   "ISA-41:29"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 41): 41:23 is a ketiv/qere site (ketiv ונרא, which can be vocalised wᵉnîrāʾ 'and fear'; qere wᵉnirʾeh 'and see'); the line follows the qere, 'that we may be dismayed and see it together', as ASV, JPS 1917 and NJPS do, and NJPS's note 'Change of vocalization yields \"fear\"; cf. v. 10' is reported (Sefaria API v3, checked 2026-11-27). 41:23 joins the list of qere sites in the wohChoice. MT is translated and proposed corrections or variants are reported in commentary at 41:1 (the repetition of 40:31; NJPS 'Connection of Heb. uncertain'), 41:2 (yard; a 1QIsaᵃ form from yrd, not verified), 41:14 (NJPS 'Emendation yields \"maggot\"'), 41:24 (mēʾāp̄aʿ; correction to mēʾep̄es, not verified), 41:25 (wᵉyāḇōʾ; the emendation wᵉyāḇōs 'trample', which NJPS's 'trampled' implies; a 1QIsaᵃ/LXX reading of yiqrāʾ ḇišmî, not verified) and 41:29 (ʾāwen; a reported 1QIsaᵃ ʾayin, not verified)."
+ },
+ {
+  "op": "modify",
+  "id": "adam-humankind-ish-man-isaiah",
+  "appliesToAdded": [
+   "ISA-41:6",
+   "ISA-41:11",
+   "ISA-41:12",
+   "ISA-41:14",
+   "ISA-41:28"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 41): distributive ʾîš at 41:6 is 'everyone', and its singular suffixes stay 'his' ('They help everyone his neighbor, and everyone says to his brother') under the wave I-5 rule that keeps he/his after a gender-neutral noun, as at the stable 19:2. Generic wᵉʾên ʾîš at 41:28 is 'there is no one' (ASV and JPS 1917 'no man', NJPS 'not a man'; checked 2026-11-27). The constructs ʾanšê rîḇeḵā / maṣṣuṯeḵā / milḥamtᵉḵā (41:11-12) name Israel's adversaries in general, not a specific body of fighters (wave I-4 rule 13), and are rendered with ASV's relative clauses 'those who strive / contend / war with you'. 41:14 mᵉṯê yiśrāʾēl (H4962 mat, a different lemma) is rendered 'you people of Israel' by the same rule; the decision and its evidence are recorded in lexical-cruxes-isaiah-41."
+ },
+ {
+  "op": "modify",
+  "id": "eved-servant-identity-isaiah",
+  "appliesToAdded": [
+   "ISA-41:8",
+   "ISA-41:9"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 41): 41:8-9 yiśrāʾēl ʿaḇdî … ʿaḇdî-ʾattāh 'Israel my servant … You are my servant', where the servant is named as Israel/Jacob, as at 44:1-2, 21; 45:4."
+ },
+ {
+  "op": "modify",
+  "id": "eretz-cosmic-scope-isaiah-24",
+  "appliesToAdded": [
+   "ISA-41:5",
+   "ISA-41:9"
+  ]
+ },
+ {
+  "op": "modify",
+  "id": "elohai-elohenu-doxology-isaiah-25",
+  "appliesToAdded": [
+   "ISA-41:10",
+   "ISA-41:13"
+  ]
+ },
+ {
+  "op": "modify",
+  "id": "elohei-yisrael-god-of-israel-isaiah-24",
+  "appliesToAdded": [
+   "ISA-41:17"
+  ]
+ },
+ {
+  "op": "modify",
+  "id": "bara-create-isaiah",
+  "appliesToAdded": [
+   "ISA-41:20"
+  ]
+ },
+ {
+  "op": "modify",
+  "id": "elohim-el-eloah-monotheistic-formula-isaiah",
+  "appliesToAdded": [
+   "ISA-41:23"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 41): 41:23 kî ʾĕlōhîm ʾattem 'that you are gods', lower case, addressed to the idols of the trial scene (41:21-24)."
+ },
+ {
+  "op": "modify",
+  "id": "tohu-bare-emptiness-wasteland-isaiah",
+  "appliesToAdded": [
+   "ISA-41:29"
+  ]
+ },
+ {
+  "op": "modify",
+  "id": "yotser-potter-clay-image-isaiah",
+  "appliesToAdded": [
+   "ISA-41:25"
+  ],
+  "rationaleAppend": "Wave I-6 (Isa 41): 41:25 ûḵᵉmô yôṣēr yirmās-ṭîṭ 'and as the potter treads clay'. The participle has no article but stands on its own as the noun for the craftsman, so it takes 'the potter' (ASV, JPS 1917; NJPS 'Like a potter'; checked 2026-11-27)."
+ }
+]

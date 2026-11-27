@@ -1,0 +1,40 @@
+[
+ {
+  "op": "version",
+  "from": "5.0.0",
+  "to": "5.1.0",
+  "readBase": "5.0.0",
+  "marker": "CENTRAL — apply by orchestrator",
+  "note": "Isaiah wave I-6, chapter 39 Editor. Read base: central v5.0.0 (read-only, read with Python, not edited). Contents: 3 modify ops. appliesTo extensions on minchah-tribute-gift-of-appeasement and ulam-hekhal-devir-temple-three-room-plan-cross-corpus (rationale addenda only), and on saris-court-official-eunuch-ambiguity an appliesTo extension plus one changes.wohChoice that appends a context clause ('eunuch(s)' in Isaiah at 39:7 and, as a forward commitment, 56:3-4). The existing wohChoice sentence and claim_type (inferred) are unchanged. FOUNDER DECISION (chapter-39-editor-report.md): the saris context clause; if declined, drop its changes/rationaleAppend, keep the appliesTo extension only if the founder rules 'eunuchs' at 39:7 on context alone, or revert 39:7 to 'officials'. Semver: minor if treated like earlier context clauses (eretz, yeor, goel pāḏâ); major if any wohChoice edit counts as a modification. CONCURRENCY: the chapter 36-37 Editors may touch saris (MT Isa 36-38 and 41 contain no form of sārîs, checked by search of the source files; 2 Kgs 18:17 rab-sārîs has no counterpart at Isa 36:2) and minchah (none expected)."
+ },
+ {
+  "op": "modify",
+  "marker": "CENTRAL — apply by orchestrator",
+  "id": "saris-court-official-eunuch-ambiguity",
+  "appliesToAdded": [
+   "ISA-39:7"
+  ],
+  "changes": {
+   "wohChoice": "an officer (ASV-baseline; the court-official sense; the literal eunuch-sense and its tension with Potifar's marriage documented in commentary). Context clause (isaiah-woh wave I-6): 'eunuch(s)' in Isaiah, where the context favours the castration sense: 39:7 (the king's own sons taken to serve in a foreign palace; ASV, KJV, NJPS 'eunuchs') and, as a forward commitment, 56:3-4 ('Behold, I am a dry tree'; ASV, JPS 1917, NJPS 'eunuch'). The parallel 2 Kgs 20:18 follows Isa 39:7 when it is translated."
+  },
+  "rationaleAppend": "Isaiah 39:7 (isaiah-woh wave I-6): wᵉhāyû sārîsîm bᵉhêḵal meleḵ bāḇel 'and they shall be eunuchs in the palace of the king of Babylon'. ASV, KJV and NJPS print 'eunuchs'; JPS 1917 prints 'officers' here and at 2 Kgs 20:18 (bible-api.com and Sefaria API v3, checked 2026-11-27). At 2 Kgs 20:18 Fox, The Early Prophets (2014), has 'officials' (with hêḵāl 'the Great-Hall') and the Metsudah Tanach has 'officers' (Sefaria API v3, checked 2026-11-27), so three checked versions take the court-official reading. The Genesis tension that decided 'an officer' at Gen 37:36 / 39:1 (a married Potiphar) is absent: the sārîsîm are Hezekiah's own sons taken to serve a foreign king, the setting in which the versions that print 'eunuchs' read the castration sense. Isa 56:3-4 makes the sense explicit, since the sārîs fears he is 'a dry tree' (ASV and JPS 1917; NJPS 'a withered tree'; checked), and the context clause fixes 'eunuch' there in advance so that Isaiah's two sārîs passages share one English word. The court-official sense is recorded in the 39:7 commentary. The claim_type stays inferred: the choice of sense remains contextual, as at the Genesis sites, and JPS 1917, Fox and Metsudah show that the functional reading is defended at this passage too."
+ },
+ {
+  "op": "modify",
+  "marker": "CENTRAL — apply by orchestrator",
+  "id": "minchah-tribute-gift-of-appeasement",
+  "appliesToAdded": [
+   "ISA-39:1"
+  ],
+  "rationaleAppend": "Isaiah 39:1 (isaiah-woh wave I-6): sᵉp̄ārîm ûminḥāh 'letters and a present', the diplomatic gift of the king of Babylon to Hezekiah that the rationale above already lists with 2 Kgs 20:12. 'A present' follows ASV and JPS 1917; NJPS has 'a gift' (checked 2026-11-27). The inter-political register is the operative one, and 'tribute' is not used, because nothing in the context makes the gift a payment owed by a vassal."
+ },
+ {
+  "op": "modify",
+  "marker": "CENTRAL — apply by orchestrator",
+  "id": "ulam-hekhal-devir-temple-three-room-plan-cross-corpus",
+  "appliesToAdded": [
+   "ISA-39:7"
+  ],
+  "rationaleAppend": "Isaiah application (isaiah-woh wave I-6): at Isa 39:7 bᵉhêḵal meleḵ bāḇel is 'in the palace of the king of Babylon' under this entry's context clause (a human king's residence), with ASV, JPS 1917 and NJPS (checked 2026-11-27). The isaiah-woh overlay entry heikhal-temple-palace-isaiah, which renders 'the temple' at 6:1 and 44:28, carries the same context clause."
+ }
+]
