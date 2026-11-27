@@ -6,20 +6,20 @@
   "title": "Isaiah 39 — The envoys of Merodach-baladan and the word of exile to Babylon",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.39",
-    "glossaryVersion": "5.0.0",
-    "overlayGlossaryVersion": "4.0.0",
+    "glossaryVersion": "6.0.0",
+    "overlayGlossaryVersion": "5.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-27T08:15:00Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-27T12:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-27T08:15:00Z",
@@ -172,7 +172,8 @@
       "lensLeakageCheck": "Performed on all 8 English lines: none reads as interpretation. No project vocabulary in any line; no speculative paragraph; the Reviewer confirmed by search that TBWTT, ETTMTTP and LWTE in data-library contain no reference to Hezekiah, Merodach or a eunuch.",
       "escalationReportAdjustment": "Escalation report read after the initial verdicts. It adds no information that changes a verdict: the saris escalation (options A/B/C) matches the reviewer's flag; the 2 Kgs 20:12 name question and the 37:14 'letter(s)' coordination are cross-chapter/cross-book items for the orchestrator and founder, not defects in this chapter. The report states that Fox and Metsudah at 2 Kgs 20:12–19 were checked 'text and notes', which confirms that the omission of their 'officials'/'officers' at 20:18 from the 39:7 commentary and the saris addendum is an omission, not a gap in access; the ISA-39:7 revise stands.",
       "citationNote": "All ASV/KJV readings checked via bible-api.com; JPS 1917, NJPS ('Tanakh: The Holy Scriptures, published by JPS', 1985 — not the Gender-Sensitive Edition), Fox (The Early Prophets, 2014), Metsudah Tanach and WLC 2 Kgs 20:12–19 checked via Sefaria API v3 on 2026-11-27. HALOT, BDB and Tadmor 1995 are cited from memory and marked as such; not verified in this review."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -191,7 +192,8 @@
       "notes": {
         "official": "*Mᵉrōḏaḵ balʾăḏān ben-balʾăḏān* “Merodach-baladan son of Baladan”: the line keeps the Masoretic spelling of Isaiah, as ASV, JPS 1917 and NJPS do (checked). The parallel 2 Kgs 20:12 reads *bᵉrōʾḏaḵ*, “Berodach-baladan” in ASV, JPS 1917 and NJPS, and NJPS notes there: “Several mss. and the parallel Isa. 39.1 read ‘Merodach’” (WLC and Sefaria API v3, checked). The Babylonian name is Marduk-apla-iddina (II). Everett Fox (*The Early Prophets*, 2014, note at 2 Kgs 20:12) explains it as “[The God] Marduk Gave the Inheriting Son” and dates the king's reigns to 722–710 and 704–703 (checked on Sefaria). Isaiah sets the wording of the shared text, so the English pattern “-baladan son of Baladan” is fixed here. Whether 2 Kgs 20:12 prints its own Masoretic “Berodach-” is a decision for that book and is recorded in the editor report (overlay `lexical-cruxes-isaiah-39`).\n\n*Sᵉp̄ārîm ûminḥāh* “letters and a present” (ASV): the plural *sᵉp̄ārîm* can denote a single document. At 37:14 Hezekiah takes *hassᵉp̄ārîm* and reads “it” (*wayyiqrāʾēhû*, singular suffix; MT checked), and JPS 1917 and NJPS print “a letter” here (checked). The line keeps the plural of the Hebrew. By orchestrator ruling the noun is “letter” in both passages, and the number follows each verse’s grammar (37:14 “the letter,” with its singular suffixes; 39:1 “letters”). *Sēp̄er* is “letter” here, not “scroll”: the overlay `sefer-sealed-scroll-isaiah-29` governs the written roll at 29:11–18, 30:8 and 34:4, 16, not a diplomatic letter. *Minḥāh* is “a present,” the gift of one court to another, as in the central `minchah-tribute-gift-of-appeasement`, whose rationale already lists this verse and 2 Kgs 20:12; NJPS has “a gift.” NJPS also supplies “[envoys with],” which the Hebrew does not have; the envoys first appear as “these men” at 39:3.\n\n*Wayyišmaʿ kî ḥālāh wayyeḥĕzāq* “for he heard that he had been sick and had recovered”: the narrative verb gives the reason for the embassy, and the line renders it as a causal clause with ASV and JPS 1917 (“for he heard”). 2 Kgs 20:12 has *kî šāmaʿ kî ḥālāh ḥizqiyyāhû* “for he had heard that Hezekiah had been sick,” without “and had recovered” (MT checked). The verb *wayyeḥĕzāq* shares the root *ḥzq* with the king's name *ḥizqiyyāhû*; the English does not mark the echo.",
         "community": []
-      }
+      },
+      "translit": "bāʿēt hahiwʾ šālaḥ mərōdak balʾădān ben-balʾădān melek-bābel səpārīm ūminḥāh ʾel-ḥizqiyyāhū wayyišmaʿ kī ḥālāh wayyeḥĕzāq"
     },
     {
       "n": 2,
@@ -208,7 +210,8 @@
       "notes": {
         "official": "*Bêṯ nᵉḵōṯô* “the house of his precious things”: the ketiv נכתה spells the third-person suffix with *-h*, the older spelling, and the qere נְכֹתוֹ has the usual *-ô*. The sense is the same, and the line follows the qere (overlay `mt-qere-textual-policy-isaiah`). 2 Kgs 20:13 writes *nᵉḵōṯōh* in the text with no qere (MT checked). The noun occurs only in these two verses. Fox calls it a loanword from Akkadian and renders “storehouse” (checked); the Akkadian source usually cited, *bīt nakkamti* “treasure house,” is recalled and not verified here. JPS 1917 and NJPS print “his treasure house” (checked). The line keeps ASV's “the house of his precious things,” because that keeps *bêṯ* as “house” beside *bêṯ kēlāyw* “the house of his armor” in the same verse, and keeps “treasures” for *ʾôṣᵉrōṯāyw*, which is a different noun.\n\n*Wayyiśmaḥ ʿălêhem* “was glad of them” (ASV, JPS 1917; NJPS “was pleased by their coming,” checked). 2 Kgs 20:13 reads *wayyišmaʿ ʿălêhem*, “hearkened unto them” in ASV and JPS 1917 and “heard about them” in NJPS, which notes the Isaiah reading (all checked). The two verbs differ by one letter (*śmḥ* / *šmʿ*). In his Kings translation Fox follows the versions and Isaiah, “was pleased with them” (checked). The Isaiah line translates its own MT.\n\n*Haššemen haṭṭôḇ* “the fine oil”: literally “the good oil.” ASV and JPS 1917 have “the precious oil” and NJPS “the fragrant oil” (checked). The line uses “fine,” as Fox and the Metsudah translation do at 2 Kgs 20:13 (checked), so that “precious” belongs only to *nᵉḵōṯ* in this verse. Kings has *šemen* without the article. *Kol-bêṯ kēlāyw* “all the house of his armor” keeps ASV (JPS 1917 “armour”; NJPS “all his armory”; checked). *Kᵉlî* covers equipment, vessels and weapons, and the Metsudah translation of Kings keeps the wide sense, “the house in which he kept his vessels” (checked); beside the treasury the house of *kēlîm* is usually taken as the arsenal (compare 22:8, “the armor of the house of the forest,” where the noun is *nešeq*, not *kᵉlî*; “armor” thus renders both nouns, as in ASV). Kings has *bêṯ kēlāyw* without “all,” and has “all” before *bêṯ nᵉḵōṯōh* instead (MT checked).",
         "community": []
-      }
+      },
+      "translit": "wayyiśmaḥ ʿălēhem ḥizqiyyāhū wayyarʾēm ʾet-bēt nkth [nəkōtō] ʾet-hakkesep wəʾet-hazzāhāb wəʾet-habbəśāmīm wəʾēt | haššemen haṭṭōb wəʾēt kol-bēt kēlāyw wəʾēt kol-ʾăšer nimṣāʾ bəʾōṣərōtāyw lōʾ-hāyāh dābār ʾăšer lōʾ-herʾām ḥizqiyyāhū bəbētō ūbəkol-memšaltō"
     },
     {
       "n": 3,
@@ -224,7 +227,8 @@
       "notes": {
         "official": "*Yᵉšaʿyāhû hannāḇîʾ* “Isaiah the prophet”: ASV order, with *nāḇîʾ* “prophet” as throughout the book. 2 Kgs 20:14 lacks *ʾēlay* “to me” in Hezekiah's reply (MT checked); the Isaiah line keeps it, “They have come to me from a far country.” *Hāʾănāšîm hāʾēlleh* “these men” are the Babylonian envoys, a specific group of men, so the gender-neutral rule for generic human nouns does not apply (wave I-4 rule 13; overlay `lexical-cruxes-isaiah-39`).",
         "community": []
-      }
+      },
+      "translit": "wayyābōʾ yəšaʿyāhū hannābīʾ ʾel-hammelek ḥizqiyyāhū wayyōʾmer ʾēlāyw māh ʾāmərū | hāʾănāšīm hāʾēlleh ūmēʾayin yābōʾū ʾēlēkā wayyōʾmer ḥizqiyyāhū mēʾereṣ rəḥōqāh bāʾū ʾēlay mibbābel"
     },
     {
       "n": 4,
@@ -240,7 +244,8 @@
       "notes": {
         "official": "Hezekiah's answer repeats the narrator's words of 39:2: “there is nothing among my treasures that I have not shown them.” *Bayiṯ* is “house” in 39:2, 4 and 6, as in ASV and JPS 1917; NJPS has “palace” (checked). The line keeps one English word so that the repetition stays visible: what the envoys saw “in your house” (39:4) is “all that is in your house,” which will be carried to Babylon (39:6). 2 Kgs 20:15 differs only in spelling (*hirʾîṯim*, *bᵉʾōṣᵉrōṯāy*; MT checked).",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer māh rāʾū bəbētekā wayyōʾmer ḥizqiyyāhū ʾēt kol-ʾăšer bəbētī rāʾū lōʾ-hāyāh dābār ʾăšer lōʾ-hirʾītīm bəʾōṣərōtāy"
     },
     {
       "n": 5,
@@ -257,7 +262,8 @@
       "notes": {
         "official": "*Dᵉḇar-YHWH ṣᵉḇāʾôṯ* “the word of YHWH of hosts” (overlay `yhwh-tzevaot-hosts-isaiah`). 2 Kgs 20:16 has only *dᵉḇar-YHWH*, “the word of Jehovah” in ASV (MT and ASV checked). The oracle is set in quotation marks from here to the end of 39:7, because it is Isaiah's speech inside the narrative (overlay `title-and-meta-conventions-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer yəšaʿyāhū ʾel-ḥizqiyyāhū šəmaʿ dəbar-YHWH ṣəbāʾōt"
     },
     {
       "n": 6,
@@ -274,7 +280,8 @@
       "notes": {
         "official": "*Hinnēh yāmîm bāʾîm* “Behold, days are coming” introduces an announcement of the future (ASV “the days are coming”; NJPS “A time is coming”; checked). *ʾĂḇōṯeyḵā* “your fathers” are Hezekiah's royal predecessors, a male line, so the line keeps “fathers” with ASV and JPS 1917; NJPS has “your ancestors” (checked; overlay `lexical-cruxes-isaiah-39`). *Bāḇel* is an accusative of direction, “to Babylon”; 2 Kgs 20:17 writes *bāḇelāh* with the directional ending (MT checked). *ʾĀmar YHWH* is “says YHWH” (ASV “saith Jehovah”).",
         "community": []
-      }
+      },
+      "translit": "hinnēh yāmīm bāʾīm wəniśśāʾ | kol-ʾăšer bəbētekā waʾăšer ʾāṣərū ʾăbōtēkā ʿad-hayyōm hazzeh bābel lōʾ-yiwwātēr dābār ʾāmar YHWH"
     },
     {
       "n": 7,
@@ -292,9 +299,10 @@
         "title-and-meta-conventions-isaiah"
       ],
       "notes": {
-        "official": "*Wᵉhāyû sārîsîm* “and they shall be eunuchs”: *sārîs* names a court official and, in many contexts, a castrated court official. The central `saris-court-official-eunuch-ambiguity` records the Akkadian title *ša rēši* behind the word and the debate over how far the two senses coincide. ASV, KJV and NJPS print “eunuchs” here; JPS 1917 prints “officers,” here and at 2 Kgs 20:18 (all checked). At 2 Kgs 20:18 Fox (“they will become officials in the Great-Hall of the king of Babylon”) and the Metsudah translation (“they will be officers in the king of Bavel’s palace”) also take the court-official sense (checked), so three checked versions give the functional reading. The central entry chose “an officer” at Gen 37:36 and 39:1 because Potiphar has a wife. Here the *sārîsîm* are the king's own sons taken to serve in a foreign court, the setting in which the versions that print “eunuchs” read the castration sense, and the line keeps ASV. The same noun is “the eunuch” at 56:3–4, where he says “Behold, I am a dry tree” (ASV and JPS 1917; NJPS “I am a withered tree”; checked). A context clause on the central entry, staged in this wave and awaiting founder sign-off, gives Isaiah “eunuch” at both sites.\n\n*Bᵉhêḵal meleḵ bāḇel* “in the palace of the king of Babylon”: *hêḵāl* is a loanword (Sumerian é.gal “great house,” through Akkadian *ekallu*) meaning both palace and temple. Elsewhere in the book it is “the temple” of YHWH (6:1; 44:28; overlay `heikhal-temple-palace-isaiah`). The residence of a king is a palace, as the context clause of the central `ulam-hekhal-devir-temple-three-room-plan-cross-corpus` provides and as ASV, JPS 1917 and NJPS print (checked); Fox has “the Great-Hall” at 2 Kgs 20:18. The overlay entry is extended with the same context clause.\n\n*Yiqqāḥû* “they shall take away”: the form is the pausal Qal imperfect, third person plural, of *lāqaḥ*, with no named subject (ASV and JPS 1917 “shall they take away”); NJPS renders the impersonal plural with a passive, “will be taken” (checked). At 2 Kgs 20:18 the ketiv is the singular יקח and the qere is *yiqqāḥû* (MT checked). *Mibbāneyḵā* “some of your sons” is partitive. For *ʾăšer yēṣᵉʾû mimmᵉḵā* “who shall come forth from you,” Fox's note at 2 Kgs 20:18 gives the idiomatic “your offspring” after Cogan and Tadmor (checked). The line keeps “sons,” because the *sārîsîm* are male (overlay `lexical-cruxes-isaiah-39`).",
+        "official": "*Wᵉhāyû sārîsîm* “and they shall be eunuchs”: *sārîs* names a court official and, in many contexts, a castrated court official. The central `saris-court-official-eunuch-ambiguity` records the Akkadian title *ša rēši* behind the word and the debate over how far the two senses coincide. ASV, KJV and NJPS print “eunuchs” here; JPS 1917 prints “officers,” here and at 2 Kgs 20:18 (all checked). At 2 Kgs 20:18 Fox (“they will become officials in the Great-Hall of the king of Babylon”) and the Metsudah translation (“they will be officers in the king of Bavel’s palace”) also take the court-official sense (checked), so three checked versions give the functional reading. The central entry chose “an officer” at Gen 37:36 and 39:1 because Potiphar has a wife. Here the *sārîsîm* are the king's own sons taken to serve in a foreign court, the setting in which the versions that print “eunuchs” read the castration sense, and the line keeps ASV. The same noun is “the eunuch” at 56:3–4, where he says “Behold, I am a dry tree” (ASV and JPS 1917; NJPS “I am a withered tree”; checked). The central entry's Isaiah context clause gives “eunuch” at both sites.\n\n*Bᵉhêḵal meleḵ bāḇel* “in the palace of the king of Babylon”: *hêḵāl* is a loanword (Sumerian é.gal “great house,” through Akkadian *ekallu*) meaning both palace and temple. Elsewhere in the book it is “the temple” of YHWH (6:1; 44:28; overlay `heikhal-temple-palace-isaiah`). The residence of a king is a palace, as the context clause of the central `ulam-hekhal-devir-temple-three-room-plan-cross-corpus` provides and as ASV, JPS 1917 and NJPS print (checked); Fox has “the Great-Hall” at 2 Kgs 20:18. The overlay entry is extended with the same context clause.\n\n*Yiqqāḥû* “they shall take away”: the form is the pausal Qal imperfect, third person plural, of *lāqaḥ*, with no named subject (ASV and JPS 1917 “shall they take away”); NJPS renders the impersonal plural with a passive, “will be taken” (checked). At 2 Kgs 20:18 the ketiv is the singular יקח and the qere is *yiqqāḥû* (MT checked). *Mibbāneyḵā* “some of your sons” is partitive. For *ʾăšer yēṣᵉʾû mimmᵉḵā* “who shall come forth from you,” Fox's note at 2 Kgs 20:18 gives the idiomatic “your offspring” after Cogan and Tadmor (checked). The line keeps “sons,” because the *sārîsîm* are male (overlay `lexical-cruxes-isaiah-39`).",
         "community": []
-      }
+      },
+      "translit": "ūmibbānēkā ʾăšer yēṣəʾū mimməkā ʾăšer tōlīd yiqqāḥū wəhāyū sārīsīm bəhēkal melek bābel"
     },
     {
       "n": 8,
@@ -311,7 +319,8 @@
       "notes": {
         "official": "*Ṭôḇ dᵉḇar-YHWH ʾăšer dibbartā* “Good is the word of YHWH that you have spoken” is identical in 2 Kgs 20:19. The second half is disputed on three points. (1) A second *wayyōʾmer* with no change of speaker can introduce a further remark or a thought: NJPS renders “For he thought,” and Fox and the Metsudah translation of Kings have “for he said [to himself]” (checked). (2) *Kî* may give a reason, “For” (ASV, KJV), may simply introduce the words spoken, or may express a wish, as in JPS 1917, “If but there shall be peace and truth in my days” (checked). (3) 2 Kgs 20:19 has a question, *hălôʾ ʾim-šālôm weʾĕmeṯ yihyeh bᵉyāmāy*, “Is it not so, if peace and truth shall be in my days?” in ASV and JPS 1917 (checked). NJPS gives both verses one interpretive rendering, “It means that safety is assured for my time,” with the note “Lit. ‘there shall be safety and faithfulness in’” (checked). The line keeps the ASV construal, which keeps the order and the words of the Hebrew, and leaves the tone of the remark open.\n\n*Šālôm weʾĕmeṯ* “peace and truth”: *ʾĕmeṯ* is “truth” elsewhere in the book (10:20; 16:5; 42:3; 48:1; and 38:3 in this wave). Joined to *šālôm* it can mean a peace that holds: the literal note of NJPS has “safety and faithfulness,” and Fox renders “trustworthy peace,” with the gloss “secure” (checked). The central `chesed-v-emet-steadfast-love-and-truth` governs the pair *ḥeseḏ weʾĕmeṯ* and is not applied. The overlay `ra-calamity-shalom-well-being-isaiah-45-7` (“well-being”) is scoped to 45:7, and *šālôm* keeps its usual English, “peace” (overlay `lexical-cruxes-isaiah-39`). A *pᵉṯûḥāh* (פ) closes the Hezekiah narrative of Isaiah 36–39.",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer ḥizqiyyāhū ʾel-yəšaʿyāhū ṭōb dəbar-YHWH ʾăšer dibbartā wayyōʾmer kī yihyeh šālōm weʾĕmet bəyāmāy (p)"
     }
   ],
   "editorial_questions": []

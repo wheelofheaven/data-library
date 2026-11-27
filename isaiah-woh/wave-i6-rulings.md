@@ -47,3 +47,16 @@ line and escalate it.
    11–13, 22; 37:4, 8), matching "the Tartan" at 20:1. The chapter 36 Editor adds the entry; chapter 37 extends it.
 8. **sᵉp̄ārîm (37:14; 39:1)** (ruled during editing): one noun, "letter", number by each verse's grammar (37:14 "the letter",
    singular suffixes; 39:1 "letters"); a diplomatic sēp̄er is outside `sefer-sealed-scroll-isaiah-29`.
+
+## Founder rulings (sign-off 2026-11-27)
+
+zarazinsfuss signed off wave I-6 (chapters 36, 37, 38, 39, 41) on 2026-11-27 by interactive form, choosing every recommended option.
+
+9. **36:12** the qere rendered literally: "to eat their dung and to drink the water of their feet with you" (parallel to 7:20 "the hair of the feet"; ASV/JPS 1917 "their own water" and NJPS "their urine" in commentary). Recorded in `lexical-cruxes-isaiah-36` and the `mt-qere-textual-policy-isaiah` addendum.
+10. **37:16** "who is enthroned on the cherubim" (the 2 Sam 6:2 corpus wording) is accepted and supersedes the wording given in rule 3. Recorded in `lexical-cruxes-isaiah-37` and the central `cherubim-ezek` op.
+11. **39:7** "eunuchs" is the Isaiah book rule: the central `saris-court-official-eunuch-ambiguity` context clause (39:7; 56:3–4; 2 Kgs 20:18 follows Isa 39:7) is accepted.
+12. **Speculative reception notes** at 37:36 and 38:8 are kept as labelled (founder sign-off 2026-11-27).
+13. **Ratified:** "Judean" (36:11, 13); "crushed" (36:6); "make a wager with my master" (36:8); the central `bor` "cistern" clause (36:16); "you people of Israel" (41:14); "threshing board" (41:15); "the messenger of YHWH" (37:36).
+14. **Open items (not decided; no change):**
+    - 2 Kgs 20:12 Berodach-baladan: Kings' own spelling is recommended, to be ruled with the 2 Kings book.
+    - Stable 45:11 *ʾōṯiyyôṯ* harmonisation with 44:7 / 41:23: deferred to the next chapter-45 revision.

@@ -6,20 +6,20 @@
   "title": "Isaiah 36 — Sennacherib invades Judah, and the Rabshakeh speaks before the wall of Jerusalem",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.36",
-    "glossaryVersion": "5.0.0",
-    "overlayGlossaryVersion": "4.0.0",
+    "glossaryVersion": "6.0.0",
+    "overlayGlossaryVersion": "5.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
+    "reviewer": "zarazinsfuss",
     "reviewedAt": "2026-11-27T12:00:00Z",
-    "status": "awaiting-human",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-27T12:00:00Z",
@@ -416,7 +416,8 @@
       "lensLeakageCheck": "Performed on all 22 English lines and the chapter title. None reads as interpretation: titles, names and divine names follow house rules, and no line adds content absent from the Hebrew. The chapter has no speculative commentary paragraph, and none is warranted.",
       "escalationReportAdjustments": "Read after the initial verdicts. No verdict changed. The report confirms that the Editor weighed only ASV versus NJPS at 36:12, which leaves the 7:20 literal-euphemism option raised in the 36:12 revise open. It also confirms that bᵉrāḵāh 'treaty of peace' was seen only in BDB Augmented Strong, as the note says. The report's claim that the canon is silent on Isa 36 was not re-grepped, because no line or note depends on it.",
       "memoryCitedItems": "Labelled 'recalled' by the Editor and not verified by the Reviewer: HALOT/CAD rab šāqê, šarru rabû, Sennacherib's 46 towns, the 701 BCE chronology problem, Prov 14:23 (content confirmed by the Reviewer's own reading), 2 Kgs 18:4, the surrender sense of bᵉrāḵāh in commentators, the deportation practice, the location of Sepharvaim, and all Strong's numbers. Unlabelled but standard: 1 Kgs 4:6 and Samaria's fall in 722 BCE. Nothing load-bearing rests on an unverified source."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -435,7 +436,8 @@
       "notes": {
         "official": "*Wayhî bᵉʾarbaʿ ʿeśrēh šānāh lammeleḵ ḥizqiyyāhû* “Now it came to pass in the fourteenth year of King Hezekiah”: Isaiah 36–39 runs parallel to 2 Kgs 18:13–20:19, as the NJPS note at this verse says (checked). 2 Kings 18–20 is not yet in the corpus, so Isaiah sets the shared English wording here. Each verse is rendered on its own Hebrew, and the commentary records where the Kings Hebrew differs (Westminster Leningrad Codex on Sefaria, checked 2026-11-27). In this verse Kings reads *ûḇᵉʾarbaʿ* without *wayhî* and spells the king's name *ḥizqiyyāh*. Kings then has three verses with no parallel in Isaiah (2 Kgs 18:14–16): Hezekiah's submission sent to Lachish, and the silver and gold he paid.\n\nThe line is the wording of ASV and JPS 1917. NJPS has “King Sennacherib of Assyria marched against all the fortified towns of Judah and seized them” (checked). The campaign is usually dated to 701 BCE. How a fourteenth year of Hezekiah fits that date is a known chronological problem. Sennacherib's own annals claim forty-six walled towns of Judah (recalled from the standard editions, not checked). The names take the English and ASV forms (overlay `aram-names-isaiah`). The chapter title is the Translator's, with “the Rabshakeh” (overlay `rabshakeh-title-isaiah`, `title-and-meta-conventions-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wayhī bəʾarbaʿ ʿeśrēh šānāh lammelek ḥizqiyyāhū ʿālāh sanḥērīb melek-ʾaššūr ʿal kol-ʿārē yəhūdāh habbəṣurōt wayyitpəśēm"
     },
     {
       "n": 2,
@@ -453,7 +455,8 @@
       "notes": {
         "official": "*Rab-šāqēh* is an Assyrian title, not a personal name. BDB explains it as “chief of the officers (?)”, from Assyrian *rab* “chief” and *šaqû* “high one”, and lists all its sites: 2 Kgs 18:17, 19, 26, 27, 28, 37; 19:4, 8 = Isa 36:2, 4, 11, 12, 13, 22; 37:4, 8 (Sefaria, checked). The usual modern explanation is Akkadian *rab šāqê* “chief cupbearer” (HALOT, CAD; recalled, not verified). ASV prints “Rabshakeh” and JPS 1917 “Rab-shakeh” as a name. NJPS has “the Rabshakeh”, with the note “An Assyrian title; cf. ‘Tartan,’ 20.1” (checked). The line follows NJPS and the book's own decision at 20:1, “the Tartan”. The Hebrew has no article, as is usual with foreign titles used like names, and the English supplies it at every site (overlay `rabshakeh-title-isaiah`; draft “Rabshakeh” changed at 36:2, 4, 11, 12, 13, 22).\n\nKings sends three officers: “the Tartan and the Rab-saris and the Rabshakeh” (2 Kgs 18:17), and its verbs are plural (“they went up and came … and they stood”). Isaiah names the Rabshakeh alone and has the singular *wayyaʿămōḏ* “and he stood”. BDB notes that the Rab-saris is “not in ‖ Is 36:2” (checked). *Bᵉḥêl kāḇēḏ* is “with a great army” (ASV, JPS 1917; NJPS “with a large force”). Lachish takes the ASV spelling (overlay `aram-names-isaiah`).\n\n*Bitʿālaṯ habbᵉrēḵāh hāʿelyônāh bimsillaṯ śᵉḏēh ḵôḇēs* “by the conduit of the upper pool, on the highway of the fuller’s field” names the place where Isaiah met Ahaz at 7:3, and the line keeps the English of the stable 7:3. Only the preposition differs. At 7:3 it is *ʾel-qᵉṣēh* “at the end of”; here it is *bᵉ* “by” (ASV, JPS 1917 “by the conduit”; NJPS “near the conduit of the Upper Pool, by the road of the Fuller’s Field”, checked). Kings 18:17 inserts *ʾăšer*: “the upper pool, which is on the highway”. Two smaller differences in the first half of the verse: Kings writes *min-lāḵîš* where Isaiah has the contracted *millāḵîš* “from Lachish”, and Kings puts *yᵉrûšālāim* after *bᵉḥêl kāḇēḏ* “with a great army”, where Isaiah has *yᵉrûšālaymāh* “to Jerusalem” before *ʾel-hammeleḵ* (WLC on Sefaria, checked 2026-11-27). The line does not identify the site (overlay `lexical-cruxes-isaiah-36`).",
         "community": []
-      }
+      },
+      "translit": "wayyišlaḥ melek-ʾaššūr | ʾet-rab-šāqēh millākīš yərūšālamāh ʾel-hammelek ḥizqiyyāhū bəḥēl kābēd wayyaʿămōd bitʿālat habbərēkāh hāʿelyōnāh bimsillat śədēh kōbēs"
     },
     {
       "n": 3,
@@ -470,7 +473,8 @@
       "notes": {
         "official": "*ʾĂšer ʿal-habbāyiṯ* “who was over the house” applies the 22:15 decision (“who is over the house”) to the same title, in the past tense of the narrative (overlay `lexical-cruxes-isaiah-22`). ASV and JPS 1917 have “who was over the household”, and NJPS has “who was in charge of the palace” (checked). The phrase is the title of the chief officer of the royal palace (1 Kgs 4:6; 2 Kgs 18:18). At 22:15–22 the office is taken from Shebna and given to Eliakim son of Hilkiah. Here Eliakim holds it and Shebna is *hassōp̄ēr* “the scribe”. The line gives each title as the Hebrew states it and does not harmonise the two passages.\n\nKings 18:18 opens with *wayyiqrᵉʾû ʾel-hammeleḵ* “and they called to the king”, which Isaiah lacks, and spells the name *šeḇnāh* (Isaiah *šeḇnāʾ*). It also has *wayyēṣēʾ ʾălēhem* “and he came out to them” where Isaiah has *ʾēlāyw* “to him”, in keeping with its three envoys (18:17) (WLC on Sefaria, checked 2026-11-27). *Hammazkîr* is “the recorder” in ASV, JPS 1917 and NJPS.",
         "community": []
-      }
+      },
+      "translit": "wayyēṣēʾ ʾēlāyw ʾelyāqīm ben-ḥilqiyyāhū ʾăšer ʿal-habbāyit wəšebnāʾ hassōpēr wəyōʾāḥ ben-ʾāsāp hammazkīr"
     },
     {
       "n": 4,
@@ -489,7 +493,8 @@
       "notes": {
         "official": "*Mâ habbiṭṭāḥôn hazzeh ʾăšer bāṭāḥtā* “What is this confidence in which you trust?”: the noun *biṭṭāḥôn* and the verb *bāṭaḥ* share a root, and the speech comes back to that root again and again (36:4, 5, 6 twice, 7, 9, 15). The line renders the verb “trust (in)” at every site, whether it takes *ʿal* or *ʾel*, as the book does at 31:1 (“trust in chariots”) and 42:17. ASV varies the English (“trust on”, “trustest upon”, “put thy trust on”). The noun keeps the “confidence” of ASV and JPS 1917, the book's word for *beṭaḥ* at 32:17. NJPS paraphrases: “What makes you so confident?” (checked). The root play of the Hebrew is therefore carried by the verb, not by the noun (overlay `lexical-cruxes-isaiah-36`).\n\n*Hammeleḵ haggāḏôl* “the great king” renders the Assyrian royal style (*šarru rabû*, recalled). The quotation runs from here to the end of 36:10. Inside it the king's message, introduced by “Thus says”, has no quotation marks of its own, as at 7:3–9 (overlay `title-and-meta-conventions-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer ʾălēhem rab-šāqēh ʾimrū-nāʾ ʾel-ḥizqiyyāhū kōh-ʾāmar hammelek haggādōl melek ʾaššūr māh habbiṭṭāḥōn hazzeh ʾăšer bāṭāḥəttā"
     },
     {
       "n": 5,
@@ -506,7 +511,8 @@
       "notes": {
         "official": "*ʾĀmartî ʾaḵ-dᵉḇar-śᵉp̄āṯayim ʿēṣāh ûḡᵉḇûrāh lammilḥāmāh*: MT has the first person *ʾāmartî* “I say”. The parallel 2 Kgs 18:20 has the second person *ʾāmartā* “you say” (WLC on Sefaria, checked 2026-11-27), and NJPS cites it in a note: “2 Kings 18.20 ‘You must think’” (checked). The line keeps MT (overlay `mt-qere-textual-policy-isaiah`).\n\n*Dᵉḇar-śᵉp̄āṯayim* “a word of the lips” means mere talk (cf. Prov 14:23; recalled). The versions divide the clause differently. ASV reads “I say, [thy] counsel and strength for the war are but vain words”. JPS 1917 reads “I said: It is but vain words; for counsel and strength are for the war”. NJPS reads “I suppose mere talk makes counsel and valor for war!” (all checked). The line follows the construal of ASV without its supplied “thy”, and keeps the idiom literal so that the other construals stay open (overlay `lexical-cruxes-isaiah-36`).",
         "community": []
-      }
+      },
+      "translit": "ʾāmartī ʾak-dəbar-śəpātayim ʿēṣāh ūgəbūrāh lammilḥāmāh ʿattāh ʿal-mī bāṭaḥtā kī māradtā bī"
     },
     {
       "n": 6,
@@ -524,7 +530,8 @@
       "notes": {
         "official": "*Mišʿeneṯ haqqāneh hārāṣûṣ* “the staff of this crushed reed”: *rāṣûṣ* is the Qal passive participle of *rṣṣ* “crush”. It is the same form, with the same noun, as *qāneh rāṣûṣ* at 42:3, which the stable chapter renders “a crushed reed”. BDB lists 2 Kgs 18:21 = Isa 36:6 and Isa 42:3 together, “all metaph. of weak pers.” (Sefaria, checked). The line therefore changes the draft's “bruised” to “crushed”, so that the two Isaiah sites read alike (overlay `lexical-cruxes-isaiah-36`). ASV and JPS 1917 have “bruised reed” in both places. NJPS has “that splintered reed of a staff” here and “a bruised reed” at 42:3 (checked). Ezekiel uses the same image of Egypt: *mišʿeneṯ qāneh* “a staff of reed” to the house of Israel (Ezek 29:6, checked).\n\n*ʾĂšer yissāmēḵ ʾîš ʿālāyw ûḇāʾ ḇᵉḵappô ûnᵉqāḇāh* “on which if anyone leans, it will go into his hand and pierce it”: generic *ʾîš* is “anyone”, and “his” is kept after it (overlay `adam-humankind-ish-man-isaiah`). ASV and JPS 1917 have “if a man lean”. *Kap̄* is the palm (NJPS “punctures the palm of anyone who leans on it”). Kings 18:21 opens *ʿattāh hinnēh bāṭaḥtā lᵉḵā* “Now, behold, you trust”; Isaiah has neither *ʿattāh* nor *lᵉḵā*. Egypt and Pharaoh take the English forms (overlay `aram-names-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "hinnēh bāṭaḥtā ʿal-mišʿenet haqqāneh hārāṣūṣ hazzeh ʿal-miṣrayim ʾăšer yissāmēk ʾīš ʿālāyw ūbāʾ bəkappō ūnəqābāh kēn parʿōh melek-miṣrayim ləkāl-habbōṭəḥīm ʿālāyw"
     },
     {
       "n": 7,
@@ -544,7 +551,8 @@
       "notes": {
         "official": "*Wᵉḵî-ṯōʾmar ʾēlay* “But if you say to me”: Isaiah's verb is singular. Kings 18:22 has the plural *tōʾmᵉrûn* and adds *bîrûšālāim* “in Jerusalem” at the end of the verse (WLC on Sefaria, checked 2026-11-27). *ʾEl-YHWH ʾĕlōhênû bāṭāḥnû* is “We trust in YHWH our God” (overlay `elohai-elohenu-doxology-isaiah-25`).\n\n*Bāmôṯāyw* “his high places” (ASV, JPS 1917; NJPS “shrines”, checked) are the local sanctuaries whose removal Kings credits to Hezekiah (2 Kgs 18:4; recalled). *Lip̄nê hammizbēaḥ hazzeh tištaḥăwû* is “You shall bow down before this altar”, the rendering of the Hishtaphel used in the book at 2:8 and 2:20 (central `hishtachavah-bow-down-obeisance-worship`, `mizbeach-olah`). ASV and JPS 1917 have “worship”, and NJPS “You must worship only at this altar!” (checked). The line reports the speaker's argument and adds nothing to it.",
         "community": []
-      }
+      },
+      "translit": "wəkī-tōʾmar ʾēlay ʾel-YHWH ʾĕlōhēnū bāṭāḥənū hălōʾ-hūʾ ʾăšer hēsīr ḥizqiyyāhū ʾet-bāmōtāyw wəʾet-mizbəḥōtāyw wayyōʾmer līhūdāh wəlīrūšālim lipnē hammizbēaḥ hazzeh tištaḥăwū"
     },
     {
       "n": 8,
@@ -561,7 +569,8 @@
       "notes": {
         "official": "*Hiṯʿāreḇ nāʾ ʾeṯ-ʾăḏōnî* “please make a wager with my master”: the Hithpael of *ʿrḇ* means “exchange pledges (make a bargain)”, and BDB cites this verse and 2 Kgs 18:23 for that sense (Sefaria, checked). ASV's “give pledges … to my master” renders *ʾeṯ* “with” as “to” and loses the reciprocal sense of the stem. The line takes the wording of JPS 1917, “make a wager with my master” (NJPS “make this wager with my master”, checked). The stake is the offer that follows: two thousand horses, if Hezekiah can find riders for them. *Nāʾ* is “please”, as the book renders it at 5:3 and 29:11–12, not the draft's “I pray you” (overlay `lexical-cruxes-isaiah-36`).\n\n*ʾĂḏōnî* “my master” (ASV, JPS 1917, NJPS, checked) is a servant's word for his king. The book uses “master” for the same servant–master relation at 24:2 and “lord” at 22:18 (“your lord's house”), and the speech keeps “master” at every site (36:8, 9, 12). Isaiah writes *hammeleḵ ʾaššûr*, with the article on a noun in construct, here and at 36:16; Kings 18:23 reads *ʾeṯ-meleḵ ʾaššûr*. The sense is the same.",
         "community": []
-      }
+      },
+      "translit": "wəʿattāh hitʿāreb nāʾ ʾet-ʾădōnī hammelek ʾaššūr wəʾettənāh ləkā ʾalpayim sūsīm ʾim-tūkal lātet ləkā rōkəbīm ʿălēhem"
     },
     {
       "n": 9,
@@ -578,7 +587,8 @@
       "notes": {
         "official": "*Pᵉnê paḥaṯ ʾaḥaḏ ʿaḇdê ʾăḏōnî haqqᵉṭannîm* “the face of one captain of the least of my master’s servants”: *paḥaṯ* is a loanword from Assyrian *(bēl) paḫāti* “lord of a district, governor”. BDB lists this verse and 2 Kgs 18:24 under its use “as Assyrian captains” (Sefaria, checked). The line keeps “captain” with ASV and JPS 1917; NJPS has “the deputy of one of my master’s lesser servants” (checked). The construct chain is kept as in ASV (overlay `lexical-cruxes-isaiah-36`).\n\n*Hēšîḇ pᵉnê* “turn away the face” means to refuse or rebuff (NJPS “how could you refuse anything”). *Wattiḇṭaḥ lᵉḵā ʿal-miṣrayim lᵉreḵeḇ ûlᵉp̄ārāšîm* “and trust in Egypt for chariots and for horsemen” uses the words of 31:1, the woe on those who trust in chariots and horsemen. Kings 18:24 has the same words.",
         "community": []
-      }
+      },
+      "translit": "wəʾēk tāšīb ʾēt pənē paḥat ʾaḥad ʿabdē ʾădōnī haqṭannīm wattibṭaḥ ləkā ʿal-miṣrayim lərekeb ūləpārāšīm"
     },
     {
       "n": 10,
@@ -596,7 +606,8 @@
       "notes": {
         "official": "*Hămibbalʿăḏê YHWH ʿālîṯî ʿal-hāʾāreṣ hazzōʾṯ lᵉhašḥîṯāh* “is it without YHWH that I have come up against this land to destroy it?”: Isaiah opens *wᵉʿattāh* “And now”; Kings 18:25 opens *ʿattāh* without *wᵉ*, and reads *ʿal-hammāqôm hazzeh lᵉhašḥîṯô* “against this place, to destroy it”. In the command that follows, Kings has *ʿălēh ʿal-hāʾāreṣ* where Isaiah has *ʾel-hāʾāreṣ* (WLC on Sefaria, checked 2026-11-27). *ʾEreṣ* is “land” (central `eretz`). ASV has “And am I now come up without Jehovah against this land to destroy it?” and NJPS “And do you think I have marched against this land to destroy it without the LORD?” (checked). The claim echoes 10:5–6, where YHWH sends Assyria against a godless nation. The line reports the claim as the speaker's.",
         "community": []
-      }
+      },
+      "translit": "wəʿattāh hămibbalʿădē YHWH ʿālītī ʿal-hāʾāreṣ hazzōʾt ləhašḥītāh YHWH ʾāmar ʾēlay ʿălēh ʾel-hāʾāreṣ hazzōʾt wəhašḥītāh"
     },
     {
       "n": 11,
@@ -614,14 +625,15 @@
       "notes": {
         "official": "*ʾĂrāmîṯ* “in Aramaic” and *yᵉhûḏîṯ* “in Judean” are feminine gentilic forms used as adverbs, “in the Aramean (language)” and “in the Judean (language)”. BDB records *yᵉhûḏîṯ* “only as adv.” (2 Kgs 18:26, 28 = Isa 36:11, 13; 2 Chr 32:18; Neh 13:24; Sefaria, checked). ASV has “in the Syrian language … in the Jews’ language”, JPS 1917 “in the Aramean language … in the Jews’ language”, and NJPS “in Aramaic … in Judean” (checked). “Aramaic” follows overlay `aram-names-isaiah`, which never uses “Syria / Syrian”.\n\nFor *yᵉhûḏîṯ* the line changes the draft's “the Jews’ language” to NJPS “Judean” (overlay `lexical-cruxes-isaiah-36`). The word is the gentilic of *yᵉhûḏāh* “Judah”, built like *ʾărāmîṯ*, and in this narrative it names the speech of the kingdom of Judah. “The Jews’ language” brings in a later sense of *yᵉhûḏî*. The officials ask for Aramaic, the language of diplomacy, so that the people on the wall will not understand.\n\n*Dabber-nāʾ* is “Please speak” (cruxes, as 36:8). *Bᵉʾoznê hāʿām* keeps the literal “in the ears of the people” (ASV, JPS 1917; NJPS “in the hearing of”). Kings 18:26 adds “son of Hilkiah” and has *ʿimmānû* “with us” where Isaiah has *ʾēlênû* “to us” (WLC on Sefaria, checked 2026-11-27).",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer ʾelyāqīm wəšebnāʾ wəyōʾāḥ ʾel-rab-šāqēh dabber-nāʾ ʾel-ʿăbādēkā ʾărāmīt kī šōməʿīm ʾănāḥənū wəʾal-tədabbēr ʾēlēnū yəhūdīt bəʾoznē hāʿām ʾăšer ʿal-haḥōmāh"
     },
     {
       "n": 12,
       "refId": "ISA-36:12",
       "text": "וַיֹּ֣אמֶר רַב־שָׁקֵ֗ה הַאֶ֨ל אֲדֹנֶ֤יךָ וְאֵלֶ֙יךָ֙ שְׁלָחַ֣נִי אֲדֹנִ֔י לְדַבֵּ֖ר אֶת־הַדְּבָרִ֣ים הָאֵ֑לֶּה הֲלֹ֣א עַל־הָאֲנָשִׁ֗ים הַיֹּֽשְׁבִים֙ עַל־הַ֣חוֹמָ֔ה לֶאֱכֹ֣ל אֶת־חראיהם [צוֹאָתָ֗ם] וְלִשְׁתּ֛וֹת אֶת־שיניהם [מֵימֵ֥י] [רַגְלֵיהֶ֖ם] עִמָּכֶֽם׃",
       "i18n": {
-        "en": "But the Rabshakeh said, “Has my master sent me to your master and to you to speak these words? Is it not to the men who sit on the wall, to eat their own dung and to drink their own water with you?”",
+        "en": "But the Rabshakeh said, “Has my master sent me to your master and to you to speak these words? Is it not to the men who sit on the wall, to eat their dung and to drink the water of their feet with you?”",
         "he": "וַיֹּ֣אמֶר רַב־שָׁקֵ֗ה הַאֶ֨ל אֲדֹנֶ֤יךָ וְאֵלֶ֙יךָ֙ שְׁלָחַ֣נִי אֲדֹנִ֔י לְדַבֵּ֖ר אֶת־הַדְּבָרִ֣ים הָאֵ֑לֶּה הֲלֹ֣א עַל־הָאֲנָשִׁ֗ים הַיֹּֽשְׁבִים֙ עַל־הַ֣חוֹמָ֔ה לֶאֱכֹ֣ל אֶת־חראיהם [צוֹאָתָ֗ם] וְלִשְׁתּ֛וֹת אֶת־שיניהם [מֵימֵ֥י] [רַגְלֵיהֶ֖ם] עִמָּכֶֽם׃"
       },
       "glossaryRefs": [
@@ -631,9 +643,10 @@
         "lexical-cruxes-isaiah-36"
       ],
       "notes": {
-        "official": "The verse has two ketiv/qere pairs. The ketiv *ḥrʾyhm* “their excrement” (Kings 18:27 spells it *ḥryhm*) is read as the qere *ṣôʾāṯām* “their dung”. The ketiv *šynyhm* “their urine” is read as the qere *mêmê raḡlêhem*, literally “the water of their feet” (WLC on Sefaria, checked 2026-11-27). The line follows the qere (overlay `mt-qere-textual-policy-isaiah`) in the words of ASV and JPS 1917: “to eat their own dung and to drink their own water”. The qere puts polite words in place of coarse ones, and “their own water” keeps that register while the sense stays clear. NJPS gives the plain sense, “eat their dung and drink their urine” (checked). At 13:16 the policy rendered a qere euphemism by its sense because the literal English hid the violence; here the polite English hides nothing, so the euphemism is kept. The closer precedent is 7:20, where the same *raḡlayim* euphemism is kept literally (“the hair of the feet”) and explained in commentary. On that model the line would read “to eat their dung and to drink the water of their feet with you”, which keeps the wording and register of the qere exactly and avoids ASV's added “own”, which a modern reader may take as the defenders' water supply. That alternative is staged in overlay `lexical-cruxes-isaiah-36` and awaits the founder's ruling; until then the line keeps ASV.\n\n*Hāʾănāšîm hayyōšᵉḇîm ʿal-haḥômāh* “the men who sit on the wall” are the defenders on the wall, a specific body of men, and keep “men” under the scope rule of overlay `adam-humankind-ish-man-isaiah` (wave I-4 ruling 13). NJPS also has “the men” (checked). *ʾĂḏōneyḵā … ʾăḏōnî* is “your master … my master” (see 36:8). Kings 18:27 adds *ʾălêhem* “to them” and reads *haʿal* where Isaiah has *haʾel*.",
+        "official": "The verse has two ketiv/qere pairs. The ketiv *ḥrʾyhm* “their excrement” (Kings 18:27 spells it *ḥryhm*) is read as the qere *ṣôʾāṯām* “their dung”. The ketiv *šynyhm* “their urine” is read as the qere *mêmê raḡlêhem*, literally “the water of their feet” (WLC on Sefaria, checked 2026-11-27). The line follows the qere (overlay `mt-qere-textual-policy-isaiah`) and renders it literally: “to eat their dung and to drink the water of their feet”. The qere puts polite words in place of coarse ones, and the literal English keeps its wording and register, as at 7:20, where the same *raḡlayim* euphemism is kept (“the hair of the feet”); beside “dung” the sense is clear. ASV and JPS 1917 have “to eat their own dung and to drink their own water”, and NJPS gives the plain sense, “eat their dung and drink their urine” (checked). At 13:16 the policy rendered a qere euphemism by its sense because the literal English hid the violence; here the literal English hides nothing (overlay `lexical-cruxes-isaiah-36`).\n\n*Hāʾănāšîm hayyōšᵉḇîm ʿal-haḥômāh* “the men who sit on the wall” are the defenders on the wall, a specific body of men, and keep “men” under the scope rule of overlay `adam-humankind-ish-man-isaiah` (wave I-4 ruling 13). NJPS also has “the men” (checked). *ʾĂḏōneyḵā … ʾăḏōnî* is “your master … my master” (see 36:8). Kings 18:27 adds *ʾălêhem* “to them” and reads *haʿal* where Isaiah has *haʾel*.",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer rab-šāqēh haʾel ʾădōnēkā wəʾēlēkā šəlāḥanī ʾădōnī lədabbēr ʾet-haddəbārīm hāʾēlleh hălōʾ ʿal-hāʾănāšīm hayyōšəbīm ʿal-haḥōmāh leʾĕkōl ʾet-ḥrʾyhm [ṣōʾātām] wəlištōt ʾet-šynyhm [mēmē] [raglēhem] ʿimmākem"
     },
     {
       "n": 13,
@@ -652,7 +665,8 @@
       "notes": {
         "official": "*Wayyiqrāʾ ḇᵉqôl-gāḏôl yᵉhûḏîṯ* “and called out with a loud voice in Judean”: *yᵉhûḏîṯ* is rendered as at 36:11 (overlay `lexical-cruxes-isaiah-36`). Isaiah has *wayyōʾmer šimʿû ʾeṯ-diḇrê* “and said, Hear the words”. Kings 18:28 has *waydabbēr wayyōʾmer šimʿû dᵉḇar-* “and spoke and said, Hear the word” (WLC on Sefaria, checked 2026-11-27). NJPS ends this verse at “in Judean:” and prints the call “Hear the words of the Great King” at the head of 36:14 (checked). The line keeps the Masoretic verse division. The address to the people runs from here to the end of 36:20 as one quotation (overlay `title-and-meta-conventions-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wayyaʿămōd rab-šāqēh wayyiqrāʾ bəqōl-gādōl yəhūdīt wayyōʾmer šimʿū ʾet-dibrē hammelek haggādōl melek ʾaššūr"
     },
     {
       "n": 14,
@@ -669,7 +683,8 @@
       "notes": {
         "official": "*ʾAl-yaššîʾ lāḵem ḥizqiyyāhû* “Do not let Hezekiah deceive you” (ASV, NJPS; JPS 1917 “beguile”, checked). The Hiphil *yaššîʾ* “deceive” here and *yassîṯ* “persuade” at 36:18 are kept apart in English. Kings 18:29 adds *miyyāḏô* “out of his hand” at the end of the verse (WLC on Sefaria, checked 2026-11-27).",
         "community": []
-      }
+      },
+      "translit": "kōh ʾāmar hammelek ʾal-yaššiʾ lākem ḥizqiyyāhū kī lōʾ-yūkal ləhaṣṣīl ʾetkem"
     },
     {
       "n": 15,
@@ -687,7 +702,8 @@
       "notes": {
         "official": "*Wᵉʾal-yaḇṭaḥ ʾeṯḵem ḥizqiyyāhû ʾel-YHWH* “And do not let Hezekiah make you trust in YHWH”: the Hiphil of *bṭḥ* takes up the root of 36:4–9 (overlay `lexical-cruxes-isaiah-36`). *Haṣṣēl yaṣṣîlēnû* puts the infinitive absolute before the finite verb, “will surely deliver us” (ASV, JPS 1917; NJPS “will surely save us”, checked). Kings 18:30 reads *wᵉlōʾ tinnāṯēn ʾeṯ-hāʿîr*, with “and” and the object marker, where Isaiah has *lōʾ tinnāṯēn hāʿîr* (WLC on Sefaria, checked 2026-11-27).",
         "community": []
-      }
+      },
+      "translit": "wəʾal-yabṭaḥ ʾetkem ḥizqiyyāhū ʾel-YHWH lēʾmōr haṣṣēl yaṣṣīlēnū YHWH lōʾ tinnātēn hāʿīr hazzōʾt bəyad melek ʾaššūr"
     },
     {
       "n": 16,
@@ -705,9 +721,10 @@
         "lexical-cruxes-isaiah-36"
       ],
       "notes": {
-        "official": "*ʿĂśû-ʾittî ḇᵉrāḵāh* “Make your peace with me” is literally “make a blessing with me”. Sefaria's BDB Augmented Strong lists “treaty of peace” among the senses of *bᵉrāḵāh* (checked), and a formal agreement of surrender is the usual explanation of the phrase here (recalled; commentators not checked). ASV, JPS 1917 and NJPS all have “Make your peace with me” (checked), and the line keeps that wording with its idiomatic “your”. NJPS notes on “come out to me”: “I.e., to my representative the Rabshakeh” (checked).\n\nThe line changes the draft's “eat every one of his vine, and every one of his fig tree, and drink every one the waters of his own cistern” (ASV without its “ye”), which current English reads as “every one of his vines”. The three distributive *ʾîš* are rendered “everyone … his”, as at 19:2 (“everyone against his brother and everyone against his neighbor”) and under overlay `adam-humankind-ish-man-isaiah`, with the imperatives kept: “and eat, everyone from his vine and everyone from his fig tree, and drink, everyone the waters of his own cistern” (overlay `lexical-cruxes-isaiah-36`). NJPS gives the purpose sense: “so that you may all eat from your vines and your fig trees and drink water from your cisterns” (checked).\n\n*Mê-ḇôrô* “the waters of his own cistern”: here *bôr* is a household water cistern, BDB's first sense (“cistern, containing water”, citing Isa 36:16 = 2 Kgs 18:31; Sefaria, checked). ASV has “cistern” here, as at Prov 5:15 (“Drink waters out of thine own cistern”, checked). The central entry `bor-pit-cistern-dry-water-shaft` renders *bôr* “pit” for the dry pit of Gen 37 and the pit of the dead at 14:15, 19. A context clause is proposed for the water cistern, so “cistern” here is governed by that entry.\n\nThe Masoretic text has a section break (*setumah*) in the middle of this verse, after *ʾal-tišmᵉʿû ʾel-ḥizqiyyāhû* “Do not listen to Hezekiah”. Such a break is a *pisqah bᵉʾemṣaʿ pāsûq* (a break within a verse). The source text keeps it; the English cannot show it. The Kings parallel (2 Kgs 18:31) has no break at this point in the editions on Sefaria (checked). Isaiah's *hammeleḵ ʾaššûr*, with the article, is the same unusual form as at 36:8; Kings reads *meleḵ ʾaššûr*.",
+        "official": "*ʿĂśû-ʾittî ḇᵉrāḵāh* “Make your peace with me” is literally “make a blessing with me”. Sefaria's BDB Augmented Strong lists “treaty of peace” among the senses of *bᵉrāḵāh* (checked), and a formal agreement of surrender is the usual explanation of the phrase here (recalled; commentators not checked). ASV, JPS 1917 and NJPS all have “Make your peace with me” (checked), and the line keeps that wording with its idiomatic “your”. NJPS notes on “come out to me”: “I.e., to my representative the Rabshakeh” (checked).\n\nThe line changes the draft's “eat every one of his vine, and every one of his fig tree, and drink every one the waters of his own cistern” (ASV without its “ye”), which current English reads as “every one of his vines”. The three distributive *ʾîš* are rendered “everyone … his”, as at 19:2 (“everyone against his brother and everyone against his neighbor”) and under overlay `adam-humankind-ish-man-isaiah`, with the imperatives kept: “and eat, everyone from his vine and everyone from his fig tree, and drink, everyone the waters of his own cistern” (overlay `lexical-cruxes-isaiah-36`). NJPS gives the purpose sense: “so that you may all eat from your vines and your fig trees and drink water from your cisterns” (checked).\n\n*Mê-ḇôrô* “the waters of his own cistern”: here *bôr* is a household water cistern, BDB's first sense (“cistern, containing water”, citing Isa 36:16 = 2 Kgs 18:31; Sefaria, checked). ASV has “cistern” here, as at Prov 5:15 (“Drink waters out of thine own cistern”, checked). The central entry `bor-pit-cistern-dry-water-shaft` renders *bôr* “pit” for the dry pit of Gen 37 and the pit of the dead at 14:15, 19. Its context clause for the water cistern governs “cistern” here.\n\nThe Masoretic text has a section break (*setumah*) in the middle of this verse, after *ʾal-tišmᵉʿû ʾel-ḥizqiyyāhû* “Do not listen to Hezekiah”. Such a break is a *pisqah bᵉʾemṣaʿ pāsûq* (a break within a verse). The source text keeps it; the English cannot show it. The Kings parallel (2 Kgs 18:31) has no break at this point in the editions on Sefaria (checked). Isaiah's *hammeleḵ ʾaššûr*, with the article, is the same unusual form as at 36:8; Kings reads *meleḵ ʾaššûr*.",
         "community": []
-      }
+      },
+      "translit": "ʾal-tišməʿū ʾel-ḥizqiyyāhū (s) kī kōh ʾāmar hammelek ʾaššūr ʿăśū-ʾittī bərākāh ūṣəʾū ʾēlay wəʾiklū ʾīš-gapnō wəʾīš təʾēnātō ūšətū ʾīš mē-bōrō"
     },
     {
       "n": 17,
@@ -725,7 +742,8 @@
       "notes": {
         "official": "*ʿAḏ-bōʾî wᵉlāqaḥtî ʾeṯḵem* “until I come and take you away to a land like your own land”: the offer announces deportation, a regular Assyrian practice (recalled). *ʾEreṣ dāḡān wᵉṯîrôš ʾereṣ leḥem ûḵᵉrāmîm* “a land of grain and new wine, a land of bread and vineyards” is ASV; JPS 1917 has “corn and wine”, and NJPS “a land of bread and wine, of grain [fields] and vineyards” (checked). *ʾEreṣ* is “land” and *kerem* “vineyard” (central `eretz`, `kerem-vineyard`). Kings 18:32 goes on with words Isaiah does not have: “a land of olive oil and honey, that you may live and not die; and do not listen to Hezekiah, for he misleads you, saying” (WLC on Sefaria, checked 2026-11-27).",
         "community": []
-      }
+      },
+      "translit": "ʿad-bōʾī wəlāqaḥtī ʾetkem ʾel-ʾereṣ kəʾarṣəkem ʾereṣ dāgān wətīrōš ʾereṣ leḥem ūkərāmīm"
     },
     {
       "n": 18,
@@ -745,7 +763,8 @@
       "notes": {
         "official": "*Pen-yassîṯ ʾeṯḵem ḥizqiyyāhû* “Beware lest Hezekiah persuade you”: Isaiah has *pen* “lest”, where Kings 18:32 has *kî-yassîṯ* “for he misleads you”. BDB puts this verb under “instigate, in bad sense” (2 Kgs 18:32 = Isa 36:18; Sefaria, checked), and NJPS has “mislead” (checked). The line keeps “persuade” with ASV and JPS 1917 and reports the negative sense here (overlay `lexical-cruxes-isaiah-36`).\n\n*Hahiṣṣîlû ʾĕlōhê haggôyim ʾîš ʾeṯ-ʾarṣô* “Has any of the gods of the nations delivered his land”: Kings 18:33 doubles the verb with an infinitive absolute, *hahaṣṣēl hiṣṣîlû* (WLC on Sefaria, checked 2026-11-27). The gods of the nations are lower case (overlay `elohim-el-eloah-monotheistic-formula-isaiah`). *ʾÎš* here means “each” of the gods, and *ʾarṣô* is “his land” (central `eretz`).",
         "community": []
-      }
+      },
+      "translit": "pen-yassīt ʾetkem ḥizqiyyāhū lēʾmōr YHWH yaṣṣīlēnū hahiṣṣīlū ʾĕlōhē haggōyim ʾīš ʾet-ʾarṣō miyyad melek ʾaššūr"
     },
     {
       "n": 19,
@@ -763,7 +782,8 @@
       "notes": {
         "official": "Hamath and Arpad are named together at 10:9 and take the same ASV forms (overlay `march-itinerary-toponyms-isaiah-10`). Sepharvaim takes the ASV spelling; its location is disputed and the line does not identify it. Kings 18:34 adds two more names, *hēnaʿ wᵉʿiwwāh* “Hena and Ivvah”, and reads *kî-hiṣṣîlû* without the *wᵉ* (WLC on Sefaria, checked 2026-11-27).\n\n*Wᵉḵî-hiṣṣîlû ʾeṯ-šōmᵉrôn miyyāḏî* “And have they delivered Samaria out of my hand?” is ASV and JPS 1917. The particle *kî* introduces the indignant question, which assumes the answer no. NJPS has “And did they save Samaria from me?”, with a note on “they”: “I.e., the gods of Samaria” (checked). Samaria fell to Assyria in 722 BCE.",
         "community": []
-      }
+      },
+      "translit": "ʾayyēh ʾĕlōhē ḥămāt wəʾarpād ʾayyēh ʾĕlōhē səparwāyim wəkī-hiṣṣīlū ʾet-šōmərōn miyyādī"
     },
     {
       "n": 20,
@@ -782,7 +802,8 @@
       "notes": {
         "official": "*Mî bᵉḵol-ʾĕlōhê hāʾărāṣôṯ hāʾēlleh* “Who are they among all the gods of these lands”: Kings 18:35 lacks *hāʾēlleh* “these” (WLC on Sefaria, checked 2026-11-27). ASV and JPS 1917 have “countries”, and the line has “lands”, the plural of *ʾereṣ* “land” (central `eretz`), so that the same word stands for “their land” in the same verse. The gods are lower case and YHWH keeps the name (overlay `elohim-el-eloah-monotheistic-formula-isaiah`, `title-and-meta-conventions-isaiah`). The quotation that began at 36:13 ends here.",
         "community": []
-      }
+      },
+      "translit": "mī bəkol-ʾĕlōhē hāʾărāṣōt hāʾēlleh ʾăšer-hiṣṣīlū ʾet-ʾarṣām miyyādī kī-yaṣṣīl YHWH ʾet-yərūšālim miyyādī"
     },
     {
       "n": 21,
@@ -799,7 +820,8 @@
       "notes": {
         "official": "*Wayyaḥărîšû* “But they held their peace” has no expressed subject, so it may be the three officials or the people on the wall. Kings 18:36 names the subject: *wᵉheḥĕrîšû hāʿām* “But the people held their peace” (WLC on Sefaria, checked 2026-11-27). The line keeps Isaiah's unnamed subject, as ASV, JPS 1917 and NJPS do (checked). The king's order is a quotation in narrative, so the line prints it in double quotation marks, as NJPS does (“Do not answer him.”), in place of the draft's single marks (overlay `title-and-meta-conventions-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wayyaḥărīšū wəlōʾ-ʿānū ʾōtō dābār kī-miṣwat hammelek hīʾ lēʾmōr lōʾ taʿănuhū"
     },
     {
       "n": 22,
@@ -817,7 +839,8 @@
       "notes": {
         "official": "*ʾĂšer-ʿal-habbayiṯ* is again “who was over the house” (overlay `lexical-cruxes-isaiah-22`; see 36:3). *Qᵉrûʿê ḇᵉḡāḏîm* “with their clothes torn” (ASV, JPS 1917 “rent”; NJPS “with their clothes rent”, checked) is the sign of grief or alarm. Kings 18:37 spells the name *ḥilqiyyāh* and has no *ʾēṯ* before *diḇrê* (WLC on Sefaria, checked 2026-11-27). The chapter ends with a *setumah*, and 37:1 continues the narrative.",
         "community": []
-      }
+      },
+      "translit": "wayyābōʾ ʾelyāqīm ben-ḥilqiyyāhū ʾăšer-ʿal-habbayit wəšebnāʾ hassōpēr wəyōʾāḥ ben-ʾāsāp hammazkīr ʾel-ḥizqiyyāhū qərūʿē bəgādīm wayyaggīdū lō ʾēt dibrē rab-šāqēh (s)"
     }
   ],
   "editorial_questions": []

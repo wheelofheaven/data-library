@@ -6,20 +6,20 @@
   "title": "Isaiah 41 — The trial of the nations: the one roused from the east, Israel the chosen servant, and the emptiness of the idols",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.41",
-    "glossaryVersion": "5.0.0",
-    "overlayGlossaryVersion": "4.0.0",
+    "glossaryVersion": "6.0.0",
+    "overlayGlossaryVersion": "5.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-27T07:11:47Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-27T12:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-27T07:11:47Z",
@@ -490,7 +490,8 @@
         "R4-iy-coastlands-standardEnglish": "Mechanical: correct the ASV citations in the new entry's standardEnglish before merge (see glossaryReview)."
       },
       "summary": "29 verdicts: 29 approve, 0 revise, 0 flag-for-human. Glossary ops: 20 reviewed (15 overlay, 5 central), 18 approve, 2 revise (overlay iy-coastlands-isaiah standardEnglish misreports ASV; central al-tira extension omits stable ISA-54:4 and misstates the entry's distribution list). The four line changes (41:8, 14, 15, 23) are verified and concordant with the stable chapters. NJPS, JPS 1917 and ASV readings cited here were re-fetched by the Reviewer; BDB items are as reported by the Editor and marked so. Status awaiting-human because of the two glossary revises."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -510,7 +511,8 @@
       "notes": {
         "official": "*ʾIyyîm* “coastlands”: *ʾî* is “coast, island, shore, region” (BDB, Sefaria lexicon, checked), the lands on and across the sea, mostly the Mediterranean shores and islands. ASV and JPS 1917 have “islands”, and NJPS has “coastlands” (checked). The line keeps the book's “coastlands” (stable 11:11; 24:15; 40:15; 42:4, 10, 12) under overlay `iy-coastlands-isaiah`, which now gathers the book's *ʾî* sites.\n\n*Ûlᵉʾummîm yaḥălîp̄û ḵōaḥ* “and let the peoples renew their strength” repeats the words of 40:31 (“shall renew their strength”). NJPS keeps the clause but notes “Connection of Heb. uncertain” (checked). Many commentators take it as a copyist's repetition from 40:31 and emend it, for example to a verb of waiting or drawing near; those proposals were not verified here. The line translates MT (overlay `mt-qere-textual-policy-isaiah`).\n\nThe verse opens a trial scene. *Yiggᵉšû ʾāz yᵉḏabbērû yaḥdāw lammišpāṭ niqrāḇāh* is “let them draw near, then let them speak; let us come near together to judgment” (ASV; NJPS “for argument”).",
         "community": []
-      }
+      },
+      "translit": "haḥărīšū ʾēlay ʾiyyīm ūləʾummīm yaḥălīpū kōaḥ yiggəšū ʾāz yədabbērū yaḥdāw lammišpāṭ niqrābāh"
     },
     {
       "n": 2,
@@ -527,7 +529,8 @@
       "notes": {
         "official": "*Mî hēʿîr mimmizrāḥ* “Who has roused one from the east”: the same verb is used of the same figure at 41:25 (*haʿîrôṯî*) and 45:13 (*haʿîrōṯihû* “I have roused him”). The line therefore has “roused”, as the stable 45:13 and NJPS do, where ASV has “raised up” (checked). The Hebrew names no one here. Most commentators identify the figure with Cyrus, who is named at 44:28 and 45:1. The line leaves the figure unnamed and in lower case.\n\n*Ṣeḏeq yiqrāʾēhû lᵉraḡlô* has no preposition before *ṣeḏeq*. ASV takes the noun adverbially, “whom he calleth in righteousness to his foot”; the stable 42:6 and 45:13 have the same idea with the preposition (*bᵉṣeḏeq*, “in righteousness”). JPS 1917 makes *ṣeḏeq* the subject, “At whose steps victory attendeth”. NJPS reads a concrete noun, “roused a victor … Summoned him to His service”, with the note “Lit. ‘victory’” (all checked). The line keeps ASV. *Lᵉraḡlô* “to his foot” means “to follow him, into his service”.\n\n*Ûmᵉlāḵîm yard* “and makes him rule over kings” reads *yard* as a short form from *rādāh* “rule”, with ASV and JPS 1917. NJPS has “And trodden sovereigns down” (checked), which gives the verb the sense “tread down”. A derivation from *yārad* “bring down”, said to be supported by 1QIsaᵃ, was not verified. In *yittēn keʿāp̄ār ḥarbô* “he makes them like dust to his sword” (ASV), NJPS takes the suffixes as the enemies' weapons, “Has rendered their swords like dust”, noting “Heb. ‘his’” (checked).",
         "community": []
-      }
+      },
+      "translit": "mī hēʿīr mimmizrāḥ ṣedeq yiqrāʾēhū ləraglō yittēn ləpānāyw gōyim ūməlākīm yard yittēn keʿāpār ḥarbō kəqaš niddāp qaštō"
     },
     {
       "n": 3,
@@ -543,7 +546,8 @@
       "notes": {
         "official": "*ʾŌraḥ bᵉraḡlāyw lōʾ yāḇôʾ* is uncertain. ASV has “by a way that he had not gone with his feet”, an unfamiliar road. JPS 1917 has “The way with his feet he treadeth not”, of speed. NJPS has “No shackle is placed on his feet”, with the note that *ʾrḥ* has this meaning in Old Aramaic (all checked). The line keeps ASV in the present tense. *Šālôm* is adverbial, “safely” (ASV; NJPS “unscathed”).",
         "community": []
-      }
+      },
+      "translit": "yirdəpēm yaʿăbōr šālōm ʾōraḥ bəraglāyw lōʾ yābōʾ"
     },
     {
       "n": 4,
@@ -559,7 +563,8 @@
       "notes": {
         "official": "*Mî-p̄āʿal wᵉʿāśāh* “Who has acted and done it”: *pāʿal* is “act”, as in the stable 43:13 (“I act”), where ASV has “wrought”. *ʿĀśāh* here means “do”, so the central `asah` (“made”) is not applied. *Qōrēʾ haddōrôṯ mērōʾš* “calling the generations from the beginning” follows ASV; JPS 1917 and NJPS make it the answer to the question, “He that called …” and “He who announced the generations from the start” (checked).\n\n*ʾĂnî YHWH rišôn wᵉʾeṯ-ʾaḥărōnîm ʾănî-hûʾ* has no verb. ASV keeps it verbless: “I, Jehovah, the first, and with the last, I am he”. JPS 1917 has “who am the first, And with the last am the same”, and NJPS “who was first And will be with the last as well” (checked). The line supplies “am” to match the stable 44:6 (“I am the first and I am the last”) and 48:12 (“I am he; I am the first”). It keeps the plural *ʾaḥărōnîm* as “with the last” and the closing *ʾănî-hûʾ* as “I am he”, the formula of 43:10, 13 and 48:12.",
         "community": []
-      }
+      },
+      "translit": "mī-pāʿal wəʿāśāh qōrēʾ haddōrōt mērōʾš ʾănī YHWH riʾšōn wəʾet-ʾaḥărōnīm ʾănī-hūʾ"
     },
     {
       "n": 5,
@@ -576,7 +581,8 @@
       "notes": {
         "official": "*Rāʾû ʾiyyîm wᵉyîrāʾû* “The coastlands have seen and are afraid” (overlay `iy-coastlands-isaiah`; ASV and JPS 1917 “The isles”, NJPS “The coastlands”, checked). *Qᵉṣôṯ hāʾāreṣ* “the ends of the earth” is the book's universal idiom (overlay `eretz-cosmic-scope-isaiah-24`).",
         "community": []
-      }
+      },
+      "translit": "rāʾū ʾiyyīm wəyīrāʾū qəṣōt hāʾāreṣ yeḥĕrādū qārəbū wayyeʾĕtāyūn"
     },
     {
       "n": 6,
@@ -593,7 +599,8 @@
       "notes": {
         "official": "*ʾÎš ʾeṯ-rēʿēhû yaʿzōrû ûlᵉʾāḥîw yōʾmar* “They help everyone his neighbor, and everyone says to his brother”: distributive *ʾîš* is “everyone” (overlay `adam-humankind-ish-man-isaiah`). The singular suffixes stay “his” under the house rule that keeps he/his after a gender-neutral noun, as in the stable 19:2 (“everyone against his brother”). ASV has “every one his neighbor … [every one] saith to his brother”, and NJPS “Each one helps the other, Saying to his fellow” (checked). *Ḥăzāq* “Be strong!” is the imperative rendered so at 35:4 (*ḥizqû*); ASV and JPS 1917 have “Be of good courage”, and NJPS “Take courage!”\n\nThe root *ḥzq* runs through the chapter in several senses, and the line renders each by context: “Be strong” (41:6), “encourages” and “fastens it” (41:7), “taken hold of” (41:9; cf. 42:6), and “grasp your right hand” (41:13; cf. 45:1). The repetition sets the craftsmen's work on the idol (41:6–7) beside YHWH's hold on Israel (41:9, 13). A single English verb would force at least one of these senses.",
         "community": []
-      }
+      },
+      "translit": "ʾīš ʾet-rēʿēhū yaʿzōrū ūləʾāḥīw yōʾmar ḥăzāq"
     },
     {
       "n": 7,
@@ -609,7 +616,8 @@
       "notes": {
         "official": "The craft vocabulary follows the stable 40:19–20. *Ḥārāš* is “craftsman” and *ṣōrēp̄* “goldsmith” (ASV and JPS 1917 “the carpenter … the goldsmith”; NJPS “The woodworker … the smith”). *Lōʾ yimmôṭ* is “will not totter”, as at 40:20 (ASV “should not be moved”; NJPS “may not topple”). *Hôlem pāʿam* “the one who strikes the anvil” follows ASV and JPS 1917 (NJPS “him who pounds the anvil”); *paʿam* is usually “step, time”, and “anvil” is the contextual sense. *Laddeḇeq* is “of the soldering” (ASV, JPS 1917), and NJPS has “of the riveting” (all checked).",
         "community": []
-      }
+      },
+      "translit": "wayḥazzēq ḥārāš ʾet-ṣōrēp maḥălīq paṭṭīš ʾet-hōlem pāʿam ʾōmēr laddebeq ṭōb hūʾ wayḥazzəqēhū bəmasmərīm lōʾ yimmōṭ (s)"
     },
     {
       "n": 8,
@@ -626,7 +634,8 @@
       "notes": {
         "official": "*Zeraʿ ʾaḇrāhām ʾōhăḇî* “the seed of Abraham my friend”: *zeraʿ* is “seed” in the stable chapters (43:5; 44:3; 45:19, 25; 48:19), where “offspring” renders a different noun, *ṣeʾĕṣāʾîm* (44:3; 48:19). ASV, JPS 1917 and NJPS all have “seed” here (checked). *ʾŌhăḇî* is the active participle with a suffix, literally “the one who loves me”. ASV, JPS 1917 and NJPS have “my friend” (checked), and 2 Chr 20:7 calls Abraham *ʾōhaḇḵā* “your friend” with the same participle (MT checked). Jas 2:23 takes up the title (recalled, not verified).\n\n*Yiśrāʾēl ʿaḇdî* “Israel my servant”: here the servant is named as Israel and Jacob, as at 44:1–2, 21 and 45:4 (overlay `eved-servant-identity-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "wəʾattāh yiśrāʾēl ʿabdī yaʿăqōb ʾăšer bəḥartīkā zeraʿ ʾabrāhām ʾōhăbī"
     },
     {
       "n": 9,
@@ -644,7 +653,8 @@
       "notes": {
         "official": "*Heḥĕzaqtîḵā* “I have taken hold of” (ASV, JPS 1917; NJPS “drew”); cf. 42:6, “I will take hold of your hand”. *Mēʾăṣîleyhā* is “from its corners” (ASV “the corners thereof”; NJPS “its far corners”). *Mᵉʾastîḵā* is “rejected”, with NJPS, for ASV and JPS 1917 “cast thee away” (checked). The quotation “You are my servant; I have chosen you and not rejected you” has the extent that JPS 1917 marks (overlay `eved-servant-identity-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "ʾăšer heḥĕzaqtīkā miqṣōt hāʾāreṣ ūmēʾăṣīlēhā qərāʾtīkā wāʾōmar ləkā ʿabdī-ʾattāh bəḥartīkā wəlōʾ məʾastīkā"
     },
     {
       "n": 10,
@@ -662,7 +672,8 @@
       "notes": {
         "official": "*ʾAl-tîrāʾ kî ʿimmᵉḵā-ʾānî* “Do not fear, for I am with you” is the formula of the central `al-tira-fear-not-divine-encouragement-formula`, whose rationale names this verse. The line has the entry's wording exactly. The opener recurs without the presence clause at 41:13–14, 43:1 and 44:2, and with it at 43:5. *ʾAl-tištāʿ* “do not be dismayed” (ASV, JPS 1917; NJPS “Be not frightened”) is the verb of *wᵉništāʿāh* at 41:23. *ʾĂnî ʾĕlōheyḵā* is “I am your God” (overlay `elohai-elohenu-doxology-isaiah-25`).\n\nThe three suffixed perfects *ʾimmaṣtîḵā ʾap̄-ʿăzartîḵā ʾap̄-tᵉmaḵtîḵā* are rendered as futures with ASV: “I will strengthen thee; yea, I will help thee; yea, I will uphold thee”. JPS 1917 and NJPS render them as presents, “I strengthen thee, yea, I help thee” and “I strengthen you and I help you” (checked). Both renderings treat the perfect as the assurance of the oracle. The line keeps ASV, and the same choice governs *ʿăzartîḵā* at 41:13 and 41:14 (overlay `lexical-cruxes-isaiah-41`). *Bîmîn ṣiḏqî* is “with the right hand of my righteousness” (ASV). JPS 1917 and NJPS have “with My victorious right hand”, giving *ṣeḏeq* the sense “victory”, as NJPS also does at 41:2.",
         "community": []
-      }
+      },
+      "translit": "ʾal-tīrāʾ kī ʿimməkā-ʾānī ʾal-tištāʿ kī-ʾănī ʾĕlōhēkā ʾimmaṣtīkā ʾap-ʿăzartīkā ʾap-təmaktīkā bīmīn ṣidqī"
     },
     {
       "n": 11,
@@ -679,7 +690,8 @@
       "notes": {
         "official": "*Hēn yēḇōšû wᵉyikkālᵉmû kōl hanneḥĕrîm bāḵ* “all who are incensed against you shall be put to shame and confounded” matches the stable 45:16 (“put to shame and also confounded”) and 45:24 (“all who were incensed against him”).\n\n*ʾAnšê rîḇeḵā* (41:11), *ʾanšê maṣṣuṯeḵā* and *ʾanšê milḥamtᵉḵā* (41:12) are constructs with *ʾănāšîm*, literally “men of your strife … of your contention … of your war”. They name Israel's adversaries in general, not a body of fighters, so the line follows ASV's relative clauses: “those who strive with you … those who contend with you … those who war against you” (overlay `adam-humankind-ish-man-isaiah`). NJPS has “All who contend with you … They who strive with you” here, and “The men who battle against you” at 41:12 (checked).",
         "community": []
-      }
+      },
+      "translit": "hēn yēbōšū wəyikkāləmū kōl hanneḥĕrīm bāk yihyū kəʾayin wəyōʾbədū ʾanšē rībekā"
     },
     {
       "n": 12,
@@ -696,7 +708,8 @@
       "notes": {
         "official": "*Yihyû ḵᵉʾayin ûḵᵉʾep̄es* “shall be as nothing, and as nought” (ASV “as a thing of nought”; NJPS “Less than nothing”, checked). The chapter's words for nothingness keep the ASV pattern (overlay `lexical-cruxes-isaiah-41`): *ʾayin* is “nothing” (41:11, 12, 24; cf. 40:17), *ʾep̄es* is “nought” (41:12, 29), *ʾāp̄aʿ* is also “nought” (41:24; a word found only there, often read as a form of *ʾep̄es*), *ʾāwen* is “vanity” (41:29), and *tōhû* is “emptiness” (41:29; 40:17, 23). At 40:17 *mēʾep̄es* is the comparative idiom “less than nothing”.",
         "community": []
-      }
+      },
+      "translit": "təbaqšēm wəlōʾ timṣāʾēm ʾanšē maṣṣutekā yihyū kəʾayin ūkəʾepes ʾanšē milḥamtekā"
     },
     {
       "n": 13,
@@ -714,7 +727,8 @@
       "notes": {
         "official": "*Maḥăzîq yᵉmîneḵā* “grasp your right hand”: the participle takes the verb of the stable 45:1 (“whose right hand I have grasped”). ASV has “will hold”, JPS 1917 “Hold”, and NJPS “Who grasped” (checked). *Hāʾōmēr lᵉḵā* is “saying to you” (ASV; JPS 1917 “Who say unto thee”). *ʾAl-tîrāʾ ʾănî ʿăzartîḵā* is “Do not fear; I will help you” (central `al-tira-fear-not-divine-encouragement-formula`; tense as at 41:10).",
         "community": []
-      }
+      },
+      "translit": "kī ʾănī YHWH ʾĕlōhēkā maḥăzīq yəmīnekā hāʾōmēr ləkā ʾal-tīrāʾ ʾănī ʿăzartīkā (s)"
     },
     {
       "n": 14,
@@ -734,7 +748,8 @@
       "notes": {
         "official": "*Mᵉṯê yiśrāʾēl* “you people of Israel”: *mᵉṯîm* is a plural noun meaning “men”, and ASV, JPS 1917 and NJPS have “men of Israel” (checked). BDB lists this verse among the poetic uses in which “sex [is] usually not emph.” (Sefaria lexicon, checked). The phrase addresses the whole people in parallel with “worm Jacob”, and the addressee is grammatically feminine (*ʾal-tîrʾî*, *ʿăzartîḵ*, *gōʾălēḵ*). Under the house rule that generic human nouns are gender-neutral (overlay `adam-humankind-ish-man-isaiah`), the line has “people”. “Mortal” is kept for *ʾĕnôš* (overlay `enosh-mortal-isaiah`). In prose, *mᵉṯê mispār* means “few in number” (Gen 34:30; Deut 4:27, both so printed in the corpus), and some versions render “you few of Israel”. NJPS notes “Emendation yields ‘maggot’”, which would pair with “worm” (checked). The line translates MT (overlay `lexical-cruxes-isaiah-41`).\n\n*Tôlaʿaṯ yaʿăqōḇ* is “you worm Jacob” (ASV “thou worm Jacob”). *Wᵉgōʾălēḵ qᵉḏôš yiśrāʾēl* “and your Redeemer is the Holy One of Israel” takes the clause as a predication, with ASV and the stable 54:5. JPS 1917 (“And thy Redeemer, the Holy One of Israel”) and NJPS (“I your Redeemer, the Holy One of Israel”) read it as apposition (checked), like the formula of 43:14 and 48:17. “Redeemer” is capitalised as a divine title (central `goel-geullah-redeemer-redemption-cross-corpus`).",
         "community": []
-      }
+      },
+      "translit": "ʾal-tīrəʾī tōlaʿat yaʿăqōb mətē yiśrāʾēl ʾănī ʿăzartīk nəʾum-YHWH wəgōʾălēk qədōš yiśrāʾēl"
     },
     {
       "n": 15,
@@ -750,7 +765,8 @@
       "notes": {
         "official": "*Lᵉmôraḡ ḥārûṣ ḥāḏāš baʿal pîp̄iyyôṯ* “a new, sharp threshing board having teeth”: *môraḡ* is the threshing board, a heavy sledge with stones or iron set in its underside. NJPS has “threshing board” here and at 2 Sam 24:22 (checked); ASV has “threshing instrument”, and JPS 1917 “threshing-sledge”. The line uses “threshing board” because the stable 28:27 already gives “threshing sledge” to *ḥārûṣ* used as a noun. BDB takes *ḥārûṣ* at both sites as one adjective, “sharp”: used with *môraḡ* here and “as subst.” at 28:27 (checked). ASV and JPS 1917 read it as an adjective here too (“new sharp”, “sharp teeth”). NJPS takes *ḥārûṣ ḥāḏāš* as a second noun, “A new thresher” (checked). The central `kalah-venecheratzah-decreed-full-end-cross-corpus`, which covers the *ḥrṣ* of decree, is not applied (overlay `lexical-cruxes-isaiah-41`).\n\n*Baʿal pîp̄iyyôṯ*, literally “owner of edges” or “of mouths”, is “having teeth” (ASV; NJPS “with many spikes”). *Tāḏûš … wᵉṯāḏōq* is “thresh … and crush” (cf. 28:28 “crushed”), and *kammōṣ* is “like chaff”, as at 17:13 and 29:5.",
         "community": []
-      }
+      },
+      "translit": "hinnēh śamtīk ləmōrag ḥārūṣ ḥādāš baʿal pīpiyyōt tādūš hārīm wətādōq ūgəbāʿōt kammōṣ tāśīm"
     },
     {
       "n": 16,
@@ -766,7 +782,8 @@
       "notes": {
         "official": "*Tizrēm* “You shall winnow them” (ASV; JPS 1917 “fan”), and *sᵉʿārāh* is “the storm” (ASV and JPS 1917 “the whirlwind”). *Tiṯhallāl* “you shall glory” is the Hithpael of *hll* “praise, boast”, as in the stable 45:25 (“shall glory”); it is not *kāḇôḏ*, the noun the book reserves “glory” for.",
         "community": []
-      }
+      },
+      "translit": "tizrēm wərūaḥ tiśśāʾēm ūsəʿārāh tāpīṣ ʾōtām wəʾattāh tāgīl baYHWH biqdōš yiśrāʾēl tithallāl (p)"
     },
     {
       "n": 17,
@@ -783,7 +800,8 @@
       "notes": {
         "official": "*Lᵉšônām baṣṣāmāʾ nāšattāh* “their tongue is parched with thirst” follows NJPS (ASV and JPS 1917 “faileth for thirst”, checked); the verb means “be dry, parched”. *ʾĔlōhê yiśrāʾēl* is “the God of Israel” (overlay `elohei-yisrael-god-of-israel-isaiah-24`).",
         "community": []
-      }
+      },
+      "translit": "hāʿăniyyīm wəhāʾebyōnīm məbaqšīm mayim wāʾayin ləšōnām baṣṣāmāʾ nāšāttāh ʾănī YHWH ʾeʿĕnēm ʾĕlōhē yiśrāʾēl lōʾ ʾeʿezbēm"
     },
     {
       "n": 18,
@@ -800,7 +818,8 @@
       "notes": {
         "official": "*ʾEreṣ ṣiyyāh* “the dry land” (ASV, JPS 1917; NJPS “The arid land”, checked): in parallel with *midbār* “wilderness”, the line keeps the pair of 35:1 (“the wilderness and the dry land”). The stable 53:2 renders *mēʾereṣ ṣiyyāh* as “out of parched ground”, where the phrase names the soil a root grows in; the two renderings stand by context (central `eretz`). *Šᵉp̄āyîm* is “bare heights” (ASV; NJPS “bare hills”), and *ʾăḡam-mayim* “a pool of water” (cf. 35:7).",
         "community": []
-      }
+      },
+      "translit": "ʾeptaḥ ʿal-šəpāyīm nəhārōt ūbətōk bəqāʿōt maʿyānōt ʾāśīm midbār laʾăgam-mayim wəʾereṣ ṣiyyāh ləmōṣāʾē māyim"
     },
     {
       "n": 19,
@@ -816,7 +835,8 @@
       "notes": {
         "official": "The verse names seven trees. *ʾErez* “cedar”, *šiṭṭāh* “acacia” and *hăḏas* “myrtle” are secure. *ʿĒṣ šemen* is “oil tree” (ASV, JPS 1917; NJPS “oleasters”). *Bᵉrôš* is “cypress”, as in the stable 14:8 (ASV “fir-tree”; JPS 1917 and NJPS “cypress”). *Tiḏhār* and *tᵉʾaššûr* are uncertain: ASV has “the pine, and the box-tree”, JPS 1917 “the plane-tree, and the larch”, and NJPS “Box trees and elms” (all checked). The line keeps ASV. *ʿĂrāḇāh* is the common noun “desert”, as at 40:3 (overlay `lexical-cruxes-isaiah-41`).",
         "community": []
-      }
+      },
+      "translit": "ʾettēn bammidbār ʾerez šiṭṭāh wahădas wəʿēṣ šāmen ʾāśīm bāʿărābāh bərōš tidhār ūtəʾaššūr yaḥdāw"
     },
     {
       "n": 20,
@@ -832,7 +852,8 @@
       "notes": {
         "official": "*Ûqᵉḏôš yiśrāʾēl bᵉrāʾāh* “and the Holy One of Israel has created it” (ASV, JPS 1917; NJPS “has wrought it”, checked; overlay `bara-create-isaiah`). *Wᵉyāśîmû* “and consider” is elliptical for “set (the heart)”, as the full phrase *wᵉnāśîmāh libbēnû* in 41:22 shows.",
         "community": []
-      }
+      },
+      "translit": "ləmaʿan yirʾū wəyēdəʿū wəyāśīmū wəyaśkīlū yaḥdāw kī yad-YHWH ʿāśətāh zōʾt ūqədōš yiśrāʾēl bərāʾāh (p)"
     },
     {
       "n": 21,
@@ -848,7 +869,8 @@
       "notes": {
         "official": "*Qārᵉḇû rîḇᵉḵem* “Present your case” is literally “bring near your case” (ASV and JPS 1917 “Produce your cause”; NJPS “Submit your case”). *ʿĂṣumôṯêḵem* is “your strong reasons” (ASV; JPS 1917 “your reasons”; NJPS “your pleas”, checked), a rare noun from *ʿṣm* “be strong”. *Meleḵ yaʿăqōḇ* “the King of Jacob” is a divine title and is capitalised (cf. 44:6, “the King of Israel”).",
         "community": []
-      }
+      },
+      "translit": "qārəbū rībəkem yōʾmar YHWH haggīšū ʿăṣumōtēkem yōʾmar melek yaʿăqōb"
     },
     {
       "n": 22,
@@ -864,7 +886,8 @@
       "notes": {
         "official": "*Yaggîšû* “Let them bring them forward” takes the Hiphil as transitive, with ASV and JPS 1917. NJPS reads it intransitively, “Let them approach”, with a note (checked). *Hārišōnôṯ* is “the former things” (cf. 42:9; 43:9; 48:3), and *habbāʾôṯ* “the things to come” (ASV, JPS 1917). *Mâ hēnnāh* has no verb (ASV “what they are”); the line supplies the past because the former things are past events, as NJPS does (“what has occurred”). *Hašmîʿunû* is “make us hear”, following 43:9 (ASV “show us”). *ʾAḥărîṯān* is “their end” (JPS 1917 “the end of them”; ASV “the latter end of them”).",
         "community": []
-      }
+      },
+      "translit": "yaggīšū wəyaggīdū lānū ʾēt ʾăšer tiqrēnāh hāriʾšōnōt | māh hēnnāh haggīdū wənāśīmāh libbēnū wənēdəʿāh ʾaḥărītān ʾō habbāʾōt hašmīʿunū"
     },
     {
       "n": 23,
@@ -882,7 +905,8 @@
       "notes": {
         "official": "*Haggîḏû hāʾōṯiyyôṯ lᵉʾāḥôr* “Declare the things that are coming hereafter”: *hāʾōṯiyyôṯ*, the feminine plural participle of *ʾāṯāh* “come”, is “the things that are coming”, as in the stable 44:7, and *lᵉʾāḥôr* is “hereafter” (ASV and JPS 1917 “the things that are to come hereafter”). The stable 45:11 renders the same participle “the things to come”. The two stable sites differ; this verse follows 44:7, so that *habbāʾôṯ* (41:22) and *hāʾōṯiyyôṯ* keep different English in adjacent verses (overlay `lexical-cruxes-isaiah-41`).\n\n*Kî ʾĕlōhîm ʾattem* “that you are gods”: lower-case “gods” for the idols addressed (overlay `elohim-el-eloah-monotheistic-formula-isaiah`). *ʾAp̄-têṭîḇû wᵉṯārēʿû* “yes, do good or do evil” (ASV; NJPS “Do anything, good or bad”) is a pairing of opposites for any act at all; cf. 45:7, where *rāʿ* is “calamity”.\n\n*Wᵉništāʿāh wᵉnirʾeh yaḥdāw* “that we may be dismayed and see it together”: the written text (ketiv) ונרא can be vocalised *wᵉnîrāʾ* “and fear”, and the reading tradition (qere) is *wᵉnirʾeh* “and see”. The line follows the qere (overlay `mt-qere-textual-policy-isaiah`), as ASV, JPS 1917 and NJPS do. NJPS notes “Change of vocalization yields ‘fear’; cf. v. 10” (checked). *Wᵉništāʿāh* is taken from *štʿ* “be dismayed”, the verb of 41:10; a derivation from *šʿh* “look (at one another)” has also been proposed (not verified).",
         "community": []
-      }
+      },
+      "translit": "haggīdū hāʾōtiyyōt ləʾāḥōr wənēdəʿāh kī ʾĕlōhīm ʾattem ʾap-tēṭībū wətārēʿū wəništāʿāh wnrʾ [wənirʾeh] yaḥdāw"
     },
     {
       "n": 24,
@@ -900,7 +924,8 @@
       "notes": {
         "official": "*Hēn-ʾattem mēʾayin ûp̄āʿolᵉḵem mēʾāp̄aʿ* “you are of nothing, and your work is of nought” (ASV): the preposition *min* can be partitive, “of nothing” (ASV), or comparative, as in NJPS “less than nothing … less than nullity” (checked). *ʾĀp̄aʿ* occurs only here. It is often corrected to *ʾep̄es* (41:12, 29) or linked with *ʾep̄ʿeh* “viper” (30:6); neither proposal was verified. The line keeps MT (overlay `mt-qere-textual-policy-isaiah`) and shares “nought” with *ʾep̄es* (overlay `lexical-cruxes-isaiah-41`). In *tôʿēḇāh yiḇḥar bāḵem* “an abomination is the one who chooses you”, the relative clause has no relative particle; ASV has “he that chooseth you”, and the line renders it neutrally (central `toevah-abomination-cross-corpus-keyword`).",
         "community": []
-      }
+      },
+      "translit": "hēn-ʾattem mēʾayin ūpāʿāləkem mēʾāpaʿ tōʿēbāh yibḥar bākem"
     },
     {
       "n": 25,
@@ -918,7 +943,8 @@
       "notes": {
         "official": "*Haʿîrôṯî miṣṣāp̄ôn wayyaʾṯ* “I have roused one from the north, and he has come”, with the verb of 41:2 (ASV “raised up”; JPS 1917 “roused up”; NJPS “roused”, checked). The north and *mimmizraḥ-šemeš* “the rising of the sun” together give the figure's direction. As at 41:2, the Hebrew names no one, and the line keeps lower case. *Yiqrāʾ ḇišmî* is “one who calls on my name” (ASV, JPS 1917; NJPS “one who invokes My name”). A reading “he shall be called by name”, reported for 1QIsaᵃ and the LXX, was not verified.\n\n*Wᵉyāḇōʾ sᵉḡānîm kᵉmô-ḥōmer* “and he shall come upon rulers as upon mortar” follows ASV and JPS 1917. NJPS has “And he has trampled rulers like mud” (checked), the sense given by the common emendation *wᵉyāḇōs* “and he shall trample”; NJPS gives no note here, so its basis was not verified. The line keeps MT (overlay `mt-qere-textual-policy-isaiah`).\n\n*Ḥōmer* is rendered by context in the book: the “mire” of the streets (10:6), the potter's “clay” (29:16; 45:9), and here “mortar”, the material trodden underfoot, as in ASV and JPS 1917 and as at Gen 11:3 in the corpus (“as mortar”). *Ṭîṭ* takes “clay”. *Kᵉmô yôṣēr* “as the potter” is the participle used on its own as a noun for the craftsman (overlay `yotser-potter-clay-image-isaiah`; overlay `lexical-cruxes-isaiah-41`).",
         "community": []
-      }
+      },
+      "translit": "haʿīrōtī miṣṣāpōn wayyaʾt mimmizraḥ-šemeš yiqrāʾ bišmī wəyābōʾ səgānīm kəmō-ḥōmer ūkəmō yōṣēr yirmos-ṭīṭ"
     },
     {
       "n": 26,
@@ -934,7 +960,8 @@
       "notes": {
         "official": "*Wᵉnōʾmar ṣaddîq* “that we may say, ‘He is right’” follows ASV, JPS 1917 and NJPS (checked). *Ṣaddîq* could also be neuter, “It is right”; cf. 43:9, where *ʾĕmeṯ* is “It is true”. *Mašmîaʿ* is “one who makes it heard”, as at 45:21 and 48:3 (ASV “showeth”; JPS 1917 “announceth”).",
         "community": []
-      }
+      },
+      "translit": "mī-higgīd mērōʾš wənēdāʿāh ūmilləpānīm wənōʾmar ṣaddīq ʾap ʾēn-maggīd ʾap ʾēn mašmīaʿ ʾap ʾēn-šōmēaʿ ʾimrēkem"
     },
     {
       "n": 27,
@@ -950,7 +977,8 @@
       "notes": {
         "official": "*Rišôn lᵉṣiyyôn hinnēh hinnām* is elliptical, and its meaning is uncertain. ASV supplies words in italics, “[I am the] first [that saith] unto Zion, Behold, behold them”, and the line follows ASV. JPS 1917 takes *rišôn* as a person, “A harbinger unto Zion will I give”. NJPS has “The things once predicted to Zion— Behold, here they are!”, with the note “Meaning of Heb. uncertain” (checked). Emendations have been proposed (not verified). *Mᵉḇaśśēr* is “one who brings good tidings”, as at 40:9 (*mᵉḇaśśereṯ*) (overlay `lexical-cruxes-isaiah-41`).",
         "community": []
-      }
+      },
+      "translit": "riʾšōn ləṣiyyōn hinnēh hinnām wəlīrūšālim məbaśśēr ʾettēn"
     },
     {
       "n": 28,
@@ -966,7 +994,8 @@
       "notes": {
         "official": "*Wᵉʾên ʾîš* “and there is no one” (ASV and JPS 1917 “no man”; NJPS “not a man”, checked): generic *ʾîš* is rendered neutrally (overlay `adam-humankind-ish-man-isaiah`). *Yôʿēṣ* is “counselor”, and *wᵉyāšîḇû ḏāḇār* “can answer a word” (ASV).",
         "community": []
-      }
+      },
+      "translit": "wəʾēreʾ wəʾēn ʾīš ūmēʾēlleh wəʾēn yōʿēṣ wəʾešʾālēm wəyāšībū dābār"
     },
     {
       "n": 29,
@@ -984,7 +1013,8 @@
       "notes": {
         "official": "*Hēn kullām ʾāwen ʾep̄es maʿăśêhem* “Behold, all of them — their works are vanity and nought” follows the accents, with ASV and JPS 1917 (“Behold, all of them, their works are vanity and nought”). *ʾĀwen* is “iniquity” at its other sites in the book (1:13; 10:1; 29:20; 31:2; 32:6). Here, however, BDB lists the verse under the sense “idolatry … abstr. for concr. = idols” (Sefaria lexicon, checked), ASV and JPS 1917 have “vanity”, and NJPS has “nothingness” (checked). A reading *ʾayin* “nothing”, reported for 1QIsaᵃ, was not verified (overlay `lexical-cruxes-isaiah-41`; `mt-qere-textual-policy-isaiah`).\n\n*Nᵉsāḵêhem* “their molten images” comes from *nsk* “pour, cast” (ASV, JPS 1917; NJPS “Their statues”). The central `nesekh-libation-drink-offering` (“drink-offering”) is not applied to this sense. *Rûaḥ wāṯōhû* is “wind and emptiness” (overlay `tohu-bare-emptiness-wasteland-isaiah`; ASV and JPS 1917 “wind and confusion”).",
         "community": []
-      }
+      },
+      "translit": "hēn kullām ʾāwen ʾepes maʿăśēhem rūaḥ wātōhū niskēhem (p)"
     }
   ],
   "editorial_questions": []

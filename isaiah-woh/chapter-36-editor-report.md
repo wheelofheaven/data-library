@@ -147,3 +147,11 @@ The Reviewer returned the chapter as `awaiting-human` (reviewerReport in `chapte
      - (C) NJPS "their urine".
    - **If B is adopted:** the orchestrator changes the 36:12 line, rewrites the PENDING clause as the ruling, and trims the 36:12 note.
    - **Editor's view after review:** B is the more concordant choice. A remains defensible.
+
+## Founder rulings applied (sign-off 2026-11-27)
+
+The founder signed off wave I-6 on 2026-11-27, choosing every recommended option.
+
+- **ISA-36:12 (option B).** The line now reads "Is it not to the men who sit on the wall, to eat their dung and to drink the water of their feet with you?", the staged alternative verbatim. Glossary first: the PENDING clause in the `lexical-cruxes-isaiah-36` wohChoice is rewritten as the ruling (ASV/JPS 1917 "their own water" and NJPS "their urine" in commentary), and the rationale now records the ruling as the seventh change to the draft. The `mt-qere-textual-policy-isaiah` rationaleAppend now says 36:12 is rendered literally and is parallel to 7:20 (literal euphemism), against 13:16 (sense). The 36:12 note is trimmed: it states the literal rendering and the 7:20 parallel and reports ASV, JPS 1917 and NJPS; the "would read … awaits the founder's ruling" sentences are removed.
+- **Ratified, no line change:** "Judean" (36:11, 13; marked in the `lexical-cruxes-isaiah-36` wohChoice), "crushed" (36:6), "make a wager with my master" (36:8), and the central `bor-pit-cistern-dry-water-shaft` household-cistern clause (36:16). The central diff note now says the `changes.wohChoice` is ratified rather than staged; the 36:16 note's "A context clause is proposed" now reads "Its context clause for the water cistern governs “cistern” here."
+- `translation.status` and the reviewerReport were not touched.

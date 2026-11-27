@@ -24,7 +24,7 @@ All glossary changes are in `wave-i6-ch37-overlay-diff.json` (proposes 4.1.0) an
   - Not verified, and labelled so in the commentary: lexica, 1QIsaᵃ, NRSV, LXX, and the Assyriological and Egyptological identifications (Bit-Adini, Taharqa, Urartu, Nisroch).
 - **Translator claim corrected:** the draft's 37:2 question gave NJPS as "the secretary". NJPS 37:2 reads "Shebna, the scribe", so all three versions agree on "the scribe".
 
-## Speculative entries requiring sign-off
+## Speculative entries (founder sign-off 2026-11-27)
 
 No speculative glossary entry is proposed. The new entry and every extension are `claim_type: direct`.
 
@@ -36,6 +36,7 @@ One commentary paragraph is labelled speculative (a reception note, which founde
 **WoH reading (commentary only):** the messenger who strikes the Assyrian camp read as an envoy of the Elohim acting by technical means.
 **Why speculative:** the canon does not cite Isa 37:36 or 2 Kgs 19:35. The note carries over two canon readings of other passages: TBWTT 3:72–73, where the *malʾaḵ YHWH* of Judg 6:21 is "one of the creators", and TBWTT 3:75, where the Judg 7 camp is routed by amplified sound. The premise is in the canon. The application to this verse is the project's, and the note says so.
 **Recommendation:** ship as a labelled reception note, or drop it if the founder prefers no reception note on a mass-casualty verse.
+**Ruling:** kept as labelled (founder sign-off 2026-11-27).
 
 ---
 
@@ -129,3 +130,12 @@ These are commentary-only corrections made after the Reviewer's pass, on the coo
 3. **ISA-37:7 (optional item):** added 2 Kgs 19:7 *lᵉʾarṣô* against Isaiah's *ʾel-ʾarṣô*, with no difference of sense.
 4. **ISA-37:27 (optional item):** added 2 Kgs 19:26 *wayyēḇōšû* against Isaiah's *wāḇōšû*.
 5. **ISA-37:36 (optional item):** added 2 Kgs 19:35 *wayyaḵ* against Isaiah's *wayyakkeh*, and the absence of *waw* before *šᵉmōnîm* in Kings.
+
+## Founder rulings applied (sign-off 2026-11-27)
+
+The founder signed off wave I-6 on 2026-11-27, choosing every recommended option.
+
+- **ISA-37:16 *yōšēḇ hakkᵉrūḇîm*.** Option (A) accepted: "who is enthroned on the cherubim", the corpus wording of 2 Sam 6:2, supersedes the "who sits enthroned above the cherubim" of wave rule 3. `lexical-cruxes-isaiah-37` (wohChoice) and the central `cherubim-ezek` op (rationaleAppend) now record the acceptance. The line and note are unchanged.
+- **ISA-37:36 *malʾaḵ YHWH*.** Option (A) ratified: "the messenger of YHWH". `lexical-cruxes-isaiah-37` and the central `malakh-yhwh-messenger` rationaleAppend now record the ratification.
+- **ISA-37:36 speculative reception note.** Kept as labelled. The central `malakh-yhwh-messenger` rationaleAppend now reads "(founder sign-off 2026-11-27)". The commentary paragraph is unchanged.
+- No pending wording remained in `chapter-37.json` outside the reviewerReport. `translation.status` and the reviewerReport were not touched.

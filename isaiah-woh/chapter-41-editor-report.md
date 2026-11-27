@@ -151,3 +151,11 @@ These follow the Reviewer's two `revise` verdicts on glossary ops. No English li
    - **Advisory, recorded:** 44:8 uses ʾal-tip̄ḥăḏû wᵉʾal-tirhû, not yrʾ, so it is not a site of the formula. The entry's pairing of 44:8 with "al-tira avdi Ya'aqov" belongs to 44:2.
 
 **Stable refs for the orchestrator (updated):** central al-tira applies at ISA-43:1, 43:5, 44:2 and **54:4**. The `iy-coastlands-isaiah` stable list is unchanged.
+
+## Founder rulings applied (sign-off 2026-11-27)
+
+The founder signed off wave I-6 on 2026-11-27, choosing every recommended option.
+
+- **Ratified, no line change:** 41:14 *mᵉṯê yiśrāʾēl* "you people of Israel" and 41:15 *môraḡ* "threshing board". Both are marked "ratified, founder sign-off 2026-11-27" in the `lexical-cruxes-isaiah-41` wohChoice.
+- **Open item, not decided now:** harmonising the stable 45:11 *ʾōṯiyyôṯ* ("the things to come") with 44:7 and 41:23 ("the things that are coming"). This is deferred to the next revision of chapter 45. No change in this wave.
+- No pending wording remained in `chapter-41.json` outside the reviewerReport. `translation.status` and the reviewerReport were not touched.

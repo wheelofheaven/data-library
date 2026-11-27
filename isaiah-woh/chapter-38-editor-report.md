@@ -27,7 +27,7 @@ All glossary changes are in `wave-i6-ch38-overlay-diff.json` (proposes overlay 4
   - The Translator's draft cited ASV only; every JPS 1917 and NJPS statement in the commentary was checked against the texts above.
   - Not verified, and labelled so in the commentary: 1QIsaᵃ (DJD 32; the "upper chamber of Ahaz" reading at 38:8 and the later-hand insertion of 38:21–22), the LXX, NRSV, BDB/HALOT, the sources of the emendations *miḵtām*, *šiwwaʿtî* and *ḥāśaḵtā*, and the reported manuscript spelling *ḥeleḏ* at 38:11. The Fred P. Miller site (ao.net/~fmoeller) has no collation for Isa 36–39, only a translation and commentary, so it was not used.
 
-## Speculative entries requiring sign-off
+## Speculative entries (founder sign-off 2026-11-27)
 
 No speculative glossary entry is proposed. Every new or extended entry is `claim_type: direct`.
 
@@ -39,6 +39,7 @@ There is one commentary paragraph labelled speculative (a reception note; founde
 **WoH choice:** none in the line. The line keeps the literal subject, "the sun", with ASV, KJV and JPS 1917, and names no mechanism.
 **Why speculative:** the canon does not cite Isa 38 or 2 Kgs 20. The note's premise has a source: TBWTT 3:69–71 reads Josh 10:13 ("the sun stood still") as people's impression of a one-day war, "men believed the sun had stopped". Applying that reading to 38:8 extends it to a verse the canon does not discuss. The note says so, and it also names the difference between the two passages: Joshua's sun stops during a battle, while Hezekiah's sign is announced in advance and goes backward.
 **Recommendation:** ship as labelled. If the founder judges the analogy too weak (it is a different verse and a different kind of sign), drop the paragraph. The philological notes stand without it.
+**Ruling:** kept as labelled (founder sign-off 2026-11-27).
 
 ---
 
@@ -100,3 +101,11 @@ Applied after the Reviewer's report (2026-11-27). `translation.status` (awaiting
 2. **ISA-38:8, philological paragraph (optional precision, applied).** Added: *yārᵉḏāh* is feminine, while *ṣēl* takes masculine verbs in 2 Kgs 20:9–10 (*hālaḵ*, *yāšûḇ*; MT checked), so the relative clause may take the sun as subject. The same feminine form stands in 2 Kgs 20:11. The English leaves the subject open, so the line is unchanged.
 3. **ISA-38:21 (Reviewer correction).** Now "with the pluperfect of ASV ('Now Isaiah had said') and KJV ('For Isaiah had said')". The earlier wording attributed ASV's phrasing to both.
 4. **ISA-38:7 (optional precision, applied).** 2 Kgs 20:9 has *kî* for *ʾăšer* and lacks *hazzeh*; the note now says "nearly the same sentence" and gives both differences (MT checked).
+
+## Founder rulings applied (sign-off 2026-11-27)
+
+The founder signed off wave I-6 on 2026-11-27, choosing every recommended option.
+
+- **ISA-38:8 speculative reception note.** Kept as labelled. The `maalot-steps-of-ahaz-isaiah-38` rationale in `wave-i6-ch38-overlay-diff.json` now reads "a separately labelled speculative reception note (founder sign-off 2026-11-27)". The commentary paragraph and the line are unchanged.
+- **ISA-38:11 *ḥeḏel* "the world".** The decision recorded above (A, the line unchanged) stands.
+- No pending wording remained in `chapter-38.json` outside the reviewerReport. `translation.status` and the reviewerReport were not touched.

@@ -125,3 +125,11 @@ Applied 2026-11-27 after the Reviewer's report (status `awaiting-human`). `trans
 4. **Orchestrator ruling on 37:14 / 39:1 sᵉp̄ārîm.** Both verses use one noun, "letter", and the number follows each verse's grammar: 37:14 "the letter", with its singular suffixes, and 39:1 "letters".
    - The ruling is recorded in the wohChoice and rationale of `lexical-cruxes-isaiah-39`, in the overlay version note, and in the 39:1 commentary.
    - It supersedes the "ISA-37:14 — coordination" item under Unresolved editorial questions.
+
+## Founder rulings applied (sign-off 2026-11-27)
+
+The founder signed off wave I-6 on 2026-11-27, choosing every recommended option.
+
+- **ISA-39:7 *sārîsîm* (option A).** The central `saris-court-official-eunuch-ambiguity` context clause is accepted as the Isaiah book rule: "eunuch(s)" at 39:7 and 56:3–4, with 2 Kgs 20:18 following Isa 39:7. The "FOUNDER DECISION … if declined" text in the `wave-i6-ch39-central-diff.json` version note is replaced by the ruling. In the 39:7 note, "staged in this wave and awaiting founder sign-off" is removed; it now reads "The central entry's Isaiah context clause gives “eunuch” at both sites." The line is unchanged.
+- **Open item, not decided now:** the name at 2 Kgs 20:12. "Berodach-baladan" (the Kings MT and ASV Kings, with a note referring to Isa 39:1) remains the recommendation, to be ruled when 2 Kings is translated. The `lexical-cruxes-isaiah-39` wording ("is escalated") is left as it is.
+- `translation.status` and the reviewerReport were not touched.

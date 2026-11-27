@@ -6,20 +6,20 @@
   "title": "Isaiah 38 — Hezekiah's illness, the sign of the shadow on the steps, and the writing of Hezekiah",
   "translation": {
     "track": "translation",
-    "version": "1.0.0-rc1",
+    "version": "1.0.0",
     "sourceText": "Tanach with Ta'amei Hamikra (Westminster Leningrad)",
     "sourceLicense": "Public Domain",
     "sourceUrl": "http://www.tanach.us/Tanach.xml",
     "sourceAccessedVia": "sefaria.org/api/v3/texts/Isaiah.38",
-    "glossaryVersion": "5.0.0",
-    "overlayGlossaryVersion": "4.0.0",
+    "glossaryVersion": "6.0.0",
+    "overlayGlossaryVersion": "5.0.0",
     "modelDrafts": [
       "claude-opus-5-5 (translator)",
       "claude-opus-5-5 (editor)"
     ],
-    "reviewer": "claude-opus-5-5 acting as woh-reviewer",
-    "reviewedAt": "2026-11-27T07:07:19Z",
-    "status": "awaiting-human",
+    "reviewer": "zarazinsfuss",
+    "reviewedAt": "2026-11-27T12:00:00Z",
+    "status": "stable",
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as woh-reviewer",
       "reviewedAt": "2026-11-27T07:07:19Z",
@@ -437,7 +437,8 @@
       "summary": "22 verses: 20 approve, 2 revise (38:8 and 38:21, commentary accuracy only; no English line is challenged). 16 glossary ops reviewed, all approved. No lens-leakage flags: every English line is a lens-neutral rendering, and the only project reading is the separately labelled speculative reception note at 38:8, whose premise (TBWTT 3:69-71) is source-supported and fairly bounded. Status is awaiting-human because two verdicts are revise.",
       "postEscalationAdjustments": "Read chapter-38-editor-report.md after the initial verdicts. It adds no new information that changes a verdict. The Editor offers the founder the choice of shipping or dropping the 38:8 reception note: the Reviewer judges it defensible to ship once the 'only biblical solar sign' sentence is corrected. The 38:11 decision (option A) is confirmed independently from the Sefaria commentaries. The report repeats the 38:21-22 'ASV and KJV' pluperfect, which is correct; only the verse note's quotation is wrong.",
       "citationNotes": "All versional and medieval citations were fetched by the Reviewer on 2026-11-27 (Sefaria API v3, NJPS = Tanakh: The Holy Scriptures, published by JPS, not the Gender-Sensitive Edition; ASV and KJV via bible-api.com). No lexicon (BDB, HALOT) or modern commentary was consulted, and none is cited; no citation here is from memory."
-    }
+    },
+    "signOff": "Founder sign-off 2026-11-26 (wave package accepted with recommended defaults)"
   },
   "paragraphs": [
     {
@@ -455,7 +456,8 @@
       "notes": {
         "official": "*Ṣaw lᵉḇêṯeḵā* “Set your house in order”: the Piel imperative of *ṣwh* “command, give charge” with *lᵉ-* “to your house” is the idiom for the last instructions of a dying man. ASV and JPS 1917 have “Set thy house in order,” and NJPS has “Set your affairs in order” (all checked). The line keeps the public-domain wording. *Kî mēṯ ʾattāh wᵉlōʾ ṯiḥyeh* is “for you shall die and not live” (ASV, JPS 1917); NJPS gives *ḥyh* its medical sense, “you will not get well.” The same verb returns as “recovered” (38:9) and “he shall recover” (38:21), and the psalm plays on it in 38:16 and 38:19. *Kōh ʾāmar YHWH* is “Thus says YHWH,” as everywhere in the book, where NJPS prints “Thus said.” Isaiah's words are quoted because a narrative verb introduces them (overlay `title-and-meta-conventions-isaiah`, `lexical-cruxes-isaiah-38`).\n\nThe verse is word for word the Hebrew of 2 Kgs 20:1 (MT via Sefaria, checked). Isaiah 36–39 runs parallel to 2 Kgs 18:13–20:19, and the notes on this chapter record where Kings differs.",
         "community": []
-      }
+      },
+      "translit": "bayyāmīm hāhēm ḥālāh ḥizqiyyāhū lāmūt wayyābōʾ ʾēlāyw yəšaʿyāhū ben-ʾāmōṣ hannābīʾ wayyōʾmer ʾēlāyw kōh-ʾāmar YHWH ṣaw ləbētekā kī mēt ʾattāh wəlōʾ tiḥyeh"
     },
     {
       "n": 2,
@@ -471,7 +473,8 @@
       "notes": {
         "official": "The line follows ASV and JPS 1917. 2 Kgs 20:2 lacks the name Hezekiah, marks the object with *ʾeṯ-* and ends with *lēʾmōr* “saying” (MT, checked).",
         "community": []
-      }
+      },
+      "translit": "wayyassēb ḥizqiyyāhū pānāyw ʾel-haqqīr wayyitpallēl ʾel-YHWH"
     },
     {
       "n": 3,
@@ -489,7 +492,8 @@
       "notes": {
         "official": "*Ûḇᵉlēḇ šālēm* “and with a whole heart”: *šālēm* means “whole, complete, undivided.” ASV and KJV have “with a perfect heart,” JPS 1917 “with a whole heart,” and NJPS “wholeheartedly” (all checked). The line takes the JPS 1917 wording, because current English hears “a perfect heart” as a claim to be flawless, not as a heart that is undivided. *Hiṯhallaḵtî lᵉp̄āneyḵā* “I have walked before you” is the walking-before formula of the central `hithallekh-lefanai-patriarchal-walking-before-elohim-covenantal-formula` entry, whose rationale cites this verse. *Beʾĕmeṯ* “in truth” keeps the book's English for *ʾĕmeṯ* (10:20; 16:5; 42:3; 48:1), where NJPS has “sincerely.” Only *ʾĕmeṯ* occurs here, not the pair *ḥeseḏ wᵉʾĕmeṯ*, so the central `chesed-v-emet-steadfast-love-and-truth` entry is not applied.\n\n*Wayyēḇk ḥizqiyyāhû bᵉḵî ḡāḏôl* is literally “Hezekiah wept a great weeping.” ASV and JPS 1917 have “wept sore,” and NJPS “wept profusely.” The draft's “wept bitterly” is replaced by “wept greatly.” In this book “bitterly” translates *mar* / *mrr* (22:4; 33:7), and *mar* “bitterness” is a key word of the psalm (38:15, 17), so “bitterly” here would suggest a Hebrew echo that is not there (overlay `lexical-cruxes-isaiah-38`). 2 Kgs 20:3 has *ûḇᵉlēḇāḇ* for *ûḇᵉlēḇ*, two forms of the same noun (MT, checked).",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmar ʾānnāh YHWH zəkor-nāʾ ʾēt ʾăšer hithallaktī ləpānēkā beʾĕmet ūbəlēb šālēm wəhaṭṭōb bəʿēnēkā ʿāśītī wayyēbəkk ḥizqiyyāhū bəkī gādōl (s)"
     },
     {
       "n": 4,
@@ -506,7 +510,8 @@
       "notes": {
         "official": "*Wayᵉhî dᵉḇar-YHWH ʾel-yᵉšaʿyāhû lēʾmōr* is the prophetic word formula, “the word of YHWH came” (central `davar-yhwh-prophetic-formula`). 2 Kgs 20:4 sets the word earlier, before Isaiah “had gone out of the middle court” (qere *ḥāṣēr*; ketiv *hāʿîr* “the city”), so the reply reaches Hezekiah at once (MT and NJPS, checked). Isaiah has no time note.",
         "community": []
-      }
+      },
+      "translit": "wayhī dəbar-YHWH ʾel-yəšaʿyāhū lēʾmōr"
     },
     {
       "n": 5,
@@ -524,7 +529,8 @@
       "notes": {
         "official": "*YHWH ʾĕlōhê dāwiḏ ʾāḇîḵā* “YHWH, the God of David your father” is a construct divine epithet, rendered “the God of …” under overlay `elohei-yisrael-god-of-israel-isaiah-24`, as ASV, JPS 1917 and NJPS render it (checked). *Hālôḵ wᵉʾāmartā* (infinitive absolute as imperative) is “Go and say.” The divine speech that begins with the messenger formula is not quoted separately inside YHWH's instruction to Isaiah, which runs from 38:5 to the end of the promise in 38:8, as at 7:3–9 (overlay `title-and-meta-conventions-isaiah`).\n\n2 Kgs 20:5–6 is longer (MT and NJPS, checked). Isaiah is told *šûḇ* “go back,” and Hezekiah is called *nᵉḡîḏ-ʿammî* “the ruler of my people.” Before the fifteen years comes the promise *hinᵉnî rōp̄ēʾ lāḵ bayyôm haššᵉlîšî taʿăleh bêṯ YHWH* “I am going to heal you; on the third day you shall go up to the house of YHWH.” That promise is the background of Hezekiah's question in 38:22. Isaiah has only *hinᵉnî yôsîp̄ ʿal-yāmeyḵā* “behold, I will add to your days” (overlay `lexical-cruxes-isaiah-38`).",
         "community": []
-      }
+      },
+      "translit": "hālōk wəʾāmartā ʾel-ḥizqiyyāhū kōh-ʾāmar YHWH ʾĕlōhē dāwid ʾābīkā šāmaʿtī ʾet-təpillātekā rāʾītī ʾet-dimʿātekā hinnī yōsip ʿal-yāmēkā ḥămēš ʿeśrēh šānāh"
     },
     {
       "n": 6,
@@ -540,7 +546,8 @@
       "notes": {
         "official": "*Wᵉḡannôṯî ʿal-hāʿîr hazzōʾṯ* is “and I will protect this city.” The draft followed ASV and JPS 1917 “defend.” The line now has “protect,” the book's verb for *gnn* at 31:5 (“so YHWH of hosts will protect Jerusalem”), and NJPS has “protect” here (checked) (overlay `lexical-cruxes-isaiah-38`). 2 Kgs 20:6 continues *lᵉmaʿănî ûlᵉmaʿan dāwiḏ ʿaḇdî* “for my sake and for the sake of David my servant” (MT, checked); Isaiah has that phrase at 37:35, not here.",
         "community": []
-      }
+      },
+      "translit": "ūmikkap melek-ʾaššūr ʾaṣṣīləkā wəʾēt hāʿīr hazzōʾt wəgannōtī ʿal-hāʿīr hazzōʾt"
     },
     {
       "n": 7,
@@ -556,7 +563,8 @@
       "notes": {
         "official": "The line follows ASV and JPS 1917 (“this thing that he has spoken”); NJPS has “the thing that He has promised” (checked). In 2 Kgs 20:9 nearly the same sentence (with *kî* for *ʾăšer* and without *hazzeh* “this”; MT, checked) is Isaiah's answer to Hezekiah's request for a sign (20:8), and the sign is offered as a choice: shall the shadow go forward ten steps or go back ten steps (MT, checked). Isaiah gives the sign unasked and records Hezekiah's question only at 38:22.",
         "community": []
-      }
+      },
+      "translit": "wəzeh-ləkā hāʾōt mēʾēt YHWH ʾăšer yaʿăśeh YHWH ʾet-haddābār hazzeh ʾăšer dibbēr"
     },
     {
       "n": 8,
@@ -573,7 +581,8 @@
       "notes": {
         "official": "*Maʿălôṯ*, the plural of *maʿălāh* “step, stair” (from *ʿlh* “go up”), occurs five times in the verse, and the line renders it “steps” every time: “the shadow on the steps … on the steps of Ahaz … ten steps … ten steps … on the steps down which it had gone.” ASV renders the same word “steps” three times and “dial” twice (“the dial of Ahaz”; “on the dial whereon it was gone down”). JPS 1917 has “dial … sun-dial … degrees,” KJV “degrees … sun dial,” and NJPS “steps … dial … steps” with the footnote “Heb. ‘steps.’ A model of a dial with steps has been discovered in Egypt” (all checked). The Hebrew uses one noun, and whether *maʿălôṯ ʾāḥāz* was a stairway in the palace on which a shadow fell or a stepped instrument for telling time is a question for the commentary, not the line (overlay `maalot-steps-of-ahaz-isaiah-38`).\n\nThe medieval commentators read an instrument. Rashi calls it “a sort of steps made opposite the sun to determine the hours of the day,” and Metzudat David says the shadow went down one step each hour and that Ahaz built the steps (Sefaria, checked). A reading of 1QIsaᵃ, “the upper chamber of Ahaz” (*ʿălîyaṯ ʾāḥāz*), is often cited and would favour a stairway to a roof room; it was not verified against DJD 32 and is not adopted (overlay `mt-qere-textual-policy-isaiah`).\n\nThe subject of the last clause is the sun: *wattāšoḇ haššemeš ʿeśer maʿălôṯ* “So the sun returned ten steps,” with ASV, KJV and JPS 1917. NJPS prints “the sun[’s shadow]” with the bracket marking its addition, and Metzudat David explains that the sun's ray went back and the shadow with it. The line keeps the literal subject. *Baššemeš* is “with the sun” (ASV); NJPS has “because of the sun.” The relative verb *yārᵉḏāh* “has gone down” is feminine, while *ṣēl* “shadow” takes masculine verbs in 2 Kgs 20:9–10 (*hālaḵ*, *yāšûḇ*; MT, checked), so the clause may take the sun, feminine in *wattāšoḇ haššemeš*, as its subject; the same feminine *yārᵉḏāh* stands in 2 Kgs 20:11. The English “which has gone down … with the sun” leaves the subject open, as the Hebrew does. 2 Kgs 20:11 tells the end differently: Isaiah calls to YHWH, and YHWH “brought the shadow back” (*wayyāšeḇ ʾeṯ-haṣṣēl*, Hiphil), with no mention of the sun returning (MT, checked). 2 Chr 32:24 says only that YHWH “gave him a sign” (*môp̄ēṯ*) (checked).\n\n**Wheel of Heaven reading (reception note, not a translation claim; claim type: speculative).** The canon does not cite Isa 38 or 2 Kgs 20. The data-library texts of *The Book Which Tells the Truth*, *Extraterrestrials Took Me to Their Planet* and *Let's Welcome the Extraterrestrials* contain no reference to Hezekiah, Ahaz or this sign. The only biblical passage in which the sun's course is altered that the canon discusses is Josh 10:13, “And the sun stood still, and the moon stayed.” (The canon also reads the darkened sun of Rev 6:12, 8:12 and 9:2 as dust and ash that give “the impression” of shorter days and nights, LWTE 2:148–176, esp. 2:174; there the sun is obscured, not moved.) TBWTT reads it as the impression left by “a lightning war that lasted only a day … so short in relation to the extent of the terrain conquered that men believed the sun had stopped” (TBWTT 3:69–71). If 38:8 is read the same way, the verse reports how a sign appeared to those who watched the shadow, and not a change in the sun's course. That extends the canon's reading of a different verse to one it does not discuss. The two passages also differ: Joshua's sun stops during a battle, while Hezekiah's shadow is announced in advance and goes back. The line keeps the Hebrew's own subject, “the sun returned,” and names no mechanism.",
         "community": []
-      }
+      },
+      "translit": "hinnī mēšīb ʾet-ṣēl hammaʿălōt ʾăšer yārədāh bəmaʿălōt ʾāḥāz baššemeš ʾăḥōrannīt ʿeśer maʿălōt wattāšob haššemeš ʿeśer maʿălōt bammaʿălōt ʾăšer yārādāh (s)"
     },
     {
       "n": 9,
@@ -590,7 +599,8 @@
       "notes": {
         "official": "*Miḵtāḇ lᵉḥizqiyyāhû* “The writing of Hezekiah” is the heading of a psalm that has no parallel in Kings. ASV, KJV and JPS 1917 have “The writing,” and NJPS has “A poem by King Hezekiah” (checked). An emendation to *miḵtām*, the obscure psalm-heading term (Pss 16:1; 56:1; 60:1, checked; NJPS “michtam,” with the note “Meaning of Heb. uncertain”), is often proposed because 38:9 has the form of a psalm superscription. The proposal's sources were not verified. The line translates the Masoretic *miḵtāḇ* (overlay `mt-qere-textual-policy-isaiah`, `lexical-cruxes-isaiah-38`). *Lᵉ-* is the *lamed* of authorship, as in the psalm headings. *Baḥălōṯô wayᵉḥî mēḥolyô* is “when he had been sick and had recovered from his sickness.”",
         "community": []
-      }
+      },
+      "translit": "miktāb ləḥizqiyyāhū melek-yəhūdāh baḥălōtō wayḥī mēḥāləyō"
     },
     {
       "n": 10,
@@ -607,7 +617,8 @@
       "notes": {
         "official": "*Biḏmî yāmay* “In the noontide of my days” (ASV, JPS 1917) is usually explained from *dmh* “cease, be still,” the still point of midday (lexica not checked). NJPS has “in the middle of my days,” with the note “Meaning of verse uncertain in part,” and KJV “in the cutting off of my days” (checked). *Puqqaḏtî yeṯer šᵉnôṯāy* is “I am deprived of the rest of my years” with ASV and JPS 1917. NJPS reads *pqd* as “consign” and joins the gates to it: “I have been consigned to the gates of Sheol For the rest of my years.” The line keeps the public-domain construal and gives the NJPS reading here (overlay `lexical-cruxes-isaiah-38`). *Šᵉʾôl* is “She'ol” under the central `sheol-underworld-realm-of-the-dead` entry; JPS 1917 has “the nether-world” and KJV “the grave.” The overlay `yippaqedu-pqd-visitation-imprisonment-isaiah-24` entry is scoped to 24:22 and is not applied.",
         "community": []
-      }
+      },
+      "translit": "ʾănī ʾāmartī bidmī yāmay ʾēlēkāh bəšaʿărē šəʾōl puqqadtī yeter šənōtāy"
     },
     {
       "n": 11,
@@ -626,7 +637,8 @@
       "notes": {
         "official": "*ʿIm-yôšᵉḇê ḥāḏel* “among the inhabitants of the world”: the Masoretic word is *ḥeḏel* (pausal *ḥāḏel*), from *ḥdl* “cease.” ASV, KJV and JPS 1917 have “the inhabitants of the world,” and NJPS “those who inhabit the earth” (checked). These versions follow a medieval reading of the same word. Ibn Ezra and Radak (Sefaria, checked) take *ḥeḏel* as *ḥeleḏ* “world, lifetime” (Ps 39:6 *ḥeldî*, checked) with its letters transposed, like *keḇeś* / *keśeḇ* “lamb.” Ibn Ezra adds that this world may be called *ḥeḏel* because human life in it ceases. Rashi reads the word as it stands: “with those who dwell in withdrawal,” that is, with the dead (Sefaria, checked). Some Hebrew manuscripts are reported to write *ḥeleḏ*; this was not verified. The line keeps “the world.” It translates the Masoretic consonants as Ibn Ezra, Radak and both JPS versions read them, and no letter is changed, so it stays within the house text policy (overlay `mt-qere-textual-policy-isaiah`, `lexical-cruxes-isaiah-38`). Rashi's “cessation,” the dead, is the alternative.\n\n*Lōʾ-ʾerʾeh Yāh Yāh bᵉʾereṣ haḥayyîm* “I shall not see Yah, Yah in the land of the living”: the short divine name is transliterated, as at 12:2 and 26:4 (overlay `yah-tzur-olamim-everlasting-rock-isaiah-26`). NJPS also prints “Yah” and notes “I.e., visit His Temple,” and Rashi likewise takes “the land of the living” as the Temple (checked). *Lōʾ-ʾabbîṭ ʾāḏām ʿôḏ* is “I shall look upon humankind no more” under overlay `adam-humankind-ish-man-isaiah`. ASV and JPS 1917 have “man,” and NJPS “men.”",
         "community": []
-      }
+      },
+      "translit": "ʾāmartī lōʾ-ʾerʾeh yāh yāh bəʾereṣ haḥayyīm lōʾ-ʾabbīṭ ʾādām ʿōd ʿim-yōšəbē ḥādel"
     },
     {
       "n": 12,
@@ -642,7 +654,8 @@
       "notes": {
         "official": "The weaver image is a crux, and the line keeps ASV's construal throughout (overlay `lexical-cruxes-isaiah-38`). *Dôrî* is “my dwelling” (*dôr* II) with ASV, JPS 1917 and NJPS; KJV takes *dôr* I, “Mine age is departed” (checked). *Kᵉʾōhel rōʿî* is “like a shepherd's tent,” where *rōʿî* stands for the usual *rōʿeh* “shepherd.” *Qippaḏtî kāʾōrēḡ ḥayyay* is first person, “I have rolled up my life like a weaver” (ASV, JPS 1917); NJPS turns it into a passive, “My life is rolled up like a web.” *Middallāh yᵉḇaṣṣᵉʿēnî* is “he will cut me off from the loom” (ASV); *dallāh* is usually glossed as the thread of the warp (lexica not checked), and JPS 1917 and NJPS translate it “thrum.” KJV's “with pining sickness” takes *dallāh* from *dll* “be low, languish.”\n\n*Miyyôm ʿaḏ-laylāh tašlîmēnî* “from day to night you will make an end of me” takes *šlm* Hiphil as “bring to an end” (ASV, JPS 1917). NJPS reads it as “keep whole,” “Only from daybreak to nightfall Was I kept whole,” with the note “Meaning of Heb. uncertain.” The colon recurs at 38:13. The future tenses follow ASV; past or present time is also possible for the imperfects.",
         "community": []
-      }
+      },
+      "translit": "dōrī nissaʿ wəniglāh minnī kəʾōhel rōʿī qippadtī kāʾōrēg ḥayyay middallāh yəbaṣṣəʿēnī miyyōm ʿad-laylāh tašlīmēnī"
     },
     {
       "n": 13,
@@ -659,7 +672,8 @@
       "notes": {
         "official": "*Šiwwîṯî ʿaḏ-bōqer kāʾărî* is a crux. ASV has “I quieted myself until morning; as a lion, so he breaketh all my bones,” taking *šwh* Piel as “compose, make level,” and KJV has “I reckoned till morning.” JPS 1917 reads *šwh* as “make like”: “The more I make myself like unto a lion until morning.” NJPS has “I cried out until morning” (all checked). NJPS's rendering matches the emendation *šiwwaʿtî* “I cried for help,” but NJPS gives no note and the emendation's sources were not verified. The line keeps ASV and the Masoretic consonants (overlay `lexical-cruxes-isaiah-38`, `mt-qere-textual-policy-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "šiwwītī ʿad-bōqer kāʾărī kēn yəšabbēr kol-ʿaṣmōtāy miyyōm ʿad-laylāh tašlīmēnī"
     },
     {
       "n": 14,
@@ -676,7 +690,8 @@
       "notes": {
         "official": "*Kᵉsûs ʿāḡûr kēn ʾăṣap̄ṣēp̄* “Like a swallow or a crane, so I chirped.” The verb *ṣip̄ṣēp̄* is the book's bird sound, “chirped” at 10:14 (of a bird on its nest), and “chirp” at 8:19, of the ghosts' voices. The line replaces ASV's “chatter” with “chirped” to keep that English (overlay `lexical-cruxes-isaiah-38`). At 29:4 the same verb is “whisper,” for speech coming from the dust, and that context-bound rendering is left as it is. NJPS has “I piped” (checked). The imperfects *ʾăṣap̄ṣēp̄* and *ʾehgeh* take the past tense with ASV and NJPS, and JPS 1917 has the present.\n\nThe two birds stand side by side without “or” in the Hebrew. ASV prints “or” as a supplied word, and the line keeps it. *Sûs* and *ʿāḡûr* also stand together in Jer 8:7, where the ketiv is *sws* and the qere *sîs* (MT, checked). The identifications are uncertain: ASV and JPS 1917 have “a swallow … a crane,” KJV “a crane or a swallow,” and NJPS “a swift or a swallow” (checked); some take the two words as one bird. *Dallû ʿênay lammārôm* is “my eyes are weary with looking upward.” *ʾĂḏōnāy ʿāšqāh-llî ʿārᵉḇēnî* is “O Lord, I am oppressed; be my surety” (ASV, JPS 1917; NJPS “My Lord, I am in straits; Be my surety!”). *ʾĂḏōnāy* is “the Lord” under overlay `adonai-standalone-title-isaiah`. The form *ʿāšqāh* (noun or verb) is disputed.",
         "community": []
-      }
+      },
+      "translit": "kəsūs ʿāgūr kēn ʾăṣapṣēp ʾehgeh kayyōnāh dallū ʿēnay lammārōm ʾădōnāy ʿāšəqāh-lī ʿārəbēnī"
     },
     {
       "n": 15,
@@ -693,7 +708,8 @@
       "notes": {
         "official": "*ʾEddaddeh ḵol-šᵉnôṯay ʿal-mar nap̄šî* “I shall go softly all my years because of the bitterness of my soul” is ASV and JPS 1917. The Hithpael of *ddh* recurs in Ps 42:5 (*ʾeddaddēm*, checked), where NJPS has “walked with the crowd” and the note “Meaning of Heb. uncertain.” NJPS renders the colon here “All my sleep had fled,” with the note “Meaning of Heb. uncertain”; that rendering implies a different text, and its basis was not verified. The line keeps the Masoretic text (overlay `lexical-cruxes-isaiah-38`, `mt-qere-textual-policy-isaiah`). *Wᵉʾāmar-lî wᵉhûʾ ʿāśāh* is “He has both spoken to me, and he himself has done it” (ASV; NJPS “He promised me, And He it is who has wrought it”). *Mar nap̄šî* “the bitterness of my soul” brings in the psalm's word for bitterness, repeated in 38:17.",
         "community": []
-      }
+      },
+      "translit": "māh-ʾădabbēr wəʾāmar-lī wəhūʾ ʿāśāh ʾeddaddeh kol-šənōtay ʿal-mar napšī"
     },
     {
       "n": 16,
@@ -710,7 +726,8 @@
       "notes": {
         "official": "The verse is a recognised crux. *ʾĂḏōnāy ʿălêhem yiḥyû* is “O Lord, by these things people live.” The verb is a bare third person plural. ASV and JPS 1917 supply “men,” and the line supplies “people” under the house rule for generic reference (wave I-4 rule 13). *Ûlᵉḵol-bāhen ḥayyê rûḥî* is “and in all of them is the life of my spirit” (ASV “and wholly therein”). NJPS restructures the first half: “My Lord, for all that and despite it My life-breath is revived” (checked).\n\n*Wᵉṯaḥălîmēnî wᵉhaḥăyēnî* is a request in the line, “so restore me to health and make me live,” with ASV and JPS 1917. The second verb is an imperative in form (Hiphil *haḥăyēnî*), and that supports the request. NJPS reads both verbs as a statement, “You have restored me to health and revived me” (overlay `lexical-cruxes-isaiah-38`). *ʾĂḏōnāy* is “the Lord” (overlay `adonai-standalone-title-isaiah`).",
         "community": []
-      }
+      },
+      "translit": "ʾădōnāy ʿălēhem yiḥyū ūləkol-bāhen ḥayyē rūḥī wətaḥălīmēnī wəhaḥăyēnī"
     },
     {
       "n": 17,
@@ -727,7 +744,8 @@
       "notes": {
         "official": "*Wᵉʾattāh ḥāšaqtā nap̄šî miššaḥaṯ bᵉlî* “but you have in love to my soul delivered it from the pit of corruption” is ASV and JPS 1917. The Masoretic verb *ḥšq* means “be attached to, love,” and the preposition *min* “from” implies the rescue. NJPS has “You saved my life From the pit of destruction” (checked). The common emendation to *ḥāśaḵtā* “you held back” and the reading of the LXX were not verified; the line keeps the Masoretic verb (overlay `mt-qere-textual-policy-isaiah`). *Šaḥaṯ bᵉlî* is literally “the pit of nothingness.” “Corruption” is the public-domain rendering, and NJPS has “destruction.”\n\n*Hinnēh lᵉšālôm mar-lî mār* “Behold, it was for my peace that I had great bitterness”: the doubled *mar … mār* intensifies the noun, and *lᵉšālôm* is “for (my) well-being.” ASV prints “it was,” “my” and “that” as supplied words, and NJPS has “it was for my own good” (overlay `lexical-cruxes-isaiah-38`). The overlay `ra-calamity-shalom-well-being-isaiah-45-7` entry is scoped to 45:7 and is not applied. *Kî hišlaḵtā ʾaḥărê ḡēwᵉḵā kol-ḥăṭāʾāy* is “for you have cast all my sins behind your back.”",
         "community": []
-      }
+      },
+      "translit": "hinnēh ləšālōm mar-lī mār wəʾattāh ḥāšaqtā napšī miššaḥat bəlī kī hišlaktā ʾaḥărē gēwəkā kol-ḥăṭāʾāy"
     },
     {
       "n": 18,
@@ -746,7 +764,8 @@
       "notes": {
         "official": "*Kî lōʾ šᵉʾôl tôḏeḵḵā māweṯ yᵉhallᵉleḵḵā* “For She'ol cannot give thanks to you, death cannot praise you.” The verse sets two verbs of worship side by side: *ydh* Hiphil “give thanks, acknowledge” and *hll* Piel “praise.” ASV and JPS 1917 have “praise … celebrate,” and NJPS “praises … extols” (checked). The line now renders *ydh* “give thanks,” as the book does at 12:1 and 12:4, and gives *hll* its standard English, “praise.” Each root keeps its own English, and the thanksgiving vocabulary of Hezekiah's psalm (38:18, 19) matches that of the songs of Isaiah 12 (overlay `ydh-give-thanks-hll-praise-isaiah`). The stable 25:1 has “I will praise your name” for *ʾôḏeh šimḵā*; that line is recorded in the entry and not changed here.\n\nThe theme that the dead cannot give thanks is shared with the psalms: *bišʾôl mî yôḏeh-llāḵ* “in Sheol, who can acclaim You?” (Ps 6:6), *hăyôḏᵉḵā ʿāp̄ār hăyaggîḏ ʾămittekā* “Can dust praise You? Can it declare Your faithfulness?” (Ps 30:10), and *lōʾ hammēṯîm yᵉhallᵉlû-yāh* (Ps 115:17) (MT and NJPS, checked). Ps 30:10 pairs *ydh* with *ʾĕmeṯ* exactly as 38:18–19 do.\n\n*Yôrᵉḏê-ḇôr* is “those who go down to the pit” (central `bor-pit-cistern-dry-water-shaft`), and *šᵉʾôl* is “She'ol” (central `sheol-underworld-realm-of-the-dead`). *Māweṯ* “death” is lower case, as at 25:8 and 28:15, 18; NJPS prints “[the Land of] Death.” *ʾEl-ʾămittᵉḵā* is “for your truth,” the book's English for *ʾĕmeṯ*; NJPS has “Your grace” (overlay `lexical-cruxes-isaiah-38`).",
         "community": []
-      }
+      },
+      "translit": "kī lōʾ šəʾōl tōdekkā māwet yəhallekkā lōʾ-yəśabbərū yōrədē-bōr ʾel-ʾămittekā"
     },
     {
       "n": 19,
@@ -763,7 +782,8 @@
       "notes": {
         "official": "*Ḥay ḥay hûʾ yôḏeḵā kāmônî hayyôm* “The living, the living, he shall give thanks to you, as I do this day”: *ydh* is “give thanks,” as in 38:18 (overlay `ydh-give-thanks-hll-praise-isaiah`). NJPS has “The living, only the living Can give thanks to You,” while ASV and JPS 1917 have “he shall praise thee” (checked). *ʾĀḇ lᵉḇānîm yôḏîaʿ ʾel-ʾămittekā* is “the father to the children shall make known your truth” (ASV, JPS 1917). NJPS has “Fathers relate to children Your acts of grace” and notes that the Hebrew is singular. The line keeps the singular and the book's “truth” for *ʾĕmeṯ* (overlay `lexical-cruxes-isaiah-38`). The verb *yôḏîaʿ* “make known” (*ydʿ*) only sounds like *yôḏeḵā* (*ydh*); the two roots are different.",
         "community": []
-      }
+      },
+      "translit": "ḥay ḥay hūʾ yōdekā kāmōnī hayyōm ʾāb ləbānīm yōdīaʿ ʾel-ʾămittekā"
     },
     {
       "n": 20,
@@ -780,7 +800,8 @@
       "notes": {
         "official": "*YHWH lᵉhôšîʿēnî* has no verb: literally “YHWH — to save me.” ASV supplies “is ready” and KJV “was ready”; NJPS supplies “[It has pleased]” and notes that the Hebrew is singular where it prints “us” (checked). The line keeps ASV's supplied words. *Ûnᵉḡînôṯay nᵉnaggēn* is “we will sing my songs with stringed instruments.” *Nᵉḡînôṯ* is string music, and NJPS notes that *nᵉḡînôṯay* is “a poetic form of neginoth.” The verb *ngn* means to play strings, and NJPS has “we offer up music.” *ʿAl-bêṯ YHWH* is “in the house of YHWH” (ASV, JPS 1917); NJPS has “At the House.” The change from “me” to “we” closes the psalm in the voice of the worshipping community (overlay `lexical-cruxes-isaiah-38`).",
         "community": []
-      }
+      },
+      "translit": "YHWH ləhōšīʿēnī ūnəginōtay nənaggēn kol-yəmē ḥayyēnū ʿal-bēt YHWH"
     },
     {
       "n": 21,
@@ -797,7 +818,8 @@
       "notes": {
         "official": "Verses 21–22 stand after the psalm, but in the story they belong before the sign. In 2 Kgs 20:7–8 Isaiah orders the cake of figs and Hezekiah asks for a sign before the sign of 20:9–11 is given (MT, checked). The verses are not moved. The line renders *wayyōʾmer* with the pluperfect of ASV (“Now Isaiah had said”) and KJV (“For Isaiah had said”), so that the flashback is visible in English. JPS 1917 has the simple past, “And Isaiah said,” and NJPS joins the verses into one sentence, “When Isaiah said … Hezekiah asked” (checked). In 1QIsaᵃ these verses are reported to be added by a later hand between the lines and in the margin; that was not verified against DJD 32 (overlay `mt-qere-textual-policy-isaiah`, `lexical-cruxes-isaiah-38`).\n\n*Yiśʾû dᵉḇeleṯ tᵉʾēnîm wᵉyimrᵉḥû ʿal-haššᵉḥîn wᵉyeḥî* is “Let them take a cake of figs and lay it as a plaster on the boil, and he shall recover” (ASV). *Mrḥ* is “rub on, apply,” and NJPS has “apply it to the rash.” Kings has *qᵉḥû* “take” and reports that the remedy was carried out: “and they took it and laid it on the boil, and he recovered” (2 Kgs 20:7). The central `shechin-ra` entry governs the phrase of Job 2:7 and is not applied to the bare noun here.",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer yəšaʿyāhū yiśʾū dəbelet təʾēnīm wəyimrəḥū ʿal-haššəḥīn wəyeḥī"
     },
     {
       "n": 22,
@@ -814,7 +836,8 @@
       "notes": {
         "official": "*Wayyōʾmer ḥizqiyyāhû mâ ʾôṯ kî ʾeʿĕleh bêṯ YHWH* is “And Hezekiah had said, ‘What is the sign that I shall go up to the house of YHWH?’” The pluperfect follows ASV, as at 38:21; JPS 1917 has “And Hezekiah said,” and NJPS “Hezekiah asked” (checked). In 2 Kgs 20:8 the question is fuller: “What is the sign that YHWH will heal me, and that I shall go up to the house of YHWH on the third day?” It answers the promise of 2 Kgs 20:5, which Isaiah 38:5 does not have (MT and NJPS, checked). In Isaiah the question looks back to the sign already given in 38:7–8 (overlay `lexical-cruxes-isaiah-38`).",
         "community": []
-      }
+      },
+      "translit": "wayyōʾmer ḥizqiyyāhū māh ʾōt kī ʾeʿĕleh bēt YHWH (s)"
     }
   ],
   "editorial_questions": []
