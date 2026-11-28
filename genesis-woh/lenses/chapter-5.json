@@ -1,0 +1,1073 @@
+{
+  "schemaVersion": 1,
+  "bookSlug": "genesis-woh",
+  "chapter": 5,
+  "basedOn": {
+    "translationVersion": "1.1.0",
+    "layer2Digest": "sha256:1a24cc6608abae1dc30ffad014d89447ac09a2c0bd50a3bd62a586218d50fde6",
+    "canonMapVersion": "1.1.0"
+  },
+  "lens": {
+    "track": "lens",
+    "version": "1.0.0",
+    "status": "stable",
+    "modelDrafts": [
+      "claude-opus-5-5 (lens writer)",
+      "claude-opus-5-5 (lens editor)"
+    ],
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as lens reviewer",
+      "reviewedAt": "2026-11-27T16:11:25Z",
+      "reviewedVersion": "0.2.0",
+      "method": "Initial verdicts formed on chapter-5.json, layer 1-2 genesis-woh/chapter-5.json (and 4:17-25), canon-map.json and the canon before opening chapter-5-editor-report.md. Every canon citation re-derived from the-book-which-tells-the-truth chapter-2/3/4/7.json (French text and project English): 2:25, 2:27, 2:41, 2:42, 2:43 (checked for absence), 2:47, 2:48, 2:49, 2:52, 2:53, 2:58, 3:129, 4:75, 7:13, 7:30; every quotation matched verbatim. TBWTT, ETTMTTP and LWTE grepped for Enoch/Hénoch/Methuselah/Mathusalem/Lamech/Seth/Énosh (canon hit only 2:49; LWTE-4:108 narration). All MT figures read in the pointed Hebrew; MT, SP and LXX sums recomputed by the reviewer. Verified online: Sanhedrin 108b and Rashi on Gen 7:4 (Sefaria), laqach in 2 Kings 2:3, 5, 9, 10 (Sefaria Hebrew), Lambert JCS 21 (1967) 126-138 (Crossref, bibliographic only). LXX 5:24 and 5:29, SP and LXX numbers, WB 444, Berossus, Jude 14 from reviewer's knowledge (an LXX fetch failed); the editor reports dataset checks for SP (Schorch) and LXX (Rahlfs). Labels checked against .claude/rules/content.md, ADR 0018 standing rules, founder rulings of 2026-11-27, core records 0001@0.2.0, 0009@0.1.1, 0019@0.1.0, and the stable chapter 1-3 lens files.",
+      "counts": {
+        "approve": 48,
+        "revise": 3
+      },
+      "verdicts": [
+        {
+          "unit": "gen-5-book-of-generations",
+          "status": "approve",
+          "citations": [
+            "canon-map 5:1-11 comments TBWTT-2:49"
+          ],
+          "reasoning": "Boundary 5:1-2 (the sefer toledot heading plus the creation recap) is the natural unit; canonCoverage 'comments' matches the map entry 5:1-11. Title neutral."
+        },
+        {
+          "unit": "gen-5-book-of-generations/R 5:1",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:25",
+            "TBWTT-2:27",
+            "woh-claim-0001@0.2.0",
+            "lenses/chapter-1.json R 1:26, R 1:27 (stable, framework)"
+          ],
+          "reasoning": "Hebrew re-read: bero' elohim adam bidmut elohim asah oto. 'Made them in their own likeness, men like themselves' asserts the canon's premise (TBWTT-2:25 « créer un homme comme nous artificiellement »), which content.md labels framework whatever verse it is attached to; the stable Gen 1 readings of the same likeness (R 1:26, R 1:27) are framework, so inferred here understates the assertion. The editor's point (the canon glosses 1:26-27, not 5:1) is a basis question, met by basis 'synthesis'; it does not lower the label of the claim the sentence makes. Strongest refutation: mainstream reads tselem/demut as representative or functional likeness (Clines, 'The Image of God in Man', TynBul 19, 1968; Westermann on 1:26), with singular asah; the framework label declares this.",
+          "proposed": {
+            "preferred": {
+              "claim": "framework",
+              "basis": "synthesis",
+              "canon": [
+                "TBWTT-2:25",
+                "TBWTT-2:27"
+              ],
+              "coreClaim": "woh-claim-0001",
+              "text": "unchanged"
+            },
+            "alternative": {
+              "claim": "inferred",
+              "text": "Here begins the written record of Adam’s descendants. It goes back to the day the Elohim made the first humans, in their own likeness."
+            }
+          }
+        },
+        {
+          "unit": "gen-5-book-of-generations/R 5:2",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:2 zachar unqevah bera'am vaybarech otam vayyiqra et-shemam adam"
+          ],
+          "reasoning": "Tracks the verse; 'their name' renders shemam exactly (editor's fix of 'a single name' confirmed); plural 'they' follows layer 2 and woh-claim-0009. Inferred is honest."
+        },
+        {
+          "unit": "gen-5-book-of-generations/E p1s1",
+          "status": "approve",
+          "citations": [
+            "Westermann, Genesis 1-11, on 5:1",
+            "Wenham, Genesis 1-15, on 5:1"
+          ],
+          "reasoning": "Sefer toledot occurs only at 5:1 within the toledot headings; the older written genealogy ('book of the generations') and P attribution are standard. Direct."
+        },
+        {
+          "unit": "gen-5-book-of-generations/E p1s2",
+          "status": "revise",
+          "citations": [
+            "Hebrew 4:25 wayyeda adam od et-ishto (articleless adam as a name)",
+            "Wenham, Genesis 1-15, on 5:1-3"
+          ],
+          "reasoning": "The 1:26-28 recap and shemam are accurate, but 'only from verse 3 on does the word serve as one man's name' is false as a statement about Genesis: articleless adam already names the man at 4:25 (layer 2: 'Adam knew his wife again'), and 5:1a 'toledot adam' is usually read as the personal name. Within 5:1b-2 the point holds.",
+          "proposed": {
+            "text": "Verses 1–2 sum up Genesis 1:26–28 in brief: the verb *bara*, “likeness” (*demut*), “male and female”, the blessing. In verse 2 *adam* is the name of humankind: “they called their name Adam” (*shemam*, “their name”). In verse 3 it is again the name of one man, as it already was at 4:25."
+          }
+        },
+        {
+          "unit": "gen-5-book-of-generations/E p1s3",
+          "status": "approve",
+          "citations": [
+            "woh-claim-0009@0.1.1",
+            "Hebrew 5:1-2 asah, bera'am, vaybarech, vayyiqra (all 3ms); bero' is infinitive"
+          ],
+          "reasoning": "Re-parsed: the listed verbs are finite 3ms (vayyiqra also); bero' correctly excluded. States the translation decision openly; direct is right for a description of the project's method plus a grammatical fact."
+        },
+        {
+          "unit": "gen-5-book-of-generations/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25",
+            "TBWTT-2:27",
+            "woh-claim-0001@0.2.0"
+          ],
+          "reasoning": "Both quotations verbatim against the project English and the French (2:25 « créer un homme comme nous artificiellement »; 2:27 « Vous pouvez constater que la ressemblance est frappante »). 'Most skilled among the creators' paraphrases « les plus habiles d'entre nous ». Correctly said to be about Genesis 1. Framework. Refutation as in R 5:1."
+        },
+        {
+          "unit": "gen-5-book-of-generations/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49"
+          ],
+          "reasoning": "Openly states the canon's silence on 5:1 and that the pairing is the project's; 2:49 is cited for the scope statement ('only for the lifespans'), which it supports. Inferred."
+        },
+        {
+          "unit": "gen-5-adam-to-jared",
+          "status": "approve",
+          "citations": [
+            "canon-map 5:1-11 comments, 5:12-32 alludes"
+          ],
+          "reasoning": "Range 5:3-20 crosses the map boundary at 5:11/5:12; the strongest relation is 'comments', as stated. Title neutral."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/R 5:3",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:3 bidmuto ketsalmo"
+          ],
+          "reasoning": "Numbers (130) and the likeness pair render the verse; the transmission sentence is the commentators' standard reading put in WoH naming. Inferred."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/R 5:4-5",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49 « Adam neuf cent trente ans »",
+            "Hebrew 5:4-5 (800; 930)"
+          ],
+          "reasoning": "Figures re-read in the Hebrew. 2:49 names Adam explicitly, so framework/basis canon is right (validator rule 7 satisfied by the map's 5:1-11 entry). Strongest refutation: Genesis gives no cause for the ages and nothing in 4-5 reopens the tree barred at 3:24; most commentators read the figures as schematic (Wenham, Genesis 1-15, on ch. 5; Westermann, Genesis 1-11, on ch. 5; Hendel 1998 on the versional numbers). The label declares the canon's reading as the framework's, which answers it."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/R 5:6-8",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49 « Seth neuf cent douze ans »",
+            "Hebrew 5:6-8 (105; 807; 912)"
+          ],
+          "reasoning": "Figures verified; Seth is named in 2:49; framework/canon. 'Through the same grant' is the canon's statement, not an extension. Refutation as in R 5:4-5."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/R 5:9-11",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49 « Énosh neuf cent cinq ans »",
+            "Hebrew 5:9-11 (90; 815; 905)"
+          ],
+          "reasoning": "Figures verified; Enosh is the last of the three the canon names; framework/canon. Refutation as in R 5:4-5."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/R 5:12-20",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49 ('etc.')",
+            "TBWTT-7:30",
+            "Hebrew 5:12-20 (Kenan 70/910; Mahalalel 65/895; Jared 162/962)"
+          ],
+          "reasoning": "All figures verified against the Hebrew. 2:49's 'etc.' sits inside a citation limited to 5:1-11, so extending the grant to Kenan, Mahalalel and Jared is an inference, correctly labelled inferred (the 2:49 framework/inferred split is drawn at the verse boundary the canon draws)."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p1s1",
+          "status": "approve",
+          "citations": [
+            "Westermann, Genesis 1-11, on ch. 5"
+          ],
+          "reasoning": "The formula and the ten generations are a textual fact. Direct."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Hebrew 1:26 betsalmenu kidmutenu; 5:3 bidmuto ketsalmo",
+            "Wenham, Genesis 1-15, on 5:3"
+          ],
+          "reasoning": "Re-parsed: nouns and prepositions both reversed, as stated; the transmission reading is attributed to commentators. Direct."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:47",
+            "TBWTT-2:48",
+            "TBWTT-2:49"
+          ],
+          "reasoning": "Both quotations verbatim against the project English (2:48 « sous surveillance militaire … ne se retourneraient jamais contre leurs pères »; 2:49 complete including '(in Genesis V, 1-11)'). Framework. Strongest refutation: Genesis gives no cause for the ages and nothing in 4-5 reopens the tree barred at 3:24; most commentators read the figures as schematic (Wenham, Genesis 1-15, on ch. 5; Westermann, Genesis 1-11, on ch. 5; Hendel 1998 on the versional numbers). The label declares the canon's reading as the framework's, which answers it."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:42",
+            "TBWTT-2:48",
+            "TBWTT-2:49"
+          ],
+          "reasoning": "Faithful synthesis of 2:42 (the canon's quotation of 3:22) and 2:48-49. Glossing the tree as 'the means of long life' is the content of 2:43's first sentence; not citing 2:43 keeps clear of the 0076 election clause, which the founder ruled belongs only at 3:22, so the omission is prudent. Framework."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:52",
+            "TBWTT-2:53"
+          ],
+          "reasoning": "Quotation verbatim (« La longévité n'est pas héréditaire … au grand soulagement des autorités de la planète lointaine »); 'commenting on Genesis 6:3' verified: 2:52 quotes Gen 6:3. Framework."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p2s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49 « les chefs de ces premiers hommes »"
+          ],
+          "reasoning": "Marks 'chiefs' as the Messages' word, not Genesis'; the observation about unnamed sons and daughters is textual. Inferred is honest."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p3s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-7:13",
+            "TBWTT-7:30"
+          ],
+          "reasoning": "Quotations verbatim except normalised inner marks (7:13 project English prints «tree of life»); the editor's convention is applied consistently. 7:30 itself makes the comparison 'like the first men of the Bible'. Framework."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p3s2",
+          "status": "revise",
+          "citations": [
+            "Samaritan Pentateuch Gen 5:25-31 (Methuselah 67/653/720; Lamech 53/600/653)",
+            "Hendel, The Text of Genesis 1-11 (1998), ch. on the chronologies"
+          ],
+          "reasoning": "MT figures verified (Lamech 777 lowest, Methuselah 969 highest, all inside 750-1,200). But the sentence says 'every death recorded in Genesis 5' while the next paragraph of the same passage reports the Samaritan figures, in which Methuselah (720) and Lamech (653) fall below the 750 floor; the LXX (Lamech 753) stays inside. Unqualified, the claim selects the text form that fits. Strongest refutation: the range is the Elohim's own lifespan in the canon, and the fit depends on which recension one reads.",
+          "proposed": {
+            "text": "In the Masoretic figures every death recorded in Genesis 5 falls inside that range. Of the men who die, Lamech has the shortest life, 777 years (5:31), and Methuselah the longest, 969 (5:27); Noah’s 950 (9:29) falls inside it too. Enoch’s 365 years end without a death. The Septuagint stays inside the range; in the Samaritan figures Methuselah (720) and Lamech (653) fall below it."
+          }
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p4s1",
+          "status": "approve",
+          "citations": [
+            "Jacobsen, The Sumerian King List (1939)",
+            "Burstein, The Babyloniaca of Berossus (1978)"
+          ],
+          "reasoning": "WB 444: eight kings, five cities, 241,200 years; Alulim 28,800; Berossus ten kings, 432,000 years, Xisouthros (reviewer's knowledge, consistent with the editor's table). 'Much as' is a structural parallel, not a matching. Direct."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p4s2",
+          "status": "approve",
+          "citations": [
+            "Wenham, Genesis 1-15, on ch. 5",
+            "Gen 25:7; Deut 34:7"
+          ],
+          "reasoning": "Accurate summary of the scholarly treatment; figures verified. Direct."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p4s3",
+          "status": "approve",
+          "citations": [
+            "woh-claim-0019@0.1.0 (scope.includes 'memory layer'; excludes arithmetic-as-chronology and patriarch-king identification)",
+            "TBWTT-2:48"
+          ],
+          "reasoning": "Wording sits inside 0019's scope and states both exclusions in the reader's text. Framework via the core claim. Strongest refutation: the antediluvian section of the king list is a late, politically motivated addition absent from the Ur III recension, with sexagesimal reign figures (Jacobsen 1939; Michalowski, JAOS 103, 1983; Steinkeller 2003), so treating it as memory of a real age is unfalsifiable; the label declares the framework premise."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p5s1",
+          "status": "approve",
+          "citations": [
+            "MT arithmetic recomputed: 1656",
+            "SP recomputed: Flood 1307, Jared 460+847, Methuselah 587+720, Lamech 654+653 all =1307",
+            "LXX recomputed: 2242 (Methuselah 167) / 2262 (187); Methuselah dies 2256"
+          ],
+          "reasoning": "All sums recomputed by the reviewer and correct. MT verified against layer-1 Hebrew; SP and LXX figures from reviewer's knowledge, matching the editor's dataset checks (Schorch SP; Rahlfs). Reported as a fact about texts, not as a dating, which respects 0019. Direct."
+        },
+        {
+          "unit": "gen-5-adam-to-jared/E p5s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49",
+            "MT/SP/LXX: 930, 912, 905 identical"
+          ],
+          "reasoning": "Correct (LXX 230+700, 205+707, 190+715). The canon ref identifies which lifespans are meant, so it is apt on a direct segment."
+        },
+        {
+          "unit": "gen-5-enoch",
+          "status": "approve",
+          "citations": [
+            "canon-map 5:12-32 alludes"
+          ],
+          "reasoning": "Range and coverage correct. Title 'Enoch Walked with the Elohim' renders et-ha-elohim as layer 2 does."
+        },
+        {
+          "unit": "gen-5-enoch/R 5:21-23",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:21-23 (65; 300; 365)",
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "Figures verified. 'Living in the creators' company' is the WoH sense of walking et-ha-elohim, labelled inferred; the canon is silent and the label does not overclaim."
+        },
+        {
+          "unit": "gen-5-enoch/R 5:24",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:24 ve-einennu ki-laqach oto elohim"
+          ],
+          "reasoning": "Renders the verse; the death-formula observation is textual. Inferred."
+        },
+        {
+          "unit": "gen-5-enoch/E p1s1",
+          "status": "approve",
+          "citations": [
+            "grep TBWTT, ETTMTTP for Hénoch/Enoch (no canon hit; LWTE-4:108 is narration)"
+          ],
+          "reasoning": "Silence marker present and true; partial-silence form matches the chapter 2 precedent."
+        },
+        {
+          "unit": "gen-5-enoch/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:22, 5:24 vayyithallech et-ha-elohim; 3:8 mithallech; 6:9 et-ha-elohim hithallech"
+          ],
+          "reasoning": "All forms verified in layer 1. Direct. Optional enrichment (not required): the article in et-ha-elohim (vs bare elohim in 5:24b) is the basis of the old reading 'with the angels' (Jubilees 4:21; VanderKam, Enoch and the Growth of an Apocalyptic Tradition, 1984), a scholarly datum that supports the plural reading without drawing on Jubilees as source."
+        },
+        {
+          "unit": "gen-5-enoch/E p1s3",
+          "status": "approve",
+          "citations": [
+            "Sefaria II Kings 2:3, 5 (loqeach), 9 (eleqach), 10 (luqqach)"
+          ],
+          "reasoning": "Verified on Sefaria Hebrew: laqach at exactly verses 3, 5, 9, 10. 'Clearest cases' is the standard judgement. Direct."
+        },
+        {
+          "unit": "gen-5-enoch/E p1s4",
+          "status": "approve",
+          "citations": [
+            "Lambert, 'Enmeduranki and Related Matters', JCS 21 (1967) 126-138, doi:10.2307/1359367 (verified via Crossref)",
+            "Jacobsen, The Sumerian King List (1939)",
+            "Jude 14"
+          ],
+          "reasoning": "Bibliography verified; the content (Shamash and Adad, assembly, oil and liver divination) and En-men-dur-ana as seventh king at Sippar from reviewer's knowledge, consistent. The closing sentence enforces 0019's exclusion. Direct; keep (editor escalation 3, option A)."
+        },
+        {
+          "unit": "gen-5-enoch/E p2s1",
+          "status": "approve",
+          "citations": [
+            "LXX Gen 5:24 (Rahlfs)",
+            "Hebrews 11:5 KJV"
+          ],
+          "reasoning": "LXX wording matches reviewer's knowledge of Rahlfs (εὐηρέστησεν … οὐχ ηὑρίσκετο ὅτι μετέθηκεν); not fetched online. Hebrews 11:5 verbatim KJV. The disclaimer about 1 Enoch and Jubilees is accurate. Direct."
+        },
+        {
+          "unit": "gen-5-enoch/E p3s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-3:129",
+            "TBWTT-4:75"
+          ],
+          "reasoning": "Both quotations verbatim to the project English (3:129 printed typo 'In II Kings, II Elijah' kept, see outsideScopeNotes). Framework."
+        },
+        {
+          "unit": "gen-5-enoch/E p3s2",
+          "status": "approve",
+          "citations": [
+            "woh-claim-0009@0.1.1"
+          ],
+          "reasoning": "Applies the 0009 referential reading to a verse the canon does not address; that application is a reading, so inferred (not framework) is the honest label, and the sentence is conditional ('With the Messages' reading …'). Refutation: 5:24b has bare elohim with a singular verb, which most readers take as the God of Israel."
+        },
+        {
+          "unit": "gen-5-enoch/E p3s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-3:129",
+            "TBWTT-4:75",
+            "Hebrew laqach of death: Ezek 24:16, 18; Ps 49:16; Jon 4:3"
+          ],
+          "reasoning": "Speculative, and the rationale states what it goes beyond ('Nothing in the canon says this of Enoch'). Lexical evidence real: laqach for Elijah (verified). Strongest refutation: laqach is common for God taking life (Ezek 24:16; Jon 4:3 'take my life'), and early Jewish readers took 5:24 as an early death (Genesis Rabbah 25:1; Targum Onqelos in some witnesses), so the verb alone does not imply a living departure. Ship as labelled (agree with editor escalation 1)."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah",
+          "status": "approve",
+          "citations": [
+            "canon-map 5:12-32 alludes"
+          ],
+          "reasoning": "Range and coverage correct; title neutral."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/R 5:25-27",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:25-27 (187; 782; 969)"
+          ],
+          "reasoning": "Figures verified; plain rendering; inferred acceptable (the 2:49 ref marks the 'etc.' extension; the reading itself adds nothing)."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/R 5:28-29",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:29 yenachamenu … asher ererah YHWH",
+            "TBWTT-2:47-48 (the canon glosses YHWH of Gen 4:3 as the exiled creators)"
+          ],
+          "reasoning": "Renders the verse. Bare YHWH rendered 'the creators' matches the chapter 4 drafting convention and the canon's own gloss at 2:47-48; the 2026-11-27 ruling names YHWH-Elohim, so its extension to bare YHWH is listed for founder confirmation (not a defect). Inferred."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/R 5:30-31",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:30-31 (595; 777)"
+          ],
+          "reasoning": "Figures verified; ends like the verse. Inferred."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/R 5:32",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:32; 9:29"
+          ],
+          "reasoning": "Accurate; the withheld death is a textual observation. Inferred."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/E p1s1",
+          "status": "approve",
+          "citations": [
+            "Sefaria Sanhedrin 108b (Rav: days of mourning for Methuselah)",
+            "Sefaria Rashi on Genesis 7:4",
+            "MT 187+182+600=969"
+          ],
+          "reasoning": "Talmud and Rashi verified on Sefaria; arithmetic verified. Direct."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/E p1s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49",
+            "TBWTT-2:53"
+          ],
+          "reasoning": "Honestly marks the extension beyond the three named chiefs and squares it with 2:53 (not hereditary). Inferred."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/E p1s3",
+          "status": "approve",
+          "citations": [
+            "Hebrew 4:17-18, 4:24",
+            "Westermann, Genesis 1-11, on 4:17-26 and ch. 5"
+          ],
+          "reasoning": "Names and 'seventy-and-seven' verified in layers 1-2; the variant-genealogy thesis is standard. Direct."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/E p2s1",
+          "status": "approve",
+          "citations": [
+            "grep TBWTT, ETTMTTP for Noah's naming (none)"
+          ],
+          "reasoning": "Silence marker present and true."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/E p2s2",
+          "status": "approve",
+          "citations": [
+            "Hebrew 5:29 yenachamenu, me'itsvon; 3:17 be'itsavon",
+            "LXX 5:29 διαναπαύσει ἡμᾶς (Rahlfs)"
+          ],
+          "reasoning": "Etymological tension n-ch-m vs nuach is standard; itsavon verified in both verses; YHWH only at 5:29 verified (5:1, 22, 24 elohim). Naming the Hebrew form once as a philological fact follows the chapter 3 precedent. Direct."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:41"
+          ],
+          "reasoning": "Quotation verbatim (« des moyens rudimentaires de survivre »). Inferred is right: the canon speaks of the expulsion, not of 5:29."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/E p3s1",
+          "status": "approve",
+          "citations": [
+            "Gen 7:6; 9:29"
+          ],
+          "reasoning": "Accurate. Direct."
+        },
+        {
+          "unit": "gen-5-methuselah-to-noah/E p3s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:58"
+          ],
+          "reasoning": "Quotation verbatim (« prévenus de la chose, avaient demandé à Noé de construire une fusée qui devait tourner autour de la Terre durant le cataclysme »); framing accurate. Framework. Refutation: Genesis 6:13-14 has the deity, not dissenting makers, order an ark (tevah) on water; the label declares the canon's reading."
+        }
+      ],
+      "canonFidelityFlags": [
+        {
+          "unit": "gen-5-book-of-generations/R 5:1",
+          "severity": "medium",
+          "concern": "Canon content ('men like themselves', TBWTT-2:25) carried under an inferred label; the same assertion is framework in stable Gen 1 R 1:26-27 and in this chapter's E p2s1. See verdict (preferred: framework + 0001; alternative: drop the canon clause and keep inferred)."
+        },
+        {
+          "unit": "gen-5-enoch/E p3s1",
+          "severity": "low",
+          "concern": "The project English of TBWTT-3:129 prints 'In II Kings, II Elijah' for « Dans II Rois, II Elie » (2 Kings chapter 2). The lens quotes it verbatim, as it must; the fix belongs to the TBWTT translation track (see outsideScopeNotes)."
+        }
+      ],
+      "labelFlags": [
+        {
+          "unit": "gen-5-book-of-generations/R 5:1",
+          "current": "inferred (synthesis; canon 2:25, 2:27)",
+          "proposed": "framework (synthesis; canon 2:25, 2:27; coreClaim woh-claim-0001)",
+          "reason": "The label follows the assertion, not the verse the canon glosses; disagrees with editor escalation 2."
+        },
+        {
+          "unit": "2:49 split (R 5:4-5, 5:6-8, 5:9-11 framework/canon; R 5:12-20, 5:25-27, 5:30-31 and E 5:25-32 p1s2 inferred)",
+          "current": "as drafted",
+          "proposed": "no change",
+          "reason": "Confirmed: the split falls exactly where the canon's named list and its 'Genesis V, 1-11' citation end; 'etc.' extension correctly inferred."
+        }
+      ],
+      "lensLeakageFlags": [],
+      "voiceAndCoverage": "All 15 readings are third person; first person appears only inside canon quotations. Passages and readings cover 5:1-32 once each; canonCoverage values match the map. Silence markers present for Enoch (5:21-24 E p1s1) and Noah's naming (5:25-32 E p2s1); both true on grep. No layer-4 segment presents canon content as what the Hebrew says: the plural verbs (E 5:1-2 p1s3), the chiefs (E 5:3-20 p2s4) and the YHWH form (E 5:25-32 p2s2) are each attributed. Layer 2 untouched. Claim 0019 exclusions honoured in three places (E 5:3-20 p4s3, E 5:3-20 p5s1 framed as textual arithmetic, E 5:21-24 p1s4 disclaimer). No 0076 material and no 2:43 citation. One speculative segment (Enoch taken alive), honest.",
+      "outsideScopeNotes": [
+        "TBWTT translation track: 3:129 project English 'In II Kings, II Elijah' should read 'In II Kings II, Elijah' (French « Dans II Rois, II Elie »); errata candidate (also noted by the editor).",
+        "Chapter 4 coordination: E 5:3-20 p2s1 quotes TBWTT 2:47-48 on the offerings of 4:3-4; chapter 4 R 4:3-4 (framework) already reads them the same way, so the two files agree.",
+        "Naming convention: bare YHWH (5:29 here; 4:3-26 in chapter 4) is rendered 'the creators' in layer 3; the 2026-11-27 ruling names YHWH-Elohim. Founder confirmation of the extension would settle both chapters."
+      ],
+      "adjustmentsAfterEditorReport": [
+        "Editor escalation 2 (R 5:1 framework → inferred): read; the editor's argument concerns which verse the canon glosses, which is the basis axis, not the claim axis. Verdict stays revise, now with the editor's option (inferred without the canon clause) offered as the alternative.",
+        "Editor's verification table: the SP figures it verifies (Methuselah 720, Lamech 653) confirm my E 5:3-20 p3s2 revise; the editor corrected 'shortest life' for Enoch but not the recension scope. No change.",
+        "Editor escalation 1 (speculative Enoch) and 3 (Enmeduranki, option A): agree; verdicts unchanged.",
+        "Editor's 3:129 typo note matches my own finding; recorded once in outsideScopeNotes.",
+        "No verdict changed after reading the report."
+      ],
+      "founderItems": [
+        "R 5:1 label: framework + 0001 (reviewer, consistent with Gen 1) or inferred with 'men like themselves' removed (editor's direction made textual).",
+        "Confirm that 'the creators' for bare YHWH (5:29, and chapter 4) falls under the 2026-11-27 naming ruling.",
+        "Editor escalations 1 and 3: reviewer agrees with shipping the speculative Enoch segment and keeping the Enmeduranki comparison."
+      ],
+      "founderRulings": [
+        {
+          "at": "2026-11-28T09:00:00Z",
+          "ruling": "Signed off (form 2026-11-28): reading 5:1 framework (TBWTT 2:25, 2:27; claim 0001) per reviewer; Enoch speculative segment and Enmeduranki comparison kept; bare YHWH rendered 'the creators'."
+        }
+      ]
+    },
+    "signedOffBy": "zarazinsfuss",
+    "signedOffAt": "2026-11-28T09:00:00Z",
+    "coreClaims": {
+      "woh-claim-0001": "0.2.0",
+      "woh-claim-0009": "0.1.1",
+      "woh-claim-0019": "0.1.0"
+    }
+  },
+  "passages": [
+    {
+      "id": "gen-5-book-of-generations",
+      "range": [
+        "5:1",
+        "5:2"
+      ],
+      "title": {
+        "en": "The Record of Adam’s Line"
+      },
+      "canonCoverage": "comments",
+      "readings": [
+        {
+          "refs": [
+            "5:1"
+          ],
+          "text": {
+            "en": "Here begins the written record of Adam’s descendants. It goes back to the day the Elohim made the first humans: they made them in their own likeness, men like themselves."
+          },
+          "basis": "synthesis",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:25",
+            "TBWTT-2:27"
+          ],
+          "coreClaim": "woh-claim-0001"
+        },
+        {
+          "refs": [
+            "5:2"
+          ],
+          "text": {
+            "en": "They made them male and female, blessed them, and on the day they made them gave them their name, Adam, “human”."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "Verse 1 opens a new section with *sefer toledot*, “the record of the begettings”. Genesis heads its sections with the *toledot* formula from 2:4 on, but only here does it add *sefer*, a written document. Many scholars think the chapter draws on an older written genealogy, and source critics assign it to the Priestly source."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Verses 1–2 sum up Genesis 1:26–28 in brief: the verb *bara*, “likeness” (*demut*), “male and female”, the blessing. In verse 2 *adam* is the name of humankind: “they called their name Adam” (*shemam*, “their name”). In verse 3 it is again the name of one man, as it already was at 4:25."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The finite verbs of these two verses are singular in form, as is usual when *elohim* is the subject (*asah*, “made”; *bera’am*, “shaped them”; *vaybarech*, “blessed”). The Wheel of Heaven translation renders them in the plural, in keeping with its plural Elohim."
+              },
+              "claim": "direct",
+              "coreClaim": "woh-claim-0009"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages read the likeness of Genesis 1 literally. The most skilled among the creators “wanted to create a man like ourselves, artificially” (French « créer un homme comme nous artificiellement »), and of “in our image” the Messages say: “You can see that the resemblance is striking.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:25",
+                "TBWTT-2:27"
+              ],
+              "coreClaim": "woh-claim-0001"
+            },
+            {
+              "text": {
+                "en": "The Messages cite Genesis 5 only for the lifespans, not for this verse. Verse 1 repeats the likeness of 1:26–27 at the head of a genealogy, and read with the Messages’ comment on that creation, the line that follows descends from people made to resemble their makers."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:49"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-5-adam-to-jared",
+      "range": [
+        "5:3",
+        "5:20"
+      ],
+      "title": {
+        "en": "From Adam to Jared"
+      },
+      "canonCoverage": "comments",
+      "readings": [
+        {
+          "refs": [
+            "5:3"
+          ],
+          "text": {
+            "en": "At a hundred and thirty Adam fathered a son in his own likeness, after his own image, and named him Seth. The likeness the creators had given Adam passed to his son."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "5:4-5"
+          ],
+          "text": {
+            "en": "Adam lived eight hundred years more and had other sons and daughters. He reached nine hundred and thirty years, and then he died. As one of the chiefs of the first men he had been granted the benefit of the “tree of life”, which is why he lived so long."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:49"
+          ]
+        },
+        {
+          "refs": [
+            "5:6-8"
+          ],
+          "text": {
+            "en": "Seth fathered Enosh at a hundred and five, lived eight hundred and seven years more and had other sons and daughters. Long-lived through the same grant, he died at nine hundred and twelve."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:49"
+          ]
+        },
+        {
+          "refs": [
+            "5:9-11"
+          ],
+          "text": {
+            "en": "Enosh fathered Kenan at ninety, lived eight hundred and fifteen years more and had other sons and daughters. He too was among the chiefs granted the “tree of life”, and he died at nine hundred and five."
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:49"
+          ]
+        },
+        {
+          "refs": [
+            "5:12-20"
+          ],
+          "text": {
+            "en": "Kenan fathered Mahalalel at seventy and died at nine hundred and ten. Mahalalel fathered Jared at sixty-five and died at eight hundred and ninety-five. Jared fathered Enoch at a hundred and sixty-two and died at nine hundred and sixty-two. Each had other sons and daughters, and each lived the long life that the Messages explain for the first chiefs."
+          },
+          "basis": "synthesis",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:49",
+            "TBWTT-7:30"
+          ]
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "From verse 3 the chapter runs on a fixed formula: X lived so many years and fathered Y; X lived so many years after fathering Y and had sons and daughters; all the days of X were so many years, and he died. Ten generations lead from Adam to Noah."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Verse 3 gives Seth Adam’s “likeness” and “image”, *bidmuto ketsalmo*. These are the two nouns of 1:26 (*betsalmenu kidmutenu*), with their order and their prepositions reversed. Commentators read the verse as saying that what humankind received at its making now passes from father to son."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages explain the long lives. They read the offerings of Cain and Abel (4:3–4) as food brought to the exiled creators, “who remained under military surveillance”, so as “to show their superiors that the beings they had created were good and would never turn against their fathers.” Then: “They thus obtained that the chiefs of these first men be granted the benefit of the ‘tree of life,’ which explains why they lived so long: Adam nine hundred and thirty years, Seth nine hundred and twelve years, Enosh nine hundred and five years, etc. (in Genesis V, 1-11)”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:47",
+                "TBWTT-2:48",
+                "TBWTT-2:49"
+              ]
+            },
+            {
+              "text": {
+                "en": "The “tree of life” is the means of long life that the creators kept from the first humans at 3:22. In the Messages’ account it was granted later to the chiefs, and the exiles obtained the grant by showing that the humans would stay loyal to their makers."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:42",
+                "TBWTT-2:48",
+                "TBWTT-2:49"
+              ]
+            },
+            {
+              "text": {
+                "en": "The grant was personal. Commenting on Genesis 6:3, the Messages add: “Longevity is not hereditary, and the children of men did not automatically benefit from the ‘tree of life,’ to the great relief of the authorities of the distant planet.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:53"
+              ]
+            },
+            {
+              "text": {
+                "en": "Read in that light, Genesis 5 is a list of chiefs. Each generation has one named man with his ages, while his other “sons and daughters” are neither named nor given ages. Genesis itself does not call these men chiefs; the word is the Messages’ (French *chefs*)."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:49"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages compare the creators’ own lives with these: “Our body lives ten times longer on average than yours, like the first men of the Bible. Between seven hundred fifty and one thousand two hundred years.” They owe this to “a small surgical intervention, the biblical ‘tree of life’”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-7:13",
+                "TBWTT-7:30"
+              ]
+            },
+            {
+              "text": {
+                "en": "In the Masoretic figures every death recorded in Genesis 5 falls inside that range. Of the men who die, Lamech has the shortest life, 777 years (5:31), and Methuselah the longest, 969 (5:27); Noah’s 950 (9:29) falls inside it too. Enoch’s 365 years end without a death. The Septuagint stays inside the range; in the Samaritan figures Methuselah (720) and Lamech (653) fall below it."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-7:30"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Mesopotamian tradition also counts long-lived figures before the flood. The Sumerian King List in the Weld-Blundell prism (WB 444) gives eight kings in five cities before the flood, reigning 241,200 years in all; Alulim of Eridu alone reigns 28,800. The Babylonian priest Berossus, writing in Greek in the third century BCE, has ten kings reigning 432,000 years, the last of them Xisouthros, the hero of the flood, much as Genesis 5 has ten generations ending with Noah."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Genesis figures are lifespans where the king list counts reigns, and they are far smaller. Most commentators treat them as schematic numbers, and note that ages decline after the Flood, through Genesis 11 to Abraham’s 175 years (25:7) and the 120 of Moses (Deuteronomy 34:7)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Wheel of Heaven reading takes the Genesis numbers and the king list as two memories of a real age before the Flood, when a human population lived in contact with the exiled creators. It does not use the ages as a chronology, and it does not match the patriarchs with named kings."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:48"
+              ],
+              "coreClaim": "woh-claim-0019"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The ancient text forms do not agree on the numbers. In the Masoretic Text the fathers’ ages at their sons’ births add up to a Flood in the year 1656 after Adam’s creation. The Samaritan Pentateuch lowers Jared (62 and 847 years), Methuselah (67 and 720) and Lamech (53 and 653), so that all three die in its year of the Flood, 1307. The Septuagint adds a hundred years to the fathering ages of Adam, Seth, Enosh, Kenan, Mahalalel and Enoch and gives Lamech 188 and 753, which puts the Flood in the year 2242 or 2262 after Adam, depending on the manuscript; where Methuselah fathers Lamech at 167, he outlives the Flood by fourteen years."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The three lifespans the Messages cite, 930, 912 and 905 years, are the same in all three text forms."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:49"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-5-enoch",
+      "range": [
+        "5:21",
+        "5:24"
+      ],
+      "title": {
+        "en": "Enoch Walked with the Elohim"
+      },
+      "canonCoverage": "alludes",
+      "readings": [
+        {
+          "refs": [
+            "5:21-23"
+          ],
+          "text": {
+            "en": "Enoch fathered Methuselah at sixty-five. For three hundred years after that he walked about with the Elohim, living in the creators’ company, and he had other sons and daughters. His days came to three hundred and sixty-five years."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "5:24"
+          ],
+          "text": {
+            "en": "He walked with the Elohim, and then he was no longer there, for the Elohim took him. Unlike the others in the list, he is not said to have died."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on Enoch; what follows on him is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Enoch’s entry breaks the formula twice. Where the others “lived” after fathering their sons, he “walked about with the Elohim” (*vayithallech et-ha-elohim*). It is the reflexive form of *halach* that 3:8 uses for the walking about in the garden, and that 6:9 uses of Noah, again with *ha-elohim*. Where the others end “and he died”, he ends “and he was not, for Elohim took him” (*ve-einennu ki-laqach oto elohim*)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "*Et-ha-elohim* in verses 22 and 24 has the article, while “for Elohim took him” has bare *elohim*. Read with the article, the phrase can mean “with the divine beings”, and the Book of *Jubilees* takes it so: Enoch “was moreover with the angels of God these six jubilees of years” (4:21, in R. H. Charles’s translation)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "*Laqach*, “take”, is also the verb of Elijah’s departure in 2 Kings 2 (verses 3, 5, 9 and 10). The two are the clearest cases in the Hebrew Bible of a man who leaves the world without a reported death."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "His 365 years equal the days of a solar year, and Jude 14 counts him “the seventh from Adam”. Scholars have long compared him with En-men-dur-ana (later Enmeduranki), the seventh king before the flood in the Weld-Blundell list, who reigned at Sippar, the city of the sun god Shamash. A later Babylonian text, edited by the Assyriologist W. G. Lambert in 1967, has the gods Shamash and Adad receive Enmeduranki into their assembly and teach him divination. The comparison is the scholars’; this reading does not identify the patriarch with the king."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Greek Septuagint renders verse 24 “Enoch pleased God, and he was not found, because God transferred him”, and Hebrews 11:5 takes up that wording: “By faith Enoch was translated that he should not see death.” Later Jewish writings, *1 Enoch* and *Jubilees* above all, make him a receiver of heavenly knowledge and tell the story of the Watchers. These books are outside the canon of the Messages, and this reading does not draw on them."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages do speak of the taking of Elijah: “In II Kings, II Elijah is the guest of the creators in a spaceship that takes off and carries him away.” At the Transfiguration they show Moses and Elijah “still alive thanks to the ‘tree of life’ from which they have benefited.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-3:129",
+                "TBWTT-4:75"
+              ]
+            },
+            {
+              "text": {
+                "en": "With the Messages’ reading of the Elohim as the creators, verse 24 says that the creators took Enoch, and “walked with the Elohim” describes a man who lived in their company."
+              },
+              "claim": "inferred",
+              "coreClaim": "woh-claim-0009"
+            },
+            {
+              "text": {
+                "en": "A further Wheel of Heaven reading goes beyond this: Enoch left with the creators alive, as the Messages say Elijah did. Nothing in the canon says this of Enoch."
+              },
+              "claim": "speculative"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-5-methuselah-to-noah",
+      "range": [
+        "5:25",
+        "5:32"
+      ],
+      "title": {
+        "en": "From Methuselah to Noah"
+      },
+      "canonCoverage": "alludes",
+      "readings": [
+        {
+          "refs": [
+            "5:25-27"
+          ],
+          "text": {
+            "en": "Methuselah fathered Lamech at a hundred and eighty-seven, lived seven hundred and eighty-two years more and had other sons and daughters. He reached nine hundred and sixty-nine years, and then he died."
+          },
+          "basis": "synthesis",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:49"
+          ]
+        },
+        {
+          "refs": [
+            "5:28-29"
+          ],
+          "text": {
+            "en": "Lamech fathered a son at a hundred and eighty-two and named him Noah, saying that this one would bring them comfort from their work and from the toil of their hands on the ground the creators had cursed."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "5:30-31"
+          ],
+          "text": {
+            "en": "Lamech lived five hundred and ninety-five years more and had other sons and daughters. He reached seven hundred and seventy-seven years, and then he died."
+          },
+          "basis": "synthesis",
+          "claim": "inferred",
+          "canon": [
+            "TBWTT-2:49"
+          ]
+        },
+        {
+          "refs": [
+            "5:32"
+          ],
+          "text": {
+            "en": "When Noah was five hundred years old, he fathered Shem, Ham and Japheth. His own end is not told here: he is the man the Flood story turns to next."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "Methuselah’s 969 years are the longest life in the Hebrew Bible. In the Masoretic figures he fathers Lamech at 187, Lamech fathers Noah at 182, and Noah is 600 when the Flood comes (7:6): 187 + 182 + 600 = 969, so Methuselah dies in the year of the Flood. In the Talmud (Sanhedrin 108b) Rav takes the seven days before the Flood (7:10) as the days of mourning for Methuselah, and Rashi repeats it on 7:4."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages name only the first three chiefs, cite Genesis 5:1–11 and close their list with “etc.”. Extended to the rest of the line, the same explanation covers Methuselah and Lamech, each granted the “tree of life” in his own right, since the Messages say longevity was not inherited."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:49",
+                "TBWTT-2:53"
+              ]
+            },
+            {
+              "text": {
+                "en": "Lamech’s 777 years recall the boast of the other Lamech, Cain’s descendant: “seventy-and-seven” (4:24). The two lines share more names. Cain’s line in 4:17–18 runs Cain, Enoch, Irad, Mehujael, Methushael, Lamech; Seth’s line here has Kenan, Mahalalel, Jared, Enoch, Methuselah, Lamech. Many scholars take the two lists as variants of one older genealogy."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on Noah’s naming; what follows on it is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Verse 29 explains the name Noah (*noach*) with *yenachamenu*, “he will comfort us”, from the root *n-ch-m*; the name itself sounds closer to *nuach*, “rest”, and the Septuagint renders the verb “he will give us rest”. The cursed ground takes up 3:17, and the word for the toil of the hands, *itsavon*, is the word used there. This is the only verse of the chapter that uses the divine name *YHWH*; everywhere else the chapter has *elohim*."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read with the Messages, this is the condition of humans outside the garden, left with “rudimentary means of survival” and feeding themselves by their own labour. Lamech hopes for relief from it in his son."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:41"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Verse 32 gives Noah’s age at the birth of his three sons but holds back his death, which comes only at 9:29, after the Flood, at 950 years."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages, when the authorities of the distant planet decide to destroy all life on Earth, the exiles, “forewarned of the matter, had asked Noah to build a rocket that was to orbit the Earth during the cataclysm”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:58"
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

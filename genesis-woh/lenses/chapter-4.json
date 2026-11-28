@@ -1,0 +1,1344 @@
+{
+  "schemaVersion": 1,
+  "bookSlug": "genesis-woh",
+  "chapter": 4,
+  "basedOn": {
+    "translationVersion": "1.1.0",
+    "layer2Digest": "sha256:f692984f95eaba67568e4878fd2fcff87da159eb0dd252873cce82aa886aaa47",
+    "canonMapVersion": "1.1.0"
+  },
+  "lens": {
+    "track": "lens",
+    "version": "1.0.0",
+    "status": "stable",
+    "modelDrafts": [
+      "claude-opus-5-5 (lens writer)",
+      "claude-opus-5-5 (lens editor)"
+    ],
+    "signedOffBy": "zarazinsfuss",
+    "signedOffAt": "2026-11-28T09:00:00Z",
+    "coreClaims": {
+      "woh-claim-0008": "0.1.0",
+      "woh-claim-0010": "0.1.0",
+      "woh-claim-0019": "0.1.0"
+    },
+    "reviewerReport": {
+      "reviewer": "claude-opus-5-5 acting as lens reviewer",
+      "reviewedAt": "2026-11-27T16:13:12Z",
+      "reviewedVersion": "0.2.0",
+      "method": "Every canon citation re-derived from the-book-which-tells-the-truth/chapter-2.json and chapter-3.json (French text and project English, with context 2:33-58, 3:1-5, 3:32-34, 3:72-74); every quotation matched verbatim; every Hebrew claim checked against the pointed text in genesis-woh/chapter-4.json (and 2:5, 2:15, 3:14-24, 5:1-3, 6:1 by reference); labels checked against .claude/rules/content.md, ADR 0018 standing rules and core records 0008, 0010, 0019 @0.1.0. Verified online: Genesis Rabbah 22:5, 22:12, 23:7, Rashi on 4:26, Mishnah Sanhedrin 4:5, NJPS 4:1/4:8/4:26, Num 24:22, Judg 4:11, Lev 3:16, Gen 14:19, 17:11, Exod 6:3, 31:13, Deut 32:6, Ps 8:5, Jubilees 4 (Charles) on Sefaria; LXX 4:8 and 4:24 (biblehub Septuagint); Vulgate 4:8 and SBLGNT Matt 18:22 (BibleGateway); Hallo JCS 23 bibliographically (Crossref). Speiser's rābiṣu, Samaritan 4:8, the Kaufmann MS variant, the Aramaic/Arabic 'smith' cognates and the Iron Age date from reviewer's knowledge. Chapter-5 lens checked for agreement on 4:3-4 and TBWTT-2:49 (consistent). Initial verdicts formed before opening chapter-4-editor-report.md. Units use 1-based paragraph/segment indices (E p1s1 = first segment of first paragraph), as in the chapter 2-3 reports; the editor report uses 0-based indices (its E p0s3 = this report's E p1s4).",
+      "counts": {
+        "approve": 63,
+        "revise": 5,
+        "flag-for-human": 0
+      },
+      "verdicts": [
+        {
+          "unit": "gen-4-births",
+          "status": "approve",
+          "citations": [
+            "canon-map 4:1-2 silent"
+          ],
+          "reasoning": "Boundary and canonCoverage 'silent' match the canon map. Title neutral."
+        },
+        {
+          "unit": "gen-4-births/R 4:1",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 4:1 קָנִיתִי אִישׁ אֶת־יְהוָה",
+            "BDB/HALOT s.v. qnh (qnh II 'create', Gen 14:19, Deut 32:6)",
+            "U. Cassuto, Genesis I (1961) on 4:1"
+          ],
+          "reasoning": "Third person; 'naming the creators in the same breath' does not commit to layer 2's apposition and stays honest about et. 'Spoken of as a making' leans on the minority 'create' sense of qanah; inferred carries it, and E p1s3 gives the 'acquire' sense and KJV/NJPS. Strongest refutation: qanah's primary sense is 'acquire, get' and the name Qayin is a sound-play, not a statement about making; Cassuto's 'I have created a man equally with the LORD' shows the creative reading is defended in mainstream commentary."
+        },
+        {
+          "unit": "gen-4-births/R 4:2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:2"
+          ],
+          "reasoning": "Faithful compression; no canon content; direct is right."
+        },
+        {
+          "unit": "gen-4-births/E p1s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Silent marker present and worded per the brief; canon-map 4:1-2 / 4:5-26 entries are silent."
+        },
+        {
+          "unit": "gen-4-births/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 2:4-3:24, 4:1, 4:25"
+          ],
+          "reasoning": "Verified: no human utters YHWH before 4:1 (the woman and the serpent say elohim in 3:1-5); 4:25 has Elohim. Discloses the naming convention, which is good practice. See founder item on extending the YHWH-Elohim ruling to bare YHWH."
+        },
+        {
+          "unit": "gen-4-births/E p1s3",
+          "status": "approve",
+          "citations": [
+            "Gen 14:19 קֹנֵה שָׁמַיִם וָאָרֶץ (Sefaria, verified)",
+            "Deut 32:6 (Sefaria, verified)",
+            "NJPS 4:1 (Sefaria JPS 1985, verified)",
+            "KJV 4:1"
+          ],
+          "reasoning": "qanah senses, et as object marker or 'with', KJV and NJPS wording all verified; layer-2 quotation verbatim. Optional strengthening: Luther 1545 ('den HERRN') is a historical precedent for the appositional reading the site's literal translation takes."
+        },
+        {
+          "unit": "gen-4-births/E p1s4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:37 (EN + FR verified verbatim)",
+            "TBWTT-2:35"
+          ],
+          "reasoning": "Speculative label honest; the closing sentence says the Messages draw no such connection; English and French quotations verbatim. Strongest refutation: 2:37 concerns scientific knowledge (2:35 'faire des études scientifiques') and resentment of the fathers, not procreation; childbirth is not the creators' kind of making, and qanah most naturally means 'acquire'. The segment does not claim otherwise."
+        },
+        {
+          "unit": "gen-4-births/E p2s1",
+          "status": "approve",
+          "citations": [
+            "Eccl 1:2 הֲבֵל הֲבָלִים"
+          ],
+          "reasoning": "hevel = breath/vapour; 'readers have long taken it as a hint' correctly marks the interpretation as reception."
+        },
+        {
+          "unit": "gen-4-births/E p2s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 2:5, 3:23 לַעֲבֹד אֶת־הָאֲדָמָה",
+            "Layer-2 4:2 עֹבֵד אֲדָמָה"
+          ],
+          "reasoning": "oved adamah and the 2:5 / 3:23 links verified in the pointed text."
+        },
+        {
+          "unit": "gen-4-offerings",
+          "status": "approve",
+          "citations": [
+            "canon-map 4:3-4 quotes (TBWTT-2:47 quotes, 2:48 comments); 4:5 silent"
+          ],
+          "reasoning": "Passage 4:3-5 takes the strongest relation 'quotes'; 4:5's silence is marked inside E p2s2. Title neutral."
+        },
+        {
+          "unit": "gen-4-offerings/R 4:3-4",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:47",
+            "TBWTT-2:48 (FR « sous surveillance militaire », « nourriture », « leurs supérieurs »)",
+            "TBWTT-2:39",
+            "woh-claim-0008@0.1.0"
+          ],
+          "reasoning": "basis canon is correct (2:47 quotes, 2:48 comments per the map); the 2:48 paraphrase is faithful to French and English; framework + 0008 fits 0008's 'antediluvian development' of the exile arc. Strongest refutation: the Hebrew has minchah 'tribute/offering' to YHWH with no hint of feeding or surveillance; the framework label and the basis carry that. The 4b verdict ('looked with favour') lies beyond the canon quotation; E p2s2 says so."
+        },
+        {
+          "unit": "gen-4-offerings/R 4:5",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:5"
+          ],
+          "reasoning": "Faithful; 'they' for YHWH follows the naming ruling; inferred consistent with other creator-naming readings."
+        },
+        {
+          "unit": "gen-4-offerings/E p1s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:47",
+            "TBWTT-2:48"
+          ],
+          "reasoning": "Both quotations verbatim against the project English (2:47 keeps 'unto Yahweh', per the verbatim-quote ruling). Framework + 0008 correct."
+        },
+        {
+          "unit": "gen-4-offerings/E p1s2",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:47 FR « Il advint (...) que Caïn apporta des fruits du sol (...) à Iahvé »",
+            "TBWTT-2:47 EN 'And in process of time it came to pass (…) that Cain'"
+          ],
+          "reasoning": "The three cuts are correctly identified and both texts share them, but 'the French original and the project's English text agree on these cuts' sits next to an unmentioned difference: the French first ellipsis elides the time notice (mi-qetz yamim), which the project English keeps ('in process of time') and follows with an ellipsis that corresponds to nothing in KJV. A reader comparing the two will see four French cuts against the stated three.",
+          "proposed": {
+            "text": "The quotation leaves out the word for “offering” (*minchah*), which stands where the ellipsis after “the fruit of the ground” falls; Abel’s “fat portions”; and the verdict of verses 4b–5. It ends at “the firstlings of his flock”. The French original and the project’s English text agree on these cuts. They differ at the opening: the French elides the time notice (« Il advint (...) que Caïn »), which the project’s English keeps as “in process of time”.",
+            "claim": "direct",
+            "canon": [
+              "TBWTT-2:47"
+            ]
+          }
+        },
+        {
+          "unit": "gen-4-offerings/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:48 FR « nourriture »"
+          ],
+          "reasoning": "nourriture verified; the gloss follows the quotation of both brothers' gifts and names no difference between them, so 'one purpose to the gifts of both brothers' is fair. Framework right."
+        },
+        {
+          "unit": "gen-4-offerings/E p1s4",
+          "status": "approve",
+          "citations": [
+            "Lev 2",
+            "Lev 3:16 כָּל־חֵלֶב לַיהוָה (Sefaria, verified)",
+            "Layer-2 Hebrew 4:4 מִבְּכֹרוֹת ... וּמֵחֶלְבֵהֶן"
+          ],
+          "reasoning": "minchah range, bekhorot, chelev and Lev 3:16 verified."
+        },
+        {
+          "unit": "gen-4-offerings/E p1s5",
+          "status": "approve",
+          "citations": [
+            "TBWTT-3:32-34 (Exodus 24 context: 'At Sinai' holds)",
+            "TBWTT-3:72-74 (Judges 6:21)"
+          ],
+          "reasoning": "Both quotations verbatim against the project English, guillemets kept. Framework is correct for reported canon content. Note: the Sinai team is not the exiled faction; the segment says 'the team of creators', which is accurate."
+        },
+        {
+          "unit": "gen-4-offerings/E p2s1",
+          "status": "approve",
+          "citations": [
+            "Genesis Rabbah 22:5 (Sefaria, Hebrew מִן הַפְּסוֹלֶת ... לְאָרִיס רַע ... לְבַעַל הַשָּׂדֶה אֶת הַסְּיָיפוֹת; verified)",
+            "Hebrews 11:4",
+            "1 John 3:12 (KJV)"
+          ],
+          "reasoning": "Parable rendered accurately ('owner of the field' = ba'al ha-sadeh; 'late fruit' = seyafot). sha'ah gloss matches BDB."
+        },
+        {
+          "unit": "gen-4-offerings/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:47-48"
+          ],
+          "reasoning": "Marks the silence on verse 5 explicitly and declines to supply a reason; inferred is right for 'on their reading the regard would be acceptance of the food'."
+        },
+        {
+          "unit": "gen-4-offerings/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:48-49 (FR « Ils obtinrent ainsi qu'on fasse bénéficier les chefs de ces premiers hommes »)",
+            "woh-claim-0019@0.1.0",
+            "lenses/chapter-5.json (2:48-49 segments)"
+          ],
+          "reasoning": "'They' = the exiled creators is the grammatical reading (ils are the agents of 2:48, distinct from 'ces premiers hommes'). Quotation verbatim. Agrees with chapter 5, which treats 4:3-4 as food for the exiled creators who 'obtained the grant' for the chiefs. Strongest refutation: Genesis 5 gives no cause for the lifespans; 0019 is framework and labelled so."
+        },
+        {
+          "unit": "gen-4-warning",
+          "status": "approve",
+          "citations": [
+            "canon-map 4:5-26 silent"
+          ],
+          "reasoning": "Boundary and coverage correct. Title quotes the verse."
+        },
+        {
+          "unit": "gen-4-warning/R 4:6-7",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 4:7 שְׂאֵת ... חַטָּאת רֹבֵץ ... תְּשׁוּקָתוֹ ... תִּמְשָׁל־בּוֹ"
+          ],
+          "reasoning": "Faithful to the hard verse without resolving it in the lens's favour; 'lifted up' keeps se'et open. Inferred right (creators as speaker)."
+        },
+        {
+          "unit": "gen-4-warning/E p1s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Silent marker present and worded per the brief; canon-map 4:1-2 / 4:5-26 entries are silent."
+        },
+        {
+          "unit": "gen-4-warning/E p1s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 3:9, 4:6-7"
+          ],
+          "reasoning": "Accurate structural observation."
+        },
+        {
+          "unit": "gen-4-warning/E p1s3",
+          "status": "approve",
+          "citations": [
+            "E. A. Speiser, Genesis (Anchor Bible 1; Doubleday 1964), ad loc. (bibliography verified via Crossref reviews; content reviewer's knowledge)",
+            "Layer-2 Hebrew 3:16 / 4:7"
+          ],
+          "reasoning": "chatta't first occurrence, feminine noun with masculine rovets, Speiser's rābiṣu, and the 3:16 parallel are all correct; the editor's correction ('same construction', roles: sin desires, Cain rules) is right."
+        },
+        {
+          "unit": "gen-4-warning/E p2s1",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:39",
+            "TBWTT-2:48"
+          ],
+          "reasoning": "Inferred is right. Per 2:39 the non-exiled creators had left Earth, so the speaker would be one of the exiled creators; 'one of the creators' is acceptable and consistent with the naming ruling."
+        },
+        {
+          "unit": "gen-4-warning/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:56-57 (EN verified verbatim)"
+          ],
+          "reasoning": "Correctly locates 2:57 at Genesis 6:5 and refuses to apply it to 4:7: a conservative, canon-faithful choice. Strongest counter: a reader could map 'sin's desire' onto the canon's 'evil = desire to become equal'; the segment rejects that explicitly because 4:7 concerns fratricide."
+        },
+        {
+          "unit": "gen-4-killing-and-sign",
+          "status": "approve",
+          "citations": [
+            "canon-map 4:5-26 silent"
+          ],
+          "reasoning": "Boundary 4:8-16 and coverage correct."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/R 4:8",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 4:8"
+          ],
+          "reasoning": "Marks the MT gap honestly; 'the first death in Genesis is a killing' is a textual fact. Direct right."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/R 4:9-10",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:9-10"
+          ],
+          "reasoning": "Faithful; 'to them' for elai follows the naming ruling."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/R 4:11-12",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:11-12"
+          ],
+          "reasoning": "Faithful. Inferred is conservative (the text is nearly direct); acceptable."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/R 4:13-14",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 4:13 עֲוֹנִי מִנְּשֹׂא"
+          ],
+          "reasoning": "'his guilt, or its punishment' keeps avon open; faithful."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/R 4:15",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:15 לְקַיִן אוֹת"
+          ],
+          "reasoning": "'set a sign for Cain' keeps the preposition and does not place it on his body."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/R 4:16",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:16"
+          ],
+          "reasoning": "Faithful; 'Wandering' gloss of Nod is the verse's own pun."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p1s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Silent marker present and worded per the brief; canon-map 4:1-2 / 4:5-26 entries are silent."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p1s2",
+          "status": "approve",
+          "citations": [
+            "LXX Gen 4:8 Διέλθωμεν εἰς τὸ πεδίον (Rahlfs via biblehub sep, verified)",
+            "Vulgate Gen 4:8 'Egrediamur foras' (BibleGateway VULGATE, verified)",
+            "NJPS note to 4:8 (ancient versions supply the words; Sefaria, verified)",
+            "Samaritan Pentateuch נלכה השדה (reviewer's knowledge)"
+          ],
+          "reasoning": "All text-critical data correct; harag occurrences verified in layer-2 Hebrew (4:8, 14, 15, 23, 25)."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p2s1",
+          "status": "approve",
+          "citations": [
+            "Layer-2 2:15, 3:24 שׁמר",
+            "Mishnah Sanhedrin 4:5 (Sefaria Torat Emet: דָּמוֹ וְדַם זַרְעִיּוֹתָיו; נֶפֶשׁ אַחַת מִיִּשְׂרָאֵל; verified)",
+            "E. E. Urbach on the Kaufmann MS reading (reviewer's knowledge)"
+          ],
+          "reasoning": "Verified; the disclosure of the printed 'of Israel' and its manuscript variant is exact and fair."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p2s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 3:14, 3:17, 4:11",
+            "BDB s.v. עָוֹן, נָשָׂא"
+          ],
+          "reasoning": "arur attah precedent and avon/nasa range correct."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p3s1",
+          "status": "approve",
+          "citations": [
+            "Jubilees 4:9 (Charles 1917 numbering; Sefaria segments the same sentence as 4:11; content verified)"
+          ],
+          "reasoning": "Correct; the Charles/VanderKam number 4:9 is standard."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p3s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25 (EN verified verbatim)",
+            "TBWTT-2:28 (EN verified verbatim)"
+          ],
+          "reasoning": "Framework correct for reported canon content. Stops before 2:25's race sentence; see founder item 3 (editor escalation 2), with which I agree."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p3s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:25",
+            "C. Westermann, Genesis 1-11 (1974; ET 1984) on 4:14-17 (the narrative presupposes a wider population)"
+          ],
+          "reasoning": "Inferred, not speculative: mainstream commentary also reads 4:14 and 4:17 as presupposing people outside the family; the canon supplies the other teams. Strongest refutation: the canon places each team's humans at separate sites and never says they met; the segment's closing sentence concedes that the Messages do not apply this to Genesis 4."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p4s1",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 4:15 לְקַיִן אוֹת",
+            "Gen 9:12-13; Gen 17:11; Exod 31:13 (Sefaria, verified)",
+            "Genesis Rabbah 22:12 (Sefaria: צָרַעַת, כֶּלֶב, קֶרֶן; verified)"
+          ],
+          "reasoning": "Facts verified. Tone of the misuse note: historical, dated, specific, one textual rebuttal, no moralising; 'some later Christian readers, notably in nineteenth-century America' is accurate (pro-slavery 'curse of Cain' readings, and the Latter-day Saint priesthood restriction, which 'racial exclusion' covers without naming). Approve as written."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p4s2",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Honest silence statement; the Reading does not explain the sign."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p5s1",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 4:12, 14 נָע וָנָד; 4:16 נוֹד קִדְמַת־עֵדֶן; 3:24 מִקֶּדֶם לְגַן־עֵדֶן"
+          ],
+          "reasoning": "Root nud and the east-side link verified."
+        },
+        {
+          "unit": "gen-4-killing-and-sign/E p5s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:39",
+            "TBWTT-2:41 (« sans contact avec eux »)",
+            "TBWTT-2:48"
+          ],
+          "reasoning": "Inferred right. The juxtaposition is faithful: 2:41's 'without contact' concerns the creators who left (2:39), while the exiles on Earth still received food (2:48)."
+        },
+        {
+          "unit": "gen-4-line-of-cain",
+          "status": "approve",
+          "citations": [
+            "canon-map 4:5-26 silent"
+          ],
+          "reasoning": "Boundary and coverage correct."
+        },
+        {
+          "unit": "gen-4-line-of-cain/R 4:17",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 4:17 וַיְהִי בֹּנֶה עִיר"
+          ],
+          "reasoning": "Inferred is right because the builder is disputed (editor's relabel accepted)."
+        },
+        {
+          "unit": "gen-4-line-of-cain/R 4:18",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:18"
+          ],
+          "reasoning": "Faithful compression."
+        },
+        {
+          "unit": "gen-4-line-of-cain/R 4:19-22",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:20-22 (אֲבִי formulas; לֹטֵשׁ כָּל־חֹרֵשׁ נְחֹשֶׁת וּבַרְזֶל)"
+          ],
+          "reasoning": "Faithful; the fixed sentence no longer contradicts 4:2."
+        },
+        {
+          "unit": "gen-4-line-of-cain/R 4:23-24",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:23-24",
+            "G. Wenham, Genesis 1-15 (1987) on 4:23-24"
+          ],
+          "reasoning": "'Boasted ... in song' is the majority reading of the song; acceptable as direct."
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p1s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Silent marker present and worded per the brief; canon-map 4:1-2 / 4:5-26 entries are silent."
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p1s2",
+          "status": "approve",
+          "citations": [
+            "W. W. Hallo, 'Antediluvian Cities', JCS 23 (1970) 57-67 (Crossref, verified bibliographically; content reviewer's knowledge)",
+            "Sumerian King List, opening lines (Eridu first seat of kingship)"
+          ],
+          "reasoning": "Attribution softened to 'compared with' and 'several modern scholars'; accurate."
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p1s3",
+          "status": "approve",
+          "citations": [
+            "R. R. Wilson, Genealogy and History in the Biblical World (1977)",
+            "Westermann, Genesis 1-11, on 4:17-26 and 5"
+          ],
+          "reasoning": "Name pairs verified against layer-2 Hebrew 4:17-18 and 5:9-25; 'many scholars' is fair."
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p1s4",
+          "status": "approve",
+          "citations": [
+            "Num 24:22 קָיִן; Judg 4:11 מִקַּיִן (Sefaria, verified)",
+            "HALOT s.v. קַיִן (Aramaic qênāyā, Arabic qayn 'smith')"
+          ],
+          "reasoning": "Correct. The Iron Age sentence functions as the critical counterweight to the speculative segment; good."
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p2s1",
+          "status": "revise",
+          "citations": [
+            "TBWTT-2:53 (« Ainsi le secret fut perdu et les progrès des hommes ralentis »)",
+            "TBWTT-2:55",
+            "TBWTT-2:57",
+            "woh-claim-0019@0.1.0"
+          ],
+          "reasoning": "Quotations verbatim and 0019 fits, but 'The Messages describe the world before the Flood in two sentences' overstates: 2:50-57 describe it at more length, and 2:53 says that 'the secret was lost and the progress of men slowed'. Leaving that out gives a one-sided canon picture right before the speculative segment that reads Cain's line as early progress; 2:53 is the canon's own strongest counterweight and belongs in the framework segment.",
+          "proposed": {
+            "text": "Of the world before the Flood the Messages say: “All this was becoming dangerous in the eyes of the distant planet. Scientific progress was enormous on Earth”, “all this” being the creators’ children by human women. A few lines earlier they note that longevity was not hereditary, so that “the secret was lost and the progress of men slowed”. In their reading of Genesis 6:5, “evil” is “the desire to become a people equal to its creators, a scientific and independent people”.",
+            "claim": "framework",
+            "canon": [
+              "TBWTT-2:53",
+              "TBWTT-2:55",
+              "TBWTT-2:57"
+            ],
+            "coreClaim": "woh-claim-0019"
+          }
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p2s2",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:53",
+            "TBWTT-2:55",
+            "Sumerian apkallu / culture-hero traditions (Westermann on 4:17-22)"
+          ],
+          "reasoning": "Speculative label honest and the disclaimer is explicit. Strongest refutation: the canon links pre-Flood progress to the creators' children by human women (2:55) and says human progress slowed when longevity proved non-hereditary (2:53); the Cainite list is a standard ANE culture-hero etiology; and smelted iron is an Iron Age anachronism (E p1s4). Approve as written once E p2s1 carries 2:53."
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p3s1",
+          "status": "approve",
+          "citations": [
+            "LXX Gen 4:24 ἑβδομηκοντάκις ἑπτά (biblehub sep, verified)",
+            "Matt 18:22 ἕως ἑβδομηκοντάκις ἑπτά (SBLGNT via BibleGateway, verified)"
+          ],
+          "reasoning": "Verified."
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p3s2",
+          "status": "approve",
+          "citations": [
+            "Layer-2 Hebrew 6:11, 13 חָמָס"
+          ],
+          "reasoning": "Correct; 'commentators often read' marks reception."
+        },
+        {
+          "unit": "gen-4-line-of-cain/E p3s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:55 (« ils décidèrent de supprimer leur création »)",
+            "woh-claim-0010@0.1.0 scope.excludes ('punishment-of-wickedness simpliciter')"
+          ],
+          "reasoning": "Verbatim; framework + 0010 correct and matches 0010's exclusion wording. Strongest refutation: Genesis itself gives the moral cause (6:5, 6:11-13); the preceding direct segment says so, which is the right order."
+        },
+        {
+          "unit": "gen-4-seth-and-the-name",
+          "status": "approve",
+          "citations": [
+            "canon-map 4:5-26 silent"
+          ],
+          "reasoning": "Boundary and coverage correct."
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/R 4:25",
+          "status": "approve",
+          "citations": [
+            "Layer-2 4:25 שָׁת־לִי אֱלֹהִים זֶרַע אַחֵר"
+          ],
+          "reasoning": "Bare elohim stays 'the Elohim' (chapter 2-3 convention); faithful."
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/R 4:26",
+          "status": "revise",
+          "citations": [
+            "Layer-2 4:26 לִקְרֹא בְּשֵׁם יְהוָה",
+            "NJPS 4:26 'men began to invoke the LORD by name' (Sefaria, verified)"
+          ],
+          "reasoning": "Mechanical substitution of 'the creators' for YHWH yields 'the name of the creators', which reads as if 'the creators' were the name. NJPS's idiom avoids this and keeps the verse's point (invocation by name).",
+          "proposed": {
+            "text": "To Seth too a son was born, and he named him Enosh. At that time people began to invoke the creators by name.",
+            "claim": "inferred"
+          }
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/E p1s1",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Silent marker present and worded per the brief; canon-map 4:1-2 / 4:5-26 entries are silent."
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/E p1s2",
+          "status": "revise",
+          "citations": [
+            "Layer-2 Hebrew 2:5 וְאָדָם אַיִן; 4:1 וְהָאָדָם; 4:25 אָדָם; 5:2 וַיִּקְרָא אֶת־שְׁמָם אָדָם; 6:1 הָאָדָם",
+            "Westermann, Genesis 1-11, on 4:25 and 5:1-2"
+          ],
+          "reasoning": "'Here adam appears without the article as the subject of a verse, and from here on Genesis uses it as a personal name' is overstated twice: anarthrous adam is already the subject at 2:5 ('there was no human'), and after 4:25 the word keeps its generic sense (5:2 names male and female 'adam'; 6:1 ha-adam = humankind). The rest of the segment is correct.",
+          "proposed": {
+            "text": "Here *adam* stands without the article as the subject of the verb, and the literal translation gives it as a name, Adam, for the first time; at 4:1 it was *ha-adam*, “the human”. Genesis 5 goes on to use Adam as a personal name, though the word keeps its general sense of humankind (5:2; 6:1). Eve now speaks of *Elohim*, where at Cain’s birth she named *YHWH*. *Shet* is explained by *shat*, “he has appointed”, and the child is “another seed” (*zera*) in place of Abel. *Enosh* is also an ordinary Hebrew word for “human being” (“what is man”, Psalm 8:4; 8:5 in Hebrew).",
+            "claim": "direct"
+          }
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/E p1s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:49 (EN verified verbatim)",
+            "woh-claim-0019@0.1.0"
+          ],
+          "reasoning": "Verbatim; correctly defers the lifespans to Genesis 5; consistent with chapter 5."
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/E p2s1",
+          "status": "revise",
+          "citations": [
+            "Genesis Rabbah 23:7 (Sefaria: R. Simon, לְשׁוֹן מֶרֶד; verified)",
+            "Rashi on Gen 4:26 (Sefaria: לְשׁוֹן חֻלִּין; verified)",
+            "Exod 6:3 (Sefaria, verified)"
+          ],
+          "reasoning": "All facts verified, but the sentence attributes the 'profane' etymology to rabbinic tradition generally and then cites Genesis Rabbah, which speaks of rebellion (mered), not of profaning; the chullin derivation is Rashi's. Small attribution fix.",
+          "proposed": {
+            "text": "“Then it began to be called on the name of YHWH” uses *huchal*, a passive form with no stated subject. The verse dates the invocation of the name to the generation of Enosh, while Exodus 6:3 says that the name was not made known to Abraham, Isaac and Jacob; source critics assign the two statements to different sources. Rabbinic tradition read the verse against the generation of Enosh: Genesis Rabbah 23:7 counts *huchal* among three verses where the verb signals rebellion, and Rashi, deriving it from the root “to profane” (*chullin*), explains that in the days of Enosh people began to call men and idols by the divine name.",
+            "claim": "direct"
+          }
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/E p2s2",
+          "status": "approve",
+          "citations": [],
+          "reasoning": "Honest silence statement."
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/E p2s3",
+          "status": "approve",
+          "citations": [
+            "TBWTT-2:41",
+            "TBWTT-2:48",
+            "TBWTT-3:4 (EN verified verbatim; FR « se mettaient à adorer bêtement des morceaux de pierre et des idoles »)",
+            "Genesis Rabbah 23:7; Rashi on 4:26"
+          ],
+          "reasoning": "Speculative label honest; 3:4 correctly placed after Sodom; closing disclaimer explicit. Strongest refutation: the rabbinic reading (E p2s1) makes Enosh's generation the start of idolatry, which matches the canon's own idolatry language in 3:4 at least as well as a 'cult addressed to real beings'; and 2:41 has the humans 'without contact' with the departed creators. The segment picks the positive reading without claiming canon support. Founder sign-off item."
+        }
+      ],
+      "canonFidelityFlags": [
+        {
+          "unit": "gen-4-line-of-cain/E p2s1",
+          "severity": "medium",
+          "concern": "'Describe the world before the Flood in two sentences' and omission of TBWTT-2:53 ('the secret was lost and the progress of men slowed') give a one-sided canon picture directly before the speculative city/smiths segment. Proposed wording in the verdict."
+        },
+        {
+          "unit": "gen-4-offerings/E p1s2",
+          "severity": "low",
+          "concern": "'The French original and the project's English text agree on these cuts' omits that the French elides the time notice (« Il advint (...) que Caïn ») which the English keeps; the project English's ellipsis after 'came to pass' corresponds to nothing in KJV."
+        },
+        {
+          "unit": "chapter-wide (R 4:1, R 4:3-16, R 4:26; births E p1s2)",
+          "severity": "info",
+          "concern": "The founder ruling names YHWH-Elohim; chapter 4 has bare YHWH throughout and applies 'the creators' to it, disclosed in births E p1s2. Consistent and, in my view, the ruling's intent, but it is an extension: founder confirmation requested."
+        },
+        {
+          "unit": "gen-4-seth-and-the-name/E p2s3",
+          "severity": "info",
+          "concern": "The speculative segment prefers 'a cult addressed to real beings' while the canon's own idolatry vocabulary (3:4) sits closer to the rabbinic reading of 4:26 as the start of idolatry. Honest as written (no canon link claimed); a founder sign-off choice."
+        }
+      ],
+      "labelFlags": [],
+      "lensLeakageFlags": [],
+      "voiceAndCoverage": "All 17 readings are third person; first person appears only inside canon quotations. Layer 2 untouched (digest matches; validator 0 errors, 0 warnings before writing). Silent markers present for 4:1-2 (births E p1s1), 4:5 (offerings E p2s2, explicit), 4:6-7, 4:8-16, 4:17-24, 4:25-26 (E p1s1 in each). The verbatim 'unto Yahweh' in the 2:47 quotation follows the verbatim ruling; the lens's own voice says 'the creators'. Claim 0076 does not appear (correct: 3:22 only). No author-opinion source is cited. Framework segments all rest on canon-standing refs; every framework claim is attributed ('The Messages ...', 'In the Messages' frame'), never presented as what the Hebrew says. Speculative segments: 3 (births E p1s4, line E p2s2, seth E p2s3), each ending in an explicit disclaimer. Chapter 5 agreement: both chapters read 4:3-4 as food for the exiled creators and TBWTT-2:49's 'ils' as the exiled creators obtaining the tree of life for the chiefs; no conflict.",
+      "outsideScopeNotes": [
+        "TBWTT translation track: TBWTT-2:47 project English 'And in process of time it came to pass (…) that Cain' copies the French ellipsis position after restoring the time notice from KJV, so its first ellipsis marks no omission; errata candidate (same family as the 2:42 note in the chapter 3 report).",
+        "Jubilees numbering: Sefaria's Charles text segments Charles 4:9 (Cain and Awan) as 4:11; together with the editor's note on book-of-jubilees (JUB-4:5) and jubilees-woh (3:33), three numberings are in circulation. The lens's 'Jubilees 4:9' is the standard Charles/VanderKam number.",
+        "Optional for births E p1s3/p1s4 at a later pass: Cassuto (Genesis I, 1961) 'I have created a man equally with the LORD' and Luther 1545 'den HERRN' are scholarly/historical precedents for the creative and appositional readings."
+      ],
+      "adjustmentsAfterEditorReport": [
+        "No verdict changed. The editor report confirms the 2:49 subject reading, the Sefaria verifications and the Hallo/Jubilees statuses, all matching my independent checks.",
+        "Editor's E p1s1 (huchal) note says GR 23:7 and Rashi are 'stated as such'; the current sentence still credits the 'profane' etymology to rabbinic tradition before citing GR's 'rebellion'; my seth E p2s1 revise stands as a minor precision fix.",
+        "Editor rewrote line E p1s1 (their p1s1 = my E p2s1) to 'the two sentences of 2:55'; the lead-in 'describe the world ... in two sentences' and the 2:53 omission were not addressed; revise stands.",
+        "Editor escalation 2 (2:25 race sentence omitted): agree, keep omitted; Genesis 4 does not call for it and it sits beside the mark-of-Cain misuse note.",
+        "Editor escalation 3 (2:89 held for Genesis 22): agree with the removal.",
+        "Editor escalation 1 (three speculative segments, recommend ship): agree, with the strongest refutations recorded in the verdicts and line E p2s1 revised to carry 2:53."
+      ],
+      "founderItems": [
+        "Confirm that the 'the creators' rendering covers bare YHWH (applied throughout 4:1-16, 4:26) as well as YHWH-Elohim.",
+        "Sign off the three speculative segments: births E p1s4 (Eve's 'made a man' beside TBWTT-2:37), line-of-cain E p2s2 (city and smiths as compressed memory of pre-Flood progress), seth E p2s3 (4:26 as early cult addressed to the creators).",
+        "Confirm the 2:25 race sentence stays out of Genesis 4 (editor escalation 2; reviewer agrees).",
+        "Confirm TBWTT-2:89 is held for the Genesis 22 lens (editor escalation 3; reviewer agrees)."
+      ],
+      "founderRulings": [
+        {
+          "at": "2026-11-28T09:00:00Z",
+          "ruling": "Signed off (form 2026-11-28): all three speculative segments kept; bare YHWH rendered 'the creators' (ruling extended); TBWTT 2:25 race sentence stays out; TBWTT 2:89 held for Genesis 22."
+        }
+      ]
+    }
+  },
+  "passages": [
+    {
+      "id": "gen-4-births",
+      "range": [
+        "4:1",
+        "4:2"
+      ],
+      "title": {
+        "en": "The Births of Cain and Abel"
+      },
+      "canonCoverage": "silent",
+      "readings": [
+        {
+          "refs": [
+            "4:1"
+          ],
+          "text": {
+            "en": "The man knew his wife Chavvah (Eve); she conceived and bore Cain, and said that she had made a man, naming the creators in the same breath. The first birth outside the garden is spoken of as a making."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "4:2"
+          ],
+          "text": {
+            "en": "Then she bore his brother, Hevel (Abel). The brothers took up the two ways of life: Abel kept the flocks, and Cain worked the ground."
+          },
+          "basis": "synthesis",
+          "claim": "direct"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In this Reading the Hebrew name *YHWH* is rendered as the creators. Chavvah’s saying is the first time in Genesis that a human being speaks the name; at 4:25 she speaks of *Elohim* instead."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Her words are *qaniti ish et-YHWH*. The verb *qanah* means “acquire, get”; a few passages appear to use it for creating (Genesis 14:19, 22; Deuteronomy 32:6). Between “a man” and the name stands only the particle *et*, which can mark a direct object or mean “with”. Translations take it as a preposition and supply its sense: “I have gotten a man from the LORD” (KJV), “I have gained a male child with the help of the LORD” (NJPS). The literal translation of this site takes the name in apposition to “a man”: “I have made a man — YHWH himself!”. The name *Qayin* echoes the verb by sound."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read with the Messages, the saying follows the moment when, in their account, the humans understood “that they too could become creators” (« qu’ils pouvaient eux aussi devenir des créateurs »). Eve’s first recorded words outside the garden speak of having made a human being. The Messages do not draw this connection."
+              },
+              "claim": "speculative",
+              "canon": [
+                "TBWTT-2:37"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Abel’s birth gets no naming speech. His name, *hevel*, is the word for “breath” or “vapour” that Ecclesiastes repeats (“vanity of vanities”, *havel havalim*, 1:2), and readers have long taken it as a hint of his short life."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The brothers divide the two main economies of the ancient Near East, herding and farming. Cain is a “worker of the ground” (*oved adamah*): the work that 2:5 says was lacking before the human was formed, and that 3:23 gives the human on leaving the garden."
+              },
+              "claim": "direct"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-4-offerings",
+      "range": [
+        "4:3",
+        "4:5"
+      ],
+      "title": {
+        "en": "The Offerings"
+      },
+      "canonCoverage": "quotes",
+      "readings": [
+        {
+          "refs": [
+            "4:3-4"
+          ],
+          "text": {
+            "en": "In time Cain brought some of the produce of the ground to the creators, and Abel brought the firstborn of his flock and their fat portions. The exiled creators, still under military surveillance, had urged the humans to bring them food, to show their superiors that the beings they had created were good and would never turn against their fathers. The creators looked with favour on Abel and on his offering,"
+          },
+          "basis": "canon",
+          "claim": "framework",
+          "canon": [
+            "TBWTT-2:47",
+            "TBWTT-2:48"
+          ],
+          "coreClaim": "woh-claim-0008"
+        },
+        {
+          "refs": [
+            "4:5"
+          ],
+          "text": {
+            "en": "but on Cain and his offering they did not look with favour. Cain burned with anger, and his face fell."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages quote verses 3–4: “And in process of time it came to pass (…) that Cain brought of the fruit of the ground (…) unto Yahweh. And Abel, he also brought of the firstlings of his flock.” They explain: “The exiled creators, who remained under military surveillance, urged the men to bring them food in order to show their superiors that the beings they had created were good and would never turn against their fathers.”"
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:47",
+                "TBWTT-2:48"
+              ],
+              "coreClaim": "woh-claim-0008"
+            },
+            {
+              "text": {
+                "en": "The quotation leaves out the word for “offering” (*minchah*), which stands where the ellipsis after “the fruit of the ground” falls; Abel’s “fat portions”; and the verdict of verses 4b–5. It ends at “the firstlings of his flock”. The French original and the project’s English text agree on these cuts. They differ at the opening: the French elides the time notice (« Il advint (...) que Caïn »), which the project’s English keeps as “in process of time”."
+              },
+              "claim": "direct",
+              "canon": [
+                "TBWTT-2:47"
+              ]
+            },
+            {
+              "text": {
+                "en": "In the Messages’ gloss the gifts are food (*nourriture*), and the gloss gives one purpose to the gifts of both brothers: to show the creators’ superiors “that the beings they had created were good and would never turn against their fathers”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:48"
+              ]
+            },
+            {
+              "text": {
+                "en": "*Minchah* is the general Hebrew word for a gift or tribute; in the priestly laws it narrows to the grain offering (Leviticus 2). Abel’s gift is marked twice: the firstborn of the flock (*bekhorot*) and their fat (*chelev*), the part that Leviticus 3:16 reserves for the deity. Cain’s is described only as “from the fruit of the ground”."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages read offerings in the same way elsewhere. At Sinai the team of creators “wanted fresh food” and asked the people of Israel to give it some regularly. At Gideon’s offering (Judges 6:21) they explain that the creators, “who cannot «eat» in the open air because of their suits, can if need be use the various «offerings» to extract the essential from them”, and that the flames this gives off “make the men of that time believe it is a matter of «sacrifices to God»”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-3:34",
+                "TBWTT-3:74"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The verse gives no reason why one offering was regarded and the other not. The verb is *sha’ah*, “to look at, pay heed to”. Interpreters have filled the gap: the quality of the gift (Genesis Rabbah 22:5 says Cain brought “from the refuse”, like a bad tenant who eats the first-ripe fruit and gives the owner of the field the late fruit), Abel’s faith (Hebrews 11:4), or Cain’s conduct (“his own works were evil”, 1 John 3:12)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages do not comment on verse 5: their quotation stops before the verdict, and they give no reason why Cain’s gift was not accepted. On their reading the regard would be the exiled creators’ acceptance of the food brought to them. This Reading does not supply a reason for the refusal."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:48"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Messages do say what came of the gifts: “They thus obtained that the chiefs of these first men be granted the benefit of the ‘tree of life’”, where “they” are the exiled creators of the preceding paragraph. The Messages give this as the reason for the long lives listed in Genesis 5."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:49"
+              ],
+              "coreClaim": "woh-claim-0019"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-4-warning",
+      "range": [
+        "4:6",
+        "4:7"
+      ],
+      "title": {
+        "en": "Sin Crouching at the Door"
+      },
+      "canonCoverage": "silent",
+      "readings": [
+        {
+          "refs": [
+            "4:6-7"
+          ],
+          "text": {
+            "en": "The creators asked Cain why he was angry and why his face had fallen. If he did well, he would be lifted up; if he did not, sin was crouching at the door, its desire turned toward him, and he must master it."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The question comes before the deed. Where 3:9 questioned a transgression already committed, here Cain is addressed while his anger is still only anger, and verse 7 sets the choice in front of him."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Verse 7 is one of the hardest in Genesis. *Se’et*, “lifting”, may mean the lifting of the fallen face or acceptance. *Chatta’t*, “sin”, appears here for the first time in the Hebrew Bible; it is feminine, but the participle *rovets*, “crouching”, is masculine. E. A. Speiser (Anchor Bible, *Genesis*, 1964) compared the Akkadian *rābiṣu*, a demon that lurks at doorways. The last clause repeats the construction of 3:16, with *teshuqah* (“desire”) and *mashal* (“rule”): here sin is the one that desires, and Cain the one who must rule."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "On the Messages’ account the humans still dealt with the exiled creators after the expulsion, and brought them food. Read in that frame, the speaker of verses 6–7 is one of the creators, and the counsel is moral: master the anger before it acts."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:48"
+              ]
+            },
+            {
+              "text": {
+                "en": "The Messages’ own definitions of “good” and “evil” belong to their reading of Genesis 6:5 and give the view of the authorities of the distant planet: “Good, for them, was that man should remain a primitive being vegetating on Earth.” They are not a key to this verse, where doing well is set against the killing of a brother."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:57"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-4-killing-and-sign",
+      "range": [
+        "4:8",
+        "4:16"
+      ],
+      "title": {
+        "en": "The Killing of Abel and the Sign for Cain"
+      },
+      "canonCoverage": "silent",
+      "readings": [
+        {
+          "refs": [
+            "4:8"
+          ],
+          "text": {
+            "en": "Cain spoke to his brother Abel, but what he said is not told. Out in the field Cain turned on his brother and killed him: the first death in Genesis is a killing."
+          },
+          "basis": "synthesis",
+          "claim": "direct"
+        },
+        {
+          "refs": [
+            "4:9-10"
+          ],
+          "text": {
+            "en": "The creators asked Cain where his brother Abel was. “I do not know,” he said. “Am I my brother’s keeper?” They asked what he had done: the voice of his brother’s blood was crying out to them from the ground."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "4:11-12"
+          ],
+          "text": {
+            "en": "Cain was cursed, banished from the ground that had opened its mouth to take his brother’s blood from his hand. When he worked it, it would no longer give him its strength, and he would be a restless wanderer on the earth."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "4:13-14"
+          ],
+          "text": {
+            "en": "Cain said that his guilt, or its punishment, was too great to bear. Driven from the ground, hidden from the creators’ presence and condemned to wander, he feared that anyone who found him would kill him."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "4:15"
+          ],
+          "text": {
+            "en": "The creators answered that whoever killed Cain would suffer vengeance sevenfold, and they set a sign for Cain, so that no one who found him would strike him."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "4:16"
+          ],
+          "text": {
+            "en": "Cain went out from the presence of the creators and settled in the land of Nod, “Wandering”, east of Eden."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Masoretic text verse 8 breaks off: “Cain spoke to his brother Abel”, and his words are not given. The Samaritan Pentateuch, the Septuagint (“Let us go out into the plain”) and the Vulgate (*egrediamur foras*, “let us go outside”) supply them. The killing is told with two verbs, “rose up” and “killed” (*harag*); *harag* returns in Cain’s fear (4:14), in the threat against his killer (4:15), in Lamech’s song (4:23) and in Eve’s words at Seth’s birth (4:25)."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "“Am I my brother’s keeper?” uses *shamar*, the verb of the human’s charge to keep the garden (2:15) and of the cherubim who keep the way to the tree of life (3:24). “Your brother’s blood” is plural in Hebrew, *demei*, as often for shed blood. The Mishnah (Sanhedrin 4:5) reads the plural as “his blood and the blood of his descendants”, and goes on to teach that whoever destroys a single life is reckoned as having destroyed a whole world (the printed text reads “a single life of Israel”; some manuscripts lack the qualifier)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "“Cursed are you” (*arur attah*) was said before only to the serpent (3:14); in 3:17 it was the ground that was cursed. Cain is the first human to receive the formula. The word *avon* in verse 13 covers the wrong done, its guilt and its punishment, and the verb *nasa* can mean both “bear” and “forgive”, so Cain’s cry can be read as remorse, as complaint or as despair."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Verse 14 assumes other people who might kill Cain, and verse 17 gives him a wife and a city, though Genesis has named no one but Adam, Eve and their sons. The narrative does not account for them. Later tradition did: the Book of Jubilees (4:9) has Cain marry his sister Awan."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages describe more than one team of creators making human beings: “Each team set to work, and we were soon able to compare our creations.” The team in the garden was only one of them, “one of the most brilliant, if not the most brilliant”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:25",
+                "TBWTT-2:28"
+              ]
+            },
+            {
+              "text": {
+                "en": "Read with that account, the people Cain fears and the wife he finds could come from outside the family of the garden, whose humans were not the only humans. The Messages themselves do not apply this to Genesis 4."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:25"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "The “mark of Cain” is in Hebrew an *ot*, “sign”, the word used for the rainbow (9:12–13), circumcision (17:11) and the Sabbath (Exodus 31:13). The sign is set “for” Cain (*le-Qayin*); the verse does not say that it was placed on his body, and its purpose is to protect him. Nor does the verse say what the sign was. Genesis Rabbah (22:12) records several rabbinic guesses, among them leprosy, a dog and a horn. Some later Christian readers, notably in nineteenth-century America, made it a mark of dark skin and used it to defend slavery and racial exclusion; nothing in the verse supports that reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages do not comment on the sign, and this Reading offers no explanation of what it was."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "*Nod* comes from the same root as *nad*, “wanderer”, in Cain’s sentence (4:12, 14): he settles in the land of Wandering. It lies “east of Eden” (*qidmat-eden*), the side of the garden where the cherubim were stationed in 3:24."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "In the Messages’ frame the first humans were left “without contact” with their creators, while the exiled creators still received the food the humans brought them. Going out “from the presence” of the creators would then take Cain out of that remaining contact as well."
+              },
+              "claim": "inferred",
+              "canon": [
+                "TBWTT-2:41",
+                "TBWTT-2:48"
+              ]
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-4-line-of-cain",
+      "range": [
+        "4:17",
+        "4:24"
+      ],
+      "title": {
+        "en": "Cain’s Line and the Song of Lamech"
+      },
+      "canonCoverage": "silent",
+      "readings": [
+        {
+          "refs": [
+            "4:17"
+          ],
+          "text": {
+            "en": "Cain’s wife bore him Hanokh (Enoch). Cain, sentenced to wander, became the builder of a city, the first in Genesis, and named it after his son."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        },
+        {
+          "refs": [
+            "4:18"
+          ],
+          "text": {
+            "en": "From Enoch the line ran through Irad, Mehuyael and Methushael to Lamech."
+          },
+          "basis": "synthesis",
+          "claim": "direct"
+        },
+        {
+          "refs": [
+            "4:19-22"
+          ],
+          "text": {
+            "en": "Lamech took two wives, Adah and Tzillah. Adah bore Yaval, the ancestor of those who live in tents with herds, and his brother Yuval, the ancestor of all who play the lyre and the pipe. Tzillah bore Tuval-Cain, who forged every kind of tool in bronze and iron, and his sister was Naamah. Life in tents with herds, music and metalwork are all traced back to Cain’s line."
+          },
+          "basis": "synthesis",
+          "claim": "direct"
+        },
+        {
+          "refs": [
+            "4:23-24"
+          ],
+          "text": {
+            "en": "Lamech boasted to his wives in song that he had killed a man for wounding him, a young man for striking him: if Cain was to be avenged sevenfold, Lamech would be avenged seventy-seven times."
+          },
+          "basis": "synthesis",
+          "claim": "direct"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Cain, sentenced to wander, builds a city. The Hebrew can also be read with Enoch as the builder, naming the city after his own son. On that reading, which several modern scholars have proposed, the city would be called Irad, a name that has been compared with Eridu (W. W. Hallo, *Journal of Cuneiform Studies* 23, 1970), the first city to receive kingship in the Sumerian King List."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The names of Cain’s line are close to those of Seth’s line in chapter 5: Qayin and Qenan, Hanokh twice, Irad and Yered, Mehuyael and Mahalalel, Methushael and Methushelach, Lamech twice. Many scholars take the two lists as branches of one tradition of ancestors before the Flood, with a further analogue in the long-reigning kings of the Sumerian King List."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The *avi* formulas (“the father of …”) present Yaval, Yuval and Tuval-Cain as the founders of crafts. *Qayin* is also the name of the Kenites (Numbers 24:22; Judges 4:11), and in Aramaic and Arabic a related word means “smith”. Smelted iron came into wide use in the Levant only in the Iron Age, which begins about 1200 BCE."
+              },
+              "claim": "direct"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Of the world before the Flood the Messages say: “All this was becoming dangerous in the eyes of the distant planet. Scientific progress was enormous on Earth”, “all this” being the creators’ children by human women. A few lines earlier they note that longevity was not hereditary, so that “the secret was lost and the progress of men slowed”. In their reading of Genesis 6:5, “evil” is “the desire to become a people equal to its creators, a scientific and independent people”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:53",
+                "TBWTT-2:55",
+                "TBWTT-2:57"
+              ],
+              "coreClaim": "woh-claim-0019"
+            },
+            {
+              "text": {
+                "en": "On that account, Genesis 4’s notice of the first city and the first smiths could preserve, in compressed form, the beginning of the progress that the Messages place before the Flood. The Messages do not cite these verses and do not connect Cain’s line with that progress."
+              },
+              "claim": "speculative",
+              "canon": [
+                "TBWTT-2:55"
+              ]
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "Lamech’s song is set out in parallel lines, like the man’s words at 2:23. Lamech takes the protection given to Cain, vengeance sevenfold, and turns it into a boast of seventy-seven. The Septuagint at 4:24 renders the number *hebdomēkontakis hepta*, the phrase that Matthew 18:22 gives in Jesus’ answer to Peter on forgiveness."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Genesis itself will give the Flood a moral cause, the earth “filled with violence” (*chamas*, 6:11, 13), and commentators often read Lamech’s song as an early instance of that violence."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages give a different cause: the distant planet judged the creators’ children by human women, and the scientific progress on Earth, dangerous, and “decided to suppress their creation”."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:55"
+              ],
+              "coreClaim": "woh-claim-0010"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "gen-4-seth-and-the-name",
+      "range": [
+        "4:25",
+        "4:26"
+      ],
+      "title": {
+        "en": "Seth and the Calling on the Name"
+      },
+      "canonCoverage": "silent",
+      "readings": [
+        {
+          "refs": [
+            "4:25"
+          ],
+          "text": {
+            "en": "Adam knew his wife again, and she bore a son and named him Shet (Seth): the Elohim, she said, had appointed her another child in place of Abel, whom Cain had killed."
+          },
+          "basis": "synthesis",
+          "claim": "direct"
+        },
+        {
+          "refs": [
+            "4:26"
+          ],
+          "text": {
+            "en": "To Seth too a son was born, and he named him Enosh. At that time people began to invoke the creators by name."
+          },
+          "basis": "synthesis",
+          "claim": "inferred"
+        }
+      ],
+      "explanation": {
+        "paragraphs": [
+          [
+            {
+              "text": {
+                "en": "The Messages do not comment on this passage; what follows is a Wheel of Heaven reading."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Here *adam* stands without the article as the subject of the verb, and the literal translation gives it as a name, Adam, for the first time; at 4:1 it was *ha-adam*, “the human”. Genesis 5 goes on to use Adam as a personal name, though the word keeps its general sense of humankind (5:2; 6:1). Eve now speaks of *Elohim*, where at Cain’s birth she named *YHWH*. *Shet* is explained by *shat*, “he has appointed”, and the child is “another seed” (*zera*) in place of Abel. *Enosh* is also an ordinary Hebrew word for “human being” (“what is man”, Psalm 8:4; 8:5 in Hebrew)."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages name Seth and Enosh among “the chiefs of these first men” who were granted the “tree of life”: “Adam nine hundred and thirty years, Seth nine hundred and twelve years, Enosh nine hundred and five years, etc.” That reading belongs to Genesis 5, where the lifespans are given."
+              },
+              "claim": "framework",
+              "canon": [
+                "TBWTT-2:49"
+              ],
+              "coreClaim": "woh-claim-0019"
+            }
+          ],
+          [
+            {
+              "text": {
+                "en": "“Then it began to be called on the name of YHWH” uses *huchal*, a passive form with no stated subject. The verse dates the invocation of the name to the generation of Enosh, while Exodus 6:3 says that the name was not made known to Abraham, Isaac and Jacob; source critics assign the two statements to different sources. Rabbinic tradition read the verse against the generation of Enosh: Genesis Rabbah 23:7 counts *huchal* among three verses where the verb signals rebellion, and Rashi, deriving it from the root “to profane” (*chullin*), explains that in the days of Enosh people began to call men and idols by the divine name."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "The Messages do not comment on this verse, and this Reading does not identify the practice it names."
+              },
+              "claim": "direct"
+            },
+            {
+              "text": {
+                "en": "Read with the Messages, a practice of calling on the creators’ name would fit a time when humans still dealt with the exiled creators and brought them food, and would mark the start of a cult addressed to real beings. Much later, after the destruction of Sodom and Gomorrah, the Messages describe men who “began stupidly to worship pieces of stone and idols, forgetting who had created them”. Nothing in the canon links that history to this verse."
+              },
+              "claim": "speculative",
+              "canon": [
+                "TBWTT-2:48",
+                "TBWTT-3:4"
+              ]
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}
