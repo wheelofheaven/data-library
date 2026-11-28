@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "bookSlug": "genesis-woh",
   "chapter": 3,
   "basedOn": {
@@ -9,14 +9,15 @@
   },
   "lens": {
     "track": "lens",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "stable",
     "modelDrafts": [
       "claude-opus-5-5 (lens writer)",
-      "claude-opus-5-5 (lens editor)"
+      "claude-opus-5-5 (lens editor)",
+      "claude-opus-5-5 (decoded reading writer)"
     ],
     "signedOffBy": "zarazinsfuss",
-    "signedOffAt": "2026-11-27T18:00:00Z",
+    "signedOffAt": "2026-11-28T15:00:00Z",
     "coreClaims": {
       "woh-claim-0008": "0.1.0",
       "woh-claim-0009": "0.1.1",
@@ -861,6 +862,10 @@
         {
           "at": "2026-11-27T18:00:00Z",
           "ruling": "Signed off (form 2026-11-27); YHWH-Elohim rendered 'the creators'; TBWTT 2:43 only at 3:22; The Keys at 3:19 kept, labelled author opinion; claim 0008 Lucifer to be marked LWTE usage at next revision"
+        },
+        {
+          "at": "2026-11-28T15:00:00Z",
+          "ruling": "Forms 5-7 (2026-11-28): lens restructure (3 Reading = decoded translation, 4 Meaning = retellings, passage note folded); decoded Reading signed off (decoding glossary 1.0.0); Meaning aligned with the Reading (creation days = ages in 1:1-2:3, offerings = food in 4:3-5); Elohim naming as applied (Meaning: 'those who came from the sky' at first mention per chapter, then 'the Sky People'; YHWH/YHWH-Elohim 'the creators'). Signed off as 1.1.0."
         }
       ]
     }
@@ -876,13 +881,55 @@
         "en": "The Serpent and the Forbidden Knowledge"
       },
       "canonCoverage": "quotes",
-      "readings": [
+      "decoded": [
         {
           "refs": [
             "3:1"
           ],
           "text": {
-            "en": "Within the team of creators, a small group, the “serpent” of the story, wanted the humans to know the truth. They came to the woman and questioned the ban: had the Elohim really said that nothing in the garden was to be eaten?"
+            "en": "Now the small group of creators was shrewder than any wild animal of the field that the creators had made. They said to the woman, \"Have the Sky People really said, 'You shall not eat from any tree of the garden'?\""
+          }
+        },
+        {
+          "refs": [
+            "3:2-3"
+          ],
+          "text": {
+            "en": "The woman said to the small group of creators, \"From the fruit of the trees of the garden we may eat; but from the fruit of the tree which is in the midst of the garden, the Sky People have said, 'You shall not eat from it, and you shall not touch it, lest you die.'\""
+          }
+        },
+        {
+          "refs": [
+            "3:4-5"
+          ],
+          "text": {
+            "en": "The small group of creators said to the woman, \"You shall surely not die. For the Sky People know that on the day you eat from it your eyes will be opened, and you will be like the Sky People, knowing good and bad.\""
+          }
+        },
+        {
+          "refs": [
+            "3:6"
+          ],
+          "text": {
+            "en": "The woman saw that the tree was good for food, that it was a delight to the eyes, and that the tree was desirable for gaining insight; and she took of its fruit and ate. She also gave to her husband with her, and he ate."
+          }
+        },
+        {
+          "refs": [
+            "3:7"
+          ],
+          "text": {
+            "en": "Then the eyes of the two of them were opened, and they knew that they were naked; and they sewed fig leaves together and made for themselves belts."
+          }
+        }
+      ],
+      "meaning": [
+        {
+          "refs": [
+            "3:1"
+          ],
+          "text": {
+            "en": "Within the team of creators, a small group, the “serpent” of the story, wanted the humans to know the truth. They came to the woman and questioned the ban: had those who came from the sky really said that nothing in the garden was to be eaten?"
           },
           "basis": "canon",
           "claim": "framework",
@@ -897,7 +944,7 @@
             "3:2-3"
           ],
           "text": {
-            "en": "The woman answered that they were free to learn from everything around them. Only the scientific knowledge kept at the centre of the garden was forbidden: the creators had said that they were not even to touch it, or they would die."
+            "en": "The woman answered that they were free to learn from everything around them. Only the scientific knowledge kept at the centre of the garden was forbidden: the Sky People had said that they were not even to touch it, or they would die."
           },
           "basis": "canon",
           "claim": "framework",
@@ -912,7 +959,7 @@
             "3:4-5"
           ],
           "text": {
-            "en": "The group told the two young people, almost adults by now, that they would not die. They could pursue scientific studies; their eyes would be opened, and they would be as strong as their creators, like the Elohim themselves."
+            "en": "The group told the two young people, almost adults by now, that they would not die. They could pursue scientific studies; their eyes would be opened, and they would be as strong as their creators, like the Sky People themselves."
           },
           "basis": "canon",
           "claim": "framework",
@@ -950,7 +997,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1138,7 +1185,33 @@
         "en": "Hiding and the Inquiry"
       },
       "canonCoverage": "silent",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "3:8"
+          ],
+          "text": {
+            "en": "They heard the voice of the creators walking about in the garden at the breeze of the day; and the human and his woman hid themselves from the face of the creators among the trees of the garden."
+          }
+        },
+        {
+          "refs": [
+            "3:9-10"
+          ],
+          "text": {
+            "en": "The creators called to the human and said to him, \"Where are you?\" He said, \"I heard your voice in the garden, and I was afraid because I was naked; and I hid myself.\""
+          }
+        },
+        {
+          "refs": [
+            "3:11-13"
+          ],
+          "text": {
+            "en": "They said, \"Who told you that you were naked? Have you eaten from the tree of which I commanded you not to eat?\" The human said, \"The woman whom you gave to be with me — she gave me from the tree, and I ate.\" The creators said to the woman, \"What is this you have done?\" And the woman said, \"The small group of creators deceived me, and I ate.\""
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "3:8"
@@ -1173,7 +1246,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1184,7 +1257,7 @@
             },
             {
               "text": {
-                "en": "In this Reading the Hebrew *YHWH-Elohim* is rendered as the creators. The dictated Messages do give their speaker’s name, “My name is Yahweh and I am the president of the council of the eternals” (ETTMTTP 2:50), but they do not identify him with the *YHWH-Elohim* of this scene."
+                "en": "In the Reading and the Meaning the Hebrew *YHWH-Elohim* is rendered as the creators. The dictated Messages do give their speaker’s name, “My name is Yahweh and I am the president of the council of the eternals” (ETTMTTP 2:50), but they do not identify him with the *YHWH-Elohim* of this scene."
               },
               "claim": "direct",
               "canon": [
@@ -1238,7 +1311,25 @@
         "en": "The Sentence on the Serpent"
       },
       "canonCoverage": "quotes",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "3:14"
+          ],
+          "text": {
+            "en": "The creators said to the small group of creators, \"Because you have done this, cursed are you above all cattle and above every wild animal of the field; on your belly you shall go, and dust you shall eat all the days of your life."
+          }
+        },
+        {
+          "refs": [
+            "3:15"
+          ],
+          "text": {
+            "en": "I will put enmity between you and the woman, and between your seed and her seed; he will strike you at the head, and you will strike him at the heel.\""
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "3:14"
@@ -1268,7 +1359,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1345,7 +1436,33 @@
         "en": "Life Outside the Garden"
       },
       "canonCoverage": "silent",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "3:16"
+          ],
+          "text": {
+            "en": "To the woman they said, \"I will greatly multiply your hardship and your conceiving; in hardship you shall bear children; and your longing shall be for your husband, and he shall rule over you.\""
+          }
+        },
+        {
+          "refs": [
+            "3:17-19"
+          ],
+          "text": {
+            "en": "And to the human they said, \"Because you have listened to the voice of your woman and have eaten from the tree of which I commanded you, saying, 'You shall not eat from it' — cursed is the ground because of you; in hardship you shall eat of it all the days of your life. It shall sprout thorns and thistles for you; and you shall eat the herb of the field. By the sweat of your face you shall eat bread until you return to the ground, for from it you were taken; for you are dust, and to dust you shall return."
+          }
+        },
+        {
+          "refs": [
+            "3:20"
+          ],
+          "text": {
+            "en": "The human called his woman's name Chavvah, because she became the mother of all living."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "3:16"
@@ -1384,7 +1501,7 @@
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1463,7 +1580,17 @@
         "en": "The Garments of Skin"
       },
       "canonCoverage": "quotes",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "3:21"
+          ],
+          "text": {
+            "en": "The creators made for the human and his woman garments of skin, and clothed them."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "3:21"
@@ -1479,7 +1606,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1521,7 +1648,33 @@
         "en": "The Tree of Life and the Expulsion"
       },
       "canonCoverage": "quotes",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "3:22"
+          ],
+          "text": {
+            "en": "The creators said, \"Behold, the human has become like one of us, knowing good and bad. And now, lest he reach out his hand and take also from the means of prolonging life, and eat, and live forever—\""
+          }
+        },
+        {
+          "refs": [
+            "3:23"
+          ],
+          "text": {
+            "en": "So the creators sent him out of the creators' residence, to work the ground from which he had been taken."
+          }
+        },
+        {
+          "refs": [
+            "3:24"
+          ],
+          "text": {
+            "en": "They drove out the human, and placed at the east of the creators' residence the military personnel and the disintegrating atomic weapon that turns itself, to guard the way to the means of prolonging life."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "3:22"
@@ -1567,7 +1720,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {

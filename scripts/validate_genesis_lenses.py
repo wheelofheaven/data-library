@@ -9,6 +9,11 @@ Usage:
     python3 scripts/validate_genesis_lenses.py --core-catalog ../core/model/catalog.json
     python3 scripts/validate_genesis_lenses.py --staged     # also refuse staged layer-2 files
     python3 scripts/validate_genesis_lenses.py --digest 1   # print the layer-2 digest of Gen 1
+    python3 scripts/validate_genesis_lenses.py --glossary genesis-woh/lenses/decoding-glossary.json
+
+schemaVersion 2 (2026-11-28): per passage, "meaning" (lens 4, formerly
+"readings"), "note" (the folded passage note, formerly "explanation") and
+"decoded" (lens 3, the literal sentence with canon-decoded words swapped in).
 
 Exit status: 0 when no errors (warnings are printed but do not fail), 1 otherwise.
 
@@ -42,6 +47,9 @@ CANON_REF_RE = re.compile(r'^(TBWTT|ETTMTTP|LWTE)-(\d+):(\d+)$')
 VERSE_RE = re.compile(r'^(\d+):(\d+)$')
 READING_REF_RE = re.compile(r'^(\d+):(\d+)(?:-(\d+))?$')
 SEMVER_RE = re.compile(r'^\d+\.\d+\.\d+$')
+# lens.version may carry a pre-release tag while a revision is under review
+# ("1.1.0-rc1"); a stable lens needs a plain release version.
+LENS_VERSION_RE = re.compile(r'^\d+\.\d+\.\d+(-[0-9A-Za-z]+(\.[0-9A-Za-z]+)*)?$')
 DATE_RE = re.compile(r'^\d{4}-\d{2}-\d{2}([T ][0-9:.]+(Z|[+-]\d{2}:\d{2})?)?$')
 PASSAGE_ID_RE = re.compile(r'^[a-z0-9]+(-[a-z0-9]+)*$')
 LENS_FILE_RE = re.compile(r'^chapter-(\d+)\.json$')
@@ -56,6 +64,8 @@ STATUSES = ('draft', 'editor-review', 'reviewer-approved', 'awaiting-human', 'st
 PASSAGE_COVERAGE = ('quotes', 'comments', 'alludes', 'silent')
 BASES = ('canon', 'synthesis')
 STRICT_DIGEST_STATUSES = ('reviewer-approved', 'awaiting-human', 'stable')
+SCHEMA_VERSION = 2
+DECODED_KEYS = {'refs', 'text'}
 
 
 class Report:
@@ -330,7 +340,7 @@ def normalise_canon_refs(items, where, ctx, rep):
 
 
 def check_claim_unit(unit, where, ctx, rep, core_claims):
-    """Shared checks for a reading or an explanation segment."""
+    """Shared checks for a Meaning unit or a note segment."""
     check_text(unit.get('text'), f'{where} text', rep)
     claim = unit.get('claim')
     if claim not in CLAIMS:
@@ -364,8 +374,11 @@ def validate_lens_file(path, ctx, rep):
     if chapter not in counts:
         rep.error(where, f'Genesis has no chapter {chapter}')
         return None
-    if data.get('schemaVersion') != 1:
-        rep.error(where, 'schemaVersion must be 1')
+    if data.get('schemaVersion') != SCHEMA_VERSION:
+        msg = f'schemaVersion must be {SCHEMA_VERSION}'
+        if data.get('schemaVersion') == 1:
+            msg += ' (run scripts/migrate_genesis_lenses_v2.py)'
+        rep.error(where, msg)
     if data.get('bookSlug') != BOOK:
         rep.error(where, f'bookSlug must be "{BOOK}"')
     if data.get('chapter') != chapter:
@@ -387,8 +400,11 @@ def validate_lens_file(path, ctx, rep):
 
     if lens.get('track') != 'lens':
         rep.error(where, 'lens.track must be "lens"')
-    if not SEMVER_RE.match(str(lens.get('version', ''))):
-        rep.error(where, 'lens.version must be semver')
+    version = str(lens.get('version', ''))
+    if not LENS_VERSION_RE.match(version):
+        rep.error(where, 'lens.version must be semver (a pre-release tag such as "1.1.0-rc1" is allowed before sign-off)')
+    elif status == 'stable' and not SEMVER_RE.match(version):
+        rep.error(where, 'a stable lens.version cannot carry a pre-release tag')
     if status not in STATUSES:
         rep.error(where, f'lens.status must be one of {STATUSES}')
     if status == 'stable':
@@ -413,6 +429,8 @@ def validate_lens_file(path, ctx, rep):
         return data
     passage_seen = {}
     reading_seen = {}
+    decoded_seen = {}
+    meaning_cards = {}
     ids = set()
     for i, p in enumerate(passages):
         pw = f'{where} passages[{i}] {p.get("id")}'
@@ -446,13 +464,16 @@ def validate_lens_file(path, ctx, rep):
         elif cov != expected:
             rep.error(pw, f'canonCoverage {cov!r} but the canon map gives {expected!r}')
 
-        readings = p.get('readings')
+        for old, new in (('readings', 'meaning'), ('explanation', 'note')):
+            if old in p:
+                rep.error(pw, f'"{old}" is the schemaVersion 1 name; use "{new}"')
+        readings = p.get('meaning')
         if not isinstance(readings, list) or not readings:
-            rep.error(pw, 'readings must be a non-empty list')
+            rep.error(pw, 'meaning must be a non-empty list')
             readings = []
         pset = set(pverses)
         for j, rd in enumerate(readings):
-            rw = f'{pw} readings[{j}]'
+            rw = f'{pw} meaning[{j}]'
             rverses = []
             for ref in rd.get('refs') or []:
                 try:
@@ -460,14 +481,15 @@ def validate_lens_file(path, ctx, rep):
                 except ValueError as exc:
                     rep.error(rw, str(exc))
             if not rd.get('refs'):
-                rep.error(rw, 'refs must list the verses this reading renders')
+                rep.error(rw, 'refs must list the verses this Meaning unit renders')
             for cv in rverses:
                 if cv not in pset:
                     rep.error(rw, f'verse {cv[0]}:{cv[1]} is outside the passage range')
                 if cv in reading_seen:
-                    rep.error(rw, f'verse {cv[0]}:{cv[1]} already rendered by another reading')
+                    rep.error(rw, f'verse {cv[0]}:{cv[1]} already rendered by another Meaning unit')
                 else:
                     reading_seen[cv] = rw
+                    meaning_cards[cv] = (i, j)
             basis = rd.get('basis')
             if basis not in BASES:
                 rep.error(rw, f'basis must be one of {BASES}')
@@ -483,17 +505,20 @@ def validate_lens_file(path, ctx, rep):
                     rep.error(rw, 'basis "canon" but none of its canon refs is mapped to its verses '
                                   'in canon-map.json')
 
-        expl = p.get('explanation')
+        expl = p.get('note')
         if not isinstance(expl, dict) or not isinstance(expl.get('paragraphs'), list) \
                 or not expl['paragraphs']:
-            rep.error(pw, 'explanation.paragraphs must be a non-empty list')
+            rep.error(pw, 'note.paragraphs must be a non-empty list')
         else:
+            extra = set(expl) - {'paragraphs', 'visual'}
+            if extra:
+                rep.error(pw, f'note has unknown keys {sorted(extra)}')
             for k, para in enumerate(expl['paragraphs']):
                 if not isinstance(para, list) or not para:
-                    rep.error(f'{pw} explanation[{k}]', 'paragraph must be a non-empty list of segments')
+                    rep.error(f'{pw} note[{k}]', 'paragraph must be a non-empty list of segments')
                     continue
                 for s, seg in enumerate(para):
-                    check_claim_unit(seg, f'{pw} explanation[{k}][{s}]', ctx, rep, core_claims)
+                    check_claim_unit(seg, f'{pw} note[{k}][{s}]', ctx, rep, core_claims)
             vis = expl.get('visual')
             if vis is not None:
                 if not (isinstance(vis, dict) and vis.get('kind') and vis.get('ref')):
@@ -501,18 +526,96 @@ def validate_lens_file(path, ctx, rep):
                 else:
                     check_text(vis.get('alt'), f'{pw} visual alt', rep)
 
+        validate_decoded(p, pw, pset, chapter, ctx, rep, decoded_seen)
+
     for v in range(1, counts[chapter] + 1):
         if (chapter, v) not in passage_seen:
             rep.error(where, f'verse {chapter}:{v} is in no passage')
         if (chapter, v) not in reading_seen:
-            rep.error(where, f'verse {chapter}:{v} is in no reading')
+            rep.error(where, f'verse {chapter}:{v} is in no Meaning unit')
+    # Lens 3 is written after the rest: an empty chapter is fine, a started
+    # one must cover every verse exactly once.
+    if decoded_seen:
+        missing = [v for v in range(1, counts[chapter] + 1) if (chapter, v) not in decoded_seen]
+        for v in missing:
+            rep.error(where, f'verse {chapter}:{v} is in no decoded unit (once a chapter has '
+                             f'decoded text, every verse needs it)')
+        # The reader shows a decoded unit in the card of its first verse; a
+        # unit reaching into the next card still reads, but splits oddly.
+        for cv, (dw, first) in sorted(decoded_seen.items()):
+            if cv != first and cv in meaning_cards and first in meaning_cards \
+                    and meaning_cards[cv] != meaning_cards[first]:
+                rep.warn(dw, f'verse {cv[0]}:{cv[1]} lies in another Meaning card than verse '
+                             f'{first[0]}:{first[1]}; the reader shows the whole unit in the first card')
     return data
+
+
+def validate_decoded(p, pw, pset, chapter, ctx, rep, decoded_seen):
+    """Lens 3: {refs, text: {en}} units inside the passage, one per verse."""
+    decoded = p.get('decoded')
+    if decoded is None:
+        rep.error(pw, 'decoded must be present (an empty list until it is written)')
+        return
+    if not isinstance(decoded, list):
+        rep.error(pw, 'decoded must be a list')
+        return
+    for j, unit in enumerate(decoded):
+        dw = f'{pw} decoded[{j}]'
+        if not isinstance(unit, dict):
+            rep.error(dw, 'must be an object {"refs": [...], "text": {"en": ...}}')
+            continue
+        extra = set(unit) - DECODED_KEYS
+        if extra:
+            rep.error(dw, f'unknown keys {sorted(extra)}: a decoded unit is refs and text only')
+        check_text(unit.get('text'), f'{dw} text', rep)
+        refs = unit.get('refs')
+        if not isinstance(refs, list) or not refs:
+            rep.error(dw, 'refs must list the verses this decoded text renders')
+            continue
+        dverses = []
+        for ref in refs:
+            try:
+                dverses += expand_reading_ref(ref, chapter, ctx['counts'])
+            except ValueError as exc:
+                rep.error(dw, str(exc))
+        first = dverses[0] if dverses else None
+        for cv in dverses:
+            if cv not in pset:
+                rep.error(dw, f'verse {cv[0]}:{cv[1]} is outside the passage range')
+            if cv in decoded_seen:
+                rep.error(dw, f'verse {cv[0]}:{cv[1]} already rendered by another decoded unit')
+            else:
+                decoded_seen[cv] = (dw, first)
+        glossary = ctx.get('glossary')
+        if glossary is not None:
+            check_glossary_use(unit, dw, glossary, rep)
+
+
+# ---------------------------------------------------------------- glossary
+
+def load_glossary(path):
+    """Load the decoding glossary (genesis-woh/lenses/decoding-glossary.json).
+
+    The file is being drafted separately; until its shape is settled this
+    only checks that it is readable JSON and returns it whole.
+    """
+    return load_json(path)
+
+
+def check_glossary_use(unit, where, glossary, rep):
+    """Hook: check a decoded unit against the decoding glossary.
+
+    Stub until decoding-glossary.json has a settled shape. Intended rule:
+    every swapped-in word is a glossary rendering for a Hebrew term of the
+    verse, and every glossary term present in the verse is swapped.
+    """
+    return None
 
 
 def validate_index(index, lens_files, ctx, rep):
     where = '_lenses.json'
-    if index.get('schemaVersion') != 1:
-        rep.error(where, 'schemaVersion must be 1')
+    if index.get('schemaVersion') != SCHEMA_VERSION:
+        rep.error(where, f'schemaVersion must be {SCHEMA_VERSION}')
     if index.get('canonMapVersion') != ctx['canon_version']:
         rep.error(where, f'canonMapVersion != canon-map version {ctx["canon_version"]!r}')
     chapters = index.get('chapters')
@@ -554,7 +657,7 @@ def staged_paths(root):
 
 # ---------------------------------------------------------------- driver
 
-def validate(root, catalog_path=None, staged=False):
+def validate(root, catalog_path=None, staged=False, glossary_path=None):
     root = Path(root)
     rep = Report()
     lens_dir = root / LENS_DIR
@@ -584,6 +687,12 @@ def validate(root, catalog_path=None, staged=False):
     found = find_catalog(root, catalog_path)
     if found:
         ctx['catalog'] = load_catalog(found)
+    ctx['glossary'] = None
+    if glossary_path:
+        try:
+            ctx['glossary'] = load_glossary(glossary_path)
+        except (OSError, json.JSONDecodeError) as exc:
+            rep.error('glossary', f'unreadable decoding glossary {glossary_path}: {exc}')
 
     lens_files = {}
     for path in sorted(lens_dir.glob('chapter-*.json')):
@@ -617,11 +726,13 @@ def main(argv=None):
     ap.add_argument('--staged', action='store_true',
                     help='also fail if genesis-woh/chapter-*.json is staged in git')
     ap.add_argument('--digest', type=int, metavar='N', help='print the layer-2 digest for chapter N')
+    ap.add_argument('--glossary', metavar='PATH',
+                    help='decoding glossary for the lens-3 checks (hook; checks are stubbed)')
     args = ap.parse_args(argv)
     if args.digest is not None:
         print(layer2_digest(args.root, args.digest))
         return 0
-    rep = validate(args.root, args.core_catalog, args.staged)
+    rep = validate(args.root, args.core_catalog, args.staged, args.glossary)
     for w in rep.warnings:
         print(f'WARNING {w}')
     for e in rep.errors:

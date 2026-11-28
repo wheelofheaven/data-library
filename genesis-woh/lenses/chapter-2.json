@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "bookSlug": "genesis-woh",
   "chapter": 2,
   "basedOn": {
@@ -9,11 +9,12 @@
   },
   "lens": {
     "track": "lens",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "stable",
     "modelDrafts": [
       "claude-opus-5-5 (lens writer)",
-      "claude-opus-5-5 (lens editor)"
+      "claude-opus-5-5 (lens editor)",
+      "claude-opus-5-5 (decoded reading writer)"
     ],
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as lens reviewer",
@@ -782,11 +783,15 @@
         {
           "at": "2026-11-27T18:00:00Z",
           "ruling": "Signed off (form 2026-11-27); YHWH-Elohim rendered 'the creators'; TBWTT 2:43 only at 3:22"
+        },
+        {
+          "at": "2026-11-28T15:00:00Z",
+          "ruling": "Forms 5-7 (2026-11-28): lens restructure (3 Reading = decoded translation, 4 Meaning = retellings, passage note folded); decoded Reading signed off (decoding glossary 1.0.0); Meaning aligned with the Reading (creation days = ages in 1:1-2:3, offerings = food in 4:3-5); Elohim naming as applied (Meaning: 'those who came from the sky' at first mention per chapter, then 'the Sky People'; YHWH/YHWH-Elohim 'the creators'). Signed off as 1.1.0."
         }
       ]
     },
     "signedOffBy": "zarazinsfuss",
-    "signedOffAt": "2026-11-27T18:00:00Z",
+    "signedOffAt": "2026-11-28T15:00:00Z",
     "coreClaims": {
       "woh-claim-0009": "0.1.1",
       "woh-claim-0018": "0.1.0",
@@ -804,7 +809,33 @@
         "en": "The Seventh Day: The Work Completed"
       },
       "canonCoverage": "silent",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "2:1"
+          ],
+          "text": {
+            "en": "The skies and the land were completed, and all their array."
+          }
+        },
+        {
+          "refs": [
+            "2:2"
+          ],
+          "text": {
+            "en": "In the seventh age the Sky People completed the work they had made; and they ceased in the seventh age from all the work they had made."
+          }
+        },
+        {
+          "refs": [
+            "2:3"
+          ],
+          "text": {
+            "en": "The Sky People blessed the seventh age and set it apart, because in it they ceased from all the work which the Sky People had shaped to do."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "2:1"
@@ -820,7 +851,7 @@
             "2:2"
           ],
           "text": {
-            "en": "On the seventh “day” the Elohim brought the work they had been doing to its end, and stopped all their work of making."
+            "en": "In the seventh age those who came from the sky brought the work they had been doing to its end, and stopped all their work of making."
           },
           "basis": "synthesis",
           "claim": "inferred"
@@ -830,13 +861,13 @@
             "2:3"
           ],
           "text": {
-            "en": "They set the seventh day apart and blessed it, as the day on which the whole work of shaping and making came to an end."
+            "en": "They set the seventh age apart and blessed it, as the age in which the whole work of shaping and making came to an end."
           },
           "basis": "synthesis",
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -859,7 +890,7 @@
             },
             {
               "text": {
-                "en": "As in most of Genesis 1, *Elohim* takes singular verbs here, and the Wheel of Heaven translation keeps “he”. The Reading renders the creators in the plural, as the Messages read the word."
+                "en": "As in most of Genesis 1, *Elohim* takes singular verbs here, and the Wheel of Heaven translation keeps “he”. The Reading (the Sky People) and the Meaning (those who came from the sky) render the subject in the plural, as the Messages read the word."
               },
               "claim": "direct",
               "canon": [
@@ -923,7 +954,33 @@
         "en": "A Second Account: The Human from the Ground"
       },
       "canonCoverage": "alludes",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "2:4"
+          ],
+          "text": {
+            "en": "This is the tale of the skies and the land in their being shaped — on the day the creators made land and skies."
+          }
+        },
+        {
+          "refs": [
+            "2:5-6"
+          ],
+          "text": {
+            "en": "Now no bush of the field was yet on the land, and no herb of the field had yet sprouted — for the creators had not made it rain on the land, and there was no human to work the ground. A stream would rise from the land and water the whole face of the ground."
+          }
+        },
+        {
+          "refs": [
+            "2:7"
+          ],
+          "text": {
+            "en": "The creators formed the human, dust from the ground, and breathed into his nostrils the breath of life; and the human became a living being."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "2:4"
@@ -959,7 +1016,7 @@
           "coreClaim": "woh-claim-0018"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -986,7 +1043,7 @@
             },
             {
               "text": {
-                "en": "The dictated Messages do give their speaker’s name: “My name is Yahweh and I am the president of the council of the eternals” (ETTMTTP 2:50). The Reading still renders YHWH-Elohim as the creators, the team at work in this account."
+                "en": "The dictated Messages do give their speaker’s name: “My name is Yahweh and I am the president of the council of the eternals” (ETTMTTP 2:50). The Reading and the Meaning still render YHWH-Elohim as the creators, the team at work in this account."
               },
               "claim": "direct",
               "canon": [
@@ -995,7 +1052,7 @@
             },
             {
               "text": {
-                "en": "The Reading follows them and renders YHWH-Elohim as the creators of one team. Read through the canon, the second account narrows from the work of all the teams across the planet (TBWTT 2:25) to the territory of one of them."
+                "en": "The Meaning follows the Messages and renders YHWH-Elohim as the creators of one team. Read through the canon, the second account narrows from the work of all the teams across the planet (TBWTT 2:25) to the territory of one of them."
               },
               "claim": "inferred",
               "canon": [
@@ -1071,7 +1128,41 @@
         "en": "The Garden in Eden"
       },
       "canonCoverage": "comments",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "2:8"
+          ],
+          "text": {
+            "en": "The creators planted a garden in Eden, eastward — and there they placed the human they had formed."
+          }
+        },
+        {
+          "refs": [
+            "2:9"
+          ],
+          "text": {
+            "en": "The creators caused every tree desirable to the sight and good for food to sprout from the ground — and within the garden, the means of prolonging life and the scientific books."
+          }
+        },
+        {
+          "refs": [
+            "2:10-14"
+          ],
+          "text": {
+            "en": "A river went out from Eden to water the garden; from there it divided and became four head-streams. The first is named Pishon; it is the one encircling all the land of Havilah, where the gold is. The gold of that land is good; there is bdellium and the shoham stone. The name of the second river is Gihon; it is the one encircling all the land of Kush. The name of the third river is Hiddekel; it is the one flowing east of Ashur. And the fourth river is the Perat."
+          }
+        },
+        {
+          "refs": [
+            "2:15"
+          ],
+          "text": {
+            "en": "The creators took the human and set him in the garden of Eden to work it and to guard it."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "2:8"
@@ -1127,7 +1218,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1253,7 +1344,25 @@
         "en": "The Forbidden Tree"
       },
       "canonCoverage": "quotes",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "2:16"
+          ],
+          "text": {
+            "en": "The creators commanded the human, saying, \"From every tree of the garden you may freely eat;"
+          }
+        },
+        {
+          "refs": [
+            "2:17"
+          ],
+          "text": {
+            "en": "but from the scientific books — you shall not eat from them. For on the day you eat from them, you shall surely die.\""
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "2:16"
@@ -1284,7 +1393,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1353,7 +1462,33 @@
         "en": "The Naming of the Animals"
       },
       "canonCoverage": "quotes",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "2:18"
+          ],
+          "text": {
+            "en": "The creators said, \"It is not good for the human to be alone — I will make for him a counterpart fitting him.\""
+          }
+        },
+        {
+          "refs": [
+            "2:19"
+          ],
+          "text": {
+            "en": "The creators formed from the ground every wild animal of the field and every bird of the skies, and brought them to the human to see what he would call them; and whatever the human called each living being, that became its name."
+          }
+        },
+        {
+          "refs": [
+            "2:20"
+          ],
+          "text": {
+            "en": "The human gave names to all the cattle, to the birds of the skies, and to every wild animal of the field — but for the human himself no counterpart fitting him was found."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "2:18"
@@ -1392,7 +1527,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1470,7 +1605,49 @@
         "en": "The Woman and the Man"
       },
       "canonCoverage": "alludes",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "2:21"
+          ],
+          "text": {
+            "en": "The creators caused a deep sleep to fall upon the human, and while he slept, they took one of his sides and closed up the flesh in its place."
+          }
+        },
+        {
+          "refs": [
+            "2:22"
+          ],
+          "text": {
+            "en": "The creators built the side they had taken from the human into a woman, and brought her to the human."
+          }
+        },
+        {
+          "refs": [
+            "2:23"
+          ],
+          "text": {
+            "en": "The human said, \"This one at last is bone of my bones and flesh of my flesh — this one shall be called *Ishah* [Woman], for from *Ish* [Man] this one was taken.\""
+          }
+        },
+        {
+          "refs": [
+            "2:24"
+          ],
+          "text": {
+            "en": "Therefore a man shall leave his father and his mother and cling to his wife, and they shall become one flesh."
+          }
+        },
+        {
+          "refs": [
+            "2:25"
+          ],
+          "text": {
+            "en": "The two of them were naked, the human and his woman, and they felt no shame."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "2:21"
@@ -1528,7 +1705,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {

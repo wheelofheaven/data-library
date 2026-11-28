@@ -2,129 +2,382 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://wheelofheaven.world/schemas/genesis-woh/lens-chapter.schema.json",
   "title": "Genesis four-lens reader: lens chapter file (genesis-woh/lenses/chapter-N.json)",
-  "description": "Layers 3 (Reading) and 4 (Meaning) for one Genesis chapter. Layers 1-2 stay in genesis-woh/chapter-N.json and are never edited by the lens track. Cross-file rules (verse coverage, canon refs, ADR 0018 standing, core claims, layer-2 digest) are enforced by scripts/validate_genesis_lenses.py.",
+  "description": "Lenses 3 (Reading: the decoded translation), 4 (Meaning: per-verse readings) and the per-passage note for one Genesis chapter. Lenses 1-2 stay in genesis-woh/chapter-N.json and are never edited by the lens track. Cross-file rules (verse coverage, canon refs, ADR 0018 standing, core claims, layer-2 digest) are enforced by scripts/validate_genesis_lenses.py. schemaVersion 2 (2026-11-28): readings -> meaning, explanation -> note, new decoded.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "bookSlug", "chapter", "basedOn", "lens", "passages"],
+  "required": [
+    "schemaVersion",
+    "bookSlug",
+    "chapter",
+    "basedOn",
+    "lens",
+    "passages"
+  ],
   "properties": {
-    "schemaVersion": { "const": 1 },
-    "bookSlug": { "const": "genesis-woh" },
-    "chapter": { "type": "integer", "minimum": 1, "maximum": 50 },
+    "schemaVersion": {
+      "const": 2
+    },
+    "bookSlug": {
+      "const": "genesis-woh"
+    },
+    "chapter": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50
+    },
     "basedOn": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["translationVersion", "layer2Digest", "canonMapVersion"],
+      "required": [
+        "translationVersion",
+        "layer2Digest",
+        "canonMapVersion"
+      ],
       "properties": {
-        "translationVersion": { "$ref": "#/$defs/semver", "description": "translation.version of genesis-woh/chapter-N.json" },
-        "layer2Digest": { "type": "string", "pattern": "^sha256:[0-9a-f]{64}$", "description": "validate_genesis_lenses.py --digest N" },
-        "canonMapVersion": { "$ref": "#/$defs/semver" }
+        "translationVersion": {
+          "$ref": "#/$defs/semver",
+          "description": "translation.version of genesis-woh/chapter-N.json"
+        },
+        "layer2Digest": {
+          "type": "string",
+          "pattern": "^sha256:[0-9a-f]{64}$",
+          "description": "validate_genesis_lenses.py --digest N"
+        },
+        "canonMapVersion": {
+          "$ref": "#/$defs/semver"
+        }
       }
     },
     "lens": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["track", "version", "status", "signedOffBy", "signedOffAt", "coreClaims"],
+      "required": [
+        "track",
+        "version",
+        "status",
+        "signedOffBy",
+        "signedOffAt",
+        "coreClaims"
+      ],
       "properties": {
-        "track": { "const": "lens" },
-        "version": { "$ref": "#/$defs/semver" },
-        "status": { "enum": ["draft", "editor-review", "reviewer-approved", "awaiting-human", "stable"] },
-        "modelDrafts": { "type": "array", "items": { "type": "string" } },
-        "reviewerReport": { "type": "object" },
-        "signedOffBy": { "type": ["string", "null"] },
-        "signedOffAt": { "type": ["string", "null"], "description": "ISO date or date-time" },
+        "track": {
+          "const": "lens"
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^\\d+\\.\\d+\\.\\d+(-[0-9A-Za-z]+(\\.[0-9A-Za-z]+)*)?$",
+          "description": "semver; a pre-release tag (\"1.1.0-rc1\") is allowed while the revision is under review, not on a stable lens"
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "editor-review",
+            "reviewer-approved",
+            "awaiting-human",
+            "stable"
+          ]
+        },
+        "modelDrafts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reviewerReport": {
+          "type": "object"
+        },
+        "signedOffBy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "signedOffAt": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "ISO date or date-time"
+        },
         "coreClaims": {
           "type": "object",
           "description": "Core claim ids this chapter binds, pinned to the version read: {\"woh-claim-0009\": \"0.2.0\"}",
-          "propertyNames": { "pattern": "^woh-claim-\\d{4}$" },
-          "additionalProperties": { "type": "string" }
+          "propertyNames": {
+            "pattern": "^woh-claim-\\d{4}$"
+          },
+          "additionalProperties": {
+            "type": "string"
+          }
         }
       },
-      "if": { "properties": { "status": { "const": "stable" } } },
+      "if": {
+        "properties": {
+          "status": {
+            "const": "stable"
+          }
+        }
+      },
       "then": {
         "properties": {
-          "signedOffBy": { "type": "string", "minLength": 1 },
-          "signedOffAt": { "type": "string", "minLength": 10 }
+          "signedOffBy": {
+            "type": "string",
+            "minLength": 1
+          },
+          "signedOffAt": {
+            "type": "string",
+            "minLength": 10
+          }
         }
       }
     },
-    "passages": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/passage" } }
+    "passages": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/passage"
+      }
+    }
   },
   "$defs": {
-    "semver": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
-    "verse": { "type": "string", "pattern": "^\\d+:\\d+$" },
+    "semver": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "verse": {
+      "type": "string",
+      "pattern": "^\\d+:\\d+$"
+    },
     "text": {
       "type": "object",
-      "required": ["en"],
-      "properties": { "en": { "type": "string", "minLength": 1 } },
-      "additionalProperties": { "type": "string" }
+      "required": [
+        "en"
+      ],
+      "properties": {
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": {
+        "type": "string"
+      }
     },
-    "claim": { "enum": ["direct", "framework", "inferred", "speculative"] },
+    "claim": {
+      "enum": [
+        "direct",
+        "framework",
+        "inferred",
+        "speculative"
+      ]
+    },
     "canonRef": {
       "oneOf": [
-        { "type": "string", "pattern": "^(TBWTT|ETTMTTP)-\\d+:\\d+$", "description": "Plain string only for canon-standing paragraphs" },
+        {
+          "type": "string",
+          "pattern": "^(TBWTT|ETTMTTP)-\\d+:\\d+$",
+          "description": "Plain string only for canon-standing paragraphs"
+        },
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["ref", "standing"],
+          "required": [
+            "ref",
+            "standing"
+          ],
           "properties": {
-            "ref": { "type": "string", "pattern": "^(TBWTT|ETTMTTP|LWTE)-\\d+:\\d+$" },
-            "standing": { "enum": ["canon", "narration", "check", "author-opinion"] }
+            "ref": {
+              "type": "string",
+              "pattern": "^(TBWTT|ETTMTTP|LWTE)-\\d+:\\d+$"
+            },
+            "standing": {
+              "enum": [
+                "canon",
+                "narration",
+                "check",
+                "author-opinion"
+              ]
+            }
           }
         }
       ]
     },
     "claimUnit": {
       "type": "object",
-      "required": ["text", "claim"],
+      "required": [
+        "text",
+        "claim"
+      ],
       "properties": {
-        "text": { "$ref": "#/$defs/text" },
-        "claim": { "$ref": "#/$defs/claim" },
-        "canon": { "type": "array", "items": { "$ref": "#/$defs/canonRef" } },
-        "coreClaim": { "type": "string", "pattern": "^woh-claim-\\d{4}$" }
+        "text": {
+          "$ref": "#/$defs/text"
+        },
+        "claim": {
+          "$ref": "#/$defs/claim"
+        },
+        "canon": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/canonRef"
+          }
+        },
+        "coreClaim": {
+          "type": "string",
+          "pattern": "^woh-claim-\\d{4}$"
+        }
       }
     },
-    "reading": {
-      "allOf": [{ "$ref": "#/$defs/claimUnit" }],
-      "required": ["refs", "text", "basis", "claim"],
+    "meaningUnit": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/claimUnit"
+        }
+      ],
+      "required": [
+        "refs",
+        "text",
+        "basis",
+        "claim"
+      ],
       "properties": {
         "refs": {
           "type": "array",
           "minItems": 1,
-          "items": { "type": "string", "pattern": "^\\d+:\\d+(-\\d+)?$" },
-          "description": "Verses this reading renders, \"C:V\" or \"C:V-W\"; every verse of the chapter is in exactly one reading"
+          "items": {
+            "type": "string",
+            "pattern": "^\\d+:\\d+(-\\d+)?$"
+          },
+          "description": "Verses this Meaning unit renders, \"C:V\" or \"C:V-W\"; every verse of the chapter is in exactly one Meaning unit, and each unit is one card in the reader"
         },
-        "basis": { "enum": ["canon", "synthesis"] }
+        "basis": {
+          "enum": [
+            "canon",
+            "synthesis"
+          ]
+        }
       }
     },
-    "segment": { "$ref": "#/$defs/claimUnit" },
+    "decodedUnit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "refs",
+        "text"
+      ],
+      "description": "Lens 3 (Reading): the literal sentence of these verses with the canon-decoded words swapped in. Plain text, no claim labels or canon refs; the reader does not mark the swapped words.",
+      "properties": {
+        "refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^\\d+:\\d+(-\\d+)?$"
+          },
+          "description": "Verses this decoded text renders, \"C:V\" or \"C:V-W\", inside the passage range. Once a chapter has any decoded unit, every verse of the chapter is in exactly one."
+        },
+        "text": {
+          "$ref": "#/$defs/text"
+        }
+      }
+    },
+    "segment": {
+      "$ref": "#/$defs/claimUnit"
+    },
     "passage": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "range", "title", "canonCoverage", "readings", "explanation"],
+      "required": [
+        "id",
+        "range",
+        "title",
+        "canonCoverage",
+        "decoded",
+        "meaning",
+        "note"
+      ],
       "properties": {
-        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
-        "range": { "type": "array", "prefixItems": [{ "$ref": "#/$defs/verse" }, { "$ref": "#/$defs/verse" }], "minItems": 2, "maxItems": 2 },
-        "title": { "$ref": "#/$defs/text" },
-        "canonCoverage": { "enum": ["quotes", "comments", "alludes", "silent"] },
-        "readings": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/reading" } },
-        "explanation": {
-          "type": "object",
-          "additionalProperties": false,
-          "required": ["paragraphs"],
-          "properties": {
-            "paragraphs": {
-              "type": "array",
-              "minItems": 1,
-              "items": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/segment" } }
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "range": {
+          "type": "array",
+          "prefixItems": [
+            {
+              "$ref": "#/$defs/verse"
             },
-            "visual": {
-              "type": "object",
-              "required": ["kind", "ref", "alt"],
-              "properties": {
-                "kind": { "type": "string" },
-                "ref": { "type": "string" },
-                "alt": { "$ref": "#/$defs/text" }
-              }
+            {
+              "$ref": "#/$defs/verse"
+            }
+          ],
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "title": {
+          "$ref": "#/$defs/text"
+        },
+        "canonCoverage": {
+          "enum": [
+            "quotes",
+            "comments",
+            "alludes",
+            "silent"
+          ]
+        },
+        "decoded": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/decodedUnit"
+          },
+          "description": "Lens 3; empty until written"
+        },
+        "meaning": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/meaningUnit"
+          },
+          "description": "Lens 4 (formerly readings)"
+        },
+        "note": {
+          "$ref": "#/$defs/note"
+        }
+      }
+    },
+    "note": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "paragraphs"
+      ],
+      "description": "The passage note (formerly lens 4 'explanation'): folded under the Meaning cards, opened with the note icon.",
+      "properties": {
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/segment"
+            }
+          }
+        },
+        "visual": {
+          "type": "object",
+          "required": [
+            "kind",
+            "ref",
+            "alt"
+          ],
+          "properties": {
+            "kind": {
+              "type": "string"
+            },
+            "ref": {
+              "type": "string"
+            },
+            "alt": {
+              "$ref": "#/$defs/text"
             }
           }
         }

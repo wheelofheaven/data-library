@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "bookSlug": "genesis-woh",
   "chapter": 4,
   "basedOn": {
@@ -9,14 +9,15 @@
   },
   "lens": {
     "track": "lens",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "stable",
     "modelDrafts": [
       "claude-opus-5-5 (lens writer)",
-      "claude-opus-5-5 (lens editor)"
+      "claude-opus-5-5 (lens editor)",
+      "claude-opus-5-5 (decoded reading writer)"
     ],
     "signedOffBy": "zarazinsfuss",
-    "signedOffAt": "2026-11-28T09:00:00Z",
+    "signedOffAt": "2026-11-28T15:00:00Z",
     "coreClaims": {
       "woh-claim-0008": "0.1.0",
       "woh-claim-0010": "0.1.0",
@@ -693,6 +694,10 @@
         {
           "at": "2026-11-28T09:00:00Z",
           "ruling": "Signed off (form 2026-11-28): all three speculative segments kept; bare YHWH rendered 'the creators' (ruling extended); TBWTT 2:25 race sentence stays out; TBWTT 2:89 held for Genesis 22."
+        },
+        {
+          "at": "2026-11-28T15:00:00Z",
+          "ruling": "Forms 5-7 (2026-11-28): lens restructure (3 Reading = decoded translation, 4 Meaning = retellings, passage note folded); decoded Reading signed off (decoding glossary 1.0.0); Meaning aligned with the Reading (creation days = ages in 1:1-2:3, offerings = food in 4:3-5); Elohim naming as applied (Meaning: 'those who came from the sky' at first mention per chapter, then 'the Sky People'; YHWH/YHWH-Elohim 'the creators'). Signed off as 1.1.0."
         }
       ]
     }
@@ -708,7 +713,25 @@
         "en": "The Births of Cain and Abel"
       },
       "canonCoverage": "silent",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "4:1"
+          ],
+          "text": {
+            "en": "The human knew his woman Chavvah, and she conceived and bore Cain. She said, \"I have made a man — YHWH himself!\""
+          }
+        },
+        {
+          "refs": [
+            "4:2"
+          ],
+          "text": {
+            "en": "She bore again — his brother Hevel. Hevel became a shepherd of flock, and Cain became a worker of the ground."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "4:1"
@@ -730,7 +753,7 @@
           "claim": "direct"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -741,7 +764,7 @@
             },
             {
               "text": {
-                "en": "In this Reading the Hebrew name *YHWH* is rendered as the creators. Chavvah’s saying is the first time in Genesis that a human being speaks the name; at 4:25 she speaks of *Elohim* instead."
+                "en": "Elsewhere the Reading renders the Hebrew name *YHWH* as the creators; here it keeps the literal “YHWH himself!”. Chavvah’s saying is the first time in Genesis that a human being speaks the name; at 4:25 she speaks of *Elohim* instead."
               },
               "claim": "direct"
             },
@@ -788,13 +811,31 @@
         "en": "The Offerings"
       },
       "canonCoverage": "quotes",
-      "readings": [
+      "decoded": [
         {
           "refs": [
             "4:3-4"
           ],
           "text": {
-            "en": "In time Cain brought some of the produce of the ground to the creators, and Abel brought the firstborn of his flock and their fat portions. The exiled creators, still under military surveillance, had urged the humans to bring them food, to show their superiors that the beings they had created were good and would never turn against their fathers. The creators looked with favour on Abel and on his offering,"
+            "en": "After some time, Cain brought from the fruit of the ground food to the creators. And Hevel also brought — from the firstborn of his flock, and from their fat portions. The creators looked favorably on Hevel and on his food;"
+          }
+        },
+        {
+          "refs": [
+            "4:5"
+          ],
+          "text": {
+            "en": "but on Cain and on his food they did not look favorably. Cain burned greatly, and his face fell."
+          }
+        }
+      ],
+      "meaning": [
+        {
+          "refs": [
+            "4:3-4"
+          ],
+          "text": {
+            "en": "In time Cain brought food to the creators from the produce of the ground, and Abel brought the firstborn of his flock and their fat portions. The exiled creators, still under military surveillance, had urged the humans to bring them food, to show their superiors that the beings they had created were good and would never turn against their fathers. The creators looked with favour on Abel and on his food,"
           },
           "basis": "canon",
           "claim": "framework",
@@ -809,13 +850,13 @@
             "4:5"
           ],
           "text": {
-            "en": "but on Cain and his offering they did not look with favour. Cain burned with anger, and his face fell."
+            "en": "but on Cain and his food they did not look with favour. Cain burned with anger, and his face fell."
           },
           "basis": "synthesis",
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -873,7 +914,7 @@
             },
             {
               "text": {
-                "en": "The Messages do not comment on verse 5: their quotation stops before the verdict, and they give no reason why Cain’s gift was not accepted. On their reading the regard would be the exiled creators’ acceptance of the food brought to them. This Reading does not supply a reason for the refusal."
+                "en": "The Messages do not comment on verse 5: their quotation stops before the verdict, and they give no reason why Cain’s gift was not accepted. On their reading the regard would be the exiled creators’ acceptance of the food brought to them. The Meaning does not supply a reason for the refusal."
               },
               "claim": "inferred",
               "canon": [
@@ -904,7 +945,17 @@
         "en": "Sin Crouching at the Door"
       },
       "canonCoverage": "silent",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "4:6-7"
+          ],
+          "text": {
+            "en": "The creators said to Cain, \"Why have you burned, and why has your face fallen? Is it not so: if you do well, lifting; and if you do not do well, sin couches at the door — and its longing is for you, but you shall rule over it.\""
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "4:6-7"
@@ -916,7 +967,7 @@
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -971,7 +1022,57 @@
         "en": "The Killing of Abel and the Sign for Cain"
       },
       "canonCoverage": "silent",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "4:8"
+          ],
+          "text": {
+            "en": "Cain spoke to his brother Hevel. And while they were in the field, Cain rose up against his brother Hevel and killed him."
+          }
+        },
+        {
+          "refs": [
+            "4:9-10"
+          ],
+          "text": {
+            "en": "The creators said to Cain, \"Where is Hevel your brother?\" And he said, \"I do not know — am I my brother's keeper?\" They said, \"What have you done? The voice of your brother's bloods cries out to me from the ground.\""
+          }
+        },
+        {
+          "refs": [
+            "4:11-12"
+          ],
+          "text": {
+            "en": "And now, cursed are you, from the ground which opened its mouth to take your brother's bloods from your hand. When you work the ground, it shall no longer give its strength to you; a wanderer and a fugitive you shall be on the land."
+          }
+        },
+        {
+          "refs": [
+            "4:13-14"
+          ],
+          "text": {
+            "en": "Cain said to the creators, \"My iniquity is too great to bear.\" Behold, you have driven me out today from the face of the ground, and from your face I shall be hidden; I shall be a wanderer and a fugitive on the land, and anyone who finds me will kill me."
+          }
+        },
+        {
+          "refs": [
+            "4:15"
+          ],
+          "text": {
+            "en": "The creators said to him, \"Therefore — whoever kills Cain, he will be avenged sevenfold.\" And the creators placed for Cain a sign, so that no one who found him would strike him."
+          }
+        },
+        {
+          "refs": [
+            "4:16"
+          ],
+          "text": {
+            "en": "Cain went out from the presence of the creators, and settled in the land of Nod, east of Eden."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "4:8"
@@ -1033,7 +1134,7 @@
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1099,7 +1200,7 @@
             },
             {
               "text": {
-                "en": "The Messages do not comment on the sign, and this Reading offers no explanation of what it was."
+                "en": "The Messages do not comment on the sign, and the Meaning offers no explanation of what it was."
               },
               "claim": "direct"
             }
@@ -1135,7 +1236,41 @@
         "en": "Cain’s Line and the Song of Lamech"
       },
       "canonCoverage": "silent",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "4:17"
+          ],
+          "text": {
+            "en": "Cain knew his wife, and she conceived and bore Hanokh. And he was building a city, and he called the name of the city after the name of his son — Hanokh."
+          }
+        },
+        {
+          "refs": [
+            "4:18"
+          ],
+          "text": {
+            "en": "To Hanokh was born Irad; and Irad fathered Mehuyael; and Mehuyael fathered Methushael; and Methushael fathered Lamech."
+          }
+        },
+        {
+          "refs": [
+            "4:19-22"
+          ],
+          "text": {
+            "en": "Lamech took for himself two wives: the name of the first was Adah, and the name of the second Tzillah. Adah bore Yaval; he was the ancestor of those who dwell in tents and have livestock. And his brother's name was Yuval; he was the ancestor of all who take up the lyre and the pipe. And Tzillah also bore — Tuval-Cain, forger of every cutting-tool of bronze and iron. And Tuval-Cain's sister was Na'amah."
+          }
+        },
+        {
+          "refs": [
+            "4:23-24"
+          ],
+          "text": {
+            "en": "Lamech said to his wives, \"Adah and Tzillah, hear my voice — wives of Lamech, listen to my speech: for a man I have killed for my wounding, and a child for my bruising. If Cain is avenged sevenfold, then Lamech seventy-and-seven.\""
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "4:17"
@@ -1177,7 +1312,7 @@
           "claim": "direct"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1265,13 +1400,31 @@
         "en": "Seth and the Calling on the Name"
       },
       "canonCoverage": "silent",
-      "readings": [
+      "decoded": [
         {
           "refs": [
             "4:25"
           ],
           "text": {
-            "en": "Adam knew his wife again, and she bore a son and named him Shet (Seth): the Elohim, she said, had appointed her another child in place of Abel, whom Cain had killed."
+            "en": "Adam knew his wife again, and she bore a son. She called his name Shet — \"for the Sky People have appointed for me another seed in place of Hevel, since Cain killed him.\""
+          }
+        },
+        {
+          "refs": [
+            "4:26"
+          ],
+          "text": {
+            "en": "And to Shet also a son was born, and he called his name Enosh. Then it began to be called on the name of the creators."
+          }
+        }
+      ],
+      "meaning": [
+        {
+          "refs": [
+            "4:25"
+          ],
+          "text": {
+            "en": "Adam knew his wife again, and she bore a son and named him Shet (Seth): those who came from the sky, she said, had appointed her another child in place of Abel, whom Cain had killed."
           },
           "basis": "synthesis",
           "claim": "direct"
@@ -1287,7 +1440,7 @@
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -1322,7 +1475,7 @@
             },
             {
               "text": {
-                "en": "The Messages do not comment on this verse, and this Reading does not identify the practice it names."
+                "en": "The Messages do not comment on this verse, and the Meaning does not identify the practice it names."
               },
               "claim": "direct"
             },

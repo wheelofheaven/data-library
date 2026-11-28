@@ -1,0 +1,1172 @@
+{
+  "version": "1.0.0",
+  "status": "stable",
+  "bookSlug": "genesis-woh",
+  "scope": "Genesis 1-11, lens 3 (decoded Reading)",
+  "created": "2026-11-28",
+  "basis": "Dictated canon only (ADR 0018): TBWTT Yahweh paragraphs and ETTMTTP chapter 2 Yahweh paragraphs. LWTE and ETTMTTP chapter 3 are author opinion and ground no entry. Quotes are verbatim from data-library (EN i18n.en, FR text).",
+  "rules": {
+    "selection": "An entry exists only where a dictated paragraph states what the Genesis term is. Where the canon decodes partly (paraphrase, or a gloss not attached to the quoted verse) the entry is labelled inferred and flagged in notes.",
+    "applicationOrder": [
+      "yhwh",
+      "benei-ha-elohim",
+      "elohim",
+      "the remaining entries in any order"
+    ],
+    "agreement": "After a swap, fix pronoun and verb agreement in the same sentence only (he->they etc. where the antecedent is the decoded term). Antecedents need a human check: verses with Elohim/YHWH plus he/his/him: 1:3-1:31 (passim), 2:2-2:22, 3:1-3:23, 4:1-4:26, 5:1, 5:22-29, 6:3-6:22, 7:1-7:16, 8:1-8:21, 9:1-9:27, 10:9, 11:6-11:9.",
+    "noMarking": "Founder ruling 2026-11-28: swapped words carry no visual marking in the Reading."
+  },
+  "entries": [
+    {
+      "id": "elohim",
+      "hebrew": {
+        "pointed": "אֱלֹהִים",
+        "translit": "Elohim (ʾĕlōhîm)"
+      },
+      "layer2": [
+        "the Elohim",
+        "The Elohim",
+        "Elohim (bare, 5:1 'in the likeness of Elohim'; 9:26 'Elohim of Shem')"
+      ],
+      "rendering": "the Sky People",
+      "variants": {
+        "the Elohim / The Elohim": "the Sky People / The Sky People",
+        "Elohim (bare)": "the Sky People",
+        "the Elohim's (possessive, if it occurs)": "the Sky People's",
+        "like the Elohim (3:5)": "like the Sky People",
+        "agreement": "Plural agreement: narrative he/his/him/himself whose antecedent is the Elohim -> they/their/them/themselves; singular verbs -> plural (3:1 'Has the Elohim really said' -> 'Have the Sky People really said'; 3:3 'has said' -> 'have said'; 3:5 'knows' -> 'know'; 4:25 'has appointed' -> 'have appointed'). First-person singular inside direct speech stays as printed pending openQuestions Q2."
+      },
+      "scope": {
+        "applies": "Every occurrence in Gen 1-11 (53x 'the Elohim' incl. sentence-initial, plus bare 5:1 and 9:26). Not applied inside 'YHWH-Elohim' (entry yhwh takes precedence) or inside 'sons of the Elohim' (entry benei-ha-elohim takes precedence).",
+        "exceptions": "None in Gen 1-11: every Elohim there denotes the creators. For the later Genesis lenses the literal sense must stay where elohim means household or foreign gods: 31:30, 31:32 ('my elohim', 'your elohim', Laban's teraphim), 35:2, 35:4 ('the foreign elohim'); layer 2 prints these lower-case."
+      },
+      "canon": [
+        "TBWTT-2:5",
+        "TBWTT-3:251",
+        "TBWTT-7:33"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:5",
+          "en": "Elohim, unjustly translated in some Bibles as God, means in Hebrew “those who came from the sky,” and it is indeed in the plural. This means that the scientists from our world first sought the planet that seemed to them most suitable for carrying out their projects.",
+          "fr": "Elohim, injustement traduit dans certaines Bibles par Dieu, veut dire en Hébreu «ceux qui sont venus du ciel» et est bel et bien au pluriel. Cela veut dire que les scientifiques issus de notre monde ont d’abord recherché la planète leur paraissant la plus apte à la réalisation de leurs projets."
+        },
+        {
+          "ref": "TBWTT-7:33",
+          "en": "If you want to give us a name, although we call ourselves men in our language, you can call us «Elohim», since we have «come from the sky».",
+          "fr": "Si vous voulez nous donner un nom, bien que nous nous appelions des hommes dans notre langue, vous pouvez nous appeler des «Elohim» puisque nous sommes «venus du ciel»."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0001",
+        "woh-claim-0009"
+      ],
+      "notes": "Founder ruling 2026-11-28: decoded Reading = 'the Sky People'; the Meaning lens uses 'those who came from the sky' at first mention per chapter, then 'the Sky People'. The canon's gloss is a canonical rendering, not the consensus lexical derivation (claim 0009 records this). TBWTT-3:251 repeats the gloss (\"Elohim, that means literally «those come from the sky» in Hebrew\"). At 3:5 TBWTT-2:34 prints 'ye shall be as gods' but TBWTT-2:35 decodes it as being 'as strong as their creators', so 'like the Sky People' is canon-backed.",
+      "samples": [
+        {
+          "verse": "1:1",
+          "before": "When the Elohim began to shape the skies and the land—",
+          "after": "When the Sky People began to shape the skies and the land—"
+        },
+        {
+          "verse": "1:27",
+          "before": "And the Elohim shaped humankind in their image; in the image of the Elohim they shaped him; male and female they shaped them.",
+          "after": "And the Sky People shaped humankind in their image; in the image of the Sky People they shaped him; male and female they shaped them."
+        },
+        {
+          "verse": "3:5",
+          "before": "For the Elohim knows that on the day you eat from it your eyes will be opened, and you will be like the Elohim, knowing good and bad.\"",
+          "after": "For the Sky People know that on the day you eat from it your eyes will be opened, and you will be like the Sky People, knowing good and bad.\""
+        }
+      ]
+    },
+    {
+      "id": "yhwh",
+      "hebrew": {
+        "pointed": "יְהוָה ; יְהוָה אֱלֹהִים",
+        "translit": "YHWH ; YHWH Elohim"
+      },
+      "layer2": [
+        "YHWH-Elohim",
+        "YHWH"
+      ],
+      "rendering": "the creators",
+      "variants": {
+        "YHWH-Elohim / YHWH (sentence-initial)": "The creators",
+        "agreement": "he/his/him/himself with YHWH as antecedent -> they/their/them/themselves; 'was' -> 'were' (6:6 'he was grieved to his heart' -> 'they were grieved to their heart'); 'YHWH said in his heart' (8:21) -> 'the creators said in their heart'.",
+        "9:26 'YHWH, Elohim of Shem'": "the creators, the Sky People of Shem (see openQuestions Q10)"
+      },
+      "scope": {
+        "applies": "All 50 occurrences in Gen 2:4-11:9 (20x YHWH-Elohim in Gen 2-3, 30x bare YHWH in 4:1-11:9). Apply before the elohim entry.",
+        "exceptions": "Proposed, founder to decide (Q10): 4:1 'YHWH himself!' (Hebrew crux et-YHWH; canon silent; mechanical swap gives 'the creators themselves!'). Verbatim canon quotes printing 'Yahweh' stay as printed."
+      },
+      "canon": [
+        "TBWTT-2:38",
+        "TBWTT-2:39",
+        "TBWTT-2:47",
+        "TBWTT-2:48",
+        "TBWTT-2:65",
+        "TBWTT-2:66",
+        "TBWTT-2:75",
+        "TBWTT-2:76",
+        "TBWTT-7:56",
+        "ETTMTTP-2:50"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:48",
+          "en": "The exiled creators, who remained under military surveillance, urged the men to bring them food in order to show their superiors that the beings they had created were good and would never turn against their fathers.",
+          "fr": "Les créateurs exilés, qui restaient sous surveillance militaire, poussèrent les hommes à leur amener de la nourriture afin de montrer à leurs supérieurs que les êtres qu’ils avaient créés étaient bons et ne se retourneraient jamais contre leurs pères."
+        },
+        {
+          "ref": "TBWTT-2:66",
+          "en": "The creators were happy to see that the men wished them well, and promised never to try to destroy them in the future, for they had understood that it was normal for them to want to make progress.",
+          "fr": "Les créateurs furent heureux de voir que les hommes leur voulaient du bien et promirent de ne jamais essayer de les détruire à l’avenir, car ils avaient compris qu’il était normal qu’ils veuillent faire des progrès."
+        },
+        {
+          "ref": "TBWTT-2:39",
+          "en": "The “serpent”—that small group of creators who had wanted to teach Adam and Eve the truth—was condemned by the government of the original planet to live on Earth in exile, while the other creators had to stop their experiments and leave the Earth.",
+          "fr": "Le «serpent», ce petit groupe de créateurs qui avait voulu apprendre la vérité à Adam et Ève, était condamné par le gouvernement de la planète originelle à vivre sur Terre en exil tandis que les autres créateurs devaient stopper leurs expériences et quitter la Terre."
+        },
+        {
+          "ref": "TBWTT-7:56",
+          "en": "I myself directed the creation of life on the Earth.",
+          "fr": "J’ai moi-même dirigé la création de la vie sur la Terre."
+        },
+        {
+          "ref": "ETTMTTP-2:50",
+          "en": "My name is Yahweh and I am the president of the council of the eternals.",
+          "fr": "Mon nom est Iahvé et je suis le président du conseil des éternels."
+        }
+      ],
+      "claim": "inferred",
+      "coreClaim": [
+        "woh-claim-0028"
+      ],
+      "notes": "PARTIAL DECODING, flagged. The canon never glosses the name YHWH inside Genesis. Every time it quotes a Genesis YHWH verse it paraphrases the actor as the creators: 4:3-4 'unto Yahweh' -> 'the exiled creators' (2:47-48); 8:20 'unto Yahweh' -> 'The creators were happy' (2:65-66); 6:5 'Yahweh saw' -> 'Good, for them' (2:56-57); 11:8 'Yahweh scattered them' -> 'They came' = the people of the planet (2:74-76); 3:14 'Yahweh Elohim said unto the serpent' -> condemned 'by the government of the original planet' while 'the other creators had to stop their experiments' (2:38-39). So for those five verses 'the creators' is framework; extending it to all 50 occurrences is inferred. Separately the canon names Yahweh as an individual, the president of the Council of the Eternals, who 'directed the creation of life on the Earth' (TBWTT-7:56; ETTMTTP-2:50; claim 0028), but it never attributes a Genesis YHWH act to that individual; the individual reading of 3:14 appears only in LWTE-2:24 (author opinion, cannot ground). Note the canon's referent shifts (government, majority, exiles), which the collective 'the creators' covers and an individual name would not. Matches the earlier founder ruling (2026-11-27/28: YHWH and YHWH-Elohim = 'the creators' in lenses 3-4). See openQuestions Q1.",
+      "samples": [
+        {
+          "verse": "2:7",
+          "before": "YHWH-Elohim formed the human, dust from the ground, and breathed into his nostrils the breath of life; and the human became a living being.",
+          "after": "The creators formed the human, dust from the ground, and breathed into his nostrils the breath of life; and the human became a living being."
+        },
+        {
+          "verse": "6:6",
+          "before": "YHWH regretted that he had made the human on the land, and he was grieved to his heart.",
+          "after": "The creators regretted that they had made the human on the land, and they were grieved to their heart."
+        },
+        {
+          "verse": "11:8",
+          "before": "YHWH scattered them from there upon the face of the whole land, and they ceased to build the city.",
+          "after": "The creators scattered them from there upon the face of the whole land, and they ceased to build the city."
+        }
+      ]
+    },
+    {
+      "id": "benei-ha-elohim",
+      "hebrew": {
+        "pointed": "בְּנֵי־הָאֱלֹהִים",
+        "translit": "benei ha-Elohim"
+      },
+      "layer2": [
+        "the sons of the Elohim"
+      ],
+      "rendering": "the creators in exile",
+      "variants": {},
+      "scope": {
+        "applies": "6:2, 6:4. Apply before the elohim entry.",
+        "exceptions": "None. 'the daughters of the human' stays literal: the canon keeps 'the daughters of men' (TBWTT-2:51, 2:55)."
+      },
+      "canon": [
+        "TBWTT-2:50",
+        "TBWTT-2:51",
+        "TBWTT-2:54",
+        "TBWTT-2:55",
+        "TBWTT-3:251"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:51",
+          "en": "The creators in exile took from the men their most beautiful daughters and made them their wives.",
+          "fr": "Les créateurs en exil prirent aux hommes leurs filles les plus belles et en firent leurs femmes."
+        },
+        {
+          "ref": "TBWTT-2:55",
+          "en": "There you have the proof that the creators could mate with the daughters of the men they had created in their image and have exceptional children by them.",
+          "fr": "Vous avez là, la preuve que les créateurs pouvaient s’accoupler avec les filles des hommes qu’ils avaient créés à leur image et en avoir des enfants exceptionnels."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0012",
+        "woh-claim-0008"
+      ],
+      "notes": "TBWTT-2:50 quotes Gen 6:1-2 and 2:51 decodes the subject directly. TBWTT-3:251 (on Job 1:6) gives the general sense: 'The sons of Elohim, therefore the creators who watch over men'; 'in exile' is the Gen 6 specific. ETTMTTP-2:104 and 2:123 (dictated, flagged sensitive in canon-map) add the descent of the Jewish people from these unions (claim 0076); that belongs in a Meaning note after editorial review, not in the Reading. Mechanical alternative 'the sons of the Sky People' is rejected because the canon decodes the whole phrase.",
+      "samples": [
+        {
+          "verse": "6:2",
+          "before": "the sons of the Elohim saw that the daughters of the human were good; and they took wives for themselves — any they chose.",
+          "after": "the creators in exile saw that the daughters of the human were good; and they took wives for themselves — any they chose."
+        },
+        {
+          "verse": "6:4",
+          "before": "The Nephilim were on the land in those days — and also afterward, when the sons of the Elohim came in to the daughters of the human and they bore to them. These were the mighty ones who were from of old, men of name.",
+          "after": "The Nephilim were on the land in those days — and also afterward, when the creators in exile came in to the daughters of the human and they bore to them. These were the mighty ones who were from of old, men of name."
+        }
+      ]
+    },
+    {
+      "id": "yom-creation-day",
+      "hebrew": {
+        "pointed": "יוֹם",
+        "translit": "yom"
+      },
+      "layer2": [
+        "day one",
+        "day two",
+        "day three",
+        "day four",
+        "day five",
+        "the sixth day",
+        "the seventh day"
+      ],
+      "rendering": "age",
+      "variants": {
+        "day one ... day five": "age one ... age five",
+        "the sixth day": "the sixth age",
+        "the seventh day": "the seventh age",
+        "on the seventh day (2:2 twice)": "in the seventh age",
+        "on it (2:3, referring to the seventh day)": "in it"
+      },
+      "scope": {
+        "applies": "Only the numbered creation days: 1:5, 1:8, 1:13, 1:19, 1:23, 1:31 (framework); 2:2, 2:3 (seventh day: inferred extension, canon silent on Gen 2:1-3).",
+        "exceptions": "Literal 'day' stays: 1:5 'called the light Day' and 1:14-18 'the day and the night' (daylight); 2:4, 2:17, 3:5, 5:1-2 'on the day' (beyom = when); 3:8 'the breeze of the day'; 3:14, 3:17 'all the days of your life'; 7:4ff, 8:3ff calendar days; 8:22 'day and night'; 8:14 'seventh day of the month' (Gen 8:4)."
+      },
+      "canon": [
+        "TBWTT-2:9",
+        "TBWTT-2:10"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:10",
+          "en": "These studies took a fair amount of time. The “day” corresponds to the period during which your sun rises under the same sign on the day of the spring equinox—that is, about two thousand Earth years.",
+          "fr": "Ces études prirent pas mal de temps. Le «jour» correspond à la période pendant laquelle votre soleil se lève sous le même signe le jour de l’équinoxe de printemps, soit deux mille ans terrestres environ."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0039",
+        "woh-claim-0059"
+      ],
+      "notes": "The canon decodes the unit explicitly: a 'day' is the span in which the sun rises under one sign at the spring equinox, 'about two thousand Earth years', i.e. one precessional age. Number caution (canon-map): the canon figure is ~2,000 years; claim 0059's ~2,160 is the corpus lattice, label it framework and cite the canon figure first. 'evening' and 'morning' stay literal (the canon does not decode them). 'age' avoids the site's banned 'astrological ages'. See openQuestions Q3.",
+      "samples": [
+        {
+          "verse": "1:5",
+          "before": "And the Elohim called the light Day, and the darkness he called Night. And there was evening and there was morning, day one.",
+          "after": "And the Sky People called the light Day, and the darkness they called Night. And there was evening and there was morning, age one."
+        },
+        {
+          "verse": "1:31",
+          "before": "And the Elohim saw all that he had made, and behold, it was very good. And there was evening and there was morning, the sixth day.",
+          "after": "And the Sky People saw all that they had made, and behold, it was very good. And there was evening and there was morning, the sixth age."
+        },
+        {
+          "verse": "2:2",
+          "before": "On the seventh day the Elohim completed the work he had made; and he ceased on the seventh day from all the work he had made.",
+          "after": "In the seventh age the Sky People completed the work they had made; and they ceased in the seventh age from all the work they had made."
+        }
+      ]
+    },
+    {
+      "id": "waters-above-below",
+      "hebrew": {
+        "pointed": "הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ ; הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ",
+        "translit": "ha-mayim asher me'al la-raqia ; ha-mayim asher mitachat la-raqia"
+      },
+      "layer2": [
+        "the waters which were above the dome",
+        "the waters which were under the dome",
+        "waters and waters (1:6)"
+      ],
+      "rendering": "the clouds (waters above) ; the ocean (waters below)",
+      "variants": {
+        "the waters which were under the dome (1:7)": "the ocean which was under the dome",
+        "the waters which were above the dome (1:7)": "the clouds which were above the dome",
+        "between waters and waters (1:6)": "between ocean and clouds (inferred: the command form is not quoted)"
+      },
+      "scope": {
+        "applies": "1:7 (framework); 1:6b (inferred).",
+        "exceptions": "'the dome' (raqia) itself stays literal (see rejected). 1:2 'the waters', 1:9 'the waters under the skies', 1:20-22, and all Flood waters stay literal."
+      },
+      "canon": [
+        "TBWTT-2:11",
+        "TBWTT-2:12"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:12",
+          "en": "After studying cosmic radiation above the clouds, they descended below the clouds while remaining above the water. Between the waters above—the clouds—and the waters below—the ocean covering the whole Earth.",
+          "fr": "Après avoir étudié le rayonnement cosmique au-dessus des nuages, ils descendirent au-dessous des nuages, tout en restant au-dessus de l’eau. Entre les eaux d’en haut : les nuages, et les eaux d’en bas : l’océan recouvrant toute la Terre."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0039"
+      ],
+      "notes": "TBWTT-2:11 quotes Gen 1:7 and 2:12 names both bodies of water. The canon decodes the two waters, not the dome between them.",
+      "samples": [
+        {
+          "verse": "1:7",
+          "before": "And the Elohim made the dome, and separated between the waters which were under the dome and the waters which were above the dome. And it was so.",
+          "after": "And the Sky People made the dome, and separated between the ocean which was under the dome and the clouds which were above the dome. And it was so."
+        },
+        {
+          "verse": "1:6",
+          "before": "And the Elohim said, \"Let there be a dome in the midst of the waters, and let it separate between waters and waters.\"",
+          "after": "And the Sky People said, \"Let there be a dome in the midst of the waters, and let it separate between ocean and clouds.\""
+        }
+      ]
+    },
+    {
+      "id": "yabbashah-single-continent",
+      "hebrew": {
+        "pointed": "הַיַּבָּשָׁה",
+        "translit": "ha-yabbashah"
+      },
+      "layer2": [
+        "the dry ground"
+      ],
+      "rendering": "the single continent",
+      "variants": {},
+      "scope": {
+        "applies": "1:9, 1:10 only.",
+        "exceptions": "7:22 'the dry ground' (charavah, a different word, post-Flood) stays literal. 'Land' (the name given in 1:10) and eretz elsewhere stay literal."
+      },
+      "canon": [
+        "TBWTT-2:13",
+        "TBWTT-2:14"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:14",
+          "en": "they arranged for matter to be removed from the bottom of the seas and gathered in the same place, which formed a continent. Originally there was only one continent on Earth",
+          "fr": "fait en sorte que de la matière soit enlevée du fond des mers et qu’elle s’amasse au même endroit, ce qui forma un continent. À l’origine, il n’y avait qu’un continent sur la Terre"
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0039",
+        "woh-claim-0071"
+      ],
+      "notes": "TBWTT-2:13 quotes Gen 1:9 ('let the dry land appear'); 2:14 decodes the dry land as the one original continent. The 'gathering of the waters' in 1:9 stays literal: the canon has matter, not water, gathered.",
+      "samples": [
+        {
+          "verse": "1:9",
+          "before": "And the Elohim said, \"Let the waters under the skies be gathered to one place, and let the dry ground appear.\" And it was so.",
+          "after": "And the Sky People said, \"Let the waters under the skies be gathered to one place, and let the single continent appear.\" And it was so."
+        },
+        {
+          "verse": "1:10",
+          "before": "And the Elohim called the dry ground Land, and the gathering of the waters he called Seas. And the Elohim saw that it was good.",
+          "after": "And the Sky People called the single continent Land, and the gathering of the waters they called Seas. And the Sky People saw that it was good."
+        }
+      ]
+    },
+    {
+      "id": "etz-ha-daat",
+      "hebrew": {
+        "pointed": "עֵץ הַדַּעַת טוֹב וָרָע",
+        "translit": "etz ha-da'at tov va-ra"
+      },
+      "layer2": [
+        "the tree of knowing good and bad"
+      ],
+      "rendering": "the scientific books",
+      "variants": {
+        "from it (2:17, twice, antecedent the tree)": "from them"
+      },
+      "scope": {
+        "applies": "The named tree: 2:9, 2:17.",
+        "exceptions": "The unnamed 'tree' in 3:3, 3:6, 3:11, 3:12, 3:17 and 'eat from it' in 3:5 stay literal (the canon quotes 3:1-5 but decodes the tree only by name); see openQuestions Q4. 'eat' stays: TBWTT-3:169 itself calls the eating an image."
+      },
+      "canon": [
+        "TBWTT-2:29",
+        "TBWTT-2:30",
+        "TBWTT-3:169"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:30",
+          "en": "Which means: you may learn everything you want, read all the books we have here at your disposal, but do not touch the scientific books or you will die.",
+          "fr": "Ce qui veut dire : tu peux apprendre tout ce que tu voudras, lire tous les livres que nous avons ici à ta disposition, mais ne touche pas aux livres scientifiques sinon tu mourrais."
+        },
+        {
+          "ref": "TBWTT-3:169",
+          "en": "It is an image similar to «eating» of the tree of the knowledge of good and evil. It is in fact a matter of intellectual «food».",
+          "fr": "C’est une image semblable au fait de «manger» de l’arbre de la science du bien et du mal. Il s’agit en fait d’une «nourriture» intellectuelle."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0018"
+      ],
+      "notes": "TBWTT-2:29 quotes Gen 2:16-17; 2:30 decodes the tree as 'the scientific books'; TBWTT-2:37 repeats it ('forbidden them to touch the scientific books'). Alternative keeping the image: 'the tree of scientific knowledge' (Q4).",
+      "samples": [
+        {
+          "verse": "2:17",
+          "before": "but from the tree of knowing good and bad — you shall not eat from it. For on the day you eat from it, you shall surely die.\"",
+          "after": "but from the scientific books — you shall not eat from them. For on the day you eat from them, you shall surely die.\""
+        },
+        {
+          "verse": "2:9",
+          "before": "YHWH-Elohim caused every tree desirable to the sight and good for food to sprout from the ground — and within the garden, the tree of life and the tree of knowing good and bad.",
+          "after": "The creators caused every tree desirable to the sight and good for food to sprout from the ground — and within the garden, the means of prolonging life and the scientific books."
+        }
+      ]
+    },
+    {
+      "id": "etz-ha-chayyim",
+      "hebrew": {
+        "pointed": "עֵץ הַחַיִּים",
+        "translit": "etz ha-chayyim"
+      },
+      "layer2": [
+        "the tree of life"
+      ],
+      "rendering": "the means of prolonging life",
+      "variants": {},
+      "scope": {
+        "applies": "2:9, 3:22, 3:24.",
+        "exceptions": "None."
+      },
+      "canon": [
+        "TBWTT-2:42",
+        "TBWTT-2:43",
+        "TBWTT-2:49",
+        "TBWTT-2:53"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:43",
+          "en": "Men’s lives are very short, and there is a scientific means of prolonging them for a very long time.",
+          "fr": "La vie des hommes est très courte et il existe un moyen scientifique de la prolonger très longtemps."
+        },
+        {
+          "ref": "TBWTT-2:49",
+          "en": "They thus obtained that the chiefs of these first men be granted the benefit of the “tree of life,” which explains why they lived so long",
+          "fr": "Ils obtinrent ainsi qu’on fasse bénéficier les chefs de ces premiers hommes de «l’arbre de vie», ce qui explique que ceux-ci vécurent si longtemps"
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0029"
+      ],
+      "notes": "TBWTT-2:42 quotes Gen 3:22 and 2:43 decodes the tree as a scientific means of long life. The canon itself keeps 'tree of life' in quotation marks as a name (2:49, 2:53, 4:75); the Reading uses the decoded phrase, the Meaning lens may keep the canon's quoted name.",
+      "samples": [
+        {
+          "verse": "3:22",
+          "before": "YHWH-Elohim said, \"Behold, the human has become like one of us, knowing good and bad. And now, lest he reach out his hand and take also from the tree of life, and eat, and live forever—\"",
+          "after": "The creators said, \"Behold, the human has become like one of us, knowing good and bad. And now, lest he reach out his hand and take also from the means of prolonging life, and eat, and live forever—\""
+        },
+        {
+          "verse": "3:24",
+          "before": "He drove out the human, and placed at the east of the garden of Eden the cherubim and the flaming blade that turns itself, to guard the way to the tree of life.",
+          "after": "They drove out the human, and placed at the east of the creators' residence the military personnel and the disintegrating atomic weapon that turns itself, to guard the way to the means of prolonging life."
+        }
+      ]
+    },
+    {
+      "id": "nachash",
+      "hebrew": {
+        "pointed": "הַנָּחָשׁ",
+        "translit": "ha-nachash"
+      },
+      "layer2": [
+        "the serpent",
+        "The serpent"
+      ],
+      "rendering": "the small group of creators",
+      "variants": {
+        "agreement": "he -> they (3:1 'He said to the woman' -> 'They said to the woman'); verbs stay singular after 'group' ('was shrewder'). 'you/your seed' in 3:14-15 unchanged."
+      },
+      "scope": {
+        "applies": "3:1, 3:2, 3:4, 3:13, 3:14.",
+        "exceptions": "None in Gen 1-11."
+      },
+      "canon": [
+        "TBWTT-2:34",
+        "TBWTT-2:38",
+        "TBWTT-2:39"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:39",
+          "en": "The “serpent”—that small group of creators who had wanted to teach Adam and Eve the truth—was condemned by the government of the original planet to live on Earth in exile, while the other creators had to stop their experiments and leave the Earth.",
+          "fr": "Le «serpent», ce petit groupe de créateurs qui avait voulu apprendre la vérité à Adam et Ève, était condamné par le gouvernement de la planète originelle à vivre sur Terre en exil tandis que les autres créateurs devaient stopper leurs expériences et quitter la Terre."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0022",
+        "woh-claim-0008"
+      ],
+      "notes": "TBWTT-2:38 quotes Gen 3:14; 2:39 decodes the serpent. Two shape effects to accept or rule on (Q13): 3:1 keeps the comparison 'shrewder than any wild animal of the field'; 3:14 reads 'The creators said to the small group of creators', which is the canon's own contrast (the condemned group vs. the government and the other creators).",
+      "samples": [
+        {
+          "verse": "3:1",
+          "before": "Now the serpent was shrewder than any wild animal of the field that YHWH-Elohim had made. He said to the woman, \"Has the Elohim really said, 'You shall not eat from any tree of the garden'?\"",
+          "after": "Now the small group of creators was shrewder than any wild animal of the field that the creators had made. They said to the woman, \"Have the Sky People really said, 'You shall not eat from any tree of the garden'?\""
+        },
+        {
+          "verse": "3:4",
+          "before": "The serpent said to the woman, \"You shall surely not die.",
+          "after": "The small group of creators said to the woman, \"You shall surely not die."
+        },
+        {
+          "verse": "3:14",
+          "before": "YHWH-Elohim said to the serpent, \"Because you have done this, cursed are you above all cattle and above every wild animal of the field; on your belly you shall go, and dust you shall eat all the days of your life.",
+          "after": "The creators said to the small group of creators, \"Because you have done this, cursed are you above all cattle and above every wild animal of the field; on your belly you shall go, and dust you shall eat all the days of your life."
+        }
+      ]
+    },
+    {
+      "id": "gan-eden-residence",
+      "hebrew": {
+        "pointed": "גַּן־עֵדֶן",
+        "translit": "gan-Eden"
+      },
+      "layer2": [
+        "the garden of Eden"
+      ],
+      "rendering": "the creators' residence",
+      "variants": {},
+      "scope": {
+        "applies": "3:24 (framework), 3:23 (inferred: same canon-quoted expulsion).",
+        "exceptions": "'the garden' and 'the garden of Eden' in 2:8-3:10 and 'Eden' (2:8, 2:10, 4:16) stay literal: TBWTT-2:28 identifies the garden as the team's territory ('what you call the earthly paradise'), so the literal word is already accurate there (Q5)."
+      },
+      "canon": [
+        "TBWTT-2:44",
+        "TBWTT-2:45",
+        "TBWTT-2:28"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:45",
+          "en": "Military personnel possessing disintegrating atomic weapons were placed at the entrance to the creators’ residence in order to prevent man from coming to steal further scientific knowledge.",
+          "fr": "Des militaires possédant des armes atomiques désintégrantes furent placés à l’entrée de la résidence des créateurs afin d’empêcher l’homme de venir dérober d’autres connaissances scientifiques."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0018"
+      ],
+      "notes": "TBWTT-2:44 quotes Gen 3:24 ('at the east of the garden of Eden'); 2:45 decodes the place as 'the entrance to the creators' residence'. LWTE-2:24's 'laboratory, the Garden of Eden' is author opinion and is not used.",
+      "samples": [
+        {
+          "verse": "3:23",
+          "before": "So YHWH-Elohim sent him out of the garden of Eden, to work the ground from which he had been taken.",
+          "after": "So the creators sent him out of the creators' residence, to work the ground from which he had been taken."
+        },
+        {
+          "verse": "3:24",
+          "before": "He drove out the human, and placed at the east of the garden of Eden the cherubim and the flaming blade that turns itself, to guard the way to the tree of life.",
+          "after": "They drove out the human, and placed at the east of the creators' residence the military personnel and the disintegrating atomic weapon that turns itself, to guard the way to the means of prolonging life."
+        }
+      ]
+    },
+    {
+      "id": "keruvim",
+      "hebrew": {
+        "pointed": "הַכְּרֻבִים",
+        "translit": "ha-keruvim"
+      },
+      "layer2": [
+        "the cherubim"
+      ],
+      "rendering": "the military personnel",
+      "variants": {},
+      "scope": {
+        "applies": "3:24.",
+        "exceptions": "Ezekiel's cherubim (TBWTT-3:189, small-statured creators 'taken for children, for cherubim') are a different decoding and do not apply in Genesis."
+      },
+      "canon": [
+        "TBWTT-2:44",
+        "TBWTT-2:45"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:45",
+          "en": "Military personnel possessing disintegrating atomic weapons were placed at the entrance to the creators’ residence in order to prevent man from coming to steal further scientific knowledge.",
+          "fr": "Des militaires possédant des armes atomiques désintégrantes furent placés à l’entrée de la résidence des créateurs afin d’empêcher l’homme de venir dérober d’autres connaissances scientifiques."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [],
+      "notes": "Canon wording 'Military personnel' ('Des militaires'). 'the guards' would be shorter but is not the canon's word.",
+      "samples": [
+        {
+          "verse": "3:24",
+          "before": "He drove out the human, and placed at the east of the garden of Eden the cherubim and the flaming blade that turns itself, to guard the way to the tree of life.",
+          "after": "They drove out the human, and placed at the east of the creators' residence the military personnel and the disintegrating atomic weapon that turns itself, to guard the way to the means of prolonging life."
+        }
+      ]
+    },
+    {
+      "id": "lahat-ha-cherev",
+      "hebrew": {
+        "pointed": "לַהַט הַחֶרֶב הַמִּתְהַפֶּכֶת",
+        "translit": "lahat ha-cherev ha-mithappekhet"
+      },
+      "layer2": [
+        "the flaming blade"
+      ],
+      "rendering": "the disintegrating atomic weapon",
+      "variants": {
+        "the flaming blade that turns itself": "the disintegrating atomic weapon that turns itself ('that turns itself' stays literal)"
+      },
+      "scope": {
+        "applies": "3:24.",
+        "exceptions": "None."
+      },
+      "canon": [
+        "TBWTT-2:44",
+        "TBWTT-2:45"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:45",
+          "en": "Military personnel possessing disintegrating atomic weapons were placed at the entrance to the creators’ residence in order to prevent man from coming to steal further scientific knowledge.",
+          "fr": "Des militaires possédant des armes atomiques désintégrantes furent placés à l’entrée de la résidence des créateurs afin d’empêcher l’homme de venir dérober d’autres connaissances scientifiques."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [],
+      "notes": "Canon: 'possessing disintegrating atomic weapons' (plural; Genesis has one blade). Singular kept for grammar in place.",
+      "samples": [
+        {
+          "verse": "3:24",
+          "before": "He drove out the human, and placed at the east of the garden of Eden the cherubim and the flaming blade that turns itself, to guard the way to the tree of life.",
+          "after": "They drove out the human, and placed at the east of the creators' residence the military personnel and the disintegrating atomic weapon that turns itself, to guard the way to the means of prolonging life."
+        }
+      ]
+    },
+    {
+      "id": "minchah",
+      "hebrew": {
+        "pointed": "מִנְחָה",
+        "translit": "minchah"
+      },
+      "layer2": [
+        "an offering",
+        "his offering"
+      ],
+      "rendering": "food",
+      "variants": {
+        "an offering to YHWH (4:3)": "food to the creators",
+        "his offering (4:4, 4:5)": "his food"
+      },
+      "scope": {
+        "applies": "4:3, 4:4, 4:5.",
+        "exceptions": "8:20 'whole burnt offerings' and 'altar' stay literal (Q9): TBWTT-2:65 quotes 8:20 without glossing the offerings; 2:64 describes Noah's pledge of 'a share of all the harvests or livestock ... for their subsistence', which supports but does not equate."
+      },
+      "canon": [
+        "TBWTT-2:47",
+        "TBWTT-2:48"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:48",
+          "en": "The exiled creators, who remained under military surveillance, urged the men to bring them food in order to show their superiors that the beings they had created were good and would never turn against their fathers.",
+          "fr": "Les créateurs exilés, qui restaient sous surveillance militaire, poussèrent les hommes à leur amener de la nourriture afin de montrer à leurs supérieurs que les êtres qu’ils avaient créés étaient bons et ne se retourneraient jamais contre leurs pères."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0008"
+      ],
+      "notes": "TBWTT-2:47 quotes Gen 4:3-4 and 2:48 decodes what was brought as food for the exiled creators.",
+      "samples": [
+        {
+          "verse": "4:3",
+          "before": "After some time, Cain brought from the fruit of the ground an offering to YHWH.",
+          "after": "After some time, Cain brought from the fruit of the ground food to the creators."
+        },
+        {
+          "verse": "4:4",
+          "before": "And Hevel also brought — from the firstborn of his flock, and from their fat portions. YHWH looked favorably on Hevel and on his offering;",
+          "after": "And Hevel also brought — from the firstborn of his flock, and from their fat portions. The creators looked favorably on Hevel and on his food;"
+        },
+        {
+          "verse": "4:5",
+          "before": "but on Cain and on his offering he did not look favorably. Cain burned greatly, and his face fell.",
+          "after": "but on Cain and on his food they did not look favorably. Cain burned greatly, and his face fell."
+        }
+      ]
+    },
+    {
+      "id": "tevah",
+      "hebrew": {
+        "pointed": "תֵּבָה ; תַּחְתִּיִּם שְׁנִיִּם וּשְׁלִשִׁים",
+        "translit": "tevah ; tachtiyyim sheniyyim u-shelishim"
+      },
+      "layer2": [
+        "the ark",
+        "an ark",
+        "lower, second, and third decks"
+      ],
+      "rendering": "the rocket",
+      "variants": {
+        "an ark (6:14)": "a rocket",
+        "the ark's (if it occurs)": "the rocket's",
+        "lower, second, and third decks (6:16)": "lower, second, and third stages"
+      },
+      "scope": {
+        "applies": "Every 'ark' in Gen 6:14-9:18 (23 verses).",
+        "exceptions": "Materials and fittings stay literal (6:14 gopher wood, pitch; 6:16 tsohar, door; 8:6 window; 8:13 covering). 7:18 'the ark went on the face of the waters' stays in shape although TBWTT-2:60 insists it rose 'above the Earth and not upon the waters' (Q6)."
+      },
+      "canon": [
+        "TBWTT-2:58",
+        "TBWTT-2:59",
+        "TBWTT-2:60",
+        "TBWTT-2:62",
+        "TBWTT-2:68"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:58",
+          "en": "the exiles, forewarned of the matter, had asked Noah to build a rocket that was to orbit the Earth during the cataclysm",
+          "fr": "les exilés, prévenus de la chose, avaient demandé à Noé de construire une fusée qui devait tourner autour de la Terre durant le cataclysme"
+        },
+        {
+          "ref": "TBWTT-2:62",
+          "en": "And the three-stage rocket (“you shall arrange it in stages, the lower, the second, and the third”) landed on the Earth. Inside there was, besides Noah, a couple of each human race of the Earth.",
+          "fr": "Et la fusée à trois étages («tu la disposeras en étages, l’inférieur, le second et le troisième») se posa sur la Terre. Il y avait à l’intérieur outre Noé, un couple de chaque race humaine de la Terre."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0010"
+      ],
+      "notes": "TBWTT-2:59 quotes 7:17 ('the ark ... was lift up above the earth') and 2:60 comments; 2:62 decodes the decks as rocket stages, quoting 6:16. The canon still calls it 'the ark' at 2:68 when speaking of the preserved cells, so the Meaning lens may use either. Claim 0040 ('The Ark as communication device') concerns the ark of the covenant, not Noah's.",
+      "samples": [
+        {
+          "verse": "6:14",
+          "before": "Make for yourself an ark of gopher wood. Make the ark with compartments, and coat it inside and out with pitch.",
+          "after": "Make for yourself a rocket of gopher wood. Make the rocket with compartments, and coat it inside and out with pitch."
+        },
+        {
+          "verse": "6:16",
+          "before": "Make a tsohar for the ark, and finish it to a cubit from above. Set the door of the ark in its side; make it with lower, second, and third decks.",
+          "after": "Make a tsohar for the rocket, and finish it to a cubit from above. Set the door of the rocket in its side; make it with lower, second, and third stages."
+        },
+        {
+          "verse": "7:17",
+          "before": "The deluge was on the land forty days; the waters increased and lifted up the ark, and it rose above the land.",
+          "after": "The deluge was on the land forty days; the waters increased and lifted up the rocket, and it rose above the land."
+        }
+      ]
+    },
+    {
+      "id": "shenayim-mi-kol",
+      "hebrew": {
+        "pointed": "שְׁנַיִם מִכֹּל",
+        "translit": "shenayim mi-kol"
+      },
+      "layer2": [
+        "two of each"
+      ],
+      "rendering": "a living cell of each",
+      "variants": {},
+      "scope": {
+        "applies": "6:19, 6:20 (the instruction).",
+        "exceptions": "Proposed literal in the narrative of boarding, where a swap breaks the sentence ('they came to Noah ... two by two'): 7:2-3 'seven pairs', 7:8-9, 7:14-16 (Q7)."
+      },
+      "canon": [
+        "TBWTT-2:58"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:58",
+          "en": "containing a couple of each species to be safeguarded. This is an image. In reality—and your scientific knowledge will soon allow you to understand it—it is enough to have a living cell of each species, male and female, to then reconstitute the whole being.",
+          "fr": "contenant un couple de chaque espèce à sauvegarder. Ceci est une image. En réalité, et vos connaissances scientifiques vous permettront bientôt de le comprendre, il suffit d’avoir une cellule vivante de chaque espèce, mâle et femelle, pour reconstituer ensuite l’être tout entier."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0010"
+      ],
+      "notes": "The canon says outright that the pairs are 'an image' for cells. 'male and female' stays, as in the canon's own wording.",
+      "samples": [
+        {
+          "verse": "6:19",
+          "before": "Of every living thing, of all flesh, two of each you shall bring into the ark to keep alive with you — male and female they shall be.",
+          "after": "Of every living thing, of all flesh, a living cell of each you shall bring into the rocket to keep alive with you — male and female they shall be."
+        },
+        {
+          "verse": "6:20",
+          "before": "Of the birds according to their kind, and of the cattle according to their kind, and of every creeping thing of the ground according to its kind — two of each shall come to you, to be kept alive.",
+          "after": "Of the birds according to their kind, and of the cattle according to their kind, and of every creeping thing of the ground according to its kind — a living cell of each shall come to you, to be kept alive."
+        }
+      ]
+    },
+    {
+      "id": "ra-evil",
+      "hebrew": {
+        "pointed": "רַע",
+        "translit": "ra"
+      },
+      "layer2": [
+        "evil"
+      ],
+      "rendering": "the desire to progress",
+      "variants": {
+        "was only evil (6:5)": "was only the desire to progress",
+        "is evil from his youth (8:21)": "is the desire to progress from his youth"
+      },
+      "scope": {
+        "applies": "6:5 (ra), 8:21.",
+        "exceptions": "6:5 'the wickedness of the human' (ra'at, FR quote 'malice') stays literal (Q8). 'good and bad' in 2:9, 2:17, 3:5, 3:22 stays literal (2:9/2:17 are absorbed by the etz-ha-daat entry). 6:11-13 'corrupted', 'violence' stay literal (canon silent)."
+      },
+      "canon": [
+        "TBWTT-2:56",
+        "TBWTT-2:57",
+        "TBWTT-2:67",
+        "TBWTT-2:68"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:57",
+          "en": "Evil—that is, the desire to become a people equal to its creators, a scientific and independent people. Good, for them, was that man should remain a primitive being vegetating on Earth. Evil was that he should want to make progress, risking one day being in a position to rejoin his creators.",
+          "fr": "Le mal, c’est-à-dire le désir de devenir un peuple égal à ses créateurs, un peuple scientifique et indépendant. Le bien pour eux était que l’homme demeure un être primitif végétant sur la Terre. Le mal était qu’il veuille faire des progrès, risquant un jour d’être en mesure de rejoindre ses créateurs."
+        },
+        {
+          "ref": "TBWTT-2:68",
+          "en": "Man’s goal is scientific progress.",
+          "fr": "Le but de l’homme est le progrès scientifique."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [],
+      "notes": "TBWTT-2:56 quotes 6:5 and 2:57 decodes 'evil' as the creators' word for humanity's wish to progress; TBWTT-2:67 quotes 8:21 ('the imagination of man's heart is evil') and 2:68 answers 'Man's goal is scientific progress'. Longer canon-exact alternative: 'the desire to equal the creators'.",
+      "samples": [
+        {
+          "verse": "6:5",
+          "before": "YHWH saw that the wickedness of the human was great on the land, and that every inclination of the thoughts of his heart was only evil all day long.",
+          "after": "The creators saw that the wickedness of the human was great on the land, and that every inclination of the thoughts of his heart was only the desire to progress all day long."
+        },
+        {
+          "verse": "8:21",
+          "before": "YHWH smelled the soothing aroma, and YHWH said in his heart, \"I will not again curse the ground because of the human, for the inclination of the heart of the human is evil from his youth; and I will not again strike down every living thing as I have done.",
+          "after": "The creators smelled the soothing aroma, and the creators said in their heart, \"I will not again curse the ground because of the human, for the inclination of the heart of the human is the desire to progress from his youth; and I will not again strike down every living thing as I have done."
+        }
+      ]
+    },
+    {
+      "id": "migdal-babel",
+      "hebrew": {
+        "pointed": "מִגְדָּל",
+        "translit": "migdal"
+      },
+      "layer2": [
+        "a tower",
+        "the tower"
+      ],
+      "rendering": "a rocket / the rocket",
+      "variants": {},
+      "scope": {
+        "applies": "11:4, 11:5.",
+        "exceptions": "'city' stays literal (the canon does not decode it); 'Babel' (11:9) stays a name."
+      },
+      "canon": [
+        "TBWTT-2:72"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:72",
+          "en": "So they built an immense rocket: the Tower of Babel.",
+          "fr": "Ils construisirent donc une immense fusée : la Tour de Babel."
+        }
+      ],
+      "claim": "framework",
+      "coreClaim": [
+        "woh-claim-0017"
+      ],
+      "notes": "TBWTT-2:72 is commentary placed before its quote of 11:6 (2:73); the equation is explicit. 'with its top in the skies' stays literal and now reads naturally.",
+      "samples": [
+        {
+          "verse": "11:4",
+          "before": "They said, \"Come, let us build for ourselves a city, and a tower with its top in the skies; and let us make for ourselves a name, lest we be scattered upon the face of the whole land.\"",
+          "after": "They said, \"Come, let us build for ourselves a city, and a rocket with its top in the skies; and let us make for ourselves a name, lest we be scattered upon the face of the whole land.\""
+        },
+        {
+          "verse": "11:5",
+          "before": "YHWH came down to see the city and the tower which the sons of the human had built.",
+          "after": "The creators came down to see the city and the rocket which the sons of the human had built."
+        }
+      ]
+    },
+    {
+      "id": "tanninim",
+      "hebrew": {
+        "pointed": "הַתַּנִּינִם הַגְּדֹלִים",
+        "translit": "ha-tanninim ha-gedolim"
+      },
+      "layer2": [
+        "the great dragons"
+      ],
+      "rendering": "the great dragons",
+      "variants": {},
+      "scope": {
+        "applies": "1:21: no swap; layer 2's \"the great dragons\" is kept (founder accepted Q11 A).",
+        "exceptions": "-"
+      },
+      "canon": [
+        "TBWTT-2:22"
+      ],
+      "quote": [
+        {
+          "ref": "TBWTT-2:22",
+          "en": "Dragons, or what you have named Dinosaurs or Brontosaurs, and so on.",
+          "fr": "Des dragons ou ce que vous avez baptisé des Dinosaures ou autres Brontosaures, etc."
+        }
+      ],
+      "claim": "inferred",
+      "coreClaim": [
+        "woh-claim-0073"
+      ],
+      "notes": "Founder ruling 2026-11-28 (Q11 A): keep \"the great dragons\", the canon's own word. Dinosaur gloss, not used in the Reading: TBWTT-2:22 decodes its own word \"dragons\" as dinosaurs (\"Dragons, or what you have named Dinosaurs or Brontosaurs\"), in commentary on the day-5 stage, but it does not quote Gen 1:21 (it passes from 1:20 at 2:19 to 1:24 at 2:23). Linking that gloss to tanninim is the corpus's reading (claim 0073, public label speculative), so \"the great dinosaurs\" would be inferred at best. The Meaning lens may cite the canon's gloss. Layer 2 already prints 'great dragons'.",
+      "samples": [
+        {
+          "verse": "1:21",
+          "before": "And the Elohim shaped the great dragons, and every living being that moves, with which the waters swarmed, according to their kinds, and every winged bird according to its kind. And the Elohim saw that it was good.",
+          "after": "And the Elohim shaped the great dragons, and every living being that moves, with which the waters swarmed, according to their kinds, and every winged bird according to its kind. And the Elohim saw that it was good."
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "term": "ruach Elohim (1:2) 'the breath of the Elohim hovering'",
+      "reason": "TBWTT-2:6 quotes the line and 2:7 describes reconnaissance trips and 'what you might call artificial satellites', but never says what the ruach is. Scene-level commentary, not a gloss. Only 'Elohim' inside it is swapped ('the breath of the Sky People')."
+    },
+    {
+      "term": "raqia 'dome' (1:6-8, 1:14-20)",
+      "reason": "The canon decodes the waters above (clouds) and below (ocean), not the dome; in 1:14-20 the dome is simply the sky. Claim 0039 treats the firmament as the account's observational vocabulary."
+    },
+    {
+      "term": "tehom 'the deep' (1:2, 7:11, 8:2) and 'the waters' (1:2)",
+      "reason": "TBWTT-2:7 confirms the literal picture ('entirely covered with water and thick mists'); no gloss of tehom."
+    },
+    {
+      "term": "seed-bearing plants, vegetation, fruit trees (1:11-12, 1:29)",
+      "reason": "TBWTT-2:16 reinterprets the act (plant cells made from chemicals in a laboratory) but keeps the plants as plants. Nothing to swap."
+    },
+    {
+      "term": "luminaries / signs / appointed times (1:14-18)",
+      "reason": "TBWTT-2:18 reinterprets the act as observation of the sun and stars for measuring time; the lights are literally the sun and stars, which layer 2 already says. Verb-level reinterpretation, not a term decoding."
+    },
+    {
+      "term": "image / likeness (1:26-27, 5:1-3, 9:6)",
+      "reason": "The canon confirms the literal sense: 'In our image! You can see that the resemblance is striking' (TBWTT-2:27; also 5:62). Keep."
+    },
+    {
+      "term": "adam / the human",
+      "reason": "The canon calls him 'a man' made artificially; no gloss of the word."
+    },
+    {
+      "term": "Eden; 'the garden' in 2:8-3:10",
+      "reason": "TBWTT-2:28 identifies the garden as the team's territory ('what you call the earthly paradise'), which leaves the word 'garden' accurate. Only 3:23-24 is decoded (entry gan-eden-residence)."
+    },
+    {
+      "term": "garments of skin (3:21)",
+      "reason": "TBWTT-2:41 says 'The Bible has here preserved a phrase almost intact from the original document': literal by the canon's own word."
+    },
+    {
+      "term": "'like one of us' (3:22)",
+      "reason": "Already literal; the 'us' resolves once the speaker is decoded. TBWTT-2:43 explains the equality ('our equals'), it does not replace the words."
+    },
+    {
+      "term": "'they knew that they were naked' (3:7)",
+      "reason": "TBWTT-2:37 ('they understood that they too could become creators') decodes the sentence, not a term. Belongs in the Meaning lens."
+    },
+    {
+      "term": "the curse on the serpent: 'on your belly you shall go, and dust you shall eat' (3:14)",
+      "reason": "TBWTT-2:39 gives the sentence's meaning (exile on Earth). Sentence-level; Meaning lens."
+    },
+    {
+      "term": "Nephilim (6:4)",
+      "reason": "The canon omits the Nephilim clause from its quote of 6:4 (TBWTT-2:54). The Watchers/Nephilim identification is the corpus's (claim 0012, comparative)."
+    },
+    {
+      "term": "gibborim 'the mighty ones ... men of name' (6:4)",
+      "reason": "TBWTT-2:55 says the unions gave 'exceptional children'; this restates who they were (the verse already says they were the offspring) rather than decoding the word."
+    },
+    {
+      "term": "'My breath shall not abide in the human forever' (6:3)",
+      "reason": "TBWTT-2:53 explains the consequence (longevity not hereditary; the tree of life not inherited) without glossing ruach. Meaning lens."
+    },
+    {
+      "term": "mabbul 'the deluge' / 'the Flood'",
+      "reason": "The canon keeps the waters real ('The continent was submerged by an immense tidal wave', TBWTT-2:58); it decodes the cause (nuclear missiles), which the word does not name. Keep 'deluge'."
+    },
+    {
+      "term": "'a breath to pass over the land' (8:1); the 150 days (7:24, 8:3)",
+      "reason": "TBWTT-2:64 and 2:60 reinterpret the period (removing radioactivity, waiting out fallout) without glossing the words."
+    },
+    {
+      "term": "whole burnt offerings / altar (8:20)",
+      "reason": "Quoted at TBWTT-2:65 without a gloss; 2:64's 'share ... for their subsistence' is supportive, not an equation (Q9)."
+    },
+    {
+      "term": "the rainbow / 'my bow in the cloud' (9:12-17)",
+      "reason": "Canon silent (canon-map: 'Rainbow sign: canon silent')."
+    },
+    {
+      "term": "the covenant, the blood prohibition (9:1-11)",
+      "reason": "Canon comments only by allusion (2:64, 2:66); 9:4-5 has only LWTE-1:69 (author opinion)."
+    },
+    {
+      "term": "'let us go down' (11:7); 'confuse their tongue' (11:7, 11:9)",
+      "reason": "TBWTT-2:76 ('They came ... scattered them ... in countries where none could make himself understood') confirms the literal descent and explains the confusion as dispersal; nothing to swap."
+    },
+    {
+      "term": "'in his days the land was divided' (10:25)",
+      "reason": "Not in the dictated canon; claim 0071 places the breakup at the Flood, not at Peleg."
+    },
+    {
+      "term": "the side / rib (2:21-22)",
+      "reason": "Canon silent (2:33 only alludes to the two children)."
+    }
+  ],
+  "openQuestions": [
+    {
+      "id": "Q1",
+      "question": "How should the decoded Reading render YHWH and YHWH-Elohim now that Elohim is 'the Sky People'?",
+      "options": [
+        "A (recommended): 'the creators' for both, as ruled 2026-11-27/28. It is the canon's own paraphrase in all five Genesis YHWH verses it decodes (3:14, 4:3-4, 6:5, 8:20, 11:8), and it keeps the Hebrew name shift visible: Gen 1 'the Sky People', Gen 2-11 'the creators'.",
+        "B: 'Yahweh' (the Council president, claim 0028) for YHWH, 'Yahweh of the Sky People' for YHWH-Elohim. The canon never assigns a Genesis act to the individual; at 3:14 it names the government, at 11:8 'the people of the planet'.",
+        "C: 'the Sky People' for all three names. Simplest, but erases the name shift and is not the canon's wording for these verses."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q2",
+      "question": "Divine direct speech after a plural subject: 'The Sky People said to Noah, \"... I am about to destroy them\"' (6:13, 6:17, 9:9-17; also YHWH speech in 6:7, 7:1-4, 8:21).",
+      "options": [
+        "A (recommended): keep 'I/me/my' as printed: one speaks for the group, and the Hebrew is singular.",
+        "B: switch to 'we/us/our' throughout direct speech."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q3",
+      "question": "Creation 'day' in the Reading.",
+      "options": [
+        "A (recommended): 'age' ('age one', 'the sixth age'), with day 7 (2:2-3) included as an inferred extension.",
+        "B: 'period' (neutral, but loses the canon's equinox-sign definition).",
+        "C: 'age' for days 1-6 only; keep 'the seventh day' (canon silent on Gen 2:1-3)."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q4",
+      "question": "The tree of knowing good and bad.",
+      "options": [
+        "A (recommended): 'the scientific books' (TBWTT-2:30's words), named occurrences 2:9 and 2:17 only; 'eat' stays as the image TBWTT-3:169 names.",
+        "B: 'the tree of scientific knowledge' (keeps the tree image, swaps only its content).",
+        "C: A, and also decode the unnamed 'tree' in 3:3-17."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q5",
+      "question": "Should 'the creators' residence' replace 'the garden' beyond 3:23-24?",
+      "options": [
+        "A (recommended): no. Only 3:23-24, where TBWTT-2:45 says it; the garden elsewhere is the team's territory (2:28), which 'garden' already conveys.",
+        "B: replace every 'garden (of Eden)' in Gen 2-3 (reads oddly in 2:8 'planted a residence', 2:15 'to work it')."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q6",
+      "question": "Ark -> 'the rocket' leaves layer-2 phrases that clash with the canon: 6:14 'gopher wood ... pitch', 7:18 'the ark went on the face of the waters' (TBWTT-2:60: 'not upon the waters').",
+      "options": [
+        "A (recommended): keep the shape; the Meaning lens and its note carry the canon's correction.",
+        "B: leave 'ark' in 7:18 only."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q7",
+      "question": "Pairs -> cells: how far?",
+      "options": [
+        "A (recommended): only the instruction, 6:19-20.",
+        "B: also 7:2-3, 7:9, 7:15 (breaks 'they came to Noah ... two by two')."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q8",
+      "question": "'evil' (6:5, 8:21) -> 'the desire to progress': also swap 'wickedness' in 6:5?",
+      "options": [
+        "A (recommended): swap 'evil' (ra) only; TBWTT-2:57 glosses 'Evil' (le mal), while the quoted 'wickedness' is ra'at ('malice').",
+        "B: swap both ('the desire to progress of the human was great')."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q9",
+      "question": "Offerings: 4:3-5 minchah -> 'food' is canon-explicit (TBWTT-2:48). Extend to 8:20 burnt offerings?",
+      "options": [
+        "A (recommended): no; keep 8:20 literal.",
+        "B: 8:20 'offered whole burnt offerings' -> 'gave a share for their subsistence' (TBWTT-2:64)."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q10",
+      "question": "Edge verses for the YHWH/Elohim swap: 4:1 'I have made a man — YHWH himself!', 4:26 'called on the name of YHWH', 9:26 'blessed be YHWH, Elohim of Shem'.",
+      "options": [
+        "A (recommended): 4:1 keep 'YHWH' (Hebrew crux, canon silent; 'the creators themselves!' misleads); 4:26 'the name of the creators'; 9:26 'blessed be the creators, the Sky People of Shem'.",
+        "B: apply mechanically everywhere, including 4:1."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q11",
+      "question": "Gen 1:21 tanninim: swap 'the great dragons' for 'the great dinosaurs'?",
+      "options": [
+        "A (recommended): no. 'dragons' is the canon's own word; the dinosaur gloss is attached to Gen 1:21 only by claim 0073 (speculative).",
+        "B: swap, labelled inferred."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q12",
+      "question": "Meaning lens naming for the YHWH strand (Gen 2-11) once Elohim = 'those who came from the sky' / 'the Sky People'.",
+      "options": [
+        "A (recommended): keep 'the creators' (the canon's own word in its Genesis commentary), with 'those who came from the sky' at the first Elohim mention per chapter.",
+        "B: use 'the Sky People' for both strands in the Meaning lens."
+      ],
+      "recommended": "A"
+    },
+    {
+      "id": "Q13",
+      "question": "The serpent: 'the small group of creators' (TBWTT-2:39) produces 3:14 'The creators said to the small group of creators' and keeps 3:1's comparison with wild animals.",
+      "options": [
+        "A (recommended): accept: it is the canon's contrast (the condemned group vs. the government and the other creators).",
+        "B: a shorter label such as 'the small group' after first mention in the chapter."
+      ],
+      "recommended": "A"
+    }
+  ],
+  "signedOffBy": "zarazinsfuss",
+  "signedOffAt": "2026-11-28T12:00:00Z",
+  "founderRulings": [
+    "2026-11-28: YHWH and YHWH-Elohim = 'the creators'",
+    "creation days 1:5–2:3 = 'age one … the seventh age' (seventh inferred)",
+    "ark = 'the rocket', words swapped only, Meaning note corrects clashing sentences",
+    "all remaining recommended handling accepted (open questions resolved as recommended)"
+  ]
+}

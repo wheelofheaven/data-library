@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "bookSlug": "genesis-woh",
   "chapter": 5,
   "basedOn": {
@@ -9,11 +9,12 @@
   },
   "lens": {
     "track": "lens",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "status": "stable",
     "modelDrafts": [
       "claude-opus-5-5 (lens writer)",
-      "claude-opus-5-5 (lens editor)"
+      "claude-opus-5-5 (lens editor)",
+      "claude-opus-5-5 (decoded reading writer)"
     ],
     "reviewerReport": {
       "reviewer": "claude-opus-5-5 acting as lens reviewer",
@@ -545,11 +546,15 @@
         {
           "at": "2026-11-28T09:00:00Z",
           "ruling": "Signed off (form 2026-11-28): reading 5:1 framework (TBWTT 2:25, 2:27; claim 0001) per reviewer; Enoch speculative segment and Enmeduranki comparison kept; bare YHWH rendered 'the creators'."
+        },
+        {
+          "at": "2026-11-28T15:00:00Z",
+          "ruling": "Forms 5-7 (2026-11-28): lens restructure (3 Reading = decoded translation, 4 Meaning = retellings, passage note folded); decoded Reading signed off (decoding glossary 1.0.0); Meaning aligned with the Reading (creation days = ages in 1:1-2:3, offerings = food in 4:3-5); Elohim naming as applied (Meaning: 'those who came from the sky' at first mention per chapter, then 'the Sky People'; YHWH/YHWH-Elohim 'the creators'). Signed off as 1.1.0."
         }
       ]
     },
     "signedOffBy": "zarazinsfuss",
-    "signedOffAt": "2026-11-28T09:00:00Z",
+    "signedOffAt": "2026-11-28T15:00:00Z",
     "coreClaims": {
       "woh-claim-0001": "0.2.0",
       "woh-claim-0009": "0.1.1",
@@ -567,13 +572,31 @@
         "en": "The Record of Adam’s Line"
       },
       "canonCoverage": "comments",
-      "readings": [
+      "decoded": [
         {
           "refs": [
             "5:1"
           ],
           "text": {
-            "en": "Here begins the written record of Adam’s descendants. It goes back to the day the Elohim made the first humans: they made them in their own likeness, men like themselves."
+            "en": "This is the record of the begettings of Adam. On the day the Sky People shaped Adam, in the likeness of the Sky People they made him."
+          }
+        },
+        {
+          "refs": [
+            "5:2"
+          ],
+          "text": {
+            "en": "Male and female they shaped them. They blessed them, and they called their name Adam on the day they were shaped."
+          }
+        }
+      ],
+      "meaning": [
+        {
+          "refs": [
+            "5:1"
+          ],
+          "text": {
+            "en": "Here begins the written record of Adam’s descendants. It goes back to the day those who came from the sky made the first humans: they made them in their own likeness, men like themselves."
           },
           "basis": "synthesis",
           "claim": "framework",
@@ -594,7 +617,7 @@
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -652,13 +675,55 @@
         "en": "From Adam to Jared"
       },
       "canonCoverage": "comments",
-      "readings": [
+      "decoded": [
         {
           "refs": [
             "5:3"
           ],
           "text": {
-            "en": "At a hundred and thirty Adam fathered a son in his own likeness, after his own image, and named him Seth. The likeness the creators had given Adam passed to his son."
+            "en": "Adam lived one hundred and thirty years, and fathered a son in his own likeness, after his own image, and called his name Shet."
+          }
+        },
+        {
+          "refs": [
+            "5:4-5"
+          ],
+          "text": {
+            "en": "The days of Adam after he fathered Shet were eight hundred years, and he fathered sons and daughters. All the days that Adam lived were nine hundred and thirty years, and he died."
+          }
+        },
+        {
+          "refs": [
+            "5:6-8"
+          ],
+          "text": {
+            "en": "Shet lived one hundred and five years, and fathered Enosh. Shet lived after he fathered Enosh eight hundred and seven years, and fathered sons and daughters. All the days of Shet were nine hundred and twelve years, and he died."
+          }
+        },
+        {
+          "refs": [
+            "5:9-11"
+          ],
+          "text": {
+            "en": "Enosh lived ninety years, and fathered Kenan. Enosh lived after he fathered Kenan eight hundred and fifteen years, and fathered sons and daughters. All the days of Enosh were nine hundred and five years, and he died."
+          }
+        },
+        {
+          "refs": [
+            "5:12-20"
+          ],
+          "text": {
+            "en": "Kenan lived seventy years, and fathered Mahalalel. Kenan lived after he fathered Mahalalel eight hundred and forty years, and fathered sons and daughters. All the days of Kenan were nine hundred and ten years, and he died. Mahalalel lived sixty-five years, and fathered Yered. Mahalalel lived after he fathered Yered eight hundred and thirty years, and fathered sons and daughters. All the days of Mahalalel were eight hundred and ninety-five years, and he died. Yered lived one hundred and sixty-two years, and fathered Chanoch. Yered lived after he fathered Chanoch eight hundred years, and fathered sons and daughters. All the days of Yered were nine hundred and sixty-two years, and he died."
+          }
+        }
+      ],
+      "meaning": [
+        {
+          "refs": [
+            "5:3"
+          ],
+          "text": {
+            "en": "At a hundred and thirty Adam fathered a son in his own likeness, after his own image, and named him Seth. The likeness the Sky People had given Adam passed to his son."
           },
           "basis": "synthesis",
           "claim": "inferred"
@@ -717,7 +782,7 @@
           ]
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -850,13 +915,31 @@
         "en": "Enoch Walked with the Elohim"
       },
       "canonCoverage": "alludes",
-      "readings": [
+      "decoded": [
         {
           "refs": [
             "5:21-23"
           ],
           "text": {
-            "en": "Enoch fathered Methuselah at sixty-five. For three hundred years after that he walked about with the Elohim, living in the creators’ company, and he had other sons and daughters. His days came to three hundred and sixty-five years."
+            "en": "Chanoch lived sixty-five years, and fathered Methushelach. Chanoch walked about with the Sky People after he fathered Methushelach three hundred years, and fathered sons and daughters. All the days of Chanoch were three hundred and sixty-five years."
+          }
+        },
+        {
+          "refs": [
+            "5:24"
+          ],
+          "text": {
+            "en": "Chanoch walked about with the Sky People — and he was not, for the Sky People took him."
+          }
+        }
+      ],
+      "meaning": [
+        {
+          "refs": [
+            "5:21-23"
+          ],
+          "text": {
+            "en": "Enoch fathered Methuselah at sixty-five. For three hundred years after that he walked about with the Sky People, living in the creators’ company, and he had other sons and daughters. His days came to three hundred and sixty-five years."
           },
           "basis": "synthesis",
           "claim": "inferred"
@@ -866,13 +949,13 @@
             "5:24"
           ],
           "text": {
-            "en": "He walked with the Elohim, and then he was no longer there, for the Elohim took him. Unlike the others in the list, he is not said to have died."
+            "en": "He walked with the Sky People, and then he was no longer there, for the Sky People took him. Unlike the others in the list, he is not said to have died."
           },
           "basis": "synthesis",
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {
@@ -927,7 +1010,7 @@
             },
             {
               "text": {
-                "en": "With the Messages’ reading of the Elohim as the creators, verse 24 says that the creators took Enoch, and “walked with the Elohim” describes a man who lived in their company."
+                "en": "With the Messages’ reading of the Elohim as the creators, verse 24 says that the Sky People took Enoch, and “walked with the Elohim” describes a man who lived in their company."
               },
               "claim": "inferred",
               "coreClaim": "woh-claim-0009"
@@ -952,7 +1035,41 @@
         "en": "From Methuselah to Noah"
       },
       "canonCoverage": "alludes",
-      "readings": [
+      "decoded": [
+        {
+          "refs": [
+            "5:25-27"
+          ],
+          "text": {
+            "en": "Methushelach lived one hundred and eighty-seven years, and fathered Lamech. Methushelach lived after he fathered Lamech seven hundred and eighty-two years, and fathered sons and daughters. All the days of Methushelach were nine hundred and sixty-nine years, and he died."
+          }
+        },
+        {
+          "refs": [
+            "5:28-29"
+          ],
+          "text": {
+            "en": "Lamech lived one hundred and eighty-two years, and fathered a son. He called his name Noah, saying, \"This one will comfort us from our work and from the hardship of our hands, from the ground which the creators have cursed.\""
+          }
+        },
+        {
+          "refs": [
+            "5:30-31"
+          ],
+          "text": {
+            "en": "Lamech lived after he fathered Noah five hundred and ninety-five years, and fathered sons and daughters. All the days of Lamech were seven hundred and seventy-seven years, and he died."
+          }
+        },
+        {
+          "refs": [
+            "5:32"
+          ],
+          "text": {
+            "en": "Noah was five hundred years old; and Noah fathered Shem, Ham, and Yafet."
+          }
+        }
+      ],
+      "meaning": [
         {
           "refs": [
             "5:25-27"
@@ -1000,7 +1117,7 @@
           "claim": "inferred"
         }
       ],
-      "explanation": {
+      "note": {
         "paragraphs": [
           [
             {

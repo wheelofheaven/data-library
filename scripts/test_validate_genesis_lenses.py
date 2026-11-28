@@ -70,9 +70,13 @@ def segment(text, claim, canon=None, core=None):
     return s
 
 
+def decoded(text, *refs):
+    return {'refs': list(refs), 'text': {'en': text}}
+
+
 def lens_chapter(digest):
     return {
-        'schemaVersion': 1,
+        'schemaVersion': 2,
         'bookSlug': 'genesis-woh',
         'chapter': 1,
         'basedOn': {'translationVersion': '1.1.0', 'layer2Digest': digest, 'canonMapVersion': '1.0.0'},
@@ -82,16 +86,18 @@ def lens_chapter(digest):
         'passages': [
             {'id': 'gen-1-opening', 'range': ['1:1', '1:1'], 'title': {'en': 'Opening'},
              'canonCoverage': 'quotes',
-             'readings': [dict(segment('The Elohim began to shape the land.', 'framework',
+             'decoded': [],
+             'meaning': [dict(segment('The Elohim began to shape the land.', 'framework',
                                        ['TBWTT-2:2'], 'woh-claim-0009'), refs=['1:1'], basis='canon')],
-             'explanation': {'paragraphs': [[
+             'note': {'paragraphs': [[
                  segment('The Hebrew word is plural in form.', 'direct'),
                  segment('The canon reads it as a people from the sky.', 'framework', ['TBWTT-2:3'])]]}},
             {'id': 'gen-1-light', 'range': ['1:2', '1:3'], 'title': {'en': 'Light'},
              'canonCoverage': 'silent',
-             'readings': [dict(segment('The land lay empty; then light.', 'inferred'),
+             'decoded': [],
+             'meaning': [dict(segment('The land lay empty; then light.', 'inferred'),
                                refs=['1:2-3'], basis='synthesis')],
-             'explanation': {'paragraphs': [[
+             'note': {'paragraphs': [[
                  segment('Raël reads this as a remark on light.', 'inferred',
                          [{'ref': 'LWTE-1:1', 'standing': 'author-opinion'}])]]}},
         ],
@@ -121,7 +127,7 @@ class Fixture:
         self.lens_dir = self.root / 'genesis-woh' / 'lenses'
         self.canon_map = copy.deepcopy(CANON_MAP)
         self.lens = lens_chapter(v.layer2_digest(self.root, 1))
-        self.index = {'schemaVersion': 1, 'bookSlug': 'genesis-woh', 'canonMapVersion': '1.0.0',
+        self.index = {'schemaVersion': 2, 'bookSlug': 'genesis-woh', 'canonMapVersion': '1.0.0',
                       'chapters': [{'chapter': 1, 'file': 'chapter-1.json', 'status': 'draft',
                                     'version': '0.1.0', 'signedOffBy': None, 'signedOffAt': None}]}
 
@@ -189,21 +195,21 @@ class ValidatorTests(unittest.TestCase):
     def test_verse_missing_from_passages_and_readings(self):
         p = self.fx.lens['passages'][1]
         p['range'] = ['1:2', '1:2']
-        p['readings'][0]['refs'] = ['1:2']
+        p['meaning'][0]['refs'] = ['1:2']
         self.assertFails('verse 1:3 is in no passage')
-        self.assertFails('verse 1:3 is in no reading')
+        self.assertFails('verse 1:3 is in no Meaning unit')
 
     def test_overlapping_passages(self):
         self.fx.lens['passages'][1]['range'] = ['1:1', '1:3']
         self.assertFails('already in passage')
 
     def test_verse_in_two_readings(self):
-        self.fx.lens['passages'][1]['readings'].append(
+        self.fx.lens['passages'][1]['meaning'].append(
             dict(segment('Again.', 'inferred'), refs=['1:3'], basis='synthesis'))
-        self.assertFails('already rendered by another reading')
+        self.assertFails('already rendered by another Meaning unit')
 
     def test_reading_outside_passage(self):
-        self.fx.lens['passages'][0]['readings'][0]['refs'] = ['1:1-2']
+        self.fx.lens['passages'][0]['meaning'][0]['refs'] = ['1:1-2']
         self.assertFails('outside the passage range')
 
     def test_canon_coverage_must_match_map(self):
@@ -212,36 +218,36 @@ class ValidatorTests(unittest.TestCase):
 
     # -- canon refs
     def test_unknown_canon_ref(self):
-        self.fx.lens['passages'][0]['explanation']['paragraphs'][0][1]['canon'] = ['TBWTT-2:99']
+        self.fx.lens['passages'][0]['note']['paragraphs'][0][1]['canon'] = ['TBWTT-2:99']
         self.assertFails('does not exist in the canon chapter files')
 
     def test_lwte_needs_author_opinion_label(self):
-        self.fx.lens['passages'][1]['explanation']['paragraphs'][0][0]['canon'] = ['LWTE-1:1']
+        self.fx.lens['passages'][1]['note']['paragraphs'][0][0]['canon'] = ['LWTE-1:1']
         self.assertFails('author-opinion')
 
     def test_lwte_never_sole_basis_of_framework(self):
-        seg = self.fx.lens['passages'][1]['explanation']['paragraphs'][0][0]
+        seg = self.fx.lens['passages'][1]['note']['paragraphs'][0][0]
         seg['claim'] = 'framework'
         seg['coreClaim'] = 'woh-claim-0009'
         self.assertFails('rests only on non-canon refs')
 
     def test_framework_with_canon_plus_lwte_passes(self):
-        seg = self.fx.lens['passages'][0]['explanation']['paragraphs'][0][1]
+        seg = self.fx.lens['passages'][0]['note']['paragraphs'][0][1]
         seg['canon'] = ['TBWTT-2:3', {'ref': 'LWTE-1:1', 'standing': 'author-opinion'}]
         self.assertEqual(self.fx.run().errors, [])
 
     def test_check_standing_must_be_written_out(self):
-        seg = self.fx.lens['passages'][1]['explanation']['paragraphs'][0][0]
+        seg = self.fx.lens['passages'][1]['note']['paragraphs'][0][0]
         seg['canon'] = ['ETTMTTP-3:1']
         self.assertFails("standing is 'check'")
 
     def test_framework_without_any_grounding(self):
-        seg = self.fx.lens['passages'][0]['explanation']['paragraphs'][0][1]
+        seg = self.fx.lens['passages'][0]['note']['paragraphs'][0][1]
         del seg['canon']
         self.assertFails('needs a canon-standing ref or a coreClaim')
 
     def test_canon_basis_needs_mapped_ref(self):
-        self.fx.lens['passages'][0]['readings'][0]['canon'] = ['ETTMTTP-2:1']
+        self.fx.lens['passages'][0]['meaning'][0]['canon'] = ['ETTMTTP-2:1']
         self.assertFails('none of its canon refs is mapped')
 
     # -- core claims
@@ -250,7 +256,7 @@ class ValidatorTests(unittest.TestCase):
         self.assertFails('woh-claim-9999 does not exist in the core catalog')
 
     def test_core_claim_not_pinned_in_lens(self):
-        self.fx.lens['passages'][0]['readings'][0]['coreClaim'] = 'woh-claim-0001'
+        self.fx.lens['passages'][0]['meaning'][0]['coreClaim'] = 'woh-claim-0001'
         self.assertFails('not listed in lens.coreClaims')
 
     def test_core_claim_version_drift_warns(self):
@@ -270,6 +276,21 @@ class ValidatorTests(unittest.TestCase):
         for d in (self.fx.lens['lens'], self.fx.index['chapters'][0]):
             d.update(status='stable', signedOffBy='founder', signedOffAt='2026-12-01')
         self.assertEqual(self.fx.run().errors, [])
+
+    def test_prerelease_version_allowed_before_signoff(self):
+        for d in (self.fx.lens['lens'], self.fx.index['chapters'][0]):
+            d.update(version='1.1.0-rc1', status='editor-review')
+        self.assertEqual(self.fx.run().errors, [])
+
+    def test_prerelease_version_rejected_when_stable(self):
+        for d in (self.fx.lens['lens'], self.fx.index['chapters'][0]):
+            d.update(version='1.1.0-rc1', status='stable', signedOffBy='founder', signedOffAt='2026-12-01')
+        self.assertFails('cannot carry a pre-release tag')
+
+    def test_malformed_version_rejected(self):
+        for d in (self.fx.lens['lens'], self.fx.index['chapters'][0]):
+            d['version'] = '1.1'
+        self.assertFails('lens.version must be semver')
 
     # -- index
     def test_index_must_list_lens_files(self):
@@ -338,12 +359,139 @@ class ValidatorTests(unittest.TestCase):
         self.assertEqual(buf.getvalue().strip(), v.layer2_digest(self.fx.root, 1))
 
 
+class DecodedTests(unittest.TestCase):
+    """Lens 3 (decoded): optional per chapter, complete once started."""
+
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.fx = Fixture(self.tmp.name)
+        p0, p1 = self.fx.lens['passages']
+        p0['decoded'] = [decoded('When the Elohim began to shape the skies and the land—', '1:1')]
+        p1['decoded'] = [decoded('The land was empty.', '1:2'), decoded('Let there be light.', '1:3')]
+
+    def assertFails(self, needle):
+        rep = self.fx.run()
+        joined = '\n'.join(rep.errors)
+        self.assertTrue(any(needle in e for e in rep.errors),
+                        f'expected an error containing {needle!r}; got:\n{joined}')
+
+    def test_full_decoded_chapter_passes(self):
+        rep = self.fx.run()
+        self.assertEqual(rep.errors, [])
+        self.assertEqual(rep.warnings, [])
+
+    def test_empty_decoded_passes(self):
+        for p in self.fx.lens['passages']:
+            p['decoded'] = []
+        self.assertEqual(self.fx.run().errors, [])
+
+    def test_decoded_must_be_present(self):
+        del self.fx.lens['passages'][0]['decoded']
+        self.assertFails('decoded must be present')
+
+    def test_partial_decoded_chapter_fails(self):
+        self.fx.lens['passages'][1]['decoded'] = []
+        self.assertFails('verse 1:2 is in no decoded unit')
+        self.assertFails('verse 1:3 is in no decoded unit')
+
+    def test_decoded_verse_twice(self):
+        self.fx.lens['passages'][1]['decoded'].append(decoded('Again.', '1:3'))
+        self.assertFails('already rendered by another decoded unit')
+
+    def test_decoded_outside_passage(self):
+        self.fx.lens['passages'][0]['decoded'][0]['refs'] = ['1:1-2']
+        self.fx.lens['passages'][1]['decoded'].pop(0)
+        self.assertFails('outside the passage range')
+
+    def test_decoded_bad_ref(self):
+        self.fx.lens['passages'][0]['decoded'][0]['refs'] = ['2:1']
+        self.assertFails('outside chapter 1')
+
+    def test_decoded_needs_text(self):
+        self.fx.lens['passages'][0]['decoded'][0]['text'] = {'en': ' '}
+        self.assertFails('decoded[0] text')
+
+    def test_decoded_rejects_claim_fields(self):
+        self.fx.lens['passages'][0]['decoded'][0]['claim'] = 'framework'
+        self.assertFails('a decoded unit is refs and text only')
+
+    def test_decoded_group_across_cards_warns(self):
+        p1 = self.fx.lens['passages'][1]
+        p1['meaning'] = [dict(segment('The land lay empty.', 'inferred'), refs=['1:2'], basis='synthesis'),
+                         dict(segment('Then light.', 'inferred'), refs=['1:3'], basis='synthesis')]
+        p1['decoded'] = [decoded('The land was empty. Let there be light.', '1:2-3')]
+        rep = self.fx.run()
+        self.assertEqual(rep.errors, [])
+        self.assertTrue(any('another Meaning card' in w for w in rep.warnings))
+
+    def test_v1_names_rejected(self):
+        p0 = self.fx.lens['passages'][0]
+        p0['readings'] = p0.pop('meaning')
+        self.assertFails('"readings" is the schemaVersion 1 name')
+
+    def test_v1_schema_version_rejected(self):
+        self.fx.lens['schemaVersion'] = 1
+        self.assertFails('migrate_genesis_lenses_v2.py')
+
+    def test_glossary_hook_loads(self):
+        gl = self.fx.root / 'decoding-glossary.json'
+        write(gl, {'terms': []})
+        self.fx.run()
+        rep = v.validate(self.fx.root, self.fx.catalog, glossary_path=gl)
+        self.assertEqual(rep.errors, [])
+
+    def test_glossary_hook_unreadable(self):
+        self.fx.run()
+        rep = v.validate(self.fx.root, self.fx.catalog, glossary_path=self.fx.root / 'missing.json')
+        self.assertTrue(any('unreadable decoding glossary' in e for e in rep.errors))
+
+
+class MigrationTests(unittest.TestCase):
+    def test_v1_to_v2_is_lossless_and_ordered(self):
+        import migrate_genesis_lenses_v2 as mig
+        v2 = lens_chapter('sha256:' + '0' * 64)
+        v1 = mig.back_to_v1(v2)
+        self.assertEqual(v1['schemaVersion'], 1)
+        self.assertIn('readings', v1['passages'][0])
+        out, did = mig.migrate_chapter(v1)
+        self.assertTrue(did)
+        self.assertEqual(out, v2)
+        self.assertEqual(list(out['passages'][0])[4:], ['decoded', 'meaning', 'note'])
+        self.assertEqual(mig.back_to_v1(out), v1)
+        again, did = mig.migrate_chapter(out)
+        self.assertFalse(did)
+        self.assertIs(again, out)
+
+    def test_migrate_dir(self):
+        import migrate_genesis_lenses_v2 as mig
+        with tempfile.TemporaryDirectory() as tmp:
+            d = Path(tmp)
+            v1 = mig.back_to_v1(lens_chapter('sha256:' + '0' * 64))
+            write(d / 'chapter-1.json', v1)
+            write(d / '_lenses.json', {'schemaVersion': 1, 'chapters': []})
+            import io
+            from contextlib import redirect_stdout
+            with redirect_stdout(io.StringIO()):
+                self.assertEqual(mig.main(['--dir', str(d)]), 0)
+            got = json.loads((d / 'chapter-1.json').read_text(encoding='utf-8'))
+            self.assertEqual(got['schemaVersion'], 2)
+            self.assertEqual(got['passages'][1]['decoded'], [])
+            self.assertEqual(json.loads((d / '_lenses.json').read_text())['schemaVersion'], 2)
+
+
 class RealDataTests(unittest.TestCase):
     """The committed canon map must validate against the real corpus."""
 
     def test_repository_canon_map(self):
         rep = v.validate(v.ROOT, v.find_catalog(v.ROOT))
         self.assertEqual([e for e in rep.errors if e.startswith('canon-map.json')], [])
+
+    def test_repository_lens_files(self):
+        # Core-catalog errors depend on a sibling core/ checkout; the rest
+        # must be clean on the committed lens files.
+        rep = v.validate(v.ROOT, v.find_catalog(v.ROOT))
+        self.assertEqual([e for e in rep.errors if not e.startswith('core:')], [])
 
 
 if __name__ == '__main__':
